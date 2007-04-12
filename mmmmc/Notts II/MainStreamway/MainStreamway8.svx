@@ -2,9 +2,9 @@
 
 ;Survey Date:	23/05/02
 
-*equate	USW.0	CJ.12
+;*equate	USW.0	CJ.12
 
-*begin	USW
+*begin	MainStreamway8
 *export 0
 *export 10
 *export 17
@@ -43,4 +43,4 @@
 16	17	19.5	147	0
 17	18	12.65	150	0	;End of Lake
 
-*end	USW
+*end	MainStreamway8
