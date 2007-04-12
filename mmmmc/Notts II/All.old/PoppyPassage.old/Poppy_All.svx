@@ -1,0 +1,4 @@
+*begin poppy_all
+*include poppy_all.poppy_all
+
+*end poppy_all

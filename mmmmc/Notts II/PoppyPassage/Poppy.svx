@@ -1,0 +1,25 @@
+*begin Poppy
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+*title "Poppy Passage / Moribund Inlet / Trick or treat"
+*team tape 
+*team pics 
+*team insts 
+*team notes 
+
+*include Poppy1
+*include Poppy2
+*include Poppy3
+
+*equate poppy2.1 poppy3.1
+*equate Poppy2.34 Poppy1.46
+
+
+
+*end Poppy

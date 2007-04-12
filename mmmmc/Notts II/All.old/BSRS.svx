@@ -1,0 +1,25 @@
+
+*begin BSRS
+*export 029
+
+
+*title "Bruno Stranski's Rising Sump"
+      
+*team Insts Dave Ramsay
+*team Notes Dave Ramsay
+*team Tape Richard Bendall
+ 
+*calibrate compass +2.5
+
+;From  to  Tape Compass Clino 
+;Bruno Kranskis sump survey 18/09/06
+ 
+*calibrate compass 0.00
+101	100	02.00	000.0	up 
+102 	101 	04.40 	058.0 	+32.0
+103 	102 	3.10 	077.0 	+07.0
+103 	104 	03.80 	176.0 	-10.0 ;lowest point of roof of ex-sump
+105 	104 	03.20 	017.0 	-35.0
+029 	105 	01.20 	358.0 	-60.0 ;stn029 marked on wall
+
+*end BSRS
