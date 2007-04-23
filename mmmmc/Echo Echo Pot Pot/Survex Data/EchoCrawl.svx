@@ -1,0 +1,29 @@
+*begin	EchoCrawl
+;Cave:	Link Pot
+;Description Echo Crwal - Wrestling Aligator Squeeze
+;Date:	18/04/07
+;Book: Neil Pacey
+;Tape: Johann Fleudy 	
+;Instruments: Paul Swire
+;Set: Neil's Compass / Clino & Tape
+
+
+*export LinkTag
+*export	WAi
+
+;From	To	Tape	Com	Clino	L	R	U	D	Comments
+
+LinkTag	1	0.9	-	UP	;0.9	1.3	1.3	0.4
+1	2	10.70	050	0	;0.9	1.3	0.4	1.3	Stn1
+2	3	10.10	326	+1	;2.3	0	0.7	0.7	Stn2
+3	4	3.10	027	+1	;0	1.1	0.1	0.5	Stn3
+4	5	5.50	352	+2	;0	0.8	0.2	0.5	Stn4
+5	6	5.70	256	-7	;0	0.5	0.1	0.3	Stn5
+6	7	3.05	303	-6	;0	1.0	0.3	0.4	Stn6
+7	8	3.60	256	-3	;0.8	0	0.2	0.2	Stn7
+8	9	4.20	312	-2	;0	0.8	0.2	0.3	Stn8
+9	10	3.50	257	-3	;0.6	0	0	0.4	Stn9
+					;0.4	0.3	0	0.5	Stn10 2-3m short of Wresting Alligators squeeze
+10	WAi	4.00	258	-3	;				Imajinary leg to link up the squeeze	
+
+*end	EchoCrawl
