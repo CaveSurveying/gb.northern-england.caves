@@ -1,0 +1,21 @@
+;Ireby Main Streamway
+
+*begin Streamway
+
+*export Streamway1.022
+*export Streamway1.027
+*export Streamway3.024
+*export Streamway4.001
+*export Streamway4.020
+*export Streamway4.059
+
+*Include Streamway1
+*Include Streamway2
+*Include Streamway3
+*Include Streamway4
+
+*equate	Streamway1.067 Streamway2.001
+*equate	Streamway2.031 Streamway3.001
+*equate	Streamway3.024 Streamway4.001
+
+*end Streamway

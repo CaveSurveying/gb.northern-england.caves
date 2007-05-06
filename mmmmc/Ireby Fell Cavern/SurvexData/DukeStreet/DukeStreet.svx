@@ -1,0 +1,17 @@
+;Duke Street I/Duke Street Digs/Whirlpool
+
+*begin DukeStreet
+
+*export DukeStreet1.059
+*export DukeStreet1.073
+
+*Include DukeStreet1
+*Include DukeStreetDigs
+*Include Whirlpool1
+
+
+*equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
+*equate Whirlpool1.001 DukeStreet1.069		;Start of Whirlpool off Duke Street
+
+
+*end DukeStreet

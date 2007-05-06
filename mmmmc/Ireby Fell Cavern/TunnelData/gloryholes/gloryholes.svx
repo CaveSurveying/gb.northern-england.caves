@@ -23,17 +23,11 @@
 ;*equate	GloryHoles1.001 Streamway1.027
 
 
-;Cave:	Ireby Fell - Glory Holes
-;Surveyors: D.Ramsay, B.Ward. J.Braindead
-;Instruments: D.Ramsay
-;Tape: B.Ward
-;Book: J.Braindead
-;Date:	26/05/04
-;Instruments: RRCPC Kit 4
-;Compass:
-;Clino:
+;Cave:	Ireby Fell - Glory Holes - Left hand branch to True Grit
+;Instruments: P. Swire, Book: N. Pacey, Tape: P. Swire
+;Date:	29/04/2007
+;Instruments:	N.Pacey's Kit 
 
-;*equate GloryHoles2.001 GloryHoles1.005
 
 ;Cave:	Ireby Fell - Glory Holes
 ;Surveyors: N. Pacey, P.Hall
@@ -74,12 +68,12 @@
 
 ;Equate Glory Holes/Cripple Creek Files
 
-*equate GloryHoles2.001 GloryHoles1.005			
+*equate GloryHoles2.1 GloryHoles1.005			
 *equate GloryHoles1.011 GloryHoles3.011
 *equate	GloryHoles3.064 GloryHoles4.064
 *equate	GloryHoles4.001 GloryHoles5.001
 *equate	GloryHoles3.039 GloryHoles6.001
-*equate	TrueGrit.033 GloryHoles2.017
+*equate	TrueGrit.033 GloryHoles2.20
 
 *include gloryholes1/gloryholes1.svx
 *include gloryholes2/gloryholes2.svx

@@ -1,0 +1,27 @@
+;GloryHoles/Cripple Creek/true Grit
+
+*begin GloryHoles
+
+*export gloryholes1.001
+
+;Include Glory Holes/Cripple Creek/True Grit
+
+*include GloryHoles1			;Glory Holes
+*include GloryHoles2			;Cripple Creek
+*include GloryHoles3			;Glory Holes/Cripple Creek
+*include GloryHoles4			;Cripple Creek
+*include GloryHoles5			;Cripple Creek
+*include GloryHoles6			;Cripple Creek
+*include TrueGrit			;True Grit
+
+
+;Equate Glory Holes/Cripple Creek Files
+
+*equate GloryHoles2.1 GloryHoles1.005			
+*equate GloryHoles1.011 GloryHoles3.011
+*equate	GloryHoles3.064 GloryHoles4.064
+*equate	GloryHoles4.001 GloryHoles5.001
+*equate	GloryHoles3.039 GloryHoles6.001
+*equate	TrueGrit.033 GloryHoles2.20
+
+*end GloryHoles
