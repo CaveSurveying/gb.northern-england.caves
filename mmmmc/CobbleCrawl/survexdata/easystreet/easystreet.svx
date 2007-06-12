@@ -1,0 +1,62 @@
+*begin easystreet
+*export	130A
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+;Cave:	Link Pot - Easy Street
+;Description:	downstream from Cobble crawl jnct to Sump
+;Date:07/03/04
+;Surveyors:S.Lieberman/P.Swire/J.Baker
+;Instruments: RRCPC Kit 5 & PAG
+
+
+
+*calibrate compass	+5.00
+*calibrate clino	-1.00
+*calibrate tape		 0.00
+
+;From	To	Tape	Compass	Clino		L	R	U	D	Comments
+
+
+;from
+100	100x	09.00	255.0	-01.0	;st100x is end of airspace in sump
+100	101	07.92	065.0	+03.0	;st100=start of sump line
+101	102	15.11	010.0	+00.5
+102	103	09.87	062.0	-02.0
+103	104	06.83	158.0	+01.0
+104	105	05.88	101.0	+04.0
+105	106	10.00	028.0	-01.0
+106	107	15.86	113.0	+03.0
+107	108	05.33	100.0	 00.0
+108	109	05.29	111.0	+02.0
+109	110	02.68	135.0	 00.0
+110	111	07.72	081.0	+01.5
+111	112	08.25	103.0	+01.0
+112	113	07.61	172.0	+11.0
+113	114	08.09	134.0	+01.0
+114	115	11.89	128.0	-07.0
+115	116	11.37	129.0	+04.0
+116	117	09.36	050.0	+10.0
+117	118	04.88	049.0	-21.0
+118	119	07.33	075.0	 00.0
+119	120	06.18	107.0	-01.0
+120	121	05.78	056.0	+10.0
+121	122	08.21	037.0	+01.0
+122	123	08.31	065.0	+16.0
+123	124	12.27	045.0	 00.0
+124	125	06.22	011.0	+05.0
+125	126	11.39	029.0	-08.0
+126	127	05.34	015.0	+05.0
+127	128	06.53	060.0	+04.0
+128	129	03.33	060.0	-11.0
+129	130	06.87	004.0	+08.0
+
+130	130a	04.00	309.0	-11.0	;st130 is 20cm along line from tag to boulder at start of Cobble Crawl, st130a is last staion on Lk10
+
+
+*end easystreet
