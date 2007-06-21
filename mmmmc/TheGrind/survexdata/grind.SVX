@@ -1,0 +1,22 @@
+*begin 	grind
+*export 8
+*calibrate compass +5
+
+*title "The Grind"
+*team "R F Mathews" 
+*team "J Griffiths" 
+*team "R J Shackleton"
+*date 1973.02.10
+
+;no clino taken
+;added 5 degrees to compass readings to get same as 2007 compass magnetic deviation (so 2 to 3 measured 090 in 1973 as magnetic and now 095)
+
+1	2	38.05309735	6	0
+2	3	79.6460177	90	0
+3	4	22.12389381	169	0
+4	5	46.01769912	107	0
+5	6	30.97345133	55	0
+6	7	22.12389381	114	0
+7	8	48.67256637	47	0
+
+*end grind
