@@ -1,0 +1,20 @@
+*begin poppy
+*data normal from to tape compass clino ignoreall
+*units length metres
+*calibrate tape 0.0
+*units compass degrees
+*calibrate compass 0.0
+*units clino degrees
+*calibrate clino 0.0
+
+
+*include poppy1.svx
+*include poppy2.svx
+*include poppy3.svx
+
+*equate poppy2.1 poppy3.1
+*equate Poppy2.34 Poppy1.46
+
+
+
+*end poppy
