@@ -5,11 +5,11 @@
 *equate 	grind.8	darkside.44
 *include	grind
 
-*equate 	darkside.1	grindinghalt2.1
+*equate 	darkside.1	grindinghalt3.0
 *include	darkside
 
-*equate 	grindinghalt2.3	grindinghalt1.21
-*include	grindinghalt2
+*equate 	grindinghalt3.20	grindinghalt1.21
+*include	grindinghalt3
 
 *include	grindinghalt1
 
