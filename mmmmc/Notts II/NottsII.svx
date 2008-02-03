@@ -19,7 +19,9 @@
 *Include "Inlet13\Inlet13"		;Mincemeat Aven to MainStreamway
 *Include "Inlet17\Inlet17"
 *Include "MainStreamway\MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
-
+*Include "Paaschendale\Paaschendale"	;Paaschendale
+*Include "TrickOrTreat\TrickOrTreat"	;Trick Or Treat
+*Include "Poppy\Poppy"		;Poppy Passage
 
 
 ;-------------------------------------------------------------------------------------------
@@ -28,7 +30,9 @@
 *Equate Committeepot.019 Inlet13.001
 *Equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *Equate MainStreamway.Mainstreamway3.33 Inlet13.025
-
+*Equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
+*Equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
+*Equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
 
 
 
