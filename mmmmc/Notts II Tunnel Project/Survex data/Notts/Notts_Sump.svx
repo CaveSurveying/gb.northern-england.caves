@@ -11,7 +11,7 @@
 *export npsump
 *calibrate compass	+8.0
 
-*data diving from to length bearing fromdepth todepth
+*data normal from to length bearing fromdepth todepth
 
 NPSUMP NPS01   4.0 245.0   0.0      0.0	;Notts Pot sump 1 - Barry + Rick
 NPS01 NPS02   9.5   0.0   0.0      -9.5
