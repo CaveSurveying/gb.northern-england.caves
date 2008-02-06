@@ -2,7 +2,8 @@
 ;Surveyors:	R.Duffy
 ;Date:	11/03/99
 ;Instruments:	PAG/tape
-	
+
+
 *begin	CommitteePot
 
 *export 001
