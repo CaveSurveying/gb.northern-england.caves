@@ -1,0 +1,31 @@
+;Cave: Notts II Inlet 5
+;title
+
+*begin Inlet5-3
+
+*export 052
+*export 061
+
+;team Insts Allan Richardson
+;team Notes Allan Richardson
+;team Tape Andy Walsh 
+;date 2002.07.12
+;instrument Suunto Compass 810726 (RAR)
+;instrument Suunto Clinometer726973 (RAR)
+;instrument 30m Fibron Tape (RRCPC)
+
+*calibrate compass +2.5
+
+;From  to  Tape Compass Clino 
+052	053	1.1	349	19
+053	054	8.6	301	-1.5
+054	055	8.4	25	-3
+055	056	4.8	39	-17
+056	057	6.7	67	-4.5
+057	058	3.6	323	-9
+058	059	3.95	64	-9.5
+059	060	2.08	21	-9
+060	061	6.4	38	-7
+061	062	6.9	80	-3
+
+*end Inlet5-3
