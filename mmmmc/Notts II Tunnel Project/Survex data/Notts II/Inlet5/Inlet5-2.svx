@@ -1,0 +1,45 @@
+;Cave Notts II-Inlet 5
+*title "Notts2 Curry Junction and Inlet 5"
+
+;2002.04.14 RAR added exports and comments
+;2002.04.14 RAR Changed name to Notts2 from 207
+
+*team Insts Allan Richardson
+*team Notes Allan Richardson
+*team Tape Andy Walsh
+*team Tape Bill Sherington 
+*date 2002.04.12
+*instrument Suunto Compass 810726 (RAR)
+*instrument Suunto Clinometer726973 (RAR)
+*instrument 30m Fibron Tape (RRCPC)
+
+*begin Inlet5-2
+
+*export 033
+*export 052
+
+; ====== stations refindable to link to other surveys: ======
+
+*calibrate compass +2.5
+
+033	034	6.95	310	-3.5
+034	035	6.1	311.5	+3
+035	036	15	335	+2.5
+036	037	4.7	30	+42
+037	038	8.5	25	+2
+038	039	5.9	70.5	+2.5
+039	040	4.7	60	0
+040	041	5	54	+0.5
+041	042	6.4	34	-3
+042	043	8.3	338	+3
+043	044	3.2	355	+5
+044	045	4.75	34	-3
+045	046	14.6	14	-1
+046	047	4	289	+12
+047	048	3.8	310	+0.5
+048	049	5.7	338	+1
+049	050	4.5	315	+7
+050	051	16.4	323	0
+051	052	18.3	4	0
+
+*end Inlet5-2
