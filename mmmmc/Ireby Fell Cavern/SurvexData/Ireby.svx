@@ -35,7 +35,7 @@
 ;Include Duke Street/Duke Street Digs/Whirlpool		
 *Include "DukeStreet\DukeStreet"			;Duke Street/Whirlpool/Digs
 
-*Include IrebyIIFake
+;*Include IrebyIIFake
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
@@ -60,7 +60,7 @@
 ;Equate DukeStreet
 *equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
 
-*equate DukeStreet.DukeStreet1.073 IrebyIIFake.1
+;*equate DukeStreet.DukeStreet1.073 IrebyIIFake.1
 
 
 *end	Ireby

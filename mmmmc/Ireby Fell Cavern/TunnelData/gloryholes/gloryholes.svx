@@ -7,6 +7,7 @@
 *calibrate tape 0.0
 *units compass degrees
 *calibrate compass 0.0
+*calibrate declination 0.0
 *units clino degrees
 *calibrate clino 0.0
 ;end generated presettings
@@ -64,6 +65,14 @@
 
 *calibrate tape		+0.70	;Tied round Simon's feet
 
+; Locn:	Leck Fell
+; Cave:	Ireby Fell Cavern
+; Cripple Creek to Jupiter Cavern
+
+
+
+
+
 
 
 ;Equate Glory Holes/Cripple Creek Files
@@ -74,6 +83,7 @@
 *equate	GloryHoles4.001 GloryHoles5.001
 *equate	GloryHoles3.039 GloryHoles6.001
 *equate	TrueGrit.033 GloryHoles2.20
+*equate GloryHoles5.016 cripplecreekconnect.1
 
 *include gloryholes1/gloryholes1.svx
 *include gloryholes2/gloryholes2.svx
@@ -82,5 +92,6 @@
 *include gloryholes5/gloryholes5.svx
 *include gloryholes6/gloryholes6.svx
 *include truegrit/truegrit.svx
+*include cripplecreekconnect/cripplecreekconnect.svx
 
 *end gloryholes

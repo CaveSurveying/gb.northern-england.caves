@@ -13,6 +13,7 @@
 *include GloryHoles5			;Cripple Creek
 *include GloryHoles6			;Cripple Creek
 *include TrueGrit			;True Grit
+*include cripplecreekconnect		;Cripple Creek - Ireby II
 
 
 ;Equate Glory Holes/Cripple Creek Files
@@ -23,5 +24,6 @@
 *equate	GloryHoles4.001 GloryHoles5.001
 *equate	GloryHoles3.039 GloryHoles6.001
 *equate	TrueGrit.033 GloryHoles2.20
+*equate GloryHoles5.016 cripplecreekconnect.1
 
 *end GloryHoles

@@ -6,6 +6,7 @@
 *calibrate tape 0.0
 *units compass degrees
 *calibrate compass 0.0
+*calibrate declination 0.0
 *units clino degrees
 *calibrate clino 0.0
 ;end generated presettings
@@ -59,6 +60,7 @@
 ;Duke Street I/Duke Street Digs/Whirlpool
 
 
+;*Include IrebyIIFake
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
@@ -83,7 +85,7 @@
 ;Equate DukeStreet
 *equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
 
-*equate DukeStreet.DukeStreet1.073 IrebyIIFake.1
+;*equate DukeStreet.DukeStreet1.073 IrebyIIFake.1
 
 
 *include dingdongbellpitches/dingdongbellpitches.svx
@@ -93,6 +95,5 @@
 *include boltonextentions/boltonextentions.svx
 *include wellpitchinlets/wellpitchinlets.svx
 *include dukestreet/dukestreet.svx
-*include irebyiifake/irebyiifake.svx
 
 *end ireby

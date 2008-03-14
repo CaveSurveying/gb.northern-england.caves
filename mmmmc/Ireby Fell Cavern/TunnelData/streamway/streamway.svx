@@ -12,6 +12,7 @@
 *calibrate tape 0.0
 *units compass degrees
 *calibrate compass 0.0
+*calibrate declination 0.0
 *units clino degrees
 *calibrate clino 0.0
 ;end generated presettings

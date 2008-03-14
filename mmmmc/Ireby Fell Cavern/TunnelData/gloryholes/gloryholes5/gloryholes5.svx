@@ -2,12 +2,14 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 *begin gloryholes5
 *export 023	
+*export	016
 *export 001
 *data normal from to tape compass clino ignoreall
 *units length metres
 *calibrate tape 0.0
 *units compass degrees
 *calibrate compass 0.0
+*calibrate declination 0.0
 *units clino degrees
 *calibrate clino 0.0
 ;end generated presettings
@@ -33,17 +35,17 @@
 013	014	5.35	233	+1	;2.5	0.8	1.5	1.8	Stn 014
 014	015	7.55	146	-3	;0.1	0.5	1.0	2.5	Stn 015
 015	016	5.2	194	-17	;0.1	2.0	1.2	1.4	Stn 016
-016	017	9.25	312	-1	;0.2	0.4	1.8	0.5	Stn 017
-017	018	6.95	283	0	;0	0.5	1.5	1.0	Stn 018	
+;016	017	9.25	312	-1	;0.2	0.4	1.8	0.5	Stn 017
+;017	018	6.95	283	0	;0	0.5	1.5	1.0	Stn 018	
 		
 ;Instruments: B.Ward, Book: D.Ramsay
 ;Date: 30/08/04
 
-018	019	6.35	293	-12	;1.0	0.6	0.4	0.2	Stn 019
-019	020	6.90	291	+2	;0.2	0.4	0.1	0.5	Stn 020
-020	021	5.65	244	-50	;0.3	0.1	0.1	0.3	Stn 021
-021	022	3.75	235	0	;0.3	0.3	0.4	0.2	Stn 022
-022	023	5.20	245	+40	;0	0.6	0.8	0.5	Stn 023 Pacey's Patio
+;018	019	6.35	293	-12	;1.0	0.6	0.4	0.2	Stn 019
+;019	020	6.90	291	+2	;0.2	0.4	0.1	0.5	Stn 020
+;020	021	5.65	244	-50	;0.3	0.1	0.1	0.3	Stn 021
+;021	022	3.75	235	0	;0.3	0.3	0.4	0.2	Stn 022
+;022	023	5.20	245	+40	;0	0.6	0.8	0.5	Stn 023 Pacey's Patio
 
 
 
