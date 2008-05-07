@@ -17,7 +17,7 @@
 
 ;from	to	tape	compass	clino	remarks
 2	1	6.35	121	+2	; 0
-3	2	3.22	104	-3	; +3
+3	2	3.22	104	-4	; +3  clino written incorrectly in notes as -3, pony says -4
 4	3	5.79	084	-34	; +20
 5	4	3.53	197	+29	; -15
 6	5	6.30	154	+12	; -7
