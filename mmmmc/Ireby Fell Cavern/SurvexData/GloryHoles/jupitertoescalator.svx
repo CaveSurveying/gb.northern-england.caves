@@ -4,7 +4,7 @@
 
 *begin jupitertoescalator
 
-*export 33 44 62 63
+*export 33 34 44 62 63
 
 *title "Jupiter Cavern & Escalator Rift"
 *date 2008.04.14

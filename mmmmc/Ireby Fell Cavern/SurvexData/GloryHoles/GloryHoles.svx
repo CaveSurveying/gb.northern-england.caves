@@ -2,7 +2,7 @@
 
 *begin GloryHoles
 
-*export gloryholes1.001
+*export gloryholes1.001 jupiter2irebyone.50
 
 ;Include Glory Holes/Cripple Creek/True Grit
 
@@ -15,6 +15,7 @@
 *include TrueGrit			;True Grit
 *include cripplecreekconnect		;Cripple Creek - Ireby II
 *include jupitertoescalator		;Jupiter Cavern & start of Escalator Rift - Ireby II
+*include jupiter2irebyone		;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
 
 ;Equate Glory Holes/Cripple Creek Files
 
@@ -25,6 +26,7 @@
 *equate	GloryHoles3.039 GloryHoles6.001
 *equate	TrueGrit.033 GloryHoles2.20
 *equate GloryHoles5.016 cripplecreekconnect.1
-*equate cripplecreekconnect.33	jupitertoescalator.33
+*equate cripplecreekconnect.33 jupitertoescalator.33
+*equate jupitertoescalator.34 jupiter2irebyone.1
 
 *end GloryHoles

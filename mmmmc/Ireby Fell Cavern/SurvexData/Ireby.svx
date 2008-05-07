@@ -62,5 +62,7 @@
 
 ;*equate DukeStreet.DukeStreet1.073 IrebyIIFake.1
 
-
+;Loop closure at diving line anchor Duke Street Ireby I
+*equate GloryHoles.jupiter2irebyone.50 DukeStreet.DukeStreet1.073
+ 
 *end	Ireby
