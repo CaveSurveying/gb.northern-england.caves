@@ -1,6 +1,6 @@
 ; Locn:	Leck Fell
 ; Cave:	Ireby Fell Cavern
-; Lick the Pony crawl, crawl off Blissful Creek
+; Uranus crawl off Blissful Creek up to tight rift
 
 *begin lickthepony
 
@@ -37,7 +37,7 @@
 18	19	2.09	327	-07
 19	20	1.25	274	+23
 20	21	1.18	300	-40
-21	22	1.33	307	-16
+;21	22	1.33	307	-16	;ignore this leg - redid it in next survey trip (Lick the Pony 2)
 
 ; stations marked with red nail varnish, rp = red point, r/lw = right/left wall
 
@@ -65,7 +65,7 @@
 19	0	1.2	0.4	1.3	;
 20	1.5	1.2	0.3	1.8	;
 21	0.1	0.6	0.2	0.2	; rp I think this one is numbered in liquid paper (only numbered station in this survey)
-22 	-	-	-	-	; don't think this will be refound, start of thin rift
+;22 	-	-	-	-	; don't think this will be refound, start of thin rift. Not used in next survey
 
 *end lickthepony
 

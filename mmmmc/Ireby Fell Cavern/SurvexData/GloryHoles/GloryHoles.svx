@@ -17,7 +17,8 @@
 *include jupitertoescalator		;Jupiter Cavern & start of Escalator Rift - Ireby II
 *include jupiter2irebyone		;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
 *include blissfulcreek			;Escalator Rift - Blissful Creek - Triple Creek
-*include lickthepony			;Triple Creek - Lick the Pony crawl
+*include lickthepony			;Triple Creek - Uranus crawl
+*include lickthepony2			;Uranus crawl - upstream Escalator
 
 ;Equate Glory Holes/Cripple Creek Files
 
@@ -32,5 +33,6 @@
 *equate jupitertoescalator.34 jupiter2irebyone.1
 *equate blissfulcreek.63 jupitertoescalator.63
 *equate blissfulcreek.85 lickthepony.85
+*equate lickthepony.21 lickthepony2.21
 
 *end GloryHoles
