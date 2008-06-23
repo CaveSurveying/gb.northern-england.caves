@@ -4,7 +4,7 @@
 
 *begin lickthepony2
 
-*export 21 37 50 51
+*export 20 37 50 51
 *title "Lick The Pony 2"
 *date 2008.06.21
 *team Insts Becka Lawson
@@ -17,21 +17,21 @@
 
 ; stations 30-37 for upstream of rift
 
-30	21	2.40	252	+23
+30	20	2.40	252	+23
 31	30	2.30	231	+04
 32	31	3.10	303	-02
 33	32	2.76	349	-07
 34	33	2.04	335	+06
 35	34	1.48	298	-04
 36	35	1.45	332	-08
-37	36	1.08	303	+01	; CHECK PONY FOR COMPASS
-37	38	3.60	162	+05	;fake leg just for sketch - roof level too tight tube
+37	36	1.08	303	+01	
+;37	38	3.60	162	+05	;fake leg just for sketch - roof level too tight tube
 ;37	39	1.30	042	0	;fake leg just for sketch - to corner
 ;39	29	0.70	095	0	;fake leg just for sketch - towards calcited end. Made station 29 as that station not used yet and station 40 already used for next set of readings
 
 ; stations 40-51 for downstream into tight rift, through squeeze to streamway. Note *NO* stations 43 or 44 or 45
 
-40	21	1.72	123	+40
+40	20	1.72	123	+40
 40	41	0.70	301	+15
 41	42	4.18	330	-05
 
@@ -47,7 +47,7 @@
 
 *data passage station left right up down ignoreall
 
-21	0.1	0.6	0.2	0.2	; rp numbered 
+20	1.5	1.2	0.3	1.8	; rp numbered 
 30	0	0.5	0.1	0.6	; start of upstream rift
 31	0	0.5	0.3	0.4	; all LRUDs hard to read
 32	0.2	0.5	0.4	0.5

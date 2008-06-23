@@ -33,6 +33,6 @@
 *equate jupitertoescalator.34 jupiter2irebyone.1
 *equate blissfulcreek.63 jupitertoescalator.63
 *equate blissfulcreek.85 lickthepony.85
-*equate lickthepony.21 lickthepony2.21
+*equate lickthepony.20 lickthepony2.20
 
 *end GloryHoles
