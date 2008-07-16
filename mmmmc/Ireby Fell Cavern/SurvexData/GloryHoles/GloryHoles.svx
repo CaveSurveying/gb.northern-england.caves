@@ -19,6 +19,7 @@
 *include blissfulcreek			;Escalator Rift - Blissful Creek - Triple Creek
 *include lickthepony			;Triple Creek - Uranus crawl
 *include lickthepony2			;Uranus crawl - upstream Escalator
+*include dukest2tidyup			;four extra bits onto jupiter2irebyone survey
 
 ;Equate Glory Holes/Cripple Creek Files
 
@@ -34,5 +35,10 @@
 *equate blissfulcreek.63 jupitertoescalator.63
 *equate blissfulcreek.85 lickthepony.85
 *equate lickthepony.20 lickthepony2.20
+
+*equate jupiter2irebyone.31 dukest2tidyup.31
+*equate jupiter2irebyone.34 dukest2tidyup.34
+*equate jupiter2irebyone.42 dukest2tidyup.42
+*equate jupiter2irebyone.46 dukest2tidyup.22
 
 *end GloryHoles
