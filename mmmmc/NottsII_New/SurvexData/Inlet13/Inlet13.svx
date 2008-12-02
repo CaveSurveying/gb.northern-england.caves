@@ -1,0 +1,55 @@
+;Cave:	Notts II - Iron Kiln to Notts Streamway (Breakthrough - Thurs. 23.11.00)
+;Title: Inlet 13
+;Surveyors:	Ray Duffy/Paul Windle/Andy Hall
+;Date:	2/12/00
+;Instruments:	PAG
+
+
+*begin	Inlet13
+
+*export 001
+*export 025
+
+*calibrate compass	+5.00
+
+001	002	01.90	134.0	+04.0	;st001=st019 on Committee(Iron Kiln survey Com.) boulder at bottom of short 3m pitch into chamber from stream.
+002	003	03.60	 - DOWN	; down scaffolding
+003	004	03.30	175.0	-49.0
+004	005	01.90	208.0	-03.0	;st 003 to 005 is through bottom of dig to rift
+
+005	005a	01.10	 -	UP	;st005a=tag in bolt hole
+005a	005b	02.60	333.0	+19.0	;up rift with small stream
+005b	005c	02.60	268.0	+33.0	;upstream ends in blind alcove
+
+005	006	03.20	142.0	+05.0	;across to ladder pitch
+006	007	05.00	 -	DOWN	;st007 is head height at bottom of ladder
+007	008	02.70	121.0	-08.0
+008	009	08.40	066.0	-18.0
+009	010	10.70	071.0	-03.0	;Through archway into Mincemeat Aven
+
+010	010a	02.50	122.0	 00.0	;st010a=bottom of rope in Mincemeat Aven
+
+010	011	03.60	083.0	-14.0	;st011 is start of inlet on right, boulders from left of the two passages run into right hand passage
+
+011	011a	10.00	144.0	+04.0
+011a	011b	05.40	141.0	-12.0	;st011b is small sump pool 1m wide starting on mud floor
+
+011	012	10.70	039.0	-16.0	;Through archway out of Mincemeat Aven down small boulder slope
+012	013	14.70	048.0	-05.0
+013	014	09.60	359.0	-06.0
+
+014	014a	10.00	068.0	+28.0	;st014a=tag in mud at top of mud slope at start of mud crawl to Aven
+
+014	015	09.10	283.0	-04.0	;down streamway
+015	016	11.30	346.0	-06.0
+016	017	02.10	358.0	-05.0
+017	018	11.20	270.0	-02.0
+018	019	09.00	258.0	-06.0	;small inlet enters from roof on right
+019	020	07.00	253.0	-08.0
+020	021	11.30	279.0	-05.0
+021	022	00.70	 -	DOWN
+022	023	04.70	312.0	-06.0	;st022 to 023 is below chockstone
+023	024	09.00	002.0	-02.0
+024	025	03.30	334.0	-32.0	;st025=tag in left wall at junction with Notts II streamway
+
+*end	Inlet13

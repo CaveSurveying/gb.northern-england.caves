@@ -1,0 +1,40 @@
+;Cave: Notts II
+;title "Green Tape Inlet Survey 1 (Inlet 16)"
+      
+;team Insts Andy walsh
+;team Notes 
+;team Tape  
+;date 2002.06.27
+;instrument Suunto Compass 
+;instrument Suunto Clinometer
+;instrument 30m Fibron Tape (RRCPC)
+;Calibration :
+
+
+*begin GreenTape1
+*Export 030
+
+;calibrate compass 
+
+;From  to  Tape Compass Clino 
+030	1	2.25	16	0
+1	2	1.3	297	0
+2	3	4.1	12	0
+3	4	4.9	12	+90
+4	5	3.23	90	8
+5	6	8.7	99.5	2
+6	7	14.8	94.5	0
+7	8	6.47	108	2
+8	9	6.15	42.5	0
+9	10	5.3	15	-2
+10	11	7.5	80	1
+11	12	8.35	140	0
+12	13	5.6	87	2
+13	14	10	55	-2
+14	15	8.15	72	0
+15	16	10.4	89	0
+16	17	5.4	27	1
+17	18	5.85	85	2
+
+*end GreenTape1
+
