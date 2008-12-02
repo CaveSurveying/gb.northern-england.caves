@@ -1,0 +1,12 @@
+*begin Paaschendale
+
+*export Paaschendale1.0
+*export Paaschendale2.7
+*export Paaschendale2.24
+
+*Include Paaschendale1
+*Include Paaschendale2
+
+*equate Paaschendale1.14 Paaschendale2.24
+
+*end Paaschendale

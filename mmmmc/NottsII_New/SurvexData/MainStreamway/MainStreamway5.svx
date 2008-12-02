@@ -1,0 +1,35 @@
+;Cave:	Notts II - Upstream from tag just past Showerbath Inlet
+;Surveyors:	Ray Duffy/Hugh St.Lawrence
+;Date:	7/12/00
+;Instruments:	PAG
+
+
+
+*begin	MainStreamway5
+
+*export 001
+*export 011
+*export 019
+
+*calibrate compass	+5.00
+
+001	002	01.25	214.0	+18.0	;st001=tag st030 Upstream1
+002	003	05.45	147.0	+05.0
+003	004	09.80	079.5	+03.0
+004	005	05.50	112.0	+03.5
+005	006	04.30	176.0	 00.0
+006	007	06.80	138.0	+06.0	;chockstone above stream 3m between leg
+007	008	04.50	090.0	+01.0
+008	009	03.65	122.5	+09.0
+009	010	02.40	058.5	+03.0
+010	011	04.10	034.5	+05.0	;tag=st011, rope from Sir Digby Spodes Inlet(10) to Count Lazlo's Stroganoff's Aven
+011	012	12.90	143.0	+04.0	;chockstones 3m above stream on this leg near st012
+012	013	04.25	166.0	+13.0	;chockstone 2.5 above stream at st013
+013	014	06.05	205.0	+05.0
+014	015	06.60	200.0	+01.5	;chockstone 4m above stream at st015
+015	016	10.60	214.0	+05.0	;chockstones 3m above stream on this leg near st016
+016	017	05.60	197.5	+07.0	;chockstones 3m above stream on this leg near st017
+017	018	01.30	231.0	+01.0
+018	019	07.10	143.0	+02.0	;tag=st019 base of Dome Inlet
+
+*end	MainStreamway5
