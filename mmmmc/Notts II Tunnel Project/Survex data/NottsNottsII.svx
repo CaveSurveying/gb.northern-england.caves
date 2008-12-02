@@ -1,4 +1,0 @@
-*begin
-*Include "Notts\Notts.svx"
-*Include "Notts II\NottsII.svx"
-*end
