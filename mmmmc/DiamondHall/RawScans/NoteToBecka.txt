@@ -1,0 +1,4 @@
+* Ammendments made to Survey Stations recorded them wrong when surveying.
+  FROM | To - Wrong way round !
+  
+** Also check LRUD Station numbers when drawing sketch 
