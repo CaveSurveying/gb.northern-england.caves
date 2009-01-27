@@ -1,0 +1,32 @@
+; Locn:	Easegill
+; Cave:	Easegill - Diamond Hall
+; Glasson Dock 0
+
+*begin glassondock0
+
+*export stal 13
+
+*title "Glasson Dock 0"
+*date 2009.01.24
+*team Insts Julian Todd
+*team Notes Becka Lawson
+*team Tape Julian Todd 
+;team Diggers Neil Pacey, Ian Lawton, Liz Lawton
+
+*instrument Compass and Clino - not recorded; Tape - probably 30m yellow read from 0cm but not recorded
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+stal	13	0.72	213	-31	;connect last station of glassondock1 to RRCPC Ray Duffy survey station on top of large white/brown stal. Note the stal is 0.85m high and is in the middle of the crawl.
+
+*data passage station left right up down
+
+; station LRUDs
+stal	0.25	0.4	0.25	0.85
+
+*end glassondock0
+
+
+
+

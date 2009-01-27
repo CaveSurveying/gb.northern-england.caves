@@ -1,0 +1,60 @@
+; Locn:	Easegill
+; Cave:	Easegill - Diamond Hall
+; Glasson Dock 1
+
+*begin glassondock1
+
+*export 1 2 16
+
+*title "Glasson Dock 1"
+*date 2008.12.14
+*team Insts Nigel Gray
+*team Notes Neil Pacey
+*team Tape Nigel Gray 
+;team Diggers George North, Tom Clayton
+
+*instrument Compass and Clino - not recorded; Tape - probably 30m yellow read from 0cm but not recorded
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+;1	2	1.93	253	+09	;I switched this back again so Neil had reversed From/To relative to original in-cave notes (which were 1 to 2) but scanned notes amended (so 2 to 1) but I checked this leg in glassondock2 and the original notes were correct, so 1 to 2. This leg has been commented out because it duplicates the leg X2 to X1 in glassondock2 survey
+1	3	0.70	-	down	;Neil's original notes said 2 to 3 here but actually it was station 1 to 3 I believe	
+4	3	1.57	226	+22	;reversed From/To here relative to original in-cave notes but scanned notes amended
+5	4	2.13	245	+35	;reversed From/To here relative to original in-cave notes but scanned notes amended
+6	5	2.00	188	+38	;reversed From/To here relative to original in-cave notes but scanned notes amended
+6	7	0.90	-	down	
+8	7	1.40	183	+13	;reversed From/To here relative to original in-cave notes but scanned notes amended
+9	8	2.80	152	+07	;reversed From/To here relative to original in-cave notes but scanned notes amended
+9	10	0.70	-	up	
+11	10	1.98	236	+14	;reversed From/To here relative to original in-cave notes but scanned notes amended
+12	11	3.20	244	+03	;reversed From/To here relative to original in-cave notes but scanned notes amended
+13	12	4.80	222	-10	;reversed From/To here relative to original in-cave notes but scanned notes amended
+13	14	0.68	-	down	
+15	14	2.06	169	-30	;reversed From/To here relative to original in-cave notes but scanned notes amended
+16	15	1.83	104	+31	;reversed From/To here relative to original in-cave notes but scanned notes amended
+
+*data passage station left right up down
+
+; station LRUDs
+1	0.5	0.5	0.1	0.6
+2	0.8	0.0	0.7	0.2
+3	0.2	0.3	0.7	0.0
+4	0.5	0.5	0.1	0.5
+5	0.2	0.5	0.4	0.1
+6	1.0	1.0	0.5	0.9
+7	0.0	0.6	0.2	0.3	
+8	0.7	0.4	0.8	0.0
+9	0.7	0.4	0.0	0.7
+10	0.3	0.5	0.3	0.5	
+11	1.0	0.5	0.2	0.1
+12	1.3	0.5	0.2	0.7
+13	1.3	0.5	0.2	0.5	; unclear if this is 0.5 - Neil to check?
+14	0	0.5	0.9	0.6
+15	0.6	0.3	1.6	0.0
+
+*end glassondock1
+
+
+
+

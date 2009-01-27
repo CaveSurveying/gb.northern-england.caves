@@ -1,0 +1,24 @@
+; Locn:	Easegill
+; Cave:	Easegill - Diamond Hall
+; Glasson Dock and Cockerham Wharf Inland Waterways Cruising Association dig
+
+*begin glassondock
+
+*export stal
+
+*title "Glasson Dock"
+
+*include glassondock0		;single leg connection to main RRCPC Easegill survey
+*include glassondock1		;Neil & Nigel - Dec2008 - up to rift
+*include glassondock2		;Becka & Julian - Jan2009 - rift through sandcrawls
+
+;equate Glasson Dock Files
+
+*equate glassondock0.13 glassondock1.16	
+*equate glassondock1.1 glassondock2.X1	
+
+*end glassondock
+
+
+
+
