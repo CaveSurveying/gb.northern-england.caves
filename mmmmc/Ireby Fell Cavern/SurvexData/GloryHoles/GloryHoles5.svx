@@ -7,7 +7,7 @@
 
 *export 001
 *export	016
-*export 023	
+;*export 023	
 
 ;*calibrate compass	+5.00
 *calibrate clino	-0.50
