@@ -9,6 +9,7 @@
 *calibrate compass 0.0
 *units clino degrees
 *calibrate clino 0.0
+;new bit
 
 ;Cave:	Notts II - Inlet 7
 ;Description: A Little Light Relief /Heavenly Joys / On the Upper Hand
