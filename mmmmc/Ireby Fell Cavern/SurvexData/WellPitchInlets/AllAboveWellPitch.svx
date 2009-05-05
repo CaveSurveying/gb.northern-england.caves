@@ -1,0 +1,10 @@
+*begin allabovewellpitch
+
+*include abovewellpitch
+
+*include abovewellpitch2
+
+*equate abovewellpitch.8a abovewellpitch2.8a
+*equate abovewellpitch.34 abovewellpitch2.8
+
+*end allabovewellpitch
