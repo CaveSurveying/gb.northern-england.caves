@@ -1,7 +1,8 @@
 *begin allabovewellpitch
 
-*include abovewellpitch
+*export AboveWellPitch2.4
 
+*include abovewellpitch
 *include abovewellpitch2
 
 *equate abovewellpitch.8a abovewellpitch2.8a

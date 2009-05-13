@@ -4,7 +4,7 @@
 
 *begin abovewellpitch2
 
-*export 1 8a 8 12
+*export 1 4 8a 8 12
 
 *title "Above Well Pitch 2"
 *date 2009.05.04

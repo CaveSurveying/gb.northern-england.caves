@@ -6,7 +6,7 @@
 ;*equate	If02.109	Streamway2.024
 
 *begin	WellPitchInlets
-*export 218 107
+*export 218 107 109
 *calibrate compass	+6.50
 
 ;*fix	001	
