@@ -21,6 +21,7 @@
 *include lickthepony2			;Uranus crawl - upstream Escalator
 *include dukest2tidyup			;four extra bits onto jupiter2irebyone survey
 *include dukest2tocanal			;Duke Street II along canal past Whirlpool to small junction
+*include triplecreekaven		;up bold climb at end of Triple Creek
 
 ;Equate Glory Holes/Cripple Creek Files
 
@@ -42,5 +43,7 @@
 *equate jupiter2irebyone.42 dukest2tidyup.42
 *equate jupiter2irebyone.46 dukest2tidyup.22
 *equate jupiter2irebyone.43 dukest2tocanal.43
+
+*equate triplecreekaven.97 blissfulcreek.97
 
 *end GloryHoles

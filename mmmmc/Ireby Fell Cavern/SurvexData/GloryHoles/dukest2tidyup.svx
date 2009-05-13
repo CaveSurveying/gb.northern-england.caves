@@ -53,42 +53,42 @@
 *data passage station left right up down
 
 ; station 1 is station 34 from previous
-1	1	2	0	0.7	thread in ceiling 2m before sump, lp (lp=liquid paper, so white paint)
-2	-	-	-	-	unmarked, floor
-3	1	1	0.8	0.1	unmarked, floor
-4	1.5	2	0.8	0.7	lp rock on floor
-5	1	1	0	0.4	lp roof
-6	0.6	0.3	0.2	0.3	lp rock
-7	0.3	2	0.3	0.2	lp ceiling
-8	0.5	1.2	0.1	0.3	lp rock
-9	1.5	1.2	0.4	0.8	lp rock
-10	2	0.3	0.4	0.4	side wall
-34	-	-	-	-	numbered stn 34 from Patrick & Becka's survey from Jupiter to Ireby 1
+1	1	2	0	0.7	; thread in ceiling 2m before sump, lp (lp=liquid paper, so white paint)
+2	-	-	-	-	; unmarked, floor
+3	1	1	0.8	0.1	; unmarked, floor
+4	1.5	2	0.8	0.7	; lp rock on floor
+5	1	1	0	0.4	; lp roof
+6	0.6	0.3	0.2	0.3	; lp rock
+7	0.3	2	0.3	0.2	; lp ceiling
+8	0.5	1.2	0.1	0.3	; lp rock
+9	1.5	1.2	0.4	0.8	; lp rock
+10	2	0.3	0.4	0.4	; side wall
+34	-	-	-	-	 ;numbered stn 34 from Patrick & Becka's survey from Jupiter to Ireby 1
 
-11	0.2	0.8	0.3	0.2	lp numbered on R wall before crawl becomes flat out (too tight) in inlet stream
-12	0.2	1	0.4	0.2	lp L wall
-13	1.2	0.3	3	0.9	lp rock
-14	2	1.5	1	1.5	lp centre pillar
-15	0.5	1.5	0.3	0.4	lp ceiling
-16	1	2	0.4	0	lp floor
-17	2	0.8	0	0.4	lp ceiling
-18	2	0.8	0	0.4	lp by calcite crawl entry, numbered
-31	-	-	-	-	numbered stn 31 from Patrick & Becka's survey from Jupiter to Ireby 1
-19	0	1	1	0.2	lp wall
+11	0.2	0.8	0.3	0.2	; lp numbered on R wall before crawl becomes flat out (too tight) in inlet stream
+12	0.2	1	0.4	0.2	; lp L wall
+13	1.2	0.3	3	0.9	; lp rock
+14	2	1.5	1	1.5	; lp centre pillar
+15	0.5	1.5	0.3	0.4	; lp ceiling
+16	1	2	0.4	0	; lp floor
+17	2	0.8	0	0.4	; lp ceiling
+18	2	0.8	0	0.4	; lp by calcite crawl entry, numbered
+31	-	-	-	-	; numbered stn 31 from Patrick & Becka's survey from Jupiter to Ireby 1
+19	0	1	1	0.2	; lp wall
 
-20	1	1	1.2	1.8	lp L wall
-21	0.4	0.3	0	0.8	above static pool
-22	0	3	1	1	dive line bolt on Ireby II side of sump - station 46 of their survey
+20	1	1	1.2	1.8	; lp L wall
+21	0.4	0.3	0	0.8	; above static pool
+22	0	3	1	1	; dive line bolt on Ireby II side of sump - station 46 of their survey
 
-42	5	10	6	2.5	numbered stn 42 from Patrick & Becka's survey from Jupiter to Ireby 1
-23	2.5	0.4	1.5	1.7	lp R wall/ceiling
-24	0.5	1.3	0.2	0.6	lp numbered L wall/ceiling
-25	2	0	1.2	0.3	lp R wall
-26	1.5	2	0	1	lp ceiling
-27	1.8	1.1	0.4	0.1	unmarked
-28	0.7	0	0.2	0.1	lp R wall
-29 	0.8	0.3	0	0.4	lp numbered ceiling
-30	0.3	0.3	0	0.2	too tight - needs digging
+42	5	10	6	2.5	; numbered stn 42 from Patrick & Becka's survey from Jupiter to Ireby 1
+23	2.5	0.4	1.5	1.7	; lp R wall/ceiling
+24	0.5	1.3	0.2	0.6	; lp numbered L wall/ceiling
+25	2	0	1.2	0.3	; lp R wall
+26	1.5	2	0	1	; lp ceiling
+27	1.8	1.1	0.4	0.1	; unmarked
+28	0.7	0	0.2	0.1	; lp R wall
+29 	0.8	0.3	0	0.4	; lp numbered ceiling
+30	0.3	0.3	0	0.2	; too tight - needs digging
 
 *end dukest2tidyup
 
