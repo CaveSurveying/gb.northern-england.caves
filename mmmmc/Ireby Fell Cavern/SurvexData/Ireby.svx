@@ -12,7 +12,7 @@
 ;--------------------------------------------------------------------------------------------
 ;All Ireby Fell Cavern files
 
-*begin	Ireby
+*begin Ireby
 
 ;Include DingDongBellPitches				
 *Include "DingDongBellPitches\DingDongBellPitches"	;Ding-Dong-Bell-Rope Pitches
@@ -23,16 +23,17 @@
 ;Include Main Streamway Files				
 *include "MainStreamway\Streamway"			;Main Streamway	
 
-;Include Glory Holes / Cripple Creek Files
+;Include Glory Holes\Cripple Creek Files
 *include "GloryHoles\GloryHoles"			;Glory Holes/Cripple Creek /True Grit
 
 ;Include Bolton Extentions File
 *include "BoltonExtentions\BoltonExtentions"		;Bolton Extentions
 
 ;Include WellPitchInlets 		
-*include "WellpitchInlets\WellPitchInlets" 		;Aberfan/Cornflake/Adultorus/Adultorus Bypass
+;*include "WellpitchInlets\WellPitchInlets" 		;Aberfan/Cornflake/Adultorus/Adultorus Bypass
+*include "WellpitchInlets\AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
 
-;Include Duke Street/Duke Street Digs/Whirlpool		
+;Include Duke Street\Duke Street Digs\Whirlpool		
 *Include "DukeStreet\DukeStreet"			;Duke Street/Whirlpool/Digs
 
 ;*Include IrebyIIFake
@@ -50,9 +51,10 @@
 ;Equate Main Streamway Files
 *equate Streamway.Streamway1.022 DingDongBellPitches.022
 
-;Equate WellPitchInlets						;Cornflake\Aberfan\Adulters
+;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
 ;*equate WellPitchInlets.109 Streamway.Streamway3.024 
-*equate Wellpitchinlets.218 streamway.streamway4.001
+;*equate Wellpitchinlets.218 streamway.streamway4.001
+*equate allabovewellpitch.AboveWellPitch2.4 Streamway.Streamway3.024 
 
 ;Equate BoltonExtentions
 *equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
@@ -65,4 +67,4 @@
 ;Loop closure at diving line anchor Duke Street Ireby I
 *equate GloryHoles.jupiter2irebyone.50 DukeStreet.DukeStreet1.073
  
-*end	Ireby
+*end Ireby
