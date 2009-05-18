@@ -4,7 +4,7 @@
 
 *begin abovewellpitch
 
-*export 8a 31 32 33 34
+*export 8a 21 31 32 33 34
 
 *title "Above Well Pitch"
 *date 2009.04.25
@@ -50,7 +50,7 @@
 18	19	03.70	143	-01	; CHECK with Sam is 3.70 for tape
 19	20	03.55	193	+02
 20	21	05.54	121	+03
-21	22	05.41	115	00
+;21	22	05.41	115	00
 
 23	1	15.48	107	+01
 24	23	08.31	127	00

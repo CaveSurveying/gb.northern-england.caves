@@ -4,8 +4,10 @@
 
 *include abovewellpitch
 *include abovewellpitch2
+*include adultererspassage
 
 *equate abovewellpitch.8a abovewellpitch2.8a
 *equate abovewellpitch.34 abovewellpitch2.8
+*equate adultererspassage.21 abovewellpitch.21
 
 *end allabovewellpitch
