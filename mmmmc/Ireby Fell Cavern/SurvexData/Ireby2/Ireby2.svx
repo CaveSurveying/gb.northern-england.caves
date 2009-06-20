@@ -30,6 +30,4 @@
 
 *equate triplecreekaven.97 blissfulcreek.97
 
-; *equate cripplecreekconnect.33 jupitertoescalator.33
-
 *end Ireby2

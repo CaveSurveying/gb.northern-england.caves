@@ -1,49 +1,18 @@
-;GloryHoles/Cripple Creek/true Grit
+;Glory Holes / True Grit
 
 *begin GloryHoles
 
-*export gloryholes1.001 jupiter2irebyone.50
+*export GloryHoles2.1
 
-;Include Glory Holes/Cripple Creek/True Grit
+;Include Glory Holes/True Grit Files
 
-*include GloryHoles1			;Glory Holes
 *include GloryHoles2			;Cripple Creek
-*include GloryHoles3			;Glory Holes/Cripple Creek
-*include GloryHoles4			;Cripple Creek
-*include GloryHoles5			;Cripple Creek
-*include GloryHoles6			;Cripple Creek
-*include TrueGrit			    ;True Grit
-*include cripplecreekconnect	;Cripple Creek - Ireby II
-*include jupitertoescalator		;Jupiter Cavern & start of Escalator Rift - Ireby II
-*include jupiter2irebyone		;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
-*include blissfulcreek			;Escalator Rift - Blissful Creek - Triple Creek
-*include lickthepony			;Triple Creek - Uranus crawl
-*include lickthepony2			;Uranus crawl - upstream Escalator
-*include dukest2tidyup			;four extra bits onto jupiter2irebyone survey
-*include dukest2tocanal			;Duke Street II along canal past Whirlpool to small junction
-;*include triplecreekaven		;up bold climb at end of Triple Creek
+*include TrueGrit			;True Grit
 
-;Equate Glory Holes/Cripple Creek Files
+;Equate Glory Holes/True Grit Files
 
-*equate GloryHoles2.1 GloryHoles1.005			
-*equate GloryHoles1.011 GloryHoles3.011
-*equate	GloryHoles3.064 GloryHoles4.064
-*equate	GloryHoles4.001 GloryHoles5.001
-*equate	GloryHoles3.039 GloryHoles6.001
 *equate	TrueGrit.033 GloryHoles2.20
-*equate GloryHoles5.016 cripplecreekconnect.1
-*equate cripplecreekconnect.33 jupitertoescalator.33
-*equate jupitertoescalator.34 jupiter2irebyone.1
-*equate blissfulcreek.63 jupitertoescalator.63
-*equate blissfulcreek.85 lickthepony.85
-*equate lickthepony.20 lickthepony2.20
 
-*equate jupiter2irebyone.31 dukest2tidyup.31
-*equate jupiter2irebyone.34 dukest2tidyup.34
-*equate jupiter2irebyone.42 dukest2tidyup.42
-*equate jupiter2irebyone.46 dukest2tidyup.22
-*equate jupiter2irebyone.43 dukest2tocanal.43
-
-;*equate triplecreekaven.97 blissfulcreek.97
+; *equate GloryHoles2.1 GloryHoles1.005
 
 *end GloryHoles

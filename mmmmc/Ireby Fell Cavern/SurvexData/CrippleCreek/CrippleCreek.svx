@@ -2,7 +2,7 @@
 
 *begin CrippleCreek
 
-*export gloryholes1.001 cripplecreekconnect.33
+*export gloryholes1.001 cripplecreekconnect.33 gloryholes1.005
 
 ;Include Cripple Creek Files only
 
@@ -20,9 +20,5 @@
 *equate	GloryHoles4.001 GloryHoles5.001
 *equate	GloryHoles3.039 GloryHoles6.001
 *equate GloryHoles5.016 cripplecreekconnect.1
-
-; *equate GloryHoles2.1 GloryHoles1.005	
-; *equate TrueGrit.033 GloryHoles2.20
-; *equate cripplecreekconnect.33 jupitertoescalator.33
 
 *end CrippleCreek
