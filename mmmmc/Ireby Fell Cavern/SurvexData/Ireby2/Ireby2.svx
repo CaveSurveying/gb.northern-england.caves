@@ -1,0 +1,35 @@
+; Ireby2
+
+*begin Ireby2
+
+*export jupitertoescalator.33 jupiter2irebyone.50
+
+;Include Ireby2 Files
+
+*include jupitertoescalator		;Jupiter Cavern & start of Escalator Rift - Ireby II
+*include jupiter2irebyone		;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
+*include blissfulcreek			;Escalator Rift - Blissful Creek - Triple Creek
+*include lickthepony			;Triple Creek - Uranus crawl
+*include lickthepony2			;Uranus crawl - upstream Escalator
+*include dukest2tidyup			;four extra bits onto jupiter2irebyone survey
+*include dukest2tocanal			;Duke Street II along canal past Whirlpool to small junction
+*include triplecreekaven		;up bold climb at end of Triple Creek
+
+;Equate Ireby2 Files
+
+*equate jupitertoescalator.34 jupiter2irebyone.1
+*equate blissfulcreek.63 jupitertoescalator.63
+*equate blissfulcreek.85 lickthepony.85
+*equate lickthepony.20 lickthepony2.20
+
+*equate jupiter2irebyone.31 dukest2tidyup.31
+*equate jupiter2irebyone.34 dukest2tidyup.34
+*equate jupiter2irebyone.42 dukest2tidyup.42
+*equate jupiter2irebyone.46 dukest2tidyup.22
+*equate jupiter2irebyone.43 dukest2tocanal.43
+
+*equate triplecreekaven.97 blissfulcreek.97
+
+; *equate cripplecreekconnect.33 jupitertoescalator.33
+
+*end Ireby2
