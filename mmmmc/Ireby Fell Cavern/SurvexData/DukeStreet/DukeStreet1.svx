@@ -7,9 +7,7 @@
 
 ;*equate DukeSteet.059 Streamway4.059
 
-*export 059
-*export 069
-*export 073
+*export 059 069 073
 
 *calibrate compass	+6.0
 

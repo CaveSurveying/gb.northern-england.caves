@@ -1,0 +1,73 @@
+;Title: Ireby Fell Caverns
+
+;Date Created 12/12/2006 by Neil Pacey
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+;21-12-06 Added P.H equate for WellPitchInlets  *equate Wellpitchinlets.218 streamway4.001
+;20-06-09 Becka split Glory Holes into Cripple Creek, Ireby2 and Glory Holes
+
+;--------------------------------------------------------------------------------------------
+;All Ireby Fell Cavern files
+
+*begin Ireby
+
+;Include DingDongBellPitches				
+*Include "DingDongBellPitches\DingDongBellPitches"	;Ding-Dong-Bell-Rope Pitches
+
+;Include Bubbles Route File				
+*include "BubblesRoute\BubblesRoute"			;Bubbles Route
+
+;Include Main Streamway Files				
+*include "MainStreamway\Streamway"			;Main Streamway	
+
+;Include Glory Holes and True Grit Files
+*include "GloryHoles\GloryHoles"			;Glory Holes and True Grit
+
+;Include Cripple Creek Files
+*include "CrippleCreek\CrippleCreek"			;Cripple Creek 
+
+;Include Ireby 2 Files
+*include "Ireby2\Ireby2"				;Ireby 2 (Jupiter Cavern to sumps)
+
+;Include Bolton Extentions File
+*include "BoltonExtentions\BoltonExtentions"		;Bolton Extentions
+
+;Include WellPitchInlets 		
+*include "WellpitchInlets\AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
+
+;Include Duke Street\Duke Street Digs\Whirlpool		
+*Include "DukeStreet\TempDukeStreet"			;Duke Street/Whirlpool/Digs
+
+
+;-------------------------------------------------------------------------------------------
+;Equate Statements
+
+;Equate Bubbles Route
+*equate Bubbles.001 DingDongBellPitches.001			;Start of Bubbles Route
+*equate Bubbles.215 Streamway.Streamway1.027 			;Bubbles Route Joins Streamway
+	
+;Equate Glory Holes and True Grit to Cripple Creek
+*equate GloryHoles.GloryHoles2.1 CrippleCreek.GloryHoles1.005	;Where True Grit off from Glory Holes / Cripple Creek
+
+;Equate CrippleCreek to Main Streamway and Ireby2
+*equate	CrippleCreek.GloryHoles1.001 Streamway.Streamway1.027 	;Start of Cripple Creek (Glory Holes) in Main Streamway
+*equate CrippleCreek.cripplecreekconnect.33 Ireby2.jupitertoescalator.33	;End of Cripple Creek beyond connection in Jupiter Cavern
+
+;Equate Ireby2 to dive line bolt in Main Streamway
+*equate Ireby2.jupiter2irebyone.50 TempDukeStreet.DukeStreet1.073	;Loop closure at diving line anchor Duke Street Ireby I
+
+;Equate Main Streamway Files
+*equate Streamway.Streamway1.022 DingDongBellPitches.022
+
+;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
+*equate allabovewellpitch.AboveWellPitch2.4 Streamway.Streamway3.024 
+
+;Equate BoltonExtentions
+*equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
+
+;Equate DukeStreet
+*equate TempDukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
+ 
+*end Ireby
