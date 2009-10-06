@@ -2,7 +2,9 @@
 
 *begin Ireby2
 
-*export jupitertoescalator.33 jupiter2irebyone.50
+*export jupitertoescalator.33 
+*export jupiter2irebyone.50
+*export dukest2tocanal.25
 
 ;Include Ireby2 Files
 

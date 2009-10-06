@@ -4,7 +4,7 @@
 
 *begin ropepitch
 
-*export 104 1
+*export 104 1 101
 
 *title "Rope Pitch"
 *date 2009.06.28
@@ -14,6 +14,8 @@
 *instrument Compass and Clino - Becka's Pony ; Tape - Becka's 30m yellow read from 0cm
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*sd compass 10 degrees
 
 ; USED STN NO.S 1-6 TWICE SO INITIAL STN.S 1-6 RENUMBERED AS 1 IS 101 UP TO 6 IS 106
 

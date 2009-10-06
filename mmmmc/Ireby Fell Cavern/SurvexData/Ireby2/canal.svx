@@ -24,17 +24,19 @@
 6	7	5.22	181	+08
 7	8	2.11	176	-46
 
-9	8	4.47	288	-16	
-9	10	2.97	152	-14	
-10	11	8.70	186	0
-11	12	2.69	142	+03	
-12	13	1.09	237	+02
-13	14	4.42	188	0
-14	15	5.05	197	+11
-15	16	8.42	211	+04
-16	17	3.34	203	-48
-17	18	4.11	158	+07
-18	19	5.72	190	+38
+; legs 9 to 19 replicate the dukest2canal survey so removed here
+
+;9	8	4.47	288	-16	
+;9	10	2.97	152	-14	
+;10	11	8.70	186	0
+;11	12	2.69	142	+03	
+;12	13	1.09	237	+02
+;13	14	4.42	188	0
+;14	15	5.05	197	+11
+;15	16	8.42	211	+04
+;16	17	3.34	203	-48
+;17	18	4.11	158	+07
+;18	19	5.72	190	+38
 
 *data passage station left right up down
 
@@ -47,16 +49,16 @@
 7	1.2	0.7	0.1	2	; r ceiling before junction
 8	-	-	-	-	; junction lp from old survey of BL & JT
 
-9	-	-	-	-	; l wall NEW
-10	-	-	-	-	; l wall original
-11	-	-	-	-	; r wall original
-12	-	-	-	-	; l wall original
-13	-	-	-	-	; r wall original
-14	-	-	-	-	; l wall original
-15	-	-	-	-	; r wall NEW
-16	-	-	-	-	; r wall NEW
-17	-	-	-	-	; r wall original
-18	-	-	-	-	; l wall original
-19	-	-	-	-	; pitch head spit for whirlpool crawl
+;9	-	-	-	-	; l wall NEW
+;10	-	-	-	-	; l wall original
+;11	-	-	-	-	; r wall original
+;12	-	-	-	-	; l wall original
+;13	-	-	-	-	; r wall original
+;14	-	-	-	-	; l wall original
+;15	-	-	-	-	; r wall NEW
+;16	-	-	-	-	; r wall NEW
+;17	-	-	-	-	; r wall original
+;18	-	-	-	-	; l wall original
+;19	-	-	-	-	; pitch head spit for whirlpool crawl
 
 *end canal

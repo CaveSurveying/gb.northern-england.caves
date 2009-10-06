@@ -63,11 +63,13 @@
 
 ;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
 *equate allabovewellpitch.AboveWellPitch2.4 Streamway.Streamway3.024 
+*equate allabovewellpitch.AboveWellPitch2.4 DukeStreet.ropepitch.101 
 
 ;Equate BoltonExtentions
 *equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
 
 ;Equate DukeStreet
 *equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
+*equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.25
  
 *end Ireby

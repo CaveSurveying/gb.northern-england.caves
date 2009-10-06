@@ -4,14 +4,23 @@
 
 *export DukeStreet1.059
 *export DukeStreet1.073
+*export ropepitch.101
+*export whirlpool.41
 
 *Include DukeStreet1
 *Include DukeStreetDigs
-*Include Whirlpool1
+;*Include Whirlpool1
+*Include dukest1resurvey2009
+*Include ropepitch
+*Include whirlpool
 
+*equate DukeStreet1.073 dukest1resurvey2009.1	;connect sump end of second survey of Duke St 1 in 2009 to ray's original survey
+*equate DukeStreet1.059 dukest1resurvey2009.21	;connect upstream end of second survey of Duke St 1 in 2009 to ray's original survey
+*equate ropepitch.1 dukest1resurvey2009.21
+*equate whirlpool.6x dukest1resurvey2009.6
 
 *equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
-*equate Whirlpool1.001 DukeStreet1.069		;Start of Whirlpool off Duke Street
+;*equate Whirlpool1.001 DukeStreet1.069		;Start of Whirlpool off Duke Street
 
 
 *end DukeStreet
