@@ -9,6 +9,7 @@
 *export 020
 *export 059
 
+*export 021a ; makeconnect
 
 *calibrate compass	+6.0
 

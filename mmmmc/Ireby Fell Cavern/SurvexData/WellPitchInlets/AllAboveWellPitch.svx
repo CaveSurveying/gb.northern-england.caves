@@ -4,7 +4,7 @@
 
 *include abovewellpitch
 *include abovewellpitch2
-*include adultererspassage
+*include AdulterersPassage
 
 *equate abovewellpitch.8a abovewellpitch2.8a
 *equate abovewellpitch.34 abovewellpitch2.8

@@ -32,5 +32,6 @@
 *equate jupiter2irebyone.43 dukest2tocanal.43
 *equate triplecreekaven.97 blissfulcreek.97
 *equate canal.8 dukest2tocanal.22
+*equate canal.19 dukest2tocanal.25
 
 *end Ireby2

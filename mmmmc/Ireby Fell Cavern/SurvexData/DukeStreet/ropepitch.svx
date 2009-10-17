@@ -4,7 +4,8 @@
 
 *begin ropepitch
 
-*export 104 1 101
+*export 104 1 101 105 
+*export 42 ; makeconnect
 
 *title "Rope Pitch"
 *date 2009.06.28
@@ -15,7 +16,9 @@
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
+; account for the fact we were using a badly calabrated SAP, so we should favour the 1999 Ray Duffy survey
 *sd compass 10 degrees
+*sd clino 10 degrees
 
 ; USED STN NO.S 1-6 TWICE SO INITIAL STN.S 1-6 RENUMBERED AS 1 IS 101 UP TO 6 IS 106
 

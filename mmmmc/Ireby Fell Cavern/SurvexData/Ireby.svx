@@ -35,7 +35,7 @@
 *include "BoltonExtentions\BoltonExtentions"		;Bolton Extentions
 
 ;Include WellPitchInlets 		
-*include "WellpitchInlets\AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
+*include "WellPitchInlets\AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
 
 ;Include Duke Street\Duke Street Digs\Whirlpool		
 *Include "DukeStreet\DukeStreet"			;Duke Street/Whirlpool/Digs
@@ -62,8 +62,14 @@
 *equate Streamway.Streamway1.022 DingDongBellPitches.022
 
 ;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
-*equate allabovewellpitch.AboveWellPitch2.4 Streamway.Streamway3.024 
-*equate allabovewellpitch.AboveWellPitch2.4 DukeStreet.ropepitch.101 
+*equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
+
+; connection on the old pitchhead bolt
+*equate Streamway.Streamway3.024 DukeStreet.ropepitch.105 
+
+; connection partway along the ropepitch survey (with bad calibrated SAP) to tie to the Ray Duffy survey and keep the two in line
+*equate Streamway.Streamway4.021a DukeStreet.ropepitch.42 ; makeconnect 
+
 
 ;Equate BoltonExtentions
 *equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
