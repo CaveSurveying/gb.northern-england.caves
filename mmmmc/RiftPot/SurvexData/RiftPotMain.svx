@@ -1,0 +1,27 @@
+;Title: Rift Pot
+
+;Date Created 25/10/2009 by Neil Pacey
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Rift Pot files
+
+*begin Rift
+
+;Include Temple Of Doom Extensions			
+*Include TempleRiftPot1
+*Include RiftPot2
+
+
+;-------------------------------------------------------------------------------------------
+;Equate Statements
+*Equate RiftPot1.72 RiftPot2.72
+
+
+;Equate Temple Of Doom Extentions
+
+ 
+*end Rift
