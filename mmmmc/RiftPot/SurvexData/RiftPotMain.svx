@@ -12,13 +12,13 @@
 *begin Rift
 
 ;Include Temple Of Doom Extensions			
-*Include TempleRiftPot1
-*Include RiftPot2
+*Include "TempleOfDoom\RiftPotTOD1"
+*Include "TempleOfDoom\RiftPotTOD2"
 
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
-*Equate RiftPot1.72 RiftPot2.72
+*Equate RiftPotTOD1.72 RiftPotTOD2.72
 
 
 ;Equate Temple Of Doom Extentions
