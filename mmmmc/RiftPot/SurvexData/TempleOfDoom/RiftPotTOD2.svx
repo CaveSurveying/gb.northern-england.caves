@@ -2,7 +2,7 @@
 ; Cave:	Rift Pot
 ; Rift Pot - Stn 72 to Stn 149 - Start of Temple of Doom Extensions
 
-*begin RiftPot2
+*begin RiftPotTOD2
 *export 72 77 149
 
 *title "Rift Pot - Temple Of Doom"
@@ -97,7 +97,7 @@
 
 	
 
-*end RiftPot2
+*end RiftPotTOD2
 
 
 

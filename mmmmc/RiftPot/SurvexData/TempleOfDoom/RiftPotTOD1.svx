@@ -2,7 +2,7 @@
 ; Cave:	Rift Pot
 ; Rift Pot - Unadulterated Pleasure - NCC 1997 Ext - Near Junction with Slipstream
 
-*begin RiftPot1
+*begin RiftPotTOD1
 *export 2 72
 
 *title "Rift Pot - Unadulterated Pleasure"
@@ -160,7 +160,7 @@
 71	0	3	1.8	1.7
 	
 
-*end RiftPot1
+*end RiftPotTOD1
 
 
 
