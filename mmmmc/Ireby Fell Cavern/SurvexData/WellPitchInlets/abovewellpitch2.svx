@@ -16,6 +16,10 @@
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
+; Problems - abovewellpitchlink has connection from adulterers level to boulder shelf and streamway 
+; that shows the connection at top of well pitch between this survey and ropepitch survey is poor
+; survey leg 6 5 pushes the top out of line with the passage below.
+
 ;from	to	tape	compass	clino	remarks
 2	1	0.90	092	+27
 2	3	1.78	004	-11

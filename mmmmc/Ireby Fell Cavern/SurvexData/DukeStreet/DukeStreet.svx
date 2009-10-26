@@ -8,11 +8,11 @@
 *export ropepitch.105
 *export whirlpool.41
 
-*export ropepitch.42 ; makeconnect
+*export ropepitch.42 ; force connection between Duffy data and Becka's broken pony data
+*export ropepitch.63 ; P-hanger on boulder shelf above rope pitch
 
 *Include DukeStreet1
 *Include DukeStreetDigs
-;*Include Whirlpool1
 *Include dukest1resurvey2009
 *Include ropepitch
 *Include whirlpool

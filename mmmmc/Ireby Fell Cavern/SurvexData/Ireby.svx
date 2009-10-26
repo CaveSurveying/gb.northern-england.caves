@@ -1,5 +1,9 @@
 ;Title: Ireby Fell Caverns
 
+; the connections between streamway around well pitch and adupterer's level is totally screwed
+; also, entrance to NE inlet has not yet been found
+; the back surveys from bolton extensions do not connect properly
+
 ;Date Created 12/12/2006 by Neil Pacey
 
 ;-------------------------------------------------------------------------------------------
@@ -62,14 +66,17 @@
 *equate Streamway.Streamway1.022 DingDongBellPitches.022
 
 ;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
-*equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
+; problems connecting across well pitch
+;;*equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
 
 ; connection on the old pitchhead bolt
-*equate Streamway.Streamway3.024 DukeStreet.ropepitch.105 
+; problems connecting across well pitch, shown by this more correct connection between the streamway and adulterers level
+;;*equate Streamway.Streamway3.024 DukeStreet.ropepitch.105 
+*equate DukeStreet.ropepitch.63 allabovewellpitch.abovewellpitchlink.2P ; P-hanger on boulder shelf above rope pitch
 
 ; connection partway along the ropepitch survey (with bad calibrated SAP) to tie to the Ray Duffy survey and keep the two in line
-*equate Streamway.Streamway4.021a DukeStreet.ropepitch.42 ; makeconnect 
-
+; this is at the junction with the dam
+*equate Streamway.Streamway4.021a DukeStreet.ropepitch.42 
 
 ;Equate BoltonExtentions
 *equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions

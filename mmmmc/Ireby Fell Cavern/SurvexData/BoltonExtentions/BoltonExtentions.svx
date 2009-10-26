@@ -6,7 +6,8 @@
 ;*equate BoltonExtentions.014	Streamway4.020
 
 *begin	BoltonExtentions
-*export 014
+
+*export 014  ; connected to Streamway4.20 as stations 15 and 16 do not appear to reach the obvious junction by the dam
 
 *calibrate compass	+3.00
 *calibrate clino	-01.0

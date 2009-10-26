@@ -1,6 +1,7 @@
 *begin allabovewellpitch
 
 *export AboveWellPitch2.4
+*export abovewellpitchlink.2P
 
 *include abovewellpitch
 *include abovewellpitch2
@@ -9,5 +10,6 @@
 *equate abovewellpitch.8a abovewellpitch2.8a
 *equate abovewellpitch.34 abovewellpitch2.8
 *equate adultererspassage.21 abovewellpitch.21
+*equate abovewellpitchlink.X23 abovewellpitch.23
 
 *end allabovewellpitch
