@@ -1,0 +1,34 @@
+; Locn:	Masongill
+; Cave:	Rift Pot
+; Rift Pot - side passage beyond Temple of Doom at station 99
+
+*begin RiftPotTOD5
+*export x99
+
+*title "Rift Pot - side passage beyond Temple of Doom at station 99"
+*date 2009.10.24
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*Instrument Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+36	x99	0.90	138	+75	; instruments Becka's pony
+36	37	7.08	250	0	; instruments Julian on tandem only
+37	38	4.60	230	-07	; 048	+07
+38	39	3.00	236	0	; instruments Becka's pony and estimated final leg
+
+*data passage station left right up down ignoreall
+
+x99	0	2	0.5	1	riftpotTOD2 numbered station 99 in crawls beyond Temple of Doom
+36	0.5	2	1.6	0	floor
+37	0.7	0.2	0	0.4	roof
+38	0.5	0.5	0.2	0	floor unmarked
+39	0.5	0.5	0.1	0.1	unmarked
+
+*end RiftPotTOD5
+
+
+

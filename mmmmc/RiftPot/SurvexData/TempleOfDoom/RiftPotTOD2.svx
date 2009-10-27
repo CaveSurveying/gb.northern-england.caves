@@ -3,7 +3,7 @@
 ; Rift Pot - Stn 72 to Stn 149 - Start of Temple of Doom Extensions
 
 *begin RiftPotTOD2
-*export 72 77 149
+*export 72 77 99 102 149
 
 *title "Rift Pot - Temple Of Doom"
 *date 2009.10.25
@@ -92,7 +92,7 @@
 147     148     4.481   96.87   -1.24   ;Stacked deads from original Temple of Doom   
 148     149     2.076   75.92   11.51   ;Numbered station on LH Side.   
 
-*data passage station left right up down
+*data passage station left right up down  ignoreall
 
 72	1.5	3.2	2.5	1.1	;Numberd 72 on Rh wall (3.2 to back of alcove)
 73	1.5	0	2	1.3	

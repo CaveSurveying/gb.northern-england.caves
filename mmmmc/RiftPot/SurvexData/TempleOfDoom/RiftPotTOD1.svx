@@ -3,7 +3,7 @@
 ; Rift Pot - Unadulterated Pleasure - NCC 1997 Ext - Near Junction with Slipstream
 
 *begin RiftPotTOD1
-*export 2 72
+*export 2 65 67 72
 
 *title "Rift Pot - Unadulterated Pleasure"
 *date 2009.10.03
@@ -87,7 +87,7 @@
 70	71	6.90	054	-2
 71	72	7.24	144	-6
 
-*data passage station left right up down
+*data passage station left right up down  ignoreall
 
 3	0	0.4	0.1	0.3
 4	0	0.4	0.3	0.6
