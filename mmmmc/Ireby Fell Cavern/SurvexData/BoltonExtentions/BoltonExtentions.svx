@@ -30,4 +30,10 @@
 014	015	12.00	065.0	 00.0
 015	016	02.10	160.0	+30.0
 
-*end	BoltonExtentions
+; Comments added by Becka after survey trip with Julian on 25/10/09
+; Extensions go off very low on left taking all the water flowing out of East inlet and other inlet by concrete dam
+; Extensions go off just before stoop/crawl starts, about 15m before reach concrete dam
+; Reading from boulder at start of stoop/crawl looking down passage towards dam is 063 compass -01 clino
+; Reading from same boulder at start of stoop/crawl looking into Bolton extensions is 349 compass -15 clino
+
+*end	BoltonExtentions   

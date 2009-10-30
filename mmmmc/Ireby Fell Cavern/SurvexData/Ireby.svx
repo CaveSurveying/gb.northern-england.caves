@@ -67,12 +67,12 @@
 
 ;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
 ; problems connecting across well pitch
-;;*equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
+; *equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
 
 ; connection on the old pitchhead bolt
 ; problems connecting across well pitch, shown by this more correct connection between the streamway and adulterers level
-;;*equate Streamway.Streamway3.024 DukeStreet.ropepitch.105 
-*equate DukeStreet.ropepitch.63 allabovewellpitch.abovewellpitchlink.2P ; P-hanger on boulder shelf above rope pitch
+; *equate Streamway.Streamway3.024 DukeStreet.ropepitch.105 
+*equate DukeStreet.ropepitch.63 allabovewellpitch.adultererropewelllink.2 ; P-hanger on boulder shelf above rope pitch
 
 ; connection partway along the ropepitch survey (with bad calibrated SAP) to tie to the Ray Duffy survey and keep the two in line
 ; this is at the junction with the dam

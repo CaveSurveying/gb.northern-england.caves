@@ -2,16 +2,6 @@
 ; Cave:	Ireby Fell Cavern
 ; Adulter's and Adulter's Bypass, Aberfan and Cornflake, above Well pitch
 
-*begin abovewellpitchlink
-*export 2P, X23
-*date 2009.10.25
-*team Notes Becka
-*team Insts Julian
-1   X23   2.30    252    +45 ; short leg by Becka on her own using Pony clino (Pony compass:254)
-1   2P    14.23   134    -54 ; pony: 121 -51
-2P  3     4.80    271    -01 ; pony: 277  0
-*end abovewellpitchlink
-
 *begin abovewellpitch
 *export 8a 21 31 32 33 34
 *export 23 ; near final bolt on traverse

@@ -1,15 +1,16 @@
 *begin allabovewellpitch
 
 *export AboveWellPitch2.4
-*export abovewellpitchlink.2P
+*export adultererropewelllink.2
 
 *include abovewellpitch
 *include abovewellpitch2
 *include AdulterersPassage
+*include adultererropewelllink
 
 *equate abovewellpitch.8a abovewellpitch2.8a
 *equate abovewellpitch.34 abovewellpitch2.8
 *equate adultererspassage.21 abovewellpitch.21
-*equate abovewellpitchlink.X23 abovewellpitch.23
+*equate abovewellpitch.23 adultererropewelllink.x23
 
 *end allabovewellpitch

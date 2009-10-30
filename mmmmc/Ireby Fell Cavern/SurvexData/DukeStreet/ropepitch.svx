@@ -4,7 +4,7 @@
 
 *begin ropepitch
 
-*export 104 1 101 105 
+*export 44 104 1 101 105 
 *export 42 ; forced connection between Duffy data and Becka's bad pony data
 *export 63 ; P-hanger on boulder shelf above rope pitch
 
@@ -107,7 +107,7 @@
 
 ; ALL LR GIVEN COMING OUT OF CAVE (so in the direction most of the survey went, starting at Duke St 1 and coming out_ 
 
-1	-	-	0.8	1.2	; cow tag at ?ne inlet?
+1	-	-	0.8	1.2	; cow tag at top end of Duke St 1 where two digs go off
 2	1	0.4	2	1.2	; r wall start of passage
 3	0.4	1	1.6	1.2	; l wall
 4	0.2	0.7	2	1.4	; l wall
