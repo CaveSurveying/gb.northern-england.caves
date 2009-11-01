@@ -18,7 +18,7 @@
 *Include MainStreamway4
 *Include MainStreamway5
 *Include MainStreamway6
-*Include MainStreamway7
+*Include Mainstreamway7
 *Include MainStreamway8
 
 *equate MainStreamway1.12 MainStreamway2.12

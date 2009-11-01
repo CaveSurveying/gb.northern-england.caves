@@ -15,7 +15,7 @@
 
 *begin	NottsII
 
-*Include "committeePot\CommitteePot"	;Entrance to Mincemeat Aven
+*Include "CommitteePot\CommitteePot"	;Entrance to Mincemeat Aven
 *Include "Inlet13\Inlet13"		;Mincemeat Aven to MainStreamway
 *Include "Inlet17\Inlet17"
 *Include "MainStreamway\MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
