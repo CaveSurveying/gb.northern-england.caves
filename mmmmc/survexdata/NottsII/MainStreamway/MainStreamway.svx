@@ -1,0 +1,32 @@
+;cave Notts II
+;Title: Notts II-Mainstreamway (Downstream Notts II Sump to Upstream Notts II Sump)
+
+*begin MainStreamway
+
+*export Mainstreamway1.3
+*export Mainstreamway2.12
+*export Mainstreamway3.33
+*export Mainstreamway3.55	;Tag at Showerbath
+*export MainStreamway5.019	;Tag at Dome Inlet
+*export MainStreamway8.10	;Start of Paaschendale
+
+
+
+*Include MainStreamway1
+*Include MainStreamway2
+*Include MainStreamway3
+*Include MainStreamway4
+*Include MainStreamway5
+*Include MainStreamway6
+*Include Mainstreamway7
+*Include MainStreamway8
+
+*equate MainStreamway1.12 MainStreamway2.12
+*equate MainStreamway2.1 MainStreamway3.GTTag
+*equate MainStreamway3.55 MainStreamway4.024
+*equate MainStreamway4.030 MainStreamway5.001
+*equate MainStreamway5.019 MainStreamway6.001
+*equate Mainstreamway6.036 Mainstreamway7.0
+*equate MainStreamway7.12 MainStreamway8.0
+
+*end MainStreamway
