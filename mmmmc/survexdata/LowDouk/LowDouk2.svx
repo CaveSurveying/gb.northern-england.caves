@@ -1,4 +1,4 @@
-*begin LowDouk_2
+*begin LowDouk2
 *export 022 001
 *Title "Low Douk"
 
@@ -33,6 +33,6 @@
 
 	
 
-*end LowDouk_2
+*end LowDouk2
 
 

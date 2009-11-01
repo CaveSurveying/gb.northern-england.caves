@@ -7,6 +7,7 @@
 ; *equate	mg3a.024	ss19.001
 
 *begin	mg3a
+*export 001 024
 
 *calibrate compass	+3.50
 *calibrate clino	+0.50

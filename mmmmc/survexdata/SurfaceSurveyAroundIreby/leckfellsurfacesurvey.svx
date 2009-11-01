@@ -1,6 +1,12 @@
 ;Date:	28/10/09 created overall surface survey file (Becka)
 
-*begin	surfacesurvey
+*begin	leckfellsurfacesurvey
+
+*export LowDoukEntranceTag
+
+*flags surface
+
+*equate LowDoukEntranceTag mg1.038b
 
 ;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
 *include mg1.svx
@@ -13,7 +19,10 @@
 
 *equate	mg1.008a	mg2.032
 *equate	mg1.032a	mg3a.001	
-*equate	mg2.001		Ks3.001
-*equate	mg3a.024	ss19.001
 
-*end	surfacesurvey
+; don't know where these connectsurfacesurveysurfacesurvey
+;*equate	mg2.001		Ks3.001
+;*equate	mg3a.024	ss19.001
+
+
+*end	leckfellsurfacesurvey

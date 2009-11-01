@@ -8,6 +8,8 @@
 
 *begin	mg1
 
+*export 008a 032a 038b
+
 *calibrate compass	+5.17
 
 *fix	001	67929	76660	348

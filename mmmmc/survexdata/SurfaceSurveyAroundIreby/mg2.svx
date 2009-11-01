@@ -8,6 +8,8 @@
 
 *begin	mg2
 
+*export 001 032
+
 *calibrate compass	+2.50
 ;*calibrate compass	+5.17
 
