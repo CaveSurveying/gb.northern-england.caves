@@ -1,0 +1,19 @@
+;Date:	28/10/09 created overall surface survey file (Becka)
+
+*begin	surfacesurvey
+
+;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
+*include mg1.svx
+
+;Cave:Surface survey from Trig Point on Tow Scar to link with MG1 surface survey	
+*include mg2.svx
+
+;Cave:	Surface survey of New Rift Pot via Ireby Fell to Notts pot
+*include mg3a.svx
+
+*equate	mg1.008a	mg2.032
+*equate	mg1.032a	mg3a.001	
+*equate	mg2.001		Ks3.001
+*equate	mg3a.024	ss19.001
+
+*end	surfacesurvey
