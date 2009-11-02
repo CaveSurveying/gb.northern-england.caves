@@ -12,7 +12,6 @@
 
 *calibrate compass	+5.00
 
-*fix	001	67367.78 77343.61 389.00 ;ev.mg3a.012a
 
 001	002	00.70	180.0	+31.0	;st001=tag hole in rock right of entrance tube
 002	003	06.05	318.0	-52.0	;down tube

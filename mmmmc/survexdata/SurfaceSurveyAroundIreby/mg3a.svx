@@ -8,13 +8,10 @@
 
 *begin	mg3a
 *export 001 024
+*export 008 016 012a
 
 *calibrate compass	+3.50
 *calibrate clino	+0.50
-
-*fix 008 67682.0 77228.0 408.0
-*fix 016 67259.0 77374.0 402.36
-*fix 024 67114.37 77803.73 376.35 ;ev.mg3a.024 Notts ent.
 
 001	002	19.20	210.0	+17.5	;st001 = new rift pot tag up high on left facing into cave
 002	003	50.32	300.5	-04.0
