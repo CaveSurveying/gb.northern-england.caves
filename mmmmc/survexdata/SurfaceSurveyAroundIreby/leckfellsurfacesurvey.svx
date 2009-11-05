@@ -4,11 +4,26 @@
 
 *export LowDoukEntranceTag
 *export IrebyEntranceTag
+*export RiftPotEntranceTag      ; not used yet
+*export NottsPotEntrancePhanger ; not used yet
+*export MarbleStepsEntranceTag  ; not used yet
+*export LargePotTag             ; not used yet
 
 *flags surface
 
-*equate LowDoukEntranceTag mg1.038b
-*equate IrebyEntranceTag mg3a.012a
+*equate LowDoukEntranceTag      mg1.038b
+*equate IrebyEntranceTag        mg3a.012a
+*equate RiftPotEntranceTag      mg3a.001
+*equate NottsPotEntrancePhanger mg3a.024
+*equate MarbleStepsEntranceTag  mg1.026a
+*equate LargePotTag             mg1.014a
+
+*entrance LowDoukEntranceTag
+*entrance IrebyEntranceTag
+*entrance RiftPotEntranceTag      
+*entrance NottsPotEntrancePhanger 
+*entrance MarbleStepsEntranceTag  
+*entrance LargePotTag            
 
 ;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
 *include mg1
@@ -19,13 +34,15 @@
 ;Cave:	Surface survey of New Rift Pot via Ireby Fell to Notts pot
 *include mg3a
 
-*fix mg3a.008 67682.0 77228.0 408.0     ; head height on stile
-*fix mg3a.016 67259.0 77374.0 402.36    ; rock top at junction of wall and fence to shooting hut on Leck Road
-*fix mg3a.024 67114.37 77803.73 376.35  ;ev.mg3a.024 first P hanger at Notts Pot entrance
-*fix mg3a.012a 67367.78 77343.61 389.00 ; tag hole on right of scaffold bar in top rock(tag missing)
+*fix mg1.001    67929     76660	    348     ; top of gate-post near stile
+
+*fix mg3a.008   67682.0   77228.0   408.0   ; head height on stile
+*fix mg3a.016   67259.0   77374.0   402.36  ; rock top at junction of wall and fence to shooting hut on Leck Road
+*fix mg3a.024   67114.37  77803.73  376.35  ; first P hanger at Notts Pot entrance
+*fix mg3a.012a  67367.78  77343.61  389.00  ; tag hole on right of scaffold bar in top rock(tag missing)
 
 *equate	mg1.008a	mg2.032
-*equate	mg1.032a	mg3a.001	
+*equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
 
 ; don't know where these connectsurfacesurveysurfacesurvey
 ;*equate	mg2.001		Ks3.001
