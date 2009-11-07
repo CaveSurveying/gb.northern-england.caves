@@ -1,0 +1,17 @@
+;Cave:	Notts Pot-Lower Streamway
+
+;Date:	18/07/08
+
+
+*begin	NottsPot
+;*export 001
+;*export 023
+
+*include NottsPot01
+*include NottsPot02
+
+;----------------------------------------------------------------------------------------------
+
+*equate NottsPot02.001 NottsPot01.035
+
+*end	NottsPot
