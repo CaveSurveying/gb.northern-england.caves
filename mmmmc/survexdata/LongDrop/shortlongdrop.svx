@@ -11,9 +11,8 @@
 
 *Title "Short Long Drop"
 
-*export 1
-*export 9
-*entrance	9
+*export Entrance
+*equate Entrance 9
 
 ;Station		Tape	Compass	Clino	Notes and LRUD
 
