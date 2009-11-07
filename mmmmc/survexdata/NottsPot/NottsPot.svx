@@ -4,8 +4,11 @@
 
 
 *begin	NottsPot
-;*export 001
-;*export 023
+*export EntrancePhanger ; P Bolt(furthest of 2)
+*export SumpTag
+
+*equate EntrancePhanger  NottsPot01.001
+*equate SumpTag          NottsPot02.022
 
 *include NottsPot01
 *include NottsPot02

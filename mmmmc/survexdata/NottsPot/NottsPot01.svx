@@ -7,8 +7,9 @@
 *begin	NottsPot01
 
 *export 035
-*export 001
-*fix	001	67105.25	77789.08	373.39
+*export 001 ; P Bolt(furthest of 2)
+
+
 *calibrate compass	+5.00
 
 001	002	02.30	353.0	-17.0	;ST001=P Bolt(furthest of 2)

@@ -6,7 +6,7 @@
 
 *begin	NottsPot02
 *export 001
-;*export 023
+*export 022
 
 *calibrate compass	+5.00
 
