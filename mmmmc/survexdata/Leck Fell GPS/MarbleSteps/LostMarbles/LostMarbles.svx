@@ -1,0 +1,17 @@
+;Cave:	Marble Steps Area
+
+
+*begin LostMarbles
+*export lostmarbles1.001 lostmarbles1.019 lostmarbles2.001 lostmarbles3.001 lostmarbles2.022
+
+
+*include LostMarbles1
+*include LostMarbles2
+*include LostMarbles3
+;*include SurfaceMarbleSteps
+
+;*equate LostMarbles1.001 SurfaceMarbleSteps.008 
+*equate LostMarbles1.019 LostMarbles2.001 
+*equate LostMarbles2.022 LostMarbles3.001
+
+*end LostMarbles

@@ -1,0 +1,105 @@
+;Cave:	Leck Fell GPS
+;Surveyors:	Richard Bendall/Dave Ramsay
+;Date:	21/11/05
+;Instruments:	Garmin etrex Vista C
+
+
+*begin	LFGPS
+*export 001
+*export 002
+*export 003
+*export 004
+*export 005
+*export 006
+*export Bruntsgill
+
+*fix	001	66668	78310	319	;Committee Pot Entrance CC 13/11/05
+*fix	002	66885	78199	352	;Slime Aven Junctuion CC 13/11/05
+*fix	003	66913	78210	357	;Trunk Junction CC 13/11/05
+*fix	004	66897	78217	352	;Stall Corner CC 13/11/05
+*fix	005	66875	78245	349	;Ill Bill Aven CC 13/11/05
+*fix	006	66668	78306	319	;Committee Pot Entrance RB 21/11/05
+*fix	007	66710	78366	330	;Kango Hole RB 21/11/05
+*fix	008	66760	78401	335	;Banged Hole wood cover RB 21/11/05
+*fix	009	66791	78413	337	;Rift feature near wall RB 21/11/05
+*fix	010	66811	78474	337	;Big Shake near wall old dig? RB 21/11/05
+*fix	011	66843	78513	346	;Deep hole near Gate RB 21/11/05
+*fix	012	66916	78608	356	;Starting Handle Hole RB 21/11/05
+*fix	013	66974	78643	359	;Bills wet sink RB 21/11/05
+*fix	014	67074	78649	356	;Lost John's  Ent Survey Tag RB 21/11/05
+*fix	015	67088	78628	365	;Rough Pot N edge of hole RB 21/11/05
+*fix	016	67092	78417	362	;Lost Pot? RB 21/11/05
+*fix	017	67098	78362	362	;Boxhead Pot Ent ring RB 21/11/05
+*fix	018	67057	78301	359	;Old Steel Drum Dig? RB 21/11/05
+*fix	019	66913	78208	353	;Stall Corner RB 21/11/05
+*fix	020	66896	78214	351	;Trunk Junction	RB 21/11/05
+*fix	021	66874	78242	347	;Ill Bill Aven RB 21/11/05
+*fix	022	66885	78196	350	;Slime Aven Junction RB 21/11/05
+*fix	023	66874	78249	349	;Target RB 03/01/06
+
+*fix	024	66913	78270	346	;Big Shake, Rat Trap Hole RB 21/11/05
+*fix	025	66904	78188	352	;Hole with bedrock nr Slime Aven RB 21/11/05
+*fix	026	67102	77801	375	;Notts Pot, bridge n of ent spit RB 21/11/05
+*fix	027	66947	77981	364	;Daylight Aven???  Shake RB 21/11/05
+
+*fix	I01	66168	78734	278	;Active sink with pipe to collect water
+*fix	I02	66115	78628	269
+*fix	I03	66114	78609	271
+*fix	I04	66084	78588	270
+*fix	I05	66124	78507	273
+*fix	I06	66134	78438	272
+*fix	IO7	65789	77865	244	;Old resurgence?
+*fix	I08	65915	77867	248	;Active Sink
+
+*fix	Whitches 66013	80006	214	;Whitches cave
+*fix	Shortdrop 67030	78934	346	;Shortdrop fence post near stile with tag
+*fix	Gavel	66640	79024	343	; Gavel Stile
+*fix	Fenwick	66583	79341	328	;Fenwick tag at entrance
+*fix	Eyehole	66829	79192	337	;Eyehole on bridge
+*fix	DeathsHead 66784 79159	336	;Deathshead
+*fix	Bigmeanie 66676	79179	325	;Bigmeanie
+*fix	Whittle	65939	79913	207	;Whittle Cave resurgence-needs another look with capping gear.
+*fix	Longdrop 66959	79156	346	;Longdrop from Pete Hall's data
+*fix	HumblePot 67064	79131	346	;Humble Pot from Pete Hall's data
+*fix	ByGeorge 67114 79689	338	;ByGeorge pot from Pete Hall's data
+*fix	TipTop	66836	79263	340	;TipTop dig GPS RGB 15/01/07
+*fix	WeePot	66565	79286	354	;Wee Pot GPS RGB 15/01/07
+*fix	Bruntsgill 66734 79377	364	;Bruntsgill pot III active sink RGB 15/01/07
+Bruntsgill 991 45 - down ;guess for illustration only
+*fix	Bumbling 66949	79284	343	;Bumbling Hole GPS RGB 07/02/07
+*fix StumblingHole 67077 79182 346	;Stumbling Hole GPS rgb 06/09/07
+
+*fix	Rumblingbeckcave 67173	79128	357 ;GPS RGB 13/09/07
+*fix	Rumblingbeckcave2 67163	79127	357 ;GPS RGB 13/09/07
+*fix	RBCSS1	67151	79136	358	;GPS RGB 13/09/07
+*fix	RBCSS2	67106	79136	357	;GPS RGB 13/09/07
+*fix	RBCSS3	67091	79144	354	;GPS RGB 13/09/07
+*fix	RBCSS4	67076	79144	353	;GPS RGB 13/09/07
+*fix	RBCSS5	67070	79145	353	;GPS RGB 13/09/07
+*fix	RBCSS6	67053	79150	353	;GPS RGB 13/09/07
+*fix	RBCSS7	67036	79164	351	;GPS RGB 13/09/07 Drafts
+*fix	RBCSS8	67024	79174	351	;GPS RGB 13/09/07
+*fix	Deaddob	66444	78077	294	;GPS RGB 17/09/07 Dead Dobbin Pot
+deaddob ddb	56 - down	;guess for illustration only
+*fix	RHNpost	67108	79110	354	;GPS RGB 20/09/07
+*fix	RHSpost	67131	79104	353	;GPS RGB 17/09/07
+*fix	LazloRLP	66795	78441	334	;GPS RGB 06/10/07
+*fix	LF01	66696	78871	340	;GPS RGB 05/10/07
+*fix	LF02	66758	78899	342	;GPS RGB 05/10/07
+*fix	LF03DFT	66667	79028	333	;GPS RGB 05/10/07
+*fix	LF04DFT	66280	78657	293	;GPS RGB 05/10/07
+*fix	LF05	66321	78708	300	;GPS RGB 05/10/07
+
+*fix	snkbywall	67287	79367	374	;Sink by LF house wall 23/12/07RGB
+*fix	sinkbywal2	67326	79287	385	;Sink by LF house wall ACTIVE Bumbling candidate 23/12/07RGB
+*fix	sinknrwall	67256	79336	372	;sink near LF house wall 23/12/07RGB
+*fix	sink3	67238	79186	378	;23/12/07RGB
+*fix	shake3	67275	79190	380	;23/12/07RGB
+*fix	shake4	67305	79200	380	;23/12/07RGB
+*fix	shake5	67312	79212	384	;23/12/07RGB
+*fix	shake6	67314	79225	383	;23/12/07RGB
+*fix	shake7	67303	79230	384	;23/12/07RGB
+*fix	shake8	67309	79240	385	;23/12/07RGB
+*fix	shake9	67300	79246	384	;23/12/07RGB
+*fix	MarbleSteps	67992	77068	382	;Entrance tag?
+*end	LFGPS

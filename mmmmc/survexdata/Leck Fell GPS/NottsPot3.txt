@@ -1,0 +1,36 @@
+;Cave:	Notts Pot-Entrance Stuff
+;Surveyors:	D.Ramsay/E Martindale/R Bendall
+;Date:	08/09/08
+;Instruments:	RRCPC Kit 2
+;*equate NottsPot3.022 N01.001 
+
+*begin	NottsPot3
+*export 022
+;*export 023
+
+;*calibrate compass	+5.00
+
+001	002	4.13	335	+3	;Top of Boulder
+002	003	7.97	222	-2	
+003	004	3.74	276	-12
+004	005	1.80	234 	-17DOWN	
+005	006	4.42	327	+3
+006	007	8.65	270	-4
+007	008	3.38	188	+4
+008	009	3.43	238	+13
+009	010	3.36	283	-12
+006	011	4.37	022	-53
+011	012	4.00	350	+2
+012	013	2.42	046	+40
+013	014	5.13	023	+33
+014	015	2.51	114	+40
+015	016	3.08	050	+3
+016	017	2.09	326	+44
+017	018	0.85	105	0.00
+018	019	4.96	-	up
+019	020	1.95	133	0.00
+020	021	4.40	-	up
+021	022	1.00	233	0.00	;22 is left hand p bolt
+
+
+*end	NottsPot3

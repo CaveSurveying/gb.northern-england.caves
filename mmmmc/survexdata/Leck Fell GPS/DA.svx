@@ -1,0 +1,13 @@
+
+;DayLight Aven
+
+*include DA_1
+*Include DA_2
+*Include DA_3
+
+;-----------------------------------------
+
+*equate DA_1.10b DA_2.10
+*equate DA_2.1 DA_3.1
+
+

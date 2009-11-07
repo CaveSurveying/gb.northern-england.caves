@@ -1,0 +1,51 @@
+;Cave:	HaggGillSink
+;Surveyors:	Dave Ramsay Chris Smith
+;Date:	30/04/06
+;Instruments:	RRCPC Kit 2
+
+
+
+*begin	HaggGillSink
+*entrance 030
+*fix	030	90013 	78289   395
+*Fix	031	89900	78600	388
+
+002	001	6.90	330	+04.0	;stn1 is rock nobble on L 2m above sump
+001	001a	2.00	-	Down	;est leg to sump
+003	002	3.00	311	+01.0	;stn3 is ladder foot
+004	003	5.90	-	DOWN
+005	004	0.65	167	00.0
+005	005a	4.00	311	+01.0	;est leg into rift continuation
+006	005	2.00	-	DOWN
+007	006	2.30	286	-21.0	;Mud floor of middle chamber
+008	007	9.00	285	+05.0
+009	008	4.10	313	+17.0
+010	009	4.60	351	-06.0
+011	010	2.40	250	+20.0
+011	012	8.00	167	+01.0	;stn12 is 0.1m from floor
+012	012a	4.00	167	00.0	;est leg to show upstream inlet
+012	013	3.30	-	UP	;tape data missing estimated from memory
+013	014	0.40	170	00.0	;stn13 top of rock arch
+014	015	2.00	-	UP
+015	016	7.80	173	+05.0
+016	017	6.40	175	00.0	;compass changed from 075 as I remeber no acute bends
+017	018	7.20	180	+10.0
+018	019	6.00	180	00.0
+019	020	6.80	180	00.0
+020	021	5.00	175	+02.0
+021	022	6.20	196	+01.0
+022	023	1.00	-	UP
+023	024	2.50	192	+18.0
+024	025	7.65	189	+19.0
+025	026	3.40	210	+08.0
+026	027	3.75	185	+09.0
+027	028	2.10	186	+01.0
+028	029	5.57	187	+00.5
+029	030	9.50	182	+17.0
+
+
+
+
+
+
+*end	HaggGillSink

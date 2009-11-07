@@ -1,0 +1,207 @@
+
+*include N01
+
+*equate N02.001 N01.035
+*include N02
+
+*include NottsPot3
+*equate NottsPot3.022 N01.001
+
+*include COM
+*equate Com.019 N03.001
+
+*include N03
+*equate N03.025 N04.001
+
+*include N04
+*equate N04.030 N05.001
+
+*include N05
+
+*include N06
+*equate N06.001  N05.019
+;*equate N06.013v N07.000
+
+*include N07
+
+*include N08
+*equate	N08.027a N05.011
+
+*include N08a
+*equate	N08a.000 N05.011
+
+*include N09
+*equate N09.000 N05.019
+
+*include N10
+*equate N10.001 N06.036
+
+*include N2MD
+*equate N2MD.6 OL1.001
+
+*include I16
+*equate I16.I16 I13.30
+
+*include I13
+*equate I13.I13 N03.025
+
+;*include I15
+;*equate	I15.001	I13.18
+
+;*include Inlet17
+
+*include Inlet17_1
+*equate Inlet17_1.1 I13.30
+
+*include Inlet17_2
+*equate Inlet17_1.12 Inlet17_2.12
+
+*include Inlet17_3
+*equate Inlet17_1.33 Inlet17_3.33
+
+;*include Inlet18
+*equate Inlet18_1.000 Inlet17_3.sump3
+
+*Include Inlet18_1
+*equate Inlet18_1.012 Inlet18_2.019
+
+*Include Inlet18_2
+
+
+*include CJ
+*equate CJ.CJ N06.036
+
+
+;*include DA
+
+*include DA_1
+*equate DA_1.10b DA_2.10
+
+*include DA_2
+*equate DA_1.1 usw.8a
+
+*Include DA_3
+*equate DA_2.1 DA_3.1
+
+
+*include I52
+*equate I52.52 CJ.52
+
+*include in5ext
+*equate in5ext2.013 in5ext.016
+*equate in5ext2.016 in5ext.019
+*equate in5ext2.001 in5ext.001
+*equate in5ext2.015i i52.62
+*include in5ext2
+
+*include USW
+*equate USW.USW CJ.12
+
+*include PAS1
+*equate	PAS1.PAS USW.10
+
+*include pas2
+*equate PAS2.14 PAS1.14
+
+*include SHO
+*equate  sho.8  n05.001
+
+*include TOT
+*equate TOT.24 PAS1.14a
+
+*include Poppy
+*equate Poppy.34 TOT.46
+
+*include Poppy2
+*equate Poppy.1 Poppy2.1
+
+*include WFI
+*equate WFI.1 PAS1.1
+
+*include MMA
+*equate N03.010a MMA.17
+
+*include GOR
+*equate	GOR.1 N05.019
+
+*include OL1
+*equate	OL1.001	N06.013v
+*equate OL1.009 N07.007
+
+*include OL2
+*equate	OL2.028	OL1.028
+
+*include OL3
+*equate	OL3.001	OL1.028
+
+*include OL4
+*equate OL4.101 OL3.306
+
+;*include OL4a
+;*equate	OL4a.101 OL3.306
+
+*include OL5
+*equate	OL4.018	OL5.013
+
+*include Lj1
+;*include Lj01
+;*include Lj02
+;*include Lj03
+;*include Lj04
+;*include Lj05
+;*include Lj06
+;*include Lj07
+;*include Lj08
+;*include Lj09
+;*include Lj10
+;*include Lj11
+;*include Lj11a
+;*include Lj12
+;*include box
+;*include Box1
+;*include Box2
+;*include Box3
+;;*include Box4
+;*include Box5
+
+*include LFGPS
+*equate LFGPS.006 Com.001
+
+*include Surface
+*equate Surface.001 Com.001
+
+*include BSRS
+*equate BSRS.029 N08.029
+
+*include If1
+
+*include BumblingHole
+
+*include eyeholes
+
+*include Gp1
+;*equate	Gvl2.017	Gvl3.001
+;*equate	Gvl2.034	Gvl4.001
+;*equate	Gvl2.027	Gvl5.001
+;*equate	Gvl3.001	Gvl2.017
+;*equate	Gvl4.001	Gvl2.034
+;*equate	Gvl5.001	Gvl2.027
+*include Gourinlet1
+*equate	Gourinlet1.001	I13.18
+
+*include RumblingHole
+
+*include alllongdrop
+
+;*include RumblingBeckCave
+
+*include DeathsHeadHole
+
+*include CoalHole
+
+*include PU
+*equate PU.016 Gourinlet1.210
+
+*Include MarbleSteps\AllMarbleSteps
+
+*include RoughPot

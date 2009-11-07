@@ -1,0 +1,29 @@
+*equate SC.0	PSC	;Tag
+*entrance PSC
+
+*begin SC
+
+; Locn:	Satire Cave, Bouther Gill, Wharfdale, Yorkshire, UK.
+*title "Satire Cave"
+*date 2003.04.12 ; discovered 2003.04.12
+*team GH/RGB
+*instrument Suunto Compass/Clino, RST Tape
+; Calibration:none
+; Ref.:	
+
+; ====== stations refindable to link to other surveys: ======
+
+*export 0	; the entrance tag
+
+;readings grade 5
+;survey ordered from to
+;readings ordered length bearing gradient
+0 1 0.00   0 0    ;Entrance GR(90807770)
+1 2 4.00 270 0
+2 3 4.00 319 14
+3 4 9.10 353 1
+4 5 5.80 351 5
+5 6 3.50 089 0
+6 7 5.00 355 0
+
+*end SC

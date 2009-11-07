@@ -1,0 +1,81 @@
+*begin Bumblinghole_1
+
+;Date: 12/02/2007
+;Cave: Bumbling Hole
+;Survey Kit RRCPC No ?
+;Instruments:  Dave Ramsay
+;Book:  Dave Ramsay
+;Tape:	Jim Stevenson
+
+;Explored 05/02/07 RB&DR
+
+*Title "Bumbling Hole"
+
+*export 001
+*export 008
+*export 004
+*export	010
+*export 029
+*entrance	002
+*fix	002	66949	79284	343
+*fix	Longdrop 66959	79156	346	;Longdrop from Pete Hall's data
+*fix	HumblePot 67064	79131	346	;Humble Pot from Pete Hall's data
+*fix	ByGeorge 67114 79689	338	;ByGeorge pot from Pete Hall's data
+*fix	TipTop	66836	79263	340	;TipTop dig GPS RGB 15/01/07
+*fix	WeePot	66565	79286	354	;Wee Pot GPS RGB 15/01/07
+*fix	Bruntsgill 66734 79377	364	;Bruntsgill pot III active sink RGB 15/01/07
+*fix	Ladderhole 66819 79318	340	;LadderHole GPS RGB 03/01/08
+*fix	Bumbling 66949	79284	343	;Bumbling Hole GPS RGB 07/02/07	
+*fix	DraftH	67206	79248	357	;Drafting Hole GPS RGB 14/02/07
+*fix	DribblyS 67054	79519	345	;Dribbly Shakehole
+*fix	Dughole 67210	79259	357	;Rb Dr Dug here 12/02/07 Sound of stream below Easy dig.
+*fix	H2Osink1 67249	79272	361	;Water sinking
+*fix	H2Osink 67237	79267	361	;Water sinking
+*fix	Openhole3 66919	79327	338	;Open Hole
+*fix	Openhecho 66984	79408	349	;Open hole with echo
+*fix	Openhole 67189	79078	359	;open hole
+*fix	Openhole2 67189	79085	360	;Open hole
+*fix	Opensink 67168	79047	359	;Open sink Hole
+*fix	ShakesmlH 66984	79373	348	;Shake hole with small hole
+*fix	Wallfencej 67021 79657	348	;junction of Wall&fence in kink in wall.
+*fix	waterheard 67181 79089	358	;Water heard
+*fix	Hole	66979	79341	346	;Hole
+*fix	Hole4	66962	79325	339	;Hole
+*fix eyehole	66824	79184	337	;eyehole stile RGB GPS 02/03/07
+*fix eye2eye	66870	79205	339	;sml rift shake s eyehole RGB GPS 02/03/07
+*fix longdropstl	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
+
+;Station 	Tape	Compass	Clino	 L	R	U	D
+
+002	001	1.80	187	+18	;				1 =rock outcrop in south of shakehole
+003	002	1.70	-	up	;				Down Entrance	
+004	003	1.10	201	+20	;				Through squeeze upstream.
+005	004	3.62	240	0	;
+006	005	4.00	265	-1	;
+007	006	4.00	243	+1	;	
+008	007	1.90	185	+4	;
+009	008	5.60	229	-3	;
+010	009	4.50	199	0	;				10 = inlet from upstream right
+011	010	3.50	177	0	;
+012	011	4.15	131	+8	;
+013	012	8.70	237	-5	;
+014	013	4.32	169	-1	;
+015	014	3.10	152	+3	;
+016	015	3.53	181	0	;
+017	016	3.42	171	+1	;
+018	017	8.30	212	-2	;
+019	018	2.90	178	+3	;
+020	019	7.85	204	+2	;
+021	020	7.20	151	+3	;
+022	021	7.05	159	0	;
+023	022	2.40	209	0	;
+024	023	3.25	246	-3	;
+025	024	4.75	215	-1	;
+026	025	3.20	246	-1	;
+027	026	4.10	209	-3	;
+028	027	4.12	144	0	;
+029	028	4.85	085	0	;
+
+*end Bumblinghole_1
+
+

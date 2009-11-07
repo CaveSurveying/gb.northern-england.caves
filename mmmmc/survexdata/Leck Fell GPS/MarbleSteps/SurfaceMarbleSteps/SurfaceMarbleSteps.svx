@@ -1,0 +1,29 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall/
+;Date:	12/05/08 15/05/08
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin SurfaceMarbleSteps
+
+*export 001 003 008
+;*calibrate compass
+*fix 001 67991.70 77072.04 382.3
+
+;surface survey
+
+*flags surface
+
+001	002	4.92	098	-30	;stn001 is tag, stn002 is left hand wall of gully
+002	003	4.40	193	-29	;stn003 is ent to Steps pot, drilled hole
+002	004	7.46	176	-32	;stn004 is ent to Lamb Pot, drilled hole
+001	005	14.36	093	+16	;stn005 is big tree
+005	006	8.86	071	-14	;stn006 is drilled hole on rock
+006	007	6.72	144	-19	;stn007 is 1st bolt on Wet Route
+006	008	3.13	071	-15	;stn008 is ent to Lost Marbles Ent. drilled hole on block
+
+*flags not surface
+
+
+
+
+*end SurfaceMarbleSteps

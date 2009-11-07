@@ -1,0 +1,28 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	07/07/08
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, tape	
+
+*begin StepsPot2
+
+*export 001 008
+;*calibrate compass
+;*fix 001 67992 77068 382
+
+;surface survey
+
+
+001a	101b	3	156	0	;guess into rift
+001a	001	2.16	003	+49	;001 marked on arete
+001	002	1.94	070	-7	
+002	003	4.29	022	+54	;up through slimb/squeeze
+003	004	2.00	044	-22	
+004	005	2.26	109	+21
+005	006	2.06	066	+11
+006	007	2.09	115	+9
+007	008	1.61	065	+7	;008 is stepspot1.001
+
+
+
+
+*end StepsPot2

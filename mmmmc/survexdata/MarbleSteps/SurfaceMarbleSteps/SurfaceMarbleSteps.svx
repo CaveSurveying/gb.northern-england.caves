@@ -7,7 +7,6 @@
 
 *export 001 003 008
 ;*calibrate compass
-*fix 001 67991.70 77072.04 382.3
 
 ;surface survey
 

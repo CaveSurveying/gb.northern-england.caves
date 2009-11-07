@@ -1,0 +1,30 @@
+;Cave:	Ireby Fell - Glory Holes
+;Instruments + Tape: D.Ramsay, Book: N.Pacey
+;Date:	19/05/04
+;Instruments:	4
+
+*equate	Ifgh1.001 If01.027
+
+
+*begin	Ifgh1
+*export	001
+*export 005
+*export	011
+
+
+*calibrate compass	0
+*calibrate clino	-0.50
+*calibrate tape		+8.96
+
+001	002	18.45	288.0	-04.0	;st001=tag after two routes join
+002	003	15.05	230.0	+15.0	;st002 is start of Over Shadow
+003	004	12.35	298.0	-05.0
+004	005	16.95	252.0	+02.0	;st005 marked on roof
+005	006	16.35	300.0	+02.0
+006	007	11.50	358.0	+03.0
+007	008	23.00	326.0	+01.0
+008	009	13.85	311.0	-03.0
+009	010	16.35	345.0	 00.0	;st010 is limit of previous dig 1949 Chamber
+010	011	14.08	037.0	-03.0	;St011 on small stall
+
+*end	Ifgh1

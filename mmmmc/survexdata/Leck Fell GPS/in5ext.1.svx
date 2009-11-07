@@ -1,0 +1,19 @@
+;Cave:	Notts II-Inlet 5 extension
+;Surveyors:	Bill Sherrington/Simon Latimer 
+;Date:	10/10/06
+;Instruments:	RRCPC Kit 1
+
+
+*begin	in5ext.1
+
+*include in5ext
+*include in5ext2
+*include i52
+
+*equate in5ext2.013 in5ext.016
+*equate in5ext2.016 in5ext.019
+*equate in5ext2.001 in5ext.001
+*equate in5ext2.015f i52.54
+
+
+*end	in5ext.1

@@ -1,0 +1,31 @@
+;Cave:	Marble Steps - Gulley Route
+;Surveyors:	Andy Hall /Ray Duffy
+;Date:	04/03/00
+;Instruments:	PAG
+
+*equate	Mas02.001	Mas01.003
+*equate	Mas02.016	Mas03.001
+
+*begin	Mas02
+*export 016
+*export 001
+*calibrate compass	+6.00
+
+001	002	02.40	143.0	-11.0	;st001=tag on P bolt top of Gulley
+002	003	11.70	184.0	-60.0
+003	004	09.70	205.0	-64.0
+004	005	06.10	230.0	-44.0
+005	006	04.40	 -	DOWN
+006	007	02.60	228.0	-22.0	;st007=tag bottom of Gulley
+007	007a	06.20	138.0	-15.5	;st007a=tag on edge of ledge
+007	008	08.60	315.0	-11.5
+008	009	01.80	 -	DOWN	;climb down in right hand route
+009	010	03.10	287.0	-29.0
+010	011	02.00	343.5	-21.0	;st011=tag, side passage leads to Aven
+011	012	07.80	202.0	-22.0
+012	013	10.20	145.0	-07.0
+013	014	02.60	072.0	+08.0	;through crawl to rift
+014	015	11.60	165.0	-32.0
+015	016	05.60	065.0	+11.0	;st016=tag in main chamber
+
+*end	Mas02

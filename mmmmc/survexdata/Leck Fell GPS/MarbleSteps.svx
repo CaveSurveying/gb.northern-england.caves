@@ -1,0 +1,20 @@
+;Cave:	Marble Steps Area
+;Surveyor	Dave Ramsay/Richard Bendall/Paul Windle
+;Date:	12/05/08 15/05/08
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin	MarbleSteps
+
+;*calibrate compass
+
+;surface survey
+
+*include MSS
+*equate MSS.001	Mas01.001
+*include Mas01
+*equate	Mas01.003	Mas02.001
+*include Mas02
+*equate	Mas02.016	Mas03.001
+*include Mas03
+
+*end	MarbleSteps

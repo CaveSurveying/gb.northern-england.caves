@@ -1,0 +1,12 @@
+;Every Gavel pot file
+
+*begin	Gp1
+
+;*include	Gvl1
+*include	Gvl2
+*include	Gvl3
+*include	Gvl4
+*include	Gvl5
+
+
+*end	Gp1

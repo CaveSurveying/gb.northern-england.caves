@@ -1,0 +1,29 @@
+;Cave:	Ireby Fell - Glory Holes
+;Surveyors:	D.Ramsay/N.Pacey/B.Ward
+;Date:	19/05/04
+;Instruments:	4
+
+*equate	If10.013 If09.064
+
+*begin	If10
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+8.96
+
+002	001	12.60	053.0	+07.0	;st001=bottom of climb to ?
+002	003	15.10	249.0	+06.0	;st001 is spit at bottom of climb
+003	004	12.90	215.0	+63.0	;looking up climb down to rift
+004	005	11.00	188.0	+05.0	;st005 marked on roof
+005	006	11.10	163.0	+11.0
+006	007	12.70	062.0	+39.0	;looking up rift in chamber
+006	008	14.60	144.0	+01.0
+008	009	11.30	116.0	-09.0
+009	010	11.90	188.0	-05.0
+010	011	12.70	145.0	+06.0	;top of pitch to mud bank chamber
+011	012	11.40	000.0	-90.0	;straight drop to level with st064 If09
+012	013	09.80	075.0	 00.0
+
+
+
+*end	If10

@@ -1,6 +1,10 @@
 ;Cave:	Marble Steps Area
 
 *begin	AllMarbleSteps
+*export EntranceTag
+*equate EntranceTag SurfaceMarbleSteps.001
+
+
 
 *include "SurfaceMarbleSteps\SurfaceMarbleSteps"
 

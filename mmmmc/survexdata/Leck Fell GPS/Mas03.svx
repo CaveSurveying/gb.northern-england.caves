@@ -1,0 +1,44 @@
+;Cave:	Marble Steps Pot - Main Lower chamber to sump
+;Surveyors:	J.Baker/James of BUSS
+;Date:	16/12/00
+;Instruments:	kit 1
+
+;*equate	Mas03.001	Mas02.016
+
+*begin	Mas03
+*export 001
+*calibrate compass	+6.50
+
+001	002	19.30	198.0	-04.0	;st001=tag at bottom of Sidewinder Route in Lower Main chamber
+002	003	09.45	250.0	-35.0
+003	004	10.85	303.0	-15.0
+004	005	12.25	307.0	-15.0
+005	006	08.30	322.0	-05.0
+006	007	21.45	304.0	-01.0
+007	008	09.10	314.0	+03.0
+008	009	01.45	264.0	-05.0
+009	010	01.75	217.0	+11.0	;2m along this leg is passage in floor
+010	011	06.25	261.0	+05.0	;st010 is 1st P anchor in roof for pitch
+011	012	02.95	231.0	-13.0
+012	013	06.95	 -	DOWN	;Pitch
+013	014	03.30	156.0	-18.0
+014	015	03.25	162.0	-16.0
+015	016	05.70	155.0	 00.0
+016	017	02.80	159.0	-03.0
+017	018	01.85	060.0	-35.0
+018	019	26.70	 -	DOWN	;pitch
+
+018	018a	21.60	 -	DOWN
+018a	018b	06.00	160.0	 00.0	;bolt on intestines route
+
+019	020	03.60	341.0	-12.0
+020	021	03.25	335.0	-42.0
+021	022	02.50	355.0	+07.0
+022	023	09.20	 -	DOWN	;Pitch
+023	024	02.10	153.0	-08.0	;st024 is anchor rebelay
+024	025	06.70	230.0	-80.0	;next part of pitch not vertical
+025	026	00.80	 -	DOWN
+026	027	06.30	300.0	-05.0
+027	028	01.90	322.0	-23.0	;st028=dive bolt tag
+
+*end	Mas03

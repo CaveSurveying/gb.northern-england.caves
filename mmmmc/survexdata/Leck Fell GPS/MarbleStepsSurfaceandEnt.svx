@@ -1,0 +1,97 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall/Paul Windle
+;Date:	12/05/08 15/05/08
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin	MarbleSteps
+*export 001
+
+;*calibrate compass
+*fix 001 67992 77068 382
+
+;surface survey
+
+*flags surface
+
+001	002	4.92	098	-30	;stn001 is tag, stn002 is left hand wall of gully
+002	003	4.40	193	-29	;stn003 is ent to Steps pot, drilled hole
+002	004	7.46	176	-32	;stn004 is ent to Lamb Pot, drilled hole
+001	005	14.36	093	+16	;stn005 is big tree
+005	006	8.86	071	-14	;stn006 is drilled hole on rock
+006	007	6.72	144	-19	;stn007 is 1st bolt on Wet Route
+006	008	3.13	071	-15	;stn008 is ent to Lost Marbles Ent. drilled hole on block
+
+*flags not surface
+
+;Steps Pot
+101	101a	2	300	0	;guess
+101a	101b	1	000	0	;guess
+101b	101c	2	280	0	;guess
+101c	101d	2	000	0	;guess
+102	101	0.84	262	+10	;stn101 is at junction, location not noted
+103	102	1.30	332	0
+104	103	2.82	300	+2
+105	104	3.53	329	-5
+106	105	4.25	060	+60
+107	105	3.50	321	-10
+108	107	1.00	 -	DOWN
+109	108	2.10	318	-5
+110	109	2.06	333	-14
+111	110	1.50	300	-10
+112	111	4.50	312	-15
+113	112	2.50	 -	DOWN
+114	113	6.10	310	-18
+003	114	5.48	270	-26	;stn15 on survey given as 003
+
+;Lost Marbles Ent
+
+008	202	3.25	301	-4
+202	203	0.40	 -	DOWN
+203	204	2.04	338	+2
+204	205	2.54	226	-50
+205	206	3.93	270	-8
+206	207	1.99	247	-13
+207	208	4.67	321	-3
+208	209	1.29	316	-3
+209	210	2.61	041	0
+210	211	11.36	356	-3.5
+210	210a	5.50	356	-3.5	;guess to show pit
+210a	210b	1.70	 -	DOWN
+211	212	3.23	240	0
+212	213	4.10	261	-5
+213	214	6.50	310	-1
+214	215	0.42	 -	DOWN
+215	216	4.43	306	-5
+216	217	1.25	215	-2
+217	218	2.77	295	0
+218	219	0.61	220	+9	;stn219 is rib of rock at passage junction
+
+
+219	302	3.40	328	+3
+302	303	2.09	315	-12
+303	304	2.08	343	+2
+304	305	1.12	310	-10
+305	306	1.80	351	-2
+306	307	2.42	295	-12
+307	308	1.18	345	-3
+308	309	1.01	297	-26
+309	310	2.27	336	0
+310	311	6.79	312	-12
+311	312	1.58	-	DOWN
+312	313	2.23	232	-38
+313	314	1.75	173	-27
+314	315	2.00	-	DOWN
+315	316	3.88	253	-16
+316	317	4.19	219	-21
+317	318	1.55	199	-27
+318	319	2.53	310	-18
+319	320	1.59	206	-25
+320	321	2.38	-	DOWN
+321	322	2.34	143	+27
+322	323	4.37	225	-20
+323	324	2.20	243	+32
+324	325	1.17	205	+24
+325	326	3.65	302	+1
+326	327	11.55	-	DOWN
+
+*end	MarbleSteps

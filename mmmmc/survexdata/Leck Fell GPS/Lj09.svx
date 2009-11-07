@@ -1,0 +1,29 @@
+;Cave:	Lost Johns - 1st downstream inlet to 2nd downstream inlet
+;Surveyors: Wookey/Tanya Savage/Jon Shaw
+;Date:	07/12/97 1pm-6pm
+;Instruments:	CUCC set 5: clino 726974, comp 721899
+
+*equate	Lj09.001	Lj07.046
+
+*begin	Lj09
+*export 001
+*export 16
+*calibrate compass	+5.17
+
+2	001	5.18	152	-7 ; stn1 is tag
+2	3	8.04	240	-4
+4	3	3.76	027	+3
+4	5	6.42	258	+1
+6	5	4.70	342.5	+5
+6	7	4.08	248.5	+8
+8	7	5.94	126	+5
+8	9	5.70	211	-3
+10	9	3.02	083	-7
+10	11	4.04	200.5	-1
+12	11	3.09	072	-5
+12	13	9.84	211	-4
+14	13	5.36	045	-7
+14	15	7.42	157.5	-7
+16	15	3.75	050	-9 ;stn 15 is tag
+
+*end	Lj09

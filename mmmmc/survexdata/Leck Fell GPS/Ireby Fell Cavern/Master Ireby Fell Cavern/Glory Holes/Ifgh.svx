@@ -1,0 +1,9 @@
+;Ireby Fell Cavern - Glory Holes
+
+*begin	Ifgh	
+
+*include	Ifgh1
+;*include	ifgh2	
+*include	Ifgh3
+
+*end	ifgh

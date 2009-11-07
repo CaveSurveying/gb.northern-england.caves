@@ -1,14 +1,30 @@
 *begin leckfell
 
+
+
 *include SurfaceSurveyAroundIreby/leckfellsurfacesurvey
 
+
+
 *include LowDouk/LowDouk
+
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
+
+
 ;*fix LowDouk.EntranceTag 67766 76794 330
 
+
+
 *include Ireby/Ireby
+
 *equate Ireby.EntranceTag leckfellsurfacesurvey.IrebyEntranceTag
 
+
+
+
+*include MarbleSteps/AllMarbleSteps
+;*fix MarbleStepsPot.SurfaceMarbleSteps.001 67991.70 77072.04 382.3   ; 
+*equate MarbleStepsPot.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
 
 *end leckfell
 

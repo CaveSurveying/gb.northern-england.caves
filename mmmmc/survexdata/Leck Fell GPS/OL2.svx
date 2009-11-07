@@ -1,0 +1,56 @@
+;Cave:	Notts II - oliver Lloyds Aven , Pleasures of the Palm
+;Surveyors:	D.Ramsay/N.Pacey/R.Bendall
+;Date:	28/10/04
+;Instruments:	4
+
+;*equate	OL2.028	OL1.028
+
+*begin	OL2
+*export 028
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+
+028	029	04.75	001.0	+06.0
+029	030	06.00	053.0	+01.0
+030	031	05.90	041.0	-03.0
+031	032	06.45	029.0	-09.0	;st032 is flake on R in sump chamber
+032	033	05.17	022.0	-36.0	;st033 is lowest point of sump
+034	033	03.40	290.0	 00.0	;st034 is ceiling at far side of sump
+035	034	04.88	335.0	-79.0	;st035 is ceiling flake
+035	036	06.42	155.0	+07.0	;st036 is RH wall at corner where passage turns L
+037	036	05.66	250.0	-01.0	;st037 is rock bridge on RH side above scratched arrow
+037	038	04.95	049.0	-12.0
+038	039	05.20	137.0	-01.0	;st039 is top of pit
+039	040	06.06	-	DOWN	;st040 is bottom of pit on small rock
+040	041	04.30	021.0	+23.0	;st041 is small projection at ent to passage
+041	042	04.30	089.0	+04.0
+042	043	06.10	141.0	-09.0
+043	043a	06.00	-	UP	;st043a and 043b are guessed to show rift continuation
+043a	043b	06.00	141.0	 00.0
+043	044	04.95	054.0	+15.0	;st044 is rock projection on roof just B4 drop to loose stuff
+044	045	05.55	282.0	-31.0
+045	046	07.30	012.0	-01.0	;st046 is above blind pit in floor
+046	047	07.65	353.0	-32.0	;in middle of squeezes
+047	048	04.65	-	DOWN
+049	048	06.25	142.0	-23.0	;st049 is in solid aven chamber
+049	050	07.95	002.0	-08.0
+050	050a	04.00	002.0	 00.0	;guess to show choked rift
+050	051	09.25	074.0	-09.0
+051	052	04.70	104.0	-34.0
+052	053	04.40	069.0	-18.0
+053	054	04.60	101.0	-21.0	;st054 is top of pit
+054	055	04.25	-	DOWN	;st055 is rope at head height
+055	056	05.70	356.0	-01.0	;other legs from here are to show continuations
+055	055a	05.00	176.0	-15.0
+055a	055b	05.00	176.0	+02.0
+055a	055c	07.00	080.0	 00.0
+055c	055d	04.00	080.0	+05.0
+055c	055e	08.00	356.0	-01.0
+056	056a	06.00	080.0	 00.0
+056a	056b	05.00	356.0	-20.0
+056b	056c	18.00	080.0	 00.0
+056c    056d	13.00	0.0	-90	;guess down 10m pitch.
+
+*end	OL2

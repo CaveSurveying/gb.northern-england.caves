@@ -1,0 +1,7 @@
+;Hagg Fell Area locations
+
+*include bss1
+*include HaggGillPot
+*include lpot
+*include landlord
+*include HaggBeckSink

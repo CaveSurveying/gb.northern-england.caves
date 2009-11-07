@@ -1,0 +1,8 @@
+;Title Notts2
+
+
+*fix Notts2a.1 0 0 0
+*equate Notts2a.10b Notts2b.10
+*include Notts2a
+*Include Notts2b
+

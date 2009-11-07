@@ -1,0 +1,47 @@
+;Cave:	Notts II - oliver Lloyds Aven , top
+;Surveyors:	D.Ramsay/N.Pacey/R.Bendall
+;Date:	28/10/04
+;Instruments:	4
+
+;*equate	OL1.001	N06.013v
+
+*begin	OL1
+*export 001
+*export 028
+*export 009
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+001	002	08.80	130.0	-01.0	;st001 is corner of rock overhang
+002	003	14.14	104.0	+03.5
+003	004	19.70	163.0	+01.0
+004	005	14.10	054.0	+01.5
+005	006	13.20	147.0	-00.5	;st006 is top of biggest rock in streamway
+006	007	11.00	082.0	+07.0	;st007 is top of corner of shelf
+007	007a	15.00	232.0	 00.0	;bearing correct but length is guess to show passage
+007	008	15.00	054.0	 00.0
+008	009	17.80	068.0	+03.0
+009	010	08.20	028.0	+20.0	;st010 is small overhang at junction corner
+010	011	07.70	306.0	+05.0	;st011 is projection on roof just before aven start
+011	012	10.00	002.0	+07.0	;st012 is of our rope at head height
+012	013	08.40	-	UP
+013	014	06.10	253.0	 00.0
+014	015	29.50	-	UP	;st015 is y hang at top of aven
+015	016	05.30	108.0	+35.0	;st016 is 1st bolt on traverse
+016	017	05.70	139.0	+06.0	;st017 is opposite wall to 2nd bolt
+018	016	05.95	307.0	-02.0
+019	018	05.80	241.0	-02.0
+020	019	07.65	216.0	-18.0
+021	020	05.50	240.0	+12.0
+022	021	06.20	223.0	 00.0
+023	022	05.35	217.0	+28.0
+024	023	06.25	248.0	-02.0
+025	024	05.35	224.0	-45.0
+026	025	04.50	205.0	 00.0
+027	026	04.95	235.0	+30.0
+028	027	07.30	197.0	-24.0	;st028 is middle of junction, head height
+
+
+*end	OL1

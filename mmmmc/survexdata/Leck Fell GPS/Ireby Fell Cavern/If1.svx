@@ -1,0 +1,55 @@
+;Every Ireby Fell Cavern file
+
+*begin	If1
+
+*include	If01
+*equate		If01.067 If05.001
+*equate 	If01.027 Ifgh1.001
+
+*include	If02
+;*equate	If01.067	If05.001
+;*equate 	If01.027	Ifgh1.001
+
+;*include	If03
+
+*include	If04
+*equate		If04.001	If05.031
+*equate		If04.024	If02.109
+*equate		If04.024	If06.001
+
+
+*include	If05
+*equate		If05.001	If01.067
+*equate		If05.031	If04.001
+
+*include	If06
+*equate		If06.001	If04.024
+*equate		If06.020	If07.014
+
+*include	If07
+*equate 	If07.014	If06.020
+
+
+*include	Ifgh1
+*equate		Ifgh1.001	If01.027
+
+*include	Ifgh2
+*equate		Ifgh2.001 	Ifgh1.005
+
+*include	Ifgh3
+
+*include	If12
+*equate		If12.033	Ifgh2.018
+
+*include	If13
+*equate		If13.005	If06.059
+
+*include	If14
+*equate		If14.001	If01.001
+*equate		If14.215	If01.027
+*equate		If14.007	If01.007
+
+*include	If15
+*equate		If15.001	If06.069
+
+*end	IF1

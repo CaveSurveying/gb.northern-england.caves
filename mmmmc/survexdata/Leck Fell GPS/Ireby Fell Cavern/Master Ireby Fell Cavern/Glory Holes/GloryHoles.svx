@@ -1,0 +1,12 @@
+*begin GloryHoles 
+
+*include ifgh1
+*equate ifgh1.001 if1.027
+*equate ifgh1.005 ifgh2.001
+
+*include ifgh2
+
+*include ifgh3
+
+*end GloryHoles
+ 
