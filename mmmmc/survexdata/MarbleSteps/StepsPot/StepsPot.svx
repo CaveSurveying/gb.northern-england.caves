@@ -1,0 +1,17 @@
+;Cave:	Marble Steps Area
+
+
+*begin StepsPot
+*export stepspot1.001 stepspot2.008 stepspot1.015
+
+*include StepsPot1
+*include StepsPot2
+*include StepsPot3
+;*include SurfaceMarbleSteps
+
+*equate StepsPot1.001 StepsPot2.008 
+;*equate StepsPot1.015 SurfaceMarbleSteps.003 
+;*equate StepsPot.022 StepsPot.001
+*equate StepsPot2.001 StepsPot3.001
+
+*end StepsPot

@@ -1,0 +1,25 @@
+;Cave:	Marble Steps Area
+
+*begin	AllMarbleSteps
+
+*include "SurfaceMarbleSteps\SurfaceMarbleSteps"
+
+*include "MarbleStepsPot\MarbleStepsPot"
+
+*include "StepsPot\StepsPot"
+
+*include "LostMarbles\LostMarbles"
+
+;--------------------------------------------------------------------
+
+*equate SurfaceMarbleSteps.001	MarbleStepsPot.Mas01.001
+*equate	MarbleStepsPot.Mas01.003	MarbleStepsPot.Mas02.001
+*equate	MarbleStepsPot.Mas02.016	MarbleStepsPot.Mas03.001
+
+*equate StepsPot.StepsPot1.001 StepsPot.StepsPot2.008 
+*equate StepsPot.StepsPot1.015 SurfaceMarbleSteps.003 
+*equate LostMarbles.LostMarbles1.001 SurfaceMarbleSteps.008 
+*equate LostMarbles.LostMarbles1.019 LostMarbles.LostMarbles2.001 
+*equate LostMarbles.LostMarbles2.022 LostMarbles.LostMarbles3.001
+
+*end	AllMarbleSteps

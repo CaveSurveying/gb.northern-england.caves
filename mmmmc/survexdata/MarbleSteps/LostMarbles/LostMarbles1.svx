@@ -1,0 +1,31 @@
+;Cave:	Marble Steps Area
+;Surveyors:	Dave Ramsay/Richard Bendall
+;Date:	12/05/08 
+;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto / tape	
+
+*begin LostMarbles1
+
+*export 001 019
+
+001	002	3.25	301	-4	;001 Entrance is 008 on surface survey
+002	003	0.40	 -	DOWN
+003	004	2.04	338	+2
+004	005	2.54	226	-50
+005	006	3.93	270	-8
+006	007	1.99	247	-13
+007	008	4.67	321	-3
+008	009	1.29	316	-3
+009	010	2.61	041	0
+010	011	11.36	356	-3.5
+010	010a	5.50	356	-3.5	;guess to show pit
+010a	010b	1.70	 -	DOWN
+011	012	3.23	240	0
+012	013	4.10	261	-5
+013	014	6.50	310	-1
+014	015	0.42	 -	DOWN
+015	016	4.43	306	-5
+016	017	1.25	215	-2
+017	018	2.77	295	0
+018	019	0.61	220	+9	;stn019 is rib of rock at passage junction
+
+*end LostMarbles1
