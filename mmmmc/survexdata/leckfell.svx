@@ -20,11 +20,13 @@
 *equate Ireby.EntranceTag leckfellsurfacesurvey.IrebyEntranceTag
 
 
+*include NottsII/NottsII
+*equate NottsII.Entrance leckfellsurfacesurvey.NottsIIEntrance
 
 
 *include MarbleSteps/AllMarbleSteps
-;*fix MarbleStepsPot.SurfaceMarbleSteps.001 67991.70 77072.04 382.3   ; 
-*equate MarbleStepsPot.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
+;*fix AllMarbleSteps.SurfaceMarbleSteps.001 67991.70 77072.04 382.3   ; 
+*equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
 
 *end leckfell
 

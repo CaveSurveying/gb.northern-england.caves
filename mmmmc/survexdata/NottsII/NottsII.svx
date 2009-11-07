@@ -15,6 +15,8 @@
 
 *begin	NottsII
 
+*export Entrance  ; CommitteePot.001
+
 *Include "CommitteePot\CommitteePot"	;Entrance to Mincemeat Aven
 *Include "Inlet13\Inlet13"		;Mincemeat Aven to MainStreamway
 *Include "Inlet17\Inlet17"
@@ -23,10 +25,12 @@
 *Include "TrickOrTreat\TrickOrTreat"	;Trick Or Treat
 *Include "Poppy\Poppy"		;Poppy Passage
 
+*Include Inlet7/Inlet7  
+*equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
-
+*equate Committeepot.001 Entrance
 *Equate Committeepot.019 Inlet13.001
 *Equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *Equate MainStreamway.Mainstreamway3.33 Inlet13.025

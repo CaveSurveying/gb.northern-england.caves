@@ -6,7 +6,7 @@
 *begin	MainStreamway6
 
 *export 001
-*export 013v
+*export 013v  ; Oliver Lloyds aven tag
 *export 036
 
 *calibrate compass	+6.50
@@ -24,15 +24,18 @@
 011	012	06.65	114.0	+01.0
 012	013	08.15	177.5	+01.5
 
-;013	013i	14.20	192.0	+06.0
-;013i	013ii	20.70	248.0	+03.0
-;013ii	013iii	15.80	176.0	+01.0
-;013iii	013iv	05.70	133.0	-02.0
-;013iv	013v	06.60	214.0	-02.0	;st013v=tag Oliver Lloyds aven tag
+; all these 013 legs were commented out (are they up Inlet7)?
+013	013i	14.20	192.0	+06.0
+013i	013ii	20.70	248.0	+03.0
+013ii	013iii	15.80	176.0	+01.0
+013iii	013iv	05.70	133.0	-02.0
+013iv	013v	06.60	214.0	-02.0	;st013v=tag Oliver Lloyds aven tag
 
+; these produce a perpendicular side passage
 ;013	013a	07.25	098.0	+62.0
 ;013a	013b	07.50	094.0	+08.0
 ;013b	013c	04.00	073.0	-01.0	;last leg estimated
+
 
 013	014	16.50	196.0	+09.0	;st013=Nick Point
 014	015	17.40	254.0	 00.0

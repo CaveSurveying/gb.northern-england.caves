@@ -1,5 +1,5 @@
 *begin inlet7
-*export Inlet7-4.001
+*export Inlet7-4.001 ; left corner of rock overhang
 *data normal from to tape compass clino ignoreall
 *units length metres
 *calibrate tape 0.0
@@ -17,7 +17,7 @@
 *include inlet7-6.svx
 *include inlet7-7.svx
 *include inlet7-8.svx
-*include inlet7-9.svx
+*include Inlet7-9.svx
 *include inlet7-10.svx
 *include inlet7-11.svx
 

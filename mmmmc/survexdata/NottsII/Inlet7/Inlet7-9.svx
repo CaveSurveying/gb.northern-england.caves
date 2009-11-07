@@ -1,6 +1,6 @@
 *begin inlet7-9
-*Export 004
-*Export 001
+*export 004
+*export 001
 *data normal from to tape compass clino ignoreall
 *units length metres
 *calibrate tape 0.0

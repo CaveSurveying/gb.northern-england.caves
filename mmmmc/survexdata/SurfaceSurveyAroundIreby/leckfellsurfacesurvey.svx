@@ -8,6 +8,7 @@
 *export NottsPotEntrancePhanger ; not used yet
 *export MarbleStepsEntranceTag  ; not used yet
 *export LargePotTag             ; not used yet
+*export NottsIIEntrance         ; not connected to surface survey, but used
 
 *flags surface
 
@@ -24,6 +25,7 @@
 *entrance NottsPotEntrancePhanger 
 *entrance MarbleStepsEntranceTag  
 *entrance LargePotTag            
+*entrance NottsIIEntrance
 
 
 ;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
@@ -44,6 +46,10 @@
 
 *equate	mg1.008a	mg2.032
 *equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
+
+; not currently connected to surface survey
+*fix	NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P
+
 
 ; don't know where these connectsurfacesurveysurfacesurvey
 ;*equate	mg2.001		Ks3.001

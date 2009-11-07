@@ -6,7 +6,7 @@
 *begin MainStreamway7
 *export 0
 *export 12
-*export 52
+; *export 52  ; doesn't exist
 *title "Notts2 Curry Junction and Inlet 5"
       
 *team Insts Allan Richardson

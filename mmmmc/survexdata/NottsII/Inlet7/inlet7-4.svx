@@ -1,7 +1,7 @@
 *begin inlet7-4
 *export 009
 *export 016
-*export	001
+*export	001 ; left Corner of rock overhang
 *data normal from to tape compass clino ignoreall
 *units length metres
 *calibrate tape 0.0
