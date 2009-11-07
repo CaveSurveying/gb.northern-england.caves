@@ -27,5 +27,8 @@
 ;*fix	NottsPot.EntrancePhanger	67105.25	77789.08	373.39 ; P Bolt(furthest of 2)
 ; to connect to diving data: NottsPot.SumpTag
 
+*include LongDrop/LongDrop
+*fix LongDrop.StylePost	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
+
 *end leckfell
 

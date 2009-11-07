@@ -1,0 +1,12 @@
+*begin	LongDrop
+*export StylePost
+
+*equate	longdrop1.112	longdrop2.1
+*equate longdrop1.009 longdrop3.001
+*equate StylePost longdrop3.003
+
+*include	longdrop1
+*include	longdrop2
+*include	longdrop3
+
+*end	LongDrop	
