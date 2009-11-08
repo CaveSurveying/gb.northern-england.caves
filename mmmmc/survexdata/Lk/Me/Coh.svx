@@ -1,0 +1,22 @@
+;Cave:	Coal Hole
+;Surveyors:	Surface Survey
+;Date:	
+;Instruments:	
+
+;*equate	
+
+*begin	Coh
+
+;*calibrate compass	+
+
+*fix	001	67185.27 79041.86 353.10	;ev.ss21.067
+
+001	001a	5.00	 -	DOWN
+001	000	0.173	180.0	00.0
+002	000	0.173	300.0	00.0
+003	000	0.173	060.0	00.0
+001	002	0.300	150.0	00.0
+001	003	0.300	210.0	00.0
+002	003	0.300	270.0	00.0
+
+*end	Coh

@@ -1,0 +1,45 @@
+;Cave:	Notts II - Inlet 5 to Upstream Sump
+
+;Survey Date:	23/05/02
+
+;equate	USW.USW	CJ.12
+
+;*title "Notts2 Upper Streamway to Sump"
+
+;*team Insts Allan Richardson (to station 11)
+;*  "    "   Richard Gerrish (station 12 to 18)
+;*team Notes Allan Richardson (to station 11)
+;*  "    "   Richard Gerrish (station 12 to 18)
+;*team Tape Andy Walsh, Richard Gerrish
+
+;*instrument Suunto Compass 810726 (RAR)
+;*     "       "    Clinometer 726973 (RAR)
+;*     "     30m Fibron Tape (RAR)
+
+*equate	N12.016	N1.NPS24
+*equate	N12.000	N11.012
+
+*begin	N12
+
+*calibrate compass	+2.50
+
+000	001	16.25	082.5	+02.5
+001	002	10.30	100.0	+01.0
+002	003	09.66	061.0	-02.0
+003	004	09.29	127.0	 00.0
+004	005	07.38	052.5	-03.0
+005	006	28.84	172.0	+00.5
+006	007	21.91	161.0	-00.5
+007	008	18.98	157.0	+03.0	;Daylight Aven
+008	009	06.52	096.0	-05.5
+009	010	13.02	189.0	+09.5	;Paschendale
+010	011	11.70	178.0	-02.5
+011	012	05.44	110.0	-03.5
+012	013	03.62	115.0	+00.5
+013	014	03.20	070.0	-10.0
+014	015	06.15	175.0	 00.0
+015	016	07.50	181.0	+04.0	;Opposite Dive Line Belay
+016	017	19.50	147.0	 00.0
+017	018	12.65	150.0	 00.0	;End of Lake
+
+*end	N12

@@ -1,0 +1,24 @@
+;Every Leck Fell file
+
+
+*begin	Lk1
+
+*equate	Bx1.Box3.072j	Lj1.lj08.030
+*equate Lj1.Lj15.016	Bx1.Box3.072	;tag at T junction Lyle Cavern
+
+*include	star\Shh1
+*include	pml\Pml1
+*include	bx\Bx1
+*include	gp\Gp1
+*include	lj\Lj1
+;*include	np\Np1
+*include	tp_1\Tp_11
+*include	NII\NII1
+*include	me\Me1
+;*include	
+;*include	
+;*include	
+;*include	
+;*include	
+
+*end	Lk1

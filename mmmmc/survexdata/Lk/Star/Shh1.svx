@@ -1,0 +1,7 @@
+;Every Starting Handle Hole file
+
+*begin	Shh1
+
+*include	shh
+
+*end	Shh1

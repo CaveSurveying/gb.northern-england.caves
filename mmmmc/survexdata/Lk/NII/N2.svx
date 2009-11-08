@@ -1,0 +1,360 @@
+;NOTES   > $.Survey.Surveys.Notts.D.Notts
+;NOTES     copywrite npc members who surveyed it
+;NOTES     Survey station names are not quite conventional in this survey,
+;NOTES     since JNC numbered his stations in the streamway A, B ... A1... A2
+;NOTES     Through the sump is survey NPS, numbered conventionally
+;NOTES     The streamway is survey    NS,  numbered by JNC's scheme
+;NOTES     Inlet surveys are          nnI, where nn is the inlet number
+;NOTES     
+;TITLE NOTTS Pot - 1985 Stream - rapid Gr 2 survey only          
+
+;CHANGE               8.0   0.0       J N Cordingley 1985 NPC compass
+
+;GAUGE          0.0   1.0             confirm defaults for depth gauge
+;Normal surveying out of sump pool notts 2
+
+*equate	N2.nsa N1.nps24
+*equate N2.nd08	N3.001
+
+*begin N2
+
+*calibrate compass	+6.77
+
+NSA   NSB    24.0 330.0 0	;Inlet 1 opposite NPS24
+NSB   NSC    6.0  30.0 0
+NSC   NSD    6.0  10.0 0
+NSD   NSE    2.0 240.0 0
+NSE   NSF    6.0 290.0 0
+NSF   NSG    2.0 255.0 0
+NSG   NSH    4.0 305.0 0
+NSH   NSJ    6.0   0.0 0	;Inlet 2 at NSJ
+NSJ   NSK   10.0  15.0 0
+NSK   NSL    7.0 330.0 0
+NSL   NSM   10.0 345.0 0
+NSM   NSN   23.0 346.0 0;Inlets 3 & 4 between M & N ( sandy crawls )
+NSN   NSP   29.0   0.0 0
+NSP   NSQ    8.0 265.0 0
+NSQ   NSR    8.0 320.0 0
+NSR   NSS    4.0 220.0 0
+NSS   NST   13.0 275.0 0
+NST   NSU   13.0 258.0 0;Inlet 5 at NSU
+NSU   NSV   16.0 348.0 0
+NSV   NSW    9.0  35.0 0
+NSW   NSX   13.0 355.0 0
+NSX   NSY    7.0  65.0 0
+NSY   NSZ   20.0  30.0 0
+NSZ   NSA1  15.0  10.0 0
+NSA1  NSB1  18.0  30.0 0
+NSB1  NSC1   8.0 340.0 0
+NSC1  NSD1  14.0  41.0 0
+NSD1  NSE1  18.0  26.0 0
+NSE1  NSF1   7.0  35.0 0
+NSF1  NSG1   6.0 323.0 0;Inlet 6 at NSG1 ( Curry Junction )
+NSG1  NSH1   8.0 304.0 0
+NSH1  NSJ1   9.0  20.0 0
+NSJ1  NSK1  23.0 315.0 0
+NSK1  NSL1  15.0   8.0 0
+NSL1  NSM1   8.0 330.0 0
+NSM1  NSN1  18.0 280.0 0
+NSN1  NSP1  13.0 326.0 0
+NSP1  NSQ1   8.0   0.0 0
+NSQ1  NSR1   8.0 338.0 0;Possible inlet 6.5 10m up dome.
+NSR1  NSS1  13.0  66.0 0
+NSS1  NST1   9.0 106.0 0
+NST1  NSU1   6.0  55.0 0
+NSU1  NSV1   8.0  95.0 0
+NSV1  NSW1   9.0  43.0 0
+NSW1  NSX1  13.0  75.0 0
+NSX1  NSY1   7.0   0.0 0
+NSY1  NSZ1  10.0  70.0 0
+NSZ1  NSA2  12.0  35.0 0
+NSA2  NSB2  10.0 310.0 0;Inlet 7 part way,50m to Oliver Lloyd Aven.
+                 
+;Inlet 8 at NSB2
+
+NSB2  NSC2  14.0  40.0 0
+NSC2  NSD2  10.0  85.0 0
+NSD2  NSE2  22.0  19.0 0
+NSE2  NSF2   7.0 289.0 0;Nick point and inlet 9 part way
+NSF2  NSG2   4.0 232.0 0
+NSG2  NSH2   6.0 305.0 0
+NSH2  NSJ2   5.0 320.0 0
+NSJ2  NSK2   5.0   0.0 0
+NSK2  NSL2   5.0 326.0 0
+NSL2  NSM2  11.0   5.0 0
+NSM2  NSN2   2.0 305.0 0
+NSN2  NSP2   6.0  15.0 0;Inlet 10 at NSP2
+NSP2  NSQ2   9.0 322.0 0
+NSQ2  NSR2   5.0  50.0 0
+NSR2  NSS2   5.0  10.0 0
+NSS2  NST2   7.0  50.0 0
+NST2  NSU2   8.0  35.0 0
+NSU2  NSV2   6.0  20.0 0
+NSV2  NSW2   7.5  40.0 0
+NSW2  NSX2   8.0 335.0 0
+NSX2  NSY2   7.0 325.0 0;Inlet 11 at NSY2
+NSY2  NSZ2   4.0 200.0 0
+NSZ2  NSA3   6.0 310.0 0
+NSA3  NSB3   6.0 255.0 0
+NSB3  NSC3   9.0 325.0 0
+NSC3  NSD3   4.0  10.0 0
+NSD3  NSE3   8.0 300.0 0
+NSE3  NSF3   8.0 265.0 0
+NSF3  NSG3   6.0 335.0 0;Inlet 11.5 near G3 on left
+NSG3  NSH3   2.0  85.0 0
+NSH3  NSJ3   5.0 330.0 0
+NSJ3  NSK3   8.0 238.0 0
+NSK3  NSL3  12.0 260.0 0
+NSL3  NSM3   9.0 330.0 0
+NSM3  NSN3   8.0 280.0 0;Showerbath at NSN3 - Inlet 12
+NSN3  NSP3   7.0 280.0 0
+NSP3  NSQ3   2.0   5.0 0
+NSQ3  NSR3   6.0 250.0 0
+NSR3  NSS3   7.0 192.0 0
+NSS3  NST3   3.0 265.0 0
+NST3  NSU3   2.5 290.0 0
+NSU3  NSV3   3.0 249.0 0
+NSV3  NSW3   6.0 288.0 0
+NSW3  NSX3   9.0 243.0 0
+NSX3  NSY3   8.0 295.0 0
+NSY3  NSZ3   9.0 250.0 0
+NSZ3  NSA4   4.0 350.0 0
+NSA4  NSB4   4.0 254.0 0
+NSB4  NSC4   6.0 184.0 0
+NSC4  NSD4   3.0 225.0 0
+NSD4  NSE4   1.0 330.0 0
+NSE4  NSF4   2.5 232.0 0
+NSF4  NSG4   8.0 205.0 0
+NSG4  NSH4   4.5 155.0 0
+NSH4  NSJ4   4.0 205.0 0
+NSJ4  NSK4   4.5 159.0 0
+NSK4  NSL4   4.5 220.0 0
+NSL4  NSM4   4.0 295.0 0
+NSM4  NSN4   5.0 190.0 0
+NSN4  NSP4   5.0 240.0 0;Inlet 13 at NSP4
+NSP4  NSQ4   4.0 340.0 0
+NSQ4  NSR4   9.0 313.0 0
+NSR4  NSS4  16.0 265.0 0
+NSS4  NST4   6.0 335.0 0
+NST4  NSU4   5.5 289.0 0
+NSU4  NSV4  22.0 330.0 0
+NSV4  NSW4   8.5 350.0 0
+NSW4  NSX4   9.0 345.0 0
+NSX4  NSY4   9.0 310.0 0;Inlet 14 at NSY4
+NSY4  NSZ4  13.5 325.0 0
+NSZ4  NSA5   7.0  25.0 0
+NSA5  NSB5   5.0 330.0 0
+NSB5  NSC5  12.0 335.0 0
+NSC5  NSD5   5.0 275.0 0
+NSD5  NSE5  12.5 325.0 0
+NSE5  NSF5   5.5 284.0 0
+NSF5  NSG5  10.0 305.0 0;Inlet 15 part way
+NSG5  NSH5   3.0 314.0 0
+NSH5  NSJ5  10.0 339.0 0
+NSJ5  NSK5   7.0 351.0 0
+NSK5  NSL5   9.0 325.0 0
+NSL5  NSM5   5.0 305.0 0
+NSM5  NSN5   5.0 337.0 0
+NSN5  NSP5   5.0  17.0 0
+NSP5  NSQ5   6.0   1.0 0
+NSQ5  NSR5   9.0   7.0 0
+NSR5  NSS5   5.0  31.0 0
+NSS5  NST5   9.0 332.0 0
+NST5  NSU5   2.0  39.0 0
+NSU5  NSV5   8.0 353.0 0;Inlet 16 on right partway
+NSV5  NSW5   5.0 258.0 0
+NSW5  NSX5   9.0 343.0 0
+NSX5  NSY5   6.0 265.0 -15.0
+NSY5  NSZ5   7.0 311.0 -38.0
+NSZ5  NSA6   5.5 244.0 0
+NSA6  NSB6   5.0 160.0 0
+NSB6  NSC6   7.0 271.0 0
+NSC6  NSD6  11.0 310.0 0
+NSD6  NSE6  15.0 310.0 0
+NSE6  NSF6  10.0 310.0 0
+
+*calibrate compass	+8.0
+;JNC 1986 0 his own compass ?
+
+NSB6  ND01   2.  150.  0;Downstream through first sump ...
+ND01  ND02   7.  240.  0
+ND03  ND02   6.   90.  0
+ND04  ND03  17.  112.  0
+ND05  ND04  10.   89.  0
+ND05  ND06   9.  320.  0
+ND06  ND07   8.  316.  0
+ND07  ND08   9.  298.  0
+NSU   5I01  10.0 231.0 0;5th Inlet - l.h.s. on r.h.bend
+5I01  5I02  14.0 196.0 0
+5I02  5I03   4.0 242.0 0
+5I03  5I04   7.5 263.0 0
+5I04  5I05   7.5 238.0 0
+5I05  5I06   6.0 273.0 0
+5I06  5I07  20.5 244.0 0
+5I07  5I08   6.0 259.0 0
+5I08  5I09  16.0 225.0 0
+5I09  5I10  12.0 204.0 0
+5I10  5I11  13.0 195.0 0
+5I11  5I12  29.0 248.0 0
+5I12  5I13  20.0 276.0 0
+5I13  5I14   6.0 294.0 0
+5I14  5I15   5.0 263.0 0
+5I15  5I16   3.0 289.0 0
+5I16  5I17   5.0 247.0 0
+5I17  5I18   5.0 290.0 0	;inlet sump on true right
+5I18  5I19   7.0 324.0 0;crawl
+5I19  5I20  11.0 332.0 0
+5I20  5I21   4.5  27.0  40.0	;4m climb up just after 5I20
+5I21  5I22  21.0  50.0 0
+5I22  5I23   6.0 359.0 0;continues 181m generally N.Nice chambers after 80m
+5I22  5I24  12.  340.  0
+5I24  5I25  10.   30.  0
+5I25  5I26  14.    0.  0
+5I26  5I27   7.  310.  0
+5I27  5I28   8.    0.  0
+5I28  5I29  15.  310.  0
+5I29  5I30   8.  350.  0
+5I30  5I31  15.   20.  0
+5I31  5I32  10.  310.  0
+5I32  5I33  12.   40.  0
+5I33  5I34   6.   70.  0
+5I34  5I35   4.  350.  0
+5I35  5I36   4.   90.  0
+NSG1  6I01  12.0  73.0 0;6th inlet 0 Curry Junction
+6I01  6I02  17.0 140.0 0
+6I02  6I03  21.0  80.0 0
+6I03  6I04  10.0  88.0 0
+6I04  6I05  18.0  95.0 0
+6I05  6I06  13.5  61.0 0
+6I06  6I07  10.0 132.0 0
+6I07  6I08  14.0  73.0 0
+6I08  6I09   8.0  48.0 0
+6I09  6I10  14.0  91.0 0
+6I10  6I11   6.0 336.0 0
+6I11  6I12   6.0  41.0 0
+6I12  6I13   1.8 130.0 0
+6I13  6I14   6.0  39.0 0
+6I14  6I15   4.0  23.0 0
+6I15  6I16   4.8  35.0 0
+6I16  6I17   5.0   0.0 0
+6I17  6I18   5.0   2.0 0
+6I18  6I19   8.0  49.0 0
+6I19  6I20   2.0 130.0 0
+6I20  6I21   5.0  70.0 0;upstream sump
+NSP2 10I01  11.0  67.0 0;10th inlet 0 opposite roof dome
+10I01 10I02   7.0  37.0 0
+10I02 10I03   5.0 122.0 0
+10I03 10I04   4.5 139.0 0
+10I04 10I05   8.0  66.0 0
+10I05 10I06   7.0  89.0 0
+10I06 10I07   2.0 358.0 0
+10I07 10I08   2.0 280.0 0
+10I08 10I09   3.0  20.0 0;base of aven.7m to ledge then out of sight over12m
+NSY2 11I01  14.0  49.0 0;11th inlet 0 Canyon corner
+11I01 11I02  10.0  31.0 0;100 mag to aven
+11I02 11I03  14.0 330.0 0;small aven over 11I03
+11I03 11I04   4.0 325.0 0
+11I04 11I05   7.0   0.0 0
+11I05 11I06   1.3  50.0 0;getting smaller
+11I06 11I07   5.0 350.0 0;continues 30m to upstream sump
+11I02 11J03   8.0 315.0 0;P.Riley survey from radiolocation point
+11J03 11J04   8.0 335.0 0
+11J04 11J05  12.0 340.0 0
+11J05 11J06   2.0  50.0 0
+11J06 11J07   6.5 345.0 0
+11J07 11J08   4.5  60.0 0
+11J08 11J09   2.0  10.0 0
+NSN3 12I01   4.0 350.0 0;Showerbath inlet
+12I01 12I02   1.0 320.0 0
+12I02 12I03   3.5  20.0 0
+12I03 12I04  19.0 330.0 0
+12I04 12I05   9.0 335.0 0
+12I05 12I06   6.0 340.0 0
+12I06 12I07  18.0 335.0 0
+NSP4 13I01   9.0 172.0 8.0 ;13th inlet 0 from dry valley
+13I01 13I02   7.0 120.0 0
+13I02 13I03  13.0 102.0 0
+13I03 13I04   8.0 187.0 0
+13I04 13I05  11.0  95.0 0
+13I05 13I06   5.0 195.0 0
+13I06 13I07  11.0 156.0 0
+13I07 13I08   7.0 100.0 0;mud choked passage on true right going 60.0 mag.
+13I08 13I09  17.0 204.0 0
+13I09 13I10  19.0 231.0 0
+13I10 13I11   7.0 260.0 0
+13I11 13I12  13.0 248.0 0
+13I12 13I13   3.0 340.0  40.0
+13I13 13I14   1.0 280.0  70.0 ;continues up too tight
+NSF5 15I00   5.  305.  0;Inlet 15 up on left
+15I00 15I01   5.  179.  0
+15I01 15I02   9.5 211.  0
+15I02 15I03   5.5 283.  0
+15I03 15I04   8.  241.  0
+15I04 15I05   7.  298.  0
+15I05 15I06   5.  249.  0
+15I06 15I07   3.  201.  0
+15I07 15I08   8.5 188.  0
+15I08 15I09  10.5 247.  0
+15I09 15I10   3.  221.  0
+15I10 15I11   5.5 271.  0
+15I11 15I12   6.  252.  0
+15I12 15I13   8.  276.  0
+15I13 15I14   8.  229.  0
+15I14 15I15   6.  280.  0
+15I15 15I16   6.  198.  0
+15I16 15I17  12.  273.  0
+15I17 15I18   8.  258.  0
+15I18 15I19  15.  306.  0
+15I19 15I20   8.  295.  0
+15I20 15I21   4.  277.  0
+15I21 15I22   4.5 319.  0
+15I22 15I23   5.  250.  0
+15I23 15I24   2.  276.  0
+15I24 15I25   2.  230.  0
+15I25 15I26   1.5   -  UP
+15I26 15I27   3.  186.  0
+15I27 15I28   3.  151.  0
+15I28 15I29   4.  156.  0
+5I22 15I30   5.  206.  0
+15I30 15I31   3.  294.  0
+15I31 15I32   4.  205.  0
+NSU5 16I00   3.2 353.0 0
+16I00 16I01  11.   90.  0;16th inlet on right 0 not too big
+16I01 16I02  11.   85.  0
+16I02 16I03   6.   60.  0
+16I03 16I04   6.  120.  0
+16I04 16I05   5.   40.  0
+16I05 16I06   6.   60.  0
+16I06 16I07   6.   95.  0
+16I07 16I08  12.   90.  0
+16I08 16I09   6.   75.  0
+16I09 16I10   7.   60.  0
+16I10 16I11   7.   70.  0
+16I11 16I12  11.   85.  0
+16I12 16I13   6.   40.  0
+16I13 16I14   6.  100.  0;inlet on left partway
+16I14 16I15   4.    0.  0;14 in chamber, 15 junction on L
+16I15 16I16  10.   20.  0;junction to L partway
+16I16 16I17   6.   10.  0
+16I17 16I18   4.   60.  0
+16I18 16I19   5.  340.  0
+16I19 16I20   4.   60.  0;calcite blockage
+ND05  17I01   6.  243.  0
+17I01 17I02   6.  153.  0
+17I03 17I02   9.   11.  0
+17I04 17I03  13.   37.  0
+17I05 17I04   4.   74.  0
+17I06 17I05   5.   30.  0
+17I07 17I06   5.  320.  0
+17I08 17I07   9.   16.  0
+17I09 17I08   8.  100.  0
+17I10 17I09   7.   81.  0
+17I11 17I10   5.5   5.  0
+17I12 17I11   4.   74.  0
+17I13 17I12   8.   81.  0
+17I14 17I13   5.   78.  0
+17I15 17I14   6.   60.  0
+17I16 17I15   6.  140.  0
+17I17 17I16   4.  129.  0
+
+*end N2

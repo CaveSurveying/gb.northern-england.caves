@@ -1,0 +1,32 @@
+;Every other entrance on Leck Fell
+
+*begin	Me1
+
+*include	pirp
+*include	blp
+*include	Tp
+*include	Sd
+*include	Bm
+*include	Dhd
+*include	Eh
+*include	Hp
+*include	Rh
+*include	Rb
+*include	Coh
+*include	Smh
+*include	Mep
+*include	Merh
+*include	Merl
+*include	Npc
+*include	Nip
+*include	Wp
+*include	Sdc
+*include	Fp
+*include	Fip
+*include	Dd
+*include	Ld
+*include	Lop
+*include	Uc1
+;*include	
+
+*end	Me1
