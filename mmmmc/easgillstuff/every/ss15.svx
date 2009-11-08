@@ -1,0 +1,25 @@
+;Cave:	Leck Beck Head tag to flood risings
+;Surveyors:	R.D/PAG/Dave Edland
+;Date:	02/03/97
+;Instruments:	Red Rose Silva Compass & Sunto Clino, PAG 30m tape
+
+*equate	ss15.001	ss04.021
+
+*begin	ss15
+
+*calibrate compass	+5.17
+
+*fix 001 65946.33 79997.61 213.04 ;ev.ss04.021
+
+001	002	08.80	091.0	+17.0	;st001=tag Leck Beck Head
+002	003	12.18	018.5	-02.0
+003	004	13.70	030.5	+03.5
+004	004a	07.95	139.5	-03.5	;st004a is cross on wall true left rising
+004a	004b	01.70	 -	DOWN	;water level
+004	005	03.85	003.0	-18.0	;st005 is arrow on fang at roof level true right ent.
+005	005a	00.90	 -	DOWN	;water level
+004	101	13.70	056.5	+20.5
+101	102	02.60	315.0	-35.0
+102	103	01.65	 -	DOWN	;sink above risings
+
+*end	ss15

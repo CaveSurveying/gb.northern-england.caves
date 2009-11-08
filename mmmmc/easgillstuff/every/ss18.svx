@@ -1,0 +1,25 @@
+;Surface survey from Bench Mark above Leck Fell House to Gatepost at lane end
+;08/05/97 evening
+;Ray Duffy & Pete Grant
+
+*equate	ss18.010	ss17.016
+*equate	ss18.001	ss27.050
+
+*begin	ss18
+
+*calibrate compass	+5.17
+
+*fix	010 67572.49 79157.92 414.61 ;ev.ss18.010
+
+;001	001a	3000.00	304.0	00.0	;sight to trig point
+001	002	01.60	-	up	;001 = bench mark on ground
+002	003	30.60	214.0	-04.5	;centre of track
+003	004	30.60	214.0	-04.5	;centre of track
+004	005	30.60	214.0	-04.5	;centre of track
+005	006	30.60	213.5	-02.5	;centre of track
+006	007	30.60	213.0	-02.5	;centre of track
+007	008	30.60	217.5	-03.0	;centre of track
+008	009	30.60	214.0	-05.0	;centre of track
+009	010	05.65	214.0	-05.0	;010 = hole in centre of top of stone gatepost at end of track
+
+*end	ss18

@@ -1,0 +1,38 @@
+;Cave:	Surface survey from Bull Pot Farm to Aygill 
+;Surveyors:	R.Duffy/P.Grant
+;Date:	23/11/96
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+*equate	ss08.001	ss26.001
+*equate	ss08.019	ss16.007
+
+*begin	ss08
+
+*calibrate compass	+5.27
+
+*fix 019 66338.56 81833.43 295.15 ;ev.ss08.019
+
+
+001	002	01.45	 -	UP	;st001=Bench mark on farm
+002	003	30.00	005.6	+03.0
+003	004	30.00	002.0	+01.5
+004	005	30.00	358.5	+01.0
+005	006	30.00	357.0	+00.8
+006	007	30.00	349.5	 00.0
+007	008	30.00	353.5	-02.5
+008	008a	08.00	136.0	-30.0	;st008a=CAS001(Casterton Pot)
+008	009	30.00	009.0	+02.0
+009	010	30.00	347.5	+02.5
+010	011	30.00	021.0	-00.5
+011	012	30.00	013.5	-03.5
+012	013	28.00	018.0	-10.5
+013	013a	01.05	 -	DOWN	;st013a=HER001(fang of rock at ent to Herbert's Dig TAG)
+013	014	25.20	028.5	+13.5
+014	015	30.00	109.0	-00.5
+015	016	15.70	108.5	+02.0
+016	016a	01.20	 -	DOWN	;st016a=MB35
+016	017	30.00	340.0	-02.5
+017	018	28.00	049.5	-19.5
+018	019	10.93	023.5	-04.5	;st019=AYG001(Aygill Ent)
+
+*end	ss08

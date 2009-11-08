@@ -1,0 +1,61 @@
+;Surface survey from Gatepost in field below Leck Fell House to Gatepost at lane end down to car park gatepost and to Lost Johns ent. tag
+;08/05/97 evening
+;Ray Duffy & Pete Grant
+
+*equate	ss17.001	ss05.033
+*equate	ss17.016	ss18.010
+*equate	ss17.044	ss19.034
+*equate	ss17.036	ss21.001
+
+
+*begin	ss17
+
+*calibrate compass	+5.17
+
+*fix 036 67159.0 78768.0 368.53
+
+001	002	30.60	165.5	+04.0	;ss17.001 = ss05.033 tag in gatepost
+002	003	30.60	156.0	+06.0
+003	004	30.60	134.5	+08.5
+004	005	30.60	142.5	+11.5
+005	006	30.60	136.0	+02.5
+006	007	30.60	144.5	+04.0
+007	008	30.60	135.5	+09.0
+008	009	30.60	130.5	+09.5
+009	010	30.60	134.0	+08.5
+010	011	30.60	132.0	+11.5	;011 is 5m short of gate
+011	012	30.60	149.0	+06.0
+012	013	30.60	170.5	+07.5
+013	014	30.60	169.5	+05.0
+014	015	30.60	164.0	+07.0	;015 is in middle of road
+015	016	05.53	113.0	+06.0	;016 is hole in top of gatepost at bottom of lane = ss18.010
+016	017	30.60	226.5	-05.5
+017	018	30.60	220.0	-05.5	;017 to gate is 28.20m
+018	019	30.60	223.5	-05.5	;middle of road
+019	020	30.60	217.0	-04.5	;middle of road
+020	021	30.60	219.5	-02.5	;middle of road
+021	022	30.60	223.5	-04.0	;middle of road
+022	023	30.60	220.5	-03.5	;middle of road
+023	024	30.60	221.0	-03.5	;middle of road
+024	025	30.60	222.0	-04.5	;middle of road
+025	026	30.60	221.0	-03.5	;middle of road
+026	027	30.60	220.5	-05.0	;middle of road
+027	028	30.60	219.5	-05.0	;middle of road
+028	029	30.60	218.0	-05.5	;middle of road
+029	030	30.60	247.5	-05.5	;middle of road
+030	031	30.60	270.0	-07.0	;middle of road
+031	032	30.60	269.0	-05.5	;middle of road
+032	033	30.60	270.5	-05.0	;middle of road
+033	034	30.60	258.5	-03.5	;middle of road
+034	035	30.60	238.0	-03.5	;middle of road
+035	036	14.85	240.5	-02.0	;036 is centre of top of car park gate post
+036	037	30.60	232.5	-02.5	;middle of road
+037	038	30.60	236.0	-02.5	;middle of road
+038	039	30.60	235.0	-04.0	;middle of road
+039	040	30.60	236.5	-03.5	;middle of road
+040	041	15.37	223.5	-04.0	;041 is hinge post top at ent to lost johns enclosure
+041	042	29.00	130.0	-00.5
+042	043	09.20	180.0	-28.0
+043	044	01.70	-	down	;044 is tag at lost johns ent.
+
+*end	ss17

@@ -1,0 +1,21 @@
+;Cave:	Surface survey from Hazel Sykes to Aygill
+;Surveyors:	Ray Duffy/Bob Johnston
+;Date:	07/03/97 eve
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+*equate	ss16.007	ss08.019
+
+*begin	ss16
+
+*calibrate compass	+5.17
+
+*fix 001 66340.75 81923.75 304.73 ;ev.ss16.001
+
+001	002	01.60	278.0	+08.0	;st001=tag at Hazel Sykes
+002	003	30.00	215.0	+05.0
+003	004	30.00	193.0	 00.0
+004	005	16.00	191.5	-07.0
+005	006	30.00	145.0	-18.0
+006	007	03.85	036.0	-31.0	;st007=ss8.019	Aygill Tag
+
+*end	ss16

@@ -1,0 +1,26 @@
+;Cave:	Surface survey - gate on Leck fell to Iron Kiln
+;Surveyors:	R.Duffy
+;Date:	01/03/03
+;Instruments:	PAG
+
+*equate	ss33.001	ss20.023
+*equate	ss33.012	ss23.018	;Iron Kiln entrance
+
+*begin	ss33
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+
+002	001	04.35	265.0	 00.0	;st001 is centre of gate across Leck Fell Lane
+002	003	03.85	175.0	+03.5
+003	004	45.57	099.5	+01.5	;st004 is base of tree in pavement
+005	004	02.30	330.0	+18.5
+006	005	04.74	280.0	+10.0
+007	006	03.00	289.0	+15.0
+007	008	16.68	096.0	 00.0
+008	009	08.86	095.0	-04.5
+009	010	04.70	095.0	-20.0
+010	011	04.78	086.0	-18.0
+011	012	00.72	086.0	 00.0	;st012 is centre of lid hole
+
+*end	ss33

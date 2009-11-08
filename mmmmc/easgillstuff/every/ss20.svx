@@ -1,0 +1,59 @@
+;Surface survey:	Leck Fell  to Dead Dobbin Pot via Shooting huts on Road
+;Surveyors: 	Mel Wilkinson	Sandra Wilkinson	Andy Hall
+;Date:		11/05/97  afternoon
+;Instruments:	Club 'New' Sunto compass and Clinometer plus 30m Tape
+
+*equate	ss20.001a	ss17.041
+*equate	ss20.036	ss23.001
+*equate	ss20.023	ss33.001	
+
+*begin	ss20
+
+;*calibrate compass	+6.50
+*calibrate compass	+3.50
+
+001A	001	04.90	151.5	-03.0	;Centre of road to gate
+001	002	30.00	251.0	-05.0	;
+002	003	30.00	247.0	-06.0	;
+003	004	20.50	250.0	-03.5	;
+004	004a	03.00	161.5	-03.0	;To sink at side of wall by road
+004	005	30.00	246.0	-02.5	;
+005	006	30.00	239.5	-02.5	;
+006	007	08.20	238.0	-04.0	;
+007	007a	04.20	141.0	-18.0	;Marker tag Starting Handle Hole
+007	008	30.00	236.0	-03.0	;
+008	009	30.00	229.0	-05.5	;
+009	010	30.00	227.0	-03.5	;Centre of gate East side of road
+010	011	30.00	227.0	-03.0	;
+011	012	30.00	231.0	-05.5	;	
+012	013	30.00	235.0	-04.0	;
+013	014	30.00	235.0	-04.5	;
+014	015	06.10	235.5	-05.5	;
+015	015a	05.20	145.0	-05.0	;Top of wall junction East side of wall
+015	016	30.00	233.0	-06.0	;
+016	017	30.00	231.5	-05.5	;
+017	018	30.00	232.0	-03.5	;
+018	019	30.00	234.0	-03.5	;
+019	020	30.00	233.5	-05.5	;	
+020	021	30.00	232.5	-04.5	;
+021	022	30.00	233.5	-05.0	;	
+022	023	24.30	235.0	-05.0	;centre of gate across road
+
+*calibrate compass	-1.00
+
+023	024	30.00	216.0	-05.5	;
+024	025	20.40	234.5	-07.5	;
+025	025a	05.00	145.5	-05.5	;Top of wall junction East side of road
+025	026	30.00	243.0	-08.0	;
+026	027	30.00	250.0	-09.0	;
+027	028	28.50	210.0	-07.5	;Centre of road by two shooting huts
+028	029	06.40	134.5	+01.5	;Top of southern gate post east side of road
+029	030	30.00	199.0	+03.5	;
+030	031	30.00	179.5	+04.0	;
+031	032	30.00	201.0	-02.5	;
+032	033	30.00	204.0	-04.5	;
+033	034	30.00	191.0	-03.0	;
+034	035	14.10	215.0	-08.5	;
+035	036	05.65	055.0	-33.0	;Pointed flute of limestone directly above westside Dead Dobbin Pot X scratched on rock
+
+*end	ss20

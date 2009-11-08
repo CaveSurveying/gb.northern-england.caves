@@ -1,0 +1,48 @@
+;Cave:	Ease Gill Stream Survey (part 5)
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	11/05/02
+;Instruments:	PAG
+
+*equate	sf5.001	sf4.016a
+*equate	sf5.014	ss03a.014
+
+*begin	sf5
+
+*calibrate compass	+4.00
+*calibrate clino	+0.5
+
+*fix	004b	67115.09 80401.25 288.40 ;ev.sf5.004b
+
+001	002	01.70	 -	UP	;st001=tag at Howgill Sink
+
+002	002a	24.63	127.0	+22.0
+002a	002b	09.63	281.0	+07.0
+002b	002c	22.26	245.0	+15.0
+002c	002d	05.24	 -	DOWN
+002d	002e	02.32	082.0	-01.0	;star scrathed on left wall of an Unamed Pot above Howgill Sink
+
+002	002f	08.23	185.0	+13.0	;st002f=tag above Jim's dig
+002f	002g	02.02	 -	DOWN	;floor level before drop
+
+002	003	39.86	275.0	-03.0
+003	004	39.91	276.0	 00.0
+
+004	004a	39.67	205.0	+03.0
+004a	004b	09.67	234.0	-07.0	;st004b=tag at Owl Hole
+004b	004c	01.70	 -	UP
+004c	004d	22.59	104.0	+23.0
+004d	004e	25.00	234.0	+02.0
+004e	004f	06.58	112.0	+10.0	;st004f=tag at Merlin Hole proper!!!!
+
+004	005	35.80	253.0	 00.0
+005	006	33.07	226.0	-04.0
+006	007	40.05	259.0	-03.0
+007	008	39.83	269.0	-01.0
+008	009	40.26	262.0	-01.0
+009	010	39.70	267.0	-01.0
+010	011	39.36	257.0	-02.0
+011	012	39.72	252.0	-01.0
+012	013	10.24	175.0	+12.0
+013	014	01.70	 -	DOWN	;st014=tag in rock at Link Pot
+
+*end	sf5

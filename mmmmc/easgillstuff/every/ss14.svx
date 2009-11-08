@@ -1,0 +1,22 @@
+;Cave:	Surface Survey Hellot hole to gate post
+;Surveyors:	R.D/PAG/Phil Goodwin
+;Date:	02/03/97
+;Instruments:	Red Rose Silva Compass & Sunto Clino, PAG 30m tape
+
+*equate	ss14.008	ss26.027
+
+*begin	ss14
+
+*calibrate compass	+5.17
+
+*fix 001 66181.01 80653.64 295.57 ;ev.ss14.001
+
+001	002	19.05	324.0	+13.5	;st001=tag Hellot Hole
+002	003	30.00	355.5	+02.5
+003	004	29.00	358.0	+01.5
+004	005	29.00	010.0	+03.0
+005	006	29.00	011.0	+03.5
+006	007	29.00	360.0	+00.5
+007	008	20.00	352.5	-03.0	;gate post wood
+
+*end	ss14

@@ -1,0 +1,29 @@
+;Cave:	Surface Survey from County to Innominate, Finger & Cow Dub II
+;Surveyors:	Andy Hall/Tim Eastwood
+;Date:	13/02/00
+;Instruments:	2
+
+*equate	ss30.001	ss01.035
+
+*begin	ss30
+
+*calibrate compass	+5.50
+*calibrate clino	-1.50
+
+*fix 007 67517.79 80477.02 322.52 ;ev.ss30.007
+
+001	002	01.60	 -	UP	;st001=County tag
+002	003	30.00	179.5	-05.0
+003	004	30.00	237.5	 00.0
+004	005	11.10	235.5	+13.0	;Left hand gate post
+005	006	30.00	162.0	+09.0
+006	007	17.30	180.0	+04.0	;st007=tag Innominate Sink
+
+005	008	30.00	268.0	-06.0
+008	009	17.80	266.0	-08.0	;st009=tag Finger Pot
+
+009	010	13.30	17.00	-19.0
+010	011	13.60	42.50	-20.0	;st011 is bridge
+011	012	04.10	118.0	-31.0	;st012=tag Cow Dub II
+
+*end	ss30

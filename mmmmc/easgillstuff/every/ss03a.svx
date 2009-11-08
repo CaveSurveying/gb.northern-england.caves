@@ -1,0 +1,30 @@
+;Surface survey from Lanc. Hole to Link
+;Surveyors:	Ray Duffy/Dave Edland
+;Date:	28/04/98pm
+;Instruments:	kit3AG(corrected)
+
+*equate	ss03a.001	ss26.038
+*equate	ss03a.014	sf5.014
+*EQUATE	SS03a.014	SS06.010a
+
+*BEGIN	SS03a
+
+*fix 014 66850.69 80345.27 279.94 ;ev.sf5.014
+
+*CALIBRATE COMPASS	+5.50
+
+001	002	30.00	124.5	+19.0	;st.001=centre of Lanc.Hole lid
+002	003	60.00	131.0	+03.5
+003	004	60.00	129.5	+01.0
+004	005	60.00	104.5	+00.5
+005	006	60.00	146.5	+03.5	;about 20.7m is stream running into shakehole
+006	007	60.00	147.0	+00.5
+007	008	60.00	131.0	-07.0
+008	009	60.00	166.0	+02.0	;st.009 is at wall corner
+009	010	24.00	164.5	-04.5
+010	011	60.00	125.5	-10.5
+011	012	54.70	115.0	-17.5	;st.012 is stile post
+012	013	27.75	155.5	-00.5
+013	014	01.00	 -	DOWN	;st.014=tag in rock at Link (tag missing)
+
+*END	SS03a

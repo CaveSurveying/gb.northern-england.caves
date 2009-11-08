@@ -1,0 +1,45 @@
+;Cave:	Surface Survey opposite County Pot
+;Surveyors:	R.Duffy/J.Chilton/S.Lieberman
+;Date:	21/08/02
+;Instruments:	PAG
+
+*equate	ss31.001	ss01.035
+
+*begin	ss31
+
+*calibrate compass	00.0
+*calibrate	clino	+0.0
+*calibrate tape	+2.00
+
+*fix 017 67727.41 80590.86 336.15 ;ev.ss31.017
+
+001	002	30.00	115.0	+09.0	;st001=County Lid
+002	003	11.98	164.0	+31.0
+003	004	24.29	119.0	+11.0	;st004 is Andy Whitney's hole
+004	005	08.28	085.0	-07.0	;st005 is collapse in stream bed
+005	006	23.69	115.0	+09.0	;st006 is Blythe Hole
+006	007	10.00	112.0	+09.0	;st007 is stream sink
+007	008	19.26	130.0	+10.0
+008	009	02.55	 -	DOWN	;st009 is Oxford Cave 3
+008	010	30.00	118.5	+10.0
+010	011	24.10	139.0	+13.0
+011	012	26.88	072.0	+10.0	;st012 is pointy rock out of left side of gulley
+012	013	59.34	008.0	-04.0
+013	014	28.77	017.0	-05.0
+014	015	21.74	086.0	+03.5	;st015 is stream sink beside circle of rocks
+015	016	10.51	045.5	-24.0
+016	017	02.64	 -	DOWN	;st017=tag Bank Holiday Hole
+016	018	23.76	057.0	+16.0
+018	019	20.33	044.0	-09.0	;st019 is collapse/sink
+019	020	12.50	070.0	+14.0
+020	021	11.50	038.0	-11.0	;st021 is sink hole
+021	022	11.32	000.0	+12.0	;st022 is small sink
+022	023	14.54	051.5	-04.0	;st022 is on small track
+023	024	30.25	339.0	-04.0	;st023 is between two small sinks
+024	025	30.24	327.0	-09.0	;leg crosses small path to upper part of gill
+025	026	27.54	319.0	-13.0	;top of mini doline
+026	027	18.00	006.0	-15.0	;st027=tag Gintrap Hole
+027	028	10.30	306.0	+13.0
+028	029	27.96	326.0	-16.0	;st029=tag Pool Sink
+
+*end	ss31

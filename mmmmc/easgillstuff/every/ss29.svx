@@ -1,0 +1,25 @@
+;Cave:	Surface Survey from Bull Pot of the Witches tag to Jim's dig
+;Surveyors:	Ray Duffy/Tim Eastwood
+;Date:	04/12/98
+;Instruments:	AG kit
+
+*equate	ss29.001	ss26.008a
+
+*begin	ss29
+
+*calibrate compass	+7.00
+
+*fix 001 66228.21 81298.48 292.54 ;ev.ss26.008a
+
+001	002	01.30	 -	UP	;st001 is tag on metal stake Bull Pot
+002	003	05.20	190.0	+01.5	;1st fence post parallel to wall to kilns
+003	004	30.00	213.0	-02.0
+004	005	30.00	217.0	-02.0	;sy005 is left side of gat in next field
+005	006	26.10	216.5	-01.5
+006	007	30.00	205.5	-04.0
+007	008	20.50	204.5	-08.5	;st008 is end of rock nearest tree before drop
+008	009	30.00	194.5	-00.5
+009	010	09.60	222.5	-30.0
+010	011	01.70	 -	DOWN	;st011=dig at floor level
+
+*end	ss29

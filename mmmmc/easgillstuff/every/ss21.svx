@@ -1,0 +1,96 @@
+;Cave:	Leck fell surface
+;Date:	12.7.97	
+;Surveyors:	Mel Wilkinson, Olly Betts, John Wilcock
+;Instruments:	Compass, Clino, Tape	RRCPC Surface Kit
+
+*Equate	ss21.001	ss17.036
+*equate	ss21.040	ss25.001
+
+*begin	ss21
+
+*calibrate compass	+1.50
+;*calibrate compass	+6.50
+
+
+001	002	22.60	309	-03	;Leck Fell Gate W post top
+002	003	30.53	310	-06
+003	004	16.12	311	-03
+004	005	25.40	310	-06
+005	006	25.90	311	-11
+006	007	26.90	309	-09
+007	008	12.80	311	00.0
+008	008a	07.00	054	-29	;SHAKEHOLE, to centre of floor (stones)
+
+008	010	06.70	309	+04
+010	011	26.10	314	-04
+011	011a	59.25	050	-01.0	;Short Drop Cave (stile post top)
+011a	011b	15.73	297	-14
+011b	011c	04.94	335	-31	;short drop ent lip
+
+011	015	22.05	312	00.0
+015	016	24.05	310	-05
+016	017	28.02	310	-01
+017	018	30.62	311	00.0
+018	019	05.28	310	+01
+019	020	26.45	310	-02
+020	021	30.56	311	-05
+021	022	28.20	311	-02
+022	023	28.13	311	-06
+023	024	30.50	310	-03
+024	025	30.76	313	-01
+025	026	30.23	298	-07
+026	027	30.43	328	-04
+027	028	12.66	314	-04
+028	029	29.20	316	-03	;Lowpoint of valley is at 23.50m on this leg
+029	030	26.26	316	+05
+030	030a	20.70	340	-04
+030a	030b	11.31	287	-33	;Big Meanie lip
+
+030	033	27.80	313	-02	;First kink in wall
+033	034	06.50	008	00	;Second kink in wall
+034	035	30.23	190	-05
+035	036	24.40	190	-10
+036	037	27.50	195	00
+037	038	29.50	198	+05
+038	039	30.75	199	+01
+039	040	10.30	182	+12	;Gavel Pot (stile post top)
+
+034	041	30.48	097	+03	;Leg starts at second kink in wall
+041	042	29.80	100	-01
+042	043	30.00	112	-02
+043	044	24.09	100	+01	;Deaths Head (stile post top)
+044	045	25.90	071	00.0
+045	046	21.00	068	+05	;Eye Holes (stile post top)
+046	047	27.07	095	00.0	;Eye Holes (SE fence corner)
+047	048	29.14	100	+03
+048	049	30.67	112	+03
+049	050	27.79	095	+04
+050	051	29.64	091	+03	;Long Drop (NW fence corner)
+051	052	02.91	103	+13	;Long Drop (stile post top)
+052	053	30.64	104	+01
+053	054	28.93	120	+01
+054	055	30.00	102	+02
+055	055a	19.88	122	-02	;Humble Pot (top of boulder in gully)
+
+055	057	30.52	139	+04
+057	058	30.00	135	+02
+058	059	15.44	136	+05	;Rumbling Hole (stile post top)
+059	060	19.50	073	+01
+060	061	29.89	080	+04	;Rumbling Beck Cave (stile post top)
+061	062	26.80	152	+02
+062	063	24.47	150	-03	;Hole in shakehole (another shakehole halfway along this leg)
+063	064	01.40	-	down	;To lip in shakehole
+
+062	065	30.58	188	+02
+065	066	20.22	192	-09
+066	067	01.74	-	down	;Coal Hole (lip)
+
+065	068	30.15	224	-05
+068	069	29.57	240	-02
+069	070	30.13	222	-03
+070	071	30.59	230	-04
+071	072	30.41	223	-03
+072	073	24.00	220	-03
+073	011a	15.51	216	00.0	;Loop closure to Short Drop (stile post top)
+
+*end	ss21

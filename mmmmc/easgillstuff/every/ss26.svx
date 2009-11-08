@@ -1,0 +1,85 @@
+;Cave:	Surface Survey Bull Pot to Lanc. Hole(two different days)
+;Surveyors:	Ray Duffy/Pete Grant
+;Date:	18/05/97
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+*equate	ss26.001	bpf1.001
+*equate	ss26.027	ss14.008
+*equate	ss26.038	ss04.000
+*equate	SS26.001	ss08.001
+*equate	ss26.001	ss13.030
+*equate	ss26.038	ss03a.001
+*equate	ss26.008a	ss29.001
+*equate	ss26.008a	ss35.018
+
+*begin	ss26
+
+*calibrate compass	+5.17
+
+
+*fix 035a 66358.01 80741.91 299.41 ;laser sighting
+*fix 038 66403.16 80716.84 293.99 ;ev.ss26.038
+*fix 044a 66432.11 80853.89 300.44 ;ev.ss26.044a
+
+001	002	01.40	 -	UP	;st001=bench mark Bull Pot Farm
+002	003	14.35	127.0	-01.0	;st003 wall gap on track
+003	004	30.60	209.0	-03.0
+004	005	30.60	208.5	-04.0
+005	006	30.60	212.5	-02.5
+006	007	30.60	211.5	-02.0
+007	008	30.60	213.0	-02.5
+008	008a	05.05	271.0	-17.0	;st008a=tag on metal stake Bull Pot
+008	009	30.60	210.5	-02.0
+009	010	18.60	177.0	-07.0	;st010=tag Hidden Pot
+010	011	01.40	 -	UP
+011	012	30.60	210.0	+07.0	;poss plus??
+012	013	30.60	193.5	+06.0
+013	014	30.60	190.0	+07.0
+014	015	30.60	188.5	+02.0
+015	016	30.60	195.0	+03.0
+016	017	30.60	192.0	-03.5
+017	018	30.60	200.0	-04.0
+018	019	30.60	201.5	+01.0
+019	020	30.60	198.0	+03.0
+020	021	30.60	201.5	-05.0
+021	022	30.60	182.0	-01.5
+022	023	06.35	185.0	-27.5	;st023=tag on rock Gale Garth
+
+;Cave:	Surface - Gale Garth to Lancaster Hole
+;Date:	03/08/97
+;Surveyors:	Ray Duffy, Pete Grant
+;Instruments:	Red Rose Surface Kit
+
+*calibrate compass	+5.45
+
+023a	023	03.00	280.0	+16.5	;023a=wooden post Gale Garth
+023	024	01.62	 -	up	;023=tag on rock at Gale Garth
+024	025	30.00	185.0	+07.5
+025	026	30.00	184.0	+02.5
+026	027	28.50	188.0	 00.0	;027=top of stone gatepost
+027	028	30.00	116.5	+08.0
+028	029	30.00	120.5	+01.0
+029	030	30.00	123.5	+01.0
+030	031	30.00	121.0	-00.5
+031	032	30.00	121.0	-02.5
+032	033	30.00	116.5	-05.5
+033	034	30.00	117.0	-05.0
+034	035	09.90	112.5	-10.0
+035	035a	01.55	 -	down	;035a=SSP01, brass plate bench mark
+035	036	30.00	124.5	-08.5
+036	037	21.95	124.5	-01.0
+037	038	01.55	 -	down	;038=centre of lid Lancaster Hole
+
+;Surveyors:	Ray Duffy
+;Date:	29/08/96 afternoon
+
+*calibrate compass	+5.5
+
+044	044a	21.60	033.5	-12.5	;st.044a=TAG=SP48 Cow Pot
+044	045	57.00	188.5	-05.0
+045	046	00.20	-	UP
+046	047	57.00	200.1	-03.7
+047	048	06.90	200.1	 00.0
+048	038	01.95	-	DOWN	;centre of Lanc.Hole lid
+
+*end	Ss26

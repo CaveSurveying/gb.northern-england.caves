@@ -1,0 +1,85 @@
+;Cave:	Surface Survey from Leck Beck Head to Mistral
+;Surveyors:	R.Duffy/P.Hall
+;Date:	21/12/96
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+*equate	ss09.001	ss04.021
+*equate	ss09.048	ss06.001
+
+*begin	ss09
+
+*calibrate compass	+8.0
+*calibrate clino	-0.5
+
+*fix 048 66644.27 80330.38 272.74 ;ev.ss09.048
+
+001	002	26.00	171.0	+05.0	;st001=tag at LBH
+002	003	30.00	035.0	+10.5
+003	004	29.00	086.5	+02.0
+004	005	20.50	091.0	-19.5
+005	005a	01.70	 -	DOWN	;small hole below a bedding plane?
+005	006	13.00	138.5	-02.0
+006	006a	07.70	048.0	-15.0	;st006a=tag Witches Cave
+006	007	19.10	256.5	+02.0
+007	008	10.50	168.0	+36.0
+008	009	30.00	100.0	+09.5
+009	010	20.20	101.0	+11.5
+010	011	30.00	120.5	-02.0
+011	011a	21.10	093.0	-14.0	;lower kirk cave1 TAGGED (other caves can be measured from here)
+
+;Surveyors:	R.Duffy
+;Date:	10/04/05
+;Instruments:	PAG + disto
+
+*calibrate compass	+3.0
+*calibrate clino	-0.5
+
+011a	011b	14.83	018.0	+05.0	;st011b=tag probably Lower Kirk cave 8
+011b	011c	23.80	151.0	+22.0
+011d	011c	02.96	120.0	-02.0	;st011c is head height on abseil rope from horizontal tree branch
+
+;back to original notes
+*calibrate compass	+8.0
+*calibrate clino	-0.5
+
+011	012	17.30	264.0	+21.5
+012	013	27.70	122.0	+13.0
+013	014	23.40	073.5	+02.0
+014	015	01.80	 -	UP
+015	016	09.60	089.0	-11.0
+016	017	21.80	039.0	-05.0
+017	018	30.00	056.5	-12.0
+018	019	30.00	034.5	 00.0
+019	020	30.00	353.0	+01.0
+020	021	30.00	006.0	+01.0
+021	022	30.00	356.0	+00.5
+022	023	30.00	352.0	+02.0
+023	024	30.00	027.0	+03.0
+024	025	30.00	039.0	+01.0
+025	026	30.00	094.0	+01.0
+026	027	30.00	102.5	+02.5
+027	028	24.10	118.0	+09.0
+028	029	01.70	 -	DOWN
+029	030	05.90	076.0	-20.0	;st030=tag kirk pot
+030	031	05.60	030.0	+08.0
+031	032	06.50	079.5	+50.0	;from top of first climb to hole at very top in stream bed lip
+032	033	30.00	071.0	+06.0
+033	034	30.00	051.0	+03.0
+034	035	11.80	068.0	+02.0
+035	035a	01.70	 -	DOWN	;st035a=tag Pegleg pot
+035	036	30.00	063.0	-01.0
+036	037	25.90	079.5	+02.0
+037	038	30.00	070.5	+02.0
+038	039	30.00	071.5	+01.5
+039	040	30.00	056.5	+02.0
+040	041	30.00	097.0	+01.5
+041	042	30.00	088.0	+02.0
+042	043	30.00	090.5	-01.0
+043	044	30.00	091.0	+02.0
+044	045	30.00	091.0	+01.5
+045	046	17.20	136.0	 00.0
+046	046a	01.20	 -	DOWN	;st0046a=tag Crumbles
+046	047	30.00	076.0	+02.0
+047	048	04.80	160.0	-17.0	;st048=tag Mistral
+
+*end	ss09

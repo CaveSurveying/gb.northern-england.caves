@@ -1,0 +1,35 @@
+;Cave:	Surface - Dead Dobbin to Iron Kiln
+;Date:	22/05/97
+;Surveyors:	Ray Duffy, Pete Grant
+;Instruments:	Ray Duffy's
+
+*Equate	ss23.001	ss20.036
+*Equate	ss23.018	ss33.012
+
+*begin	ss23
+
+;*calibrate compass	+5.17
+*calibrate compass	-10.00
+
+*fix 018 66680.73 78301.40 315.00
+
+001	002	03.80	158.0	+20.0	;001 = tag dead dobbin
+002	003	30.60	086.0	+17.5
+003	004	30.60	100.0	+09.0
+004	005	30.60	08.20	+07.5
+005	006	30.60	089.5	+04.5	;006 = butt No.3
+006	007	30.60	06.70	+04.5	;006 + 23m, butt on right
+007	008	30.60	061.0	+03.0
+008	009	30.60	058.0	+04.0
+009	010	30.60	037.0	+02.0	;009 + 16m, to fence
+010	011	30.60	018.0	+02.5
+011	012	30.60	345.5	-00.5
+012	013	30.60	003.5	-00.5
+013	014	30.60	022.0	-05.0
+014	015	22.80	328.0	-25.0	;015=tag, Pirate/Comittee pot
+015	016	01.70	  -	Up
+016	017	19.10	075.5	+02.5
+017	018	07.20	338.0	-28.0	;018=centre of Iron Kiln, scaffold pole at top of dig
+018	019	09.75	  -	down	;019=bottom of dig on 22/05/97
+
+*end	Ss23

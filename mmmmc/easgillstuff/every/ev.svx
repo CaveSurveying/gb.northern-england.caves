@@ -1,0 +1,81 @@
+;brings together all surface surveys
+
+*begin	ev
+
+;from Brownthwaite to farm, lanc. hole to leck beck to link loop to lanc.
+
+*include	ss13
+*include	ss01
+*include	ss26
+*include	ss04
+*include	ss09
+*include	ss07
+*include	ss06
+*include	ss03a
+*include	ss05
+*include	ss35
+
+;gill to Top Sink and Link
+
+*include	ss32
+*include	gil1
+*include	gil2
+*include	gil2a
+*include	gil3
+*include	gil4
+*include	gil5
+*include	gil6
+*include	gil7
+*include	gil8
+*include	gil8a
+
+;from Tow scar to kingsdale to Keld to valley to yordas
+*include	Ks3
+*include	Ks2
+*include	Ks4
+
+*include	Ks1
+
+
+*include	mg2
+*include	mg1
+;*include	mg3	;superceded by Mg3a
+*include	mg3a
+
+
+*include	ss29
+*include	ss19
+*include	ss17
+*include	ss18
+*include	ss27
+*include	ss28
+
+
+*include	ss21
+*include	ss30
+*include	ss31
+
+
+
+*include	ss08
+*include	ss14
+*include	ss15
+*include	ss16
+*include	ss20
+*include	ss22
+*include	ss23
+*include	ss25
+*include	ss33
+
+
+;Chapel-le-Dale surveys
+
+*include	Cds1
+*include	ss34
+
+
+
+
+*include	bpf1
+
+*end	ev

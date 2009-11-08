@@ -1,0 +1,34 @@
+;Cave:	Surface Survey from stile on way to County to Top Sink
+;Surveyors:	R.Duffy
+;Date:	24/02/03
+;Instruments:	PAG
+
+*equate	ss32.001	ss01.026a	;stile post
+*equate	ss32.018	sf1.007b	;tag Top Sink
+
+*begin	ss32
+
+*calibrate compass	+5.00
+*calibrate clino	+0.5
+
+*fix	018 68035.91 81122.63 343.09 ;ev.ss32.018
+
+002	001	50.00	292.0	 00.0
+002	003	50.00	107.0	+02.0
+004	003	50.00	281.5	-02.0
+005	004	50.00	280.0	-01.0
+006	005	50.00	268.5	+00.5
+007	006	50.00	240.0	+00.5
+008	007	50.00	244.5	+03.0
+009	008	50.00	240.5	+07.0
+010	009	50.00	252.0	+04.5
+011	010	50.00	243.5	+04.5
+012	011	50.00	247.5	+09.0	;Gertoil? approx 20m at 90deg 27m from st12 looking to 11 on left
+013	012	50.00	256.5	+04.0	;next shakehole 41m from st12 on left at 90deg about 8m 
+014	013	50.00	224.5	-01.0	;st13 2.5m from gill fence leg pllel to fence
+015	014	50.00	220.0	-01.5
+015	016	25.45	050.5	+03.0
+017	016	04.67	280.0	+17.0	;st016 is top of larger of fence posts
+017	018	01.85	 -	DOWN	;st018=tag Top Sink
+
+*end	ss32

@@ -1,0 +1,57 @@
+;Cave:	surface Survey from Bull Pot Farm BM to Top Tip[ Pot to Lime Kiln
+;Surveyors:	A.Hall
+;Date:	03/01/07
+;Instruments:	kit 3
+
+*equate	ss35.000 ss01.001 ;st000 is bench mark at farm
+*equate	ss35.018	ss26.008a
+
+*begin	ss35
+
+*calibrate compass		+4.00
+*calibrate clino		-3.50
+*calibrate tape		-0.50
+
+001	000	20.70	112.0	-08.0	;st000=bench mark at farm
+001	002	08.00	226.0	-01.0	;st002 is gate
+003	002	50.00	073.0	-06.0
+004	003	51.00	074.0	-13.0	;st004 is gate
+005	004	39.20	027.0	-03.0	;st005 is shakehole
+
+005	005a	08.00	302.0	-32.0
+
+006	005	26.00	043.0	-02.0
+
+006	006b	10.30	113.0	-27.0
+
+006	007	36.50	196.0	 00.0
+
+007	007e	12.50	080.0	-25.0	;st007e is entrance to Tip Top Pot
+
+007c	007	16.10	316.0	+15.0	;st007c is bottom of shakehole
+
+008	007	50.00	001.0	+01.0
+009	008	36.50	020.0	+05.0
+
+009	009d	07.10	109.0	-40.0
+
+010	009	30.90	354.0	+02.0
+011	010	25.80	339.0	+12.0
+012	011	34.30	316.0	+21.0
+
+012f	012	12.10	210.0	+23.0	;st012f is tag at Javelin Pot
+
+013	012	17.00	222.0	-07.0
+013	014	50.40	022.5	+03.0	;st014=tag on gate by Lime Kiln
+
+;seperate day
+
+014	015	38.10	033.0	+01.0
+015	015a	18.55	087.0	-03.0
+015a	015b	01.50	 -	DOWN	;st015b=tag Hidden Pot
+015	016	31.70	035.0	 00.0
+016	017	20.95	025.5	-02.0
+017	018	01.95	325.0	-40.0	;st018=metal bar at Bull Pot of the Witches stile
+
+
+*end	ss35
