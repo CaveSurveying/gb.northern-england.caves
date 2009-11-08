@@ -1,0 +1,24 @@
+;Cave:	Aquamole pot
+;Surveyors:	
+;Date:	
+;Instruments:
+
+;*equate	
+
+*begin	Aqa01
+
+;*calibrate compass	
+;*calibrate clino	
+;*calibrate tape		
+
+*fix 001 69927.00 78340.00 376.50 ;GPS
+
+001	001a	5.00	 -	DOWN
+001	000	0.173	180.0	00.0
+002	000	0.173	300.0	00.0
+003	000	0.173	060.0	00.0
+001	002	0.300	150.0	00.0
+001	003	0.300	210.0	00.0
+002	003	0.300	270.0	00.0
+
+*end	Aqa01

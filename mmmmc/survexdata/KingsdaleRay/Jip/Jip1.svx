@@ -1,0 +1,7 @@
+;All Jingling Pot files
+
+*begin	Jip1
+
+*Include	Jip01
+
+*end	Jip1

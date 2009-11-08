@@ -1,0 +1,32 @@
+;Cave:	Kingsdale Master Cave - from diver's line knot to East Entrance
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	01/06/03
+;Instruments:PAG
+
+*equate	kmc01.054	kmc04.001
+*equate	kmc05.001	kmc04.017
+
+*begin	kmc04
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		+3.00
+
+001	002	16.86	034.0	+03.0	;st001=knot on diver's line
+002	003	14.38	334.0	+02.0	;Black Rose enters on right at05.39m(true) from st002
+003	004	12.69	268.0	+01.5
+004	005	09.68	283.0	+01.0
+005	006	13.16	309.0	+02.5
+006	007	09.28	280.0	+01.0
+007	008	12.97	325.5	+02.0	;st008 is top of large flake/rock on bend
+008	009	08.39	009.0	+03.0
+009	010	20.44	048.0	+03.0
+010	011	05.59	013.0	+01.0
+011	012	20.04	343.0	+04.0	;shingle shelf on left has connectin crawl through oxbow in wide bedding
+012	013	23.69	039.0	 00.0	;st0013 has shingled passage off to left on shelf
+013	014	28.62	352.0	+01.0	;st014 is in shingle crawl off ot left of streamway
+014	015	14.45	006.0	+01.0
+015	016	14.39	291.0	+05.0
+016	017	03.42	 -	UP	;st017=tag in roof above crawl through wet bedding to East Entrance
+
+*end	kmc04

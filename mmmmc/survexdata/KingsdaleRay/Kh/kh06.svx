@@ -1,0 +1,28 @@
+;Cave:	Keld Head (sixth dive) Starting at 1112.93m from base ending at Yorrurt Revisited airbell
+;Surveyors:	JNC
+;Date:	21/03/98
+;vis = ???
+
+*equate	kh06.159	kh07.159
+*equate	kh06.148	kh05.148
+*equate	kh06.159	kh06a.001
+
+*begin	kh06
+
+*calibrate compass	+5.45
+
+*data diving from to bearing length fromdepth todepth
+
+148	149	003.0	06.02	-19.70	-15.70
+149	150	025.0	13.35	-15.70	-07.90
+150	151	011.0	03.90	-07.90	-05.00
+151	152	006.0	03.90	-05.00	-05.10
+152	153	085.0	03.50	-05.10	-05.20
+153	154	058.0	06.30	-05.20	-05.20
+154	155	081.0	10.62	-05.20	-05.50
+155	156	085.0	05.85	-05.50	-04.90
+156	157	178.0	04.40	-04.90	-04.80
+157	158	196.0	09.70	-04.80	-03.60
+158	159	208.0	13.45	-03.60	00.00	;Yorrurt Revisited Airbell
+
+*end	kh06

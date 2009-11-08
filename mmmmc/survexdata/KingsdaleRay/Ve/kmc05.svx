@@ -1,0 +1,20 @@
+;Cave:	Kingdale Master Cave - East Entrance Passage to Philosopher's Crawl
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	01/06/03
+;Instruments:PAG
+
+*equate	kmc04.017	kmc05.001
+
+*begin	kmc05
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		+3.00
+
+001	002	04.52	 -	DOWN	;st001=tag in roof at end of East Entrance Passage
+002	003	12.14	355.0	+02.0
+003	004	11.77	339.0	+03.0
+004	005	29.33	329.0	 00.0
+006	005	03.88	220.0	+03.0	;st005=tag in roof at start of crawl with water entering from right
+
+*end	kmc05
