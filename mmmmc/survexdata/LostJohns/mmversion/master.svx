@@ -1,0 +1,33 @@
+;Every Lost John file
+
+
+*begin	master
+
+*include	Lj01
+*include	Lj02
+*include	Lj03
+*include	Lj04
+*include	Lj05
+*include	Lj06
+*include	Lj07
+*include	Lj08
+*include	Lj09
+*include	Lj10
+
+; pulled in from Ray's set
+*include	Lj11
+*include	Lj11a
+*include	Lj12
+
+*include BOX1.SVX
+*include BOX2.SVX
+*include Box3.svx
+;*include Box4.svx
+*include Box5.svx
+*include box.svx
+
+*end	master
+
+;BOX1.SVX  Box4.svx  Lj01.svx  Lj04.svx  Lj07.svx  Lj10.svx
+;BOX2.SVX  Box5.svx  Lj02.svx  Lj05.svx  Lj08.svx  master.svx
+;Box3.svx  box.svx   Lj03.svx  Lj06.svx  Lj09.svx
