@@ -1,0 +1,28 @@
+; Locn:	Masongill
+; Cave:	Rift Pot
+; Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches
+
+*begin RiftPotTOD7
+*export 149 208
+
+*title "Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches"
+*date 2009.11.08
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*Instrument Becka's 30m tape and Becka's tandem comp & clino 
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+149	150	9.53	106	0
+
+
+*data passage station left right up down ignoreall
+
+149	0	1.4	1.4	0.2	riftpotTOD.3.149 numbered station 149 in crawls entrance side of Temple of Doom
+
+*end RiftPotTOD7
+
+
+
