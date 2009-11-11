@@ -13,12 +13,13 @@
 
 ;Include Temple Of Doom Extensions
 			
-*Include "TempleOfDoom\RiftPotTOD1"
-*Include "TempleOfDoom\RiftPotTOD2"
-*Include "TempleOfDoom\RiftPotTOD3"
-*Include "TempleOfDoom\RiftPotTOD4"
-*Include "TempleOfDoom\RiftPotTOD5"
-*Include "TempleOfDoom\RiftPotTOD6"
+*Include "RiftPotTOD1"
+*Include "RiftPotTOD2"
+*Include "RiftPotTOD3"
+*Include "RiftPotTOD4"
+*Include "RiftPotTOD5"
+*Include "RiftPotTOD6"
+*Include "RiftPotTOD7"
 
 ;-------------------------------------------------------------------------------------------
 
@@ -29,6 +30,7 @@
 *Equate RiftPotTOD2.77 RiftPotTOD4.x77
 *Equate RiftPotTOD2.99 RiftPotTOD5.x99
 *Equate RiftPotTOD2.102 RiftPotTOD6.x102
+*Equate RiftPotTOD2.149 RiftPotTOD7.149
 
 ;Equate Temple Of Doom Extensions
 

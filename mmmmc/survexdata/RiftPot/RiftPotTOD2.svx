@@ -170,7 +170,7 @@
 145	2	0.5	0	2	;Marked Stn Top of slope
 146	0.3	1.2	0.5	0	;Bottom of slope
 147	0	1.2	0.5	0.2	
-148	1	1	0	0.5	;Numbered station on LH Side.
+148	1	1	0	0.5	;Numbered station on LH Side (is this right? station 149 definitely numbered)
 	
 *end RiftPotTOD2
 
