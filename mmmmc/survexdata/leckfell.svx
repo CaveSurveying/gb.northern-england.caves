@@ -30,5 +30,8 @@
 *include LongDrop/LongDrop
 *fix LongDrop.StylePost	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
 
+*include RoughPot/RoughPot
+*equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
+
 *end leckfell
 

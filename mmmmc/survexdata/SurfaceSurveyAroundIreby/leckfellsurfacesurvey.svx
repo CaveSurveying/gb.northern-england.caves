@@ -9,6 +9,7 @@
 *export MarbleStepsEntranceTag  ; not used yet
 *export LargePotTag             ; not used yet
 *export NottsIIEntrance         ; not connected to surface survey, but used
+*export LostJohnsEntranceTag    ; not connected to surface survey, but used in RoughPot
 
 *flags surface
 
@@ -49,11 +50,10 @@
 
 ; not currently connected to surface survey
 *fix	NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P
-
+*fix    LostJohnsEntranceTag 67083.63	78641.55	355.95 ;lost Johns Entrance Tag
 
 ; don't know where these connectsurfacesurveysurfacesurvey
 ;*equate	mg2.001		Ks3.001
 ;*equate	mg3a.024	ss19.001
-
 
 *end	leckfellsurfacesurvey

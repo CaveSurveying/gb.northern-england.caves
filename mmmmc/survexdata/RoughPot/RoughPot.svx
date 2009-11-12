@@ -1,7 +1,11 @@
 ; ROUGH POT
 
 *begin RoughPot
- 
+
+*export LostJohnsEntranceTag
+*equate LostJohnsEntranceTag RoughPot_1.001
+
+
 *data normal from to tape compass clino
 *include RoughPot_1
 *include RoughPot_2	
