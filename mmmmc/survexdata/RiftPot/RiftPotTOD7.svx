@@ -3,7 +3,7 @@
 ; Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches
 
 *begin RiftPotTOD7
-*export 149 208
+*export 149 159 208
 
 *title "Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches"
 *date 2009.11.08

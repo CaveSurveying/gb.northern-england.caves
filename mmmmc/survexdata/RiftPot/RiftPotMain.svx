@@ -20,6 +20,7 @@
 *Include "RiftPotTOD5"
 *Include "RiftPotTOD6"
 *Include "RiftPotTOD7"
+*Include "NewRiftDigToLowDouk"
 
 ;-------------------------------------------------------------------------------------------
 
@@ -31,6 +32,7 @@
 *Equate RiftPotTOD2.99 RiftPotTOD5.x99
 *Equate RiftPotTOD2.102 RiftPotTOD6.x102
 *Equate RiftPotTOD2.149 RiftPotTOD7.149
+*Equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
 
 ;Equate Temple Of Doom Extensions
 

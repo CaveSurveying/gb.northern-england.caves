@@ -2,9 +2,9 @@
 ; Cave:	New Rift
 ; Dig hopefully heading towards Low Douk
 
-*begin newriftlowdoukdig
+*begin NewRiftDigToLowDouk
 
-*export 1
+*export 2
 
 *title "New Rift Dig to Low Douk"
 *date 2009.09.26
@@ -19,7 +19,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
-2	1	1.61	007	-16
+;2	1	1.61	007	-16	; this leg repeated on main RiftToD7 survey so not needed
 3	2	5.89	293	+02
 4	3	1.54	328	+24
 5	4	3.70	306	-03
@@ -28,7 +28,7 @@
 
 *data passage station left right up down
 
-1	-	-	- 	-	; white stal in main New Rift passage about 50m before Temple of Doom chokes
+;1	-	-	- 	-	; white stal in main New Rift passage about 50m before Temple of Doom chokes
 2	-	-	-	-	; arch at start of dig passage
 3	-	-	-	-	; small chamber 
 4	-	-	-	-	; floor of duck 
@@ -36,4 +36,4 @@
 6	-	-	-	-	; guesstimated leg to Dave's bum
 7	-	-	-	-	; very guesstimated leg to dig face
 
-*end newriftlowdoukdig
+*end NewRiftDigToLowDouk
