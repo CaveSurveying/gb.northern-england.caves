@@ -7,7 +7,7 @@
 *equate	Lj09.16	Lj12.000 ;tag Mud Inlet
 
 *begin	Lj09
-*export 001 016
+*export 001 16
 *calibrate compass	+5.17
 
 2	001	5.18	152	-7 ; stn1 is tag
