@@ -1,18 +1,14 @@
+
+*begin	Lj03
+*export 000
+*export 026
+*export 040
+
 ;Cave:	Lost johns-No.1 Hole to Dome jnc.
 ;Date:	12/07/97
 ;Surveyors: Andy Hall/Stuart ? from BEC
 ;Instruments: AH set
-
-*equate	Lj03.000	Lj01.010
-*equate	Lj03.040	Lj02.026
-*equate	Lj03.040	Lj04.007
-*equate	Lj03.026	Lj10.000
-
-*Begin	Lj03
-*export 000
-*export 026
-*export 040
-*Calibrate compass	+5.17
+*calibrate compass	+5.17
 
 000	001	02.10	175.0	 00.0	;000 is P bolt at head of No.1 hole
 001	001a	05.60	  -	down

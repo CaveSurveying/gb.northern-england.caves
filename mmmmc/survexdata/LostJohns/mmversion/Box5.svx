@@ -1,12 +1,11 @@
+*begin	box5
+*export 014a
+
 ;Cave:	Boxhead- Epiglottis Grotto
 ;Surveyors:	Pete Hall/Beardy/Ben Shaw
 ;Date:	11/10/98
 ;Instruments:	Kit1????????????
 
-*equate	Box5.014a	Box1.021
-
-*begin	Box5
-*export 014a
 *calibrate compass	+5.00
 
 001	002	08.80	338.0	 00.0	;st001 is Aven inlet +15m above station
@@ -35,4 +34,4 @@
 017	018	08.40	329.0	-03.0
 018	019	03.70	143.0	 00.0	;st019 is sump
 
-*end	Box5
+*end	box5

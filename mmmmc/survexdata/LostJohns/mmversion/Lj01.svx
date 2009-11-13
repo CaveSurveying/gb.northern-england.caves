@@ -1,15 +1,12 @@
+*begin	Lj01
+*export 001
+*export 010
+*export 053
+
 ;Cave:	Lost Johns - Centipede to entrance
 ;Date:	12/07/97
 ;Surveyors:	Pete Grant, Mike Bedford, Steve Marshal, Chris Trayner, Mark Stephens
 ;Instruments:	Pags set
-
-*Equate	Lj01.010	Lj03.000
-*Equate	Lj01.001	Lj02.000
-
-*begin	Lj01
-*export 001
-*export 010
-*fix	053	67083.63	78641.55	355.95
 
 *calibrate compass	+5.13
 

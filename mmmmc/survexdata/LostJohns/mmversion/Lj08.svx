@@ -1,16 +1,12 @@
-;Cave:	Lost Johns - groundsheet jct upstream
-;Date:	12/7/97
-;Surveyors: Andy A (notes)/Dave Ramsay (insts), 
-;Instruments:	CUCC tritium (set 4). comp:741127 clino:145132. Red Rose one 
-;with end stuck back on with stick tape.
-
-*Equate	Lj08.001	Lj06.000
-*equate	Lj08.001	Lj07.001
-*equate	Lj08.030	box3.072j
-
 *begin	Lj08
 *export 001
 *export 030
+
+;Cave:	Lost Johns - groundsheet jct upstream
+;Date:	07/12/97
+;Surveyors: Andy A (notes)/Dave Ramsay (insts), 
+;Instruments:	CUCC tritium (set 4). comp:741127 clino:145132. Red Rose one 
+;with end stuck back on with stick tape.
 
 *calibrate compass	+5.17
 

@@ -3,11 +3,9 @@
 ;Date:	12/07/97
 ;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
 
-*equate	box.007	box1.001
-
 *begin	box
 *export 007
-*fix	015	67110.19 78353.90 362.70 ;ev.ss19.022a
+*export 015 ;st015 is surface rim ;ev.ss19.022a 
 
 *calibrate compass	+5.17
 

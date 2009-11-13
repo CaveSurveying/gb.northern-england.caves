@@ -1,13 +1,10 @@
+*begin	box2
+*export 009
+
 ;Cave:	Boxhead- cont. from dig
 ;Surveyors:	Neil Pacey/Pete Hall
 ;Date:	28/03/98pm
 ;Instruments:	PAG
-
-*equate	box2.009	box1.027
-
-*begin	box2
-*export 009
-;*fix	
 
 *calibrate compass	+5.00
 

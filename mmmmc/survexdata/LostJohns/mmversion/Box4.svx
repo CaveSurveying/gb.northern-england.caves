@@ -1,11 +1,10 @@
+
+*begin	box4
+
 ;Cave:	Lyle Cavern-Lost Johns
 ;Surveyors:	Pete Hall/Roger Watkinson/Sam Carradice
 ;Date:	20/06/98
 ;Instruments:	Kit1????????
-
-;*equate	
-
-*begin	Box4
 
 *calibrate compass	+5.00
 
@@ -22,4 +21,4 @@
 006b	006c	12.90	188.0	+02.0
 006	007	10.00	342.0	 00.0
 
-*end	Box4
+*end	box4

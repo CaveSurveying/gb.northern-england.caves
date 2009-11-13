@@ -3,31 +3,88 @@
 
 *begin	master
 
-*include	Lj01
-*include	Lj02
-*include	Lj03
-*include	Lj04
-*include	Lj05
-*include	Lj06
-*include	Lj07
-*include	Lj08
-*include	Lj09
-*include	Lj10
+*equate	Lj01.010	Lj03.000
+*equate	Lj01.001	Lj02.000
+*include	Lj01    ; identical to RD's Lj01
 
-; pulled in from Ray's set
+*fix	Lj01.053	67083.63	78641.55	355.95
+*fix	BoxheadSurfaceRim	67110.19 78353.90 362.70 ;ev.ss19.022a  ;st015 is surface rim
+
+*equate	Lj02.000	Lj01.001
+*equate	Lj02.026	Lj03.040
+*equate	Lj02.026	Lj04.007
+*include	Lj02    ; identical to RD's Lj02
+
+*equate	Lj03.000	Lj01.010
+*equate	Lj03.040	Lj02.026
+*equate	Lj03.040	Lj04.007
+*equate	Lj03.026	Lj10.000
+*include	Lj03    ; identical to RD's Lj03
+
+*equate	Lj04.001	Lj05.001
+*equate	Lj04.007	Lj02.026
+*equate	Lj04.007	Lj03.040
+*include	Lj04    ; identical to RD's Lj04
+
+*equate	Lj05.001	Lj04.001
+*equate	Lj05.012	Lj06.050
+*include	Lj05    ; identical to RD's Lj05
+
+*equate Lj06.000	Lj07.001
+*equate Lj06.000	Lj08.001
+*equate Lj06.050	Lj05.012
+*include	Lj06    ; identical to RD's Lj06
+
+*equate	Lj07.001	Lj08.001
+*equate	Lj07.001	Lj06.000
+*equate	Lj07.046	Lj09.001
+*include	Lj07    ; identical to RD's Lj07
+
+*Equate	Lj08.001	Lj06.000
+*equate	Lj08.001	Lj07.001
+*equate	Lj08.030	box3.072j
+*include	Lj08    ; identical to RD's Lj08
+
+*equate	Lj09.001	Lj07.046
+*equate	Lj09.016	Lj12.000 ;tag Mud Inlet
+*include	Lj09    ; same as RD's Lj09
+
+*equate	Lj10.000	Lj03.026
+*include	Lj10    ; identical to RD's Lj10
+
+; Lj11, Lj11a, Lj12 only in from RD's set
+*equate	Lj11.025	Lj12.009
+*equate	Lj11.011	Lj11a.001
 *include	Lj11
+
+*equate	Lj11a.001	Lj11.011
 *include	Lj11a
+
+*equate	Lj12.009	Lj11.025
+*equate	Lj12.000	Lj09.016  ; a repeat equate
 *include	Lj12
 
-*include BOX1.SVX
-*include BOX2.SVX
-*include Box3.svx
-;*include Box4.svx
-*include Box5.svx
-*include box.svx
+; not in RD's set
+*equate	box1.001	box.007
+*equate	box1.027	box2.009
+*equate	box1.014	box3.001
+*equate	box1.021	box5.014a
+*include Box1
+
+*equate	box2.009	box1.027
+*include Box2
+
+*equate	box3.001	box1.014
+*equate	box3.072j	Lj08.030	
+*include Box3
+
+;*include Box4.svx   ; no connection for this survey of Lyle Cavern
+
+*equate	box5.014a	box1.021
+*include Box5
+
+*equate	box.007	box1.001
+*include box
+*equate box.015 BoxheadSurfaceRim
 
 *end	master
-
-;BOX1.SVX  Box4.svx  Lj01.svx  Lj04.svx  Lj07.svx  Lj10.svx
-;BOX2.SVX  Box5.svx  Lj02.svx  Lj05.svx  Lj08.svx  master.svx
-;Box3.svx  box.svx   Lj03.svx  Lj06.svx  Lj09.svx

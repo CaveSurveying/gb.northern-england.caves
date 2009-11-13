@@ -1,19 +1,14 @@
-;Cave:	Boxhead- cont. from bottom of main pitch
-;Surveyors:	R.Duffy/P.Swire
-;Date:	14/03/98pm
-;Instruments:	PAG
-
-*equate	box1.001	box.007
-*equate	box1.027	box2.009
-*equate	box1.014	box3.001
-*equate	Box1.021	Box5.014a
 
 *begin	box1
 *export 001
 *export 014
 *export 021
 *export 027
-;*fix	
+
+;Cave:	Boxhead- cont. from bottom of main pitch
+;Surveyors:	R.Duffy/P.Swire
+;Date:	14/03/98pm
+;Instruments:	PAG
 
 *calibrate compass	+5.00
 

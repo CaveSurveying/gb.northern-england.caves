@@ -1,12 +1,13 @@
+
+
+*begin	Lj10
+*export 000
+
 ;Cave:	Lost Johns-Shale to sump
 ;Surveyors:	Ray Duffy/Terry Regan
 ;Date:	13/12/97pm
 ;Instruments:	PAG
 
-*equate	Lj10.000	Lj03.026
-
-*begin	Lj10
-*export 000
 *calibrate compass	+5.13
 
 000	001	21.00	-	DOWN	;MADE UP LEG FROM TOP OF PITCH

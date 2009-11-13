@@ -1,15 +1,12 @@
+*begin Lj05
+*export 001
+*export 012
+
 ;Cave:	Lost Johns - Groundsheet jct up to rift below shistl(extra)
 ;Date:	07/12/97
 ;Surveyors: Dave Ramsay(insts)/Andrew Atkinson(notes)/Wook(Pictures)
 ;Instruments:CUCC tritium (set 4). comp:741127 clino:145132. Red Rose one 
 ;with end stuck back on with stick tape.
-
-*equate	Lj05.001	Lj04.001
-*equate	Lj05.012	Lj06.050
-
-*begin lj05
-*export 001
-*export 012
 *calibrate compass	+5.17
 
 001	002	0.88	-	up	;001 is tag bobs pit
@@ -24,4 +21,4 @@
 10	11	1.97	317	0
 11	012	1.60	353	-9	;012 = Lj06.050
 
-*end lj05
+*end Lj05

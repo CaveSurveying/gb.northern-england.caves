@@ -1,15 +1,11 @@
+*begin	Lj07
+*export 001
+*export 046
+
 ;Cave:	Lost Johns - Groundsheet to 1st downstream inlet
 ;Surveyors:	Wookey/Tanya Savage/Jon Shaw
 ;Date:	07/12/97 1pm-6pm
 ;Instruments:	CUCC set 5: clino 726974, comp 721899
-
-*equate	Lj07.001	Lj08.001
-*equate	Lj07.001	Lj06.000
-*equate	Lj07.046	Lj09.001
-
-*begin	Lj07
-*export 001
-*export 046
 
 *calibrate compass	+5.17;(check?)
 

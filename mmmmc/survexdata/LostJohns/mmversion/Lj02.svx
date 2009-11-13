@@ -1,15 +1,13 @@
+
+*begin	Lj02
+*export 000
+*export 026
+
 ;Cave:	Lost Johns - Centipede route to Dome jnc.
 ;Date:	12/07/97
 ;Surveyors:	Arther Millet, Craig, Mark Savage
 ;Instruments:	A.T.M.'s
 
-*Equate	Lj02.000	Lj01.001
-*equate	Lj02.026	Lj03.040
-*equate	Lj02.026	Lj04.007
-
-*begin	Lj02
-*export 000
-*export 026
 *calibrate compass	+5.17
 
 000	001	01.80	223.5	-02.0	;000 is P hanger

@@ -1,15 +1,12 @@
-;Cave:	Lost Johns - groundsheet jct up to rift below shistl
-;Date:	07/12/97
-;Surveyors: Anthony Day(insts)/Sam Lieberman(notes)/Gerek Rhoden(dog)
-;Instruments:	CUCC set 2 clino:838638, comp:132004. CUCC ranger tape
-
-*equate Lj06.000	Lj07.001
-*equate Lj06.000	Lj08.001
-*equate Lj06.050	Lj05.012
 
 *begin Lj06
 *export 000
 *export 050
+
+;Cave:	Lost Johns - groundsheet jct up to rift below shistl
+;Date:	07/12/97
+;Surveyors: Anthony Day(insts)/Sam Lieberman(notes)/Gerek Rhoden(dog)
+;Instruments:	CUCC set 2 clino:838638, comp:132004. CUCC ranger tape
 
 *calibrate compass	+5.17
 

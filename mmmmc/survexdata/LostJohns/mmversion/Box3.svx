@@ -1,18 +1,14 @@
+
+*begin	box3	
+*export 001
+*export 072j
+
 ;Cave:	Boxhead-Lost Johns (Tate Gallery)
 ;Surveyors:	J.Baker/P.Swire/P.Hall
 ;Date:	21/11/98
 ;Instruments:	kit 1?
 
-*equate	Box3.001	box1.014
-*equate	Box3.072j	Lj08.030	
-
-
-*begin	Box3	
-*export 001
-*export 072j
 *calibrate compass	+6.50
-
-;*fix	001	
 
 001	002	06.00	004.0	-08.0	;st001=tag=box1 st014 between boxhead pitches and crowbar
 002	003	02.80	061.0	+12.0
@@ -121,4 +117,4 @@
 077	078	08.40	240.0	+02.0
 078	079	08.30	285.0	+01.0	;st079 is start of Big Boulder choke
 
-*end	Box3
+*end	box3
