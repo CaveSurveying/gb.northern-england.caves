@@ -4,10 +4,11 @@
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
 *begin	RumblingBeckCave
-
+*export 001
 
 ;*calibrate compass
 
+*entrance	001
 
 001	002	04.20	246.0	-05.0	;stn1 is RH side of top entrance
 002	003	01.18	203.0	-11.0
@@ -18,7 +19,7 @@
 006	006a	00.30	 -	DOWN
 006a	006b	03.37	037.0	+01.0
 ;006b	006c	02.83	194.0	+12.0	;stn006c is dry entrance
-006b	006c	02.83	085.0	+12.0
+006b	006c	02.83	085.0	+12.0	;corrected leg
 
 006	007	03.46	294.0	-15.0
 007	008	02.18	277.0	+08.0	;stn8 is top of boulder under final skylight

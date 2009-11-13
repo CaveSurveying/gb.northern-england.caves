@@ -1,40 +1,37 @@
 *begin RumblingHole
+*export RumblingBeckTopEntrance
 
-*Include RumblingHole_1
+*equate RumblingBeckTopEntrance  RumblingBeckCave.001
+*include RumblingBeckCave
 
+*include RumblingHole_1
 
+*equate RumblingHole_1.029 RumblingHole_2.154
+*equate RumblingHole_3.142 RumblingHole_2.142
 *include RumblingHole_2
 
 *include RumblingHole_3
 
-*equate RumblingHole_1.029 RumblingHole_2.154
-
-*equate RumblingHole_3.142 RumblingHole_2.142
-
-
-*include RumblingBeckCave
-
-*include RumblingHole_4
 *equate RumblingHole_4.014 RumblingHole_1.014
+*include RumblingHole_4
 
-*include surfaceconnect
 *equate surfaceconnect.1 RumblingHole_2.101
-
 *equate surfaceconnect.7 RumblingBeckCave.001
+*include RumblingSurface
 
-*include RumblingHole_5
 *equate RumblingHole_5.010 RumblingHole_1.010
+*include RumblingHole_5
 
-*include RumblingHole_6
 *equate RumblingHole_6.152 RumblingHole_2.152
+*include RumblingHole_6
 
-*include RumblingHole_7
 *equate RumblingHole_7.001 RumblingHole_2.103
+*include RumblingHole_7
 
-*include RumblingHole_8
 *equate RumblingHole_8.007 RumblingHole_1.017
+*include RumblingHole_8
 
-*include RumblingHole_9
 *equate RumblingHole_9.001 RumblingHole_7.022
+*include RumblingHole_9
 
 *end RumblingHole
