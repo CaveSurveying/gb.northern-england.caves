@@ -1,15 +1,13 @@
+
+*begin	Gvl3
+*export 001
+
 ;Cave:	Gavel Pot-October Series
 ;Surveyors:	Pete Hall/Ian Lawton/Carmell Ramwell
 ;Date:	06/03/99
 ;Instruments:	3?
 
-*equate	Gvl3.001	Gvl2.017
-
-*begin	Gvl3
-
 *calibrate compass	+5.00
-
-;*fix	001	
 
 001	002	15.10	025.0	+07.0	;st001=st017 on Gvl2 survey
 002	003	08.70	050.0	+02.0

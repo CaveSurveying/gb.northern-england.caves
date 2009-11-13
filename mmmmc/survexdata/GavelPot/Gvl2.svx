@@ -1,17 +1,14 @@
+
+*begin	Gvl2
+*export 000   ;st000=tag on fence post on path to entrance
+*export 017 034 027 002 
+
 ;Cave:	Gavel Pot
 ;Surveyors:	Pete Hall/Ian Lawton/Carmell Ramwell
 ;Date:	06/03/99
 ;Instruments:	3?
 
-*equate	Gvl2.017	Gvl3.001
-*equate	Gvl2.034	Gvl4.001
-*equate	Gvl2.027	Gvl5.001
-
-*begin	Gvl2
-
 *calibrate compass	+5.00
-
-*fix	000	66644.34 79082.83 329.13	;ev.ss25.003
 
 000	001	22.80	214.0	-35.0	;st000=tag on fence post on path to entrance
 001	002	30.80	318.0	-37.0

@@ -1,12 +1,11 @@
+
+*begin	Gvl5
+*export  001
+
 ;Cave:	Gavel Pot - Glasfords
 ;Surveyors:	R.Duffy/A.Whitney
 ;Date:	12/07/02
 ;Instruments:	PAG
-
-*equate	Gvl5.001	Gvl2.027
-
-*begin	Gvl5
-
 *calibrate compass	+4.5
 *calibrate tape	+1.0
 

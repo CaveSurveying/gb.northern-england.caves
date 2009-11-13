@@ -1,15 +1,13 @@
+
+*begin	Gvl4
+*export 001
+
 ;Cave:	Gavel Pot-Top of Pitch 2 to sump
 ;Surveyors:	`Ray Duffy/A.Hare
 ;Date:	03/04/99
 ;Instruments:	PAG
 
-*equate	Gvl4.001	Gvl2.034
-
-*begin	Gvl4
-*export 001
 *calibrate compass	+4.50
-
-;*fix	001	
 
 001	002	01.60	308.0	-17.0	;st001=tag st034 on Gvl2 survey
 002	003	03.65	216.0	+17.0
