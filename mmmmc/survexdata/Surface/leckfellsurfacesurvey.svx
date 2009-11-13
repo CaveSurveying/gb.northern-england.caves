@@ -28,6 +28,8 @@
 *entrance LargePotTag            
 *entrance NottsIIEntrance
 
+; this has a whole lot of GPS's of places.  Maybe we can move some of those below into it
+*include LFGPS
 
 ;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
 *include mg1

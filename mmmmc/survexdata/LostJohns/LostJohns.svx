@@ -64,6 +64,17 @@
 *equate	Lj12.000	Lj09.016  ; a repeat equate
 *include	Lj12
 
+*equate	Lj13.000	Lj14.001
+*include Lj13
+
+*equate	Lj14.001	Lj13.000	
+*equate	Lj14.015	Lj15.001	
+*include Lj14
+
+*equate Lj15.001	Lj14.015
+*equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
+*include Lj15
+
 ; not in RD's set
 *equate	box1.001	box.007
 *equate	box1.027	box2.009
