@@ -1,14 +1,14 @@
-;Every Lost John file
+; merging between Richards and RD's data, with all equates moved to this file
 
+*begin	LostJohns
 
-*begin	master
+*export EntranceTag
+*export BoxheadSurfaceRim
 
 *equate	Lj01.010	Lj03.000
 *equate	Lj01.001	Lj02.000
+*equate Lj01.053    EntranceTag
 *include	Lj01    ; identical to RD's Lj01
-
-*fix	Lj01.053	67083.63	78641.55	355.95
-*fix	BoxheadSurfaceRim	67110.19 78353.90 362.70 ;ev.ss19.022a  ;st015 is surface rim
 
 *equate	Lj02.000	Lj01.001
 *equate	Lj02.026	Lj03.040
@@ -87,4 +87,4 @@
 *include box
 *equate box.015 BoxheadSurfaceRim
 
-*end	master
+*end	LostJohns
