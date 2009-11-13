@@ -1,8 +1,6 @@
 *begin leckfell
 
-
-*include SurfaceSurveyAroundIreby/leckfellsurfacesurvey
-
+*include Surface/leckfellsurfacesurvey
 
 *include LowDouk/LowDouk
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
