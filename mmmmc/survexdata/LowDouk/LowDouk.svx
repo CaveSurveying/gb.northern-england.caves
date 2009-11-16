@@ -13,6 +13,6 @@
 ;--------------------------------------------------------------------
 
 *equate LowDouk1.016 LowDouk2.022
-*equate lowdouk3.001 LowDouk1.017
+*equate Lowdouk3.001 LowDouk1.017
 
 *end	LowDouk
