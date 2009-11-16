@@ -2,7 +2,7 @@
 
 *begin RoughPot
 
-*export LostJohns.001;LostJohnsEntranceTag
+*export LostJohnsEntranceTag
 *equate LostJohns.001 RoughPot_1.001
 
 
