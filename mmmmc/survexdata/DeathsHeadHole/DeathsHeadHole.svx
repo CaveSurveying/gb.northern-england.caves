@@ -3,12 +3,13 @@
 ;Date:	19/12/07 
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
-*begin	DeathsHead
+*begin	DeathsHeadHole
+*export FencePostTag
 
+*equate FencePostTag 001
 
-;*calibrate compass
-*fix	001	66783	79159	335 ;GPS RGB 29/11/07
 *entrance	001
+
 001	002	05.43	084.0	-38.0	;stn1 is Fence post with tag
 002	003	06.41	103.0	-57.0
 003	004	09.21	090.0	-80.0
@@ -42,4 +43,4 @@
 032	033	02.55	-	Down
 033	027	01.58	215.0	000.0
 
-*end	DeathsHead
+*end	DeathsHeadHole

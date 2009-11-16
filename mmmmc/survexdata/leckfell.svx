@@ -12,8 +12,10 @@
 *include CoalHole/CoalHole
 *fix	CoalHole.EntranceLoc	67168	79047	358
 
+
 *include DeathsHeadHole/DeathsHeadHole
-*fix	001	66783	79159	335 ;GPS RGB 29/11/07
+*fix	DeathsHeadHole.FencePostTag	66783	79159	335 ;GPS RGB 29/11/07
+
 
 *include LowDouk/LowDouk
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
