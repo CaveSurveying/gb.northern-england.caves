@@ -1,6 +1,6 @@
 
 *begin LowDouk1
-*export 016
+*export 016 017
 ;Date: 9/10/09
 ;Cave: Low Douk Cave
 ;Survey Kit RRCPC No 2

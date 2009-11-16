@@ -7,12 +7,12 @@
 
 *include LowDouk1
 *include LowDouk2
-;*include LowDouk_3
+*include LowDouk3
 ;*include LowDouk_4
 
 ;--------------------------------------------------------------------
 
 *equate LowDouk1.016 LowDouk2.022
-
+*equate lowdouk3.001 LowDouk1.017
 
 *end	LowDouk
