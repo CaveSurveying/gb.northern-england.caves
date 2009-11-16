@@ -15,7 +15,7 @@
 *export 33
 *export 45
 
-*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+*calibrate tape -.10		;Tape was 10 centimetres too long
 	
 ;Station 	Tap	Compass	Clino	 L	R	U	D
 

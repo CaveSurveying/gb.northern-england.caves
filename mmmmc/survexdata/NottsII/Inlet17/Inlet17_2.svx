@@ -10,7 +10,8 @@
 *export 33
 *export sump2
 *export sump3
-*CALIBRATE tape -.10		;Tape was 10 centimetres too long
+*calibrate tape -.10		;Tape was 10 centimetres too long
+
 ;Tape started at -10 centimetres (original notes - no Corrections)
 
 1	33	19.45	200	+3	;2.0	0	5.0	1.7	Down stream Inlet 17
