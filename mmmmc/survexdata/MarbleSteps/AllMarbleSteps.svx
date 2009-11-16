@@ -3,7 +3,9 @@
 ; made from 3 distinct caves, hence called AllMarbleSteps, but could be renamed to MarbleStepsArea instead
 
 *begin	AllMarbleSteps
-*export EntranceTag
+*export EntranceTag 
+*export surfacemarblesteps.001
+
 *equate EntranceTag SurfaceMarbleSteps.001
 
 

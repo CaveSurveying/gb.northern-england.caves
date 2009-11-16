@@ -2,8 +2,8 @@
 
 *begin RoughPot
 
-*export LostJohnsEntranceTag
-*equate LostJohnsEntranceTag RoughPot_1.001
+*export LostJohns.001;LostJohnsEntranceTag
+*equate LostJohns.001 RoughPot_1.001
 
 
 *data normal from to tape compass clino

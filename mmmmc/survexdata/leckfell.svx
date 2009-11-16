@@ -7,9 +7,13 @@
 
 
 
-*include BumblingHole\Bumblinghole
-*entrance BumblingHole.Bumblinghole_1.002
+*include BumblingHole/Bumblinghole
+*entrance Bumblinghole.Bumblinghole_1.002
 *fix	BumblingHole.Bumblinghole_1.002	66949	79284	343
+
+*include CoalHole/CoalHole
+*entrance CoalHole.001
+*fix	CoalHole.000	67168	79047	358
 
 *include LowDouk/LowDouk
 

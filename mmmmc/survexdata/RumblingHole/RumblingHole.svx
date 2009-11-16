@@ -15,8 +15,8 @@
 *equate RumblingHole_4.014 RumblingHole_1.014
 *include RumblingHole_4
 
-*equate surfaceconnect.1 RumblingHole_2.101
-*equate surfaceconnect.7 RumblingBeckCave.001
+*equate RumblingSurface.1 RumblingHole_2.101
+*equate RumblingSurface.7 RumblingBeckCave.001
 *include RumblingSurface
 
 *equate RumblingHole_5.010 RumblingHole_1.010
