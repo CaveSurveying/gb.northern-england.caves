@@ -3,7 +3,7 @@
 *begin RoughPot
 
 *export LostJohnsEntranceTag
-*equate LostJohns.001 RoughPot_1.001
+*equate LostJohnsEntranceTag RoughPot_1.001
 
 
 *data normal from to tape compass clino

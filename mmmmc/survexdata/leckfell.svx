@@ -6,71 +6,46 @@
 *include Surface/leckfellsurfacesurvey
 
 
-
-*include BumblingHole/Bumblinghole
-*entrance Bumblinghole.Bumblinghole_1.002
-*fix	BumblingHole.Bumblinghole_1.002	66949	79284	343
+*include BumblingHole/BumblingHole
+*fix	BumblingHole.Entrance	66949	79284	343
 
 *include CoalHole/CoalHole
-*entrance CoalHole.001
-*fix	CoalHole.000	67168	79047	358
+*fix	CoalHole.EntranceLoc	67168	79047	358
 
 *include LowDouk/LowDouk
-
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
-;
 *fix LowDouk.EntranceTag 67766 76794 330
 
 
-
-
 *include Ireby/Ireby
-
 *equate Ireby.EntranceTag leckfellsurfacesurvey.IrebyEntranceTag
 
 
-
-
 *include NottsII/NottsII
-
 *equate NottsII.Entrance leckfellsurfacesurvey.NottsIIEntrance
 
 
-
-
 *include MarbleSteps/AllMarbleSteps
-;
 *fix AllMarbleSteps.SurfaceMarbleSteps.001 67991.70 77072.04 382.3   ; 
-
 *equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
 
-
-
-
 *include NottsPot/NottsPot
-
 *equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
-;
-*fix	NottsPot.EntrancePhanger	67105.25	77789.08	373.39 ; P Bolt(furthest of 2)
+;*fix	NottsPot.EntrancePhanger	67105.25	77789.08	373.39 ; P Bolt(furthest of 2)
 ; to connect to diving data: NottsPot.SumpTag
-
 
 
 *include LongDrop/LongDrop
      ; it would be desirable to move this into the surface survey
-
 *fix LongDrop.StylePost	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
 
 
 
 *include RoughPot/RoughPot
-
 *equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
 
 
-
 *include LostJohns/LostJohns
-
 *equate LostJohns.EntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
      ; appears to refer to another surface survey to tie in here
 
@@ -79,14 +54,11 @@
 
 
 *include GavelPot/GavelPot
-
 *fix	GavelPot.GavelPotFencePost	66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance
 
 
 
-
 *include RumblingHole/RumblingHole
-
 *fix	RumblingHole.RumblingBeckTopEntrance	67173	79128	357 ;GPS RGB 13/09/07
 
 *end leckfell

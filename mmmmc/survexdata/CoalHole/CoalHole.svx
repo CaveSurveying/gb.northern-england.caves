@@ -1,13 +1,14 @@
+*begin	CoalHole
+
 ;Cave:	Coal Hole
 ;Surveyors:	Dave Ramsay/Richard Bendall
 ;Date:	13/12/07
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
 
-*begin	CoalHole
-*export 000 001
-;*entrance	001
-;*fix	000	67168	79047	358
-;*calibrate compass
+*export EntranceLoc  ; is it a tag?  it's not the entrance
+*export 001
+
+*equate EntranceLoc 001
 
 ;stn to stn	tape	comp	clino	 L    R   U   D
 000	001	1.00	-	down

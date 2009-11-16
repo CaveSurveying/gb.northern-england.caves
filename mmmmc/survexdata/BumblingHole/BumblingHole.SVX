@@ -1,13 +1,11 @@
-*begin Bumblinghole
+*begin BumblingHole
 
+*export Entrance
 
-*export Bumblinghole_1.002
+*equate Entrance Bumblinghole_1.002
 
-*Include Bumblinghole_1
-
-
+*include Bumblinghole_1
 *include Bumblinghole_2
-
 *include Bumblinghole_3
 
 ;--------------------------------------------------
@@ -19,5 +17,4 @@
 *equate Bumblinghole_4.001 Bumblinghole_1.008
 *equate Bumblinghole_4.006 Bumblinghole_2.103
 
-
-*end Bumblinghole
+*end BumblingHole

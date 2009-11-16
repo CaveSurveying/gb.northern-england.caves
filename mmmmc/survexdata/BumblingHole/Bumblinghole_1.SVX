@@ -9,15 +9,15 @@
 
 ;Explored 05/02/07 RB&DR
 
-*Title "Bumbling Hole"
+*title "Bumbling Hole"
 
 *export 001 002
 *export 008
 *export 004
 *export	010
 *export 029
-;*entrance	002
-;*fix	002	66949	79284	343
+
+*entrance	002
 
 ;Station 	Tape	Compass	Clino	 L	R	U	D
 
