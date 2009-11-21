@@ -17,14 +17,14 @@
 
 *export Entrance  ; CommitteePot.001
 
-*Include "CommitteePot\CommitteePot"	;Entrance to Mincemeat Aven
-*Include "Inlet13\Inlet13"		;Mincemeat Aven to MainStreamway
-*Include "Inlet17\Inlet17"
-*include "inlet18\Inlet18"
-*Include "MainStreamway\MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
-*Include "Paaschendale\Paaschendale"	;Paaschendale
-*Include "TrickOrTreat\TrickOrTreat"	;Trick Or Treat
-*Include "Poppy\Poppy"		;Poppy Passage
+*include "CommitteePot/CommitteePot"	;Entrance to Mincemeat Aven
+*include "Inlet13/Inlet13"		;Mincemeat Aven to MainStreamway
+*include "Inlet17/Inlet17"
+;*include "Inlet18/Inlet18"
+*include "MainStreamway/MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
+*include "Paaschendale/Paaschendale"	;Paaschendale
+*include "TrickOrTreat/TrickOrTreat"	;Trick Or Treat
+*include "Poppy/Poppy"		;Poppy Passage
 
 *Include Inlet7/Inlet7  
 *equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
@@ -32,13 +32,14 @@
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 *equate Committeepot.001 Entrance
-*Equate Committeepot.019 Inlet13.001
-*Equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
-*Equate MainStreamway.Mainstreamway3.33 Inlet13.025
-*Equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
-*Equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
-*Equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
-*equate Inlet18.Inlet18_1.000 Inlet17.Inlet17_3.sump3
+*equate Committeepot.019 Inlet13.001
+*equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
+*equate MainStreamway.Mainstreamway3.33 Inlet13.025
+*equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
+*equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
+*equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
+;*equate Inlet18.Inlet18_1.000 Inlet17.Inlet17_3.sump3
 
 
 *end NottsII
+
