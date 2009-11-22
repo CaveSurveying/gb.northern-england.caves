@@ -1,0 +1,10 @@
+*begin Inlet18
+*export inlet18_1.000
+
+*Include Inlet18_1
+*equate Inlet18_1.012 Inlet18_2.019
+
+*Include Inlet18_2
+
+
+*end Inlet18
