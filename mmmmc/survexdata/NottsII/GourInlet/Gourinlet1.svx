@@ -5,12 +5,13 @@
 ;*calibrate compass
 
 
-;*equate	Gourinlet1.001	I13.18
+;*equate	Gourinlet1.001	Mainstreamway3.GITag
 
 
 *begin	GourInlet1
 
 *export 001
+*export 210
 
 001	002	05.09	277.0	+67.0	;stn001 is tag in main streamway
 002	003	12.75	198.0	+03.0
