@@ -9,6 +9,7 @@
 ;Instruments:	3?
 
 *calibrate compass	+5.00
+*entrance 000	;added by RGB 23/11/09 for clarity on 3d image
 
 000	001	22.80	214.0	-35.0	;st000=tag on fence post on path to entrance
 001	002	30.80	318.0	-37.0

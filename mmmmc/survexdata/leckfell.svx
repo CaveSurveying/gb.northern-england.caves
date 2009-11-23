@@ -10,12 +10,14 @@
 *fix	BumblingHole.Entrance	66949	79284	343
 
 *include CoalHole/CoalHole
-*fix	CoalHole.EntranceLoc	67168	79047	358
+*fix	CoalHole.EntranceLoc	67168	79047	358	;GPS RGB 13/12/07
 
 
 *include DeathsHeadHole/DeathsHeadHole
 *fix	DeathsHeadHole.FencePostTag	66783	79159	335 ;GPS RGB 29/11/07
 
+*Include EyeHoles/Eyeholes
+*fix	EyeHoles.006 66824	79184	337	;eyehole stile RGB GPS 02/03/07
 
 *include LowDouk/LowDouk
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
@@ -65,6 +67,9 @@
 
 *include RumblingHole/RumblingHole
 *fix	RumblingHole.RumblingBeckTopEntrance	67173	79128	357 ;GPS RGB 13/09/07
+
+*include StartingHandleHole/StartingHandleHole
+*fix StartingHandleHole.001 66927.39 78605.91 350.49 ;ev.ss20.007a	;middle of starting handle hole
 
 *end leckfell
 

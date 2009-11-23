@@ -10,6 +10,10 @@
 
 ;surface survey
 
+*entrance 003 
+*entrance 007
+*entrance 008
+
 *flags surface
 
 001	002	4.92	098	-30	;stn001 is tag, stn002 is left hand wall of gully

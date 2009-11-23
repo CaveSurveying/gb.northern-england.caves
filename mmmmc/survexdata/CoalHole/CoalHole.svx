@@ -5,13 +5,15 @@
 ;Date:	13/12/07
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
 
-*export EntranceLoc  ; is it a tag?  it's not the entrance
+*export EntranceLoc  ; No Tag, prominant rock projection just as you go underground
 *export 001
 
 *equate EntranceLoc 001
-
+*entrance 001
 ;stn to stn	tape	comp	clino	 L    R   U   D
+*flags surface
 000	001	1.00	-	down
+*flags not surface
 001	002	3.00	196	-54
 002	003	3.39	196	-25
 003	004	1.47	167	 0.0

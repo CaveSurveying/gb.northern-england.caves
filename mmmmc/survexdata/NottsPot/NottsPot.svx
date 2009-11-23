@@ -12,9 +12,11 @@
 
 *include NottsPot01
 *include NottsPot02
+*include NottsPot03
 
 ;----------------------------------------------------------------------------------------------
 
 *equate NottsPot02.001 NottsPot01.035
+*equate NottsPot03.022 NottsPot01.001
 
 *end	NottsPot
