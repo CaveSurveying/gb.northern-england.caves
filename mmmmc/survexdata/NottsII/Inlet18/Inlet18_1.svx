@@ -7,9 +7,9 @@
 ;Book: 
 ;Tape: 
 
-*export 000
+*export 000  ; sump3
 *export 012
-;*equate Inlet18_1.000 Inlet17_3.sump3
+
 ;CALIBRATE tape 
 		
 ;Note Mag N 5deg west of Grid North in 1995
