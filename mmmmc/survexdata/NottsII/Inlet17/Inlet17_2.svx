@@ -8,8 +8,8 @@
 ;Tape: Richard Bendall
 
 *export 33
-*export sump2
-*export sump3
+*export Sump2
+*export Sump3
 *calibrate tape -.10		;Tape was 10 centimetres too long
 
 ;Tape started at -10 centimetres (original notes - no Corrections)
@@ -19,9 +19,9 @@
 3	2	4.70	249	-8	;0.2	2.0	0.5	0.2
 4	3	3.60	219	+1	;2.0	0	2.0	0.5	Knot on Dive line
 4	4a	0.70	-	down	
-4a	sump2	4.00	082	0	;2.0	0.8	5.0	0.7	Notts III upstream Sump	2
+4a	Sump2	4.00	082	0	;2.0	0.8	5.0	0.7	Notts III upstream Sump	2
 5	4	25.45	127	+3	;2.0	0.2	0.4	0.35
 5	5a	0.35	-	down	
-5a	sump3	4.00	290	0	;				Notts III Down Stream Sump
+5a	Sump3	4.00	290	0	;				Notts III Down Stream Sump
 	
 *end Inlet17_2

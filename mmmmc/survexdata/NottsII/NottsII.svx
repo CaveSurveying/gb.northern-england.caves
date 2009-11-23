@@ -20,13 +20,13 @@
 *include "CommitteePot/CommitteePot"	;Entrance to Mincemeat Aven
 *include "Inlet13/Inlet13"		;Mincemeat Aven to MainStreamway
 *include "Inlet17/Inlet17"
-;*include "Inlet18/Inlet18"
+*include "Inlet18/Inlet18"
 *include "MainStreamway/MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
 *include "Paaschendale/Paaschendale"	;Paaschendale
 *include "TrickOrTreat/TrickOrTreat"	;Trick Or Treat
 *include "Poppy/Poppy"		;Poppy Passage
 
-*Include Inlet7/Inlet7  
+*include Inlet7/Inlet7  
 *equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
 
 ;-------------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@
 *equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
 *equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
 *equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
-;*equate Inlet18.Inlet18_1.000 Inlet17.Inlet17_3.sump3
+*equate Inlet18.Sump3 Inlet17.Inlet17_2.Sump3
 
 
 *end NottsII
