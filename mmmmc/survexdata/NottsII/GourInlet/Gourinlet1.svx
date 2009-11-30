@@ -5,7 +5,6 @@
 ;*calibrate compass
 
 
-;*equate	Gourinlet1.001	Mainstreamway3.GITag
 
 
 *begin	GourInlet1

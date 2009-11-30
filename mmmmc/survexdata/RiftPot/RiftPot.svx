@@ -10,7 +10,7 @@
 ;All Rift Pot files
 
 *begin RiftPot
-*export Entrance
+*export EntranceTag
 
 ;Include Temple Of Doom Extensions
 			
@@ -36,7 +36,7 @@
 *equate RiftPotTOD2.149 RiftPotTOD7.149
 *equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
 *equate RiftPotTOD7.208 RiftPotEntrance.208
-*equate RiftPotEntrance.246 Entrance
+*equate RiftPotEntrance.246 EntranceTag
 
  
 *end RiftPot

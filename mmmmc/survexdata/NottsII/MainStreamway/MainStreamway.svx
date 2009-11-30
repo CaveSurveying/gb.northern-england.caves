@@ -6,6 +6,7 @@
 *export Mainstreamway1.3
 *export Mainstreamway2.12
 *export Mainstreamway3.33
+*export Mainstreamway3.GITag
 *export Mainstreamway3.55	;Tag at Showerbath
 *export MainStreamway5.019	;Tag at Dome Inlet
 *export MainStreamway8.10	;Start of Paaschendale

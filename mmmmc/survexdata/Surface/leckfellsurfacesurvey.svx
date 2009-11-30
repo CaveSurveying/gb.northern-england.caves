@@ -4,7 +4,7 @@
 
 *export LowDoukEntranceTag
 *export IrebyEntranceTag
-*export RiftPotEntranceTag      ; not used yet
+*export RiftPotEntranceTag
 *export NottsPotEntrancePhanger ; first P hanger at Notts Pot entrance
 *export MarbleStepsEntranceTag  ; not used yet
 *export LargePotTag             ; not used yet

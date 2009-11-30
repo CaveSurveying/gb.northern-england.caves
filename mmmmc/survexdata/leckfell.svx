@@ -71,5 +71,8 @@
 *include StartingHandleHole/StartingHandleHole
 *fix StartingHandleHole.001 66927.39 78605.91 350.49 ;ev.ss20.007a	;middle of starting handle hole
 
+*include RiftPot/RiftPot
+*equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
+
 *end leckfell
 
