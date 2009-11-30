@@ -66,7 +66,7 @@
 124	125	06.38	140.0	+06.0
 
 
-125	202	02.44	220.0	+38.0	;stn201 is bolt at end of pit from revious survey
+125	202	02.44	220.0	+38.0	;stn201 is bolt at end of pit from previous survey
 202	203	01.35	149.0	+15.0
 203	204	03.59	 -	UP
 204	205	01.66	200.0	+32
