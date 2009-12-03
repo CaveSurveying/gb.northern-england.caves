@@ -3,11 +3,9 @@
 ;Date:	07/08/99
 ;Instruments:	1
 
-
 *begin	Streamway3
 
-*export 001
-*export 024
+*export 001 015 024
 
 *calibrate compass	+5.50
 

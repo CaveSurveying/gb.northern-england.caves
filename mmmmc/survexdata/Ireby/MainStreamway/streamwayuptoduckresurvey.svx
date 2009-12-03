@@ -3,7 +3,8 @@
 ; Ireby - Main Streamway starting at 1 at the top of Well Pitch and finishing at 37 just upstream of the duck
 
 *begin streamwayuptoduckresurvey
-*export 1 37
+
+*export 1 16 37
 
 *title "Ireby - Main Streamway starting at 1 at the top of Rope Pitch and finishing at 37 just upstream of the duck"
 *date 2009.11.28

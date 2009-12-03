@@ -8,7 +8,7 @@
 
 *title "Above Well Pitch 2"
 *date 2009.05.04
-*team Insts & Tape Ian Lawson stns 1-8 then Paul Windle stns 8a-12
+*team Insts & Tape Ian Lawton stns 1-8 then Paul Windle stns 8a-12
 *team Notes Becka Lawson
 *team Snappering Neil Pacey 
 *team Clearance Liz Lawton
