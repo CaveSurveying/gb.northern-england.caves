@@ -10,7 +10,8 @@
 
 
 *Title "Low Douk Cave"
-*export s01
+
+*export s01 014
 
 ;Station 	Tape	Compass	Clino	 L	R	U	D
 

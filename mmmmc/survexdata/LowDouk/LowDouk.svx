@@ -1,4 +1,4 @@
-;Cave:	Low Douk Cave - Marble Steps Area
+;Cave:	Low Douk Cave - Masongill
 
 *begin	LowDouk
 
@@ -8,11 +8,12 @@
 *include LowDouk1
 *include LowDouk2
 *include LowDouk3
-;*include LowDouk_4
+*include LowDoukStreamway
 
 ;--------------------------------------------------------------------
 
 *equate LowDouk1.016 LowDouk2.022
 *equate Lowdouk3.001 LowDouk1.017
+*equate Lowdouk1.014 LowDoukStreamway.1
 
 *end	LowDouk
