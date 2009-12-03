@@ -86,13 +86,13 @@
 236 1   0.3 0.2 0.2
 237 1   0.2 0.1 0.2
 238 1.2 0.4 0.1 0.2
-239 0.5 0.6 0.5 0.2
-240 1   0.8 3   0.1
-241 1.2 0.1 11  3.6
-242 -   -   -   - lruds missing for one station between 235 and 242 probably one of the later stations have guessed it is 242
-243 0.3 0.3 5   2
-244 0.5 0   4   4
-245 0   1.5 1.5 3
-246 -   -   -   - rrcpc cow tag at rift entrance
+239 -   -   -   -           lruds missing for one station between 235 and 242; I have guessed it is 239 because later station up/downs seem correct and LR seem OK for earlier stations
+240 0.5 0.6 0.5 0.2
+241 1   0.8 3   0.1         on floor after crawl, just before entrance pitch
+242 1.2 0.1 11  3.6 on wall behind scaff bars after initial climb before start main entrance pitch
+243 0.3 0.3 5   2 just above hole before entrance pitch
+244 0.5 0   4   4 in canyon
+245 0   1.5 1.5 3 on l wall where climb out of entrance
+246 -   -   -   - rrcpc cow tag above rift entrance
 
 *end RiftPotEntrance
