@@ -34,7 +34,7 @@ s03	002	7.78	310	-32	;3	3	2	1	stn 002
 011	012	2.08	195	-50	;.1	.4	.6	3.6	stn 012 is lip of pitch down.
 012	013	3.57	-	DOWN	;2	.9	4.2	.4	stn 013 is top of boulder pile at foot of pitch.
 014	013	1.64	336	-52	;0	.5	2	1/7	stn 014 is tag on true Right wall of stream.
-014	014a	4.00	125	-3	;guess to show downstream continuation.
+; 014	014a	4.00	125	-3	;guess to show downstream continuation. (BECKA HAS REMOVED AS HAVE NOW SURVEYED DOWNSTREAM)
 014	015	2.95	054	+41	;.4	0	.1	4	stn 015
 015	016	2.63	066	-18	;1.6	0	1	.6	stn 016 is marked on large boulder.
 016	017	4.73	000	+12	;2	1	1.8	1.4	stn 017
