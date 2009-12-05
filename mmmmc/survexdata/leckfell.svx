@@ -21,7 +21,7 @@
 
 *include LowDouk/LowDouk
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
-*fix LowDouk.EntranceTag 67766 76794 330
+;*fix LowDouk.EntranceTag 67766 76794 330
 
 
 *include Ireby/Ireby
