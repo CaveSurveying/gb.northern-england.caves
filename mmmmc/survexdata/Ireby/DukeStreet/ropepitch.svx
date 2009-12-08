@@ -4,7 +4,7 @@
 
 *begin ropepitch
 
-*export 44 104 1 101 105 
+*export 44 49 104 1 101 105 
 *export 42 ; forced connection between Duffy data and Becka's bad pony data
 *export 63 ; P-hanger on boulder shelf above rope pitch
 

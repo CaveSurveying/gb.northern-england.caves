@@ -88,5 +88,8 @@
 ;Equate DukeStreet
 *equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
 *equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.25
+
+;Equate NEInlet (which connects up to Adulterers) to lower streamway
+*equate DukeStreet.ropepitch.49 AllAboveWellPitch.neinlet1.49x	;top of boulder slope beyond bottom of Rope pitch before crawl to east inlet
  
 *end Ireby

@@ -6,6 +6,7 @@
 *export DukeStreet1.073
 *export ropepitch.101
 *export ropepitch.105
+*export ropepitch.49
 *export whirlpool.41
 
 *export ropepitch.42 ; force connection between Duffy data and Becka's broken pony data
