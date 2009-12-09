@@ -35,7 +35,7 @@
 17	18	3.21	319	0
 18	19	3.28	340	+15
 
-13	20	1.89	066	-10	; CHECK - Neil - is this MINUS 10 or plus 10, can you download distox and check?
+13	20	1.89	066	-10	; CHECKED - MINUS 10
 20	21	1.99	153	+18.5
 21	22	1.40	152	+27
 20	22	3.40	154	+23
@@ -50,7 +50,7 @@
 30	31	2.78	047	+3
 31	32	1.59	091	+17
 32	33	1.30	124	-11
-33	34	2.02	022	-10	; CHECK - Neil - is this MINUS 10 or  perhaps zero, can you download distox and check?
+33	34	2.02	022	-10	; CHECKED - MINUS 10
 34	35	1.84	316	-19
 35	36	4.37	043	+10
 36	37	1.87	084	-1
