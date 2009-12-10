@@ -1,6 +1,6 @@
 *begin lowdouk5
 
-*export 1
+*export 5
 
 *title "Low Douk dig below second entrance pitches"
 *date 2009.12.09

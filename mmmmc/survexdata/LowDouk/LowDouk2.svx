@@ -1,6 +1,6 @@
 *begin LowDouk2
-*export 022 001
-*Title "Low Douk"
+*export 022 001  006	; Becka added 006 here but doesn't know which station to connect LowDouk5 to so this needs fixing
+*Title "Low Douk 2"
 
 ;Date: 19/10/09
 ;Survey Kit RRCPC No 2
