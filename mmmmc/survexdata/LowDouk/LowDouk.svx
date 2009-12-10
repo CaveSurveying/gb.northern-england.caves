@@ -18,6 +18,6 @@
 *equate Lowdouk3.001 LowDouk1.017
 *equate Lowdouk1.014 LowDoukStreamway.1
 *equate Lowdouk4.1 LowDoukStreamway.1
-*equate Lowdouk5.5 LowDouk2.006
+*equate Lowdouk5.1 LowDouk2.006
 
 *end	LowDouk
