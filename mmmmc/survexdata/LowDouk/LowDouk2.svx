@@ -1,5 +1,5 @@
 *begin LowDouk2
-*export 022 001  006	; Becka added 006 here but doesn't know which station to connect LowDouk5 to so this needs fixing
+*export 022 001  010	; RB changed 006 to 010 here as he does know which station to connect LowDouk5 to so is fixed!
 *Title "Low Douk 2"
 
 ;Date: 19/10/09
