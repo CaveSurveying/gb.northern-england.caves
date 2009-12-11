@@ -1,0 +1,22 @@
+;Cave:	Graveyard Chamber
+;Surveyors:	R.Duffy/Ian Lawton/Jack Taylor
+;Date:	01/08/98
+;Instruments:	kit 2 tape 1
+
+*equate	gv4.001	gv.010
+*equate	gv4.003	gv.012
+
+*begin	gv4
+
+*calibrate compass	+7.00
+
+
+001	001a	04.75	175.0	-05.0	;st001=Gv010=UP161
+001	001b	12.30	333.0	-15.0
+001	002	16.24	261.0	-07.0
+002	002a	12.50	232.0	+11.0	
+002	002b	08.71	359.0	-08.0
+002	003	14.22	316.0	-11.0	;st003=Gv012=UP162
+003	004	25.32	235.0	+06.0	;start of crawl at top of slope
+
+*end	gv4

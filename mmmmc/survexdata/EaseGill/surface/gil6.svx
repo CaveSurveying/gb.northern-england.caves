@@ -1,0 +1,51 @@
+;Cave:	Ease Gill Stream Survey (part 6)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	11/04/07
+;Instruments:	PAG
+
+*equate	sf6.001	sf5.014 ;tag in rock at Link Pot ent.
+*equate	sf6.018	sf7.001 ;tag in rock at Pegleg Pot ent.
+
+*begin	sf6
+*export 018
+*export 001
+
+*calibrate compass		+4.15
+*calibrate clino		+1.10
+*calibrate tape		+0.05
+
+001	002	01.26	 -	UP	;st001=tag Link Pot
+002	003	10.47	329.0	-09.0	;st in line with stile on path
+003	004	50.00	252.5	-00.5
+004	005	17.17	264.5	+01.0
+
+005	005a	31.68	177.0	+25.0
+005a	005b	10.89	090.0	-20.0	;st005b=tag Owlet (Merlin) Hole
+
+005	006	19.41	280.0	 00.0
+
+006	006a	14.75	180.0	 00.0	;st006a is head height standing in hole of old dig
+
+006	007	33.74	290.0	-01.5
+
+007	007a	22.13	197.0	+02.0	;st007a=tag Boulder Cave
+
+007	008	50.00	284.5	-01.0
+008	009	41.45	252.0	 00.0
+
+009	009a	13.82	173.0	-02.0	;st009a=tag Mistral
+
+009	010	31.48	247.0	-01.0
+
+010	010a	07.35	181.0	-08.0	;st010a=tag Crumbles
+
+010	011	50.00	286.0	-01.5
+011	012	50.00	271.0	-01.0
+012	013	50.00	256.5	 00.0
+013	014	50.00	249.0	-02.0
+014	015	38.74	238.0	+01.0
+015	016	37.35	260.0	-03.0
+016	017	33.70	243.0	 00.0
+017	018	00.90	 -	DOWN	;st018=tag Pegleg Pot
+
+*end	sf6

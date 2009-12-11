@@ -1,0 +1,9 @@
+;Contains all Hemmingway Hall files
+
+*begin	heha1
+*export heh1.000
+
+*include	heh1
+*include	heh2
+
+*end	heha1

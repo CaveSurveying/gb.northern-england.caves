@@ -1,0 +1,10 @@
+;Every Casterton Pot file
+
+*begin	cp1
+
+*include	cpt
+;*include	cpt1
+*include	cpt2
+*include	cpt3
+
+*end	cp1

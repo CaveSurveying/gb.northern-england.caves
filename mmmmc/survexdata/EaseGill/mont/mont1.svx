@@ -1,0 +1,17 @@
+;All Montagu West files
+
+*begin	mont1
+*export mw1.001
+*export mw6.012
+*export mw6.006c
+
+*include	mw1
+*include	mw2
+*include	mw3
+*include	mw4
+*include	mw5
+*include	mw6
+*include	mw7
+*include	mw8
+
+*end	mont1

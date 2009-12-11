@@ -1,0 +1,54 @@
+;Surface survey from Bench Mark at Bull Pot Farm to County
+;Surveyors:	Ray Duffy/Hugh St.Lawrence
+;Date:	01/05/98 afternoon
+;Instruments:	kit 3 AG (334.5)
+
+
+
+*begin	pth1
+*export 001
+
+*fix	001	66287.82 81443.85 301.92 ;ev.ss13.030
+*fix	035	67532.25 80576.64 314.29 ;ev.ss01.035
+
+*calibrate compass	+4.50
+
+
+001	002	01.15	 -	UP	;st.001=BM at farm
+002	003	60.00	103.0	+01.5	;st.003 centre of track 2.5m to each wall
+003	004	60.00	090.0	+05.5	;15.5m to gate
+004	005	60.00	088.5	+05.5
+005	006	60.00	085.5	+07.0
+006	007	60.00	092.0	+05.0
+007	008	60.00	088.5	+04.5
+008	009	60.00	089.0	+04.5
+009	010	60.00	092.0	+02.0
+010	011	60.00	108.5	+03.5	;25.70m to gatepost
+011	012	40.30	120.5	-02.5	;st.012 is gully, 13.5m where path leaves track
+012	013	30.00	127.0	+08.5	;path 4m right
+013	014	60.00	155.5	+01.5	;path 3m right
+014	015	60.00	162.0	+00.5	;path 3m right
+015	016	60.00	159.0	+02.5	;path centre
+016	017	60.00	156.5	-00.5	;path centre
+017	018	60.00	154.0	+01.0	;path centre
+018	019	45.00	138.0	 00.0	;path centre
+019	020	60.00	140.0	+02.0	;15m to gully
+020	021	55.00	132.0	+02.0	;path 5m left, 20m to dip/gully
+021	022	60.00	107.0	-00.5	;path centre
+022	023	60.00	129.0	+02.0	;path centre
+023	024	60.00	127.0	+04.0	;path centre
+024	025	60.00	131.0	 00.0	;path centre
+025	026	60.00	131.0	-04.0	;path centre, wall at 58m
+026	026a	15.00	124.0	-04.5	;stile
+026a	027	15.00	124.0	-04.5
+;026	027	30.00	124.0	-04.5	;15m to stile, 25m to stream
+027	028	60.00	177.0	-02.0	;path centre, fence 5m R
+028	029	60.00	175.0	-02.5	;bog centre
+029	030	60.00	175.0	-02.5	;fence 5m R
+030	031	51.25	162.0	-06.0	;over brow
+031	032	60.00	158.0	-08.5
+032	033	35.00	140.5	-12.0	;MB244 is 23.5m
+033	034	24.40	177.0	-19.0	;st.034=stile
+034	035	19.60	046.0	-28.5	;st035=tag County Pot
+
+*end	pth1

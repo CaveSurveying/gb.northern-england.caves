@@ -1,0 +1,27 @@
+;Cave:	Oxford Cave 1
+;Surveyors:	S.Lieberman solo in cave + A.Hall on surface
+;Date:	03/12/05
+;Instruments:	kit 1
+
+*begin	ox1
+
+*calibrate compass	+2.00
+*calibrate clino	-2.50
+*calibrate tape		-0.10
+
+*fix	002	67559.04 80581.81 317.02 ;gl1.ox1.002
+
+;;surface legs
+;000	001	00.75	 -	UP	;st000=tag at entrance Gelder Hole
+;001	002	15.10	224.0	+05.0
+
+;start of underground
+002	003	01.20	 -	DOWN
+004	003	03.70	344.0	-07.0
+005	004	02.02	036.0	-10.0
+006	005	03.40	359.0	-07.0
+007	006	03.89	341.0	-07.0
+008	007	04.45	302.0	-08.0
+009	008	04.30	000.0	-08.0
+
+*end	ox1

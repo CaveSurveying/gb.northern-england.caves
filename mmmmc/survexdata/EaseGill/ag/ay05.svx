@@ -1,0 +1,47 @@
+;Cave:	Aygill Cavern-Middle Chamber to Junction Chamber
+;Surveyors:	H.St.L & P.Swire
+;Date:	21/02/97 eve.
+;Instruments:	Red Rose Silva Compass & Sunto Clino, 30m tape
+
+*equate	ay05.018	ay03.001c
+*equate	ay05.011	ay06.001
+*equate	ay05.001	ay08.001
+
+*begin	ay05
+*export 018
+*export 011
+*export 001
+
+*calibrate compass	+5.17
+
+001	002	03.10	091.5	+12.0
+002	002a	05.50	134.0	+10.0	;sloppy crawl to choke
+002	003	07.75	025.0	-11.0
+003	004	05.70	024.0	 00.0
+004	005	03.85	101.0	+45.0	;spike of rock
+005	005a	04.40	347.0	-19.0
+005a	005b	03.20	318.0	+01.0
+005b	005c	06.00	034.0	-11.0	;pool and stream
+005	006	03.50	106.0	+36.0
+006	006a	05.00	112.0	+27.0	;tube
+006	007	04.60	039.0	-03.5
+007	008	07.60	018.5	+01.0
+008	009	01.60	346.0	+08.0	;st009 is stalagmite boss on block
+009	009a	02.50	084.0	+35.0
+009a	009b	06.00	035.0	+19.0
+009	010	03.60	311.0	-22.0	;chamber?
+010	010a	05.20	210.0	+06.0	;crawl
+010a	010b	04.40	212.5	+01.0	;st010b is over drop
+010b	005a	03.50	212.0	-52.0
+010	011	03.70	304.0	-26.0	;TAGGED st011 is Sand Junction station marked X11 on junc. corner
+011	012	04.20	296.0	-12.5	;crawl through ?gour? and ?eyehole? ?calcite?
+012	012a	08.00	221.0	-07.0	;stream enters on right 3m from 012
+012	013	05.10	346.0	+08.0
+013	013a	06.00	234.0	-09.0	;under ???? to main stream
+013	014	05.80	127.0	+32.0	;st014	is calcited corner by obvious block
+014	015	04.75	266.5	-10.0
+015	016	00.40	223.0	-03.0
+016	017	07.90	214.0	-04.0	;st017 is near ?boit of cayl??????
+017	018	01.15	275.0	+19.0	;st018 is flake ?Bot Cus????????
+
+*end	ay05

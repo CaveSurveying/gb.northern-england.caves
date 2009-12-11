@@ -1,0 +1,19 @@
+;Cave:		Maracaibo - squeezes and just beyond
+;Surveyors:	M.Shinwell/A.Day
+;Date:		11/01/03
+;Instruments:	CUCC set
+
+*begin mar04
+
+*calibrate compass	+5.00
+*calibrate clino	 00.0
+*calibrate tape		+0.10
+
+002	001	3.03	095	+11
+003	002	3.33	136	-06
+003	004	0.40	-	up
+004	005	6.43	314	+00
+006	005	4.86	134	+16
+006	007	2.67	242	+11
+
+*end mar04

@@ -1,0 +1,15 @@
+;Every Witches Cave file
+
+*begin	wc1
+*export lbs.001
+
+*include	lbs
+*include	wit
+*include	wit1
+*include	wit3
+*include	wit4
+*include	wit5
+*include	wit7
+;*include	
+
+*end	wc1

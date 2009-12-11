@@ -1,0 +1,47 @@
+;;Contains All Link Files
+
+*begin	link1
+*export lk01.034
+*export lk01.001
+*export lk03.044
+
+
+*include	lk01
+*include	lk01a
+*include	lk01b
+*include	lk01c
+*include	lk02
+*include	lk02i
+*include	lk02a
+*include	lk02ai
+*include	lk02b
+*include	lk02c
+*include	lk02d
+*include	lk02e
+*include	lk03
+*include	lk04
+*include	lk05
+*include	lk06
+*include	lk07
+*include	lk07a
+*include	lk07b
+*include	lk08
+;*include	Lk09	;see Fleur Loveridge/Duncan/Helen
+*include	lk10
+*include	lk11
+*include	lk11a
+*include	lk12
+*include	lk13
+*include	lk14
+*include	lk15
+*include	lk16
+*include	lk17
+*include	lk18
+*include	lk19
+*include	lk19i
+*include	lk20
+*include	lk20i
+*include	lk21
+*include	lk22
+
+*end	link1

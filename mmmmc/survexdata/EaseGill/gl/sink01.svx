@@ -1,0 +1,22 @@
+;Cave:		Surfce Survey Station between 2 sinks Leck side of gill near Bank Holiday Hole
+;Surveyors:	Surface Survey 31
+;Date:		20/08/02
+;Instruments:	PAG
+
+
+
+*begin	sink01
+
+;*calibrate compass	+
+
+*fix 001 67782.63 80643.01 341.73 ;ev.ss31.023
+
+001	001a	10.00	 -	DOWN
+001	000	0.173	180.0	00.0
+002	000	0.173	300.0	00.0
+003	000	0.173	060.0	00.0
+001	002	0.300	150.0	00.0
+001	003	0.300	210.0	00.0
+002	003	0.300	270.0	00.0
+
+*end	sink01

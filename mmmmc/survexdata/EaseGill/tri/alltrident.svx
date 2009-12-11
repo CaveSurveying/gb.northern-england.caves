@@ -1,0 +1,47 @@
+;All Trident
+
+*begin	alltrident
+*export trident01.ytbb
+*export trident25b.010
+*export trident04.001
+
+;*include	Tridentscale
+*include	trident01
+*include	trident02
+*include	trident02a
+*include	trident03
+*include	trident04
+*include	trident05
+*include	trident06
+*include	trident07
+*include	trident08
+*include	trident09
+*include	trident10
+*include	trident11
+*include	trident12
+*include	trident13
+*include	trident14
+*include	trident15
+*include	trident16
+*include	trident17
+*include	trident18
+*include	trident19
+*include	trident20
+*include	trident20a
+*include	trident21
+*include	trident22
+*include	trident22a
+*include	trident23
+*include	trident23a
+*include	trident23b
+*include	trident24
+*include	trident25
+*include	trident25a
+*include	trident25b
+*include	trident26
+;;*include	Trident26a ; loop resurveyed to aid drawup
+*include	trident27a
+*include	trident28
+*include	trident28a
+*include	trident28b
+*end	alltrident

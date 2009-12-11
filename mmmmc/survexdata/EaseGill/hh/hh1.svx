@@ -1,0 +1,7 @@
+;Every Hellot hole file
+
+*begin	hh1
+
+*include	hel
+
+*end	hh1

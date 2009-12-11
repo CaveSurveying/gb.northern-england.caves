@@ -1,0 +1,51 @@
+;Contains all Wretched Rabbit files
+
+*begin	wrab
+*export wra.001
+*export wr.117
+*export wr.119
+*export wr17.101
+*export wr15.001
+
+*include	wr
+*include	wra
+*include	wrb
+*include	wrc
+*include	wrci
+*include	wrd
+*include	wre
+*include	wrf
+*include	wrg
+*include	wrh
+*include	wri
+*include	wrai
+*include	wraii
+*include	wr7a
+;;*include	wr8i ;not needed any more
+;;*include	wr8ii ;not needed any more
+*include	wr12
+*include	wr12a
+*include	wr13
+*include	wr13a
+*include	wr14
+*include	wr15
+*include	wr15a
+*include	wr16
+;;*include	wr16a	;used to check wr16
+*include	wr17
+*include	wr18
+*include	wr18a
+*include	wr19
+*include	wr20
+*include	wr21
+*include	wr22
+*include	wr22a
+*include	wr22b
+*include	wr22c
+*include	wr22d
+*include	wr24
+*include	wr25
+*include	wr26
+*include	wr27
+
+*end	wrab

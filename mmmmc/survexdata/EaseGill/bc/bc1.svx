@@ -1,0 +1,7 @@
+;Every Boulder Cave file
+
+*begin	bc1
+
+*include	bc
+
+*end	bc1

@@ -1,0 +1,26 @@
+;Every Aygill File
+
+*begin	ag1
+
+*include	ay01
+*include	ay02
+*include	ay03
+*include	ay04
+*include	ay05
+*include	ay06
+*include	ay07
+*include	ay08
+*include	ay09
+*include	ay10
+*include	ay11
+*include	ay12
+*include	ay13
+*include	ay14
+*include	ay15
+*include	ay16
+*include	ay17
+*include	ay17a
+
+*include	olh1
+
+*end	ag1

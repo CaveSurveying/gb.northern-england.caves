@@ -1,0 +1,13 @@
+;includes all Aardvark Files
+
+*begin	ak1
+*export ak01.014
+*export ak03.001
+
+*include	ak01
+*include	ak02
+*include	ak03
+*include	ak04
+*include	ak05
+
+*end	ak1

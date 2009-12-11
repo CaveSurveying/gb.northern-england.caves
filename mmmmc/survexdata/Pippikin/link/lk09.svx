@@ -1,0 +1,21 @@
+;Cave:	Link Pot- Downstream from Tigers Inlet
+;Surveyors:	Fleur Loveridge/Duncan/Helen
+;Date:	27/06/99
+;Instruments:	1
+
+;*equate
+
+*begin	lk09
+
+*calibrate compass	+6.50
+
+;*fix	001	
+
+001	002	04.00	279.0	-07.0
+002	003	02.09	251.0	-05.0
+003	004	01.78	211.0	+03.0
+004	005	05.13	275.0	-02.0
+005	006	03.27	269.0	-03.0
+006	007	01.80	224.0	-02.0	;st007=station surveyed to by P.Hall/Dave Foxton same date
+
+*end	lk09

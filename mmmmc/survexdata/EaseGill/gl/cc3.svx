@@ -1,0 +1,28 @@
+;Cave:	County Cave 3
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	27/01/04
+;Instruments:	PAG
+
+;*equate	
+
+*begin	cc3
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		00.0
+
+*fix 001 67556.04 80547.37 319.42 ;aadw.sf4.002dd
+
+001	002	02.69	097.0	-14.0	;st001 is sitting on grass below entrance slide
+002	003	03.77	123.0	 00.0
+003	004	03.36	069.0	-04.0
+004	005	00.53	 -	DOWN
+005	006	02.99	105.0	+11.0
+006	007	02.13	043.0	+29.0
+
+007	007a	03.69	226.0	+08.0	;st007a is in small aven 2m
+007a	007b	03.57	140.0	 00.0	;passage forks but too tight
+
+007	008	02.27	125.0	+07.0	;choke
+
+*end	cc3

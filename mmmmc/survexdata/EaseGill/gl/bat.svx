@@ -1,0 +1,85 @@
+;Cave:	Bat Cave - Ease Gill
+;Surveyors:	A.Whitney/I.Eeles
+;Date:	21/04/02
+;Instruments:	1
+
+;*equate	bat.000	geh.001	;only needed for positioning
+
+*begin	bat
+
+*calibrate compass	+3.00
+
+*fix 001 67576.64 80586.24 318.22 ;ev.sf3.014b
+*fix 008m 67599.53 80571.96 317.74 ;edge of sheet 3c
+*fix 120 67600.10 80548.90 319.68 ;edge of sheet 3c
+
+;000	001	11.16	135.0	+25.0	;st001 is Bat Cave entrance
+001	002	02.02	083.0	-53.0
+002	003	01.75	137.0	+04.0
+003	004	01.23	115.0	+05.0
+004	005	01.28	168.0	+03.0
+005	006	01.17	102.0	+16.0
+006	007	01.44	153.0	+05.0
+007	008	02.41	133.0	+10.0	;st008 is Y junc.
+
+;Surveyors:	R.Duffy/S.Lieberman/A.Whitney
+;Date:	06/04/02
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+*calibrate tape	+1.00
+
+008	008a	01.81	338.0	-08.0	;bat cave left hand branch from Y juction
+008a	008b	02.89	082.0	-12.0
+008b	008c	02.58	148.0	+01.0
+008c	008d	02.50	093.0	+13.0
+008d	008e	02.18	158.0	+01.0
+008e	008f	03.58	098.0	+11.0
+008f	008g	02.80	204.0	-03.0
+008g	008h	03.94	124.0	+05.0
+008h	008i	03.66	139.0	-10.0
+008i	008j	03.82	128.0	+13.0
+008j	008k	02.12	168.0	+04.0
+008k	008l	02.44	133.0	+09.0
+008l	008m	02.54	043.0	-33.0
+008m	008n	03.69	089.0	 00.0	;beyond st008n too tight passage
+
+008m	008o	05.58	183.0	+11.0	;st008o is stal alcove in chamber
+
+;Surveyors:	A.Whitney/R.Duffy
+;Date:	12/08/02
+;Instruments:	PAG
+
+*calibrate compass	+5.00
+*calibrate tape	+1.00
+
+008	102	03.57	146.5	-18.0	;st008 is Y junc. right hand branch
+102	103	01.95	142.0	-03.5
+103	104	02.00	162.5	+20.0
+104	105	01.00	130.0	-06.5
+105	106	03.08	193.5	+08.0
+106	107	01.90	 -	UP
+107	108	02.30	235.0	+03.0	;inlet between stations on left too tight
+108	109	02.88	185.0	-04.5
+109	110	02.95	156.0	+05.0
+110	111	03.49	189.0	 00.0
+111	112	04.63	159.0	+05.0
+112	113	02.27	175.0	+06.0
+113	114	02.60	102.0	 00.0
+114	115	04.26	116.0	+01.0
+115	116	04.80	177.0	+07.0	;st115 has inlet on left too tight
+116	117	02.36	083.5	+10.0
+117	118	05.37	162.5	-04.5
+118	119	03.55	126.0	+06.5
+119	120	05.98	164.0	+04.0
+120	121	02.32	184.0	+06.5
+121	122	03.55	144.0	+10.0	;st121 is upstream side of jammed/calcited boulder standing and at head height
+122	123	02.70	245.0	+16.0
+123	124	02.70	 -	UP	;bottom lip of water spout from waterfall
+
+122	122a	03.30	137.0	+05.0	;passage passing waterfall
+122a	122b	04.87	082.0	+07.0	;mid-way between stations is passage to right steeply up to small chamber, loose, with higher chamber with cobble roof, choked
+122b	122c	03.70	146.0	+10.0	;start of too tight choked rift in small chamber
+
+*end	bat

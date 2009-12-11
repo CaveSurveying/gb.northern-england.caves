@@ -1,0 +1,20 @@
+;contains all Graveyard/Skittle AlleyMont.Sth files
+
+*begin	gvy1
+*export gv.000
+
+*include	gv
+*include	gv1
+*include	gv2
+*include	gv3
+;*include	gv4
+*include	gv5
+*include	gv6
+;*include	gv7	;Frank/Ben didn't tie it in?
+*include	mtgs
+*include	sa1
+*include	sa2
+*include	sa3
+*include	sa4
+
+*end	gvy1

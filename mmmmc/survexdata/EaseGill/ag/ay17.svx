@@ -1,0 +1,26 @@
+;Cave:	Aygill-Middle Series
+;Surveyors:	H.St.Lawrence/T.Eastwood/Zig & Zag
+;Date:	12/04/98pm
+;Instruments:	PAG kit
+
+*equate	ay17.001	ay16.008
+
+*begin	ay17
+*export 001
+
+;*fix	
+
+*calibrate compass	+5.00
+
+
+001	002	01.00	  -	DOWN	;st.001 =ay16st.008 previous survey X on corner
+002	003	04.00	216.0	-12.0
+003	004	03.00	201.0	-07.0	;passage continues but tight
+
+001d	001c	03.70	029.0	-02.0	;st.001d=ay16st.011 is arrow in mud on wall at top of ramp (see previous survey)
+001c	001b	03.52	030.0	-13.0
+001b	001a	00.50	 -	UP
+001a	001	03.70	321.0	-22.0
+
+
+*end	ay17

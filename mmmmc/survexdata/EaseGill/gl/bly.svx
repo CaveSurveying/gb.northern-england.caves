@@ -1,0 +1,26 @@
+;Cave:	Blythe Hole
+;Surveyors:	H.Greaves/Pod/E.Carboni
+;Date:	19/06/05
+;Instruments:	OUCC
+
+;*equate
+
+*begin	bly
+
+*calibrate compass	+2.00
+;*calibrate clino	
+;*calibrate tape		
+
+*fix 003 67604.56 80537.63 329.89
+
+;000	001	04.20	331.5	+28.5	;st000=tag hole Oxford Cave II
+;002	001	30.25	312.5	-10.5
+;002	003	20.80	133.0	+13.0	;st003 is lip of Blythe Hole
+
+004	003	03.06	046.0	+45.0
+004	005	02.89	005.0	-41.0
+005	006	00.89	 -	UP
+
+004	007	03.51	180.5	+11.0	;st007 is choke
+
+*end	bly

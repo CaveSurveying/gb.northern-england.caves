@@ -1,0 +1,7 @@
+; All New Cave Files
+
+*begin new1
+
+*include new01
+
+*end new1

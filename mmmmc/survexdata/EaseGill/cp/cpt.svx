@@ -1,0 +1,34 @@
+;Cave:	Casterton Pot
+;Surveyors:	Ray Duffy/John Baker
+;Date:	14/11/98
+;Instruments:	PAG
+
+*equate cpt.001 cpt2.001
+*equate cpt.012a cpt3.001
+
+*begin	cpt
+*export 001
+*export 012a
+
+*calibrate compass	+5.00
+
+*fix	001	66269.41 81616.91 300.61	;ev.ss08.008a
+
+001	002	02.30	059.0	-08.5	;st001=tag on boulder to right of entrance
+002	003	02.60	183.0	-40.0
+003	004	06.60	 -	DOWN	;st003-4 is pitch
+004	005	09.00	116.0	-46.0	;st005 roof at bottom of hading rift
+005	005a	06.40	190.0	-05.0	;st005a is metal stake stuck in rock in Pet Halls dig
+005	006	03.20	322.0	-30.0
+006	007	02.40	025.0	-12.0	;st007 is knob of rock on floor at top of pitch
+007	008	06.20	 -	DOWN
+008	009	03.50	317.0	+04.0	;hading rift on left is choked at 3m
+009	010	03.40	092.0	-32.5
+010	010a	00.30	129.0	 00.0	;st010a=tag
+010	011	06.60	039.0	-21.0	;st011 is on sharp bend where passage goes under itself
+011	012	04.40	196.0	-14.0
+012	012a	00.50	 -	UP	;st012a=tag in roof at junction
+012	013	01.60	263.0	-36.0	;at st013 stream enters from behind in scaffolded drop
+013	014	04.00	202.0	-21.0	;small drop below st014 to tight passage doubling back and one ahead
+
+*end	cpt

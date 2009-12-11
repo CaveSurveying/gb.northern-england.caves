@@ -1,0 +1,39 @@
+;Cave:		Best's Hole
+;Surveyors:	S.Lieberman
+;Date:		16/09/07
+;Instruments:	PAG + disto
+
+;*equate	
+
+*begin	beh
+
+*calibrate compass		+3.00
+*calibrate clino		+0.50
+*calibrate tape		  0.00
+
+*fix 003a 67625.78 80648.47 318.80 ;st003a=tag at entrance
+
+;002	001	03.87	331.0	-08.0	;st001=tag WR
+;002	003	27.55	203.0	-01.5
+003a	003	00.93	218.0	-30.0	;st003a=tag at entrance of Best's Hole
+003	004	01.35	139.0	-13.0
+004	005	00.38	 -	UP
+005	006	02.13	176.0	-04.0	;tiny tube to right between st005&6
+006	007	01.71	150.0	 00.0
+007	008	01.50	172.0	 00.0
+009	008	00.49	278.0	-20.0	;st009 has inlet too tight on left
+009	010	02.28	170.0	+02.0
+010	011	01.26	212.0	-12.0
+
+011	011a	02.49	115.0	+05.0	;st011a is end of too tgiht inlet to left
+
+012	010	03.92	037.0	-21.0	;st012 is standing chamber with pool to left
+
+012	012a	01.20	 -	DOWN
+012a	012b	04.53	308.0	-04.0
+
+012	012i	03.09	194.0	+19.0	;st012I is choke
+
+012	013	03.36	136.0	+11.0	;st013 has inlet too tight to left
+
+*end	beh

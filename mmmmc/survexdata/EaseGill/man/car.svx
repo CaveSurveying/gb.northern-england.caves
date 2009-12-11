@@ -1,0 +1,32 @@
+;Cave:	Lancaster Hole - Carrot Chamber from Mainline Passage
+;Surveyors:	Ray Duffy/Rick Scott/Paul Windle
+;Date:	21/03/98pm
+;Instruments:	pag
+
+*equate	car.001	man1.047
+;*equate	car.008a cry.012
+
+*begin	car
+
+;*fix	
+
+*calibrate compass	+4.97
+
+;start to	dist.	compass	clino	;comments
+
+001	002	05.90	340.5	+02.5	;st.001=tag at mainline passage
+002	003	17.76	101.0	+04.0
+003	004	10.35	121.0	-02.0
+004	005	08.28	108.0	-32.0
+005	006	08.42	074.0	+04.0
+006	007	06.55	121.0	+32.5
+007	008	01.03	 -	UP
+008	008a	14.55	115.0	+10.0	;st.008a is stal on top of boulder entrance to passage to Old English
+008	009	06.47	122.0	+01.0
+;008	009	14.55	115.0	+10.0
+;008	008a	06.47	115	+01.0	;st.008a is stal on top of boulder entrance to passage to Old English	
+009	010	30.65	085.5	+02.5
+010	011	06.54	081.5	+07.5
+011	012	06.30	113.0	+04.0	;st.012 is small chamber at end with flat out passage on right not surveyed
+
+*end	car

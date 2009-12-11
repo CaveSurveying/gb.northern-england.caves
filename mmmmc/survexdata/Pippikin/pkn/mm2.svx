@@ -1,0 +1,29 @@
+;Cave:	Misty Mountain(side passage No.1)-Pipikin-Bye george
+;Surveyors:	Pete Hall/JAK/Jim Stevenson
+;Date:	16/03/96
+;Instruments:	RRCPC?
+
+;*equate	mm2.???
+
+*begin	mm2
+
+*calibrate compass	+5.55
+
+001	002	05.00	 -	DOWN	;bolts at top of rope pitch down
+002	003	01.70	230.0	 00.0
+003	004	06.00	 -	DOWN	;st001 to 004 in aven
+004	005	02.00	233.0	-29.0	;slope down
+005	005a	07.50	047.0	+07.0	;005a to 005b are on right of slope
+005a	005b	05.00	290.0	+03.0
+005	006	05.00	253.0	-08.0
+006	007	03.60	 -	DOWN	;pitch
+007	008	10.40	331.0	-60.0
+008	009	02.90	274.0	-25.0
+009	010	06.00	340.0	-21.0
+010	011	04.60	004.0	-32.0
+011	012	03.00	066.0	-18.0
+012	013	04.80	032.0	-16.0
+013	014	02.10	325.0	-46.0
+014	015	01.20	 -	DOWN
+
+*end	mm2

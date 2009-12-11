@@ -1,0 +1,27 @@
+;Cave:	Lancaster Hole - Slug World
+;Surveyors:	Andy Hall/Paul Windle
+;Date:	14/10/00
+;Instruments:	PAG
+
+*equate	l1b2.001	l1.004
+
+*begin	l1b2
+*export 001
+
+*calibrate compass	+5.00
+
+001	002	06.40	119.0	+17.0	;st001 is tag stub at trench at base of Lanc. Hole
+002	003	06.60	162.0	+32.0
+003	004	11.40	143.0	+13.0
+004	005	05.30	158.0	-03.0
+005	006	04.40	151.0	+09.0
+006	007	02.10	155.0	+42.0
+007	008	18.70	155.0	+06.0
+008	009	03.80	089.0	-03.0
+;back over breakthrough hole
+006	010	03.20	336.0	+15.0
+010	011	07.60	266.0	-20.0
+011	012	03.90	276.0	+14.0
+012	013	07.20	225.0	-32.0	;small aven with 2 holes in floor
+
+*end	l1b2

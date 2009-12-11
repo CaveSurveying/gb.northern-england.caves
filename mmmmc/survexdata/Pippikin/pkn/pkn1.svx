@@ -1,0 +1,58 @@
+;Contains All Pipikin files
+
+*begin	pkn1
+*export pip12.001
+*export pip02a.001
+*export pip13.001
+
+*include	pip
+*include	pip01
+;*include	pip02
+*include	pip02a
+*include	pip03
+*include	pip04
+*include	pip05
+*include	pip06
+;*include	pip06a	;not needed unless better drawings then pip06
+*include	pip07
+;*include	pip08	;Beardy needs to decipher his notes
+*include	pip09
+;*include	pip10	;Beardy's survey joined to pip.
+*include	pip11
+*include	pip12
+*include	pip13
+*include	pip14
+*include	pip15
+*include	pip16
+*include	pip17
+*include	pip18
+*include	pip18a
+*include	pip18b
+*include	pip18c
+*include	pip19
+*include	pip19a
+*include	pip20
+*include	pip21
+*include	pip22
+*include	pip23
+*include	pip24
+*include	pip25
+*include	pip26
+*include	pip27
+
+*include	mm1
+;*include	mm2	;see Pete Hall/JAK/Jim Stevenson
+*include	mm3
+*include	mm4
+
+*include	bg1
+*include	bg2
+*include	bg3
+*include	bg4
+*include	bg5
+
+*include	cig1
+
+*include	pep
+
+*end	pkn1

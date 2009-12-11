@@ -1,0 +1,19 @@
+;Every Borehole file
+
+*begin	bh1
+*export b02.041
+*export b03.208
+*export b01.001
+*export b03.212d
+
+;;;;;;;;*include	B1	;not needed any more
+*include	b2
+*include	b3
+*include	b01
+*include	b02
+*include	b03
+*include	b04
+*include	b05
+*include	b06
+
+*end	bh1

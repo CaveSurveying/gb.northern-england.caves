@@ -1,0 +1,15 @@
+;Contains all Mancunian Way-Nice Way files
+
+*begin	mnw1
+*export maw2.24
+*export maw1.026
+*export maw1.001
+*export maw4.021
+
+*include	maw1
+*include	maw2
+;;*include	maw3
+*include	maw4
+*include	maw5
+
+*end	mnw1

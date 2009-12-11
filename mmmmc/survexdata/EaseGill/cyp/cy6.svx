@@ -1,0 +1,30 @@
+;Cave:	part2 Ignorance is Bliss. Upper Pierces. Cotton Chamber into Lower Pierces
+;Surveyors:	F.Addis/J.Mundy/A.Q.(Andy Quin?)
+;Date:	02/09/3 & 30/09/83
+;Instruments:	??????
+
+*equate	cy6.001	cy5.018
+*equate	cy6.007	cy7.001
+
+*begin	cy6
+
+*calibrate compass	+7.07
+
+001	002	10.70	125.0	+06.0	;st001=cy5.018
+002	003	11.80	126.0	 00.0
+003	004	02.80	164.0	 00.0
+004	005	05.00	045.0	 00.0
+005	006	13.70	134.0	+05.0
+006	007	07.80	135.0	+05.0	;st007=UP84
+007	008	07.30	112.0	+10.0
+008	009	01.90	131.0	 00.0
+009	010	03.40	156.0	 00.0
+010	011	03.60	 -	DOWN
+011	012	02.00	120.0	 00.0
+012	013	02.50	121.0	+28.0	;Fat-arse Squeeze, very tight?????
+013	014	02.00	125.0	 00.0
+014	015	02.50	183.0	 00.0
+015	016	08.30	134.0	+15.0
+016	017	04.00	116.0	+24.0	;st017 is base of climb in Brown&Smelly Chamber. M/C Bypass
+
+*end	cy6

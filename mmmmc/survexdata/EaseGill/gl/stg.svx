@@ -1,0 +1,27 @@
+;Cave:		St.George's Cave
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		29/05/09
+;Instruments:	Disto + MKO
+
+;;;;;*equate	StG.001 B01.001 ;st001=tag at Borehole Ent.
+
+*begin	stg
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+*fix 003 67704.73 80719.82 323.17
+
+;surface legs
+
+;002	001	06.80	186.0	+01.0	
+;003	002	04.65	184.0	-09.0
+
+;cave
+
+003	004	01.81	331.0	-25.0	;st004 is bedded rock under small aven
+004	005	02.24	329.0	+09.0	;st005 is at end of small chamber in sink hole
+005	006	01.58	265.0	-04.0	;st006 is halfway up end wall above small sink hole
+
+*end	stg

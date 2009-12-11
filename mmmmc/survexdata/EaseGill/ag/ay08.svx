@@ -1,0 +1,39 @@
+;Cave:	Aygill Caverns- Middle Chamber to Downstream Sump
+;Surveyors:	H.St.L/Mark Savage
+;Date:	14/03/97eve
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+;*equate	ay08.001	ay05.001
+;*equate	ay08.001	ay13.008
+*equate	ay08.006l	ay12.001
+*equate	ay08.007	ay13.002
+
+*begin	ay08
+*export 001
+*export 007
+*export 006l
+
+*calibrate compass	+5.17
+
+
+;001	002	01.55	 -	DOWN	;st001=ay05.001=ay13.008
+;002	003	07.00	198.0	-03.0
+;003	004	21.70	201.0	-01.0
+;004	005	15.00	205.0	+04.0
+;005	006	26.50	197.0	+05.0
+006	006a	08.00	229.5	+27.0	;st006a is in window ,climb up to waterfall series right hand sideof main pass.
+006a	006b	04.30	235.0	+19.0
+006b	006c	02.35	291.0	+05.0
+006c	006d	02.70	048.0	-04.0
+006d	006e	01.90	331.0	+11.0
+006e	006f	04.95	023.0	+15.0
+006f	006g	04.60	344.0	+02.0
+006g	006h	07.35	017.0	+01.0
+006h	006i	02.70	077.0	-05.0
+006i	006j	04.95	048.0	+04.0
+006j	006k	05.45	326.0	+06.0
+006k	006l	02.75	341.5	+22.0	;st006l	is little flake of rock with arrow on it.
+006	007	08.00	220.0	+03.0	;st007 is edge of sump pool tie off point for diving line
+;007	008	07.00	197.0	-08.0	;far side of sump
+
+*end	ay08

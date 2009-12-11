@@ -1,0 +1,16 @@
+;Cave:	Kirk Pot
+;Surveyors:	surface survey
+;Date:	18/06/03
+;Instruments:	
+
+;*equate	
+
+*begin	kip
+
+;*calibrate compass	
+
+*fix	001	66263.63 80196.70 250.43	;ev.ss09.030
+
+001	002	05.00	 -	DOWN
+
+*end	kip

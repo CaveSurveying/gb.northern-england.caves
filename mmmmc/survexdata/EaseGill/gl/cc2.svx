@@ -1,0 +1,47 @@
+;Cave:	County Cave 2
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:	20/01/04
+;Instruments:	PAG
+
+*begin	cc2
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		00.0
+
+*fix 001  67554.92 80545.33 318.64 ;aadw.sf4.002dc
+
+001	002	02.56	158.0	+03.0	;st001=tag at entrance in roof
+002	003	02.10	132.0	+01.0
+003	004	04.37	166.0	+02.0
+004	005	02.18	 -	DOWN	;step down into big chamber
+005	006	04.53	148.0	+14.5
+006	007	03.19	137.0	+06.0
+007	008	02.15	 -	UP	;step up onto ledge below aven at end of big chamber
+009	008	01.68	013.0	+16.0	;st019 is start of small passage on right of  ledge, one to left ends after one bodylength
+009	010	03.28	168.0	+11.0
+010	011	03.57	195.0	+06.0	;st011 is below small dribbly inlet on choked cobble slope
+
+;passage below main chamber found by sliding dow through boulders at start of big chamber
+;Surveyors:	S.Lieberman/A.Whitney (too tight for Ray
+
+101	102	01.22	224.0	-06.0	;st101 is far end of lower passage from climb down
+102	103	02.31	354.0	-09.0
+103	104	01.43	268.0	+26.0
+104	105	02.43	309.0	-14.0
+105	106	01.36	034.0	-08.0
+106	107	01.52	316.0	-10.0
+107	108	00.80	054.0	+14.0
+108	109	02.03	325.0	+03.0
+109	110	01.75	010.0	-06.0
+110	111	02.44	338.0	+32.0
+111	112	01.71	 -	UP	;start of climb up
+112	113	01.98	129.0	+58.0
+113	114	01.71	174.0	+59.0	;squeeze
+114	115	02.45	158.0	+22.0
+115	116	01.82	 -	UP
+116	117	01.20	083.0	+12.0
+117	118	01.70	 -	UP	;head height at start of big chamber
+118	003	01.78	353.0	-05.0
+
+*end	cc2

@@ -1,0 +1,38 @@
+;Cave:	Boundary Pot - Bar Steward's Crawl
+;Surveyors:	F.Addis/J.Mundy
+;Date:	26/08/83
+;Instruments:	FA
+
+;;;;*equate	Bdy7.016 Bdy4.003a	;not needed
+*equate	bdy7.024 bdy3.034
+
+*begin	bdy7
+
+*calibrate compass		+7.07
+;*calibrate clino	
+;*calibrate tape		
+
+016	017	16.50	 -	UP	;st017 top of pitch (18m pitch but 1.5m taken off for head height)
+
+017	018	04.20	164.0	 00.0
+018	019	03.30	 -	UP	;top of climb
+
+019	020	01.70	145.0	 00.0
+020	021	02.00	210.0	+23.0
+021	022	01.40	168.0	+15.0	;st022 is start of crawl up side passage
+
+022	61	01.70	236.0	+15.0	;st60-68 crawl up side passage
+61	62	01.20	185.0	+07.0
+62	63	01.00	244.0	+07.0
+63	64	01.60	115.0	+07.0
+64	65	01.00	180.0	+07.0
+65	66	02.30	270.0	+05.0
+66	67	02.30	184.0	+07.0
+67	68	02.10	124.0	+12.0
+
+;low crawl
+
+022	023	05.00	108.0	 00.0
+023	024	03.50	105.0	 00.0	;st24 is pool at start of Bar Steward's Crawl
+
+*end	bdy7

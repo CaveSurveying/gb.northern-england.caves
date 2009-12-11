@@ -1,0 +1,36 @@
+;Every other gill cave entrance
+
+*begin	gl1
+*export how01.001
+
+*include	bat
+*include	bhh
+*include	beh
+*include	bly
+*include	cc1
+*include	cc1p5
+*include	cc2
+*include	cc3
+*include	cd2
+*include	dra
+*include	geh
+*include	gin
+*include	how01
+*include	how
+*include	is
+*include	kip
+*include	mb5
+*include	oh
+*include	owl
+*include	ox1
+*include	ox2
+*include	pic
+*include	reb
+*include	row
+*include	ry
+*include	2ndb
+*include	sink01
+*include	shf
+*include	stg
+
+*end	gl1

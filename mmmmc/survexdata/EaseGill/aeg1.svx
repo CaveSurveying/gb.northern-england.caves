@@ -1,0 +1,141 @@
+;Every Easegill file
+
+*begin	aeg1
+*export ear.wm.001
+*export asf.sf5.014
+
+*equate	asf.sf1a.024	ts1.t01c.001
+*equate	asf.sf1a.001	bp1.bdy1.001b
+*equate	asf.sf1.007b	ts1.t01c.001
+;;;;;;;;*equate	asf.sf2.001	Bp1.bdy.047 ;shite
+*equate	asf.sf1.021	bp1.bdy1.001b
+*equate	asf.sf2.001	bp1.bdy1.001 ;tag at roof of entrance crawl
+*equate	asf.sf2.008	ps1.p1a.001	
+*equate	asf.sf3.015	cyp1.cya.001
+;;;;;;;;*equate	asf.sf3.013a	Gl1.oh.001	;position fixed
+*equate	asf.sf3.008a	wrab.wra.001
+*equate	asf.sf3.011	cs1.cns1.001	
+*equate	asf.sf3.013b	swh1.swh.001
+*equate	asf.sf3.001	ps1.p1a.001
+;;;;;;;;*equate	asf.sf3.003	Bh1.B1.001 ;shite
+*equate	asf.sf3.003	bh1.b01.001
+;;;;;;;;*equate	asf.sf3.007	Bh1.B1.20NS	;position fixed
+;;;;;;;;*equate	asf.sf4.010a4	Cf1.cf.001	;position fixed
+*equate	asf.pth3.022	wc1.lbs.001
+;;;;;;;;*equate asf.sf4.002a	Gl1.OX2.000	;position fixed
+*equate asf.sf5.002f gl1.how01.001 ;st002f=tag above Jim's dig
+
+
+*equate	main1.l1.026	cwp1.cw.031
+*equate	ak1.ak01.014	main1.md7a.001
+*equate	ak1.ak03.001	cwp1.cw6.008a
+*equate	cwp1.cw.031	main1.l1a.001
+*equate	main1.md8.120	mont1.mw6.012
+*equate	main1.md8.105	mont1.mw6.006c
+*equate	main1.l1.023	mont1.mw1.001
+*equate	main1.l2.001	cwp1.cw.031
+*equate	main1.md5.025	wrab.wr.119
+*equate main1.md4.012	wrab.wr17.101 ;start of depot to wretched
+*equate main1.l1a.010	wood1.wh.001
+;;;;;;;;*equate	Main1.md2b.024	Ts1.T01b.105
+*equate	main1.md2b.024	ts1.t01bii.055
+*equate main1.md2ci.001 ts1.t06aii.001 ;st001=tag Rock of Ages
+*equate	main1.l1.005	sac1.sc1.001
+*equate	main1.md7a.031a	mag1.mr1.001
+*equate	main1.l4.025	mnw1.maw1.001
+*equate	main1.l5.021	mnw1.maw4.021
+*equate	main1.l5.001	wrab.wr15.001	;stop pot to 4ways
+*equate	main1.l1.006	gvy1.gv.000
+*equate	main1.md4.002	gyp1.gyc1.001
+;;;;;;;;*equate	Main1.md2a.008	Gyp1.GyC3.017
+*equate	main1.md3c.010	gyp1.gyc3.016 ;stal with tape on right looking up E.Grot
+*equate	main1.md3c.009	gyp1.gyc3.119 ;UP2
+*equate	main1.md8.094	heha1.heh1.000
+*equate	main1.l5.016	mbp1.man1.049
+*equate	main1.md7e.004	mar1.mar01.021
+
+*equate ear.es.000  main1.l3.004a
+
+*equate	cyp1.cy.067a	alltrident.trident04.001	;now fixed
+*equate	mbp1.man1.007	alltrident.trident01.ytbb	;now fixed
+*equate cyp1.cyb.012 mbp1.man1.007 ;tag at Battle of Britain Chamber
+*equate	cyp1.cy12.017	sylv1.syl2.425
+*equate	mnw1.maw2.24	sylv1.syl2.503
+*equate cyp1.cy10di.001 sylv1.syl3.025 ;bottom of Delicate Sound Of Thunder Choke
+*equate	mnw1.maw1.026	cyp1.cy12a.001
+*equate	mbp1.man1.001	cyp1.cy.046
+*equate	mag1.mr1.031	main1.l3.007
+*equate	wood1.wh.001	main1.md7a.005
+*equate	cyp1.cy.087	wrab.wr.117
+
+*equate	ps1.p1a.105	main1.md4.001
+;;;;;;;;*EQUATE	Bh1.B1.212d	Ps1.P1a.078
+*equate	bh1.b03.212d	ps1.p1a.078
+;;;;;;;;*EQUATE	Bh1.B03.201	Ps1.P2a.074 ;not needed anymore
+;;;;;;;;*EQUATE	Bh1.B03.208a	Ps1.P7a.087 ;not needed anymore
+*equate bh1.b03.208 	ps1.p7b.001 ;head height sitting astride drop to Borehole from Ecles Bypas
+*equate bh1.b02.041	ss1.ss01.000 ;middle of scaffold bar
+*equate bh1.b02.041	ss1.ss01.021 ;middle of scaffold bar
+*equate bh1.b02.041	ss1.nss01.000 ;middle of scaffold bar
+
+;;;;;;;;*equate	Ts1.T09.030	Main1.md2b.091 ;not needed anymore
+*equate ts1.t01bii.055	main1.md2ci.016 ;tag Limerick Juntion UP105
+*equate	ts1.t09a.031	main1.md2ai.106 ;tag above slope to NW Passage
+*equate	ts1.t09c.001f	main1.md2ai.022 ;pitch route to NW Passage
+;;;;;;;;*equate	Ts1.T06.043	Main1.md2b.010a
+*equate	sac1.sc1.008	main1.gird1.016
+*equate	crat1.crat.001	main1.l1.017
+*equate	sac1.sc2.020	crat1.crat2.010
+*equate	cs1.cns1.015	swh1.swh.031
+*equate	alltrident.trident25b.010	swh1.swh.026
+
+*include	main\main1
+*include	ag\ag1
+*include	ak\ak1
+*include	bc\bc1
+*include	bh\bh1
+*include	bp\bp1
+*include	bw\bw1
+*include	cf\cf1
+*include	cp\cp1
+*include	cr\cr1
+*include	crat\crat1
+*include	cs\cs1
+*include	cwp\cwp1
+*include	cyp\cyp1
+*include	es\ear
+*include	gg\gg1
+*include	gl\gl1
+*include	gv\gvy1
+*include	gy\gyp1
+*include	hd\hd1
+*include	heh\heha1
+*include	hh\hh1
+*include	hip\hp1
+*include	hs\hs1
+*include	lkc\lkc01
+*include	man\mbp1
+*include	mar\mar1
+*include	maw\mnw1
+*include	mh\merh
+*include	mont\mont1
+*include	mr\mag1
+*include	new\new1
+*include	pp\pp1
+*include	ps\ps1
+*include	sc\sac1
+*include	sh\sh1
+*include	ss\ss1
+*include	swh\swh1
+*include	syl\sylv1
+;;;;;;;;*include	Tp\Tp1
+*include	tri\alltrident
+*include	ts\ts1
+*include	wc\wc1
+*include	wood\wood1
+*include	wr\wrab
+
+*include	surface\asf
+
+
+*end	aeg1
