@@ -1,0 +1,9 @@
+*begin all
+
+*include leckfell
+
+; the EaseGill inclusion
+*include EaseGill/aeg1
+*include Pippikin/pml1
+
+*end all
