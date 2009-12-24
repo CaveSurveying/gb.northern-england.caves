@@ -4,7 +4,7 @@
 
 *begin ropepitch
 
-*export 44 49 104 1 101 105 
+*export 44 49 104 1 101 105 106
 *export 42 ; forced connection between Duffy data and Becka's bad pony data
 *export 63 ; P-hanger on boulder shelf above rope pitch
 
@@ -171,7 +171,7 @@
 60	0.2	0.5	1.8	2	; l wall
 61	3	0.8	6	2.3	; r wall, cross on small calcite curtain to R of distinctive long flat boulder lying perpendicular to passage on bedrock
 62	3	0	10	2	; r wall
-63	2.2	0	10	4	; p hanger - is this below traverse to Adulterers? Rope goes both up and down from phanger
+63	2.2	0	10	4	; p hanger below traverse to Adulterers. Rope goes both up to Adulterers traverse and down from phanger as a dry level option to Rope Pitch
 64	3	0.1	8	1	; r wall
 65	4	2	10	1	; ceiling
 

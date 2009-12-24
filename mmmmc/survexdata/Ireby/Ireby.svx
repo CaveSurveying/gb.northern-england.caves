@@ -69,18 +69,11 @@
 ;Equate Main Streamway Files
 *equate Streamway.Streamway1.022 DingDongBellPitches.022
 
-;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers
-; problems connecting across well pitch
-; *equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
-
-; connection on the old pitchhead bolt
-; problems connecting across well pitch, shown by this more correct connection between the streamway and adulterers level
-; *equate Streamway.Streamway3.024 DukeStreet.ropepitch.105 
+;Equate WellPitchInlets						;Cornflake\Aberfan\Adulterers then to NEInlet
+*equate allabovewellpitch.abovewellpitch2.4 Streamway.streamwayuptoduckresurvey.1
 *equate DukeStreet.ropepitch.63 allabovewellpitch.adultererropewelllink.2 ; P-hanger on boulder shelf above rope pitch
-
-; connection partway along the ropepitch survey (with bad calibrated SAP) to tie to the Ray Duffy survey and keep the two in line
-; this is at the junction with the dam
-*equate Streamway.Streamway4.021a DukeStreet.ropepitch.42 
+*equate allabovewellpitch.abovewellpitch2.1 DukeStreet.ropepitch.101	; bit confusing as to which phanger surveys are referring to but this *should* be correct 
+*equate allabovewellpitch.abovewellpitch.33 DukeStreet.ropepitch.106	; hopefully the RH phanger by cow tag for dry alternative to Well pitch
 
 ;Equate BoltonExtentions
 *equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
@@ -93,3 +86,14 @@
 *equate DukeStreet.ropepitch.49 AllAboveWellPitch.neinlet1.49x	;top of boulder slope beyond bottom of Rope pitch before crawl to east inlet
  
 *end Ireby
+
+; EQUATES REMOVED BY BECKA DEC09
+
+; problems connecting across well pitch
+; *equate allabovewellpitch.abovewellpitch2.4 Streamway.Streamway3.024 
+
+; connection partway along the ropepitch survey (with bad calibrated SAP) to tie to the Ray Duffy survey and keep the two in line
+; this is at the junction with the dam
+;*equate Streamway.Streamway4.021a DukeStreet.ropepitch.42 
+
+

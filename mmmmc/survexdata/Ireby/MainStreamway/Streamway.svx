@@ -21,11 +21,15 @@
 *Include streamwayuptoduckresurvey
 
 *equate	Streamway1.067 Streamway2.001
-*equate	Streamway3.015 streamwayuptoduckresurvey.16
 
 *equate	Streamway2.031 Streamway3.001
 
+*equate	Streamway2.031 streamwayuptoduckresurvey.37
+
 ; disconnected so we know how to connect up the well pitch disaster
-;;*equate	Streamway3.024 Streamway4.001
+; *equate	Streamway3.015 streamwayuptoduckresurvey.16
+
+; disconnected so we know how to connect up the well pitch disaster
+; *equate	Streamway3.024 Streamway4.001
 
 *end Streamway

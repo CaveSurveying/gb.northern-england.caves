@@ -126,7 +126,7 @@
 31	-	-	-	-	; above c2 in tight rift
 
 32	0	1.0	1.6	2
-33	1.6	0	1.6	-	; no down recorded
+33	1.6	0	1.6	-	; no down recorded; according to drawing this is RH bolt of pitch Yhang
 34	0	1.6	1.7	1.9	; RRCPC tag
 35	0.4	0	1	1.8
 36	0.6	0	0.9	0.5
