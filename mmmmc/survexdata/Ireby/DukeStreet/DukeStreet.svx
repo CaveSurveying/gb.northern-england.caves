@@ -13,7 +13,7 @@
 *export ropepitch.63 ; P-hanger on boulder shelf above rope pitch
 
 *Include DukeStreet1
-*Include DukeStreetDigs
+; *Include DukeStreetDigs
 *Include dukest1resurvey2009
 *Include ropepitch
 *Include whirlpool
@@ -27,8 +27,8 @@
 *equate ropepitch.1 dukestdigsresurvey.z
 *equate ropepitch.44 eastinletresurvey.44
 
-*equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
-;*equate Whirlpool1.001 DukeStreet1.069		;Start of Whirlpool off Duke Street
+; *equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
+; *equate Whirlpool1.001 DukeStreet1.069	;Start of Whirlpool off Duke Street
 
 
 *end DukeStreet
