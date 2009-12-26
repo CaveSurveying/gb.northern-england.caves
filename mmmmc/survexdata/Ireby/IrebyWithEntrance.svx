@@ -1,0 +1,3 @@
+
+*include Ireby
+*fix Ireby.EntranceTag  67367.78  77343.61  389.00  ; tag hole on right of scaffold bar in top rock(tag missing)

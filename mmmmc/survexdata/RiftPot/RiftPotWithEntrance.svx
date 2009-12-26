@@ -1,0 +1,3 @@
+
+*include RiftPot
+*fix RiftPot.EntranceTag 67917.82  76897.19   356.45  ; taken from pos file

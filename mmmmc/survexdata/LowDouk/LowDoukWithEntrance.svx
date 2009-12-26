@@ -1,0 +1,3 @@
+
+*include LowDouk
+*fix LowDouk.EntranceTag 67765.77  76785.03    329.97   ; from pos file
