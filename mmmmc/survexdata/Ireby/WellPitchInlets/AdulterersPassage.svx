@@ -4,7 +4,7 @@
 
 *begin AdulterersPassage
 
-*export 1 21
+*export 1 2 21
 
 *title "Adulterer's Passage"
 *date 2009.05.17
@@ -18,7 +18,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
-1	tube	14.78	130	0	;Disto leg into tube
+;1	tube	14.78	130	0	;Disto leg into tube
 2	1	2.67	121	-12	;left hand wall start of tube
 3	2	4.78	138	+4	;over calcite squeeze
 3	4	2.16	356	-18
