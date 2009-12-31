@@ -13,6 +13,7 @@
 *include adultererropewelllink
 *include neinlet1
 *include neinlet2
+*include neinlet3
 *include tube
 
 *equate abovewellpitch.8a abovewellpitch3.8a
@@ -22,5 +23,6 @@
 *equate abovewellpitch3.12 neinlet1.12x
 *equate adultererspassage.2 tube.2x
 *equate neinlet1.40 neinlet2.40x
+*equate neinlet2.55 neinlet3.55x
 
 *end allabovewellpitch
