@@ -21,32 +21,33 @@
 *equate EntranceTag DingDongBellPitches.001
 
 ;Include DingDongBellPitches				
-*Include "DingDongBellPitches\DingDongBellPitches"	;Ding-Dong-Bell-Rope Pitches
+*Include "DingDongBellPitches/DingDongBellPitches"	;Ding-Dong-Bell-Rope Pitches
 
 ;Include Bubbles Route File				
-*include "BubblesRoute\BubblesRoute"			;Bubbles Route
+*include "BubblesRoute/BubblesRoute"			;Bubbles Route
 
 ;Include Main Streamway Files				
-*include "MainStreamway\Streamway"			;Main Streamway	
+*include "MainStreamway/Streamway"			;Main Streamway	
 
 ;Include Glory Holes and True Grit Files
-*include "GloryHoles\GloryHoles"			;Glory Holes and True Grit
+*include "GloryHoles/GloryHoles"			;Glory Holes and True Grit
 
 ;Include Cripple Creek Files
-*include "CrippleCreek\CrippleCreek"			;Cripple Creek 
+*include "CrippleCreek/CrippleCreek"			;Cripple Creek 
 
 ;Include Ireby 2 Files
-*include "Ireby2\Ireby2"				;Ireby 2 (Jupiter Cavern to sumps)
+*include "Ireby2/Ireby2"				;Ireby 2 (Jupiter Cavern to sumps)
 
 ;Include Bolton Extentions File
-*include "BoltonExtentions\BoltonExtentions"		;Bolton Extentions
+*include "BoltonExtentions/BoltonExtentions"		;Bolton Extentions
 
 ;Include WellPitchInlets 		
-*include "WellPitchInlets\AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
+*include "WellPitchInlets/AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
 
-;Include Duke Street\Duke Street Digs\Whirlpool		
-*Include "DukeStreet\DukeStreet"			;Duke Street/Whirlpool/Digs
+;Include Duke Street/Duke Street Digs/Whirlpool		
+*Include "DukeStreet/DukeStreet"			;Duke Street/Whirlpool/Digs
 
+*include "NorthEastInlet/allneinlet"
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
@@ -82,7 +83,10 @@
 *equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.25
 
 ;Equate NEInlet (which connects up to Adulterers) to lower streamway
-*equate DukeStreet.ropepitch.49 AllAboveWellPitch.neinlet1.49x	;top of boulder slope beyond bottom of Rope pitch before crawl to east inlet
+*equate DukeStreet.ropepitch.49 northeastinlet.neinlet1.49x	;top of boulder slope beyond bottom of Rope pitch before crawl to east inlet
+
+*equate allabovewellpitch.abovewellpitch3.12 northeastinlet.neinlet1.12x
+
  
 *end Ireby
 
