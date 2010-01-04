@@ -1,3 +1,5 @@
+; not included in main set
+
 ;Cave:	Ireby Fell-NE Inlet(Part)
 ;Surveyors:	Pete Hall/Dave Ramsey
 ;Date:	?(1999)
