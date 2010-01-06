@@ -8,9 +8,10 @@
 *include LowDouk1
 *include LowDouk2
 *include LowDouk3
-*include LowDoukStreamway
 *include LowDouk4
 *include LowDouk5
+*include LowDoukStreamway
+*include lowdouktosump
 
 ;--------------------------------------------------------------------
 
@@ -19,5 +20,6 @@
 *equate Lowdouk1.014 LowDoukStreamway.1
 *equate Lowdouk4.1 LowDoukStreamway.1
 *equate Lowdouk5.1 LowDouk2.010
+*equate LowDoukStreamway.67 lowdouktosump.67x
 
 *end	LowDouk
