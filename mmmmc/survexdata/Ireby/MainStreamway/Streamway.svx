@@ -9,8 +9,8 @@
 *export Streamway4.020
 *export Streamway4.059
 *export streamwayuptoduckresurvey.1
-*export streamwayuptoduckresurvey.16
-*export streamwayuptoduckresurvey.37
+;*export streamwayuptoduckresurvey.16
+;*export streamwayuptoduckresurvey.37
 
 *export Streamway4.021a ; connection on between the Duffy data and Becka's dodgy pony data
 
@@ -19,12 +19,15 @@
 *Include Streamway3
 *Include Streamway4
 *Include streamwayuptoduckresurvey
+*Include streamwayupstreamofduckresurvey
 
 *equate	Streamway1.067 Streamway2.001
 
 *equate	Streamway2.031 Streamway3.001
 
 *equate	Streamway2.031 streamwayuptoduckresurvey.37
+
+*equate	streamwayuptoduckresurvey.37 streamwayupstreamofduckresurvey.37x
 
 ; disconnected so we know how to connect up the well pitch disaster
 ; *equate	Streamway3.015 streamwayuptoduckresurvey.16
