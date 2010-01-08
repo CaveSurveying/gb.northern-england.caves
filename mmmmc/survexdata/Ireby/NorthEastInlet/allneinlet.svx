@@ -2,6 +2,7 @@
 
 *export neinlet1.12x
 *export neinlet1.49x
+*export neinlet1.4
 
 *include neinlet1
 *include neinlet2

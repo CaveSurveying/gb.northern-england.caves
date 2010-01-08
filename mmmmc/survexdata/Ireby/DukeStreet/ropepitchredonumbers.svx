@@ -4,7 +4,7 @@
 
 *begin ropepitchredonumbers
 
-*export 44 49 104 1 101 105 106
+*export 1 4 14 24 26 30 72 73
 
 *title "Rope Pitch Redo Numbers"
 *date 2010.01.01

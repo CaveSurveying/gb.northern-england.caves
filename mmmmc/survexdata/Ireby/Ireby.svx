@@ -74,6 +74,8 @@
 *equate DukeStreet.ropepitch.63 allabovewellpitch.adultererropewelllink.2 ; P-hanger on boulder shelf above rope pitch
 *equate allabovewellpitch.abovewellpitch2.1 DukeStreet.ropepitch.101	; bit confusing as to which phanger surveys are referring to but this *should* be correct 
 *equate allabovewellpitch.abovewellpitch.33 DukeStreet.ropepitch.106	; hopefully the RH phanger by cow tag for dry alternative to Well pitch
+*equate DukeStreet.ropepitchredonumbers.1 Streamway.streamwayuptoduckresurvey.1	; p hanger before start of Well pitch
+*equate DukeStreet.ropepitchredonumbers.4 allabovewellpitch.abovewellpitch2.8	; cow tag at end of Aberfan
 
 ;Equate BoltonExtentions
 *equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
@@ -84,6 +86,7 @@
 
 ;Equate NEInlet (which connects up to Adulterers) to lower streamway
 *equate DukeStreet.ropepitch.49 northeastinlet.neinlet1.49x	;top of boulder slope beyond bottom of Rope pitch before crawl to east inlet
+*equate DukeStreet.ropepitchredonumbers.24 northeastinlet.neinlet1.4
 
 *equate allabovewellpitch.abovewellpitch3.12 northeastinlet.neinlet1.12x
 
