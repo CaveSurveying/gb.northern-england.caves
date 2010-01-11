@@ -3,9 +3,11 @@
 ;Date:	28/12/00
 ;Instruments:	2
 
-*equate	N08.027a	N05.011
+; *equate	N08.027a	N05.011
 
-*begin	N08
+*begin	CountLazlo
+
+*export 027a
 
 *calibrate compass	+6.50
 
@@ -51,4 +53,4 @@ A2	006	02.70	062.0	-09.0
 028	029	03.20	055.0	+03.0
 029	030	02.50	005.0	-40.0
 
-*end	N08
+*end	CountLazlo

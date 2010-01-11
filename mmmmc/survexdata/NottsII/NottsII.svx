@@ -2,13 +2,6 @@
 ;Title: NottsII - All
 
 ;Date Created 21/12/2006 by Neil Pacey, Richard Bendall
-;Date last Modified
-
-;-------------------------------------------------------------------------------------------
-;Modifications
-;
-;
-
 
 ;--------------------------------------------------------------------------------------------
 ;All NottsII Files
@@ -17,34 +10,35 @@
 
 *export Entrance  ; CommitteePot.001
 
+;-------------------------------------------------------------------------------------------
+;Include Statements
+
 *include "CommitteePot/CommitteePot"	;Entrance to Mincemeat Aven
 *include "Inlet13/Inlet13"		;Mincemeat Aven to MainStreamway
-
 *include "GourInlet/Gourinlet1"
-
 *include "Inlet17/Inlet17"
 *include "Inlet18/Inlet18"
 *include "MainStreamway/MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
 *include "Paaschendale/Paaschendale"	;Paaschendale
 *include "TrickOrTreat/TrickOrTreat"	;Trick Or Treat
-*include "Poppy/Poppy"		;Poppy Passage
-
+*include "Poppy/Poppy"			;Poppy Passage
 *include Inlet7/Inlet7  
-*equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
+*include CountLazlo/CountLazlo		;added by Becka but needs tidying up and folder name checking or moving to another folder
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
+
 *equate Committeepot.001 Entrance
 *equate Committeepot.019 Inlet13.001
 *equate	GourInlet1.001	MainStreamway.Mainstreamway3.GITag
-
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *equate MainStreamway.Mainstreamway3.33 Inlet13.025
 *equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
 *equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
 *equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
 *equate Inlet18.Sump3 Inlet17.Inlet17_2.Sump3
-
+*equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
+*equate CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream
 
 *end NottsII
 
