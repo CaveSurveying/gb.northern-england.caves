@@ -1,0 +1,35 @@
+*begin luccaven
+
+*export 7a
+
+*title "LUCC Aven in Lost Johns cave - data from Tim Allen"
+*date 2010.01.17
+*team Notes Becka Lawson
+*team Instruments Julian Todd
+
+*instrument comp&clino Becka's tandem tape Becka's 30m tape
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	1a	3.9	033	-57
+1	2	1.9	095	+10
+2	3	1.8	168	+05
+3	4	4.7	154	+06
+4	5	2.9	103	+41
+5	6	3.1	156	-24
+6	7	5.6	091	-49
+7	8	8.9	189	+25
+8	9	4.2	175	+14
+9	10	2	153	+55	
+7	7a	14.1	115	-73	
+
+*data passage station left right up down ignoreall
+
+1a	-	-	-	-	1a is downstream end of rift, too tight beyond
+7	-	-	-	-	7 is inner bolt of main pitch hang
+10	-	-	-	-	10 is upstream end.  Flake below snappered section
+7a	-	-	-	-	7a is yellow tag at foot of aven. SE passage end station
+
+*end luccaven
