@@ -1,7 +1,6 @@
 
 *begin	box3	
-*export 001
-*export 072j
+*export 001 072j 067c
 *export 072   ; connects to Lj15.001
 
 ;Cave:	Boxhead-Lost Johns (Tate Gallery)

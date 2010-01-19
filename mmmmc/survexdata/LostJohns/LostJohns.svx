@@ -98,4 +98,7 @@
 *include box
 *equate box.015 BoxheadSurfaceRim
 
+*include luccaven
+*equate Box3.067c luccaven.7a
+
 *end	LostJohns
