@@ -1,10 +1,10 @@
-*begin	Inlet5-1
-
 ;Cave:	Notts II - Inlet5
 ;Description:	Inlet 5 main passage to sump
 ;Date:	19/03/05	
 ;Surveyors:	Instruments: Tania Milnes, Tony Bennison;	Notes: Tanya Savage
 ;Instruments: Neil's kit 
+
+*begin	Inlet5-1
 
 *export	001
 *export 019

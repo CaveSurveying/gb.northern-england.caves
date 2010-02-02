@@ -9,6 +9,7 @@
 
 *export 001
 *export 025
+*export 010a
 
 *calibrate compass	+5.00
 

@@ -14,8 +14,11 @@
 ;Include Statements
 
 *include "CommitteePot/CommitteePot"	;Entrance to Mincemeat Aven
-*include "Inlet13/Inlet13"		;Mincemeat Aven to MainStreamway
+*Include "DomeInlet/DomeInlet"		;Dome Inlet 				Added by Richard 02/02/10 Working ok
+*include "Inlet13/Inlet13"		;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok
+*include "MincemeatAven/MincemeatAven"	;Up Mincemeat Aven
 *include "GourInlet/Gourinlet1"
+*Include "Inlet5/Inlet5"		;Inlet5 & extension			Added by Richard 02/02/10 Not Working 
 *include "Inlet17/Inlet17"
 *include "Inlet18/Inlet18"
 *include "MainStreamway/MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
@@ -30,6 +33,9 @@
 
 *equate Committeepot.001 Entrance
 *equate Committeepot.019 Inlet13.001
+*equate MainStreamway.MainStreamway5.019 DomeInlet.000 
+*equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.000 
+*equate Inlet13.010a MincemeatAven.17
 *equate	GourInlet1.001	MainStreamway.Mainstreamway3.GITag
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *equate MainStreamway.Mainstreamway3.33 Inlet13.025
