@@ -11,8 +11,8 @@
 *include LowDouk4
 *include LowDouk5
 *include LowDoukStreamway
-*include lowdouktosump
-*include lowdoukleftatsteps
+*include LowDoukToSump
+*include LowDoukLeftAtSteps
 
 ;--------------------------------------------------------------------
 

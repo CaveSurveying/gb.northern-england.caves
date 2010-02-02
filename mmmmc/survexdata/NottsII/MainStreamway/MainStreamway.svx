@@ -15,14 +15,14 @@
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag
 
 
-*Include MainStreamway1
-*Include MainStreamway2
-*Include MainStreamway3
-*Include MainStreamway4
-*Include MainStreamway5
-*Include MainStreamway6
-*Include Mainstreamway7
-*Include MainStreamway8
+*include MainStreamway1
+*include MainStreamway2
+*include MainStreamway3
+*include MainStreamway4
+*include MainStreamway5
+*include MainStreamway6
+*include Mainstreamway7
+*include MainStreamway8
 
 *equate MainStreamway1.12 MainStreamway2.12
 *equate MainStreamway2.1 MainStreamway3.GTTag

@@ -11,10 +11,10 @@
 *export NewExtension.001 
 *export NewExtension.015b
 
-*Include Inlet5-1
-*Include Inlet5-2
-*Include Inlet5-3
-*Include NewExtension
+*include Inlet5-1
+*include Inlet5-2
+*include Inlet5-3
+*include NewExtension
 
 *equate Inlet5-1.019 Inlet5-2.033
 *equate Inlet5-2.052 Inlet5-3.052

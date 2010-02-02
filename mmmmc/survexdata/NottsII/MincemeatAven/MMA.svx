@@ -1,6 +1,6 @@
 ;*equate N03.010a MMA.17
 
-*begin MMA
+*begin MincemeatAven
 *export 17
 ;*equate N03.010a MMA.17
 ; Locn:	Notts II
@@ -38,4 +38,4 @@
 
 
 
-*end MMA
+*end MincemeatAven
