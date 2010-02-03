@@ -1,0 +1,41 @@
+;*equate Inlet13.010a MincemeatAven.17
+
+*begin MincemeatAven
+*export 17
+;*equate N03.010a MMA.17
+; Locn:	Notts II
+*title "Mince Meat Aven"
+*date 2004.05.02 ; discovered ????
+*team PP/RGB
+*instrument Suunto Compass/Clino, RST Tape
+; Calibration:none
+; Ref.:	
+
+
+; ====== stations refindable to link to other surveys: ======
+
+
+;readings grade 5
+;survey ordered from to
+;readings ordered length bearing gradient
+1 0 15.00 000 90    ;Aven rising at least 15m where water enters
+2 1 5.90 060 38    ;1 Top of flowstone above boulder slope
+3 2 5.89 055 48	   
+4 3 1.90 000 90    ;4 Floor
+5 4 2.55 055 12
+6 5 1.66 000 90	   ;6 Floor
+7 6 3.10 066 30    
+8 7 1.86 000 90	   ;8 Floor
+9 8 3.20 066 16	   
+10 9 1.39 000 90   ;10 Floor
+11 10 2.39 110 23  ;11 Lower spit
+11 12 1.30 329 1   ;pimple stal on N wall
+13 12 1.37 000 90  ;13 Floor
+14 13 0.74 072 25  ;14 White nodular nose for vert hang
+15 14 7.91 000 90  ;15 Floor
+16 15 0.95 220 0
+17 16 0.79 000 -90 ;17 v groove in roof arch Ent to I13 sump
+
+
+
+*end MincemeatAven
