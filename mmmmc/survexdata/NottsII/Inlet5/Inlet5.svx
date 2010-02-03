@@ -2,14 +2,14 @@
 
 *begin Inlet5
 
-*export Inlet5-1.001 
-*export Inlet5-1.019
-*export Inlet5-2.033 
-*export Inlet5-2.052
-*export Inlet5-3.052 
-*export Inlet5-3.061
-*export NewExtension.001 
-*export NewExtension.015b
+;*export Inlet5-1.001 
+;*export Inlet5-1.019
+;*export Inlet5-2.033 
+;*export Inlet5-2.052
+;*export Inlet5-3.052 
+;*export Inlet5-3.061
+;*export NewExtension.001 
+;*export NewExtension.015b
 
 *include Inlet5-1
 *include Inlet5-2

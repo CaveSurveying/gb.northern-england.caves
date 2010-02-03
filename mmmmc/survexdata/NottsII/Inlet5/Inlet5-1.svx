@@ -6,7 +6,7 @@
 
 *begin	Inlet5-1
 
-*export	001
+*export 001
 *export 019
 
 ;From	To	Tape	Compass	Clino		L	R	U	D	Comments
