@@ -8,8 +8,10 @@
 *export Mainstreamway3.33
 *export Mainstreamway3.GITag
 *export Mainstreamway3.55	;Tag at Showerbath
+*export Mainstreamway4.030	;Tag for climb up into Showerbath Inlet(Note:Not same as Mainstreamway3.55 Tag at Showerbath which is where the water comes in.
 *export MainStreamway5.011	;Tag near Count Lazlos / Bruno Kranskis
 *export MainStreamway5.019	;Tag at Dome Inlet
+*export Mainstreamway7.0	;Curry Junction
 *export Mainstreamway7.12	;Start of Inlet 5
 *export MainStreamway8.10	;Start of Paaschendale
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag

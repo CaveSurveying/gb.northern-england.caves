@@ -13,6 +13,16 @@
 ;-------------------------------------------------------------------------------------------
 ;Include Statements
 
+<<<<<<< .mine
+*include "CommitteePot/CommitteePot"		;Entrance to Mincemeat Aven
+*include "CurryInlet/CurryInlet"		;Curry Inlet				Added by Richard 02/02/10 Working ok
+*Include "DomeInlet/DomeInlet"			;Dome Inlet 				Added by Richard 02/02/10 Working ok
+*include "Inlet13/Inlet13"			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok
+*include "MincemeatAven/MincemeatAven"		;Up Mincemeat Aven
+*include "GordonsInlet/GordonsInlet"		;Gordons Inlet "flood by-pass"		Added by Richard 02/02/10 Working ok
+*include "GourInlet/GourInlet"			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
+*Include "Inlet5/Inlet5"			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
+=======
 *include "CommitteePot/CommitteePot"	;Entrance to Mincemeat Aven
 
 ; uncomment when DomeInlet added to SVN
@@ -24,29 +34,44 @@
 
 *include "GourInlet/Gourinlet1"
 *Include "Inlet5/Inlet5"		;Inlet5 & extension			Added by Richard 02/02/10 Not Working 
+>>>>>>> .r1400
 *include "Inlet17/Inlet17"
 *include "Inlet18/Inlet18"
-*include "MainStreamway/MainStreamway"	;Notts II Mainstreamway - Downstream Sump to ...
-*include "Paaschendale/Paaschendale"	;Paaschendale
-*include "TrickOrTreat/TrickOrTreat"	;Trick Or Treat
-*include "Poppy/Poppy"			;Poppy Passage
+*include "MainStreamway/MainStreamway"		;Notts II Mainstreamway - Downstream Sump to ...
+*include "Paaschendale/Paaschendale"		;Paaschendale
+*include "TrickOrTreat/TrickOrTreat"		;Trick Or Treat
+*include "Poppy/Poppy"				;Poppy Passage
+*include "ShowerbathInlet/ShowerbathInlet" 	;showerbath Inlet			Added by Richard 02/02/10 Working ok
 *include Inlet7/Inlet7  
-*include CountLazlo/CountLazlo		;added by Becka but needs tidying up and folder name checking or moving to another folder
+*include CountLazlo/CountLazlo			;added by Becka but needs tidying up and folder name checking or moving to another folder
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
 *equate Committeepot.001 Entrance
 *equate Committeepot.019 Inlet13.001
+<<<<<<< .mine
+*equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8
+*equate MainStreamway.MainStreamway5.019 GordonsInlet.1
+*equate MainStreamway.MainStreamway5.019 DomeInlet.000 
+*equate MainStreamway.MainStreamway7.0 CurryInlet.001 
+*equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.001 
+=======
 
 ; uncomment when DomeInlet included
 ;*equate MainStreamway.MainStreamway5.019 DomeInlet.000 
 
 *equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.001 
 
+>>>>>>> .r1400
 *equate Inlet13.010a MincemeatAven.17
+<<<<<<< .mine
+*equate	GourInlet.GourInlet1.001 MainStreamway.Mainstreamway3.GITag
+*equate MainStreamway.MainStreamway5.019 DomeInlet.000 
+=======
 
 *equate	GourInlet1.001	MainStreamway.Mainstreamway3.GITag
+>>>>>>> .r1400
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *equate MainStreamway.Mainstreamway3.33 Inlet13.025
 *equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
