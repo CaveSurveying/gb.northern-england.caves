@@ -13,6 +13,7 @@
 *export MainStreamway5.019	;Tag at Dome Inlet
 *export Mainstreamway7.0	;Curry Junction
 *export Mainstreamway7.12	;Start of Inlet 5
+*export MainStreamway8.8	;Start of Daylight Aven
 *export MainStreamway8.10	;Start of Paaschendale
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag
 

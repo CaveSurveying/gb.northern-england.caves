@@ -6,6 +6,7 @@
 
 *begin	MainStreamway8
 *export 0
+*export 8
 *export 10
 *export 17
 
