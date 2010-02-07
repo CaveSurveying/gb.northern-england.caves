@@ -31,6 +31,7 @@
 *include Inlet7/Inlet7  
 *include CountLazlo/CountLazlo			;added by Becka but needs tidying up and folder name checking or moving to another folder
 *include "DaylightAven/DaylightAven"
+*include "WhiteFlag/Whiteflag"		;White Flag
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
@@ -54,6 +55,7 @@
 *equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
 *equate CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream
 *equate DaylightAven.DaylightAven_1.0 MainStreamway.Mainstreamway8.8
+*equate Whiteflag.1 Paaschendale.Paaschendale1.1
 
 *end NottsII
 

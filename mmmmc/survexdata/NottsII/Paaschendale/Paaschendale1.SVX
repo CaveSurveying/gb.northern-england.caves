@@ -5,6 +5,7 @@
 *begin	Paaschendale1
 
 *export 0
+*export 1
 *export 14
 
 ;title "Notts2 Passchendale Survey 1"
