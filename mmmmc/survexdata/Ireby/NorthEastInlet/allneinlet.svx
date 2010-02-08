@@ -8,9 +8,11 @@
 *include neinlet2
 *include neinlet3
 *include neinlet4
+*include neinlet5
 
 *equate neinlet1.40 neinlet2.40x
 *equate neinlet2.55 neinlet3.55x
 *equate neinlet3.100 neinlet4.100x
+*equate neinlet4.123 neinlet5.123x
 
 *end northeastinlet
