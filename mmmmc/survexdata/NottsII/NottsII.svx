@@ -18,7 +18,7 @@
 *Include "DomeInlet/DomeInlet"			;Dome Inlet 				Added by Richard 02/02/10 Working ok
 *include "Inlet13/Inlet13"			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok
 *include "MincemeatAven/MincemeatAven"		;Up Mincemeat Aven
-;*include "GordonsInlet/GordonsInlet"		;Gordons Inlet "flood by-pass"		Added by Richard 02/02/10 Working ok
+*include "GordonsInlet/GordonsInlet"		;Gordons Inlet "flood by-pass"		Added by Richard 02/02/10 Working ok
 *include "GourInlet/GourInlet"			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
 *Include "Inlet5/Inlet5"			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
 *include "Inlet17/Inlet17"
@@ -39,7 +39,7 @@
 *equate Committeepot.001 Entrance
 *equate Committeepot.019 Inlet13.001
 *equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8
-;*equate MainStreamway.MainStreamway5.019 GordonsInlet.1
+*equate MainStreamway.MainStreamway5.019 GordonsInlet.1
 *equate MainStreamway.MainStreamway5.019 DomeInlet.000 
 *equate MainStreamway.MainStreamway7.0 CurryInlet.001 
 *equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.001 
