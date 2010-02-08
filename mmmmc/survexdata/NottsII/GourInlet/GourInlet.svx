@@ -3,8 +3,8 @@
 
 *export GourInlet1.001
 
-*Include GourInlet1
-*Include PU
+*include Gourinlet1
+*include PU
 
 ;---------------------------------------------------
 *equate PU.016 Gourinlet1.210
