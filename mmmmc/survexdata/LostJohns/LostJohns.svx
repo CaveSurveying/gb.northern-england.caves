@@ -79,19 +79,18 @@
 *equate	box1.001	box.007
 *equate	box1.027	box2.009
 *equate	box1.014	box3.001
-*equate	box1.021	box5.014a
 *include Box1
 
 *equate	box2.009	box1.027
 *include Box2
 
-*equate	box3.001	box1.014
+*equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
 *equate	box3.072j	Lj08.030	
 *include Box3
 
 ;*include Box4.svx   ; no connection for this survey of Lyle Cavern
 
-*equate	box5.014a	box1.021
+*equate	box5.014a	box1.021	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 - Becka 8.01.10
 *include Box5
 
 *equate	box.007	box1.001
@@ -102,3 +101,5 @@
 *equate Box3.067c luccaven.7a
 
 *end	LostJohns
+
+
