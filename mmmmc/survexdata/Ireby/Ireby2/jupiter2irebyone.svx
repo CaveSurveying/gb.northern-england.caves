@@ -4,7 +4,7 @@
 
 *begin jupiter2irebyone
 
-*export 1 31 34 42 43 46 50
+*export 1 21 31 34 42 43 46 50
 
 *title "Jupiter to Ireby I"
 *date 2008.05.03
@@ -87,9 +87,9 @@
 16	0	1.2	-	0.5	; rp
 17	1	0	-	2.4	; rp
 18	-	-	-	-	; 18 is top spit at top of pitch
-19	-	-	-	-	; 19 unmarked plumb
-20	0.1	0.5	-	2	; rp probably numbered, high at corner down from swinging rock
-21	0.5	-	-	2.5	; rp
+19	-	-	-	-	; 19 unmarked plumb ; 22.02.10 - Becka - I think this is the description for 20
+20	0.1	0.5	-	2	; rp probably numbered, high at corner down from swinging rock ; 22.02.10 - Becka - I think this is the description for 21 - and the station was numbered 21 in the cave
+21	0.5	-	-	2.5	; rp ; ; 22.02.10 - Becka - see above - I think this is the numbered station at corner beyond the swinging rock
 22	0.4	0	2	0.5	; rp	
 23	0	0.5	4	1.5	; rp
 24	0.8	0	-	0.5	; rp
