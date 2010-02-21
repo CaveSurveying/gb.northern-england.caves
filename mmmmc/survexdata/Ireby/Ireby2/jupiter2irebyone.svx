@@ -66,6 +66,8 @@
 49	48	11.47	312	-4	; --
 49	50	5.93	122	+8	; --
 
+100	30	6.49	165	-28	; added on 20.02.10 trip Becka and Patrick, single leg to boulder choke
+
 *data passage station left right up down
 
 ; station 1 is station 34 from previous
@@ -119,6 +121,8 @@
 48	0.4	1.2	0.4	0	; unmarked
 49	0.5	1	0.4	0.2	; unmarked
 50	-	-	-	-	; 50 diving line anchor bolt at Ireby I end.
+
+100	0.5	0.5	0.2	0.5	; start of boulder choke
 
 *end jupiter2irebyone
 
