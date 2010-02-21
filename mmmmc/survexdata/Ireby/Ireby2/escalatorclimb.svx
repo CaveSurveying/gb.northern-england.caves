@@ -39,8 +39,8 @@
 
 20	19	1.58	155	+10
 21	20	6.34	-	down	; tape written as 6.64 but, see 21 to 21x leg, since not quite vertical I have removed 0.30m from this leg
-21	21x	0.50	000	00	; bodge since plumb wasn't quite vertical so I've added a leg of 0.5m north 
-22	21x	3.02	179	-05
+21	21z	0.50	000	00	; bodge since plumb wasn't quite vertical so I've added a leg of 0.5m north 
+22	21z	3.02	179	-05
 23	22	2.34	260	-53
 24	23	4.30	031	-47
 25	24	1.23	-	down
