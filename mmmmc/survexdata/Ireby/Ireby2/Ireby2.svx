@@ -38,5 +38,6 @@
 *equate canal.19 dukest2tocanal.25
 *equate jupitertoescalator.37 milkandhoney.37x
 *equate jupiter2irebyone.21 escalatorclimb.21x
+*equate jupitertoescalator.44 escalatorclimb.44x
 
 *end Ireby2
