@@ -17,6 +17,7 @@
 *include dukest2tocanal			;Duke Street II along canal past Whirlpool to small junction
 *include triplecreekaven		;up bold climb at end of Triple Creek
 *include canal				;from junction in canal beyond where Whirlpool enters up to diver's line at sump to Notts
+*include milkandhoney			;from Jupiter Cavern to end of Milk and Honey
 
 ;Equate Ireby2 Files
 
@@ -30,8 +31,10 @@
 *equate jupiter2irebyone.42 dukest2tidyup.42
 *equate jupiter2irebyone.46 dukest2tidyup.22
 *equate jupiter2irebyone.43 dukest2tocanal.43
+
 *equate triplecreekaven.97 blissfulcreek.97
 *equate canal.8 dukest2tocanal.22
 *equate canal.19 dukest2tocanal.25
+*equate jupitertoescalator.37 milkandhoney.37x
 
 *end Ireby2

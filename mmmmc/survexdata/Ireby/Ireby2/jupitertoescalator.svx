@@ -4,7 +4,7 @@
 
 *begin jupitertoescalator
 
-*export 33 34 44 62 63
+*export 33 34 37 44 62 63
 
 *title "Jupiter Cavern & Escalator Rift"
 *date 2008.04.14
@@ -55,7 +55,7 @@
 34	-	-	-	-	numbered rp ceiling above crawl to pitches down to sump to Ireby I
 35	-	-	-	-	rp far wall by hole in floor
 36	4	10	3	1.8	****down unclear in notes; up looks very wrong - should it be 30?*** rp wall top of slope near where Phil's aven climb started
-37	3	1	6	1.6	****down unclear in notes; L seems wrong - maybe estimated by Neil in middle of chamber?*** rp l wall end Jupiter cavern, start of Escalator
+37	3	1	6	1.6	****down unclear in notes; L seems wrong - maybe estimated by Neil in middle of chamber?*** rp l wall end Jupiter cavern, start of Escalator - NUMBERED
 38	0	1.1	3.5	1.7	****down unclear in notes*** rp l wall
 39	0	0.5	2.5	1.5	rp r wall
 40	1.3	0	2	1	
