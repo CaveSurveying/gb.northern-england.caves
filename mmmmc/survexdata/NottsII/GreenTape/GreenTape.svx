@@ -1,0 +1,16 @@
+*begin GreenTape
+
+*export GreenTape1.030
+
+*include GreenTape1
+
+;*Include GreenTape2
+
+;*Include GreenTape3
+;---------------------------------------------------
+
+;*equate GreenTape GreenTape
+;*equate GreenTape GreenTape
+
+
+*end GreenTape

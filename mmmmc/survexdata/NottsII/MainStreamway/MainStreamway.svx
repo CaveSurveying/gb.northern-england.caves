@@ -4,6 +4,7 @@
 *begin MainStreamway
 
 *export Mainstreamway1.3
+*export Mainstreamway2.1
 *export Mainstreamway2.12
 *export Mainstreamway3.33
 *export Mainstreamway3.GITag
