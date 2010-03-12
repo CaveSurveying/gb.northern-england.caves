@@ -20,6 +20,7 @@
 *include Inlet7-9.svx
 *include inlet7-10.svx
 *include inlet7-11.svx
+*include inlet7-12.svx
 
 *equate Inlet7-1.012	Inlet7-2.012
 *equate	Inlet7-2.016	Inlet7-3.001
@@ -31,6 +32,6 @@
 *equate Inlet7-8.012	Inlet7-9.004
 *equate Inlet7-6.022	Inlet7-10.001
 *equate Inlet7-11.010	Inlet7-10.007
-
+*equate Inlet7-12.101	Inlet7-11.006
 
 *end inlet7

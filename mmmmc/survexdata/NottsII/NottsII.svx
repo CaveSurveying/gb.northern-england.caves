@@ -20,7 +20,7 @@
 *include "MincemeatAven/MincemeatAven"		;Up Mincemeat Aven
 *include "GordonsInlet/GordonsInlet"		;Gordons Inlet "flood by-pass"		Added by Richard 02/02/10 Working ok
 *include "GourInlet/GourInlet"			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
-*include "Greentape/GreenTape"			;Green Tape Inlet			Added by Richard 12/03/10 
+;*include "Greentape/GreenTape1			;Green Tape Inlet			Added by Richard 12/03/10 Working ok
 *Include "Inlet5/Inlet5"			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
 *include "Inlet17/Inlet17"
 *include "Inlet18/Inlet18"
@@ -46,7 +46,7 @@
 *equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.001 
 *equate MainStreamway.MainStreamway5.019 DomeInlet.000 
 *equate Inlet13.010a MincemeatAven.17
-*equate Mainstreamway.Mainstreamway2.1 GreenTape.GreenTape1.030
+;*equate Mainstreamway.Mainstreamway2.1 Greentape.Greentape1.030
 *equate	GourInlet.GourInlet1.001 MainStreamway.Mainstreamway3.GITag
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *equate MainStreamway.Mainstreamway3.33 Inlet13.025
