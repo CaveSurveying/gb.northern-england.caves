@@ -4,13 +4,21 @@
 
 *include GreenTape1
 
-;*Include GreenTape2
+*Include GreenTape2
 
-;*Include GreenTape3
+*Include GreenTape3
+
+*Include GreenTape4
+
+*Include GreenTape5
+
+*Include GreenTape6
 ;---------------------------------------------------
 
-;*equate GreenTape GreenTape
-;*equate GreenTape GreenTape
-
+*equate	GreenTape2.000	GreenTape1.016
+*equate	GreenTape3.016	GreenTape1.016
+*equate	GreenTape4.007	GreenTape3.011
+*equate	GreenTape5.000	GreenTape4.000
+*equate	GreenTape6.010	GreenTape5.014
 
 *end GreenTape
