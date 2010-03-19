@@ -3,11 +3,11 @@
 ;Date:	13/11/05
 ;Instruments:	New kit 2
 
-;*equate	OL4.101	OL3.306
+;*equate	Inlet7-12.101	Inlet7-11.006
 
 
 *begin	Inlet7-12
-*export 101 
+*export 101 103
 
 102	101	2.00	230	 0
 102	103	6.30	-	UP	;103 is Yhang at incredibles down pitch
