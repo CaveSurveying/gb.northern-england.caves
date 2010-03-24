@@ -4,6 +4,7 @@
 ;Instruments:	3
 
 ;*equate BoltonExtentions.014	Streamway4.020
+;*equate BoltonExtentions.014	dukestreet.ropepitch.46
 
 *begin	BoltonExtentions
 

@@ -7,6 +7,7 @@
 *export ropepitch.101
 *export ropepitch.106
 *export ropepitch.49
+*export ropepitch.46 ; thought to be start of BoltonExtensions.014
 *export whirlpool.41
 *export ropepitch.63 ; P-hanger on boulder shelf above rope pitch
 *export ropepitchredonumbers.1 ; single phanger at streamway level before yhang for initial drop before well pitch

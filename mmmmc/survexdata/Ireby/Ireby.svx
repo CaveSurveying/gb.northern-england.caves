@@ -78,10 +78,11 @@
 *equate DukeStreet.ropepitchredonumbers.4 allabovewellpitch.abovewellpitch2.8	; cow tag at end of Aberfan
 
 ;Equate BoltonExtentions
-*equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
+;*equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
+*equate BoltonExtentions.014 DukeStreet.RopePitch.46 		;Start of Bolton Extentions
 
 ;Equate DukeStreet
-*equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
+;*equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
 *equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.25
 
 ;Equate NEInlet (which connects up to Adulterers) to lower streamway

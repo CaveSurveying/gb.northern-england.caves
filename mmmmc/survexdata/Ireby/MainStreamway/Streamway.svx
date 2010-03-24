@@ -4,35 +4,33 @@
 
 *export Streamway1.022
 *export Streamway1.027
-*export Streamway3.024
-*export Streamway4.001
-*export Streamway4.020
-*export Streamway4.059
 *export streamwayuptoduckresurvey.1
 ;*export streamwayuptoduckresurvey.16
 ;*export streamwayuptoduckresurvey.37
 
-*export Streamway4.021a ; connection on between the Duffy data and Becka's dodgy pony data
+;*export Streamway4.021a ; connection on between the Duffy data and Becka's dodgy pony data
 
 *Include Streamway1
-*Include Streamway2
-*Include Streamway3
-*Include Streamway4
 *Include streamwayuptoduckresurvey
 *Include streamwayupstreamofduckresurvey
 
-*equate	Streamway1.067 Streamway2.001
-
-*equate	Streamway2.031 Streamway3.001
-
-*equate	Streamway2.031 streamwayuptoduckresurvey.37
 
 *equate	streamwayuptoduckresurvey.37 streamwayupstreamofduckresurvey.37x
 
+*end Streamway
+
+; old Duffy data for streamway that can be deleted later
+;*export Streamway3.024
+;*export Streamway4.001
+;*export Streamway4.020
+;*export Streamway4.059
+;*Include Streamway2
+;*Include Streamway3
+;*Include Streamway4
+;*equate	Streamway1.067 Streamway2.001
+;*equate	Streamway2.031 Streamway3.001
+;*equate	Streamway2.031 streamwayuptoduckresurvey.37
 ; disconnected so we know how to connect up the well pitch disaster
 ; *equate	Streamway3.015 streamwayuptoduckresurvey.16
-
 ; disconnected so we know how to connect up the well pitch disaster
 ; *equate	Streamway3.024 Streamway4.001
-
-*end Streamway
