@@ -5,13 +5,11 @@
 ;Date:	?(1999)
 ;Instruments:	1
 
-;*equate	
-
 *begin	If03
 
-*calibrate compass	+6.50
+*export 011
 
-;*fix	001	
+*calibrate compass	+6.50
 
 000	000a	08.00	090.0	+08.0	;st000a to squeeze
 

@@ -10,11 +10,15 @@
 *include neinlet4
 *include neinlet5
 *include neinlet6
+;*include If03
 
 *equate neinlet1.40 neinlet2.40x
 *equate neinlet2.55 neinlet3.55x
 *equate neinlet3.100 neinlet4.100x
 *equate neinlet4.123 neinlet5.123x
 *equate neinlet3.102 neinlet6.102x
+;*equate neinlet6.6 If03.011
 
 *end northeastinlet
+
+; If03 data duplicates and predates neinlet6 data so commented out
