@@ -8,17 +8,18 @@
 
 ;Include Ireby2 Files
 
-*include jupitertoescalator		;Jupiter Cavern & start of Escalator Rift - Ireby II
-*include jupiter2irebyone		;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
-*include blissfulcreek			;Escalator Rift - Blissful Creek - Triple Creek
-*include lickthepony			;Triple Creek - Uranus crawl
-*include lickthepony2			;Uranus crawl - upstream Escalator
-*include dukest2tidyup			;four extra bits onto jupiter2irebyone survey
-*include dukest2tocanal			;Duke Street II along canal past Whirlpool to small junction
-*include triplecreekaven		;up bold climb at end of Triple Creek
-*include canal				;from junction in canal beyond where Whirlpool enters up to diver's line at sump to Notts
-*include milkandhoney			;from Jupiter Cavern to end of Milk and Honey
+*include jupitertoescalator	;Jupiter Cavern & start of Escalator Rift - Ireby II
+*include jupiter2irebyone	;Jupiter Cavern - Escalator Rift - Duke Street II - Ireby I
+*include blissfulcreek		;Escalator Rift - Blissful Creek - Triple Creek
+*include lickthepony		;Triple Creek - Uranus crawl
+*include lickthepony2		;Uranus crawl - upstream Escalator
+*include dukest2tidyup		;four extra bits onto jupiter2irebyone survey
+*include dukest2tocanal		;Duke Street II along canal past Whirlpool to small junction
+*include triplecreekaven	;up bold climb at end of Triple Creek
+*include canal			;from junction in canal beyond where Whirlpool enters up to diver's line at sump to Notts
+*include milkandhoney		;from Jupiter Cavern to end of Milk and Honey
 *include escalatorclimb		;from rope at base of Escalator Rift pitches up stream then up climbs and ending at ladder out of Escalator Rift by Jupiter Cavern
+*include frink1			;from chamber before pitch into Frink Chamber to chamber and along passage to right
 
 ;Equate Ireby2 Files
 
@@ -39,5 +40,6 @@
 *equate jupitertoescalator.37 milkandhoney.37x
 *equate jupiter2irebyone.21 escalatorclimb.21x
 *equate jupitertoescalator.44 escalatorclimb.44x
+*equate jupiter2irebyone.4 frink1.4x
 
 *end Ireby2

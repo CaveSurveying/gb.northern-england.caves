@@ -4,7 +4,7 @@
 
 *begin jupiter2irebyone
 
-*export 1 21 31 34 42 43 46 50
+*export 1 4 21 31 34 42 43 46 50
 
 *title "Jupiter to Ireby I"
 *date 2008.05.03
@@ -74,7 +74,7 @@
 1	1	1	0	0.7	; station 1 is station 34 from previous
 2	0.7	1	0.4	0	; rp (red paint)
 3	0	2	0.4	1.2	; rp
-4	3	3.5	-	1.5	; red paint number marked
+4	3	3.5	-	1.5	; red paint number marked in chamber above Jupiter and before Escalator pitches
 5	2	0	5	0.7	; red paint number marked
 6	0	0.7	0.4	0.1	; rp
 7	-	-	-	-	; 7 unrecorded
