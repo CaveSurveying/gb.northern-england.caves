@@ -4,7 +4,7 @@
 
 *begin neinlet6
 
-*export 102x 6
+*export 102x 6 10 35
 
 *title "North East Inlet 6"
 *date 2010.03.27
