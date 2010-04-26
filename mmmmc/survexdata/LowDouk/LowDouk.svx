@@ -10,6 +10,7 @@
 *include LowDouk3
 *include LowDouk4
 *include LowDouk5
+*include LowDouk6
 *include LowDoukStreamway
 *include LowDoukToSump
 *include LowDoukLeftAtSteps
@@ -21,6 +22,7 @@
 *equate Lowdouk1.014 LowDoukStreamway.1
 *equate Lowdouk4.1 LowDoukStreamway.1
 *equate Lowdouk5.1 LowDouk2.010
+*equate lowdouk6.20 lowdouk1.s01
 *equate LowDoukStreamway.67 lowdouktosump.67x
 *equate LowDoukStreamway.67 lowdoukleftatsteps.67x
 *equate lowdouktosump.13 lowdoukleftatsteps.13x
