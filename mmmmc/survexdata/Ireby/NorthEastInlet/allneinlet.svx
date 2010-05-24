@@ -3,6 +3,7 @@
 *export neinlet1.12x
 *export neinlet1.49x
 *export neinlet1.4
+*export boltclimb.1
 
 *include neinlet1
 *include neinlet2
@@ -12,6 +13,7 @@
 *include neinlet6
 *include neinlet7
 *include neinlet8
+*include boltclimb
 
 *equate neinlet1.40 neinlet2.40x
 *equate neinlet2.55 neinlet3.55x
@@ -20,6 +22,7 @@
 *equate neinlet3.102 neinlet6.102x
 *equate neinlet6.35 neinlet7.35x
 *equate neinlet6.10 neinlet8.10x
+*equate neinlet1.49x boltclimb.49x
 
 *end northeastinlet
 
