@@ -16,8 +16,8 @@
 
 ;from	to	tape	compass	clino	remarks
 
-44	1	7.95	229	-04	; Julian only on comp clino
-1	2	4.90	180	0	; 084	+01
+; 44	1	7.95	229	-04	; Julian only on comp clino - this leg removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
+; 1	2	4.90	180	0	; 084	+01 - this leg removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
 44  3   2.40    084 +01 ; 273   -03 Becka fixing things up a week later 
 3	4	5.59	104	-04	; 292	+02
 4	5	2.71	105	+12	; 289	-12
@@ -38,8 +38,8 @@
 ; ALL LR GIVEN COMING OUT OF CAVE (so in the direction most of the survey went, starting at Duke St 1 and coming out_ 
 
 44	1.4	0	0.4	0.6	station 44 from ropepitch Becka & Julian survey
-1	0.5	2.5	0.2	0.1	rock in stream
-2	0.5	2	0.2	0.1	rock l of stream
+; 1	0.5	2.5	0.2	0.1	rock in stream - this station removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
+; 2	0.5	2	0.2	0.1	rock l of stream  - this station removed as duplicated in southeastinlet survex file from 23/05/10 - Becka
 3	0.3	0.6	0.3	0.8	l wall, inlet
 4	0	0.6	0.7	0.3	l wall
 5	0.1	0.4	0.3	0.8	l wall
