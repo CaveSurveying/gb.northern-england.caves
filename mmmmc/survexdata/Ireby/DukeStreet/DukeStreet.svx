@@ -23,6 +23,8 @@
 *Include eastinletresurvey
 *Include ropepitchredonumbers
 *Include southeastinlet
+*Include southeastinlet2
+*Include southeastinlet3
 
 *equate DukeStreet1.073 dukest1resurvey2009.1	;connect sump end of second survey of Duke St 1 in 2009 to ray's original survey
 *equate DukeStreet1.059 dukest1resurvey2009.21	;connect upstream end of second survey of Duke St 1 in 2009 to ray's original survey
@@ -35,6 +37,8 @@
 *equate ropepitch.49 ropepitchredonumbers.26	; connect these two surveys at top of boulder slope in chamber
 *equate ropepitch.63 ropepitchredonumbers.14	; connect these two surveys at phanger inbetween Adulterers traverse and dry pitch bypass to Rope pitch
 *equate ropepitch.43 southeastinlet.43x
+*equate southeastinlet.22 southeastinlet2.22x
+*equate southeastinlet2.40 southeastinlet3.40x
 
 ; *equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
 ; *equate Whirlpool1.001 DukeStreet1.069	;Start of Whirlpool off Duke Street

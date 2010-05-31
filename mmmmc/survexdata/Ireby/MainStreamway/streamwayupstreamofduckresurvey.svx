@@ -4,7 +4,7 @@
 
 *begin streamwayupstreamofduckresurvey
 
-*export 37x 58
+*export 37x 59
 
 *title "Ireby - Main Streamway starting at starting at 37x just upstream of the duck and continuing until a bit before the first crawling section"
 *date 2010.01.01

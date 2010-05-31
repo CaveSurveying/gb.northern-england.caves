@@ -3,7 +3,7 @@
 ; Rift Pot - Unadulterated Pleasure - NCC 1997 Ext - Near Junction with Slipstream
 
 *begin RiftPotTOD1
-*export 2 65 67 72
+*export 65 67 72
 
 *title "Rift Pot - Unadulterated Pleasure"
 *date 2009.10.03
@@ -15,12 +15,12 @@
 
 ;from	to	tape	compass	clino	remarks
 
-2	dig	0.87	284	-3	;DistoX leg into dig
-2	3	1.64	120	2	;LH Side of Rock Bridge
-4	3	0.58	047	-1
-4	5	3.15	129	-10
-5	6	1.92	100	13
-6	7	3.57	157	0	
+;2	dig	0.87	284	-3	;DistoX leg into dig
+;2	3	1.64	120	2	;LH Side of Rock Bridge
+;4	3	0.58	047	-1
+;4	5	3.15	129	-10
+;5	6	1.92	100	13
+;6	7	3.57	157	0	
 7	8	0.96	087	11	;Climb up Rift
 8	9	2.00	186	39
 9	10	2.36	139.5	30	;Top of Rift Climb RH Side
@@ -89,10 +89,10 @@
 
 *data passage station left right up down  ignoreall
 
-3	0	0.4	0.1	0.3
-4	0	0.4	0.3	0.6
-5	0.4	0.1	0.2	0.6
-6	0.3	0.6	0.5	0
+;3	0	0.4	0.1	0.3	redid this leg when surveyed Ireby/Rift connection
+;4	0	0.4	0.3	0.6	redid this leg when surveyed Ireby/Rift connection
+;5	0.4	0.1	0.2	0.6	redid this leg when surveyed Ireby/Rift connection
+;6	0.3	0.6	0.5	0	redid this leg when surveyed Ireby/Rift connection
 7	0.1	0.4	0.1	0.5
 8	0.2	0.4	2.5	0.6
 9	1.1	0	1.8	2

@@ -4,18 +4,21 @@
 
 *export Streamway1.022
 *export Streamway1.027
+
 *export streamwayuptoduckresurvey.1
-;*export streamwayuptoduckresurvey.16
-;*export streamwayuptoduckresurvey.37
+*export streamwayuptoduckresurvey.16
+*export streamwayuptoduckresurvey.37
+*export streamwaybubblestagdownstream.tag
 
 ;*export Streamway4.021a ; connection on between the Duffy data and Becka's dodgy pony data
 
 *Include Streamway1
 *Include streamwayuptoduckresurvey
 *Include streamwayupstreamofduckresurvey
-
+*Include streamwaybubblestagdownstream
 
 *equate	streamwayuptoduckresurvey.37 streamwayupstreamofduckresurvey.37x
+*equate streamwayupstreamofduckresurvey.59 streamwaybubblestagdownstream.p59
 
 *end Streamway
 

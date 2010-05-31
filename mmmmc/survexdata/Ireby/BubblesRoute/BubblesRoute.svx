@@ -9,7 +9,7 @@
 
 *begin	Bubbles
 *export 001
-*export 215
+*export 215         ; tag
 *export 007
 
 *calibrate compass	+5.00

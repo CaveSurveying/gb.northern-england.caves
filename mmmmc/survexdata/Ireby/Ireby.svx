@@ -54,8 +54,11 @@
 
 ;Equate Bubbles Route
 *equate Bubbles.001 DingDongBellPitches.001			;Start of Bubbles Route
-*equate Bubbles.215 Streamway.Streamway1.027 			;Bubbles Route Joins Streamway
-	
+;*equate Bubbles.215 Streamway.Streamway1.027 			;Bubbles Route Joins Streamway
+
+; Equate top of upper streamway to RRCPC cow tag just upstream of where Bubbles enters streamway
+*equate Streamway.streamwaybubblestagdownstream.tag   Bubbles.215  
+
 ;Equate Glory Holes and True Grit to Cripple Creek
 *equate GloryHoles.GloryHoles2.1 CrippleCreek.GloryHoles1.005	;Where True Grit off from Glory Holes / Cripple Creek
 
