@@ -32,17 +32,17 @@
 *data passage station left right up down ignoreall
 
 40x	-	-	-	-	numbered before dig begins
-7x	0	0.5	-	0.4	cannot read up
+7x	0	0.5	-	0.4	cannot read up, old station from RiftToD1 survey trip
 1	0.5	0.1	0.2	0.5
 2	0.7	0	1	0.2
 3	0	0.5	0.7	0.2
 4	0.5	0.1	0.6	0.4
-5	0.5	0.3	0.3	0
-6	0.4	0.3	0.3	0
+5	0.5	0.3	0.3	0	start of dig, at left corner
+6	0.4	0.3	0.3	0	on connection trip, started digging from Rift just beyond 6 I think
 7	0.4	0.3	0.3	0
 8	0.3	0.3	0.2	0.1
-9	0.3	0.3	0.3	0
-10	0.5	0.2	0	0.4
+9	0.3	0.3	0.3	0	
+10	0.5	0.2	0	0.4	on connection trip, started digging about 1metre beyond 10 I think	
 11	0.6	0.3	0	0.5	
 
 *end southeastinlet3
