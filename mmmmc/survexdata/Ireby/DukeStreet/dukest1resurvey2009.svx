@@ -4,7 +4,7 @@
 
 *begin dukest1resurvey2009
 
-*export 1 6 21
+*export 1 6 15 21
 
 *title "Duke St 1 Resurvey 2009"
 *date 2009.06.13
@@ -58,7 +58,7 @@
 12	-	-	-	-
 13	2.4	5	0.3	0.9
 14	1	5	1.5	1
-15	4	0.2	1	1
+15	4	0.2	1	1	; scratched number on spiky rock
 
 15	4	2	1	1
 16	2.5	1.5	1.5	0.5
