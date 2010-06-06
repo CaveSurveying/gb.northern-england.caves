@@ -16,7 +16,10 @@
 *begin Ireby
 
 *export EntranceTag
+*export SoutheastInletConnection
+
 *equate EntranceTag Streamway.DingDongBellPitches.001
+*equate SoutheastInletConnection dukestreet.southeastinlet3.7x
 
 ;Include Main Streamway Files
 *include "MainStreamway/Streamway"			;Main Streamway (including entrance, DingDongBell abd Bubbles)

@@ -11,9 +11,10 @@
 
 *begin RiftPot
 *export EntranceTag
+*export SoutheastInletConnection
 
 ;Include Temple Of Doom Extensions
-			
+
 *include "RiftPotTOD1"
 *include "RiftPotTOD2"
 *include "RiftPotTOD3"
@@ -38,5 +39,6 @@
 *equate RiftPotTOD7.208 RiftPotEntrance.208
 *equate RiftPotEntrance.246 EntranceTag
 
- 
+*equate RiftPotTOD1.7 SoutheastInletConnection
+
 *end RiftPot

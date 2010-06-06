@@ -4,6 +4,8 @@
 
 *begin RiftPotTOD1
 *export 65 67 72
+*export 7 ; RiftIrebyConnection
+
 
 *title "Rift Pot - Unadulterated Pleasure"
 *date 2009.10.03
@@ -15,12 +17,6 @@
 
 ;from	to	tape	compass	clino	remarks
 
-;2	dig	0.87	284	-3	;DistoX leg into dig
-;2	3	1.64	120	2	;LH Side of Rock Bridge
-;4	3	0.58	047	-1
-;4	5	3.15	129	-10
-;5	6	1.92	100	13
-;6	7	3.57	157	0	
 7	8	0.96	087	11	;Climb up Rift
 8	9	2.00	186	39
 9	10	2.36	139.5	30	;Top of Rift Climb RH Side
@@ -33,7 +29,7 @@
 16	17	0.69	071	19
 17	18	2.40	152	8
 18	19	2.09	169	7.5	;Start of Dig
-19	20	1.19	113	7.5	 
+19	20	1.19	113	7.5
 20	21	3.70	185	2
 21	22	5.39	132	14.5
 22	23	2.66	184	4
@@ -87,12 +83,22 @@
 70	71	6.90	054	-2
 71	72	7.24	144	-6
 
+; original over-run data
+*flags duplicate
+2	dig	0.87	284	-3	;DistoX leg into dig
+2	3	1.64	120	2	;LH Side of Rock Bridge
+4	3	0.58	047	-1
+4	5	3.15	129	-10
+5	6	1.92	100	13
+6	7	3.57	157	0
+
 *data passage station left right up down  ignoreall
 
-;3	0	0.4	0.1	0.3	redid this leg when surveyed Ireby/Rift connection
-;4	0	0.4	0.3	0.6	redid this leg when surveyed Ireby/Rift connection
-;5	0.4	0.1	0.2	0.6	redid this leg when surveyed Ireby/Rift connection
-;6	0.3	0.6	0.5	0	redid this leg when surveyed Ireby/Rift connection
+3	0	0.4	0.1	0.3	redid this leg when surveyed Ireby/Rift connection
+4	0	0.4	0.3	0.6	redid this leg when surveyed Ireby/Rift connection
+5	0.4	0.1	0.2	0.6	redid this leg when surveyed Ireby/Rift connection
+6	0.3	0.6	0.5	0	redid this leg when surveyed Ireby/Rift connection
+
 7	0.1	0.4	0.1	0.5
 8	0.2	0.4	2.5	0.6
 9	1.1	0	1.8	2

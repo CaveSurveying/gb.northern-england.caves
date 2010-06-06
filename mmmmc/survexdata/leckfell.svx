@@ -74,5 +74,7 @@
 *include RiftPot/RiftPot
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
 
+*equate RiftPot.SoutheastInletConnection Ireby.SoutheastInletConnection
+
 *end leckfell
 
