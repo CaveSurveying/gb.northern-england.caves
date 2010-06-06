@@ -30,6 +30,7 @@
 7	8	2.11	176	-46
 
 ; legs 9 to 19 replicate the dukest2canal survey 
+*flags duplicate
 
 9	8	4.47	288	-16	
 9	10	2.97	152	-14	
