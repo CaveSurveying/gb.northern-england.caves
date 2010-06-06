@@ -26,6 +26,7 @@
 *Include southeastinlet2
 *Include southeastinlet3
 *Include dukestsidepassage
+*Include boltonextentions
 
 *equate DukeStreet1.073 dukest1resurvey2009.1	;connect sump end of second survey of Duke St 1 in 2009 to ray's original survey
 *equate DukeStreet1.059 dukest1resurvey2009.21	;connect upstream end of second survey of Duke St 1 in 2009 to ray's original survey
@@ -42,6 +43,9 @@
 *equate southeastinlet2.40 southeastinlet3.40x
 *equate ropepitch.4 dukestsidepassage.C
 *equate dukest1resurvey2009.15 dukestsidepassage.15x
+
+*equate BoltonExtentions.014 RopePitch.46 		;Start of Bolton Extentions
+
 
 ; *equate DukeStreet1.059 DukeStreetDigs.005	;Duke Street Digs off Duke Street
 ; *equate Whirlpool1.001 DukeStreet1.069	;Start of Whirlpool off Duke Street

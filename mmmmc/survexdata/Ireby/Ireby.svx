@@ -36,9 +36,6 @@
 ;Include Ireby 2 Files
 *include "Ireby2/Ireby2"				;Ireby 2 (Jupiter Cavern to sumps)
 
-;Include Bolton Extentions File
-*include "BoltonExtentions/BoltonExtentions"		;Bolton Extentions
-
 ;Include WellPitchInlets
 *include "WellPitchInlets/AllAboveWellPitch" 		;Aberfan/Cornflake/Adulturers/Adulturers Bypass
 
@@ -77,10 +74,6 @@
 *equate allabovewellpitch.abovewellpitch.33 DukeStreet.ropepitch.106	; hopefully the RH phanger by cow tag for dry alternative to Well pitch
 *equate DukeStreet.ropepitchredonumbers.1 Streamway.streamwayuptoduckresurvey.1	; p hanger before start of Well pitch
 *equate DukeStreet.ropepitchredonumbers.4 allabovewellpitch.abovewellpitch2.8	; cow tag at end of Aberfan
-
-;Equate BoltonExtentions
-;*equate BoltonExtentions.014 StreamWay.Streamway4.020 		;Start of Bolton Extentions
-*equate BoltonExtentions.014 DukeStreet.RopePitch.46 		;Start of Bolton Extentions
 
 ;Equate DukeStreet
 ;*equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
