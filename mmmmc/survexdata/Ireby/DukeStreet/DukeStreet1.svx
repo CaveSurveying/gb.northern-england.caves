@@ -9,6 +9,8 @@
 
 *export 059 069 073
 
+*flags duplicate	; this data left in to help tie in the resurvey data with dodgy pony but removed from calculation of the length of Ireby using this line
+
 *calibrate compass	+6.0
 
 059	060	30.00	300.0	-01.0

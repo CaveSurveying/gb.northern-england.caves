@@ -6,6 +6,8 @@
 
 *export 1 4 14 24 26 30 72 73
 
+*flags duplicate	; this data left as a check on the ropepitch numbers but removed from calculation of the length of Ireby using this line
+
 *title "Rope Pitch Redo Numbers"
 *date 2010.01.10
 *team Insts Becka Lawson

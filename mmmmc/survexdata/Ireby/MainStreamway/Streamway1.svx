@@ -12,6 +12,8 @@
 *export 067
 *export 027
 
+*flags duplicate	; this data used until resurvey completed but don't want to include in final length
+
 022	023	07.49	212.0	-22.0	;st023=tag on lip of roof start of crawl
 023	024	01.35	192.0	-09.0
 024	025	02.91	139.0	 00.0
