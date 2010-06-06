@@ -10,35 +10,15 @@
 ;All Rift Pot files
 
 *begin RiftPot
+
 *export EntranceTag
 *export SoutheastInletConnection
 
-;Include Temple Of Doom Extensions
+*include RiftPotEntrance
+*include templeofdoom/templeofdoom
 
-*include "RiftPotTOD1"
-*include "RiftPotTOD2"
-*include "RiftPotTOD3"
-*include "RiftPotTOD4"
-*include "RiftPotTOD5"
-*include "RiftPotTOD6"
-*include "RiftPotTOD7"
-*include "NewRiftDigToLowDouk"
-*include "RiftPotEntrance"
-
-;-------------------------------------------------------------------------------------------
-
-;Equate Statements
-
-*equate RiftPotTOD1.72 RiftPotTOD2.72
-*equate RiftPotTOD1.67 RiftPotTOD3.z67
-*equate RiftPotTOD2.77 RiftPotTOD4.x77
-*equate RiftPotTOD2.99 RiftPotTOD5.x99
-*equate RiftPotTOD2.102 RiftPotTOD6.x102
-*equate RiftPotTOD2.149 RiftPotTOD7.149
-*equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
-*equate RiftPotTOD7.208 RiftPotEntrance.208
+*equate templeofdoom.riftpottod7.208 RiftPotEntrance.208
 *equate RiftPotEntrance.246 EntranceTag
-
-*equate RiftPotTOD1.7 SoutheastInletConnection
+*equate templeofdoom.RiftPotTOD1.7 SoutheastInletConnection
 
 *end RiftPot
