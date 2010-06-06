@@ -58,6 +58,7 @@
 212	213	04.67	166.0	-08.0	;stn213 stream sinks to left
 213	214	01.70	169.0	+27.0
 214	215	09.60	105.5	+04.0	;tag on true L wall junc with two routes from Pussy chamber
+    ; 215 is tag at end of streamwaybubblestagdownstream.bubblestag
 
 214	252	01.70	353.0	-22.0	;start of 08/06/06 survey into Passage of Dark Slime
 252	253	02.30	060.0	-23.0	;stn252 is start of Pass of Dark Slime

@@ -4,7 +4,7 @@
 
 *begin streamwaybubblestagdownstream
 
-*export p59 tag
+*export p59 bubblestag
 
 *title "Ireby - Main Streamway starting at starting at 59  from a bit before the first crawling section to the bubbles tag"
 *date 2010.05.29
@@ -57,7 +57,7 @@ p59   1      1.65 51      +02
 36    35     4.19       -07     295
 37    36     5.10       -02     229
 38    37     3.13       -03     284
-tag   38     5.72       -14     281
+bubblestag   38     5.72       -14     281
 
 
 *data passage station left right up down ignoreall
@@ -99,7 +99,7 @@ tag   38     5.72       -14     281
 36    1.0     1.0     3.0  0.4 Bottom of horiztonal rock spike
 37    1.0     0.0     2.3  0.3
 38    1.8     0.8     4.0  0.3
-tag   0.8     1.5     1.2  1.4
+bubblestag   0.8     1.5     1.2  1.4
 
 *end streamwaybubblestagdownstream
 
