@@ -16,7 +16,7 @@
 
 
 ;from	to	tape	compass	clino	remarks
-*data normal from to tape compass clino remarks
+*data normal from to tape compass clino ignoreall
 p59   1      1.65 51      +02
 2     1      5.28 181     -02
 2     3      2.99 60      -02
@@ -27,7 +27,7 @@ p59   1      1.65 51      +02
 8     7      9.95 167     -05
 9     8      8.72 166     +02
 
-*data normal from   to tape clino compass remarks
+*data normal from   to tape clino compass ignoreall
 10    9      5.40       +05     227
 11    10     10.23      -01     301
 12    11     4.66       -04     255
