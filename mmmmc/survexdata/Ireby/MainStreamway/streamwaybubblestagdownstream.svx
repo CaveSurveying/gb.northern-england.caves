@@ -10,7 +10,7 @@
 *date 2010.05.29
 *team Instruments Julian Todd
 *team Notes Martin Green
-*Instrument Becka's tandem comp & clino and Becka's 30m yellow tape
+*Instrument Patrick's tandem comp & clino and Patrick's 30m yellow tape
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
