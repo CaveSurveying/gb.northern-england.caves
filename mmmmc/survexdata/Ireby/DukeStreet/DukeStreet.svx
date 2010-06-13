@@ -44,8 +44,11 @@
 *Include dukest1resurvey2009
 *equate dukest1resurvey2009.15 dukestsidepassage.15x
 
-*Include boltonextentions
-*equate BoltonExtentions.014 RopePitch.46 		;Start of Bolton Extentions
+; *Include boltonextentions
+; *equate BoltonExtentions.016 RopePitch.43 		;Start of Bolton Extentions - now removed due to resurvey
+
+*Include boltonextensionsresurvey
+*equate boltonextensionsresurvey.43x ropepitch.43
 
 ; East Inlet
 *Include eastinletresurvey

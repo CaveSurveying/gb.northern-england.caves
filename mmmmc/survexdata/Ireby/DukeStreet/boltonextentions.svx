@@ -9,6 +9,7 @@
 *begin	BoltonExtentions
 
 *export 014  ; connected to Streamway4.20 as stations 15 and 16 do not appear to reach the obvious junction by the dam
+*export 016	; Becka changed connection as looked like connected in wrong place once we'd resurveyed this on 12 June 2010
 
 *calibrate compass	+3.00
 *calibrate clino	-01.0

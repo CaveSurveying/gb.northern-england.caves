@@ -107,7 +107,7 @@
 
 40	-	-	-	-	; tip of pointy boulder in chamber with old diggers rope on one side and up to Adulterers on other side; piece of paper under rock left there
 41	-	-	-	-	; numbered station on L wall near station 12x
-12x	2.5	0.5	2	8	; top of stal on block above pitch above NE inlet, numbered 12 from allabovewellpitch2 survey
+12x	2.5	0.5	2	8	; top of stal on block above pitch above NE inlet, numbered 12 from allabovewellpitch3 survey
 
 *end neinlet1
 
