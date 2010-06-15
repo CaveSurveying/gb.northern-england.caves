@@ -10,7 +10,16 @@
 
 *export 008a 032a 038b 001 026a 014a
 
-*calibrate compass	+5.17
+;next line commented out and replaced by *calibrate declination
+;looks like no true calibration because instruments not identified
+;*calibrate compass	+5.17
+
+; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+; lat/long for that neck of the woods = 54.25 N 2.5 W
+; surface survey - mag decl for 1997 = 5.18 deg W
+; true N to grid N correction = -0.33 
+
+*calibrate declination 4.85
 
 
 001	002	04.15	145.5	-01.5	;st001=top of gate-post near stile

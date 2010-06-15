@@ -1,6 +1,14 @@
 *begin leckfell
 
+; ASSUMES ALL MAG DECL CORRECTIONS IN SURFACE DATA INCLUDED IN RESPECTIVE DATA FILES
+
 *include Surface/leckfellsurfacesurvey
+
+; BODGE FOR MAG DECL IN UNDERGROUND SURVEYS
+
+; underground surveys - avg mag decl for 2010 = 3 deg W
+; true N to grid N correction = -0.33 
+*calibrate declination 2.67
 
 *include BruntskillPot/BruntskillPot
 *fix	BruntskillPot.Entrance	66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
@@ -45,7 +53,6 @@
 *include LongDrop/LongDrop
      ; it would be desirable to move this into the surface survey
 *fix LongDrop.StylePost	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
-
 
 
 *include RoughPot/RoughPot

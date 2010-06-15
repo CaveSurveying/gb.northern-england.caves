@@ -1,4 +1,9 @@
-;Cave:	Leck Fell GPS
+;Cave:	Leck Fell GPS 
+; GPS coordinates are on UK OS grid so north = grid north
+; true north --> grid north (the convergence) is 20' E = -0.33 at this lat/long
+; *calibrate declination X-0.33 required where X is magnetic declination
+; from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+; if mag declination is west the calibration is positive 
 ;Surveyors:	Richard Bendall/Dave Ramsay
 ;Date:	21/11/05
 ;Instruments:	Garmin etrex Vista C
