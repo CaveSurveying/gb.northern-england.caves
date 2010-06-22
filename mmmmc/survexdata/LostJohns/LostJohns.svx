@@ -100,6 +100,9 @@
 *include LUCCaven
 *equate Box3.067c luccaven.7a
 
+*include Lj20
+*equate	Lj20.1	box3.079
+
 *end	LostJohns
 
 
