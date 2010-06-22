@@ -17,6 +17,8 @@
 *export sf1a.024
 *export sf1.021
 
+*flags surface
+
 *include	gil1
 *include	gil1a
 *include	gil1b

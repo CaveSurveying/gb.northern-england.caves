@@ -1,6 +1,6 @@
 ;Date:	28/10/09 created overall surface survey file (Becka)
 
-*begin	Tim-leckfellsurfacesurvey
+*begin	leckfellsurfacesurvey
 
 *export LowDoukEntranceTag
 *export IrebyEntranceTag
@@ -63,4 +63,4 @@
 ;*equate	mg2.001		Ks3.001
 ;*equate	mg3a.024	ss19.001
 
-*end	Tim-leckfellsurfacesurvey
+*end	leckfellsurfacesurvey
