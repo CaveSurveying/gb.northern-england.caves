@@ -15,8 +15,11 @@
 *export SoutheastInletConnection
 
 *include RiftPotEntrance
+*include CoatesPassage1
+
 *include templeofdoom/templeofdoom
 
+*equate RiftPotEntrance.212 CoatesPassage1.212x
 *equate templeofdoom.riftpottod7.208 RiftPotEntrance.208
 *equate RiftPotEntrance.246 EntranceTag
 *equate templeofdoom.RiftPotTOD1.7 SoutheastInletConnection
