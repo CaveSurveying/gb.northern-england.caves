@@ -31,6 +31,7 @@
 *include "ShowerbathInlet/ShowerbathInlet" 	;showerbath Inlet			Added by Richard 02/02/10 Working ok
 *include Inlet7/Inlet7  
 *include CountLazlo/CountLazlo			;added by Becka but needs tidying up and folder name checking or moving to another folder
+*include CountLazlo/sds				;added by Becka but needs tidying up and folder name checking or moving to another folder
 *include "DaylightAven/DaylightAven"
 *include "WhiteFlag/WhiteFlag"		;White Flag
 
@@ -58,6 +59,7 @@
 *equate CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream
 *equate DaylightAven.DaylightAven_1.0 MainStreamway.Mainstreamway8.8
 *equate Whiteflag.1 Paaschendale.Paaschendale1.1
+*equate CountLazlo.027a sds.014	
 
 *end NottsII
 

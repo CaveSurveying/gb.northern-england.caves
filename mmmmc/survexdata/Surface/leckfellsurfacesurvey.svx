@@ -20,7 +20,7 @@
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
 *equate LostJohnsEntranceTag	NottsToLJSurface.26  ; Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
-;*equate NottsIIEntrance	NottsToLJSurface.0    ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
+*equate NottsIIEntrance	NottsToLJSurface.0    ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
 
 *entrance LowDoukEntranceTag
 *entrance IrebyEntranceTag
@@ -42,7 +42,7 @@
 ;Cave:	Surface survey of New Rift Pot via Ireby Fell to Notts pot
 *include mg3a
 
-;Cave:	Surface survey of Lost Johns to Notts pot - ****Becka - June 2010 - I'm not sure how accurately the start and end points are equated for this, may not be accurate
+;Cave:	Surface survey of Lost Johns to Notts pot - ****Becka - July 2010 - the start and end points not accurately equated to underground data
 *include NottsToLJSurface
 
 *fix mg1.001    67929     76660	    348     ; top of gate-post near stile
@@ -56,8 +56,8 @@
 *equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
 
 ; not currently connected to surface survey
-*fix	NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P
-*fix    LostJohnsEntranceTag 67083.63	78641.55	355.95 ;lost Johns Entrance Tag
+;*fix	NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
+;*fix    LostJohnsEntranceTag 67083.63	78641.55	355.95 ;lost Johns Entrance Tag - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
 
 ; don't know where these connectsurfacesurveysurfacesurvey
 ;*equate	mg2.001		Ks3.001
