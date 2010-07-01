@@ -1,0 +1,36 @@
+;Cave:	Notts II - Sir Digby Spode's Inlet and new dig passage (aka Bruno Kranskies)
+;Surveyors:	H.St.Lawrence/J.Latimer and H.St.Lawrence/T.Allen
+;Date:	14/01/10 and 30/6/2010
+;Instruments:	2
+
+*begin	sds
+*export 014
+
+*calibrate compass	+3.50
+
+000	001	05.00	240.0	-30	;st000 is bottom rung of aluminium ladder at choke
+001	002	02.20	250.0	-8
+002	003	04.10	186.0	0
+003	004	02.40	200.0	+38
+004	005	02.80	231.0	+1
+005	006	04.90	166.0	+8
+006	007	01.60	217.0	-5
+007	008	08.05	164.0	-2
+008	009	08.40	138.0	+10
+009	010	09.45	140.0	-3
+010	011	12.40	210.0	-9
+011	012	08.70	230.0	-15
+012	013	04.00	192.0	-31
+013	014	03.10	-	DOWN	;stn.014 = tag in mainstreamway
+
+000	020	01.56	162	-22
+020	021	05.47	95	+1.5
+021	022	02.78	131	+30	;up rift bit
+022	023	02.34	97	+27
+023	024	02.00	152	+32
+024	025	01.50	110	+15	;through arch into Plank Chamber
+025	026	01.37	147	+17
+026	027	01.90	110	+35	
+027	028	02.00	230	+45	;into Chandelier Ballroom, 028 30cms below stal on far wall
+
+*end	sds
