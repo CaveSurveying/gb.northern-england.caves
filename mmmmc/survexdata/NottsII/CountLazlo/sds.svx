@@ -1,4 +1,5 @@
 ;Cave:	Notts II - Sir Digby Spode's Inlet and new dig passage (aka Bruno Kranskies)
+;This replaces the Count Lazlo Stroganoff's Aven survey on 28/12/00, survex file countlazlo.svx
 ;Surveyors:	H.St.Lawrence/J.Latimer and H.St.Lawrence/T.Allen
 ;Date:	14/01/10 and 30/6/2010
 ;Instruments:	2
