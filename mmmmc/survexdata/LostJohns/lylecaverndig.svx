@@ -8,9 +8,15 @@
 *date 2010.07.03
 *team Instruments Tim Allen 
 *team Notes Mick Nunwick 
-*Instrument ???
+*Instrument Tim's
 
-*calibrate compass	+3.5 ;?
+
+; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
+; surface survey - mag decl for 2010 = 2.98 deg W
+; true N to grid N correction = -0.33 
+
+*calibrate declination 2.65 ; Tim will hopefully get a proper calibration, this is calculated, see above
 
 ;from	to	tape	compass	clino	remarks
 *data normal from to tape compass clino ignoreall

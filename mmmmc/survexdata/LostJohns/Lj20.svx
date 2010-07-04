@@ -1,9 +1,6 @@
 ;Cave:	Lost Johns- Lyle Cavern Choke
-
-;Surveyors:	Geoff Yeadon, Mick Nunwick(?)
-
-;Surveyors:	Tim says was actually Geoff Yeadon & Tim Allen (Becka, June 2010)
-;Date:	1985?
+;Surveyors:	Original file said "Geoff Yeadon, Mick Nunwick(?)" but Tim says was actually Geoff Yeadon & Tim Allen (Becka, June 2010)
+;Date:	1985 ?
 ;Instruments:	?
 
 *begin Lj20
