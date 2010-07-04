@@ -1,0 +1,39 @@
+; Location: Lost Johns, Lyle Caverns Choke
+
+*begin lylecaverndig
+
+*export 20
+
+*title "Ireby - Main Streamway starting at starting at 59  from a bit before the first crawling section to the bubbles tag"
+*date 2010.07.03
+*team Instruments Tim Allen 
+*team Notes Mick Nunwick 
+*Instrument ???
+
+*calibrate compass	+3.5 ;?
+
+;from	to	tape	compass	clino	remarks
+*data normal from to tape compass clino ignoreall
+
+1	2	3.82	140	63	;furthest point in choke
+2	3	1.13	272	33
+3	4	0.8	0	90
+3	3a	2.5	310	0
+4	5	2.2	120	50
+5	6	3.42	313	48
+6	7	2.75	105	49
+7	8	7.4	71	-17
+8	9	3.7	75	-32
+9	10	3.25	321	-54
+10	11	3.35	79	-54
+11	12	2.66	74	-52
+12	13	9.73	102	-5
+13	14	3.93	60	21
+14	15	4.16	78	-7
+15	16	6.6	144	-3
+16	17	28.95	72	2
+17	18	15.75	75	1
+18	19	3.43	113	4
+19	20	8.92	41	-2	;20 is yellow tag at the junction with SE passage (Box3.072?)
+
+*end lylecaverndig
