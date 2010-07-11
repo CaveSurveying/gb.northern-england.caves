@@ -61,8 +61,7 @@
 15	2.0	0	5.0	2.0	lp on wall
 16	-	-	-	-	tip of boulder outside, just above freeclimbable drop down
 17	-	-	-	-	side of large flake outside
-18	-	-	-	-	existing spit in large flake outside
-18	
+18	-	-	-	-	existing spit in large flake outside	
 
 *end lowdouk7
 
