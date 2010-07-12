@@ -37,8 +37,11 @@
 16	15	7.26	141	-49
 
 17	10	6.96	221	-28
+
+*flags surface
 17	16	1.76	056	-24
 17	18	1.76	348	+52
+*flags not surface
 
 *data passage station left right up down ignoreall
 2x	-	-	-	-	lp about 6 inches below scratched triangle above start of third entrance - spoke to Dave before and he thought the station was just below the mark (which was made after the survey was done)
