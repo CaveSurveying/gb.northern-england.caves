@@ -10,13 +10,14 @@
 *team Notes Mick Nunwick 
 *Instrument Tim's
 
-
 ; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 ; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
 ; surface survey - mag decl for 2010 = 2.98 deg W
 ; true N to grid N correction = -0.33 
+; *calibrate declination 2.65
+; On 11/07/10 Tim got a calibration of 332 at Bull Pot Farm (reading should be 328 so correction of +4 since *calibrate takes [reading - calibration])
 
-*calibrate declination 2.65 ; Tim will hopefully get a proper calibration, this is calculated, see above
+*calibrate compass +4
 
 ;from	to	tape	compass	clino	remarks
 *data normal from to tape compass clino ignoreall

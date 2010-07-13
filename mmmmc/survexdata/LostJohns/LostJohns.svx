@@ -100,12 +100,12 @@
 *include LUCCaven
 *equate Box3.067c luccaven.7a
 
-*include Lj20
-*equate	Lj20.1	box3.079
-
 *include lylecaverndig
 *equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
 
 *end	LostJohns
 
+; lj20 superceded by lylecaverndig data and connection point (box3.079) guessed at
+;*include Lj20
+;*equate	Lj20.1	box3.079
 

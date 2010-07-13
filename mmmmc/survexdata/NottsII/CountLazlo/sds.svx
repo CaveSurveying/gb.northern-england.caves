@@ -2,12 +2,12 @@
 ;This replaces the Count Lazlo Stroganoff's Aven survey on 28/12/00, survex file countlazlo.svx
 ;Surveyors:	H.St.Lawrence/J.Latimer and H.St.Lawrence/T.Allen
 ;Date:	14/01/10 and 30/6/2010
-;Instruments:	2
+;Instruments:	2 ; I think this is for legs 000 to 014 only, then Tim Allen's instruments for 000 to 028 into dig - I've added the calibrations accordingly
 
 *begin	sds
 *export 014
 
-*calibrate compass	+3.50
+*calibrate compass +3.50 ; Becka - I'm not sure where the +3.5 comes from - I'm guessing Hugh and Johnny used RRCPC instruments and I guess this is the first set of legs
 
 000	001	05.00	240.0	-30	;st000 is bottom rung of aluminium ladder at choke
 001	002	02.20	250.0	-8
@@ -23,6 +23,15 @@
 011	012	08.70	230.0	-15
 012	013	04.00	192.0	-31
 013	014	03.10	-	DOWN	;stn.014 = tag in mainstreamway
+
+; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
+; surface survey - mag decl for 2010 = 2.98 deg W
+; true N to grid N correction = -0.33 
+; *calibrate declination 2.65
+; On 11/07/10 Tim got a calibration of 332 at Bull Pot Farm (reading should be 328 so correction of +4 since *calibrate takes [reading - calibration])
+
+*calibrate compass +4
 
 000	020	01.56	162	-22
 020	021	05.47	95	+1.5
