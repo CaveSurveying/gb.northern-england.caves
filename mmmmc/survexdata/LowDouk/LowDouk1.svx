@@ -17,7 +17,7 @@
 
 
 *flags surface
-s01	s02	1.25	129	-51	; BECKA has reversed this leg - originally was s02 to s01	Stn s01 is tag at entrance.
+s02	s01	1.25	129	-51	; Stn s01 is tag at entrance.
 s02	s03	9.18	231	-29	;0	.8	sky	2	stn 001	
 
 *flags not surface			
