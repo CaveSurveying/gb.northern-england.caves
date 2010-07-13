@@ -4,7 +4,7 @@
 
 *begin lowdouk7
 
-*export 2x
+*export 2x 18
 
 *title "Low Douk 7"
 *date 2010.07.10
@@ -36,11 +36,10 @@
 15	14	4.28	281	-33
 16	15	7.26	141	-49
 
-17	10	6.96	221	-28
-
 *flags surface
+17	10	6.96	221	-28
 17	16	1.76	056	-24
-17	18	1.76	348	+52
+16	18	1.76	348	+52	; written 17 to 18 in notes but this was definitely from 16, boulder, to 18, spit
 *flags not surface
 
 *data passage station left right up down ignoreall

@@ -28,5 +28,6 @@
 *equate LowDoukStreamway.67 lowdoukleftatsteps.67x
 *equate lowdouktosump.13 lowdoukleftatsteps.13x
 *equate lowdouk1.002 lowdouk7.2x
+*equate lowdouk1.s01 lowdouk7.18
 
 *end	LowDouk
