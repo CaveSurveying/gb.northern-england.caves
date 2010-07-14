@@ -20,7 +20,7 @@
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
 *equate LostJohnsEntranceTag	NottsToLJSurface.26  ; Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
-*equate NottsIIEntrance	NottsToLJSurface.0    ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
+*equate NottsIIEntrance		NottsToLJSurface.0    ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
 
 *entrance LowDoukEntranceTag
 *entrance IrebyEntranceTag
@@ -29,6 +29,7 @@
 *entrance MarbleStepsEntranceTag  
 *entrance LargePotTag            
 *entrance NottsIIEntrance
+*entrance LostJohnsEntranceTag
 
 ; this has a whole lot of GPS's of places.  Maybe we can move some of those below into it
 *include LFGPS
@@ -46,7 +47,6 @@
 *include NottsToLJSurface
 
 *fix mg1.001    67929     76660	    348     ; top of gate-post near stile
-
 *fix mg3a.008   67682.0   77228.0   408.0   ; head height on stile
 *fix mg3a.016   67259.0   77374.0   402.36  ; rock top at junction of wall and fence to shooting hut on Leck Road
 *fix mg3a.024   67114.37  77803.73  376.35  ; first P hanger at Notts Pot entrance
