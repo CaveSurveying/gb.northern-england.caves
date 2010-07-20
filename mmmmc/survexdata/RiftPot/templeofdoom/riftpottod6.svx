@@ -3,7 +3,7 @@
 ; Rift Pot - side passage beyond Temple of Doom at station 99
 
 *begin RiftPotTOD6
-*export x102
+*export x102 41
 
 *title "Rift Pot - side passage beyond Temple of Doom at station 102"
 *date 2009.10.24

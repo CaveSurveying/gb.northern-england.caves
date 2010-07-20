@@ -12,6 +12,7 @@
 *include riftpottod5
 *include riftpottod6
 *include riftpottod7
+*include riftpottod8
 *include newriftdigtolowdouk
 
 *equate RiftPotTOD1.72 RiftPotTOD2.72
@@ -21,5 +22,6 @@
 *equate RiftPotTOD2.102 RiftPotTOD6.x102
 *equate RiftPotTOD2.149 RiftPotTOD7.149
 *equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
+*equate RiftPotTOD8.41x RiftPotTOD6.41
 
 *end templeofdoom
