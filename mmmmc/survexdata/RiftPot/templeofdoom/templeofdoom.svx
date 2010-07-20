@@ -9,19 +9,23 @@
 *include riftpottod2
 *include riftpottod3
 *include riftpottod4
-*include riftpottod5
 *include riftpottod6
 *include riftpottod7
 *include riftpottod8
+*include riftpottod9
 *include newriftdigtolowdouk
 
 *equate RiftPotTOD1.72 RiftPotTOD2.72
 *equate RiftPotTOD1.67 RiftPotTOD3.z67
 *equate RiftPotTOD2.77 RiftPotTOD4.x77
-*equate RiftPotTOD2.99 RiftPotTOD5.x99
+
 *equate RiftPotTOD2.102 RiftPotTOD6.x102
 *equate RiftPotTOD2.149 RiftPotTOD7.149
 *equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
 *equate RiftPotTOD8.41x RiftPotTOD6.41
+*equate RiftPotTOD9.99x RiftPotTOD2.99
 
 *end templeofdoom
+
+;*include riftpottod5	; superceded by tod9
+;*equate RiftPotTOD2.99 RiftPotTOD5.x99 ; superceded by tod9
