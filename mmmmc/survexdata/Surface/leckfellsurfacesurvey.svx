@@ -2,6 +2,14 @@
 
 *begin	leckfellsurfacesurvey
 
+; the long term plan is to abolish as many *fixes as possible
+; and replace with an accurate surface survey connecting all the caves together 
+; (this is able to respect their altitude more accurately)
+
+; At present, this file doesn't compile on its own because of the 
+; NottsToLJSurface piece connecting two cave entrances together, but not connecting 
+; to the rest of the surface survey.  This should be rectified.
+
 *export LowDoukEntranceTag
 *export IrebyEntranceTag
 *export RiftPotEntranceTag
@@ -59,7 +67,7 @@
 *equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
 
 ; not currently connected to surface survey
-;*fix	NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
+;*fix	 NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
 ;*fix    LostJohnsEntranceTag 67083.63	78641.55	355.95 ;lost Johns Entrance Tag - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
 
 ; don't know where these connectsurfacesurveysurfacesurvey
