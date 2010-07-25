@@ -66,6 +66,8 @@
 *fix	LostJohns.BoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
 
 
+*include ShortDrop/ShortDrop
+*equate ShortDrop.FencePost  leckfellsurfacesurvey.ShortDropFencePost
 
 *include GavelPot/GavelPot
 *fix	GavelPot.GavelPotFencePost	66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance

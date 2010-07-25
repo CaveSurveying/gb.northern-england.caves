@@ -17,6 +17,7 @@
 *export 005
 *export 006
 *export Bruntsgill
+*export Shortdrop
 
 *fix	001	66668	78310	319	;Committee Pot Entrance CC 13/11/05
 *fix	002	66885	78199	352	;Slime Aven Junctuion CC 13/11/05

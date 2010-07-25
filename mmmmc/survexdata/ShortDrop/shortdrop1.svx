@@ -1,4 +1,5 @@
 *begin shortdrop1
+*export 1
 *export 20
 
 *title "Entrance to Short Drop"
@@ -12,7 +13,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
-*flags not surface
+*flags surface
 2     1    18.58 110    +14
 3     2    4.14  229    +32
 *flags not surface

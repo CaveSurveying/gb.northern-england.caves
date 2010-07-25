@@ -1,0 +1,10 @@
+*begin ShortDrop
+
+*export FencePost
+*equate shortdrop1.1 FencePost
+
+*include shortdrop1
+
+;*fix	FencePost 67030	78934	346
+
+*end ShortDrop

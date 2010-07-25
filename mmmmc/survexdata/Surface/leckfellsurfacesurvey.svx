@@ -10,6 +10,7 @@
 *export LargePotTag             ; not used yet
 *export NottsIIEntrance         ; not connected to surface survey, but used
 *export LostJohnsEntranceTag    ; not connected to surface survey, but used in RoughPot
+*export ShortDropFencePost
 
 *flags surface
 
@@ -20,7 +21,8 @@
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
 *equate LostJohnsEntranceTag	NottsToLJSurface.tag  ; 27.07.10 June Update - now got good data to tag2010 rather than equating tag to stn 26 - Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
-*equate NottsIIEntrance		NottsToLJSurface.0   ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
+*equate NottsIIEntrance		    NottsToLJSurface.0   ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
+*equate ShortdropFencePost      LFGPS.Shortdrop
 
 *entrance LowDoukEntranceTag
 *entrance IrebyEntranceTag
@@ -30,6 +32,7 @@
 *entrance LargePotTag            
 *entrance NottsIIEntrance
 *entrance LostJohnsEntranceTag
+*entrance ShortDropFencePost
 
 ; this has a whole lot of GPS's of places.  Maybe we can move some of those below into it
 *include LFGPS
