@@ -19,8 +19,8 @@
 *equate NottsPotEntrancePhanger mg3a.024
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
-*equate LostJohnsEntranceTag	NottsToLJSurface.26  ; Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
-*equate NottsIIEntrance		NottsToLJSurface.0    ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
+*equate LostJohnsEntranceTag	NottsToLJSurface.tag  ; 27.07.10 June Update - now got good data to tag2010 rather than equating tag to stn 26 - Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
+*equate NottsIIEntrance		NottsToLJSurface.0   ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
 
 *entrance LowDoukEntranceTag
 *entrance IrebyEntranceTag

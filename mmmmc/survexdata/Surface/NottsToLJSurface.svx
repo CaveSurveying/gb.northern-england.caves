@@ -6,7 +6,7 @@
 
 *begin NottsToLJSurface
 
-*export 0 26
+*export 0 26 tag
 
 ; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 ; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
@@ -43,5 +43,7 @@
 23	24	27.4	135	0
 24	25	11.9	155	-22	;edge of LJ gully
 25	26	7	352	-15	;entrance LJ leftside head height
+
+tag	26	2.3	332	-24	;added later, 25.07.10 by Becka from info from email from Tim who has now found the LJ tag which is "tag"
 
 *end NottsToLJSurface
