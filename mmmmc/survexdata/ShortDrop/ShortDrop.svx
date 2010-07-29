@@ -4,6 +4,9 @@
 *equate shortdrop1.1 FencePost
 
 *include shortdrop1
+*include shortdrop2
+
+*equate shortdrop1.20 shortdrop2.19
 
 ;*fix	FencePost 67030	78934	346
 
