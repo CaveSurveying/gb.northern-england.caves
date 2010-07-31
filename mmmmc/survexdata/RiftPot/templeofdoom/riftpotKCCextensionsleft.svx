@@ -1,0 +1,39 @@
+*begin riftpotKCCextensionsleft
+*export 195 
+
+*title "Rift KCC Extensions Left hand Passage"
+*date 2010.07.26
+*team Instruments Dave Ramsay
+*team Notes Jess Stirrups
+*team Tape Richard Bendall
+*instrument Dave's tape read from 0cm and Dave's comp/clino
+
+*calibrate tape +0       ; +ve if tape was too short, -ve if too long
+
+;from   to      tape    compass clino   remarks
+
+195   1    4.64  012    -04	;equates to riftpottod7.195
+1     2    2.79  056    +04
+2     3    5.47  332    +01
+3     4    1.20  010    -18
+4     5    3.00  291    -09
+5     6    1.54  242    +10
+6     7    2.23  311    +03
+7     8    1.90  053    +18
+8     9    2.50  335    +01
+
+
+*data passage station left right up down ignoreall
+195   1.6       0.6             1.8     0.5   top of boulder in middle of passage, numbered
+1     0       0.6     	0.4  	1.2   l wall
+2     0.6       0.5     	0.3  	1.2     r wall
+3     0.2       0.4     	1.2  	0.6   l wall on flowstone opposite branch 
+4     1.1       0.4     	1  	0.3   top of boulder at juction, numbered
+5     0.4       0.6     	0.7  	2.5     above rock, floating point
+6     0       1.2     	0.5  	2.5     l wall 
+7     0       0.7     	0.4  	10.8   l wall 
+8     0.6       0.2     	0  	0.5     roof
+9     0.4       0.4     	0.5  	0   dig front, unmarked
+
+*end riftpotKCCextensionsleft
+

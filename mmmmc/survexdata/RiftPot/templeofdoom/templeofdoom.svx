@@ -14,6 +14,7 @@
 *include riftpottod8
 *include riftpottod9
 *include newriftdigtolowdouk
+*include riftpotKCCextensionsleft
 
 *equate RiftPotTOD1.72 RiftPotTOD2.72
 *equate RiftPotTOD1.67 RiftPotTOD3.z67
@@ -24,6 +25,7 @@
 *equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
 *equate RiftPotTOD8.41x RiftPotTOD6.41
 *equate RiftPotTOD9.99x RiftPotTOD2.99
+*equate riftpotKCCextensionsleft.195 riftpottod7.195
 
 *end templeofdoom
 
