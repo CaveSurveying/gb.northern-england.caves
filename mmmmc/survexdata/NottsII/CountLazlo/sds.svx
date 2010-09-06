@@ -43,4 +43,11 @@
 026	027	01.90	110	+35	
 027	028	02.00	230	+45	;into Chandelier Ballroom, 028 30cms below stal on far wall
 
+; section below added on 06.09.10 by Becka using email from Tim Allen on 29.08.10
+; extra two legs data from Tim Allen using same instruments as before where station 1 is station 028 so I've renamed it to be station 028 and renamed his new stations to be x02 and x03 to avoid confusion with other stations in this file
+
+028	x02    2.72 	112 	+25
+x02	x03    2.32 	170 	+40
+
+
 *end	sds
