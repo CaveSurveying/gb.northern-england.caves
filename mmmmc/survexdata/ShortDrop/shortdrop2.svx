@@ -8,7 +8,7 @@
 *team Tape Jess Stirrups
 *instrument Becka's tape read from 10cm and Becka's tandem comp/clino
 
-*calibrate tape +10       ; +ve if tape was too short, -ve if too long
+*calibrate tape +0.10       ; +ve if tape was too short, -ve if too long
 
 ;from   to      tape    compass clino   remarks
 
