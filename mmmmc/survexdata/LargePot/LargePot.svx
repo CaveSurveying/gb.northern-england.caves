@@ -1,0 +1,20 @@
+;Title: Large Pot
+
+;Date Created 13/09/2010 by Becka Lawson
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Large Pot files
+
+*begin LargePot
+
+*export EntranceTag
+
+*include Large1
+
+;*equate 
+
+*end LargePot
