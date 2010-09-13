@@ -1,0 +1,17 @@
+;cave Notts II
+;Title: Notts II - Count Lazlo Stronganoff's Inlet
+
+*begin CountLazloALL
+
+*export CountLazlo.027a
+
+*include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
+*include sds
+;*include LazloStrog1
+;*include LazloStrog2
+;*include LazloStrog3
+;*include LimboPassage
+
+*equate CountLazlo.027a sds.014
+
+*end CountLazloALL
