@@ -72,8 +72,6 @@
 *include GavelPot/GavelPot
 *fix	GavelPot.GavelPotFencePost	66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance
 
-
-
 *include RumblingHole/RumblingHole
 *fix	RumblingHole.RumblingBeckTopEntrance	67173	79128	357 ;GPS RGB 13/09/07
 
@@ -84,6 +82,9 @@
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
 
 *equate RiftPot.SoutheastInletConnection Ireby.SoutheastInletConnection
+
+*include LargePot/LargePot
+*equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
 *end leckfell
 

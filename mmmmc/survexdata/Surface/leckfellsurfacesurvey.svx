@@ -15,7 +15,7 @@
 *export RiftPotEntranceTag
 *export NottsPotEntrancePhanger ; first P hanger at Notts Pot entrance
 *export MarbleStepsEntranceTag  ; not used yet
-*export LargePotTag             ; not used yet
+*export LargePotTag             ; first station of Large1 survex file in Large Pot folder
 *export NottsIIEntrance         ; not connected to surface survey, but used
 *export LostJohnsEntranceTag    ; not connected to surface survey, but used in RoughPot
 *export ShortDropFencePost

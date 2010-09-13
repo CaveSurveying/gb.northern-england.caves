@@ -15,6 +15,6 @@
 
 *include Large1
 
-;*equate 
+*equate EntranceTag Large1.tag
 
 *end LargePot
