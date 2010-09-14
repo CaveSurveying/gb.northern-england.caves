@@ -41,7 +41,7 @@
 27	26	1.90	149	+08
 28	27	4.11	322	+08
 29	28	7.45	329	+04
-30	29	2.91	204	+22.5	; no +/- given so have assumed plus - NEIL TO CHECK
+30	29	2.91	204	+22.5	; no +/- given for this leg but Neil checked with disto and is positive
 30	31	1.27	234.5	-19
 32	31	4.45	142	+56
 
@@ -69,7 +69,7 @@
 53	49	4.37	358.5	-07	; leg written both directions in notes (!), unclear which is correct, chose this based on sketch
 54	53	11.50	093	-39
 55	54	1.32	133	-07
-55	29x	3.36	314	+16.2	; written as 56 in notes, assume is station 55; no +/- given for this leg. I've assumed plus but NEIL - NEEDS CHECKING
+55	29x	3.36	314	+16.2	; written as 56 in notes, assume is station 55; no +/- given for this leg but Neil checked with disto and is positive
 
 *data passage station left right up down ignoreall
 1	0.4	0	0.7	1
