@@ -1,0 +1,17 @@
+
+*begin LazloStrog3
+*export 1 29x
+
+*title "Count Lazlo Stroganoff from just beyond horse trough to end of large passage"
+*date 2010.09.12
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*instrument mostly Neil's distox which was calibrated yesterday EXCEPT for first few legs, up to  leg 9 to 8, which used Becka's tandem comp/clino and Becka's yellow 30m tape read from 0cm
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*data passage station left right up down ignoreall
+
+*end LazloStrog3
