@@ -13,5 +13,9 @@
 ;*include LimboPassage
 
 *equate CountLazlo.027a sds.014
+*equate LimboPassage.001 LazloStrog1.039
+*equate LazloStrog1.001 LazloStrog2.7
+*equate LazloStrog2.29 LazloStrog3.29x
+*equate LazloStrog3.1 CountLazlo.000
 
 *end CountLazloALL
