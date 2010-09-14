@@ -7,10 +7,10 @@
 
 *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
 *include sds
-;*include LazloStrog1
-;*include LazloStrog2
-;*include LazloStrog3
-;*include LimboPassage
+*include LazloStrog1
+*include LazloStrog2
+*include LazloStrog3
+*include LimboPassage
 
 *equate CountLazlo.027a sds.014
 *equate LimboPassage.001 LazloStrog1.039
