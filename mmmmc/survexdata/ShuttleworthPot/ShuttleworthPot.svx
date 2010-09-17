@@ -1,0 +1,31 @@
+;Title: Shuttleworth Pot
+
+;Date Created 17/09/10 by Richard Bendall
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Shuttleworth Pot files
+
+*begin ShuttleworthPot
+
+*entrance ShuttleworthPot
+*fix ShuttleworthPot 66214 79777 277 ;entrance GPS by K Wood Sept 2010
+;*export EntranceTag
+
+
+;*include 
+;*include 
+;*include 
+;*include 
+
+
+;*equate 
+;*equate 
+;*equate 
+;*equate 
+;*equate 
+
+*end ShuttleworthPot
