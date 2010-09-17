@@ -88,6 +88,8 @@
 
 *include ShuttleworthPot/ShuttleworthPot
 
+*include KangoHole/KangoHole
+
 *include Cupcake/Cupcake
 
 *end leckfell
