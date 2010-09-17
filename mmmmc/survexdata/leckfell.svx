@@ -86,5 +86,9 @@
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
+*include ShuttleworthPot/ShuttleworthPot
+
+*include Cupcake/Cupcake
+
 *end leckfell
 
