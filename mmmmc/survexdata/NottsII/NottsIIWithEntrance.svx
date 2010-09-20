@@ -1,0 +1,3 @@
+
+*include NottsII
+*fix NottsII.Entrance  66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
