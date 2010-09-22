@@ -29,7 +29,7 @@
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
 *equate LostJohnsEntranceTag	NottsToLJSurface.tag  ; 27.07.10 June Update - now got good data to tag2010 rather than equating tag to stn 26 - Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
-*equate NottsIIEntrance		    NottsToLJSurface.0   ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
+*equate NottsIIEntrance	NottsToLJSurface.0   ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
 *equate ShortdropFencePost      LFGPS.Shortdrop
 
 *entrance LowDoukEntranceTag
@@ -45,7 +45,7 @@
 ; this has a whole lot of GPS's of places.  Maybe we can move some of those below into it
 *include LFGPS
 
-;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Dowk
+;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Douk
 *include mg1
 
 ;Cave:Surface survey from Trig Point on Tow Scar to link with MG1 surface survey	
@@ -68,6 +68,7 @@
 
 ; not currently connected to surface survey
 ;*fix	 NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
+;*fix	 NottsIIEntrance	66728 78424 334	;GPS to CupCake entrance GPS by R Bendall 15 Sept 2010 rather than Notts II entrance EXCEPT removed 2metres from altitude so Richard's GPS was 334, I changed to 332
 ;*fix    LostJohnsEntranceTag 67083.63	78641.55	355.95 ;lost Johns Entrance Tag - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
 
 ; don't know where these connectsurfacesurveysurfacesurvey

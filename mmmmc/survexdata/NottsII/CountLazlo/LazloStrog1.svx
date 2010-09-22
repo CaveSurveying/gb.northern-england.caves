@@ -13,7 +13,7 @@
 
 ;Station 	Tape	Compass	Clino	 
 
-*export 001 039
+*export 001 039 054
 		
 001	002	2.59	319	-8				
 002	003	11.07	-	UP	

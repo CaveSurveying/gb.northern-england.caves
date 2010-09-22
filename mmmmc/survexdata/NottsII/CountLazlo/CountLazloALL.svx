@@ -3,7 +3,7 @@
 
 *begin CountLazloALL
 
-*export CountLazlo.027a
+*export CountLazlo.027a LazloStrog1.054
 
 *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
 *include sds

@@ -38,6 +38,7 @@
 ;Equate Statements
 
 *equate Committeepot.001 Entrance
+;*equate CountLazloALL.LazloStrog1.054 Entrance
 *equate Committeepot.019 Inlet13.001
 *equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8
 *equate MainStreamway.MainStreamway5.019 GordonsInlet.1
