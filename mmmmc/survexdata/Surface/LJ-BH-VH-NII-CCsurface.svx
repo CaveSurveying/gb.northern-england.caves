@@ -17,7 +17,7 @@
 ; On 11/07/10 Tim got a calibration of 332 at Bull Pot Farm (reading should be 328 so correction of +4 since *calibrate takes [reading - calibration])
 
 ;*calibrate compass +4
-
+*flags surface
 2	LostJohns	8.20	059.0	-58	;Lost Johns Entrance Tag
 3	2	27.10	346.0	0		;Stile
 3	4	30.00	166.5	+2.5
@@ -54,6 +54,6 @@ NottsII	28	19.45	035.0	+17.0		;Centre of Notts II lid
 30	31	30.00	017.0	+1.0
 31	Cupcake	2.47	-	Down		;Cupcake entrance sw corner
 Fencepost 31	16.88	193.0	-6.5
-
+*flags not surface
 
 *end LJ-BH-VH-NII-CCsurface
