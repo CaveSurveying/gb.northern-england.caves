@@ -5,6 +5,7 @@
 *export neinlet1.4
 *export boltclimb.1
 *export neinletupperlevel.stal
+*export neinlet9.8
 
 *include neinlet1
 *include neinlet2
@@ -14,6 +15,7 @@
 *include neinlet6
 *include neinlet7
 *include neinlet8
+*include neinlet9
 *include boltclimb
 *include neinletupperlevel
 
@@ -26,6 +28,7 @@
 *equate neinlet6.10 neinlet8.10x
 *equate neinlet1.49x boltclimb.49x
 *equate neinlet1.12x neinletupperlevel.stal
+*equate neinlet4.111 neinlet9.111x
 
 *end northeastinlet
 

@@ -2,7 +2,7 @@
 
 *begin GloryHoles
 
-*export GloryHoles2.1
+*export GloryHoles2.1 TrueGrit.002
 
 ;Include Glory Holes/True Grit Files
 
