@@ -1,6 +1,6 @@
 
 *begin Large1
-*export tag
+*export tag 25
 
 *title "Entrance of Large Pot down initial 3 pitches to nearly Tinkle Inlet"
 *date 2010.09.11

@@ -14,7 +14,11 @@
 *export EntranceTag
 
 *include Large1
+*include Large2
+*include Large3
 
 *equate EntranceTag Large1.tag
+*equate Large1.25 Large2.1
+*equate Large2.31 Large3.41
 
 *end LargePot
