@@ -30,6 +30,9 @@
 015	016	2	100	0
 016	017	30	005	0	
 017	018	10	010	0
-018	019	8	000	0
+018	019	8	000	0	; Becka added 15.10.10: stn 19 = start of inlet, line belay in sump 3 airbell
+
+; according to Rupert Skorupka's corrections (see Notts III/IV raw scans) all this survey should be reversed so 018 019
+; should be 000 001, and 000 001 should 018 019
 
 *end Inlet18_2
