@@ -11,18 +11,19 @@
 
 *begin ShuttleworthPot
 
-*entrance ShuttleworthPot
+*entrance ShuttleworthPot2.002
 *fix ShuttleworthPot 66214 79777 277 ;entrance GPS by K Wood Sept 2010
 ;*export EntranceTag
 
 
-;*include 
-;*include 
+*include ShuttleworthPot1
+*include ShuttleworthPot2
 ;*include 
 ;*include 
 
+*equate ShuttleworthPot ShuttleworthPot2.001
 
-;*equate 
+*equate ShuttleworthPot1.030 ShuttleworthPot2.017
 ;*equate 
 ;*equate 
 ;*equate 
