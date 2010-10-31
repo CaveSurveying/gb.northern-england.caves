@@ -45,6 +45,7 @@
 33	34	2.20	305	-1
 34	35	3.71	165	+3
 36	35	2.76	023	-64
+36	z	24		000	+90	; used disto to shoot up into the aven - replace this leg if ever surveyed properly
 35	37	3.10	260	+8
 37	38	1.20	198	+8
 38	39	2.25	263	-9
@@ -88,12 +89,12 @@
 
 *data passage station left right up down ignoreall
 
-38x	0.3	0.2	0	1.1
+38x	0.3	0.2	0	1.1	old numbered station from Large1 survey last month
 6	1.2	0.3	0.3	0.5
 7	0.3	0.6	0.1	0.5
 8	1.3	0	0.4	0.2
 9	0	1.1	0.6	0.4
-10	0	1	0.5	0.7
+10	0	1	0.5	0.7	numbered
 11	0.8	0	0.6	0.5
 12	0	0.3	1	0.7	
 13	0.5	0	1.2	0.6
