@@ -8,6 +8,7 @@
 ;Tape: 
 
 *export 019
+*calibrate compass 180 	; Becka added this 4 Nov 2010 when Rupert Skorupka noted this survey should have all legs reversed
 ;*equate Inlet18_1.012 Inlet18_2.019
 ;CALIBRATE tape 		
 ;Note Mag N 5deg west of Grid North in 1995
