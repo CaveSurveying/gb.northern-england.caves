@@ -34,4 +34,7 @@
 *equate RumblingHole_9.001 RumblingHole_7.022
 *include RumblingHole_9
 
+*equate RumblingMain.1 RumblingHole_2.101
+*include RumblingMain
+
 *end RumblingHole

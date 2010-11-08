@@ -1,6 +1,6 @@
 
 *begin Large5
-*export 38x
+*export 38x 18 72
 
 *title "Continuing main passage in Large Pot from just before Tinkle Inlet to just before main inlet before Colossus"
 *date 2010.10.30
