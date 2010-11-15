@@ -1,6 +1,6 @@
 *begin Inlet18_1
 
-;Date: 1995
+*date 2.5.1995
 ;Cave: Notts III - Inlet 18
 ;Survey Kit 
 ;Instruments: Original notes from RPS, GWC
