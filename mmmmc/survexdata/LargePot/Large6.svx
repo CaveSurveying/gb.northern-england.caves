@@ -7,9 +7,9 @@
 *team Tape Becka Lawson
 *team Instruments Julian Todd
 *team Notes Diane Arthurs
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
 
-*calibrate tape 0	; +ve if tape was too short, -ve if too long
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks
 
