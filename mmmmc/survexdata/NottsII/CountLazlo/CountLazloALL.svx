@@ -3,13 +3,16 @@
 
 *begin CountLazloALL
 
-*export CountLazlo.027a LazloStrog1.054
+*export CountLazlo.027a LazloStrog1.054 BrunoKranskies1.tag
 
 *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
 *include sds
 *include LazloStrog1
 *include LazloStrog2
 *include LazloStrog3
+*include LazloStrog4
+*include BrunoKranskies1
+*include BrunoKranskies2
 *include LimboPassage
 
 *equate CountLazlo.027a sds.014
@@ -17,5 +20,7 @@
 *equate LazloStrog1.001 LazloStrog2.7
 *equate LazloStrog2.29 LazloStrog3.29x
 *equate LazloStrog3.1 CountLazlo.000
+*equate BrunoKranskies1.5 LazloStrog4.5x
+*equate BrunoKranskies1.8 BrunoKranskies2.8x
 
 *end CountLazloALL
