@@ -2,7 +2,7 @@
 *begin Large3
 *export 41
 
-*title "Large Pot - Lower half of Red Herring series"
+*title "Large Pot - Lower half of Red Herring series plus sump"
 *date 2010.10.10
 *team Instruments Patrick Warrn
 *team Notes Becka Lawson
@@ -53,6 +53,19 @@
 39	38	3.41	111	-20
 39	40	5.88	273	+49
 41	40	5.35	348	-12
+
+; Extra info from John Cordingley's dive log via email from John to Becka on 24.11.10 - Dive made on 28th August 1982
+; The sump runs back under the approach passage. The passage is coated with lots of fine silt which makes it very difficult 
+; to stay ahead of the clouds. After a descent to -3 m the passage rises to an airbell 6 m from base. 4 metres beyond is 
+; another smaller airbell. At 12 m from base in total ("base" means the centre of the just-submerged rock lip where the 
+; underwater passage goes back under the approach passage) the passage is suddenly blocked by deep silt banks. 
+; The underwater passage is straight and the trend was recorded as 53 degrees magnetic.
+; Becka has used this info to add in some sump legs
+
+1	42	3.00	-	down	; sump - descend to -3m
+42	43	1.00	330	0		; to start of lip
+43	44	6.00	053	0		; sump - along to  airbell
+44	45	6.00	053	0		; sump - to silt bank
 
 *data passage station left right up down ignoreall
 
