@@ -1,0 +1,93 @@
+*begin Keld_Head
+
+*export kh09.218
+
+*include kh01.svx
+*include kh01a.svx
+*include kh01b.svx
+*include kh02.svx
+*include kh02a.svx
+*include kh02b.svx
+*include kh02c.svx
+*include kh02d.svx
+*include kh02e.svx
+*include kh03.svx
+*include kh04.svx
+*include kh05.svx
+*include kh06.svx
+*include kh06a.svx
+*include kh07.svx
+*include kh08.svx
+*include kh09.svx
+*include kh09a.svx
+*include kh10.svx
+*include kh10a.svx
+*include kh10b.svx
+*include kh10c.svx
+*include kh11_op.svx
+*include kh12.svx
+*include kh13_msb.svx
+*include kh14.svx
+*include kh15.svx
+*include kh16.svx
+
+;*equate	kh01.001	ks2.000
+*equate	kh01.029	kh01a.001
+*equate	kh01.010	kh01a.019
+*equate	kh01.029	kh01b.001
+*equate	kh01.062	kh02.062
+*equate	kh01.019	kh10.wp001
+*equate	kh01.001	kh12.017
+
+*equate	kh01a.015	kh12.001
+*equate	kh01a.001	kh16.032
+
+*equate	kh02.081	kh02a.001
+*equate	kh02.064	kh10c.wp066
+*equate	kh02.073	MSB.Rup1.001
+*equate	kh02.088	kh03.088
+*equate	kh02.064	kh15.001
+
+*equate	kh02a.036	kh02b.001
+*equate	kh02a.032	kh02c.001
+
+*equate	kh02b.007	kh04.134
+
+*equate	kh02c.018	kh02d.001
+*equate	kh02c.027	kh02e.001
+
+*equate	kh02e.010	kh06a.006c
+
+*equate	kh03.112	kh04.112
+
+*equate	kh04.121	kh14.001
+*equate	kh04.138	kh05.138
+
+*equate	kh05.148	kh06.148
+
+*equate	kh06.159	kh06a.001
+*equate	kh06.159	kh07.159
+
+*equate	kh06a.006c	kh02e.010
+
+*equate	kh07.171	kh08.171
+
+*equate	kh08.193	kh09.193
+
+*equate	kh09.193	kh09a.193
+*equate	kh09.201	kh09a.193d
+
+*equate	kh10.wp022	kh10a.wp022
+
+*equate	kh10a.wp036	kh10b.wp036
+
+*equate	kh10b.wp054	kh10c.wp054
+
+*equate osmoticpalpitator.1	MSB.Rup1.076
+
+*equate	kh12.012	kh16.001
+
+
+*fix kh01.001 69573.00 76576.00 260.0 ;GPS
+
+*end  Keld_Head

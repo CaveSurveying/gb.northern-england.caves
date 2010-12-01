@@ -1,0 +1,33 @@
+;Cave:  Keld Head - The Open Road and Part of Crassland's Passage - starts from line juction at end of leg 14 along 
+;       north east side of entrance loop
+;Surveyors:	JNC
+;Date:	05/04/00
+;Instruments:	JNC
+
+*begin	kh12
+
+*export 001 012 017
+
+*calibrate compass	+5.17
+*data diving from to bearing length fromdepth todepth
+001	002	063.0	13.36	-04.40	-04.20
+002	003	036.0	02.62	-04.20	-03.30
+003	004	068.0	01.31	-03.30	-02.90
+004	005	074.0	02.66	-02.90	-02.80
+005	006	052.0	02.75	-02.80	-02.60
+006	007	063.0	02.50	-02.60	-02.40
+007	008	072.0	00.85	-02.40	-02.50
+008	009	084.0	02.48	-02.50	-03.50
+009	010	117.0	04.09	-03.50	-03.60
+010	011	119.0	07.17	-03.60	-04.40
+011	012	098.0	05.78	-04.40	-04.70
+
+;st012=line junction at end of Open Road with Crossland's Passage - this continues further into Crossland's pass. to the left ( on 39 deg. mag.) and leads back to the entrance belay to the right.  The rest of this survey goes to the right (ie. back to the entrance)
+
+012	013	183.0	04.56	-04.70	-03.50
+013	014	225.0	03.62	-03.50	-03.30
+014	015	205.0	01.78	-03.30	-01.70
+015	016	131.0	01.18	-01.70	-00.90
+016	017	212.0	03.55	-00.90	+00.45	;st017=peg belay at entrance.
+
+*end	kh12

@@ -1,0 +1,25 @@
+;Cave:	Keld Head - Starting at junction in Great Western at end of leg 75 in Rupe's Survey of the Marble Steps Branch
+;Surveyors:	JNC
+;Date:	08/04/00
+;vis = ???
+
+*begin	osmoticpalpitator
+
+*export 1
+
+*calibrate compass	+5.17
+
+*data diving from to bearing length fromdepth todepth
+
+1	2	203.0	01.35	-08.40	-08.30	;st001=Ruperts end of leg 075
+2	3	218.0	03.90	-08.30	-08.30
+3	4	221.0	03.30	-08.30	-08.30
+4	5	215.0	05.40	-08.30	-08.30
+5	6	194.0	03.45	-08.30	-08.30
+6	7	174.0	02.20	-08.30	-08.10
+;the next three legs have estimated bearings
+7	8	165.0	03.30	-08.10	-08.10
+8	9	160.0	03.30	-08.10	-08.10
+9	10	180.0	04.00	-08.10	-08.10	;chamber 29.10 from Great Western present limit of line.
+
+*end	osmoticpalpitator

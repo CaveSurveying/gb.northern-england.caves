@@ -1,0 +1,27 @@
+;Cave:	Keld Head (seventh dive) Starting at eyehole belay at zero depth in Yorrurt Revisited airbell, going upstream into mainstream route (AKA mainstream inlet No.1)
+;Surveyors:	JNC
+;Date:	17/04/98
+;vis = ???
+
+*begin	kh07
+
+*export 159 171
+
+*calibrate compass	+5.45
+
+*data diving from to bearing length fromdepth todepth
+
+159	160	014.0	08.60	 00.00	-03.60
+160	161	042.0	18.91	-03.60	-04.10
+161	162	051.0	25.84	-04.10	-05.20	;st.162 is jnct.d/s end of main stream route
+162	163	036.0	09.61	-05.20	-05.70
+163	164	052.0	09.98	-05.70	-05.80
+164	165	036.0	13.98	-05.80	-06.10	;st.165=0.5m from R wall going u/s
+165	166	045.0	04.82	-06.10	-06.00	;st.166 L wall 2m away
+166	167	041.0	27.11	-06.00	-06.70	;L wall in sight all way, v.near for first 10m of leg
+167	168	034.0	13.16	-06.70	-06.80	;st.168 is area of large boulders
+168	169	033.0	21.95	-06.80	-07.10	;st.169 on left wall. R wall seen 4m away after 11m
+169	170	001.0	02.76	-07.10	-08.30
+170	171	002.0	09.84	-08.30	-08.20
+
+*end	kh07

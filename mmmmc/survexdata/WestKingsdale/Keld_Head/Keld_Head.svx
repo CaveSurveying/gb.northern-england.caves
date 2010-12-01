@@ -1,0 +1,627 @@
+*begin Keld_Head
+
+*export kh09.218
+
+;*equate	Entrance.001	ks2.000
+*equate	Entrance.029	EntranceLoopNorth.001
+*equate	Entrance.010	EntranceLoopNorth.019
+*equate	Entrance.029	EasterAven.001
+*equate	Entrance.062	kh02.062
+*equate	Entrance.019	kh10.wp001
+*equate	Entrance.001	kh12.017
+
+*equate	EntranceLoopNorth.015	kh12.001
+*equate	EntranceLoopNorth.001	kh16.032
+
+*equate	kh02.081	KingsdalePassage.pt1.001
+*equate	kh02.064	kh10c.wp066
+*equate	kh02.073	MSB.Rup1.001
+*equate	kh02.088	Darkside.kh03.088
+*equate	kh02.064	kh15.001
+
+*equate	KingsdalePassage.pt1.032	98extn.pt1.001
+
+*equate	KingsdalePassage.pt2.007	Darkside.kh04.134
+
+*equate	98extn.pt1.018	BlueSump.001
+
+
+*equate	Darkside.kh04.121	kh14.001
+
+*equate	Darkside.kh06.159	YorrurtRevisited.001
+*equate	Darkside.kh06.159	kh07.159
+
+*equate	YorrurtRevisited.006c	98extn.LeftBranch.010
+
+*equate	kh07.171	kh08.171
+
+*equate	kh08.193	kh09.193
+
+*equate	kh09.193	kh09a.193
+*equate	kh09.201	kh09a.193d
+
+*equate	kh10.wp022	kh10a.wp022
+
+*equate	kh10a.wp036	kh10b.wp036
+
+*equate	kh10b.wp054	kh10c.wp054
+
+*equate osmoticpalpitator.1	MSB.Rup1.076
+
+*equate	kh12.012	kh16.001
+
+*begin	Entrance
+*export 001 010 019 029 062
+
+;Cave:	Keld Head Entrance series-From entrance peg belay    (0.45m above water level) going ;	upstream in main passage, to 305.83m from base in Kingsdale Passage.
+;Surveyors:	JNC
+;Date:	24/05/97
+*date 1997.05.24
+;vis = 1.5m
+
+*fix 001 69573.00 76576.00 260.0 ;GPS
+*entrance 001
+
+*calibrate compass	4.83 ;was +5.17
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	237.0	05.10	 00.0	-02.0	;st001 = peg belay for diving line at Keld Head ent. pool
+002	003	246.0	04.50	-02.0	-01.5
+003	004	266.0	06.00	-01.5	-03.5
+004	005	269.0	01.88	-03.5	-03.2
+005	006	271.0	06.40	-03.2	-03.8
+006	007	274.0	08.36	-03.8	-01.3
+007	008	264.0	05.30	-01.3	-01.3
+008	009	274.0	01.13	-01.3	-01.3	;st009 = joint above 1st airbell
+009	010	297.0	02.92	-01.3	-00.9	;st010 = line junc. main orange to R; centre blue = ahead;(this survey); ascending white plastic (airbell?) to L
+010	011	276.0	01.60	-00.9	-01.1
+011	012	314.0	02.17	-01.1	-02.4
+012	013	303.0	06.75	-02.4	-03.6
+013	014	282.0	06.32	-03.6	-04.0
+014	015	299.0	02.80	-04.0	-04.6
+015	016	303.0	06.50	-04.6	-04.6
+016	017	293.0	03.07	-04.6	-04.6
+017	018	317.0	05.43	-04.6	-05.2
+018	019	356.0	00.68	-05.2	-05.3	;00.30m before st019 = white line off on L to Woodings Pass.
+019	020	353.0	02.10	-05.3	-05.2
+020	021	326.0	03.78	-05.2	-05.3
+021	022	333.0	02.72	-05.3	-05.2
+022	023	357.0	02.95	-05.2	-04.7
+023	024	027.0	01.66	-04.7	-04.3
+024	025	038.0	02.28	-04.30	-03.5
+025	026	045.0	04.57	-03.5	-02.6
+026	027	035.0	04.56	-02.6	-02.8
+027	028	015.5	01.70	-02.8	-03.4
+028	029	051.0	02.47	-03.4	-03.7	;st029 = line junction: white, up(="100m" airbell) orange, right, "out" orange, left (=main survey)=Kingsdale Passage. straight on, yellow (=Crossland's ?)
+029	030	338.0	06.14	-03.7	-05.2
+030	031	292.0	10.48	-05.2	-05.9
+031	032	277.0	11.83	-05.9	-05.7
+032	033	287.0	08.58	-05.7	-05.9
+033	034	305.0	17.25	-05.9	-05.8
+034	035	302.0	06.15	-05.8	-05.8
+035	036	286.0	11.92	-05.8	-05.8
+036	037	317.0	04.24	-05.8	-05.8
+037	038	333.0	03.50	-05.8	-05.9
+038	039	354.0	05.40	-05.9	-06.1
+039	040	340.0	02.35	-06.1	-06.0
+040	041	323.0	04.80	-06.0	-05.9
+041	042	315.0	03.10	-05.9	-05.8
+042	043	298.0	03.35	-05.8	-05.6
+043	044	296.0	04.97	-05.6	-06.0
+044	045	259.0	07.98	-06.0	-05.8	;st045=line clove hitched around flat slab
+045	046	268.0	08.83	-05.8	-05.9
+046	047	268.0	04.28	-05.9	-04.8	;st047=boulders, white prong
+047	048	316.0	02.00	-04.8	-04.5
+048	049	314.0	05.03	-04.5	-05.4
+049	050	335.0	01.08	-05.4	-05.4
+050	051	350.0	01.28	-05.4	-05.4
+051	052	315.0	04.42	-05.4	-05.4	;st052=thin white string jump line up (to airbell ?), eyehole belay in boulder
+052	053	318.0	04.15	-05.4	-04.8
+053	054	290.0	02.83	-04.8	-05.0
+054	055	298.0	05.20	-05.0	-04.3	;frogspawn !!!
+055	056	301.0	02.00	-04.3	-04.5
+056	057	306.0	07.36	-04.5	-04.6
+057	058	313.0	05.75	-04.6	-06.5	;st058=start of CaCo3 veins
+058	059	310.0	08.18	-06.5	-06.8	;st059=end of CaCo3 veins
+059	060	316.0	09.20	-06.8	-06.2
+060	061	306.0	07.98	-06.2	-07.2
+061	062	305.0	08.52	-07.2	-06.9
+
+*end	Entrance
+
+*begin	EntranceLoopNorth
+*export 001 015 019
+
+;Cave:	Keld Head- North side of Entrance Loop- starting at five way juntion below 100m airbell 105.2m from base kh01 st.029 and rejoining main line 41.59m from base at kh01 st.010
+;Surveyors:	JNC
+;Date:	27/05/98
+*date 1998.05.27
+;vis = ???m
+
+*calibrate compass	4.63 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	109.0	01.20	-03.70	-04.10
+002	003	112.0	01.34	-04.10	-04.00
+003	004	138.5	03.42	-04.00	-05.50
+004	005	095.0	02.41	-05.50	-05.70
+005	006	093.0	01.23	-05.70	-06.60
+006	007	136.0	00.97	-06.60	-06.70
+007	008	165.0	02.87	-06.70	-06.50
+008	009	146.0	06.17	-06.50	-06.20
+009	010	178.0	03.90	-06.20	-05.40
+010	011	130.0	06.27	-05.40	-05.80
+011	012	127.0	02.75	-05.80	-05.50
+012	013	140.0	02.53	-05.50	-04.70
+013	014	139.5	05.62	-04.70	-04.40
+014	015	145.0	01.83	-04.40	-04.40
+015	016	185.0	00.34	-04.40	-04.40
+016	017	213.0	07.38	-04.40	-02.20
+017	018	178.0	01.87	-02.20	-01.20
+018	019	170.0	01.50	-01.20	-01.10	;st.019=kh01 st.010
+
+*end	EntranceLoopNorth
+
+*begin	EasterAven
+*export 001
+
+;Cave:	Keld Head - 100m airbell and Easter Aven
+;Surveyors:	JNC
+;Date:	17/04/03
+*date 2003.04.17
+;Instruments:	JNC standard
+
+*calibrate compass	3.82 ;was +4.29
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	054.0	05.60	-03.7	 00.0
+002	003	007.0	03.50	 00.0	 00.0
+003	004	028.0	06.00	 00.0	 00.0
+004	005	070.0	01.50	 00.0	 00.0
+005	006	320.0	03.00	 00.0	 00.0
+006	007	320.0	05.00	 00.0	 00.0
+
+*data normal from to length bearing gradient
+
+007	008	05.00	 -	UP
+
+*end	EasterAven
+
+*begin	kh02
+*export 062 064 073 081 088
+
+;Cave:	Keld Head (2nd dive) In Kingsdale Passage starting at 305.83m from base, going upstream ;	and into the Dark Side and ends at 460.43m from base.
+;Surveyors:	JNC
+;Date:	04/06/97
+*date 1997.06.04
+;vis = ???
+
+*calibrate compass	4.82 ;was +5.17
+
+*data diving from to bearing length fromdepth todepth
+062	063	319.0	05.05	-06.9	-07.3
+063	064	289.0	01.60	-07.3	-07.3	;st064=four Way junction both lines to SE=Woodings Pass.
+064	065	310.0	05.22	-07.3	-07.7
+065	066	312.0	02.56	-07.7	-07.7
+066	067	315.0	03.72	-07.7	-07.8
+067	068	312.0	07.13	-07.8	-07.8
+068	069	314.0	03.85	-07.8	-08.1
+069	070	314.0	04.90	-08.1	-08.2
+070	071	323.0	04.43	-08.2	-08.1
+071	072	304.0	10.61	-08.1	-08.1
+072	073	332.0	08.45	-08.1	-08.3
+;st 072 is line junction at "1100 ft Corner". Branch line to left = Marble Steps Branch but survey
+;continues upstream in Kingsdale Passage.
+073	074	026.0	08.08	-08.3	-08.5
+074 	075	037.0	12.41	-08.5	-08.7
+075	076	026.0	07.67	-08.7	-08.9
+076	077	045.0	14.01	-08.9	-08.8
+077	078	048.0	03.13	-08.8	-08.7
+078	079	063.0	04.36	-08.7	-09.0
+079	080	054.0	03.04	-09.0	-09.1
+080	081	046.0	04.82	-09.1	-09.4
+;st 081 = junction where The Dark Side leaves the original Kingsdale passage. The survey
+;continues via The Dark Side, towards K.M.C.
+081	082	329.0	03.76	-09.4	-09.6
+082	083	347.0	02.61	-09.6	-09.5
+083	084	004.0	13.78	-09.5	-09.9
+084	085	313.0	03.16	-09.9	-10.1
+085	086	331.0	07.94	-10.1	-10.1
+086	087	021.0	05.86	-10.1	-09.9
+087	088	040.0	02.45	-09.9	-09.8
+
+*end	kh02
+
+*begin	KingsdalePassage
+*export pt1.001 pt1.032 pt2.007
+
+*equate	pt1.036	pt2.001
+
+*begin pt1
+*export 001 032 036
+
+;Cave:	Keld Head (9th dive) Start Dark Side/ Kingsdale Passage Junction to Dead Man's Handshake
+;Surveyors:	JNC
+;Date:	23/05/97
+*date 1997.05.23
+;vis = ???
+
+*calibrate compass	4.83 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	071.0	05.44	-09.40	-09.50	;at end, L.Wall=1m
+002	003	077.0	07.33	-09.50	-09.50	;at end, L.Wall=3m
+003	004	096.0	06.92	-09.50	-09.20	;at end, L.Wall=0.6m
+004	005	062.5	13.63	-09.20	-09.30	;at end, L.Wall=0.6m
+005	006	071.0	09.23	-09.30	-09.20	;at end, L.Wall=1m
+006	007	082.0	10.33	-09.20	-09.30	;at end, L.Wall=3m
+007	008	092.5	07.88	-09.30	-09.30	;at end, L.Wall=4m
+008	009	078.0	12.35	-09.30	-09.00	;All next to wall
+009	010	069.0	06.82	-09.00	-08.80	;at end, L.Wall=4m(L.wall veers off right away)
+010	011	051.0	21.42	-08.80	-09.30	;at end, L.Wall=3m
+011	012	058.0	13.29	-09.30	-09.20	;at end, L.Wall=1.5m
+012	013	059.0	03.51	-09.20	-09.20	;at end, L.Wall=2m
+013	014	058.0	20.35	-09.20	-08.90	;at end, L.Wall=1m
+014	015	062.0	15.67	-08.90	-09.10	;at end, L.Wall=2m(in view all way)
+015	016	062.0	06.90	-09.10	-08.80	;at end, L.Wall=2.5m
+016	017	062.0	27.03	-08.80	-09.30	;at end, L.Wall=3m
+017	018	060.5	13.71	-09.30	-09.50	;at end, L.Wall=0.5m(seen all way)
+018	019	055.0	15.28	-09.50	-09.90	;at end, L.Wall=3m
+019	020	062.0	29.90	-09.90	-10.20	;at end, L.Wall=2m
+020	021	061.5	16.91	-10.20	-10.80	;at end, L.Wall=0.3m(was v.close all way)
+021	022	058.5	14.70	-10.80	-11.30	;at end, L.Wall=2m(large boulder before start of this leg, L.wall veers off ??m after start)
+022	023	349.0	00.65	-11.30	-11.30
+023	024	049.5	13.51	-11.30	-11.50	;at end, L.Wall=1m
+024	025	039.0	15.01	-11.50	-11.90	;at end, L.Wall=2m(2m to ???? boulder, L.wall seen all way)
+025	026	040.0	29.45	-11.90	-12.90	;at end, L.Wall=2m
+026	027	039.0	15.68	-12.90	-13.30	;at end, L.Wall=0.5m
+027	028	052.0	10.15	-13.30	-13.20	;at end, L.Wall=1.5m
+028	029	047.0	20.73	-13.20	-14.30	;at end, L.Wall=4m(most of way L.wall close, after 15m, veers off to left)
+029	030	051.0	07.40	-14.30	-14.60
+030	031	039.0	27.00	-14.60	-15.00	;at end, L.Wall=1m
+031	032	037.0	09.35	-15.00	-15.50	;at end, R.Wall=0m(inverted mushroom)
+032	033	050.0	18.54	-15.50	-16.30
+033	034	062.0	13.94	-16.30	-15.90	;to L.Wall
+034	035	032.0	05.60	-15.90	-15.20	;L.Wall all way
+035	036	039.0	03.01	-15.20	-14.90	;st.036=Dead Man's Handshake(start of) station is long narrow eyehole L.Wall
+*end pt1
+
+*begin	pt2
+*export 001 007
+
+;Cave:	Keld Head (ninth dive) Kingsdale Passage (going upstream from the junction with the downstream end of the dark Side at 420.87m from base -st.081 on the original survey traverse- and ending at the junctio with the upstream end of the Dark Side 943.53m from base- measured via Kingsdale Passage- st.134 on the original survey traverse
+;Surveyors:	JNC
+;Date:	23/05/98
+*date 1998.05.23
+;vis = ???
+
+*calibrate compass	4.63 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	036.0	04.77	-14.90	-15.60	;st.001=kh02a st.036 Dead Mans Handshake
+002	003	062.5	16.15	-15.60	-16.30
+003	004	025.5	01.32	-16.30	-16.40
+004	005	003.0	15.63	-16.40	-17.20
+005	006	001.0	03.18	-17.20	-17.20
+006	007	018.0	09.22	-17.20	-17.80	;st.007=junction at upstream end of the Dark Side=st.134 on previous survey
+
+*end pt2
+
+*end KingsdalePassage
+
+*begin 98extn
+*export pt1.001 pt1.018 LeftBranch.010
+
+*equate	pt1.027	LeftBranch.001
+
+*begin pt1
+*export 001 018 027
+
+;Cave:	Keld Head kh02a st.032 new stuff
+;Surveyors:	JNC
+;Date:	06/06/98
+*date 1998.06.06
+;vis = ???
+
+*calibrate compass	4.63 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	050.0	16.00	-15.50	-15.80	;st.001=kh02a st.032 mushroom
+002	003	096.0	05.00	-15.80	-16.80
+003	004	049.0	04.00	-16.80	-15.40
+004	005	099.0	07.50	-15.40	-16.40
+005	006	040.0	10.00	-16.40	-10.10
+006	007	041.0	10.00	-10.10	-04.00
+007	008	037.0	08.00	-04.00	 00.00	;float
+008	009	040.0	08.00	 00.00	 00.00	;st.009=junction in big lake
+009	010	136.0	13.50	 00.00	 00.00
+010	011	136.0	07.00	 00.00	 00.00
+011	012	126.0	04.00	 00.00	 00.00
+012	013	120.0	07.00	 00.00	 00.00
+013	014	113.0	12.00	 00.00	 00.00
+014	015	095.0	03.00	 00.00	 00.00
+015	016	094.0	05.00	 00.00	 00.00
+016	017	099.0	04.00	 00.00	-01.00
+017	018	083.0	04.00	-01.00	-01.00
+018	019	040.0	05.50	-01.00	 00.00
+019	020	040.0	18.00	 00.00	 00.00
+
+;data follows on 29-05-98
+
+020	021	318.0	07.00	 00.00	-01.20
+021	022	011.0	13.00	-01.20	-01.90
+022	023	051.0	01.50	-01.90	-01.60
+023	024	086.0	09.50	-01.60	-02.20
+024	025	085.0	07.50	-02.20	-02.30
+025	026	052.0	04.00	-02.30	-02.70
+026	027	359.0	09.50	-02.70	-03.40
+027	028	037.0	09.50	-03.40	-01.80
+028	029	061.0	09.50	-01.80	-01.90
+029	030	049.0	05.00	-01.90	-01.10
+030	031	050.0	04.50	-01.10	-00.90
+031	032	038.0	05.50	-00.90	-00.90
+032	033	049.0	04.50	-00.90	-00.70
+
+*end pt1
+
+*begin LeftBranch
+*export 001 010
+
+;Cave:	Keld Head-May 98 extension left hand branch
+;Surveyors:	JNC
+;Date:	06/06/98
+*date 1998.06.06
+;vis = ???
+
+*calibrate compass	4.63 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	037.0	01.00	-03.40	-03.30
+002	003	015.0	03.00	-03.30	-02.80
+003	004	340.0	03.00	-02.80	-02.90
+004	005	002.0	09.00	-02.90	-03.00
+005	006	016.0	11.00	-03.00	-03.50
+006	007	040.0	17.00	-03.50	-03.30
+007	008	062.0	05.00	-03.30	-03.30
+008	009	028.0	05.00	-03.30	-03.70
+009	010	031.0	06.00	-03.70	 00.00
+
+*end LeftBranch
+
+*end 98extn
+
+*begin	BlueSump
+*export 001
+
+;Cave:	Keld Head-Blue Sump
+;Surveyors:	JNC
+;Date:	06/06/98
+*date 1998.06.06
+;vis = ???
+
+*calibrate compass	4.63 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	135.0	08.00	-01.00	-00.50
+002	003	115.0	10.00	-00.50	-00.60
+003	004	122.0	06.00	-00.60	 00.00
+004	005	051.0	10.50	 00.00	-01.70
+005	006	155.0	04.50	-01.70	-02.30
+006	007	202.0	11.00	-02.30	-02.10
+007	008	231.0	07.00	-02.10	-02.40
+008	009	207.0	08.00	-02.40	-01.90
+009	010	203.0	05.00	-01.90	-01.80
+010	011	203.0	10.50	-01.80	-01.20
+011	012	155.0	06.50	-01.20	-00.70
+012	013	180.0	03.00	-00.70	-00.60
+
+*end	BlueSump
+
+*begin	DarkSide
+*export kh03.088 kh04.121 kh04.134 kh06.159
+
+*equate	kh03.112	kh04.112
+*equate	kh04.138	kh05.138
+*equate	kh05.148	kh06.148
+
+*begin	kh03
+
+*export 088 112
+
+;Cave:	Keld Head Sump(3rd dive) Starts at 460.43m and ends at 725.93m (in the Dark Side)
+;Surveyors:	John Cordingley
+;Date:	02-11-97
+*date 1997.11.02
+;Instruments:	JNC's
+
+*calibrate compass	4.73 ;was +5.17
+
+*data diving from to bearing length fromdepth todepth
+
+088	089	043.0	04.20	-09.8	-10.3	;st088=kh02.088
+089	090	064.0	12.65	-10.3	-10.0
+090	091	060.0	18.20	-10.0	-10.3
+091	092	049.0	15.50	-10.3	-10.6
+092	093	031.0	02.20	-10.6	-10.7
+093	094	023.0	04.70	-10.7	-11.0
+094	095	012.0	08.40	-11.0	-11.3
+095	096	056.0	11.50	-11.3	-11.4
+096	097	035.0	30.15	-11.4	-11.3
+097	098	031.0	05.40	-11.3	-11.6
+098	099	033.0	08.95	-11.6	-11.3
+099	100	040.0	09.45	-11.3	-11.0
+100	101	051.0	28.50	-11.0	-10.7
+101	102	091.0	11.15	-10.7	-10.3
+102	103	056.0	09.10	-10.3	-10.4
+103	104	044.0	11.60	-10.4	-10.2
+104	105	047.0	14.65	-10.2	-10.7
+105	106	064.0	21.25	-10.7	-10.1	;end leg 105?(106)is centrew of large rockpile(ref N.S. Index)
+106	107	050.0	16.90	-10.1	-11.1
+107	108	075.0	16.50	-11.1	-12.6
+108	109	088.0	11.25	-12.6	-13.3
+109	110	064.0	07.40	-13.3	-13.2
+110	111	065.0	02.40	-13.2	-13.4
+111	112	051.0	10.50	-13.4	-13.6	;end leg 111?(112)=725.93m from base
+
+*end	kh03
+
+*begin	kh04
+
+*export 112 121 134 138
+
+;Cave:	Keld Head Sump(4th dive)Starting at 725.93m in the Dark Side, rejoining Kingsdale	;	Passage line at 976.73m (just upstream of Dead Man's Handshake) and then continuing	;	upstream in Kingsdale Passage to 1021.00m from base (via the route taken)
+;Surveyors:	John Cordingley
+;Date:	08-11-97
+*date 1997.11.08
+;Instruments:	JNC's
+
+*calibrate compass	4.73 ;was +5.17
+
+*data diving from to bearing length fromdepth todepth
+
+112	113	029.0	21.10	-13.6	-14.1
+113	114	073.0	13.15	-14.1	-14.6
+114	115	071.0	13.82	-14.6	-14.9
+115	116	028.0	10.46	-14.9	-14.6
+116	117	070.0	30.00	-14.6	-15.8
+117	118	074.0	04.18	-15.8	-15.8
+118	119	070.0	13.82	-15.8	-16.0
+119	120	035.0	10.53	-16.0	-16.2
+120	121	044.0	09.51	-16.2	-16.1	;st121 Open Road Oxbow on stream right
+121	122	080.0	07.45	-16.1	-16.7
+122	123	057.0	08.60	-16.7	-16.9
+123	124	069.0	02.70	-16.9	-16.8
+124	125	073.0	05.68	-16.8	-17.0
+125	126	091.0	22.66	-17.0	-17.2
+126	127	049.0	04.53	-17.2	-15.7
+127	128	044.0	12.25	-15.7	-16.4
+128	129	119.0	05.03	-16.4	-17.2
+129	130	118.0	10.66	-17.2	-17.3
+130	131	100.0	07.60	-17.3	-17.4
+131	132	102.0	05.88	-17.4	-17.3
+132	133	061.0	04.90	-17.3	-17.8
+133	134	087.0	01.28	-17.8	-17.8	;end leg 133?(134)is end of Dark Side(jnct with Kingsdale Pass.)
+134	135	021.0	10.50	-17.8	-18.1
+135	136	027.0	15.04	-18.1	-18.4
+136	137	034.0	13.03	-18.4	-18.7
+137	138	036.0	05.70	-18.7	-18.7	;end leg 137?(138)is 1021.58m from base
+
+*end	kh04
+*begin	kh05
+
+*export 138 148
+
+;Cave:	Keld Head (fifth dive) Starting at 1021.58m from base (via the Dark Side) and ending at ;	base of shaft up into the shallow part of KMC 1112.93m from base
+;Surveyors:	JNC
+;Date:	01/02/98
+*date 1998.02.01
+;vis = ???
+
+*calibrate compass	4.70 ;was +4.97
+
+*data diving from to bearing length fromdepth todepth
+
+
+138	139	042.0	02.14	-18.70	-18.50
+139	140	067.0	10.25	-18.50	-18.50
+140	141	037.5	09.80	-18.50	-19.10
+141	142	015.0	13.30	-19.10	-19.50	;end 142=Keld/KMC connection
+142	143	041.5	06.70	-19.50	-18.60
+143	144	061.0	25.10	-18.60	-19.70
+144	145	079.0	04.30	-19.70	-19.30
+145	146	068.0	05.00	-19.30	-19.60
+146	147	043.0	07.45	-19.60	-19.70
+147	148	353.0	04.80	-19.70	-19.70	;st148=1112.93m=base of shaft up to shallow zone
+
+*end	kh05
+
+*begin	kh06
+
+*export 148 159
+
+;Cave:	Keld Head (sixth dive) Starting at 1112.93m from base ending at Yorrurt Revisited airbell
+;Surveyors:	JNC
+;Date:	21/03/98
+*date 1998.03.21
+;vis = ???
+
+*calibrate compass	4.68 ;was +5.45
+
+*data diving from to bearing length fromdepth todepth
+
+148	149	003.0	06.02	-19.70	-15.70
+149	150	025.0	13.35	-15.70	-07.90
+150	151	011.0	03.90	-07.90	-05.00
+151	152	006.0	03.90	-05.00	-05.10
+152	153	085.0	03.50	-05.10	-05.20
+153	154	058.0	06.30	-05.20	-05.20
+154	155	081.0	10.62	-05.20	-05.50
+155	156	085.0	05.85	-05.50	-04.90
+156	157	178.0	04.40	-04.90	-04.80
+157	158	196.0	09.70	-04.80	-03.60
+158	159	208.0	13.45	-03.60	00.00	;Yorrurt Revisited Airbell
+
+*end	kh06
+
+*end DarkSide
+
+*begin	YorrurtRevisited
+*export 001 006c
+
+;Cave:	Keld Head-Starting at eyehole Yorrurt Revisited airbell
+;Surveyors:	JNC
+;Date:	13/04/91
+*date 1991.04.13
+;vis = ???
+
+*calibrate compass	5.73 ;was +6.15
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	180.0	05.00	 00.00	-03.00
+002	003	215.0	07.00	-03.00	-02.50
+003	004	131.0	12.00	-02.50	-01.80
+004	005	131.0	07.00	-01.80	-01.20
+005	006	145.0	08.00	-01.20	-01.00
+006	006a	226.0	02.00	-01.00	+01.00
+006a	006b	226.0	30.00	+01.00	+01.00
+006b	006c	226.0	01.00	+01.00	 00.00
+006	007	170.0	05.00	-01.00	-01.20
+007	008	180.0	04.00	-01.20	-01.00
+008	009	165.0	04.00	-01.00	-01.00
+009	010	129.0	01.50	-01.00	-01.00
+010	011	195.0	03.00	-01.00	-01.00
+011	012	193.0	05.50	-01.00	-00.80
+012	013	185.0	04.00	-00.80	-00.70
+013	014	220.0	07.00	-00.70	 00.00
+014	015	220.0	04.50	 00.00	+01.00	;above water
+015	016	235.0	05.00	+01.00	 00.00
+
+*end	YorrurtRevisited
+
+*include kh07.svx
+*include kh08.svx
+*include kh09.svx
+*include kh09a.svx
+*include kh10.svx
+*include kh10a.svx
+*include kh10b.svx
+*include kh10c.svx
+*include kh11_op.svx
+*include kh12.svx
+*include kh13_msb.svx
+*include kh14.svx
+*include kh15.svx
+*include kh16.svx
+
+
+
+*end  Keld_Head

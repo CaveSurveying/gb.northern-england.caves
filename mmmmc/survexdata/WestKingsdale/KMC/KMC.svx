@@ -1,0 +1,836 @@
+*begin KMC
+*export	Master_Cave.1
+
+*equate	Roof_Tunnel.052 Window_Aven.B7a
+*equate	Roof_Tunnel.017 Milky_Way.001
+*equate Milky_Way.010 Toyland.13
+*equate Milky_Way.015 DCC_Chunnel.001
+*equate Milky_Way.015 Carrot_Passage.14
+*equate	Roof_Tunnel.054 Master_Cave.1
+*equate	Master_Cave.106 Philosophers_Crawl.part1.001
+*equate	Master_Cave.106 RowtenPassage.36
+*equate	Philosophers_Crawl.part1.005 SwinstoSump.001
+*equate	RowtenPassage.1 RowtenSumps.0
+
+*begin Roof_Tunnel
+*export 017 052 054
+
+;Cave:	Valley entrance-Kingsdale 
+;Surveyors:	R.Duffy/Pete Grant
+*date 1997.04.03	;Date:	03/04/97eve
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+*calibrate compass	+4.85
+
+*fix 002 69908.00 77410.00 279.00 ;GPS Footleg  369908.00 477410.00 279.00
+
+*entrance 002
+
+;001	002	03.17	116.5	+03.0
+002	003	02.48	293.0	-14.5	;st002 is start of drum 
+003	004	08.20	275.0	+01.0
+004	004a	04.85	041.5	+02.0	;to dig
+004	005	09.40	332.0	-01.0
+005	006	10.85	274.0	-01.0
+006	006a	05.90	350.0	-08.0	;to dig
+006	007	13.10	282.0	-01.5
+007	008	07.95	305.0	-04.5
+008	009	01.00	 -	UP
+009	010	07.65	006.0	-03.0
+010	011	07.70	327.0	+01.0
+011	012	13.70	024.5	+02.5	;11 Aven above +10m
+011	A01	3	266	0	;estimated leg to position aven
+A01	A02	10.20	-	UP	;11.40 to floor, minus 1.2 from LRUD at stn11
+A03	A02	4	135	-45	
+012	013	04.65	338.0	-10.0	;12 Aven above +10m
+013	014	13.90	324.0	 00.0
+014	015	14.90	250.0	-02.0
+015	016	08.25	298.0	-05.0
+016	017	01.90	252.0	 00.0
+017	018	00.30	 -	DOWN	;stn017/018 is junction with Milky Way
+018	019	12.00	356.0	-02.0
+019	020	07.35	304.0	+02.5
+020	021	09.40	319.0	 00.0
+021	022	09.65	357.5	-01.5
+022	023	08.80	349.5	+00.5
+023	024	17.00	305.0	-00.5
+024	025	04.85	018.0	+00.5
+025	026	04.75	285.0	+03.5
+026	027	08.05	337.0	+04.0
+027	028	08.30	002.0	 00.0
+028	029	12.50	319.0	+00.5
+029	030	10.50	019.0	+02.5
+030	031	02.30	323.0	-09.0
+031	032	00.60	 -	UP	;st031=tag
+032	033	18.50	038.0	-04.0
+033	034	01.40	 -	UP
+034	035	07.35	050.0	-02.0
+035	036	10.25	014.0	 00.0
+036	037	08.20	069.0	-00.5
+037	038	15.45	007.5	 00.0
+038	039	05.15	327.5	+03.0
+039	040	16.50	064.5	-01.0
+040	041	07.75	083.5	-01.0
+041	042	16.10	042.0	-02.5	;42=estimated position of aven, not marked on survey notes
+042	A04	12.00	292	+75
+A04	A05	 3.00	-	+V
+042	043	12.75	076.0	-00.5
+043	044	08.95	340.0	-03.5
+044	045	03.40	027.0	-18.0	;st044=tag
+045	046	13.60	334.5	-01.0
+046	047	05.75	015.5	 00.0
+047	048	08.30	355.0	 00.0
+048	049	06.40	017.0	-16.0	;st048=tag
+049	050	00.90	 -	UP
+050	051	05.20	066.0	-05.0
+051	052	03.55	009.0	+11.0	;st052=highest P hanger top of pitch
+052	053	05.66	 -	DOWN	;st053 is head height in stream below pitch
+053	054	04.45	180.0	-10.0	;st054=knot on diver's line at sump
+
+*data passage station left right up down
+;002 lip of entrance tube
+003	1	0.2	0.5	0	
+004	2.5	2	3	1	
+005	3	4	2.5	0.6	
+006	1	1.5	0.4	0.6	
+007	0.5	0.5	0	1.5	
+008	4	2	4	0	
+010	2	0	0.4	1.2	
+011	4	1	.5	1.2	;Aven above +10m
+012	2.5	0.5	.5	1	;Aven above +10m	
+013	0.5	2	0.6	0.5	
+014	1	1	1	0.8	
+015	1	4	2	1	
+016	1.5	1.5	1	0.7	
+017	1	2	0	1	
+019	1	1	0.5	0.4	
+020	2	0	3	1	
+021	2	0	0.4	0.7	
+022	2	0	0.2	0.6	
+023	0.5	0.8	0.7	0.7	
+024	0.5	2	1	0.5	
+025	1	1	1	0.6	
+026	0.3	1	0.5	1	
+027	0.7	0.5	0.2	0.8	
+028	2	0	0.5	1.6	
+029	1.5	0	2	1.8	
+030	1.5	0.4	0.2	1.8	
+031	0	1	2	1.3	
+033	1	1	1.2	0	
+035	1.5	0.2	0.5	1	
+036	0.5	1.5	0.5	1	
+037	2	0.2	0.5	0.5	
+038	2	0.5	1	0.6	
+039	0.7	1	0.3	1.8	
+040	0.6	0.6	0.3	1	
+041	1	1	0.5	1	
+042	0.4	1.5	0.5	1	
+043	1.7	0.2	1	0.5	
+044	0.2	1	1	0.5	
+045	0.5	0.6	0.5	0.5	
+046	0.2	1	0.5	0.5	
+047	0.6	1	0.3	0.4	
+048	2.5	0.3	15	0	;Aven above +15m
+049	.2	1	1	0	
+051	1	0.2	1	1	
+;052	high bolt at pitch head				
+
+*data passage station left right up down
+A01	0.5	1.5	5	1.2
+A02	0.5	1.5	0	2
+A03	0.5	1.5	0	1.5
+
+*data passage station left right up down
+042	2	2	0.2	0.2
+A04	1	1	0.2	0.2
+A05	0.5	0.5	0.2	0.2
+
+*end Roof_Tunnel
+
+*begin Window_Aven
+*export B7a
+
+;Window Aven extensions
+;Surveyors:	Terry Whittaker/Lugger(J.Thorpe)/M.Watson?????
+*date 1977.10.01	;Date:	??/10/77
+;Instruments:	?????(no correction)CHECK COMPASS CALIBRATE????
+
+*calibrate compass	+7.75
+
+0	1	7.9	204	2	;0 in middle of chamber
+0	2	5.4	13	1	
+0	3	5.9	311	4	
+0	4	5.3	305	-48	;0 to 4 chamber
+3	4	5.8	 -	DOWN	
+4	5	3.2	332	-37	
+5	6	1.2	30	0	
+6	7	2.3	 -	DOWN	
+2	8a	5.5	302	0	
+2	8	6.9	302	0	
+8	3a	5.3	181	7	
+3a	9	14	322	24	
+9	9a	0.2	 -	UP	;fissure
+9a	10	4.5	195.5	7	;st10 is start of inlet on left
+10	11	4.6	204	12	
+11	12	1.7	226	0	
+10	11a	3.8	 -	UP	;pitch head
+10	11b	1.6	204	12	
+11a	13	4.1	207	18	
+13	14	4.6	208	5	
+13	15	11.5	234	58	
+15	16	2.2	206	0	
+16	17	5	246	0	;dist approx
+16	16a	3.8	 -	DOWN	;pitch down
+9a	18	4.8	311	8	
+18	19	1.4	211	0	
+19	20	1.7	295	0	
+20	21	3.2	319	38	;between is traverse
+21	22	2.3	342	24	
+22	23	2.3	301	2	
+23	24	3.4	 -	UP	;pitch up
+24	25	1.5	299	0	
+25	26	1.5	312	0	
+26	27	0.7	248	0	
+27	28	3.7	303	0	;24 to 28 grade IV squeeze to stal boss
+28	29	0.5	 -	DOWN	;climb
+29	30	1.7	308	0	
+30	31	11.3	 -	DOWN	;31 is ledge part way down pitch
+30	B1	23.3	 -	DOWN	;B1 is base of upper part of Window aven
+
+;Window Aven floor down to master cave pitch
+B1	B2	 2.30	002.0	-30.0
+B2	B3	 5.00	 -	DOWN
+B3	B4	 6.50	030.0	-30.0
+B4	B5	 4.90	024.0	-11.0
+B5	B6	 4.20	084.0	-02.0
+B6	B7	 5.60	020.0	-10.0	;B7 = lip of pitch down to master cave
+B7	B7a	 1.00	-	UP	;Estimated leg up to bolt at pitch head which main survey uses as stn here
+B1	B8	12.37	210.0	+39.0
+B8	B9	 1.90	130.0	+38.0
+B9	B10	 1.00	192.0	+10.0
+
+*end Window_Aven
+
+*begin Milky_Way
+*export 001 010 015
+
+;Surveyors:	DCC
+*date 1999.01.05	;Date:	05/01/99
+;Instruments:	?
+
+*calibrate compass +4.53
+
+001	002	00.30	 -	DOWN
+002	003	14.60	251.0	+01.0
+003	004	10.00	243.0	+01.0
+004	005	05.60	208.0	+01.0
+005	006	11.30	294.0	-01.0
+006	007	18.20	241.0	+01.0
+007	008	04.10	197.0	-04.0
+008	009	12.10	302.0	+01.0
+009	010	21.90	264.0	+01.0	;st010 is Toyland Rift Back 1.5??????
+010	011	09.00	197.0	 00.0
+011	012	24.70	151.0	+01.0
+012	013	07.90	120.0	+03.0
+013	014	04.80	207.0	+01.0
+014	015	07.10	251.0	-04.0	;st015 = 001 in Chunnel Survey
+
+*data passage station left right up down
+002	1.2	0.4	0.3	1.2
+003	2.0	1.0	1.6	0.3
+004	1.0	0.2	2.0	0.3
+005	1.3	1.6	2.5	0.6
+006	3.5	1.2	2.3	0.4
+007	1.5	0.2	1.0	0.6
+008	1.0	1.7	1.0	0.4
+009	1.5	0.4	0.4	0.5
+010	2.0	-	0.5	1.0
+011	1.8	0.4	0.2	0.9
+012	2.0	0.2	0.3	0.4
+013	1.2	0.2	2.0	0.2
+014	0.8	1.5	2.5	0.4
+015	2.0	1.0	0.6	0.9
+
+*end Milky_Way
+
+*begin Toyland
+*export 13
+
+; Toyland chamber down to junction with crawls at bottom of rift climb
+*date 2007.04.29	; 29/04/2007
+
+; Instruments: Rose Wilson
+; Tape:        Chris Williams, Tom Baker, Karen Wilton
+; Notes:       Footleg
+;
+; Instrument set and calibration details
+; Compass 522006 Clino 032846
+;
+; Calibration against rocks outside Valley Entrance
+; Rose W.: Compass 191, 011 Clino -04, +03
+
+*calibrate compass	+3.17
+
+;fr 	to  	tape	comp	clino	L	r	U	D
+1	2	8.50	063	+04;2	4	3	2	1.6
+1	3	9.95	340	+25;3	2.5	2	3	2
+1	4	4.86	267	+34;4	2.5	1.5	1.2	0
+1	5	4.70	124	-08;5	0	1.6	4	0.6
+5	6	5.60	201	-06;6	0.4	0	0.5	1.5
+6	7	2.50	186	-10;7	0.3	0	1.0	0.7
+7	8	3.53	197	-14;8	0	0.9	1.2	0.7
+8	9	3.53	206	-32;9	0.5	0	0.4	1
+9	10	3.79	182	-70;10	0.25	0.1	2.5	0
+10	11	3.83	-	-V;11	1.5	0.2	3.8	0.5
+11	12	2.62	195	+09;12	0.7	0	3	1.5
+12	13	4.31	184	-64;13	0.7	0.7	1.5	0.4
+
+*data passage station left right up down
+2	3	4	2	1.6
+1	5.5	4.7	5	1.5
+4	2.5	1.5	1.2	0
+
+*data passage station left right up down
+3	2	2.5	3	2
+1	2	2.5	5	1.5
+5	0	1.6	4	0.6
+6	0.4	0	0.5	1.5
+7	0.3	0	1.0	0.7
+8	0	0.9	1.2	0.7
+9	0.5	0	0.4	1
+10	0.25	0.1	2.5	0
+11	1.5	0.2	3.8	0.5
+12	0.7	0	3	1.5
+13	0.7	0.7	1.5	0.4
+
+*end  Toyland
+
+*begin DCC_Chunnel
+*export 001
+
+;Cave:	Kingsdale Master Cave-Chunnel
+;Surveyors:	DCC
+*date 1999.01.05	;Date:	05/01/99
+;Instruments:	?
+
+*calibrate compass +4.53
+
+001	002	11.10	192.0	+01.0
+002	003	05.40	223.0	+04.0
+003	004	09.00	246.0	-02.0
+004	005	06.70	271.0	+02.0
+005	006	05.20	244.0	+03.0
+006	007	22.10	213.0	+01.0
+007	008	04.70	208.0	+01.0
+008	009	05.70	240.0	+04.0
+009	010	08.80	224.0	+01.0
+010	011	04.00	241.0	 00.0
+011	012	08.10	202.0	+02.0
+012	013	08.60	195.0	+01.0
+013	014	10.20	195.0	-02.0
+014	015	11.90	163.0	+02.0
+015	016	01.50	100.0	 00.0
+016	017	07.70	167.0	-01.0
+017	018	07.00	242.0	+05.0	;st018 is Base of Rift-continue next shot is foot of ladder
+
+;Bob's Your Uncle
+
+018	019	04.10	222.0	+30.0
+019	020	11.00	312.0	+80.0
+020	021	01.80	062.0	+08.0
+021	022	03.60	175.0	+08.0
+022	023	05.40	078.0	+02.0
+023	024	02.80	160.0	 00.0
+024	025	01.80	150.0	 00.0
+025	026	01.50	145.0	 00.0
+026	027	01.50	075.0	 00.0
+027	028	03.00	140.0	 00.0
+028	029	05.00	100.0	 00.0
+029	030	03.00	030.0	-02.0
+030	031	03.00	080.0	-01.0
+031	032	08.00	030.0	-01.0
+032	033	04.00	090.0	-01.0
+033	034	06.00	060.0	-01.0
+034	035	09.00	060.0	-02.0
+035	036	03.00	060.0	-02.0
+
+035	S28	10.90	093	0	;
+S2	S1	2.00	270	6	;
+S3	S2	3.30	344	1	;
+S4	S3	2.60	300	1	;
+S5	S4	3.00	324	3	;
+S6	S5	3.50	261	1	;
+S7	S6	2.70	292	2	;
+S8	S7	10.40	232	1	;
+S9	S8	4.30	263	1	;
+S10	S9	3.80	273	3	;
+S11	S10	1.90	350	-1	;
+S12	S11	4.30	264	2	;
+S13	S12	4.10	357	2	;
+S14	S13	2.60	029	-2	;
+S15	S9	5.00	208	-3	;
+S16	S15	6.80	221	-1	;
+S17	S16	4.50	199	4	;
+S18	S17	5.40	241	-2	;
+S19	S18	1.80	252	0	;
+S20	S1	5.20	050	0	;
+S21	S20	2.10	058	0	;
+S22	S21	3.70	115	0	;
+S23	S22	1.60	072	0	;
+S24	S23	4.20	029	0	;
+S25	S24	4.30	113	0	;
+S26	S25	5.60	048	0	;
+S27	S26	7.00	198	3	;
+S28	S27	5.10	088	3	;
+
+*data passage station left right up down
+001	2.0	1.0	0.6	0.9
+002	1.5	0.5	0.5	1.3
+003	1.7	0.1	0.0	1.6
+004	1.0	1.0	1.0	0.5
+005	0.4	0.5	1.0	0.5
+006	1.5	0.5	0.5	0.5
+007	0.5	0.5	0.6	0.5
+008	1.0	0.5	0.0	0.8
+009	0.0	3.0	1.2	0.8
+010	0.6	0.5	1.0	0.2
+011	1.0	0.4	1.0	0.5
+012	1.0	0.1	1.5	0.4
+013	1.0	0.5	3.0	0.7
+014	1.0	1.0	1.4	0.2
+015	0.1	1.2	0.5	0.2
+016	0.1	1.2	0.2	0.5
+017	1.0	0.0	0.5	0.5
+018	0.5	0.5	11.0	1.0
+019	1	1.5	12.0	1.0
+020	1.0	0.1	1.0	1.0
+021	0.5	0.5	0.4	0.4
+022	0.5	0.5	0.3	0.3
+023	0.5	0.5	0.1	0.4
+024	0.5	0.5	0.1	0.2
+025	0.5	0.5	0.1	0.2
+026	0.5	0.5	0.1	0.2
+027	0.5	0.5	0.1	0.2
+028	0.5	0.5	0.1	0.2
+029	0.5	0.5	0.2	0.4
+030	0.5	0.5	0.3	0.7
+031	2.0	1.0	0.8	1.0
+032	0.5	0.5	0.3	1.2
+033	0.5	0.5	0.4	1.4
+034	0.5	0.5	0.4	1.6
+035	0.3	-	1.0	1.2
+
+*data passage station left right up down
+S9	0.6	-	0.4	0.5
+S15	0.4	0.3	0.1	0.2
+S16	0.4	0.3	0.1	0.2
+S17	0.4	0.3	0.1	0.2
+S18	0.4	0.4	1.0	0.2
+S19	0.4	0.4	0.1	0.2
+
+*data passage station left right up down
+035	0.5	0.5	0.5	0.5
+S28	0.6	0.6	0.4	0.4
+S27	0.6	0.6	0.1	0.2
+S26	0.6	0.6	0.1	0.2
+S25	0.6	0.6	0.1	0.2
+S24	0.6	0.6	0.1	0.2
+S23	0.6	0.6	0.1	0.2
+S22	0.6	0.6	0.1	0.2
+S21	0.6	0.6	0.1	0.2
+S20	0.6	0.7	1.8	0.2
+S1	0.6	1.0	0.3	0.2
+S2	0.6	1.0	0.3	0.2
+S3	0.6	0.6	0.2	0.3
+S4	0.6	0.6	0.2	0.3
+S5	0.4	0.4	0.2	0.2
+S6	0.5	0.5	0.2	0.2
+S7	0.5	0.5	0.2	0.2
+S8	0.5	0.5	0.2	0.3
+S9	0.6	-	0.4	0.5
+S10	0.5	-	0.3	0.3
+S11	0.5	0.5	0.2	0.2
+S12	0.5	0.5	0.2	0.2
+S13	0.5	0.5	0.2	0.2
+S14	-	0.5	0.2	0.2
+
+*end DCC_Chunnel
+
+*begin Carrot_Passage
+*export 14
+
+;Surveyors:	DCC
+*date 1999.01.05	;Date:	05/01/99
+;Instruments:	?
+
+*calibrate compass +4.53
+
+14	15	9.10	189	2	;	15=brew chamber capt chair
+15	16	5.00	032	-10	;	
+16	17	1.70	001	0	;	
+17	18	7.30	150	-3	;	
+18	19	5.20	075	0	;	
+19	20	6.90	122	2	;	
+20	21	3.30	180	0	;	
+21	22	7.80	148	1	;	sink at 21
+22	23	2.70	114	0	;	
+23	24	7.50	171	1	;	
+24	25	8.90	181	0	;	
+25	26	1.90	222	4	;	
+26	27	10.00	155	0	;	
+27	28	8.90	218	1	;	
+28	29	6.40	118	2	;	
+29	30	3.50	138	0	;	
+30	31	5.80	121	-1	;	
+31	32	3.00	107	9	;	
+32	33	3.20	168	10	;	
+33	34	3.20	120	3	;	
+34	35	8.80	035	-3	;	
+35	36	7.60	027	-1	;	
+36	37	1.70	016	-9	;	
+37	38	2.90	048	-1	;	
+38	39	1.40	128	25	;	
+39	40	1.40	048	-26	;	
+40	41	1.50	101	0	;	
+41	42	0.80	000	90	;	
+42	43	7.20	014	29	;	
+43	44	8.20	000	90	;	
+44	45	7.80	173	5	;	
+45	46	2.40	215	8	;	
+46	47	5.70	165	3	;	
+47	48	2.30	099	-3	;	
+48	49	4.40	030	0	;	
+49	50	12.00	000	-90	;	
+50	51	2.00	032	0	;	
+51	52	2.80	048	0	;	
+52	53	2.20	316	0	;	
+53	54	2.00	358	0	;	
+47	47A	3.00	180	2	;	
+48	48A	3.00	180	2	;	
+
+*data passage station left right up down
+14	0.0	0.0	0.0	0.0
+15	2.0	0.3	0.3	0.2
+16	0.2	0.4	0.3	0.1
+17	0.6	0.7	1.0	0.2
+18	0.3	0.4	0.2	0.2
+19	0.4	0.5	0.2	0.2
+20	1.2	0.5	0.2	0.3
+21	0.2	-	0.4	0.3
+22	0.1	1.4	0.1	0.5
+23	0.3	0.7	0.3	0.7
+24	0.5	1.0	0.2	0.7
+25	0.2	1.4	0.5	0.2
+26	1.2	0.3	0.2	0.5
+27	0.2	1.5	0.3	0.8
+28	-	-	0.3	1.0
+29	0.5	0.5	0.2	0.2
+30	0.4	0.3	0.2	0.2
+31	0.3	0.4	0.2	0.2
+32	0.3	1.4	0.3	0.3
+33	0.3	0.4	0.2	0.2
+34	0.2	-	0.2	0.2
+35	0.8	0.3	0.3	0.2
+36	0.6	0.6	1.0	0.2
+37	1.2	0.4	0.2	0.2
+38	2.0	1.0	2.0	1.0
+39	2.0	0.5	1.0	1.0
+40	0.5	0.5	2.0	0.2
+41	0.2	0.2	0.2	1.3
+42	0.2	0.2	0.5	1.0
+43	0.3	1.7	9.0	1.8
+44	0.4	1.0	1.7	0.1
+45	0.4	1.0	1.7	0.1
+46	0.4	0.4	0.3	0.6
+47	0.4	-	0.3	0.6
+48	0.4	-	0.3	0.6
+49	0.4	0.4	0.3	0.7
+50	0.4	0.4	0.3	0.7
+51	0.2	0.6	0.3	0.7
+52	0.3	0.3	0.2	0.3
+53	0.3	0.3	0.2	0.2
+
+*end Carrot_Passage
+
+*begin Master_Cave
+*export 1 106
+
+;Cave:	Kingsdale Master Cave - from diver's line knot to East Entrance
+;Surveyors:	R.Duffy/A.Whitney
+*date 2003.06.01	;Date:	01/06/03
+;Instruments:PAG
+
+*calibrate compass +3.80 ;was +5.00
+*calibrate clino   +0.50
+
+1	2	13.86	034	3	;st1=knot on diver's line
+2	3	11.38	334	2	;Black Rose enters on right at05.39m(true) from st002
+3	4	9.69	268	1.5	
+4	5	6.68	283	1	
+5	6	10.16	309	2.5	
+6	7	6.28	280	1	
+7	8	9.97	325.5	2	;st8 is top of large flake/rock on bend
+8	9	5.39	009	3	
+9	10	17.44	048	3	
+10	11	2.59	013	1	
+11	12	17.04	343	4	;shingle shelf on left has connectin crawl through oxbow in wide bedding
+12	13	20.69	039	0	;st13 has shingled passage off to left on shelf
+13	14	25.62	352	1	;st14 is in shingle crawl off ot left of streamway
+14	15	11.45	006	1	
+15	16	11.39	291	5	
+16	17	0.42	 -	UP	;st17=tag in roof above crawl through wet bedding to East Entrance
+
+;Duplicate legs for Rowten Passage survey
+17	102	04.52	 -	DOWN	;17=tag in roof at end of East Entrance Passage
+102	103	12.14	355.0	+02.0
+103	104	11.77	339.0	+03.0
+104	105	29.33	329.0	 00.0
+106	105	03.88	220.0	+03.0	;st005=tag in roof at start of crawl with water entering from right
+
+*end Master_Cave
+
+*begin RowtenPassage
+*export 1 36
+
+; Rowten Sumps to Master Junction, and up to Swinsto Streamway Junction
+*date 2008.11.15	; 15/11/08
+
+; Instruments: Footleg
+; Tape:        Tony Cook
+; Notes:       Footleg
+
+; Instrument set and calibration details
+; Footleg's Suunto Tandem. ULSA 50m Tape
+
+; Calibration readings (Footleg): Compass 190, 011 Clino -04, +04
+
+*calibrate compass +2.92
+*calibrate clino -1
+
+;fr 	to  	tape	comp	clino
+2	1	9.80	307	-1
+2	3	8.16	162	1
+3	4	19.43	175	-2
+4	5	2.17	005	31
+4	6	8.00	131	-2
+6	7	17.81	192	-2
+7	8	2.07	253	6
+7	9	7.48	089	0
+8	10	5.63	232	1
+10	11	11.13	183	-2
+11	12	5.43	181	-3
+11	13	15.00	136	-2
+13	14	4.71	168	0
+14	15	8.21	217	0
+15	16	10.05	221	-2
+16	17	10.35	122	0
+18	17	4.23	078	1
+17	19	6.72	120	0
+19	20	10.68	090	2
+19	21	2.51	174	4
+21	22	12.23	201	-1
+22	23	8.93	190	-2
+23	24	10.25	227	-1
+24	25	11.19	190	-2
+25	26	9.61	252	3
+26	27	6.81	285	-5
+27	28	6.02	214	0
+28	29	5.66	286	-3
+29	30	13.92	236	-1
+30	31	11.08	241	1
+31	32	12.73	287	0
+32	33	6.31	014	-5
+33	34	20.13	326	-1
+34	35	19.56	318	-2
+35	36	1.24	050	11
+
+
+*data passage station left right up down
+1	1.5	1	0.3	0.8
+2	1	4.5	0.3	0.4
+3	1.6	2	0.3	1
+4	2.7	2	0.6	1
+6	1.3	4	0.6	0.5
+7	2.5	2	0.5	1.4
+
+*data passage station left right up down
+9	1.1	1.1	0	0.7
+7	2	2.5	0.5	1.4
+8	2	3	0.2	1.6
+10	2.5	2	0.6	0.8
+11	2.6	1.5	0.6	0.5
+13	1.5	2	0.3	0.8
+14	1	3	0.6	1.6
+15	2	1	0.8	1.4
+16	2	2	0.6	1
+17	1.5	2.5	0.7	0.5
+19	2.5	2	0.6	0.8
+20	0.5	3.5	1	1.4
+
+*data passage station left right up down
+19	2.5	2	0.6	0.8
+21	2.7	1.6	0.3	1.7
+22	2	2	0.9	1
+23	2	2	0.2	1.5
+24	1.5	2.5	0.3	1.6
+25	1	3	0.8	0.6
+26	3	2	0.5	1
+27	5	0.7	1	0.4
+28	4	4	0.8	0.4
+29	4.5	1.3	0.6	0.4
+30	5	3	0.8	0.4
+31	5	5	0.6	0.4
+32	0	6.5	1.4	1.2
+33	3.5	2	1	0.6
+34	3.5	1	1	0.5
+35	3.5	2.5	0.2	0.4
+
+*end  RowtenPassage
+
+*begin RowtenSumps
+*export 0 4
+
+;Cave:	Rowten Sumps-From threaded eye hole for free dive line in Valley Entrance Rowten passage going upstream to Frakes Passage.
+;Surveyors:	Christine Grosart, Richard Walker and Dan Scott. CDG Derbyshire Section
+*date 2009.12.19	;Date:	19/12/09
+;vis = 1.5m at best, 0.5m at worst
+;Water levels low. Temperature 6-8 degrees underground. Above ground, bloody freezing !
+
+*calibrate compass	+2.75
+
+*data diving from to bearing length fromdepth todepth
+;From	To	Compass degrees	Tape metres	Depth metres	Left Tape metres (90 degrees )	Right Tape (90 degrees)	Up	Down	Total passage height - Floor to roof at station (from) metres	Comments/Description
+0	0a	20	3.60	0	-0.5;						Station (0) is the eyehole where the freedive line begins in KMC, heading upstream. 
+0a	1	20	3.60	-0.5	0;
+1	1a	90	1.52	0	-1.0;	1.8				1.5	(1) is a rectangular metal bolt where the first freedive line is tied off
+1a	2	90	1.51	-1.0	0;
+2	2b	140	3.50	0.00	0;					1.5	(2) is the bolt in the airbell with the free dive line tie off, continuing upsteam. (2b) is another bolt with a dive line at the end of the airbell. Passage height taken at this bolt, from the floor underwater to the alcove with the dive line bolt.
+2	2a	60	3.75	0	-0.5;	2.9 - bolt to top of curtain	3.5 right of bolt to alcove at end of airbell			1.7 passage height at curtain in end of airbell. Passage height at alcove at other end of airbell - 1.5. 	(3) is a square metal bolt in next airbell. 
+2a	3	60	3.75	-0.5	0;
+3	3a	60	5.25	0	-0.5;					1.85	
+3a	4	60	5.25	-0.5	0;					1.85	(4) is the P-Bolt tie off at the start of the first downstream Rowten sump (3rd upstream KMC freediveable sump) This is the tie in point for the dry survey in Rowten.
+*end RowtenSumps
+
+
+*begin Philosophers_Crawl
+*export part1.001 part1.005
+
+;*equate part1.019 part2.2
+*equate part1.017 part2.1
+
+*begin	part1
+*export 001 005  017 019
+
+;Starting from Tag at end of Philosophers Passage
+;Surveyors:	Allan Richardson instruments, Steve Domeney tape
+;Date:	09/02/08
+*date 2008.02.09
+;Instruments:	RAR
+
+*calibrate compass +3.03	;was +1.0
+
+
+001	002	6.4	44	-2	;001 is a plastic tag in ceiling at downstream end of Philosophers passage
+002	003	16.2	110	-1
+003	004	9.7	22	-1
+004	005	5.0	22	-1	;start of divers line at sump
+
+
+001	007	10.4	292	0
+007	008	16.75	262	+1
+008	009	5.45	209	+4.5
+009	010	5.96	255	0
+010	011	5.55	239	+2
+011	012	7.35	267	-1.5
+012	013	4.4	190	+2.5
+013	014	4.23	204.5	+1.5
+014	015	3.87	233	0
+015	016	2.52	235	+1.5
+016	017	4.37	211	+1
+017	018	3.8	182	-1.5
+018	019	7.3	231	-2	;station on upstream pointed end of boulder,
+
+*end part1
+
+
+*begin part2
+*export 1
+
+;Starting from Tag at end of Philosophers Passage
+;Surveyors:	Footleg (notes), Richard Vidler (instruments), Tony Cook (tape)
+;Date:	15/03/08
+*date 2008.03.15
+;Instruments:	Footleg's Suunto Tandem
+
+*calibrate compass +3.02
+
+1	2	8.61	205	2	;1	0.4	1	0.8	0.4	
+2	3	4.51	245	2	;2	2.5	1.5	0.5	0.6	2 is  upstream left (as looking upstream) tip of boulder
+3	4	4.86	299	-5	;3	0.6	2.5	0.2	0.6	
+4	5	6.17	243	2	;4	1.5	1	0.7	0.3	
+5	6	8.4	314	1	;5	0.4	3	0.7	0.4	
+5	7	6.5	287	6						
+7	8	4.06	320	-6	;7	0.8	1.1	0.7	0.2	
+8	6	3.11	68	-5	;6	3	0.4	0.3	0.2	
+8	9	6.84	189	5.5	;8	2	2.5	1	0.4	
+9	10	6.78	183	2	;9	1.8	1.8	0.2	0.5	
+10	11	8.7	188	2.5	;10	1.6	0	0.1	0.7	10 is tip of little stalagmite on shelf on right
+11	12	3.81	113	-2	;11	1.8	0.1	0.2	1	
+12	13	2.9	93	-8	;12	0.7	0.1	0.3	0.7	13 is tip of divider rock at inlet on right.
+13	14	7.54	74	3	;13	1	0.4	0.5	0.4	
+					;14	0	.65	.2	.15	14 is on left side on rock shelf at narrowest point
+
+*data passage station left right up down
+1	0.4	1	0.8	0.4	
+2	2.5	1.5	0.5	0.6
+3	0.6	2.5	0.2	0.6	
+4	1.5	1	0.7	0.3	
+5	0.4	1.1	0.7	0.4	
+7	0.8	1.1	0.7	0.2	
+8	0.8	1.1	1	0.4	
+
+*data passage station left right up down
+5	0.4	3	0.7	0.4	
+6	2.5	0.4	0.3	0.2	
+8	2	0.3	1	0.4	
+9	1.8	1.8	0.2	0.5	
+10	1.6	0	0.1	0.7	;10 is tip of little stalagmite on shelf on right
+11	1.8	0.1	0.2	1	
+12	0.7	0.1	0.3	0.7	;13 is tip of divider rock at inlet on right.
+13	1	0.4	0.5	0.4	
+14	0	.65	.2	.15	;14 is on left side on rock shelf at narrowest point
+
+*end part2
+
+*end Philosophers_Crawl
+
+*begin	SwinstoSump
+*export 001
+
+;Swinsto water downstream sump in Philosophers Crawl to upstream end of oxbox sump in Rowten Passage.
+;Surveyors:	John Cordingley
+;Date:	22/06/08
+*date 2008.06.22
+;No depth readings taken, but maximum depth on dive was -1.5m
+
+*calibrate compass +2.98
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	030	5.5	 0	0	;st001 = silt screw just before sump in philospher's crawl
+002	003	000	1.5	 0	0
+003	004	040	8.0	 0	0
+004	005	105	5.0	 0	0
+005	006	030	3.0	 0	0
+006	007	034	3.0	 0	0
+007	008	048	12.0	 0	0
+008	009	052	7.0	 0	0
+009	010	080	5.0	 0	0
+010	011	090	5.0	 0	0
+011	012	109	2.0	 0	0
+012	013	030	4.0	 0	0
+013	014	030	5.5	 0	0	;Small pile of stones with upstream oxbox sump dive line belay. Under water against right wall
+
+*end  SwinstoSump
+
+*end KMC

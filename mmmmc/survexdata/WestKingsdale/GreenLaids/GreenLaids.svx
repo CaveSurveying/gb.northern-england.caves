@@ -1,0 +1,45 @@
+;Cave:		Green Laids Pot
+;Surveyors:	D.Ramsay/B.Ward
+;Date:		17/10/05
+;Instruments:	RRCPC Kit 2
+
+*begin	GreenLaidsPot
+
+*calibrate compass		+4.00
+*calibrate clino		 0.00
+;*calibrate tape	
+
+*fix 001 70000.0 78400.0 366.0
+
+001	002	0.60	-	DOWN	;stn1 is rock nodule at N side of ent
+002	003	2.10	125	-35
+003	004	3.30	030	-11
+004	005	3.00	-	DOWN
+005	006	1.20	128	0.0
+006	007	1.70	043	0.0
+007	007a	3.00	-	UP	;007a and 007b are guessed to show inlet
+007a	007b	0.50	043	0.0
+006	008	2.85	-	DOWN
+008	009	7.90	202	-35
+009	010	1.40	-	DOWN
+010	011	2.25	220	-27
+011	012	2.05	210	-2
+012	013	1.35	256	-1
+013	014	2.25	304	-10
+014	015	8.00	-	DOWN
+015	016	1.20	317	0.0
+016	016a	1.20	037	+4
+016a	016b	8.00	-	UP
+016a	017	1.00	037	+4
+017	018	2.00	-	DOWN
+018	018a	2.00	037	0.0	;guess to show continuation
+
+;001	001a	1.35	-	UP	;surface surveys
+;001a	001b	4.75	083	+13
+;001b	001c	7.35	087	-17	;sink into Green Laids
+;001c	001d	2.40	113	-30	;big sink
+;001b	001e	16.40	021	-6	;flood sink
+;001b	001f	19.40	246	+12	;1st shakehole
+;001f	001g	10.60	191	-1	;2nd shakehole
+
+*end	GreenLaidsPot

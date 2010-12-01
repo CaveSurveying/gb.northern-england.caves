@@ -1,0 +1,64 @@
+*begin West_Kingsdale_System
+
+*include KMC/KMC
+*include Swinsto/Swinsto
+*include RowtenCaves/RowtenCaves
+*include Yordas/Yordas
+*include GreenLaids/GreenLaids
+
+*begin RowtenPot
+;Projected bottom of Rowten from GPS fix at eyehole
+;105m deep
+;Bottom 26m horizontally due East from eyehole gps fix
+*fix 1	69819.313	77999.344	359.221; WAAS GPS
+*entrance 1
+1	2	94	90	-74.5
+
+*equate	2	UpstreamSump.5
+
+*begin UpstreamSump
+*export 5
+*calibrate compass +182.68
+
+*data diving from to bearing length fromdepth todepth
+5	5a	160	5.45	0	-0.5;						(5) is P-Bolt at the start of the first upstream Rowten sump. (4) & (5) were not connected as these require dry survey techniques.
+5a	6	160	5.45	-0.5	0;
+6	6a	150	11.30	0	-1.0;
+6a	7	150	11.30	-1.0	0;						(7) is a bolt with diveline belayed to it in an airbell - approx 3m high, 3m wide
+7	7a	190	5.25	0	-1.0;
+7a	8	190	5.25	-1.0	0;						(8) is another airbell
+8	8a	140	24.35	0	-1.9;
+8a	9	140	24.35	-1.9	0;						(9) is the tie in point at the end of this survey leg. It ends in low, wet canal (Frakes passage) along the line (not at a belay) and is indicated by a white line arrow, placed on the dive line on the right hand side of the passage (heading upstream) and is a marker to tie into.
+
+*end UpstreamSump
+
+*end RowtenPot
+
+*begin GPS_Fixes
+
+;WAAS with good satelite coverage
+;28/04/2007
+
+*fix RowtenCave1_GPS	reference	69713.901	78012.946	371; WAAS GPS  
+*fix RowtenCave2_GPS	reference	69799.837	78014.271	370; WAAS GPS  
+*fix RowtenCave3_GPS	reference	69722.693	78020.343	373; WAAS GPS  
+*fix RowtenCave4_GPS	reference	69695.364	78001.941	365; WAAS GPS  
+;*fix RowtenPot1_GPS	reference	69819.313	77999.344	362; WAAS GPS  
+*fix RowtenPot2_GPS 	reference	69822.794	78032.703	364; WAAS GPS  
+*fix JinglingCave1_GPS	reference	69809.916	78227.514	368.216; WAAS GPS  
+*fix JinglingCave2_GPS	reference	69866.270	78364.343	370.214; WAAS GPS  
+*fix JinglingCave3_GPS	reference	69866.294	78368.014	370.214; WAAS GPS  
+*fix JinglingCave4_GPS	reference	69871.810	78373.542	371.214; WAAS GPS  
+*fix JinglingCave5_GPS	reference	69881.620	78377.261	372.214; WAAS GPS  
+
+*fix JinglingPot_GPS	reference	69907	78377	376; WAAS GPS  
+*fix AquamolePot_GPS	reference	69928	78340	375; WAAS GPS  
+
+*end GPS_Fixes
+
+*solve
+
+*include Keld_Head/Keld_Head
+*equate	KMC.Master_Cave.1 Keld_Head.kh09.218
+
+*end  West_Kingsdale_System
