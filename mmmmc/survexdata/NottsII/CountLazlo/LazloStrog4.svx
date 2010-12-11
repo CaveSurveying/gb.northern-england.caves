@@ -24,7 +24,7 @@
 
 *data passage station left right up down ignoreall
 
-5x	5	0	10	1.5
+5x	5	0	10	1.5 old station from previous day's BrunoKranskies1 survey
 9	4	2	8	10
 10	1.5	0.3	6	2
 11	0	0.7	3	4	L spit of Y hang for pitch

@@ -1,5 +1,5 @@
 ;cave Notts II
-;Title: Notts II - Count Lazlo Stronganoff's Inlet
+;Title: Notts II - Count Lazlo Stroganoff's Inlet
 
 *begin CountLazloALL
 
@@ -20,6 +20,8 @@
 *equate LazloStrog1.001 LazloStrog2.7
 *equate LazloStrog2.29 LazloStrog3.29x
 *equate LazloStrog3.1 CountLazlo.000
+
+*equate BrunoKranskies1.tag CountLazlo.027a
 *equate BrunoKranskies1.5 LazloStrog4.5x
 *equate BrunoKranskies1.8 BrunoKranskies2.8x
 
