@@ -86,7 +86,7 @@
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
-; *include ShuttleworthPot/ShuttleworthPot ; temporarily taken out by Becka - 4 Nov
+*include ShuttleworthPot/ShuttleworthPot
 
 *include KangoHole/KangoHole
 
