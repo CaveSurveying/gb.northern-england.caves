@@ -86,11 +86,19 @@
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
+*include LittlePot/LittlePot
+*equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
+
 *include ShuttleworthPot/ShuttleworthPot
 
 *include KangoHole/KangoHole
 
 *include Cupcake/Cupcake
+
+*include Surface/LJ-BH-VH-NII-CCsurface
+*equate LostJohns.EntranceTag LJ-BH-VH-NII-CCsurface.Lostjohns
+
+*fix	LazloRLP	66795	78441	334	;GPS RGB 06/10/07
 
 *end leckfell
 
