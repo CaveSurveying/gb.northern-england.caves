@@ -11,6 +11,7 @@
 *include LazloStrog2
 *include LazloStrog3
 *include LazloStrog4
+*include LazloStrog5
 *include BrunoKranskies1
 *include BrunoKranskies2
 *include LimboPassage
@@ -20,6 +21,8 @@
 *equate LazloStrog1.001 LazloStrog2.7
 *equate LazloStrog2.29 LazloStrog3.29x
 *equate LazloStrog3.1 CountLazlo.000
+*equate LazloStrog4.18 LazloStrog5.18
+*equate CountLazlo.006 LazloStrog5.35
 
 *equate BrunoKranskies1.tag CountLazlo.027a
 *equate BrunoKranskies1.5 LazloStrog4.5x

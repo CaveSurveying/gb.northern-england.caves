@@ -7,7 +7,7 @@
 
 *begin	CountLazlo
 
-*export 000 027a
+*export 000 027a 006
 
 *calibrate compass	+6.50
 
