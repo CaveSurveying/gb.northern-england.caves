@@ -13,7 +13,7 @@
 ;from	to	tape	compass	clino	remarks
 
 19	18	1.20	050	+08
-20	19	3.41	140	+10
+19	20	3.41	140	+10	; written as 20 to 19 in notes but we did comp and clino for this leg on the way out as couldn't back sight it and I forgot to switch station numbers
 21	20	5.15	293	-67
 21	22	7.20	308	+01
 22	23	0.59	225	+02

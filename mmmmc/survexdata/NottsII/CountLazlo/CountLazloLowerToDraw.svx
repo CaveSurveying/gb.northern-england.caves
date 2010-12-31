@@ -1,0 +1,15 @@
+;cave Notts II
+;Title: Notts II - Count Lazlo Stroganoff's Inlet
+
+*begin CountLazloLower
+
+*include LazloStrog4
+*include LazloStrog5
+*include BrunoKranskies1
+*include BrunoKranskies2
+
+*equate LazloStrog4.18 LazloStrog5.18
+*equate BrunoKranskies1.5 LazloStrog4.5x
+*equate BrunoKranskies1.8 BrunoKranskies2.8x
+
+*end CountLazloLower

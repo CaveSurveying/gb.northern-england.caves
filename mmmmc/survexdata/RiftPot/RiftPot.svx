@@ -21,7 +21,6 @@
 
 *include templeofdoom/templeofdoom
 
-
 *equate RiftPotEntrance.208 CoatesCavern.208x
 *equate RiftPotEntrance.213 CoatesCavern.213x
 *equate RiftPotEntrance.212 CoatesPassage1.212x
@@ -29,5 +28,6 @@
 *equate RiftPotEntrance.246 EntranceTag
 *equate templeofdoom.RiftPotTOD1.7 SoutheastInletConnection
 *equate CoatesCavern.213x RiftTowardsMousehole.213
+*equate CoatesCavern.208x RiftTowardsMousehole.208
 
 *end RiftPot

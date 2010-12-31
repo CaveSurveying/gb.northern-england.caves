@@ -9,6 +9,8 @@
 
 *calibrate compass +3.50 ; Becka - I'm not sure where the +3.5 comes from - I'm guessing Hugh and Johnny used RRCPC instruments and I guess this is the first set of legs
 
+*flags duplicate
+
 000	001	05.00	240.0	-30	;st000 is bottom rung of aluminium ladder at choke
 001	002	02.20	250.0	-8
 002	003	04.10	186.0	0
@@ -49,5 +51,6 @@
 028	x02    2.72 	112 	+25
 x02	x03    2.32 	170 	+40
 
+* flags not duplicate
 
 *end	sds
