@@ -4,8 +4,7 @@
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
 *begin	WitchesII-3
-*export 003 013 014 019 020 028
-
+*export 003 013 014 019 020 021 022 028
 
 *calibrate declination 2.65
 ;*calibrate compass
@@ -76,6 +75,5 @@
 028	2.8	2.4	6.0	0.3	;boulder in mid passage, routes off L and R	
 029	6.0	0.0	7.0	1.4	;RH wall below inlet
 030	1.0	1.8	0.0	0.9	;end of passage at roof, continues low for 2m
-
 
 *end	WitchesII-3
