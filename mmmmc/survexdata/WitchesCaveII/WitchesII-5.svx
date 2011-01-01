@@ -4,8 +4,7 @@
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
 *begin	WitchesII-5
-*export 001
-
+*export 001 010
 
 *calibrate declination 2.65
 ;*calibrate compass
@@ -22,7 +21,6 @@
 008	009	3.7	150	-12
 009	010	3.79	153	-13
 
-
 *data passage station left right up down ignoreall
 
 001	1.2	0.0	1.2	1.3	;001=stn47	Shuttleworth4
@@ -35,6 +33,5 @@
 008	1.6	1.1	1.8	2.3	;on stall
 009	2.0	0.2	1.7	2.0	;RH Wall
 010	0.0	2.0	1.5	15.0	;2nd Bolt for pitch
-
 
 *end	WitchesII-5
