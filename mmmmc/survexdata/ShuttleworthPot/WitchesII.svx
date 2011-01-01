@@ -1,0 +1,35 @@
+;Title: Witches II Cave
+
+;Date Created 17/09/10 by Richard Bendall
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+;--------------------------------------------------------------------------------------------
+;All Witches II files and Shuttleworth Pot entrance
+
+*begin WitchesII
+
+*entrance WitchesII-2.002
+*fix WitchesII 66214 79777 277 ;entrance GPS by K Wood Sept 2010
+;*export EntranceTag
+
+
+*include WitchesII-1
+*include WitchesII-2
+*include WitchesII-3
+*include WitchesII-4
+*include WitchesII-5
+
+*equate WitchesII WitchesII-2.001
+
+*equate WitchesII-1.030 WitchesII-2.017
+*equate WitchesII-1.001 WitchesII-3.003
+*equate WitchesII-1.021 WitchesII-3.013
+*equate WitchesII-1.022 WitchesII-3.014
+*equate WitchesII-1.025 WitchesII-3.019
+*equate WitchesII-2.019 WitchesII-3.020
+*equate WitchesII-3.028 WitchesII-4.001
+*equate WitchesII-4.047 WitchesII-5.001
+
+*end WitchesII

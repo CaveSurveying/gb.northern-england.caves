@@ -1,9 +1,9 @@
-;Cave:	Shuttleworth Pot
+;Cave:	Witches II
 ;Surveyors:	Dave Ramsay/Richard Bendall, Paul Windle
 ;Date:	13/12/10
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
-*begin	ShuttleworthPot5
+*begin	WitchesII-5
 *export 001
 
 
@@ -37,4 +37,4 @@
 010	0.0	2.0	1.5	15.0	;2nd Bolt for pitch
 
 
-*end	ShuttleworthPot5
+*end	WitchesII-5

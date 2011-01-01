@@ -1,9 +1,9 @@
-;Cave:	Shuttleworth Pot
+;Cave:	Shuttleworth Pot entrance to Witches II
 ;Surveyors:	Dave Ramsay/Richard Bendall/Richard Mercer
 ;Date:	25/10/10
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
-*begin	Shuttleworthpot1
+*begin	WitchesII-1
 *export 001 021 022 025 030
 
 *calibrate declination 2.65
@@ -80,4 +80,4 @@
 ;032	0.0	2.1	4.2	2.0
 ;033	0.9	0.0	1.8	3.0
 
-*end	Shuttleworthpot1
+*end	WitchesII-1
