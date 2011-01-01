@@ -1,6 +1,6 @@
 
 *begin LazloStrog5
-*export 18 43 35
+*export 18 42 43 35
 
 *title "Count Lazlo Stroganoff from base of initial pitches to top of initial pitches"
 *date 2010.12.29

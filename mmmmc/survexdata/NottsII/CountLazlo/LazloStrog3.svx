@@ -72,7 +72,7 @@
 55	29x	3.36	314	+16.2	; written as 56 in notes, assume is station 55; no +/- given for this leg but Neil checked with disto and is positive
 
 *data passage station left right up down ignoreall
-1	0.4	0	0.7	1
+1	0.4	0	0.7	1	old station (scratched triangle on R wall, beyond horse trough, down crawl to blasted area (point of breakthrough)
 2	0	0.3	0.5	0.5
 3	0	0.3	1	0.5	
 4	0.3	0	0.5	0.2

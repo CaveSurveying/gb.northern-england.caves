@@ -1,0 +1,26 @@
+;cave Notts II
+;Title: Notts II - Count Lazlo Stroganoff's Inlet
+
+*begin CountLazloDescent
+
+*include LazloStrog1
+*include LazloStrog2
+*include LazloStrog3
+*include LazloStrog4
+*include LazloStrog5
+*include BrunoKranskies1
+*include BrunoKranskies2
+*include LimboPassage
+
+LazloStrog3.1	001	03.60	150.0	+13.0	;temp leg to be re-done, this just for Descent survey
+001	LazloStrog5.42	08.30	128.0	+21.0	;temp leg to be re-done, this just for Descent survey - add 2.5m to 05.80m leg as difference between new survey is this
+
+*equate LimboPassage.001 LazloStrog1.039
+*equate LazloStrog1.001 LazloStrog2.7
+*equate LazloStrog2.29 LazloStrog3.29x
+*equate LazloStrog4.18 LazloStrog5.18
+
+*equate BrunoKranskies1.5 LazloStrog4.5x
+*equate BrunoKranskies1.8 BrunoKranskies2.8x
+
+*end CountLazloDescent
