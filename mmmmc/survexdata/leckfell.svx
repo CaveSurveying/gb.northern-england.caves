@@ -89,7 +89,7 @@
 *include LittlePot/LittlePot
 *equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
-*include ShuttleworthPot/ShuttleworthPot
+*include WitchesCaveII/WitchesII
 
 *include KangoHole/KangoHole
 
