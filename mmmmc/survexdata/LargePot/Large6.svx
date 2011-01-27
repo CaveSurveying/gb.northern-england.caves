@@ -1,6 +1,6 @@
 
 *begin Large6
-*export 72x p
+*export 72x p 1
 
 *title "Colossus up to last station in Large 5 and then most of Pumpkin Passage"
 *date 2010.11.06

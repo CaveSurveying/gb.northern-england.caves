@@ -1,6 +1,6 @@
 
 *begin Large5
-*export 38x 18 72
+*export 38x 18 54 72
 
 *title "Continuing main passage in Large Pot from just before Tinkle Inlet to just before main inlet before Colossus"
 *date 2010.10.30
@@ -66,7 +66,7 @@
 51	52	3.24	249	0
 52	53	6.34	163	-6
 53	54	1.29	008	+56
-55	54	5.19	324	-21
+; 55	54	5.19	324	-21	; superceded by Large8 survey
 53	56	2.62	274	+1
 
 56	57	2.72	273	-17
@@ -141,8 +141,8 @@
 51	0.3	0.1	4.4	1.4
 52	0.5	0.3	4.4	1.3
 53	0.2	1.3	1	0.7
-54	1	0	3	1.6
-55	0	0.3	0.4	2.4
+54	1	0	3	1.6 numbered by small side passage
+; 55	0	0.3	0.4	2.4 superceded by Large8 survey
 56	1	0.3	0.5	0.9
 57	0.2	0.4	0.4	0.5
 58	0.7	0.4	0.4	0.3
