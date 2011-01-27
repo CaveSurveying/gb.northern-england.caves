@@ -11,6 +11,8 @@
 
 *calibrate compass	+6.50
 
+*flags duplicate
+
 000	001	03.60	150.0	+13.0	;st000 is end of top passage
 001	002	05.80	128.0	+21.0
 002	003	08.20	146.0	+01.0
