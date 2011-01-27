@@ -3,7 +3,7 @@
 *export 54x
 
 *title "Small side passage until too tight"
-*date 2011.01.06
+*date 2011.01.22
 *team Tape Neil Pacey
 *team Instruments Becka Lawson
 *team Notes Becka Lawson
