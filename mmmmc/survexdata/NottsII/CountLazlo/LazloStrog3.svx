@@ -1,6 +1,6 @@
 
 *begin LazloStrog3
-*export 1 29x
+*export 1 29x spit
 
 *title "Count Lazlo Stroganoff from just beyond horse trough to end of large passage"
 *date 2010.09.12

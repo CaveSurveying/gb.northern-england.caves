@@ -13,6 +13,7 @@
 *include LazloStrog4
 *include LazloStrog5
 *include LazloStrog6
+*include LazloStrog7
 *include BrunoKranskies1
 *include BrunoKranskies2
 *include LimboPassage
@@ -24,6 +25,7 @@
 *equate LazloStrog3.1 LazloStrog6.3
 *equate LazloStrog4.18 LazloStrog5.18
 *equate LazloStrog6.42x LazloStrog5.42
+*equate LazloStrog7.p LazloStrog3.spit
 ; *equate CountLazlo.006 LazloStrog5.35
 ; *equate LazloStrog3.1 CountLazlo.000
 
