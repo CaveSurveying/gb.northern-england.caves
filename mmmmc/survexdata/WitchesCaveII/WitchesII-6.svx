@@ -1,5 +1,5 @@
 *begin WitchesII-6
-*export 1 14
+*export 1 13
 
 *title "From pitch above canal beyond Zigzag to pitches up"
 *date 2010.12.31
@@ -24,12 +24,12 @@
 11	10	6.68	003	-01
 12	11	2.77	050	-51
 13	12	4.69	270	-55
-14	12	9.03	169.5	-82.5	; not clear if tape is 9.03 or 9.63 - I've gone for 9.03 as down given as 9m in LRUD
+; 14	12	9.03	169.5	-82.5	; not clear if tape is 9.03 or 9.63 - I've gone for 9.03 as down given as 9m in LRUD
 
-14	15	6.80	012	+16	; TEMPORARY leg towards right passage as face pitch head spit
-14	16	3.81	232	+15 ; TEMPORARY leg towards middle passage as face pitch head spit
-14	17	3.32	204	+16 ; TEMPORARY leg towards left passage as face pitch head spit
-14	18	5.66	143	+25 ; TEMPORARY leg towards upper, far left passage as face pitch head spit
+; 14	15	6.80	012	+16	; TEMPORARY leg towards right passage as face pitch head spit
+; 14	16	3.81	232	+15 ; TEMPORARY leg towards middle passage as face pitch head spit
+; 14	17	3.32	204	+16 ; TEMPORARY leg towards left passage as face pitch head spit
+; 14	18	5.66	143	+25 ; TEMPORARY leg towards upper, far left passage as face pitch head spit
 
 *data passage station left right up down ignoreall
 
@@ -46,6 +46,6 @@
 11	0.5	0.6	1.2	0.2	rock in mid passage
 12	5	2	10	0	on rock near base of right pitch just after pop up into loose chamber
 13	0.5	0.4	0.3	2	numbered high on right wall opposite where rope goes up to rebelay then higher
-14	2	0	5	9	numbered 10cm below the pitch head bolt
+; 14	2	0	5	9	numbered 10cm below the pitch head bolt
 
 *end WitchesII-6
