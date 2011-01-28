@@ -23,6 +23,7 @@
 *include WitchesII-6
 *include WitchesII-7
 *include WitchesII-8
+*include WitchesII-9
 
 *equate WitchesII WitchesII-2.001
 
@@ -37,5 +38,6 @@
 *equate WitchesII-5.010 WitchesII-6.1
 *equate WitchesII-3.021 WitchesII-7.z
 *equate WitchesII-8.13x WitchesII-6.13
+*equate WitchesII-9.2x WitchesII-6.2
 
 *end WitchesII

@@ -34,9 +34,9 @@
 2	0.4	0.3	0.4	4
 3	0.1	0.6	4	0.4
 4	0	0.6	0.8	1
-5	0.4	1.1	1.3	1.3
-14x	2.1	0	3	6
-6	0.8	0	0.4	0.7
+5	0.4	1.1	1.3	1.3	backup spit
+14x	2.1	0	3	6	pitch head spit (for main hang)
+6	0.8	0	0.4	0.7	spit beyond pitch head spit
 7	0.2	0.2	0	0.5
 8	0.4	0	0.3	0.3
 9	0.2	0.2	0.2	0.3	
@@ -45,5 +45,6 @@
 12	0.1	0.2	0.1	0.2
 13	0.5	0.15	0.1	0.2
 14	2	1	9	2
+13x	-	-	-	-	numbered high on wall - hole to upper level above here but too tight to get through
 
 *end WitchesII-8
