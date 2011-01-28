@@ -28,6 +28,6 @@ p	0	0.4	2	6	p is pitch head bolt for handline climb
 6	0.3	0	1.7	2.3
 7	0.1	0.2	5	3
 8	0.4	0	2	1.7
-9	0	2.4	6	1.6
+9	0	2.4	6	1.6	numbered in small aven with drafting tiny hole in floor
 
 *end LazloStrog7

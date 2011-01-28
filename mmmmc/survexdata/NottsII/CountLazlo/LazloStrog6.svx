@@ -19,8 +19,8 @@
 
 *data passage station left right up down ignoreall
 
-42x	0.3	0.1	0.1	1.2
+42x	0.3	0.1	0.1	1.2	old numbered station 42 on r wall
 1	0.3	0	1.1	1
-2	0.4	0	1	0.3
+2	0.4	0	1	0.3	scratched triangle used as first station on lazlostrog3 survey on r wall
 
 *end LazloStrog6
