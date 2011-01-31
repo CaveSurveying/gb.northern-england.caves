@@ -1,6 +1,6 @@
 
 *begin Large9
-*export x p 3 23
+*export x p 3 8 23
 
 *title "Below Colossus"
 *date 2011.01.22
@@ -11,8 +11,9 @@
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
-; pitch leg and  connecting leg surveyed following week, on 2011.01.30, by Neil Pacey and Becka Lawson using Neil's Disto-X
-; also 2 legs from station 4 surveyed following week, on 2011.01.30, by Neil Pacey and Becka Lawson using Neil's Disto-X
+; Colossus pitch leg and connecting leg surveyed following week, on 2011.01.30, by Neil Pacey and Becka Lawson using Neil's Disto-X
+; also 2 legs from station 4 surveyed following week, on 2011.01.30, by Andrew Atkinson and Becka Lawson using Neil's Disto-X
+; also 5 legs from station 8 surveyed following week, on 2011.01.30, by Andrew Atkinson and Becka Lawson using Neil's Disto-X
 
 ;from	to	tape	compass	clino	remarks
 
@@ -20,7 +21,7 @@ x	p	1.96	149	+01
 y	p	3.92	063	+25		; this leg written as y-hang to p on Neil's notes, yhang is knot for Colossus I think
 1	p	5.29	068	+39		; unclear where station 1 is - should be lower than yhang - is it on wall, marked point?
 
-; this and next leg surveyed 2011.01.30, see comment above
+; this and next leg surveyed 2011.01.30, Becka & Neil, see comment above
 y	a	40.76	310.3	-84.8
 2	a	3.28	350.5	-31.6	
 ; back to 2011.01.22 survey from below
@@ -29,15 +30,24 @@ y	a	40.76	310.3	-84.8
 3	2	10.85	350	+0.5
 4	3	7.04	085	-01
 
-; this and next leg surveyed 2011.01.30, see comment above
-4	14x	6.58	316.7	-42.5
-15x	14x	5.76	176.8	-24.9
+; this and next leg surveyed 2011.01.30, Becka & Andrew, see comment above
+4	14b	6.58	316.7	-42.5
+15b	14b	5.76	176.8	-24.9
 ; back to 2011.01.22 survey from below
 
 5	4	7.23	163	-02
 6	5	9.26	163.5	+20
 7	6	6.31	197	-34
 8	7	6.22	173	-01.5
+
+; this and next 4 legs surveyed 2011.01.30, Becka & Andrew, see comment above
+s	16c	5.49	001	-55
+s	17c	2.73	020.1	+42
+s	18c	1.93	166.5	+16
+18c	19c	2.09	183.2	-04
+19c	8	2.20	143.8	+08
+; back to 2011.01.22 survey from below
+
 9	8	8.73	321	+01
 2	9	9.33	345	+04
 
@@ -91,7 +101,14 @@ y	0.1	1.5	4	-	yhang knot for main Colossus pitch
 22	4	10.5	0	1.2	numbered
 23	4.5	5.6	1.2	2	numbered near cairn for start of choke
 
-14x	3	1.7	1.8	1.1
-15x	2.5	0.6	0	1.6
+14b	3	1.7	1.8	1.1
+15b	2.5	0.6	0	1.6
+
+s	1.2	0.6	1.7	0	stumpy stal at edge of climb down
+16c	0.6	0.3	0.5	0	unmarked, into passage below climb down
+17c	1	0.8	1.5	0	old rawl bolt at start of passage above climb - needs 2 spits and about 10m rope to get there
+18c	1.5	1.2	0	0.5
+19c	1.6	2.5	0.5	0.3
+8	-	-	-	-	old temporary station
 
 *end Large9
