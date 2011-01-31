@@ -1,6 +1,6 @@
 
 *begin Large9
-*export x p
+*export x p 3
 
 *title "Below Colossus"
 *date 2011.01.22
@@ -11,14 +11,29 @@
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
+; pitch leg and  connecting leg surveyed following week, on 2011.01.30, by Neil Pacey and Becka Lawson using Neil's Disto-X
+; also 2 legs from station 4 surveyed following week, on 2011.01.30, by Neil Pacey and Becka Lawson using Neil's Disto-X
+
 ;from	to	tape	compass	clino	remarks
 
 x	p	1.96	149	+01
 y	p	3.92	063	+25		; this leg written as y-hang to p on Neil's notes, yhang is knot for Colossus I think
 1	p	5.29	068	+39		; unclear where station 1 is - should be lower than yhang - is it on wall, marked point?
-y	2	300		-	down	; joke plumb because we couldn't get the distance - replace 300
+
+; this and next leg surveyed 2011.01.30, see comment above
+y	a	40.76	310.3	-84.8
+2	a	3.28	350.5	-31.6	
+; back to 2011.01.22 survey from below
+
+;	y	2	300		-	down	; joke plumb because we couldn't get the distance - replace 300
 3	2	10.85	350	+0.5
 4	3	7.04	085	-01
+
+; this and next leg surveyed 2011.01.30, see comment above
+4	14x	6.58	316.7	-42.5
+15x	14x	5.76	176.8	-24.9
+; back to 2011.01.22 survey from below
+
 5	4	7.23	163	-02
 6	5	9.26	163.5	+20
 7	6	6.31	197	-34
@@ -52,8 +67,8 @@ p	-	-	-	-	first, backup p hanger for Colossus - old station
 y	0.1	1.5	4	-	yhang knot for main Colossus pitch
 1	0.5	1.5	5.4	-
 2	13	9	40	3.6	
-3	3.5	5	0.6	0.1
-4	1.5	-	0.3	0.4
+3	3.5	5	0.6	0.1	numbered
+4	1.5	-	0.3	0.4	numbered
 5	1	-	0	3
 6	6	9	3.2	2
 7	3	4	0	1.6
@@ -75,5 +90,8 @@ y	0.1	1.5	4	-	yhang knot for main Colossus pitch
 21	15	0	1.9	1.8
 22	4	10.5	0	1.2
 23	4.5	5.6	1.2	2
+
+14x	3	1.7	1.8	1.1
+15x	2.5	0.6	0	1.6
 
 *end Large9
