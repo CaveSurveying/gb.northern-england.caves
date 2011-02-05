@@ -7,6 +7,8 @@
 
 *export 001 009
 
+; *fix Cupcake 66728 78424 334 ;entrance GPS by R Bendall 15 Sept 2010 before connection dug through - not used at present
+
 ;*calibrate compass
 
 ;stn to stn	tape	comp	clino
