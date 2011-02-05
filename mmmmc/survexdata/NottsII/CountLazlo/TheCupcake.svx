@@ -5,6 +5,8 @@
 
 *begin	thecupcake
 
+*export 001 009
+
 ;*calibrate compass
 
 ;stn to stn	tape	comp	clino

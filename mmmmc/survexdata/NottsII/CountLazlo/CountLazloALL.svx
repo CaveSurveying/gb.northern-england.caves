@@ -27,6 +27,7 @@
 *equate LazloStrog4.18 LazloStrog5.18
 *equate LazloStrog6.42x LazloStrog5.42
 *equate LazloStrog7.p LazloStrog3.spit
+*equate LazloStrog1.054 TheCupcake.001
 ; *equate CountLazlo.006 LazloStrog5.35
 ; *equate LazloStrog3.1 CountLazlo.000
 
