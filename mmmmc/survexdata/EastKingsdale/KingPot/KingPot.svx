@@ -1,0 +1,20 @@
+;Title: King Pot
+
+;Date Created 05/02/2011 by Becka Lawson
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All King Pot files
+
+*begin KingPot
+
+; *export EntranceTag
+
+*include DownstreamSumpRSkorupka
+
+; *equate EntranceTag King1.tag
+
+*end KingPot
