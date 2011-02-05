@@ -1,4 +1,4 @@
-;Cave:	Keld Head - Starting at junction in Great Western at end of leg 75 in Rupe's Survey of the Marble Steps Branch
+;Cave:	Keld Head - Starting at -8.4m from junction in main passage (at end of Great Western) at end of leg 75 in Rupe's Survey of the Marble Steps Branch
 ;Surveyors:	JNC
 ;Date:	08/04/00
 ;vis = ???
@@ -11,15 +11,15 @@
 
 *data diving from to bearing length fromdepth todepth
 
-1	2	203.0	01.35	-08.40	-08.30	;st001=Ruperts end of leg 075
-2	3	218.0	03.90	-08.30	-08.30
-3	4	221.0	03.30	-08.30	-08.30
-4	5	215.0	05.40	-08.30	-08.30
+1	2	203.0	01.35	-08.40	-08.30	;st001=Ruperts end of leg 075; ; Becka 05.02.11 - "belay at thin slab of rock" (assume this is station 2) from one of two lots of notes given me by Rupert of 08.04.00
+2	3	218.0	03.90	-08.30	-08.30	; Becka 05.02.11 - "belay at thin slab of rock" in one of two lots of notes given me by Rupert of 08.04.00
+3	4	221.0	03.30	-08.30	-08.30	; Becka 05.02.11 - "tiny lead weight" on one of two lots of notes given me by Rupert of 08.04.00 say distance 3.00
+4	5	215.0	05.40	-08.30	-08.30	; Becka 05.02.11 - "big lead weight" on one of two lots of notes given me by Rupert of 08.04.00
 5	6	194.0	03.45	-08.30	-08.30
-6	7	174.0	02.20	-08.30	-08.10
-;the next three legs have estimated bearings
-7	8	165.0	03.30	-08.10	-08.10
-8	9	160.0	03.30	-08.10	-08.10
-9	10	180.0	04.00	-08.10	-08.10	;chamber 29.10 from Great Western present limit of line.
+6	7	174.0	02.20	-08.30	-08.10	; Becka 05.02.11 - "tangled as line cable wrapped just before this point" in one of two lots of notes given me by Rupert of 08.04.00 say distance 2.00 and clino 0
+;the next three legs have estimated bearings (from line deflections)
+7	8	165.0	03.30	-08.10	-08.10	; Becka 05.02.11 - "milk-bottle (end of previous line)" on one of two lots of notes given me by Rupert of 08.04.00 say distance 3.00
+8	9	160.0	03.30	-08.10	-08.10	; Becka 05.02.11 - "where I got to last week (1-4-00)" on one of two lots of notes given me by Rupert of 08.04.00 say distance 3.00
+9	10	180.0	04.00	-08.10	-08.10	;chamber 29.10 from Great Western present limit of line; end about 33m from start
 
 *end	osmoticpalpitator
