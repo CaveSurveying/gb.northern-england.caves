@@ -3,7 +3,7 @@
 ;Date:	3/2/11
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
-*begin	Thecupcake
+*begin	thecupcake
 
 ;*calibrate compass
 
@@ -30,4 +30,4 @@
 008	0.0	0.0	0.0	1.5	;1.5m above current surface ent.
 009	0.0	0.0	0.0	0.0	;fence post
 
-*end	Thecupcake
+*end thecupcake
