@@ -93,7 +93,7 @@
 
 *include KangoHole/KangoHole
 
-*include Cupcake/Cupcake
+;*include Cupcake/Cupcake
 
 *include Surface/LJ-BH-VH-NII-CCsurface
 *equate LostJohns.EntranceTag LJ-BH-VH-NII-CCsurface.Lostjohns
