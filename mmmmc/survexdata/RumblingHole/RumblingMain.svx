@@ -1,6 +1,7 @@
 
 *begin RumblingMain
-*export 1
+
+*export 1, 45
 
 *title "Rumbling Main Route"
 *date 2010.11.07

@@ -25,16 +25,23 @@
 *equate RumblingHole_6.152 RumblingHole_2.152
 *include RumblingHole_6
 
-*equate RumblingHole_7.001 RumblingHole_2.103
-*include RumblingHole_7
-
 *equate RumblingHole_8.007 RumblingHole_1.017
 *include RumblingHole_8
 
-*equate RumblingHole_9.001 RumblingHole_7.022
-*include RumblingHole_9
+
+; replacement survey
 
 *equate RumblingMain.1 RumblingHole_2.101
 *include RumblingMain
+
+*equate RumblingHole_9.023 RumblingMain.45  ; base of last pitch connection assumed
+*include RumblingHole_9
+
+;old survey
+;*equate RumblingHole_7.001 RumblingHole_2.103
+;*include RumblingHole_7
+;*equate RumblingHole_9.001 RumblingHole_7.022
+;*include RumblingHole_9
+
 
 *end RumblingHole
