@@ -86,6 +86,8 @@
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
+*equate RiftPot.RiftTowardsMousehole.23 LargePot.Large15.23x
+
 *include LittlePot/LittlePot
 *equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 

@@ -12,6 +12,7 @@
 *begin LargePot
 
 *export EntranceTag
+*export Large15.23x
 
 *include Large1
 *include Large2

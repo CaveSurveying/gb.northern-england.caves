@@ -13,6 +13,7 @@
 
 *export EntranceTag
 *export SoutheastInletConnection
+*export RiftTowardsMousehole.23
 
 *include RiftPotEntrance
 *include CoatesPassage1
