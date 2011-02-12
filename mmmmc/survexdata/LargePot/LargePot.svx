@@ -29,6 +29,7 @@
 *include Large13
 *include Large14
 *include Large15
+*include Large16
 
 *equate EntranceTag Large1.tag
 *equate Large1.25 Large2.1
@@ -45,5 +46,6 @@
 *equate Large14.9 Large12.8
 *equate Large13.1 Large12.1
 *equate Large15.14 Large13.8
+*equate Large16.9x Large14.9
 
 *end LargePot
