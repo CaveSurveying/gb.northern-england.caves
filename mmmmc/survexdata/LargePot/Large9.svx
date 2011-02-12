@@ -14,6 +14,7 @@
 ; Colossus pitch leg and connecting leg surveyed following week, on 2011.01.30, by Neil Pacey and Becka Lawson using Neil's Disto-X
 ; also 2 legs from station 4 surveyed following week, on 2011.01.30, by Andrew Atkinson and Becka Lawson using Neil's Disto-X
 ; also 5 legs from station 8 surveyed following week, on 2011.01.30, by Andrew Atkinson and Becka Lawson using Neil's Disto-X
+; also 1 leg from station 1 surveyed 12.02.2011 by Becka Lawson and Patrick Warren to check pitch measurement
 
 ;from	to	tape	compass	clino	remarks
 
@@ -21,12 +22,15 @@ x	p	1.96	149	+01
 y	p	3.92	063	+25		; this leg written as y-hang to p on Neil's notes, yhang is knot for Colossus I think
 1	p	5.29	068	+39		; unclear where station 1 is - should be lower than yhang - is it on wall, marked point?
 
+*flags duplicate
+1       c       37.40   -       down        ; Becka and Patrick on 12.02.2011 using Patrick's 60m tape to plumb to station 2 of Large9 to check Neil's distox reading - looks very similar
+*flags not duplicate
+
 ; this and next leg surveyed 2011.01.30, Becka & Neil, see comment above
 y	a	40.76	310.3	-84.8
 2	a	3.28	350.5	-31.6	
 ; back to 2011.01.22 survey from below
 
-;	y	2	300		-	down	; joke plumb because we couldn't get the distance - replace 300
 3	2	10.85	350	+0.5
 4	3	7.04	085	-01
 
@@ -74,8 +78,8 @@ s	18c	1.93	166.5	+16
 
 x	1.3	0	3	1.7	old station on r wall
 p	-	-	-	-	first, backup p hanger for Colossus - old station
-y	0.1	1.5	4	-	yhang knot for main Colossus pitch
-1	0.5	1.5	5.4	-
+y	0.1	1.5	4	-	yhang knot for main Colossus pitch  (is this right? should be really close to 1 but much higher ...)
+1	0.5	1.5	5.4	-       wall near spit for main pitch
 2	13	9	40	3.6	
 3	3.5	5	0.6	0.1	numbered
 4	1.5	-	0.3	0.4	numbered
