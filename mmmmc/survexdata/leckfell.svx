@@ -3,6 +3,9 @@
 ; ASSUMES ALL MAG DECL CORRECTIONS IN SURFACE DATA INCLUDED IN RESPECTIVE DATA FILES
 
 *include Surface/leckfellsurfacesurvey
+*include Surface/LJ-BH-VH-NII-CCsurface
+*equate LostJohns.EntranceTag LJ-BH-VH-NII-CCsurface.Lostjohns
+
 
 ; BODGE FOR MAG DECL IN UNDERGROUND SURVEYS
 
@@ -96,9 +99,6 @@
 *include KangoHole/KangoHole
 
 ;*include Cupcake/Cupcake
-
-*include Surface/LJ-BH-VH-NII-CCsurface
-*equate LostJohns.EntranceTag LJ-BH-VH-NII-CCsurface.Lostjohns
 
 *fix	LazloRLP	66795	78441	334	;GPS RGB 06/10/07
 
