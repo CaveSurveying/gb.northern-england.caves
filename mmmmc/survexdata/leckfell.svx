@@ -2,6 +2,10 @@
 
 ; ASSUMES ALL MAG DECL CORRECTIONS IN SURFACE DATA INCLUDED IN RESPECTIVE DATA FILES
 
+
+; want LJ-BH-VH-NII-CCsurface to replace all fixes where it can, because it's 
+; satellite view, GPS and surface verified points (though it doesn't contain fixes!)
+
 *include Surface/leckfellsurfacesurvey
 *include Surface/LJ-BH-VH-NII-CCsurface
 *equate LostJohns.EntranceTag LJ-BH-VH-NII-CCsurface.Lostjohns
@@ -12,6 +16,7 @@
 ; underground surveys - avg mag decl for 2010 = 3 deg W
 ; true N to grid N correction = -0.33 
 *calibrate declination 2.67
+
 
 *include BruntskillPot/BruntskillPot
 *fix	BruntskillPot.Entrance	66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
@@ -36,11 +41,11 @@
 
 
 *include Ireby/Ireby
-*equate Ireby.EntranceTag leckfellsurfacesurvey.IrebyEntranceTag
+*equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
 
 
 *include NottsII/NottsII
-*equate NottsII.Entrance leckfellsurfacesurvey.NottsIIEntrance
+*equate NottsII.Entrance    leckfellsurfacesurvey.NottsIIEntrance
 
 
 *include MarbleSteps/AllMarbleSteps
@@ -65,7 +70,8 @@
 *include LostJohns/LostJohns
 *equate LostJohns.EntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
      ; appears to refer to another surface survey to tie in here
-
+*include Surface/LJ-BH-VH-NII-CCsurface
+*equate LostJohns.EntranceTag           LJ-BH-VH-NII-CCsurface.Lostjohns
 *fix	LostJohns.BoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
 
 
@@ -98,7 +104,6 @@
 
 *include KangoHole/KangoHole
 
-;*include Cupcake/Cupcake
 
 *fix	LazloRLP	66795	78441	334	;GPS RGB 06/10/07
 
