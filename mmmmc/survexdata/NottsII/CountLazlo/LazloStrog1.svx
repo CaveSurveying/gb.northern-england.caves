@@ -67,8 +67,8 @@
 049	050	8.29	065	-07
 050	051	4.45	155	+36
 051	052	5.80	132	+02
-052	053	3.00	071	+05
-053	054	8.67	130	+08
+; 052	053	3.00	071	+05      ; superceded by TheCupcake survey
+; 053	054	8.67	130	+08      ; superceded by TheCupcake survey
 	
 ; 102	039	3.67	314	-38	repeated data - same as Limbo Passage
 ; 103	102	3.78	293	+9	repeated data - same as Limbo Passage
@@ -132,8 +132,8 @@
 050	4	6	1.9	1.5
 051	1	0.35	1	0.5
 052	1.7	0.5	1	0
-053	0.3	0.6	1	0.35
-054	0.2	0	0.15	0.3
+; 053	0.3	0.6	1	0.35            ; superceded by TheCupcake survey
+; 054	0.2	0	0.15	0.3             ; superceded by TheCupcake survey
 	
 *end lazlostrog1
 
