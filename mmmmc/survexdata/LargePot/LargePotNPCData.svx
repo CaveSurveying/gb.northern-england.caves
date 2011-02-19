@@ -1,0 +1,375 @@
+;Title: Large Pot  NPC data from 1982-1983 courtesy of Andy Waddington (emailed to Becka on 10 Feb 2011)
+
+;Date Created 13/09/2010 by Becka Lawson
+
+;All NPC Large Pot files
+
+*begin LargePotNPCData
+
+*export EntranceTag
+
+*equate EntranceTag Large1.tag
+
+; The format is fixed-width fields
+; station-from
+; station-to
+; length
+; compass
+; clino
+; plumb
+; comment
+
+; plumb is negative downwards.
+
+; NOTES > bbc:$.Survey.Surveys.Masongill.All.D
+; TITLE MASONGILL SURFACE + LARGE POT.  NPC 1982-3.
+ORIGIN
+ BENCH     926.6       660.0       345.3
+CHANGE               8.0   0.0      DEFAULT CALIBRATION
+   SB1 BENCH 11.55 274.5  -9.       OS BENCHMARK SDnnnn nnnn
+   SB1   SB2 19.8   35.5   6.5
+   SB3   SB2 18.75 254.5  -8.
+   SB3   SB4  9.75  49.5   8.
+   SB5   SB4 18.85 243.   -8.5      SB4 GATEPOST,MASONGILL LN
+   SB5   SB6 18.85  37.5   9.
+   SB7   SB6 19.8  253.   -9.
+   SB7   SB8 19.6   39.    9.5
+   SB9   SB8 19.7  253.5 -10.
+   SB9  SB10 19.55  39.5  10.5
+  SB11  SB10 18.55 239.   -9.
+  SB11   SP2 14.25 106.    5.5      DOWN MASONGILL LANE
+  SA17   SP2 18.1  309.5 -12.       SP2 IN LST E OF BEND
+  SA17  SA16 19.1  143.    3.5
+  SA15  SA16 17.9  324.   -3.
+  SA15  SA14 19.3  139.    4.
+  SA13  SA14 17.1  321.5  -5.5
+  SA13   SP1 19.65 134.    0.5
+  SB12   SP1 18.55 256.  -13.
+  SB12  SB13 15.15  63.5  11.5
+  SB13  SB14 14.85  58.    7.5
+  SA12   SP1 18.15 333.   -3.       SP1 IN GRIT,BEND OF LANE
+  SA12  SA11 18.15 144.5   0.
+  SA10  SA11 19.25 320.   -5.5
+  SA10   SA9 19.1  113.    8.
+   SA8   SA9 18.25 304.   -5.5
+   SA8   SA7 19.3  130.    1.
+   SA6   SA7 18.9  303.   -1.5
+   SA6   SA5 19.3  135.5  -0.5
+   SA4   SA5 17.8  329.   -0.5
+   SA4   SA3 17.5  168.5  -2.5
+   SA2   SA3 15.45 355.    2.5
+   SA1   SA2 19.5    0.5   2.
+   SA1NE POT 11.20 185.5 -32.5       NE POT DRILLED STATION IN SHAKE
+  SA18   SP2 12.05 215.5 -21.
+  SA18  SA19 19.1   66.5   9.5
+  SA20  SA19 19.85 235.5  -8.
+  SA20  SA21 18.45  60.    9.
+  SA22  SA21 19.55 230.5 -10.5
+  SA22  SA23 18.95  62.5  10.5
+  SA24  SA23 19.25 226.5  -8.0
+  SA24  SA25 14.0   44.    3.5
+  SA26  SA25 17.9  307.5  -3.
+  SA26  SA27 18.45  98.5   1.5      SA27 ON EDGE OF SHAKE
+  SA27 LARGE  7.05 115.  -34.       LARGE POT NEXT TO LID
+  SA28  SA27 10.6  292.    8.       SA28 ON COL LARGE/LITTLE
+  SA28  SA29 17.0   97.5   6.5      SA29 BY SINK EDGE LITTLE
+  SA30  SA29 19.45 217.5  -4.
+  SA30  SA31 11.15  34.5   3.5      TO WALL END
+  SC10   SP1 17.00 228.5 -14.5      START OF TURBARY ROAD
+  SC10   SC9 19.00  88.    6.5
+   SC8   SC9 15.75 240.   -7.5
+   SC8   SC7 19.20 105.    5.0
+   SC6   SC7 19.30 253.   -7.
+   SC6   SC5 19.50  81.5   2.
+   SC4   SC5 19.45 258.   -4.
+   SC4   SC3 19.70  74.5   3.
+   SC2   SC3 19.70 259.5  -2.5
+   SC2   WC1 19.90  87.5   1.
+   SC1   WC1 14.75 208.5 -1.25
+   SC1MS POT  4.35  51.  -47.       MOTHERING SUNDAY POT
+  SC11   WC1 19.75 119.   -0.5
+  SC11  SC12 20.20 294.    0.5
+  SC13  SC12 19.75 136.   -3.
+  SC13  SC14 18.80 312.   -1.
+  SC15  SC14 19.15 140.5   2.5
+  SC15  SC16 20.05 325.   -4.
+  SC17  SC16 14.85 141.    5.5
+  SC17  SC18 17.15 345.   -5.
+  SC18 LARGE  5.15 351.5 -32.       CLOSED LOOP TO LARGE POT.
+UNITS FEET
+ LARGE   LA1                   -25.0
+   LA1   LA2   3.  310.
+   LA2   LA3                   -15.
+   LA3   LA4   3.  210.
+   LA4   LA5   5.  311.         -2.
+   LA5   LA6   6.  210.         -3.
+   LA6   LA7   5.  310.
+   LA7   LA8                   -40.
+   LA8   LA9   3.  200.
+   LA9  LA10   5.  275.
+  LA10  LA11   4.  285.
+  LA11  LA12   4.5  30.
+  LA12  LA13                    -9.
+  LA13  LA14  10.5  30.
+  LA14  LA15                   -21. STATION 8
+  LA15  LA16  13.   16.             STATION 9 THORNTON HALL
+  LA16  LA17  26.  252.             STATION 10 4-WAY JUNCTION
+  LA17  LA18  10.  203.
+  LA18  LA19  23.  237.
+  LA19  LA20                   -15. THE PIT
+  LA20  LA21   7.  190.
+  LA21  LA22   9.  223.
+  LA22  LA23                    17. STATION 16 TOP OF CLIMB
+  LA23  LA24  27.  196.
+  LA24  LA25  21.  126.
+  LA25  LA26  10.  201.
+  LA26  LA27  14.  230.
+  LA27  LA28   8.  185.
+  LA28  LA29  12.  160.
+  LA29  LA30  11.  111.
+  LA30  LA31  59.  135.
+  LA31  LA32   9.  135.
+  LA32  LA33  13.  155.             STATION 26
+  LA33  LA34   8.  214.
+  LA34  LA35  14.  252.
+  LA35  LA36  70.  155.
+  LA36  LA37  14.  178.
+  LA37  LA38  25.  153.
+  LA38  LA39   6.  188.
+  LA39  LA40  21.  146.
+  LA40  LA41   6.  292.
+  LA41  LA42  30.  322.
+  LA42  LA43  15.  276.
+  LA43  LA44   4.  232.
+  LA44  LA45   5.  316.
+  LA45F.AVEN   9.  152.             FISSURE AVEN
+  LA17  LA46  15.  120.             SMALL INLET FROM 4-WAY JN
+  LA46  LA47  13.   80.
+  LA17  LA48   7.   10.
+  LA48  LA49  13.  312.
+  LA49  LA50  11.   10.
+  LA50  LA51  10.  292.
+  LA51  LA52                     9. STATION (8)
+  LA52  LA53  12.   60.
+  LA53  LA54   8.  100.
+  LA54  LA55   6.5  27.
+  LA55  LA56   4.   70.
+  LA56  LA57   6.   15.             STATION 'A'
+  LA57  LA66                    25.
+  LA57  LA58                    10.
+  LA59  LA58   7.  160.
+  LA60  LA59  10.  130.
+  LA61  LA60   3.  225.
+  LA62  LA61                     6.
+  LA63  LA62   6.  150.             LA62 RELATES TO STATION 4 ?
+  LA64  LA63                   -12.
+  LA65  LA64  16.  240.
+  LA67  LA16   9.  180.             LITTLE POT INLET
+  LA68  LA67   9.  250.
+  LA69  LA68   7.  235.
+  LA70  LA69  20.  310.
+  LA23  LA71  14.  196.
+  LA72  LA71  12.   62.
+  LA73  LA72   7.  152.
+  LA74  LA73  11.   35.
+  LA75  LA74   6.5  15.
+  LA76  LA75   7.   80.
+  LA77  LA76  11.   30.
+  LA78  LA77  40.  145.
+  LA78  LA79  10.  310.
+  LA80  LA79   5.  240.
+  LA80  LA81  25.  315.
+  LA82  LA33  28.  318.             TINKLE INLET
+  LA83  LA82  18.  225.
+  LA84  LA83   7.  329.
+  LA85  LA84  11.  298.
+  LA86  LA85  35.  311.
+  LA87  LA86  11.  325.
+  LA88  LA87  11.  290.
+  LA89  LA88  34.  320.
+  LA90  LA89   6.  270.
+  LA91  LA90  17.  230.
+  LA92  LA91  13.  240.
+  LA92  LA93  12.  160.
+UNITS METRIC
+  LA93   GS0   0.0   0.0   0.0   0.0 NOMINAL CONNECTION
+   GS1   GS0  3.3  223.    0.0       THROUGH SUMP
+   GS2   GS1  2.15 154.    0.0 -0.3
+   GS3   GS2  6.95 234.    0.0  0.2
+   GS4   GS3  2.1  134.    0.0 -0.2
+   GS5   GS4  4.9  234.    0.0  0.2
+   GS6   GS5  3.65 236.  -19.
+   GS7   GS6  3.5  207.   -7.
+   GS8   GS7  3.85 222.   -3.
+   GS9   GS8  1.7  320.    0.
+  GS10   GS9  3.1  226.    6.
+  GS11  GS10  1.3  187.   24.
+  GS12  GS11  3.15 238.   -6.
+  GS13  GS12  2.   180.   -8.
+  GS14  GS13  5.6  236.    2.
+  GS15  GS14  2.85 254.   -3.
+  GS16  GS15  3.25 298.   -2.
+  GS17  GS16  4.65 199.    0.
+  GS18  GS17  2.95 237.    3.
+UNITS FEET
+   LB1F.AVEN  18.   63.
+   LB2   LB1  15.  155.
+   LB3   LB2   7.   75.
+   LB4   LB3   5.  355.    5.
+   LB5   LB4   7.  355.   15.
+   LB6   LB5   7.   90.   15.
+   LB7   LB6   6.   15.
+   LB8   LB7  31.  320.    5.
+   LB9   LB8   9.   60.   15.
+  LB10   LB9   7.  110.
+  LB11  LB10  15.   60.
+  LB12  LB11  18.  330.             LB12 CALCITE CORNER
+  LB13  LB12  30.  105.
+  LB14  LB13  12.  100.
+  LB15  LB14  20.   90.
+  LB16  LB15  13.   80.
+  LB17  LB16  20.   70.
+  LB18  LB17  12.   37.
+  LB19  LB18  20.  341.
+  LB20  LB19  32.  343.
+  LB21  LB20  20.  342.
+  LB22  LB21  40.  335.
+  LB23  LB22  12.  320.
+  LB24  LB23  18.  291.
+  LB25  LB24  20.  325.
+  LB26  LB25  13.  333.
+  LB27  LB26  18.  344.
+  LB28  LB27  27.  315.
+  LB29  LB28  13.  325.
+  LB30  LB29  12.    0.
+  LB31  LB30  12.   15.
+  LB32  LB31                     5. LB31 JN WITH PUMPKIN PASSAGE
+  LB33  LB32  14.  146.
+  LB34  LB33  21.  125.
+  LB35  LB34  15.   90.
+  LB36  LB35  10.   40.
+  LB37  LB36  20.   53.
+  LB38  LB37  25.   25.
+  LB39  LB38   7.   90.
+  LB40  LB39  15.   40.
+  LB40  NEC1                  -140. COLOSSUS
+  NEC1  NEC2  45.  180.
+  NEC2  NEC3  30.  138.
+  NEC3  NEC4  60.  142.
+  NEC4  NEC5  42.  155.
+  NEC6  NEC1  30.  135.
+  NEC7  NEC6  26.  149.
+  NEC8  NEC7  40.   90.
+  NEC9  NEC8  50.  185.
+ NEC10  NEC9  30.  140.
+ NEC11 NEC10  50.  143.
+ NEC12 NEC11  50.  128.
+ NEC13 NEC12  50.  156.
+ NEC14 NEC13  50.  154.
+  LB41  LB31  20.  315.
+  LB42  LB41  26.  330.
+  LB43  LB42   8.  280.
+  LB44  LB43   6.  295.
+  LB45  LB44   9.  275.
+  LB46  LB45  11.  320.
+  LB47  LB46   9.  315.
+  LB48  LB47  15.  321.
+  LB49  LB48  28.  340.
+  LB50  LB49   7.  327.
+  LB51  LB50  13.  298.
+  LB52  LB51  10.  272.
+  LB53  LB52   9.  333.
+  LB54  LB53   6.  286.
+  LB55  LB54  36.  323.
+  LB56  LB55  14.  295.
+  LB57  LB56   7.  230.
+  LB58  LB57  10.  281.
+  LB59  LB58   7.  190.
+  LB60  LB59  12.  245.
+  LB61  LB60  20.  195.
+  LB62  LB61   6.  265.
+  LB63  LB62   6.  330.
+  LB64  LB63   7.  290.
+  LB65  LB64  53.  195.
+  LA52   RH1   9.  280.
+   RH2   RH1                     5.
+   RH3   RH2                    80.
+   RH4   RH3  12.    0.
+   RH5   RH4                    15.
+   RH6   RH5  10.  275.
+   RH7   RH6  28.   53.   10.
+   RH8   RH7  36.   57.    7.
+   RH9   RH8                    40.
+  RH10   RH9   5.    0.
+  RH11  RH10                    23.
+  RH12  RH11  13.    0.             RH12 OCCULT JUNCTION
+  RH13  RH12  14.  230.
+  RH14  RH13   5.  182.          1.
+  RH15  RH14   5.  228.
+  RH16  RH15   5.  302.
+  RH17  RH16  20.  263.          3.5
+  RH18  RH17                    11.
+  RH19  RH18  26.  160.   15.
+  RH20  RH19   3.  254.
+  RH21  RH20  30.  164.          5.
+  RH22  RH21   8.  222.
+  RH23  RH22  13.  175.
+  RH24  RH23                    22.
+  RH25  RH24  24.  293.
+  RH26  RH25  28.  325.
+  RH27  RH26  18.  260.
+  RH28  RH27  15.  300.
+  RH29  RH28  11.  255.
+  RH30  RH29  13.  289.
+  RH31  RH30  37.  290.
+  RH32  RH31  12.  273.
+  RH33  RH32  12.  172.
+  RH34  RH33  10.  208.          1.
+  RH35  RH34  54.  251.
+  RH36  RH35  28.  252.
+  RH37  RH36  20.  220.
+  RH38  RH37  12.  278.
+  RH39  RH38  16.  228.
+  RH40  RH39  17.  260.
+  RH41  RH40  16.  242.          1.
+  RH42  RH41  27.  250.
+  RH43  RH42   8.  272.
+  RH44  RH43   8.  311.
+  RH45  RH44  13.  245.
+  RH46  RH45   9.  320.
+  RH47  RH46  12.  354.
+  RH48  RH47  13.  301.
+  RH49  RH48  12.  339.          2.
+  RH50  RH49   7.   33.          1.
+  RH51  RH50   9.   20.   20.
+  RH52  RH51                    20.
+  RH53  RH52  16.  315.
+  RH54  RH53                    18.
+  RH55  RH54  20.  288.   20.
+  RH56  RH55                    12.
+  RH57  RH56  18.  270.
+  RH58  RH57  12.  319.   15.
+  RH59  RH58  18.   28.    5.
+  RH60  RH59  14.  309.
+  RH61  RH60  13.  331.
+  RH62  RH61  12.  353.
+  RH63  RH62  11.  253.
+  RH64  RH63  14.  231.   15.
+  RH65  RH64  12.   13.             SUMP
+  RH66  RH12                   -15.
+  RH67  RH66  23.  335.   10.
+  RH68  RH67   8.    7.
+  RH69  RH68   9.  350.   25.
+  RH70  RH69  19.  346.   22.
+  RH71  RH70  27.  341.   36.
+  RH72  RH71                     3.
+  RH73  RH72  13.  300.   10.
+  RH74  RH73                     5.
+  RH75  RH74  13.  328.    9.
+  RH76  RH75   7.  324.   10.
+  RH77  RH76   9.   22.   20.
+  RH78  RH77   4.  326.
+  RH79  RH78  11.    0.   10.
+  RH80  RH79  14.   38.    5.
+
+*end LargePotNPCData
