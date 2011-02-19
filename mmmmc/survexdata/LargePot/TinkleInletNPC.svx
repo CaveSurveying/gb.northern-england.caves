@@ -10,10 +10,11 @@
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
+; given the date (1983) this really needs a separate correction for magnetic variation to remaining (2010/2011) Large Pot data
+
 ;from	to	tape	compass	clino	remarks
 
-; Comment from Andy Waddington about drawn up survey "grid north" here would have been an arbitrary "magnetic
-north - 8 degress"
+; Comment from Andy Waddington about drawn up survey "grid north" here would have been an arbitrary "magnetic north - 8 degress"
 
 ; UNITS METRIC
 ;  LA93   GS0   0.0   0.0   0.0   ; NOMINAL CONNECTION THROUGH SUMP

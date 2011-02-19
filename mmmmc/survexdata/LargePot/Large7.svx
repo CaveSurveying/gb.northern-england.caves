@@ -1,6 +1,6 @@
 
 *begin Large7
-*export 18x
+*export 18x  46
 
 *title "Tinkle Inlet"
 *date 2010.11.06
