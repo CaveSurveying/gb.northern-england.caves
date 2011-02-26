@@ -57,9 +57,11 @@
 *equate Inlet18.Sump3 Inlet17.Inlet17_2.Sump3
 *equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
 *equate DaylightAven.DaylightAven_1.0 MainStreamway.Mainstreamway8.8
-*equate Whiteflag.1 Paaschendale.Paaschendale1.1	
-*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - eventually replace this with BrunoKranskies equate
+*equate Whiteflag.1 Paaschendale.Paaschendale1.1
 *equate CountLazloALL.BrunoKranskies1.tag MainStreamway.MainStreamway5.011 ; tag in main stream
+*equate MainStreamway.Mainstreamway8.10 DaylightAven.DaylightAven2011-1.1
+
+;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - eventually replace this with BrunoKranskies equate
 
 *end NottsII
 
