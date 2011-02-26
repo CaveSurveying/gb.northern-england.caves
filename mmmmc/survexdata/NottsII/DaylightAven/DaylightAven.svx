@@ -3,14 +3,13 @@
 *export DaylightAven_1.0
 
 *include DaylightAven_1
-
-*Include DaylightAven_2
-
-*Include DaylightAven_3
-;---------------------------------------------------
+*include DaylightAven_2
+*include DaylightAven_3
+*include DaylightAven2011-1
 
 *equate DaylightAven_1.10b DaylightAven_2.10
 *equate DaylightAven_2.1 DaylightAven_3.1
+
 
 
 *end DaylightAven
