@@ -7,7 +7,8 @@
 *include DaylightAven_3
 *include DaylightAven2011-1
 
-*equate DaylightAven_1.10b DaylightAven_2.10
+;*equate DaylightAven_1.10b DaylightAven_2.10      ; this connection looks wrong on basis of 2011.02.26 survey so have commented out - Becka
+*equate DaylightAven_2.2 DaylightAven2011-1.14
 *equate DaylightAven_2.1 DaylightAven_3.1
 
 *end DaylightAven
