@@ -29,7 +29,7 @@
 ; When all surface surveys are complete 
 ; this should be the one *fix in the whole setup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-*fix	 NottsIIEntrance	66728 78424 334	
+*fix	 NottsIIEntrance	66667 78303 345  ; set from wheresthepath website	
 
 *include NottsIIsurfacesurvey
 
