@@ -4,6 +4,7 @@
 *begin CountLazloALL
 
 *export LazloStrog1.052 BrunoKranskies1.tag
+*export TheCupcake.008
 
 *include LazloStrog1
 *include LazloStrog2

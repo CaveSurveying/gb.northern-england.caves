@@ -19,6 +19,16 @@
 *export Bruntsgill
 *export Shortdrop
 
+*entrance Whitches
+*entrance Shortdrop
+*entrance Gavel
+*entrance DeathsHead
+*entrance Longdrop
+*entrance ByGeorge
+*entrance StumblingHole
+*entrance Rumblingbeckcave
+*entrance MarbleSteps
+
 *fix	001	66668	78310	319	;Committee Pot Entrance CC 13/11/05
 *fix	002	66885	78199	352	;Slime Aven Junctuion CC 13/11/05
 *fix	003	66913	78210	357	;Trunk Junction CC 13/11/05
@@ -56,6 +66,7 @@
 *fix	I06	66134	78438	272
 *fix	IO7	65789	77865	244	;Old resurgence?
 *fix	I08	65915	77867	248	;Active Sink
+
 
 *fix	Whitches 66013	80006	214	;Whitches cave
 *fix	Shortdrop 67030	78934	346	;Shortdrop fence post near stile with tag

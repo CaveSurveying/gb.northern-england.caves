@@ -1,26 +1,76 @@
-;Date:	28/10/09 created overall surface survey file (Becka)
-
 *begin	leckfellsurfacesurvey
 
-; the long term plan is to abolish as many *fixes as possible
-; and replace with an accurate surface survey connecting all the caves together 
-; (this is able to respect their altitude more accurately)
+*export NottsIIEntrance
+*export VoldemortEntranceSWcorner
+*export CupcakeEntranceSWcorner
 
-; At present, this file doesn't compile on its own because of the 
-; NottsToLJSurface piece connecting two cave entrances together, but not connecting 
-; to the rest of the surface survey.  This should be rectified.
+*export LostJohnsEntranceTag
+*export BoxHeadEntranceTube
 
 *export LowDoukEntranceTag
 *export IrebyEntranceTag
 *export RiftPotEntranceTag
 *export NottsPotEntrancePhanger ; first P hanger at Notts Pot entrance
-*export MarbleStepsEntranceTag  ; not used yet
+*export MarbleStepsEntranceTag
 *export LargePotTag             ; first station of Large1 survex file in Large Pot folder
-*export NottsIIEntrance         ; not connected to surface survey, but used
-*export LostJohnsEntranceTag    ; not connected to surface survey, but used in RoughPot
 *export ShortDropFencePost
+*export LongDropStylePost
+*export StartingHandleHole
+
+*export BruntskillPotEntrance
+*export BumblingHoleEntrance
+*export CoalHoleEntrance
+*export DeathsHeadHoleFencePostTag
+*export EyeHolesStyle
+*export GavelPotFencePost
+*export RumblingBeckTopEntrance
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; When all surface surveys are complete 
+; this should be the one *fix in the whole setup
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+*fix	 NottsIIEntrance	66728 78424 334	
+
+*include NottsIIsurfacesurvey
+
+*equate NottsIIEntrance                 NottsIIsurfacesurvey.NottsIIEntrance
+*equate VoldemortEntranceSWcorner       NottsIIsurfacesurvey.VoldemortEntranceSWcorner
+*equate CupcakeEntranceSWcorner         NottsIIsurfacesurvey.CupcakeEntranceSWcorner
+
+*equate LostJohnsEntranceTag            NottsIIsurfacesurvey.LostJohnsEntranceTag
+*equate BoxHeadEntranceTube             NottsIIsurfacesurvey.BoxHeadEntranceTube
+*equate StartinghandleHole              NottsIIsurfacesurvey.StartinghandleHole
+
 
 *flags surface
+
+; fixes moved down from leckfell.svx which should be replaced with a surface survey
+
+; north of NottsII area
+*fix ShortdropFencePost             67030	78934	346	;Shortdrop fence post near stile with tag
+*fix LongDropStylePost              66969	79176	346	;Longdrop stile RGB GPS 02/03/07
+*fix BruntskillPotEntrance          66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
+*fix BumblingHoleEntrance           66949	79284	343
+*fix CoalHoleEntrance               67168	79047	358	;GPS RGB 13/12/07
+*fix DeathsHeadHoleFencePostTag     66783	79159	335 ;GPS RGB 29/11/07
+*fix EyeHolesStyle                  66824	79184	337	;eyehole stile RGB GPS 02/03/07
+*fix GavelPotFencePost              66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance
+*fix RumblingBeckTopEntrance        67173	79128	357 ;GPS RGB 13/09/07
+
+
+*include mg1
+*include mg2
+*include mg3a
+*equate	mg1.008a	mg2.032
+*equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
+
+
+*fix mg1.001    67929     76660	    348     ; top of gate-post near stile
+;*fix mg3a.008   67682.0   77228.0   408.0   ; head height on stile
+;*fix mg3a.016   67259.0   77374.0   402.36  ; rock top at junction of wall and fence to shooting hut on Leck Road
+;*fix mg3a.024   67114.37  77803.73  376.35  ; first P hanger at Notts Pot entrance
+;*fix mg3a.012a  67367.78  77343.61  389.00  ; tag hole on right of scaffold bar in top rock(tag missing)
+
 
 *equate LowDoukEntranceTag      mg1.038b
 *equate IrebyEntranceTag        mg3a.012a
@@ -28,53 +78,16 @@
 *equate NottsPotEntrancePhanger mg3a.024
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
-*equate LostJohnsEntranceTag	NottsToLJSurface.tag  ; 27.07.10 June Update - now got good data to tag2010 rather than equating tag to stn 26 - Becka - I'm not sure how accurate this equate is - surface survey went to "entrance LJ leftside head height" rather than the entrance tag
-*equate NottsIIEntrance	        NottsToLJSurface.0    ; Becka - I'm not sure how accurate this equate is - surface survey went to "Notts2 centre of lid" 
-*equate ShortdropFencePost      LFGPS.Shortdrop
 
 *entrance LowDoukEntranceTag
 *entrance IrebyEntranceTag
 *entrance RiftPotEntranceTag      
 *entrance NottsPotEntrancePhanger 
 *entrance MarbleStepsEntranceTag  
-*entrance LargePotTag            
+*entrance LargePotTag
 *entrance NottsIIEntrance
 
 *entrance LostJohnsEntranceTag
 
-*entrance ShortDropFencePost
-
-; this has a whole lot of GPS's of places.  Maybe we can move some of those below into it
-*include LFGPS
-
-;Cave:	Surface Survey- Large/Marble Steps/Rift/Low Douk
-*include mg1
-
-;Cave:Surface survey from Trig Point on Tow Scar to link with MG1 surface survey	
-*include mg2
-
-;Cave:	Surface survey of New Rift Pot via Ireby Fell to Notts pot
-*include mg3a
-
-;Cave:	Surface survey of Lost Johns to Notts pot - ****Becka - July 2010 - the start and end points not accurately equated to underground data
-*include NottsToLJSurface
-
-*fix mg1.001    67929     76660	    348     ; top of gate-post near stile
-*fix mg3a.008   67682.0   77228.0   408.0   ; head height on stile
-*fix mg3a.016   67259.0   77374.0   402.36  ; rock top at junction of wall and fence to shooting hut on Leck Road
-*fix mg3a.024   67114.37  77803.73  376.35  ; first P hanger at Notts Pot entrance
-*fix mg3a.012a  67367.78  77343.61  389.00  ; tag hole on right of scaffold bar in top rock(tag missing)
-
-*equate	mg1.008a	mg2.032
-*equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
-
-; not currently connected to surface survey
-;*fix	 NottsIIEntrance	66668.00	78303.00	319.00	;GPS Added    09/01/05 N.P - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
-;*fix	 NottsIIEntrance	66728 78424 334	;GPS to CupCake entrance GPS by R Bendall 15 Sept 2010 rather than Notts II entrance EXCEPT removed 2metres from altitude so Richard's GPS was 334, I changed to 332
-*fix    LostJohnsEntranceTag 67083.63	78641.55	355.95 ;lost Johns Entrance Tag - replaced by Tim/Hugh's surface survey so commented out by Becka 01/07/10
-
-; don't know where these connectsurfacesurveysurfacesurvey
-;*equate	mg2.001		Ks3.001
-;*equate	mg3a.024	ss19.001
 
 *end	leckfellsurfacesurvey

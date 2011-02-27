@@ -1,91 +1,77 @@
 *begin leckfell
 
-; ASSUMES ALL MAG DECL CORRECTIONS IN SURFACE DATA INCLUDED IN RESPECTIVE DATA FILES
-
-
-; want LJ-BH-VH-NII-CCsurface to replace all fixes where it can, because it's 
-; satellite view, GPS and surface verified points (though it doesn't contain fixes!)
-
+;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
-*include Surface/LJ-BH-VH-NII-CCsurface
-*equate LostJohns.EntranceTag LJ-BH-VH-NII-CCsurface.Lostjohns
 
-
-; BODGE FOR MAG DECL IN UNDERGROUND SURVEYS
-
-; underground surveys - avg mag decl for 2010 = 3 deg W
+; underground surveys - avg mag decl for 2010 = 3 deg W (please put in correct declination for date in each cave survey)
 ; true N to grid N correction = -0.33 
 *calibrate declination 2.67
 
-
-*include BruntskillPot/BruntskillPot
-*fix	BruntskillPot.Entrance	66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
-
-
-*include BumblingHole/BumblingHole
-*fix	BumblingHole.Entrance	66949	79284	343
-
-*include CoalHole/CoalHole
-*fix	CoalHole.EntranceLoc	67168	79047	358	;GPS RGB 13/12/07
-
-
-*include DeathsHeadHole/DeathsHeadHole
-*fix	DeathsHeadHole.FencePostTag	66783	79159	335 ;GPS RGB 29/11/07
-
-*Include EyeHoles/Eyeholes
-*fix	EyeHoles.006 66824	79184	337	;eyehole stile RGB GPS 02/03/07
-
-*include LowDouk/LowDouk
-*equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
-;*fix LowDouk.EntranceTag 67766 76794 330
-
-
-*include Ireby/Ireby
-*equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
-
+;; You can comment out second/third entrance equates to see what the surface closure is like
 
 *include NottsII/NottsII
 *equate NottsII.Entrance    leckfellsurfacesurvey.NottsIIEntrance
+*equate NottsII.inlet7.Inlet7-14.001 leckfellsurfacesurvey.VoldemortEntranceSWcorner
+*equate NottsII.CountLazloALL.TheCupcake.008 leckfellsurfacesurvey.CupcakeEntranceSWcorner
 
-
-*include MarbleSteps/AllMarbleSteps
-*fix AllMarbleSteps.SurfaceMarbleSteps.001 67991.70 77072.04 382.3   ; 
-*equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
-
-*include NottsPot/NottsPot
-*equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
-;*fix	NottsPot.EntrancePhanger	67105.25	77789.08	373.39 ; P Bolt(furthest of 2)
-; to connect to diving data: NottsPot.SumpTag
-
-
-*include LongDrop/LongDrop
-     ; it would be desirable to move this into the surface survey
-*fix LongDrop.StylePost	66969	79176	346	;Longdrop stile RGB GPS 02/03/07
-
+*include LostJohns/LostJohns
+*equate LostJohns.EntranceTag       leckfellsurfacesurvey.LostJohnsEntranceTag
+*equate LostJohns.BoxheadSurfaceRim leckfellsurfacesurvey.BoxHeadEntranceTube
 
 *include RoughPot/RoughPot
 *equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
 
+;*fix	BAD_LostJohnsBoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
+;*entrance BAD_LostJohnsBoxheadSurfaceRim
 
-*include LostJohns/LostJohns
-*equate LostJohns.EntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
-     ; appears to refer to another surface survey to tie in here
-*include Surface/LJ-BH-VH-NII-CCsurface
-*equate LostJohns.EntranceTag           LJ-BH-VH-NII-CCsurface.Lostjohns
-*fix	LostJohns.BoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
 
+; North of NottsII area
 
 *include ShortDrop/ShortDrop
 *equate ShortDrop.FencePost  leckfellsurfacesurvey.ShortDropFencePost
 
+*include LongDrop/LongDrop
+*equate LongDrop.StylePost	leckfellsurfacesurvey.LongDropStylePost
+
+*include BruntskillPot/BruntskillPot
+*equate	BruntskillPot.Entrance	leckfellsurfacesurvey.BruntskillPotEntrance
+
+*include BumblingHole/BumblingHole
+*equate	BumblingHole.Entrance	leckfellsurfacesurvey.BumblingHoleEntrance
+
+
+*include CoalHole/CoalHole
+*equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
+
+*include DeathsHeadHole/DeathsHeadHole
+*equate	DeathsHeadHole.FencePostTag	leckfellsurfacesurvey.DeathsHeadHoleFencePostTag
+
+*include EyeHoles/Eyeholes
+*equate	EyeHoles.006	leckfellsurfacesurvey.EyeHolesStyle
+
 *include GavelPot/GavelPot
-*fix	GavelPot.GavelPotFencePost	66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance
+*equate	GavelPot.GavelPotFencePost	leckfellsurfacesurvey.GavelPotFencePost
 
 *include RumblingHole/RumblingHole
-*fix	RumblingHole.RumblingBeckTopEntrance	67173	79128	357 ;GPS RGB 13/09/07
+*equate	RumblingHole.RumblingBeckTopEntrance leckfellsurfacesurvey.RumblingBeckTopEntrance
 
 *include StartingHandleHole/StartingHandleHole
-*fix StartingHandleHole.001 66927.39 78605.91 350.49 ;ev.ss20.007a	;middle of starting handle hole
+*equate	StartingHandleHole.001 leckfellsurfacesurvey.StartingHandleHole
+
+
+; South of NottsII area
+
+*include MarbleSteps/AllMarbleSteps
+*equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
+
+*include LowDouk/LowDouk
+*equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
+
+*include Ireby/Ireby
+*equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
+
+*include NottsPot/NottsPot
+*equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
 
 *include RiftPot/RiftPot
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
@@ -100,12 +86,14 @@
 *include LittlePot/LittlePot
 *equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
-*include WitchesCaveII/WitchesII
-
-*include KangoHole/KangoHole
 
 
-*fix	LazloRLP	66795	78441	334	;GPS RGB 06/10/07
+
+; this one is not on Leck Fell
+;*include WitchesCaveII/WitchesII
+
+; this one is empty
+;*include KangoHole/KangoHole  
 
 *end leckfell
 

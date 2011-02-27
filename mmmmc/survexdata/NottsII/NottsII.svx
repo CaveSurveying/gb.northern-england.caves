@@ -9,7 +9,8 @@
 *begin	NottsII
 
 *export Entrance  ; CommitteePot.001
-
+*export inlet7.Inlet7-14.001 ; voldemort
+*export CountLazloALL.TheCupcake.008
 ;-------------------------------------------------------------------------------------------
 ;Include Statements
 

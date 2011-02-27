@@ -5,7 +5,7 @@
 
 *begin	thecupcake
 
-*export 002 009
+*export 002 008
 *entrance 008
 
 ; *fix Cupcake 66728 78424 334 ;entrance GPS by R Bendall 15 Sept 2010 before connection dug through - not used at present

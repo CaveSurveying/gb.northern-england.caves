@@ -6,6 +6,7 @@
 *begin	box
 *export 007
 *export 015 ;st015 is surface rim ;ev.ss19.022a 
+*entrance 015
 
 *calibrate compass	+5.17
 
