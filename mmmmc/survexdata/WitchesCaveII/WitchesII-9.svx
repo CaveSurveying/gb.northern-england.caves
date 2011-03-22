@@ -1,5 +1,5 @@
 *begin WitchesII-9
-*export 2x
+*export 2x 13
 
 *title "Traverse above Lake Chamber canal beyond Zigzag"
 *date 2011.01.24
@@ -17,6 +17,9 @@
 4	3	4.38	-	up
 5	4	2.73	159	+14
 6	5	4.04	190	+32
+
+6	6a	6	-	up	;Scaled to 6m too tight no way on RGB22/03/11
+
 7	6	5.19	039	+64
 8	7	3.52	323	+46
 9	8	2.82	044	+66

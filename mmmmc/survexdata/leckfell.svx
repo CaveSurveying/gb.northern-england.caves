@@ -90,7 +90,7 @@
 
 
 ; this one is not on Leck Fell
-;*include WitchesCaveII/WitchesII
+*include WitchesCaveII/WitchesII
 
 ; this one is empty
 ;*include KangoHole/KangoHole  
