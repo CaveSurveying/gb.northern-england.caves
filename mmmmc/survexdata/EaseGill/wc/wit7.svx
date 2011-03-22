@@ -7,6 +7,8 @@
 
 *begin	wit7
 *export 001a
+ 
+*export 001
 
 *calibrate compass	+5.17
 
