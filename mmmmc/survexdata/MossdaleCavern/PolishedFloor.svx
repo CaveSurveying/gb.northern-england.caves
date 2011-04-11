@@ -1,0 +1,84 @@
+*begin polishedfloor
+*export A 30
+
+*title "From end (dig) to nearly junction with Pool Passage"
+*date 2011.04.11
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*instrument Neil's DistoX
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+3	2	7.15	147.5	-05.6
+2	1	7.41	166.5	-02
+1	0	5.16	157		+01
+A	0	1.22	318		-42
+4	3	2.00	145		+03
+5	4	2.94	153		-01
+6	5	6.78	146.5	-03
+7	6	7.64	145		-01.5
+8	7	2.25	083		+02
+9	8	6.12	139		-06
+10	9	2.11	156		-09.5	; written as 10 to 8 but I think is a typo and should be 9 not 8
+11	10	2.86	129		+02
+12	11	8.13	141		-03.6
+13	12	5.25	143		-03.5
+14	13	4.02	143		+01
+15	14	4.04	148		-01
+16	15	3.32	045		0
+17	16	4.97	142		-07
+18	17	7.98	148		-02
+19	18	5.06	141		+02
+20	19	4.55	166		0
+21	20	4.45	178		-10
+22	21	6.67	079		+03
+23	22	2.84	065		-07
+24	23	2.49	058		-04
+25	24	1.65	058		-04
+26	25	6.97	074		-03
+
+27	26	2.81	057		0
+28	27	3.79	150		+02
+29	28	7.22	068		-04
+30	29	3.07	143		+03
+
+
+*data passage station left right up down ignoreall
+
+3	0.6	0.4	0.4	0.5 numbered in slight widening before low crawl
+2	1.4	1.3	0.6	0
+1	1.1	0.6	0.4	0.3	
+0	0.4	1	0.3	0.3	down not clear, could be 0.5 or 0.8
+A	-	2	0.5	1.2	left is p; numbered high on wall at 3 way junction where room to sit up, dig goes off to right from here
+4	0.8	0.6	0.4	0.5
+5	0.8	0.4	0.4	0.4
+6	0.9	0.2	0.4	0.3
+7	0.7	0.3	0.6	0.1
+8	0.3	1.2	1.3	0.2
+9	0.2	0.5	0.5	0.4
+10	0.8	0.2	0.6	0.3
+11	0.4	0.3	0.2	0.4
+12	0.6	0.1	0.4	0.5
+13	2	0.6	0.4	0.8	numbered
+14	0.4	0.3	0.3	0.5	numbered
+15	0.5	0.6	0.5	0.4
+16	0.5	1.1	1.2	0.4
+17	0.3	0.4	0.9	0.8
+18	0.4	0.1	0.5	0.8
+19	0.6	2.5	1	0.5
+20	0.5	3.8	1	0.4
+21	3	0	0.1	1.2	numbered
+22	0.5	0.2	1	0.8
+23	0.4	0.3	0.6	0.9
+24	0.5	1	0.6	1.1
+25	0.5	0.5	0.5	1.2
+26	0.6	0.5	0.5	0.7
+
+27	0.6	1.2	0.6	1	numbered in chamber, high on right wall as exit
+28	1	0	0.8	1
+29	0.2	0.5	0.3	0.6
+30	0.3	0.5	0.6	0.5	numbered, shortly before junction with Pool Passage
+
+*end polishedfloor
