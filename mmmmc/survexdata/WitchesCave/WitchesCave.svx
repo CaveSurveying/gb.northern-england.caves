@@ -2,8 +2,8 @@
 
 *begin	WitchesCave
 
-*export lbs.001
 *export wit7.001
+*export wit.001
 
 *equate	wit7.001a	wit4.003
 *equate	wit1.001	wit.002c
@@ -14,8 +14,8 @@
 *equate	wit4.001	wit3.041
 *equate	wit4.003	wit5.001
 *equate	wit4.003	wit7.001a
+*equate	wit.002c	wit1.001
 
-*include	lbs
 *include	wit
 *include	wit1
 *include	wit3

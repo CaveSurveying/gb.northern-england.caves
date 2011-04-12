@@ -4,10 +4,8 @@
 
 ;*equate	lbs.001	pth3.022
 
-*begin	lbs
+*begin	LeckBeckHead
 *export 001
-
-*fix 001 65938.92 80003.18 212.01 ;sf8.004a
 
 *data diving from to length bearing fromdepth todepth
 
@@ -56,4 +54,4 @@
 041	042	07.00	090.0	-18.0	-21.0	;end of line, roof eyehole
 042	043	05.00	142.0	-21.0	-24.0	;limit of exploration
 
-*end	lbs
+*end	LeckBeckHead

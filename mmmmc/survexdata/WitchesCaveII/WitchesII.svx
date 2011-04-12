@@ -10,10 +10,9 @@
 
 *begin WitchesII
 *export WitchesII-7.x ;Added 22/03/11RGB
+*export WitchesII-2.001
 
 *entrance WitchesII-2.002
-*fix WitchesII 66214 79777 277 ;entrance GPS by K Wood Sept 2010
-;*export EntranceTag
 
 *include WitchesII-1
 *include WitchesII-2

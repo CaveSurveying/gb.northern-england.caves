@@ -90,11 +90,16 @@
 
 
 
-; this one is not on Leck Fell
+; Witches Cave complex (some entrances to be tied in with the rest of the surface survey)
 *include WitchesCaveII/WitchesII 
+*fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
 
 *include WitchesCave/WitchesCave
+*fix WitchesCave.wit.001 66029.79 80004.53 214.77 
 *equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x
+
+*include LeckBeckHead/LeckBeckHead
+*fix LeckBeckHead.001 65938.92 80003.18 212.01
 
 
 ; this one is empty
