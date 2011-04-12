@@ -6,9 +6,8 @@
 *equate	wit7.001a	wit4.003
 
 *begin	wit7
-*export 001a
- 
-*export 001
+
+*export 001 001a
 
 *calibrate compass	+5.17
 
