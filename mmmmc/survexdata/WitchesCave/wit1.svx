@@ -3,8 +3,6 @@
 ;Date:	17/04/97
 ;Instruments:	JNC Instrument Aladin pro dive computer
 
-*equate	wit1.001	wit.002c
-*equate	wit1.018	wit3.001	
 
 *begin	wit1
 *export 018

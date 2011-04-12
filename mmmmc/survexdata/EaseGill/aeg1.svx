@@ -2,8 +2,6 @@
 
 *begin	aeg1
 
-;*export wc1.wit7.001	;added 23/03/11RGB to tie Witches cave in Ease Gill and Witches2 in LeckFell together
-
 *export ear.wm.001
 
 *export asf.sf5.014
@@ -135,7 +133,7 @@
 ;;;;;;;;*include	Tp\Tp1
 *include	tri\alltrident
 *include	ts\ts1
-;*include	wc\wc1
+;;;;*include	wc\wc1  ; moved to leck fell area
 *include	wood\wood1
 *include	wr\wrab
 

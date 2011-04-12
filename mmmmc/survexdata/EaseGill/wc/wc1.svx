@@ -1,5 +1,5 @@
 ;Every Witches Cave file
-; These Files have been moved to own directory
+; These Files have been moved to own directory WitchesCave
 
 *begin	WitchesCave
 

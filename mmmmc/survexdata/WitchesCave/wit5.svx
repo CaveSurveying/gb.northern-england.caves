@@ -3,8 +3,6 @@
 ;Surveyors:	Rick stanton and Jason Mallinson
 ;Instruments:	aladin pro
 
-*equate	wit5.001	wit4.003
-
 *begin	wit5
 *export 001
 

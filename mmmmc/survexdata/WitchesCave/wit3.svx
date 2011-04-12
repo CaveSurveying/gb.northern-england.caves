@@ -3,8 +3,6 @@
 ;Surveyors:	JNC
 ;Instruments:	aladin pro
 
-*equate	wit3.001	wit1.018
-*equate	wit3.041	wit4.001
 
 *begin	wit3
 *export 001

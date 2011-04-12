@@ -93,8 +93,8 @@
 ; this one is not on Leck Fell
 *include WitchesCaveII/WitchesII 
 
-*include WitchesCave/wc1
-*equate wc1.wit7.001 WitchesII.WitchesII-7.x
+*include WitchesCave/WitchesCave
+*equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x
 
 
 ; this one is empty

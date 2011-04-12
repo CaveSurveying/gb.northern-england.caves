@@ -3,10 +3,6 @@
 ;Surveyors:	Rick Stanton
 ;Instruments:	aladin pro
 
-*equate	wit4.001	wit3.041
-*equate	wit4.003	wit5.001
-*equate	wit4.003	wit7.001a
-
 *begin	wit4
 *export 003
 *export 001
