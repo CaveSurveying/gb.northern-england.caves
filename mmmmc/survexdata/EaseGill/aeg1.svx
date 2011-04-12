@@ -2,7 +2,7 @@
 
 *begin	aeg1
 
-*export wc1.wit7.001	;added 23/03/11RGB to tie Witches cave in Ease Gill and Witches2 in LeckFell together
+;*export wc1.wit7.001	;added 23/03/11RGB to tie Witches cave in Ease Gill and Witches2 in LeckFell together
 
 *export ear.wm.001
 
@@ -25,7 +25,7 @@
 *equate	asf.sf3.003	bh1.b01.001
 ;;;;;;;;*equate	asf.sf3.007	Bh1.B1.20NS	;position fixed
 ;;;;;;;;*equate	asf.sf4.010a4	Cf1.cf.001	;position fixed
-*equate	asf.pth3.022	wc1.lbs.001
+;*equate	asf.pth3.022	wc1.lbs.001
 ;;;;;;;;*equate asf.sf4.002a	Gl1.OX2.000	;position fixed
 *equate asf.sf5.002f gl1.how01.001 ;st002f=tag above Jim's dig
 
@@ -135,7 +135,7 @@
 ;;;;;;;;*include	Tp\Tp1
 *include	tri\alltrident
 *include	ts\ts1
-*include	wc\wc1
+;*include	wc\wc1
 *include	wood\wood1
 *include	wr\wrab
 
