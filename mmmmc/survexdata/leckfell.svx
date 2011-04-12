@@ -90,9 +90,12 @@
 
 
 
-
 ; this one is not on Leck Fell
-*include WitchesCaveII/WitchesII ;Added back by RGB until it gets moved to Ease Gill or where ever 22/03/11
+*include WitchesCaveII/WitchesII 
+
+*include WitchesCave/wc1
+*equate wc1.wit7.001 WitchesII.WitchesII-7.x
+
 
 ; this one is empty
 ;*include KangoHole/KangoHole  

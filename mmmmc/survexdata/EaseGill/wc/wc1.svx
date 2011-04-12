@@ -1,8 +1,9 @@
 ;Every Witches Cave file
+; These Files have been moved to own directory
 
-*begin	wc1
+*begin	WitchesCave
+
 *export lbs.001
- 
 *export wit7.001
 
 *include	lbs
@@ -14,4 +15,4 @@
 *include	wit7
 ;*include	
 
-*end	wc1
+*end	WitchesCave

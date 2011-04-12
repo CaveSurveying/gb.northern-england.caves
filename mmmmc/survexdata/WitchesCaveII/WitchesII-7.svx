@@ -1,5 +1,8 @@
 *begin WitchesII-7
-*export x diveline z water
+*export x
+*export diveline
+*export z 
+*export water
 
 *title "Connecting legs around sump pools"
 *date 2010.12.31

@@ -12,4 +12,15 @@
 ; West Kingsdale data mainly diving data from John Cordingley and Rupert Skorupka collated by Footleg (Paul Fretwell) who has also collected some dry cave data
 *include WestKingsdale/West_Kingsdale_System
 
+;<<<<<<< .mine
+;*include WitchesCaveII/WitchesII
+;*include EaseGill/wc/wc1
+
+;*equate aeg1.wc1.wit7.001 leckfell.witchesII.witchesII-7.x	;added 22/03/11RGB 
+;*end all
+;=======
+
+; Connect Witches II (Shuttleworth) to Witches (Easegill)
+;*equate EaseGill.wc.wit7.001 WitchesCaveII.WitchesII-7.x	;added 22/03/11RGB 
+
 *end all
