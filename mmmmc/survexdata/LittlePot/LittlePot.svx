@@ -19,11 +19,11 @@
 
 
 *include LittlePot1
-;*include LittlePot2
+*include LittlePot2
 ;*include LittlePot3
 
 *equate EntranceTag LittlePot1.tag	;Tied into Large pot entrance tag
-;*equate LittlePot LittlePot2
+*equate LittlePot1.010 LittlePot2.001
 
 ;*equate LittlePot1. LittlePot2
 ;*equate LittlePot1. LittlePot3

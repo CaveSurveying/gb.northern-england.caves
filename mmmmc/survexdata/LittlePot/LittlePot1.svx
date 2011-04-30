@@ -4,7 +4,7 @@
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
 *begin	Littlepot1
-*export Tag 003
+*export Tag 003 010
 
 *calibrate declination 2.65
 ;*calibrate compass
