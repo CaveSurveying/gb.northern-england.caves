@@ -30,6 +30,8 @@
 *include Large14
 *include Large15
 *include Large16
+*include Large17
+*include Large18
 *include TinkleInletNPC     ; note this is an April 1983 survey so it needs a different magnetic correction probably
 
 *equate EntranceTag Large1.tag
@@ -49,5 +51,7 @@
 *equate Large15.14 Large13.8
 *equate Large16.9x Large14.9
 *equate Large7.46 TinkleInletNPC.GS0  ; this not connected properly, but must be quite close (two surveys done nearly 30 years apart)
+*equate Large17.14x Large16.14
+*equate Large18.18x Large16.18
 
 *end LargePot
