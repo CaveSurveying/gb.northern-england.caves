@@ -1,0 +1,133 @@
+*begin Grind2
+*export 45x
+
+*title "Wormway to about 2/3 up the Grind to where Tom and James got to on Grind"
+*date 2011.05.02
+*team Instruments Tom Clayton
+*team Notes Becka Lawson
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape with 20cm end off
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+45x	1	0.88	261	-55
+1	2	1.20	018	-26
+2	3	2.51	297	-04
+3	4	3.93	312	-01
+4	5	3.47	211	-03
+5	6	2.52	298	-04
+6	7	1.42	246	-29
+7	8	6.06	332	-03
+8	9	3.08	356	-10
+9	10	2.23	011	+01
+10	11	2.99	008	-13
+11	12	3.41	330	+03
+12	13	4.70	316	-10
+13	14	2.37	342	0
+14	15	1.15	273	+11
+14	16	3.12	276	-21
+16	17	3.14	281	-06
+17	18	3.96	244	-07
+
+18	19	3.77	260	-01
+19	20	2.31	305	+03
+20	21	3.02	167	-03
+21	22	2.38	219	-25
+22	23	2.86	280	+09
+23	24	3.65	227	-10
+24	25	4.06	315	-05
+25	26	3.12	319	+01
+26	27	6.03	272	-07
+27	28	1.67	254	-03
+28	29	4.14	301	-06
+29	30	4.59	258	-06
+30	31	3.27	242	-09
+31	32	2.06	205	+12
+32	33	5.38	265	-05
+33	34	5.21	240	-12
+34	35	2.61	309	-06
+35	36	2.98	232	-15
+
+36	37	3.04	312	-05
+37	38	3.09	251	+07
+38	39	1.44	296	-29
+39	40	1.82	271	-11
+40	41	4.29	314	+01
+41	42	5.98	218	-03
+42	43	5.27	220	-02
+43	44	2.22	261	-04
+44	45	5.80	202	-11
+45	46	6.40	156	+04
+46	47	3.91	174	-08
+47	48	1.74	220	-01
+48	49	7.52	196	-09
+49	50	1.11	-	down
+50	51	3.94	184	-04
+51	52	4.77	158	+20
+52	53	2.04	170	+32
+53	54	2.43	173	-04
+54	55	5.01	204	+02
+
+*data passage station left right up down ignoreall
+
+45x	0.3	0	1	0.6	paper left by Tom and James from Grind survey 2 days ago near reflector
+1	0	0.5	1.2	0.4
+2	0.4	0	1.4	0.2
+3	0.3	0.3	1.2	0.2
+4	0.6	0	0.3	0.4
+5	0.2	0.5	0.3	0.4
+6	0.3	0.4	0.3	0.4
+7	0.1	0.6	0.5	0.1
+8	0.6	0.1	0.2	0.4
+9	0.1	0.5	0.3	0.2
+10	0.4	0.2	0.2	0.3
+11	0.2	1	0.4	0.3
+12	0.2	0.4	0.2	0.4
+13	0.1	0.4	0.3	0.3
+14	0.3	0.2	0.2	0.4
+15	0.1	0.6	0.1	0.6	station numbered in liquid paper on left wall opposite junction with small passage on right side, probably needs digging to enter
+16	0	0.4	0.5	0.2
+17	1	0.2	0.4	0.3
+18	0.7	0.3	0.5	0.3
+
+19	0.2	0.9	0.3	0.3
+20	1.1	0.1	0.1	0.4
+21	0.1	0.4	0.1	0.5
+22	0.2	0.4	0.5	0.1
+23	0.4	0.3	0.2	0.4
+24	0	0.7	0.5	0.3
+25	0.2	0.5	0.4	0.2
+26	1.2	0.3	0.3	0.3	crawl over rock just after 26, before 27
+27	0.6	0.4	0.1	0.4
+28	0.5	0.4	0.1	0.7	tiny stal (5cm long?) in ceiling
+29	0.2	0.6	0.2	0.6
+30	1	0.1	0.1	0.5
+31	0.7	0.4	0.3	0.5
+32	1.2	0.3	0.1	0.7
+33	0.6	0.2	0	0.8
+34	0	0.8	0.2	0.4
+35	1	0.1	0.3	0.5
+36	-	1.8	0.5	0.1	left is passage, where left wall would be 0.0 otherwise; station is on nose of rock on left wall, at start of passage, passage on a bearing of 155 degrees - possibly to Zeppelin Aven? Station not numbered I don't think
+
+37	1	0.2	0.2	0.3
+38	-	0.5	0	0.7	left is passage, where left otherwise would be 0.4; station numbered in liquid paper on the ceiling; this may go to Zeppelin Aven if junction at 36 does not
+39	0.7	0	0.4	0.3
+40	0.2	0.4	0.6	0.2
+41	1	0.2	0.2	1	climb over ?flowstone?/boulder
+42	0.6	0	0.1	0.7
+43	0.3	0.5	0	0.9
+44	0.7	0.3	0	1	station is above another ?calcite?/boulder climb up and over
+45	0.9	0.1	0.3	0.7
+46	-	0.7	0	1.3	left is passage, where left otherwise would be 0.3; station marked with liquid paper in ceiling and number 46 scratched with a rock on the ceiling; this may connect back to Wormway
+47	0.1	0.8	0.2	1.2
+48	0.1	0.7	0.2	1.3
+49	0.8	0.3	0.4	1
+50	0.8	0.3	1.4	0	start of low crawl at floor level with small tube above (too small to enter) at roof level
+51	0.3	0.2	0.6	0	
+52	0.5	0.3	0.8	1	end of low crawl inbetween stns 51 and 52
+53	0.1	0.4	0.2	1.5
+54	0.4	0.5	0.4	1.4
+55	-	-	0	1.7	left and right are both passage (Wormways); station numbered and marked with liquid paper in roof by far wall at main junction
+
+*end Grind2
