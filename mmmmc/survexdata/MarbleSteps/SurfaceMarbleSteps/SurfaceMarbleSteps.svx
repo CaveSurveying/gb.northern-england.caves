@@ -5,7 +5,7 @@
 
 *begin SurfaceMarbleSteps
 
-*export 001 003 008
+*export 001 003 007 008
 ;*calibrate compass
 
 ;surface survey
