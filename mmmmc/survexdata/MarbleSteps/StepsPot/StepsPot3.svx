@@ -11,8 +11,6 @@
 
 ;surface survey
 
-
-
 001	002	0.98	240	-34	;001 marked on arete
 002	003	6.40	154	-19	
 003	004	2.50	153	-46	;004 Knot of Y hang	
@@ -25,6 +23,8 @@
 010	011	0.34	-	Down	;011 is 
 
 
+*data passage station left right up down ignoreall
 
+;001	
 
 *end StepsPot3

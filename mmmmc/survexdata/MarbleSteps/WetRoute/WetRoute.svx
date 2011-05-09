@@ -1,0 +1,13 @@
+;Cave:	Marble Steps Area
+
+
+*begin WetRoute
+*export WetRoute1.001 WetRoute1.027 WetRoute1.008
+
+*include WetRoute1
+;*include WetRoute2
+;*include WetRoute3
+
+;*equate WetRoute1.027 MarbleStepsPot.mas02.001 
+
+*end WetRoute

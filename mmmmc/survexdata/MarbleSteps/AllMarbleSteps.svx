@@ -18,7 +18,7 @@
 
 *include "LostMarbles\LostMarbles"
 
-*include "WetRoute\WetRoute1"
+*include "WetRoute\WetRoute"
 
 ;--------------------------------------------------------------------
 
@@ -31,6 +31,6 @@
 *equate LostMarbles.LostMarbles1.001 SurfaceMarbleSteps.008 
 *equate LostMarbles.LostMarbles1.019 LostMarbles.LostMarbles2.001 
 *equate LostMarbles.LostMarbles2.022 LostMarbles.LostMarbles3.001
-*equate WetRoute1.001 SurfaceMarbleSteps.007
+*equate WetRoute.WetRoute1.001 SurfaceMarbleSteps.007
 
 *end	AllMarbleSteps
