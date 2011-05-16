@@ -39,6 +39,11 @@
 004	005	2.69	-	UP	;surface
 005	006	22.80	263	+2	;top of post by style
 *Flags not surface
+*data passage station left right up down ignoreall
+001	0.3	0.1	2.5	0.0
+002	0.3	0.0	0.8	1.7
+003	1.2	1.2	7.0	1.4
+004	0.5	0.0	0	1.7
 
 *end Eyeholes
 
