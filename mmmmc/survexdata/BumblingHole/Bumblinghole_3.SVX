@@ -22,6 +22,17 @@
 034	035	7.50	037	0
 035	035a	7.00	357	0	;guessed leg to show trend
 
+*data passage station left right up down ignoreall
+
+
+029	0.4	1.2	0.2	0.3
+030	0.2	1.1	0.7	0.2
+031	0.0	2.0	0.4	0.3
+032	2.1	1.0	0.3	0.3
+033	1.0	0.4	0.4	0.3
+034	1.0	1.5	0.2	0.3
+035	1.0	0.1	0.2	0.4
+
 *end Bumblinghole_3
 
 
