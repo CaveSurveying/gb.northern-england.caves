@@ -11,21 +11,37 @@
 
 *begin KangoHole
 
-*entrance KangoHole
-*fix KangoHole 66711 78362 332 ;entrance GPS by Richard Bendall 15 Sept 2010
+*entrance 004
+*fix 004 66711 78362 332 ;entrance GPS by Richard Bendall 15 Sept 2010
 ;*export EntranceTag
 
 
-;*include KangoHole1
-;*include 
-;*include 
-;*include 
+;*flags surface
+;001	002	28.90	052.5	+15.0	;st001 is Notts 2 entrance
+;002	003	30.00	037.0	+06.0
+;003	004	17.85	026.0	+05.5	;st004 is Kango Hole
+;*flags not surface
+004	005	03.68	344.0	-51.0
+005	006	04.40	314.0	-61.0	
+006	007	01.36	305.0	-34.0
+007	008	01.48	077.0	-47.0
+009	008	02.09	215.0	+33.0
+009	009a	02.80	076.0	+35.0
+010	009	01.20	214.0	+36.0
+011	010	04.00	146.0	+40.0
+011	011a	03.00	-	DOWN	;end Kango Hole
+
+*data passage station left right up down ignoreall
 
 
-;*equate 
-;*equate 
-;*equate 
-;*equate 
-;*equate 
+004	0	0	0	1.5
+005	0.4	0.0	0.3	2.3	
+006	0.4	0.1	0.3	0.4
+007	0.0	0.5	2.0	0.5
+008	0.2	0.5	0.5	0.1
+009	0.0	0.5	4.0	0.5
+009a	0.5	0.5	0.5	1.0
+010	0.1	0.6	0.3	0.4
+011	0.3	0.0	0.6	2.5
 
 *end KangoHole
