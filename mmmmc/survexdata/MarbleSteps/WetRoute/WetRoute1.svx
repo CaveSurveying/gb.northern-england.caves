@@ -4,7 +4,7 @@
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
 *begin	WetRoute1
-*export 001 008 021 027
+*export 001 008 021 026 027
 
 *calibrate declination 2.65
 ;*calibrate compass

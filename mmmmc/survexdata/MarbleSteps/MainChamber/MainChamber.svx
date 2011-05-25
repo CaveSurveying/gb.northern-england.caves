@@ -1,0 +1,13 @@
+;Cave:	Marble Steps Area
+
+
+*begin MainChamber
+*export MainChamber1.026x MainChamber1.005 MainChamber1.011 MainChamber1.036 MainChamber1.042
+
+*include MainChamber1
+;*include MainChamber2
+;*include MainChamber3
+
+;*equate MainChamber.MainChamber1.026x WetRoute.WetRoute1.026
+
+*end MainChamber

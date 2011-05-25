@@ -20,6 +20,7 @@
 
 *include "WetRoute\WetRoute"
 
+*include "MainChamber\MainChamber"
 ;--------------------------------------------------------------------
 
 *equate SurfaceMarbleSteps.001	MarbleStepsPot.Mas01.001
@@ -32,5 +33,6 @@
 *equate LostMarbles.LostMarbles1.019 LostMarbles.LostMarbles2.001 
 *equate LostMarbles.LostMarbles2.022 LostMarbles.LostMarbles3.001
 *equate WetRoute.WetRoute1.001 SurfaceMarbleSteps.007
+*equate MainChamber.MainChamber1.026x WetRoute.WetRoute1.026
 
 *end	AllMarbleSteps
