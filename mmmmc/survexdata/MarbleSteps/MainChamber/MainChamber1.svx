@@ -1,7 +1,7 @@
 ;Cave:	Marble Steps Pot
 ;Surveyors:	Dave Ramsay/Richard Bendall/Becka Lawson
 ;Date:	23/05/11
-;Instruments:	Becka's Pony Suunto Compass & Clino  30m tape with 20cm end off	
+;Instruments:	Becka's Suunto Compass & Clino  30m tape with 20cm end off	
 
 *begin	MainChamber1
 *export 026x 005 011 036 042
@@ -13,7 +13,6 @@
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 
 ;stn to stn	tape	comp	clino
-
 
 026x	001	3.07	193	-46
 001	002	11.29	222	-61
@@ -27,14 +26,14 @@
 009	010	3.00	290	-04
 011	010	15.30	144	-01
 009	012	5.54	197	-17
-012	013	3.57	-	UP
+012	013	3.57	-	up
 013	014	2.26	228	+05
 014	015	3.98	143	-24
 013	016	1.69	091	+05
 016	017	6.67	132	-10
 017	018	5.18	124	+03
 017	019	1.85	129	+05
-019	020	4.84	-	Down
+019	020	4.84	-	down
 020	021	1.29	189	-42
 021	022	4.74	151	-01
 022	023	4.22	291	+04
@@ -44,13 +43,13 @@
 022	026	9.00	171	-44
 026	027	2.48	285	+01
 027	028	5.48	350	+07
-029	026	6.31	265	-07	;written in notes as 026 to 029. Corrected RGB 25/05/11
+029	026	6.31	265	-07	; written in notes as 026 to 029. Corrected RGB 25/05/11
 030	029	9.22	017	+13
 030	031	5.06	177	-21
 031	032	4.02	209	+04
 032	033	2.24	181	+02
 033	034	3.57	257	-26
-034	035	2.01	-	Down
+034	035	2.01	-	down
 035	036	2.52	088	-21
 035	037	6.39	265	+01
 037	038	13.48	312	-17
@@ -91,7 +90,7 @@
 027	0.1	0.6	1.3	0.5	;bedding
 028	1.0	0.0	2.0	0.0	;along bedding
 029	1.0	6.0	8.0	1.0	;by waterfall in lower main chamber
-030	1.8	1.3	6.0	2.5	; top of big block befor climb down
+030	1.8	1.3	6.0	2.5	; top of big block before climb down
 031	1.4	0.0	9.0	0.5
 032	1.0	0.0	9.0	1.1
 033	0.0	0.5	9.0	1.2
@@ -102,7 +101,7 @@
 038	1.2	0.3	1.5	0.7	
 039	0.5	2.0	1.7	0.5
 040	1.0	0.3	0.7	0.5
-041	0.4	0.5	1.7	1.5
+041	0.4	0.5	1.7	1.5	; numbered
 042	0.0	1.8	2.0	1.2	;yellow tag at junction. Polly Passage above, to Intestines to left
 
 *end	MainChamber1
