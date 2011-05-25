@@ -16,6 +16,7 @@
 *include neinlet7
 *include neinlet8
 *include neinlet9
+*include neinlet10
 *include boltclimb
 *include neinletupperlevel
 
@@ -29,6 +30,7 @@
 *equate neinlet1.49x boltclimb.49x
 *equate neinlet1.12x neinletupperlevel.stal
 *equate neinlet4.111 neinlet9.111x
+*equate neinlet8.5 neinlet10.5x
 
 *end northeastinlet
 

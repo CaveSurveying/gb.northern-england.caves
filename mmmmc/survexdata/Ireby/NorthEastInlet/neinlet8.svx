@@ -4,7 +4,7 @@
 
 *begin neinlet8
 
-*export 10x
+*export 10x 5
 
 *title "North East Inlet 8"
 *date 2010.04.25
@@ -32,7 +32,7 @@
 
 *data passage station left right up down ignoreall
 
-5	0	-	3	1	right is passage; solid rock in chamber floor above squeeze
+5	0	-	3	1	right is passage; solid rock in chamber floor above squeeze, numbered
 6	1	1	0.5	1.7	up to right, above wedged boulder on L wall
 7	1.2	0	2.5	2	r wall
 8	0	0.5	0.5	1.5	r wall
