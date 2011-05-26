@@ -33,7 +33,7 @@
 
 
 *data passage station left right up down ignoreall
-1     1       0     	1.2  	1.4   yellow tab on r wall at junction with masochists passage
+1     1       0     	1.2  	1.4   yellow tag on r wall at junction with masochists passage
 2     0       0.7     	2  	3     nobble, l wall
 3     0       0.4     	1.5  	1.5   l wall head height
 4     0       0.7     	4  	1.5   shelf, l wall
