@@ -49,7 +49,7 @@
 *equate MainStreamway.MainStreamway5.019 DomeInlet.000 
 *equate Inlet13.010a MincemeatAven.17
 *equate Mainstreamway.Mainstreamway2.1 Greentape.Greentape1.030
-*equate	GourInlet.GourInlet1.001 MainStreamway.Mainstreamway3.GITag
+*equate	GourInlet.GourInlet_1.001 MainStreamway.Mainstreamway3.GITag
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 *equate MainStreamway.Mainstreamway3.33 Inlet13.025
 *equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0

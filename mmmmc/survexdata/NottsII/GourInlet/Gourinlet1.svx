@@ -4,8 +4,11 @@
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, CNCC Disto	
 ;*calibrate compass
 
+:******************************************************************
 
+;No longer used, replaced by GourInlet_1, GourInlet_2, GourInlet_3 RGB 26/05/11
 
+;******************************************************************
 
 *begin	GourInlet1
 

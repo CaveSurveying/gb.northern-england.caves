@@ -9,7 +9,7 @@
 
 *export 016
 
-;*equate 016 Gourinlet1.210
+;*equate 016 Gourinlet_3.010
 ;CALIBRATE tape 
 ;note no clino readings
 
