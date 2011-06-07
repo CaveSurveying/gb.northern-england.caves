@@ -5,17 +5,14 @@
 
 *include Inlet17_1
 *include Inlet17_2
+;*include Inlet17_3 Missing data through the sump which dog legs to link data sets
+
+;--------------------------------------------------------
 
 *equate Inlet17_1.33 Inlet17_2.33
 
+;*equate Inlet17_1.45 Inlet17_3.12  Missing data through the sump which dog legs to link data sets
 
-
-;;;;;;;;;;;;;;;
-; Inlet17_3 is a duplicate of Inlet17_2 -- Not right!
-;;;;;;;;;;;;;;;
-
-;*include Inlet17_3
-;*equate Inlet17_1.33 Inlet17_3.33
 
 *end Inlet17
 
