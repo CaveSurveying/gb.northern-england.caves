@@ -4,9 +4,10 @@
 ;Instruments:	Becka's Suunto Compass & Clino  30m tape with 20cm end off	
 
 *begin	MainChamber1
-*export 026x 005 011 036 042
+*export 026x 005 006 011 026 029 036 042 
 
-*calibrate declination 2.65
+*calibrate declination +2.49	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2011.05.23 
 ;*calibrate compass
 
 

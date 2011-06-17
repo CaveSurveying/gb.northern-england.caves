@@ -16,7 +16,7 @@
 
 *CALIBRATE tape +3.00		;Tape was 3 metres too short
 *calibrate declination +4.0	;added 07/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.1995n 54.1995w 2004.03.10 
+				;54.1995n 2.513w 2004.03.10 
 
 ;Station Tape	Compass	Clino	 
 1 2	7.65	0	+90	;Stn 1 on RH Wall at base of climb

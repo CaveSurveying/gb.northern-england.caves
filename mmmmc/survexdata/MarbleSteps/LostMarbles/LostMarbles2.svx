@@ -6,6 +6,8 @@
 *begin LostMarbles2
 
 *export 001 022
+*calibrate declination +3.19	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2008.05.12
 
 001	002	3.40	328	+3	;001 is LostMarbles1.019
 002	003	2.09	315	-12

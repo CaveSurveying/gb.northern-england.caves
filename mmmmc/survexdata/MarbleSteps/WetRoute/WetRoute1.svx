@@ -1,4 +1,4 @@
-;Cave:	Little Pot
+;Cave:	MarbleStepsPot
 ;Surveyors:	Dave Ramsay/Richard Bendall
 ;Date:	05/05/11
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
@@ -6,9 +6,9 @@
 *begin	WetRoute1
 *export 001 008 021 026 027
 
-*calibrate declination 2.65
 ;*calibrate compass
-
+*calibrate declination +2.50	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2011.05.05 
 ;stn to stn	tape	comp	clino
 
 
@@ -55,8 +55,8 @@
 011	0.7	0.8	9.0	1.0	;mid passage
 012	0.8	0.8	1.0	0.8	;Boulder choke 
 013	1.2	1.0	0.9	2.5	;rib over climb down
-014	1.1	1.0	3.0	1.5	Rib at foot of climb
-015	0.45	0.0	3.0	1.5	RH Wall, start ofpassage
+014	1.1	1.0	3.0	1.5	;Rib at foot of climb
+015	0.45	0.0	3.0	1.5	;RH Wall, start ofpassage
 016	0.0	0.7	2.0	2.5	;LH Wall
 017	0.0	0.7	3.0	1.1	;spike, LH wall
 018	0.3	1.4	3.5	1.5	;Roof of tight bend LH side

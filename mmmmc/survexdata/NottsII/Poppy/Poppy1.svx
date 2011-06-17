@@ -14,7 +14,7 @@
 ; Calibration:none
 
 *calibrate declination +4.5	;added 07/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.1995n 54.1995w 2003.09.04 
+				;54.1995n 2.513w 2003.09.04 
 
 ; ====== stations refindable to link to other surveys: ======
 

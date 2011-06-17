@@ -6,6 +6,8 @@
 *begin StepsPot1
 
 *export 001 015
+*calibrate declination +3.19	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2008.05.15
 ;*calibrate compass
 ;*fix 001 67992 77068 382
 

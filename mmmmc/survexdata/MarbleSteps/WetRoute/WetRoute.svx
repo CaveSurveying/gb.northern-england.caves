@@ -3,11 +3,15 @@
 
 *begin WetRoute
 *export WetRoute1.001 WetRoute1.026 WetRoute1.027 WetRoute1.008
+*export Sidewinder1.001 Sidewinder1.008 Sidewinder1.009 Sidewinder1.011 Sidewinder1.012
 
+;-----------------------------------------------------------------------------------
 *include WetRoute1
-;*include WetRoute2
-;*include WetRoute3
+*include Sidewinder1
+;*include Sidewinder2
 
+;--------------------------------------------------------------------------------------
 ;*equate WetRoute1.027 MarbleStepsPot.mas02.001 
+*equate sidewinder1.001 WetRoute1.021
 
 *end WetRoute
