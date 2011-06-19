@@ -1,5 +1,5 @@
 *begin RiftTowardsMousehole
-*export 23 208 213
+*export 23 208 213 14
 
 *title "Coates Cavern then towards Large"
 *date 2010.12.28

@@ -1,6 +1,6 @@
 
 *begin CoatesPassage1
-*export 212x 10
+*export 212x 10 2
 
 *title "Passage off Coates Cavern"
 *date 2010.06.26
