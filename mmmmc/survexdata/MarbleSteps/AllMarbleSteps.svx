@@ -34,6 +34,7 @@
 *equate LostMarbles.LostMarbles2.022 LostMarbles.LostMarbles3.001
 *equate WetRoute.WetRoute1.001 SurfaceMarbleSteps.007
 *equate MainChamber.MainChamber1.026x WetRoute.WetRoute1.026
+*equate MainChamber.Mainchamber2.001 WetRoute.Sidewinder1.010
 
 *equate WetRoute.sidewinder1.008 Mainchamber.Mainchamber1.006
 *equate WetRoute.sidewinder1.009 Mainchamber.Mainchamber1.005

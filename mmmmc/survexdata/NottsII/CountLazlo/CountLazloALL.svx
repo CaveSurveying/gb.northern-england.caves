@@ -17,6 +17,7 @@
 *include BrunoKranskies2
 *include LimboPassage
 *include TheCupcake
+*Include LazloStrog8
 
 *equate LimboPassage.001 LazloStrog1.039
 *equate LazloStrog1.001 LazloStrog2.7
@@ -28,6 +29,7 @@
 *equate LazloStrog1.052 TheCupcake.002
 *equate BrunoKranskies1.5 LazloStrog4.5x
 *equate BrunoKranskies1.8 BrunoKranskies2.8x
+*equate LazloStrog1.007 LazloStrog8.001
 
 *end CountLazloALL
 

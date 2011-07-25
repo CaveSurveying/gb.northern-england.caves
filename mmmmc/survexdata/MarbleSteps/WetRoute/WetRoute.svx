@@ -4,7 +4,7 @@
 *begin WetRoute
 *export WetRoute1.001 WetRoute1.026 WetRoute1.027 WetRoute1.008
 *export Sidewinder1.001 Sidewinder1.008 Sidewinder1.009 Sidewinder1.011 Sidewinder1.012
-
+*export Sidewinder1.010
 ;-----------------------------------------------------------------------------------
 *include WetRoute1
 *include Sidewinder1
