@@ -4,7 +4,7 @@
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
 *begin	WitchesII-3
-*export 003 013 014 019 020 021 022 028
+*export 003 013 014 018 019 020 021 022 028
 
 *calibrate declination 2.65
 ;*calibrate compass

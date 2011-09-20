@@ -43,7 +43,32 @@
 
 
 *data passage station left right up down ignoreall
-
-
+001	0	0	0	0	;Boulder left of projection at  entrance
+002	0	0	0	0	;Above ent nearest to boulder
+003	0.5	0.5	0.5	0.5	;3=Top of scaff across entrance platform
+004	0.5	0.5	0.5	12.5	;Floater
+005	0.3	0.3	13.0	1.0	;5=Back wall
+006	0.4	0.4	1.2	0.9	;6= Floater
+007	0.6	0.0	0.2	18.4	;7=Block at top
+008	0.4	0.6	19.6	0.5	;8=2nd rung up
+009	0.6	0.3	0.8	0.0	;9=edge of big block
+010	0.8	0.0	0.6	0.7	;10=edge of projection
+011	1.0	0.3	0.6	0.6	;11=top of small block
+012	0.3	0.5	1.5	0.0	;12=LH wall
+013	0.0	0.2	1.3	0.5	;13=LH Wall
+014	0.1	1.0	3.0	1.2	;14=RH Wall
+015	0.4	0.1	5.5	1.3	;15=LH wall
+016	1.5	0.0	4.0	1.4	;16=Niche far wall from ladder
+017	0.0	0.6	5.0	1.3	;17=Left wall of passage
+018	2.0	0.0	2.5	1.4	;18=Boulderchoke
+019	0.0	0.8	3.0	1.5	;19=LH Wall
+020	0.3	0.0	1.0	1.3	;20=RH wall
+021	1.5	0.0	1.5	0.5	
+022	0.8	0.0	5.0	6.0	;22=above drop
+023	0.4	0.4	6.0	0.3	;23=Foot of climb
+024	1.1	0.9	0.5	0.4	;24=
+025	0.0	0.7	1.4	0.5	;25=
+026	2.0	0.5	0.3	2.2	;26=Passage end
+027	0.3	0.2	0.5	0.6	;27=Bolt
 
 *end Entranceshaft1
