@@ -8,39 +8,39 @@
 
 *begin	NottsII
 
-*export Entrance  ; CommitteePot.001
+*export Entrance  ; CommitteePot.001 and EntranceShaft.001
 *export inlet7.Inlet7-14.001 ; voldemort
 *export CountLazloALL.TheCupcake.008
 ;-------------------------------------------------------------------------------------------
 ;Include Statements
 
-*include "CommitteePot/CommitteePot"		;Entrance to Mincemeat Aven
-*include "CurryInlet/CurryInlet"		;Curry Inlet				Added by Richard 02/02/10 Working ok
-*Include "DomeInlet/DomeInlet"			;Dome Inlet 				Added by Richard 02/02/10 Working ok
-*include "Inlet13/Inlet13"			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok
-*include "MincemeatAven/MincemeatAven"		;Up Mincemeat Aven
-*include "GordonsInlet/GordonsInlet"		;Gordons Inlet "flood by-pass"		Added by Richard 02/02/10 Working ok
-*include "GourInlet/GourInlet"			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
-*include "GreenTape/GreenTape"			;Green Tape Inlet			Added by Richard 12/03/10 Working ok
-*Include "Inlet5/Inlet5"			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
-*include "Inlet17/Inlet17"
-*include "Inlet18/Inlet18"
-*include "MainStreamway/MainStreamway"		;Notts II Mainstreamway - Downstream Sump to ...
-*include "Paaschendale/Paaschendale"		;Paaschendale
-*include "TrickOrTreat/TrickOrTreat"		;Trick Or Treat
-*include "Poppy/Poppy"				;Poppy Passage
-*include "ShowerbathInlet/ShowerbathInlet" 	;showerbath Inlet			Added by Richard 02/02/10 Working ok
+*include CommitteePot/CommitteePotEntrance		;Main Committee Pot Entrance to Mincemeat Aven
+*include CurryInlet/CurryInlet		;Curry Inlet				Added by Richard 02/02/10 Working ok
+*Include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok
+*include Inlet13/Inlet13			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok
+*include MincemeatAven/MincemeatAven		;Up Mincemeat Aven
+*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok
+*include GourInlet/GourInlet			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
+*include GreenTape/GreenTape			;Green Tape Inlet			Added by Richard 12/03/10 Working ok
+*Include Inlet5/Inlet5			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
+*include Inlet17/Inlet17
+*include Inlet18/Inlet18
+*include MainStreamway/MainStreamway		;Notts II Mainstreamway - Downstream Sump to ...
+*include Paaschendale/Paaschendale		;Paaschendale
+*include TrickOrTreat/TrickOrTreat		;Trick Or Treat
+*include Poppy/Poppy				;Poppy Passage
+*include ShowerbathInlet/ShowerbathInlet 	;showerbath Inlet			Added by Richard 02/02/10 Working ok
 *include Inlet7/Inlet7  
 *include CountLazlo/CountLazloALL		;Count Lazlo Stroganoff - upstairs and downstairs Rejigged by Becka 14/09/10
-*include "DaylightAven/DaylightAven"
-*include "WhiteFlag/WhiteFlag"			;White Flag
+*include DaylightAven/DaylightAven
+*include WhiteFlag/WhiteFlag			;White Flag
 
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
-*equate Committeepot.001 Entrance
-;*equate CountLazloALL.LazloStrog1.054 Entrance
-*equate Committeepot.019 Inlet13.001
+*equate CommitteepotEntrance.EntranceShaft.001 Entrance
+;*equate CountLazloALL.LazloStrog1.054 Entrance	[Becka 2/10/11 - DELETE this - there is no .054 in LazloStrog1 and surely this shouldn't equate to the Committee Pot entrance]
+*equate CommitteePotEntrance.Committeepot.019 Inlet13.001
 *equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8
 *equate MainStreamway.MainStreamway5.019 GordonsInlet.1
 *equate MainStreamway.MainStreamway5.019 DomeInlet.000 
@@ -62,7 +62,7 @@
 *equate CountLazloALL.BrunoKranskies1.tag MainStreamway.MainStreamway5.011 ; tag in main stream
 *equate MainStreamway.Mainstreamway8.10 DaylightAven.DaylightAven2011-1.1
 
-;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - eventually replace this with BrunoKranskies equate
+;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
 
 *end NottsII
 
