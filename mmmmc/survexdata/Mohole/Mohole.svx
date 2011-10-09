@@ -1,0 +1,18 @@
+;Cave:	The Mohole - Turbary Road
+
+*begin	Mohole
+
+*export Entrance
+*entrance Entrance
+
+*fix Wall 	68584 76979 404 ;entrance GPS by Julian Todd 9 Oct 2011 - Garmin Etrex to 3m accuracy - original reading of 30U 6004519 0533739 using WGS84 then converted to OS coordinates
+
+*include Mohole1
+
+;--------------------------------------------------------------------
+
+*equate Entrance Mohole1.3
+*equate Mohole1.1 Wall 
+;*equate Mohole1.x Mohole2.x
+
+*end	Mohole

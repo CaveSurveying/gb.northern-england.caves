@@ -33,13 +33,14 @@
 *equate LazloStrog1.007 LazloStrog8.001
 *equate LazloStrog3.47 LazloStrog9.001
 
-*end CountLazloALL
-
-; duplicate data from older surveys which didn't have notes drawn
+; duplicate data from older surveys which didn't have notes drawn - CountLazlo superceded by Brunokranskies2 but sds not superceded yet
 ; *export CountLazlo.027a
 ; *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
-; *include sds
+; *equate BrunoKranskies1.tag CountLazlo.027a
+ *include sds
+ *equate BrunoKranskies1.tag sds.014
 ; *equate CountLazlo.027a sds.014
 ; *equate CountLazlo.006 LazloStrog5.35
 ; *equate LazloStrog3.1 CountLazlo.000
-; *equate BrunoKranskies1.tag CountLazlo.027a
+
+*end CountLazloALL
