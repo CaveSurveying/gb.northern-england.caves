@@ -5,7 +5,7 @@
 ;Date:	08/09/11
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
-*export 001 
+*export 001 027
 
 ;*calibrate compass
 

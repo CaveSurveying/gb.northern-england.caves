@@ -1,14 +1,15 @@
+*begin	Inlet13
+
+*export 001 022
+
 ;Cave:	Committee Pot
 ;Surveyors:	Dave Ramsay/Richard Bendall
 ;Date:	22/09/11
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
-*begin	Inlet13
-
-*export 001 022
-
 *calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2011.09.08 
+;*calibrate compass
 
 001	002	4.83	-	Down
 002	003	2.98	117	-10
@@ -31,8 +32,6 @@
 019	020	5.70	302	-8	
 020	021	6.76	005	-5
 021	022	5.89	335	-16
-
-;*calibrate compass
 
 ;stn to stn	tape	comp	clino
 
