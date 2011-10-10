@@ -8,8 +8,6 @@
 *team Notes Dave Ramsay
 *instrument RRCPC kit2 30m tape 
 
-
-
 ;from	to	tape	compass	clino	remarks
 
 001	002	5.87	181	-35
@@ -44,8 +42,6 @@
 029	030	2.29	294	+15
 030	031	2.95	242	+8
 031	032	5.08	315	+14
-
-	
 
 *data passage station left right up down ignoreall
 
