@@ -1,0 +1,28 @@
+;Cave: NottsII
+;Title: NottsII - All
+
+;Date Created 23/09/2011 by Richard Bendall
+
+;--------------------------------------------------------------------------------------------
+;Resurveyed committee pot entrance to inlet 13 tag
+
+*begin	NewCommitteePot
+
+*export Inlet13.022
+
+;-------------------------------------------------------------------------------------------
+;Include Statements
+
+*include EntranceShaft		;Entrance to Bolt at last climb
+			
+*include Inlet13		;Bolt at last climb to Inlet 13 tag in MainStreamway
+
+
+;-------------------------------------------------------------------------------------------
+;Equate Statements
+
+*equate EntranceShaft.027 Inlet13.001
+
+
+*end NewCommitteePot
+
