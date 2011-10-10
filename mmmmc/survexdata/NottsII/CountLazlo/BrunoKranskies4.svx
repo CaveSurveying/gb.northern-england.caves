@@ -1,0 +1,41 @@
+;Cave:	Notts II - Sir Digby Spode's Inlet and new dig passage (aka Bruno Kranskies)
+
+;Surveyors:	Di Arthurs - book, Hugh St. Lawrencew - Instrs
+;Date:	8/9/10 
+;Instruments:	Pete Hall's instruments and broken tape.clino broken, clino estimated.
+;altered by tim 20/09/11
+
+*begin BrunoKranskies4
+
+*export 15	;base of 1st chimney 
+;*export 2	;ready for next survey
+*export 2a
+
+*calibrate compass +3.50	;
+
+;1a to 3 done by Tim Allen 9/11 with help by Mike bottomley during radio location fix.  Tims instuments +disto
+
+1a	2a	3.5	332	5	;end to beacon
+2a	3a	2.15	007	18	;2a is the beacon
+3	3a	2.33	048	31	;MW to HC
+
+;*flags surface
+;2a	2b	41	0	90	;beacon to surface
+;*flags not surface
+
+;1	2	4.3	161	-8	;from Hotel Calif leg to near dig face, Pete's head against wall at low point of Root Canal
+;1	3	2.1	215	-17	;HC to Mexico Way
+3	4	2.4	154	0	;MW to Coffin Chamber
+4	5	1	0	-90	;drop to floor
+5	6	2	66	-15	;through squeeze to RCP
+6	7	1.7	0	-90	;drop down RCP
+7	8	2.1	86	0	;to boulder on edge of dingle ramp
+8	9	2.3	170	-17	;to top of Blood Gulch
+9	10	1.6	0	-90	;down BG to ledge
+10	11	4.1	315	-35	;from ledge to top of 2nd chimney
+11	12	0.6	61	0	;horizontal adjuster to get drop vertical for next leg
+12	13	1.3	0	-90	;down 2nd chimeny
+13	14	2.4	34	-32	;to top of first chimney
+14	15	1.4	0	-90	;to floor of first chimney
+
+*end BrunoKranskies4

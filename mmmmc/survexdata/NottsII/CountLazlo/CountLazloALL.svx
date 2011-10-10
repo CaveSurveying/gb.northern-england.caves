@@ -17,8 +17,8 @@
 *include BrunoKranskies2
 *include LimboPassage
 *include TheCupcake
-*Include LazloStrog8
-*Include LazloStrog9
+*include LazloStrog8
+*include LazloStrog9
 
 *equate LimboPassage.001 LazloStrog1.039
 *equate LazloStrog1.001 LazloStrog2.7
@@ -33,12 +33,15 @@
 *equate LazloStrog1.007 LazloStrog8.001
 *equate LazloStrog3.47 LazloStrog9.001
 
-; duplicate data from older surveys which didn't have notes drawn - CountLazlo superceded by Brunokranskies2 but sds not superceded yet
+; BELOW: dig and duplicate data from older surveys which didn't have notes drawn - CountLazlo superceded by Brunokranskies2 but sds and BrunoKranskie4 not superceded yet
+
 ; *export CountLazlo.027a
 ; *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
 ; *equate BrunoKranskies1.tag CountLazlo.027a
  *include sds
  *equate BrunoKranskies1.tag sds.014
+ *include BrunoKranskies4
+ *equate BrunoKranskies4.15 sds.x03
 ; *equate CountLazlo.027a sds.014
 ; *equate CountLazlo.006 LazloStrog5.35
 ; *equate LazloStrog3.1 CountLazlo.000
