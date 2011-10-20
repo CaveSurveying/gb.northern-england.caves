@@ -51,7 +51,8 @@
 *equate Mainstreamway.Mainstreamway2.1 Greentape.Greentape1.030
 *equate	GourInlet.GourInlet_1.001 MainStreamway.Mainstreamway3.GITag
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
-*equate MainStreamway.Mainstreamway3.33 Inlet13.025
+;*equate MainStreamway.Mainstreamway3.33 Inlet13.025
+*equate MainStreamway.Mainstreamway3.33 CommitteePotentrance.inlet13.022
 *equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
 *equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
 *equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
