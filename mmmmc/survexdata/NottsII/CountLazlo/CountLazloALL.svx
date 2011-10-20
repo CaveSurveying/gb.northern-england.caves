@@ -45,5 +45,7 @@
 ; *equate CountLazlo.027a sds.014
 ; *equate CountLazlo.006 LazloStrog5.35
 ; *equate LazloStrog3.1 CountLazlo.000
+*include BKall
+ *equate BKall.11 BrunoKranskies2.25
 
 *end CountLazloALL

@@ -1,5 +1,5 @@
 *begin BrunoKranskies2
-*export 8x 19
+*export 8x 19 25
 
 *title "Bruno Kranskies dig from where start crawling to ladder"
 *date 2010.11.21
