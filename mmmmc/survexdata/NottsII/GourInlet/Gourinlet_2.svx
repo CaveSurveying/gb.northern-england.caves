@@ -8,6 +8,10 @@
 
 *export 001 008 025
 
+
+*calibrate declination +3.26	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w 2007.09.03
+
 001	002	01.75	294.0	-10.0
 002	003	04.06	249.0	-24.0
 003	004	02.47	250.0	-08.0

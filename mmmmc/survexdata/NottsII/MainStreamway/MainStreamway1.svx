@@ -10,6 +10,8 @@
 
 *export 12
 *export 3
+*calibrate declination +3.35	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w 2006.10.19 
 
 *CALIBRATE tape -.10		;Tape was 10 centimetres too long
 ;Tape started at -10 centimetres (original notes - no Corrections)

@@ -11,6 +11,9 @@
 
 *export 001 021 026
 
+*calibrate declination +3.26	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w 2007.09.17
+
 001	002	05.09	277.0	+67.0	;stn001 is tag in main streamway
 002	003	12.75	198.0	+03.0
 003	004	09.21	269.0	 00.0
