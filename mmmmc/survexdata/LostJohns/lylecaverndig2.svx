@@ -1,0 +1,31 @@
+*begin lylecaverndig2
+
+; Location: Lost Johns, Lyle Caverns Choke; Location: Lost Johns, Lyle Caverns Choke
+
+*export 2 8 12
+
+;*title "Lyle caverns choke"
+;*date 23/10/2011
+;*team Instruments Tim Allen 
+;*team Notes Geoge North
+;*Instrument Tim's
+
+*calibrate compass +3.5
+
+;from	to	tape	compass	clino	remarks
+*data normal from to tape compass clino ignoreall
+
+2	1	2.77	336	-2	;1=northern end of dig
+2	3	3	156	-27		;2=RL point (RL = radiolocation)
+3	4	3.46	117	-10
+4	5	2	113	-8		;5=source of larger draught
+2	6	3.63	178	-3	;6=dig passage off to west
+6	6a	3	270	3		;rough leg into new dig will need to be retaken
+6	7	2.98	162	12
+7	8	2.18	124	-34	;8=old RL point (RL = radiolocation)
+8	9	2.83	154	-20
+9	10	3.3	100	-3
+10	11	3.4	167	1
+11	12	3.9	125	0		;12=Tim & Mick st1 from lylecaverndig file
+
+*end lylecaverndig2

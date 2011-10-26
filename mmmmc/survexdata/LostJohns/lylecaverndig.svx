@@ -2,7 +2,7 @@
 
 *begin lylecaverndig
 
-*export 20
+*export 1 20
 
 *title "Ireby - Main Streamway starting at starting at 59  from a bit before the first crawling section to the bubbles tag"
 *date 2010.07.03
@@ -45,9 +45,10 @@
 
 ; section below added on 06.09.10 by Becka using email from Tim Allen on 29.08.10
 ; extra three legs data from Tim Allen with Silva compass and guessimate of length using body where station x1 is station 01 of previous survey
+; These legs then superceded by lylecaverndig2 file so commented out by Becka on 26.10.11
 
-1	x2    	3.6 	285 	+1
-x2	x3     	3.1 	335 	+2
-x3	x4    	2.7    	280 	-3
+; 1	x2    	3.6 	285 	+1
+; x2	x3     	3.1 	335 	+2
+; x3	x4    	2.7    	280 	-3
 
 *end lylecaverndig

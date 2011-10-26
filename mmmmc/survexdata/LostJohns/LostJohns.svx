@@ -103,6 +103,9 @@
 *include lylecaverndig
 *equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
 
+*include lylecaverndig2
+*equate	lylecaverndig.1	lylecaverndig2.12	
+
 *end	LostJohns
 
 ; lj20 superceded by lylecaverndig data and connection point (box3.079) guessed at
