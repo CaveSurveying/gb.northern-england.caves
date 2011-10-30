@@ -1,6 +1,6 @@
 *begin LeckBeckHeadWestEast
 
-*export 18
+*export 10 18
 
 *title "Leck Beck Head - dry cave and surface survey to Witches entrance along river bed"
 *date 2011.10.30

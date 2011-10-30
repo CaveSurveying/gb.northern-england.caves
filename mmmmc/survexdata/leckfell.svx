@@ -102,7 +102,8 @@
 *equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x
 
 *include LeckBeckHead/LeckBeckHead
-*fix LeckBeckHead.001 65938.92 80003.18 212.01
+; *fix LeckBeckHead.001 65938.92 80003.18 212.01	; commented out by Becka 30.10.11 and replaced by equate to LeckBeckHeadWestEast surface survey
+*equate LeckBeckHeadWestEast.10 LeckBeckHead.001
 
 *include LeckBeckHead/LeckBeckHeadWestEast
 *equate LeckBeckHeadWestEast.18 WitchesCave.Witches1DryCave.18
