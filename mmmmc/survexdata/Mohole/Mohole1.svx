@@ -7,7 +7,7 @@
 *team Instruments Fleur Loveridge
 *team Notes Neil Pacey
 *team Tape Becka Lawson
-*instrument Becka's Tandem as comp and clino and Patrick's 60m tape
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

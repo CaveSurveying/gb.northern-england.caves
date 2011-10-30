@@ -2,11 +2,8 @@
 ;02/02/97
 ;Pete grant / Ivor Chittenden
 
-
 *begin	wit
-*export 002c
-*export 001
-
+*export 001 002b 002c
 
 *calibrate compass	+5.13
 

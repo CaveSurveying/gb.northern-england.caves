@@ -41,7 +41,6 @@
 *include BumblingHole/BumblingHole
 *equate	BumblingHole.Entrance	leckfellsurfacesurvey.BumblingHoleEntrance
 
-
 *include CoalHole/CoalHole
 *equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
 
@@ -88,9 +87,13 @@
 *include LittlePot/LittlePot
 *equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
+*include Mohole/Mohole
+
+*include KangoHole/KangoHole  
 
 
-; Witches Cave complex (some entrances to be tied in with the rest of the surface survey)
+; Witches Cave and surrounding area (some entrances to be tied in with the rest of the surface survey)
+
 *include WitchesCaveII/WitchesII 
 *fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
 
@@ -101,9 +104,8 @@
 *include LeckBeckHead/LeckBeckHead
 *fix LeckBeckHead.001 65938.92 80003.18 212.01
 
-*include Mohole/Mohole
-
-*include KangoHole/KangoHole  
+*include LeckBeckHead/LeckBeckHeadWestEast
+*equate LeckBeckHeadWestEast.18 WitchesCave.Witches1DryCave.18
 
 *end leckfell
 

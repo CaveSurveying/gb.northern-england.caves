@@ -1,0 +1,81 @@
+*begin LeckBeckHeadWestEast
+
+*export 18
+
+*title "Leck Beck Head - dry cave and surface survey to Witches entrance along river bed"
+*date 2011.10.30
+*team Instruments Edvin Deadman
+*team Notes Becka Lawson
+*team Tape Julian Todd
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+; gps1	sd65954	bng80020 218m elevation ; station 0 Becka and Julian's Garmin Etrex GPS - to 20m accuracy 
+; gps2	sd65943	bng80006 212m elevation ; station 7 Becka and Julian's Garmin Etrex GPS - to 13m accuracy
+; gps3	sd65968	bng79976 222m elevation ; station 13 - Becka and Julian's Garmin Etrex GPS - to 9m accuracy
+
+*entrance 1
+*entrance 5
+*entrance 10
+
+*flags surface
+1	0	10.01	298	-02
+*flags not surface
+
+2	1	4.62	216	+03	; LBH East
+3	2	4.90	334	+04	; LBH East
+
+*flags surface
+4	0	4.04	193	-06
+5	4	5.65	189	+04
+*flags not surface
+
+6	5	4.05	201	-01	; LBH West
+
+*flags surface
+0	7	20.39	219	-03
+7	8	8.20	221	-04
+7	9	20.24	193	-01
+8	9x	4.85	355	+04
+9x	10	0.85	-	down	; sump for LBH main rising
+11	9	25.30	353	+06	; written as 11 to 10 in notes but was 11 to 9
+12	11	17.43	266	-04
+12	13	11.33	051	+02
+
+13	14	14.68	064	+02
+14	15	21.38	047	-01
+15	16	15.99	043	+04
+
+17	16	19.84	324	-07
+18	17	13.20	189	+06
+*flags not surface
+
+*data passage station left right up down ignoreall
+
+0	-	-	-	-	boulder in dry river bed
+1	4	2	0	1.5	roof about 2m inside Leck Beck Head East
+2	-	-	0.5	1.5	roof above deep pool
+3	0.5	0.5	0	0.5	roof of crawl
+4	-	-	-	-	boulder in river bed
+5	2	1	0.7	0	Leck Beck Head West, boulder on floor
+6	1	1	0.7	0.5	boulder choke, floor/L wall
+
+7	-	-	-	-	large boulder in dry river bed, 2m to R bank, 4m to L bank
+8	-	-	-	-	boulder in front of tree just downstream of main Leck Beck Head rising
+9x	-	-	-	-	R bank above sump pool, about 1m before furthest point of sump pool 
+9	-	-	-	-	tip of distinctive tall, large boulder in river bed about 4m before cascades
+10	-	-	-	-	water level by main Leck Beck Head rising sump
+11	-	-	-	-	ridge on large lump of rock at junction of 2 branches of river
+12	-	-	-	-	right bank of Easegill
+13	-	-	-	-	huge boulder on R bank
+14	-	-	-	-	big triangular boulder, tip
+15	-	-	-	-	bedrock on right above pool
+16	-	-	-	-	tree upstream side of pool
+
+17	-	-	-	-	R cliff wall
+18	-	-	-	-	L wall at entrance, on large boulder about 1m before the dripline
+
+*end LeckBeckHeadWestEast
