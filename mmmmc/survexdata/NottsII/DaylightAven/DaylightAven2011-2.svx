@@ -16,8 +16,8 @@
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
 
-*calibrate declination +3.26	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.1994n 2.5124w 2007.09.17
+*calibrate declination +2.52	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.02.26
 
 *data normal from to tape compass clino
 *units clino percent
