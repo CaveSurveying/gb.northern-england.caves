@@ -1,18 +1,19 @@
 *begin DaylightAven
 
-*export DaylightAven_1.0   DaylightAven2011-1.1
+;*export DaylightAven_1.0   				;commented out 02/11/11 RGB to make it all work but needs to be added back once new survey sata taken to tie it in properly
+*export DaylightAven2011-1.1
 
-*include DaylightAven_1
-*include DaylightAven_2
-*include DaylightAven_3
+;*include DaylightAven_1				;commented out 02/11/11 RGB to make it all work but needs to be added back once new survey sata taken to tie it in properly
+;*include DaylightAven_2				;commented out 02/11/11 RGB no longer required superceeded by DaylightAven2011-1
+;*include DaylightAven_3				;commented out 02/11/11 RGB no longer required superceeded by DaylightAven2011-2
 *include DaylightAven2011-1
 *include DaylightAven2011-2
 *include DaylightAven2011-3
 *include DaylightAven2011-4
 
-;*equate DaylightAven_1.10b DaylightAven_2.10      ; this connection looks wrong on basis of 2011.02.26 survey so have commented out - Becka
-*equate DaylightAven_2.2 DaylightAven2011-1.14
-*equate DaylightAven_2.1 DaylightAven_3.1
+;*equate DaylightAven_1.10b DaylightAven_2.10      	; this connection looks wrong on basis of 2011.02.26 survey so have commented out - Becka
+;*equate DaylightAven_2.2 DaylightAven2011-1.14		;commented out 02/11/11 RGB no longer required superceeded by DaylightAven2011-1
+;*equate DaylightAven_2.1 DaylightAven_3.1		;commented out 02/11/11 RGB no longer required superceeded by DaylightAven2011-2
 *equate DaylightAven2011-1.24 DaylightAven2011-2.20
 *equate DaylightAven2011-2.1 DaylightAven2011-3.14
 *equate DaylightAven2011-3.9 DaylightAven2011-4.1
