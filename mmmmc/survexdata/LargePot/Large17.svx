@@ -1,6 +1,6 @@
 
 *begin Large17
-*export 14x
+*export 14x 10
 
 *title "Grime and Punishment - small inlet leading to Chris and Jame's dig"
 *date 2011.04.30

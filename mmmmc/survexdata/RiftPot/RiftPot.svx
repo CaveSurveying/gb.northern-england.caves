@@ -37,4 +37,5 @@
 *equate CoatesPassage2.10x CoatesPassage1.10
 *equate marblestepsinlet.2x CoatesPassage1.2
 *equate RiftTowardsMousehole2.14x RiftTowardsMousehole.14
+
 *end RiftPot

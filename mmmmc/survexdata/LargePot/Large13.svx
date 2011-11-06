@@ -1,5 +1,5 @@
 *begin Large13
-*export 1 8
+*export 1 4 8
 
 *title "Actually Rift - from Rift end of Mousetrap towards larger passage"
 *date 2011.01.30

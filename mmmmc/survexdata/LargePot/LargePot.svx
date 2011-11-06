@@ -33,6 +33,7 @@
 *include Large17
 *include Large18
 *include TinkleInletNPC     ; note this is an April 1983 survey so it needs a different magnetic correction probably
+*include MouseholeBypass
 
 *equate EntranceTag Large1.tag
 *equate Large1.25 Large2.1
@@ -53,5 +54,7 @@
 *equate Large7.46 TinkleInletNPC.GS0  ; this not connected properly, but must be quite close (two surveys done nearly 30 years apart)
 *equate Large17.14x Large16.14
 *equate Large18.18x Large16.18
+*equate Large17.10 MouseholeBypass.10x
+*equate Large13.4 MouseholeBypass.x
 
 *end LargePot
