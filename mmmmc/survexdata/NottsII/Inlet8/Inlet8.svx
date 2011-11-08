@@ -1,0 +1,10 @@
+;cave Notts II
+;Title: Inlet8
+
+*begin Inlet8
+
+*export Inlet8_1.1
+
+*include Inlet8_1   	
+
+*end Inlet8

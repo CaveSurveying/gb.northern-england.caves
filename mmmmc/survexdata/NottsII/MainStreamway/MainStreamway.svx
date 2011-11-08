@@ -17,16 +17,18 @@
 *export MainStreamway8.8	;Start of Daylight Aven
 *export MainStreamway8.10	;Start of Paaschendale
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag
+*export Dome-Jimlet.8a		;entrance to Inlet 8			;Added by Richard 08/11/11
 
 
-*include MainStreamway1   ; 19/10/2006 Neil, Richard
-*include MainStreamway2   ; 16/10/2006 Neil, Richard
-*include MainStreamway3   ; 31/01/2007 Neil, Becka
-*include MainStreamway4   ; 2/12/00    Ray, 
-*include MainStreamway5   ; 7/12/00    Ray, Hugh
-*include MainStreamway6   ; 13/01/01   Hugh, Richard
-*include Mainstreamway7   ; 2002.04.12 Bill, Allan
-*include MainStreamway8   ; 23/05/02   Allan, Gerrish
+*include MainStreamway1   	; 19/10/2006 Neil, Richard
+*include MainStreamway2   	; 16/10/2006 Neil, Richard
+*include MainStreamway3   	; 31/01/2007 Neil, Becka
+*include MainStreamway4   	; 2/12/00    Ray, 
+*include MainStreamway5   	; 7/12/00    Ray, Hugh
+*include MainStreamway6   	; 13/01/01   Hugh, Richard
+*include Mainstreamway7   	; 2002.04.12 Bill, Allan
+*include MainStreamway8   	; 23/05/02   Allan, Gerrish
+*include Dome-Jimlet		;Dome tag to Jimlet			;Added by Richard 08/11/11
 
 
 *equate MainStreamway1.12 MainStreamway2.12
@@ -36,5 +38,7 @@
 *equate MainStreamway5.019 MainStreamway6.001
 *equate Mainstreamway6.036 Mainstreamway7.0
 *equate MainStreamway7.12 MainStreamway8.0
+
+*equate Mainstreamway6.001 Dome-Jimlet.24				;Added by Richard 08/11/11
 
 *end MainStreamway

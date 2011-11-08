@@ -35,6 +35,8 @@
 *include DaylightAven/DaylightAven
 *include WhiteFlag/WhiteFlag			;White Flag
 
+*include Inlet8/Inlet8				;Inlet 8				Added by Richard 08/11/11
+
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
@@ -62,6 +64,8 @@
 *equate Whiteflag.1 Paaschendale.Paaschendale1.1
 *equate CountLazloALL.BrunoKranskies1.tag MainStreamway.MainStreamway5.011 ; tag in main stream
 *equate MainStreamway.Mainstreamway8.10 DaylightAven.DaylightAven2011-1.1
+
+*equate Mainstreamway.Dome-Jimlet.8a Inlet8.Inlet8_1.1
 
 ;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
 
