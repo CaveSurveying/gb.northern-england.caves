@@ -10,7 +10,7 @@
 
 *export Entrance  ; CommitteePot.001 and EntranceShaft.001
 *export inlet7.Inlet7-14.001 ; voldemort
-*export CountLazloALL.TheCupcake.008
+*export CountLazloALL.TheCupcake.008 CountLazloALL.LostJohnsConnection.1
 ;-------------------------------------------------------------------------------------------
 ;Include Statements
 

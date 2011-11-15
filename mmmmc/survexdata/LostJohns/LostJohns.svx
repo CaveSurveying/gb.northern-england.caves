@@ -4,6 +4,7 @@
 
 *export EntranceTag
 *export BoxheadSurfaceRim
+*export lylecaverndig2.7
 
 *equate	Lj01.010	Lj03.000
 *equate	Lj01.001	Lj02.000

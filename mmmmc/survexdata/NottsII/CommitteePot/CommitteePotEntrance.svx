@@ -15,7 +15,10 @@
 ;-------------------------------------------------------------------------------------------
 ;Include Statements
 
+*flags duplicate
 *include CommitteePot		;Entrance to Mincemeat Aven
+*flags not duplicate
+
 *include EntranceShaft		;Re-survey of Committee Pot entrance shaft by Richard and Dave 08/09/11; Entrance to Bolt at last climb
 *include Inlet13			;Bolt at last climb to Inlet 13 tag in MainStreamway
 

@@ -1,0 +1,26 @@
+*begin LostJohnsConnection
+
+*export 1 8
+
+;*title "Lyle Caverns choke"
+; Location: Lost Johns, Lyle Caverns Choke connection to Notts 2
+;*date 15/11/2011
+;*team Instruments Tim Allen 
+;*team Notes Joe Giblin
+;Instrument Tim's
+
+*calibrate compass +3.5
+
+;from	to	tape	compass	clino	remarks
+
+1	2	2.63	326	-6.5	;1=lylecaverndig2.7
+2	3	1.42	281	12
+3	4	2.27	270	-14.5
+4	5	2.63	312	-19
+5	6	1.75	294	28
+6	7	3.45	325	-5
+7	8	2.04	313	15	; 8=bkall.40
+
+*data normal from to tape compass clino ignoreall
+
+*end LostJohnsConnection

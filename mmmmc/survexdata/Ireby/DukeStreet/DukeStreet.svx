@@ -16,7 +16,10 @@
 *export ropepitchredonumbers.4 ; cow tag near Aberfan, near Yhang for dry alternative to Well pitch
 *export ropepitchredonumbers.24 ; spit below NE Inlet waterfall, to right of climb up to NE inlet
 
+*flags duplicate	; this not strictly necessary as already flagged as duplicate in original file
 *Include DukeStreet1
+*flags not duplicate ; this not strictly necessary as already flagged as duplicate in original file
+
 ; *Include DukeStreetDigs
 *Include whirlpool
 *Include dukestdigsresurvey
@@ -30,7 +33,10 @@
 
 ; a lot of lower streamway survey in here
 *Include ropepitch
+
+*flags duplicate ; this not strictly necessary as already flagged as duplicate in original file
 *Include ropepitchredonumbers
+*flags not duplicate ; this not strictly necessary as already flagged as duplicate in original file
 
 *equate ropepitch.1 dukest1resurvey2009.21
 *equate ropepitch.1 dukestdigsresurvey.z
@@ -39,7 +45,6 @@
 *equate ropepitch.44 ropepitchredonumbers.30	; connect these two surveys at East Inlet station at dam
 *equate ropepitch.49 ropepitchredonumbers.26	; connect these two surveys at top of boulder slope in chamber
 *equate ropepitch.63 ropepitchredonumbers.14	; connect these two surveys at phanger inbetween Adulterers traverse and dry pitch bypass to Rope pitch
-
 
 *Include dukest1resurvey2009
 *equate dukest1resurvey2009.15 dukestsidepassage.15x
