@@ -17,8 +17,11 @@
 *export MainStreamway8.8	;Start of Daylight Aven
 *export MainStreamway8.10	;Start of Paaschendale
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag
-*export Dome-Jimlet.8a		;entrance to Inlet 8			;Added by Richard 08/11/11
-
+*export Dome-Jimlet.8a		;entrance to Inlet 8			;Added by Richard 08/11/2011
+*export Showerbath-Dome.11	;Tag at Showerbath 			;Added by Richard 15/11/2011
+*export Showerbath-Dome.17	;Thread at Echo Inlet			;Added by Richard 15/11/2011	
+*export Showerbath-Dome.26	;Tag at Sir Digby Spodes Inlet(Count Lazlos/Bruno Kranski's)	;Added by Richard 15/11/2011
+*export Showerbath-Dome.363	;Tag at Dome Inlet
 
 *include MainStreamway1   	; 19/10/2006 Neil, Richard
 *include MainStreamway2   	; 16/10/2006 Neil, Richard
@@ -28,8 +31,8 @@
 *include MainStreamway6   	; 13/01/01   Hugh, Richard
 *include Mainstreamway7   	; 2002.04.12 Bill, Allan
 *include MainStreamway8   	; 23/05/02   Allan, Gerrish
-*include Dome-Jimlet		;Dome tag to Jimlet			;Added by Richard 08/11/11
-
+*include Dome-Jimlet		;Dome tag to Jimlet			;Added by Richard 08/11/2011
+*include Showerbath-Dome	;Showerbath Inlet to Dome Tag		;Added by Richard 15/11/2011
 
 *equate MainStreamway1.12 MainStreamway2.12
 *equate MainStreamway2.1 MainStreamway3.GTTag
@@ -39,6 +42,9 @@
 *equate Mainstreamway6.036 Mainstreamway7.0
 *equate MainStreamway7.12 MainStreamway8.0
 
-*equate Mainstreamway6.001 Dome-Jimlet.24				;Added by Richard 08/11/11
+*equate Showerbath-Dome.36 Dome-Jimlet.24				;Added by Richard 08/11/2011
+*equate Mainstreamway3.55 Showerbath-Dome.11				;Added by Richard 15/11/2011
+
+
 
 *end MainStreamway
