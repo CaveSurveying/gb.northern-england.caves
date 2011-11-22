@@ -1,0 +1,38 @@
+*begin MouseholeBypass
+*export x 10x
+
+*title "Bypass above Mousehole in Rift Pot"
+*date 2011.11.05
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*instrument Becka's comp/clino tandem and Becka's 30m tape missing last 20cm
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+x	1	0.91	245 +18	
+1	2	1.70	175 +64	
+3	2a	6.36	- down	
+2a	2	0.41	135 0	
+3	4	4.37	108 +04	
+4	5	2.36	110 -17	
+5	6	3.78	109 +04	
+; started doing a leg down the left passage (was 2.74 long) but decided to survey the right passage so no station 7
+8	6	2.36	325	-18	; notes say 6 to 8 but actually it was surveyed backwards so 8 to 6
+8	9	2.70	135 +05	
+9	10	2.78	016 +01	
+10	11	3.67	100 -01	
+11	12	2.48	034 +08	
+12	13	1.79	105 -09	
+13	14	3.58	086 +01	
+14	15	1.74	330 +06	
+16	15	2.52	185 -05	
+16	17	2.38	120 +84	
+17	18	3.38	350 +12	
+
+10x	19	4.80	015 0	
+19	20	3.25	285 +02	
+20	21	2.24	010 +02	
+21	22	4.49	310 +01	
+22	14	3.67	320 -04	
+
+*end MouseholeBypass
