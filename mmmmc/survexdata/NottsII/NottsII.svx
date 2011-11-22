@@ -29,7 +29,7 @@
 *include Paaschendale/Paaschendale		;Paaschendale
 *include TrickOrTreat/TrickOrTreat		;Trick Or Treat
 *include Poppy/Poppy				;Poppy Passage
-*include ShowerbathInlet/ShowerbathInlet 	;showerbath Inlet			Added by Richard 02/02/10 Working ok
+;*include ShowerbathInlet/ShowerbathInlet 	;showerbath Inlet			Added by Richard 02/02/10 Working ok ;edited out 22/11/11 RGB Superceeded by Showerbath-Dome
 *include Inlet7/Inlet7  
 *include CountLazlo/CountLazloALL		;Count Lazlo Stroganoff - upstairs and downstairs Rejigged by Becka 14/09/10
 *include DaylightAven/DaylightAven
@@ -43,7 +43,7 @@
 *equate CommitteepotEntrance.EntranceShaft.001 Entrance
 ;*equate CountLazloALL.LazloStrog1.054 Entrance	[Becka 2/10/11 - DELETE this - there is no .054 in LazloStrog1 and surely this shouldn't equate to the Committee Pot entrance]
 *equate CommitteePotEntrance.Committeepot.019 Inlet13.001
-*equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8
+;*equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8	;edited out 22/11/11 RGB Superceeded by Showerbath-Dome
 *equate MainStreamway.MainStreamway5.019 GordonsInlet.1
 *equate MainStreamway.MainStreamway5.019 DomeInlet.000 
 *equate MainStreamway.MainStreamway7.0 CurryInlet.001 
@@ -59,11 +59,11 @@
 *equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
 *equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
 *equate Inlet18.Sump3 Inlet17.Inlet17_2.Sump3
-*equate Inlet7.Inlet7-4.001 MainStreamway.MainStreamway6.013v ; left Corner of rock overhang =(approx) oliver lloyd inlet tag
+*equate Inlet7.Inlet7-4.001 MainStreamway.Dome-Jimlet.6 ; left Corner of rock overhang =(approx) oliver lloyd inlet tag ;amended 22/11/11 RGB
 ;*equate DaylightAven.DaylightAven_1.0 MainStreamway.Mainstreamway8.8			;commented out 02/11/11 RGB to make it all work but needs to be added back once new survey sata taken to tie it in properly
-*equate Whiteflag.1 Paaschendale.Paaschendale1.1
+*equate Whiteflag.1 DaylightAven.DaylightAven2011-1.1					;amended 22/11/11 RGB
 *equate CountLazloALL.BrunoKranskies1.tag MainStreamway.MainStreamway5.011 ; tag in main stream
-*equate MainStreamway.Mainstreamway8.10 DaylightAven.DaylightAven2011-1.1
+*equate MainStreamway.Jimlet-DaylightAven.39 DaylightAven.DaylightAven2011-1.3		;amended 22/11/11 RGB
 
 *equate Mainstreamway.Dome-Jimlet.8a Inlet8.Inlet8_1.1
 
