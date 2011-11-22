@@ -26,8 +26,7 @@
 
 *export 1	;Jimlet1
 
-*export 6	;equates to Inlet 7, OL1.001
-
+*export 6	;Inlet 7, equate Inlet7.Inlet7-4.001 MainStreamway.Dome-Jimlet.6
 *export 8a	;Inlet 8
 
 *export 11	;Nickpoint Bridge with stall boss - start of Estonia
