@@ -9,7 +9,7 @@
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 
-*data normal from	to	tape	clino compass	remarks
+*data normal from	to	tape	clino compass	ignoreall
 
 x	1	0.91	+18	245
 1	2	1.70	+64	175
