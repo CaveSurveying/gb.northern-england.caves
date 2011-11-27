@@ -1,0 +1,45 @@
+*begin Mohole2
+
+*export 6x
+
+*title "The Mohole from the top of the first pitch to spit for final drop down, not enough rope for bottom!"
+*date 2011.11.26
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*team Tape Patrick Warren
+*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+
+*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+6x	1	5.72	315	-76
+1	2	7.42	320	-77
+2	3	3.80	126	-37
+3	4	1.16	000	-64
+4	5	6.55	-	down
+6	5	2.82	133	-21
+6	7	4.61	305	+03
+7	8	2.14	300	-34
+8	9	26.05	-	down
+10	9	4.56	350	+63
+10	11	3.59	140	-28
+11	12	6.00	140	-60	; guessed leg - REMOVE if resurvey - wasn't enough rope to descend and very loose
+
+*data passage station left right up down ignoreall		
+
+6x	0.3	0	2	1.5	LRUD taken from Mohole trip numbered on R wall near 2nd spit for first pitch - old station from Neil / Becka / Fleur trip (Mohole1) two months ago
+1	0.4	0	0.5	6	to ledge part way down first pitch
+2	0.3	0.4	8	1.6	base of first pitch
+3	0.2	0.3	2	4
+4	-	-	-	-	knot for second pitch
+5	1	1	7	0.1	rock on floor at base of second pitch
+6	0	0.5	0.5	1.3	l wall in rift
+7	0	0.4	0.8	1.2	around 0.5m beyond the ring hanger and around 0.1m higher than ring hanger
+8	0.2	0.2	0.7	30	flake above top of third pitch
+9	0	1.8	26	1.8	most of the way down the third pitch, numbered on wall
+10	0.5	0.5	30	1.9	scratched boulder wedged in rift as descend 
+11	1.4	0	20	2	old spit on R wall in rift, above where gets steeper for final 6m or so descent, NOT numbered
+12	-	-	-	-	not a real station, just guessed!
+
+*end Mohole2
