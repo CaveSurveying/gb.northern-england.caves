@@ -2,12 +2,12 @@
 ;Title Notts2a.svx
 
 *begin DaylightAven_1
-*export 10b 
-*export 0
+*export 12 
+
 ;04-02-06 S E Warren, Sweeney, Phil Parker
 ;Notts 2a survey of Daylight Aven from stream up mud slope up ropes through squeeze, down rope to stream
 
-0	1	4	157	0	;Guess put in by RGB to tie Mainstreamway8.8 to Daylight Aven survey stn1
+;0	1	4	157	0	;Guess put in by RGB to tie Mainstreamway8.8 to Daylight Aven survey stn1 ;No longer required commented out RGB 01/12/11
 1	2	4.50	93.00	37.00 ;1 is point on corner of rock bridge
 2	3	6.60	50.00	45.00
 3	3a	4.30	65.00	20.00 ;3a is back wall of aven
@@ -20,10 +20,11 @@
 9a	9b	1.50	330.00	0.00
 9b	10	4.70	240.00	0.00
 10	10a	12.00	0.00	-90.00 ;10a is first bridge (going down)
-10a	10b	6.00	0.00	-90.00
-;10b is second bridge from whence passage leads east to second aven not yet fully explored
+10a	10b	6.00	0.00	-90.00 ;10b is second bridge from whence passage leads east to second aven not yet fully explored
 ;ergo 10b is equivalent to SS10 of Notts2b
-10b	10c			1.20	40.00	0.00
-10c	11			6.5	0.00	-90.00 ;11 is 2m above floor, ergo 10c - stream bed  is 8.5m
-11	1			2.00	340.00	0.00
+10b	10c	1.20	40.00	0.00
+10c	11	6.5	0.00	-90.00 ;11 is 2m above floor, ergo 10c - stream bed  is 8.5m
+11	1	2.00	340.00	0.00
+
+11	12	1.00	-	down	; added leg to get to knot at bottom of rope RGB 01/12/11
 *end DaylightAven_1
