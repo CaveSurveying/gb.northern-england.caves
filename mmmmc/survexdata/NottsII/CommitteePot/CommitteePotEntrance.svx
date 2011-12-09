@@ -11,6 +11,7 @@
 *export EntranceShaft.001
 ;*export CommitteePot.019 
 *export Inlet13.022
+*export GordonsInlet.25
 
 ;-------------------------------------------------------------------------------------------
 ;Include Statements
@@ -23,6 +24,7 @@
 *include Inlet13			;Bolt at last climb to Inlet 13 tag in MainStreamway
 *Include MincemeatAven		;Re-survey of MincemeatAven up both ropes RichaRD & Dave 24/11/11
 *include Entranceshaft_2	;Dug up stream obove final climb down into Mincemeat Aven "Comedy Goggles" added 25/11/11 RGB
+*include GordonsInlet		;Gordons Inlet, Flood escape route
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
@@ -30,6 +32,7 @@
 *equate EntranceShaft.027 Inlet13.001
 *equate Inlet13.005 MincemeatAven.1		;added 25/11/11 RGB
 *equate Entranceshaft.026 Entranceshaft_2.8	;added 25/11/11 RGB
+*equate Inlet13.011	GordonsInlet.1
 
 *end CommitteePotEntrance
 

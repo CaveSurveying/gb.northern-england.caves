@@ -1,6 +1,6 @@
 *begin	Inlet13
 
-*export 001 005 022
+*export 001 005 011 022
 
 ;Cave:	Committee Pot
 ;Surveyors:	Dave Ramsay/Richard Bendall

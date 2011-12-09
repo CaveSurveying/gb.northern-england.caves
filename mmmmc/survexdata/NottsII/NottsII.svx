@@ -69,5 +69,7 @@
 
 ;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
 
+*equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join Gordons to Mainstreamway at Dome
+
 *end NottsII
 
