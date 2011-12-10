@@ -19,7 +19,7 @@
 *Include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok
 ;*include Inlet13/Inlet13			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok Commented out 25/11/11 RGB superceeded with new entrance survey
 ;*include MincemeatAven/MincemeatAven		;Up Mincemeat Aven			Commented out 25/11/11 RGB superceeded with new entrance survey
-*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok
+*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok ;to take out shortly now new data added.RGB 09/12/11
 *include GourInlet/GourInlet			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
 *include GreenTape/GreenTape			;Green Tape Inlet			Added by Richard 12/03/10 Working ok
 *Include Inlet5/Inlet5			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
@@ -69,7 +69,7 @@
 
 ;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
 
-*equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join Gordons to Mainstreamway at Dome
+*equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join new Gordons data to Mainstreamway at Dome tag
 
 *end NottsII
 
