@@ -15,7 +15,8 @@
 ;Include Statements
 
 *include CommitteePot/CommitteePotEntrance		;Main Committee Pot Entrance to Mincemeat Aven
-*include CurryInlet/CurryInlet		;Curry Inlet				Added by Richard 02/02/10 Working ok
+*include CurryInlet/CurryInlet			;Curry Inlet				Added by Richard 02/02/10 Working ok
+*Include CurryInlet/AllCurryInlet		;New Curry Inlet data			Added by Richard 13/12/11
 *Include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok
 ;*include Inlet13/Inlet13			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok Commented out 25/11/11 RGB superceeded with new entrance survey
 ;*include MincemeatAven/MincemeatAven		;Up Mincemeat Aven			Commented out 25/11/11 RGB superceeded with new entrance survey
@@ -72,6 +73,8 @@
 *equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join new Gordons data to Mainstreamway at Dome tag
 *equate Inlet4.Inlet4_1.1 Mainstreamway.Jimlet-DaylightAven.35				;Added by Richard 13/12/11
 *equate Paaschendale.Paaschendale3.18 DaylightAven.DaylightAven2011-1.1			;Added by Richard 13/12/11
-			
+	
+*equate	AllCurryInlet.CurryInlet_1.1 Mainstreamway.Jimlet-DaylightAven.15			;Added by Richard 13/12/11
+	
 *end NottsII	
 

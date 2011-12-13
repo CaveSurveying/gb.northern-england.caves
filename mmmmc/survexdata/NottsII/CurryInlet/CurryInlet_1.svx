@@ -4,7 +4,7 @@
 
 *begin CurryInlet_1
 
-*export 1 
+*export 1 10
 
 *title "Curry Inlet"
 *date 2011.12.12
