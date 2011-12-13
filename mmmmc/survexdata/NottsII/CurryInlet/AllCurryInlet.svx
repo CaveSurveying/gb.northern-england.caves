@@ -1,0 +1,10 @@
+;cave Notts II
+;Title: CurryInlet
+
+*begin AllCurryInlet
+
+*export CurryInlet_1.1
+
+*include CurryInlet_1   	
+
+*end AllCurryInlet
