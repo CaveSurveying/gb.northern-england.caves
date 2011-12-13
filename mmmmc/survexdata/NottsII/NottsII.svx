@@ -36,7 +36,7 @@
 *include WhiteFlag/WhiteFlag			;White Flag
 
 *include Inlet8/Inlet8				;Inlet 8				Added by Richard 08/11/11
-
+*Include Inlet4/Inlet4				;Inlet 4 				Added by Richard 13/12/11
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
@@ -55,7 +55,7 @@
 *equate MainStreamway.MainStreamway2.12 Inlet17.Inlet17_1.12
 ;*equate MainStreamway.Mainstreamway3.33 Inlet13.025
 *equate MainStreamway.Mainstreamway3.33 CommitteePotentrance.inlet13.022
-*equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0
+;*equate MainStreamway.Mainstreamway8.10 Paaschendale.Paaschendale1.0			;commented out 13/12/111 RGB
 *equate Paaschendale.Paaschendale2.7 TrickOrTreat.7
 *equate Paaschendale.Paaschendale2.24 Poppy.Poppy1.24
 *equate Inlet18.Sump3 Inlet17.Inlet17_2.Sump3
@@ -70,6 +70,8 @@
 ;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
 
 *equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join new Gordons data to Mainstreamway at Dome tag
-
-*end NottsII
+*equate Inlet4.Inlet4_1.1 Mainstreamway.Jimlet-DaylightAven.35				;Added by Richard 13/12/11
+*equate Paaschendale.Paaschendale3.18 DaylightAven.DaylightAven2011-1.1			;Added by Richard 13/12/11
+			
+*end NottsII	
 

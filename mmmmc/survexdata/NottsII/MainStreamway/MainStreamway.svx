@@ -14,8 +14,8 @@
 *export MainStreamway5.019	;Tag at Dome Inlet
 *export Mainstreamway7.0	;Curry Junction
 *export Mainstreamway7.12	;Start of Inlet 5
-*export MainStreamway8.8	;Start of Daylight Aven
-*export MainStreamway8.10	;Start of Paaschendale
+;*export MainStreamway8.8	;Start of Daylight Aven			;commented out by Richard 13/12/11 new data available
+;*export MainStreamway8.10	;Start of Paaschendale			;commented out by Richard 13/12/11 new data available
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag
 *export Dome-Jimlet.8a		;entrance to Inlet 8			;Added by Richard 08/11/2011
 *export Dome-Jimlet.6		;entrance to Inlet 7			;Added by Richard 15/11/2011
@@ -36,7 +36,7 @@
 *include MainStreamway5   	; 7/12/00    Ray, Hugh
 *include MainStreamway6   	; 13/01/01   Hugh, Richard
 *include Mainstreamway7   	; 2002.04.12 Bill, Allan
-*include MainStreamway8   	; 23/05/02   Allan, Gerrish
+;*include MainStreamway8   	; 23/05/02   Allan, Gerrish		;commented out by Richard 13/12/11 new data available
 *include Dome-Jimlet		;Dome tag to Jimlet			;Added by Richard 08/11/2011
 *include Showerbath-Dome	;Showerbath Inlet to Dome Tag		;Added by Richard 15/11/2011
 *Include Jimlet-DaylightAven	;Jimlet to Daylight Aven		;Added by Richard 22/11/2011
@@ -47,7 +47,7 @@
 *equate MainStreamway4.030 MainStreamway5.001
 *equate MainStreamway5.019 MainStreamway6.001
 *equate Mainstreamway6.036 Mainstreamway7.0
-*equate MainStreamway7.12 MainStreamway8.0
+;*equate MainStreamway7.12 MainStreamway8.0				;commented out by Richard 13/12/11 new data available
 
 *equate Showerbath-Dome.36 Dome-Jimlet.24				;Added by Richard 08/11/2011
 *equate Mainstreamway3.55 Showerbath-Dome.11				;Added by Richard 15/11/2011
