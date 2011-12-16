@@ -38,6 +38,8 @@
 
 *include Inlet8/Inlet8				;Inlet 8				Added by Richard 08/11/11
 *Include Inlet4/Inlet4				;Inlet 4 				Added by Richard 13/12/11
+*Include EchoInlet/EchoInlet			;Echo Inlet				Added by Richard 16/12/11
+*include Estonia/Estonia			;Estonia				Added by Richard 16/12/11
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
@@ -75,6 +77,8 @@
 *equate Paaschendale.Paaschendale3.18 DaylightAven.DaylightAven2011-1.1			;Added by Richard 13/12/11
 	
 *equate	AllCurryInlet.CurryInlet_1.1 Mainstreamway.Jimlet-DaylightAven.15			;Added by Richard 13/12/11
+*equate EchoInlet.EchoInlet_1.1 Mainstreamway.Showerbath-Dome.17			;Added by Richard 16/12/11
+*equate Estonia.Estonia_1.12	Mainstreamway.Dome-Jimlet.11				;Added by Richard 16/12/11
 	
 *end NottsII	
 

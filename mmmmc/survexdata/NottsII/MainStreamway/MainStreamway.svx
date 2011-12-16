@@ -19,6 +19,7 @@
 *export MainStreamway6.013v 	;Oliver Lloyds aven tag
 *export Dome-Jimlet.8a		;entrance to Inlet 8			;Added by Richard 08/11/2011
 *export Dome-Jimlet.6		;entrance to Inlet 7			;Added by Richard 15/11/2011
+*export Dome-Jimlet.11		;entrance to Estonia			;Added by Richard 16/12/2011
 *export Showerbath-Dome.11	;Tag at Showerbath 			;Added by Richard 15/11/2011
 *export Showerbath-Dome.17	;Thread at Echo Inlet			;Added by Richard 15/11/2011	
 *export Showerbath-Dome.26	;Tag at Sir Digby Spodes Inlet(Count Lazlos/Bruno Kranski's)	;Added by Richard 15/11/2011
