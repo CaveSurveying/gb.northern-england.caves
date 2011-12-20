@@ -68,7 +68,7 @@
 24	25	19.47	187	+1
 25	26	13.05	179	0.0
 26	27	8.50	155	+5.5
-27	28	10.17	241	-2
+; 27	28	10.17	241	-2	; duplicate leg with Inlet5-Resurvey-1 so commented out by Becka 20/12/11
 27	29	11.52	064	-3.5
 29	30	14.57	101	+0.5	
 30	31	8.11	071	-3
@@ -116,7 +116,7 @@
 25	2.2	0.1	0.6	1.4	;RH Wall
 26	2.5	0.1	0.8	1.2	;RH Wall
 27	4.0	0.5	0.0	2.1	;Drilled hole in roof at inlet 5 Junction
-28	1.8	0.0	0.5	1.2	;RH Wall
+; 28	1.8	0.0	0.5	1.2	;RH Wall - duplicate leg with Inlet5-Resurvey-1 so commented out by Becka 20/12/11
 29	0.1	2.2	0.7	1.4	;LH Wall
 30	2.7	0.8	0.5	1.7	;Roof
 31	2.5	0.4	0.8	1.1	;Stall on shelf

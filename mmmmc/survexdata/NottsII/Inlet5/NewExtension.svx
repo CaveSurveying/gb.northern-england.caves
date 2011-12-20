@@ -5,8 +5,7 @@
       
 *begin	NewExtension
 
-*export 001
-*export 015b
+*export 001 015 015b
 
 *calibrate compass	+2.50
 
