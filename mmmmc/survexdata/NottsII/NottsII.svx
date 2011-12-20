@@ -15,12 +15,16 @@
 ;Include Statements
 
 *include CommitteePot/CommitteePotEntrance		;Main Committee Pot Entrance to Mincemeat Aven
+
+*flags duplicate
 *include CurryInlet/CurryInlet			;Curry Inlet				Added by Richard 02/02/10 Working ok
+*flags not duplicate
+
 *Include CurryInlet/AllCurryInlet		;New Curry Inlet data			Added by Richard 13/12/11
 *Include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok
 ;*include Inlet13/Inlet13			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok Commented out 25/11/11 RGB superceeded with new entrance survey
 ;*include MincemeatAven/MincemeatAven		;Up Mincemeat Aven			Commented out 25/11/11 RGB superceeded with new entrance survey
-*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok ;to take out shortly now new data added.RGB 09/12/11
+;*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok ;Commented out.RGB 20/12/11
 *include GourInlet/GourInlet			;Gour Inlet & Parallel Universe		Added by Richard 02/02/10 Working ok
 *include GreenTape/GreenTape			;Green Tape Inlet			Added by Richard 12/03/10 Working ok
 *Include Inlet5/Inlet5			;Inlet5 & extension			Added by Richard 02/02/10 Working ok 
@@ -47,7 +51,7 @@
 ;*equate CountLazloALL.LazloStrog1.054 Entrance	[Becka 2/10/11 - DELETE this - there is no .054 in LazloStrog1 and surely this shouldn't equate to the Committee Pot entrance]
 ;*equate CommitteePotEntrance.Committeepot.019 Inlet13.001	;Commented out 25/11/11 RGB superceeded with new entrance survey
 ;*equate MainStreamway.MainStreamway4.030 ShowerbathInlet.8	;edited out 22/11/11 RGB Superceeded by Showerbath-Dome
-*equate MainStreamway.MainStreamway5.019 GordonsInlet.1
+;*equate MainStreamway.MainStreamway5.019 GordonsInlet.1	;Commented out.RGB 20/12/11
 *equate MainStreamway.MainStreamway5.019 DomeInlet.000 
 *equate MainStreamway.MainStreamway7.0 CurryInlet.001 
 *equate MainStreamway.MainStreamway7.12 Inlet5.Inlet5-1.001 

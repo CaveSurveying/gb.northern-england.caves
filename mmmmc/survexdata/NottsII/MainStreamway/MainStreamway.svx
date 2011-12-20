@@ -34,9 +34,13 @@
 *include MainStreamway2   	; 16/10/2006 Neil, Richard
 *include MainStreamway3   	; 31/01/2007 Neil, Becka
 *include MainStreamway4   	; 2/12/00    Ray, 
+
+*flags duplicate
 *include MainStreamway5   	; 7/12/00    Ray, Hugh
 *include MainStreamway6   	; 13/01/01   Hugh, Richard
 *include Mainstreamway7   	; 2002.04.12 Bill, Allan
+*flags not duplicate
+
 ;*include MainStreamway8   	; 23/05/02   Allan, Gerrish		;commented out by Richard 13/12/11 new data available
 *include Dome-Jimlet		;Dome tag to Jimlet			;Added by Richard 08/11/2011
 *include Showerbath-Dome	;Showerbath Inlet to Dome Tag		;Added by Richard 15/11/2011
