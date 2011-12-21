@@ -9,20 +9,20 @@
 *export Mainstreamway3.33
 *export Mainstreamway3.GITag
 *export Mainstreamway3.55	;Tag at Showerbath
-*export Mainstreamway4.030	;Tag for climb up into Showerbath Inlet(Note:Not same as Mainstreamway3.55 Tag at Showerbath which is where the water comes in.
-*export MainStreamway5.011	;Tag near Count Lazlos / Bruno Kranskis
-*export MainStreamway5.019	;Tag at Dome Inlet
-*export Mainstreamway7.0	;Curry Junction
-*export Mainstreamway7.12	;Start of Inlet 5
+;*export Mainstreamway4.030	;Tag for climb up into Showerbath Inlet(Note:Not same as Mainstreamway3.55 Tag at Showerbath which is where the water comes in.;Commented out RGB 20/12/11 superceeded by new data
+;*export MainStreamway5.011	;Tag near Count Lazlos / Bruno Kranskis
+;*export MainStreamway5.019	;Tag at Dome Inlet			;Commented out RGB 20/12/11 superceeded by new data
+;*export Mainstreamway7.0	;Curry Junction				;Commented out RGB 20/12/11 superceeded by new data
+;*export Mainstreamway7.12	;Start of Inlet 5			;Commented out RGB 20/12/11 superceeded by new data
 ;*export MainStreamway8.8	;Start of Daylight Aven			;commented out by Richard 13/12/11 new data available
 ;*export MainStreamway8.10	;Start of Paaschendale			;commented out by Richard 13/12/11 new data available
-*export MainStreamway6.013v 	;Oliver Lloyds aven tag
+;*export MainStreamway6.013v 	;Oliver Lloyds aven tag			;Commented out RGB 20/12/11 superceeded by new data
 *export Dome-Jimlet.8a		;entrance to Inlet 8			;Added by Richard 08/11/2011
 *export Dome-Jimlet.6		;entrance to Inlet 7			;Added by Richard 15/11/2011
 *export Dome-Jimlet.11		;entrance to Estonia			;Added by Richard 16/12/2011
 *export Showerbath-Dome.11	;Tag at Showerbath 			;Added by Richard 15/11/2011
 *export Showerbath-Dome.17	;Thread at Echo Inlet			;Added by Richard 15/11/2011	
-*export Showerbath-Dome.26	;Tag at Sir Digby Spodes Inlet(Count Lazlos/Bruno Kranski's)	;Added by Richard 15/11/2011
+*export Showerbath-Dome.25	;Tag at Sir Digby Spodes Inlet(Count Lazlos/Bruno Kranski's)	;Added by Richard 15/11/2011
 *export Showerbath-Dome.36	;Tag at Dome Inlet			;Added by Richard 15/11/2011
 *export Jimlet-DaylightAven.1	;Drilled hole true left at Jimlet 	;Added by Richard 22/11/2011
 *export Jimlet-DaylightAven.15	;Drilled Hole at Curry Junction		;Added by Richard 22/11/2011	
@@ -33,13 +33,13 @@
 *include MainStreamway1   	; 19/10/2006 Neil, Richard
 *include MainStreamway2   	; 16/10/2006 Neil, Richard
 *include MainStreamway3   	; 31/01/2007 Neil, Becka
-*include MainStreamway4   	; 2/12/00    Ray, 
+;*include MainStreamway4   	; 2/12/00    Ray, 			;Commented out RGB 20/12/11 superceeded by new data
 
-*flags duplicate
-*include MainStreamway5   	; 7/12/00    Ray, Hugh
-*include MainStreamway6   	; 13/01/01   Hugh, Richard
-*include Mainstreamway7   	; 2002.04.12 Bill, Allan
-*flags not duplicate
+
+;*include MainStreamway5   	; 7/12/00    Ray, Hugh			;Commented out RGB 20/12/11 superceeded by new data
+;*include MainStreamway6   	; 13/01/01   Hugh, Richard		;Commented out RGB 20/12/11 superceeded by new data
+;*include Mainstreamway7   	; 2002.04.12 Bill, Allan		;Commented out RGB 20/12/11 superceeded by new data
+
 
 ;*include MainStreamway8   	; 23/05/02   Allan, Gerrish		;commented out by Richard 13/12/11 new data available
 *include Dome-Jimlet		;Dome tag to Jimlet			;Added by Richard 08/11/2011
@@ -48,10 +48,10 @@
 
 *equate MainStreamway1.12 MainStreamway2.12
 *equate MainStreamway2.1 MainStreamway3.GTTag
-*equate MainStreamway3.55 MainStreamway4.024
-*equate MainStreamway4.030 MainStreamway5.001
-*equate MainStreamway5.019 MainStreamway6.001
-*equate Mainstreamway6.036 Mainstreamway7.0
+;*equate MainStreamway3.55 MainStreamway4.024
+;*equate MainStreamway4.030 MainStreamway5.001
+;*equate MainStreamway5.019 MainStreamway6.001				;Commented out RGB 20/12/11 superceeded by new data
+;*equate Mainstreamway6.036 Mainstreamway7.0				;Commented out RGB 20/12/11 superceeded by new data
 ;*equate MainStreamway7.12 MainStreamway8.0				;commented out by Richard 13/12/11 new data available
 
 *equate Showerbath-Dome.36 Dome-Jimlet.24				;Added by Richard 08/11/2011

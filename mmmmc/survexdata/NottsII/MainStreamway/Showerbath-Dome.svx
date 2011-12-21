@@ -25,7 +25,7 @@
 
 *export 11	;Tag Showerbath Inlet 
 *export 17	;Thread below Echo Inlet
-*export 26	;Tag for Sir Digby Spodes Inlet (Missing)
+*export 25	;Tag for Sir Digby Spodes Inlet (Missing)
 *export 36	;Tag at Dome Inlet
 
 

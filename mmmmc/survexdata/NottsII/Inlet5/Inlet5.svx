@@ -3,7 +3,7 @@
 ;Inlet5 including New Extensions
 
 *export Inlet5-Resurvey-1.1
-*export Inlet5-1.001 
+;*export Inlet5-1.001 
 
 ;*export Inlet5-1.019
 ;*export Inlet5-2.033 
@@ -13,18 +13,18 @@
 ;*export NewExtension.001 
 ;*export NewExtension.015b
 
-*include Inlet5-1
-*include Inlet5-2
-*include Inlet5-3
-*include NewExtension
+;*include Inlet5-1
+;*include Inlet5-2
+;*include Inlet5-3
+;*include NewExtension
 
 *include Inlet5-Resurvey-1
 *include Inlet5-Resurvey-2
 *equate Inlet5-Resurvey-1.36 Inlet5-Resurvey-2.36x
 
-*equate Inlet5-1.019 Inlet5-2.033
-*equate Inlet5-2.052 Inlet5-3.052
-*equate Inlet5-3.061 NewExtension.015b
+;*equate Inlet5-1.019 Inlet5-2.033
+;*equate Inlet5-2.052 Inlet5-3.052
+;*equate Inlet5-3.061 NewExtension.015b
 ;*equate Inlet5-1.001 Inlet5-Resurvey-1.1	; TEMP ADDED BY BECKA 20/12/11 TO CHECK ACCURACY OF RESURVEY
 ;*equate NewExtension.015 Inlet5-Resurvey-2.x	; TEMP ADDED BY BECKA 20/12/11 TO CHECK ACCURACY OF RESURVEY
 
