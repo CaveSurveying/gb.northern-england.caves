@@ -19,7 +19,8 @@
 *include LostJohns/LostJohns
 *equate LostJohns.EntranceTag       leckfellsurfacesurvey.LostJohnsEntranceTag
 *equate LostJohns.BoxheadSurfaceRim leckfellsurfacesurvey.BoxHeadEntranceTube
-*equate LostJohns.lylecaverndig2.7 NottsII.CountLazloALL.LostJohnsConnection.1
+*equate LostJohns.lylecavernbruno.7 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50
+*equate LostJohns.lylecaverndig2.7 NottsII.CountLazloALL.LostJohnsConnection.1  ; to delete
 
 *include RoughPot/RoughPot
 *equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
