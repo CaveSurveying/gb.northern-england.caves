@@ -4,7 +4,7 @@
 
 *export EntranceTag
 *export BoxheadSurfaceRim
-*export lylecaverndig2.7
+;*export lylecaverndig2.7
 *export lylecavernbruno.7
 
 *equate	Lj01.010	Lj03.000
@@ -102,13 +102,13 @@
 *include LUCCaven
 *equate Box3.067c luccaven.7a
 
-*include lylecaverndig
-*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
+; the bruno nottsii connection with temporary version to be over-written
 *include lylecavernbruno ; to replace lylecaverndig
 *equate	lylecavernbruno.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
-
-*include lylecaverndig2
-*equate	lylecaverndig.1	lylecaverndig2.12	
+;*include lylecaverndig
+;*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
+;*include lylecaverndig2
+;*equate	lylecaverndig.1	lylecaverndig2.12	
 
 *end	LostJohns
 

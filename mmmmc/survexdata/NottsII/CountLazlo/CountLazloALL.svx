@@ -38,22 +38,25 @@
 ; BELOW: dig and duplicate data from older surveys which didn't have notes drawn - CountLazlo superceded by Brunokranskies2 but sds and BrunoKranskie4 not superceded yet
 
 *flags duplicate
+
+;;; new old batch
+; *include sds
+; *equate BrunoKranskies1.tag sds.014
+; *include BrunoKranskies4
+; *equate BrunoKranskies4.15 sds.x03
+;*include BKall
+; *equate BKall.11 BrunoKranskies2.25
+; *include LostJohnsConnection
+; *equate LostJohnsConnection.8 BKall.40
+;;;;
+ 
 ; *export CountLazlo.027a
 ; *include CountLazlo	;stations 24-30 of CountLazlo superceded by sds (Sir Digby Spode's) survey
 ; *equate BrunoKranskies1.tag CountLazlo.027a
- *include sds
- *equate BrunoKranskies1.tag sds.014
- *include BrunoKranskies4
- *equate BrunoKranskies4.15 sds.x03
 
 ; *equate CountLazlo.027a sds.014
 ; *equate CountLazlo.006 LazloStrog5.35
 ; *equate LazloStrog3.1 CountLazlo.000
-*include BKall
- *equate BKall.11 BrunoKranskies2.25
- *include LostJohnsConnection
- *equate LostJohnsConnection.8 BKall.40
- 
  *flags not duplicate
  
 *end CountLazloALL
