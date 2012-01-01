@@ -3,7 +3,7 @@
 ; Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches
 
 *begin RiftPotTOD7
-*export 149 159 208 195
+*export 149 159 208 195 204
 
 *title "Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches"
 *date 2009.11.08
@@ -134,7 +134,7 @@
 201	1	0.1	1.6	1.1	numbered at bottom of climb to bypass Pleasure Dome, PD
 202	2	1	1.8	0.4
 203	0	2	1	1.2	numbered at start of passage off from main chamber (Coate's Cavern)
-204	1.3	7	8	1.9
+204	1.3	7	8	1.9 numbered at c2 up to short passage and dig
 205	5	4	1.7	1.5
 206	2.5	5.5	1	0
 207	8	1.5	1	1.5

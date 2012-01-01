@@ -2,7 +2,7 @@
 
 *begin templeofdoom
 
-*export riftpottod7.208
+*export riftpottod7.208 riftpottod7.204
 *export RiftPotTOD1.7 ; rift-ireby connection
 
 *include riftpottod1
