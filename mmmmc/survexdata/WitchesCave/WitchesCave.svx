@@ -16,12 +16,12 @@
 *equate	wit.002c	wit1.001
 *equate	wit.002b	Witches1DryCave.21	; equate at RRCPC cow tag
 
-*include	wit
-*include	wit1
-*include	wit3
-*include	wit4
-*include	wit5
-*include	wit7
+*include	wit		; original survey of dry cave - eventually should replace by Witches1DryCave survey - for now have just put *flags duplicate in the wit survey so the length isn't included in the overall length stats (Becka 8 Jan 2012)
+*include	wit1	; initial descent down 1st sump
+*include	wit3	; main survey of 1st sump
+*include	wit4	; linking legs between 1st & 2nd sumps
+*include	wit5	; main survey of 2nd sump
+*include	wit7	; seems similar to wit4
 *include	Witches1DryCave	; resurvey to replace wit survey 30.10.11
 
 *end	WitchesCave
