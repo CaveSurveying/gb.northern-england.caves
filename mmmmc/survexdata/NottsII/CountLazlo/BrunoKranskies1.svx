@@ -1,15 +1,29 @@
 
 *begin BrunoKranskies1
+
 *export tag 5 8
 
+
 *title "Old RRCPC tag (actually a black cable tie) in main streamway by rope climb to start of Bruno Kranskie's dig"
+
 *date 2010.11.20
+
 *team Instruments Becka Lawson
+
 *team Notes Di Arthurs
+
 *team Tape Simon Cornhill
+
 *instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
 
+
+
+*calibrate declination +2.55	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2010.11.20
+
+
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
+
 
 ;from	to	tape	compass	clino	remarks
 1	tag	2.86	012	-41

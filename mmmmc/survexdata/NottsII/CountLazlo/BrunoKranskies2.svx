@@ -1,16 +1,31 @@
 *begin BrunoKranskies2
+
 *export 8x 19 25
 
+
 *title "Bruno Kranskies dig from where start crawling to ladder"
+
 *date 2010.11.21
+
 *team Instruments Julian Todd
+
 *team Notes Becka Lawson
+
 *instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+
+
+
+
+*calibrate declination +2.55	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2011.12.28
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 
+
 ;from	to	tape	compass	clino	remarks
+
 20	19	2.09	045	+57
+
 20	21	2.37	244	-33
 21	22	4.01	242	-07
 22	23	3.83	177	-06
