@@ -47,7 +47,7 @@
 *equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
 
 *include DeathsHeadHole/DeathsHeadHole
-*equate	DeathsHeadHole.FencePostTag	leckfellsurfacesurvey.DeathsHeadHoleFencePostTag
+*equate	DeathsHeadHole.DeathsHead_1.FencePostTag	leckfellsurfacesurvey.DeathsHeadHoleFencePostTag
 
 *include EyeHoles/Eyeholes
 *equate	EyeHoles.006	leckfellsurfacesurvey.EyeHolesStyle
