@@ -24,7 +24,7 @@
 
 
 *Include CurryInlet/AllCurryInlet		;New Curry Inlet data			Added by Richard 13/12/11
-*Include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok
+*Include DomeInlet/DomeInlet			;Dome Inlet 				Added by Richard 02/02/10 Working ok Updated to new survey data 13/01/12RGB
 ;*include Inlet13/Inlet13			;Mincemeat Aven to MainStreamway 	Added by Richard 02/02/10 Working ok Commented out 25/11/11 RGB superceeded with new entrance survey
 ;*include MincemeatAven/MincemeatAven		;Up Mincemeat Aven			Commented out 25/11/11 RGB superceeded with new entrance survey
 ;*include GordonsInlet/GordonsInlet		;Gordons Inlet flood by-pass		Added by Richard 02/02/10 Working ok ;Commented out.RGB 20/12/11
@@ -80,7 +80,7 @@
 ;*equate CountLazloALL.CountLazlo.027a MainStreamway.MainStreamway5.011 ; tag in main stream - replaced by BrunoKranskies equate
 
 *equate Mainstreamway.Showerbath-Dome.36 committeepotentrance.gordonsinlet.25		;To join new Gordons data to Mainstreamway at Dome tag
-*equate Mainstreamway.Showerbath-Dome.36 DomeInlet.000					;Added RGB 20/12/11 to tie Dome back in
+*equate Mainstreamway.Showerbath-Dome.36 DomeInlet.17					;Added RGB 20/12/11 to tie Dome back in. Updated to new survey data 13/01/12RGB
 *equate Inlet4.Inlet4_1.1 Mainstreamway.Jimlet-DaylightAven.35				;Added by Richard 13/12/11
 *equate Paaschendale.Paaschendale3.18 DaylightAven.DaylightAven2011-1.1			;Added by Richard 13/12/11
 	
