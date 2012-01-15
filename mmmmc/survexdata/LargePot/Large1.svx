@@ -1,6 +1,6 @@
 
 *begin Large1
-*export tag 25 34 38
+*export tag 18 25 34 38
 
 *title "Entrance of Large Pot down initial 3 pitches to nearly Tinkle Inlet"
 *date 2010.09.11
@@ -31,9 +31,11 @@ tag	1	1.73	028	-78
 
 17	18	1.67	079	+67
 19	17	5.80	229	+59
+*flags duplicate
 20	19	4.57	144	+05
-21	19	3.25	114	+12
 22	20	3.36	234	-02
+*flags not duplicate
+21	19	3.25	114	+12
 23	21	5.68	071	+03
 24	23	2.11	184	+10
 25	24	3.05	107	+07

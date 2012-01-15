@@ -36,6 +36,8 @@
 *include MouseholeBypass
 *include AboveRedHerring
 *include FlakeAven
+*include LittlePotInlet
+;*include OccultSeries1
 
 *equate EntranceTag Large1.tag
 *equate Large1.25 Large2.1
@@ -61,5 +63,7 @@
 *equate Large2.6 AboveRedHerring.13
 *equate Large2.13 FlakeAven.13x 
 *equate Large2.30 FlakeAven.30x 
+*equate Large1.18 LittlePotInlet.1 
+;*equate OccultSeries1.25 OccultSeries2.25 
 
 *end LargePot

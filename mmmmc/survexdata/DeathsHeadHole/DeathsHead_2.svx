@@ -3,7 +3,7 @@
 ; Deaths Head Hole
 *begin DeathsHead_2
 
-*export 1
+*export 1 18
 
 *title "Deaths Head-Lost John's connection"
 *date 2012.01.08
@@ -43,8 +43,11 @@
 15	16	5.26	233	-4
 16	17	1.45	218	-5
 17	18	7.26	306	+2
+
+*flags duplicate
 18	19	3.76	290	-8
 18	20	5.01	210	-9
+*flags not duplicate
 
 *data passage station left right up down ignoreall
 
