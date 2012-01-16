@@ -66,6 +66,6 @@
 *equate Large2.30 FlakeAven.30x 
 *equate Large1.18 LittlePotInlet.1 
 *equate OccultSeries1.25 OccultSeries2.25 
-*equate Large2.19 OccultSeries2.1 
+*equate Large2.20 OccultSeries2.1 
 
 *end LargePot

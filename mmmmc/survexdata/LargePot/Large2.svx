@@ -1,6 +1,6 @@
 
 *begin Large2
-*export 1 6 13 19 30 31
+*export 1 6 13 20 30 31
 
 *title "Large Pot - Upper Red Herring Series"
 *date 2010.10.10

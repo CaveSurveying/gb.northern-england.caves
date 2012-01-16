@@ -44,8 +44,8 @@
 24	25	1.38	198	+2
 
 *data passage station left right up down ignoreall
-; 1 unrecorded - station at base of 7th pitch ; start of sheet (2)
-; 2 unrecorded - on the rope directly below station 3
+1	-	-	-	-	station at base of 7th pitch ; start of sheet (2)
+2	-	-	-	-	on the rope directly below station 3
 3	0	1.2	2	6.5	; main anchor for p5 (c4.5)
 4	0.6	0.3	0.6	1.6
 5	0	0.4	0.6	0.8

@@ -31,10 +31,10 @@ tag	1	1.73	028	-78
 
 17	18	1.67	079	+67
 19	17	5.80	229	+59
-*flags duplicate
-20	19	4.57	144	+05
-22	20	3.36	234	-02
-*flags not duplicate
+; *flags duplicate
+; 20	19	4.57	144	+05	; commented out as superceded by Little Pot Inlet survey - Becka, Jan 2012
+; 22	20	3.36	234	-02 ; commented out as superceded by Little Pot Inlet survey - Becka, Jan 2012
+; *flags not duplicate
 21	19	3.25	114	+12
 23	21	5.68	071	+03
 24	23	2.11	184	+10
@@ -76,9 +76,9 @@ tag	0.1	0.5	0.5	1.5	RRCPC yellow tag above entrance
 
 18	0.5	2.5	1	8	p-hanger for 3rd pitch
 19	2	0	6	1.3
-20	0	2	8	2
+; 20	0	2	8	2
 21	1.5	0.3	0	1.6
-22	0.1	0.3	0	1.4	numbered in ceiling
+; 22	0.1	0.3	0	1.4	numbered in ceiling
 23	0	2	3	1.7
 24	1.2	0.5	1	1.5
 25	0.3	1.2	1.4	1.2	up might be 0.4, numbered
