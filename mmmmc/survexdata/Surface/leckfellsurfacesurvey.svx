@@ -29,7 +29,7 @@
 ; When all surface surveys are complete 
 ; this should be the one *fix in the whole setup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-*fix	 NottsIIEntrance	66667 78303 345  ; set from wheresthepath website	
+*fix	 NottsIIEntrance	66667 78303 319  ; set from wheresthepath website. Changed to 319m RGB 17/01/12 since clearly not 345m but awaite better confirmation to come through as to the exact height!	
 
 *include NottsIIsurfacesurvey
 
