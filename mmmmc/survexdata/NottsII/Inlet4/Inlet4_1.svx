@@ -4,7 +4,7 @@
 
 *begin Inlet4_1
 
-*export 1 
+*export 1 7
 
 *title "Inlet4"
 *date 2011.12.12

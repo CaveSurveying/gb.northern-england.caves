@@ -7,7 +7,7 @@
 ; Calibration:none
 ; Ref.:	
 
-*export 7
+*export 7 15
 *export 24
 
 ; ====== stations refindable to link to other surveys: ======
@@ -34,7 +34,7 @@
 13 14 7.1 320 -4.5
 ;14 14u 1.2 0 90
 ;14 14d 2.1 0 -90
-14 15 24.55 359 4   ; descrepancy on drawn survey NottsII/Poppy1.jpg
+14 15 4.55 359 4   ; descrepancy on drawn survey NottsII/Poppy1.jpg (revisited with Dave 16/01/12 found stn 15 but could not find 14 but could only be a leg of 5m max so changed 24.55 to 4.55 17/01/12 RGB)
 15 16 3.9 033 7		;16=Nodule at entrance to sand crawl
 ;16 16u .9 0 90		
 ;16 16d 3 0 -90
