@@ -7,6 +7,7 @@
 *export Mainstreamway2.1
 *export Mainstreamway2.12
 *export Mainstreamway3.33
+*export Mainstreamway3.22
 *export Mainstreamway3.GITag
 *export Mainstreamway3.55	;Tag at Showerbath
 ;*export Mainstreamway4.030	;Tag for climb up into Showerbath Inlet(Note:Not same as Mainstreamway3.55 Tag at Showerbath which is where the water comes in.;Commented out RGB 20/12/11 superceeded by new data
