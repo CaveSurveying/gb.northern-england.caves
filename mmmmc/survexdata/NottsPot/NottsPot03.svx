@@ -2,11 +2,11 @@
 ;Surveyors:	D.Ramsay/E Martindale/R Bendall
 ;Date:	08/09/08
 ;Instruments:	RRCPC Kit 2
-;*equate NottsPot03.022 N01.001 
+
+; Resurvey of entrance to Notts Pot - replaces NottsPot01 
 
 *begin	NottsPot03
 *export 022
-;*export 023
 
 ;*calibrate compass	+5.00
 
@@ -30,7 +30,6 @@
 018	019	4.96	-	up
 019	020	1.95	133	0.00
 020	021	4.40	-	up
-021	022	1.00	233	0.00	;22 is left hand p bolt
-
+021	022	1.00	233	0.00	; 022 is left hand p bolt
 
 *end	NottsPot03

@@ -6,7 +6,7 @@
 
 *begin	NottsPot01
 
-*export 035
+*export 035 021
 *export 001 ; P Bolt(furthest of 2)
 
 
