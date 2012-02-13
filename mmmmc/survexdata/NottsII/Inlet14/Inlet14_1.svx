@@ -11,12 +11,12 @@
 *team Insts Richard Bendall
 *team tape Richard Bendall
 *team Notes Becka Lawson
-*instrument Compass and Clino - rr2
+*instrument Compass and Clino - Becka's pony
 
 *calibrate tape +.30	; +ve if tape was too short, -ve if too long
 
 
-*calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*calibrate declination +2.43	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2012.02.11
 
 *data normal from to tape compass clino
