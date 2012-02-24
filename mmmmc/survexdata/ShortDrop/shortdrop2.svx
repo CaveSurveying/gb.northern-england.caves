@@ -1,5 +1,5 @@
 *begin shortdrop2
-*export 1 19
+*export 1 9 19
 
 *title "Short Drop along Dry Oxbow to Masochists Passage"
 *date 2010.07.25

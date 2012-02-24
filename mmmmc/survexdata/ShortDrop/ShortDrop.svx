@@ -6,9 +6,11 @@
 *include shortdrop1
 *include shortdrop2
 *include shortdrop3
+*include RiftEntrance
 
 *equate shortdrop1.20 shortdrop2.19
 *equate shortdrop2.1 shortdrop3.001
+*equate RiftEntrance.1	ShortDrop2.9
 
 ;*fix	FencePost 67030	78934	346
 
