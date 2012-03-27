@@ -13,8 +13,6 @@
 ;CALIBRATE tape 		
 ;Note Mag N 5deg west of Grid North in 1995
 
-*calibrate compass 180   ; the numbers are 180 degrees out from drawings
- 
 000	001	6	085	0	;Stn 000=Far end of inlet 18 
 001	002	15	055	0	
 002	003	9	040	0

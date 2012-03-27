@@ -2,7 +2,7 @@
 *begin Inlet5-Resurvey-2
 
 
-*export 36x x
+*export 1 36x x
 
 
 *title "Inlet 5 from end of Resurvey-1 to remainder (mostly)"
@@ -73,6 +73,7 @@ x	11	11.70	058	-01
 
 21	22	4.94	0	-04
 
+22	22a	6.00	010	0	;dig made up leg.
 17	23	12.12	274	-01
 
 23	24	7.73	212	-05
@@ -215,9 +216,14 @@ x	-	-	-	-	old stn 18 from Bill and Simon survey of 10/10/06, piece of survey pap
 17	-	-	-	-	numbered station at junction; Stn 12 of Bill and Simon's survey is about 3m to the right of stn 17
 
 19	0.5	2.3	1	1.8	l wall
+
 20	0.2	2.5	4	1.2	numbered on l wall opposite waterfall from major inlet
+
 21	3	0.3	4	0	temporary station on floor
+
 22	0.2	0.2	0.1	0.3	not marked, end of dig (lost my contact lens here!)
+
+
 23	2.5	0	2	1.1	junction
 24	0	2.8	1.3	0.7
 25	0.4	3	1.5	1	numbered

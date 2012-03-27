@@ -41,9 +41,9 @@
 4	5	3.17	243	+10	
 
 
-5	5a	6.00	243	-20	;estimated leg as dig progresses
-5a	5b	2.50	170	-20	;estimated leg as dig progresses
-5b 	5c	1.5	240	-5	;estimated leg as dig progresses
+5	5a	6.00	233	-20	;estimated leg as dig progresses
+5a	5b	2.50	180	-20	;estimated leg as dig progresses
+5b 	5c	8.00	220	-5	;estimated leg as dig progresses
 
 3	6	8.69	142	+2.5		
 
