@@ -110,5 +110,7 @@
 *include LeckBeckHead/LeckBeckHeadWestEast
 *equate LeckBeckHeadWestEast.18 WitchesCave.Witches1DryCave.18
 
+*include kirkpot/kirkpot
+
 *end leckfell
 
