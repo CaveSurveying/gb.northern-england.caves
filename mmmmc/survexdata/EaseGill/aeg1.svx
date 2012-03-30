@@ -91,7 +91,7 @@
 *equate	cs1.cns1.015	swh1.swh.031
 *equate	alltrident.trident25b.010	swh1.swh.026
 
-*flags surface
+*flags not surface
 
 *include	main\main1
 *include	ag\ag1
@@ -139,7 +139,7 @@
 *include	wood\wood1
 *include	wr\wrab
 
-*flags not surface
+*flags surface
 *include	surface\asf
 
 
