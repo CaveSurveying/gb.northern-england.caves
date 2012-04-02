@@ -1,7 +1,7 @@
 *begin KirkPot1
 
 
-*export 1 
+*export 1 2 4 5 13 19
 *title "KirkPot -Entrance to sump"
 
 *date 2012.03.29
@@ -11,7 +11,7 @@
 *team Notes Dave Ramsay
 
 *team Tape Richard Bendall
-*instrument RR surface set, YSS DISTO
+*instrument RR set 2, YSS DISTO
 
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
@@ -21,6 +21,7 @@
 *calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2012.03.29
 
+*entrance 1
 
 ;from	to	tape	compass	clino	remarks
 
