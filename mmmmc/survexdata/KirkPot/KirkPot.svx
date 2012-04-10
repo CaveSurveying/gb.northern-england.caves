@@ -10,6 +10,7 @@
 
 *include KirkPot1
 *include KirkPot2
+*include KirkPot3
 
 ;--------------------------------------------------------------------
 
@@ -22,5 +23,7 @@
 *equate KirkPot1.4 KirkPot2.20
 *equate KirkPot1.2 KirkPot2.37
 *equate KirkPot1.1 KirkPot2.34
+
+*equate KirkPot2.24 KirkPot3.001_Start_dive_line
 
 *end	KirkPot

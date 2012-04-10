@@ -1,7 +1,7 @@
 *begin KirkPot1
 
 
-*export 1 2 4 5 13 19
+*export 1 2 4 5 13 19 24
 *title "KirkPot -Entrance to sump"
 
 *date 2012.03.29
