@@ -11,6 +11,7 @@
 *include KirkPot1
 *include KirkPot2
 *include KirkPot3
+*include KirkPot4
 
 ;--------------------------------------------------------------------
 
@@ -24,6 +25,8 @@
 *equate KirkPot1.2 KirkPot2.37
 *equate KirkPot1.1 KirkPot2.34
 
-*equate KirkPot2.24 KirkPot3.001_Start_dive_line
+*equate KirkPot1.24 KirkPot3.001_Start_dive_line
+*equate KirkPot3.015_Belay_Pegleg_Junc KirkPot4.U001
+*equate KirkPot3.027_Sump3_diveline_shotline_belay KirkPot4.DSS1
 
 *end	KirkPot

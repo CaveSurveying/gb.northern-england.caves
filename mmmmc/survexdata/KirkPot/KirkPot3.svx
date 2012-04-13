@@ -6,9 +6,11 @@
 
 *begin	KirkPot3
 *export 001_Start_dive_line
-;*export 001
+*export 015_Belay_Pegleg_Junc
+*export 027_Sump3_diveline_shotline_belay
 
-*calibrate compass	+5.17
+*calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.03.29
 
 *data diving from to length bearing  fromdepth todepth
 *flags duplicate
@@ -48,6 +50,7 @@
 026_Sump3_pool_edge	028_Sump3_pool_far_edge		6.0	180	0.0	0.0	;Main sump pool c. 6.0 m long in rift. JNC plumbed depth to c. 28 m (CHECK with JNC)	
 026_Sump3_pool_edge	029_Sump3_AMH_limit		3.0	180	0.0	0.0	;Depth at end leg 10.6 m below water, width 1.5 m	
 
+027_Sump3_diveline_shotline_belay plumbed		28.0	000	0.0	-28.0	;From station 027 there is a vertical leg down to -28 m which is the bottom of the shot line on the floor of Scott's Pool.Leg added RGB 13/04/12
 
 ;last leg depth 10.6 but leg length only 3m!?? Ask Adrian.
 
