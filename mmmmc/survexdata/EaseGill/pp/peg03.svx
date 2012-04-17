@@ -1,0 +1,41 @@
+;Cave:	Pegleg Pot - 25' ladder pitch to sump 3
+;Surveyors:	R.Bemdall/D Ramsay
+;Date:	16/04/12
+;Instruments:	RRCPC 2 + disto
+
+;*equate	peg03.1 peg01.036 ;st036 is Knob of rock on corner foot height of large pitch traverse
+
+
+*begin	peg03
+*export 1
+
+;*calibrate compass		+3.00
+;*calibrate clino		
+;*calibrate tape		  0.00
+*calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.04.16
+
+1	2	19.12	-	down
+2	3	8.65	156	-17
+3	4	6.46	163	+6
+4	5	14.07	165	-5
+5	6	6.47	167	-12
+6	7	4.53	172	-6
+7	8	6.12	165	0.0
+8	9	6.31	168	-4
+9	10	6.5	168	-4
+
+*data passage station left right up down ignoreall
+
+
+1	0.3	0.3	1.5	21.0	;spike foot height
+2	0.1	0.3	21.0	2.1	;wall pithc foot
+3	0.5	0.1	4.0	1.5	;mid passage
+4	0.2	0.2	20.0	1.4	;mid passage
+5	0.0	0.3	5.0	1.4
+6	0.15	0.15	2.0	0.6
+7	0.2	0.2	1.0	0.4
+8	0.1	0.2	1.0	0.5
+9	0.2	0.2	1.8	0.4
+10	0.2	0.2	1.8	0.3
+*end	peg03

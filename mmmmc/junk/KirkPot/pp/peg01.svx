@@ -6,8 +6,7 @@
 *equate	peg01.043	peg02.022
 
 *begin	peg01
-*export 043
-
+*export 036	043
 *calibrate compass	+5.13
 
 *fix 001 66326.68 80243.74 257.87 ;sf7.001
