@@ -8,6 +8,9 @@
 
 *begin		es2ai
 
+*export 013
+*export 022
+
 *calibrate compass	+6.00
 *calibrate clino	 0.00
 

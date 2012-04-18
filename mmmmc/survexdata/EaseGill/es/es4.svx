@@ -6,7 +6,9 @@
 *equate	es4.001	es2.010
 
 *begin	es4
+
 *export 001
+*export 009
 
 *calibrate compass	+6.00
 

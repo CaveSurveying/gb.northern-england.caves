@@ -13,6 +13,7 @@
 *include	es1
 *include	es2
 *include	es2a
+*include	es2ai
 *include	es3
 *include	es4
 *include	es5

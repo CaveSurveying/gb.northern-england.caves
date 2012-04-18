@@ -6,7 +6,9 @@
 *equate	esb.013	esa.008
 
 *begin	esb
+
 *export 013
+*export 004
 
 *calibrate compass	+5.00
 *calibrate tape	+1.00
