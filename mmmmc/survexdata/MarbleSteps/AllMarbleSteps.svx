@@ -41,4 +41,6 @@
 *equate WetRoute.sidewinder1.011 Mainchamber.Mainchamber1.026
 *equate WetRoute.sidewinder1.012 Mainchamber.Mainchamber1.029
 
+*equate MainChamber.Mainchamber1.011 LostMarbles.LostMarbles4.1
+
 *end	AllMarbleSteps

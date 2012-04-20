@@ -4,10 +4,12 @@
 *begin LostMarbles
 *export lostmarbles1.001 lostmarbles1.019 lostmarbles2.001 lostmarbles3.001 lostmarbles2.022
 
+*export lostmarbles4.1
 
 *include LostMarbles1
 *include LostMarbles2
 *include LostMarbles3
+*include LostMarbles4
 ;*include SurfaceMarbleSteps
 
 ;*equate LostMarbles1.001 SurfaceMarbleSteps.008 
