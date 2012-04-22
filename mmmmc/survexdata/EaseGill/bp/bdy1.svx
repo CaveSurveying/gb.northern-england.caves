@@ -8,9 +8,8 @@
 *equate bdy1.008 bdy1a.001 ;tag on corner
 
 *begin	bdy1
-*export 001
-*export 008
-*export 001b
+
+*export 001 008 001b
 
 *calibrate compass		+4.00
 *calibrate clino		+1.00
@@ -19,8 +18,13 @@
 ;*fix 001 67865.99 80835.06 330.92
 *fix 001 67867.13 80837.87 330.85 
 
+*flags surface
+
 001a	001b	06.97	237.0	-03.0	;st001b=broken off tag on surface rock
 001a	001	07.38	172.0	-11.0	;st001=tag st roof of ent. crawl
+
+*flags not surface
+
 001	002	06.40	215.5	-07.0	;st002 is knob of rock on right at end of crawl
 002	003	01.33	 -	DOWN	;st003 is head height in chamber below climb
 
