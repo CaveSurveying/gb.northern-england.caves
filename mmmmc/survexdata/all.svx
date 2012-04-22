@@ -10,4 +10,6 @@
 ; West Kingsdale data mainly diving data from John Cordingley and Rupert Skorupka collated by Footleg (Paul Fretwell) who has also collected some dry cave data
 *include WestKingsdale/West_Kingsdale_System
 
+
+*include Barbondale\barbondale ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
 *end all
