@@ -1,0 +1,13 @@
+;Include file for Barbondale caves
+;Created by Sam Lieberman 22/04/2012
+
+;Equates
+
+
+;Include caves
+
+*begin Barbondale
+
+*include "BarbonPot/AllBarbonPot"
+
+*end Barbondale
