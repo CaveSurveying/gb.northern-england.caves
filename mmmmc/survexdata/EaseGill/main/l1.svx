@@ -2,26 +2,24 @@
 ;Date:L1	31/08/96
 ;Surveyors:	H.St.Lawrence/R.Duffy
 
-;*equate	L1.005	sc1.001
-*equate	l1.006	col.016
-;*equate	L1.017	Crat.001
-;*equate	L1.026	Cw.031
-*equate	l1.026	l2.001
-;*equate	L1.006	gv.000
 *equate	l1.004	gird1.013f
 *equate	l1.004	l1b.001
-;*equate	L1.023	mw1.001
+*equate	l1.004	l1b2.000
 *equate	l1.004	l1c.000
+;*equate L1.005	sc1.001
+*equate	l1.006	col.016
+;*equate L1.006	gv.000
+;*equate L1.017	Crat.001
 *equate l1.017 fhs.022	;boot-trapper corner
+;*equate L1.023	mw1.001
+;*equate L1.026	Cw.031
+*equate	l1.026	l2.001
 
 *begin	l1
-*export 005
-*export 004
-*export 012
-*export 026
-*export 006
-*export 023
-*export 017
+
+*date 1996.08.31
+
+*export 004 005 006 012 017 023 026
 
 *calibrate compass	+5.27
 
@@ -52,6 +50,5 @@
 023	024	15.25	062.5	+12.5
 024	025	25.73	075.5	-01.5
 025	026	19.25	113.0	-49.0	;st.026=UP524=slug25
-
 
 *end	l1

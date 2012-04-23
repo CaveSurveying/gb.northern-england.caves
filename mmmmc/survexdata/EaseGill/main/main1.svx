@@ -47,6 +47,7 @@
 *include	l1a
 *include	l1b
 *include	l1b2
+*include	l1b2i
 *include	l1c
 *include	l2
 *include	l3
