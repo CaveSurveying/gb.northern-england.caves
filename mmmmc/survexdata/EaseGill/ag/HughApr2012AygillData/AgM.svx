@@ -1,0 +1,10 @@
+;Middle Series only
+
+*begin	AgM
+
+*include	Ay16
+*include	Ay17
+*include	Ay17a
+
+
+*end	AgM

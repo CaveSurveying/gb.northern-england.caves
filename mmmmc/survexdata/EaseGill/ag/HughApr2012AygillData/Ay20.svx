@@ -1,0 +1,38 @@
+;Cave:	Aygill-Red Rose Series
+;Surveyors:	H.St.Lawrence (book)/P.Swire (instrs)
+;Date:	12/06/05pm
+;Instruments:	Kit 4
+
+*equate	ay20.001	ay08.006c
+
+
+*begin	ay20
+
+;*fix	
+
+*calibrate compass	+5.00
+
+
+001	002	02.50	233.0	-02.0	;st.001=junction,Waterfall Series to right
+002	003	01.10	178.0	+16.0
+003	004	01.85	220.0	+06.0
+004	005	03.10	261.0	 00.0
+005	006	02.08	189.0	+19.0
+006	007	01.30	238.0	 00.0	;st.007=junction, passage rises above to left, unsurveyed
+007	008	02.30	238.0	-15.0
+008	009	04.50	235.0	+15.0	
+009	010	01.35	250.0	+06.0
+010	011	03.50	250.0	+03.0	
+011	012	03.60	198.0	+10.0
+012	013	08.50	253.0	+02.0
+013	014	02.00	196.0	 00.0
+014	015	02.10	235.0	+22.0
+015	016	02.40	245.0	+08.0
+016	017	03.50	219.0	+07.0
+017	018	01.35	-	UP
+018	019	04.60	228.0	+10.0	;st.019=junction, stream from right
+
+
+
+
+*end	ay20

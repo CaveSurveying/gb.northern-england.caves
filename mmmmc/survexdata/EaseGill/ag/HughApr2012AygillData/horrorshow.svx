@@ -1,0 +1,23 @@
+;Cave:	AYGILL - upper boulder chambers west of New Year Cavern
+;Surveyors:	Hugh St.L/ Frank Pearson/ Joe Giblin
+;Date:	02/01/12
+;Instruments:HSL, Book:JG, Target:FP
+
+*equate	horrorshow.000	ay07.010
+
+*begin	horrorshow
+
+*calibrate compass +0.00
+
+000	001	00.40	000.0	+90.0	;above 3m climb
+001	002	05.46	217.0	+15.0	;2/2.5/0.6/3 across passage
+002	003	08.14	325.0	+40.0	;1/2/1.5/1
+003	004	02.63	214.0	+30.0	;1.5/2.5/2/0.5 to breakdown chamber
+004	005	04.00	187.0	-08.0	;to end of chamber
+004	006	02.90	252.0	+18.0	;3/3/2.5/0.7 Ditto but add 1.8m to end
+004	007	03.10	325.0	+22.0	;to end of chamber
+003	008	04.59	013.0	+34.0	;1.8/1/1.5/1 thro' delicate boulder crawl
+008	009	06.87	020.0	+08.0	;0.5/0.5/2/0.5 across chamber 3m to tube
+008	010	03.60	190.0	+33.0	;0.5/3/0.3/0.5 thro' boulders to 3m wide chamber beyond
+
+*end	horrorshow
