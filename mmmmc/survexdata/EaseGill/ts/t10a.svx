@@ -6,7 +6,8 @@
 *equate	t10a.035 t01bii.002 ;st035 is head height on rope from Wisdom Tooth
 
 *begin	t10a
-*export 035
+
+*export 006 035
 
 *calibrate compass		0.00
 *calibrate clino		0.00
