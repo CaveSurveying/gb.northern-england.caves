@@ -6,7 +6,10 @@
 *equate	bdy3b.005a bdy3.003
 
 *begin	bdy3b
-*export 005a
+
+*date 2007.07.07
+
+*export 001 005a
 
 *calibrate compass		+3.00
 *calibrate clino		+0.50

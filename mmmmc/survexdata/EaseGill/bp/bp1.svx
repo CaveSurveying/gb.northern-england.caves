@@ -1,8 +1,8 @@
 ;Every Boundary pot file
 
 *begin	bp1
-*export bdy1.001b
-*export bdy1.001
+
+*export bdy1.001b bdy1.001
 
 ;*include	Bdy ;shite
 *include	bdy1
@@ -14,6 +14,7 @@
 *include	bdy3
 *include	bdy3a
 *include	bdy3b
+*include	bdy3bi
 *include	bdy3c
 *include	bdy3d
 *include	bdy4
