@@ -25,6 +25,7 @@
 *include	gil2
 *include	gil2a ;used to find small caves on upper EG
 *include	gil3
+*include	gil3a
 *include	gil4
 *include	gil5
 *include	gil6

@@ -3,25 +3,22 @@
 ;Date:	16/03/02
 ;Instruments:	PAG
 
-*equate	sf3.001	sf2.008
-;*equate	sf3.015	cya.001
-;*equate	sf3.013a	oh1.001
-;*equate	sf3.008a	wra.001
-;*equate	sf3.011	cn.022
-;*equate	sf3.013b	sw.001
-;*equate	sf3.001	P1a.001
-;*equate	sf3.003	B1.001
-;;;;*equate	sf3.007	B1.20NS
-;*equate	sf3.015	sf4.001
-
+*equate sf3.001  sf2.008
+;*equate sf3.015  cya.001
+;*equate sf3.013a oh1.001
+;*equate sf3.008a wra.001
+;*equate sf3.011  cn.022
+;*equate sf3.013b sw.001
+;*equate sf3.001  P1a.001
+;*equate sf3.003  B1.001
+;*equate sf3.007  B1.20NS
+;*equate sf3.015  sf4.001
 
 *begin	sf3
-*export 008a
-*export 003
-*export 011
-*export 001
-*export 015
-*export 013b
+
+*date 2002.03.16
+
+*export 001 003 008 008a 011 013b 015
 
 *calibrate compass	+5.00
 
@@ -35,15 +32,15 @@
 006	007	03.30	288.0	-13.5	;st007=Downstream Slit Sink tag
 007	008	32.90	223.0	 00.0
 
-008	008a	05.80	335.0	-05.0	;st005a=Wretched Rabbit tag
+008	008a	05.80	335.0	-05.0	;st008a=Wretched Rabbit tag
 
 008	008b	02.70	298.0	-20.0	;008b=tag New Cave
 
-008	008c	22.80	095.0	+11.0	;008b is resurgence
+008	008c	22.80	095.0	+11.0	;008c is resurgence (2nd Best Hole)
 
-008	008d	22.20	177.0	+03.5	;008c is waterfall cave entrance
+008	008d	22.20	177.0	+03.5	;008d is waterfall cave entrance
 
-008	009	26.00	207.0	-02.5	;009=tag resurgence cave
+008	009	26.00	207.0	-02.5	;009=tag resurgence cave (Bests Hole)
 
 009	009a	20.50	330.0	+05.0	;009a=tag foxhole?
 
