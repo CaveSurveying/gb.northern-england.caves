@@ -6,6 +6,7 @@
 *equate	horrorshow.000	ay07.010
 
 *begin	horrorshow
+*export 000
 
 *calibrate compass +0.00
 

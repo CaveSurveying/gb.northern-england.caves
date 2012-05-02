@@ -3,9 +3,8 @@
 ;Date:	20/09/04
 ;Instruments:	PAG
 
-*equate	Cpt2.001 Cpt.001
-
-*begin	Cpt2
+*begin	cpt2
+*export 001
 
 *calibrate compass	+5.00
 *calibrate clino	-0.50
@@ -17,4 +16,4 @@
 004	005	03.82	 -	DOWN	;st005 is sitting looking down hading to bottom
 005	006	04.64	099.0	-38.0	;passage continues at 090deg with 30cm wide and 1m high
 
-*end	Cpt2
+*end	cpt2

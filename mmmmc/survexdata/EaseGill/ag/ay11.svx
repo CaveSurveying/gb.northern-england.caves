@@ -1,9 +1,7 @@
-;Cave:	Aygill Caverns
+;Cave:	Aygill Caverns - Junction chambers
 ;Surveyors:	H.St.L/M.Savage
 ;Date:	16/05/97 eve
 ;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
-
-*equate	ay11.001	ay09.003b
 
 *begin	ay11
 *export 001

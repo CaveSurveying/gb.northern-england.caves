@@ -1,3 +1,5 @@
+;;; Not included, is this a resurvey?
+
 ;Cave:	Casterton Pot- entrance
 ;Surveyors:	Zig & Zag
 ;Date:	18/04/98

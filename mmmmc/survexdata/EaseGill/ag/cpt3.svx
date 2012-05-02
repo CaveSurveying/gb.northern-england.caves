@@ -3,9 +3,8 @@
 ;Date:	14/10/04
 ;Instruments:	2
 
-*equate	Cpt3.001 Cpt.012a
-
-*begin	Cpt3
+*begin	cpt3
+*export 001
 
 *calibrate compass	+5.00
 *calibrate clino	-1.00
@@ -16,4 +15,4 @@
 003	004	11.40	210.0	-12.0
 004	005	14.00	173.0	-18.0
 
-*end	Cpt3
+*end	cpt3

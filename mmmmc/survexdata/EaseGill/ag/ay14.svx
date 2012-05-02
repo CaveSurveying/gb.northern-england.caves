@@ -3,9 +3,6 @@
 ;Date:	04/07/97pm
 ;Instruments:	Red Rose Kit 2
 
-*equate	ay14.001	ay04.001
-*equate	ay14.004	ay15.001
-
 *begin	ay14
 *export 001
 *export 004

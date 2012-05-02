@@ -4,11 +4,10 @@
 ;Instruments:	Kit 1
 
 
-*begin	Ch1
+*begin	ch1
+*export 001
 
 *calibrate compass	+5.00
-
-*fix	001	66633.00  82656.00  325.00
 
 
 001	002	02.11	-	DOWN	;st.001=top of vertical scaffold pole at entrance
@@ -36,4 +35,4 @@
 0190	0191	31.00	-	DOWN	;Deep South pitch
 
 
-*end	Ch1
+*end	ch1

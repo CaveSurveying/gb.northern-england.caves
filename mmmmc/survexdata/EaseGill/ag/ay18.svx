@@ -3,16 +3,13 @@
 ;Date:	22/07/03pm
 ;Instruments:	Kit 4
 
-*equate	ay18.001	ay15.003
-*equate	ay18.019	ay03.001
-
 *begin	ay18
+*export 001
+*export 019
 
-;*fix	
 
 *calibrate compass	+5.00
 *calibrate tape		+3.00
-
 
 
 001	002	04.16	252.0	-03.0	;st.001=flake of rock in passage=ay15.003

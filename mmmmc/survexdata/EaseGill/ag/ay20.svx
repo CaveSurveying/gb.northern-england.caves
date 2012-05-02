@@ -3,12 +3,8 @@
 ;Date:	12/06/05pm
 ;Instruments:	Kit 4
 
-*equate	ay20.001	ay08.006c
-
-
 *begin	ay20
-
-;*fix	
+*export 001
 
 *calibrate compass	+5.00
 

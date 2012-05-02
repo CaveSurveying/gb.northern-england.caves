@@ -3,8 +3,6 @@
 ;Date:	12/04/98pm
 ;Instruments:	PAG kit
 
-*equate	ay17.001	ay16.008
-
 *begin	ay17
 *export 001
 

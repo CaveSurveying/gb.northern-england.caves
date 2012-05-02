@@ -3,14 +3,12 @@
 ;Date:	09/02/97 pm
 ;Instruments:	PAG Sunto Compass & Clino, 30m tape
 
-*equate	ay01.012	ay02.001	
-
 *begin	ay01
 *export 012
+*export 000
 
 *calibrate compass	+5.13
 
-*fix	000 66338.56 81833.43 295.15 ;ev.ss08.019
 
 000	001	02.50	 -	DOWN	;000=tag
 001	002	03.50	351.0	-30.0

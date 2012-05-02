@@ -3,10 +3,6 @@
 ;Date:	31/01/98pm
 ;Instruments:	kit?
 
-*equate	ay16.001	ay13.008
-*equate	ay16.008	ay17.001
-*equate	ay16.013	ay17a.012
-
 *begin	ay16
 *export 013
 *export 001

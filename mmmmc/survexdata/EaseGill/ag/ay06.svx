@@ -3,12 +3,10 @@
 ;Date:	04/03/97 & 07/03/97 from st017
 ;Instruments:	Red Rose Silva Compass & Sunto Clino, 30m tape
 
-*equate	ay06.001	ay05.011
-*equate	ay06.008	ay07.001
-
 *begin	ay06
 *export 001
 *export 008
+*export 010
 
 *calibrate compass	+5.13
 

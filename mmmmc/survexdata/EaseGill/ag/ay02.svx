@@ -3,9 +3,6 @@
 ;Date:	01/06/80 pm
 ;Instruments:	Sunto Compass & Clino, 30m tape
 
-*equate	ay02.016	ay03.001
-*equate	ay02.001	ay01.012
-
 *begin	ay02
 *export 001
 *export 016

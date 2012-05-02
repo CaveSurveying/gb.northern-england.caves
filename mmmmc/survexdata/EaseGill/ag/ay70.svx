@@ -3,11 +3,8 @@
 ;Date:	06/04/2012eve
 ;Instruments:	R.Lawson Compass & Clino, 30m tape
 
-
-*equate	ay70.000	ay07.026
-
 *begin	ay70
-
+*export 000
 
 000	001	7.24	017	-14
 001	002	4.18	013	2

@@ -3,11 +3,9 @@
 ;Date:	05/09/97pm
 ;Instruments:	CSG
 
-*equate	ay15.001	ay14.004
-;*equate	ay15.004	ay16.001
-
 *begin	ay15
 *export 001
+*export 003
 
 *calibrate compass	+6.63
 

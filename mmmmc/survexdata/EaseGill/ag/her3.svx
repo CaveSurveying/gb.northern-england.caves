@@ -4,10 +4,10 @@
 ;Instruments:	RRCPC Suunto, kit3
 
 *begin	her3
+*export 006
+*export 018
 
 *calibrate compass	+5.37
-
-*fix	018	66275.45 81765.26 299.45	;ev.ss08.013a
 
 001	002	06.60	032.0	+02.0	;stn001=far end of capping (white roof), rift continues ahead 5m
 002	003	02.50	067.0	+45.0	

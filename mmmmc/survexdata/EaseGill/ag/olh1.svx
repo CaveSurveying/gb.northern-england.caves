@@ -4,11 +4,10 @@
 ;Instruments:	3
 
 *begin	olh1
+*export 000
 
 *calibrate compass	+7.00
 *calibrate clino	+3.5
-
-*fix	000	66316.16 81821.16 295.30	;measured from from Aygill
 
 000	001	05.24	 -	DOWN	;st000 is stood bridged across from plank to wall of shoring
 001	002	02.26	035.0	-48.0

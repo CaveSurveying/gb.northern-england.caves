@@ -3,9 +3,8 @@
 ;Date:	11/04/08 eve
 ;Instruments:	RRCPC Suunto, kit3
 
-*equate her4.001	her3.006
-
 *begin	her4
+*export 001
 
 *calibrate compass	+5.37
 

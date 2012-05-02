@@ -4,10 +4,9 @@
 ;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
 
 *begin	hz
+*export 014
 
 *calibrate compass	+5.17
-
-*fix	014	66340.75 81923.75 304.73 ;ev.ss16.001
 
 001	002	04.57	326.0	-24.0	;st001 is X on boulder middle of end boulder chamber(yuk!!)
 002	003	01.65	238.5	-12.0	;st002 to st008 is scaffolded boulder tube

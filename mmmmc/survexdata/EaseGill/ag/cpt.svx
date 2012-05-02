@@ -3,14 +3,11 @@
 ;Date:	14/11/98
 ;Instruments:	PAG
 
-*equate Cpt.001 Cpt2.001
-*equate Cpt.012a Cpt3.001
-
 *begin	cpt
+*export 001
+*export 012a
 
 *calibrate compass	+5.00
-
-*fix	001	66269.41 81616.91 300.61	;ev.ss08.008a
 
 001	002	02.30	059.0	-08.5	;st001=tag on boulder to right of entrance
 002	003	02.60	183.0	-40.0

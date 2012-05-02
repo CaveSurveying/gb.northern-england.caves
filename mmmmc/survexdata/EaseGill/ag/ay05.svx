@@ -3,10 +3,6 @@
 ;Date:	21/02/97 eve.
 ;Instruments:	Red Rose Silva Compass & Sunto Clino, 30m tape
 
-*equate	ay05.018	ay03.001c
-*equate	ay05.011	ay06.001
-*equate	ay05.001	ay08.001
-
 *begin	ay05
 *export 018
 *export 011
