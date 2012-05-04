@@ -18,6 +18,7 @@
 *equate	asf.sf3.008a	wrab.wra.001
 *equate	asf.sf3.011	cs1.cns1.001	
 *equate	asf.sf3.013b	swh1.swh.001
+*equate	asf.sf3.013b	gl1.shf.shf01.A
 *equate	asf.sf3.001	ps1.p1a.001
 ;;;;;;;;*equate	asf.sf3.003	Bh1.B1.001 ;shite
 *equate	asf.sf3.003	bh1.b01.001
@@ -26,7 +27,6 @@
 ;*equate	asf.pth3.022	wc1.lbs.001
 ;;;;;;;;*equate asf.sf4.002a	Gl1.OX2.000	;position fixed
 *equate asf.sf5.002f gl1.how01.001 ;st002f=tag above Jim's dig
-
 
 *equate	main1.l1.026	cwp1.cw.031
 *equate	ak1.ak01.014	main1.md7a.001
