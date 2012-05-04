@@ -1,0 +1,33 @@
+;Cave:		New Cave (continued)
+;Surveyors:	S.Lieberman(notes)/A.Chapman(instr.)
+;Date:		10/07/11
+;Instruments:	PAG + disto
+
+*equate	New02.001	New01.025
+
+*begin	New02
+
+*export 001
+
+*date 2011.07.10
+
+*calibrate compass	+6.00
+*calibrate clino	 0.00
+*calibrate tape		 0.00
+
+002	001	01.27	060.0	  00.0
+003	002	02.09	170.0	+05.0
+004	003	01.73	095.0	+01.0
+005	004	01.93	151.0	  00.0
+
+;surveying back to station 005 S.Lieberman(instr.)/A.Chapman(notes)
+
+2	1	05.56	293.0	-56.0	;st1 base of unclimbed down climb
+3	2	00.82	004.0	+08.0
+4	3	02.30	313.0	-04.0
+5	4	01.21	339.0	-02.0
+5	6	01.62	096.0	+44.0
+6	7	01.18	054.0	+13.0
+005	7	02.20	313.0	+10.0	;st005=st8 and is stal on ledge on left
+
+*end	New02

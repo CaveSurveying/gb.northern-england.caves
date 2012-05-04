@@ -3,5 +3,6 @@
 *begin new1
 
 *include new01
+*include new02
 
 *end new1

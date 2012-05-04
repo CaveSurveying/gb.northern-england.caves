@@ -3,24 +3,28 @@
 ;Date:	10/02/07
 ;Instruments:	PAG + disto
 
-;*equate	
-
 *begin	new01
 
-*calibrate compass		+3.00
-*calibrate clino		-0.50
+*date 2007.02.10
+
+*export 001 025
+
+*calibrate compass	+3.00
+*calibrate clino	-0.50
 *calibrate tape		 0.00
+
+*entrance 001
 
 *fix 001 67633.26 80672.92 318.31 ;tag at entrance	
 
-001	002	00.35	-	DOWN ;st001=tag at entrance
+001	002	00.35	-	 DOWN	;st001=tag at entrance
 003	002	01.84	140.0	 00.0
 004	003	03.23	062.0	 00.0
 005	004	04.97	078.0	 00.0
-006	005	01.19	 -	DOWN	;st006 is at hole up in roof
+006	005	01.19	 -	 DOWN	;st006 is at hole up in roof
 
 005	005a	02.05	031.0	-05.0	;st005a is top of climb down
-005a	005b	01.94	 -	DOWN	;st005b is lip of 5.7m drop to floor
+005a	005b	01.94	 -	 DOWN	;st005b is lip of 5.7m drop to floor
 
 006	007	01.30	070.0	 00.0
 007	008	02.11	048.0	+01.0
