@@ -6,6 +6,7 @@
 ;*equate how01.001 sf5.002f ;st002f=tag above Jim's dig
 
 *begin	how01
+
 *export 001
 
 *calibrate compass	+1.00

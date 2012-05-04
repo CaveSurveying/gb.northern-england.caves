@@ -1,0 +1,19 @@
+;Cave:	Sheepfold Cave - left hand branch
+;Surveyors:	A.Chapman/S.Lieberman/S.White
+;Date:		10/07/11
+;Instruments:	PAG + disto
+
+*begin	shf02
+
+*date 2011.07.10
+
+*export 001 003
+
+*calibrate compass	+6.00
+*calibrate clino	 0.00
+*calibrate tape	 0.00
+
+001	002	00.47	038.0	-20.0	;st1 is station 3 on previous survey at junction.
+002	003	01.54	106.0	+02.0	;very tight, continues.
+
+*end	shf02

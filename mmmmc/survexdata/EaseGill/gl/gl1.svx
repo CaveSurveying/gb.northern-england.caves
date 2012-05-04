@@ -1,7 +1,8 @@
 ;Every other gill cave entrance
 
 *begin	gl1
-*export how01.001
+
+*export how01.001 shf.shf01.A
 
 *include	bat
 *include	bhh
