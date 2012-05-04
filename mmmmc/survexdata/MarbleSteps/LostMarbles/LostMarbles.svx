@@ -10,10 +10,11 @@
 *include LostMarbles2
 *include LostMarbles3
 *include LostMarbles4
+*include LostMarbles5
 ;*include SurfaceMarbleSteps
 
 ;*equate LostMarbles1.001 SurfaceMarbleSteps.008 
 *equate LostMarbles1.019 LostMarbles2.001 
 *equate LostMarbles2.022 LostMarbles3.001
-
+*equate LostMarbles4.16 LostMarbles5.1
 *end LostMarbles

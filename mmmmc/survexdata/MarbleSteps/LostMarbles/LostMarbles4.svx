@@ -5,10 +5,10 @@
 
 *begin LostMarbles4
 
-*export 1 
+*export 1 16
 
-*calibrate declination +3.18	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.188n 2.492w 2008.06.16
+*calibrate declination +2.40	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.188n 2.492w 2012.04.19
 1	2	1.31	006	0
 2	3	6.30	329	+77
 3	4	9.50	050	+64
