@@ -5,7 +5,7 @@
 ;Date Created 12/12/2006 by Neil Pacey
 
 ;-------------------------------------------------------------------------------------------
-;Modifications
+;Modifications (for Bill)
 ;
 ;21-12-06 Added P.H equate for WellPitchInlets  *equate Wellpitchinlets.218 streamway4.001
 ;20-06-09 Becka split Glory Holes into Cripple Creek, Ireby2 and Glory Holes
