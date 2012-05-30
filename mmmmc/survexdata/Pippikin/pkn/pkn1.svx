@@ -55,4 +55,7 @@
 
 *include	pep
 
+*include PipWetSink
+*equate PipWetSink.34 pip.001
+
 *end	pkn1

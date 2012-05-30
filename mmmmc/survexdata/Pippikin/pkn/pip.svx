@@ -22,6 +22,7 @@
 *export 007
 *export 018
 
+*export 001
 *calibrate compass	+5.17
 
 *fix	001	66820.62 80097.71 320.16	;ev.ss05.001
