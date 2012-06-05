@@ -5,7 +5,7 @@
 
 
 *begin	KirkPot4
-*export U001 DSS1
+*export U001 DSS1 U005
 ;*export 001
 
 *calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
