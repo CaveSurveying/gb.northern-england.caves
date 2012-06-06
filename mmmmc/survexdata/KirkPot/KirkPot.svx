@@ -13,6 +13,7 @@
 *include KirkPot3
 *include KirkPot4
 *include KirkPot5
+*include KirkPot6
 
 ;--------------------------------------------------------------------
 
@@ -30,5 +31,6 @@
 *equate KirkPot3.015_Belay_Pegleg_Junc KirkPot4.U001
 *equate KirkPot3.027_Sump3_diveline_shotline_belay KirkPot4.DSS1
 *equate KirkPot5.u005 KirkPot4.u005
+*equate KirkPot6.DSS4 KirkPot4.Dss4
 
 *end	KirkPot
