@@ -55,7 +55,9 @@
 *include	ay19
 *include	ay20
 *include	ay21
+*include	ay22
 *include 	ay70
+*include 	precambrian
 
 *fix	hz.014	66340.75 81923.75 304.73 ;ev.ss16.001
 *entrance hz.014

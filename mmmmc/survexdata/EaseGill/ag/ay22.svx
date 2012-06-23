@@ -1,0 +1,123 @@
+;Cave:	Aygill-Red rose Series
+;Surveyors:	H.St.Lawrence/P.Swire/F.Tully
+;Date: 25/05/2012
+;Instruments:	P.Swire compass/clino
+
+*equate	ay22.002	ay13.002
+*equate ay22.005	ay08.006c
+
+
+*begin	ay22
+
+;*fix	
+
+*calibrate compass	+1.00	; check this is right with Beardy
+
+
+001	002	09.00	215	-1.5	;002 is dive line tieoff over sump pool
+001	003	09.13	218.5	23
+003	004	04.16	244	10
+004	005	02.82	294	2	; on wall at junction
+005	006	03.20	221	-5
+006	007	02.82	204	20
+007	008	02.76	244	6
+008	009	02.32	185	17
+009	010	01.58	228.5	39
+009	011	03.90	-	UP	;up to high level tube
+011	012	04.25	187	41
+012	013	06.50	244	8
+013	014	02.74	186	8
+014	015	02.70	261	3	;small chamber and choke to left of survey mark
+009	016	01.98	251	2	;into lower main way on
+016	017	01.50	240	-22
+017	018	02.16	217	8
+018	019	03.08	244	17
+019	020	03.86	259	10
+020	021	01.47	214	7
+021	022	02.85	193	16
+022	023	05.80	211.5	1
+023	024	05.10	215	10
+024	025	02.58	244	7
+025	026	04.37	218	10
+026	027	01.35	-	UP
+027	028	03.90	225	8
+028	029	02.80	193	6
+029	030	02.51	120	5	;body size tube upto Red Rose Chamber
+030	031	04.70	080	30	;in cross passage up out of crawl
+031	031a	05.90	215	7	;to other end of cross passge, choke
+031	032	02.95	358	40	;top of boulder in bottom of Red Rose Chamber
+032	033	07.40	078	24	;to wall up chamber
+033	034	05.00	005	35	;into choked hading rift
+033	035	09.00	220	15	;other direction to choke
+032	036	07.00	225	34	;into rift main way on
+036	037	02.00	197	12
+037	038	03.80	237	6
+038	039	02.55	277	34
+039	040	04.85	353	-11
+040	041	01.50	044	-1
+041	042	01.15	109	6
+042	043	02.70	043	11
+043	044	02.40	340	8
+044	045	02.46	007	17
+045	046	03.70	340	4
+046	047	03.55	059	7	;crossroads junction
+047	048	02.50	135	30
+048	049	05.00	060	7	;to mud choke in right passage
+047	050	05.00	290	-5	;first leg up small inlet passage to left
+047	051	05.30	037	4	;leg into way on to area of unsurveyed passages, to be completed
+
+
+;stn	L	R	U	D	comments
+;001	1	2.8	1.5	1.7	head height left wall before sump, calcited bulge
+;002	4	0	2	1.7	sump dive line tie-off on right
+;003	2.5	1	0.7	1
+;004	0	0.9	1	0.7
+;005	1.2	0	3	0.8
+;006	0.8	0.2	1.5	0.3
+;007	0.1	0.4	0.5	1
+;008	0.6	0.2	0.2	1.2
+;009	0.2	0.2	4	1
+;010	0	1	3	2
+;011	1.8	1	2.5	5
+;012	0.2	1	1	4
+;013	0.3	0.5	0.7	0.2
+;014	0.2	0.5	0.5	0.3
+;015	2	0	0.5	1
+;016	0.1	0.3	0.3	0.8	
+;017	0	0.5	0.3	0.2
+;018	0.1	0.2	2	0.4
+;019	0.5	0	2	1
+;020	0.3	0.5	0.5	1
+;021	0.3	0	0.5	1.2
+;022	1	0.5	0.2	0.3
+;023	0.2	0.4	0.1	0.5
+;024	0.5	0.5	1	1.2
+;025	0.2	0.8	0.2	0.6
+;026	0.4	1.2	2	0.4
+;027
+;028	0.2	0.9	0.3	1
+;029	0.2	0.3	0.2	0.2	body size tube
+;030	0.2	0.3	0.2	0.3
+;031	0.5	0.3	0.3	1.5
+;031a	0.2	0.5	0.4	0.3
+;032	1.5	1.5	4	1.5 top of boulder in red rose chamber
+;033	2	4	5	1.5	far wall of chamber
+;034
+;035
+;036	1	0.4	3	2
+;037	1	0.2	4	1.5
+;038	0	0.5	3	1.5
+;039	0.4	1	2.5	1
+;040	0.4	0.3	4	1.5
+;041	0.3	0.2	5	1.5
+;042	0.2	0.5	3	1.5
+;043	0.2	1	3	1.5
+;044	0.2	0.2	2	1.5
+;045	0.3	0.1	1	1
+;046	0.3	0.7	0.4	0.4
+;047	1.5	1.5	0.6	0.3	small crossroads junction 
+
+
+
+
+*end	ay22
