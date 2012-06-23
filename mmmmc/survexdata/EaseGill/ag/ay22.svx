@@ -3,11 +3,10 @@
 ;Date: 25/05/2012
 ;Instruments:	P.Swire compass/clino
 
-*equate	ay22.002	ay13.002
-*equate ay22.005	ay08.006c
-
 
 *begin	ay22
+
+*export 002 005
 
 ;*fix	
 

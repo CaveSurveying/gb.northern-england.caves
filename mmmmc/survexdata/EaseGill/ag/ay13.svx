@@ -4,8 +4,7 @@
 ;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
 
 *begin	ay13
-*export 002
-*export 008
+*export 002 008
 
 *calibrate compass	+5.17
 

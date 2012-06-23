@@ -3,10 +3,10 @@
 ;Date:	25/05/2012
 ;Instruments:	mandy's set (calibration not known, ask Mandy to check)
 
-*equate	ay13.002	precambrian.000
-
 
 *begin	precambrian
+
+*export 000
 
 ;*fix	
 

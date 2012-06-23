@@ -30,9 +30,12 @@
 *equate	ay16.008	ay17.001
 *equate	ay16.013	ay17a.012
 *equate	ay18.001	ay15.003
+*equate	ay22.002	ay13.002
+*equate ay22.005	ay08.006c
+*equate	ay13.002	precambrian.000
+
 
 *include	ay01
-
 *include	ay02
 *include	ay03
 *include	ay04
