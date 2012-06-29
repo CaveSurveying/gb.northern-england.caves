@@ -6,7 +6,7 @@
 
 *begin	ay22
 
-*export 002 005
+*export 002 003 005 047
 
 ;*fix	
 

@@ -6,7 +6,7 @@
 
 *begin	precambrian
 
-*export 000
+*export 000 024
 
 ;*fix	
 

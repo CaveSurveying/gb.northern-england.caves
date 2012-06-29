@@ -33,6 +33,9 @@
 *equate	ay22.002	ay13.002
 *equate ay22.005	ay08.006c
 *equate	ay13.002	precambrian.000
+*equate	ay22.003	ay24.001
+*equate	ay22.047	ay23.500
+*equate	precambrianfake.1	precambrian.024	;end of Jeff & Mandy's survey
 
 
 *include	ay01
@@ -59,8 +62,11 @@
 *include	ay20
 *include	ay21
 *include	ay22
+*include	ay23
+*include	ay24
 *include 	ay70
 *include 	precambrian
+*include 	precambrianfake
 
 *fix	hz.014	66340.75 81923.75 304.73 ;ev.ss16.001
 *entrance hz.014
