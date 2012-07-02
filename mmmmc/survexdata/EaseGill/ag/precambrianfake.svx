@@ -1,6 +1,6 @@
 ;Cave:	Aygill Precambrian series far end
 
-;Survey Date:	1971 derived from survey in ULSA journal by measurement.
+;Survey Date:	1971 derived from survey in ULSA journal by measurement. It is the main Precambrian passage with cartesian data worked from the 1971 ULSA survey (by Pete Hall) provided by Hugh St Lawrence.
 
 
 *begin	precambrianfake
