@@ -11,7 +11,7 @@
 *equate	ay03.001c   ay09.001
 *equate	ay03.001	ay10.001
 *equate	ay03.001    ay18.019
-*equate	ay03.001    ay19.001
+; *equate	ay03.001    ay19.001 ; survey ay19 superceded by ay25 which is more detailed
 *equate	ay04.001	ay14.001
 *equate	ay05.011	ay06.001
 *equate	ay05.001	ay08.001
@@ -35,6 +35,7 @@
 *equate	ay13.002	precambrian.000
 *equate	ay22.003	ay24.001
 *equate	ay22.047	ay23.500
+*equate	ay25.000	ay03.001
 *equate	ay26.000	ay06.021
 *equate	ay27.000	ay06.006a
 *equate	precambrianfake.1	precambrian.024	;end of Jeff & Mandy's survey
@@ -60,12 +61,13 @@
 *include	ay17
 *include	ay17a
 *include	ay18
-*include	ay19
+; *include	ay19    ; survey ay19 superceded by ay25 which is more detailed
 *include	ay20
 *include	ay21
 *include	ay22
 *include	ay23
 *include	ay24
+*include	ay25
 *include	ay26
 *include	ay27
 *include 	ay70
