@@ -1,0 +1,22 @@
+;Cave:	Kirtle Pot
+;Surveyors:	Hugh St.Lawrence,Tom Clayton,Emma Wilson
+;Date:	24/6/2012
+;Instruments:	HughStL instruments
+
+*begin	kirtle
+
+*export 000
+
+*calibrate compass	+3
+
+;*fix	000	66310.00 81710.00 299	;ev.ss08.013a
+
+000	001	00.40	-	DOWN	;0=rib of rock on big boulder just above entrance
+001	002	02.60	185	-47
+002	003	01.85	328	-45
+003	004	03.52	244	-36
+004	005	01.49	247	-45
+005	006	03.25	192	-24
+006	007	01.77	159	-62	;down into tight slot , way on?
+
+*end	kirtle

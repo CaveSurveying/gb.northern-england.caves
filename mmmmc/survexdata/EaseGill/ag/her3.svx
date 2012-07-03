@@ -4,8 +4,8 @@
 ;Instruments:	RRCPC Suunto, kit3
 
 *begin	her3
-*export 006
-*export 018
+
+*export 006 018
 
 *calibrate compass	+5.37
 

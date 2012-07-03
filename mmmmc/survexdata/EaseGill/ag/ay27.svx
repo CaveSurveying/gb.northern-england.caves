@@ -1,0 +1,1 @@
+;Cave:	Aygill- Aven beyond Wind Tunnel;Surveyors:	H.St.Lawrence/B.Lawson;Date: 1/7/2012;Instruments:	HughStL compass and clino*begin	ay27*export 000	*calibrate compass	+3.00000	001	1.48	172	7	;stn0 = obvious small stal in floor on south side of passage001	002	3.56	135	38002	003	1.80	161	49003	004	1.78	072	29	;stn4 = top of obvious stal in small chamber*end	ay27

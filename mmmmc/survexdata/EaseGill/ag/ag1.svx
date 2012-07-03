@@ -35,6 +35,8 @@
 *equate	ay13.002	precambrian.000
 *equate	ay22.003	ay24.001
 *equate	ay22.047	ay23.500
+*equate	ay26.000	ay06.021
+*equate	ay27.000	ay06.006a
 *equate	precambrianfake.1	precambrian.024	;end of Jeff & Mandy's survey
 
 
@@ -64,6 +66,8 @@
 *include	ay22
 *include	ay23
 *include	ay24
+*include	ay26
+*include	ay27
 *include 	ay70
 *include 	precambrian
 *include 	precambrianfake
@@ -72,14 +76,18 @@
 *entrance hz.014
 *include	hz
 
-;Every Herberts File
+;Herberts and Kirtle Pot
 *begin	herberts
 *fix	her3.018	66275.45 81765.26 299.45	;ev.ss08.013a
 *entrance her3.018
 *equate her4.001	her3.006
+*equate kirtle.000	kirtletoherberts.000
+*equate kirtletoherberts.006 her3.018
 *include	her3
 *include	her4
   ; what about her and her2?
+*include kirtle
+*include kirtletoherberts
 *end	herberts
 
 ;Every Casterton Pot file

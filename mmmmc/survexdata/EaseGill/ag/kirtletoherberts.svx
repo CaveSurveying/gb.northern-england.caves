@@ -1,0 +1,25 @@
+;Cave:	Kirtle Pot to Herberts Hole, surface traverse
+;Surveyors:	Hugh St.Lawrence,Tom Clayton,Emma Wilson
+;Date:	24/6/2012
+;Instruments:	HughStL instruments
+
+*begin	kirtletoherberts
+
+*export 000 006
+
+*flags surface
+
+*calibrate compass	+3
+
+
+;*fix	000	66310.00 81710.00 299	;ev.ss08.013a
+
+000	001	16.36	360	25	;from kirtle rock to top edge of shakehole
+001	002	29.00	360	1
+002	003	12.49	357	-21	;head height standing above sw corner of dig
+003	003a	03.10	-	DOWN	;bottom of dig
+003	004	07.75	265	17
+004	005	13.1	263	-14
+005	006	01.90	-	DOWN	;stn006 is Herberts entrance tag
+
+*end	kirtletoherberts
