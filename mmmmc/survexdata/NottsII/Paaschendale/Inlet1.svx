@@ -52,6 +52,9 @@
 28	29	8.12	280	+12
 29	30	9.89	345	-4
 
+*data nosurvey from to 
+22  5   ; leg across deep pool in main streamway that was walked round through inlet1
+
 *data passage station left right up down ignoreall
 
 1	2.0	0.7	1.2	2.2	;=Stn 15 Passchendaele2
