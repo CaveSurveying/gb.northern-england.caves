@@ -1,4 +1,3 @@
-arrowhead.xml
 bats.xml
 bedrock.xml
 bigboulder1.xml
@@ -11,6 +10,8 @@ flowstone.xml
 fontcolours.xml
 fontcolours_a.xml
 fontcolours_b.xml
+helictite.xml
+helpfile.html
 hexagons.xml
 listdir.txt
 mud.xml
@@ -24,15 +25,12 @@ popcorn.xml
 puddle.xml
 rats.xml
 sand.xml
-scalebar100m.xml
-scalebar10m.xml
-scalebar30m.xml
-scalebar50m.xml
 slope.xml
 snow.xml
 stalactite.xml
 stalagmite.xml
 stalagtite.xml
+stalboss.xml
 straws.xml
 stream.xml
 sump.xml
