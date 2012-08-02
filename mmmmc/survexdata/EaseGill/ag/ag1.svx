@@ -38,6 +38,7 @@
 *equate	ay25.000	ay03.001
 *equate	ay26.000	ay06.021
 *equate	ay27.000	ay06.006a
+*equate	ay30.c		ay07.013
 *equate	precambrianfake.1	precambrian.024	;end of Jeff & Mandy's survey
 
 
@@ -70,6 +71,7 @@
 *include	ay25
 *include	ay26
 *include	ay27
+*include	ay30
 *include 	ay70
 *include 	precambrian
 *include 	precambrianfake
