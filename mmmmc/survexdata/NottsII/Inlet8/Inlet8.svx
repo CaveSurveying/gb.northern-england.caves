@@ -5,6 +5,10 @@
 
 *export Inlet8_1.1
 
-*include Inlet8_1   	
+*include Inlet8_1   
+
+*include Inlet8_2  
+
+*equate Inlet8_1.8 Inlet8_2.1	
 
 *end Inlet8
