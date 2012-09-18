@@ -24,6 +24,9 @@
 *Include whirlpool
 *Include dukestdigsresurvey
 
+*Include dukestdigsresurvey2
+*equate dukestdigsresurvey.19 dukestdigsresurvey2.3
+
 *Include dukestsidepassage
 
 

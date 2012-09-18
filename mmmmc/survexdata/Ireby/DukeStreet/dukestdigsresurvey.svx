@@ -4,7 +4,7 @@
 
 *begin dukestdigsresurvey
 
-*export z 16 
+*export z 16 19 
 
 *title "Two digs at end of Duke St 1"
 *date 2009.10.25
@@ -33,6 +33,7 @@
 
 17	18	3.19	128	-15	; 319	+09
 18	19	6.53	151	-04	; 330	0
+*flags duplicate
 19	20	3.00	123	-16	; Becka pony reading only and distance estimated
 
 *data passage station left right up down ignoreall
