@@ -27,7 +27,7 @@
 015	016	4.90	263	+5
 012	017	4.12	324	+5
 017	018	3.38	359	-30
-017	019	5.20	277	+15
+017	019	5.20	277	+15	;Original notes bearing incorrect 227 should be 277
 019	020	5.0	-	up	;added to show second dribbly blind aven
 
 ;*calibrate compass
