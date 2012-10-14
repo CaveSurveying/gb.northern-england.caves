@@ -112,7 +112,7 @@
 
 *include kirkpot/kirkpot
 
-*include getdownshep/gds1
+*include getdownshep/shep_pot
 
 *end leckfell
 
