@@ -3,9 +3,9 @@
 
 *title "From old numbered station 174 CHECK to Dave Ramsay station 10 survey"
 *date 2012.10.14
-*team Instruments ???
+*team Instruments Fleur Loveridge
 *team Notes Andy Chapman
-*team Tape ????
+*team Tape Pete Talling and Sally White
 *instrument RRCPC comp and clino and RRCPC 30m tape read from 20cm
 
 *calibrate tape +0.20	; +ve if tape was too short, -ve if too long
@@ -24,7 +24,7 @@
 174x  -       -       -    -     old numbered station
 1     0     0.3     0       0.9
 2     0     0.4     0.2     0.3
-3     0.2   0.2     0       0.6
+3     0.2   0.2     0       0.6	 piece of paper left on cairn as permanent survey station
 4     0.5   0.3     1       0.6
 5     0.6   0.2     0.8     0.6
 6     0.5   0.4     0.2     0.7   alcove
