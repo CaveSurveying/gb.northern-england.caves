@@ -3,7 +3,7 @@
 ; Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches
 
 *begin RiftPotTOD7
-*export 149 159 208 195 204
+*export 149 159 164 174 208 195 204
 
 *title "Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches"
 *date 2009.11.08
@@ -76,6 +76,8 @@
 205	206	9.15	118	-9
 206	207	5.30	191	+3
 207	208	28.47	090	+1
+
+152 999	40.00	135	0  ; made up leg to show where inlet dig to Low Douk comes in
 
 *data passage station left right up down ignoreall
 

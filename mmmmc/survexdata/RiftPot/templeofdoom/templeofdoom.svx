@@ -15,17 +15,22 @@
 *include riftpottod9
 *include newriftdigtolowdouk
 *include riftpotKCCextensionsleft
+*include DigOffToDAtStation164
+*include ChisholmTrailWestAndy
+*include ChisholmTrailWestDave
 
 *equate RiftPotTOD1.72 RiftPotTOD2.72
 *equate RiftPotTOD1.67 RiftPotTOD3.z67
 *equate RiftPotTOD2.77 RiftPotTOD4.x77
-
 *equate RiftPotTOD2.102 RiftPotTOD6.x102
 *equate RiftPotTOD2.149 RiftPotTOD7.149
 *equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
 *equate RiftPotTOD8.41x RiftPotTOD6.41
 *equate RiftPotTOD9.99x RiftPotTOD2.99
 *equate riftpotKCCextensionsleft.195 riftpottod7.195
+*equate DigOffToDAtStation164.164x RiftPotTOD7.164
+*equate ChisholmTrailWestAndy.174x RiftPotTOD7.174
+*equate ChisholmTrailWestAndy.5 ChisholmTrailWestDave.10
 
 *end templeofdoom
 
