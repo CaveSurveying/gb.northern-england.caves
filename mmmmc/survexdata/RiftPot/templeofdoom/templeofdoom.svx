@@ -29,7 +29,7 @@
 *equate RiftPotTOD9.99x RiftPotTOD2.99
 *equate riftpotKCCextensionsleft.195 riftpottod7.195
 *equate DigOffToDAtStation164.164x RiftPotTOD7.164
-*equate ChisholmTrailWestAndy.174x RiftPotTOD7.174
+*equate ChisholmTrailWestAndy.175x RiftPotTOD7.175
 *equate ChisholmTrailWestAndy.5 ChisholmTrailWestDave.10
 
 *end templeofdoom
