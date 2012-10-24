@@ -12,5 +12,8 @@
 
 
 *include Barbondale\barbondale ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
-*include 3cgps
+
+; Richard forgot to check in this file!
+;*include 3cgps
+
 *end all
