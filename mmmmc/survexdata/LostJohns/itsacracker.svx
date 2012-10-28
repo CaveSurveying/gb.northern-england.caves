@@ -1,0 +1,23 @@
+*begin itsacracker
+
+*export 52
+
+*title "Surface survey from Boxhead rim to Its A Cracker then down Its a Cracker down to base of Boxhead main pitch"
+
+*date 2012.10.26
+*team Instruments Andrew Atkinson
+*team Tippex Julian Todd
+*team Notes Becka Lawson
+
+*instrument Becka's distox calibrated in the cave on 26.10.12 with delta of 0.61 I think and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+
+
+*data passage station left right up down ignoreall
+
+
+*end itsacracker

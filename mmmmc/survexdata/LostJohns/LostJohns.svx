@@ -102,17 +102,29 @@
 *include LUCCaven
 *equate Box3.067c luccaven.7a
 
+;*include lj-tube ; most of the Tube passage
+;*equate lj-tube.52x itsacracker.52 
+
+;*include itsacracker ; All of Its A Cracker to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
+;*equate itsacracker.??	box.007	
+
+;*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
+;*equate boxheadentranceresurvey.??	itsacracker.?? 
+
+;*include bypasscrestarun ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
+;*equate bypasscrestarun.?? itsacracker.??  
+
 ; the bruno nottsii connection with temporary version to be over-written
 *include lylecavernbruno ; to replace lylecaverndig
 *equate	lylecavernbruno.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
-;*include lylecaverndig
-;*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
-;*include lylecaverndig2
-;*equate	lylecaverndig.1	lylecaverndig2.12	
+
 
 *end	LostJohns
 
-; lj20 superceded by lylecaverndig data and connection point (box3.079) guessed at
+;*include lylecaverndig
+;*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
+;*include lylecaverndig2
+;*equate	lylecaverndig.1	lylecaverndig2.12	; lj20 superceded by lylecaverndig data and connection point (box3.079) guessed at
 ;*include Lj20
 ;*equate	Lj20.1	box3.079
 
