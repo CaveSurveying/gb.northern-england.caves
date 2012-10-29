@@ -1,11 +1,19 @@
 *begin loweracrobat
 
+*export 1-32 1-51
+
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;
-;  ; beckas distox 0.39 calibration
-;Notes: Becka Lawson
-;Instr: Andrew Atkinson
+;  ; beckas distox 0.39 calibration - recalibrated in the cave today
 
 *date 2012.10.28
+*team Instruments Andrew Atkinson
+*team Notes Becka Lawson with help from Andrew
+*team Tippex and Distox for last few legs Sally White
+*title "From part way down Acrobat Route in Notts to below last pitch where Dave, Richard and Andy's survey ended which did final bit of Acrobat Route"
+
+*instrument Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 *data normal from to tape compass clino ignoreall
 
@@ -32,4 +40,5 @@
 ; splays 
 ;1-38	-	1.592	213.43	-83.75  ; stn 38 numgere3d on l wall opp inlet and before climb 
 ;1-39	-	1.704	169.68	-82.05  ; r wall tippex, not numbered 
+
 *end loweracrobat

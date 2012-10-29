@@ -1,9 +1,7 @@
-;Cave:	Notts Pot-Lower Streamway
-
-;Date:	18/07/08
-
+;Cave:	Notts Pot
 
 *begin	NottsPot
+
 *export EntrancePhanger ; P Bolt(furthest of 2)
 *export SumpTag
 
@@ -11,15 +9,23 @@
 *equate SumpTag          NottsPot02.022
 
 *include NottsPot01		; Becka - eventually replace this
-*include NottsPot02 		; Becka - eventually replace this
-*include NottsPot03 		; Becka - resurvey of entrance - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and find out how connects to other surveys
-*include LeftHand1		; from hangers for pitch into Three Ways Chamber to Left Hand Route then to start of Twilight Route
-*Include NorthInlet	;Added 21/02/12 RGB
+*include NottsPot02 	; Becka - eventually replace this
+*include NottsPot03 	; Becka - resurvey of entrance - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and find out how connects to other surveys
+*include LeftHand1		;from hangers for pitch into Three Ways Chamber to Left Hand Route then to start of Twilight Route
+*include NorthInlet		;added 21/02/12 RGB
+*include acrobat		;added 29/10/12 RL PDA data, from hanger above iron ladder towards Adamson's
+*include loweracrobat	;added 29/10/12 RL PDA data, mid-section of Acrobat Series
+; *include bottomacrobat	;to be added by Richard Bendall
+
 ;----------------------------------------------------------------------------------------------
 
 *equate NottsPot02.001 NottsPot01.035
 *equate NottsPot03.022 NottsPot01.001
 *equate NottsPot01.021 LeftHand1.5
 *equate NorthInlet.1 LeftHand1.5
+*equate NorthInlet.25 acrobat.1-0
+*equate acrobat.1-32 loweracrobat.1-32
+;*equate loweracrobat.1-?? bottomacrobat.??
+;*equate loweracrobat.1-51 bottomacrobat.??
 
 *end	NottsPot

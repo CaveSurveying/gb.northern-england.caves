@@ -1,12 +1,19 @@
 *begin acrobat
 
+*export 1-0 1-32
+
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;
-;  ; beckas distox 0.39 calibration
-;Notes: Becka Lawson
-;Instr: Andrew Atkinson
+;  ; beckas distox 0.39 calibration - recalibrated in the cave today
 
 *date 2012.10.28
-;*declination 0.0
+*title "From bolt at top of iron ladder before Adamson's to part way down Acrobat Route in Notts"
+*team Instruments Andrew Atkinson
+*team Notes Becka Lawson with help from Andrew
+*team Tippex and Distox for last few legs Sally White
+
+*instrument Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 *data normal from to tape compass clino ignoreall
 
@@ -52,6 +59,7 @@
 ;1-17	-	2.521	170.32	-16.09  ; 17 is ring hanger andd numbered 
 ;1-18	-	0.932	122.28	43.73  ; temp cairn 
 ;1-20	-	0.992	192.55	-77.40  ; down small pitch 
+
 *end acrobat
 
 

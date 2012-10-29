@@ -1,15 +1,14 @@
 *begin NorthInlet
 
-*export 1
+*export 1 25
 
 ; Cave:	Notts Pot
-
 
 *title "North Inlet"
 *date 2012.02.20
 *team Insts Richard Bendall
 *team Notes Dave Ramsay
-*team Tape -Disto RB
+*team Tape Disto RB
 *instrument Tape is Disto
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
