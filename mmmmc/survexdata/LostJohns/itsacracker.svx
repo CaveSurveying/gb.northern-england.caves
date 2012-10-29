@@ -4,7 +4,7 @@
 
 *begin itsacracker
 
-*export 1.52
+*export 1.56
 
 *title "Surface survey from Boxhead rim to Its A Cracker then down Its a Cracker down to Lost Pot area"
 
@@ -50,9 +50,12 @@
 1.53	1.54	1.543	144.54	34.01	Roll:124	0	d3
 1.54	1.55	0.730	87.34	3.36	Roll:77	0	d3
 1.56	1.55	6.950	0.00	-90.00	Roll:0	0	d1  ; 56 stn on r side entrance wooden framep
+
+*flags surface
+
 1.57	1.56	10.654	30.80	-21.80	Roll:8	0	d3
 1.57	1.58	10.591	294.91	-8.04	Roll:34	0	d3
 1.59	1.58	5.730	76.78	8.14	Roll:23	0	d3
-1.59	1.60	12.686	266.91	-32.26	Roll:3	0	d3
+1.59	1.60	12.686	266.91	-32.26	Roll:3	0	d3	; 60 stn on uphill, SE one of two holes in the Boxhead entrance plastic drum
 
 *end itsacracker
