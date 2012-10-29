@@ -1,6 +1,6 @@
 *begin itsacracker
 
-*export 52
+*export 1.52
 
 *title "Surface survey from Boxhead rim to Its A Cracker then down Its a Cracker down to base of Boxhead main pitch"
 
@@ -27,7 +27,7 @@
 1.9	1.8	1.062	164.81	10.79	Roll:257	0	d3
 1.10	1.9	1.265	92.39	44.26	Roll:101	0	d3
 1.10	1.11	3.450	346.91	-18.17	Roll:228	0	d3
-1.11	1.12	1.052	139.54	49.42	Roll:308	0	d3
+1.11	1.12	1.052	139.54	49.42	Roll:308	0	d3 ; stn 12 is bolt above ledge, numbered
 1.11	1.13	28.748	279.34	-80.07	Roll:65	0	d3
 1.13	1.14	4.657	33.89	15.19	Roll:270	0	d3
 1.14	1.15	3.743	287.44	2.69	Roll:100	0	d3
