@@ -105,8 +105,11 @@
 ;*include lj-tube ; most of the Tube passage
 ;*equate lj-tube.52x itsacracker.52 
 
-;*include itsacracker ; All of Its A Cracker to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
-;*equate itsacracker.??	box.007	
+;*include itsacracker ; Top of Its A Cracker to around where Lost Pot comes in
+;*equate itsacracker.??	itsacracker2.??	
+
+;*include itsacracker2 ; Bottom part of of Its A Cracker from where Lost Pot comes in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
+;*equate itsacracker2.??	box.007	
 
 ;*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
 ;*equate boxheadentranceresurvey.??	itsacracker.?? 
