@@ -4,7 +4,7 @@
 
 begin itsacracker
 
-;*export 1.56 1.26
+*export 1-56 1-26
 
 *title "Surface survey from Boxhead rim to Its A Cracker then down Its a Cracker down to Lost Pot area"
 
