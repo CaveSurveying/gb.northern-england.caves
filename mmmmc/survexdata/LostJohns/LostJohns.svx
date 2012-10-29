@@ -114,11 +114,13 @@
 *include itsacracker3 ; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
 *equate itsacracker3.1-48	box.007	
 
-;*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
-;*equate boxheadentranceresurvey.??	itsacracker.?? 
+*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
+*equate boxheadentranceresurvey.1-60	itsacracker.1-60 
+*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
+*equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
 
-;*include bypasscrestarun ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
-;*equate bypasscrestarun.?? itsacracker.??  
+*include bypasscrestarun ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
+*equate bypasscrestarun.1-50 itsacracker3.1-50 
 
 ; the bruno nottsii connection with temporary version to be over-written
 *include lylecavernbruno ; to replace lylecaverndig
