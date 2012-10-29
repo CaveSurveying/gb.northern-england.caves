@@ -102,8 +102,8 @@
 *include LUCCaven
 *equate Box3.067c luccaven.7a
 
-;*include lj-tube ; most of the Tube passage
-;*equate lj-tube.52x itsacracker.52 
+*include lj-tube ; most of the Tube passage
+*equate lj-tube.52x itsacracker3.1-52 
 
 *include itsacracker ; Top of Its A Cracker to around where Lost Pot comes in
 *equate itsacracker.1-26	itsacracker2.1-26
