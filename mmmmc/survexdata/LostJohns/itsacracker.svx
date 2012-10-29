@@ -1,3 +1,7 @@
+;;;;;;;;;;;;;;;;
+; generated from itsacracker.top
+;;;;;;;;;;;;;;;;
+
 *begin itsacracker
 
 *export 1.52
