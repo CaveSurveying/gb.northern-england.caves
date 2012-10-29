@@ -17,7 +17,7 @@
 
 *data normal from to tape compass clino ignoreall
 
-1-40	1-43	10.971	336.02	68.81	Roll:58	0	d3
+1-43	1-40	10.971	336.02	68.81	Roll:58	0	d3	; was 1-40 to 1-43 in original notes (cocked up as changed files here) so switched leg as backwards
 1-43	1-44	6.933	30.84	0.80	Roll:3	0	d3  ; stn 44 no.4 on l wall at start of dig passage and inlet
 1-43	1-45	3.405	252.47	-43.58	Roll:3	0	d3  ; stn 45 ishole and takes water
 1-46	1-43	6.938	156.36	0.51	Roll:316	0	d3

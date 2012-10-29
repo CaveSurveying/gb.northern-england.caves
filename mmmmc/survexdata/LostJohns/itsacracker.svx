@@ -2,7 +2,7 @@
 ; generated from itsacracker.top
 ;;;;;;;;;;;;;;;;
 
-begin itsacracker
+*begin itsacracker
 
 *export 1-56 1-26
 
