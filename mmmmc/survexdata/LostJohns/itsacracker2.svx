@@ -4,6 +4,8 @@
 
 *begin itsacracker2
 
+*export 1.26 1.40
+
 *date 2012.10.26
 *team Instruments Andrew Atkinson
 *team Tippex Julian Todd
@@ -14,6 +16,7 @@
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 *data normal from to tape compass clino ignoreall
+
 1.26	1.27	8.056	175.93	2.14	Roll:113	0	d3
 1.28	1.27	6.843	107.91	-42.31	Roll:350	0	d3  ; stn 28 n0.d before tight rift
 1.28	1.29	1.984	1.54	-13.82	Roll:277	0	d3
