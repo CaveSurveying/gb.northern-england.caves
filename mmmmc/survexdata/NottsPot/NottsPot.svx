@@ -15,7 +15,7 @@
 *include NorthInlet		;added 21/02/12 RGB
 *include acrobat		;added 29/10/12 RL PDA data, from hanger above iron ladder towards Adamson's
 *include loweracrobat	;added 29/10/12 RL PDA data, mid-section of Acrobat Series
-; *include bottomacrobat	;to be added by Richard Bendall
+*include bottomacrobat	;added by Richard Bendall 30/10/12
 
 ;----------------------------------------------------------------------------------------------
 
@@ -25,7 +25,7 @@
 *equate NorthInlet.1 LeftHand1.5
 *equate NorthInlet.25 acrobat.1-0
 *equate acrobat.1-32 loweracrobat.1-32
-;*equate loweracrobat.1-?? bottomacrobat.??
-;*equate loweracrobat.1-51 bottomacrobat.??
+*equate loweracrobat.1-37 bottomacrobat.32
+*equate loweracrobat.1-51 bottomacrobat.30
 
 *end	NottsPot
