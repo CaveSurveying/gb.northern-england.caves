@@ -34,7 +34,7 @@
 1-13	1-15	3.005	281.53	62.40 ext:0.0,0.0,0.1 
 1-15	1-16	3.492	262.07	3.19 ext:0.0,0.0,0.1 
 1-16	1-17	3.062	293.47	0.83 ext:0.0,0.1,0.1 
-1-18	1-17	2.640	015.68	10.71 ext:0.0,0.0,0.1 ;changed by RGB 30/10/12 compas was 735.86!!
+1-18	1-17	2.640	015.68	10.71 ext:0.0,0.0,0.1 ;changed by RGB 30/10/12 compas was 735.86!! Checked on PDA by RL - compass there recorded as 10.7 so something wrong with Julian's conversion programme
 1-18	1-19	7.253	238.88	78.97 ext:0.2,0.5,3.5 
 1-20	1-17	4.097	71.74	56.03 ext:0.0,0.4,0.2 
 1-20	1-21	3.379	310.03	-28.72 ext:0.0,0.1,0.1 
