@@ -7,7 +7,8 @@
 ; inst Tim's Pony and Disto
 ;Tim inst and book, Mick target
 
-
+*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.10.28
 
 *data normal from to tape compass clino ignoreall
 

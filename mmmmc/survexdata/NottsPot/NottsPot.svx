@@ -9,13 +9,13 @@
 *equate SumpTag          NottsPot02.022
 
 *include NottsPot01		; Becka - eventually replace this
-*include NottsPot02 	; Becka - eventually replace this
-*include NottsPot03 	; Becka - resurvey of entrance - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and find out how connects to other surveys
+*include NottsPot02 		; Becka - eventually replace this
+*include NottsPot03 		; Becka - resurvey of entrance - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and find out how connects to other surveys
 *include LeftHand1		;from hangers for pitch into Three Ways Chamber to Left Hand Route then to start of Twilight Route
 *include NorthInlet		;added 21/02/12 RGB
 *include acrobat		;added 29/10/12 RL PDA data, from hanger above iron ladder towards Adamson's
-*include loweracrobat	;added 29/10/12 RL PDA data, mid-section of Acrobat Series
-*include bottomacrobat	;added by Richard Bendall 30/10/12
+*include loweracrobat		;added 29/10/12 RL PDA data, mid-section of Acrobat Series
+*include bottomacrobat		;added by Richard Bendall 30/10/12
 
 ;----------------------------------------------------------------------------------------------
 
