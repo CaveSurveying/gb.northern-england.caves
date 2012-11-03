@@ -126,8 +126,8 @@
 *include lylecavernbruno ; to replace lylecaverndig
 *equate	lylecavernbruno.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
 
-
 *end	LostJohns
+
 
 ;*include lylecaverndig
 ;*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
@@ -135,4 +135,7 @@
 ;*equate	lylecaverndig.1	lylecaverndig2.12	; lj20 superceded by lylecaverndig data and connection point (box3.079) guessed at
 ;*include Lj20
 ;*equate	Lj20.1	box3.079
+; *include itsacracker-centrelineonly-beforeopentosurface ; no notes, done for digging so replaced by itsacracker etc surveys
+; *equate itsacracker-centrelineonly-beforeopentosurface.27 boxheadentranceresurvey.1-60  ; no notes, done for digging so replaced by itsacracker etc surveys
+
 
