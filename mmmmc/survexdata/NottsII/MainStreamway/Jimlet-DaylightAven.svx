@@ -22,6 +22,7 @@
 
 
 *export 1	;Drilled hole true left at Jimlet 
+*export 3	;Point of large fallen flake on corner
 *export 5	;survey dot in first airbell start of 6.5 & 3/4
 *export 15	;Drilled Hole at Curry Junction
 *export 27	;Drilled Hole at Inlet 5 junction
