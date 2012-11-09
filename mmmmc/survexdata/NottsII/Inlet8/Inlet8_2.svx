@@ -4,7 +4,7 @@
 
 *begin Inlet8_2
 
-*export 1
+*export 1 7
 
 *title "Inlet 8"
 *date 2012.10.11
@@ -29,7 +29,7 @@
 4	5	6.93	291	-6
 5	6	5.72	258	+3
 6	7	2.96	317	+24
-7	8	2.60	233	+1
+;7	8	2.60	233	+1	;Commented out 07/11/12 RGB dig now back filled as not the way on
 
 *data passage station left right up down ignoreall
 
@@ -40,7 +40,7 @@
 5	0.6	0.0	0.8	0.5	;RH Wall
 6	0.5	0.7	0.7	0.9	;LH Wall
 7	0.6	0.0	0.3	1.2	;Undercut nose at bend RH Wall
-8	0.5	0.5	0.5	0.5	;end of dig
+;8	0.5	0.5	0.5	0.5	;end of dig	;Commented out 07/11/12 RGB dig now back filled as not the way on
 
 
 *end Inlet8_2

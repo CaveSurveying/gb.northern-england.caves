@@ -50,6 +50,8 @@
 *Include Inlet14/Inlet14			;Inlet 14				Added by Richard 11/02/12
 *include sixpointfiveandthreequarters/sixpointfiveandthreequarters			;sixpointfiveandthreequarters connected dig 27/07/12	Added by Richard 28/07/12
 
+*include Inlet6point5/Inlet6point5		;Inlet 6.5				Added by Richard 08/11/12
+
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
@@ -94,6 +96,8 @@
 *equate Mainstreamway.Mainstreamway3.22 Inlet14.Inlet14_1.Stal				;Added by Richard 11/02/12	
 *equate Inlet5.Inlet5-resurvey-2.20 sixpointfiveandthreequarters.20x			;Added by Richard 28/07/12
 *equate Mainstreamway.Jimlet-DaylightAven.5 sixpointfiveandthreequarters.7		;Added by Richard 28/07/12
+
+*equate Mainstreamway.Jimlet-DaylightAven.5 Inlet6point5.Inlet6point5_1.11					;Added by Richard 08/11/12
 
 
 *end NottsII	
