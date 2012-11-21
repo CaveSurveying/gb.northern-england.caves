@@ -1,77 +1,18 @@
-*begin shep_pot
-*fix 22 67064 78046 372
+*begin Shep_Pot
 
-*entrance 22
+;cave Get Down Shep Pot
+;Title: Get Down Shep Pot
 
+*export shep_pot_1.D2
 
-; inst Tim's Pony and Disto
-;Tim inst and book, Mick target
+*include Shep_Pot_1   
 
-*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.1994n 2.5124w  2012.10.28
+*include Shep_Pot_2
 
-*data normal from to tape compass clino ignoreall
+;*include shep_pot_3 
 
-2	1	4.38	169	-31
-3	2	11.53	050	-37
-3	4	6.15	327	34
-2	5	5.04	327	14.5
-1	D1	3.4	178	-58
-D1	D2	7.4	196	-53
-D2	D3	1.8	0	-90
-5	6	2.85	040	50
-6	7	1.4	041	24
-7	8	5.18	017	38
-8	9	6.15	007	68
-8	8a	7.5	266	53
-9	10	2.05	113	9
-10	11	4.08	139	9.25
-11	12	2.13	104	20
-11	11a	2.2	029	0
-12	13	2.98	119	49
-13	14	2.8	065	-12.5
-14	15	1.93	105	-39
-15	16	1.66	126	-4
-16	17	1.69	101	13
-17	18	3.8	140	16
-18	19	3.15	110	9.5
-19	20	4.9	143	34
-20	21	1.72	024	28
-22	21	5.5	180	-75
+*equate Shep_Pot_2.0 Shep_Pot_1.D2
+	
+;*equate shep_pot_2.7 shep_pot_3.1
 
-
-
-
-
-
-;Station information
-;Station Left right Up Down discription
-;LOOKING IN
-;D2					cross and drill hole on rh wall
-;D1					knob on centre of roof before bedding
-;1	.5	4	13.2	1	top of scaffold pole at start of dig
-;2	0	1	13.5	1.5	small knob on lh side of rift entry to chamber
-;3	on note plan	2	0	small cairn at top of slope
-;4 	1.4	1.4	4?	.5	cobble on far wall
-;LOOKING OUT FROM HERE ON
-;5	0	1	8	1.5	cross on wall at corner
-;6					on wall opposite white flow
-;7					top of huge cobble
-;8	1.9	.7	6.6	1.4	large spike at foot of pitch
-;9	0	.5	.3	.4	cross on wall top of pitch
-;10	.6	0	3	.3	knob where rope passes corner
-;11	0	.4	2.5	1	corner of inlet junction
-;12	.5	0	1.8	1.4	rh wall before climb
-;13	1	1.2	.8	?	cross on rock in roof chamber
-;14	.3	0	1.3	2.3	small stalamite at top of squeeze down
-;15	.2	.2	?	1	in tight bit
-;16	.4	0	1.6	.8	knob on wall at end of blasted bit
-;17	0	.4	2.4	1.2	knob
-;18	.6	.1	1.2	1	knob on rh wall at ippon falls
-;19	.3	.5	.8	.9	roof knob above shale step
-;20	.9	0	.8	1	cross fall wall between two steps
-;21					knob .6 from base of ent shaft
-;22					top of tallest scaff pole
-
-
-*end shep_pot
+*end Shep_Pot
