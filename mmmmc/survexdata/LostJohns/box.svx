@@ -5,8 +5,8 @@
 
 *begin	box
 *export 007
-*export 015 ;st015 is surface rim ;ev.ss19.022a 
-*entrance 015
+;*export 015 ;st015 is surface rim ;ev.ss19.022a 
+;*entrance 015
 
 *calibrate compass	+5.17
 
@@ -24,13 +24,13 @@
 006	006a	04.10	182.0	-07.0
 006a	006b	02.00	219.0	-31.0
 006	007	07.80	317.0	-01.0	;st.007=tag
-007	008	11.10	320.0	 00.0	;at.008 is bottom of Lost Pot Aven
-008	009	02.40	167.0	+22.0
-009	010	66.10	 -	UP	;2nd pitch bolt from Y
-010	011	04.00	261.0	+33.0
-011	012	04.10	158.0	+17.0
-012	013	08.60	 -	UP
-013	014	02.00	187.0	+06.0
-014	015	21.70	 -	UP	;st015 is surface rim
+;007	008	11.10	320.0	 00.0	;at.008 is bottom of Lost Pot Aven
+;008	009	02.40	167.0	+22.0
+;009	010	66.10	 -	UP	;2nd pitch bolt from Y
+;010	011	04.00	261.0	+33.0
+;011	012	04.10	158.0	+17.0
+;012	013	08.60	 -	UP
+;013	014	02.00	187.0	+06.0
+;014	015	21.70	 -	UP	;st015 is surface rim
 
 *end	box

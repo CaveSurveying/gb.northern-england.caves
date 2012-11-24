@@ -7,6 +7,66 @@
 ;*export lylecaverndig2.7
 *export lylecavernbruno.7
 
+*entrance itsacracker.1-56
+*entrance boxheadentranceresurvey.1-60
+*equate BoxheadSurfaceRim boxheadentranceresurvey.1-60 
+
+	; Top of Its A Cracker to around where Lost Pot comes in (plus some surface legs to Boxhead entrance
+*include itsacracker 
+*equate itsacracker.1-26	itsacracker2.1-26
+	; Middle part of Its A Cracker from where Lost Pot comes in to around Kendal Flyover
+*include itsacracker2 
+*equate itsacracker2.1-40	itsacracker3.1-40
+	; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
+*include itsacracker3 
+*equate itsacracker3.1-48	box.007	
+
+*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
+*equate boxheadentranceresurvey.1-60	itsacracker.1-60 
+*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
+*equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
+
+; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
+*include bypasscrestarun 
+*equate bypasscrestarun.1-50 itsacracker3.1-50 
+
+*include lj-tube ; most of the Tube passage
+*equate lj-tube.52x itsacracker3.1-52 
+
+
+
+; old boxhead surveys
+*include box   ; first legs commented out
+;*equate box.015 BoxheadSurfaceRim
+*equate	box.007	box1.001
+
+; kendal extensions
+*include Box1  ; some legs commented out
+*equate	box1.005 itsacracker2.1-39
+;*equate	box1.001	box.007
+
+*include Box2
+*equate	box1.027	box2.009
+*equate	box2.009	box1.027
+
+*include Box3
+*equate	box1.014	box3.001
+*equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
+*equate	box3.072j	Lj08.030	
+
+;*include Box4.svx   ; no connection for this survey of Lyle Cavern
+
+*include Box5
+*equate	box5.014a	box1.021	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 - Becka 8.01.10
+
+*include LUCCaven
+*equate Box3.067c luccaven.7a
+
+
+
+
+
+
 *equate	Lj01.010	Lj03.000
 *equate	Lj01.001	Lj02.000
 *equate Lj01.053    EntranceTag
@@ -77,50 +137,8 @@
 *equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
 *include Lj15
 
-; not in RD's set
-*equate	box1.001	box.007
-*equate	box1.027	box2.009
-*equate	box1.014	box3.001
-*include Box1
 
-*equate	box2.009	box1.027
-*include Box2
 
-*equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
-*equate	box3.072j	Lj08.030	
-*include Box3
-
-;*include Box4.svx   ; no connection for this survey of Lyle Cavern
-
-*equate	box5.014a	box1.021	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 - Becka 8.01.10
-*include Box5
-
-*equate	box.007	box1.001
-*include box
-*equate box.015 BoxheadSurfaceRim
-
-*include LUCCaven
-*equate Box3.067c luccaven.7a
-
-*include lj-tube ; most of the Tube passage
-*equate lj-tube.52x itsacracker3.1-52 
-
-*include itsacracker ; Top of Its A Cracker to around where Lost Pot comes in
-*equate itsacracker.1-26	itsacracker2.1-26
-
-*include itsacracker2 ; Middle part of Its A Cracker from where Lost Pot comes in to around Kendal Flyover
-*equate itsacracker2.1-40	itsacracker3.1-40
-
-*include itsacracker3 ; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
-*equate itsacracker3.1-48	box.007	
-
-*include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
-*equate boxheadentranceresurvey.1-60	itsacracker.1-60 
-*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
-*equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
-
-*include bypasscrestarun ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
-*equate bypasscrestarun.1-50 itsacracker3.1-50 
 
 ; the bruno nottsii connection with temporary version to be over-written
 *include lylecavernbruno ; to replace lylecaverndig
