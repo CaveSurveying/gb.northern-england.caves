@@ -2,23 +2,19 @@
 
 *begin	LostJohns
 
-*export EntranceTag
-*export BoxheadSurfaceRim
-;*export lylecaverndig2.7
-*export lylecavernbruno.7
+*export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 ; lylecavernbruno.7 lylecaverndig2.7
 
 *entrance itsacracker.1-56
 *entrance boxheadentranceresurvey.1-60
 *equate BoxheadSurfaceRim boxheadentranceresurvey.1-60 
 
-	; Top of Its A Cracker to around where Lost Pot comes in (plus some surface legs to Boxhead entrance
-*include itsacracker 
+*include itsacracker 	; Top of Its A Cracker to around where Lost Pot comes in (plus some surface legs to Boxhead entrance
 *equate itsacracker.1-26	itsacracker2.1-26
-	; Middle part of Its A Cracker from where Lost Pot comes in to around Kendal Flyover
-*include itsacracker2 
+
+*include itsacracker2 	; Middle part of Its A Cracker from where Lost Pot comes in to around Kendal Flyover
 *equate itsacracker2.1-40	itsacracker3.1-40
-	; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
-*include itsacracker3 
+
+*include itsacracker3 	; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
 *equate itsacracker3.1-48	box.007	
 
 *include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
@@ -33,7 +29,8 @@
 *include lj-tube ; most of the Tube passage
 *equate lj-tube.52x itsacracker3.1-52 
 
-
+*include notts2nearconnection ; From Notts II connection crawl to main T-junction and starting towards pitch into Lost Johns
+*equate notts2nearconnection.4-7 box3.072 
 
 ; old boxhead surveys
 *include box   ; first legs commented out
@@ -61,11 +58,6 @@
 
 *include LUCCaven
 *equate Box3.067c luccaven.7a
-
-
-
-
-
 
 *equate	Lj01.010	Lj03.000
 *equate	Lj01.001	Lj02.000
@@ -137,15 +129,12 @@
 *equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
 *include Lj15
 
-
+*end	LostJohns
 
 
 ; the bruno nottsii connection with temporary version to be over-written
-*include lylecavernbruno ; to replace lylecaverndig
-*equate	lylecavernbruno.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
-
-*end	LostJohns
-
+; *include lylecavernbruno ; to replace lylecaverndig
+; *equate	lylecavernbruno.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)
 
 ;*include lylecaverndig
 ;*equate	lylecaverndig.20	box3.072	;20 is yellow tag at the junction with SE passage (Box3.072?)

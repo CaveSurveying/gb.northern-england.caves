@@ -1,6 +1,6 @@
 *begin leckfell
-*export witchesII.witchesII-7.x	;added 22/03/11RGB
 
+*export witchesII.witchesII-7.x	;added 22/03/11RGB
 
 ;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
@@ -19,8 +19,7 @@
 *include LostJohns/LostJohns
 *equate LostJohns.EntranceTag       leckfellsurfacesurvey.LostJohnsEntranceTag
 *equate LostJohns.BoxheadSurfaceRim leckfellsurfacesurvey.BoxHeadEntranceTube
-*equate LostJohns.lylecavernbruno.7 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50
-;*equate LostJohns.lylecaverndig2.7 NottsII.CountLazloALL.LostJohnsConnection.1  ; to delete
+*equate LostJohns.notts2nearconnection.1-0 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50
 
 *include RoughPot/RoughPot
 *equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
@@ -116,3 +115,6 @@
 
 *end leckfell
 
+; old superceded surveys
+; *equate LostJohns.lylecavernbruno.7 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50; superceded
+; *equate LostJohns.lylecaverndig2.7 NottsII.CountLazloALL.LostJohnsConnection.1  ; to delete

@@ -3,7 +3,7 @@
 
 *begin CountLazloALL
 
-*export LazloStrog1.052 BrunoKranskies1.tag TheCupcake.008 LostJohnsConnection.1 
+*export LazloStrog1.052 BrunoKranskies1.tag TheCupcake.008 
 *export BrunoKranskiesBoxheadConnection.50
 
 *include LazloStrog1
