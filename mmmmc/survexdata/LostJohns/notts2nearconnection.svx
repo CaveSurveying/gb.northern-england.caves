@@ -13,7 +13,6 @@
 ;*declination 0.0
 
 *data normal from to tape compass clino ignoreall
-*fix 1-0 0 0 0  ; default fix
 
 1-0	1-1	4.010	76.7	-19.8 ext:0.0,0.3,0.2 ; stn 1-0 is old station 50 from Notts II connection survey
 1-1	1-2	3.125	54.2	-24.0 ext:0.0,0.1,0.1 
