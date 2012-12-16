@@ -1,6 +1,9 @@
 
 *begin Lj14
-*export 001 015
+*export 015
+
+; cutting this survey loose as don't know exact point of connection
+;*export 001
 
 ;Cave: Lost Johns - Five Pitch Route 	
 ;Surveyors:	Beardy & Helen Blyth 
@@ -11,10 +14,11 @@
 *calibrate clino		+0.50
 *calibrate tape		 0.00
 
-001	00A	5.00	350	0   	;00A = choke at dstrm end of lost pot inlet
-001	00B	4.00	065	6	;00B = sight into pasage oxbow to lyle cavern/dstm  
-001	00C	8.00	140	0	;00C looking up lost pot inlet
-001	002	7.40	176	2	;001 cairn at junction start of inlet and lost pot inlet 
+;001	00A	5.00	350	0   ;00A = choke at dstrm end of lost pot inlet
+;001	00B	4.00	065	6	;00B = sight into pasage oxbow to lyle cavern/dstm  
+;001	00C	8.00	140	0	;00C looking up lost pot inlet
+;001	002	7.40	176	2	;001 cairn at junction start of inlet and lost pot inlet 
+
 002	003	9.50	238	0
 003	004	3.50	209	2
 004	005	4.35	222	0

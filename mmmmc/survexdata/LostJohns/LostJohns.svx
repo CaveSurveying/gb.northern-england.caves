@@ -2,7 +2,7 @@
 
 *begin	LostJohns
 
-*export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 ; lylecavernbruno.7 lylecaverndig2.7
+*export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 
 
 *entrance itsacracker.1-56
 *entrance boxheadentranceresurvey.1-60
@@ -28,9 +28,20 @@
 
 *include lj-tube ; most of the Tube passage
 *equate lj-tube.52x itsacracker3.1-52 
+*include tube2
+*equate tube2.1-0 lj-tube.49 
+*include lj-tube2
+*equate lj-tube2.8 tube2.1-8 
+*include notts2lylecaverntube
+*equate notts2lylecaverntube.1-24 lj-tube2.24x
+*equate notts2lylecaverntube.1-16 lj08.030
 
 *include notts2nearconnection ; From Notts II connection crawl to main T-junction and starting towards pitch into Lost Johns
 *equate notts2nearconnection.4-7 box3.072 
+
+*equate notts2nearconnection.1-14 lj15.013
+*equate notts2lylecaverntube.1-0   notts2nearconnection.4-18
+
 
 ; old boxhead surveys
 *include box   ; first legs commented out
@@ -49,7 +60,6 @@
 *include Box3
 *equate	box1.014	box3.001
 *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
-*equate	box3.072j	Lj08.030	
 
 ;*include Box4.svx   ; no connection for this survey of Lyle Cavern
 
@@ -118,18 +128,21 @@
 *equate	Lj12.000	Lj09.016  ; a repeat equate
 *include	Lj12
 
-*equate	Lj13.000	Lj14.001
-*include Lj13
+;*equate	Lj13.000	Lj14.001
+;*include Lj13
+;*equate	Lj14.001	Lj13.000	
 
-*equate	Lj14.001	Lj13.000	
 *equate	Lj14.015	Lj15.001	
 *include Lj14
 
-*equate Lj15.001	Lj14.015
-*equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
 *include Lj15
 
+
+
 *end	LostJohns
+
+;*equate	box3.072j	Lj08.030	
+;*equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
 
 
 ; the bruno nottsii connection with temporary version to be over-written
@@ -146,3 +159,17 @@
 ; *equate itsacracker-centrelineonly-beforeopentosurface.27 boxheadentranceresurvey.1-60  ; no notes, done for digging so replaced by itsacracker etc surveys
 
 
+;;; Surface survey if disconnecting pieces 
+;*flags surface
+;2	LostJohns.EntranceTag	8.20	059.0	-58	;Lost Johns Entrance Tag
+;3	2	27.10	346.0	0		;Stile
+;3	4	30.00	166.5	+2.5
+;5	4	30.00	345.0	-5.0
+;5	6	30.00	166.0	+2.0
+;7	6	30.00	010.0	-2.5
+;7	8	30.00	177.0	+3.0
+;9	8	30.00	018.0	+2.0
+;9	10	30.00	216.0	-6.5
+;11	10	30.00	331.0	-5.0	
+;11	12	30.00	179.0	-0.5
+;LostJohns.BoxheadSurfaceRim	12	9.10	290.0	+38.0		;centre of boxhead entrance tube

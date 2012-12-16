@@ -1,6 +1,8 @@
 
 *begin	Lj15
-*export 001 016
+*export 001 
+*export 013
+;*export 016
 
 ;Cave: Lost Johns Five Pitch Route 	
 ;Surveyors:	Sam Allshorn 
@@ -26,9 +28,11 @@
 011 	012 	8.46 	241 	+58	;bolt in right wall looking down pitch
 011 	010 	1.50 	012 	00
 013 	012 	1.80 	034 	-26	;013 onward is centre line only
-013 	014 	25.51 087 	+03
-015 	014 	16.57 255 	-01
-015 	016 	8.32 	047 	-01	;016 yellow tag at T junction in lyle cavern
+
+; resurveyed by notts2nearconnection
+;013 	014 	25.51 087 	+03
+;015 	014 	16.57 255 	-01
+;015 	016 	8.32 	047 	-01	;016 yellow tag at T junction in lyle cavern
 
 
 *end	Lj15

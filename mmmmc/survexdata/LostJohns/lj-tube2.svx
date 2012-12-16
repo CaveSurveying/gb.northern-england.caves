@@ -1,6 +1,5 @@
 *begin lj-tube2
-
-;*export 
+*export 8, 24x
 
 *title "From station 8 when DistoX ran out of battery as trying to finish last section surveying the Tube at end near Lyle Caverns, finishing at junction with inlet where end up in alternative pitch series up into Avens Passage"
 
