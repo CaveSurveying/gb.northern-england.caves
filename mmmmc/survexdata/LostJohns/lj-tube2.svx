@@ -27,7 +27,7 @@
 
 ;49x	3	1.5	1.5	1.3	r wall on stal, numbered, before start of low section
 
-8	-	-	-	-	not numbered, where DistoX battery died so couldn't continue with electronic surveying
+8	1.8 1.5 1 1 for srtn 8	not numbered, where DistoX battery died so couldn't continue with electronic surveying; note LRUD on PDA so transferred onto here from tube2 survex file
 9	2.1	1.2	1	0.9
 10	0.2	5	0.5	1.2
 11	0.2	2	0.3	1.1
