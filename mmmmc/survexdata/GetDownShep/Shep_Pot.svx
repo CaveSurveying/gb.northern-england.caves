@@ -3,16 +3,15 @@
 ;cave Get Down Shep Pot
 ;Title: Get Down Shep Pot
 
-*export shep_pot_1.D2
+*export GetDownShep1.6-20
 
-*include Shep_Pot_1   
+*include GetDownShep1
 
-*include Shep_Pot_2
-
-;*include shep_pot_3 
-
-*equate Shep_Pot_2.0 Shep_Pot_1.D2
-	
+; first 2 files superceded by getdownshep (same data for most of it, ie for Shep_Pot_2 at least)
+;*export shep_pot_1.D2; *include Shep_Pot_1   
+; *include Shep_Pot_2
+; *include shep_pot_3 
+;*equate Shep_Pot_2.0 Shep_Pot_1.D2
 ;*equate shep_pot_2.7 shep_pot_3.1
 
 *end Shep_Pot
