@@ -1,5 +1,6 @@
-*begin getdownshep
-*export 0
+
+*begin GetDownShep1
+*export 6-20
 
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;
 ;Notes: Di Arthurs (check)
@@ -12,7 +13,6 @@
 				;54.1994n 2.5124w  2012.10.28
 
 *data normal from to tape compass clino ignoreall
-*fix 1-3 67064 78046 372  ; GPS as per Tim ;RGB 27/12/12
 
 1-3	1-4	1.161	29.4	-35.2 ext:0.0,0.1,0.1 
 1-4	1-5	5.878	126.6	-35.9 ext:0.0,0.0,0.1 
@@ -152,5 +152,4 @@
 6-17	6-18	4.867	150.6	37.1 ext:0.0,0.2,0.1 
 6-18	6-19	1.798	33.0	24.3 ext:0.0,0.2,0.2 
 6-19	6-20	5.651	59.4	74.7 ext:0.0,0.1,0.5 
-
-*end getdownshep
+*end GetDownShep1
