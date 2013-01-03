@@ -25,11 +25,14 @@
 ;*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
 *equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
 
-; NEEDS FIXING - connection of boxheadentranceresurvey and this needs checking
 *include crestarun1
 *equate crestarun1.x itsacracker2.1-39  ; use this as leg to 1-40 may not have been very accurate on compass and otherwise it fits
 ;*equate crestarun1.1-40x itsacracker2.1-40
 ;*equate crestarun1.31 box1.014
+
+*include crestarun2
+*equate crestarun2.32x crestarun1.32
+*equate crestarun2.18  bypasscrestarun2.17
 
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 

@@ -32,7 +32,7 @@
 013	014	05.90	169.0	+02.0	;st.014=tag on floor decorated grotto pit in floor
 014	015	04.50	272.0	+06.5	;st.015 station between two pits
 
-015	015a	07.00	211.0	+09.0	;side passage between pits surveyed11/10/98 Beardy/Pete H./Ben
+015	015a	07.00	211.0	+09.0	;side passage between pits surveyed11/10/98 Beardy/Pete H./Ben ; Becka, Jan 2013, I think this leg tied in at wrong place, should have tied in as 014 to 015a
 
 015	016	07.95	352.5	-04.0
 016	017	05.80	261.0	 00.0	;st.017=tag start of Cresta Run

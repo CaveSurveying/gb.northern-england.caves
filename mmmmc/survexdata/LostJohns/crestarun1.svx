@@ -1,6 +1,6 @@
 *begin crestarun1
 
-*export x 31
+*export x 31 32
 
 *title "From old NOT numbered station on boulder at Kendal Flyover where Cresta Run crawl begins then up dig on left and to Bear Pit and up 2nd dig on left (think these are Venus and Serena digs)"
 
