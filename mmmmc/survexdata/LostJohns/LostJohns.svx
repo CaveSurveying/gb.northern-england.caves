@@ -27,8 +27,9 @@
 
 ; NEEDS FIXING - connection of boxheadentranceresurvey and this needs checking
 *include crestarun1
-;*equate crestarun1.x itsacracker2.1-41
-*equate crestarun1.31 box1.014
+*equate crestarun1.x itsacracker2.1-39  ; use this as leg to 1-40 may not have been very accurate on compass and otherwise it fits
+;*equate crestarun1.1-40x itsacracker2.1-40
+;*equate crestarun1.31 box1.014
 
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
@@ -56,21 +57,19 @@
 
 
 ; old boxhead surveys
-*include box   ; first legs commented out
+*include box   ; first legs commented out 
 ;*equate box.015 BoxheadSurfaceRim
-*equate	box.007	box1.001
 
 ; kendal extensions
-*include Box1  ; some legs commented out
-*equate	box1.005 itsacracker2.1-39
+*include Box1  ; some legs commented out ; RL have now included these legs back in, see comments in file
+*equate	box1.005 crestarun1.x
+*equate	box1.014 crestarun1.31
 ;*equate	box1.001	box.007
 
 *include Box2
 *equate	box1.027	box2.009
-*equate	box2.009	box1.027
 
 *include Box3
-*equate	box1.014	box3.001
 *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
 
 ;*include Box4.svx   ; no connection for this survey of Lyle Cavern
@@ -116,7 +115,7 @@
 *equate	Lj07.046	Lj09.001
 *include	Lj07    ; identical to RD's Lj07
 
-*Equate	Lj08.001	Lj06.000
+*equate	Lj08.001	Lj06.000
 *equate	Lj08.001	Lj07.001
 *equate	Lj08.030	box3.072j
 *include	Lj08    ; identical to RD's Lj08
@@ -137,12 +136,10 @@
 *include	Lj11a
 
 *equate	Lj12.009	Lj11.025
-*equate	Lj12.000	Lj09.016  ; a repeat equate
 *include	Lj12
 
-;*equate	Lj13.000	Lj14.001
-;*include Lj13
-;*equate	Lj14.001	Lj13.000	
+*equate	Lj13.000	Lj14.001
+*include Lj13  
 
 *equate	Lj14.015	Lj15.001	
 *include Lj14
@@ -153,7 +150,6 @@
 
 ;*equate	box3.072j	Lj08.030	
 ;*equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern
-
 
 ; the bruno nottsii connection with temporary version to be over-written
 ; *include lylecavernbruno ; to replace lylecaverndig
@@ -167,7 +163,6 @@
 ;*equate	Lj20.1	box3.079
 ; *include itsacracker-centrelineonly-beforeopentosurface ; no notes, done for digging so replaced by itsacracker etc surveys
 ; *equate itsacracker-centrelineonly-beforeopentosurface.27 boxheadentranceresurvey.1-60  ; no notes, done for digging so replaced by itsacracker etc surveys
-
 
 ;;; Surface survey if disconnecting pieces 
 ;*flags surface

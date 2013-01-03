@@ -14,6 +14,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
+; x	1-40x	3.07	132	+02	; note this leg done the following day by Andy Chapman (inst) and  Becka (notes) on 2 Jan 2013 in crestarun2 survey in order to check which station x was for connection to rest of survey. Assume x was station 1-39 of itsacracker2 though compass a bit off
 x	10	2.05	263	-08
 10	11	3.42	185	+07
 11	12	5.35	232	-01
@@ -48,6 +49,7 @@ x	10	2.05	263	-08
 
 *data passage station left right up down ignoreall
 
+; 1-40x	-	-	-	-	Bolt just (15cm?) below phanger on L wall at Kendal Flyover, old station on itsacracker2 survey
 x	0.6	1.5	0.4	0.3	old unnumbered station on boulder tip at start of crawl from Kendal Flyover
 10	0.4	0.6	0.3	0.2
 11	0.3	1.2	0.2	0.4	l wall

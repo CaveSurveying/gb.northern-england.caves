@@ -1,5 +1,5 @@
 *begin	box1
-*export 001
+;*export 001
 *export 014
 *export 017
 *export 021
@@ -15,10 +15,10 @@
 
 ;start to	dist.	comass	clino	;comments
 
-;001	002	08.80	143.0	+01.0	;st001=tag box.007 pete hall/dave edland
-;002	003	00.55	250.0	 00.0	;knot on rope in large aven passages in roof, on R and L
-;003	004	09.95	 -	UP	;st.004 bolt top of pitch
-;004	005	04.10	292.0	+06.0	;st.005 start of crawl to Kendal Extensions
+001	002	08.80	143.0	+01.0	;st001=tag box.007 pete hall/dave edland ; RL - this seems suspicious, maybe tied in to wrong tag as 14m loop closure if add back in legs 002 to 003 to 004 to 005 so I have separated box from box1 as box data fits well with resurvey
+002	003	00.55	250.0	 00.0	;knot on rope in large aven passages in roof, on R and L
+003	004	09.95	 -	UP	;st.004 bolt top of pitch
+004	005	04.10	292.0	+06.0	;st.005 start of crawl to Kendal Extensions
 
 005	006	03.90	207.0	 00.0
 006	007	06.20	222.5	+05.0
