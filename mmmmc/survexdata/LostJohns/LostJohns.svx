@@ -17,16 +17,28 @@
 *include itsacracker3 	; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
 *equate itsacracker3.1-48	box.007	
 
+*include inletfrombaselostpot
+*equate inletfrombaselostpot.44x itsacracker3.1-44
+
 *include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
 *equate boxheadentranceresurvey.1-60	itsacracker.1-60 
-*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
+;*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
 *equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
+
+; NEEDS FIXING - connection of boxheadentranceresurvey and this needs checking
+*include crestarun1
+;*equate crestarun1.x itsacracker2.1-41
+*equate crestarun1.31 box1.014
 
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
 *equate bypasscrestarun.1-50 itsacracker3.1-50 
+*include bypasscrestarun2
+*equate bypasscrestarun.3-10 bypasscrestarun2.10x
+*equate bypasscrestarun2.17 Box3.017 ; eventually remove Box3 survey once resurvey complete
 
-*include lj-tube ; most of the Tube passage
+; the Tube passage
+*include lj-tube 
 *equate lj-tube.52x itsacracker3.1-52 
 *include tube2
 *equate tube2.1-0 lj-tube.49 
@@ -136,8 +148,6 @@
 *include Lj14
 
 *include Lj15
-
-
 
 *end	LostJohns
 

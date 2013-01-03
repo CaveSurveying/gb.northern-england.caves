@@ -4,7 +4,7 @@
 
 *begin bypasscrestarun
 
-*export 1-50
+*export 1-50 3-10 3-15
 
 *title "Bypass of Cresta Fun - From station near base of Boxhead main pitch from Its A Cracker survey to end of Cresta Run"
 
