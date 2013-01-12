@@ -19,6 +19,6 @@ a1	005	06.60	334.0	-41.0
 005	006	08.00	343.0	-03.0
 006	007	07.00	 -	DOWN	;st.007 is rebelay
 007	008	11.40	165.0	-60.0	;st.008 is top bolt at rebelay
-008	009	19.00	 -	DOWN	;st.009=box1.027 is bottom of Tantrum Aven
+008	009	19.00	 -	DOWN	;st.009=box1.027 is bottom of Tantrum Aven - Becka Jan 2012 replaced this equate with crestarun3. - note this is a bodged connection as unsure where stn 009 really was ... but possibly no more inaccurate than original connecting leg
 
 *end	box2

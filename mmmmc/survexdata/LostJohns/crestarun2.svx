@@ -1,6 +1,6 @@
 *begin crestarun2
 
-*export 32x 18
+*export 32x 18 22 21
 
 *title "Link surveys from start and end of Cresta Run and initial section of Epiglottis / Tantrum Aven area"
 

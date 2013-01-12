@@ -1,5 +1,5 @@
 *begin	box5
-*export 014a
+*export 014a 019
 
 ;Cave:	Boxhead- Epiglottis Grotto
 ;Surveyors:	Pete Hall/Beardy/Ben Shaw
@@ -24,14 +24,14 @@
 010	011	17.50	145.0	-09.0
 011	012	04.80	202.0	-18.0
 012	013	02.40	145.0	+19.0
-013	014	05.70	240.0	-07.0	;st014=crowbar
-014	014a	01.70	 -	UP	;st014a is head height on rope(made up leg)
+013	014a	05.70	240.0	-07.0	;st014=crowbar - Becka, Jan 2012, I've made this stn 14a rather than station 14 as in the original notes
+014	014a	08.20	 -	UP	;st014a is head height on rope(made up leg) ;	Becka - Jan 2012 - I think they've forgotten to add in the Crowbar Pitch leg .... just doesn't fit the resurvey data in elevation at all ... and, suspiciously, there is only a 1.7m up here whereas pitch should be 9.6m (from bolt to floor) or 8.9m (to y-hang knot) so I've changed the up from 01.70m in original file to 08.20m
 014	015	08.00	299.0	-15.0
 015	016	09.60	345.0	 00.0
 016	017	08.30	325.0	 00.0
 017	017a	04.70	046.0	+06.0
 017a	017b	03.00	026.0	 00.0	;st17-17b is Epiglottis
 017	018	08.40	329.0	-03.0
-018	019	03.70	143.0	 00.0	;st019 is sump
+019	018	03.70	143.0	 00.0	;st019 is sump - Becka reversed this leg 12.Jan.13 was 018 to 019 in original file
 
 *end	box5

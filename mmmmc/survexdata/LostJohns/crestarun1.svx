@@ -15,6 +15,8 @@
 ;from	to	tape	compass	clino	remarks
 
 ; x	1-40x	3.07	132	+02	; note this leg done the following day by Andy Chapman (inst) and  Becka (notes) on 2 Jan 2013 in crestarun2 survey in order to check which station x was for connection to rest of survey. Assume x was station 1-39 of itsacracker2 though compass a bit off
+; x	1-40x	3.073	112.2	-6.0 ; this leg done on 12 Jan 2012 by Becka using Distox as another check of this leg ... so distance looks good for Andy but he has dodgy comp and clino - the Distox reading is bang on compared to the itsacracker2.39 - 40 leg which is reassuring
+
 x	10	2.05	263	-08
 10	11	3.42	185	+07
 11	12	5.35	232	-01

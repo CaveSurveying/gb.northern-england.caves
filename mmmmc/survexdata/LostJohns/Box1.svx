@@ -1,10 +1,6 @@
 *begin	box1
-;*export 001
-*export 014
-*export 017
-*export 021
-*export 027
-*export 005
+
+*export 005 014 017 020 021 027 ; 001
 
 ;Cave:	Boxhead- cont. from bottom of main pitch
 ;Surveyors:	R.Duffy/P.Swire

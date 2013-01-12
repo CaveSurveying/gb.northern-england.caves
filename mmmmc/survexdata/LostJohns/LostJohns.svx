@@ -22,7 +22,7 @@
 
 *include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
 *equate boxheadentranceresurvey.1-60	itsacracker.1-60 
-;*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
+*equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
 *equate boxheadentranceresurvey.2-15	itsacracker3.1-49 
 
 *include crestarun1
@@ -33,6 +33,9 @@
 *include crestarun2
 *equate crestarun2.32x crestarun1.32
 *equate crestarun2.18  bypasscrestarun2.17
+
+*include crestarun3
+*equate crestarun3.1-0 crestarun2.22	; equate at upper of two left hand bolts for Crowbar Pitch
 
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
@@ -67,10 +70,12 @@
 *include Box1  ; some legs commented out ; RL have now included these legs back in, see comments in file
 *equate	box1.005 crestarun1.x
 *equate	box1.014 crestarun1.31
+*equate	box1.020 crestarun2.21
 ;*equate	box1.001	box.007
 
 *include Box2
-*equate	box1.027	box2.009
+;*equate	box1.027	box2.009
+*equate box2.009 crestarun3.1-9
 
 *include Box3
 *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
@@ -79,6 +84,7 @@
 
 *include Box5
 *equate	box5.014a	box1.021	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 - Becka 8.01.10
+*equate box5.019 crestarun3.1-41
 
 *include LUCCaven
 *equate Box3.067c luccaven.7a

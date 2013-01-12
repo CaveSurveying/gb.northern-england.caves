@@ -4,7 +4,7 @@
 
 *begin itsacracker2
 
-*export 1-26 1-39 1-40 1-41
+*export 1-26 1-39 1-40 ; 1-41
 
 *date 2012.10.26
 *team Instruments Andrew Atkinson
@@ -31,7 +31,7 @@
 1-37	1-38	5.309	313.62	-3.40	Roll:322	0	d3
 1-37	1-39	15.606	298.61	-60.27	Roll:347	0	d3
 1-39	1-40	3.046	110.96	-6.23	Roll:342	0	d3  ; stn 40 is bolt below p hanger on l wall at kendal flyover
-1-39	1-41	3.038	260.39	-2.02	Roll:347	0	d3
+; 1-39	1-41	3.038	260.39	-2.02	Roll:347	0	d3  ; superflous so commented out
 ; 1-39	1-42	18.637	333.85	62.36	Roll:343	0	d3 	; superflous so commented out
 
 ; splays 
