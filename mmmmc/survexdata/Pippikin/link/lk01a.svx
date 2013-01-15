@@ -11,11 +11,7 @@
 *equate	lk01a.008b lk01c.001 ;point on large boulder head height
 
 *begin	lk01a
-*export 009
-*export 014
-*export 008a
-*export 008b
-
+*export 009 014 008a 008b
 *calibrate compass		0.00
 *calibrate clino		0.00
 *calibrate tape		0.00
@@ -59,7 +55,8 @@
 011b	011ba	06.20	081.0	+03.0	;st011ba is end of choked phreatic tube in roof above ent to chamber
 
 011b	011c	03.20	276.0	+37.0	;st011c is in next small loose chamber up slope
-011c	011d	06.74	234.0	+02.0	;st011d is end of low loose bedding to right
+;011c	011d	06.74	234.0	+02.0	;st011d is end of low loose bedding to right (bearing incorrect in notes)
+011c	011d	06.74	334.0	+02.0	;st011d is end of low loose bedding to right (corrected bearing following resurvey 06/01/13)
 
 011	012	06.33	196.0	-14.0	;st012 is head height at slope down towards Echo (passage to left needs surveying)
 012	013	00.90	 -	DOWN
