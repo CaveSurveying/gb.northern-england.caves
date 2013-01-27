@@ -1,0 +1,42 @@
+*begin largetonorthendpotsurface
+
+*export KevinDixonGPSBolt 1-18
+
+;;; TRIP COMMENT FROM POCKETTOPO ;;;
+;  ; beckas distox 0.41 calibration 
+;Instr: julian todd and earl merson north end pot 
+; Start Large Pot kevin dixon GPS steel bolt
+; Finish North End Pot hangers on entrance pitch
+
+*date 2013.01.27
+
+*calibrate declination +2.36	;RL used R Bendall calculation of mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.11.05
+
+*data normal from to tape compass clino ignoreall
+
+*flags surface
+
+*equate KevinDixonGPSBolt 1-0
+
+1-1	1-0	6.413	275.7	-34.6	; stn 0 is Kevin Dixon's survey bolt just inside Large Pot entrance
+1-1	1-2	10.482	182.7	2.1
+1-2	1-3	30.170	162.5	3.4
+1-4	1-3	28.580	338.4	-2.8
+1-4	1-5	18.356	171.0	-2.7
+1-6	1-5	33.526	338.3	2.6  ; stn 6 just before turbary road  
+1-6	1-7	19.894	170.8	-2.6
+1-8	1-7	33.297	348.4	2.6
+1-8	1-9	29.338	172.6	-1.3
+1-10	1-9	26.082	331.4	-1.1
+1-10	1-11	17.316	163.5	-1.3
+1-12	1-11	23.636	354.7	5.6
+1-12	1-13	19.699	178.4	-3.4
+1-14	1-13	15.986	8.6	-1.0
+1-14	1-15	22.623	182.9	-3.4
+1-16	1-15	8.925	52.6	30.1  ; stn 16 at nail in back wall n end pot shakehole in between 2 holes  
+1-17	1-16	4.520	321.3	32.1
+1-17	1-18	1.731	203.5	-12.9  ; left hand of 2 pitch bolts for entrance pitch at North End Pot is stn 18  
+1-17	1-19	1.332	211.3	-14.1  ; right of 2 y hang bolts for entrance pitch at North End Pot is stn 19  
+
+*end largetonorthendpotsurface
