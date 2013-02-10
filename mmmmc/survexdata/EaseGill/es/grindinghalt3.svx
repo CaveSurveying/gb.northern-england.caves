@@ -2,9 +2,8 @@
 *equate grindinghalt3.20 grindinghalt1.21
 
 *begin 	grindinghalt3
-*export 0
-*export 20
-;*export 0 20
+
+*export 0 20
 
 *title "Grinding to a Halt 3"
 *team "George North" instruments 

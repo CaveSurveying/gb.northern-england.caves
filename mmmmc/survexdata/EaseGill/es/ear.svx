@@ -1,8 +1,8 @@
 ;All the Earby Series Files
 
 *begin	ear
-*export es.000
-*export wm.001
+
+*export es.000 wm.001
 
 *include	es
 *include	esb
@@ -41,6 +41,9 @@
 *include	es20a
 *include	wm
 *include	grind
+*include	gri01
+*include	gri02
+*include	gri03
 *include	darkside
 *include	grindinghalt1
 *include	grindinghalt3

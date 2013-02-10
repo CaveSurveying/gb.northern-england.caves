@@ -1,8 +1,8 @@
 *equate grindinghalt1.21 grindinghalt3.20
 
 *begin 	grindinghalt1
-*export 21
-;*export 21 0
+
+*export 0 21
 
 *title "Grinding to a Halt 1"
 *team "Becka Lawson" instruments 
@@ -54,6 +54,5 @@
 ;	19	1.5	0.3	0.6	0.5
 ;	20	1.1	0.1	0.2	1
 ;	21	1.2	0.4	0.5	0.7		miniledge on r wall with 2 plastic rawl plugs
-
 
 *end grindinghalt1
