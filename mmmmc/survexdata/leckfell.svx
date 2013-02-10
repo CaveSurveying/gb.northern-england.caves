@@ -116,11 +116,13 @@
 *include GetDownShep/Shep_Pot
 *fix Shep_Pot.GetDownShep1.6-20 67064 78046 372  ; TEMP - Becka, 27 Dec - this needs sorting with proper fix, this is apparently GPS to top of tallest scaff pole which was station 22 in the Shep_Pot_1 survey and I've tied it to the top station in the getdownshep1 survey but not clear where getdownshep1.6-20 actually is
 
-*include NorthEndPot/NorthEndPot
-*equate NorthEndPot.1 largetonorthendpotsurface.1-18 	; needs fixing with proper survey, this just a made-up survey
+*include NorthEndPot/NorthEndPotUnderground
+*equate NorthEndPotUnderground.1-x largetonorthendpotsurface.1-18 	; needs finishing 
 
 *end leckfell
 
 ; old superceded surveys
 ; *equate LostJohns.lylecavernbruno.7 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50; superceded
 ; *equate LostJohns.lylecaverndig2.7 NottsII.CountLazloALL.LostJohnsConnection.1  ; to delete
+; *include NorthEndPot/NorthEndPot
+; *equate NorthEndPot.1 largetonorthendpotsurface.1-18 	; needs fixing with proper survey, this just a made-up survey

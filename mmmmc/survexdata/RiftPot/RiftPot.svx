@@ -26,6 +26,7 @@
 *include RiftTowardsMousehole3
 *include CoatesPassage3
 *include CrystalInletStream
+*include ChisholmTrailCentral-1
 
 *include templeofdoom/templeofdoom
 
@@ -43,5 +44,6 @@
 *equate RiftTowardsMousehole3.21x RiftTowardsMousehole.21
 *equate CoatesPassage3.204x templeofdoom.riftpottod7.204
 *equate CrystalInletStream.53x RiftTowardsMousehole2.53
+*equate ChisholmTrailCentral-1.1-0 RiftPotEntrance.220
 
 *end RiftPot

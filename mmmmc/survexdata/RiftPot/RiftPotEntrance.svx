@@ -1,6 +1,6 @@
 
 *begin RiftPotEntrance
-*export 208 212 213 246
+*export 208 212 213 220 246
 
 *title "Rift Pot Entrance"
 *date 2009.11.28
