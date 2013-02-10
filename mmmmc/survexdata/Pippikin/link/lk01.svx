@@ -3,25 +3,18 @@
 ;Surveyors:	R.Duffy/P.Grant/I.Chittenden
 ;Instruments:	Red Rose Sunto Compass & Clino, PAG 30m Tape
 
-*equate	lk01.003	lk02.042
-*equate	lk01.020	lk04.000
-*equate	lk01.034	lk13.007
-;*equate	lk01.034	wm.001
-;*equate	lk01.001	sf5.014
-*equate	lk01.002 lk01a.008a ;base of ent. pitch
-*equate	lk01.008	lk01a.014 ;tag at start of passage to Echo Pot
-*equate	lk01.003 lk01a.009 ;tag at Bypus Bypass
+*equate	lk01.003 lk02.042
+*equate	lk01.020 lk04.000
+*equate	lk01.034 lk13.007
+;*equate lk01.034 wm.001	;Equate linking Easegill to Link / Pippikin moved to all.svx
+;*equate lk01.001 sf5.014
+*equate	lk01.002 lk01a.008a	;base of ent. pitch
+*equate	lk01.008 lk01a.014	;tag at start of passage to Echo Pot
+*equate	lk01.003 lk01a.009	;tag at Bypus Bypass
 
 *begin	lk01
-*export 003
-*export 002
-*export 001
-*export 020
-*export 008
-*export 034
-
+*export 001 002 003 008 020 034
 *fix 001 66850.69 80345.27 279.94 ;ev.sf5.014
-
 
 *calibrate compass	+5.13
 
@@ -44,7 +37,7 @@
 016	017	02.45	255.0	+05.5	;squeeze pass flake (check possible passage straight on)
 017	018	02.24	327.0	-19.0
 018	019	02.39	339.0	-24.0
-019	020	03.90	304.0	-37.0	;st020=tag(Echo Crawl on right)
+019	020	03.90	304.0	-37.0	;st020=tag (Echo Crawl on right)
 020	021	00.85	 -	UP
 021	022	04.85	260.0	-09.5	;over boulder (check passage straight on)
 022	023	04.00	342.5	-08.5
