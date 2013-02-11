@@ -4,7 +4,7 @@
 
 *begin Inlet8_3
 
-*export 1
+*export 1 5
 
 *title "Inlet 8"
 *date 2012.11.05
@@ -27,7 +27,8 @@
 2	3	2.02	304	-8
 3	4	3.97	255	+4
 4	5	4.06	301	0.0
-5	6	2.22	273	0.0
+;5	6	2.22	273	0.0	leg into dig superseeded by Inlet8_4 data.RGB 11.02.13
+
 
 *data passage station left right up down ignoreall
 

@@ -11,7 +11,10 @@
 
 *include Inlet8_3 
 
+*include Inlet8_4
+
 *equate Inlet8_1.8 Inlet8_2.1	
 *equate Inlet8_2.7 Inlet8_3.1
+*equate Inlet8_3.5 Inlet8_4.1
 
 *end Inlet8
