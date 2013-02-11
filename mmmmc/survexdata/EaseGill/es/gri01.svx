@@ -1,6 +1,6 @@
 ;Cave:		The Grind (Part 1)
 ;Surveyors:	T.Clayton (instr.)/R.Lawson (notes)
-;Date:		28/03/11
+;Date:		02/05/2011
 ;Instruments:	RL Compass/Clino/Tape30m(something missing)
 
 *equate	gri01.055 wm.017
@@ -10,7 +10,7 @@
 
 *export 000 014 036 037 046 055
 
-*date 2011.03.28
+*date 2011.05.02
 
 *calibrate compass	0.00
 *calibrate clino	0.00

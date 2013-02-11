@@ -1,6 +1,6 @@
 ;Cave:		Lancaster Hole - The Grind (part 1) "Top half of the Grind from the start of the Dark Side"
 ;Surveyors:	James Carlisle(notes)/Tom Clayton(Instr.)
-;Date:		??/04/11
+;Date:		28/03/2011 (as stated in gri01 notes)
 ;Instruments:	PAG + disto
 
 *equate gri02.045 gri01.000
@@ -11,7 +11,7 @@
 ;*export 001	;station no longer used due to resurvey
 *export 009 012 045
 
-;*date 2011.04.??
+*date 2011.03.28
 
 *calibrate compass	+6.00
 *calibrate clino	 0.00
