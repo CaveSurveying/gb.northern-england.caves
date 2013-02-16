@@ -77,7 +77,7 @@
 206	207	5.30	191	+3
 207	208	28.47	090	+1
 
-152 999	40.00	135	0  ; made up leg to show where inlet dig to Low Douk comes in
+;152 999	40.00	135	0  ; made up leg to show where inlet dig to Low Douk comes in
 
 *data passage station left right up down ignoreall
 
