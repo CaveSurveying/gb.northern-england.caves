@@ -20,6 +20,7 @@
 *include TheCupcake
 *include LazloStrog8
 *include LazloStrog9
+*include LazloStrog10
 
 *equate LimboPassage.001 LazloStrog1.039
 *equate LazloStrog1.001 LazloStrog2.7
@@ -34,6 +35,7 @@
 *equate BrunoKranskiesBoxheadConnection.19x BrunoKranskies2.19
 *equate LazloStrog1.007 LazloStrog8.001
 *equate LazloStrog3.47 LazloStrog9.001
+*equate LazloStrog2.1 LazloStrog10.12
 
 ; BELOW: dig and duplicate data from older surveys which didn't have notes drawn - CountLazlo superceded by Brunokranskies2 but sds and BrunoKranskie4 not superceded yet
 
