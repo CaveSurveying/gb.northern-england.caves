@@ -9,11 +9,12 @@
 ;instrument Simon's disto-x, calibration checked at start and end of survey session on an E-W leg with a 4 forward and 4 reverse readings (one on each face) error less than 0.5%
 
 
-
-
-
 *export getdownshep1_1.89
 *export getdownshep1_6.20
+
+*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2012.10.28
+
 
 *BEGIN getdownshep1_1			;;;From halfway down the 'challanger deep' (drill hole in middle of cross on RH wall) to just after the dodgy step over the pitch into 'Notts permitted'
 *export 0 5 89
