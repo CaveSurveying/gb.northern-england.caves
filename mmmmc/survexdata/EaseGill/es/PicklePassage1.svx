@@ -13,8 +13,9 @@
 
 *instrument Tom Clayton's Tandem Compass and Clino, RRCPC tape. 
 
-*calibrate compass 2.1	; Approximate magnetic variation for 2013
-*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+*calibrate compass +1.0	; Calibrated on 03/03/2013
+*calibrate clino   +0.5 ; Calibrated on 03/03/2013
+*calibrate tape    0.00	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks
 001	002	1.30	263 	-47	; 001= GrindEasyStRoofTube.045, small manky stal at start of passage into Grind 
