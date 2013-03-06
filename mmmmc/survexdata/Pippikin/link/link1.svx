@@ -1,10 +1,7 @@
 ;;Contains All Link Files
 
 *begin	link1
-*export lk01.034
-*export lk01.001
-*export lk03.044
-
+*export lk01.001 lk01.034 lk03.044 lk12.033
 
 *include	lk01
 *include	lk01a

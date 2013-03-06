@@ -7,9 +7,7 @@
 *equate	lk12.130a	lk10.044	;pointed boulder at start of Cobble Crawl
 
 *begin	lk12
-*export 001
-*export 130a
-
+*export 001 033 130a
 *calibrate compass	+5.00
 *calibrate clino	+0.50
 *calibrate tape		+1.00
