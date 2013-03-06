@@ -13,8 +13,8 @@
 
 *instrument RRCPC Sightmaster Comp and Clino set (Kit A)
 
-*calibrate compass	+5.0	;Instrumets not calibrated until 04/03/2013
-*calibrate clino	+0.5	;Instrumets not calibrated until 04/03/2013
+*calibrate compass	+5.0	;Instrumets not calibrated until 03/03/2013
+*calibrate clino	+0.5	;Instrumets not calibrated until 03/03/2013
 *calibrate tape		0.00	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks
