@@ -2,7 +2,7 @@
 
 *begin	aeg1
 
-*export ear.wm.001
+*export ear.wm.001 ear.grindeasystrooftube.001
 
 *export asf.sf5.014
 
