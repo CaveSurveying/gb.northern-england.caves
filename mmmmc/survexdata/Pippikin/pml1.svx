@@ -1,8 +1,8 @@
 ;Every Pipikin/Mistral/Link file
 
 *begin	pml1
-*export link1.lk01.001
-*export link1.lk01.034
+
+*export link1.lk01.001 link1.lk01.034 link1.lk12.033
 
 *equate	mis1.ms.018	pkn1.pip12.001
 *equate	mis1.ms4.004a	pkn1.pip12.001
