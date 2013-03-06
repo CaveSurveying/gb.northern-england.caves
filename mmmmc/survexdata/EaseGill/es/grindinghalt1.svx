@@ -9,6 +9,8 @@
 *team "James Carlisle" notes 
 *date 2007.07.17
 
+*calibrate compass 2.6	; Approximate magnetic variation for 2007
+
 1	0	6.79	214	+4
 2	1	4.98	171	+9
 3	2	4.59	164	+4

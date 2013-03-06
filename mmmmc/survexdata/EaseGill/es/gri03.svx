@@ -1,7 +1,7 @@
 ;Cave:		Lancaster Hole - The Grind (part 3) "Connection between Grind and Dark Side"
 ;Surveyors:	James Carlisle(notes)/Tom Clayton(Instr.)
 ;Date:		05/11/11
-;Instruments:	New clino/Silva prism top compass/tape
+;Instruments:	New clino/Silva prism top compass/tape (Later designated Kit A 2013.03.03 S.L.)
 
 *equate  gri03.019	gri02.009
 *equate  gri03.001	darkside.44
@@ -12,11 +12,13 @@
 
 *date 2011.11.05
 
-;*calibrate compass	
-;*calibrate clino	
-;*calibrate tape		
+*calibrate compass	+5.0	;Instruments not calibrated until 2013.03.03
+*calibrate clino	+0.5	;Instruments not calibrated until 2013.03.03
+*calibrate tape		00.0
 
-001	002 	03.01	175.0 	+02.0
+*units clino percent
+
+001	002 03.01	175.0 	+02.0
 002	003	02.94	208.0 	-01.0
 003	004	02.56	236.0 	-05.0
 004	005	02.93	187.0 	+01.0 
@@ -38,23 +40,22 @@
 *end	gri03
 
 ;st	  l	   r	  u	  d	comments
-;1	1.0	 0.7	 0 0	 0.3	 cross in ceiling marking the REAL start of the Dark Side survey
-;2	0.4	 0.5	 0.2	 0.2 
-;3	1.0	 0.1	 0.1	 0.4
-;4	0.5	 0.1	 0.1	 0.3
-;5	0.1	 0.4	 0.1	 0.3	 side passage here was pushed for about 3m to where capping needed to progress further
-;6	0.6	 0.2	 0 0	 0.4
-;7	0 0	 0.5	 0.1	 0.4
-;8	1.0	 0.2	 0 0	 0.5 
-;9	0.5	 0.4	 0 0	 0.3
-;10	0.9	 0.2	 0.5	 0.1
-;11	0.8	 1.0	 0.3	 0.1
-;12	0.1	 0.6	 0.2	 0.5
-;13	0.5	 0.8	 0 0	 0.6
-;14	1.0	 0.8	 0 0	 0.5
-;15	0.5	 1.0	 0 0	 0.4
-;16	0.8	 0.8	 0 0	 0.5
-;17	0.8	 0 0	 0.1	 0.7
-;18	0.5	 0.2	 0.1	 0.8 
-;19	0.4	 1.0	 0 0	 2.0	 cross in ceiling marking the tie-in to the clean passage
-
+;001	1.0	 0.7	 0 0	 0.3	 cross in ceiling marking the REAL start of the Dark Side survey
+;002	0.4	 0.5	 0.2	 0.2 
+;003	1.0	 0.1	 0.1	 0.4
+;004	0.5	 0.1	 0.1	 0.3
+;005	0.1	 0.4	 0.1	 0.3	 side passage here was pushed for about 3m to where capping needed to progress further
+;006	0.6	 0.2	 0 0	 0.4
+;007	0 0	 0.5	 0.1	 0.4
+;008	1.0	 0.2	 0 0	 0.5 
+;009	0.5	 0.4	 0 0	 0.3
+;010	0.9	 0.2	 0.5	 0.1
+;011	0.8	 1.0	 0.3	 0.1
+;012	0.1	 0.6	 0.2	 0.5
+;013	0.5	 0.8	 0 0	 0.6
+;014	1.0	 0.8	 0 0	 0.5
+;015	0.5	 1.0	 0 0	 0.4
+;016	0.8	 0.8	 0 0	 0.5
+;017	0.8	 0 0	 0.1	 0.7
+;018	0.5	 0.2	 0.1	 0.8 
+;019	0.4	 1.0	 0 0	 2.0	 cross in ceiling marking the tie-in to the clean passage

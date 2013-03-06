@@ -13,9 +13,11 @@
 
 *date 2011.03.28
 
-*calibrate compass	+6.00
+*calibrate compass	+5.00
 *calibrate clino	 0.00
 *calibrate tape		 0.00
+
+*units clino percent
 
 ;stations 1-8 removed because survey was redone on 05_11_11 because had problems reading instruments on first few legs
 ;001	002	03.20	135.0	-15.0

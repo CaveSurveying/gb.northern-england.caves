@@ -1,7 +1,7 @@
 ;Cave:		The Grind (Part 1)
 ;Surveyors:	T.Clayton (instr.)/R.Lawson (notes)
 ;Date:		02/05/2011
-;Instruments:	RL Compass/Clino/Tape30m(something missing)
+;Instruments:	R.L. Compass/Clino/Tape30m(something missing)
 
 *equate	gri01.055 wm.017
 *equate	gri01.000 gri02.045
@@ -12,9 +12,11 @@
 
 *date 2011.05.02
 
-*calibrate compass	0.00
+*calibrate compass	2.25	; Approximate magnetic variation for 2011
 *calibrate clino	0.00
 *calibrate tape		+0.20
+
+*units clino percent
 
 000	001	00.88	261.0	-55.0	;st000=45x on a previous survey
 001	002	01.20	018.0	-26.0

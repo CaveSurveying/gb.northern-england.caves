@@ -2,7 +2,7 @@
 
 *begin	ear
 
-*export es.000 wm.001
+*export es.000 wm.001 grindeasystrooftube.001
 
 *include	es
 *include	esb
@@ -47,5 +47,8 @@
 *include	darkside
 *include	grindinghalt1
 *include	grindinghalt3
+*include	GrindEasyStRoofTube
+*include	GrindEasyStRoofTube2
+*include	PicklePassage1
 
 *end	ear
