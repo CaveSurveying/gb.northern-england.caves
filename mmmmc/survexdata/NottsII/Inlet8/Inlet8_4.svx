@@ -4,7 +4,7 @@
 
 *begin Inlet8_4
 
-*export 1
+*export 1 4
 
 *title "Inlet 8"
 *date 2013.02.11
@@ -26,7 +26,7 @@
 1	2	3.38	271	-6
 2	3	3.86	287	0.0
 3	4	1.49	240	+10
-4	5	2.48	285	-5
+;4	5	2.48	285	-5	superceeded by Inlet8_5 data
 
 4	6	1.60	208	+16
 6	7	3.50	-	up
@@ -37,7 +37,7 @@
 2	0.0	0.5	0.4	0.8	;LH Wall
 3	0.5	0.0	1.6	0.7	;PUCRAB
 4	0.3	0.8	0.0	0.7	;roof pendant at Junction
-5	0.1	0.2	0.1	0.2	;end of dig
+;5	0.1	0.2	0.1	0.2	;end of dig	superceeded by Inlet8_5 data
 
 6	0.1	0.4	3.5	0.9	;up rift
 
