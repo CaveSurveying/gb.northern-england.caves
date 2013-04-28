@@ -1,6 +1,6 @@
 *begin ChisholmTrailCentral-1
 
-*export 1-0
+*export 1-0 1-22
 
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;
 ;  ; beckas distox 0.41 calibration 
@@ -37,7 +37,7 @@
 1-18	1-19	7.715	158.7	1.9
 1-19	1-20	6.909	177.1	0.1
 1-20	1-21	4.133	183.4	0.1
-1-22	1-21	5.122	59.9	2.1
-1-22	1-23	2.172	252.0	-7.1 ext:0.1,0.2,0.2   ; 22 numbered on right wall just before junction    ; stn 23 unmarked shot into too low stream  
+1-22	1-21	5.122	59.9	2.1	; 22 numbered on right wall just before junction    
+1-22	1-23	2.172	252.0	-7.1 ext:0.1,0.2,0.2   ; stn 23 unmarked shot into too low stream  
 
 *end ChisholmTrailCentral-1
