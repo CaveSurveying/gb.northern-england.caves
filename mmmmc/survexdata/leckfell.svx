@@ -81,6 +81,8 @@
 
 *equate RiftPot.SoutheastInletConnection Ireby.SoutheastInletConnection
 
+*equate RiftPot.Rift-LowDoukConnection LowDouk.LowDouk-RiftConnection
+
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag which seemed to be missing in 2013; KevinDixonGPSBolt is Kevin Dixon's 3C13 survey bolt, s/s bolt+washer in bedrock in Large Pot entrance, washer stamped LARGE POT 3C13; this leg connects the RRCPC tag with the Kevin Dixon bolt in order to tie in the 2013 surface survey from Large to North End Pot

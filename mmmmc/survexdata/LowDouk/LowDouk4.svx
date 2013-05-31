@@ -5,6 +5,7 @@
 
 *title "Low Douk Streamway"
 
+*export 21	;Rift connection surveyed to here
 *date 2009.12.09
 
 *team Notes Dave Ramsay

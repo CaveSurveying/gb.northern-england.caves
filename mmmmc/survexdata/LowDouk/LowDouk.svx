@@ -3,7 +3,9 @@
 *begin	LowDouk
 
 *export EntranceTag
+*export LowDouk-RiftConnection
 *equate EntranceTag LowDouk1.s01
+*equate  LowDouk4.21 LowDouk-RiftConnection
 
 *include LowDouk1
 *include LowDouk2
@@ -29,5 +31,6 @@
 *equate lowdouktosump.13 lowdoukleftatsteps.13x
 ;*equate lowdouk1.002 lowdouk7.2x
 *equate lowdouk1.s01 lowdouk7.tag
+
 
 *end	LowDouk

@@ -4,6 +4,7 @@
 
 *export riftpottod7.208 riftpottod7.204
 *export RiftPotTOD1.7 ; rift-ireby connection
+*export riftpottodLowDoukConnection.1.19 ; Rift-Low Douk Connection
 
 *include riftpottod1
 *include riftpottod2
@@ -18,6 +19,7 @@
 *include DigOffToDAtStation164
 *include ChisholmTrailWestAndy
 *include ChisholmTrailWestDave
+*include riftpottodLowDoukConnection
 
 *equate RiftPotTOD1.72 RiftPotTOD2.72
 *equate RiftPotTOD1.67 RiftPotTOD3.z67
@@ -31,6 +33,7 @@
 *equate DigOffToDAtStation164.164x RiftPotTOD7.164
 *equate ChisholmTrailWestAndy.175x RiftPotTOD7.175
 *equate ChisholmTrailWestAndy.5 ChisholmTrailWestDave.10
+*equate riftpottodLowDoukConnection.1.0 RiftPotTOD7.153
 
 *end templeofdoom
 
