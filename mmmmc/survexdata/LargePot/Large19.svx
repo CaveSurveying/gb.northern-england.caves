@@ -1,7 +1,7 @@
 *begin Large19
-*export 9x
+*export 9x 17 32
 
-*title "Upstream of supposed Occult sump"
+*title "Eastern Front from dig through choke and nearly to crawl"
 *date 2013.05.24
 *team Instruments Becka Lawson
 *team Notes Neil Pacey
@@ -29,9 +29,9 @@
 15	13	3.00	312	-40
 16	15	9.00	017	+03
 17	16	1.45	085	-54
-18	17	4.56	008	-37
+; 18	17	4.56	008	-37 removed as superceded by Large20 survey
 ; 18	19	12.60	152	+49
-18	19	14.20	146	+51	; two shots up aven
+; 18	19	14.20	146	+51	; two shots up aven - removed both as superceded by Large20 survey
 20	15	4.98	290	-09
 21	20	16.69	309.5	+07
 
@@ -74,8 +74,8 @@
 15	8.9	1.8	0	1.7
 16	1.6	1	0.5	1.5
 17	1.8	0.5	0	1
-18	1.9	0	2.4	2
-19	-	-	-	-	up aven to area of initial boulder floor
+; 18	1.9	0	2.4	2
+; 19	-	-	-	-	up aven to area of initial boulder floor
 20	7	3.3	0	1.1
 21	3.8	8.4	2.4	1
 
@@ -90,7 +90,7 @@
 29	2.2	7	0.7	0.2
 30	2.2	5.1	1	0.2
 31	1	7	1.3	0.4
-32	3	8.1	0	1
+32	3	8.1	0	1 numbered
 33	8	3	1.5	0
 34	1.5	3	1	1.2
 

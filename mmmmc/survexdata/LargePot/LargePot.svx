@@ -33,6 +33,8 @@
 *include Large17
 *include Large18
 *include Large19
+*include Large20
+*include Large21
 *include TinkleInletNPC     ; note this is an April 1983 survey so it needs a different magnetic correction probably
 *include MouseholeBypass
 *include AboveRedHerring
@@ -69,5 +71,7 @@
 *equate OccultSeries1.25 OccultSeries2.25 
 *equate Large2.20 OccultSeries2.1 
 *equate Large11.9 Large19.9x
+*equate Large19.17 Large20.17x
+*equate Large19.32 Large21.32x
 
 *end LargePot
