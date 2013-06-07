@@ -18,6 +18,7 @@
 *equate	kh02.073	MSB.Rup1.001
 *equate	kh02.088	Darkside.kh03.088
 *equate	kh02.064	kh15.001
+*equate	MSB.JNC2.035	kh-jnc4.035
 
 *equate	KingsdalePassage.pt1.032	98extn.pt1.001
 
@@ -621,7 +622,6 @@
 *include kh14.svx
 *include kh15.svx
 *include kh16.svx
-
-
+*include kh-jnc4.svx
 
 *end  Keld_Head

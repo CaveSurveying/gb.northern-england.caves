@@ -2,7 +2,7 @@
 
 *begin	MSB
 
-*export Rup1.076 Rup1.001
+*export Rup1.076 Rup1.001 JNC2.035
 
 *equate Rup1.099 JNC1.001
 *equate JNC1.018 JNC2.001
@@ -158,7 +158,7 @@
 ;Surveyors:	John Cordingley
 *date 2008.02.19
 ;Instruments:	?
-*export 001
+*export 001 035
 
 *calibrate compass	+3.03
 
