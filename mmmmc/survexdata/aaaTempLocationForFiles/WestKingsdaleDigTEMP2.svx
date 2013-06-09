@@ -1,0 +1,26 @@
+*begin WestKingsdaleDig2
+
+;;; TRIP COMMENT FROM POCKETTOPO ;;;
+;  ; Di pda & Si distoX
+
+*date 2013.01.03
+;*declination 0.0
+
+*fix 4-0 68601 76144 393 ;entrance to first dig GPS by Chris Camm, probably Jan 2013, GPS accuracy 5m
+*entrance 4-4
+
+*data normal from to tape compass clino ignoreall
+
+*flags surface
+4-0	4-1	6.374	89.2	6.0
+4-1	4-2	4.216	78.6	-4.5
+4-2	4-3	4.017	55.8	8.2
+4-3	4-4	3.421	349.8	8.9
+*flags not surface
+
+4-4	4-5	1.340	187.4	-33.2  ; boulder above shaft   
+4-5	4-6	2.698	332.1	-59.3
+4-6	4-7	2.172	255.8	-12.6
+
+*end WestKingsdaleDig2
+

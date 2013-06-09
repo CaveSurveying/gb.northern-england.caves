@@ -121,6 +121,9 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include NorthEndPot/NorthEndPotUnderground
 *equate NorthEndPotUnderground.1-x largetonorthendpotsurface.1-18 	; needs finishing 
 
+*include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
+*include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
+
 *end leckfell
 
 ; old superceded surveys
