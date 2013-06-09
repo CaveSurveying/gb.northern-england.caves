@@ -1,5 +1,5 @@
 *begin Large19
-*export 9x 17 32
+*export 9x 17 27 32
 
 *title "Eastern Front from dig through choke and nearly to crawl"
 *date 2013.05.24
@@ -86,7 +86,7 @@
 26	3.8	4.4	0.5	0.5
 27	6.1	5.8	0.7	0
 
-28	5.7	-	1.2	0.5	I think right didn't make much sense. Down not written clearly
+28	5.7	-	1.2	0.5	I think right didn't make much sense. Down not written clearly; numbered
 29	2.2	7	0.7	0.2
 30	2.2	5.1	1	0.2
 31	1	7	1.3	0.4

@@ -17,6 +17,13 @@
 3	2	7.20	314	-21
 4	3	21.00	327	-12
 
+; remove following temp legs when surveyed properly - these shot up avens week after Large20 surveyed however not tied in properly to these stations
+4	5	53.16	170	+88.5	; to remove - temp leg up aven taken on 9/6/13 by Becka and George
+4	6	10.00	327	-12	; to remove - temp leg up aven taken on 9/6/13 by Becka and George
+6	7	55.13	089	+83	; to remove - temp leg up aven taken on 9/6/13 by Becka and George
+3	8	26.00	-	up
+2	9	16.98	241	+86
+
 *data passage station left right up down ignoreall
 
 1	1	0	6	1.6	NEIL - WHAT IS LEFT AND CHECK OTHERS

@@ -35,6 +35,8 @@
 *include Large19
 *include Large20
 *include Large21
+*include Large22
+*include Large23
 *include TinkleInletNPC     ; note this is an April 1983 survey so it needs a different magnetic correction probably
 *include MouseholeBypass
 *include AboveRedHerring
@@ -73,5 +75,8 @@
 *equate Large11.9 Large19.9x
 *equate Large19.17 Large20.17x
 *equate Large19.32 Large21.32x
+*equate Large22.32x Large19.32
+*equate Large22.27x Large19.27
+*equate Large23.20x Large21.20
 
 *end LargePot

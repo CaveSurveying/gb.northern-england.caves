@@ -1,5 +1,5 @@
 *begin Large21
-*export 32x
+*export 20 32x
 
 *title "Eastern Front through crawl"
 *date 2013.05.31
