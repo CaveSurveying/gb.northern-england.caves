@@ -1,0 +1,37 @@
+*begin Mohole3
+
+*export 9
+
+*title "The Mohole dig"
+*date 2013.06.15
+*team Frank Pearson and Tim Allen
+*instrument probably Tim Allen's instruments
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2        4.8  322  +30
+2	3        2.48  160  +86
+3	4        2.57  325  +19
+4	5        2.1  251  +13
+5	6        5.13  195  +85	; stations 1-6 inclusive were Tim Allen's old dig - these probably will now be back-filled in new digging project
+5	5a      2.6     -     down
+6	7        3.53  132  +51.5
+7	8        4.47  026  +56
+8	9        7.44  285  +57
+
+*data passage station left right up down ignoreall	
+
+1 - - - - roof pendant
+2 - - - - wall bracket
+3  - - - - stal
+4  - - - - wall
+5  - - - - shaft wall
+5a  - - - - shaft bottom
+6 - - - - pulley bolted to wall
+7 - - - - triangle with dot scratched on wall (bottom of pitch, south wall)
+8 - - - - first rebelay (north wall)
+9 - - - - old bolt (south wall, now with triangle scratched around it, bottom of main hang in gully, presume same station as previous survey)
+
+*end Mohole3

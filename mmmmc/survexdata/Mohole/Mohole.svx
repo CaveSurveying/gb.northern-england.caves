@@ -9,11 +9,13 @@
 
 *include Mohole1
 *include Mohole2
+*include Mohole3
 
 ;--------------------------------------------------------------------
 
 *equate Entrance Mohole1.3
 *equate Mohole1.1 Wall 
 *equate Mohole1.6 Mohole2.6x
+*equate Mohole3.9 Mohole2.11
 
 *end	Mohole

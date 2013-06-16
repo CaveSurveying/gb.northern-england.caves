@@ -1,6 +1,6 @@
 *begin Mohole2
 
-*export 6x
+*export 6x 11
 
 *title "The Mohole from the top of the first pitch to spit for final drop down, not enough rope for bottom!"
 *date 2011.11.26
@@ -24,7 +24,7 @@
 8	9	26.05	-	down
 10	9	4.56	350	+63
 10	11	3.59	140	-28
-11	12	6.00	140	-60	; guessed leg - REMOVE if resurvey - wasn't enough rope to descend and very loose
+; 11	12	6.00	140	-60	; guessed leg - REMOVE if resurvey - wasn't enough rope to descend and very loose; superceded by Tim Allen's Mohole3 survey
 
 *data passage station left right up down ignoreall		
 
@@ -40,6 +40,6 @@
 9	0	1.8	26	1.8	most of the way down the third pitch, numbered on wall
 10	0.5	0.5	30	1.9	scratched boulder wedged in rift as descend 
 11	1.4	0	20	2	old spit on R wall in rift, above where gets steeper for final 6m or so descent, NOT numbered
-12	-	-	-	-	not a real station, just guessed!
+; 12	-	-	-	-	not a real station, just guessed!
 
 *end Mohole2

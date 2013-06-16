@@ -1,0 +1,22 @@
+;Title: Illusion Pot
+
+;Date Created 16/06/2013 by Becka Lawson
+
+;-------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;All Illusion Pot files
+
+*begin IllusionPot
+
+*fix GPS 70011 76255 292 ;to stone on SW side of top of shakehole - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
+
+; *export Entrance
+
+; *include 
+
+; *equate GPS ...
+
+*end IllusionPot
