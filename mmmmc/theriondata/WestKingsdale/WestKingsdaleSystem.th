@@ -1,0 +1,29 @@
+encoding  utf-8
+survey WestKingsdaleSystem
+
+import West_Kingsdale_System.3d -surveys use -cs OSGB:SD
+
+input philcrawl1.th2
+input rowtenpassage1.th2
+input rowtenpassage2.th2
+input swinstosump.th2
+
+join philcrawlSP1 swinstosumpSP
+join swinstosumpSP rowtenpassageSP2 -count 2
+join philcrawlSP1 rowtenpassageSP1
+join rowtenpassageSP1 rowtenpassageSP2
+
+map philcrawl1M
+  philcrawlSP1
+  rowtenpassageSP1
+  rowtenpassageSP2
+  swinstosumpSP
+endmap
+
+
+#map philcrawl1ME
+#  philcrawl1SEe1
+#endmap
+
+endsurvey
+
