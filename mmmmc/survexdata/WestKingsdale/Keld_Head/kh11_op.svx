@@ -7,11 +7,12 @@
 
 *export 1
 
-*calibrate compass	+5.17
+*date 2000.04.08
+*calibrate declination +4.22
 
 *data diving from to bearing length fromdepth todepth
 
-1	2	203.0	01.35	-08.40	-08.30	;st001=Ruperts end of leg 075; ; Becka 05.02.11 - "belay at thin slab of rock" (assume this is station 2) from one of two lots of notes given me by Rupert of 08.04.00
+1	2	203.0	01.35	-08.40	-08.30	;st001=Ruperts end of leg 075 (end of leg means stn 076) ;Becka 05.02.11 - "belay at thin slab of rock" (assume this is station 2) from one of two lots of notes given me by Rupert of 08.04.00
 2	3	218.0	03.90	-08.30	-08.30	; Becka 05.02.11 - "belay at thin slab of rock" in one of two lots of notes given me by Rupert of 08.04.00
 3	4	221.0	03.30	-08.30	-08.30	; Becka 05.02.11 - "tiny lead weight" on one of two lots of notes given me by Rupert of 08.04.00 say distance 3.00
 4	5	215.0	05.40	-08.30	-08.30	; Becka 05.02.11 - "big lead weight" on one of two lots of notes given me by Rupert of 08.04.00

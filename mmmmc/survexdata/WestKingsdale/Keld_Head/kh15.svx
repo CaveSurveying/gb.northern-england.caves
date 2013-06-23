@@ -7,13 +7,14 @@
 
 *export 001
 
-*calibrate compass	+5.17
+*date 1999.08.04
+*calibrate declination +4.34
 
 *data diving from to bearing length fromdepth todepth
 
 001	002	202.0	03.00	-07.30	-05.70
 002	003	215.0	02.50	-05.70	-04.80
 003	004	242.0	02.50	-04.80	-04.20
-004	005	255.0	02.00	-04.20	-04.30	;st005 is where line deflects to the left at ebtry to fissure
+004	005	255.0	02.00	-04.20	-04.30	;st005 is where line deflects to the left at entry to fissure
 
 *end	kh15
