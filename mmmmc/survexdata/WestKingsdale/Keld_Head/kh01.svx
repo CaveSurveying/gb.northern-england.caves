@@ -9,7 +9,8 @@
 
 *entrance 001
 
-*calibrate compass	+5.17
+*date 1997.05.24
+*calibrate declination +4.75
 
 *data diving from to bearing length fromdepth todepth
 

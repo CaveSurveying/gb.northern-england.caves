@@ -7,7 +7,8 @@
 
 *export 159 171
 
-*calibrate compass	+5.45
+*date 1998.04.17
+*calibrate declination +4.59
 
 *data diving from to bearing length fromdepth todepth
 

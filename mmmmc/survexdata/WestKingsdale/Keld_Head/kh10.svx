@@ -7,7 +7,8 @@
 
 *export wp001 wp022
 
-*calibrate compass	+4.97
+*date 1999.05.05
+*calibrate declination +4.39
 
 *data diving from to bearing length fromdepth todepth
 
