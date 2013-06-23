@@ -618,10 +618,10 @@
 *include kh10c.svx
 *include kh11_op.svx
 *include kh12.svx
-*include kh13_msb.svx
+*include msb01.svx
 *include kh14.svx
 *include kh15.svx
 *include kh16.svx
-*include kh-jnc4.svx
+*include msb07.svx
 
 *end  Keld_Head
