@@ -7,12 +7,13 @@
 
 *export wp036 wp054
 
-*calibrate compass	+4.97
+*date 2000.03.19
+*calibrate declination +4.22
 
 *data diving from to bearing length fromdepth todepth
 
 wp036	wp037	005.0	11.60	+01.00	-01.40	;st wp036 is above water
-wp037	wp038	342.0	04.93	-01.40	-02.20
+wp037	wp038	342.0	04.93	-01.40	-02.00	;wp038 was given as -02.20, but is -02.00 on next leg. Corrected to -02.00 here. Footleg 17-Jun-2013
 wp038	wp039	346.0	01.25	-02.00	-02.20	;(A/B 2m beyond wp039 at 362.74m)
 wp039	wp040	336.0	04.56	-02.20	-02.20
 wp040	wp041	279.0	09.71	-02.20	-01.40

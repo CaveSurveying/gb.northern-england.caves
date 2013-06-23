@@ -7,7 +7,8 @@
 
 *export wp054 wp066
 
-*calibrate compass	+4.97
+*date 2000.03.23
+*calibrate declination +4.22
 
 *data diving from to bearing length fromdepth todepth
 
@@ -22,6 +23,7 @@ wp061	wp062	067.0	03.50	-06.60	-06.90
 wp062	wp063	045.0	01.40	-06.90	-06.90
 wp063	wp064	030.0	04.00	-06.90	-07.40
 wp064	wp065	009.0	03.20	-07.40	-07.40
-wp065	wp066	300.0	00.85	-07.40	-07.40	;stwp066=junction in Kingsdale Passage(also=same junction where original Woodings Passage line joins Kingsdale Passage via tight rift(original route) at 312.47m from base)
+wp065	wp066	300.0	00.85	-07.40	-7.3	;wp066 was -07.40 in original notes. But tie in stn in kh02 is at -7.3, so changed to that depth. Footleg 17-Jun-2013
+;stn wp066=junction in Kingsdale Passage(also=same junction where original Woodings Passage line joins Kingsdale Passage via tight rift(original route) at 312.47m from base)
 
 *end	kh10c

@@ -7,7 +7,8 @@
 
 *export wp022 wp036
 
-*calibrate compass	+4.97
+*date 1999.05.07
+*calibrate declination +4.39
 
 *data diving from to bearing length fromdepth todepth
 
@@ -24,7 +25,7 @@ wp031	wp032	265.0	02.00	-04.10	-04.10
 wp032	wp033	238.0	07.51	-04.10	-03.50	
 wp033	wp034	241.0	15.62	-03.50	-02.70	
 wp034	wp035	233.0	13.63	-02.70	-00.50	
-wp035	wp036	248.0	03.50	-00.50	+01.10		;(See note below)
+wp035	wp036	248.0	03.50	-00.50	+01.00	;wp036 was given as +1.10, but note below says it is +1.00, and next section in kb10b starts at +1.00 as well. Corrected here to +1.00. Footleg 17-Jun-2013
 ;wp036	wp037	001.0(this leg not yet completed)Station 36 = actual knot on line 30cm below roof belay ;at depth +01.00 (i.e. 1m above water).
 ;Station 36 is 342.96m from base. Sump from "700 ft airbell" to "1125 ft airbell" = approx 122m long
 
