@@ -1,13 +1,14 @@
-*begin kh-jnc4
+*begin JNC4
 *export 035
 
 *title "Southern Passage (aka Southern Branch); end of Marble Steps Branch"
-*date 2013.07.07
-*team Instruments Beardy (Paul Swire)
+*date 2013.06.07
+;*team Instruments Beardy (Paul Swire) ;Commented out, as seems unlikely as I am pretty sure JNC dived alone.
 *team Notes John N Cordingley
 *instrument Not known
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate declination +2.11
 
 ; from	to	bearing(mag)	dist (m)	 start depth	final depth
 *data diving from to bearing length fromdepth todepth
@@ -36,4 +37,4 @@
 ;Station 043 is 1350 m from base
 ;Station 051 is 1400 m from base, at current limit of exploration today
 
-*end kh-jnc4
+*end JNC4
