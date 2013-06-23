@@ -7,11 +7,12 @@
 
 *export 001 032
 
-*calibrate compass	+5.17
+*date 2003.02.27
+*calibrate declination +3.75
 
 *data diving from to bearing length fromdepth todepth
 
-001	002	035.0	17.40	-03.70	-05.00
+001	002	035.0	17.40	-04.70	-05.00 ; 001 depth in notes was -3.7, but tie in station is at -4.7, so changed to match. Footleg 17-Jun-2013
 002	003	043.5	03.20	-05.00	-05.30
 003	004	047.0	10.70	-05.30	-05.90
 004	005	030.0	03.90	-05.90	-05.80
@@ -41,6 +42,6 @@
 028	029	237.0	03.80	-03.50	-02.90
 029	030	196.0	07.80	-02.90	-03.90
 030	031	242.0	05.00	-03.90	-04.20
-031	032	221.0	01.35	-04.20	-04.20
+031	032	221.0	01.35	-04.20	-3.7   ; 032 depth in notes was -4.20, but tie in station is at -3.7, so changed to match. Footleg 17-Jun-2013
 
 *end	kh16
