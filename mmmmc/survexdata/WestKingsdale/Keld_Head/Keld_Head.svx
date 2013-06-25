@@ -31,7 +31,7 @@
 	*equate	kh01.001	kh12.017
 	*equate	kh01a.015	kh12.001
 	*equate	kh12.012	kh16.001
-	*equate	kh01a.001	kh16.032
+	*equate	kh01.029	kh16.032
 *end EntranceSeries
 
 *begin WoodingsPassage
