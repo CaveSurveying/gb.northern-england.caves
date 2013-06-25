@@ -24,7 +24,7 @@
 070	071	323.0	04.43	-08.2	-08.1
 071	072	304.0	10.61	-08.1	-08.1
 072	073	332.0	08.45	-08.1	-08.3
-;st 072 is line junction at "1100 ft Corner". Branch line to left = Marble Steps Branch but survey
+;st 073 is line junction at "1100 ft Corner". Branch line to left = Marble Steps Branch but survey
 ;continues upstream in Kingsdale Passage.
 073	074	026.0	08.08	-08.3	-08.5
 074 	075	037.0	12.41	-08.5	-08.7
