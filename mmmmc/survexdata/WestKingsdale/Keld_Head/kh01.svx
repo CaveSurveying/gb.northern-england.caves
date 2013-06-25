@@ -14,7 +14,7 @@
 
 *data diving from to bearing length fromdepth todepth
 
-001	002	237.0	05.10	 00.0	-02.0	;st001 = peg belay for diving line at Keld Head ent. pool
+001	002	237.0	05.10	 00.45	-02.0	;st001 = peg belay for diving line at Keld Head ent. pool ;Changed depth to 0.45 as notes state peg belay is o.45m above water level - Footleg, 24 Jun. 2013
 002	003	246.0	04.50	-02.0	-01.5
 003	004	266.0	06.00	-01.5	-03.5
 004	005	269.0	01.88	-03.5	-03.2

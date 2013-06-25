@@ -29,6 +29,6 @@
 015	016	185.0	00.34	-04.40	-04.40
 016	017	213.0	07.38	-04.40	-02.20
 017	018	178.0	01.87	-02.20	-01.20
-018	019	170.0	01.50	-01.20	-01.10	;st.019=kh01 st.010
+018	019	170.0	01.50	-01.20	-0.9   	;st.019=kh01 st.010 ;Original depth was -01.10, but changed to match depth of tie in station on main entrance line. Footleg 17-Jun-2013
 
 *end	kh01a
