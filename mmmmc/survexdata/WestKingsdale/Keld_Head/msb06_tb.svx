@@ -18,7 +18,7 @@
 	*calibrate declination +2.59
 
 	*data diving from to bearing length fromdepth todepth
-	001	002	55.0	2.50	-7.2	-7.3	;Start G2 001=450m
+	001	002	55.0	2.50	-7.2	-7.3	;Start G2 001=450m ;Note tie in station in main MSB passage is at -08.28m but it is not known how much water levels might differ between dives.
 	002	003	46.0	4.00	-7.3	-7.2	
 	003	004	9.0	8.50	-7.2	-7.6	
 	004	005	12.0	3.50	-7.6	-8.0	
@@ -123,6 +123,8 @@
 		065	066	201.0	8.00	-8.4	-8.3	
 		066	067	229.0	13.50	-8.3	-8.3	
 		067	068	230.0	6.00	-8.3	-8.4	;068=923m from base. Junction with 931m point in Great Western route. The '1000m' junction
+		;Note tie in station (079) in main MSB passage is at -9.1m but it is not known how much water levels might differ between dives.
+		;The difference in depth between the tie in points at the two ends of this route are at not quite the same. Footleg, 25 June 2013
 	*end pt3
 
 *end TubularBore
