@@ -10,6 +10,13 @@
 *equate	EntranceSeries.kh01.019	WoodingsPassage.kh10.wp001
 *equate	kh02.064 WoodingsPassage.kh10c.wp066
 *equate	kh02.073 MarbleStepsBranch.Rup1.001
+*fix kh02.073 69295.90 76727.19 244.06 ;Fixed MSB junction to force correct depth due to loop closure errors pulling diving data above water level. Footleg 26 Jun. 2013
+
+;Water level at Keld Head resurgence is 252.36m altitude.
+;KMC dive line belay is 1.2m above water level in diving data, but dry survey in KMC puts this at 267.37m (13.8m too high!).
+;Adding vertical adjustment to link between diving data and dry data makes things worse as the
+;bug in loop corrections with diving data in Survex actually pulls the depth of the deepest part
+;of the sump down by over 20m as it is. Adding an adjustment for the upstream end just makes this worse.
 
 *begin EntranceSeries
 	*export kh01.001 kh01.019 kh01.062

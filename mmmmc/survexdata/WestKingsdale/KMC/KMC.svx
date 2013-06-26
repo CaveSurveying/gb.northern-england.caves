@@ -14,11 +14,6 @@
 *equate	RowtenPassage.DistoXSumpTieIn.3 SwinstoSump.014
 *equate	RowtenPassage.Main.1 RowtenSumps.0
 
-*fix Master_Cave.1 69841.45 77676.67 261.2 
-;Fixed level of sump tie in to match level at resurgence plus depth reading for station so levels of all the underwater surveys are not displaced by loop correction
-;The X,Y coordinates were those take from the position of the station after loop correction of KMC data not attached to sump data.
-;These should be updated if KMC data is updated such that loops to this point would be affected.
-
 *BEGIN ValleyEnt
 *export 0
 
