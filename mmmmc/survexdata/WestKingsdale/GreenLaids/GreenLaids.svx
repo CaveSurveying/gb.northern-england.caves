@@ -5,11 +5,14 @@
 
 *begin	GreenLaidsPot
 
-*calibrate compass		+4.00
+*entrance 001 
+*fix 001 70000.0 78400.0 366.0
+
+*date 2005.10.17
+*calibrate declination +3.34
+
 *calibrate clino		 0.00
 ;*calibrate tape	
-
-*fix 001 70000.0 78400.0 366.0
 
 001	002	0.60	-	DOWN	;stn1 is rock nodule at N side of ent
 002	003	2.10	125	-35
