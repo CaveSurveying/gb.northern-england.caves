@@ -1,16 +1,25 @@
-*begin West_Kingsdale_System
+*begin wks ;West_Kingsdale_System
 
 *include KMC/KMC
 *include Swinsto/Swinsto
 *include RowtenCaves/RowtenCaves
 *include Yordas/Yordas
 *include GreenLaids/GreenLaids
+*include Aquamole/Aquamole
+*include UpstreamSumps/UpstreamSumps
+
+*equate	Aquamole.main.25 upstreamsumps.pt1.0
+
+*begin JinglingPot
+*entrance Ent_GPS
+*fix Ent_GPS	69907	78377	376; WAAS GPS 9 sats. FORKED BASE OF TWIN TREE PLUMB LINE  
+*end JinglingPot
 
 *begin RowtenPot
 ;Projected bottom of Rowten from GPS fix at eyehole
 ;105m deep
 ;Bottom 26m horizontally due East from eyehole gps fix
-*fix 1	69819.313	77999.344	359.221; WAAS GPS
+*fix 1	69820	78000	362; WAAS GPS 8 sats. EYEHOLE TREE ROOT
 *entrance 1
 1	2	94	90	-74.5
 
@@ -37,22 +46,19 @@
 *begin GPS_Fixes
 
 ;WAAS with good satelite coverage
-;28/04/2007
+;Footleg 28/04/2007
 
-*fix RowtenCave1_GPS	reference	69713.901	78012.946	371; WAAS GPS  
-*fix RowtenCave2_GPS	reference	69799.837	78014.271	370; WAAS GPS  
-*fix RowtenCave3_GPS	reference	69722.693	78020.343	373; WAAS GPS  
-*fix RowtenCave4_GPS	reference	69695.364	78001.941	365; WAAS GPS  
-;*fix RowtenPot1_GPS	reference	69819.313	77999.344	362; WAAS GPS  
-*fix RowtenPot2_GPS 	reference	69822.794	78032.703	364; WAAS GPS  
-*fix JinglingCave1_GPS	reference	69809.916	78227.514	368.216; WAAS GPS  
-*fix JinglingCave2_GPS	reference	69866.270	78364.343	370.214; WAAS GPS  
-*fix JinglingCave3_GPS	reference	69866.294	78368.014	370.214; WAAS GPS  
-*fix JinglingCave4_GPS	reference	69871.810	78373.542	371.214; WAAS GPS  
-*fix JinglingCave5_GPS	reference	69881.620	78377.261	372.214; WAAS GPS  
+*fix ApprenticePot_GPS	70251	78891	367; WAAS GPS 9 sats.
+*fix BullPot_GPS	70212	78748	361; WAAS GPS 9 sats. ROCK NOSE BY PBOLT PLUMB LINE  
+*fix CraftmansPot_GPS	70230	78861	370; WAAS GPS 9 sats. WHEELBARROW OVER ENT
+*fix KailPot_GPS	68759	76879	388;
+*fix PrimroseShakehole_GPS	70237	78802	366; WAAS GPS 9 sats. SHAKEHOLE CORUG IRON &PRIMOSES
+*fix SimpsonsPot_GPS	69620	77869	378; WAAS GPS 8 sats.
+*fix ShoutPot_GPS	70170	78698	365; WAAS GPS 10 sats.  ROTTING PLANKS & CORRUG IRON
+*fix TurburyPot_GPS	69508	77503	377; WAAS GPS 8 sats.
+*fix RowtenPot2_GPS 	69822.794	78032.703	364; WAAS GPS 8 sats. ROCK POINT
 
-*fix JinglingPot_GPS	reference	69907	78377	376; WAAS GPS  
-*fix AquamolePot_GPS	reference	69928	78340	375; WAAS GPS  
+;*fix Pot_GPS	x	y	z;
 
 *end GPS_Fixes
 
@@ -61,4 +67,4 @@
 *include Keld_Head/Keld_Head
 *equate	KMC.Master_Cave.1 Keld_Head.kh09.218
 
-*end  West_Kingsdale_System
+*end  wks ;West_Kingsdale_System
