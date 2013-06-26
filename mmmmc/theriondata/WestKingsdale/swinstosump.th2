@@ -136,7 +136,7 @@ endline
 line border -id l76-1618--2462
   1622.0 -2498.0
   1611.5 -2407.5
-  1634.5 -2326.5
+  1632.0 -2324.0
 endline
 
 line border -id l75-1797--2376
@@ -284,10 +284,10 @@ line wall -id l23-505--826
 endline
 
 area water
-  l23-505--826
   l26-614--807
-  l19-484--655
+  l97-454--619
   l28-412--641
+  l98-497--840
 endarea
 
 line wall -id l4-620--861
@@ -301,14 +301,28 @@ endline
 
 area pebbles
   l31-309--659
-  l23-505--826
   l28-412--641
-  l19-484--655
 endarea
 
+line border -id l98-497--840 -visibility off
+  365.0 -737.5
+  426.0 -864.0
+  534.0 -825.5
+endline
+
+line border -id l97-454--619 -visibility off
+  494.0 -664.0
+  471.0 -614.0
+  406.0 -628.5
+endline
+
 line border -id l31-309--659 -visibility off
+  406.0 -628.5
+  383.0 -574.0
   322.5 -598.5
   297.0 -702.5
+  310.0 -761.0
+  365.0 -737.5
 endline
 
 line border -id l28-412--641
