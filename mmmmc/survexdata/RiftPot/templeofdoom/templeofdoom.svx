@@ -14,8 +14,8 @@
 *include riftpottod7
 *include riftpottod8
 *include riftpottod9
+*include riftpottod10
 *include newriftdigtolowdouk
-*include riftpotKCCextensionsleft
 *include DigOffToDAtStation164
 *include ChisholmTrailWestAndy
 *include ChisholmTrailWestDave
@@ -29,7 +29,8 @@
 *equate RiftPotTOD7.159 NewRiftDigToLowDouk.2
 *equate RiftPotTOD8.41x RiftPotTOD6.41
 *equate RiftPotTOD9.99x RiftPotTOD2.99
-*equate riftpotKCCextensionsleft.195 riftpottod7.195
+*equate RiftPotTOD7.195 RiftPotTOD10.195x
+; *equate riftpotKCCextensionsleft.195 riftpottod7.195 ; superceded by RiftPotTOD10 survey
 *equate DigOffToDAtStation164.164x RiftPotTOD7.164
 *equate ChisholmTrailWestAndy.175x RiftPotTOD7.175
 *equate ChisholmTrailWestAndy.5 ChisholmTrailWestDave.10
@@ -39,3 +40,4 @@
 
 ;*include riftpottod5	; superceded by tod9
 ;*equate RiftPotTOD2.99 RiftPotTOD5.x99 ; superceded by tod9
+; *include riftpotKCCextensionsleft ; superceded by RiftPotTOD10 survey

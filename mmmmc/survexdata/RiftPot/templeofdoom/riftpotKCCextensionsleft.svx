@@ -1,3 +1,5 @@
+; SUPERCEDED BY RIFTPOTTOD10 SURVEY SO NOW COMMENTED OUT
+
 *begin riftpotKCCextensionsleft
 *export 195 
 
