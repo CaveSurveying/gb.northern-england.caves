@@ -15,7 +15,10 @@
 *include WestKingsdale/West_Kingsdale_System
 
 ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
-*include Barbondale\barbondale
+*include Barbondale\Barbondale
+
+;East Kingsdale - added 07/07/13 by Becka
+*include EastKingsdale\EastKingsdale
 
 ; Richard forgot to check in this file!
 ;*include 3cgps

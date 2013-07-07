@@ -11,12 +11,13 @@
 
 *begin IllusionPot
 
-*fix GPS 70011 76255 292 ;to stone on SW side of top of shakehole - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
+*export Entrance
+*entrance Entrance
 
-; *export Entrance
+*fix gps 70011 76255 292 ;to stone on SW side of top of shakehole - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
 
-; *include 
-
-; *equate GPS ...
+*include illusion_1 
+*equate gps illusion_1.gps
+*equate Entrance illusion_1.lid
 
 *end IllusionPot

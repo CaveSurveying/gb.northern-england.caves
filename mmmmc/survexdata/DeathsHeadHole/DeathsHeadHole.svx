@@ -4,12 +4,14 @@
 
 *begin DeathsHeadHole
 
-*export DeathsHead_1.FencePostTag
+*export DeathsHead_1.FencePostTag Entrance
+*entrance Entrance
 
 *include DeathsHead_1  
 *include DeathsHead_2
 *include DeathsHead_3LJSump
 
+*equate DeathsHead_1.001 Entrance
 *equate DeathsHead_1.010 DeathsHead_2.1 
 *equate DeathsHead_2.18 DeathsHead_3LJSump.18x
 
