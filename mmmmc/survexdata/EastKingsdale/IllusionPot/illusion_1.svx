@@ -1,0 +1,118 @@
+*begin illusion_1
+
+*export gps lid 42
+
+*title "East Kingsdale - Illusion Pot - from entrance through to hanger at far end of duck"
+*date 2013.07.07
+*team Instruments Julian Todd
+*team Notes Becka Lawson
+*instrument Becka's Distox
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+
+gps	lid	3.58	201	-17
+
+*flags not surface
+
+lid	1	11.13	343	-83
+2	1	3.37	132	+30
+2	3	2.60	326	-49
+4	3	4.29	064	+84
+5	4	3.43	333	+41
+6	5	3.75	093	+85
+
+6	42	1.80	322.5	+02
+
+7	6	3.32	210	-02
+7	8	9.55	232	0
+9	7	3.52	203	+03
+9	10	4.60	163	-10
+11	9	14.52	212.5	+04.5
+12	11	15.95	242	+01
+12	13	2.72	090	+36
+13	14	11.97	129	+25
+14	15	3.00	-	up
+16	12	7.96	187	-01
+17	16	5.96	225	-01
+18	17	12.88	246	+01
+19	18	4.14	268	+08.5
+20	19	4.39	213	-10.5
+21	20	5.99	245	+04
+22	21	10.93	247	+01
+23	22	11.11	238	+02
+24	23	7.29	239	+00.5
+23	25	5.00	011	+06
+26	24	6.39	228	+03
+27	26	9.76	253	0
+28	27	10.61	235	0
+
+28	29	5.05	131	+49
+28	30	6.86	342	+15
+31	30	7.09	205	+01
+32	31	3.20	278	+17
+32	33	9.87	345	+22
+34	32	3.14	178	-03
+35	34	3.60	289	+03
+36	35	5.55	258	-03
+36	37	5.61	146	+13
+38	36	3.87	202	+06
+39	38	9.71	209	+01
+40	39	3.26	208	-04
+40	41	1.66	341	+42
+
+*data passage station left right up down ignoreall 
+
+gps	-	-	-	-	rock in shakehole where took gps
+lid	-	-	-	-	point on inner ring of concrete tube at entrance opposite the midpoint of the left and right steps down the tube
+1	0.75	0.25	11	0	base of entrance concrete pipe and first (two ladders	
+2	0.6	0.7	0	1	l wall
+3	1.2	0	1.2	6	in roof, level with 3rd rung down of 2nd ladder
+4	0.4	0.5	7	1.8	base of 2nd ladder
+5	0.6	0.1	1	3.7	top of 3rd ladder
+6	2.5	1.2	8	0.2	base of 3rd ladder
+7	1.6	0.5	1	0.5	junction with low crawl off back under entrance and main way ahead, on stump of stal, the highest of about 3 and only one directly under a broken stalagtite with pencil number 7
+8	0.5	0.5	0.2	0.2	unmarked up low crawl, needs surveying properly then take this station out
+9	0.5	1.8	0.4	0.8	boulder tip
+10	-	-	-	-	inlet, too tight to enter
+11	0.4	1.8	0.9	0.1	floor of main passage
+12	1	2.3	1.2	0.2	bottom tip of large, obvious stalagtite at junction
+13	0.3	06	2.3	1.5	tip of boulder
+14	0.3	0	3	1.8	numbered on right wall, end of inlet
+15	-	-	-	-	unmarked at top of drippy inlet with boulders in
+16	0.4	2.5	0.4	0.5	l wall
+17	0.6	1.5	0.4	0.8	l wall
+18	0.6	1.2	0.3	1.1	l wall
+19	1.9	0.5	1.1	0.8	corner of r wall
+20	0.5	0.5	0	1.8	l wall at stal and start of mud crawl
+
+21	0.8	0.3	0.3	0.5 low crawl
+22	2	0.4	1.5	0.4	stal boss at end of low mud crawl
+23	1.8	0.4	1.1	0.8	r mud bank; can't really read the down but definitely 0.something
+
+24	1.5	1.3	1	1.1
+25	-	-	-	-	end of side alcove
+26	3	0.5	0.6	1.2
+27	2.5	0.7	0.5	0.7	down unclear
+28	5	4	5	2.5
+29	-	-	-	-	end of alcove
+30	-	-	-	-	end of alcove
+31	0.4	2	1.5	1.6
+32	3	1	6	0.3	
+33	-	-	-	-	end of side alcove
+34	0.1	1	0.3	0.3 start of low crawl with hosepipe and after initial dam (but not duck)
+
+35	2	0	1	0.1 still in low crawl
+36	3	4	3	0.5 in mini chamber inbetween two low crawls
+37	-	-	-	-	base of drippy tight high inlet
+38	0	2	0.4	0.4 start of rope through duck
+39	0.4	0.4	0.2	0.4
+40	1.1	1.9	0.6	0.2 end of duck section
+41	0	1	2	1	bolt at end of rope through duck
+
+42	0.5	2.5	0	0.3	numbered in roof at start of low crawl, remainder needs surveying
+
+*end illusion_1
