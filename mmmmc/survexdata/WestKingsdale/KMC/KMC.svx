@@ -1,5 +1,6 @@
 *begin KMC
 *export	Master_Cave.1
+*export Roof_Tunnel.003
 
 *equate	ValleyEnt.0 Roof_Tunnel.002
 *equate	Roof_Tunnel.052 Window_Aven.B7a
@@ -463,6 +464,7 @@
 
 *begin Roof_Tunnel
 *export 002 017 052 054
+*export 003
 
 ;Cave:	Valley entrance-Kingsdale 
 ;Surveyors:	R.Duffy/Pete Grant
@@ -474,6 +476,7 @@
 ;*fix 002 69908.00 77410.00 279.00 ;GPS Footleg  369908.00 477410.00 279.00
 
 ;*entrance 002
+
 
 ;001	002	03.17	116.5	+03.0
 002	003	02.48	293.0	-14.5	;st002 is start of drum 

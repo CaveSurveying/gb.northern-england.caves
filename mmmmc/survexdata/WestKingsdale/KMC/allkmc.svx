@@ -1,0 +1,11 @@
+; local file which should eventually import all the sub-surveys when they are separated into separate files
+
+*include KMC
+
+; surveys done by CUCC on pre-2013 expo survey practice weekend
+*include valleyentrance
+*include milkyway
+
+*equate KMC.Roof_Tunnel.003 valleyentrance_cucc.15
+*equate milkyway_cucc.1 valleyentrance_cucc.1
+
