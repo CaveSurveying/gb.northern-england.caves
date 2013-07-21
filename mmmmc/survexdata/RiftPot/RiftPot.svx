@@ -32,6 +32,10 @@
 
 *include templeofdoom/templeofdoom
 
+*include CoatesSecondhandstreamway
+
+
+
 *equate RiftPotEntrance.208 CoatesCavern.208x
 *equate RiftPotEntrance.213 CoatesCavern.213x
 *equate RiftPotEntrance.212 CoatesPassage1.212x
@@ -49,5 +53,7 @@
 *equate ChisholmTrailCentral-1.1-0 RiftPotEntrance.220
 *equate ChisholmTrailCentral-1.1-22 ChisholmTrailRest-1.22x
 *equate templeofdoom.riftpottodLowDoukConnection.1.19 Rift-LowDoukConnection
+
+*equate CoatesPassage3.11 CoatesSecondhandstreamway.11
 
 *end RiftPot

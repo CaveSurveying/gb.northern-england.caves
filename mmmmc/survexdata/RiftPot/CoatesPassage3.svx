@@ -1,5 +1,5 @@
 *begin CoatesPassage3
-*export 204x
+*export 204x 11
 
 *title "CoatesPassage3 dig at end of Coates Cavern and climb down in hole through boulders"
 *date 2011.12.29
