@@ -1,0 +1,12 @@
+;Include file for East Kingsdale caves
+;Created by Becka 07/07/2013
+
+*begin EastKingsdale
+
+*include IllusionPot/IllusionPot
+
+; *include CrescentPot/CrescentPot
+
+; *include KingPot/KingPot
+
+*end EastKingsdale
