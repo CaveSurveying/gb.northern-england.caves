@@ -37,6 +37,9 @@
 *include crestarun3
 *equate crestarun3.1-0 crestarun2.22	; equate at upper of two left hand bolts for Crowbar Pitch
 
+*include crestarun4
+*equate crestarun4.7x crestarun3.1-7	; equate at bottom of Tantrum Aven
+
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
 *equate bypasscrestarun.1-50 itsacracker3.1-50 
@@ -73,9 +76,10 @@
 *equate	box1.020 crestarun2.21
 ;*equate	box1.001	box.007
 
-*include Box2
+;*include Box2	; this survey now replaced by crestarun4 survey in Aug 2013
 ;*equate	box1.027	box2.009
-*equate box2.009 crestarun3.1-9
+;*equate box2.009 crestarun3.1-9
+;*equate box2.004 crestarun4.4x
 
 *include Box3
 *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10

@@ -1,6 +1,6 @@
 *begin crestarun3
 
-*export 1-0 1-41 1-9
+*export 1-0 1-41 1-9 1-7
 
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;
 ;  ; beckas distox 0.41 calibration 
