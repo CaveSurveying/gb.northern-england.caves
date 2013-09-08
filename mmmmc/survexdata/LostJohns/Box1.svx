@@ -39,8 +39,8 @@
 020	020a	03.40	264.0	+11.0	;beyond Crowbar Pitch surveyed11/10/98 Beardy/Pete H./Ben
 020a	020b	06.10	188.0	 00.0	;ends in sandy choke
 
-020	021	07.20	 -	DOWN	;st.021 is head height bottom of rope
-021	022	02.30	270.0	-30.0
+020	021	07.20	 -	DOWN	
+021	022	02.30	270.0	-30.0 ;st.021 is head height bottom of rope
 022	023	06.75	153.0	-11.0	;st.023 is boulder at start of tight crawl
 023	024	03.90	153.0	 00.0
 024	025	08.00	163.0	+04.0	;st.025 is boulder on floor emerging fromtight crawl

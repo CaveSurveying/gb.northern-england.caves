@@ -41,10 +41,12 @@
 *equate crestarun4.7x crestarun3.1-7	; equate at bottom of Tantrum Aven
 
 *include crestarun5
-*equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
+; *equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
+*equate crestarun5.44x crestarun6.44x	; equate at numbered station in Epiglottis Grotto
 
 *include crestarun6
-*equate crestarun6.44x crestarun2.44	; check the numbered for cresta2 as clino readings looked dodgy and very different to the original RRCPC data; equate at numbered station in Epiglottis Grotto
+*equate crestarun6.20x crestarun2.20
+; *equate crestarun6.44x crestarun2.44	; check the numbered for cresta2 as clino readings looked dodgy and very different to the original RRCPC data; equate at numbered station in Epiglottis Grotto
 
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
@@ -93,7 +95,7 @@
 ;*include Box4.svx   ; no connection for this survey of Lyle Cavern
 
 *include Box5
-*equate	box5.014a	box1.021	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 - Becka 8.01.10
+*equate	box5.014a	box1.020	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 rather than to box.021 - Becka 8.01.10 - Becka made this change 8.sept.2013 and it fixes the difference between the old RRCPC and new data
 *equate box5.019 crestarun3.1-41
 
 *include LUCCaven
