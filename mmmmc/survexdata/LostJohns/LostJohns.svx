@@ -63,10 +63,11 @@
 
 *include notts2nearconnection ; From Notts II connection crawl to main T-junction and starting towards pitch into Lost Johns
 *equate notts2nearconnection.4-7 box3.072 
-
 *equate notts2nearconnection.1-14 lj15.013
 *equate notts2lylecaverntube.1-0   notts2nearconnection.4-18
 
+*include lylecavernupperseries1
+*equate lylecavernupperseries1.tag notts2nearconnection.4-7
 
 ; old boxhead surveys
 *include box   ; first legs commented out 
