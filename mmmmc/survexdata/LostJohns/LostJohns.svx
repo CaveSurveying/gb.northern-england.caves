@@ -41,12 +41,7 @@
 *equate crestarun4.7x crestarun3.1-7	; equate at bottom of Tantrum Aven
 
 *include crestarun5
-; *equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
-*equate crestarun5.44x crestarun6.44x	; equate at numbered station in Epiglottis Grotto
-
-*include crestarun6
-*equate crestarun6.20x crestarun2.20
-; *equate crestarun6.44x crestarun2.44	; check the numbered for cresta2 as clino readings looked dodgy and very different to the original RRCPC data; equate at numbered station in Epiglottis Grotto
+*equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
 
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
@@ -78,10 +73,10 @@
 ;*equate box.015 BoxheadSurfaceRim
 
 ; kendal extensions
-*include Box1  ; some legs commented out ; RL have now included these legs back in, see comments in file
-*equate	box1.005 crestarun1.x
-*equate	box1.014 crestarun1.31
-*equate	box1.020 crestarun2.21
+; *include Box1  ; some legs commented out ; RL have now included these legs back in, see comments in file
+; *equate	box1.005 crestarun1.x
+; *equate	box1.014 crestarun1.31
+; *equate	box1.020 crestarun2.21
 ;*equate	box1.001	box.007
 
 ;*include Box2	; this survey now replaced by crestarun4 survey in Aug 2013
@@ -90,13 +85,8 @@
 ;*equate box2.004 crestarun4.4x
 
 *include Box3
-*equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
-
-;*include Box4.svx   ; no connection for this survey of Lyle Cavern
-
-*include Box5
-*equate	box5.014a	box1.020	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 rather than to box.021 - Becka 8.01.10 - Becka made this change 8.sept.2013 and it fixes the difference between the old RRCPC and new data
-*equate box5.019 crestarun3.1-41
+; *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
+*equate	box3.001	crestarun2.tag	; new equate so can get rid of box1, will get rid of box3 eventually too
 
 *include LUCCaven
 *equate Box3.067c luccaven.7a
@@ -168,6 +158,17 @@
 *include Lj15
 
 *end	LostJohns
+
+; *include crestarun6	; no longer needed once worked out that compass readings were 010 out for 6 legs in cresta2 survey which this re-did
+; *equate crestarun6.20x crestarun2.20
+; *equate crestarun6.44x crestarun2.44	; check the numbered for cresta2 as clino readings looked dodgy and very different to the original RRCPC data; equate at numbered station in Epiglottis Grotto
+; *equate crestarun5.44x crestarun6.44x	; equate at numbered station in Epiglottis Grotto
+
+;*include Box4.svx   ; no connection for this survey of Lyle Cavern
+
+; *include Box5	; now replaced by crestarun surveys 
+; *equate	box5.014a	box1.020	; Pete Hall emailed a correction suggesting instead it should be box5.014 to box1.020 rather than to box.021 - Becka 8.01.10 - Becka made this change 8.sept.2013 and it fixes the difference between the old RRCPC and new data
+; *equate box5.019 crestarun3.1-41
 
 ;*equate	box3.072j	Lj08.030	
 ;*equate Lj15.016	Box3.072	;tag at T junction Lyle Cavern

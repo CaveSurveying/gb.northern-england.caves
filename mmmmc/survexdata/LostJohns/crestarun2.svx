@@ -1,9 +1,9 @@
 *begin crestarun2
 
-*export 32x 18 20 22 21 44
+*export 32x 18 20 22 21 44 tag
 
 *title "Link surveys from start and end of Cresta Run and initial section of Epiglottis / Tantrum Aven area"
-; NOTE!!!! Something went wrong with the readings from station 20 into Epiglottis grotto. These readings were repeated in cresta6 file and these repeated readings fitted well with the original RRCPC readings (box5). Not sure what went wrong since earlier readings fitted well with the RRCPC data
+; NOTE!!!! Something went wrong with the readings from station 20 into Epiglottis grotto. These readings were repeated in cresta6 file and these repeated readings fitted well with the original RRCPC readings (box5). Not sure what went wrong since earlier readings fitted well with the RRCPC data so have just corrected the compass readings on 3 legs here
 
 *date 2013.01.02 ; Jan 2nd
 *team Instruments Andy Chapman
@@ -35,7 +35,7 @@
 17	18	1.78	020	-04
 
 3	19	5.36	268	+03
-19	20	9.34	255	0
+19	20	9.34	255	0	 
 20	21	6.98	238	-05	
 22	21	0.86	304	-50	; clino written as 050, have assumed this must be +50 as quite steep from knot for Y hang up to bolt
 21	23	6.37	-	down	; remove this leg when have proper survey
@@ -47,23 +47,26 @@
 26	28	4.10	-	up
 28	29	2.00	-	up
 
-20	30	1.65	282	-17
+; *sd compass 30 degrees
+
+20	30	1.65	272	-17	; 282 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
 ;30	31	1.07	339	-24	; leg discarded as poor for next leg
 
-30	32	1.40	323	-12
-32	33	4.51	032	+14
-34	33	1.73	175	-41
-34	35	11.02	329	+10
-35	36	5.20	327	-05
-36	37	8.90	346	+31
-37	38	2.01	205	+27
-38	39	3.54	240	+03
-39	40	2.49	208	+06
-40	41	3.95	196	-25
-40	42	3.16	302	-03
+30	32	1.40	313	-12	; 323 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
+32	33	4.51	022	+14	; 032 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
+34	33	1.73	165	-41	; 175 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
+34	35	11.02	319	+10	; 329 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
+35	36	5.20	317	-05	; 327 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
+36	37	8.90	336	+31	; 346 original compass, 010 degrees removed as compass discrepancy between RRCPC data and cresta6 check
 
-42	43	10.57	223	+04
-43	44	2.45	330	+02
+37	38	2.01	205	+27	
+38	39	3.54	240	+03	
+39	40	2.49	208	+06	
+40	41	3.95	196	-25	
+40	42	3.16	302	-03	
+
+42	43	10.57	223	+04	
+43	44	2.45	330	+02	
 
 *data passage station left right up down ignoreall
 

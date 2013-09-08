@@ -1,0 +1,31 @@
+*begin lylecavernupperseries1
+
+*export tag 10
+
+*title "Survey from RRCPC tag at junction of Helictite Rift with Notts II connection along main passage to top of climb down, so along Avens Passage"
+
+*date 2013.09.08
+*team Instruments Steve Woods
+*team Tape Andy Chapman
+; actually Steve Woods did Distox and Andy Chapman read conventional compass and clino so could double check them both
+*team Notes Becka Lawson
+
+*instrument Becka's Distox and Becka's tandem comp and clino 
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+tag	1	9.31	153	+03	; Andy 153	+02
+1	2	12.95	152	+03.5	; Andy 149	+01
+2	3	18.41	144	+10	; Andy 144	+07
+3	4	12.96	158	-12	; Andy 163	-14
+4	5	1.58	023	-48	; Distox only
+5	6	2.65	082	-02	; Distox only
+6	7	4.08	129	+05	; Distox only
+
+*data passage station left right up down ignoreall
+
+
+
+*end lylecavernupperseries1
