@@ -5,7 +5,7 @@
 
 *include IllusionPot/IllusionPot
 
-; *include CrescentPot/CrescentPot
+*include CrescentPot/CrescentPot
 
 ; *include KingPot/KingPot
 

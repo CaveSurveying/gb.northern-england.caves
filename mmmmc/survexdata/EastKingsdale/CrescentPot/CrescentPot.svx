@@ -1,22 +1,19 @@
+*begin CrescentPot
+
+*export Entrance
+
 ;Title: Crescent Pot
 
 ;Date Created 16/06/2013 by Becka Lawson
 
-;-------------------------------------------------------------------------------------------
-;Modifications
-;
-
-;--------------------------------------------------------------------------------------------
 ;All Crescent Pot files
-
-*begin CrescentPot
 
 *fix GPS 70545 76594 393 ;to peaty "step" near top of shakehole, just above steps - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
 
-; *export Entrance
+*equate Entrance crescent_1.2
 
-; *include 
+*equate GPS crescent_1.gps
 
-; *equate GPS ...
+*include crescent_1
 
 *end CrescentPot

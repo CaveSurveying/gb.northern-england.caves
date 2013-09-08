@@ -40,6 +40,12 @@
 *include crestarun4
 *equate crestarun4.7x crestarun3.1-7	; equate at bottom of Tantrum Aven
 
+*include crestarun5
+*equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
+
+*include crestarun6
+*equate crestarun6.44x crestarun2.44	; check the numbered for cresta2 as clino readings looked dodgy and very different to the original RRCPC data; equate at numbered station in Epiglottis Grotto
+
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
 *equate bypasscrestarun.1-50 itsacracker3.1-50 

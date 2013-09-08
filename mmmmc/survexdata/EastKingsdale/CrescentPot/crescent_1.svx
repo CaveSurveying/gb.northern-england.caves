@@ -1,0 +1,55 @@
+*begin crescent_1
+
+*export gps 2 15
+
+*title "East Kingsdale - Crescent Pot - from entrance GPS through to bottom of stone stairs (old 3rd pitch) at start of low crawl"
+*date 2013.09.07
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*instrument Becka's Distox
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+
+1	gps	4.51	224	-06
+gps	2	5.79	336	-33	; notes say 1 to 2 but wrong
+
+*flags not surface
+
+2	3	2.07	071	-30
+3	4	1.20	291	-39
+4	5	3.60	043	-59.5
+5	6	7.10	326	-87
+6	7	0.83	168	+12
+7	8	1.37	225	-46
+8	9	9.89	292	-70
+9	10	1.15	081	-64
+10	11	3.82	029	-50
+12	11	12.36	114	+53
+13	12	3.05	318.5	+74
+14	13	3.21	195	+48.5
+15	14	1.76	158	+68	
+
+*data passage station left right up down ignoreall 
+
+1		-	-	-	-	top of mossy lump at lip of shakehole
+gps		-	-	-	-	Peat undercut at lip of shakehole on SE side relative to entrance
+2	0	0.3	-	1.8
+3	1.2	0	1	2	bolt for first pitch
+4	0	1.2	2	1.8	down might be 0.8
+5	0.4	0	3	7	
+6	0.7	0	8	0.5
+7	0.4	0.6	5	1
+8	1.5	1.5	1	8
+9	0	1.8	8	1.3
+10	0.3	1.5	5	2.5
+11	0.5	0	5	1.8 numbered
+12	1.3	2	7.7	3 numbered
+13	1.6	0.2	1.4	0	
+14	0.5	0	0.5	1.8 numbered, top of final climb down
+15	0	1.2	2	0.2	numbered at base of stone steps, ready to sight into low crawl
+
+*end crescent_1

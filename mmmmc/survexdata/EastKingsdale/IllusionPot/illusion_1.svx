@@ -28,7 +28,7 @@ lid	1	11.13	343	-83
 6	42	1.80	322.5	+02
 
 7	6	3.32	210	-02
-7	8	9.55	232	0
+; 7	8	9.55	232	0	; superceded by illusion_2 survey
 9	7	3.52	203	+03
 9	10	4.60	163	-10
 11	9	14.52	212.5	+04.5
@@ -75,7 +75,7 @@ lid	-	-	-	-	point on inner ring of concrete tube at entrance opposite the midpoi
 5	0.6	0.1	1	3.7	top of 3rd ladder
 6	2.5	1.2	8	0.2	base of 3rd ladder
 7	1.6	0.5	1	0.5	junction with low crawl off back under entrance and main way ahead, on stump of stal, the highest of about 3 and only one directly under a broken stalagtite with pencil number 7
-8	0.5	0.5	0.2	0.2	unmarked up low crawl, needs surveying properly then take this station out
+; 8	0.5	0.5	0.2	0.2	unmarked up low crawl, needs surveying properly then take this station out ; now superceded by illusion_2 survey
 9	0.5	1.8	0.4	0.8	boulder tip
 10	-	-	-	-	inlet, too tight to enter
 11	0.4	1.8	0.9	0.1	floor of main passage

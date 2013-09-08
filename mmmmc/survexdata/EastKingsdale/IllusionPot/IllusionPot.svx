@@ -20,4 +20,7 @@
 *equate gps illusion_1.gps
 *equate Entrance illusion_1.lid
 
+*include illusion_2
+*equate illusion_1.42 illusion_2.42x
+
 *end IllusionPot
