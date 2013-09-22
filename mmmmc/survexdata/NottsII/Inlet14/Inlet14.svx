@@ -5,6 +5,9 @@
 
 *export Inlet14_1.stal
 
-*include Inlet14_1   	
+*include Inlet14_1 
+  	
+*include Inlet14_2
+*equate Inlet14_1.9 Inlet14_2.9x
 
 *end Inlet14

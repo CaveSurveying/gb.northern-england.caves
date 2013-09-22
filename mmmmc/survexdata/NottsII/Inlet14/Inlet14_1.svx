@@ -1,10 +1,10 @@
+*begin Inlet14_1
+
+*export Stal 9
+
 ; Locn:	Leck Fell
 ; Cave:	Notts II
 ; Inlet 14
-
-*begin Inlet14_1
-
-*export Stal
 
 *title "Inlet 14"
 *date 2012.02.11
