@@ -20,6 +20,9 @@
 *include inletfrombaselostpot
 *equate inletfrombaselostpot.44x itsacracker3.1-44
 
+*include trenchtown
+*equate inletfrombaselostpot.6 trenchtown.1-0
+
 *include boxheadentranceresurvey ; resurvey from Boxhead entrance to base of main pitch
 *equate boxheadentranceresurvey.1-60	itsacracker.1-60 
 *equate boxheadentranceresurvey.2-12	itsacracker2.1-39 
