@@ -17,7 +17,7 @@
 1	44x	1.92	298	-15
 2	1	3.84	227	-05
 2	3	8.99	021	-04
-3	4	5.25	355	-05
+; 3	4	5.25	355	-05 superceded by downfromtrenchtown survey
 5	2	7.63	331	-03
 
 ; *flags splay
@@ -34,7 +34,7 @@
 1	1.5	1	1.2	0.5	hole to chamber on right
 2	1.5	1.2	0	1.2	at junction / corner
 3	1.4	1.4	0	0.5	numbered in roof before pool starts
-4	1	1	0.2	0.1	unmarked in pool, continues but best surveyed when drier
+; 4	1	1	0.2	0.1	unmarked in pool, continues but best surveyed when drier
 5	2	1.2	0.5	0.6	edge of main chamber still (just boulders between this "passage" and main chamber)
 6	1.5	0.5	0.1	0.5	yellow RRCPC tag and numbered
 ; 7	1.5	0.5	0.2	0.4	just below (10cm below) tag

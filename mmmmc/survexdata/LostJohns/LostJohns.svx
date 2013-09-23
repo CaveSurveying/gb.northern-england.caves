@@ -15,7 +15,7 @@
 *equate itsacracker2.1-40	itsacracker3.1-40
 
 *include itsacracker3 	; Bottom part of Its A Cracker from around Kendal Flyover in to connect to RRCPC yellow tag at start of passage to tube, base of Boxhead Pitch
-*equate itsacracker3.1-48	box.007	
+; *equate itsacracker3.1-48	box.007	; box now not needed
 
 *include inletfrombaselostpot
 *equate inletfrombaselostpot.44x itsacracker3.1-44
@@ -76,7 +76,7 @@
 *equate lylecavernupperseries1.tag notts2nearconnection.4-7
 
 ; old boxhead surveys
-*include box   ; first legs commented out 
+; *include box   ; first legs commented out 
 ;*equate box.015 BoxheadSurfaceRim
 
 ; kendal extensions
