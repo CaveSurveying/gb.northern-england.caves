@@ -29,7 +29,7 @@ x	diveline	6.11	080	-10
 
 x			3	10	0.5	1.2	station 22 of WitchesII-3 ... but 1m away if tie in to z so haven't tied in and no liquid paper to mark original station (Becka marked it on 31/12)
 z			6	6	3	1.7	station 21 of WitchesII-3 - was a bit of liquid paper marking this station so am confident this one is correct
-diveline	3	2.5	0.5	0.5	upstream diveline tied off on right of main flow as look upstream
+diveline	3	2.5	0.5	0.5	upstream diveline tied off on right of main flow as look upstream; probably Jasonn's station 4 from 12/10/13 survey
 water		0.5	0	4	0	unmarked point at water level about a metre before sump pool ends as it goes under rock towards Witches
 
 *end WitchesII-7
