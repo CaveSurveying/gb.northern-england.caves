@@ -1,11 +1,11 @@
 *begin alcovesump
 
-; *export 
+*export 4
 
 ;Cave:	Shuttleworth Pot
 ;Surveyors:	Jason Mallinson Emma Heron
 ;Title "House of the Rising Sump"
-;Date:	sump various trips in 2013, dry passage data 12/10/13
+;Date:	sump data from various trips in 2013, dry passage data from 12/10/13
   
 ;Instruments:	Suunto Compass & Clino Tandem (beardys) , 30m tape	
 
