@@ -1,0 +1,72 @@
+*begin illusion_2
+
+*export 42x 25
+
+*title "East Kingsdale - Illusion Pot - upstream from bottom of entrance ladders to junction with mud crawl on R and blasted inlet ahead"
+*date 2013.09.07
+*team Instruments Becka Lawson
+*team Notes Neil Pacey
+*instrument Becka's Distox
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	42x	6.42	048	+0.5
+2	1	2.94	034.5	-04
+3	2	3.58	108.5	-19
+4	3	5.14	134	-10
+5	1	1.10	339	+09
+6	5	3.03	351.5	+11	; hard to read compass and clino
+7	6	3.99	041	-01
+8	7	5.23	057	-01
+9	8	2.97	074	-01
+10	9	5.60	330	-02
+11	10	4.53	345.5	-01
+11	top	6.64	193	+62
+12	11	5.02	200	-30
+11	13	2.33	056	-03
+14	13	5.21	004	-02
+15	14	3.40	032.5	0
+16	15	4.32	344	0
+17	16	5.33	070	-01 ; hard to decide if clino 0 or -01 as corrected
+18	17	3.15	039	+01
+19	18	0.57	117	+08
+20	19	3.42	012	-0.5
+21	20	3.67	054	-03
+22	21	5.76	073	-02
+23	22	5.04	047.5	-02
+24	23	1.97	034	+04.5
+25	24	3.50	070.5	+03
+
+*data passage station left right up down ignoreall 
+
+42x	-	-	-	-	numbered old station in roof, base of entrance climbs down
+1	1.4	0.3	0.2	0.1
+2	1.2	1	1.4	0	
+3	1	1.5	1	0.2
+4	1.2	0.5	0.3	0.3
+5	-	-	-	- one LRUD forgotten, unclear if was 5 or 7
+6	1	0.3	0.3	0
+7	0.7	1	0.3	0
+8	1.6	1	0.6	0.1
+9	0.5	1	0.2	0.1
+10	0.5	0.7	0.3	0.2
+11	5	2	6	0.1 cross rift with avens
+top	0	0.5	3	1.5 distox shot up to top of aven
+12	2	1.5	6	1.8
+13	0	2	0.3	0.1
+14	0.1	1.2	0.2	0.2
+15	1	0.2	0.2	0.2
+16	0.5	0.5	0.3	0.3
+17	0.3	0.3	0.4	0.3 top of distinctive rock "bridge" in passage
+18	0.4	0.6	0.4	0.2
+19	0.6	0.4	0.4	0.2
+20	0	0.5	0.4	0.2 numbered
+21	0.1	0.4	0.3	0.3
+22	0.3	0.4	0.1	0.5
+23	1	0.5	0	0.6 numbered in ceiling
+24	0.1	0.4	0.1	0.5
+25	0.2	0.5	0.3	0.3 numbered at junction - inlet continues ahead and orange mud passage on right
+
+*end illusion_2
