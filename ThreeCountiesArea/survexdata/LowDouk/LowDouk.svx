@@ -17,6 +17,7 @@
 *include LowDoukStreamway
 *include LowDoukToSump
 *include LowDoukLeftAtSteps
+*include lowdoukBACrift
 
 ;--------------------------------------------------------------------
 
@@ -31,6 +32,6 @@
 *equate lowdouktosump.13 lowdoukleftatsteps.13x
 ;*equate lowdouk1.002 lowdouk7.2x
 *equate lowdouk1.s01 lowdouk7.tag
-
+*equate lowdoukBACrift.26x lowdouktosump.26
 
 *end	LowDouk

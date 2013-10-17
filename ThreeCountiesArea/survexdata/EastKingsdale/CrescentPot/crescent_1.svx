@@ -1,6 +1,6 @@
 *begin crescent_1
 
-*export gps 2 15
+*export gps 2 14 15
 
 *title "East Kingsdale - Crescent Pot - from entrance GPS through to bottom of stone stairs (old 3rd pitch) at start of low crawl"
 *date 2013.09.07

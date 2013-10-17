@@ -21,6 +21,7 @@
 *equate LostJohns.EntranceTag       leckfellsurfacesurvey.LostJohnsEntranceTag
 *equate LostJohns.BoxheadSurfaceRim leckfellsurfacesurvey.BoxHeadEntranceTube
 *equate LostJohns.notts2nearconnection.1-0 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50
+*equate LostJohns.ljmainstreamway1.74x DeathsHeadHole.DeathsHead_3LJSump.74
 
 *include RoughPot/RoughPot
 *equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag

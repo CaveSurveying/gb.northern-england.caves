@@ -1,6 +1,6 @@
 *begin lowdouktosump
 
-*export 13 67x
+*export 13 26 67x
 
 *title "Low Douk from Steps Chamber to sumps"
 *date 2010.01.02
@@ -37,8 +37,8 @@
 21	22	5.07	144	+23
 
 23	22	2.72	351	+17
-24	23	2.22	350	+75
-24	25	4.44	215	-22
+; 24	23	2.22	350	+75	; superceded by lowdoukBACrift survey
+; 24	25	4.44	215	-22	; superceded by lowdoukBACrift survey
 23	26	2.74	142	+17
 27	26	9.65	291	+07
 27	28	4.57	112	-09
@@ -82,8 +82,8 @@
 21	0.5	1.2	7	3	l wall numbered
 22	0	1.1	2.5	1.8	l wall at start of inlet
 23	0.8	0.3	4	2	r wall
-24	0.8	0.7	0.4	0.3	boulder tip down climb
-25	0.7	0.3	0.2	0.1	unmarked on r mud bank
+; 24	0.8	0.7	0.4	0.3	boulder tip down climb
+; 25	0.7	0.3	0.2	0.1	unmarked on r mud bank
 26	0.4	1.3	0.1	1.5	numbered on l wall
 27	1.1	0.3	0.6	1.2	r wall
 28	0	1.4	0.8	2.2	numbered on l wall by dig

@@ -39,11 +39,8 @@ s03	002	7.78	310	-32	;3	3	2	1	stn 002
 015	016	2.63	066	-18	;1.6	0	1	.6	stn 016 is marked on large boulder.
 016	017	4.73	000	+12	;2	1	1.8	1.4	stn 017
 017	017a	5.00	045	+1	;guess to show continuation towards other entrance.
-017	018	9.50	287	+12	;
-018	018a	4.00	287	+1	;guess to show continuation.
-
-
-	
+; 017	018	9.50	287	+12	; removed by Becka Oct 2013 as duplicated in LowDouk3
+; 018	018a	4.00	287	+1	;guess to show continuation - removed by Becka Oct 2013 as duplicated in LowDouk3
 
 *end LowDouk1
 

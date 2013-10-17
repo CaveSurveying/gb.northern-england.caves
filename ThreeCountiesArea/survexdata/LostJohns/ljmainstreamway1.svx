@@ -1,0 +1,93 @@
+*begin ljmainstreamway1
+
+*export 74x
+
+*title "Survey from numbered Becka Julian station just upstream of canal at small inlet, then up inlet to sump then up main streamway to mud inlet to bolt"
+
+*date 2013.10.12
+*team Instruments Dave Ottewell
+*team Tape Helen Blyth
+*team Notes Becka Lawson
+
+*instrument Becka's Distox  
+
+*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+A	74x	2.33	256	-19
+74x	76x	8.73	252	-01
+76x	1	4.53	246	+01.5
+1	2	3.00	254	-07.5
+2	3	2.96	274	+07.5
+3	4	2.35	294.5	-14
+3	5	2.96	219	-01
+5	6	2.26	163	0
+6	7	5.70	160.5	+04
+7	8	4.16	042	+14	; very suspicious! Inlet felt flat - maybe was 1.4???? Check!
+8	9	2.09	336	-03
+
+A	10	12.57	126	-03
+10	11	12.05	089	+00.5
+11	12	12.99	124	+01
+12	13	7.84	093	0
+13	14	1.69	136.5	+05
+14	15	6.86	156	-02
+15	16	6.39	093.5	+02
+16	17	4.62	164.5	-02
+17	18	8.56	106.5	+00.5
+18	19	8.49	138	-02
+19	20	7.58	053	+02
+20	21	4.28	129	+02
+21	22	3.13	174	+00.5
+22	23	10.97	121	-03
+23	24	19.28	147	-01
+24	25	5.68	137	+07
+25	26	3.88	202.5	+02
+26	27	5.66	089	+05.5
+27	28	5.49	136.5	-02
+28	29	7.75	103.5	0
+29	30	3.92	164	+12
+30	31	2.61	168	+39
+30	32	3.30	054	-02
+
+*data passage station left right up down ignoreall
+
+A	2.5	1.3	0	1.8	presumably old station, liquid paper in roof of main passage
+74x	-	-	-	-	old, numbered station at junction of main passage with inlet
+76x	-	-	-	-	old, numbered station in inlet
+1	1	0.75	0	0.75	ceiling
+2	0	0.5	0.5	0.2	l wall 
+3	0.8	0.6	0	0.6	ceiling before tiny oxbow
+4	-	-	-	-	back of oxbow, splay
+5	0.5	0.5	0	0.5	ceiling
+6	0.5	1	0	0.5	ceiling
+7	0.1	0.6	0.5	0.2	l wall
+8	0	0.5	0	0.5	
+9	0.3	0.4	0	0.3	sump
+
+10	1.6	0	1.2	1	r wall
+11	0	1.3	1.8	1.2	l wall
+12	1	0	2.5	1.5	r wall
+13	0	1	2.5	1.6	l wall
+14	1	0	2.5	1.6	r wall
+15	1	0	3	1.6	r wall
+16	0	1	3	1.6	l wall
+17	1.5	0	3	1.5	r wall
+18	0	1	3.5	1.5	l wall, numbered 18
+19	2	0	4	1.2	r wall
+20	0	1.5	5	1.5	l wall at corner
+21	0	1	4	1.5	l wall
+22	1.5	0	4	1.6	r wall
+23	1.5	0	4.5	0.6	r wall
+24	0	2.5	5	0.4	l wall
+25	0	1	5.5	0.8	l wall
+26	1.7	0	5	1	r wall
+27	0	1	5	1.4	l wall
+28	0.7	0	5	1.4	r wall
+29	 0	1	5	1.6	l wall
+30	2	0	3.5	2	high on r wall, on edge
+31	0.5	0	3	2	bolt for handline to what I think is Mud Inlet
+32	-	-	-	-	shot down main passage, I think to R wall
+
+*end ljmainstreamway1
