@@ -11,6 +11,7 @@
 
 
 *include "SurfaceMarbleSteps\SurfaceMarbleSteps"
+*include "SurfaceMarbleSteps\SurfaceMarbleSteps2Sink"
 
 *include "MarbleStepsPot\MarbleStepsPot"
 
@@ -20,10 +21,13 @@
 
 *include "WetRoute\WetRoute"
 
+
 *include "MainChamber\MainChamber"
 ;--------------------------------------------------------------------
 
 *equate SurfaceMarbleSteps.001	MarbleStepsPot.Mas01.001
+*equate SurfaceMarbleSteps.007	SurfaceMarbleSteps2Sink.001
+
 *equate	MarbleStepsPot.Mas01.003	MarbleStepsPot.Mas02.001
 *equate	MarbleStepsPot.Mas02.016	MarbleStepsPot.Mas03.001
 
@@ -40,6 +44,7 @@
 *equate WetRoute.sidewinder1.009 Mainchamber.Mainchamber1.005
 *equate WetRoute.sidewinder1.011 Mainchamber.Mainchamber1.026
 *equate WetRoute.sidewinder1.012 Mainchamber.Mainchamber1.029
+
 
 *equate MainChamber.Mainchamber1.011 LostMarbles.LostMarbles4.1
 
