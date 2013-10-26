@@ -30,7 +30,7 @@
 
 15	16	5.42	188	+42
 16	17	4.39	316	+83
-14	18	2.74	133	+11	; CHECK is 133, not clear
+14	18	2.74	133	+11	; CHECK is 133, not clear - checked 25/10/13 with Distox download, is OK
 18	19	8.10	128	+34
 19	20	7.73	100	+42
 ; 20	21	5.61	146	+57	; drop this leg as then surveyed up
@@ -48,7 +48,7 @@
 38	40	3.23	333	-25.5
 41	40	1.08	171	-42
 42	41	2.75	129	-18
-42	19	4.46	293	-40	; station 19 written as station 43 in notes as we didn't know which station it was at time but leg 43 to 18 was identical to leg 19 / 18 so have removed this leg
+42	19	4.46	293	-37	; station 19 written as station 43 in notes as we didn't know which station it was at time but leg 43 to 18 was identical to leg 19 / 18 so have removed this leg; changed clino from -40 to -37 after downloading Distox
 ; 43	18	8.10	308	-34
 
 *data passage station left right up down ignoreall

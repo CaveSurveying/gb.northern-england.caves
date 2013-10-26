@@ -21,11 +21,11 @@ A	74x	2.33	256	-19
 1	2	3.00	254	-07.5
 2	3	2.96	274	+07.5
 3	4	2.35	294.5	-14
-3	5	2.96	219	-01
+3	5	1.96	219	-01 ; changed from 2.96 to 1.96m on tape after downloading Distox 25/10/13
 5	6	2.26	163	0
 6	7	5.70	160.5	+04
-7	8	4.16	042	+14	; very suspicious! Inlet felt flat - maybe was 1.4???? Check!
-8	9	2.09	336	-03
+8	7	4.16	042	+14	; Inlet felt flat but Distox download confirms clino was +14 Check! Hmm, actually I've reversed the leg (written 7 to 8, changed to 8 to 7) based on my memory and the old survey ... I was doing notes ahead of Dave and Helen and I couldn't see which way they were shooting. This would at least make the clino readings more sensible; Distox shot two similar legs so unlikely to be wrong there
+9	8	2.09	336	-03
 
 A	10	12.57	126	-03
 10	11	12.05	089	+00.5
