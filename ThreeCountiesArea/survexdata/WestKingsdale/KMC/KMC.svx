@@ -1,6 +1,7 @@
 *begin KMC
 *export	Master_Cave.1
 *export Roof_Tunnel.003
+*export ValleyEnt.41
 
 *equate	ValleyEnt.0 Roof_Tunnel.002
 *equate	Roof_Tunnel.052 Window_Aven.B7a
@@ -17,7 +18,7 @@
 *equate	RowtenPassage.Main.9 MudRiver.0
 
 *BEGIN ValleyEnt
-*export 0
+*export 0 41
 
 *DATE 2012.08.04
 
