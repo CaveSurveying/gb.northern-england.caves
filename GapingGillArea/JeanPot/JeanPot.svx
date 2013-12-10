@@ -1,0 +1,17 @@
+
+*begin JeanPot
+
+*entrance jeanpot1.3
+
+*fix jeanpot1.3 0 0 0; NOTE: temporary fix for viewing jean pot alone
+
+*equate Jeanpot1.aX Jeanpot2.a
+*equate Jeanpot3.hX Jeanpot2.h
+*equate Jeanpot3.tX Jeanpot4.t
+
+*include Jeanpot1
+*include JeanPot2
+*include JeanPot3
+*include JeanPot4
+
+*end Jeanpot
