@@ -66,6 +66,8 @@
 *include notts2lylecaverntube
 *equate notts2lylecaverntube.1-24 lj-tube2.24x
 *equate notts2lylecaverntube.1-16 lj08.030
+*include lj-tube3
+*equate lj-tube2.13 lj-tube3.13x
 
 *include notts2nearconnection ; From Notts II connection crawl to main T-junction and starting towards pitch into Lost Johns
 *equate notts2nearconnection.4-7 box3.072 
@@ -75,7 +77,9 @@
 *include lylecavernupperseries1
 *equate lylecavernupperseries1.tag notts2nearconnection.4-7
 
-*include ljmainstreamway1
+; ADD THIS IN ONCE HAVE FULL STREAMWAY RESURVEYED
+;*include ljmainstreamway1
+;*equate ljmainstreamway1. 
 
 ; old boxhead surveys
 ; *include box   ; first legs commented out 
@@ -158,11 +162,13 @@
 *equate	Lj12.009	Lj11.025
 *include	Lj12
 
-*equate	Lj13.000	Lj14.001
-*include Lj13  
+;superceded by lj-tube3
+;*equate	Lj13.000	Lj14.001
+;*include Lj13  
 
-*equate	Lj14.015	Lj15.001	
-*include Lj14
+;superceded by lj-tube3
+;*equate	Lj14.015	Lj15.001	
+;*include Lj14
 
 *include Lj15
 
