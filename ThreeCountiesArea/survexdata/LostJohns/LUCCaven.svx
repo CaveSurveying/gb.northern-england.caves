@@ -3,13 +3,8 @@
 *export 7a
 
 *title "LUCC Aven in Lost Johns cave - data from Tim Allen"
+
 *date 2010.01.17
-*team Notes Becka Lawson
-*team Instruments Julian Todd
-
-*instrument comp&clino Becka's tandem tape Becka's 30m tape
-
-*calibrate tape 0	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks
 
