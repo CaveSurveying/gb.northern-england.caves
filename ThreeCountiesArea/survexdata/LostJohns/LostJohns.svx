@@ -2,7 +2,8 @@
 
 *begin	LostJohns
 
-*export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 ljmainstreamway1.74x
+*export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 
+*export ljmainstreamway1.74x
 
 *entrance itsacracker.1-56
 *entrance boxheadentranceresurvey.1-60
@@ -49,6 +50,23 @@
 *include crestarun5
 *equate crestarun5.44x crestarun2.44	; equate at numbered station in Epiglottis Grotto
 
+*include crestarun7
+*equate crestarun7.1 crestarun9.tag
+
+*include crestarun8
+*equate crestarun8.10x lylecavernupperseries1.10
+
+*include crestarun9
+*equate bypasscrestarun2.13 crestarun9.13x
+
+*include crestarun10
+*equate crestarun10.1 crestarun9.tag
+
+*include crestarun11
+*equate crestarun11.26t crestarun10.12
+*equate crestarun11.14t crestarun8.52
+*equate crestarun11.8x crestarun7.8
+
 ; lower passage which is a bypass to the Cresta Run, starting from base of main Boxhead Pitch
 *include bypasscrestarun 
 *equate bypasscrestarun.1-50 itsacracker3.1-50 
@@ -78,8 +96,13 @@
 *equate lylecavernupperseries1.tag notts2nearconnection.4-7
 
 ; ADD THIS IN ONCE HAVE FULL STREAMWAY RESURVEYED
-;*include ljmainstreamway1
-;*equate ljmainstreamway1. 
+*include ljmainstreamway1
+;*equate ljmainstreamway1.
+*include ljmainstreamway2
+*equate ljmainstreamway2.0 ljmainstreamway1.30
+*equate ljmainstreamway2.15 Lj07.046
+*include mudinlet
+*equate mudinlet.30x ljmainstreamway1.30
 
 ; old boxhead surveys
 ; *include box   ; first legs commented out 

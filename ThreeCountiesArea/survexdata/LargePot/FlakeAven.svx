@@ -1,6 +1,6 @@
 
 *begin FlakeAven
-*export 12x 13x 30x
+*export 13x 30x
 
 *title "Large Pot - Red Herring - Flake Aven"
 *date 2011.12.30

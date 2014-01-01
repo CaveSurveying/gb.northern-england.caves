@@ -1,0 +1,11 @@
+*begin BigMeanie
+
+*export Entrance 
+
+*entrance Entrance
+
+*include BigMeanie_1  
+
+*equate BigMeanie_1.4 Entrance
+
+*end	BigMeanie

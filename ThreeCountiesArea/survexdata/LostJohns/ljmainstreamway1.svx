@@ -1,6 +1,6 @@
 *begin ljmainstreamway1
 
-*export 74x
+*export 74x 30
 
 *title "Survey from numbered Becka Julian station just upstream of canal at small inlet, then up inlet to sump then up main streamway to mud inlet to bolt"
 
@@ -108,7 +108,7 @@ A	2.5	1.3	0	1.8	presumably old station, liquid paper in roof of main passage
 27	0	1	5	1.4	l wall
 28	0.7	0	5	1.4	r wall
 29	 0	1	5	1.6	l wall
-30	2	0	3.5	2	high on r wall, on edge
+30	2	0	3.5	2	high on r wall, on edge, numbered
 31	0.5	0	3	2	bolt for handline to what I think is Mud Inlet
 32	-	-	-	-	shot down main passage, I think to R wall
 

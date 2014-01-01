@@ -3,7 +3,6 @@
 *export 1 5 15
 
 ; Cave:	Notts
-; Occult Passage from main Red Herring Series
 
 *title "Pitch into Three Ways Chamber and start of Left Hand Route towards Twilight Route"
 *date 2012.02.12

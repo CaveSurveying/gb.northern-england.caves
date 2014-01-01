@@ -53,6 +53,6 @@
 43	42	4.63	173	-03
 43	44	7.68	335	+02
 45	44	10.38	175	+01
-45	046	3.05	318	-02 ;stn 046 is tag at inlet
+45	046	3.05	318	-02 ;stn 046 is tag at Rumbling Hole inlet
 
 *end	Lj07
