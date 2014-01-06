@@ -72,7 +72,7 @@
 *equate bypasscrestarun.1-50 itsacracker3.1-50 
 *include bypasscrestarun2
 *equate bypasscrestarun.3-10 bypasscrestarun2.10x
-*equate bypasscrestarun2.17 Box3.017 ; eventually remove Box3 survey once resurvey complete
+; *equate bypasscrestarun2.17 Box3.017 ; eventually remove Box3 survey once resurvey complete
 
 ; the Tube passage
 *include lj-tube 
@@ -88,12 +88,14 @@
 *equate lj-tube2.13 lj-tube3.13x
 
 *include notts2nearconnection ; From Notts II connection crawl to main T-junction and starting towards pitch into Lost Johns
-*equate notts2nearconnection.4-7 box3.072 
+; *equate notts2nearconnection.4-7 box3.072 
 *equate notts2nearconnection.1-14 lj15.013
 *equate notts2lylecaverntube.1-0   notts2nearconnection.4-18
 
 *include lylecavernupperseries1
 *equate lylecavernupperseries1.tag notts2nearconnection.4-7
+*include lucc
+*equate lylecavernupperseries1.10	lucc.10X
 
 ; ADD THIS IN ONCE HAVE FULL STREAMWAY RESURVEYED
 *include ljmainstreamway1
@@ -120,12 +122,12 @@
 ;*equate box2.009 crestarun3.1-9
 ;*equate box2.004 crestarun4.4x
 
-*include Box3
+; *include Box3
 ; *equate	box3.001	box1.017	; changed box1.014 to box1.017 after Pete Hall emailed this correction - Becka 8.01.10
-*equate	box3.001	crestarun2.tag	; new equate so can get rid of box1, will get rid of box3 eventually too
+; *equate	box3.001	crestarun2.tag	; new equate so can get rid of box1, will get rid of box3 eventually too
 
-*include LUCCaven
-*equate Box3.067c luccaven.7a
+; *include LUCCaven
+; *equate Box3.067c luccaven.7a
 
 *equate	Lj01.010	Lj03.000
 *equate	Lj01.001	Lj02.000
@@ -164,7 +166,7 @@
 
 *equate	Lj08.001	Lj06.000
 *equate	Lj08.001	Lj07.001
-*equate	Lj08.030	box3.072j
+; *equate	Lj08.030	box3.072j
 *include	Lj08    ; identical to RD's Lj08
 
 *equate	Lj09.001	Lj07.046
