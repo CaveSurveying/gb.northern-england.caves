@@ -11,10 +11,12 @@
 *include Sidewinder2
 *include Flyover1
 *include MarbleArch
+*include PicnicDig_1
 ;--------------------------------------------------------------------------------------
 ;*equate WetRoute1.027 MarbleStepsPot.mas02.001 
 *equate sidewinder1.001 WetRoute1.021
 *equate sidewinder1.006 sidewinder2.001
 *equate sidewinder1.007 Flyover1.001
 *equate WetRoute1.007 MarbleArch.1
+*equate sidewinder2.003 PicnicDig_1.8
 *end WetRoute

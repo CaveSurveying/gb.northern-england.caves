@@ -4,7 +4,7 @@
 ;Instruments:	Red Rose Suunto Compass & Clino kit 2, 30m tape	
 
 *begin	Sidewinder2
-*export 001 
+*export 001 003
 
 
 ;*calibrate compass
