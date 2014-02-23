@@ -1,6 +1,6 @@
 *begin wks ;West_Kingsdale_System
 
-*include KMC/KMC
+*include KMC/allKMC
 *include Swinsto/Swinsto
 *include RowtenCaves/RowtenCaves
 *include Yordas/Yordas
@@ -65,6 +65,6 @@
 *solve
 
 *include Keld_Head/Keld_Head
-*equate	KMC.Master_Cave.1 Keld_Head.kh09.218
+*equate	allkmc.KMC.Master_Cave.1 Keld_Head.kh09.218
 
 *end  wks ;West_Kingsdale_System

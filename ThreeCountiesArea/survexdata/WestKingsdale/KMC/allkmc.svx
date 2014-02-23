@@ -1,5 +1,7 @@
 *begin allkmc
 
+*export	KMC.Master_Cave.1 KMC.Roof_Tunnel.003 KMC.ValleyEnt.41
+
 ; KMC is a giant file including lots of individual survey files - needs to be split up
 *include KMC
 

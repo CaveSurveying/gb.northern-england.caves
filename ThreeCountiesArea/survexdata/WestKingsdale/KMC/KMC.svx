@@ -1,7 +1,5 @@
 *begin KMC
-*export	Master_Cave.1
-*export Roof_Tunnel.003
-*export ValleyEnt.41
+*export	Master_Cave.1 Roof_Tunnel.003 ValleyEnt.41
 
 *equate	ValleyEnt.0 Roof_Tunnel.002
 *equate	Roof_Tunnel.052 Window_Aven.B7a
