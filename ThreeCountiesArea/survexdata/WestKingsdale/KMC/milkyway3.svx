@@ -1,0 +1,41 @@
+*begin milkyway3
+
+*export 33x 10
+
+*title "From end of Milky Way 2 at start of Toyland chamber to start of low crawl towards Good Friday Passage"
+*date 2014.02.23
+*team Instruments Andy Chapman
+*team Notes Becka Lawson
+*instrument new Leck Fell Distox2 (first outing!) and Becka's Distox(old) - old Distox calibration didn't seem great so its measurements are in second, after the semi-colon, and are OPPOSITE direction, with main readings the Distox2 readings which was calibrated (0.45) this morning
+
+*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	33x	4.65	123.5	-08	; 4.64	302.5	+08
+1	2	8.50	054	+05	; 8.52	234	-05
+3	1	6.54	157.5	-34	; 6.45	341	+34
+4	3	3.26	174	+08	;	3.30	0	-08
+; I stopped using the old Distox at this point as checking it with a barrel roll (ie reading it 4 times on the same leg upright, 90 degrees left, upside down and 90 degrees right) gave a discrepancy of up to 7 degrees whereas only 1-2 degrees for the Distox2)
+4	5	3.37	024	+30
+5	6	4.83	027	+23
+6	7	0.68	337	+44
+7	8	8.00	011	+30	; guesstimated leg as couldn't get hand to distox at station to shoot down the passage as body in the way, very tight
+9	1	4.86	088	-35
+10	9	4.82	087	-14
+
+*data passage station left right up down ignoreall
+
+33x	0.7	0	5	1	final station from MilkyWay2 survey, beyond traverse, numbered at start of Toyland chamber
+1	2	8	3.6	1.4 obvious stal in middle of chamber, next to stream
+2	-	-	3	1.5 side wall of chamber
+3	1.5	2	0	1.8 ceiling before rift
+4	1.5	1	4	2 start of rift
+5	0	0.3	6	0.5 rift
+6	0.2	0.2	4	0.5 below squeeze in rift
+7	0.3	0	4	1 above squeeze in rift
+8	-	-	-	- guess of station down rift (didn't get to this point)
+9	2	3	1.2	3 small stal where stream enters Toyland chamber
+10	3	0.5	0	1 on right side of stream on mini-curtain in ceiling, numbered
+
+*end milkyway3
