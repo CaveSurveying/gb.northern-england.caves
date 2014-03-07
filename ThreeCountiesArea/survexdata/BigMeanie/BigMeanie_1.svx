@@ -1,6 +1,6 @@
 *begin BigMeanie_1
 
-*export 4
+*export 4 2p
 
 *title "Survey from shakehole for Big Meanie down pitch and towards Deaths Head"
 

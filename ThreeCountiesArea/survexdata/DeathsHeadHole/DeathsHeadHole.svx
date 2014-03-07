@@ -10,9 +10,11 @@
 *include DeathsHead_1  
 *include DeathsHead_2
 *include DeathsHead_3LJSump
+*include DeathsHeadAvens_6
 
 *equate DeathsHead_1.001 Entrance
 *equate DeathsHead_1.010 DeathsHead_2.1 
 *equate DeathsHead_2.18 DeathsHead_3LJSump.18x
+*equate DeathsHead_1.025 DeathsHeadAvens_6.1
 
 *end	DeathsHeadHole

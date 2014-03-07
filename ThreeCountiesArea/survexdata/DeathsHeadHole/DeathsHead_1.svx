@@ -3,7 +3,7 @@
 ; Deaths Head Hole
 *begin DeathsHead_1
 
-*export 001 010
+*export 001 010 025
 *export FencePostTag
 
 *title "Deaths Head-Lost John's connection"

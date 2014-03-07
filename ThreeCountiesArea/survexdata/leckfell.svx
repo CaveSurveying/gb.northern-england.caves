@@ -38,6 +38,9 @@
 *include LongDrop/LongDrop
 *equate LongDrop.StylePost	leckfellsurfacesurvey.LongDropStylePost
 
+*include BigMeanie/BigMeanie
+*equate BigMeanie.BigMeanieDeathsHeadSurface.8 DeathsHeadHole.DeathsHead_1.FencePostTag
+
 *include BruntskillPot/BruntskillPot
 *equate	BruntskillPot.Entrance	leckfellsurfacesurvey.BruntskillPotEntrance
 
