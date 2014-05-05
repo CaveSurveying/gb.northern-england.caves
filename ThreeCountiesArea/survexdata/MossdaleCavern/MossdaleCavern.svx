@@ -1,0 +1,5 @@
+*begin mossdale
+*include PolishedFloor
+*include PolishedFloor2
+*equate PolishedFloor.A PolishedFloor2.1
+*end mossdale
