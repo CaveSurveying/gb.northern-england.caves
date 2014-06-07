@@ -10,6 +10,7 @@
 *include Mohole1
 *include Mohole2
 *include Mohole3
+*include Mohole4
 
 ;--------------------------------------------------------------------
 
@@ -17,5 +18,6 @@
 *equate Mohole1.1 Wall 
 *equate Mohole1.6 Mohole2.6x
 *equate Mohole3.9 Mohole2.11
+*equate Mohole3.7 Mohole4.7x
 
 *end	Mohole

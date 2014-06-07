@@ -1,6 +1,6 @@
 *begin Mohole3
 
-*export 9
+*export 7 9
 
 *title "The Mohole dig"
 *date 2013.06.15
