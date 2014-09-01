@@ -98,6 +98,9 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *include Mohole/Mohole
 
+*include ForgetMePot/ForgetMePot
+*equate Mohole.Wall ForgetMePot.ForgetMePot1.1
+
 *include KangoHole/KangoHole  
 
 

@@ -1,0 +1,72 @@
+*begin crescent_4
+
+*export 8x
+
+*title "East Kingsdale - Crescent Pot - from junction just before 4th pitch down 4th, 5th, 6th pitches to head of 7th pitch"
+*date 2014.09.31
+*team Tape Sam Allshorn
+*team Notes Becka Lawson
+*instrument Becka's Old Distox
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+8x	1	2.07	091	-14
+1	2	4.55	125	-12
+2	3	1.60	113	+04
+3	4	4.54	133	-05
+4	5	5.60	070	-55
+5	6	4.39	321	-40
+5	7	1.90	099	-02
+8	7	1.81	351	+73
+8	9	14.05	309	-87
+9	10	4.51	109	-35
+
+10	11	5.09	205	-09
+11	12	7.10	204	-07
+12	13	3.12	250	-04
+13	14	4.09	355	-33
+13	15	18.91	270	-64
+15	16	5.86	007	-04
+16	17	4.51	068	-01	; doublecheck distance when download distox
+17	18	5.85	004	-02
+18	19	6.07	311	-01
+19	20	1.79	257	-05
+20	21	4.71	335.5	+01.5
+21	22	11.48	291.5	0
+22	23	2.89	282	+03
+23	24	1.66	301	+06
+24	25	3.73	258	0
+
+*data passage station left right up down ignoreall 
+
+8x	1	0	1.2	1.7	old numbered station from crescent_03 survey at junction with major inlet on right shortly before 4th pitch
+1	0	0.4	0.4	1.9	above spit for initial backup/traverse for 4th pitch
+2	0.4	0	1.8	3	r wall in rift at corner
+3	0	0.4	0.5	3	l wall by second backup/traverse spit
+4	0.4	0	1	5	r wall by pitch head for 4th pitch
+5	0.4	0	0.6	1.2	r wall before 5th pitch
+6	0	1.5	2	0	unmarked at far side of hole where water drops
+7	0	0.4	0.2	5	l wall at pitch head for 5th pitch
+8	0	0.4	2.5	15	between deviation anchors of p hanger and spit on 5th pitch
+
+9	1	2	14	0	rocks near base of 5th pitch
+10	1	2.5	4	1	l wall below 5th pitch
+11	1.3	0.2	1.5	1.2	r wall between pitches
+12	0.5	1.3	1.5	1.7	boulder on left before 6th pitch
+13	1.2	1.5	0.6	4	above 6th pitch, numbered in liquid paper
+14	0.6	0.4	0.4	0.2	unmarked, down tube to side at top of 6th pitch (tube probably just drops into pitch)
+15	1	3	4	0.6	base of 6th pitch
+16	0.3	1	0.3	0.3	l wall at start of crawl
+17	1	0	0.2	04	r wall in crawl
+18	0.8	0	0.2	0.3	r wall
+19	0.6	0.4	0.3	0.3	junction with stream passage on left and dry oxbow on right; right could be p, passage, instead of 0.4
+20	0	0.5	0.4	0.1	l wall of l passage from junction
+21	1.1	0	0.3	0.3	r wall beyond where oxbow rejoins stream passage
+22	0.8	0	0.3	0.4	r wall
+23	0	0.6	0.2	0.4	l wall
+24	0.5	0.2	0	0.7	ceiling on r side
+25	0.6	0.3	0.5	4	small stal in ceiling above 7th pitch, numbered in pencil
+
+*end crescent_4

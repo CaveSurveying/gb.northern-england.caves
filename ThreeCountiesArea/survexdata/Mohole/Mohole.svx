@@ -2,7 +2,7 @@
 
 *begin	Mohole
 
-*export Entrance
+*export Entrance Wall
 *entrance Entrance
 
 *fix Wall 	68584 76979 404 ;entrance GPS by Julian Todd 9 Oct 2011 - Garmin Etrex to 3m accuracy - original reading of 30U 6004519 0533739 using WGS84 then converted to OS coordinates
