@@ -1,0 +1,16 @@
+;Cave:	Forget Me Pot - Turbary Road
+
+*begin	ForgetMePot
+
+*export ForgetMePot1.1 ForgetMePotEntrance OldDigEntrance
+*entrance ForgetMePotEntrance
+*entrance OldDigEntrance
+
+*include ForgetMePot1
+
+;--------------------------------------------------------------------
+
+*equate OldDigEntrance ForgetMePot1.4
+*equate ForgetMePotEntrance ForgetMePot1.10
+
+*end	ForgetMePot
