@@ -1,9 +1,7 @@
 *begin shortdrop1
-*export 1
-*export 20
+*export 1 4 20
 
 *entrance 3
-
 
 *title "Entrance to Short Drop"
 *date 2010.07.25
