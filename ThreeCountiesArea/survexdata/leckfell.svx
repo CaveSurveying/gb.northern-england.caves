@@ -5,6 +5,7 @@
 ;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
 *include Surface/largetonorthendpotsurface
+*include Surface/shortdroprumblingcoalholebyronsurface
 
 ; underground surveys - avg mag decl for 2010 = 3 deg W (please put in correct declination for date in each cave survey)
 ; true N to grid N correction = -0.33 
@@ -61,6 +62,7 @@
 
 *include RumblingHole/RumblingHole
 *equate	RumblingHole.RumblingBeckTopEntrance leckfellsurfacesurvey.RumblingBeckTopEntrance
+*equate	RumblingHole.RumblingSurface.1 Surface.shortdroprumblingcoalholebyronsurface.10
 
 *include StartingHandleHole/StartingHandleHole
 *equate	StartingHandleHole.001 leckfellsurfacesurvey.StartingHandleHole

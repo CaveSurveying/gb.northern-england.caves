@@ -1,5 +1,5 @@
 *begin RumblingHole
-*export RumblingBeckTopEntrance
+*export RumblingBeckTopEntrance  RumblingSurface.1
 
 *equate RumblingBeckTopEntrance  RumblingBeckCave.001
 *include RumblingBeckCave
