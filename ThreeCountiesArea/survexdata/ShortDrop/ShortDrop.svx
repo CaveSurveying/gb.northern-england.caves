@@ -10,10 +10,16 @@
 *include shortdrop3
 *include RiftEntrance
 *include shortdrop4canalinlet
+*include shortdrop5
 
 *equate shortdrop1.20 shortdrop2.19
 *equate shortdrop2.1 shortdrop3.001
 *equate RiftEntrance.1	ShortDrop2.9
 *equate shortdrop1.4 shortdrop4canalinlet.1x
+
+*equate shortdrop3.025 shortdrop5.25x
+;*equate shortdrop3.014 shortdrop5.tag1
+*equate shortdrop3.015 shortdrop5.15x
+;*equate shortdrop3.016 shortdrop5.16x
 
 *end ShortDrop
