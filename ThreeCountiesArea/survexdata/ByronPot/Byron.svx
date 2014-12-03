@@ -1,4 +1,4 @@
-*begin ByronPot
+*begin Byron
 
 *export 14x
 
@@ -12,4 +12,4 @@
 
 ; *equate 
 
-*end ByronPot
+*end Byron

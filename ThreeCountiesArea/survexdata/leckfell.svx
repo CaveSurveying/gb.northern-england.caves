@@ -34,10 +34,12 @@
 ; North of NottsII area
 
 *include ShortDrop/ShortDrop
-*equate ShortDrop.FencePost  leckfellsurfacesurvey.ShortDropFencePost
+;*equate ShortDrop.FencePost  leckfellsurfacesurvey.
+*equate	ShortDrop.FencePost shortdroprumblingcoalholebyronsurface.0
 
 *include LongDrop/LongDrop
-*equate LongDrop.StylePost	leckfellsurfacesurvey.LongDropStylePost
+;*equate LongDrop.StylePost	leckfellsurfacesurvey.LongDropStylePost
+*equate	LongDrop.StylePost shortdroprumblingcoalholebyronsurface.16
 
 *include BigMeanie/BigMeanie
 *equate BigMeanie.BigMeanieDeathsHeadSurface.8 DeathsHeadHole.DeathsHead_1.FencePostTag
@@ -49,7 +51,8 @@
 *equate	BumblingHole.Entrance	leckfellsurfacesurvey.BumblingHoleEntrance
 
 *include CoalHole/CoalHole
-*equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
+;*equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
+*equate	CoalHole.EntranceLoc shortdroprumblingcoalholebyronsurface.7
 
 *include DeathsHeadHole/DeathsHeadHole
 *equate	DeathsHeadHole.DeathsHead_1.FencePostTag	leckfellsurfacesurvey.DeathsHeadHoleFencePostTag
@@ -61,8 +64,11 @@
 *equate	GavelPot.GavelPotFencePost	leckfellsurfacesurvey.GavelPotFencePost
 
 *include RumblingHole/RumblingHole
-*equate	RumblingHole.RumblingBeckTopEntrance leckfellsurfacesurvey.RumblingBeckTopEntrance
-*equate	RumblingHole.RumblingSurface.1 Surface.shortdroprumblingcoalholebyronsurface.10
+; *equate	RumblingHole.RumblingBeckTopEntrance leckfellsurfacesurvey.RumblingBeckTopEntrance
+*equate	RumblingHole.RumblingSurface.1 shortdroprumblingcoalholebyronsurface.10
+
+*include ByronPot/Byron
+*equate	Byron.14x shortdroprumblingcoalholebyronsurface.14
 
 *include StartingHandleHole/StartingHandleHole
 *equate	StartingHandleHole.001 leckfellsurfacesurvey.StartingHandleHole
