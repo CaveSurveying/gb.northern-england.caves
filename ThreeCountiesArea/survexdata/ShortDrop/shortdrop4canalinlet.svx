@@ -1,5 +1,5 @@
 *begin shortdrop4canalinlet
-*export 1x
+*export 1x 14
 
 *title "Entrance of Short Drop upstream (Canal Inlet) towards Coal Hole to junction"
 *date 2014.11.23
@@ -24,7 +24,7 @@
 ; 10	11	3.88	344	+08
 ; 11	12	2.42	022	-02
 
-14	15	4.48	053	+02	; check that distance correct 
+; 14	15	4.48	053	+02	; check that distance correct - ignore as this leg in the Coal Hole survey anyway
 14	16	3.93	009	+06
 14	17	4.74	234	-01
 17	18	3.16	246	-03
@@ -71,7 +71,7 @@
 ; 12	0	0.2	2	1	l wall up in rift
 
 14	0.5	1.1	2	0.4	bedrock at junction (three ways)
-15	-	-	-	-	midpassage upstream in Coal Hole
+; 15	-	-	-	-	midpassage upstream in Coal Hole
 16	-	-	-	-	upstream canal inlet
 17	0.5	0.1	1.5	0.6	r wall of canal inlet, heading downstream now
 18	0.6	0.1	1.5	0.7	l wall 

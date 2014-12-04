@@ -2,7 +2,9 @@
 
 ;*fix	FencePost 67030	78934	346
 
-*export FencePost
+*export shortdrop4canalinlet.14
+
+*export FencePost 
 *equate shortdrop1.1 FencePost
 
 *include shortdrop1

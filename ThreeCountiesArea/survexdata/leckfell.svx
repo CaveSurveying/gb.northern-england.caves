@@ -52,6 +52,7 @@
 
 *include CoalHole/CoalHole
 ;*equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
+*equate	CoalHole.029 ShortDrop.shortdrop4canalinlet.14
 *equate	CoalHole.EntranceLoc shortdroprumblingcoalholebyronsurface.7
 
 *include DeathsHeadHole/DeathsHeadHole
