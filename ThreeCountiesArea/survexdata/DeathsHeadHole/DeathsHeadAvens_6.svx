@@ -13,10 +13,14 @@
 *instrument Compass and Clino - rr2
 
 *calibrate tape +.20	; +ve if tape was too short, -ve if too long
+*calibrate declination +2.40
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2014.02.03
 
 
-*calibrate declination +2.41	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.1994n 2.5124w  2014.02.03
+;*calibrate declination +2.41	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+				;54.1994n 2.5124w  2014.02.03......edited out by RB when checked against new web above.
 
 *data normal from to tape compass clino
 

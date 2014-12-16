@@ -16,8 +16,10 @@
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
 
-*calibrate declination +3.23	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
-				;54.1994n 2.5124w  2007.12.19	
+*calibrate declination +3.39
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2007.12.19
 
 *equate FencePostTag 001
 
