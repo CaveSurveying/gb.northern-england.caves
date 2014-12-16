@@ -1,15 +1,18 @@
 ;Cave:	Rumbling Hole
 ;Surveyors:	Dave Ramsay/Ruth McDonald
-;Date:	06/01/08 
+;Date:	2008.01.06 
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
 
 *begin RumblingHole_5
-
+*export 010
 *Title "Rumbling Hole"
 ;*calibrate compass
 
+*calibrate declination +3.39
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.01.06 
 
-*export 010
 
 ;stn to stn	tape	comp	clino	 L    R   U   D
 402	401	3.29	025	+9	;0.2 0.2 0.1 0.9 start of 06/01/08 survey

@@ -1,10 +1,10 @@
 ;Cave:	Rumbling Hole
 ;Surveyors:	Richard Bendall/Ruth McDonald/Dave Ramsay
-;Date:	25/08/08 
+;Date:	2008.08.25 
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Tape	
 
 *begin RumblingHole_9
-
+*export 023
 *Title "Rumbling Hole"
 ;*calibrate compass
 
@@ -12,7 +12,10 @@
 ; commented out to start of low section which has 
 ; not yet been resurveyed and properly connected up
 ;;;;;;;;;;;;;;
-
+*calibrate declination +3.28
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.08.25
 ;*export 001 
 ;*equate 001 RumblingHole_7.022
 
@@ -42,7 +45,7 @@
 ;021	022	3.86	083	-61
 ;022	023	10.76	-	Down	;Pitch
 
-*export 023
+
 023	024	5.19	056	-7
 024	025	4.60	289	+2
 025	026	2.93	290	+41

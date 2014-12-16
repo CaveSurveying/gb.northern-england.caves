@@ -17,6 +17,11 @@
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
+*calibrate declination +3.37	
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.02.03
+
 *flags surface
 
 ;from	to	tape	compass	clino	remarks

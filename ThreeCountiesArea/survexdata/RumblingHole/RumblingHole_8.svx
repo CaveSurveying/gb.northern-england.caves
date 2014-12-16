@@ -1,6 +1,6 @@
 ;Cave:	Rumbling Hole
 ;Surveyors:	Richard Bendall/Emma Martindale
-;Date:	11/01/08 
+;Date:	2008.01.11 
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Tape	
 
 *begin RumblingHole_8
@@ -10,7 +10,10 @@
 *Title "Rumbling Hole"
 ;*calibrate compass
 *calibrate Tape	-.10
-
+*calibrate declination +3.38
+;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;Model Used IGRF11 		
+;54.1994n 2.5124w  2008.01.11 
 
 ;stn to stn	tape	comp	clino	 L    R   U   D
 ;start of 11/02/08 survey of Lost Elephant area
