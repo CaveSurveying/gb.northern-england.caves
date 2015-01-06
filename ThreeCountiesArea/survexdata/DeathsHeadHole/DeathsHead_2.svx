@@ -3,7 +3,7 @@
 ; Deaths Head Hole
 *begin DeathsHead_2
 
-*export 1 18
+*export 1 2 18
 
 *title "Deaths Head-Lost John's connection"
 *date 2012.01.08
