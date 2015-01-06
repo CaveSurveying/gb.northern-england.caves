@@ -103,6 +103,6 @@
 039	0.5	2.0	1.7	0.5
 040	1.0	0.3	0.7	0.5
 041	0.4	0.5	1.7	1.5	; numbered
-042	0.0	1.8	2.0	1.2	;yellow tag at junction. Polly Passage above, to Intestines to left
+042	0.0	1.8	2.0	1.2	;yellow tag at junction. Poly Passage above, to Intestines to left
 
 *end	MainChamber1
