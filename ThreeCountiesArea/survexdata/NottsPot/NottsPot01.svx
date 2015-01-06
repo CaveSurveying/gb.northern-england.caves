@@ -48,5 +48,4 @@
 033	034	07.25	286.0	-23.0
 034	035	00.75	 -	DOWN	;st035=TAG on ledge of chamberjust before drop into streamway emerging from duck.
 
-
 *end	NottsPot01

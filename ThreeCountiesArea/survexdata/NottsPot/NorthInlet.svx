@@ -54,7 +54,7 @@
 
 1	1.3	3.0	5.5	0.8	;Tag in three ways Chamber
 2	6.8	2.5	7.2	1.5	;Rock Projection
-3	4.0	4.0	0.2	1.0	;CA TRN on Leple(Have no idea what is written in the note book!)
+3	4.0	4.0	0.2	1.0	;cairn on ledge
 4	1.0	2.0	0.1	0.5	;Small downward spike in roof at ent to B.T. route
 5	1.0	2.0	8.5	0.0	;stn in floor below pitch
 6	0.0	0.0	0.0	0.0	; shot into bt routs
