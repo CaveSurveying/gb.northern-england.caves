@@ -43,6 +43,7 @@
 
 *include BigMeanie/BigMeanie
 *equate BigMeanie.BigMeanieDeathsHeadSurface.8 DeathsHeadHole.DeathsHead_1.FencePostTag
+*equate BigMeanie.BigMeanie_2.2x DeathsHeadHole.DeathsHead_2.2
 
 *include BruntskillPot/BruntskillPot
 *equate	BruntskillPot.Entrance	leckfellsurfacesurvey.BruntskillPotEntrance

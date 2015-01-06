@@ -1,6 +1,6 @@
 *begin BigMeanie_1
 
-*export 4 2p
+*export 4 2p 27
 
 *title "Survey from shakehole for Big Meanie down pitch and towards Deaths Head"
 
@@ -47,7 +47,7 @@
 24	25	7.77	096	+18	; could be 093 compass, unclear, corrected
 25	26	13.73	107	+26
 26	27	3.32	003	+24
-27	28	7.68	129	0	; just did this leg for sketch; comment out when do this survey this section
+; 27	28	7.68	129	0	; just did this leg for sketch; comment out when do this survey this section; now commented out
 27	29	10.25	101	-31
 29	30	5.34	092	-26
 30	31	5.88	082	+16
@@ -82,7 +82,7 @@
 25	1	0.8	2	3
 26	3.2	2.8	25	0.3	below avens
 27	0	5.5	15	1.7	aven
-28	-	-	-	-	unmarked station in direction of main passage, just did this leg for sketch
+; 28	-	-	-	-	unmarked station in direction of main passage, just did this leg for sketch
 29	0.8	0	11	2	below inlet aven
 30	1	0.3	1.7	0	floor beyond aven
 31	0.4	0.4	4	0	end - mud choke
