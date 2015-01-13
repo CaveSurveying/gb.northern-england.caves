@@ -33,8 +33,8 @@
 *include templeofdoom/templeofdoom
 
 *include CoatesSecondhandstreamway
-
-
+*include beyondtortoise
+*include crosspatchinlet
 
 *equate RiftPotEntrance.208 CoatesCavern.208x
 *equate RiftPotEntrance.213 CoatesCavern.213x
@@ -55,5 +55,7 @@
 *equate templeofdoom.riftpottodLowDoukConnection.1.19 Rift-LowDoukConnection
 
 *equate CoatesPassage3.11 CoatesSecondhandstreamway.11
+*equate beyondtortoise.2x RiftTowardsMousehole3.2
+*equate crosspatchinlet.x CoatesPassage2.34
 
 *end RiftPot

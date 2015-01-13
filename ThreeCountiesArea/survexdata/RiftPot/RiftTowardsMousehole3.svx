@@ -1,5 +1,5 @@
 *begin RiftTowardsMousehole3
-*export 21x
+*export 21x 2
 
 *title "From old station 21 in main passage then one leg up Fire Hose climb and another leg to end of passage"
 *date 2011.12.29

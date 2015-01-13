@@ -40,6 +40,7 @@
 1-72	1-73	3.349	86.7	7.8  ; stn 73 numbered  
 1-73	1-74	2.287	155.9	-37.4
 1-74	1-75	3.439	119.3	2.4
+1-75	x		20		180	0	; guessed final bit based on p26 Caves and Caving 49 (1990) Earby PC Grade 3 survey
 
 *end NorthEndPotUnderground
 
