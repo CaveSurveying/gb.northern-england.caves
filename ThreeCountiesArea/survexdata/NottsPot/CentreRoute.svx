@@ -1,6 +1,6 @@
 *begin CentreRoute
 
-*export 1 15
+*export 1 14 15
 
 ; Cave:	Notts
 
@@ -51,7 +51,7 @@
 11	1	1.5	8	0	floor
 12	0.5	0	5	8	r wall
 13	4.5	0.5	8	0	spike on rock bridge
-14	2	0	10	3	r wall, numbered in liquid paper
+14	2	0	10	3	r wall, was numbered in liquid paper, now removed (Jan 2015 after Adamsons Route survey completed)
 15	5	2	6	0	survey tag at junction with all routes / end of Centre Route
 
 *end CentreRoute
