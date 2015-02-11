@@ -10,6 +10,7 @@
 *include	maw2
 ;;*include	maw3
 *include	maw4
+*include	maw4a
 *include	maw5
 
 *end	mnw1
