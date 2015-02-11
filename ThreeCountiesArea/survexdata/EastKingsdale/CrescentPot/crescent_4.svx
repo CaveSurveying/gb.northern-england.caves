@@ -3,7 +3,7 @@
 *export 8x
 
 *title "East Kingsdale - Crescent Pot - from junction just before 4th pitch down 4th, 5th, 6th pitches to head of 7th pitch"
-*date 2014.09.31
+*date 2014.08.31
 *team Tape Sam Allshorn
 *team Notes Becka Lawson
 *instrument Becka's Old Distox
