@@ -6,5 +6,9 @@
 *fix BP01.A 66667 83842 283	;GPS measurement by Ray Duffy. Top of stile post on fence around entrance.
 
 *include Bp01
+*include Bp02
+*include Bp03
+*include Bp04
+*include Bp05
 
 *end	AllBarbonPot

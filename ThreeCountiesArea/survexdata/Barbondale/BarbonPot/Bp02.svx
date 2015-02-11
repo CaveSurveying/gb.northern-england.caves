@@ -1,0 +1,44 @@
+;Cave:		Barbon Pot - down hole in Main Chamber
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		09/03/14
+;Instruments:	PAG + new Disto
+
+*equate	Bp02.001 Bp01.009
+*equate	Bp02.003c Bp03.001
+
+*begin	Bp02
+
+*export 001
+*export 003c
+
+*calibrate compass		+4.0
+*calibrate clino		+0.5
+*calibrate tape		  0.0
+
+002	001	01.09	153.0	+06.0
+002	003	03.67	168.0	-64.0
+
+003	003a	02.17	136.0	+14.0
+003a	003b	02.76	179.0	-03.0
+003b	003c	03.50	169.0	-12.0
+003c	003d	04.33	124.0	-20.0
+003e	003d	01.71	312.0	+12.5
+003e	003f	06.93	 -	UP
+
+003c	003ci	02.50	167.0	-04.0
+003ci	003cii	04.28	224.0	+16.0
+
+*end	Bp02
+
+;st		l		r		u		d		comments
+;1										st001=tag above hole to cave
+;2		
+;3		0.5		0.8		hole		1.5bed.		head height on ledge in hole
+;3a		0.2		0.6		0.1		0.3		lying in tight bedding
+;3b		1.0		3.0		0.4		3.0		head height just above drop into Whoop Hall
+;3c		8.0sand bed	06.h/1.8l		3.8		1.5
+;3d		0.4		0.4		0.5bd/1.3roof	1.2bd
+;3e		0.2		0.5		6.9		1.5		head height in Tap Room
+;3f										top of aven small inlet
+;3ci		0.5		0.5		0.4		0.4		start of crawl above stream sink
+;3cii			3wide				0.5high			cont. of sandy bedding at 3c

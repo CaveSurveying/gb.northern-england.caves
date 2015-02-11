@@ -1,0 +1,41 @@
+;Cave:		Barbon Pot - fromThe Vaults to Mud Chamber
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		09/03/14
+;Instruments:	PAG + new Disto
+
+*equate	Bp04.001 Bp03.002
+*equate Bp04.011 Bp05.001
+
+*begin	Bp04
+
+*export 001
+*export 011
+
+*calibrate compass		+4.0
+*calibrate clino		+0.5
+*calibrate tape		  0.0
+
+002	001	04.02	341.0	+19.0
+002	003	07.80	190.0	-02.0
+003	004	02.76	277.0	-51.0
+005	004	01.03	010.0	-02.0
+005	006	03.11	237.0	+11.0
+006	007	01.80	216.0	+07.0
+007	008	02.56	219.0	-24.0
+008	009	01.96	205.0	+01.0
+009	010	01.44	 -	UP
+010	011	01.77	214.0	+34.0
+
+*end	Bp04
+
+;st		l		r		u		d		comments
+;1										star scatched on roof boulder lip
+;2		1.3		0.7		5.8		2.7		head height before bedding crawl
+;3		0.5		2bed.		0.4		1bd/2.5trench	head height above hole at end of bedding
+;4		1.3		0		hole		1.2		right wall of muddy hole
+;5		
+;6		1		0.5		0.3		1.5
+;7		0.3		1h/0.3l		3narrows		0.5h/2l
+;8		0.2h/1l		0.3h/0.5l		1tight		1
+;9										foot level standing just in chamber
+;10		3.1wall		0.3		3.1		1.5/2.5stream	st11 is star scratch on prow in chamber

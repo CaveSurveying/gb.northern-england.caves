@@ -1,0 +1,48 @@
+;Cave:	Barbon Pot - Mud Hall onward	
+;Surveyors:	H. St.Lawrence(inst)/S.Lieberman(notes)
+;Date:		10/10/2014
+;Instruments:	PAG +new disto
+
+*equate	Bp05.001 Bp04.011
+
+*begin	Bp05
+
+*export 001
+*export 012
+
+*calibrate compass		+4.0
+*calibrate clino		+0.5
+*calibrate tape		  0.0
+
+001	002	01.41	 -	DOWN
+002	003	03.68	195.0	-18.0
+003	004	05.13	224.0	-03.0
+004	005	02.35	149.0	+03.5
+
+005	005a	05.50	235.0	+09.0
+
+005	006	03.80	201.0	+11.0
+006	007	03.90	210.0	+02.0
+007	008	02.21	235.0	-48.0
+009	008	01.49	098.0	-07.0
+009	010	00.74	 -	UP
+010	011	03.59	224.0	+44.0
+011	012	02.18	255.0	+37.0
+
+*end	Bp05
+
+;st		l		r		u		d		comments
+;1		1.2		2.0		1.0		1.4		st1=st11 bp4 is star scratch on prow in chamber
+;2		0		1.2		2.4		0
+;3		1.8		1.2		0.4		1.7
+;4		1.9		1.7		0.9		1.8		st 4 near aven +7.3m
+;5		0		2.7		0.3		0.6
+;5a		0.4		1.0		0.1		0.3		st5a sighting through tight bedding
+;6		0.5		1.0		0.3		0.2
+;7		1.0		0.7		0.4		1.2		
+;8		0.3		0.3		0.5		0.2
+;9		0.1		0.3		1.2		1.2		st8-9 tight squeeze up and over
+;10		0		0.3		1.2		1.9		st10-11 sighted through rift real passage through boulders
+;11		1.4		2.4		9.6		1.1
+;12		2.2		3.8		11.0		1.1		st12 is cairn on boulder
+	
