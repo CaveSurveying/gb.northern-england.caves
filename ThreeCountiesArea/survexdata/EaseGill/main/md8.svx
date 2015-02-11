@@ -2,22 +2,23 @@
 ;Survey Date: Md8	16/12/95
 ;Surveyors: Pete Hall, Ray Duffy, Giles Barker
 
-*equate md8.079a	mds.001
-;*equate	md8.073	L1a.009
-;*equate	md8.120	mw6.012
-;*equate	md8.105	mw6.006c
+;*equate md8.073 L1a.009
 *equate	md8.075	md7a.001
-;*equate	md8.094	Heh1.000
-*equate	md8.117	md8a.000
-*equate	md8.132	md8b.001
 *equate	md8.079	md8c.001
+*equate md8.079a mds.001
+;*equate md8.094 Heh1.000
+;*equate md8.105 mw6.006c
+*equate	md8.117	md8a.000
+;*equate md8.120 mw6.012
+*equate md8.122c md8s1.009 ;sump line end
+*equate md8.122c md8s2.009 ;sump line end
+*equate md8.124 md8i.001
+*equate	md8.132	md8b.001
 *equate	md8.135	md8d.001
-*equate md8.122c	md8s1.009 ;sump line end
-*equate md8.122c	md8s2.009 ;sump line end
 
 *begin md8
-*export 079a
 *export 075
+*export 079a
 *export 094
 *export 079
 *export 120
@@ -26,6 +27,7 @@
 *export 122c
 *export 135
 *export 105
+*export 124
 
 *calibrate compass	+5.37
 
@@ -86,7 +88,9 @@
 122b	122c	17.80	324.0	-02.0	;BullPot sump line belay
 122	123	08.50	120.0	-01.0
 123	124	11.80	070.0	-06.0	;1.8m cascade
+*flags duplicate
 124	124a	10.00	100.0	 00.0	;side passage to sump
+*flags not duplicate
 124	125	11.40	160.0	-01.0	;Hole in floor
 125	126	17.40	157.0	-01.0
 126	127	26.60	149.0	 00.0

@@ -88,6 +88,7 @@
 *include	md7h
 *include	md7j
 *include	md8
+*include	md8i
 *include	md8s1
 *include	md8s2
 *include	md8a
