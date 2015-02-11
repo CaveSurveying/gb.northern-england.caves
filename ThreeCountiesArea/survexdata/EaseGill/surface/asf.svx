@@ -16,6 +16,7 @@
 *export sf3.001
 *export sf1a.024
 *export sf1.021
+*export ss36.001
 
 ;*flags surface
 
@@ -45,5 +46,7 @@
 *include	strsnk2
 *include	strsnk3
 *include	mb35
+*include	ss26a
+*include	ss36
 
 *end	asf

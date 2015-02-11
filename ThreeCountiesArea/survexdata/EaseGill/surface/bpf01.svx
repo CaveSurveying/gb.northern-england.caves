@@ -6,6 +6,8 @@
 *equate bpf01.001 pth1.001	;BM at Bullpot Farm
 *equate bpf01.001 pth2.001	;BM at Bullpot Farm
 *equate bpf01.001 rd1.030	;BM at Bullpot Farm
+*equate bpf01.001 ss26a.001	;BM at Bullpot Farm
+*equate bpf01.001 ss36.013	;BM at Bullpot Farm
 
 *begin	bpf01
 *export 001
