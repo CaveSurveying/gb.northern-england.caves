@@ -1,0 +1,43 @@
+;Cave:		Avon Pot
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		12/09/2010
+;Instruments:	PAG + disto
+
+*equate Av01.008 Av02.001
+
+*begin	Av01
+
+*export 001
+*export 008
+
+*calibrate compass	+6.0
+*calibrate clino	 0.0
+*calibrate tape		 0.0
+
+*fix 001 66149.42 81370.95 311.25 ;ev.ss36.001 bolt at entrance
+
+;001	001a	05.00	000.0	 00.0
+;001	001b	05.00	090.0	 00.0
+
+001	002	01.23	213.0	+02.0	;st001=bolt at entrance
+002	003	02.75	 -	DOWN	;st003 is head height sitting on boulders
+003	004	02.66	246.0	-58.0	;st004 is head height level with eyehole
+
+;004	004a	03.41	205.0	 00.0	;along too tight rift
+
+004	005	03.32	286.0	-26.0	;st005 is on wet slope
+005	006	02.25	194.0	-32.0	;st006 is head height sitting below wet drop
+006	007	02.60	195.0	-34.0	;st007 is head height sitting below boulder squeeze
+007	008	02.47	207.0	-36.0	;st008 is small knobble near dig face
+
+*end	Av01
+
+;stat	L	R	U	D	Comment
+;st001	bolt
+;st002	crag wall over climb down
+;st003	1.0	0.5	2.7	1.0
+;st004	0.5	0.3	0.6	1.0	R is eyehole to hading
+;st005	1.0	2.0	0.2	0.2	L is to boulders
+;st006	2.5	1.5	0.3	0.5	small chamber area
+;st007	0.5	0.7	0.4	0.3	L&R are to boulders with R 1.5 to hading wall
+;st008	0.1	1.2	1.0	1.0	D is going to change with dig
