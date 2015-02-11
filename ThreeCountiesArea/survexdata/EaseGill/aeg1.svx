@@ -26,7 +26,8 @@
 ;;;;;;;;*equate	asf.sf4.010a4	Cf1.cf.001	;position fixed
 ;*equate	asf.pth3.022	wc1.lbs.001
 ;;;;;;;;*equate asf.sf4.002a	Gl1.OX2.000	;position fixed
-*equate asf.sf5.002f gl1.how01.001 ;st002f=tag above Jim's dig
+*equate asf.sf5.002f	gl1.how01.001 ;st002f=tag above Jim's dig
+*equate asf.ss36.001	Avp1.av01.001
 
 *equate	main1.l1.026	cwp1.cw.031
 *equate	ak1.ak01.014	main1.md7a.001
@@ -96,6 +97,7 @@
 *include	main\main1
 *include	ag\ag1
 *include	ak\ak1
+*include	ap\avp1
 *include	bc\bc1
 *include	bh\bh1
 *include	bp\bp1
