@@ -2,7 +2,7 @@
 
 *begin	bp1
 
-*export bdy1.001b bdy1.001
+*export bdy1.001b bdy1.001 bdy3b.001
 
 ;*include	Bdy ;shite
 *include	bdy1
