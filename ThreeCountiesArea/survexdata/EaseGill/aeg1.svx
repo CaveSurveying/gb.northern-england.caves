@@ -1,3 +1,4 @@
+
 ;Every Easegill file
 
 *begin	aeg1
@@ -28,6 +29,7 @@
 ;;;;;;;;*equate asf.sf4.002a	Gl1.OX2.000	;position fixed
 *equate asf.sf5.002f	gl1.how01.001 ;st002f=tag above Jim's dig
 *equate asf.ss36.001	Avp1.av01.001
+*equate	gl1.beh.001	wrab.wra.001
 
 *equate	main1.l1.026	cwp1.cw.031
 *equate	ak1.ak01.014	main1.md7a.001
@@ -43,6 +45,7 @@
 ;;;;;;;;*equate	Main1.md2b.024	Ts1.T01b.105
 *equate	main1.md2b.024	ts1.t01bii.055
 *equate main1.md2ci.001 ts1.t06aii.001 ;st001=tag Rock of Ages
+*equate bp1.bdy3b.001	ts1.t09ai.001
 *equate	main1.l1.005	sac1.sc1.001
 *equate	main1.md7a.031a	mag1.mr1.001
 *equate	main1.l4.025	mnw1.maw1.001
