@@ -2,7 +2,9 @@
 
 *begin	gl1
 
-*export how01.001 shf.shf01.A
+*export how01.001
+*export shf.shf01.A
+*export beh.001
 
 *include	bat
 *include	bhh
@@ -30,6 +32,7 @@
 *include	row
 *include	ry
 *include	2ndb
+*include	2BH
 *include	sink01
 *include	shf
 *include	stg

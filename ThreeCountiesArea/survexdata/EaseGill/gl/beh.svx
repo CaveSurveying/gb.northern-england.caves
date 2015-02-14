@@ -3,9 +3,10 @@
 ;Date:		16/09/07
 ;Instruments:	PAG + disto
 
-;*equate	
-
 *begin	beh
+
+*export 001
+*export 003a
 
 *calibrate compass		+3.00
 *calibrate clino		+0.50
@@ -13,8 +14,11 @@
 
 *fix 003a 67625.78 80648.47 318.80 ;st003a=tag at entrance
 
-;002	001	03.87	331.0	-08.0	;st001=tag WR
-;002	003	27.55	203.0	-01.5
+*flags surface
+002	001	03.87	331.0	-08.0	;st001=tag WR
+002	003	27.55	203.0	-01.5
+*flags not surface
+
 003a	003	00.93	218.0	-30.0	;st003a=tag at entrance of Best's Hole
 003	004	01.35	139.0	-13.0
 004	005	00.38	 -	UP
