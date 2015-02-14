@@ -7,6 +7,7 @@
 *export t09c.001f
 *export t09a.031
 *export t01c.001
+*export t09ai.001
 
 ;;;;;;;;*Include	T01a ;not needed use T01c
 ;;;;;;;;*Include	T01b
@@ -39,6 +40,7 @@
 *include	t06biv
 ;;;;;;;;*Include	T09
 *include	t09a
+*include	t09ai
 *include	t09b
 *include	t09c
 *include	t09d

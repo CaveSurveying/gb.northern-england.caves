@@ -10,11 +10,17 @@
 *equate	t09a.011 t09e.001 ;st001 is spike of rock at corner
 
 *begin	t09a
-*export 031
-*export 011
-*export 019
 *export 007
+
+*export 010a
+*export 011
+
 *export 017
+
+*export 019
+
+*export 031
+
 
 *calibrate compass		+3.00
 *calibrate clino		 -0.50
