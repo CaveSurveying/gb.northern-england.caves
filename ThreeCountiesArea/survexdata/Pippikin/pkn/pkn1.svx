@@ -2,8 +2,11 @@
 
 *begin	pkn1
 *export pip12.001
+
 *export pip02a.001
+
 *export pip13.001
+
 
 *include	pip
 *include	pip01
@@ -29,6 +32,7 @@
 *include	pip18a
 *include	pip18b
 *include	pip18c
+*include	pip18d
 *include	pip19
 *include	pip19a
 *include	pip20
@@ -39,6 +43,10 @@
 *include	pip25
 *include	pip26
 *include	pip27
+*include	pip28a
+*include	pip28ai
+*include	pip28b
+*include	pip28c
 
 *include	mm1
 ;*include	mm2	;see Pete Hall/JAK/Jim Stevenson
