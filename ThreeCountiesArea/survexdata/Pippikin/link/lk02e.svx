@@ -8,9 +8,14 @@
 *equate lk02e.020 lk02.010 ;tag in Tigers Inlet on Prow
 
 *begin	lk02e
-*export 025
-*export 020
+
 *export 004
+
+*export 008a
+*export 020
+
+*export 025
+
 
 *calibrate compass		+3.00
 *calibrate clino		+0.50
