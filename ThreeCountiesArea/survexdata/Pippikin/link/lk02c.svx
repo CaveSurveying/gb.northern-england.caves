@@ -6,7 +6,7 @@
 *equate  lk02c.008 lk02.008 ;tag at Tiger's Inlet upper left hand branch
 
 *begin	lk02c
-*export 008
+*export 002a 008
 
 *calibrate compass		0.00
 *calibrate clino		0.00
