@@ -8,8 +8,12 @@
 *equate	lk13.007	lk01.034
 
 *begin	lk13
-*export 007
+
+*export 000
 *export 000b
+
+*export 007
+
 
 *calibrate compass	+8.00
 *calibrate clino	-0.50
