@@ -7,16 +7,24 @@
 *include	lk01a
 *include	lk01b
 *include	lk01c
+*include	lk01d
+*include	lk01e
+;*include	lk01f ; resurvey of the top of Echo aven to check original survey.
 *include	lk02
 *include	lk02i
 *include	lk02a
 *include	lk02ai
 *include	lk02b
 *include	lk02c
+*include	lk02ci
 *include	lk02d
 *include	lk02e
+*include	lk02ei
+*include	lk02x
 *include	lk03
 *include	lk04
+;*include	lk04a ; duplicate of lk04, original survey is better
+;*include	lk04b ; duplicate of lk05, original survey is better 
 *include	lk05
 *include	lk06
 *include	lk07
