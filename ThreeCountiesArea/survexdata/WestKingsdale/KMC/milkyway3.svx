@@ -1,6 +1,6 @@
 *begin milkyway3
 
-*export 33x 10
+*export 33x 9 10
 
 *title "From end of Milky Way 2 at start of Toyland chamber to start of low crawl towards Good Friday Passage"
 *date 2014.02.23
@@ -28,13 +28,16 @@
 
 33x	0.7	0	5	1	final station from MilkyWay2 survey, beyond traverse, numbered at start of Toyland chamber
 1	2	8	3.6	1.4 obvious stal in middle of chamber, next to stream
-2	-	-	3	1.5 side wall of chamber
+;2	-	-	3	1.5 side wall of chamber
 3	1.5	2	0	1.8 ceiling before rift
 4	1.5	1	4	2 start of rift
 5	0	0.3	6	0.5 rift
 6	0.2	0.2	4	0.5 below squeeze in rift
 7	0.3	0	4	1 above squeeze in rift
 8	-	-	-	- guess of station down rift (didn't get to this point)
+
+*data passage station left right up down ignoreall
+1	2	8	3.6	1.4 obvious stal in middle of chamber, next to stream
 9	2	3	1.2	3 small stal where stream enters Toyland chamber
 10	3	0.5	0	1 on right side of stream on mini-curtain in ceiling, numbered
 
