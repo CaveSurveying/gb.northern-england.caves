@@ -10,6 +10,7 @@
 *instrument Becka's Distox 
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
+*calibrate declination +1.96
 
 ;from	to	tape	compass	clino	remarks
 
