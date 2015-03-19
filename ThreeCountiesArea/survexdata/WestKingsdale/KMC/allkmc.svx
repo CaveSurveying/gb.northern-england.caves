@@ -1,16 +1,20 @@
-*begin allkmc
+*infer exports on ;Ignore missing exported stations to enable old data to be processed until we have replaced it all
 
+*begin allkmc
 *export	KMC.Master_Cave.1 KMC.Roof_Tunnel.003 KMC.ValleyEnt.41
 
 ; KMC is a giant file including lots of individual survey files - needs to be split up (started to split this up: Footleg 17-03-2015)
 *include KMC
-*equate	ValleyEntrance.0 KMC.Roof_Tunnel.002
+;*equate	ValleyEntrance.0 KMC.Roof_Tunnel.002
+*equate	Milkyway.32 KMC.milky_way.005  ;Better stations to equate at bend in small crawling section of milky way
+*equate KMC.roof_tunnel.029 RoofTunnel2.4
 
 ;*equate KMC.milky_way.010 milkyway2.2	; bodge connection so that surveys line up otherwise the old KMC survey centreline (Milky_Way done in 1999) is about 6m south of newer (valleyentrance and Becka milkyway) surveys - eventually just remove this old Milky_Way survey
 
 ;Footleg's DistoX resurvey of Valley Entrance and Milkyway
 *include ValleyEntrance-DistoX.svx
 *include MilkyWay-DistoX.svx
+*include RoofTunnel2.svx
 
 ;Toyland survey by Footleg (closes loop with Becka's milkyway2+3 data so included to confirm good loop but flagged as duplicate)
 *include Toyland.svx
@@ -18,6 +22,8 @@
 ; surveys done by CUCC on pre-2013 expo survey practice weekend - probably don't use
 ;*include valleyentrance_cucc
 ;*include milkyway1
+;*equate KMC.Roof_Tunnel.003 valleyentrance_cucc.15
+;*equate milkyway1.1 valleyentrance_cucc.1
 
 ; surveys done by Becka from 2013 to resurvey the Valley Entrance area
 *include milkyway2
@@ -25,9 +31,6 @@
 
 *equate ValleyEntrance.27 MilkyWay.27
 *equate MilkyWay.41 Toyland.13
-
-;*equate KMC.Roof_Tunnel.003 valleyentrance_cucc.15
-;*equate milkyway1.1 valleyentrance_cucc.1
 *equate MilkyWay.41 milkyway2.1
 *equate milkyway2.33 milkyway3.33x
 *equate Toyland.4 milkyway3.9
