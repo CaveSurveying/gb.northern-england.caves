@@ -5,7 +5,7 @@
 
 ;*equate	Pip28c.001 Pip28b.005e ; moved to parent file
 
-*begin	Pip28c
+*begin	pip28c
 
 *export 001
 *export 026
@@ -41,7 +41,7 @@
 025	026	03.77	084.0	+11.0
 026	027	06.93	 -	UP
 
-*end	Pip28c
+*end	pip28c
 
 ;st		l		r		u		d		comments
 ;1		3h/1.2l		1/bd		aven		0.8/0bd		boulder point at bottom of aven on right

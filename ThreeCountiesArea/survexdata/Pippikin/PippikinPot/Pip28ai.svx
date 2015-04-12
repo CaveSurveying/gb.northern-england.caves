@@ -5,7 +5,7 @@
 
 ;*equate Pip28ai.001 Pip28a.008a ;tag on stal. moved to parent file
 
-*begin	Pip28ai
+*begin	pip28ai
 
 *export 001
 
@@ -22,7 +22,7 @@
 007	008	01.50	064.0	-25.0
 008	009	04.28	161.0	 00.0
 
-*end	Pip28ai
+*end	pip28ai
 
 ;st		l		r		u		d		comments
 ;1										tag on stal above stream

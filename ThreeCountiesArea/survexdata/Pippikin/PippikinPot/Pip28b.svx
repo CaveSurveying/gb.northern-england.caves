@@ -6,7 +6,7 @@
 ;*equate	Pip28b.005 Pip28a.019 ; moved to parent file
 ;*equate	Pip28b.005e Pip28c.001 ; moved to parent file
 
-*begin	Pip28b
+*begin	pip28b
 
 *export 005
 *export 005e
@@ -26,7 +26,7 @@
 005c	005d	07.76	101.0	+01.0
 005d	005e	06.89	050.0	+03.0
 
-*end	Pip28b
+*end	pip28b
 
 ;st		l		r		u		d		comments
 ;1		1.0		2.0		0.5		0.3		head height middle of junction beyond too small and sump
