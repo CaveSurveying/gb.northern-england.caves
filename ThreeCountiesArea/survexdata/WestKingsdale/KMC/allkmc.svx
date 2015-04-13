@@ -1,20 +1,33 @@
 *infer exports on ;Ignore missing exported stations to enable old data to be processed until we have replaced it all
 
 *begin allkmc
-*export	KMC.Master_Cave.1 KMC.Roof_Tunnel.003 KMC.ValleyEnt.41
+*export	KMC.Master_Cave.1 Roof_Tunnel.003 ValleyEnt.41
 
 ; KMC is a giant file including lots of individual survey files - needs to be split up (started to split this up: Footleg 17-03-2015)
 *include KMC
-;*equate	ValleyEntrance.0 KMC.Roof_Tunnel.002
-*equate	Milkyway.32 KMC.milky_way.005  ;Better stations to equate at bend in small crawling section of milky way
-*equate KMC.roof_tunnel.029 RoofTunnel2.4
 
-;*equate KMC.milky_way.010 milkyway2.2	; bodge connection so that surveys line up otherwise the old KMC survey centreline (Milky_Way done in 1999) is about 6m south of newer (valleyentrance and Becka milkyway) surveys - eventually just remove this old Milky_Way survey
+;Roof Tunnel resurvey from Ray Duffy 1997
+*include RoofTunnel.svx
+*equate	Roof_Tunnel.054 KMC.Master_Cave.1
+
+;Original Window Aven 1977 survey
+*include WindowAven.svx
+*equate	Roof_Tunnel.052 Window_Aven.B7a
+
+;DCC MilkyWay resurvey
+*include MilkyWay.svx
+*equate	Roof_Tunnel.017 Milky_Way.001
+*equate Milky_Way.015 KMC.DCC_Chunnel.001
+*equate Milky_Way.015 KMC.Carrot_Passage.14
+
+;*equate	ValleyEntrance.0 Roof_Tunnel.002  ;Entrance stations equate (better equate used instead of this in MilkyWay)
+*equate	Milkyway.32 milky_way.005  ;Better stations to equate at bend in small crawling section of milky way to align data after suspected blunder in old Roof Tunnel section from entrance
 
 ;Footleg's DistoX resurvey of Valley Entrance and Milkyway
 *include ValleyEntrance-DistoX.svx
 *include MilkyWay-DistoX.svx
 *include RoofTunnel2.svx
+*equate roof_tunnel.029 RoofTunnel2.4 ;Temporary tie in to R.Duffy Roof Tunnel centreline of floating section of resurvey until the gap can be covered again
 
 ;Toyland survey by Footleg (closes loop with Becka's milkyway2+3 data so included to confirm good loop but flagged as duplicate)
 *include Toyland.svx
