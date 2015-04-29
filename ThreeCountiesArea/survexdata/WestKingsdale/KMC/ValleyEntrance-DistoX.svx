@@ -8,8 +8,7 @@
 *title "Valley Entrance"
 *date 2012.08.04
 
-*team Tape Tony Cook
-*team Insts Tony Cook
+*team DistoX Tony Cook
 *team Notes Footleg
 *instrument WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36
 ; Calibration: DistoX was calibration checked at start of trip. Back sights were taken for visual checking of all legs 
