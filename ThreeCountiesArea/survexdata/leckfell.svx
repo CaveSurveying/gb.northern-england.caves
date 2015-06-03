@@ -130,7 +130,7 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include LeckBeckHead/LeckBeckHeadWestEast
 *equate LeckBeckHeadWestEast.18 WitchesCave.Witches1DryCave.18
 
-*include kirkpot/kirkpot
+*include KirkPot/KirkPot
 
 *include GetDownShep/Shep_Pot
 *fix Shep_Pot.getdownshep1.getdownshep1_6.20 67064 78046 372  ; TEMP - Becka, 27 Dec - this needs sorting with proper fix, this is apparently GPS to top of tallest scaff pole which was station 22 in the Shep_Pot_1 survey and I've tied it to the top station in the getdownshep1 survey but not clear where getdownshep1.6-20 actually is
