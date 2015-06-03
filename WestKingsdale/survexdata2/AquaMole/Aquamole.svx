@@ -1,0 +1,85 @@
+*BEGIN Aquamole
+*export main.25
+
+;Data calculated in order to draw up original survey
+;Original notes now lost, and only x,y,x station positions remain
+
+*equate main.23 side.A
+
+*begin main
+*export 23 25
+
+*entrance 1
+*fix 1 69928	78340	375; Footleg: WAAS GPS fix 28/04/2007
+
+*data cartesian station newline easting northing altitude
+1			
+	1.21	1.21	-5.96
+2			
+	0.00	0.00	-6.10
+3			
+	0.40	0.78	-3.08
+4			
+	0.00	0.00	-10.40
+5			
+	0.00	0.00	-19.70
+6			
+	-4.13	-7.45	-3.97
+7			
+	9.28	-7.25	-0.62
+8			
+	0.34	1.56	0.00
+9			
+	2.22	1.14	0.18
+10			
+	4.46	-3.88	-1.04
+11			
+	-1.25	-2.46	0.48
+12			
+	-2.80	-1.75	-0.11
+13			
+	2.60	-2.33	-0.87
+14			
+	-1.02	-2.65	-0.61
+15			
+	-1.63	-2.72	-0.44
+16			
+	0.72	-0.69	0.03
+17			
+	-2.48	-2.85	-0.46
+18			
+	-0.77	-4.38	-10.49
+19			
+	-3.54	-5.45	-0.34
+20			
+	-3.06	2.85	-0.37
+21			
+	1.50	6.48	-3.68
+22			
+	-0.43	2.68	-3.47
+23			
+	0.00	0.00	-39.20
+24			
+	9.60	8.64	-2.75
+25			
+			
+*end main
+
+*begin side
+*export A
+
+*data cartesian station newline easting northing altitude
+A			
+	-4.75	-9.01	7.00
+B			
+	-3.13	-3.86	0.53
+C			
+	-7.22	-6.98	-0.18
+D			
+	-14.20	-3.80	-0.26
+E			
+	-13.35	-5.39	0.26
+F				
+*end side
+
+*END Aquamole

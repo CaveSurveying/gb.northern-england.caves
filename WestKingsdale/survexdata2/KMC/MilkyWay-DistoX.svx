@@ -1,0 +1,190 @@
+*BEGIN MilkyWay
+*export 27 41
+
+; Locn: West Kingsdale
+; Cave: KMC
+*title "Milky Way"
+*date 2012.08.04
+
+*team Tape Tony Cook
+*team Insts Tony Cook
+*team Notes Footleg
+*instrument WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36
+; Calibration: Continuation of Valley Entrance section of survey on the same trip. This is the calibration information 
+; from that trip file: DistoX was calibration checked at start of trip. Back sights were taken for visual checking of 
+; all legs on PDA sketch (represented by splays in this data). Magnetic steel toe caps in wellies resulted in some 
+; problems with matching back shots to forward shots when feet too close to Disto. Legs were re-measured when this 
+; occurred. See triangulation legs at stations 16-21 testing for problems. The DistoX was recalibrated at this point 
+; due to concerns with clino calibration at this point where legs with significant slope were first measured on this
+; trip.
+
+*calibrate declination +2.24
+
+*FLAGS SPLAY
+;27	27a	 8.94	115.92	  9.67  ;Splay fired down passage covered in Valley Entrance survey file
+27	27b	 2.76	192.86	  3.63
+27	27c	 3.82	194.22	 14.43
+27	27d	 2.31	151.41	  7.65
+27	27e	 2.01	 99.11	 20.06
+27	27f	 1.63	211.68	 39.50
+27	27g	 2.43	242.96	  4.41
+27	27h	 3.06	311.45	  3.30
+*FLAGS NOT SPLAY
+27	28	 2.62	211.68	  3.68	;Stn 27=Inside of small curve at base of wall. See X-section
+*FLAGS SPLAY
+28	28a	 0.53	326.32	 81.12
+28	28b	 0.29	277.48	-87.48
+28	28c	 0.61	160.11	  7.44
+28	28d	 2.63	 31.50	 -4.02
+28	28e	 1.47	329.68	  4.30
+;28	28f	13.78	357.41	 -0.73  ;Splay fired down Roof Tunnel passage
+*FLAGS NOT SPLAY
+28	29	12.13	255.78	 -0.26
+*FLAGS SPLAY
+29	29a	12.11	 75.55	  0.09
+29	29b	 1.75	147.57	 -4.56
+29	29c	 0.65	154.93	 30.18
+29	29d	 0.63	153.29	-32.95
+29	29e	 0.39	327.93	-16.43
+*FLAGS NOT SPLAY
+29	30	 5.88	228.23	  4.79
+*FLAGS SPLAY
+30	30a	 0.91	336.84	-62.91
+30	30b	 0.73	146.59	-46.60
+30	30c	 5.84	 47.43	 -4.97
+30	30d	 1.62	339.97	 -5.78
+30	30e	 1.02	342.02	-22.18
+30	30f	 1.31	338.57	-25.41
+30	30g	 0.84	334.30	 20.00
+*FLAGS NOT SPLAY
+30	31	 6.21	261.81	 -4.91
+*FLAGS SPLAY
+31	31a	 2.15	 96.18	 81.69
+31	31b	 6.21	 81.29	  4.93
+31	31c	 2.27	 29.46	 42.78
+31	31d	 1.54	 67.93	  9.76
+31	31e	 1.59	 96.54	 16.41
+31	31f	 1.86	112.45	  7.20
+31	31g	 0.24	288.89	 20.66
+31	31h	 7.07	200.96	  2.16
+31	31i	 7.08	200.66	  2.16
+31	31j	 7.08	200.77	  2.22
+31	31k	 7.08	200.56	  2.21
+*FLAGS NOT SPLAY
+31	32	 7.07	200.38	  2.24
+*FLAGS SPLAY
+32	32a	 3.20	352.96	 77.14
+32	32b	 0.82	261.25	  8.26
+32	32c	 2.25	205.43	 34.04
+32	32d	 7.07	 19.14	 -2.18
+32	32e	 1.60	329.90	  7.81
+32	32f	 1.84	295.92	 10.78
+32	32g	 1.21	318.00	-19.18
+32	32h	 0.73	110.40	 20.46
+*FLAGS NOT SPLAY
+32	33	11.76	295.38	 -0.16
+*FLAGS SPLAY
+33	33a	 2.19	142.41	 79.10
+33	33b	11.76	114.21	  0.17
+33	33c	 1.10	 88.34	 12.02
+33	33d	 2.01	162.28	  7.88
+33	33e	 1.36	129.13	 24.58
+33	33f	 4.14	195.01	 13.15
+33	33g	 2.57	202.69	  8.40
+33	33h	 0.92	171.00	-24.03
+33	33i	 2.24	 27.10	 36.52
+33	33j	 0.67	244.48	  6.88
+*FLAGS NOT SPLAY
+33	34	 7.45	235.61	  2.01
+*FLAGS SPLAY
+34	34a	 0.75	141.50	 50.17
+34	34b	 1.42	178.96	  1.84
+34	34c	 1.23	153.64	-28.47
+34	34d	 7.43	 54.53	 -2.16
+34	34e	 0.80	354.69	  3.02
+*FLAGS NOT SPLAY
+34	35	 6.87	248.86	  0.90
+*FLAGS SPLAY
+35	35a	 2.39	328.15	 80.49
+35	35b	 6.91	 67.33	 -1.16
+35	35c	 2.69	 86.78	  3.06
+35	35d	 3.32	 55.42	  0.73
+35	35e	 3.03	189.90	  3.14
+35	35f	 1.06	154.08	-44.58
+35	35g	 1.59	140.52	 -0.85
+35	35h	 3.85	 12.24	 20.11
+35	35i	 0.56	281.30	 14.35
+*FLAGS NOT SPLAY
+35	36	 8.47	215.27	 -1.05
+*FLAGS SPLAY
+36	36a	 1.00	 17.95	 45.09
+36	36b	 0.70	172.07	  1.52
+36	36c	 2.06	293.64	  2.35
+36	36d	 8.50	 34.01	  1.13
+36	36e	 1.94	  3.89	 -2.47
+36	36f	 1.10	359.79	-27.67
+36	36g	 2.54	328.88	 -1.50
+*FLAGS NOT SPLAY
+36	37	 9.89	311.23	 -0.25
+*FLAGS SPLAY
+37	37a	 9.89	129.95	  0.24
+37	37b	 0.96	190.13	 38.66
+37	37c	 1.87	190.50	  9.11
+37	37d	 0.90	187.07	-26.55
+37	37e	 0.47	 19.01	 42.51
+*FLAGS NOT SPLAY
+37	38	 9.93	268.94	  3.20	;Stn 38=Middle of ceiling arch in main passage. Marked with small vertical scratch.
+*FLAGS SPLAY
+38	38a	 2.53	289.71	 85.25
+38	38b	 0.94	284.25	-80.72
+38	38c	 9.91	 87.48	 -3.55
+38	38d	 0.96	178.37	-22.48
+38	38e	 1.29	  8.88	-33.96
+38	38f	 5.27	 35.99	 -4.41
+*FLAGS NOT SPLAY
+38	39	 2.62	265.98	-14.89
+*FLAGS SPLAY
+39	39a	 0.66	134.43	 74.92
+39	39b	 2.63	 84.01	 14.88
+39	39c	 1.29	158.68	 11.27
+39	39d	 0.52	159.35	-27.99
+39	39e	 0.50	335.87	 30.62
+39	39f	 3.22	254.53	  1.22
+*FLAGS NOT SPLAY
+39	40	 9.32	251.73	  1.41
+*FLAGS SPLAY
+40	40a	 0.69	359.04	 55.85
+40	40b	 0.40	163.19	 16.81
+40	40c	 9.34	 70.68	 -1.29
+40	40d	 1.93	  8.17	  6.83
+40	40e	 1.01	358.06	-23.18
+*FLAGS NOT SPLAY
+40	41	 2.48	342.49	  6.00	;Stn 41=Apex of boulder cemented into calcite at Toyland climbs junction 
+*FLAGS SPLAY
+41	41a	 4.65	298.25	 74.58
+41	41b	 0.56	294.43	  1.07
+41	41c	 3.56	204.32	 -0.40
+41	41d	 3.23	225.90	  0.91
+41	41e	 2.48	162.11	 -6.03
+41	41f	 0.92	113.19	  5.13
+41	41g	 2.83	  7.01	 43.69
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+27	 3.20	 0.00	 1.04	 0.00
+28	 0.58	 1.46	 0.52	 0.29
+29	 1.74	 0.37	 0.33	 0.34
+30	 0.50	 1.61	 0.00	 0.81
+31	 1.62	 0.61	 2.13	 0.00
+32	 1.26	 1.57	 3.12	 0.00
+33	 3.80	 1.53	 2.15	 0.37
+34	 1.27	 0.74	 0.58	 0.59
+35	 2.03	 2.32	 2.36	 0.74
+36	 0.70	 2.31	 0.71	 0.51
+37	 1.82	 0.35	 0.32	 0.40
+38	 0.89	 4.11	 2.52	 0.93
+39	 1.25	 0.42	 0.64	 0.24
+40	 0.28	 1.81	 0.57	 0.40
+41	 2.89	 0.85	 4.48	 0.00
+
+*END MilkyWay

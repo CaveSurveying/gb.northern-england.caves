@@ -1,0 +1,70 @@
+*begin wks ;West_Kingsdale_System
+
+*include KMC/allKMC
+*include Swinsto/Swinsto
+*include RowtenCaves/RowtenCaves
+*include Yordas/Yordas
+*include GreenLaids/GreenLaids
+*include Aquamole/Aquamole
+*include UpstreamSumps/UpstreamSumps
+
+*equate	Aquamole.main.25 upstreamsumps.pt1.0
+
+*begin JinglingPot
+*entrance Ent_GPS
+*fix Ent_GPS	69907	78377	376; WAAS GPS 9 sats. FORKED BASE OF TWIN TREE PLUMB LINE  
+*end JinglingPot
+
+*begin RowtenPot
+;Projected bottom of Rowten from GPS fix at eyehole
+;105m deep
+;Bottom 26m horizontally due East from eyehole gps fix
+*fix 1	69820	78000	362; WAAS GPS 8 sats. EYEHOLE TREE ROOT
+*entrance 1
+1	2	94	90	-74.5
+
+*equate	2	UpstreamSump.5
+
+*begin UpstreamSump
+*export 5
+*calibrate compass +182.68
+
+*data diving from to bearing length fromdepth todepth
+5	5a	160	5.45	0	-0.5;						(5) is P-Bolt at the start of the first upstream Rowten sump. (4) & (5) were not connected as these require dry survey techniques.
+5a	6	160	5.45	-0.5	0;
+6	6a	150	11.30	0	-1.0;
+6a	7	150	11.30	-1.0	0;						(7) is a bolt with diveline belayed to it in an airbell - approx 3m high, 3m wide
+7	7a	190	5.25	0	-1.0;
+7a	8	190	5.25	-1.0	0;						(8) is another airbell
+8	8a	140	24.35	0	-1.9;
+8a	9	140	24.35	-1.9	0;						(9) is the tie in point at the end of this survey leg. It ends in low, wet canal (Frakes passage) along the line (not at a belay) and is indicated by a white line arrow, placed on the dive line on the right hand side of the passage (heading upstream) and is a marker to tie into.
+
+*end UpstreamSump
+
+*end RowtenPot
+
+*begin GPS_Fixes
+
+;WAAS with good satelite coverage
+;Footleg 28/04/2007
+
+*fix ApprenticePot_GPS	70251	78891	367; WAAS GPS 9 sats.
+*fix BullPot_GPS	70212	78748	361; WAAS GPS 9 sats. ROCK NOSE BY PBOLT PLUMB LINE  
+*fix CraftmansPot_GPS	70230	78861	370; WAAS GPS 9 sats. WHEELBARROW OVER ENT
+*fix KailPot_GPS	68759	76879	388;
+*fix PrimroseShakehole_GPS	70237	78802	366; WAAS GPS 9 sats. SHAKEHOLE CORUG IRON &PRIMOSES
+*fix SimpsonsPot_GPS	69620	77869	378; WAAS GPS 8 sats.
+*fix ShoutPot_GPS	70170	78698	365; WAAS GPS 10 sats.  ROTTING PLANKS & CORRUG IRON
+*fix TurburyPot_GPS	69508	77503	377; WAAS GPS 8 sats.
+*fix RowtenPot2_GPS 	69822.794	78032.703	364; WAAS GPS 8 sats. ROCK POINT
+
+;*fix Pot_GPS	x	y	z;
+
+*end GPS_Fixes
+
+*solve
+
+*include Keld_Head/Keld_Head
+*equate	allkmc.KMC.Master_Cave.1 Keld_Head.kh09.218
+
+*end  wks ;West_Kingsdale_System

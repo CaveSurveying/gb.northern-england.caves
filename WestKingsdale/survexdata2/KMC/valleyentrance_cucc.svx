@@ -1,0 +1,49 @@
+*begin valleyentrance_cucc
+*export 15 1
+
+; Locn: West Kingsdale
+; Cave: KMC
+*title "Valley Entrace"
+*date 2013.07.06
+
+*team Insts Chris Burnley
+*team Notes Stu Walker
+*instrument CUCC compass clino, Becka's disto
+; Calibration: What calibration
+
+*calibrate declination +2.24
+*data normal from to tape compass clino
+1   2   8.99    112     -2
+2   3   3.80    102     +9
+3   4   12.40   073     +6
+4   5   12.26   143     -4
+6   5   5.40    336     -10
+6   7   13.60   203     -3
+8   7   11.30   338     +2
+9   8   3.26    050     +2
+10  9   13.60   309     +1
+11  10  0.50    -       down
+12  11  5.04    273     +1
+12  13  14.82   097     +1
+14  13  10.50   323     +1
+14  15  8.09    092     +6
+
+*data passage station left right up down ignoreall
+;stn	L	R	U	D	Desc
+1   2   3   1   1   ceiling nodule top left
+2   4.0 5.0 4.0 1.0     white coloured rock
+3   1.0 0.5 0.5 1.5     nodule ceiling
+4   0.5 1.5 0.5 1.5     nodule top left wall
+5   1.0 1.5 1.0 0.5     stal chunk on floor
+6   0   2.5 2.0 1.0     nodule left wall
+7   0.5 0.5 13.0 0.5    rock on floor
+8   1.5 2.5 4.0 0.5     rock on floor
+9   4.0 1.0 3.0 0.5     right hand wall
+10  3.0 0.0 3.0 0.5     right hand wall
+11  -   -   -   -
+12  1.5 1.5 1.0 0.5     rock on floor
+13  4.0 5.0 3.0 1.0     left wall
+14  5.0 4.0 5.0 0.0     floor
+15  0.0 1.0 0.5 0.5     permanent rivet bolt on right wall (relative to entrance) just below barrel
+
+*end valleyentrance_cucc

@@ -1,0 +1,48 @@
+*begin Milky_Way
+*export 001 010 015
+
+;DCC Resurvey of Milky Way after Chunnel Extensions were found
+
+; Locn: West Kingsdale
+; Cave: KMC
+*title "Milky Way"
+*date 1999.01.05	;Date:	05/01/99
+
+*team surveyor DCC
+;Instruments:	?
+
+;Grid adjustment for OSGB in West Kingsdale: 0.3752
+*calibrate declination +4.46
+
+001	002	00.30	 -	DOWN
+002	003	14.60	251.0	+01.0
+003	004	10.00	243.0	+01.0
+004	005	05.60	208.0	+01.0
+005	006	11.30	294.0	-01.0
+006	007	18.20	241.0	+01.0
+007	008	04.10	197.0	-04.0
+008	009	12.10	302.0	+01.0
+009	010	21.90	264.0	+01.0	;st010 is Toyland Rift Back 1.5??????
+010	011	09.00	197.0	 00.0
+011	012	24.70	151.0	+01.0
+012	013	07.90	120.0	+03.0
+013	014	04.80	207.0	+01.0
+014	015	07.10	251.0	-04.0	;st015 = 001 in Chunnel Survey
+
+*data passage station left right up down
+002	1.2	0.4	0.3	1.2
+003	2.0	1.0	1.6	0.3
+004	1.0	0.2	2.0	0.3
+005	1.3	1.6	2.5	0.6
+006	3.5	1.2	2.3	0.4
+007	1.5	0.2	1.0	0.6
+008	1.0	1.7	1.0	0.4
+009	1.5	0.4	0.4	0.5
+010	2.0	-	0.5	1.0
+011	1.8	0.4	0.2	0.9
+012	2.0	0.2	0.3	0.4
+013	1.2	0.2	2.0	0.2
+014	0.8	1.5	2.5	0.4
+015	2.0	1.0	0.6	0.9
+
+*end Milky_Way

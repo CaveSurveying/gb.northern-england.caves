@@ -1,0 +1,33 @@
+*begin	SwinstoSump
+*export 001 014
+
+;Swinsto water downstream sump in Philosophers Crawl to upstream end of oxbox sump in Rowten Passage.
+
+; Locn: West Kingsdale
+; Cave: KMC
+*title "Swinsto Downstream Sump"
+*date 2008.06.22  ;Date:	22/06/08
+
+*team surveyor John Cordingley
+;*instrument ?
+
+;No depth readings taken, but maximum depth on dive was -1.5m
+;Grid adjustment for OSGB in West Kingsdale: 0.3752
+*calibrate declination +2.91
+
+*data diving from to bearing length fromdepth todepth
+001	002	030	5.5	 0	0	;st001 = silt screw just before sump in philospher's crawl (not the belay at the start of the dive line)
+002	003	000	1.5	 0	0
+003	004	040	8.0	 0	0
+004	005	105	5.0	 0	0
+005	006	030	3.0	 0	0
+006	007	034	3.0	 0	0
+007	008	048	12.0	 0	0
+008	009	052	7.0	 0	0
+009	010	080	5.0	 0	0
+010	011	090	5.0	 0	0
+011	012	109	2.0	 0	0
+012	013	030	4.0	 0	0
+013	014	030	5.5	 0	0	;Small pile of stones with upstream oxbow sump dive line belay. Under water against right wall in Rowten Passage
+
+*end  SwinstoSump

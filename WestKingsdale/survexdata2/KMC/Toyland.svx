@@ -1,0 +1,53 @@
+*BEGIN Toyland
+*export 4 13
+
+; Locn: West Kingsdale
+; Cave: KMC
+; Toyland chamber down to junction with crawls at bottom of rift climb
+*title "Toyland"
+*date 2007.04.29
+
+*team Tape Chris Williams, Tom Baker, Karen Wilton
+*team Insts Rose Wilson
+*team Notes Footleg
+*instrument Compass 522006 Clino 032846 (SUUNTO compass and clino on loan from Olly Betts)
+; Calibration against pair of boulders outside Valley Entrance to the left of the gate from the road.
+; Rose W.: Compass 191, 011 Clino -04, +03
+
+*calibrate declination	+3.09
+
+;fr to  tape	comp clino	stn	L	R	U	D
+*flags duplicate
+1	2	8.50	063	+04	;2	4	3	2	1.6			
+1	3	9.95	340	+25	;3	2.5	2	3	2
+1	4	4.86	267	+34	;4	2.5	1.5	1.2	0
+1	5	4.70	124	-08	;5	0	1.6	4	0.6
+5	6	5.60	201	-06	;6	0.4	0	0.5	1.5
+6	7	2.50	186	-10	;7	0.3	0	1.0	0.7
+7	8	3.53	197	-14	;8	0	0.9	1.2	0.7
+8	9	3.53	206	-32	;9	0.5	0	0.4	1
+9	10	3.79	182	-70	;10	0.25	0.1	2.5	0
+10	11	3.83	-	-V	;11	1.5	0.2	3.8	0.5
+11	12	2.62	195	+09	;12	0.7	0	3	1.5
+12	13	4.31	184	-64	;13	0.7	0.7	1.5	0.4
+*flags not duplicate
+
+*data passage station left right up down
+2	3	4	2	1.6
+1	5.5	4.7	5	1.5
+4	2.5	1.5	1.2	0		;4=Tip of small stalagmite at left of flowstone
+
+*data passage station left right up down
+3	2	2.5	3	2
+1	2	2.5	5	1.5		;1=Tip of stal boss on boulder
+5	0	1.6	4	0.6
+6	0.4	0	0.5	1.5
+7	0.3	0	1.0	0.7
+8	0	0.9	1.2	0.7
+9	0.5	0	0.4	1
+10	0.25	0.1	2.5	0
+11	1.5	0.2	3.8	0.5
+12	0.7	0	3	1.5
+13	0.7	0.7	1.5	0.4		;13=pointed tip of calcited boulder on middle of flowstone lip at junction with Milky Way
+
+*END Toyland
