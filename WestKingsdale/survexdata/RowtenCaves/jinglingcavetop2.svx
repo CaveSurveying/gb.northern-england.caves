@@ -33,7 +33,7 @@
 17	16	4.32	027.5	5.5
 18	17	1.63	088.2	-6.8
 19	18	7.79	019.7	0.2
-20	19	0.70	341.2	11.9		;final station is orange tag on LHW, wedged in calcite ribs, labelled 20
+19	20	0.70	341.2	11.9		;final station is orange tag on LHW, wedged in calcite ribs, labelled 20
 *flags	splay
 13	13A	0.91	241.9	-5.9
 *flags not splay

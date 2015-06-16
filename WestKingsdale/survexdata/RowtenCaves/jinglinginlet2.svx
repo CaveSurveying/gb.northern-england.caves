@@ -1,0 +1,28 @@
+*begin JinglingInlet2								
+;export 								
+;checked 						
+*team "George Breley" notes 								
+*team "Luke Stangroom" compass clino 		
+*team "Nathanael Dalton" backcompass backclino tape
+*instrument "436006" compass							 
+*instrument "023187" clino
+*instrument "436006" backcompass
+*instrument "023187" backclino
+
+*date 2015.06.14
+
+*data normal from to tape compass backcompass clino backclino		
+x9	1	7.7	024	204	-04	02
+1	2	6.3	359	179	-03	03
+2	3	2.2	351	171	09	-10
+3	4	2.4	043	223	12	-10
+4	5	2.46	009	188	17	-16
+
+*data passage station left right up down ignoreall					
+x9	0	0.8	2.5	0.5
+1	0.7	0	2.5	0.4	Survey station ledge RHW
+2	0.7	0.1	2.5	0.3	RHW
+3	0	0.75	3	0.5	LHW	knobble
+4	0.6	0	3	0.7	RHW flake
+5 	0	0.8	1.5	1.5	Above cobbles in stream up left
+*end JinglingInlet2

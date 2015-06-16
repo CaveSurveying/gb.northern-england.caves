@@ -1,0 +1,26 @@
+
+;Created 2015.06.16 by Noel Snape
+
+;Rowten Caves re-survey
+
+;--------------------------------------------------------------------------------------------
+;Modifications
+;
+
+;--------------------------------------------------------------------------------------------
+;Only Rowten cave files joined into the survey are included, the remaining surveys are 
+;attached to other sections of cave for the mean-time (until all joined up)
+
+*begin rowtencaves_new
+
+*export rowtencave_surface.5hex
+
+*include rowtencave_surface
+*include rowtencavebottom
+;*include rowtencavebottom2
+
+*equate rowtencavebottom.1	rowtencave_surface.1x
+
+
+
+*end rowtencaves_new

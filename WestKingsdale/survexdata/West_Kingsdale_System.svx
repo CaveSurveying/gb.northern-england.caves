@@ -7,26 +7,21 @@
 *include GreenLaids/GreenLaids
 *include Aquamole/Aquamole
 *include UpstreamSumps/UpstreamSumps
-
-
+*include kdgps
+*include RowtenCaves/rowtencaves_new
 
 *equate	Aquamole.main.25 upstreamsumps.pt1.0
 
 
-*include kdgps
 *equate RowtenPot.1	kdgps.tr
+*equate rowtencaves_new.rowtencave_surface.5hex	kdgps.3c21
 
-*include RowtenCaves/rowtencave_surface
-*equate	rowtencave_surface.5hex	kdgps.3c21	
-
-*include RowtenCaves/rowtencavebottom
-*equate rowtencavebottom.1	rowtencave_surface.1x
 
 *include RowtenCaves/jinglingcavetop
 *equate	jinglingcavetop.1	kdgps.3c22	
 
 *include RowtenCaves/rowtencavetop
-*equate rowtencavetop.1	rowtencaves.rowtencaves1.8		;temporary for comparison until survey of rowten cave finished
+*equate rowtencavetop.1	rowtencaves.rowtencaves1.8		;temporary CHEAT for comparison until survey of rowten cave finished
 
 *include RowtenCaves/jinglingcavetop2
 *equate jinglingcavetop2.9x	jinglingcavetop.9

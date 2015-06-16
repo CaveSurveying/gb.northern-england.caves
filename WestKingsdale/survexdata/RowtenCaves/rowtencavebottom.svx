@@ -1,6 +1,6 @@
-*begin rowtencavebottom									;This needs to be a unique name so for example gingling_entrance_1. Keep it the same as the file name to avoid complications when tying surveys together
+*begin rowtencavebottom		
 *export	1	11
-;checked 								;It is very important notes are checked to avoid errors/typos. Keeping a log here does not effect the survey but is useful as a check
+;checked 
 *team "Rachel Turnbull" notes 								
 *team "Caroline Nunn" compass clino tape  			
 *team "Mike Butcher" backcompass backclino
