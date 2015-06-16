@@ -1,0 +1,72 @@
+*begin jinglingcavetop2
+*export 9x
+;checked 16.06.2015 NS
+*team "Noel Snape" notes
+*team "Rachel Turnbull" compass clino tape ; disto
+;*team "Emma Wilson" backcompass backclino
+*instrument "H&N Distox2" compass
+*instrument "H&N Distox2" clino
+
+
+*date 2015.06.14
+;*calibrate declination +2.64
+;*calibrate backcompass 180
+;*calibrate backclino 0 -1
+
+*data normal from to tape compass clino
+1	9x	3.45	024.7	13.6		;9x is last station of previous survey. Point on know of rock on true RH wall just before entrance
+2	1	8.99	354.1	01.7
+3	2	6.70	066.3	-2.2
+4	3	5.09	077.0	4.3
+5	4	11.8	012.9	1.7
+6	5	6.80	032.7	-0.9
+7	6	8.86	014.7	1.8
+8	7	4.71	038.6	-0.6
+9	8	10.8	015.5	2.3
+10	9	2.87	035.0	0.3
+11	10	6.56	013.9	-2.4
+12	11	15.40	025.2	2
+13	12	10.66	013.8	0
+14	13	6.57	030.1	2.3
+15	14	3.67	024.0	3.3
+16	15	2.48	353.7	-15.4
+17	16	4.32	027.5	5.5
+18	17	1.63	088.2	-6.8
+19	18	7.79	019.7	0.2
+20	19	0.70	341.2	11.9		;final station is orange tag on LHW, wedged in calcite ribs, labelled 20
+*flags	splay
+13	13A	0.91	241.9	-5.9
+*flags not splay
+13A	13B	3.20	125.9	3.3
+
+*entrance	9x
+
+*data passage station left right up down
+9x	1.5	0	0.5	0.4
+1	1.1	1	0.5	0.4		;LH side, bedrock
+2	0.2	1.7	1.2	0.4		;LH wall rock point
+3	0.5	1.3	0.9	0.9		;flowstone head height
+4	1.6	0	1.3	0.5		;RH bedrock
+5	0.5	1.3	1.5	0.5		;LH BR
+6	1	0.4	1.4	0.6		;RH BR
+7	0	1.4	1.5	0.5		;LH BR
+8	1.5	0	1.6	0.7		;RH BR
+9	2	1.4	1.4	0.4		;rock pillar
+10	1	1.3	0.4	0.5		;LH BR
+11	0.6	1.1	1.2	0.7		;LH flowstone
+12	2	0.5	0.9	0.3		;RH BR
+13	0.3	1.6	0.9	0.4		
+14	1.2	0.7	1	0.4		;LH wall under boulder
+15	1.1	0.6	1.1	0.2		;temp cairn
+16	0.5	0.9	0.4	0.9		;RH flowstone
+17	0	1.4	0.7	0.6
+18	0.6	0.4	0.6	0.7		;RH flowstone
+19	0.6	0.8	0.4	1
+20	-	-	-	-		;final station is orange tag on LHW, wedged in calcite ribs, labelled 20
+
+*data passage station left right up down
+13	-	-	-	-
+13A	0.2	0.2	0.9	0.2
+13B	1	0.5	0.5	0.4		;side passage, becomes too tight
+
+*end jinglingcavetop2

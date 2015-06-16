@@ -8,18 +8,41 @@
 *include Aquamole/Aquamole
 *include UpstreamSumps/UpstreamSumps
 
+
+
 *equate	Aquamole.main.25 upstreamsumps.pt1.0
+
+
+*include kdgps
+*equate RowtenPot.1	kdgps.tr
+
+*include RowtenCaves/rowtencave_surface
+*equate	rowtencave_surface.5hex	kdgps.3c21	
+
+*include RowtenCaves/rowtencavebottom
+*equate rowtencavebottom.1	rowtencave_surface.1x
+
+*include RowtenCaves/jinglingcavetop
+*equate	jinglingcavetop.1	kdgps.3c22	
+
+*include RowtenCaves/rowtencavetop
+*equate rowtencavetop.1	rowtencaves.rowtencaves1.8		;temporary for comparison until survey of rowten cave finished
+
+*include RowtenCaves/jinglingcavetop2
+*equate jinglingcavetop2.9x	jinglingcavetop.9
 
 *begin JinglingPot
 *entrance Ent_GPS
 *fix Ent_GPS	69907	78377	376; WAAS GPS 9 sats. FORKED BASE OF TWIN TREE PLUMB LINE  
 *end JinglingPot
 
+
 *begin RowtenPot
+
 ;Projected bottom of Rowten from GPS fix at eyehole
 ;105m deep
 ;Bottom 26m horizontally due East from eyehole gps fix
-*fix 1	69820	78000	362; WAAS GPS 8 sats. EYEHOLE TREE ROOT
+;*fix 1	69820	78000	362; WAAS GPS 8 sats. EYEHOLE TREE ROOT     OLD GPS Reading, obsolete
 *entrance 1
 1	2	94	90	-74.5
 

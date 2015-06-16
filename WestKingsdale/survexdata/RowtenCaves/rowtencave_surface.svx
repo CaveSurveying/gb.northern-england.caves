@@ -1,0 +1,26 @@
+*begin rowtencave_surface								
+*export	1x	5hex							
+;checked 						
+*team "Luke Stangroom" notes 								
+*team "George Breley" compass clino 		
+*team "Nathanael Dalton" backcompass backclino tape
+*instrument "436006" compass							 
+*instrument "023187" clino
+*instrument "436006" backcompass
+*instrument "023187" backclino
+
+*date 2015.06.13
+*calibrate tape -0.1
+
+*data normal from to tape compass backcompass clino backclino
+*flags surface
+1x	2	9.3	128	310	16	-15
+2	3	13.1	198	017	0	0
+3	4	8.1	188	008	1	-1
+4	5hex	5.6	196	015	-2	3
+
+
+;*data passage station left right up down								
+
+
+*end rowtencave_surface

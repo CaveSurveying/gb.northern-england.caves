@@ -25,6 +25,8 @@
 *export tb2	;presumed to the be the start of the Jingling Pot cave survey
 *export 3c24	;Aquamole top centre of square section upright bar in bedrock near entrance
 *export tr	;Rowten Pot tree root presumed to be start of Rowten Pot cave survey
+*export	3c21	;Rowten Pot -3c21 is top centre of hex head bolt in bedrock between P hangers
+*export 3c22	;Jingling pot, stainless steel bolt and washer in bedrock
 *export 3c19	;Simpsons Pot cow tag drill hole, start of cave survey
 *export 3c18	;Turbary Pot stainless steel bolt marker
 *export 3c17	;Swinsto stainless steel bolt marker
@@ -59,6 +61,7 @@
 3c23ae	3c23	1.229	-	DOWN	;3c23ae is GPS antenna base, 3c23 is stainless steel bolt and washer in bedrock
 
 ; Jingling Pot 30 June 2013
+*flags surface
 3c22ae	3c22	1.267	-	DOWN	;3c22ae is GPS antenna base, 3c22 is stainless steel bolt and washer in bedrock
 3c22	jp	7.094	106.0	-2.0	;jp is P hanger closest to trees on edge
 jp	tb1	2.634	142.0	-1.0	;tb1 is base of eastern most tree
@@ -69,6 +72,7 @@ jp	tb2	2.279	142.0	-1.0	;tb2 is base of western most tree
 3c24ae	3c24	1.132	-	DOWN	;3c24ae is GPS antenna base, 3c24 is top centre of square sectioned upright bar in bedrock
 
 ; Rowten Pot 13 July 2013
+
 3c21ae	3c21	1.93	-	DOWN	;3c21ae is GPS antenna base, 3c21 is top centre of hex head bolt in bedrock between P hangers
 3c21ae	tr	4.145	274.0	-42.0	;tr is tree root which is presumed to be start of Rowten Pot cave survey
 

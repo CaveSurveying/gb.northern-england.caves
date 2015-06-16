@@ -12,7 +12,7 @@
 
 *begin RowtenCaves1
 
-*export 1
+*export 1	8
 
 ; Upstream Entrances Loop - Middle to Top 
 ; First ever survey for the entire team on a training workshop weekend

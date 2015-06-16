@@ -1,0 +1,48 @@
+*begin	jinglingcavetop
+*export	1	9
+;checked
+*team "Shezi Moha" notes
+*team "Rob Watson" compass clino tape 
+*team "Rob Watson" backcompass backclino
+*instrument "947153" compass
+*instrument "947153" clino
+*instrument "947153" backcompass
+*instrument "947153" backclino
+
+*date 2015.06.13
+;*calibrate declination +2.64
+;*calibrate backcompass 180
+;*calibrate backclino 0 -1
+
+*data normal from to tape compass backcompass clino backclino
+*flags surface
+1	2	8.64	272	091.5	-1.5	1
+2	3	5.92	215.5	36	-3	3.5
+*flags not surface
+3	4	2.23	244.5	063	1.5	-1.5
+4	5	2.96	291	110	-8.5	8
+5	6	2.77	255	074	0.5	-0.5
+6	7	3.51	281	100	-6	6
+*flags surface	
+7	8	4.48	204	024	-1	1.5
+8	9	4.53	234.5	054	2.5	-1.5
+*flags not surface
+;9	10	2.61	205	024	-11	11		LEG REPLICATED in next survey
+
+*entrance	3
+*entrance	7
+
+*data passage station left right up down														
+1	-	-	-	-																	;outside survey
+2	-	-	-	-																;outside survey															
+3	0.3	0.6	0.1	0.9
+4	0.9	0	0.4	0.5	
+5	0	3.5	0.3	0.6
+6	0.6	0.4	0.5	0.4
+7	-	-	-	-	
+8	-	-	-	-
+9	-	-	-	-
+;10	0	0.8	0.1	0.6
+
+
+*end jinglingcavetop
