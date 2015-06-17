@@ -17,9 +17,10 @@
 
 *include rowtencave_surface
 *include rowtencavebottom
-;*include rowtencavebottom2
+*include rowtencavebottom2
 
 *equate rowtencavebottom.1	rowtencave_surface.1x
+*equate rowtencavebottom.10	rowtencavebottom2.10
 
 
 
