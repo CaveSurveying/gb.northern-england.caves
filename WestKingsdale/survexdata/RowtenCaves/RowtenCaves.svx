@@ -3,8 +3,9 @@
 ;Complete Rowten Caves including Jingling Caves
 ; 28/04/2007
 
+*calibrate declination 3.48  ;more accurate value than below, taken from NOAA website for exact location and date
 ;*calibrate compass +2.0	;Calibration based on GPS fixes
-*calibrate compass  +3.15	;Calibration based on OS Map data for magnetic deviation in 2007
+;*calibrate compass  +3.15	;Calibration based on OS Map data for magnetic deviation in 2007
 
 *equate RowtenCaves1.1 RowtenCaves2.0
 *equate RowtenCaves2.6 RowtenCaves3.6
@@ -14,7 +15,7 @@
 
 *export 1	8
 
-*calibrate declination 3.48
+;*calibrate declination 3.48
 ; Upstream Entrances Loop - Middle to Top 
 ; First ever survey for the entire team on a training workshop weekend
 ; 28/04/2007
