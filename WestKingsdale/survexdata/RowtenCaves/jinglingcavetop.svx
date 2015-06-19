@@ -10,7 +10,7 @@
 *instrument "947153" backclino
 
 *date 2015.06.13
-;*calibrate declination +2.64
+*calibrate declination +2.06		;taken from NOAA website for 54.18degrees N, 2.47degrees West
 ;*calibrate backcompass 180
 ;*calibrate backclino 0 -1
 

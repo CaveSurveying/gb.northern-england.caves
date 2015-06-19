@@ -14,6 +14,7 @@
 
 *export 1	8
 
+*calibrate declination 3.48
 ; Upstream Entrances Loop - Middle to Top 
 ; First ever survey for the entire team on a training workshop weekend
 ; 28/04/2007
