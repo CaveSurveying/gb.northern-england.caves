@@ -26,6 +26,9 @@
 *include RowtenCaves/jinglingcavetop2
 *equate jinglingcavetop2.9x	jinglingcavetop.9
 
+*include RowtenCaves/rowtencavetop2
+*equate rowtencavetop2.18	rowtencavetop.18
+
 *begin JinglingPot
 *entrance Ent_GPS
 *fix Ent_GPS	69907	78377	376; WAAS GPS 9 sats. FORKED BASE OF TWIN TREE PLUMB LINE  

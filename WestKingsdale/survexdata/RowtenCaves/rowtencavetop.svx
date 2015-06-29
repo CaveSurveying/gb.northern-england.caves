@@ -1,5 +1,5 @@
 *begin rowtencavetop
-*export 1
+*export 1	18
 ;checked 
 *team "chris williams ian peachey" notes 								
 *team "clara duncan chris williams" disto
