@@ -18,7 +18,7 @@
 ; due to concerns with clino calibration at this point where legs with significant slope were first measured on this
 ; trip.
 
-*calibrate declination +2.24
+*calibrate declination +2.21
 
 *FLAGS SPLAY
 ;27	27a	 8.94	115.92	  9.67  ;Splay fired down passage covered in Valley Entrance survey file

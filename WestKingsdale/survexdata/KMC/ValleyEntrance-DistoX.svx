@@ -17,7 +17,8 @@
 ; See triangulation legs at stations 16-21 testing for problems. The DistoX was recalibrated at this point due to 
 ; concerns with clino calibration at this point where legs with significant slope were first measured on this trip.
 
-*calibrate declination +2.24
+*calibrate declination +2.57	;taken from NOAA website
+;*calibrate declination +2.24 
 
 *entrance 0
 *fix 0 69908.00 77410.00 279.00 ;GPS Footleg  369908.00 477410.00 279.00
