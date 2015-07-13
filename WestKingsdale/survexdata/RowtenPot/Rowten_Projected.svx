@@ -3,7 +3,7 @@
 
 *begin Rowten_Projected
 
-*export	2
+*export	1	2
 
 ;Projected bottom of Rowten from GPS fix at eyehole
 ;105m deep

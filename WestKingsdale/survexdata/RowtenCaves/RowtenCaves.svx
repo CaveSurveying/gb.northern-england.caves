@@ -3,6 +3,7 @@
 ;Complete Rowten Caves including Jingling Caves
 ; 28/04/2007
 
+*export RowtenCaves1.8
 *calibrate declination 3.48  ;more accurate value than below, taken from NOAA website for exact location and date
 ;*calibrate compass +2.0	;Calibration based on GPS fixes
 ;*calibrate compass  +3.15	;Calibration based on OS Map data for magnetic deviation in 2007

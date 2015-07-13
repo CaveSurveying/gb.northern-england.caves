@@ -1,5 +1,5 @@
 *BEGIN RoofTunnel2
-
+*export	4
 ;This data was following on from some data collected during an ULSA student training course.
 ;That training data turned out to contain too many blunders to be usable, and was never delivered
 ;for archiving. So for now this can be hung off the old Roof Tunnel centreline from Ray Duffy

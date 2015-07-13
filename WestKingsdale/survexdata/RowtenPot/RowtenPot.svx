@@ -7,6 +7,7 @@
 
 *begin RowtenPot
 
+*export	Rowten_Projected.1
 *include Rowten_Projected
 *include Upstream_Sump
 

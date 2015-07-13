@@ -1,5 +1,5 @@
 *begin Roof_Tunnel
-*export 002 017 052 054
+*export 002 017 029	052 054
 
 ;Resurvey of the Roof Tunnel from Ray Duffy
 ;No usable sketches so this data is being used until the resurvey has repeated these sections

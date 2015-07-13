@@ -1,0 +1,38 @@
+;old survey by Ray/Andy, only for indicative locations to be re-surveyed
+
+*begin Master_Cave
+*export 1 106
+
+;Cave:	Kingsdale Master Cave - from diver's line knot to East Entrance
+;Surveyors:	R.Duffy/A.Whitney
+*date 2003.06.01	;Date:	01/06/03
+;Instruments:PAG
+
+*calibrate declination +3.72
+*calibrate clino   +0.50
+
+1	2	13.86	034	3	;st1=knot on diver's line
+2	3	11.38	334	2	;Black Rose enters on right at05.39m(true) from st002
+3	4	9.69	268	1.5	
+4	5	6.68	283	1	
+5	6	10.16	309	2.5	
+6	7	6.28	280	1	
+7	8	9.97	325.5	2	;st8 is top of large flake/rock on bend
+8	9	5.39	009	3	
+9	10	17.44	048	3	
+10	11	2.59	013	1	
+11	12	17.04	343	4	;shingle shelf on left has connectin crawl through oxbow in wide bedding
+12	13	20.69	039	0	;st13 has shingled passage off to left on shelf
+13	14	25.62	352	1	;st14 is in shingle crawl off ot left of streamway
+14	15	11.45	006	1	
+15	16	11.39	291	5	
+16	17	0.42	 -	UP	;st17=tag in roof above crawl through wet bedding to East Entrance
+
+;Duplicate legs for Rowten Passage survey
+17	102	04.52	 -	DOWN	;17=tag in roof at end of East Entrance Passage
+102	103	12.14	355.0	+02.0
+103	104	11.77	339.0	+03.0
+104	105	29.33	329.0	 00.0
+106	105	03.88	220.0	+03.0	;st005=tag in roof at start of crawl with water entering from right
+
+*end Master_Cave
