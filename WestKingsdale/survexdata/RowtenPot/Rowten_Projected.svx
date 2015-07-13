@@ -1,0 +1,17 @@
+
+;Re-organised 13.07.2015 by Noel Snape
+
+*begin Rowten_Projected
+
+*export	2
+
+;Projected bottom of Rowten from GPS fix at eyehole
+;105m deep
+;Bottom 26m horizontally due East from eyehole gps fix
+;*fix 1	69820	78000	362; WAAS GPS 8 sats. EYEHOLE TREE ROOT     OLD GPS Reading, obsolete
+*entrance 1
+
+1	2	94	90	-74.5
+
+
+*end Rowten_Projected

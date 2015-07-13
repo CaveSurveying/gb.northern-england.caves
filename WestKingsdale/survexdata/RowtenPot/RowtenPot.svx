@@ -1,0 +1,16 @@
+
+;Created/re-organised 13.07.2015 by Noel Snape
+
+
+;--------------------------------------------------------------------------------------------
+
+
+*begin RowtenPot
+
+*include Rowten_Projected
+*include Upstream_Sump
+
+*equate Rowten_Projected.2	UpstreamSump.5
+
+
+*end RowtenPot

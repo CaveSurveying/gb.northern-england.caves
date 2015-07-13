@@ -1,0 +1,27 @@
+
+;Created 2015.06.16 by Noel Snape
+
+;Old GPS fixes moved here, may not be needed
+
+
+
+;--------------------------------------------------------------------------------------------
+*begin GPS_Fixes
+
+;WAAS with good satelite coverage
+;Footleg 28/04/2007
+
+*fix ApprenticePot_GPS	70251	78891	367; WAAS GPS 9 sats.
+*fix BullPot_GPS	70212	78748	361; WAAS GPS 9 sats. ROCK NOSE BY PBOLT PLUMB LINE  
+*fix CraftmansPot_GPS	70230	78861	370; WAAS GPS 9 sats. WHEELBARROW OVER ENT
+*fix KailPot_GPS	68759	76879	388;
+*fix PrimroseShakehole_GPS	70237	78802	366; WAAS GPS 9 sats. SHAKEHOLE CORUG IRON &PRIMOSES
+*fix SimpsonsPot_GPS	69620	77869	378; WAAS GPS 8 sats.
+*fix ShoutPot_GPS	70170	78698	365; WAAS GPS 10 sats.  ROTTING PLANKS & CORRUG IRON
+*fix TurburyPot_GPS	69508	77503	377; WAAS GPS 8 sats.
+;*fix RowtenPot2_GPS 	69822.794	78032.703	364; WAAS GPS 8 sats. ROCK POINT
+
+;*fix Pot_GPS	x	y	z;
+
+*end GPS_Fixes
+
