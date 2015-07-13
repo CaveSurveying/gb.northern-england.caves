@@ -36,12 +36,13 @@
 *include RowtenCaves/jinglingcavetop2					;temporarily here - will be included in rowtencaves once the surveys are connected
 *equate jinglingcavetop2.9x	jinglingcavetop.9
 
-;*include RowtenCaves/rowtencavetop2						;temporarily here - will be included in rowtencaves once the surveys are connected
-;*equate rowtencavetop2.18	rowtencavetop.18
+*include RowtenCaves/rowtencavetop2						;temporarily here - will be included in rowtencaves once the surveys are connected
+*equate rowtencavetop2.18	rowtencavetop.18
 ;-----------------------------------------------------------------------------------------
+;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
 
-
-
+*include KMC/Window_Aven
+*equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
 
 ;*solve

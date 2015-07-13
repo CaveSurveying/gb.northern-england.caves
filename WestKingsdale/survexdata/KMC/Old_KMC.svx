@@ -6,7 +6,9 @@
 *begin Old_KMC
 
 *export Roof_Tunnel.002
+*export Roof_Tunnel.052
 *export	Master_Cave.1
+
 
 *include Roof_Tunnel		;Roof Tunnel resurvey from Ray Duffy 1997 - no passage details
 *include	Milky_Way		;DCC old survey - no passage details drawn
@@ -39,14 +41,6 @@
 ;*include WindowAven.svx
 ;*equate	Roof_Tunnel.052 Window_Aven.B7a
 
-;;DCC MilkyWay series resurvey
-;*flags duplicate
-;*include MilkyWay.svx
-;*flags not duplicate
-;*include CarrotPassage.svx
-;*equate	Roof_Tunnel.017 Milky_Way.001
-;*equate Milky_Way.015 KMC.DCC_Chunnel.001
-;*equate Milky_Way.015 Carrot_Passage.14
 
 ;;*equate	ValleyEntrance.0 Roof_Tunnel.002  ;Entrance stations equate (better equate used instead of this in MilkyWay)
 ;*equate	Milkyway.32 milky_way.005  ;Better stations to equate at bend in small crawling section of milky way to align data after suspected blunder in old Roof Tunnel section from entrance
