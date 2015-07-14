@@ -3,6 +3,7 @@
 
 ;*include KMC/allKMC
 *include KMC/Old_KMC
+*include KMC/KMC
 *include Swinsto/Swinsto
 *include RowtenCaves/RowtenCaves		;old data for comparison only, not drawn up - to be removed once re-surveyed
 *include Yordas/Yordas
@@ -15,7 +16,9 @@
 *include Keld_Head/Keld_Head
 
 *equate Old_KMC.roof_tunnel.002	kdgps.vent
+*equate KMC.ValleyEntrance.0	kdgps.vent
 *equate	Aquamole.main.25 upstreamsumps.pt1.0
+*equate KMC.PhilosophersCrawl2.15	Old_KMC.Master_Cave.106
 
 
 *equate RowtenPot.Rowten_Projected.1	kdgps.tr		;basic projection only, needs re-surveying

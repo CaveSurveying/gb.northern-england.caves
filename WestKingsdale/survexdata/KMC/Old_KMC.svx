@@ -8,6 +8,7 @@
 *export Roof_Tunnel.002
 *export Roof_Tunnel.052
 *export	Master_Cave.1
+*export Master_Cave.106
 
 
 *include Roof_Tunnel		;Roof Tunnel resurvey from Ray Duffy 1997 - no passage details

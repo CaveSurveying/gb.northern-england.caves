@@ -1,0 +1,23 @@
+*begin RowtenSumps
+*export 0 4
+
+;Cave:	Rowten Sumps-From threaded eye hole for free dive line in Valley Entrance Rowten passage going upstream to Frakes Passage.
+;Surveyors:	Christine Grosart, Richard Walker and Dan Scott. CDG Derbyshire Section
+*date 2009.12.19	;Date:	19/12/09
+;vis = 1.5m at best, 0.5m at worst
+;Water levels low. Temperature 6-8 degrees underground. Above ground, bloody freezing !
+
+*calibrate declination	+2.67
+
+*data diving from to bearing length fromdepth todepth
+;From	To	Compass degrees	Tape metres	Depth metres	Left Tape metres (90 degrees )	Right Tape (90 degrees)	Up	Down	Total passage height - Floor to roof at station (from) metres	Comments/Description
+0	0a	20	3.60	0	-0.5;						Station (0) is the eyehole where the freedive line begins in KMC, heading upstream. 
+0a	1	20	3.60	-0.5	0;
+1	1a	90	1.52	0	-1.0;	1.8				1.5	(1) is a rectangular metal bolt where the first freedive line is tied off
+1a	2	90	1.51	-1.0	0;
+2	2b	140	3.50	0.00	0;					1.5	(2) is the bolt in the airbell with the free dive line tie off, continuing upsteam. (2b) is another bolt with a dive line at the end of the airbell. Passage height taken at this bolt, from the floor underwater to the alcove with the dive line bolt.
+2	2a	60	3.75	0	-0.5;	2.9 - bolt to top of curtain	3.5 right of bolt to alcove at end of airbell			1.7 passage height at curtain in end of airbell. Passage height at alcove at other end of airbell - 1.5. 	(3) is a square metal bolt in next airbell. 
+2a	3	60	3.75	-0.5	0;
+3	3a	60	5.25	0	-0.5;					1.85	
+3a	4	60	5.25	-0.5	0;					1.85	(4) is the P-Bolt tie off at the start of the first downstream Rowten sump (3rd upstream KMC freediveable sump) This is the tie in point for the dry survey in Rowten.
+*end RowtenSumps
