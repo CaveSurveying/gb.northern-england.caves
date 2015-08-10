@@ -12,7 +12,7 @@
 *include Pippikin/pml1
 
 ; West Kingsdale data mainly diving data from John Cordingley and Rupert Skorupka collated by Footleg (Paul Fretwell) who has also collected some dry cave data
-*include WestKingsdale/West_Kingsdale_System
+*include ..\..\WestKingsdale/survexdata/West_Kingsdale_System
 
 ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
 *include Barbondale\Barbondale
