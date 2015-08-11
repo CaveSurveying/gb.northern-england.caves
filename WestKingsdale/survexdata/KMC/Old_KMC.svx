@@ -15,7 +15,7 @@
 *include	Milky_Way		;DCC old survey - no passage details drawn
 *include	Carrot_Passage	;DCC old survey - no passage details drawn
 *include	DCC_Chunnel		;DCC old survey - no passage details drawn
-*include	RoofTunnel2		;Old ULSA students practice survey - too many errors for actual use in survey
+*include	RoofTunnelold		;Old ULSA students practice survey - too many errors for actual use in survey
 *include	Master_Cave		;Old survey by Ray Duffy - needs re-doing, no passage details drawn
 
 
@@ -23,7 +23,7 @@
 *equate Roof_Tunnel.017	Milky_Way.001
 *equate	Carrot_Passage.14	Milky_Way.015
 *equate	DCC_Chunnel.001	Milky_Way.015
-*equate RoofTunnel2.4	Roof_Tunnel.029
+*equate RoofTunnelold.4	Roof_Tunnel.029
 *equate	Roof_Tunnel.054 Master_Cave.1
 
 

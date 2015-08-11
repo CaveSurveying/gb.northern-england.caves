@@ -13,6 +13,8 @@
 *include	MilkyWay				;Footlegs disto X survey
 *include milkyway2					;Becka's disto x survey
 *include	milkyway3				;Becka's disto x survey
+*include	RoofTunnel1				;Chris Williams and Shezi ULSA survey
+*include	RoofTunnel2				;Chris Williams and Shezi ULSA survey
 *include	PhilosophersCrawl2		;Footlegs dito x survey
 *include	PhilosophersCrawl1		;Footleg's Suunto Tandem survey
 *include	RowtenPassage			;Footleg's Suunto Tandem survey
@@ -24,6 +26,8 @@
 *equate	ValleyEntrance.27	MilkyWay.27
 *equate MilkyWay.41	milkyway2.1
 *equate milkyway2.33	milkyway3.33x
+*equate	RoofTunnel1.1	ValleyEntrance.27
+*equate	RoofTunnel2.1	Rooftunnel1.16
 *equate	PhilosophersCrawl2.1	PhilosophersCrawl1.1
 *equate	RowtenPassage.36	PhilosophersCrawl2.15
 *equate	SwinstoSump.001	PhilosophersCrawl2.22
