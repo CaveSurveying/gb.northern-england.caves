@@ -12,6 +12,7 @@
 *calibrate declination +2.04		;taken from NOAA website for 54.18degrees N, 2.47degrees West
 *calibrate tape +0.0
 *calibrate backcompass 180
+;*units clino percent
 
 *data normal from to tape compass backcompass clino backclino		
 1	2	2.80	282.5	281.5	+5.5	-6.5
