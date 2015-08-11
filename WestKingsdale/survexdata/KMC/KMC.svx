@@ -9,9 +9,9 @@
 *export	PhilosophersCrawl2.15		;TEMPORARY measure until master cave is re-surveyed and tied in below
 
 
-*include ValleyEntrance				;Footleg's disto X survey
+*include	ValleyEntrance				;Footleg's disto X survey
 *include	MilkyWay				;Footlegs disto X survey
-*include milkyway2					;Becka's disto x survey
+*include	milkyway2					;Becka's disto x survey
 *include	milkyway3				;Becka's disto x survey
 *include	RoofTunnel1				;Chris Williams and Shezi ULSA survey
 *include	RoofTunnel2				;Chris Williams and Shezi ULSA survey
