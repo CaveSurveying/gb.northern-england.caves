@@ -1,0 +1,8 @@
+*begin Gingling
+*include Gingling_practice
+*include Gingling1
+
+*equate Gingling_practice.5	Gingling1.5
+
+
+*end Gingling
