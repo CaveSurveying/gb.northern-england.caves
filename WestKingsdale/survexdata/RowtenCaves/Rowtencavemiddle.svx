@@ -13,7 +13,7 @@
   *units tape metres
   *units compass degrees
   *units clino degrees
-  *calibrate declination +2.06		;NOTE - ESTIMATED declination - to correct
+*calibrate declination +2.02			;taken from NOAA website for 54.18degrees N, 2.47degrees West (on 14/9/15 by NS)
   *alias station - ..
   *flags not splay
   *data normal from to tape compass clino
