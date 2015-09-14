@@ -13,8 +13,10 @@
 *calibrate declination +2.06		;taken from NOAA website for 54.18degrees N, 2.47degrees West
 *calibrate tape +0.1
 
-*data normal from to tape compass backcompass clino backclino		
+*data normal from to tape compass backcompass clino backclino
+*flags duplicate		
 J1	2	3.80	150	331	-04	+05
+*flags not duplicate
 2	3	6.40	342	162	-05	+04
 3	4	3.10	089	268	-04	+03
 4	5	3.50	350	171	+02.5	-02
