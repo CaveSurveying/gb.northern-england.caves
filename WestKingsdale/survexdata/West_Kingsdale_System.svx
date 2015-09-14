@@ -5,13 +5,12 @@
 *include KMC/Old_KMC
 *include KMC/KMC
 *include Swinsto/Swinsto
-*include RowtenCaves/RowtenCaves		;old data for comparison only, not drawn up - to be removed once re-surveyed
+*include RowtenCaves/Rowtencaves		
 *include Yordas/Yordas
 *include GreenLaids/GreenLaids
 *include Aquamole/Aquamole
 *include UpstreamSumps/UpstreamSumps
 *include kdgps
-*include RowtenCaves/rowtencaves_new
 *include RowtenPot/RowtenPot
 *include Keld_Head/Keld_Head
 
@@ -22,25 +21,12 @@
 
 
 *equate RowtenPot.Rowten_Projected.1	kdgps.tr		;basic projection only, needs re-surveying
-*equate rowtencaves_new.rowtencave_surface.5hex	kdgps.3c21
-
+*equate Rowtencaves.rowtencave_surface.5hex	kdgps.3c21
+*equate	Rowtencaves.jinglingcavetop.1	kdgps.3c22	
 
 *equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
 
-;----------------------------------------------------------------------------------------
-;Temporary section for Rowten/Jingling caves, until connected
 
-*include RowtenCaves/jinglingcavetop					;temporarily here - will be included in rowtencaves once the surveys are connected
-*equate	jinglingcavetop.1	kdgps.3c22	
-
-*include RowtenCaves/rowtencavetop
-*equate rowtencavetop.1	rowtencaves.rowtencaves1.8		;temporary CHEAT for comparison until survey of rowten cave finished
-
-*include RowtenCaves/jinglingcavetop2					;temporarily here - will be included in rowtencaves once the surveys are connected
-*equate jinglingcavetop2.9x	jinglingcavetop.9
-
-*include RowtenCaves/rowtencavetop2						;temporarily here - will be included in rowtencaves once the surveys are connected
-*equate rowtencavetop2.18	rowtencavetop.18
 ;-----------------------------------------------------------------------------------------
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
 

@@ -1,5 +1,5 @@
 *begin rowtencavetop2
-*export 18
+*export 18	25
 ;report
 ;checked
 *team "Clara Duncan" notes

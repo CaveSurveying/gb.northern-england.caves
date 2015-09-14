@@ -1,5 +1,5 @@
-*begin JinglingInlet								
-;export 								
+*begin jinglinginlet								
+*export	J1	9								
 ;checked 						
 *team "Luke Stangroom" notes 								
 *team "George Breley" compass clino 		
@@ -33,4 +33,4 @@ J1	2	3.80	150	331	-04	+05
 8	0.8	0.1	2	0.7
 9	0	0.8	2.5	0.5
 
-*end JinglingInlet
+*end jinglinginlet

@@ -1,5 +1,5 @@
 *begin rowtencavebottom		
-*export	1	10
+*export	1	11
 ;checked 
 *team "Rachel Turnbull" notes 								
 *team "Caroline Nunn" compass clino tape  			
@@ -24,7 +24,7 @@
 7	8	5.05	197	195	+18	-16	
 8	9	6.55	291	293	+13	-14
 9	10	8.96	196	198	+11	-12
-;10	11	3.06	203	202	0	1		;leg repeated in following survey, Mike/Rachel/Holly to confirm
+10	11	3.06	203	202	0	1		
 
 
 *data passage station left right up down							
@@ -41,7 +41,7 @@
 8	4.00	2.70	6.00	1.60									;station repeatedly adjusted by Noel
 9	0.90	0.50	5.50	2.30
 10	0.00	0.65	3.50	1.70
-;11	0.56	0.88	3.00	1.40									;end point, orange and nail in mossy bed rock on left hand side
+11	0.56	0.88	3.00	1.40									;end point, orange and nail in mossy bed rock on left hand side
 
 
 *end rowtencavebottom

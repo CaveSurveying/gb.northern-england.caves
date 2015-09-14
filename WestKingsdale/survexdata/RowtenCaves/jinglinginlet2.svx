@@ -1,5 +1,5 @@
-*begin JinglingInlet2								
-;export 								
+*begin jinglinginlet2								
+*export	x9	5								
 ;checked 						
 *team "George Breley" notes 								
 *team "Luke Stangroom" compass clino 		
@@ -27,4 +27,4 @@ x9	0	0.8	2.5	0.5
 3	0	0.75	3	0.5	LHW	knobble
 4	0.6	0	3	0.7	RHW flake
 5 	0	0.8	1.5	1.5	Above cobbles in stream up left
-*end JinglingInlet2
+*end jinglinginlet2
