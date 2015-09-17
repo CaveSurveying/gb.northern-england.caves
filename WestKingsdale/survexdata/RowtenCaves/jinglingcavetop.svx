@@ -15,6 +15,7 @@
 ;*calibrate backclino 0 -1
 
 ;CLINO READINGS possibly done in percentage - check with Shezi / Rob ***************************************************
+*units clino backclino	percent
 
 *data normal from to tape compass backcompass clino backclino
 *flags surface
