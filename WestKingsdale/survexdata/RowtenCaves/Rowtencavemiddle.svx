@@ -1,19 +1,23 @@
 ; 2015.09.12 created by TopoDroid v 2.6.0a
-
-; Instrument: DistoX2 2734 -  HTC One (Brendan)
-
-
+;-------------------------------------------------------------------------------------------------------
 
 *begin Rowtencavemiddle
-
 *export x1	x11	26
+;checked
 
-  *date 2015.09.12 
-  *team "Chris, Dan, Brendan" 
-  *units tape metres
-  *units compass degrees
-  *units clino degrees
+*team	"Chris Williams" Notes
+*team	"Brendan Hall" disto splay monster	
+*team	"Dan Lenartowicz Legacy"	disto	stations
+
+*instrument	"DistoX2 2734 (Brendan)" Compass
+*instrument	"DistoX2 2734 (Brendan)" Compass
+
+
+*date 2015.09.12
 *calibrate declination +2.02			;taken from NOAA website for 54.18degrees N, 2.47degrees West (on 14/9/15 by NS)
+
+
+
   *alias station - ..
   *flags not splay
   *data normal from to tape compass clino
