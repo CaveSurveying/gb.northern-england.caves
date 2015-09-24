@@ -1,8 +1,13 @@
 *begin Gingling
-*include Gingling_practice
+;*include Gingling_practice
 *include Gingling1
+*include Gingling2
+*include Gingling3
 
-*equate Gingling_practice.5	Gingling1.5
-
+;*equate Gingling_practice.5	Gingling1.5
+*equate Gingling1.53	Gingling2.x
+*equate Gingling1.51p	Gingling2.4
+*equate Gingling1.41	Gingling2.13
+*equate Gingling1.51p	Gingling3.x
 
 *end Gingling

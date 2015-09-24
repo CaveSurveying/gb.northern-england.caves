@@ -1,0 +1,126 @@
+*begin Gingling2
+*export	x	4	13
+;checked 
+*team "Holly Bradley" notes
+*team "Noel" compass clino tape ; distoX 
+*team "Ian Peachey" Station Monkey
+*instrument "H&N Distox2" compass
+*instrument "H&N Distox2" clino
+
+
+*date 2015.09.06
+*calibrate declination	1.92		;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+
+*data normal from to tape compass clino
+
+*flags splay				
+x	xa	0.657	223.8	30.2
+x	xb	0.98	61	22.1
+x	xc	0.591	100.4	80.9
+*flags not splay				
+x	1	0.89	52.9	17.2
+*flags splay				
+1	1a	1.173	249.6	-1.6
+1	1b	0.172	258.6	81.5
+1	1c	0.638	239.6	-39.2
+*flags not splay				
+1	2	2.85	289.3	-6.7
+*flags splay				
+2	2a	0.954	147.7	11.8
+2	2b	0.67	334.2	29.4
+2	2c	0.628	144.4	86.5
+2	2d	0.546	125.5	-87.1
+2	2e	1.941	41.9	7.3
+*flags not splay				
+2	3	2.77	179.9	-1.6
+*flags splay				
+3	3a	0.846	31.6	6.3
+3	3b	1.644	246.2	14.4
+3	3c	0.393	136.8	83.7
+*flags not splay				
+3	4	1.28	82.1	3.8
+*flags splay				
+4	4a	1.854	184.9	6.6
+4	4b	0.357	103.4	84.3
+4	4c	12.024	95.6	-85.1
+3	3d	0.746	120.7	26
+3	3e	1.382	301.5	13.9
+3	3f	0.407	175.9	80.4
+3	3g	1.293	301.3	-52.4
+*flags not splay				
+3	5	1.31	214.8	7.3
+*flags splay				
+5	5a	0.954	77.1	8.2
+5	5b	0.24	243.1	24.2
+5	5c	0.199	66.2	79.9
+5	5d	0.721	84.9	-64.9
+*flags not splay				
+5	6	3.36	145.6	1.7
+*flags splay				
+6	6a	2.067	271.3	-3.1
+6	6b	0.203	242.9	69.2
+6	6c	1.32	169.2	-81.6
+6	6d	0.373	95.5	-67.5
+*flags not splay				
+6	7	1.04	207.0	-11.4
+8	7	1.26	292.3	-13.2
+*flags splay				
+8	8a	0.347	69.4	2.7
+8	8b	1.317	226.3	12
+8	8c	0.453	47.6	67.3
+*flags not splay				
+8	9	0.85	191.7	16.6
+*flags splay				
+9	9a	0.504	28.9	7.5
+9	9b	0.708	231.1	0.8
+9	9c	0.327	71.8	-74.9
+*flags not splay				
+9	10	0.44	113.7	-1.2
+*flags splay				
+10	10a	0.283	356	4.9
+10	10b	0.591	208.1	9.3
+10	10c	0.819	182.1	88.1
+10	10d	0.355	268.7	-67.6
+*flags not splay				
+11	10	2.01	269.1	-47.6
+*flags splay				
+11	11a	1.801	356.6	9.8
+11	11b	0.496	176	11.9
+11	11c	2.515	59.1	81.4
+11	11d	1.569	264.9	-58.5
+*flags not splay				
+11	12	1.19	128.1	62.6
+*flags splay				
+12	12a	1.706	40.5	7.4
+12	12b	0.527	212.7	-8.7
+12	12c	1.396	194.7	86.8
+12	12d	1.812	237.1	-74.4
+*flags not splay				
+12	13	1.20	74.1	22.4
+*flags splay				
+13	13a	1.095	4.3	0.1
+13	13b	1.467	187.5	2.2
+13	13c	1.026	166.8	83.2
+13	13d	1.352	48.7	-88.6
+
+
+*data passage station left right up down
+x	0.7	1.0	0.6	0.1	;Last station of previous survey. LH wall. Marked in pencil.
+1	1.2	0.1	0.2	0.4	;RH wall. 
+2	1.0	0.7	0.6	0.5	;on fat flake at opeing to high level. Splay at 42 degrees at 1.9m
+3	0.8	1.6	0.4	0.0
+4	0.0	1.8	0.4	12.0	;Bolt at top of pitch. Loop.
+*data passage station left right up down
+3	0.7	1.4	0.4	0.0
+5	1.0	0.2	0.2	0.7	;RH wall
+6	0.0	2.1	0.2	1.3	;0.4 to water surface.
+7	0.4	0.0	0.5	0.2	;estimated LRUDS
+8	0.3	1.3	0.5	0.2
+9	0.5	0.7	0.0	0.3
+10	0.3	0.6	0.8	0.4
+11	1.8	0.5	2.5	1.6
+12	1.7	0.5	1.4	1.8
+13	1.1	1.5	1.0	1.4
+
+*end Gingling2
