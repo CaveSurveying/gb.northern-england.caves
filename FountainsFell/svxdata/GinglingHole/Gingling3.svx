@@ -1,5 +1,5 @@
 *begin Gingling3
-*export	x
+*export	x	14	15	16
 ;checked 
 *team "Holly Bradley" notes
 *team "Noel" compass clino tape ; distoX 
