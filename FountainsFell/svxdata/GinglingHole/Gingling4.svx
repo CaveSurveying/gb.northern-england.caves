@@ -283,6 +283,10 @@ x16	4	1	10.9	1				;estimated for model of chamber
 x16	1	1	28	1
 x16g	1	1	0	15			;estimated to show high aven in model
 
+*data passage station left right up down
+11	6	4	2	0
+11h	4	2	0.5	0				;estimated to fill out final chamber on model
+
 
 
 
