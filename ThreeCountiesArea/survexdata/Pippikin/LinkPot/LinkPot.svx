@@ -51,6 +51,8 @@
 *equate lk11.011 lk11a.013 ; from lk11a.svx
 *equate lk11.012 lk12.001 ; from lk11.svx
 *equate lk11.012 lk18.013 ; from lk11.svx
+*equate lk12.008 lk12a.001 ; from lk12.svx
+*equate	lk12.033 lk12b.012 ; from lk12.svx
 *equate lk14.001 lk15.001 ; from lk14.svx
 *equate lk19.001 lk19i.001 ; from lk19i.svx
 *equate lk19.012 lk20.001 ; from lk19.svx
@@ -103,6 +105,8 @@
 *include	lk11
 *include	lk11a
 *include	lk12
+*include	lk12a
+*include	lk12b
 *include	lk13
 *include	lk14
 *include	lk15
