@@ -1,6 +1,6 @@
 *begin Gingling3
-*export	x	14	15	16
-;checked 
+*export	x	14	15	16	y
+;checked NS 25/09/2015
 *team "Holly Bradley" notes
 *team "Noel" compass clino tape ; distoX 
 *instrument "H&N Distox2" compass

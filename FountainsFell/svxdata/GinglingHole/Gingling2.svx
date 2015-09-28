@@ -1,6 +1,6 @@
 *begin Gingling2
-*export	x	4	13
-;checked 
+*export	x	4	13	3
+;checked NS 25/09/2015
 *team "Holly Bradley" notes
 *team "Noel" compass clino tape ; distoX 
 *team "Ian Peachey" Station Monkey

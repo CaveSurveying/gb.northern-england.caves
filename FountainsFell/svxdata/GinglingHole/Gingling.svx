@@ -10,6 +10,7 @@
 *equate Gingling1.51p	Gingling2.4
 *equate Gingling1.41	Gingling2.13
 *equate Gingling1.51p	Gingling3.x
+*equate Gingling2.3		Gingling3.y
 *equate	Gingling4.x14	Gingling3.14
 *equate Gingling4.x15	Gingling3.15
 *equate Gingling4.x16	Gingling3.16
