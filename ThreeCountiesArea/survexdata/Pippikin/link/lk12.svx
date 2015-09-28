@@ -3,11 +3,13 @@
 ;Date:	7/03/04
 ;Instruments:	kit 5 & PAG
 
-*equate	lk11.012	lk12.001	;tag on hanger in roof of Serendipity
+*equate	lk12.001	lk11.012	;tag on hanger in roof of Serendipity
+*equate lk12.008	lk12a.001	;standing at downstream pool edge below pitch.
+*equate	lk12.033	lk12b.012	;st033=tag
 *equate	lk12.130a	lk10.044	;pointed boulder at start of Cobble Crawl
 
 *begin	lk12
-*export 001 033 130a
+*export 001 007 008 033 130a
 *calibrate compass	+5.00
 *calibrate clino	+0.50
 *calibrate tape		+1.00
@@ -19,8 +21,8 @@
 003	004	04.14	159.0	-16.0
 004	005	17.98	 -	DOWN
 005	006	05.17	323.0	-15.0
-006	007	05.27	323.0	-74.0	;standing at bottom of wet pitch at pool edge
-007	008	05.98	320.0	-02.0
+006	007	05.27	323.0	-74.0	;007 standing at bottom of wet pitch at pool edge
+007	008	05.98	320.0	-02.0	;008 standing at downstream pool edge below pitch
 008	009	06.47	240.0	-04.0
 009	010	03.55	254.0	-06.0
 010	011	05.83	171.0	-03.0
@@ -47,7 +49,8 @@
 031	032	06.23	259.0	+00.5
 032	033	05.06	267.0	+05.0
 
-033	033a	10.00	315.0	00.0	;made up leg for unsurveyed passage
+;033	033a	10.00	315.0	00.0	;made up leg for unsurveyed passage
+;(Sardine Passage surveyed 13/09/2015 so no longer required) 
 
 033	034	09.60	210.0	-04.0
 034	035	07.64	237.0	-07.0
