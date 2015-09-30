@@ -6,7 +6,8 @@
 *include KMC/KMC
 *include Swinsto/Swinsto
 *include RowtenCaves/Rowtencaves		
-*include Yordas/Yordas
+*include Yordas/Yordas_old				;old innacurate/incomplete survey - to be replaced
+*include Yordas/Yordas1					;GPS needs proper tie (CURRENTLY NOT JOINED - MUST BE SURVEYED)
 *include GreenLaids/GreenLaids
 *include Aquamole/Aquamole
 *include UpstreamSumps/UpstreamSumps
@@ -26,6 +27,9 @@
 
 *equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
 
+;-----------------------------------------------------------------------------------------
+;Temporary section for Yordas, needs to be tied in - THIS IS ONLY AN ESTIMATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*equate	kdgps.3c26	Yordas1.1
 
 ;-----------------------------------------------------------------------------------------
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
@@ -33,6 +37,7 @@
 *include KMC/Window_Aven
 *equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
+;-------------------------------------------------------------------------------------------
 
 ;*solve
 

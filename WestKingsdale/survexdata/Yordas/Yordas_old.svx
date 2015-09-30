@@ -3,9 +3,11 @@
 ;Date:	05/08/97
 ;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
 
+
 ;*equate	
 
-*begin	Yordas
+*begin	Yordas_old
+*export 047
 
 *fix 001 70460.00 79141.00 356.00 ;GPS
 
@@ -128,4 +130,4 @@
 ;*FIX 41 92.82 -95.64 -14.43
 ;*FIX 47 97.07 -50.91 -12.27
 
-*end	Yordas
+*end	Yordas_old
