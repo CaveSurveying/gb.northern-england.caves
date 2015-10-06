@@ -1,6 +1,6 @@
 *begin Gingling5
 ;export	
-;checked 
+;checked NS 06/10/2015
 *team "Holly Bradley" notes
 *team "Noel Snape" compass clino tape ; distoX 
 *instrument "H&N Distox2" compass
@@ -198,7 +198,5 @@
 20	0.3	0.3	0.2	1.4
 21	0.1	0.4	0.4	1.1
 22	1.4	1.9	7.6	0.0
-
-
 
 *end Gingling5
