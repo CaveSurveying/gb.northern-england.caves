@@ -1,5 +1,5 @@
 *begin Gingling5
-;export	
+*export	24
 ;checked NS 06/10/2015
 *team "Holly Bradley" notes
 *team "Noel Snape" compass clino tape ; distoX 

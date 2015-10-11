@@ -2,8 +2,10 @@
 ;*include Gingling_practice
 *include Gingling1
 *include Gingling2
-*include Gingling3
-*include Gingling4
+*include	Gingling3
+*include	Gingling4
+*include	Gingling5
+*include	Gingling6
 
 ;*equate Gingling_practice.5	Gingling1.5
 *equate Gingling1.53	Gingling2.x
@@ -14,5 +16,7 @@
 *equate	Gingling4.x14	Gingling3.14
 *equate Gingling4.x15	Gingling3.15
 *equate Gingling4.x16	Gingling3.16
+*equate	Gingling4.24	Gingling6.x
+*equate	Gingling6.21x	Gingling5.24
 
 *end Gingling

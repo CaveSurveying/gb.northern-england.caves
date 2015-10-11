@@ -1,5 +1,5 @@
 *begin Gingling4
-*export	x14	x15	x16
+*export	x14	x15	x16	24
 ;checked 
 *team "Noel Snape" notes
 *team "Rachel Turnbull"	elevation
