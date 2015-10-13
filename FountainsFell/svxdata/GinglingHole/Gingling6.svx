@@ -330,7 +330,8 @@ x	xd	0.659	45.4	-66.2
 47	47b	2.075	337.9	66.8	
 47	47c	1.210	34.5	-82.4	
 47	47d	0.991	27.8	-29.6	
-*flags not splay					
+*flags not splay	
+*flags duplicate				
 47	48	1.070	256.0	-27.3	
 
 *data passage station left right up down
