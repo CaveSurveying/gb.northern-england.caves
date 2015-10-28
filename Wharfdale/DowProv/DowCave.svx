@@ -1,0 +1,23 @@
+; Title: Dow Cave (part thereof)
+
+; created 27/10/2015 by Patrick Warren (PBW) from an original by Steve Warren
+
+; Currently only includes main stream passage as far as Hobson's Choice
+
+*begin DowCave
+*export dow1.1
+*export dow2.31
+
+; Dow Cave entrance at SD 98378 74300, alitude 334m ODN.
+; Corresponds to 1:10k OS map on Magic Map.  Origin of altitude
+; uncertain at moment.
+
+*entrance dow1.1
+*fix dow1.1 98378 74300 334
+
+*include dow1
+*include dow2
+
+*equate dow1.27 dow2.27
+
+*end DowCave
