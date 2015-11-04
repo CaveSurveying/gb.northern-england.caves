@@ -6,6 +6,8 @@
 *include	Gingling4
 *include	Gingling5
 *include	Gingling6
+*include	Gingling6a
+*include	Gingling7
 
 ;*equate Gingling_practice.5	Gingling1.5
 *equate Gingling1.53	Gingling2.x
@@ -18,5 +20,7 @@
 *equate Gingling4.x16	Gingling3.16
 *equate	Gingling4.24	Gingling6.x
 *equate	Gingling6.21x	Gingling5.24
+*equate Gingling6.48	Gingling7.y
+*equate Gingling6.36	Gingling6a.x
 
 *end Gingling

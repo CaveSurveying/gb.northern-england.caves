@@ -1,0 +1,23 @@
+*begin Gingling6a
+*export	x
+;checked 
+*team "Holly Bradley" notes
+*team "Noel Snape" compass clino tape ; distoX 
+*instrument "H&N Distox2" compass
+*instrument "H&N Distox2" clino
+
+
+*date 2015.11.01
+*calibrate declination	1.90	;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+
+*data normal from to tape compass clino
+
+*flags not splay				
+x	1	2.573333333	161.1	5.266666667
+*flags splay				
+1	1a	2.913	324.9	7.1
+*flags not splay				
+1	2	9.174	322.7	47
+
+*end Gingling6a

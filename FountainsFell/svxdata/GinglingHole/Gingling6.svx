@@ -1,5 +1,5 @@
 *begin Gingling6
-*export	x	21x
+*export	x	21x	48	36
 ;checked 
 *team "Noel Snape" notes
 *team "Holly Bradley" compass clino tape ; distoX 
