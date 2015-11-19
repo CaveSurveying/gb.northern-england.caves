@@ -526,7 +526,7 @@
 28	1.19	0.44	0.85	1.19  ;"middle wall"
 29	0.18	0.16	0.33	0.23  ;lhw
 30	1.05	0.26	0.36	0.17  ;rhw
-31	1.31	1.22	0.03	0.42  ;rhw
+31	1.31	1.22	0.03	0.42  ;in cross rift at end of flat out crawl, accross from a small dry stone wall on the right, there is an obvious X marked on the mud/clay wall  ~40cm above the floor on the LHW
 	
 
 
