@@ -1,0 +1,62 @@
+; 2015.11.07 created by TopoDroid v 2.6.4b
+; Valley_Entrance - Instrument: CHECC Disto
+; Instrument: DistoX2 2860 - HTC One
+
+*begin milkyway4 
+
+*export	0 
+
+  *date 2015.11.07 
+  ;team "Nathan W (LRUD's) station descriptions, 
+  ;team Jethro P (suss), CHECC Disto 
+  ;team Brendan Hall (HTC one topodroid)
+  *calibrate declination 2.00 ;    NOAA co-ordinates - Latitude:  54.191733° N 	2.465063° W - (2.00° W  ± 0.38°  changing by  0.16° E per year)
+  
+
+  *data normal from to tape compass clino
+    0 1   2.00 156.7 -13.0
+    1 2   3.43 188.7 1.8
+    2 3   1.77 113.9 -26.4		
+    ;3 4   1.78 113.6 -26.0
+    3 5   1.35 83.4 -13.2			;legs here to be checked (NS - suspects error due to big inconsitancies with other survey legs here)
+    5 6   1.67 10.9 -10.4
+    6 7   1.54 63.6 11.6
+    7 8   1.61 166.8 -10.7
+    8 9   1.52 111.4 -6.2
+    9 10   3.61 167.9 2.1
+    10 11   3.18 119.0 -0.6
+    11 12   2.20 131.6 -2.0 
+    12 13   3.75 107.5 -0.6
+    13 14   2.38 147.5 3.3
+    14 15   3.33 181.8 -7.7
+    15 16   2.56 134.5 15.6
+    16 17   2.52 142.7 -5.7
+    17 18   4.34 124.5 -0.1
+    18 19   4.99 156.2 2.9
+    19 20   5.28 186.1 -2.3
+	
+  
+  *data passage station left right up down
+
+0	2.25 	0		0		0.40
+1	0.92 	0.98	0.92	00	
+2	1.30	0.15	0.26 	00	
+3	0.6     1.37 	0.76 	00
+;4 	0.62 	0 	  	0.22 	0.20
+5 	0.05    0.66 	0 		0.10
+6 	0 	 	1.22	1.05	0.16
+7   0.92	00		0.15 	0.26
+8   0 		0.8 	0 		0.21
+9 	0.81 	0.42 	0 		0.28
+10  1.94 	0 		0 		0.23
+11  0.33 	0.81 	0 		0.24
+12  1.11    0 		0 		0.29
+13  1.15    0.98 	0.33 	00
+14 	0 		0.97 	0.19 	0.51
+15  0.9 	0.15 	0.77 	0.32
+16  0.4 	0.88 	0 		0.80
+17  1       0.96 	0.96 	0.59
+18  0.49 	1.05 	0.5 	0.57 
+19  0.65 	0.75 	0.05 	0.74 
+
+*end milkyway4

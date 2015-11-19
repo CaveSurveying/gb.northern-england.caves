@@ -20,6 +20,8 @@
 *include	SwinstoSump				;John Cordingley's survey
 *include	RowtenSumps				;CDG Derbyshire survey
 *include	MudRiver				;Footleg's disto x survey
+*include	milkyway4				;Brendan, Nathan, Jethro SUSS checc disto survey, 7th november
+*include	milkyway_kellaway1		;Brendan, Nathan, Jethro SUSS checc disto survey, 8th november
 
 
 *equate	ValleyEntrance.27	MilkyWay.27
@@ -33,5 +35,7 @@
 *equate SwinstoSump.014	RowtenPassage.DistoXSumpTieIn.3
 *equate	RowtenSumps.0	RowtenPassage.1
 *equate	MudRiver.0	RowtenPassage.9
+*equate milkyway2.10	milkyway4.0
+*equate milkyway2.10 	milkyway_kellaway1.0 
 
 *end KMC

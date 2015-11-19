@@ -1,6 +1,6 @@
 *begin milkyway2
 
-*export 1 22 33
+*export 1	10	22 33
 
 *title "From Cascade Inlet along Milky Way to partway down Kellaway Crawl and also up Cascade Inlet to start of Toyland"
 *date 2013.11.10
