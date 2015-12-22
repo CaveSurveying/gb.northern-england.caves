@@ -13,20 +13,20 @@
 
 ;from	to	tape	compass	clino	remarks
 
-2	1	5.26	075	+02
+2	1	5.45	075	+02	; took longest of 3 distox shots
 2	3	12.96	282	-01
 3	4	13.66	272	-05
 3	5	2.95	345	-12
 5	6	1.83	021	+43
-6	7	7.84	030	+01
+6	7	7.84	029	+01	; notes said 030 but Distox top file is clearly 029 compass
 7	8	9.15	041	+11
 8	9	3.39	278	+25
 8	10	2.91	070	+02
-9	11	1.89	297	+43
+9	11	1.82	297	+43	; changed as first 2 Distox readings 1.81 + 1.82 (last 1.89)
 11	12	2.82	258	+24
 12	13	4.39	228	-22
 13	14	3.14	264	-03
-14	49x	10.84	253	+30
+14	49x	10.84	252.5	+30
 
 *data passage station left right up down ignoreall
 
