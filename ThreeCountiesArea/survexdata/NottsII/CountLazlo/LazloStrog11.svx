@@ -1,7 +1,7 @@
 *begin LazloStrog11
 *export  49x
 
-*title "Cupcake, extension from Hubert Carstairs II chamber - extension found by Sam Allshorn and Mike Cooper around 2013 CHECK DATE"
+*title "Cupcake, extension from Hubert Carstairs II chamber - extension found by Sam Allshorn and Mike Cooper on 20 August 2013"
 
 *date 2015.12.20
 *team Instruments Nathaniel Dalton
