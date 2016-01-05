@@ -1,0 +1,49 @@
+; Cave:		Fountains Fell GPS Survey
+; Surveyors:	Noel Snape, Holly Bradley and Andrew Wright
+
+; Dates:	01/01/2016
+
+; Instruments:	Leica Geosystems ATX1230 GPS
+; Undertaken with connectivity to Lieca basestations via mobile boradband, accuracy to below 0.02m
+; Measured in OSGB36 (WGS84 also recorded for records)
+; 2m survey pole autocorrected in readings
+
+;---------------------------------------------------------------------------------------------------------
+
+
+; OSGB36 co-ordinates are for the OS 100km square SD 
+; to obtain full length co-ordinates, add 300000 to Easting and 400000 to Northing
+
+*begin	ffgps
+
+
+;---------------------------------------------------------------------------------------------------------
+;Survey points taken 01/01/2016
+
+*export	0001		;Shooting hut
+*export	0002		;Gingling Hole
+*export	0004		;Election Hole
+*export	0006		;Gingling Wet Sink
+*export	0007		;Gingling Wet Sink
+*export	0008		;GWS - dry entrance
+*export	0009		;GWS - dry entrance
+*export	0010		;GWS - dry entrance
+*export	0011		;Coates Cavern
+
+
+
+*fix	0001	385207.057	470114.754	442.604	;Err (3D CQ) 	0.014m	;West side of shooting hut. Point on top western corner of rectangular rock on floor, approximately 4m from hut."	
+*fix	0002	385514.574	470179.513	458.792	;Err (3D CQ) 	0.014m	;Gingling Hole survey point. Entrance tab in rock located north east of entrance in crack.
+;*fix	0003	385488.850	470156.494	456.116	;Err (3D CQ) 	0.011m	;Hand drilled hole approximately 1cm deep on boulder outside Election Hole.	;DUPLICATED in 0004 - this one excluded as GPS fix took a while
+*fix	0004	385488.888	470156.481	456.118	;Err (3D CQ) 	0.012m	;Hand drilled hole approximately 1cm deep on boulder outside Election Hole.	
+;*fix	0005	385514.586	470179.531	458.810	;Err (3D CQ) 	0.016m	;Gingling Hole survey point. Entrance tab in rock located north east of entrance in crack.	;DUPLICATE of 0002
+*fix	0006	385559.445	470211.720	464.225	;Err (3D CQ) 	0.014m	;Gingling Wet Sink. Hand drilled hole ~1cm deep located in triangular boulder @ a 70° bearing on slope ~5m above entrance.	
+*fix	0007	385559.025	470204.131	461.204	;Err (3D CQ) 	0.013m	;Gingling Wet Sink. Hand drilled hole ~1cm deep located in prominent boulder on eastern bank of stream, approximately 2m above stream."	
+*fix	0008	385671.697	470277.807	481.405	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry entrance. Hand drilled hole in boulder located approximately 15-20m from lidded entrance, at a 50° bearing."	
+*fix	0009	385660.238	470264.628	477.409	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry Entrance. Northern scaffold bar of lidded entrance.	
+*fix	0010	385660.107	470263.793	477.408	;Err (3D CQ) 	0.014m	;Gingling Wet Sink - dry Entrance. Western scaffold bar of lidded entrance.	
+*fix	0011	385758.358	470187.475	493.484	;Err (3D CQ) 	0.012m	;Coates cavern - 1cm hand drilled hole in boulder at top of shakehole, ~6m above sink on southern side of shakehole."	
+
+
+
+*end	ffgps

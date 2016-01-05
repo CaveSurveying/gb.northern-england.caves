@@ -1,4 +1,14 @@
+
+;ULSA Gingling Hole Grade 5c survey
+;Created by Noel Snape and Holly Bradley (ULSA) 2015
+;For specific survey details see individual survex files
+
+;----------------------------------------------------------------------------
+
 *begin Gingling
+
+*export	Gingling1.tag
+
 ;*include Gingling_practice
 *include Gingling1
 *include Gingling2
