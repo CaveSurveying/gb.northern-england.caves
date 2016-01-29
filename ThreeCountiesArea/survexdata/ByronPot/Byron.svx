@@ -6,7 +6,7 @@
 1	2	8.55	-	down	; stn 1 is nut on scaffolding
 2	3	0.42	075	0
 3	4	8.48	-	down	
-4	5	1.40	-	down	; extra bit to bottom of dig
+4	5	8.40	-	down	; extra bit to bottom of dig
 
 ; *include 
 
