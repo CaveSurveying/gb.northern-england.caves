@@ -8,8 +8,10 @@
 
 *include ffgps
 *include GinglingHole/Gingling
+*include ElectionHole/Election1
 
 *equate Gingling.Gingling1.tag	ffgps.0002
+*equate Election1.S1	ffgps.0004
 
 
 ;*equate Old_KMC.roof_tunnel.002	kdgps.vent

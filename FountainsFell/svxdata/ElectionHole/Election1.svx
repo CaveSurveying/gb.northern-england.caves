@@ -1,0 +1,31 @@
+*begin Election1
+*export S1
+;checked 
+*team "Holly Bradley" compass clino tape
+*team "Sarah Holman" compass clino tape
+*team "Carl Spence-Jones" notes
+*instrument "H&N compass" compass
+*instrument "H&N clino" clino
+*date 2016.01.16
+*calibrate declination	1.86	;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+*data normal from to tape compass clino
+*flags surface				
+S1	S2	8.01	268.0	+08
+S2	S1	8.01	088.0	-08.5
+S2	S3	16.84	119.5	-08
+S3	S2	16.84	299.0	+08	
+S3	01	6.30	261.0	-27
+S3	01	6.30	260.5	-26
+
+*flags not surface
+01	02	0.72	-		down
+03	02	2.12	151.0	+09
+03	02	2.12	150.5	+09	;station is on left wall level with top of climb, left hand hook of broken circle
+
+*data passage station left right up down
+01	0.1	0.2	-	0.7
+02	0.1	0.3	0.7	0.0
+03	0.0	0.6	1.0	1.5
+
+*end Election1
