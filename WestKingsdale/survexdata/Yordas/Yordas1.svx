@@ -201,7 +201,7 @@
 
 
 *data passage station left right up down	
-1	2.5	3.5	2.5	0							;Main entrance, Right corner of top step
+1	2.5	3.5	2.5	0							;Main entrance, Right corner (when looking into entrance) of top step
 2	6.5	18.5	0.5	1.5						;R Adjusted by NS to match model - Drill hole on L
 3	0.4	0.2	1.5	2.1							;Down through hole in boulders
 4	1	0.8	0.6	1.5
