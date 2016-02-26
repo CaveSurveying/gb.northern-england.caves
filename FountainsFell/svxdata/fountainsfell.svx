@@ -14,17 +14,6 @@
 *equate Election1.S1	ffgps.0004
 
 
-;*equate Old_KMC.roof_tunnel.002	kdgps.vent
-;*equate KMC.ValleyEntrance.0	kdgps.vent
-;*equate	Aquamole.main.25 upstreamsumps.pt1.0
-;*equate KMC.PhilosophersCrawl2.15	Old_KMC.Master_Cave.106
-
-
-;*equate RowtenPot.Rowten_Projected.1	kdgps.tr		;basic projection only, needs re-surveying
-;*equate Rowtencaves.rowtencave_surface.5hex	kdgps.3c21
-;*equate	Rowtencaves.jinglingcavetop.1	kdgps.3c22	
-
-;*equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
 
 
 
