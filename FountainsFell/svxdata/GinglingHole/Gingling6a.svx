@@ -1,3 +1,8 @@
+
+
+;This file no-longer in-use, re-done due to lack of LRUDS 
+
+
 *begin Gingling6a
 *export	x
 ;checked NS 04/11/2015

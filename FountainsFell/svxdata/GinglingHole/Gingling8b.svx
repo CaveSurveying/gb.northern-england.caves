@@ -1,0 +1,47 @@
+*begin Gingling8b
+*export	x5
+;checked 
+*team "Noel Snape" notes
+*team "Nathanael Dalton" compass clino tape ; distoX 
+*instrument "H&N Distox2-2" compass
+*instrument "H&N Distox2-2" clino
+
+
+*date 2016.02.27
+*calibrate declination	1.85		;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+
+*data normal from to tape compass clino
+
+*flags duplicate
+x5	11	2.563	160.6	5.68
+*flags splay				
+x5	x5a	1.106	231.6	9.82
+x5	x5b	0.369	133.81	-80.06
+11	11a	0.878	46.25	-4.79
+11	11b	3.776	338.6	76.9
+11	11c	0.509	45.94	-83.33
+*flags not splay	
+*flags not duplicate			
+11	12	9.102	320.3	46.82
+
+
+
+*data passage station left right up down
+
+x5	0	1.1	0	0.4		;old station 36 in Gingling 6, tiny calcite curtain in edge of main bedding
+11	0.8	0	3.8	0.5		;flake in chamber R H wall, just below obvious knob of rock
+
+*data passage station left right up down
+11	0	0.8	3.8	0.5
+12	0.5	0	2	2		;RH wall at top of exposed climb, just before squeeze, too tight to pass, into tight continuing rift. Drafting outwards
+
+
+
+
+
+
+
+
+
+*end Gingling8b

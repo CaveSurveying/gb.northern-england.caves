@@ -1,0 +1,62 @@
+
+;-------------------------------------
+;Obscure oxbow / parallel rift to entrance pitch, accessible through slot in wall near top of pitch
+;-------------------------------------
+
+*begin Gingling8c
+*export	8x
+;checked 
+*team "Noel Snape" notes
+*team "Nathanael Dalton" compass clino tape ; distoX 
+*instrument "H&N Distox2-2" compass
+*instrument "H&N Distox2-2" clino
+
+
+*date 2016.02.27
+*calibrate declination	1.85		;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+
+*data normal from to tape compass clino
+
+2	1	6.059	264.6	-82.02
+3	2	2.287	280.1	-9.08
+*flags splay				
+3	3a	0.378	3.73	-6.45
+3	3b	0.174	321.93	84.46
+3	3c	1.43	49.99	-74.97
+*flags not splay				
+4	3	2.572	236.1	-0.73
+*flags splay				
+4	4a	0.525	315.62	2.29
+4	4b	0.252	247.26	81.84
+4	4c	1.574	313.01	-81.51
+*flags not splay				
+4	5	1.513	43.5	-6.06
+*flags splay				
+5	5a	0.473	167.12	-6.71
+5	5b	0.697	68.3	73.08
+5	5c	1.118	245.93	-88.75
+*flags not splay
+*flags duplicate				
+5	6	4.365	134.6	-1.27			;centreline only, linking parallel passage to main pitch
+4	7	1.911	25.5	10.28			;station 7 is deviation P-anchor
+8x	7	1.299	358.1	-47				;station 8x is station1 in gingling 1
+
+
+
+*data passage station left right up down
+1	0	2	7	0			;bottom of 6m pitch - pitch head not negotiated due to exceptionally awkward take-off
+2	0	0.3	1	6			;Top of pitch, RH wall when looking down pitch
+3	0.4	0	0.2	1.4			;RH wall
+4	0.5	0	0.3	1.6			;RH wall
+5	0	0.5	0.7	1.1			;LH wall
+6	0.2	0.2	0.7	0.9			;awkward passage becoming muddy / too tight near presumed sinks in side of beck
+
+
+
+
+
+
+
+
+*end Gingling8c
