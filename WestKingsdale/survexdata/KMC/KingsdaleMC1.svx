@@ -1,0 +1,46 @@
+*begin KingsdaleMC1
+
+*export	11
+;checked Holly Bradley 08/03/2016
+*team "Sarah Parker" notes
+*team "Rachel Rix" compass clino tape
+*team "Holly Bradley" backcompass backclino
+*instrument "947153" tandem
+*instrument "813849" backcompass
+*instrument "419881" backclino
+
+*date 2016.02.28
+;calibrate declination	X.XX		;taken from NOAA website for XX.XXXXXX degrees N, X.XXXXXX degrees West
+*calibrate tape +0.1
+
+*data normal from to tape compass clino	backcompass	backclino
+X	1	3.04	010.5	+03.0	191.0	-3.0
+1	2	7.30	-	down	-	up
+2	3	4.53	178.0	+10.0	358.0	-10.0
+2	4	10.04	048.0	+06.0	229.0	-06.0
+4	5	12.73	332.0	+01.0	152.0	00.0
+5	6	14.85	264.0	0.00	084.0	+0.5
+6	7	11.20	306.0	+02.0	126.0	-02.5
+7	8	7.19	270.0	-02.0	091.0	+02.0
+8	9	13.59	322.0	+02.0	141.0	-02.0
+9	10	9.61	032.5	-01.0	211.0	+02.0
+10	11	9.05	055.0	+07.0	235.0	-06.0	
+
+*data passage station left right up down
+X	2.2	0.8	0.7	1.2	;not linked to main survey, kink on RHW
+1	2.5	0.5	0.0	0.8	;P-bolt on roof
+2	3.5	2.0	7.2	0.1	;a cairn in streamway
+3	2.1	3.5	1.5	1.1	;knot at sump			
+
+*data passage station left right up down
+2	3.5	2.0	7.2	0.1	;a cairn in streamway
+4	1.2	0.1	5.0	1.5	;ledge on outer bend at RHW
+5	1.4	0.0	5.0	1.5	;RHW
+6	0.0	1.4	6.0	1.3	;LHW
+7	1.4	0.0	5.0	1.6	;RHW
+8	0.9	1.5	5.0	1.2	;RHW kink
+9	0.0	1.5	4.0	1.6	;LHW on bend
+10	0.0	1.2	4.0	1.4	;LHW
+11	1.0	0.0	2.2	1.4	;RHW
+
+*end KingsdaleMC1
