@@ -1,0 +1,48 @@
+*begin Election2
+*Export	02
+;checked
+
+*team "Carl Spence-Jones" notes compass clino tape ;forsights
+*team "George Breley" compass clino tape ;backsights
+*instrument "436006" backcompass 
+*instrument "023187" backclino 
+*instrument "023187" compass
+*instrument "023187" clino
+*date 2016.02.28
+*calibrate declination	1.86	;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+*calibrate tape +0.1
+
+
+*data normal from to tape compass clino
+
+*flags not surface
+02	03	1.53	-		down	;station 02 (is 03 on survey 1) is on left wall level with top of climb, left hand hook of broken circle
+03	04	2.64	359.5	-02	;base of first climb chamber, plum from 03.
+04	03	2.64	179.0	+01	;base of ledge on left wall.
+04	05	2.19	340.0	-01	
+05	04	2.19	160.0	+02
+04	06	2.70	028.0	-03
+06	04	2.70	209.0	+03	
+;06	07a	2.39	340.0	-	;very tight, could not get head to station well for sight, just for loop closure on oxbo but could do with disto. distance very likly missread fro tape, 3.39 is reading in book.
+05	07	1.64	035.5	-08
+07	05	1.64	217.0	+07
+07	08	3.63	023.0	-03
+08	07	3.63	202.0	+02	
+08	09	2.37	079.5	+00
+09	08	2.37	261.0	+01	
+09	10	3.13	111.0	+00	;station 10 is obvious hook on right wall(highest of the two as you enter the chamber from the craw. bambo placed over hook during this survey
+10	09	3.13	291.0	+00	;station 11 is raised lip of slot in floor (left side) under lowering of th roof before the rift with boulder chooked roof.
+	
+
+*data passage station left right up down
+02	-	0.70	0.70	1.53
+03	0.50	1.26	2.25	-
+04	-	0.70	0.15	0.25
+05	-	0.60	.020	0.38
+07	-	0.42	0.31	0.35
+08	-	0.45	0.25	0.40
+09	0.45	-	0.20	0.40 ; added in for viewing not measured in the cave
+10	1.20	0.50	0.40	-
+
+
+*end Election2

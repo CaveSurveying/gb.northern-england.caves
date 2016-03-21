@@ -1,0 +1,17 @@
+
+;ULSA Election Hole Grade 5c survey
+;Created by Carl Spence-Jones, George Breley (ULSA) 2016
+;For specific survey details see individual survex files
+
+;----------------------------------------------------------------------------
+
+*begin Election
+
+*export	Election1.S1
+
+*include Election1
+*include Election2
+
+*equate Election1.03	Election2.02
+
+*end Election

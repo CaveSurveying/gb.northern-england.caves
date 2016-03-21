@@ -1,6 +1,7 @@
 *begin Election1
-*export S1
+*export	S1	03
 ;checked 
+
 *team "Holly Bradley" compass clino tape
 *team "Sarah Holman" compass clino tape
 *team "Carl Spence-Jones" notes
@@ -13,8 +14,8 @@
 *flags surface				
 S1	S2	8.01	268.0	+08
 S2	S1	8.01	088.0	-08.5
-S2	S3	16.84	119.5	-08
-S3	S2	16.84	299.0	+08	
+S2	S3	16.84	199.0	-08
+S3	S2	16.84	022.0	+08	
 S3	01	6.30	261.0	-27
 S3	01	6.30	260.5	-26
 
