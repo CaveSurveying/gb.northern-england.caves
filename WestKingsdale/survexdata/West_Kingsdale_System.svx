@@ -14,6 +14,8 @@
 *include kdgps
 *include RowtenPot/RowtenPot
 *include Keld_Head/Keld_Head
+*include JinglingPot/JinglingPot
+*include BullPot/BullPot
 
 *equate Old_KMC.roof_tunnel.002	kdgps.vent
 *equate KMC.ValleyEntrance.0	kdgps.vent
@@ -27,6 +29,8 @@
 
 *equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
 
+*equate JinglingPot.1.0   kdgps.3c22
+*equate Bullpot.1.23	kdgps.3c23
 ;-----------------------------------------------------------------------------------------
 ;Temporary section for Yordas, needs to be tied in - THIS IS ONLY AN ESTIMATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 *equate	kdgps.3c26	Yordas1.1
@@ -38,6 +42,9 @@
 *equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
 ;-------------------------------------------------------------------------------------------
+
+
+
 
 ;*solve
 
