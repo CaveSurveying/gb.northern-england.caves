@@ -52,6 +52,7 @@
 
 *include Inlet6point5/Inlet6point5		;Inlet 6.5				Added by Richard 08/11/12
 
+
 ;-------------------------------------------------------------------------------------------
 ;Equate Statements
 
@@ -98,7 +99,6 @@
 *equate Mainstreamway.Jimlet-DaylightAven.5 sixpointfiveandthreequarters.7		;Added by Richard 28/07/12
 
 *equate Mainstreamway.Jimlet-DaylightAven.3 Inlet6point5.Inlet6point5_1.11					;Added by Richard 08/11/12
-
 
 *end NottsII	
 
