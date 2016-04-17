@@ -5,6 +5,7 @@
 *begin EchoInlet_1
 
 *export 1 
+*export 2
 
 *title "EchoInlet"
 *date 2011.12.15
