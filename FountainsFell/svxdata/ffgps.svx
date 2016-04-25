@@ -7,7 +7,7 @@
 ; Date:	01/01/2016
 
 ; Instruments:	Leica Geosystems ATX1230 GPS
-; Undertaken with connectivity to Lieca basestations via mobile boradband, accuracy to below 0.02m
+; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m
 ; Measured in OSGB36 (WGS84 also recorded for records)
 ; 2m survey pole autocorrected in readings
 
@@ -46,6 +46,15 @@
 ;-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+; Survey:		Fountains Fell GPS Survey 2
+; Surveyors:	Noel Snape, Holly Bradley and Katey Bender
+
+; Date:	23/04/2016
+
+; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
+; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m
+; Measured in OSGB36
+; 1.8m survey pole autocorrected in readings
 
 
 
