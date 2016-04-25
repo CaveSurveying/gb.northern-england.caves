@@ -1,24 +1,23 @@
-; Cave:		Fountains Fell GPS Survey
+*begin	ffgps
+
+
+; Survey:		Fountains Fell GPS Survey 1
 ; Surveyors:	Noel Snape, Holly Bradley and Andrew Wright
 
-; Dates:	01/01/2016
+; Date:	01/01/2016
 
 ; Instruments:	Leica Geosystems ATX1230 GPS
 ; Undertaken with connectivity to Lieca basestations via mobile boradband, accuracy to below 0.02m
 ; Measured in OSGB36 (WGS84 also recorded for records)
 ; 2m survey pole autocorrected in readings
 
-;---------------------------------------------------------------------------------------------------------
-
+;--------------------------------------
 
 ; OSGB36 co-ordinates are for the OS 100km square SD 
 ; to obtain full length co-ordinates, add 300000 to Easting and 400000 to Northing
-
-*begin	ffgps
-
-
-;---------------------------------------------------------------------------------------------------------
+;--------------------------------------
 ;Survey points taken 01/01/2016
+
 
 *export	0001		;Shooting hut
 *export	0002		;Gingling Hole
@@ -43,6 +42,15 @@
 *fix	0009	385660.238	470264.628	477.409	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry Entrance. Northern scaffold bar of lidded entrance.	
 *fix	0010	385660.107	470263.793	477.408	;Err (3D CQ) 	0.014m	;Gingling Wet Sink - dry Entrance. Western scaffold bar of lidded entrance.	
 *fix	0011	385758.358	470187.475	493.484	;Err (3D CQ) 	0.012m	;Coates cavern - 1cm hand drilled hole in boulder at top of shakehole, ~6m above sink on southern side of shakehole."	
+
+;-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
