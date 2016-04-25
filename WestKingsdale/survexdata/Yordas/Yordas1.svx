@@ -1,5 +1,5 @@
 *begin Yordas1							
-*export 1					;Tied into old Yordas survey, GPS is very rough approximation, NEEDS RE-DOING!!!!!		
+*export	ext	
 ;checked  
 *team "Chris Williams" notes 								
 *team "Noel Snape" disto			
@@ -11,7 +11,13 @@
 
 *data normal from to tape compass clino	
 
-*flags not splay				
+
+;------extra leg added 2016.04.16 to tie GPS to survey-----------
+*flags duplicate
+1	ext	2.94	254.8	15		
+;----------------------------------------------------------------
+
+*flags not duplicate				
 1	2	12.16	224.08	-1.7
 *flags splay				
 1	1a	2.534	147.39	20.68

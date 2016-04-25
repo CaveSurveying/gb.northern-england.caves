@@ -1,5 +1,5 @@
 *begin RowtenPassage
-*export 1 9 36 DistoXSumpTieIn.3
+*export 1 9 32	36 DistoXSumpTieIn.3
 
 ;Rowten Sumps to Master Junction, and up to Swinsto Streamway Junction
 

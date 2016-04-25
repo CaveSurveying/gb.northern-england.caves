@@ -1,0 +1,70 @@
+*begin KingsdaleMC3
+
+;First half of high-level traverse above master cave.
+
+*export	x1	p1nn
+;checked 
+*team "Noel Snape" notes
+*team "Tom Starnes" disto
+*team "Holly Bradley" rigging
+*instrument "Holly and Noel's 2nd Disto X2" Compass
+*instrument "Holly and Noel's 2nd Disto X2" Clino
+
+
+*date 2016.03.20
+*calibrate declination	+1.94		;taken from NOAA website for 54.18degrees N, 2.47degrees West (added by NS 2016.04.25)
+
+;-----------------------------------------------------------------------------------------------------------
+; Calibration check - readings against marks just inside valley entrance: 
+;floor to wall	tape: 3.57m, 3.57m, 3.57m Bearing: 221.2, 221.8, 222.0 Inclination: 35.2, 35.1, 35.2
+;wall to floor	tape: 3.57m, 3.57m, 3.57m, Bearing: 042.7, 042.8, 042.8, Inclination: -35.2, -35.4, -35.4
+;Av. bearing error b/w front and back = 1.1 degrees (within BCRA / UIS grade 5 tolerance of 1.5 degrees)
+
+;NOTE: No splays, data accidentally lost - data transcribed from paper notes (scanned)
+
+;NOTE (to self): Top and bottom level survey in master cave - possible discrepancy. Looks like there may be an error in a leg length reading, either 
+; 2 to 3 in this survey, or 4 to 5 in KingsdaleMC1. Cannot see anything obvious - waiting to finish traverse level survey to 
+; see results of loop closure. Also, could be due to disto drift / problems that arose a while after this survey, but less likely as appears 
+; to be a leg length issue (not bearing). To check / sort-out
+;-----------------------------------------------------------------------------------------------------------
+
+*data normal from to tape compass clino	
+x1	p1	1.03	030.2	-8.6
+x1	1	2.96	356.7	-15.4
+1	2	9.35	59.1	-06.0
+2	3	17.3	335.0	0.3
+3	4	5.4		067.6	08.4
+4	5	6.3		059.9	-0.7
+5	6	3.3		109.5	0.4
+3	7	9.2		271.3	0.4
+7	8	3.9		275.3	2.8
+8	9p	0.44	050.7	62.6		;9p is p-anchor with snoopy loop attached, on face of RH wall (NOT roof) looking upstream, opposite large (inlet) passage
+8	10	3.5		305.4	5.7
+
+
+
+;*data passage station left right up down
+
+;x1	2.1	0.7	0.2	1.2		;old station X from KinsdaleMC1.svx
+;p1	2.7	0	1.2	1		;1st P-anchor on Right (ties into KMC roof tunnel survey by Chris Williams?)
+
+*data passage station left right up down
+x1	2.1	0.7	0.2	1.2		;old station X from KinsdaleMC1.svx
+1	0	1.7	1.1	0.8		;on L wall above P-anchor near pitch edge, 15cm 45degrees diagnally down&left from 2cm diameter drill hole
+2	4	0.7	0.4	1.0	 	;RH wall on dark Chert band
+3	2.7	0	2.6	0.8		;R hand wall above bolt
+4	0.8	0.2	1.0	1.1		;LH wall up abandoned inlet
+5	0	0.8	0.7	0.6		;RH wall, rock protruding from mud
+6	1	3.0	4.6	0		;End of plank in digging spoil
+
+*data passage station left right up down
+3	2.7	0	2.6	0.8
+7	2.4	0	2.3	1.5		;
+8	2.7	1.1	2.6	5.6		;RH wall opposite large passage (inlet) at top of climb
+10	2.8	1.4	2.5	0		;P-anchor in roof of side bedding, with green plastic back. Is 3rd bolt along from 9p. 2nd bolt along from bolt with white plastic back.
+
+
+
+
+
+*end KingsdaleMC3

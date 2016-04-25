@@ -1,6 +1,6 @@
 *begin KingsdaleMC2
 
-*export	13
+*export	13	15x
 ;checked "Holly Bradley" 08.03.2016
 *team "Luke Stangroom" notes
 *team "Hannah Walker" compass clino
@@ -11,7 +11,7 @@
 *instrument "Disto x2 Noel's Mark 2" tape
 
 *date 2016.02.28
-;calibrate declination	X.XX		;taken from NOAA website for  degrees N, degrees West
+*calibrate declination	+1.94		;taken from NOAA website for 54.18degrees N, 2.47degrees West (added by NS 2016.04.25)
 *calibrate tape +00
 
 *data normal from to tape compass clino	
@@ -126,6 +126,7 @@
 7 1.4 8 1.5 1.8 
 9 4.7 1.1 0 0.9 ;tunnel next to rescue phone 
 10 0 1.5 0.2 0.7 
+11	0	1.5	0.2	0.7
 
 *data passage station left right up down
 7 8.0 1.4 1.5 1.8 

@@ -7,7 +7,7 @@
 *include Swinsto/Swinsto
 *include RowtenCaves/Rowtencaves		
 *include Yordas/Yordas_old				;old innacurate/incomplete survey - to be replaced
-*include Yordas/Yordas1					;GPS needs proper tie (CURRENTLY NOT JOINED - MUST BE SURVEYED)
+*include Yordas/Yordas1
 *include GreenLaids/GreenLaids
 *include Aquamole/Aquamole
 *include UpstreamSumps/UpstreamSumps
@@ -33,11 +33,10 @@
 *equate JinglingPot.1.0   kdgps.3c22
 *equate Bullpot.1.23	kdgps.3c23
 *equate AquamolePot_Resurvey.1.0 kdgps.3c22
-;-----------------------------------------------------------------------------------------
-;Temporary section for Yordas, needs to be tied in - THIS IS ONLY AN ESTIMATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-*equate	kdgps.3c26	Yordas1.1
 
-;-----------------------------------------------------------------------------------------
+*equate	kdgps.3c26	Yordas1.ext
+
+
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
 
 *include KMC/Window_Aven

@@ -1,6 +1,6 @@
 *begin KingsdaleMC1
 
-*export	11
+*export	11	x
 ;checked Holly Bradley 08/03/2016
 *team "Sarah Parker" notes
 *team "Rachel Rix" compass clino tape
@@ -10,7 +10,7 @@
 *instrument "419881" backclino
 
 *date 2016.02.28
-;calibrate declination	X.XX		;taken from NOAA website for XX.XXXXXX degrees N, X.XXXXXX degrees West
+*calibrate declination	+1.94		;taken from NOAA website for 54.18degrees N, 2.47degrees West (added by NS 2016.04.25)
 *calibrate tape +0.1
 
 *data normal from to tape compass clino	backcompass	backclino
@@ -29,6 +29,9 @@ X	1	3.04	010.5	+03.0	191.0	-3.0
 *data passage station left right up down
 X	2.2	0.8	0.7	1.2	;not linked to main survey, kink on RHW
 1	2.5	0.5	0.0	0.8	;P-bolt on roof
+
+
+*data passage station left right up down				;split out into separate LRUD section for Survex to process correctly (2016.04.25 by NS)
 2	3.5	2.0	7.2	0.1	;a cairn in streamway
 3	2.1	3.5	1.5	1.1	;knot at sump			
 

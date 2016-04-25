@@ -10,7 +10,7 @@
 *team	"Dan Lenartowicz Legacy"	disto	stations
 
 *instrument	"DistoX2 2734 (Brendan)" Compass
-*instrument	"DistoX2 2734 (Brendan)" Compass
+*instrument	"DistoX2 2734 (Brendan)" Clino
 
 
 *date 2015.09.12

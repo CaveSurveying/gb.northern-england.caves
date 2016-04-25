@@ -22,6 +22,9 @@
 *include	MudRiver				;Footleg's disto x survey
 *include	milkyway4				;Brendan, Nathan, Jethro SUSS checc disto survey, 7th november
 *include	milkyway_kellaway1		;Brendan, Nathan, Jethro SUSS checc disto survey, 8th november
+*include	KingsdaleMC1			;Sarah Parker, Rachel Rix, Holly Bradley ULSA survey 08/03/2016
+*include	KingsdaleMC2			;Luke Stangroom, Hannah Walker, Noel snape, ULSA survey 08/03/2016
+*include	KingsdaleMC3			;Tom Starnes, Noel Snape, Holly Bradley 2016/03/20
 
 
 *equate	ValleyEntrance.27	MilkyWay.27
@@ -37,5 +40,8 @@
 *equate	MudRiver.0	RowtenPassage.9
 *equate milkyway2.10	milkyway4.0
 *equate milkyway2.10 	milkyway_kellaway1.0 
+*equate KingsdaleMC1.11	KingsdaleMC2.13
+*equate KingsdaleMC2.15x	RowtenPassage.32
+*equate	KingsdaleMC3.x1		KingsdaleMC1.x
 
 *end KMC
