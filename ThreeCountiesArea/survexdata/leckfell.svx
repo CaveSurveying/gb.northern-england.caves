@@ -6,6 +6,7 @@
 *include Surface/leckfellsurfacesurvey
 *include Surface/largetonorthendpotsurface
 *include Surface/shortdroprumblingcoalholebyronsurface
+*include Surface/threecountiesgpskdixon2012
 
 ; underground surveys - avg mag decl for 2010 = 3 deg W (please put in correct declination for date in each cave survey)
 ; true N to grid N correction = -0.33 
@@ -89,6 +90,7 @@
 
 *include NottsPot/NottsPot
 *equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
+*equate NottsPot.EntrancePhanger 3cgps.033
 
 *include RiftPot/RiftPot
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
@@ -133,13 +135,18 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include KirkPot/KirkPot
 
 *include GetDownShep/Shep_Pot
-*fix Shep_Pot.getdownshep1.getdownshep1_6.20 67064 78046 372  ; TEMP - Becka, 27 Dec - this needs sorting with proper fix, this is apparently GPS to top of tallest scaff pole which was station 22 in the Shep_Pot_1 survey and I've tied it to the top station in the getdownshep1 survey but not clear where getdownshep1.6-20 actually is
+;*fix Shep_Pot.getdownshep1.getdownshep1_6.20 67064 78046 372  ; TEMP - Becka, 27 Dec - this needs sorting with proper fix, this is apparently GPS to top of tallest scaff pole which was station 22 in the Shep_Pot_1 survey and I've tied it to the top station in the getdownshep1 survey but not clear where getdownshep1.6-20 actually is
+;<<<< This has been commented out as a surface survey now connects Shep pot to Notts Pot GPS tag via PeriolousPot >>>>
 
 *include NorthEndPot/NorthEndPotUnderground
 *equate NorthEndPotUnderground.1-x largetonorthendpotsurface.1-18 	; needs finishing 
 
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
+
+*include PerilousPot/PerilousPot 
+*equate PerilousPot.4.0 3cgps.3c15  	;<<<< This connects PerilousPot surface survey to NottsPot GPS Tag >>>>
+*equate Shep_Pot.getdownshep1.getdownshep1_6.20 PerilousPot.3.9 	;<<<<Linking GetDownShep to Perilous surface survey >>>>
 
 *end leckfell
 

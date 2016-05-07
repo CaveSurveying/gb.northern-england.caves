@@ -31,6 +31,7 @@
 *export 028	;Large Pot, tag in rock above entrance
 *export 031	;Mohole, tippex mark on drystone wall, start point for Becka's new survey
 *export 033	;Notts Pot far P hanger, start point for cave survey
+*export 3c15	;Notts Pot GPS tag
 *export 036	;Ireby Cavern, tag hole in rock at right side of scaffold pole at entrance 
 
 ; known magnetic azimuth of 328.0 at Bull Pot Farm

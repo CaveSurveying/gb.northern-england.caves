@@ -65,7 +65,7 @@
 *equate	mg1.032a	mg3a.001	; RiftPotEntranceTag
 
 
-*fix mg1.001    67929     76660	    348     ; top of gate-post near stile
+;*fix mg1.001    67929     76660	    348     ; top of gate-post near stile <<<< Commented out by Simon Cornhill 7May16 as Kevin dixon GPS point now used at NottsPot to anchor this data set >>>>
 ;*fix mg3a.008   67682.0   77228.0   408.0   ; head height on stile
 ;*fix mg3a.016   67259.0   77374.0   402.36  ; rock top at junction of wall and fence to shooting hut on Leck Road
 ;*fix mg3a.024   67114.37  77803.73  376.35  ; first P hanger at Notts Pot entrance
