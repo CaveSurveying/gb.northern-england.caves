@@ -74,7 +74,7 @@
 
 ; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
 ; Measured in OSGB36
-; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m.
+; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.03m.
 ; Leica basestation locations:
 ; RTCM Reference station 0187	E:379890.3	N:464482	Alt:232.436
 ; RTCM Reference station 0189	E:256340.9	N:664697.3	Alt:17.403
