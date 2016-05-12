@@ -52,10 +52,33 @@
 ; Date:	23/04/2016
 
 ; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
-; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m
 ; Measured in OSGB36
+; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m.
+; Leica basestation locations:
+; RTCM Reference station 0187	E:379890.3	N:464482	Alt:232.436
+; RTCM Reference station 0189	E:256340.9	N:664697.3	Alt:17.403
 ; 1.8m survey pole autocorrected in readings
 
+
+
+
+
+
+;-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+; Survey:		Fountains Fell GPS Survey 3
+; Surveyors:	Noel Snape and Holly Bradley
+
+; Date:	08/05/2016
+
+; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
+; Measured in OSGB36
+; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m.
+; Leica basestation locations:
+; RTCM Reference station 0187	E:379890.3	N:464482	Alt:232.436
+; RTCM Reference station 0189	E:256340.9	N:664697.3	Alt:17.403
+; 1.8m survey pole autocorrected in readings
 
 
 
