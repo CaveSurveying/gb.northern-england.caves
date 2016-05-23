@@ -21,6 +21,9 @@
 *include escalatorclimb		;from rope at base of Escalator Rift pitches up stream then up climbs and ending at ladder out of Escalator Rift by Jupiter Cavern
 *include frink1			;from chamber before pitch into Frink Chamber to chamber and along passage to right
 *include frink2			;upper Frink Chamber and pitch and climb
+*include FarFrink		;Extensions North from Frink Chamber
+*include LovleyAndSpecial	;Dig at the bottom of escalator rift/end of Duke Street2
+
 
 ;Equate Ireby2 Files
 
@@ -43,5 +46,7 @@
 *equate jupitertoescalator.44 escalatorclimb.44x
 *equate jupiter2irebyone.4 frink1.4x
 *equate frink1.21 frink2.21x
-
+*equate FarFrink.1.0 frink1.8
+*equate LovleyAndSpecial.1.0 jupiter2irebyone.32
+ 
 *end Ireby2

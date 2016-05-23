@@ -30,18 +30,18 @@
 ; 7	6	-	134	+01	; only comp & clino backup read
 7	8	7.42	286.3	-04.1
 
-9	8	7.14	237	+09.4
-10	9	6.26	133	-30
-11	10	4.68	159	-04
-12	11	1.31	221	-01
-13	12	5.77	301	+08
-14	13	3.52	247	+26
-15	13	1.38	259	+09
-16	15	4.20	164	-03
-17	16	2.18	214	+09
-18	17	2.75	199	-03
-19	18	2.01	227	0
-20	19	4.63	162	0	; tape difficult to read - could be 4.83? Doesn't really matter as last station temporary
+;9	8	7.14	237	+09.4	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;10	9	6.26	133	-30	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;11	10	4.68	159	-04	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;12	11	1.31	221	-01	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;13	12	5.77	301	+08	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;14	13	3.52	247	+26	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;15	13	1.38	259	+09	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;16	15	4.20	164	-03	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;17	16	2.18	214	+09	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;18	17	2.75	199	-03	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;19	18	2.01	227	0	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;20	19	4.63	162	0	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16; tape difficult to read - could be 4.83? Doesn't really matter as last station temporary
 21	8	5.31	008	-14
 
 *data passage station left right up down ignoreall
@@ -54,18 +54,18 @@
 6	1.5	1	0	0.3
 7	1.0	1.5	0.4	0.3	temp on mud bank on shelf by pitch into Frink Chamber
 8	0.6	7	0.7	1.2	numbered station on far wall of Frink Chamber
-9	4.5	3.5	3.3	3
-10	1.9	0.2	0.6	1	I think this station is numbered - on L wall just after c3 out of Frink Chamber
-11	0.3	1.3	0.5	0.2
-12	0	1.2	0.5	0.1	down hard to read
-13	1	1.3	0.5	0.1	think this station on stal
-14	1.3	1.2	0.5	0	
-15	1.4	0	0.5	0.6
-16	1.2	0.2	0.1	0.5
-17	0	1.4	0.5	0.1
-18	1.5	0	0.3	0.2
-19	1.1	0.5	0.4	0.2
-20	0.5	0.7	0.4	0.1	
+;9	4.5	3.5	3.3	3	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;10	1.9	0.2	0.6	1	;I think this station is numbered - on L wall just after c3 out of Frink Chamber ;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;11	0.3	1.3	0.5	0.2	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;12	0	1.2	0.5	0.1	;down hard to read ;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16	
+;13	1	1.3	0.5	0.1	think this station on stal
+;14	1.3	1.2	0.5	0	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;15	1.4	0	0.5	0.6	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;16	1.2	0.2	0.1	0.5	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;17	0	1.4	0.5	0.1	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;18	1.5	0	0.3	0.2	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;19	1.1	0.5	0.4	0.2	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
+;20	0.5	0.7	0.4	0.1	;Commented out as FarFrink survey now replaces this Simon Cornhill 23/5/16
 21	5.2	3	1	1	numbered on left in Frink Chamber before start climb through boulder choke into upper chamber
 
 
