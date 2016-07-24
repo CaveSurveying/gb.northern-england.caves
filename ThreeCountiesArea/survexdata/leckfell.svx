@@ -1,5 +1,8 @@
 *begin leckfell
 
+*cs out OSGB:SD
+*cs OSGB:SD
+
 *export witchesII.witchesII-7.x	;added 22/03/11RGB
 
 ;*include Surface/OLD_LFGPS
