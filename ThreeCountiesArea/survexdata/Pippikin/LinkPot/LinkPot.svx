@@ -105,8 +105,8 @@
 *include	lk11
 *include	lk11a
 *include	lk12
-*include	lk12a
-*include	lk12b
+*include	Lk12a
+*include	Lk12b
 *include	lk13
 *include	lk14
 *include	lk15

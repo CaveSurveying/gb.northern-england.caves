@@ -63,7 +63,7 @@
 *include	pip18a
 *include	pip18b
 *include	pip18c
-*include	pip18d
+*include	Pip18d
 *include	pip19
 *include	pip19a
 *include	pip20
@@ -73,9 +73,9 @@
 *include	pip26
 *include	pip27
 *include	pip28a
-*include	pip28ai
-*include	pip28b
-*include	pip28c
+*include	Pip28ai
+*include	Pip28b
+*include	Pip28c
 
 *include	mm1i ; ie, that part of mm1 which is Leck Fell Lane
 
