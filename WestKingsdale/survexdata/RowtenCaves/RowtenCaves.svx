@@ -20,7 +20,7 @@
 *include Rowtencavemiddle
 *include rowtencavetop2
 *include rowtencavetop
-*include jinglinginlet
+*include JinglingInlet
 *include jinglinginlet2
 *include	jinglingmiddle
 *include	jinglingcavetop2

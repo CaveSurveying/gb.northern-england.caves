@@ -2,7 +2,7 @@
 
 ;First half of high-level traverse above master cave.
 
-*export	x1	p1nn
+*export	x1  ;	p1nn
 ;checked 
 *team "Noel Snape" notes
 *team "Tom Starnes" disto
