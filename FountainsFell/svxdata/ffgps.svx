@@ -1,5 +1,36 @@
 *begin	ffgps
 
+;--------------------------------------------
+;EXPORT STATIONS SECTION
+
+*export	0001		;Shooting hut
+*export	0002		;Gingling Hole
+*export	0004		;Election Hole
+*export	0006		;Gingling Wet Sink
+*export	0007		;Gingling Wet Sink
+*export	0008		;GWS - dry entrance
+*export	0009		;GWS - dry entrance
+*export	0010		;GWS - dry entrance
+*export	0011		;Coates Cavern
+
+
+*export	222			;Magnetometer
+*export	221			;Shatter Pot
+*export	220			;Strangle Pot
+*export	219			;New Year Pot
+*export	218			;Rocky Pot
+*export	217			;Hammer Pot
+*export	216			;Coronation Pot
+*export	215			;Gingling Hole
+*export	214			;Gingling Hole
+*export	213			;FOUL Pot
+*export	212			;Echo Pot
+*export	211			;New Pasture Cave
+
+*export	BG1			;Brants Gill Head
+*export	DH1			;Dale Head Pot
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ; Survey:		Fountains Fell GPS Survey 1
 ; Surveyors:	Noel Snape, Holly Bradley and Andrew Wright
@@ -19,15 +50,7 @@
 ;Survey points taken 01/01/2016
 
 
-*export	0001		;Shooting hut
-*export	0002		;Gingling Hole
-*export	0004		;Election Hole
-*export	0006		;Gingling Wet Sink
-*export	0007		;Gingling Wet Sink
-*export	0008		;GWS - dry entrance
-*export	0009		;GWS - dry entrance
-*export	0010		;GWS - dry entrance
-*export	0011		;Coates Cavern
+
 
 
 
@@ -59,8 +82,27 @@
 ; RTCM Reference station 0189	E:256340.9	N:664697.3	Alt:17.403
 ; 1.8m survey pole autocorrected in readings
 
+;GPS survey tags are thru-bolts with hammered ends to prevent removal (and unintended use with hangers etc)
+	
 
 
+	
+*fix	222	384950.695	469701.267	397.945		;Magnetometer pot. WRT text "Milton" on lower L corner of first metal step
+*fix	221	385977.05	469178.907	508.868		;Shatter pot. Tag bolt in rock on N side of shakehole above entrance
+*fix	220	386017.727	469115.96	509.21		;Strangle Pot. Tag bolt in rock on large boulder perched above entrance
+*fix	219	385797.869	469404.93	499.878		;New Year Pot. Tag bolt in rock on surface ~5m NW of entrance
+*fix	218	385811.434	469353.015	501.685		;Rocky Pot. Tag bolt in rock on back wall of 2nd shakehole to SW of Rocky Pot 
+*fix	217	385184.063	469704.284	415.252		;Hammer Pot. Tag bolt in E wall of entrance climb, level with belay bar
+*fix	216	385612.074	470017.689	465.086		;Coronation Pot. Tag bolt in wall on N corner of entrance pitch
+*fix	215	385514.528	470179.444	458.765		;Gingling SSA. New tag
+*fix	214	385514.564	470179.528	458.757		;Gingling SS1. Old gingling tag
+*fix	213	384977.943	470176.731	422.095		;FOUL Pot. Tag bolt on jut on wall on NE vorner of entrance climb
+*fix	212	385049.369	470267.65	432.504		;Echo Pot. Tag bolt on wall on NE corner of entrance climb
+*fix	211	385185.234	470509.106	455.039		;New Pasture Cave. Tag bolt just inside cave entrance on wall inside cave on "true" left (E?)
+
+*data normal from to tape compass clino
+*flags surface
+215	214	0.1	005.5	0							;small leg to tie in new bolt location to old (back-up to new GPS data). Old tag was in crack and likely to disaappear so it has now been removed, the only visible tag is now the new one at SSA (215)
 
 
 
@@ -81,9 +123,52 @@
 ; 1.8m survey pole autocorrected in readings
 
 
+;The following RIM points are taken around the perimeter and at the bottom of the huge shakehole along the fault running from Dale Head to Brants Gill - a few hundred metres W of Churnmilk Hole shakehole
+*fix	RIM28	383267.805	471895.18	438.399		;Err (3D CQ) 	0.026
+*fix	RIM27	383267.686	471895.502	438.405		;Err (3D CQ) 	0.046
+*fix	RIM26	383267.725	471895.55	438.4		;Err (3D CQ) 	0.038
+*fix	RIM25	383270.341	471898.086	439.749		;Err (3D CQ) 	0.035
+*fix	RIM24	383271.515	471899.792	440.6		;Err (3D CQ) 	0.021
+*fix	RIM23	383286.274	471897.444	446.701		;Err (3D CQ) 	0.019
+*fix	RIM22	383288.829	471902.544	449.857		;Err (3D CQ) 	0.014
+*fix	RIM21	383289.995	471904.446	451.49		;Err (3D CQ) 	0.015
+*fix	RIM20	383292.808	471905.053	452.597		;Err (3D CQ) 	0.014
+*fix	RIM19	383293.595	471911.421	457.608		;Err (3D CQ) 	0.013
+*fix	RIM18	383293.621	471911.435	457.607		;Err (3D CQ) 	0.013
+*fix	RIM17	383304.738	471895.644	458.084		;Err (3D CQ) 	0.019
+*fix	RIM16	383300.842	471887.344	458.24		;Err (3D CQ) 	0.017
+*fix	RIM15	383298.049	471880.196	458.368		;Err (3D CQ) 	0.021
+*fix	RIM14	383285.202	471873.574	457.427		;Err (3D CQ) 	0.019
+*fix	RIM13	383276.506	471866.333	457.353		;Err (3D CQ) 	0.017
+*fix	RIM12	383265.725	471871.437	456.493		;Err (3D CQ) 	0.042
+*fix	RIM11	383253.145	471874.438	455.475		;Err (3D CQ) 	0.02
+*fix	RIM10	383246.087	471882.387	455.333		;Err (3D CQ) 	0.02
+*fix	RIM9	383240.833	471908.55	456.662		;Err (3D CQ) 	0.018
+*fix	RIM8	383247.082	471917.738	457.321		;Err (3D CQ) 	0.049
+*fix	RIM7	383260.594	471923.934	457.716		;Err (3D CQ) 	0.018
+*fix	RIM6	383266.672	471923.485	457.939		;Err (3D CQ) 	0.017
+*fix	RIM5	383270.73	471923.513	457.792		;Err (3D CQ) 	0.017
+*fix	RIM4	383276.007	471921.132	457.878		;Err (3D CQ) 	0.014
+*fix	RIM3	383280.457	471919.077	457.815		;Err (3D CQ) 	0.016
+*fix	RIM2	383284.264	471918.827	457.759		;Err (3D CQ) 	0.018
+*fix	RIM1	383289.191	471915.977	457.719		;Err (3D CQ) 	0.017
 
 
+*fix	225	384037.973	471802.538	431.463		;Err (3D CQ) 	0.01	;Brants Gill Head. Point not tagged (on True L bank.) Surface survey to tag bolt - see below
+*fix	223	381256.742	472960.795	261.319		;Err (3D CQ) 	0.022	;Dale Head GPS fix. Could not get GPS fix at cave entrance so point is in middle of bog, chain surveyed with stakes and cave survey instruments to actual entrance, see below
 
+*data normal from to tape compass clino backcompass backclino
+*flags surface
 
+;----Brants Gill Head surface survey-------------------------
+BG1		223		11.7	222		2.5		041		-2				;Point BG1 is Brants Gill Head - Tagged with thru-bolt on true right bank, on wall on prominent point ~5m down from cave entrance +1.5m above stream.
 
+;----Dale Head Pot surface survey-------------------------
+225		SS1		18.53	128		-8		308.5	8.5				;225, GPS in bog, never to be re-found
+SS1		SS2		21.79	118		-5		298		6				;SS1 temporary survey stake
+SS2		SS3		16.54	117		-7.5	298		8				;SS2 temporary survey stake
+SS3		DH1		7.77	004		-37		183		36.5			;DH1 is 1st P-anchor into Dale Head Pot (in W side of shakehole, below lip)
+
+*entrance DH1
+*entrance BG1
 *end	ffgps

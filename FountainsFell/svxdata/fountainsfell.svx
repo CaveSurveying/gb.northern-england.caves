@@ -9,7 +9,7 @@
 *include GinglingHole/Gingling
 *include ElectionHole/Election
 
-*equate Gingling.Gingling1.tag	ffgps.0002
+*equate Gingling.Gingling1.tag	ffgps.214
 *equate Election.Election1.S1	ffgps.0004
 
 
