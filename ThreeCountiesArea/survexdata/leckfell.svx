@@ -3,7 +3,7 @@
 *cs out OSGB:SD
 *cs OSGB:SD
 
-*export witchesII.witchesII-7.x	;added 22/03/11RGB
+;*export witchesII.witchesII-7.x	;added 22/03/11RGB
 
 ;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
@@ -148,8 +148,8 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
 
 *include PerilousPot/PerilousPot 
-*equate PerilousPot.4.0 3cgps.3c15  	;<<<< This connects PerilousPot surface survey to NottsPot GPS Tag >>>>
-*equate Shep_Pot.getdownshep1.getdownshep1_6.20 PerilousPot.3.9 	;<<<<Linking GetDownShep to Perilous surface survey >>>>
+*equate PerilousPot.PerilousPot1.4.0 3cgps.3c15  	;<<<< This connects PerilousPot surface survey to NottsPot GPS Tag >>>>
+*equate Shep_Pot.getdownshep1.getdownshep1_6.20 PerilousPot.PerilousPot1.3.9 	;<<<<Linking GetDownShep to Perilous surface survey >>>>
 
 *end leckfell
 
