@@ -4,6 +4,7 @@
 ;Title: Get Down Shep Pot
 
 *export getdownshep1.getdownshep1_6.20
+*entrance getdownshep1.getdownshep1_6.20
 
 *include GetDownShep1
 *include GetDownShep2
