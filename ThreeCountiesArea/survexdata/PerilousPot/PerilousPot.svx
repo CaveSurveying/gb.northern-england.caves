@@ -1,7 +1,6 @@
 *BEGIN PerilousPot
 
-*EXPORT PerilousPot1.4.0
-*EXPORT PerilousPot1.3.9
+*EXPORT	PerilousPot1.1.0
 
 *INCLUDE PerilousPot1
 *INCLUDE PerilousPot2
