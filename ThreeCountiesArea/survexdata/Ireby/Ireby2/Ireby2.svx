@@ -23,7 +23,7 @@
 *include frink2			;upper Frink Chamber and pitch and climb
 *include FarFrink		;Extensions North from Frink Chamber
 *include LovleyAndSpecial	;Dig at the bottom of escalator rift/end of Duke Street2
-
+*include Cerro_Blanco		;To the end of Cerro blanco from stn:29 
 
 ;Equate Ireby2 Files
 
@@ -48,5 +48,6 @@
 *equate frink1.21 frink2.21x
 *equate FarFrink.1.0 frink1.8
 *equate LovleyAndSpecial.1.0 jupiter2irebyone.32
+*equate	Cerro_Blanco.1.7 dukest2tidyup.29
  
 *end Ireby2
