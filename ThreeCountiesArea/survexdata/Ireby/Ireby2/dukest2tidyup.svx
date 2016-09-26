@@ -4,7 +4,7 @@
 
 *begin dukest2tidyup
 
-*export 1 34 11 19 22 42 30 31
+*export 1 34 11 19 22 29 42 30 31
 
 *title "Jupiter to Ireby I"
 *date 2008.07.13
