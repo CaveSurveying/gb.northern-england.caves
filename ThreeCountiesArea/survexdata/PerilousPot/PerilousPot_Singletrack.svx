@@ -1,0 +1,73 @@
+*BEGIN PerilousPot_Singletrack
+*EXPORT 1.0
+
+*CALIBRATE declination +1.87	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.195911°N 2.505374°W   2016.09.25
+
+*BEGIN 1
+;di pda si distox2
+
+*DATE 2016.09.25
+*EXPORT 0
+
+*FLAGS SPLAY
+0	0a	 0.44	 79.79	 -6.05		
+0	0b	 3.39	116.77	 73.24
+0	0c	 1.06	336.92	-83.75
+0	0d	 2.09	114.97	 24.04
+0	0e	 2.08	117.26	 23.78
+0	0f	 2.08	117.11	 23.56
+*FLAGS NOT SPLAY
+0	1	 2.09	114.87	 24.00
+*FLAGS SPLAY
+1	1a	 0.45	285.00	 -5.15
+1	1b	 0.52	265.96	-74.97
+1	1c	 3.12	 94.53	 82.00
+1	1d	 0.57	316.01	  1.42
+1	1e	 1.18	155.05	  5.26
+*FLAGS NOT SPLAY
+1	2	 3.36	135.89	 16.18
+*FLAGS SPLAY
+2	2a	 0.27	  3.89	  0.86
+2	2b	 0.85	 83.13	-85.28
+2	2c	 3.04	307.94	 88.44
+2	2d	 2.91	295.88	 86.36
+*FLAGS NOT SPLAY
+2	3	 1.49	 88.12	 28.76
+*FLAGS SPLAY
+3	3a	 0.57	226.21	  7.19
+3	3b	 0.91	231.15	-85.44
+3	3c	 2.54	218.25	 78.71
+*FLAGS NOT SPLAY
+3	4	 3.42	193.51	 44.87
+*FLAGS SPLAY
+4	4a	 0.53	 32.07	  9.09	;1.4 sticky out lump
+4	4b	 3.50	 30.38	-79.66
+4	4c	 0.96	328.36	-72.76
+4	4d	 3.88	 13.21	 81.83
+*FLAGS NOT SPLAY
+4	5	 0.99	 68.27	 12.45
+*FLAGS SPLAY
+5	5a	 0.72	197.06	  4.40
+5	5b	 4.23	196.84	-87.42
+5	5c	 2.43	207.18	 78.98
+5	5d	 2.68	144.17	 -5.41
+*FLAGS NOT SPLAY
+5	6	 1.31	232.79	 50.55
+*FLAGS SPLAY
+6	6a	 0.46	  2.02	 -7.10
+6	6b	 0.68	265.29	-71.25
+6	6c	 1.17	311.43	 85.90
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.25	 0.00	 3.25	 1.05	;8mm Drill hole
+1	 0.11	 0.58	 3.09	 0.50
+2	 0.26	 0.00	 3.04	 0.85
+3	 0.00	 0.57	 2.49	 0.90
+4	 0.52	 0.00	 3.84	 3.44
+5	 0.30	 0.00	 2.38	 4.22
+6	 0.00	 0.35	 1.17	 0.65	;Tippex triangle on RH wall
+*END 1
+
+*END PerilousPot_Singletrack
