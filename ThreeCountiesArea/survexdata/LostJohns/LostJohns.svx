@@ -103,8 +103,15 @@
 *include ljmainstreamway2
 *equate ljmainstreamway2.0 ljmainstreamway1.30
 *equate ljmainstreamway2.15 Lj07.046
+
 *include mudinlet
+*include mudinlet2
 *equate mudinlet.30x ljmainstreamway1.30
+; *equate mudinlet.9 lj12.007		; replaces original connection of "equate	Lj09.016	Lj12.000 ;tag Mud Inlet"
+; *equate mudinlet2.7 lj11.018		; this a good connection point as just before climb out of low inlet into initial chamber with triple stal, not much alternative for where to place station
+; *equate mudinlet2.8 lj11.017		; TEMP whilst work out how lj11 relates to mudlinlet2 survey
+*equate mudinlet2.13 lj11.014		; this probably best connection point as then can remove all lj11 up to this point and have the surveys all diverge from here
+*equate mudinlet.16 mudinlet2.16x
 
 ; old boxhead surveys
 ; *include box   ; first legs commented out 
@@ -170,7 +177,7 @@
 *include	Lj08    ; identical to RD's Lj08
 
 *equate	Lj09.001	Lj07.046
-*equate	Lj09.016	Lj12.000 ;tag Mud Inlet
+; equate	Lj09.016	Lj12.000 ;tag Mud Inlet [remove and add to new mud inlet survey instead]
 *include	Lj09    ; same as RD's Lj09
 
 *equate	Lj10.000	Lj03.026

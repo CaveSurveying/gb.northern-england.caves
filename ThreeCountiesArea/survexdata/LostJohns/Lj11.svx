@@ -1,12 +1,12 @@
 *begin	Lj11
-*export 025 011
+*export 011 014 017 018 025
 
 ;Cave		Mud Inlet - Lost Johns
-;Surveyors	Explored by Geoff Yeadon, Mick Numwick, Pete O'Neill, Tim Allen and others
+;Surveyors	Explored by Geoff Yeadon, Mick Nunwick, Pete O'Neill, Tim Allen and others
 ;Date		21/12/1997
 ;Instruments	????
 
-*calibrate compass	+5.00	;guesswork??????
+;*calibrate compass	+5.00	;guesswork??????
 ;*calibrate clino	
 
 001	002	06.40	322.0	-07.0

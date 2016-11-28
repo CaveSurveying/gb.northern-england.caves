@@ -2,7 +2,7 @@
 *export 001
 
 ;Cave		Mud Inlet - Lost Johns
-;Surveyors	Geoff Yeadon/Mick Numwick/Pete O'Neill/Tim Allen and others
+;Surveyors	Geoff Yeadon/Mick Nunwick/Pete O'Neill/Tim Allen and others
 ;Date		21/12/97
 ;Instruments	????
 

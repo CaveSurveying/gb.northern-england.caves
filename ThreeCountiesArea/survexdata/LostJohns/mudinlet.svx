@@ -1,6 +1,6 @@
 *begin mudinlet
 
-*export 30x 
+*export 9 16 30x 
 
 *title "Lost Johns, up Mud Inlet from old numbered station 30x in main streamway"
 
