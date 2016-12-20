@@ -1,6 +1,8 @@
 *begin all
-*cs out OSGB:SD
+
 *cs OSGB:SD
+*cs out utm30N
+
 
 ; MMMMC data - Notts 1-4, Ireby, Lost Johns, Large, Rift etc
 *include leckfell

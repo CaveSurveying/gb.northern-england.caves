@@ -1,0 +1,51 @@
+*BEGIN PerilousPot_to_Sump
+*EXPORT 1.0
+
+*CALIBRATE declination +1.86	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.195911°N 2.505374°W   2016.10.23
+
+*BEGIN 1
+;di pda si distox2
+
+*DATE 2016.10.09
+*EXPORT 0
+
+*FLAGS SPLAY
+0	0a	 0.75	353.28	 12.60
+0	0b	 3.65	 98.38	 80.11
+0	0c	 1.68	 99.56	 12.16
+0	0d	 0.53	 60.16	-81.11
+*FLAGS NOT SPLAY
+0	1	 3.49	 65.94	-32.40
+*FLAGS SPLAY
+1	1a	 1.01	236.68	 77.09
+1	1b	 0.24	123.64	-82.43
+1	1c	 0.44	192.05	  5.43
+1	1d	 1.19	300.59	 34.56
+*FLAGS NOT SPLAY
+1	2	 1.91	137.79	-11.81
+*FLAGS SPLAY
+2	2a	 1.08	 85.13	 82.50
+2	2b	 0.20	338.10	-71.43
+2	2c	 0.47	 22.11	 10.17
+2	2d	 0.41	 86.62	  0.44
+2	2e	 1.46	 62.74	  0.58
+*FLAGS NOT SPLAY
+2	3	 1.43	 60.58	 -2.01
+*FLAGS SPLAY
+3	3a	 0.33	178.40	 54.15
+3	3b	 0.25	139.25	-71.16
+3	3c	 0.40	199.47	  2.86
+3	3d	 1.88	131.51	 -2.77
+3	3e	 2.26	134.42	 -3.10
+*FLAGS NOT SPLAY
+3	4	 2.77	133.69	 -3.01
+
+*data passage station left right up down
+0	 0.70	 0.91	 3.60	 0.52
+1	 0.31	 0.44	 0.98	 0.24
+2	 0.45	 0.00	 1.07	 0.19
+3	 0.00	 1.37	 0.26	 0.23
+*END 1
+
+*END PerilousPot_to_Sump
