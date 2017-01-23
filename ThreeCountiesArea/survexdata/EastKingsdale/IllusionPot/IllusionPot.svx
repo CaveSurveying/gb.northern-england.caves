@@ -23,4 +23,7 @@
 *include illusion_2
 *equate illusion_1.42 illusion_2.42x
 
+*include illusion_3
+*equate illusion_1.41 illusion_3.41x
+
 *end IllusionPot

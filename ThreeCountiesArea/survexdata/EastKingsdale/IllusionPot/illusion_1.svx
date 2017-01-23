@@ -1,6 +1,6 @@
 *begin illusion_1
 
-*export gps lid 42
+*export gps lid 41 42
 
 *title "East Kingsdale - Illusion Pot - from entrance through to hanger at far end of duck"
 *date 2013.07.07

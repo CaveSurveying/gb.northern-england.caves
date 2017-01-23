@@ -1,0 +1,45 @@
+*begin illusion_3
+
+*export 41x
+
+*title "East Kingsdale - Illusion Pot - from bolt at far side of sump into Expressway"
+*date 2017.01.22
+*team Instruments Becka Lawson on tandem
+*team Instruments Hannah Walker on Distox2 #1
+*team Notes Ian Walker
+*instrument Becka's Distox2 #1 for tape and clino; Becka's tandem for compass (also Distox for compass after semicolon but not calibrated so ignore)
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape compass	clino	remarks (compass from uncalibrated Distox)
+
+1	41x	1.96	223	-25	; 	227 so +4
+1	2	4.61	338	+12	;	331 so -7
+2	3	6.37	048	+07	;	052 so +4
+3	4	17.91	335	+11	;	326 so -9
+4	5	12.17	109	+02	;	107 so -2
+4	6	11.39	312	-27	;	327 so +15
+6	7	22.63	118	+86	;	used Distox 118 for compass as nearly vertical
+6	8	8.92	243	+06	;	249 so +6
+8	9	11.82	329	-07	;	330 so +1
+9	10	12.03	095	-13	;	095 so 0
+10	11	8.29	317	-16	;	314 so -3
+9	12	12.20	321	+23	;	327	so +6; tape only given to nearest 10 cm, checked Distox download and changed to 12.20 from 12.10
+
+*data passage station left right up down ignoreall 
+
+41x	0	1	1.5	0.7	bolt at end of rope through duck on L wall
+1	1.3	0	1	1.3	R wall
+2	0	1.5	5.2	1.6	L wall
+3	2.2	0	4.1	1.6	R wall
+4	0	3.9	1.8	4.3	L wall at corner
+5	0.8	3	2.5	3	Numbered on pebble
+6	7	3.9	23	0	Missile Silo (drippy aven) above here
+7	-	-	-	-	Unmarked shot up aven to roof where rope anchored for Missile Silo
+8	0.8	12	2.6	5	Flake on L wall
+9	6	5.2	8.6	0	Mud hall? Can't read description, also R distance from notes looked like 8 or 0 but Distox download suggests 5, check with Ian
+10	11.5	2.6	9.6	1	Rock spike, L and R may be wrong, L looked like 11.9 on notes but Distox suggests 11.5 with L as 2.6 correct, check with Ian
+11	0.6	1.1	0.4	0.5	Numbered on roof at start of flat-out wet crawl, needs surveying
+12	4	0	12.8	1.8	Numbered on R wall by blue bucket at top of slope
+
+*end illusion_3
