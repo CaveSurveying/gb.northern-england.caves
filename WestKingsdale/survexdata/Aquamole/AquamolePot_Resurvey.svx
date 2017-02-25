@@ -9,10 +9,10 @@
 
 
 *BEGIN 1
+*EXPORT 0 5 40
+
 *TEAM Di Arthurs pda & Simon Cornhill distoX
 ;calibrated error <0.5
-
-*EXPORT 0 5 40
 
 *CALIBRATE declination +1.92	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.200266°N 2.462872°W   2016.04.16
@@ -393,6 +393,8 @@
 
 *BEGIN 2
 
+*EXPORT 0								
+	
 *TEAM Di Arthurs pda, Simon Cornhill distoX, James carlisle LP
 ;calibrated error <0.5
 *DATE 2016.09.03
@@ -400,8 +402,6 @@
 *CALIBRATE declination +1.86	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.200266°N 2.462872°W   2016.09.03
 
-*EXPORT 0								
-	
 *FLAGS SPLAY
 0	0a	 0.22	308.01	  1.78
 0	0b	 0.44	116.58	  8.11
