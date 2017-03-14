@@ -1,0 +1,74 @@
+encoding  utf-8
+
+input manhole/ManHole.th
+input goyden/Goyden.th
+input frogPot/FrogPot.th
+input aquamole/Aquamole.th
+input guscott/Guscott.th
+input churchPot/ChurchPot.th
+input gargettWay/GargettWay.th
+input goyden2/Goyden2.th
+input labyrinth/Labyrinth.th
+input carterPassage/CarterPassage.th
+input thropePot/ThropePot.th
+input newGoyden/NewGoyden.th
+input planHard/PlanHard.th
+input surface1/Surface1.th
+#input goy3/Goy3.th
+
+join GoydenSP1 LabyrinthSP1
+join churchPotSP4 GoydenSP1
+join FrogPotSP3 AquamoleSP1
+join LabyrinthSP4 CarterPassageSP1
+join NewGoydenSP4 PlanHardSP1
+join ThropePotSP1 NewGoydenSP5
+
+
+#join Goyden2SP1 goy3SP1
+
+###############################################
+###############################################
+map nidderdalePlan -title "Nidderdale Plan"
+  
+  surface1Plan
+  break
+  gargettwayPlan
+  churchPotPlan
+  break
+  goydenPlan
+  break  
+  manholePlan
+  PlanHardPlan
+  NewGoydenPlan
+  break
+  frogpotPlan
+  aquamolePlan
+  guscottPlan
+  goyden2Plan
+  labyrinthPlan
+  break
+  CarterPassagePlan 
+  ThropePotPlan 
+  
+  
+  #goy3Plan
+  
+endmap
+
+###############################################
+###############################################
+
+equate 1.12@Goyden 7.36@ManHole 
+equate 1.16@Goyden 1.21@ChurchPot
+equate 1.0@GargettWay 1.9@ChurchPot
+equate 1.16@Goyden2 1.16@GargettWay
+equate 1.19@Labyrinth 1.19@Goyden
+equate 1.0@CarterPassage 1.82@Labyrinth
+equate 1.19@FrogPot 1.19@Aquamole
+equate 5.47@NewGoyden 1.28@FrogPot
+equate 1.15@NewGoyden 1.0@PlanHard
+equate 1.53@Surface1 1.0@NewGoyden
+equate 1.34@ThropePot 1.50@Surface1
+equate 1.22@NewGoyden 1.0@ThropePot
+#equate 1.28@Goyden2 1.0@goy3
+

@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 637.78m (surface 0.00m, duplicated 0.00m)\nvertical range: 29.54m (from 1.0@NewGoyden at 0.00m to 1.15@NewGoyden at -29.54m)\nnorth-south range: 148.65m (from 5.45@NewGoyden at 138.85m to 1.24@NewGoyden at -9.80m)\neast-west range: 140.03m (from 1.15@NewGoyden at 33.31m to 1.45@NewGoyden at -106.72m)\nnumber of shots: 1000\nnumber of stations: 1001"
+xth_cp_data_tree_insert 472 1 1 NewGoyden NewGoyden "" "" "length: 637.78m (surface 0.00m, duplicated 0.00m)\nvertical range: 29.54m (from 1.0@NewGoyden at 0.00m to 1.15@NewGoyden at -29.54m)\nnorth-south range: 148.65m (from 5.45@NewGoyden at 138.85m to 1.24@NewGoyden at -9.80m)\neast-west range: 140.03m (from 1.15@NewGoyden at 33.31m to 1.45@NewGoyden at -106.72m)\nnumber of shots: 1000\nnumber of stations: 1001"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 471X1 p1 1 NewGoydenPlan NewGoydenPlan "NewGoyden Plan" "NewGoyden Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 638 16
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1488107738
+

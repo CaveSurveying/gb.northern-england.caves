@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 72.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.61m (from 1.0@BlayshawGillPotNo1 at 0.00m to 1.20@BlayshawGillPotNo1 at -13.61m)\nnorth-south range: 22.07m (from 1.6@BlayshawGillPotNo1 at 7.22m to 1.15@BlayshawGillPotNo1 at -14.86m)\neast-west range: 38.65m (from 1.18@BlayshawGillPotNo1 at 38.65m to 1.0@BlayshawGillPotNo1 at 0.00m)\nnumber of shots: 194\nnumber of stations: 195"
+xth_cp_data_tree_insert 66 1 1 BlayshawGillPotNo1 BlayshawGillPotNo1 "" "" "length: 72.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.61m (from 1.0@BlayshawGillPotNo1 at 0.00m to 1.20@BlayshawGillPotNo1 at -13.61m)\nnorth-south range: 22.07m (from 1.6@BlayshawGillPotNo1 at 7.22m to 1.15@BlayshawGillPotNo1 at -14.86m)\neast-west range: 38.65m (from 1.18@BlayshawGillPotNo1 at 38.65m to 1.0@BlayshawGillPotNo1 at 0.00m)\nnumber of shots: 194\nnumber of stations: 195"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 65X1 p1 1 BlayshawGillPotNo1Plan BlayshawGillPotNo1Plan "BlayshawGillPotNo1 Plan" "BlayshawGillPotNo1 Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 72 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1463347674
+

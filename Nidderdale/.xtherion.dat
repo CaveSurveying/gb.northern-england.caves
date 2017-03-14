@@ -1,0 +1,42 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 4497.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 79.39m (from 1.0@ManHole at 238.86m to 1.61@PlanHard at 159.47m)\nnorth-south range: 1067.70m (from 9.8@ManHole at 76417.30m to 1.46@Surface1 at 75349.60m)\neast-west range: 304.70m (from 1.88@Labyrinth at 10263.70m to 1.0@ChurchPot at 9959.00m)\nnumber of shots: 5918\nnumber of stations: 5932"
+xth_cp_data_tree_insert 441 1 1 ManHole ManHole "" "" "length: 604.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 44.09m (from 1.0@ManHole at 238.86m to 7.36@ManHole at 194.77m)\nnorth-south range: 349.88m (from 9.8@ManHole at 76417.30m to 7.36@ManHole at 76067.42m)\neast-west range: 49.78m (from 9.8@ManHole at 10026.66m to 1.13@ManHole at 9976.89m)\nnumber of shots: 661\nnumber of stations: 662"
+xth_cp_data_tree_insert 623 1 1 Goyden Goyden "" "" "length: 271.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.50m (from 1.0@Goyden at 219.00m to 1.20@Goyden at 185.50m)\nnorth-south range: 156.35m (from 1.0@Goyden at 76127.00m to 1.20@Goyden at 75970.65m)\neast-west range: 59.98m (from 1.19@Goyden at 10032.74m to 8.5@Goyden at 9972.76m)\nnumber of shots: 225\nnumber of stations: 226"
+xth_cp_data_tree_insert 765 1 1 FrogPot FrogPot "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.39m (from 6.0@FrogPot at 200.00m to 1.28@FrogPot at 164.61m)\nnorth-south range: 80.64m (from 1.0@FrogPot at 75631.12m to 1.28@FrogPot at 75550.48m)\neast-west range: 12.03m (from 1.0@FrogPot at 10141.05m to 1.14@FrogPot at 10129.03m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_insert 913 1 1 Aquamole Aquamole "" "" "length: 354.55m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@Aquamole at 200.19m to 1.28@Aquamole at 164.43m)\nnorth-south range: 130.77m (from 1.48@Aquamole at 75681.46m to 1.28@Aquamole at 75550.68m)\neast-west range: 87.63m (from 1.0@Aquamole at 10141.06m to 1.64@Aquamole at 10053.44m)\nnumber of shots: 412\nnumber of stations: 413"
+xth_cp_data_tree_insert 1039 1 1 Guscott Guscott "" "" "length: 180.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.52m (from 1.47@Guscott at 210.00m to 3.11@Guscott at 204.48m)\nnorth-south range: 90.18m (from 1.1@Guscott at 75840.90m to 3.12@Guscott at 75750.72m)\neast-west range: 55.44m (from 1.0@Guscott at 10145.44m to 1.47@Guscott at 10090.00m)\nnumber of shots: 112\nnumber of stations: 113"
+xth_cp_data_tree_insert 1136 1 1 ChurchPot ChurchPot "" "" "length: 159.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.04m (from 1.0@ChurchPot at 217.00m to 1.32@ChurchPot at 184.96m)\nnorth-south range: 57.86m (from 1.2@ChurchPot at 76033.19m to 1.32@ChurchPot at 75975.33m)\neast-west range: 51.65m (from 1.32@ChurchPot at 10010.65m to 1.0@ChurchPot at 9959.00m)\nnumber of shots: 244\nnumber of stations: 245"
+xth_cp_data_tree_insert 1177 1 1 GargettWay GargettWay "" "" "length: 247.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.23m (from 1.0@GargettWay at 195.05m to 1.28@GargettWay at 179.83m)\nnorth-south range: 135.94m (from 1.0@GargettWay at 76015.65m to 1.28@GargettWay at 75879.71m)\neast-west range: 37.84m (from 1.18@GargettWay at 9998.17m to 1.7@GargettWay at 9960.33m)\nnumber of shots: 382\nnumber of stations: 383"
+xth_cp_data_tree_insert 1247 1 1 Goyden2 Goyden2 "" "" "length: 247.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.23m (from 1.0@Goyden2 at 195.05m to 1.28@Goyden2 at 179.83m)\nnorth-south range: 135.94m (from 1.0@Goyden2 at 76015.65m to 1.28@Goyden2 at 75879.71m)\neast-west range: 37.84m (from 1.18@Goyden2 at 9998.17m to 1.7@Goyden2 at 9960.33m)\nnumber of shots: 382\nnumber of stations: 383"
+xth_cp_data_tree_insert 1543 1 1 Labyrinth Labyrinth "" "" "length: 380.31m (surface 0.00m, duplicated 0.00m)\nvertical range: 26.75m (from 1.66@Labyrinth at 212.61m to 1.19@Labyrinth at 185.86m)\nnorth-south range: 102.11m (from 1.43@Labyrinth at 76041.33m to 1.86@Labyrinth at 75939.23m)\neast-west range: 230.97m (from 1.88@Labyrinth at 10263.70m to 1.19@Labyrinth at 10032.74m)\nnumber of shots: 861\nnumber of stations: 862"
+xth_cp_data_tree_insert 1569 1 1 CarterPassage CarterPassage "" "" "length: 27.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.23m (from 1.0@CarterPassage at 192.18m to 1.10@CarterPassage at 189.96m)\nnorth-south range: 20.47m (from 1.0@CarterPassage at 75946.02m to 1.10@CarterPassage at 75925.55m)\neast-west range: 6.87m (from 1.0@CarterPassage at 10238.50m to 1.6@CarterPassage at 10231.63m)\nnumber of shots: 74\nnumber of stations: 75"
+xth_cp_data_tree_insert 1692 1 1 ThropePot ThropePot "" "" "length: 120.72m (surface 0.00m, duplicated 0.00m)\nvertical range: 26.57m (from 1.34@ThropePot at 193.78m to 1.1@ThropePot at 167.21m)\nnorth-south range: 21.84m (from 1.0@ThropePot at 75409.42m to 1.29@ThropePot at 75387.58m)\neast-west range: 47.20m (from 1.30@ThropePot at 10164.50m to 1.20@ThropePot at 10117.30m)\nnumber of shots: 313\nnumber of stations: 314"
+xth_cp_data_tree_insert 2158 1 1 NewGoyden NewGoyden "" "" "length: 637.78m (surface 0.00m, duplicated 0.00m)\nvertical range: 30.11m (from 1.0@NewGoyden at 192.39m to 1.15@NewGoyden at 162.27m)\nnorth-south range: 149.20m (from 5.45@NewGoyden at 75553.05m to 1.24@NewGoyden at 75403.85m)\neast-west range: 139.49m (from 1.15@NewGoyden at 10177.61m to 1.45@NewGoyden at 10038.13m)\nnumber of shots: 1000\nnumber of stations: 1001"
+xth_cp_data_tree_insert 2393 1 1 PlanHard PlanHard "" "" "length: 475.90m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.39m (from 1.80@PlanHard at 182.86m to 1.61@PlanHard at 159.47m)\nnorth-south range: 115.24m (from 1.19@PlanHard at 75552.21m to 1.58@PlanHard at 75436.97m)\neast-west range: 52.00m (from 1.47@PlanHard at 10214.98m to 1.80@PlanHard at 10162.98m)\nnumber of shots: 827\nnumber of stations: 828"
+xth_cp_data_tree_insert 2486 1 1 Surface1 Surface1 "" "" "length: 657.22m (surface 0.00m, duplicated 0.00m)\nvertical range: 29.06m (from 1.1@Surface1 at 220.80m to 1.48@Surface1 at 191.74m)\nnorth-south range: 449.13m (from 1.1@Surface1 at 75798.73m to 1.46@Surface1 at 75349.60m)\neast-west range: 158.13m (from 1.49@Surface1 at 10156.29m to 1.1@Surface1 at 9998.16m)\nnumber of shots: 178\nnumber of stations: 179"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 1135X1 p2 1 ChurchPotME ChurchPotME "" ""
+xth_cp_map_tree_insert map 0 2496X1 p1 1 nidderdalePlan nidderdalePlan "Nidderdale Plan" "Nidderdale Plan"
+xth_cp_map_tree_insert map 1 2485X1 2496X1 2 surface1Plan surface1Plan "surface1 Plan" "surface1 Plan"
+xth_cp_map_tree_insert map 1 1176X1 2496X1 2 gargettwayPlan gargettwayPlan "Gargett Way Plan" "Gargett Way Plan"
+xth_cp_map_tree_insert map 1 1134X1 2496X1 2 churchPotPlan churchPotPlan "ChurchPot" "ChurchPot"
+xth_cp_map_tree_insert map 1 627X1 2496X1 2 goydenPlan goydenPlan "Goyden Plan" "Goyden Plan"
+xth_cp_map_tree_insert map 1 445X1 2496X1 2 manholePlan manholePlan "Man Hole Plan" "Man Hole Plan"
+xth_cp_map_tree_insert map 1 2392X1 2496X1 2 PlanHardPlan PlanHardPlan "PlanHard Plan" "PlanHard Plan"
+xth_cp_map_tree_insert map 1 2157X1 2496X1 2 NewGoydenPlan NewGoydenPlan "NewGoyden Plan" "NewGoyden Plan"
+xth_cp_map_tree_insert map 1 764X1 2496X1 2 frogpotPlan frogpotPlan "Frog Pot Plan" "Frog Pot Plan"
+xth_cp_map_tree_insert map 1 912X1 2496X1 2 aquamolePlan aquamolePlan "Aquamole Plan" "Aquamole Plan"
+xth_cp_map_tree_insert map 1 1038X1 2496X1 2 guscottPlan guscottPlan "Guscott Plan" "Guscott Plan"
+xth_cp_map_tree_insert map 1 1246X1 2496X1 2 goyden2Plan goyden2Plan "Goyden2 Plan" "Goyden2 Plan"
+xth_cp_map_tree_insert map 1 1542X1 2496X1 2 labyrinthPlan labyrinthPlan "Labyrinth Plan" "Labyrinth Plan"
+xth_cp_map_tree_insert map 1 1568X1 2496X1 2 CarterPassagePlan CarterPassagePlan "CarterPassage Plan" "CarterPassage Plan"
+xth_cp_map_tree_insert map 1 1691X1 2496X1 2 ThropePotPlan ThropePotPlan "ThropePot Plan" "ThropePot Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 4497 84
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1489165258
+

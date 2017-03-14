@@ -1,0 +1,32 @@
+encoding  utf-8
+source Surface1.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o ../Output/SurfaceOutput/Surface1.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Surface1Ee.pdf
+
+#export model -fmt survex -o Surface1th.3d
+#Survex file showing centre line only
+
+#export model -o Surface1.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Surface1_Walls.3d
+#Survex file showing walls only
+
+#export model -o ../Output/SurfaceOutput/Surface1.kml
+export map -o ../Output/SurfaceOutput/Surface1.kml
+
+
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout

@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@FrogPot at 215.00m to 1.28@FrogPot at 179.24m)\nnorth-south range: 80.27m (from 1.0@FrogPot at 75631.14m to 1.28@FrogPot at 75550.87m)\neast-west range: 12.23m (from 1.0@FrogPot at 10141.03m to 1.14@FrogPot at 10128.80m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_insert 147 1 1 FrogPot FrogPot "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@FrogPot at 215.00m to 1.28@FrogPot at 179.24m)\nnorth-south range: 80.27m (from 1.0@FrogPot at 75631.14m to 1.28@FrogPot at 75550.87m)\neast-west range: 12.23m (from 1.0@FrogPot at 10141.03m to 1.14@FrogPot at 10128.80m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 146X1 p1 1 frogpotPlan frogpotPlan "Frog Pot Plan" "Frog Pot Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 132 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1469383924
+
