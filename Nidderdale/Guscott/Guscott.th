@@ -18,7 +18,7 @@ survey Guscott
 
 centreline
 cs OSGB:SE
-declination -1.48 degrees
+#declination -1.48 degrees
 
 copyright 2015 "GNU GPL"
 
@@ -33,9 +33,9 @@ copyright 2015 "GNU GPL"
   #team "Chris Fox" instruments
   #team "David Stubley" dog
   
-  station 1.47 "main ent." entrance
+  #station 1.47 "main ent." entrance
   
-  fix 1.47 10090 75780 210
+  #fix 1.47 10090 75780 210
   instrument  instruments "DistoX2114"
   
 

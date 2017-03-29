@@ -6,7 +6,7 @@ source Surface1.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../Output/SurfaceOutput/Surface1.pdf
+export map -proj plan -layout local -o ../Output/Surface1Output/Surface1.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o Surface1Ee.pdf

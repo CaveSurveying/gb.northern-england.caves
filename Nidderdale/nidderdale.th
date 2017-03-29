@@ -14,6 +14,7 @@ input thropePot/ThropePot.th
 input newGoyden/NewGoyden.th
 input planHard/PlanHard.th
 input surface1/Surface1.th
+input surface2/Surface2.th
 #input goy3/Goy3.th
 
 join GoydenSP1 LabyrinthSP1
@@ -24,12 +25,14 @@ join NewGoydenSP4 PlanHardSP1
 join ThropePotSP1 NewGoydenSP5
 
 
+
 #join Goyden2SP1 goy3SP1
 
 ###############################################
 ###############################################
 map nidderdalePlan -title "Nidderdale Plan"
-  
+
+  Surface2Plan
   surface1Plan
   break
   gargettwayPlan
@@ -71,4 +74,8 @@ equate 1.53@Surface1 1.0@NewGoyden
 equate 1.34@ThropePot 1.50@Surface1
 equate 1.22@NewGoyden 1.0@ThropePot
 #equate 1.28@Goyden2 1.0@goy3
+equate 1.44@Surface2 1.0@NewGoyden
+equate 1.0@Surface2 1.0@Surface1
+equate 1.13@Surface2 1.47@Guscott
+equate 1.26@Surface2 6.0@FrogPot
 

@@ -19,7 +19,7 @@ survey Surface1
 
 centreline
 cs OSGB:SE
-declination -.25 degrees
+declination 1.6 degrees
 
 copyright 2017 "GNU GPL"
 

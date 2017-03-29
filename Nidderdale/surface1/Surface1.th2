@@ -156,7 +156,7 @@ line wall -subtype presumed
   6012.0 6384.0
 endline
 
-point 2651.96850394 40488.976378 station -name 1.0
+point 2652.0 40474.0 station -name 1.0
 
 endscrap
 
