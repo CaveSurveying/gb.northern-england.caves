@@ -1,0 +1,42 @@
+encoding  utf-8
+source Surface2.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#select Surface2Plan
+
+
+export map -proj plan -layout local -o ../Output/Surface2Output/Surface2.pdf
+#export map -o ../Output/Surface2Output/Surface2.kml
+#export model -fmt survex -o ../Output/Surface2Output/Surface2.3d
+#export model  -o ../Output/Surface2Output/Surface2.lox
+#export map -proj plan -o ../Output/Surface2Output/Surface2_Walls.3d
+#Survex file showing walls only
+
+####################layout###################
+#############################################
+
+layout local
+#base scale
+scale 1 500
+symbol-set BCRA
+debug station-names
+#debug on
+#colour map-fg altitude
+#colour map-fg scrap
+#symbol-colour area water [25 50 100]
+
+transparency on
+grid top
+map-header 50 90 nw
+#symbol-hide group cave-centreline
+#endlayout
+
+##code to put border around map##
+#--------------------------------
+code tex-map
+     \framethickness=0.5mm
+endlayout
