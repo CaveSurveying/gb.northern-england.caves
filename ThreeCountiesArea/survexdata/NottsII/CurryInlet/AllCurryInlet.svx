@@ -8,8 +8,13 @@
 *include CurryInlet_1  
 *include CurryInlet_2
 *include GardenofGanesh
+*include CurryInletSump
+*include BeyondCurryInlet
+
 
 *equate CurryInlet_1.10 CurryInlet_2.1 
 *equate CurryInlet_1.10 GardenofGanesh.1
+*equate	CurryInlet_2.9	CurryInletSump.1.0
+*equate CurryInletSump.1.8	BeyondCurryInlet.1.0
 
 *end AllCurryInlet

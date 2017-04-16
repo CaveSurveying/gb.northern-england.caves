@@ -152,7 +152,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0	;<<<< Connecting PerilousPot entrance to surface survey >>>>
 *equate NottsPot_to_ShepPot.3.0 3cgps.3c15  			;<<<< This connects ShepPot to PerilousPot surface survey to the NottsPot GPS Tag >>>>
 *equate NottsPot_to_ShepPot.2.9 Shep_Pot.getdownshep1.getdownshep1_6.20  	;<<<<Linking GetDownShep entrance to Perilous surface survey >>>>
- 
 
 
 *end leckfell
