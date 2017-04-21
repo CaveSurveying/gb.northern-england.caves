@@ -621,6 +621,8 @@ point 1483.3294148500001 7925.56359412 station -name 1.16
 
 point 936.0 10216.0 label -text [MAIN INLET DOWNSTREAM SUMP] -scale xl
 
+point 2260.0 8200.0 label -text nnnnn -align bottom-right
+
 point 1830.0 7876.0 label -orientation 2.0 -scale xl -text [MAIN INLET]
 
 line water-flow
@@ -2173,7 +2175,13 @@ line wall
   smooth off
 endline
 
-point 3152.0 7740.0 label -orientation 89.2 -scale xl -text [DRY WATH PASSAGE] -align top-right
+line label -text [test label]
+  3488.0 7836.0
+  3572.0 7764.0 3584.0 7616.0 3604.0 7552.0
+  3624.0 7488.0 3820.0 7444.0 3864.0 7456.0
+endline
+
+point 3152.0 7740.0 label -orientation 359.0 -scale xl -text [DRY WATH PASSAGE] -align top-right
 
 point 3096.0 6719.0 label -text [HANDLINE C2] -scale xl -align top-right
 

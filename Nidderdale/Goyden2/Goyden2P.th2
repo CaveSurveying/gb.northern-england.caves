@@ -1,11 +1,23 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 3680.7165354336003 12428.9180092829
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -132.0 3680.7165354336003 12428.9180092829
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {995.0392125999999 1 1.0} {11469.7521182 1.4} PocketTopo/Goyden2_p.xvi 0 {}
 
 
 
 scrap Goyden2SP1 -projection plan -station-names "" "@Goyden2" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -id G2SJ2
+  640.0 1432.0
+  647.0 1439.0 698.0 1514.0 698.0 1514.0
+  smooth off
+endline
+
+line wall -id G2SJ1
+  668.0 1634.0
+  658.0 1635.0 562.0 1590.0 562.0 1590.0
+  smooth off
+endline
 
 point 306.0 1542.0 label -scale xl -text [SUMP 2]
 
@@ -284,17 +296,23 @@ line wall
   680.0 2144.0 644.0 2190.0 652.0 2136.0
   660.0 2082.0 664.0 2026.0 668.0 2000.0
   672.0 1974.0 686.0 1902.0 684.0 1878.0
+  smooth off
 endline
 
 line ceiling-step
   684.0 1878.0
   682.0 1854.0 688.0 1786.0 688.0 1758.0
   688.0 1730.0 673.88 1660.17 668.0 1634.0
+  smooth off
+endline
+
+line ceiling-step
+  668.0 1634.0
+  662.12 1607.83 678.0 1544.0 698.0 1514.0
 endline
 
 line wall
-  668.0 1634.0
-  662.12 1607.83 678.0 1544.0 698.0 1514.0
+  698.0 1514.0
   718.0 1484.0 744.0 1386.0 756.0 1340.0
   768.0 1294.0 834.0 1118.0 852.0 1124.0
   870.0 1130.0 870.0 1312.0 862.0 1346.0

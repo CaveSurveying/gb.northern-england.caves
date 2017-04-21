@@ -23,7 +23,7 @@ export map -proj plan -layout local -o ../output/FrogPotOutput/FrogPot.pdf
 
 #export map -proj plan -layout local -o ../output/FrogPot.kml
 #export model -o FrogPot.kml
-export map -o ../output/FrogPotOutput/FrogPot.kml
+#export map -o ../output/FrogPotOutput/FrogPot.kml
 
 layout local
 scale 1 100

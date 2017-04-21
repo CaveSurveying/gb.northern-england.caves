@@ -2,7 +2,14 @@ encoding  utf-8
 
 
 input Surface1.th2
+
+####Surface1 Centreline Only####
+#input Surface1CL.th2
+
 #input Surface1Ee.th2
+
+
+
 
 map surface1Plan -title "surface1 Plan"
   Surface1SP1

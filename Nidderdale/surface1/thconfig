@@ -26,7 +26,17 @@ export map -o ../Output/SurfaceOutput/Surface1.kml
 
 
 layout local
-debug off
-map-header 0 0 ne
+#base scale
+scale 1 500
+symbol-set BCRA
+#debug station-names
+#debug on
+#colour map-fg altitude
+#colour map-fg scrap
+#symbol-colour area water [25 50 100]
+
+transparency on
+grid top
+map-header 50 90 nw
 #symbol-hide group cave-centreline
 endlayout
