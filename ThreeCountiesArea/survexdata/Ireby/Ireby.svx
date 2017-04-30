@@ -52,7 +52,7 @@
 *equate CrippleCreek.cripplecreekconnect.33 Ireby2.jupitertoescalator.33	;End of Cripple Creek beyond connection in Jupiter Cavern
 
 ; Ireby2 to dive line bolt in Main Streamway
-*equate Ireby2.jupiter2irebyone.50 DukeStreet.DukeStreet1.073	;Loop closure at diving line anchor Duke Street Ireby I
+*equate Ireby2.jupiter2irebyone.1.50 DukeStreet.DukeStreet1.073	;Loop closure at diving line anchor Duke Street Ireby I
 
 ; WellPitchInlets						;Cornflake\Aberfan\Adulterers then to NEInlet
 *equate allabovewellpitch.abovewellpitch2.4 Streamway.streamwayuptoduckresurvey.1
@@ -64,7 +64,7 @@
 
 ; DukeStreet
 ;*equate DukeStreet.DukeStreet1.059 Streamway.Streamway4.059	;Start of Duke Street
-*equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.25
+*equate DukeStreet.whirlpool.41 Ireby2.dukest2tocanal.2.25
 
 ; NEInlet (which connects up to Adulterers) to lower streamway
 *equate DukeStreet.ropepitch.49 northeastinlet.neinlet1.49x	;top of boulder slope beyond bottom of Rope pitch before crawl to east inlet

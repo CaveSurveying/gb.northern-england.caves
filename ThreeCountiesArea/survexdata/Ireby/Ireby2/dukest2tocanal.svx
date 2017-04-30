@@ -4,7 +4,8 @@
 
 *begin dukest2tocanal
 
-*export 43 22 25 26
+*export 1.43 1.22 2.25 2.26
+*Equate 1.12 2.12
 
 *title "Duke Street II along canal"
 *date 2009.02.01
@@ -13,6 +14,9 @@
 *instrument Compass and Clino - Becka's Pony; Tape - 30m yellow read from 0cm
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+*Begin 1
+*Export 12 22 43
 
 ;from	to	tape	compass	clino	remarks
 1   43  5.44    242 0
@@ -39,8 +43,6 @@
 22  21  3.15    096 +11
 23  22  2.17    044 -08
 23  24  4.00    268 +12 ;written as 24 to 23 in notes but needs reversing
-12  25  3.82    028 +53
-26  25  0.83    316 +03
 
 
 *data passage station left right up down
@@ -71,8 +73,24 @@
 22  0   1.2 1.4 1.8 ; lp l wall at junction
 23  0   0.5 1   0.8 ; lp l wall inside l passage (small dig)
 24  0.2 0.2 0.2 0.2 ; end of dig (end point not marked and distance guessed)
+
+*End 1
+
+
+*Begin 2
+*Export 12 25 26
+
+12  25  3.82    028 +53
+26  25  0.83    316 +03
+
+*data passage station left right up down
+12  0.9 0.1 2.5 1.5 ; lp r wall just before Whirlpool Passage enters
 25  1.5 0.5 0   3.5 ; pitch head bolt at end of Whirlpool passage  
 26  -   -   -   -   ; backup spit for pitch at end of Whirlpool passage
+
+*End 2
+
+
 
 *end dukest2tocanal
 

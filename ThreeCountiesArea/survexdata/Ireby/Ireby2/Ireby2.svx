@@ -3,8 +3,8 @@
 *begin Ireby2
 
 *export jupitertoescalator.33 
-*export jupiter2irebyone.50
-*export dukest2tocanal.25
+*export jupiter2irebyone.1.50
+*export dukest2tocanal.2.25
 
 ;Include Ireby2 Files
 
@@ -27,27 +27,27 @@
 
 ;Equate Ireby2 Files
 
-*equate jupitertoescalator.34 jupiter2irebyone.1
+*equate jupitertoescalator.34 jupiter2irebyone.1.1
 *equate blissfulcreek.63 jupitertoescalator.63
 *equate blissfulcreek.85 lickthepony.85
 *equate lickthepony.20 lickthepony2.20
 
-*equate jupiter2irebyone.31 dukest2tidyup.31
-*equate jupiter2irebyone.34 dukest2tidyup.34
-*equate jupiter2irebyone.42 dukest2tidyup.42
-*equate jupiter2irebyone.46 dukest2tidyup.22
-*equate jupiter2irebyone.43 dukest2tocanal.43
+*equate jupiter2irebyone.1.31 dukest2tidyup.2.31
+*equate jupiter2irebyone.1.34 dukest2tidyup.1.34
+*equate jupiter2irebyone.1.42 dukest2tidyup.4.42
+*equate jupiter2irebyone.1.46 dukest2tidyup.3.22
+*equate jupiter2irebyone.1.43 dukest2tocanal.1.43
 
 *equate triplecreekaven.97 blissfulcreek.97
-*equate canal.8 dukest2tocanal.22
-*equate canal.19 dukest2tocanal.25
+*equate canal.8 dukest2tocanal.1.22
+*equate canal.19 dukest2tocanal.2.25
 *equate jupitertoescalator.37 milkandhoney.37x
-*equate jupiter2irebyone.21 escalatorclimb.21x
+*equate jupiter2irebyone.1.21 escalatorclimb.21x
 *equate jupitertoescalator.44 escalatorclimb.44x
-*equate jupiter2irebyone.4 frink1.4x
+*equate jupiter2irebyone.1.4 frink1.4x
 *equate frink1.21 frink2.21x
 *equate FarFrink.1.0 frink1.8
-*equate LovleyAndSpecial.1.0 jupiter2irebyone.32
-*equate	Cerro_Blanco.1.7 dukest2tidyup.29
+*equate LovleyAndSpecial.1.0 jupiter2irebyone.1.32
+*equate	Cerro_Blanco.1.7 dukest2tidyup.4.29
  
 *end Ireby2
