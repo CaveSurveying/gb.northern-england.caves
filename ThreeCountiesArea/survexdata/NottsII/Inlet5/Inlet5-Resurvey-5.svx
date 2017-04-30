@@ -25,7 +25,7 @@
 
 *data passage station left right up down ignoreall
 
-20x	-	-	2	0.9	chamber 2m wide at this point, old numbered survey station from Becka and Richard Bendall survey
+
 2	1	1	0	13	too tight at top of aven climbed by Simon Cornhill
 1	1.5	0	13	0.4	numbered one at base of aven
 3	0.5	0	0.5	2	end of chamber
@@ -33,7 +33,7 @@
 5	0.6	0	0.4	0.4	r wall in crawl
 6	0.5	0	0.8	0	r wall, right not clear
 7	0.5	0	0.2	0.9	r wall
-
+20x	-	-	2	0.9	chamber 2m wide at this point, old numbered survey station from Becka and Richard Bendall survey
 
 *end Inlet5-Resurvey-5
 
