@@ -2,7 +2,7 @@ encoding  utf-8
 
 
 input Surface2P.th2
-#input Surface2CL.th2
+#input Surface2PCL.th2
 #input Surface2E90.th2
 
 map Surface2Plan -title "Surface2 Plan"

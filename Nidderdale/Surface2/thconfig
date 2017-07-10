@@ -23,7 +23,7 @@ layout local
 #base scale
 scale 1 500
 symbol-set BCRA
-debug station-names
+#debug station-names
 #debug on
 #colour map-fg altitude
 #colour map-fg scrap
