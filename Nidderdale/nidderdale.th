@@ -2,6 +2,7 @@ encoding  utf-8
 
 input manhole/ManHole.th
 input goyden/Goyden.th
+input pillarPot/PillarPot.th
 input frogPot/FrogPot.th
 input aquamole/Aquamole.th
 input guscott/Guscott.th
@@ -20,6 +21,7 @@ input surface2/Surface2.th
 
 join GoydenSP1 LabyrinthSP1
 join churchPotSP4 GoydenSP1
+join GoydenSP1 PillarPotSP1
 join FrogPotSP3 AquamoleSP1
 join FrogPotSP3 ShackletonsSP1
 #join AquamoleSP4 ShackletonsSP7
@@ -37,6 +39,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   Surface2Plan
   surface1Plan
   break
+  PillarPotPlan
   gargettwayPlan
   churchPotPlan
   break
@@ -69,6 +72,7 @@ equate 1.16@Goyden 1.21@ChurchPot
 equate 1.0@GargettWay 1.9@ChurchPot
 equate 1.16@Goyden2 1.16@GargettWay
 equate 1.19@Labyrinth 1.19@Goyden
+equate 1.8@Goyden 1.0@PillarPot
 equate 1.0@CarterPassage 1.82@Labyrinth
 equate 1.19@FrogPot 1.19@Aquamole
 equate 1.28@FrogPot 1.0@Shackletons
