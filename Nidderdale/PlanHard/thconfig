@@ -14,19 +14,20 @@ export map -proj plan -layout local -o ../Output/PlanHardOutput/PlanHard.pdf
 #export model -fmt survex -o../Output/PlanHardOutput/PlanHardth.3d
 #Survex file showing centre line only
 
-export model -o ../Output/PlanHardOutput/PlanHard.lox
+#export model -o ../Output/PlanHardOutput/PlanHard.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o ../Output/PlanHardOutput/_Walls.3d
 #Survex file showing walls only
 
 #export model -o ../Output/PlanHard/OutputPlanHard.kml
-export map -o ../Output/PlanHardOutput/PlanHard.kml
+#export map -o ../Output/PlanHardOutput/PlanHard.kml
 
 layout local
 scale 1 100
+base-scale 1 200
 symbol-set BCRA
-debug off
+#debug off
 #colour map-bg
 #colour map-fg elevation
 #symbol-colour [area] [water-flow] [0 20 0]
