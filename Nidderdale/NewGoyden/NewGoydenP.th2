@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -6688.6435772800005 -144.0 5142.1595723241 12508.0
+##XTHERION## xth_me_area_adjust -6688.6435772800005 -144.0 5142.1595723241 12504.0
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1483.32941485 1 1.0} {7925.56359412 1.16} PocketTopo/NewGoyden_p.xvi 0 {}
 
@@ -621,8 +621,6 @@ point 1483.3294148500001 7925.56359412 station -name 1.16
 
 point 936.0 10216.0 label -text [MAIN INLET DOWNSTREAM SUMP] -scale xl
 
-point 2260.0 8200.0 label -text nnnnn -align bottom-right
-
 point 1830.0 7876.0 label -orientation 2.0 -scale xl -text [MAIN INLET]
 
 line water-flow
@@ -781,7 +779,7 @@ area pebbles
   l71-1834-3050
 endarea
 
-line rock-border -close on
+line rock-border -close on -clip on -place top -outline in
   1274.0 6344.0
   1256.0 6299.0 1258.0 6249.0 1265.0 6240.0
   1272.0 6231.0 1330.0 6241.0 1329.0 6251.0
@@ -797,9 +795,9 @@ line border -id l71-1834-3050 -close on
   1894.0 2634.0 1972.0 3400.0 1916.0 3332.0
 endline
 
-line border -id l464-1504-1968 -reverse on
+line border -id l464-1504-1968 -reverse on -clip off -subtype invisible
   1604.0 1970.0
-  1266.0 1972.0
+  1604.0 1970.0 1378.57 1775.0 1266.0 1972.0
 endline
 
 line wall -id l464-4840-6232
@@ -1227,10 +1225,9 @@ line wall -id l269-348-376
   smooth off
 endline
 
-line border -id l275-1528-1968 -reverse on
+line border -id l275-1528-1968 -reverse on -clip off -subtype invisible
   1266.0 1972.0
-  1328.0 1956.0 1597.0 1964.0 1597.0 1964.0
-  smooth off
+  1328.0 1956.0 1517.86 2146.43 1597.0 1964.0
 endline
 
 area pebbles
@@ -1542,7 +1539,7 @@ endline
 
 line wall -id l265-1300-1828
   1266.0 1972.0
-  1286.0 1886.0 1326.0 1576.0 1340.0 1498.0
+  1258.89 1919.24 1326.0 1576.0 1340.0 1498.0
   1354.0 1420.0 1354.0 1490.0 1350.0 1392.0
   1346.0 1294.0 1348.0 1154.0 1336.0 1104.0
   1324.0 1054.0 1298.0 1038.0 1266.0 928.0
@@ -2175,13 +2172,7 @@ line wall
   smooth off
 endline
 
-line label -text [test label]
-  3488.0 7836.0
-  3572.0 7764.0 3584.0 7616.0 3604.0 7552.0
-  3624.0 7488.0 3820.0 7444.0 3864.0 7456.0
-endline
-
-point 3152.0 7740.0 label -orientation 359.0 -scale xl -text [DRY WATH PASSAGE] -align top-right
+point 3152.0 7740.0 label -orientation 2.0 -scale xl -text [DRY WATH PASSAGE] -align top-right
 
 point 3096.0 6719.0 label -text [HANDLINE C2] -scale xl -align top-right
 
