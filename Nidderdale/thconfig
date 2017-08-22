@@ -28,16 +28,28 @@ debug station-names
 #colour map-fg altitude
 #colour map-fg scrap
 symbol-colour area water [25 50 100]
-symbol-colour area sump [50 100 100]
+symbol-colour area sump [10 10 100]
 
 transparency on
 grid top
-map-header 50 90 nw
+#map-header 50 90 nw
 symbol-hide group cave-centreline
 #endlayout
 
+
+####TEX MAP####
 ##code to put border around map##
 #--------------------------------
 code tex-map
      \framethickness=0.5mm
+
+#     \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage}
+#>   \def\maplayout{
+#>   \legendbox{10}{100}{NE}{\the\legendcontent}
+#>
+#> \legendbox{0}{100}{NW}{\loadpicture{C:/Users/Public/Pictures/BSD.png}}
+#>        %%% pdf, png, jpg supported
+
+end code
+
 endlayout
