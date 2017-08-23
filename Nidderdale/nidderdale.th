@@ -32,6 +32,11 @@ join ThropePotSP1 NewGoydenSP5
 #join G2SJ1 at Goyden2:1 G3SJ1 at goy3:0 -smooth on
 #join G2SJ2 at Goyden2:0 G3SJ1 at goy3:1 -smooth on
 
+
+####Trying For Better Join####
+
+#join Line2@NewGoydenSP4:0 Line1@PlanHardSP2:end
+
 ###############################################
 ###############################################
 map nidderdalePlan -title "Nidderdale Plan"
