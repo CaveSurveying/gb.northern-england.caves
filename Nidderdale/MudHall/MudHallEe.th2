@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2309.25 -383.18 13855.48 2299.09
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1154.62367486 1 1.0} {1741.90287679 1.0} PocketTopo/MudHall_e.xvi 0 {}
+
+
+scrap MudHallSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
