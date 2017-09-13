@@ -10,6 +10,7 @@ input churchPot/ChurchPot.th
 input gargettWay/GargettWay.th
 input goyden2/Goyden2.th
 input labyrinth/Labyrinth.th
+input mudHall/MudHall.th
 input carterPassage/CarterPassage.th
 input thropePot/ThropePot.th
 input newGoyden/NewGoyden.th
@@ -22,10 +23,13 @@ input surface2/Surface2.th
 join GoydenSP1 LabyrinthSP1
 join churchPotSP4 GoydenSP1
 join GoydenSP1 PillarPotSP1
+join GoydenSP1 MudHallSP1
+join GoydenSP1 MudHallSP3
 join FrogPotSP3 AquamoleSP1
 join FrogPotSP3 ShackletonsSP1
 #join AquamoleSP4 ShackletonsSP7
 join LabyrinthSP4 CarterPassageSP1
+join LabyrinthSP1 MudHallSP5
 join NewGoydenSP4 PlanHardSP1
 join ThropePotSP1 NewGoydenSP5
 
@@ -44,12 +48,13 @@ map nidderdalePlan -title "Nidderdale Plan"
   Surface2Plan
   surface1Plan
   break
+  MudHallPlan
   PillarPotPlan
   gargettwayPlan
   churchPotPlan
   break
   goydenPlan
-  break  
+  break
   manholePlan
   PlanHardPlan
   NewGoydenPlan
@@ -74,6 +79,9 @@ endmap
 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot
+equate 1.8@Goyden 1.0@MudHall
+equate 1.11@Goyden 1.70@MudHall
+equate 1.23@Labyrinth 1.101@MudHall
 equate 1.0@GargettWay 1.9@ChurchPot
 equate 1.16@Goyden2 1.16@GargettWay
 equate 1.19@Labyrinth 1.19@Goyden
