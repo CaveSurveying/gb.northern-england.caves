@@ -9,8 +9,8 @@ source nidderdale.th
 select nidderdalePlan
 
 
-#export map -proj plan -layout local -o output/NidderdaleOutput/nidderdale.pdf
-export map -o output/NidderdaleOutput/nidderdale.kml
+export map -proj plan -layout local -o output/NidderdaleOutput/nidderdale.pdf
+#export map -o output/NidderdaleOutput/nidderdale.kml
 #export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
 #export model  -o output/NidderdaleOutput/nidderdale.lox
 #export map -proj plan -o output/NidderdaleOutput/nidderdale_Walls.3d
@@ -33,7 +33,7 @@ symbol-colour area sump [10 10 100]
 transparency on
 grid top
 #map-header 50 90 nw
-symbol-hide group cave-centreline
+#symbol-hide group cave-centreline
 #endlayout
 
 
@@ -51,5 +51,4 @@ code tex-map
 #>        %%% pdf, png, jpg supported
 
 end code
-
 endlayout

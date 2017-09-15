@@ -35,4 +35,8 @@ symbol-colour [area] [water] [0 20 80]
 symbol-colour [area] [sump]  [0 0 100]
 map-header 0 0 ne
 #symbol-hide group cave-centreline
+
+##################
+
+
 endlayout

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -6688.6435772800005 -140.90322580645162 5192.516129032258 12460.2459541965
+##XTHERION## xth_me_area_adjust -6688.6435772800005 -140.90322580645162 5192.516129032258 12498.967741935483
 ##XTHERION## xth_me_area_zoom_to 31
 ##XTHERION## xth_me_image_insert {1483.32941485 1 1.0} {7925.56359412 1.16} PocketTopo/NewGoyden_p.xvi 0 {}
 
@@ -810,6 +810,7 @@ endline
 line border -id l463-4868-6156 -reverse on -subtype invisible -clip off
   4896.77 6235.48
   5152.94 6052.0 5082.61 5908.7 4770.0 5974.0
+  smooth off
 endline
 
 area water
