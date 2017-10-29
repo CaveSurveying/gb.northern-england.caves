@@ -1,0 +1,15 @@
+*Begin CatHole
+
+*ENTRANCE CatHole1.1.0 ;GPS point head height above entrance marked with a triangle
+*FIX CatHole1.1.0 374852 470010 228   ;Estimated coordinates from google earth
+
+*Include CatHole1
+*Include CatHole2
+*Include CatHole3
+
+*Equate CatHole1.1.24 CatHole2.1.24
+*Equate CatHole2.1.32 CatHole3.1.0
+
+
+
+*End CatHole
