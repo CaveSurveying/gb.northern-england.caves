@@ -1,0 +1,33 @@
+*begin DementorAven
+;using DistoX2 Brian Judd
+;16 Sept 2017, Brian Judd Simon Beck
+;Aven climb from streamway by Dementor Sump, trip with Alex Ritchie and Becka Lawson
+;Used Brian Judd's Distox2, not recently calibrated
+;Not clear where startpoint (station 1) is
+
+*DATA normal from to length gradient bearing ignoreall
+
+1	2	3.54	9.5	213.5
+2	3	1.4	10	280
+3	4	2.66	2	273
+4	5	2.2	3.9	152
+5	6	2.9	-.7	296
+6	7	2.7	1.7	283
+7	8	2	2.2	180.5
+8	9	2	-1.7	174
+9	10	2	3	190
+10	11	2.3	5.5	101.5
+11	12	3.35	7.7	160
+12	13	3.1	-6.3	135
+13	14	3.6	-6.3	186
+14	15	3.98	.8	176
+15	16	8.5	-77	123
+16	17	1.6	-26.5	284
+17	18	5.1	-12	330
+18	19	5.97	.8	311
+19	20	7.4	-.9	236
+20	21	4.5	2.7	186
+21	22	10.0	-1	282
+22	23	4.87	-14	192
+	
+*end DementorAven

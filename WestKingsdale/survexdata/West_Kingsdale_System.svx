@@ -17,6 +17,7 @@
 *include JinglingPot/JinglingPot
 *include BullPot/BullPot
 *include Aquamole/AquamolePot_Resurvey
+*include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up
 
 *equate Old_KMC.roof_tunnel.002	kdgps.vent
 *equate KMC.ValleyEntrance.0	kdgps.vent
