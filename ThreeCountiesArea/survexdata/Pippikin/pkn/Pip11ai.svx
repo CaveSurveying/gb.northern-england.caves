@@ -1,0 +1,49 @@
+;Cave:		Pippikin Pot - Intercounty Passage
+;Surveyors:	R.Duffy(notes)/A.Hall(instruments)
+;Date:		20/08/2017
+;Instruments:	Kit 4/tape B
+
+*equate	Pip11ai.015	Pip11a.008
+
+*begin	Pip11ai
+*export 015 016 001
+
+*calibrate compass	+2.0
+*calibrate clino	-1.0
+;*calibrate tape		
+
+001	002	03.70	186.0	-01.0	;sitting in small aven toward Ratbag
+002	003	04.65	228.0	+03.0
+003	004	03.75	181.0	 00.0
+004	005	03.75	236.0	+03.0
+005	006	06.25	179.0	+04.0
+006	007	04.80	152.0	-05.0
+007	008	07.95	174.0	 00.0
+008	009	05.85	202.0	 00.0
+009	010	07.65	241.0	 00.0
+010	011	03.05	131.0	+01.0
+011	012	03.95	168.0	-04.0
+012	013	02.80	 -	DOWN
+013	014	00.60	 -	UP
+014	015	04.10	249.0	 00.0
+015	016	03.20	321.0	-04.0
+
+*end	Pip11ai
+
+;st		l		r		u		d		comments
+;1										hd. ht sitting in small aven toward Ratbag
+;2		1.5		2.5		0.5		0.3
+;3		1.2		1		0.3		0.8
+;4		0.5		1		0.3		0.7/2stream
+;5		1		0.7		0.3		0.7		sitting in bucket seat above stream
+;6		0.7		0.4		0.7		0.6		st5-6 is through small 2m high dribbly fault with rocks on floor
+;7		0.7		0.4		0.8		0.3
+;8		0.5		1		0.5		0.3
+;9		0.5		0.5h/1.5l		0.6		0.3
+;10		1		0.5		1.2		0.3		st10 is pointed rock next to bedding crawl way into ICPassage
+;11		0.8		1.2		0.7		0.4
+;12		1		1		1.2		2.8
+;13										st13 is floor of Ratbag
+;14										st14 is raised station
+;15										14-15 through bedding
+;16										st16 is alcove where water must sink in wet weather
