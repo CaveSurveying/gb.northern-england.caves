@@ -7,9 +7,7 @@
 *equate	pip26.004 pip27.001 ;moveable stal on edge of Red Wall Chamber
 
 *begin	pip26
-*export 001
-*export 004
-
+*export 001 004 005
 *calibrate compass		+3.00
 *calibrate clino		+0.50
 *calibrate tape		  0.00		
