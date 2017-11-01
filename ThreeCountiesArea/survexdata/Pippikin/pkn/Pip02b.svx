@@ -1,0 +1,70 @@
+;Cave:		Mistral-Dusty Junc. to Hall of the Ten
+;Surveyors:	Ray Duffy/Sam Lieberman
+;Date:		04/01/2014
+;Instruments:	PAG kit + new disto
+
+*equate	Pip02b.001	Pip02a.001 ;st001=tag in roof at Dusty Junction
+*equate	Pip02b.017	pip11a.001 ;new tag position
+
+*begin	pip02b
+*export 001 017
+;*calibrate compass		+3.00
+*calibrate compass		+1.00
+*calibrate clino		 -0.50
+*calibrate tape		  0.00
+
+001	002	00.47	 -	DOWN	;st001=tag in roof at Dusty Junction
+002	003	04.05	175.0	+02.0
+003	004	03.55	184.0	+04.0
+004	005	03.26	147.0	+08.0
+005	006	04.67	238.0	-13.0
+
+006	006a	05.63	331.0	 00.0
+
+006	007	07.90	213.0	+04.0
+007	008	08.74	186.0	-05.0
+
+008	008a	06.15	234.0	-03.0
+008a	008b	06.61	230.0	-00.5
+008b	008c	03.80	213.0	 00.0
+008c	008d	05.03	198.0	-00.5
+
+008	009	07.97	167.0	+05.0
+009	010	07.00	196.0	+08.0
+010	011	06.40	176.0	-18.0
+011	012	10.31	223.0	 00.0
+012	013	05.45	253.0	+19.0
+013	014	14.03	215.0	-03.5
+015	014	04.46	019.0	-04.0
+015	016	12.73	190.0	+01.0
+016	017	13.44	210.0	-20.0 ; New tag - different to tag position in pip02a.
+
+*end	pip02b
+
+;st		l		r		u		d		comments
+;1										tag in roof at Dusty Junction
+;2										head height kneeling below tag
+;3		2.9		0.8/5.7		0.2		1.0		head height kneeling in trench
+;4		2.8		2.1		3.0		0.6
+;5		0.7		0.7		0.6		0.8
+;6		2.0		1.6		0.7		0.3
+
+;6a		1wide				0.3high				heading back toward Dusty Jnc.
+
+;7		0.9		2.2		0.2		0.4
+;8		2.9		3.2		0.2		0.6
+
+;8a		0.6		1.2		0.3		0.3
+;8b		1.4		1.5		0.3		0.3
+;8c		0.5		0.8		0.3		0.3
+;8d		0.0		1.5		0.2		0.1
+
+;9		1.8		2mud/4.0		0.2		0.8
+;10		4.1		3.5		1.0		1.4
+;11		1.9		2.0		2pocket/1.2	0.8
+;12		2.2		2.8		0.4		0.7
+;13		2.4		1.7/5.3alcove	0.3		0.7
+;14		3.5		1.0		0.3		0.0
+;15		3.1bed/2.1mud	h6.2/3.4mud	6.6hole/3.0roof	1.4water
+;16		5.0		9.3alcove		0.9/6.3roof	1.4
+;17										tag may have been moved
