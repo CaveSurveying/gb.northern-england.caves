@@ -12,6 +12,7 @@
 *include	pip01
 ;*include	pip02
 *include	pip02a
+*include	pip02b
 *include	pip03
 *include	pip04
 *include	pip05
@@ -22,6 +23,14 @@
 *include	pip09
 ;*include	pip10	;Beardy's survey joined to pip.
 *include	pip11
+*include	pip11a
+*include	pip11ai
+*include	pip11aii
+*include	pip11aiii
+*include	pip11aiiii
+*include	pip11av
+*include	pip11b
+*include	pip11c
 *include	pip12
 *include	pip13
 *include	pip14
