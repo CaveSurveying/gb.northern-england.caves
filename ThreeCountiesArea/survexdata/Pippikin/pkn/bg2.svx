@@ -6,7 +6,7 @@
 *equate	bg2.001	bg1.212
 *equate	bg2.044	mm1.089
 *equate	bg2.044	pip01.001
-*equate	bg2.044	pip.101f
+;*equate	bg2.044	pip.101f ; equate removed due to large error
 
 *begin	bg2
 *export 001

@@ -5,7 +5,7 @@
 
 ;*equate	pip.001	ss05.001
 ;*equate	pip.001	ss07.001
-*equate	pip.101f	bg2.044
+;*equate	pip.101f	bg2.044 ; equate removed due to large error
 *equate	pip.101a	pip05.001
 *equate	pip.007	pip06.001
 ;*equate	pip.007	pip06a.000	;duplicate of pip06
@@ -23,7 +23,9 @@
 *export 018
 
 *export 001
-*calibrate compass	+5.17
+;*calibrate compass	+5.17
+*calibrate compass	+9
+*calibrate clino	+1
 
 *fix	001	66820.62 80097.71 320.16	;ev.ss05.001
 
