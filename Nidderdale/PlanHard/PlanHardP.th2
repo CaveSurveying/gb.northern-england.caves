@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -245.4173228330003 -138.8108108108108 4262.5511811032 25253.173685029997
-##XTHERION## xth_me_area_zoom_to 37
+##XTHERION## xth_me_area_adjust -245.4173228330003 -137.7560975609756 4262.5511811032 25253.173685029997
+##XTHERION## xth_me_area_zoom_to 41
 ##XTHERION## xth_me_image_insert {2587.4085826769997 1 1.0} {9758.19368503 1.16} PocketTopo/PlanHard_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {1336.648582677 1 1.0} {25125.173685029997 1.4} PocketTopo/PlanHard07.01.17_p.xvi 0 {}
 
@@ -1041,6 +1041,8 @@ line wall
   2701.0 6262.0 2532.5 6368.0 2532.5 6368.0
   smooth off
 endline
+
+point 3991.891891891892 7099.999999999999 label -text C3 -scale l
 
 point 3288.0799212599995 5057.41917164 station -name 1.53
 

@@ -1,12 +1,12 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 475.90m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.39m (from 1.80@PlanHard at 20.59m to 1.61@PlanHard at -2.80m)\nnorth-south range: 115.98m (from 1.19@PlanHard at 74.66m to 1.58@PlanHard at -41.32m)\neast-west range: 51.71m (from 1.47@PlanHard at 37.26m to 1.80@PlanHard at -14.45m)\nnumber of shots: 827\nnumber of stations: 828"
-xth_cp_data_tree_insert 256 1 1 PlanHard PlanHard "" "" "length: 475.90m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.39m (from 1.80@PlanHard at 20.59m to 1.61@PlanHard at -2.80m)\nnorth-south range: 115.98m (from 1.19@PlanHard at 74.66m to 1.58@PlanHard at -41.32m)\neast-west range: 51.71m (from 1.47@PlanHard at 37.26m to 1.80@PlanHard at -14.45m)\nnumber of shots: 827\nnumber of stations: 828"
+xth_cp_data_tree_insert 257 1 1 PlanHard PlanHard "" "" "length: 475.90m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.39m (from 1.80@PlanHard at 20.59m to 1.61@PlanHard at -2.80m)\nnorth-south range: 115.98m (from 1.19@PlanHard at 74.66m to 1.58@PlanHard at -41.32m)\neast-west range: 51.71m (from 1.47@PlanHard at 37.26m to 1.80@PlanHard at -14.45m)\nnumber of shots: 827\nnumber of stations: 828"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 255X1 p1 1 PlanHardPlan PlanHardPlan "PlanHard Plan" "PlanHard Plan"
+xth_cp_map_tree_insert map 1 256X1 p1 1 PlanHardPlan PlanHardPlan "PlanHard Plan" "PlanHard Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 476 8
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1503494060
+set xth(th_exit_number) 1510259336
 
