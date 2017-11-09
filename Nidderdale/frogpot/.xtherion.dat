@@ -1,12 +1,12 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@FrogPot at 8.81m to 1.28@FrogPot at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot at 0.00m to 1.28@FrogPot at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot at 0.00m to 1.19@FrogPot at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
-xth_cp_data_tree_insert 147 1 1 FrogPot FrogPot "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@FrogPot at 8.81m to 1.28@FrogPot at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot at 0.00m to 1.28@FrogPot at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot at 0.00m to 1.19@FrogPot at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.77m (from 6.0@FrogPot at 8.81m to 1.28@FrogPot at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot at 0.00m to 1.28@FrogPot at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot at 0.00m to 1.19@FrogPot at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_insert 157 1 1 FrogPot FrogPot "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.77m (from 6.0@FrogPot at 8.81m to 1.28@FrogPot at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot at 0.00m to 1.28@FrogPot at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot at 0.00m to 1.19@FrogPot at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 146X1 p1 1 frogpotPlan frogpotPlan "Frog Pot Plan" "Frog Pot Plan"
+xth_cp_map_tree_insert map 1 156X1 p1 1 frogpotPlan frogpotPlan "Frog Pot Plan" "Frog Pot Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 132 3
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1491833347
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1510249825
 

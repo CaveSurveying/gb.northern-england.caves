@@ -1,14 +1,14 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 159.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.02m (from 1.0@ChurchPot at 217.00m to 1.32@ChurchPot at 184.98m)\nnorth-south range: 58.25m (from 1.2@ChurchPot at 76033.14m to 1.32@ChurchPot at 75974.90m)\neast-west range: 52.63m (from 1.32@ChurchPot at 10011.63m to 1.0@ChurchPot at 9959.00m)\nnumber of shots: 244\nnumber of stations: 245"
-xth_cp_data_tree_insert 103 1 1 ChurchPot ChurchPot "" "" "length: 159.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.02m (from 1.0@ChurchPot at 217.00m to 1.32@ChurchPot at 184.98m)\nnorth-south range: 58.25m (from 1.2@ChurchPot at 76033.14m to 1.32@ChurchPot at 75974.90m)\neast-west range: 52.63m (from 1.32@ChurchPot at 10011.63m to 1.0@ChurchPot at 9959.00m)\nnumber of shots: 244\nnumber of stations: 245"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 159.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.02m (from 1.0@ChurchPot at 217.00m to 1.32@ChurchPot at 184.98m)\nnorth-south range: 58.23m (from 1.2@ChurchPot at 76033.14m to 1.32@ChurchPot at 75974.91m)\neast-west range: 52.61m (from 1.32@ChurchPot at 10011.61m to 1.0@ChurchPot at 9959.00m)\nnumber of shots: 244\nnumber of stations: 245"
+xth_cp_data_tree_insert 112 1 1 ChurchPot ChurchPot "" "" "length: 159.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.02m (from 1.0@ChurchPot at 217.00m to 1.32@ChurchPot at 184.98m)\nnorth-south range: 58.23m (from 1.2@ChurchPot at 76033.14m to 1.32@ChurchPot at 75974.91m)\neast-west range: 52.61m (from 1.32@ChurchPot at 10011.61m to 1.0@ChurchPot at 9959.00m)\nnumber of shots: 244\nnumber of stations: 245"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 101X1 p1 1 churchPotPlan churchPotPlan "ChurchPot" "ChurchPot"
-xth_cp_map_tree_insert map 1 102X1 p2 1 ChurchPotME ChurchPotME "" ""
+xth_cp_map_tree_insert map 1 110X1 p1 1 churchPotPlan churchPotPlan "ChurchPot" "ChurchPot"
+xth_cp_map_tree_insert map 1 111X1 p2 1 ChurchPotME ChurchPotME "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 160 5
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1446499525
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1510078789
 

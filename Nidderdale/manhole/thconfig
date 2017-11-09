@@ -6,7 +6,7 @@ source ManHole.th
 #Surveys to output
 #-----------------
 
-select manholePlan
+select ManHolePlan
 
 export map -proj plan -layout local -o ../output/ManHoleOutput/ManHole.pdf
 #Produces plan of cave, on a single sheet
@@ -32,9 +32,9 @@ layout local
 #scale 1 3000
 base-scale 1 500
 symbol-set BCRA
-#debug off
+#debug on
 #colour map-fg scrap
-#symbol-colour area water [25 50 100]
+symbol-colour area water [25 50 100]
 #grid top
 #map-header 0 0 ne
 #symbol-hide group cave-centreline

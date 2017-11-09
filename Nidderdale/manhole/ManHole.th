@@ -38,8 +38,10 @@ survey ManHole
       
       station 1.1 "main ent" entrance
       fix 1.1 10003 76401 237
-      station 1.46 "bax ent" entrance
+      #station 1.46 "bax ent" entrance
       fix 1.46 09983 76168 237
+      
+      equate 1.25 1.28
       
     
       instrument  instruments "Nick Disto 2114"
@@ -503,6 +505,11 @@ survey ManHole
     #1.45  1.46  2.262  300.76  79.33  
     #1.45  1.46  2.261  300.66  79.43  
     1.45  1.46  2.261  299.98  79.34  Calculated leg from 3 above
+    
+    ################# Strange loop end @ 1.46 Must Sort ########
+    
+    
+    
     1.42  7.0  0.0  0.0  0.0  
     #7.0  7.1  10.719  187.47  -24.18  
     #7.0  7.1  10.708  187.49  -24.21  
@@ -1023,7 +1030,7 @@ survey ManHole
 endcentreline
 endsurvey
 
-map manholePlan -title "Man Hole Plan"
+map ManHolePlan -title "Man Hole Plan"
   bax_pot_s1
   break
   lesser_s1
@@ -1038,5 +1045,8 @@ map manholePlan -title "Man Hole Plan"
   EternalOptomist_s2
   break
   EternalOptomist_s3
+  ###################
+  
+  #equate 1.25@ManHole 1.28@ManHole
 endmap
 

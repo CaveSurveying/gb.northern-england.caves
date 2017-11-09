@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 5282.0 10345.5702106457
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -137.7560975609756 -137.7560975609756 5241.614321878 10345.5702106457
+##XTHERION## xth_me_area_zoom_to 41
 ##XTHERION## xth_me_image_insert {3482.4477864500004 1 1.0} {1214.0885571 1.4} PocketTopo/Shackletons_p.xvi 0 {}
 
 
@@ -506,6 +506,7 @@ endline
 line gradient
   2014.86 4177.03
   2009.46 4135.14 1970.27 3906.76 1970.27 3891.89
+  smooth off
 endline
 
 line gradient
@@ -551,7 +552,6 @@ endline
 
 area clay
   l151-2289-4239
-  l69-2277-4185
 endarea
 
 line border -id l151-2289-4239 -close on
