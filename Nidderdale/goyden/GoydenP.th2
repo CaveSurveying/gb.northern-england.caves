@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -201.99999999999977 -140.5 13361.0866141707 16155.669291335798
-##XTHERION## xth_me_area_zoom_to 77
+##XTHERION## xth_me_area_zoom_to 15
 ##XTHERION## xth_me_image_insert {2585.4137795280003 1 1.0} {14170.2533071 1.4} PocketTopo/GoydenFulMain_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {2585.4137795280003 1 1.0} {14170.2533071 1.4} ../Labyrinth/PocketTopo/Labyrinth_p.xvi 0 {}
 
@@ -197,7 +197,7 @@ line arrow
   smooth off
 endline
 
-point 2200.0 10044.0 label -scale xl -visibility on -text [ETERNAL OPTOMIST EXIT]
+point 2200.0 10044.0 label -scale xl -visibility on -text [ETERNAL OPTIMIST EXIT]
 
 point 616.0 15702.0 label -text [GOYDEN POT] -scale xl -visibility on
 
