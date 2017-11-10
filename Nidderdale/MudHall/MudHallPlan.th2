@@ -912,6 +912,12 @@ line rock-border -close on
   3454.5454545454545 6000.0
 endline
 
+line wall
+endline
+
+line wall
+endline
+
 line rock-border -close on
   3492.7272727272725 6081.818181818182
   3443.6363636363635 6094.545454545454
@@ -1315,6 +1321,9 @@ point 3691.044776119403 3838.805970149254 gradient -orientation 186.3
 point 3798.5074626865676 3385.0746268656717 gradient -orientation 271.7
 
 point 3714.9253731343288 3508.9552238805973 gradient -orientation 222.5
+
+area water
+endarea
 
 area clay
   l277-3856-3848
