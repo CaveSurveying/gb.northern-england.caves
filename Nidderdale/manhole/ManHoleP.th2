@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -513.7142857142858 -5863.0 5500.0314960619 21453.0
-##XTHERION## xth_me_area_zoom_to 28
+##XTHERION## xth_me_area_zoom_to 18
 ##XTHERION## xth_me_image_insert {713.51086614 1 1.0} {-655.3240945000034 7.14} PocketTopo/ManHole3_p.xvi 0 {}
 
 
@@ -163,6 +163,10 @@ line rock-edge -reverse on -outline none
   1799.0 16297.0 1976.0 16484.0 1976.0 16484.0
   smooth off
 endline
+
+point -222.22222222222223 15838.888888888889 label -text [Impermeable sandstone floor]
+
+point -205.55555555555554 16077.777777777777 label -text [Flowstone curtains ]
 
 line border -id l417-2224-18804 -visibility on -place bottom
   3465.0 19700.0
@@ -560,13 +564,13 @@ endline
 line flowstone
 endline
 
-point 3716.1290322580644 1925.8064516129032 label -text [Static Sump]
+point 3855.017921146953 1814.695340501792 label -text [STATIC SUMP]
 
 point 3232.258064516129 4261.290322580645 label -text [Fossil Passage]
 
 point 1922.5806451612902 5012.903225806452 label -text [The Grovel]
 
-point 1664.0 4440.0 label -text [<center>DRY OXBOW C2.0m]
+point 1664.0 4440.0 label -text [<center>Dry Oxbow C2.0m]
 
 line label
   2632.0 2904.0
@@ -631,7 +635,7 @@ line border -id l433-988-12976 -visibility on -place bottom
   1196.0 13020.0
 endline
 
-point 3392.0 3164.0 label -text [<center>CLIMB TO HOLE C2.0m]
+point 3503.1111111111113 3152.8888888888887 label -text [<center>Climb to Hole C2.0m]
 
 line border -reverse on
   2912.0 3538.0
@@ -1409,7 +1413,7 @@ point 1019.3548387096773 3145.1612903225805 label -text [Swinton Bypass]
 
 point 1932.258064516129 2529.032258064516 label -text [Duck]
 
-point 1142.0967741935483 1921.1290322580644 label -text [SUMP 1]
+point 1236.5412186379926 1982.2401433691755 label -text [SUMP 1]
 
 line ceiling-step -id l185-237-2452
   226.0 2432.0
@@ -1615,13 +1619,9 @@ line wall
   smooth off
 endline
 
-point -296.42857142857144 -271.42857142857144 label -text [Eternal Optimist]
+point 1023.4126984126984 284.12698412698415 label -text [SUMP 2]
 
-point 932.1428571428572 -821.4285714285714 label -text [SUMP 2]
-
-point 967.8571428571429 328.5714285714286 label -text [SUMP 2]
-
-point -283.0 566.0 label -text [LESSER STREAM ENT]
+point -283.0 566.0 label -text [Lesser Stream Ent]
 
 line wall
   61.0 515.0
@@ -1892,9 +1892,7 @@ line water-flow
   smooth off
 endline
 
-point 4724.0 21307.0 label -text [WATER ENTERS FROM SURFACE RIVER]
-
-point 3461.0 21174.0 label -text [BELOW DEPRESSION IN DRY RIVER BED]
+point 4724.0 21307.0 label -text [Water Enters from Surface River ]
 
 line water-flow
   4332.0 19999.0
@@ -2046,8 +2044,6 @@ line rock-border -close on
   4321.0 20113.0
   4321.0 20113.0 4355.0 20136.0 4333.0 20138.0
 endline
-
-point 424.0 16264.0 label -text [<center>LARGE AMOUNT OF FLOWSTONE<br>PENDANTS]
 
 line label -id l261-5039-20757
   5022.0 20838.0
@@ -2439,6 +2435,10 @@ point 1032.51086614 -1914.544094500001 station -name 7.19
 line wall
 endline
 
+point 1066.6666666666665 -833.3333333333333 label -text [SUMP 2]
+
+point -350.0 -544.4444444444445 label -text [Eternal Optimist]
+
 line wall
   386.0 206.0
   393.0 193.0 398.0 167.0 398.0 167.0
@@ -2687,7 +2687,7 @@ line rock-border -close on
   383.0 -2601.0
 endline
 
-point 1339.0 -4639.0 label -text [CLIMB UP TO MAIN CHAMBER]
+point 1339.0 -4639.0 label -text [Climb Up to Goyden Main Chamber]
 
 line wall -subtype blocks -scale xl
   1573.0 -5352.0
