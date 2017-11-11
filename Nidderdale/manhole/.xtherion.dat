@@ -1,12 +1,12 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 604.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.24m (from 1.0@ManHole at 238.86m to 7.36@ManHole at 205.62m)\nnorth-south range: 346.62m (from 9.8@ManHole at 76417.30m to 7.36@ManHole at 76070.68m)\neast-west range: 49.04m (from 9.8@ManHole at 10026.66m to 1.13@ManHole at 9977.62m)\nnumber of shots: 661\nnumber of stations: 662"
-xth_cp_data_tree_insert 449 1 1 ManHole ManHole "" "" "length: 604.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.24m (from 1.0@ManHole at 238.86m to 7.36@ManHole at 205.62m)\nnorth-south range: 346.62m (from 9.8@ManHole at 76417.30m to 7.36@ManHole at 76070.68m)\neast-west range: 49.04m (from 9.8@ManHole at 10026.66m to 1.13@ManHole at 9977.62m)\nnumber of shots: 661\nnumber of stations: 662"
+xth_cp_data_tree_insert 459 1 1 ManHole ManHole "" "" "length: 604.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.24m (from 1.0@ManHole at 238.86m to 7.36@ManHole at 205.62m)\nnorth-south range: 346.62m (from 9.8@ManHole at 76417.30m to 7.36@ManHole at 76070.68m)\neast-west range: 49.04m (from 9.8@ManHole at 10026.66m to 1.13@ManHole at 9977.62m)\nnumber of shots: 661\nnumber of stations: 662"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 453X1 p1 1 ManHolePlan ManHolePlan "Man Hole Plan" "Man Hole Plan"
+xth_cp_map_tree_insert map 1 463X1 p1 1 ManHolePlan ManHolePlan "Man Hole Plan" "Man Hole Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 605 11
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1510062223
+set xth(th_exit_number) 1510413391
 
