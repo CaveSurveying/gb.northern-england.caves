@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -504.0 -5863.0 5500.0314960619 21439.81818181818
-##XTHERION## xth_me_area_zoom_to 62
+##XTHERION## xth_me_area_adjust -513.7142857142858 -5863.0 5500.0314960619 21453.0
+##XTHERION## xth_me_area_zoom_to 28
 ##XTHERION## xth_me_image_insert {713.51086614 1 1.0} {-655.3240945000034 7.14} PocketTopo/ManHole3_p.xvi 0 {}
 
 
@@ -254,6 +254,8 @@ line rock-border -close on -outline in
   2500.0 17008.0 2612.0 16960.0 2600.0 17044.0
   2588.0 17128.0 2544.0 17380.0 2484.0 17352.0
 endline
+
+point 2625.806451612903 20267.74193548387 label -text [Main Entrance]
 
 line wall -id l16-2328-18786
   2992.0 19952.0
@@ -558,6 +560,12 @@ endline
 line flowstone
 endline
 
+point 3716.1290322580644 1925.8064516129032 label -text [Static Sump]
+
+point 3232.258064516129 4261.290322580645 label -text [Fossil Passage]
+
+point 1922.5806451612902 5012.903225806452 label -text [The Grovel]
+
 point 1664.0 4440.0 label -text [<center>DRY OXBOW C2.0m]
 
 line label
@@ -647,6 +655,8 @@ line rock-border -close on
   1888.0 7944.0 1888.0 7960.0 1916.0 7976.0
   1944.0 7992.0 1924.0 8128.0 1880.0 8072.0
 endline
+
+point -367.7419354838709 10606.451612903225 label -text [Main Chamber]
 
 line border -id l402-1864-9548 -visibility off -subtype invisible
   1120.0 11728.0
@@ -1336,7 +1346,7 @@ line floor-step
   smooth off
 endline
 
-point 917.0 2523.0 label -text [DIVERS CHAMBER]
+point 962.1612903225806 2484.2903225806454 label -text [DIVERS CHAMBER]
 
 line label
   766.0 2160.0
@@ -1395,7 +1405,11 @@ line border -id l191-1010-1986 -close on -place bottom
   992.0 1952.0 1042.0 2029.0 973.0 2026.0
 endline
 
-point 1055.0 1805.0 label -text SUMP
+point 1019.3548387096773 3145.1612903225805 label -text [Swinton Bypass]
+
+point 1932.258064516129 2529.032258064516 label -text [Duck]
+
+point 1142.0967741935483 1921.1290322580644 label -text [SUMP 1]
 
 line ceiling-step -id l185-237-2452
   226.0 2432.0
@@ -1600,6 +1614,12 @@ line wall
   14.0 640.0 15.25 616.25 15.25 616.25
   smooth off
 endline
+
+point -296.42857142857144 -271.42857142857144 label -text [Eternal Optimist]
+
+point 932.1428571428572 -821.4285714285714 label -text [SUMP 2]
+
+point 967.8571428571429 328.5714285714286 label -text [SUMP 2]
 
 point -283.0 566.0 label -text [LESSER STREAM ENT]
 
