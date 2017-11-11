@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -513.7142857142858 -5863.0 5500.0314960619 21453.0
+##XTHERION## xth_me_area_adjust -522.4444444444445 -5863.0 5500.0314960619 21461.333333333332
 ##XTHERION## xth_me_area_zoom_to 18
 ##XTHERION## xth_me_image_insert {713.51086614 1 1.0} {-655.3240945000034 7.14} PocketTopo/ManHole3_p.xvi 0 {}
 
@@ -360,7 +360,7 @@ scrap bax_pot_s1 -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 
 
 point -32.86913386000015 2304.8252619000014 station -name 1.45
 
-point -187.45454545454544 2173.3636363636365 label -text [BAX POT]
+point -187.45454545454544 2173.3636363636365 label -text [Bax Pot]
 
 line floor-step
   -3.0 2382.0
@@ -570,7 +570,9 @@ point 3232.258064516129 4261.290322580645 label -text [Fossil Passage]
 
 point 1922.5806451612902 5012.903225806452 label -text [The Grovel]
 
-point 1664.0 4440.0 label -text [<center>Dry Oxbow C2.0m]
+point 1661.111111111111 4316.666666666666 label -text [<center>C 2.0m]
+
+point 1664.0 4440.0 label -text [<center>Dry Oxbow]
 
 line label
   2632.0 2904.0
@@ -635,7 +637,9 @@ line border -id l433-988-12976 -visibility on -place bottom
   1196.0 13020.0
 endline
 
-point 3503.1111111111113 3152.8888888888887 label -text [<center>Climb to Hole C2.0m]
+point 3633.333333333333 3266.6666666666665 label -text [<center>C 2.0m]
+
+point 3503.1111111111113 3152.8888888888887 label -text [<center>Climb to Hole]
 
 line border -reverse on
   2912.0 3538.0
@@ -1350,7 +1354,7 @@ line floor-step
   smooth off
 endline
 
-point 962.1612903225806 2484.2903225806454 label -text [DIVERS CHAMBER]
+point -315.6164874551972 3073.1792114695345 label -text [Divers Chamber]
 
 line label
   766.0 2160.0
@@ -1413,7 +1417,11 @@ point 1019.3548387096773 3145.1612903225805 label -text [Swinton Bypass]
 
 point 1932.258064516129 2529.032258064516 label -text [Duck]
 
-point 1236.5412186379926 1982.2401433691755 label -text [SUMP 1]
+point 1114.3189964157705 1765.5734767025087 label -text [SUMP 1]
+
+point 1600.0 1961.111111111111 label -text [SUMP 1]
+
+point 1114.3189964157705 1765.5734767025087 label -text [SUMP 1]
 
 line ceiling-step -id l185-237-2452
   226.0 2432.0
@@ -1621,7 +1629,7 @@ endline
 
 point 1023.4126984126984 284.12698412698415 label -text [SUMP 2]
 
-point -283.0 566.0 label -text [Lesser Stream Ent]
+point -371.8888888888889 566.0 label -text [Lesser Stream Ent]
 
 line wall
   61.0 515.0
