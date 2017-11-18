@@ -24,7 +24,7 @@
 *include Barbondale\Barbondale
 
 ;East Kingsdale - added 07/07/13 by Becka
-*include EastKingsdale/EastKingsdale
+*include ../../EastKingsdale/survexdata/EastKingsdale
 
 ; Richard forgot to check in this file!
 ;*include 3cgps
