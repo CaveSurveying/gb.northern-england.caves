@@ -1,6 +1,6 @@
 *begin crescent_4
 
-*export 8x
+*export 8x 25
 
 *title "East Kingsdale - Crescent Pot - from junction just before 4th pitch down 4th, 5th, 6th pitches to head of 7th pitch"
 *date 2014.08.31

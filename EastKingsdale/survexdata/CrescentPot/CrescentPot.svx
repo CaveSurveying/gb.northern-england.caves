@@ -18,10 +18,12 @@
 *include crescent_2
 *include crescent_3
 *include crescent_4
+*include crescent_5
 
 *equate crescent_1.14	crescent_2.1
 *equate crescent_3.10x	crescent_2.10
 *equate crescent_3.8	crescent_2.2-1
 *equate crescent_3.8	crescent_4.8x
+*equate crescent_4.25	crescent_5.25x
 
 *end CrescentPot
