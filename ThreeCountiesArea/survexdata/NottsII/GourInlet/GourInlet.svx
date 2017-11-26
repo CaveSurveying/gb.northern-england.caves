@@ -9,6 +9,7 @@
 *include GourInlet_2
 *include GourInlet_3
 *include PU
+*include right_hand_route
 
 ;---------------------------------------------------
 
@@ -16,5 +17,6 @@
 *equate GourInlet_1.026 GourInlet_2.008
 *equate GourInlet_2.025 GourInlet_3.001
 *equate PU.016 Gourinlet_3.010
+*equate right_hand_route.0a GourInlet_3.010
 
 *end GourInlet
