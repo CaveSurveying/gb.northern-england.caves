@@ -10,7 +10,7 @@ source PillarPot.th
 
 
 export map -proj plan -layout local -o ../output/PillarPotOutput/PillarPot.pdf
-#export map -o ../output/PillarPotOutput/PillarPot.kml
+export map -o ../output/PillarPotOutput/PillarPot.kml
 #export model -fmt survex -o ../output/PillarPotOutput/PillarPot.3d
 #export model  -o ../output/PillarPotOutput/PillarPot.lox
 #export map -proj plan -o ../output/PillarPotOutput/PillarPot_Walls.3d

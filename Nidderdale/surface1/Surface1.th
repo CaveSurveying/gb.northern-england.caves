@@ -33,11 +33,11 @@ copyright 2017 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2006.04.22
+  date 2017.03.22
 
   instrument  instruments "Nick Disto 2"
   
-  station 1.0 "main ent" entrance
+  #station 1.0 "main ent" entrance
   
   fix 1.0 10004 75798 220.5
 

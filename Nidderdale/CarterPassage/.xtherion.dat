@@ -1,12 +1,12 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 27.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.23m (from 1.0@CarterPassage at 0.00m to 1.10@CarterPassage at -2.23m)\nnorth-south range: 20.44m (from 1.0@CarterPassage at 0.00m to 1.10@CarterPassage at -20.44m)\neast-west range: 7.18m (from 1.0@CarterPassage at 0.00m to 1.6@CarterPassage at -7.18m)\nnumber of shots: 74\nnumber of stations: 75"
-xth_cp_data_tree_insert 31 1 1 CarterPassage CarterPassage "" "" "length: 27.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.23m (from 1.0@CarterPassage at 0.00m to 1.10@CarterPassage at -2.23m)\nnorth-south range: 20.44m (from 1.0@CarterPassage at 0.00m to 1.10@CarterPassage at -20.44m)\neast-west range: 7.18m (from 1.0@CarterPassage at 0.00m to 1.6@CarterPassage at -7.18m)\nnumber of shots: 74\nnumber of stations: 75"
+xth_cp_data_tree_insert 43 1 1 CarterPassage CarterPassage "" "" "length: 27.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.23m (from 1.0@CarterPassage at 0.00m to 1.10@CarterPassage at -2.23m)\nnorth-south range: 20.44m (from 1.0@CarterPassage at 0.00m to 1.10@CarterPassage at -20.44m)\neast-west range: 7.18m (from 1.0@CarterPassage at 0.00m to 1.6@CarterPassage at -7.18m)\nnumber of shots: 74\nnumber of stations: 75"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 30X1 p1 1 CarterPassagePlan CarterPassagePlan "CarterPassage Plan" "CarterPassage Plan"
+xth_cp_map_tree_insert map 1 42X1 p1 1 CarterPassagePlan CarterPassagePlan "CarterPassage Plan" "CarterPassage Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 27 1
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1476619847
+set xth(th_exit_number) 1512164557
 

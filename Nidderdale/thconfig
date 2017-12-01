@@ -30,7 +30,6 @@ debug station-names
 symbol-colour area water [25 50 100]
 symbol-colour area sump [10 10 100]
 
-#legend on
 transparency on
 grid top
 #map-header 50 90 nw
@@ -51,5 +50,5 @@ code tex-map
 #> \legendbox{0}{100}{NW}{\loadpicture{C:/Users/Public/Pictures/BSD.png}}
 #>        %%% pdf, png, jpg supported
 
-#end code
+end code
 endlayout
