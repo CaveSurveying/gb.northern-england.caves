@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -201.99999999999977 -140.5 13361.0866141707 16155.669291335798
-##XTHERION## xth_me_area_zoom_to 21
+##XTHERION## xth_me_area_zoom_to 32
 ##XTHERION## xth_me_image_insert {2585.4137795280003 1 1.0} {14170.2533071 1.4} PocketTopo/GoydenFulMain_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {2585.4137795280003 1 1.0} {14170.2533071 1.4} ../Labyrinth/PocketTopo/Labyrinth_p.xvi 0 {}
 
@@ -66,7 +66,6 @@ line border -id l197-3450-5494
   3506.0 9244.0 3372.0 9498.0 3312.0 9526.0
   3252.0 9554.0 3288.0 9660.0 3294.0 9696.0
   3300.0 9732.0 3360.98 9754.38 3382.98 9806.38
-  smooth off
 endline
 
 line floor-step -id l199-3597-10209
@@ -74,7 +73,6 @@ line floor-step -id l199-3597-10209
   3404.98 9858.38 3590.26 10033.23 3604.26 10087.23
   3618.31 10141.43 3545.75 10460.38 3543.75 10484.38
   3541.75 10508.38 3528.0 10740.21 3528.0 10770.0
-  smooth off
 endline
 
 line border -id l200-3422-11084
@@ -197,7 +195,7 @@ line arrow
   smooth off
 endline
 
-point 2200.0 10044.0 label -scale xl -visibility on -text [Lesser Stream]
+point 2200.0 10044.0 label -scale xl -visibility on -text [ETERNAL OPTOMIST EXIT]
 
 point 616.0 15702.0 label -text [GOYDEN POT] -scale xl -visibility on
 
@@ -392,7 +390,6 @@ line wall
   3125.71 12122.86
   3187.71 12160.86 3341.14 12300.88 3354.29 12285.71
   3391.43 12242.86 3422.29 12237.52 3462.86 12242.86
-  smooth off
 endline
 
 line wall -reverse on
@@ -417,7 +414,6 @@ line wall
   smooth off
   3746.81 10000.0
   3746.81 10000.0 3738.3 10095.74 3740.43 10108.51
-  smooth off
 endline
 
 line wall
@@ -440,7 +436,6 @@ line wall
   3676.0 8180.0 3634.0 8466.0 3632.0 8552.0
   3630.0 8638.0 3452.0 9136.0 3418.0 9296.0
   3384.0 9456.0 3260.68 9712.55 3244.68 9742.55
-  smooth off
 endline
 
 line wall

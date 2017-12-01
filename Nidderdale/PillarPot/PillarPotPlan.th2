@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -133.40540540540542 -133.40540540540542 2984.6141732278998 4804.0444688805
-##XTHERION## xth_me_area_zoom_to 74
+##XTHERION## xth_me_area_adjust -144.0 -144.0 2984.6141732278998 4808.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1240.8389763779999 1 1.0} {641.79596571 1.4} PocketTopo/PillarPot_p.xvi 0 {}
 
 
@@ -348,7 +348,7 @@ line flowstone -reverse on
   smooth off
 endline
 
-line wall -close on -subtype flowstone -outline in
+line wall -close on -subtype flowstone
   2223.53 4504.2
   2213.47 4501.1 2221.01 4495.8 2224.37 4491.6
   2227.73 4487.4 2247.06 4473.11 2232.77 4484.87

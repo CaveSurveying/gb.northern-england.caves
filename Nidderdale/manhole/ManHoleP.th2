@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -528.0 -5863.0 5500.0314960619 21461.333333333332
-##XTHERION## xth_me_area_zoom_to 18
+##XTHERION## xth_me_area_adjust -504.0 -5863.0 5500.0314960619 21456.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {713.51086614 1 1.0} {-655.3240945000034 7.14} PocketTopo/ManHole3_p.xvi 0 {}
 
 
@@ -164,10 +164,6 @@ line rock-edge -reverse on -outline none
   smooth off
 endline
 
-point -222.22222222222223 15838.888888888889 label -text [Impermeable sandstone floor]
-
-point -205.55555555555554 16077.777777777777 label -text [Flowstone curtains ]
-
 line border -id l417-2224-18804 -visibility on -place bottom
   3465.0 19700.0
   3515.16 19727.44 3183.5 19737.0 3183.5 19737.0
@@ -258,8 +254,6 @@ line rock-border -close on -outline in
   2500.0 17008.0 2612.0 16960.0 2600.0 17044.0
   2588.0 17128.0 2544.0 17380.0 2484.0 17352.0
 endline
-
-point 2625.806451612903 20267.74193548387 label -text [Main Entrance]
 
 line wall -id l16-2328-18786
   2992.0 19952.0
@@ -358,9 +352,7 @@ endscrap
 
 scrap bax_pot_s1 -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point -32.86913386000015 2304.8252619000014 station -name 1.45
-
-point -187.45454545454544 2173.3636363636365 label -text [Bax Pot]
+point -222.0 2237.0 label -text [BAX POT]
 
 line floor-step
   -3.0 2382.0
@@ -389,7 +381,14 @@ endscrap
 
 
 
-scrap ManHoleSP2 -projection plan -station-names "" "@ManHole" -scale [34.960767218831734 23.626852659110725 792.8054054054054 787.4 0 0 10 10 m]
+scrap ManHoleSP2 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line flowstone
+  848.0 12934.0
+  838.0 12902.0 832.0 12874.0 818.0 12852.0
+  804.0 12830.0 752.0 12804.0 752.0 12804.0
+  smooth off
+endline
 
 line wall
   796.0 12944.0
@@ -564,15 +563,7 @@ endline
 line flowstone
 endline
 
-point 3855.017921146953 1814.695340501792 label -text [STATIC SUMP]
-
-point 3410.0358422939066 4272.401433691755 label -text [Fossil Passage]
-
-point 1922.5806451612902 5012.903225806452 label -text [The Grovel]
-
-point 1661.111111111111 4316.666666666666 label -text [<center>C 2.0m]
-
-point 1664.0 4440.0 label -text [<center>Dry Oxbow]
+point 1664.0 4440.0 label -text [<center>DRY OXBOW C2.0m]
 
 line label
   2632.0 2904.0
@@ -637,9 +628,7 @@ line border -id l433-988-12976 -visibility on -place bottom
   1196.0 13020.0
 endline
 
-point 3477.7777777777774 3266.6666666666665 label -text [<center>C 2.0m]
-
-point 3353.1111111111113 3152.8888888888887 label -text [<center>Climb to Hole]
+point 3392.0 3164.0 label -text [<center>CLIMB TO HOLE C2.0m]
 
 line border -reverse on
   2912.0 3538.0
@@ -664,9 +653,7 @@ line rock-border -close on
   1944.0 7992.0 1924.0 8128.0 1880.0 8072.0
 endline
 
-point -367.7419354838709 10606.451612903225 label -text [Main Chamber]
-
-line border -id l402-1864-9548 -visibility off -subtype invisible
+line border -id l402-1864-9548 -visibility off
   1120.0 11728.0
   1072.0 11780.0 1072.0 11804.0 1004.0 11904.0
   936.0 12004.0 928.0 11996.0 884.0 12084.0
@@ -693,13 +680,13 @@ endline
 
 line border -id l439-1424-11120 -reverse on -subtype invisible
   1522.0 10716.0
-  1490.0 10800.0 1399.65 11202.12 1367.65 11294.12
+  1490.0 10800.0 1408.0 11178.0 1376.0 11270.0
   smooth off
 endline
 
-line border -id l440-1266-11484 -reverse on -subtype invisible
-  1367.65 11294.12
-  1335.65 11386.12 1120.0 11728.0 1120.0 11728.0
+line border -id l440-1266-11484 -reverse on -subtype presumed
+  1380.0 11260.0
+  1348.0 11352.0 1120.0 11728.0 1120.0 11728.0
   smooth off
 endline
 
@@ -858,7 +845,7 @@ line border -id l383-1044-11144 -reverse on
   982.0 11050.0 978.0 11052.0 1010.0 11096.0
   1042.0 11140.0 1162.0 11220.0 1162.0 11220.0
   smooth off
-  1162.0 11220.0 1311.65 11296.12 1367.65 11294.12
+  1162.0 11220.0 1324.0 11262.0 1380.0 11260.0
   smooth off
 endline
 
@@ -1030,16 +1017,23 @@ area sump
 endarea
 
 line border -id l200-2732-2378 -close on
-  2300.0 2464.29
-  2304.68 2417.5 2403.86 2189.86 2442.86 2167.86
-  2481.86 2145.86 2649.0 2062.0 2667.0 2111.0
+  2282.0 2483.0
+  2286.68 2436.21 2438.0 2195.0 2477.0 2173.0
+  2516.0 2151.0 2649.0 2062.0 2667.0 2111.0
   2685.0 2160.0 2744.0 2109.0 2751.0 2143.0
   2758.0 2177.0 2766.0 2255.0 2754.0 2293.0
   2742.0 2331.0 2805.0 2356.0 2714.0 2384.0
   2623.0 2412.0 2603.0 2426.0 2572.0 2429.0
   2541.0 2432.0 2513.0 2478.0 2498.0 2499.0
   2483.0 2520.0 2451.32 2613.36 2432.0 2625.0
-  2344.0 2678.0 2295.0 2514.29 2300.0 2464.29
+  2344.0 2678.0 2277.0 2533.0 2282.0 2483.0
+endline
+
+line floor-step -reverse on
+  2678.5 3683.5
+  2705.0 3687.0 2704.0 3705.0 2743.0 3708.0
+  2782.0 3711.0 2842.0 3725.0 2842.0 3725.0
+  smooth off
 endline
 
 point 2343.87925314 9080.7568601 station -name 1.17
@@ -1098,28 +1092,21 @@ point 1981.76925314 7121.626860099999 station -name 1.19
 
 area clay
   l402-1864-9548
+  l436-1580-10644
+  l437-1882-9940
+  l397-1592-10492
   l440-1266-11484
   l383-1044-11144
-  l436-1580-10644
-  l397-1592-10492
-  l437-1882-9940
 endarea
-
-line border -id l437-2073-10156
-  1900.0 10024.0
-  1951.22 10065.85 2143.9 10153.66 2131.7073170731705 10273.170731707316
-  2119.51 10392.68 2082.93 10585.37 2046.341463414634 10658.536585365853
-  2009.76 10731.71 1860.98 10882.93 1824.390243902439 10975.609756097561
-  1787.8 11068.29 1643.9 11197.56 1614.6341463414633 11217.073170731706
-  1585.37 11236.59 1367.65 11294.12 1367.65 11294.12
-  smooth off
-endline
 
 area pebbles
   l397-1592-10492
-  l437-2073-10156
+  l438-1814-10484
+endarea
+
+area pebbles
   l383-1044-11144
-  l436-1580-10644
+  l439-1424-11120
 endarea
 
 point 2018.64925314 8203.1068601 station -name 1.18
@@ -1354,7 +1341,7 @@ line floor-step
   smooth off
 endline
 
-point -315.6164874551972 3073.1792114695345 label -text [Divers Chamber]
+point 917.0 2523.0 label -text [DIVERS CHAMBER]
 
 line label
   766.0 2160.0
@@ -1413,15 +1400,7 @@ line border -id l191-1010-1986 -close on -place bottom
   992.0 1952.0 1042.0 2029.0 973.0 2026.0
 endline
 
-point 1019.3548387096773 3145.1612903225805 label -text [Swinton Bypass]
-
-point 1932.258064516129 2529.032258064516 label -text [Duck]
-
-point 1114.3189964157705 1765.5734767025087 label -text [SUMP 1]
-
-point 1600.0 1961.111111111111 label -text [SUMP 1]
-
-point 1114.3189964157705 1765.5734767025087 label -text [SUMP 1]
+point 1055.0 1805.0 label -text SUMP
 
 line ceiling-step -id l185-237-2452
   226.0 2432.0
@@ -1455,8 +1434,8 @@ line wall
 endline
 
 line floor-step -reverse on
-  163.0 2573.0
-  161.0 2584.0 164.0 2607.0 153.0 2621.0
+  167.0 2580.0
+  165.0 2591.0 164.0 2607.0 153.0 2621.0
   142.0 2635.0 131.0 2642.0 119.0 2656.0
   107.0 2670.0 106.0 2695.0 92.0 2689.0
   smooth off
@@ -1498,6 +1477,8 @@ endscrap
 
 scrap ManHoleSP4 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point -32.86913386000015 2304.8252619000014 station -name 1.45
+
 point 95.91086614000005 2460.725261899999 station -name 1.44
 
 line wall
@@ -1515,9 +1496,11 @@ line wall
   29.0 2315.0 35.44 2339.13 43.0 2357.0
   54.0 2383.0 124.94 2400.77 144.0 2396.0
   164.0 2391.0 207.39 2377.88 212.0 2389.0
-  217.61 2402.52 167.27 2541.82 163.0 2573.0
+  229.0 2430.0 152.0 2541.0 178.0 2571.0
   smooth off
 endline
+
+point 95.91086614000005 2460.725261899999 station -name 1.44
 
 line ceiling-step -reverse on -scale s
   5.0 2311.0
@@ -1531,7 +1514,7 @@ line floor-step -outline in
   62.0 2677.0
   52.83 2671.36 50.0 2603.0 56.0 2592.0
   62.0 2581.0 88.0 2563.0 99.0 2562.0
-  110.0 2561.0 165.0 2562.0 163.0 2573.0
+  110.0 2561.0 169.0 2569.0 167.0 2580.0
   smooth off
 endline
 
@@ -1541,7 +1524,7 @@ endscrap
 
 
 
-scrap ManHoleSP5 -projection plan -station-names "" "@ManHole" -scale [26.829268292682926 24.390243902439025 794.7170731707317 789.8390243902439 0 0 10 10 m]
+scrap ManHoleSP5 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line ceiling-step
   251.0 1003.0
@@ -1627,9 +1610,7 @@ line wall
   smooth off
 endline
 
-point 1023.4126984126984 284.12698412698415 label -text [SUMP 2]
-
-point -349.6666666666667 749.3333333333334 label -text [Lesser Stream Ent]
+point -283.0 566.0 label -text [LESSER STREAM ENT]
 
 line wall
   61.0 515.0
@@ -1844,8 +1825,8 @@ endline
 line ceiling-step
   3465.0 19700.0
   3491.0 19714.0 3542.0 19786.0 3558.0 19784.0
-  3574.0 19782.0 3607.9 19759.27 3616.0 19777.0
-  3624.1 19794.72 3606.0 19902.0 3606.0 19902.0
+  3574.0 19782.0 3585.8 19758.55 3593.90086614 19776.2759055
+  3602.0 19794.0 3606.0 19902.0 3606.0 19902.0
   smooth off
 endline
 
@@ -1900,7 +1881,9 @@ line water-flow
   smooth off
 endline
 
-point 4724.0 21307.0 label -text [Water Enters from Surface River ]
+point 4724.0 21307.0 label -text [WATER ENTERS FROM SURFACE RIVER]
+
+point 3461.0 21174.0 label -text [BELOW DEPRESSION IN DRY RIVER BED]
 
 line water-flow
   4332.0 19999.0
@@ -2052,6 +2035,8 @@ line rock-border -close on
   4321.0 20113.0
   4321.0 20113.0 4355.0 20136.0 4333.0 20138.0
 endline
+
+point 424.0 16264.0 label -text [<center>LARGE AMOUNT OF FLOWSTONE<br>PENDANTS]
 
 line label -id l261-5039-20757
   5022.0 20838.0
@@ -2443,10 +2428,6 @@ point 1032.51086614 -1914.544094500001 station -name 7.19
 line wall
 endline
 
-point 1066.6666666666665 -833.3333333333333 label -text [SUMP 2]
-
-point -350.0 -544.4444444444445 label -text [Eternal Optimist]
-
 line wall
   386.0 206.0
   393.0 193.0 398.0 167.0 398.0 167.0
@@ -2695,7 +2676,7 @@ line rock-border -close on
   383.0 -2601.0
 endline
 
-point 1339.0 -4639.0 label -text [Climb Up to Goyden Main Chamber]
+point 1339.0 -4639.0 label -text [CLIMB UP TO MAIN CHAMBER]
 
 line wall -subtype blocks -scale xl
   1573.0 -5352.0
