@@ -26,6 +26,7 @@ export map -o ../Output/NewGoydenOutput/NewGoyden.kml
 layout local
 scale 1 100
 symbol-set BCRA
+legend on
 debug off
 #colour map-bg [0 10 80]
 #select NewGoyden

@@ -27,11 +27,12 @@ join GoydenSP1 MudHallSP1
 join GoydenSP1 MudHallSP3
 join FrogPotSP3 AquamoleSP1
 join FrogPotSP3 ShackletonsSP1
-#join AquamoleSP4 ShackletonsSP7
+join AquamoleSP4 ShackletonsSP7
 join LabyrinthSP4 CarterPassageSP1
 join LabyrinthSP1 MudHallSP5
 join NewGoydenSP4 PlanHardSP1
 join ThropePotSP1 NewGoydenSP5
+join Surface1SP3 Surface2SP4
 
 #join G2SJ1 at Goyden2:1 G3SJ1 at goy3:0 -smooth on
 #join G2SJ2 at Goyden2:0 G3SJ1 at goy3:1 -smooth on
@@ -93,12 +94,12 @@ equate 1.28@FrogPot 1.0@Shackletons
 equate 1.51@Aquamole 1.57@Shackletons
 equate 5.47@NewGoyden 1.28@FrogPot
 equate 1.15@NewGoyden 1.0@PlanHard
-#equate 1.53@Surface1 1.0@NewGoyden
-#equate 1.34@ThropePot 1.50@Surface1
 equate 1.22@NewGoyden 1.0@ThropePot
 
 #equate 1.28@Goyden2 1.0@goy3
 
+equate 1.34@ThropePot 1.50@Surface1
+equate 1.53@Surface1 1.0@NewGoyden
 equate 1.44@Surface2 1.0@NewGoyden
 equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott
