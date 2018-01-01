@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -504.0 -5863.0 5500.0314960619 21453.0
-##XTHERION## xth_me_area_zoom_to 28
+##XTHERION## xth_me_area_adjust -504.0 -5863.0 5500.0314960619 21458.434782608696
+##XTHERION## xth_me_area_zoom_to 23
 ##XTHERION## xth_me_image_insert {713.51086614 1 1.0} {-655.3240945000034 7.14} PocketTopo/ManHole3_p.xvi 0 {}
 
 
@@ -563,15 +563,7 @@ endline
 line flowstone
 endline
 
-point 1185.7142857142858 3125.0 label -text [Swinton Bypass]
-
-point 2035.7142857142858 2492.857142857143 label -text [Duck]
-
-point 2917.857142857143 4950.0 label -text [Grovel]
-
-point 3728.571428571429 1921.4285714285716 label -text [Static Sump]
-
-point 3185.714285714286 4292.857142857143 label -text [Fossil Passage]
+point 3313.714285714286 4432.857142857143 label -text [Fossil Passage]
 
 point 1849.7142857142858 4304.285714285715 label -text [<center>DRY OXBOW C2.0m]
 
@@ -1351,10 +1343,6 @@ line floor-step
   smooth off
 endline
 
-point 1710.7142857142858 2010.7142857142858 label -text [Sump 1]
-
-point 17.0 3015.8571428571427 label -text [DIVERS CHAMBER]
-
 line label
   766.0 2160.0
   726.0 2152.0 713.0 2149.0 682.0 2149.0
@@ -1411,8 +1399,6 @@ line border -id l191-1010-1986 -close on -place bottom
   902.0 1832.0 998.0 1872.0 995.0 1912.0
   992.0 1952.0 1042.0 2029.0 973.0 2026.0
 endline
-
-point 1055.0 1805.0 label -text Sump 1
 
 line ceiling-step -id l185-237-2452
   226.0 2432.0
@@ -1622,11 +1608,7 @@ line wall
   smooth off
 endline
 
-point 1021.4285714285714 -928.5714285714287 label -text [Sump 2]
-
 point 914.2857142857143 364.2857142857143 label -text [Sump 2]
-
-point 750.0 -207.14285714285717 label -text [Eternal Optimist]
 
 point -283.0 566.0 label -text [Lesser Stream Ent]
 
@@ -1901,8 +1883,6 @@ endline
 
 point 4724.0 21307.0 label -text [Water Enters from Surface River]
 
-point 2882.3529411764707 20176.470588235297 label -text [Main Entrance]
-
 point 3461.0 21174.0 label -text [Below Depression in Dry Riverbed]
 
 line water-flow
@@ -2055,8 +2035,6 @@ line rock-border -close on
   4321.0 20113.0
   4321.0 20113.0 4355.0 20136.0 4333.0 20138.0
 endline
-
-point -300.0 10667.857142857143 label -text [Main Chamber]
 
 point 709.7142857142858 16067.57142857143 label -text [Flowstone pendants and Sandstone floor]
 
