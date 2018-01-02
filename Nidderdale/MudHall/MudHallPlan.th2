@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -134.55737704918033 -134.55737704918033 5149.1653543277 10029.639344262296
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -137.7560975609756 -137.7560975609756 5149.1653543277 10032.878048780487
+##XTHERION## xth_me_area_zoom_to 41
 ##XTHERION## xth_me_image_insert {1957.77748031 1 1.0} {9268.97826662 1.4} PocketTopo/MudHall_p.xvi 0 {}
 
 
@@ -241,6 +241,8 @@ line wall
   1996.72131147541 8086.88524590164
   2024.0 8046.0
 endline
+
+point 1002.4390243902438 9346.341463414634 label -text [Second Window]
 
 line pit
   1210.8108108108108 9390.54054054054
@@ -521,6 +523,8 @@ endline
 area blocks
   l145-2592-7964
 endarea
+
+point 1182.9268292682927 7763.414634146341 label -text [Third Window]
 
 line border -id l145-2592-7964 -close on -subtype invisible
   2708.0 7786.0
@@ -1217,6 +1221,8 @@ line wall
   4033.3333333333335 4968.888888888889
 endline
 
+point 3050.0 4352.0 label -scale l -text [Mud Hall]
+
 line wall
   2613.51 7705.41
   2613.51 7705.41 2631.11 7597.78 2635.5555555555557 7591.111111111111
@@ -1358,6 +1364,12 @@ line ceiling-step
   3474.55 3847.27 3503.64 3767.27 3558.18 3752.73
   smooth off
 endline
+
+point 3360.9756097560976 2512.1951219512193 label -scale l -text [Zannusi Pot (sealed)]
+
+point 4121.951219512195 1978.0487804878048 label -text [Limley Bypass]
+
+point 3287.8048780487807 3353.6585365853657 label -scale l -text [Limley Pot]
 
 line wall
   3461.82 3696.36
