@@ -1,13 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 4602.0 5721.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 4616.0 5768.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {680.568141202 1 1.0} {4905.56685039 1.4} PocketTopo/ChurchPot_p.xvi 0 {}
 
 
 
 scrap churchPotSP1 -projection plan -station-names "" "@ChurchPot" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 829.0 5588.0 label -text [CHURCH POT] -scale xl
+point 829.0 5620.0 label -text [CHURCH POT] -scale xl
 
 point 490.578141202 5325.19685039 station -name 1.0
 
@@ -163,6 +163,10 @@ line rock-border
   smooth off
 endline
 
+point 820.0 5364.0 label -text [fixed ladder]
+
+point 920.0 4800.0 label -text [fixed ladder]
+
 line wall
   804.178141202 4549.43685039
   805.0 4572.5 802.0 4616.0 793.0 4631.0
@@ -290,6 +294,16 @@ line wall
   3694.0 3001.0 3719.0 3153.0 3719.0 3153.0
   smooth off
 endline
+
+point 3924.0 472.0 label -text [Static Sump]
+
+point 3284.0 1188.0 label -text [The Pinnacle C 6.0m]
+
+point 2768.0 2132.0 label -scale l -text [Gaskell's Passage]
+
+point 1804.0 4452.0 label -text [Aven - passage at top]
+
+point 1912.0 3724.0 label -scale l -text [Black Sheep Passage]
 
 line floor-step
   2877.5 3264.5
@@ -492,6 +506,7 @@ line wall -reverse on
   3865.0 3981.0
   3900.0 3977.0 3961.0 3928.0 4027.0 3922.0
   4093.0 3916.0 4157.33 3876.91 4192.0 3948.0
+  smooth off
 endline
 
 line floor-step -visibility on
@@ -500,6 +515,10 @@ line floor-step -visibility on
   4224.0 3826.0 4147.0 3790.0 4147.0 3790.0
   smooth off
 endline
+
+point 3924.0 4252.0 label -text [down to Main Stream Passage]
+
+point 3924.0 4336.0 label -text [Fixed chain C 4.5m]
 
 line wall -reverse on
   4192.0 3948.0
@@ -512,11 +531,13 @@ line wall -reverse on
   4326.0 4202.0 4325.0 4216.0 4339.0 4224.0
   4353.0 4232.0 4403.0 4201.0 4421.0 4179.0
   4439.0 4157.0 4484.0 4074.0 4466.0 4061.0
+  smooth off
 endline
 
 line floor-step
   4466.0 4061.0
   4448.0 4048.0 4412.0 3996.0 4398.0 3972.0
+  smooth off
 endline
 
 line floor-step
