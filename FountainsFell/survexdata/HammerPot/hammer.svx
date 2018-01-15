@@ -1,0 +1,26 @@
+*begin HammerPot
+
+*cs out OSGB:SD 
+*cs OSGB:SD
+*declination auto 385184.063	469704.284	415.252
+
+*fix EntranceTag	385184.063	469704.284	415.252	
+;from ffgps.svx
+*equate hammerentrance.0 EntranceTag
+*entrance EntranceTag
+
+
+*include hammerentrance
+*include hammerstemple
+*include hammersecondpitch
+*include hammerfifthpitch
+*include hammersidepassage1
+*include hammersidepassage2
+*equate hammerentrance.33 hammerstemple.33
+*equate hammerstemple.64 hammersecondpitch.64
+*equate hammersecondpitch.89 hammerfifthpitch.89
+*equate hammersecondpitch.89 hammersidepassage1.89
+*equate hammerfifthpitch.126 hammersidepassage2.126
+
+
+*end HammerPot
