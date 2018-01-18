@@ -51,7 +51,8 @@ copyright 2016 "GNU GPL"
 #
 
   date 2016.05.28
-#station 1.0 "main ent" entrance
+  
+station 1.0 "New Goyden" entrance
 #fix 1.0 10154 75407 207
 
   team "Nick Bairstow" notes

@@ -36,9 +36,9 @@ survey ManHole
       #team "Ralf Guscott" dog
       #team "David Stubley" dog
       
-      station 1.1 "main ent" entrance
+      station 1.1 "Manchester Hole" entrance
       fix 1.1 10003 76401 237
-      station 1.46 "bax ent" entrance
+      station 1.46 "Bax Pot" entrance
       fix 1.46 09983 76168 237
       
       

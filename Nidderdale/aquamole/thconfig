@@ -15,7 +15,7 @@ export map -proj plan -layout local -o ../output/AquamoleOutput/Aquamole.pdf
 #export model -fmt survex -o Aquamoleth.3d
 #Survex file showing centre line only
 
-export model -o ../output/AquamoleOutput/Aquamole.lox
+#export model -o ../output/AquamoleOutput/Aquamole.lox
 
 #export 3d therion model to be viewed in the therion viewer
 
@@ -27,8 +27,8 @@ export model -o ../output/AquamoleOutput/Aquamole.lox
 export map -o ../output/AquamoleOutput/Aquamole.kml
 
 layout local
-scale 1 3000
-base-scale 1 100
+scale 1 500
+base-scale 1 200
 symbol-set BCRA
 debug off
 colour map-fg scrap

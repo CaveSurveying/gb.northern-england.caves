@@ -34,7 +34,7 @@ survey Goyden
     #team "Chris Fox" instruments
     #team "Ian Walker" dog
     
-    station 1.0 "main ent" entrance
+    station 1.0 "Goyden" entrance
     
     fix 1.0 09976 76127 219
     

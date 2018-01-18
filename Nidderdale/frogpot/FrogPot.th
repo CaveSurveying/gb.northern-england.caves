@@ -38,7 +38,7 @@ copyright 2015 "GNU GPL"
   #####Using Surface2 to give location as GPS is iffy#####
   
   
-  #station 6.0 "main ent" entrance
+  station 6.0 "Frog Pot" entrance
   
   #fix 6.0 10140 75630 200
   #instrument  instruments  

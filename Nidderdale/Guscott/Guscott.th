@@ -33,7 +33,7 @@ copyright 2015 "GNU GPL"
   #team "Chris Fox" instruments
   #team "David Stubley" dog
   
-  #station 1.47 "main ent." entrance
+  station 1.47 "Guscott Pot." entrance
   
   #fix 1.47 10090 75780 210
   instrument  instruments "DistoX2114"
