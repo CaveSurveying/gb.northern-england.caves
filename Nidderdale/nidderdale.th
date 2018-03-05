@@ -1,4 +1,5 @@
 encoding  utf-8
+survey Nidderdale
 
 input manhole/ManHole.th
 input goyden/Goyden.th
@@ -19,6 +20,7 @@ input planHard/PlanHard.th
 input surface1/Surface1.th
 input surface2/Surface2.th
 #input goy3/Goy3.th
+input TomTaylors/TomTaylors.th
 
 join GoydenSP1 LabyrinthSP1
 join churchPotSP4 GoydenSP1
@@ -38,14 +40,10 @@ join Surface1SP3 Surface2SP4
 #join G2SJ2 at Goyden2:0 G3SJ1 at goy3:1 -smooth on
 
 
-####Trying For Better Join####
+########
 
-#join Line2@NewGoydenSP4:0 Line1@PlanHardSP2:end
-
-###############################################
-###############################################
-map nidderdalePlan -title "Nidderdale Plan"
-
+map nidderdalePlan -title "Nidderdale Plan"  
+  
   Surface2Plan
   surface1Plan
   break
@@ -70,6 +68,8 @@ map nidderdalePlan -title "Nidderdale Plan"
   CarterPassagePlan 
   ThropePotPlan
   ShackletonsPlan 
+  TomTaylors@TomTaylors
+
   
   
   #goy3Plan
@@ -78,6 +78,9 @@ endmap
 
 ###############################################
 ###############################################
+
+
+centerline
 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot
@@ -104,4 +107,8 @@ equate 1.44@Surface2 1.0@NewGoyden
 equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott
 equate 1.26@Surface2 6.0@FrogPot
+
+endcenterline
+
+endsurvey
 
