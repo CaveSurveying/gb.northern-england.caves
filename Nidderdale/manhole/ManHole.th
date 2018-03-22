@@ -39,12 +39,12 @@ survey ManHole
       station 1.1 "Manchester Hole" entrance
       fix 1.1 10003 76401 237
       station 1.46 "Bax Pot" entrance
-      fix 1.46 09983 76168 237
+      fix 1.46 09983 76168 226
       
       
       
     
-      instrument  instruments "Nick Disto 2114"
+      #instrument  instruments "Nick Disto 2114"
     
     data normal from to tape compass clino ignoreall
       extend right

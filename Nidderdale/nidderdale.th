@@ -1,8 +1,9 @@
 encoding  utf-8
+encoding utf-8
 survey Nidderdale
 
-input manhole/ManHole.th
 input goyden/Goyden.th
+input manhole/ManHole.th
 input pillarPot/PillarPot.th
 input frogPot/FrogPot.th
 input aquamole/Aquamole.th
@@ -22,6 +23,8 @@ input surface2/Surface2.th
 #input goy3/Goy3.th
 input TomTaylors/TomTaylors.th
 
+#### Plan Joins ####
+
 join GoydenSP1 LabyrinthSP1
 join churchPotSP4 GoydenSP1
 join GoydenSP1 PillarPotSP1
@@ -40,39 +43,45 @@ join Surface1SP3 Surface2SP4
 #join G2SJ2 at Goyden2:0 G3SJ1 at goy3:1 -smooth on
 
 
-########
+####################################################
 
-map nidderdalePlan -title "Nidderdale Plan"  
+map NidderdalePlan -title "Nidderdale Plan"  
   
-  Surface2Plan
-  surface1Plan
+  #Surface2Plan
+  #surface1Plan
   break
-  MudHallPlan
-  PillarPotPlan
-  gargettwayPlan
-  churchPotPlan
-  break
-  #MudHallPlan
   goydenPlan
   break
   manholePlan
-  PlanHardPlan
-  NewGoydenPlan
-  break
-  frogpotPlan
-  aquamolePlan
   guscottPlan
-  goyden2Plan
+  churchPotPlan
+  MudHallPlan
+  PillarPotPlan
+  gargettwayPlan
   labyrinthPlan
-  break
-  CarterPassagePlan 
+  CarterPassagePlan
+  goyden2Plan
+  
+  ####NewGoyden/Frog####
+  
   ThropePotPlan
-  ShackletonsPlan 
-  TomTaylors@TomTaylors
-
+  PlanHardPlan
+  frogpotPlan
+  break
+  aquamolePlan
+  break
+  NewGoydenPlan  
+  break
+  ShackletonsPlan
+   
+  TomTaylors@TomTaylors ##This is the new cave that needed the 
+                        ##survey endsurvey to render correctly.
+                        ##It is a Small cave located in bottom left of pdf
+                        ##Adding this has buggered up the current pdf layout
+                        ##so that needs sorting.
   
   
-  #goy3Plan
+  #goy3Plan             ##Need to survey sump 2 so we can add to main map
   
 endmap
 
@@ -80,7 +89,7 @@ endmap
 ###############################################
 
 
-centerline
+#centerline
 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot
@@ -108,7 +117,7 @@ equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott
 equate 1.26@Surface2 6.0@FrogPot
 
-endcenterline
+#endcenterline
 
 endsurvey
 

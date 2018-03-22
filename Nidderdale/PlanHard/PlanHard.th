@@ -6,9 +6,10 @@ input PlanHardP.th2
 #input PlanHardE90.th2
 
 map PlanHardPlan -title "PlanHard Plan"
+  PlanHardSP7
+  break
   PlanHardSP1
   PlanHardSP3
-  PlanHardSP7
   break
   PlanHardSP2
   PlanHardSP8
@@ -38,11 +39,11 @@ copyright 2016 "GNU GPL"
 
   date 2016.10.14
 
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
-  team "Chris Fox" dog
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
+  #team "Chris Fox" dog
 
-  instrument  instruments "Nick Disto 3. 5 Hrs"
+  #instrument  instruments "Nick Disto 3. 5 Hrs"
 
   explo-date 2016.10.14
 

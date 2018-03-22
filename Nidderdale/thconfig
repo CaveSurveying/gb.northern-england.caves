@@ -1,12 +1,17 @@
 encoding  utf-8
 source nidderdale.th
-# Change name to the main therion file
+#Change name to the main therion file
 
 
 #Surveys to output
 #-----------------
+#select goydenPlan@Nidderdale
+#select manholePlan@Nidderdale
 
-select nidderdalePlan
+## use Map or survey structure to selelect individual or multiple maps to export to Nidderdal pdf##
+## If none selected individually all are exported to finished map##
+
+
 
 
 export map -proj plan -layout local -o output/NidderdaleOutput/nidderdale.pdf
@@ -21,7 +26,7 @@ export map -proj plan -layout local -o output/NidderdaleOutput/nidderdale.pdf
 
 layout local
 base-scale 1 200
-scale 1 2000
+scale 1 1000
 symbol-set BCRA
 #debug station-names
 #debug on
@@ -54,5 +59,5 @@ code tex-map
 #>        %%% pdf, png, jpg supported
 
 
-end code           
+#end code           
 endlayout

@@ -31,14 +31,14 @@ copyright 2015 "GNU GPL"
   #team "Nick Bairstow" notes
   #team "Nick Bairstow" instruments
   #team "Nick Bairstow" dog
-   team "BSD"
+   #team "BSD"
    
-   team "Adrian Hall"
-   team "Rich Hudson"
-   team "Julian Griffiths"
-  instrument  instruments "Nick Disto 2114"
+   #team "Adrian Hall"
+   #team "Rich Hudson"
+   #team "Julian Griffiths"
+  #instrument  instruments "Nick Disto 2114"
 
-  explo-date 28.08.15
+  explo-date 2015.08.28
 
 data normal from to tape compass clino ignoreall
   extend right

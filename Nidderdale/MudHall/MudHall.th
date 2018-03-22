@@ -31,12 +31,12 @@ copyright 2017 "GNU GPL"
 
   date 2017.08.31
 
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
 
   instrument  instruments "Nick Disto 2"
 
-  explo-date 31.08.17
+  explo-date 2017.08.31
 
 data normal from to tape compass clino ignoreall
   extend right

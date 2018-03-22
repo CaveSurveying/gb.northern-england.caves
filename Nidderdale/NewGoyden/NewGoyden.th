@@ -55,11 +55,11 @@ copyright 2016 "GNU GPL"
 station 1.0 "New Goyden" entrance
 #fix 1.0 10154 75407 207
 
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
-  team "Chris Fox" dog
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
+  #team "Chris Fox" dog
 
-  instrument  instruments "Nick Disto 1224"
+  #instrument  instruments "Nick Disto 1224"
 
   explo-date 2016.05.28
 

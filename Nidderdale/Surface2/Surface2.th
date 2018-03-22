@@ -26,12 +26,12 @@ copyright 2017 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2006.04.22
+  date 2017.09.22
 
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
 
-  instrument  instruments "Nick Disto 2"
+  #instrument  instruments "Nick Disto 2"
 
 data normal from to tape compass clino ignoreall
   extend right

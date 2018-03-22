@@ -34,7 +34,7 @@ copyright 2015 "GNU GPL"
   #team "Chris Fox" instruments
   
 
-  instrument  instruments "Nick Disto 1224"
+  #instrument  instruments "Nick Disto 1224"
 
 data normal from to tape compass clino ignoreall
   extend right

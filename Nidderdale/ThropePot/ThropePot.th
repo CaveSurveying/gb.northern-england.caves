@@ -41,10 +41,10 @@ copyright 2017 "GNU GPL"
 
   date 2017.02.26
 
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
 
-  instrument  instruments "Nick Disto 2"
+  #instrument  instruments "Nick Disto 2"
 
 data normal from to tape compass clino ignoreall
   extend right
