@@ -1,0 +1,49 @@
+encoding  utf-8
+survey TomTaylors  #index#
+
+input TTSurface/TTSurface.th
+input TTMain/TTMain.th
+input TTLower/TTLower.th
+
+
+
+
+#####Joins#####
+
+
+##### Plan Map ####
+
+map TomTaylorsPlan -title "TomTaylorsPlan"
+
+
+TomTaylorsMainPlan@TomTaylorsMain
+break
+TomTaylorsSurfacePlan@TomTaylorsSurface
+break
+TomTaylorsLowerPlan@TomTaylorsLower
+
+endmap
+
+map TomTaylorsElevation -title "TomTaylorsElevation"
+
+TomTaylorsMainEe@TomTaylorsMain
+break
+TomTaylorsLowerEe@TomTaylorsLower
+
+endmap
+
+centerline
+
+####Equate####
+
+equate 1.3@TomTaylorsSurface 1.0@TomTaylorsMain
+equate 3.2@TomTaylorsSurface 15.5@TomTaylorsMain
+equate 1.0@TomTaylorsLower 1.12@TomTaylorsMain
+
+#########
+
+
+
+endcenterline
+endsurvey
+
