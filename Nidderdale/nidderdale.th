@@ -1,6 +1,6 @@
 encoding  utf-8
-encoding utf-8
-survey Nidderdale
+#survey nidderdale
+
 
 input goyden/Goyden.th
 input manhole/ManHole.th
@@ -21,7 +21,7 @@ input planHard/PlanHard.th
 input surface1/Surface1.th
 input surface2/Surface2.th
 #input goy3/Goy3.th
-input TomTaylors/TomTaylors.th
+#input TomTaylors/TomTaylors.th
 
 #### Plan Joins ####
 
@@ -45,19 +45,19 @@ join Surface1SP3 Surface2SP4
 
 ####################################################
 
-map NidderdalePlan -title "Nidderdale Plan"  
+map nidderdalePlan -title "Nidderdale Plan"  
   
-  #Surface2Plan
-  #surface1Plan
+  Surface2Plan
+  surface1Plan
+  guscottPlan
+  churchPotPlan
+  gargettwayPlan
+  MudHallPlan
+  PillarPotPlan
   break
   goydenPlan
   break
-  manholePlan
-  guscottPlan
-  churchPotPlan
-  MudHallPlan
-  PillarPotPlan
-  gargettwayPlan
+  manholePlan 
   labyrinthPlan
   CarterPassagePlan
   goyden2Plan
@@ -66,15 +66,15 @@ map NidderdalePlan -title "Nidderdale Plan"
   
   ThropePotPlan
   PlanHardPlan
+  break
+  NewGoydenPlan
+  break
   frogpotPlan
   break
-  aquamolePlan
-  break
-  NewGoydenPlan  
-  break
   ShackletonsPlan
+  aquamolePlan
    
-  TomTaylors@TomTaylors ##This is the new cave that needed the 
+  #TomTaylors@TomTaylors ##This is the new cave that needed the 
                         ##survey endsurvey to render correctly.
                         ##It is a Small cave located in bottom left of pdf
                         ##Adding this has buggered up the current pdf layout
@@ -119,5 +119,5 @@ equate 1.26@Surface2 6.0@FrogPot
 
 #endcenterline
 
-endsurvey
+#endsurvey
 
