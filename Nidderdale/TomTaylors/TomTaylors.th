@@ -15,10 +15,11 @@ input TTLower/TTLower.th
 
 map TomTaylorsPlan -title "TomTaylorsPlan"
 
-
-TomTaylorsMainPlan@TomTaylorsMain
-break
 TomTaylorsSurfacePlan@TomTaylorsSurface
+break
+TomTaylorsMainPlan@TomTaylorsMain
+#break
+#TomTaylorsSurfacePlan@TomTaylorsSurface  ##Fiddleing with position##
 break
 TomTaylorsLowerPlan@TomTaylorsLower
 

@@ -21,14 +21,19 @@ copyright 2018 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 
+  ############
   date 2018.02.15
-
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
-
-  instrument  instruments "Nick Disto 3765"
-
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
+  team "BSD"
+  #instrument  instruments "Nick Disto 3765"
   explo-date 2018.02.15
+  ############
+  
+  ############
+  cs OSGB:SE
+  declination 1.6 degrees
+  ############
 
 data normal from to tape compass clino ignoreall
   extend right

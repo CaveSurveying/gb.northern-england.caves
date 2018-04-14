@@ -1,4 +1,7 @@
 encoding  utf-8
+#select TomTaylorsPlan@TomTaylors  ##uncoment and move TTSurface below TTmain in .th
+
+                                   ##to put Surface below main##
 source TomTaylors.th
 # Change name to the main therion file
 
@@ -21,24 +24,25 @@ export map -proj extended -layout local -o ../output/TomTaylorsOutput/TomTaylors
 #############################################
 
 layout local
-base-scale 1 200
-scale 1 500
+base-scale 1 300
+scale 1 200
 symbol-set BCRA
 debug station-names
 #debug on
+legend on
 
 #colour map-fg altitude
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
-#colour map-bg [90 90 90] ##Light Grey##
+colour map-bg [90 90 90] ##Light Grey##
 
 north grid
-  #grid bottom
-  #grid-size 10 10 10 m
+  grid bottom
+  grid-size 20 20 20 m
   #grid-coords all #border
   
   #rotate -90
- # map-header 5 5 sw
+  map-header 100 95 ne
 
 symbol-colour area water [25 50 100]
 #symbol-colour area sump [10 10 100]
@@ -63,12 +67,21 @@ symbol-hide point cave-station  # 2. tells therion, that you want to show statio
 #symbol-hide group cave-centreline
 
 
-endlayout
+
     
             
  ##CODE TO PUT BORDER AROUND MAP##
 #-----------------------------
-#layout LayoutMapBorder
-#code tex-map
-  #\framethickness=100.0mm
-#endlayout LayoutMapBorder
+#layout layoutMapBorder
+code tex-map
+  \framethickness=0.5mm
+#endlayout #LayoutMapBorder
+
+##Overide Therion Map Header Data###
+
+code tex-map
+\cavename={Tom Taylors Cave}
+endcode
+
+
+endlayout
