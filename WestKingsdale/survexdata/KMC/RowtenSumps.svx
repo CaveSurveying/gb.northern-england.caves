@@ -3,7 +3,7 @@
 
 ;Cave:	Rowten Sumps-From threaded eye hole for free dive line in Valley Entrance Rowten passage going upstream to Frakes Passage.
 ;Surveyors:	Christine Grosart, Richard Walker and Dan Scott. CDG Derbyshire Section
-*date 2009.12.19	;Date:	19/12/09
+*date 2009.12.19
 ;vis = 1.5m at best, 0.5m at worst
 ;Water levels low. Temperature 6-8 degrees underground. Above ground, bloody freezing !
 

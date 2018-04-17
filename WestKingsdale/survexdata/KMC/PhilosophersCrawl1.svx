@@ -7,7 +7,7 @@
 ; Locn: West Kingsdale
 ; Cave: KMC
 *title "Philosophers Crawl"
-*date 2008.03.15  ;Date:	15/03/08
+*date 2008.03.15
 
 *team instruments Richard Vidler
 *team tape Tony Cook

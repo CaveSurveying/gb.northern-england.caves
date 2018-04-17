@@ -6,7 +6,7 @@
 
 *title "DeathsHead from just past connection to LJ down DeathsHead inlet then downstream to Lost Johns Sump and upstream to inlet just beyond long pool"
 
-*date 2012.1.14
+*date 2012.01.14
 
 *team Instruments Julian Todd
 

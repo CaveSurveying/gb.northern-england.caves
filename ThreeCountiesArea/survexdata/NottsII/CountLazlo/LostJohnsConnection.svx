@@ -4,7 +4,7 @@
 
 ;*title "Lyle Caverns choke"
 ; Location: Lost Johns, Lyle Caverns Choke connection to Notts 2
-;*date 15/11/2011
+;*date 2011.11.15
 ;*team Instruments Tim Allen 
 ;*team Notes Joe Giblin
 ;Instrument Tim's

@@ -6,7 +6,7 @@
 ; Locn: West Kingsdale
 ; Cave: KMC
 *title "Swinsto Downstream Sump"
-*date 2008.06.22  ;Date:	22/06/08
+*date 2008.06.22
 
 *team surveyor John Cordingley
 ;*instrument ?

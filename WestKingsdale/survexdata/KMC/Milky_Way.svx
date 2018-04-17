@@ -6,7 +6,7 @@
 ; Locn: West Kingsdale
 ; Cave: KMC
 *title "Milky Way"
-*date 1999.01.05	;Date:	05/01/99
+*date 1999.01.05
 
 *team surveyor DCC
 ;Instruments:	?
