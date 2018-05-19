@@ -7,9 +7,9 @@ input ShackletonsP.th2
 
 map ShackletonsPlan -title "Shackletons Plan"
   ShackletonsSP7
-  ShackletonsSP6
   ShackletonsSP5
   break
+  ShackletonsSP6
   ShackletonsSP4
   break
   ShackletonsSP3

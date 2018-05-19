@@ -6,7 +6,8 @@ source Shackletons.th
 #Surveys to output
 #-----------------
 
-#select ShackletonsPlan
+
+
 
 
 export map -proj plan -layout local -o ../output/ShackletonsOutput/Shackletons.pdf

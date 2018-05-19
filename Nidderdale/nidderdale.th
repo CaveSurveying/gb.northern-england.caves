@@ -1,5 +1,7 @@
 encoding  utf-8
-#survey nidderdale
+
+survey nidderdale
+#>>>>>>> .r3141
 
 
 input goyden/Goyden.th
@@ -21,7 +23,11 @@ input planHard/PlanHard.th
 input surface1/Surface1.th
 input surface2/Surface2.th
 #input goy3/Goy3.th
+
+
 #input TomTaylors/TomTaylors.th
+
+
 
 #### Plan Joins ####
 
@@ -89,7 +95,7 @@ endmap
 ###############################################
 
 
-#centerline
+centerline
 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot
@@ -117,7 +123,7 @@ equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott
 equate 1.26@Surface2 6.0@FrogPot
 
-#endcenterline
+endcenterline
 
-#endsurvey
+endsurvey
 

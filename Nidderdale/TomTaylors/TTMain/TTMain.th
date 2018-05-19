@@ -40,10 +40,12 @@ copyright 2018 "GNU GPL"
   ##################
  
   ####################
+  ####################
   cs OSGB:SE
   declination 1.6 degrees
   station 1.0 "Tom Taylors" entrance
   fix 1.0 09374 73534 195   
+  ##########################
   ##########################
 
 data normal from to tape compass clino ignoreall
