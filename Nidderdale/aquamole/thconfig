@@ -24,7 +24,7 @@ export map -proj plan -layout local -o ../output/AquamoleOutput/Aquamole.pdf
 
 
 #export model -o Aquamole.kml
-export map -o ../output/AquamoleOutput/Aquamole.kml
+#export map -o ../output/AquamoleOutput/Aquamole.kml
 
 layout local
 scale 1 500

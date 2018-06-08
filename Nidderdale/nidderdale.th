@@ -1,7 +1,7 @@
 encoding  utf-8
 
 survey nidderdale
-#>>>>>>> .r3141
+#.r3141
 
 
 input goyden/Goyden.th
@@ -23,6 +23,7 @@ input planHard/PlanHard.th
 input surface1/Surface1.th
 input surface2/Surface2.th
 #input goy3/Goy3.th
+input NorthChoke/NorthChokeIndex.th
 
 
 #input TomTaylors/TomTaylors.th
@@ -39,18 +40,19 @@ join GoydenSP1 MudHallSP3
 join FrogPotSP3 AquamoleSP1
 join FrogPotSP3 ShackletonsSP1
 join AquamoleSP4 ShackletonsSP7
+join AquamoleSP2 NorthChokeSP1@NorthChokeIndex
 join LabyrinthSP4 CarterPassageSP1
 join LabyrinthSP1 MudHallSP5
 join NewGoydenSP4 PlanHardSP1
 join ThropePotSP1 NewGoydenSP5
 join Surface1SP3 Surface2SP4
 
+
 #join G2SJ1 at Goyden2:1 G3SJ1 at goy3:0 -smooth on
 #join G2SJ2 at Goyden2:0 G3SJ1 at goy3:1 -smooth on
 
 
 ####################################################
-
 map nidderdalePlan -title "Nidderdale Plan"  
   
   Surface2Plan
@@ -77,6 +79,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   break
   frogpotPlan
   break
+  NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
   aquamolePlan
    
@@ -90,6 +93,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   #goy3Plan             ##Need to survey sump 2 so we can add to main map
   
 endmap
+
 
 ###############################################
 ###############################################
@@ -109,6 +113,7 @@ equate 1.8@Goyden 1.0@PillarPot
 equate 1.0@CarterPassage 1.82@Labyrinth
 equate 1.19@FrogPot 1.19@Aquamole
 equate 1.28@FrogPot 1.0@Shackletons
+equate 1.40@Aquamole 1.0@NorthChoke.NorthChokeIndex
 equate 1.51@Aquamole 1.57@Shackletons
 equate 5.47@NewGoyden 1.28@FrogPot
 equate 1.15@NewGoyden 1.0@PlanHard
