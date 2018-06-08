@@ -5,7 +5,7 @@ source nidderdale.th
 
 #Surveys to output
 #-----------------
-select nidderdalePlan
+select nidderdalePlan@nidderdale
 
 
 ## use Map or survey structure to selelect individual or multiple maps to export to Nidderdal pdf##
