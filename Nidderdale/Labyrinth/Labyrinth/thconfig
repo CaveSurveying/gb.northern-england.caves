@@ -1,0 +1,39 @@
+encoding  utf-8
+source Labyrinth.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+select LabyrinthPlan
+
+
+
+
+
+export map -proj plan -layout local -o ../../Output/LabyrinthOutput/LabyrinthOutput/Labyrinth.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o ../../output/LabyrinthOutput/LabyrinthEe.pdf
+
+#export map -proj [elevation 90] -layout local -o ../../output/LabyrinthOutput/Labyrinth.pdf
+
+#export model -fmt survex layout local -o ../../output/LabyrinthOutput/Labyrinthth.3d
+#Survex file showing centre line only
+
+#export model -o ../../output/LabyrinthOutput/Labyrinth.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Labyrinth_Walls.3d
+#Survex file showing walls only
+
+#export model layout local -o ../../output/LabyrinthOutput/Labyrinth.kml
+
+layout local
+symbol-set BCRA
+#debug on
+#colour map-bg 90
+#grid top
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout
