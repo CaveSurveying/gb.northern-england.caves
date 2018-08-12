@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 147.39m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.00m (from 7.2@Lab2 at 1.10m to 1.22@Lab2 at -11.90m)\nnorth-south range: 92.63m (from 1.0@Lab2 at 0.00m to 1.22@Lab2 at -92.63m)\neast-west range: 25.37m (from 1.22@Lab2 at 22.28m to 6.2@Lab2 at -3.09m)\nnumber of shots: 318\nnumber of stations: 319"
+xth_cp_data_tree_insert 161 1 1 Lab2 Lab2 "" "" "length: 147.39m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.00m (from 7.2@Lab2 at 1.10m to 1.22@Lab2 at -11.90m)\nnorth-south range: 92.63m (from 1.0@Lab2 at 0.00m to 1.22@Lab2 at -92.63m)\neast-west range: 25.37m (from 1.22@Lab2 at 22.28m to 6.2@Lab2 at -3.09m)\nnumber of shots: 318\nnumber of stations: 319"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 160X1 p1 1 Lab2Plan Lab2Plan "Labyrinth 2" "Labyrinth 2"
+xth_cp_map_tree_create
+xth_cp_comp_stat 147 9
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1532618714
+

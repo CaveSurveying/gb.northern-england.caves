@@ -13,7 +13,7 @@ map NorthChokeIndex -title "NorthChokeIndex"
   NorthChokePlan #@NorthChoke
   break
   LowerNorthChokePlan #@LowerNorthChoke
-    endmap
+endmap
 
 #map NorthChokeME
   #NorthChokeSE1

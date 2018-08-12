@@ -1,12 +1,13 @@
 encoding  utf-8
 
 input Goy3P.th2
+#input Sump2/Sump2.th
 #input Goy3Ee.th2
 #input Goy3E90.th2
 
 map goy3Plan -title "Goyden 3 Plan"
   goy3SP1
-  #goy3SPX1.3
+  #Sump2Plan@Sump2
 endmap
 
 #map goy3ME
@@ -19,6 +20,8 @@ endmap
 
 survey goy3
 centreline
+
+#equate 4.0@Sump2 1.0@Goy3
 
 copyright 2015 "GNU GPL"
 
@@ -172,7 +175,12 @@ data normal from to tape compass clino ignoreall
 1.9  -  7.115  113.07  -4.02  
 1.9  -  6.896  126.46  -4.76  
 1.9  -  3.782  134.18  -5.76  
-1.9  -  2.857  158.01  -9.67  
+1.9  -  2.857  158.01  -9.67
+
+#1.0   0.0 0.0 0.0
+1.0 2.0 4.5  150 -16.6
+2.0 3.0 .75 100 -7.5
+3.0 4.0 4.5  107 34.4 
 endcentreline
 endsurvey
 

@@ -1,10 +1,13 @@
 encoding  utf-8
 source goy3.th
+
 # Change name to the main therion file
 
 
 #Surveys to output
 #-----------------
+select goy3Plan
+
 
 export map -proj plan -layout local -o ../output/Goy3Output/Goy3.pdf 
 #Produces plan of cave, on a single sheet

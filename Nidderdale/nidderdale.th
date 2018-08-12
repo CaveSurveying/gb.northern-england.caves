@@ -13,7 +13,7 @@ input guscott/Guscott.th
 input churchPot/ChurchPot.th
 input gargettWay/GargettWay.th
 input goyden2/Goyden2.th
-input labyrinth/Labyrinth.th
+input labyrinth/LabyrinthIndex.th
 input mudHall/MudHall.th
 input carterPassage/CarterPassage.th
 input thropePot/ThropePot.th
@@ -22,7 +22,7 @@ input shackletons/Shackletons.th
 input planHard/PlanHard.th
 input surface1/Surface1.th
 input surface2/Surface2.th
-#input goy3/Goy3.th
+input goy3/Goy3.th
 input NorthChoke/NorthChokeIndex.th
 
 
@@ -32,7 +32,7 @@ input NorthChoke/NorthChokeIndex.th
 
 #### Plan Joins ####
 
-join GoydenSP1 LabyrinthSP1
+join GoydenSP1 LabyrinthSP1@LabyrinthIndex
 join churchPotSP4 GoydenSP1
 join GoydenSP1 PillarPotSP1
 join GoydenSP1 MudHallSP1
@@ -41,15 +41,15 @@ join FrogPotSP3 AquamoleSP1
 join FrogPotSP3 ShackletonsSP1
 join AquamoleSP4 ShackletonsSP7
 join AquamoleSP2 NorthChokeSP1@NorthChokeIndex
-join LabyrinthSP4 CarterPassageSP1
-join LabyrinthSP1 MudHallSP5
+join LabyrinthSP4@LabyrinthIndex CarterPassageSP1
+join LabyrinthSP1@LabyrinthIndex MudHallSP5
 join NewGoydenSP4 PlanHardSP1
 join ThropePotSP1 NewGoydenSP5
 join Surface1SP3 Surface2SP4
+join Goyden2SP1 goy3SP1
 
 
-#join G2SJ1 at Goyden2:1 G3SJ1 at goy3:0 -smooth on
-#join G2SJ2 at Goyden2:0 G3SJ1 at goy3:1 -smooth on
+
 
 
 ####################################################
@@ -66,7 +66,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   goydenPlan
   break
   manholePlan 
-  labyrinthPlan
+  LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
   goyden2Plan
   
@@ -90,7 +90,7 @@ map nidderdalePlan -title "Nidderdale Plan"
                         ##so that needs sorting.
   
   
-  #goy3Plan             ##Need to survey sump 2 so we can add to main map
+  goy3Plan             ##Need to survey sump 2 so we can add to main map
   
 endmap
 
@@ -105,12 +105,12 @@ equate 1.12@Goyden 7.36@ManHole
 equate 1.16@Goyden 1.21@ChurchPot
 equate 1.8@Goyden 1.0@MudHall
 equate 1.11@Goyden 1.70@MudHall
-equate 1.23@Labyrinth 1.101@MudHall
+equate 1.23@Labyrinth.LabyrinthIndex 1.101@MudHall
 equate 1.0@GargettWay 1.9@ChurchPot
 equate 1.16@Goyden2 1.16@GargettWay
-equate 1.19@Labyrinth 1.19@Goyden
+equate 1.19@Labyrinth.LabyrinthIndex 1.19@Goyden
 equate 1.8@Goyden 1.0@PillarPot
-equate 1.0@CarterPassage 1.82@Labyrinth
+equate 1.0@CarterPassage 1.82@Labyrinth.LabyrinthIndex
 equate 1.19@FrogPot 1.19@Aquamole
 equate 1.28@FrogPot 1.0@Shackletons
 equate 1.40@Aquamole 1.0@NorthChoke.NorthChokeIndex
@@ -119,7 +119,7 @@ equate 5.47@NewGoyden 1.28@FrogPot
 equate 1.15@NewGoyden 1.0@PlanHard
 equate 1.22@NewGoyden 1.0@ThropePot
 
-#equate 1.28@Goyden2 1.0@goy3
+equate 1.28@Goyden2 4.0@goy3
 
 equate 1.34@ThropePot 1.50@Surface1
 equate 1.53@Surface1 1.0@NewGoyden
