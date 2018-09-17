@@ -1,6 +1,6 @@
 *begin right_hand_route-2
 
-*export x
+*export x 23
 
 *title "Notts II - Gour Inlet - right hand route after window - continuing from right hand route initial survey"
 *date 2018.04.14
@@ -75,7 +75,7 @@ x	0.2	0.1	0	3.5	ceiling (tippex) above 2.5m climb with no rope
 20	0.2	0.2	5	3	up climb
 21	1.1	0.5	1.8	0.1	rw before pool
 22	0.3	0.3	0.4	0.1	shot through pool
-23	2	0	5	6	rw darkness visible traverse
+23	2	0	5	6	rw darkness visible traverse - numbered
 24	0	1.2	6	1	bridge on traverse
 25	1.2	0	3	1	bridge on traverse before hole
 26	1.3	0	1.5	1.5	rw end darkness visible traverse

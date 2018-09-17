@@ -1,0 +1,83 @@
+*begin right_hand_route-3
+
+*export 23x
+
+*title "Notts II - Gour Inlet - right hand route after window - continuing from right hand route second survey"
+*date 2018.09.16
+*team Tippex Nathanael Dalton
+*team Distox Emma Heron
+*team Notes Becka Lawson
+*instrument Becka's Distox2 2
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+23x	1	1.33	076.5	-33
+1	2	6.15	150	-79
+2	3	2.63	337.5	+32
+3	4	3.50	083	+04
+3	5	13.66	146	-32
+5	6	5.79	331	-85
+6	7	0.80	083	-33
+7	8	10.69	250	-85
+8	9	4.23	005	-19
+9	10	3.30	051	-44
+10	11	1.97	073	-28
+11	12	3.17	010	-21
+12	13	4.07	315	+06
+13	14	4.84	013	-01
+14	15	4.01	081	-08
+15	16	2.52	073	-18
+
+9	17	3.47	158	+17
+17	18	9.93	076	+32
+18	19	5.14	086	+52		; CHECK
+19	20	6.24	077	+36.5	; CHECK
+20	21	4.55	083	+66
+21	22	1.81	058	+20
+22	23	3.30	085	+72
+
+9	24	5.80	294.5	+45
+24	25	3.23	350	-11
+25	26	3.99	283	-03
+26	27	6.02	298	-29
+27	28	7.83	325	+00.5
+28	29	5.49	337	-12
+
+*data passage station left right up down ignoreall
+
+23x	1.5	0	5	1.5	rw darkness visible traverse - numbered from previous RH route 2 trip
+1	1	2	2.9	5.5	LW by pitch bolts
+2	1.8	0.7	1.7	8	RW bottom of rift
+3	1.2	1.2	4	2	RW (same wall as 2)
+4	1	1	1	0	end of mud choked passage
+5	0	0.5	9	10	A metre below the bolts for Y hang of next pitch
+6	0.5	0	10	10	opposite wall to deviation on RW
+7	0	0.5	10	10	same wall as deviation
+8	0	1.2	15	1	bottom of pitch
+9	3	0	0.2	1.5	chamber, numbered (twice, both times badly) on corner
+10	0.5	1	0.3	0.4	tube
+11	0.5	0.3	0	0.2	roof of tube
+12	1	0	0.3	0.1	RW at end of tube
+13	0	2	1.2	1.2	far wall
+14	1	2.5	2	1.7	LW before downstream sump
+15	0.5	0.5	0	1.2	LW at start of downstream sump
+16	0.4	0	0.2	0	start of downstream sump
+
+17	1.5	0	1.6	0.2	RW mud ramp
+18	0.3	2	3	0.5	base of climb
+19	0.6	0.7	0	0.5	ceiling climb
+20	6	1.5	4	1.7	top of slope, start of climb
+21	1	0.2	0.7	0.7	RW up climb
+22	0	0.4	2.5	0.3	LW
+23	0.2	0.2	0.2	0.2	near end of wet drafting choke of boulders in wall and ceiling
+
+24	0.5	1.3	1.7	1	LW 0.3m directly below Y hang bolts
+25	1.2	0	2	0.5	RW before crawl
+26	0	1.3	1.5	0.3	LW after crawl
+27	1.1	0.3	1	1.4	RW
+28	0	1.1	1.8	1.5	LW before upstream sump
+29	0.6	0.1	0.1	0.2	above upstream sump on RW / ceiling 
+
+*end right_hand_route-3

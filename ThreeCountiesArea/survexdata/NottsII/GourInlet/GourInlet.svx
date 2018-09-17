@@ -8,17 +8,19 @@
 *include Gourinlet_1
 *include GourInlet_2
 *include GourInlet_3
-; *include PU  ; removed by Becka as replaced by right_hand_route-2 resurvey (PU has no clino, only tape and compass)
+;*include PU  ; removed by Becka as replaced by right_hand_route-2 resurvey (PU has no clino, only tape and compass)
 *include right_hand_route
 *include right_hand_route-2
+*include right_hand_route-3
 
 ;---------------------------------------------------
 
 *equate GourInlet_1.021 GourInlet_2.001
 *equate GourInlet_1.026 GourInlet_2.008
 *equate GourInlet_2.025 GourInlet_3.001
-; *equate PU.016 Gourinlet_3.010
-*equate right_hand_route.0a GourInlet_3.010
+;*equate PU.016 Gourinlet_3.010
+*equate right_hand_route.0a GourInlet_3.010   ; originally connected to GourInlet_3.010 to copy PU connection but need to check this (I asked Dave Ramsay and he guessed connection was station 10 or 11 ... BL wondered if it should be stn 006)
 *equate right_hand_route.14 right_hand_route-2.x
+*equate right_hand_route-2.23 right_hand_route-3.23x
 
 *end GourInlet
