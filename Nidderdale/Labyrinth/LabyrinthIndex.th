@@ -3,6 +3,7 @@ survey LabyrinthIndex
 
 input Labyrinth/Labyrinth.th
 input Lab2/Lab2.th
+input BeetRoot/BeetRoot.th
 
 
 
@@ -10,6 +11,7 @@ input Lab2/Lab2.th
 map LabyrinthIndex -title "Labyrinth Index"
   LabyrinthPlan
   Lab2Plan
+  BeetRootPlan
 endmap
 
 #map 
@@ -25,6 +27,7 @@ centreline
 
 equate 1.47@Labyrinth 1.0@Lab2 
 equate 1.3@Lab2 7.5@Lab2
+equate 1.22@Lab2 1.0@BeetRoot
 
 copyright 2018 "GNU GPL"
 
