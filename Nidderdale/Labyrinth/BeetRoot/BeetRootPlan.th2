@@ -1,0 +1,98 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 83.01659207200001 235.3385826800004 3331.1425763234 4979.5275590571
+##XTHERION## xth_me_area_zoom_to 21
+##XTHERION## xth_me_image_insert {451.788890739 1 1.0} {4095.75314961 1.4} PocketTopo/BeetRoot_p.xvi 0 {}
+
+
+
+scrap BeetRootSP1 -projection plan -station-names "" "@BeetRoot" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 384.93889073900004 4597.49314961 station -name 1.1
+
+point 450.158890739 4816.80314961 station -name 1.0
+
+endscrap
+
+
+
+scrap BeetRootSP2 -projection plan -station-names "" "@BeetRoot" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1972.778890739 2600.4531496100003 station -name 1.11
+
+point 1806.168890739 2957.1831496100003 station -name 1.10
+
+point 1616.438890739 2907.4731496100003 station -name 1.9
+
+point 1402.578890739 3175.5231496100005 station -name 1.8
+
+point 1235.138890739 3089.61314961 station -name 1.7
+
+point 1041.218890739 3172.84314961 station -name 1.6
+
+point 821.1288907390001 3634.6831496100003 station -name 1.5
+
+point 451.788890739 4095.75314961 station -name 1.4
+
+point 327.108890739 4485.943149610001 station -name 1.3
+
+point 365.628890739 4553.08314961 station -name 1.2
+
+endscrap
+
+
+
+scrap BeetRootSP3 -projection plan -station-names "" "@BeetRoot" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 2535.988890739 1659.27314961 station -name 1.15
+
+point 2257.918890739 2128.0831496100004 station -name 1.14
+
+point 2177.9988907389998 2172.4931496100003 station -name 1.13
+
+point 2069.758890739 2460.96314961 station -name 1.12
+
+endscrap
+
+
+
+scrap BeetRootSP4 -projection plan -station-names "" "@BeetRoot" -scale [212.3968149609175 364.78924684052885 998.4229276895943 1150.6217734781837 0 0 10 10 m]
+
+point 3011.858890739 710.5631496100004 station -name 1.17
+
+point 2989.318890739 821.7231496100003 station -name 11.1
+
+point 2846.968890739 1001.9231496100001 station -name 1.16
+
+endscrap
+
+
+
+scrap BeetRootSPX1.16 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BeetRootSPX1.15 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BeetRootSPX1.11 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BeetRootSPX1.9 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BeetRootSPX1.5 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
