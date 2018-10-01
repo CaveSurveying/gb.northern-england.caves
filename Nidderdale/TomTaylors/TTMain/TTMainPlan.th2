@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -133.88235294117646 -133.88235294117646 6042.705882352941 8372.117647058823
-##XTHERION## xth_me_area_zoom_to 68
+##XTHERION## xth_me_area_zoom_to 34
 ##XTHERION## xth_me_image_insert {1516.7035195590001 1 1.0} {7083.72496063 1.4} PocketTopo/TTMain_p.xvi 0 {}
 
 
@@ -253,10 +253,6 @@ area water
   l183-2803-5479
 endarea
 
-line section -close off
-  2765.8536585365855 5771.951219512195
-endline
-
 line border -id l183-2803-5479 -close on -subtype visible
   2676.32 5642.11
   2647.37 5628.95 2663.16 5655.26 2642.105263157895 5639.473684210527
@@ -425,8 +421,6 @@ point 2393.75 5553.125 label -text B
 point 3328.177339901478 5910.738916256158 label -text B-B
 
 point 2868.75 5843.75 label -text B
-
-point 2393.75 5553.125 label -text A
 
 point 2546.875 6287.5 label -text A
 

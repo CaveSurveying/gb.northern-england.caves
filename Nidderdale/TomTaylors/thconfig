@@ -13,7 +13,7 @@ source TomTaylors.th
 
 
 export map -proj plan -layout local -o ../Output/TomTaylorsOutput/TomTaylors.pdf
-export map -proj extended -layout local -o ../output/TomTaylorsOutput/TomTaylorsEe.pdf
+#export map -proj extended -layout local -o ../output/TomTaylorsOutput/TomTaylorsEe.pdf
 #export map -o ../output/TomTaylorsOutput/TTMain.kml
 #export model -fmt survex -o ../output/TomTaylorsOutput/TTMain.3d
 #export model  -o ../output/TomTaylorsOutput/TTMain.lox
@@ -34,7 +34,8 @@ legend on
 #colour map-fg altitude
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
-colour map-bg [90 90 90] ##Light Grey##
+#colour map-bg [97 86 38] ##pale yellow##
+#colour map-bg [90 90 90] ##Light Grey##
 
 
 north grid
@@ -42,10 +43,11 @@ north grid
   #grid top
   grid-size 20 20 20 m
   #grid-coords all #border
+  #grid-coords
   
   #rotate -90
   map-header 100 100 ne
-  #transparency on
+  transparency on
   scale-bar 10 metres
 
 symbol-colour area water [25 50 100]

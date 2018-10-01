@@ -24,6 +24,8 @@ input surface1/Surface1.th
 input surface2/Surface2.th
 input goy3/Goy3.th
 input NorthChoke/NorthChokeIndex.th
+input LowEglins/LowEglins.th
+input LofthousePot/LofthousePot.th
 
 
 #input TomTaylors/TomTaylors.th
