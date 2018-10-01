@@ -1,4 +1,5 @@
 encoding  utf-8
+
 source LabyrinthIndex.th
 
 # Change name to the main therion file
@@ -8,6 +9,7 @@ source LabyrinthIndex.th
 #-----------------
 select LabyrinthPlan@LabyrinthIndex
 select Lab2Plan@LabyrinthIndex
+select BeetRootPlan@LabyrinthIndex
 
 
 

@@ -6,8 +6,10 @@ input BeetRootPlan.th2
 #input BeetRootE90.th2
 
 map BeetRootPlan
-  BeetRootSP1
   BeetRootSP2
+  break
+  BeetRootSP1
+  
   BeetRootSP3
   BeetRootSP4
 endmap

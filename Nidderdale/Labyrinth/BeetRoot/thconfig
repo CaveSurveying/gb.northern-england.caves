@@ -7,7 +7,7 @@ source BeetRoot.th
 #-----------------
 
 
-select BeetRootPlan@BeetRoot
+select BeetRootPlan
 
 
 export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootOutput/BeetRoot.pdf
