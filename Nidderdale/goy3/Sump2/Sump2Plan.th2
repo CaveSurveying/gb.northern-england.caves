@@ -1,15 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -151.68843216 -166.43766466099999 747.5121951219512 579.219512195122
-##XTHERION## xth_me_area_zoom_to 41
-##XTHERION## xth_me_image_insert {224.8217253203 1 1.0} {149.24742101000004 2.0} PocketTopo/Sump2_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -151.68843216000002 -262.47720780899994 1285.4139300445 573.9183673469388
+##XTHERION## xth_me_area_zoom_to 55
+##XTHERION## xth_me_image_insert {1139.4217253202999 1 1.0} {-55.73257898999998 5.0} PocketTopo/Sump2_p.xvi 0 {}
 
 
 
-scrap Sump2SP1 -projection plan -station-names "" "@Sump2" -scale [0 0 787.4 787.4 0 0 10 10 m]
+scrap Sump2SP1 -projection plan -station-names "" "@Sump2" -scale [-21.761323253860567 -132.4481488660593 787.4 787.4 0 0 10 10 m]
 
-point 605.5717253203 40.30742101000004 station -name 4.0
+point 1139.4217253202999 -55.73257898999998 station -name 4.0
 
-point 282.48172532030003 139.08742101 station -name 3.0
+point 801.4317253203 47.607421009999996 station -name 3.0
 
 point 224.8217253203 149.24742101000004 station -name 2.0
 

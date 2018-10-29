@@ -28,7 +28,7 @@ export map -proj plan -layout local -o ../output/Goy3Output/Goy3.pdf
 #export model -o ../Output/Goy3Output/goy3.kml
 
 layout local
-#debug off
+debug on
 symbol-set BCRA
 #colour scrap-fg
 #colour map-bg 90

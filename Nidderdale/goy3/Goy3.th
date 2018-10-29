@@ -179,8 +179,9 @@ data normal from to tape compass clino ignoreall
 
 #1.0   0.0 0.0 0.0
 1.0 2.0 4.5  150 -16.6
-2.0 3.0 .75 100 -7.5
-3.0 4.0 4.5  107 34.4 
+2.0 3.0 7.5  100 -7.5
+3.0 4.0 5.2  107 30.3
+#4.0 5.0 0.3  107 100.0
 endcentreline
 endsurvey
 
