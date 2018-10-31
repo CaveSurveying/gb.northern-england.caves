@@ -1,4 +1,5 @@
 encoding  utf-8
+
 source nidderdale.th
 #Change name to the main therion file
 
@@ -17,7 +18,7 @@ select nidderdalePlan@nidderdale
 
 export map -proj plan -layout local -o output/NidderdaleOutput/nidderdale.pdf
 #export map -o output/NidderdaleOutput/nidderdale.kml
-export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
+#export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
 #export model  -o output/NidderdaleOutput/nidderdale.lox
 #export map -proj plan -o output/NidderdaleOutput/nidderdale_Walls.3d
 #Survex file showing walls only
