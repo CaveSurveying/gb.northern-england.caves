@@ -1,0 +1,58 @@
+*BEGIN CrossPot
+*EXPORT 1.0
+*ENTRANCE 1.0
+
+*CALIBRATE declination +1.57	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								;54.146915°N 2.413190°W   2018.04.29
+
+*BEGIN 1
+*EXPORT 0
+
+;Di pda, Si distoX Slim l.p.
+;calibrated error <0.5
+*DATE 2018.04.29
+
+
+;*CALIBRATE DECLINATION
+
+*FLAGS SPLAY
+0	0a	 1.06	 57.97	-15.41	;5.13 cross pot
+0	0b	 0.82	125.69	 -2.68
+0	0c	 2.33	100.87	  2.33
+0	0d	 1.91	 18.45	 -1.39
+0	0e	 1.56	308.52	 -6.45
+*FLAGS NOT SPLAY
+0	1	 2.56	 70.90	-68.00
+*FLAGS SPLAY
+1	1a	 0.88	159.61	-78.82
+1	1b	 0.82	313.58	-18.46
+1	1c	 0.93	115.16	 -5.48
+*FLAGS NOT SPLAY
+1	2	 2.52	350.61	-33.10
+*FLAGS SPLAY
+2	2a	 0.75	 71.13	 -6.59
+2	2b	 0.72	125.51	 78.70
+2	2c	 1.43	165.21	-29.83
+2	2d	 0.95	240.34	-14.50
+2	2e	28.82	 76.17	-84.27
+*FLAGS NOT SPLAY
+2	3	30.16	 87.33	-84.21
+*FLAGS SPLAY
+3	3a	29.20	294.81	 85.94
+3	3b	 0.67	 82.19	 22.79
+3	3c	 1.96	241.31	  7.23
+3	3d	 2.75	315.80	  8.79
+3	3e	 2.80	316.25	 11.78
+3	3f	 2.53	275.95	 10.94
+*FLAGS NOT SPLAY
+
+
+
+*data passage station left right up down
+0	 1.01	 0.30	 0.00	 0.00
+1	 0.75	 0.92	 0.00	 0.86
+2	 0.33	 1.00	 0.71	28.68
+3	 2.07	 0.85	29.12	 0.00
+*END 1
+
+*END CrossPot

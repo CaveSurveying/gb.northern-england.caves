@@ -1,0 +1,171 @@
+*BEGIN FernPot
+*EXPORT 1.0
+
+*ENTRANCE 1.0
+*EQUATE 1.3  2.0
+*EQUATE 1.0 3.0
+
+*BEGIN 1
+*EXPORT 0 3
+
+;Di pda, Si distoX Slim l.p.
+;calibrated error <0.5
+
+*DATE 2018.04.29
+
+*CALIBRATE declination +1.57	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								;54.146915°N 2.413190°W   2018.04.29
+
+*FLAGS SPLAY
+0	0a	 1.91	349.58	-80.58	;3.0 Top of FernPot Entrance Climb - RHS
+0	0b	 0.77	171.97	  2.59
+0	0c	 1.10	139.07	 -3.31
+0	0d	 3.81	162.24	  8.59
+0	0e	 7.35	 95.06	 -7.49
+0	0f	 6.70	 39.14	-12.05
+0	0g	 3.80	 10.55	-13.61
+0	0h	10.22	 30.96	-40.27
+0	0i	10.20	 31.03	-40.31
+*FLAGS NOT SPLAY
+0	1	10.23	 31.01	-40.40
+*FLAGS SPLAY
+1	1a	 0.30	285.17	  0.74
+1	1b	 1.03	180.44	-83.42
+1	1c	 0.69	233.89	 72.84
+1	1d	 0.34	122.90	-25.53
+1	1e	 5.33	 56.19	-78.09
+*FLAGS NOT SPLAY
+1	2	 6.84	 52.77	-58.19
+*FLAGS SPLAY
+2	2a	 3.25	288.12	 81.99
+2	2b	 0.84	 36.00	 -4.64
+2	2c	 0.47	138.32	 13.55
+2	2d	 0.97	332.77	 24.46
+*FLAGS NOT SPLAY
+2	3	 6.29	108.57	-49.35
+*FLAGS SPLAY
+3	3a	 2.12	307.84	 79.05
+3	3b	 0.51	308.88	  3.75
+3	3c	 1.15	 18.91	-15.14
+3	3d	 1.31	 51.27	 -6.10
+3	3e	 3.18	 41.83	  5.31
+3	3f	 5.63	 18.37	-83.02
+3	3g	 1.34	215.25	  7.86
+3	3h	 0.94	249.37	 16.80
+*FLAGS NOT SPLAY
+3	4	 5.62	 31.48	-82.90
+*FLAGS SPLAY
+4	4a	 0.47	 53.58	-13.40
+4	4b	 0.63	224.42	 20.65
+4	4c	 0.33	323.48	  2.20
+4	4d	 0.80	131.91	-28.19
+4	4e	 4.18	284.53	 82.23
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 1.29	 6.55	 0.00	 1.89
+1	 0.27	 0.30	 0.65	 1.02
+2	 0.84	 0.38	 3.22	 0.00
+3	 0.86	 0.75	 2.08	 5.59
+4	 0.31	 0.70	 4.14	 0.38
+*END 1
+
+*BEGIN 2
+*EXPORT 0
+
+;Di pda, Si distoX Slim l.p.
+;calibrated error <0.5
+
+*DATE 2018.04.29
+
+*CALIBRATE declination +1.57	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								;54.146915°N 2.413190°W   2018.04.29
+
+
+*FLAGS SPLAY
+0	0a	 0.51	304.79	 -0.98
+0	0b	 0.68	208.44	-83.77
+0	0c	 1.41	319.79	 82.97
+*FLAGS NOT SPLAY
+0	1	 1.99	255.71	 76.75
+*FLAGS SPLAY
+1	1a	 0.69	252.58	  1.47
+1	1b	 2.77	272.79	 80.13
+1	1c	 3.06	158.45	-84.36
+*FLAGS NOT SPLAY
+1	2	 5.13	220.27	  9.90
+*FLAGS SPLAY
+2	2a	 0.20	120.54	 11.07
+2	2b	 0.19	124.35	-85.13
+2	2c	 0.23	232.67	 75.30
+2	2d	 0.20	303.26	  4.35
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.00	 0.38	 1.40	 0.67
+1	 0.00	 0.17	 2.73	 3.05
+2	 0.20	 0.19	 0.22	 0.19
+*END 2
+
+
+*BEGIN 3
+*EXPORT 0
+
+;Di pda, Si distoX Slim l.p.
+;calibrated error <0.5
+
+*CALIBRATE declination +1.55	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								;54.146915°N 2.413190°W   2018.06.10
+								
+*DATE 2018.06.10
+
+*FLAGS SPLAY
+0	0a	 2.32	 68.41	-77.45	;3.0 Top of FernPot Entrance Climb - RHS
+0	0b	 7.44	 74.01	-13.73
+*FLAGS NOT SPLAY
+0	1	10.50	128.82	-37.03
+*FLAGS SPLAY
+1	1a	 1.26	271.77	 80.38
+1	1b	 0.86	270.81	-77.66
+1	1c	 5.51	349.02	 78.57
+1	1d	 2.14	 40.34	  0.73
+1	1e	 3.89	245.17	 -1.82
+*FLAGS NOT SPLAY
+1	2	 4.09	245.97	-11.55
+*FLAGS SPLAY
+2	2a	 0.99	 89.54	 -4.65
+2	2b	 1.84	110.96	 72.03
+2	2c	 0.62	 66.71	-86.36
+*FLAGS NOT SPLAY
+2	3	 4.68	169.38	-32.79
+*FLAGS SPLAY
+3	3a	 0.55	 48.82	 82.67
+3	3b	 0.40	 57.55	  2.54
+3	3c	 1.40	 94.55	-73.73
+*FLAGS NOT SPLAY
+3	4	 2.26	144.28	-16.94
+*FLAGS SPLAY
+4	4a	 0.41	270.05	  0.01
+4	4b	 0.91	252.50	-79.88
+4	4c	 2.83	293.72	 79.27
+*FLAGS NOT SPLAY
+4	5	 2.54	210.05	-27.15
+*FLAGS SPLAY
+5	5a	 0.29	327.07	  1.98
+5	5b	 0.98	328.52	 74.39
+5	5c	 1.05	340.56	-84.90
+5	5d	 1.85	192.99	-43.34	;3.5 bottom fern (2nd) pot
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 5.91	 0.00	 0.00	 2.26
+1	 1.16	 0.00	 1.24	 0.85
+2	 0.87	 0.00	 1.75	 0.62
+3	 0.40	 0.00	 0.55	 1.34
+4	 0.00	 0.41	 2.78	 0.90
+5	 0.40	 0.26	 0.94	 1.04
+
+*END 3
+
+
+*END FernPot

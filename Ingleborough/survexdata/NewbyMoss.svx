@@ -1,0 +1,20 @@
+*BEGIN NewbyMoss
+;*cs out UTM30N
+;*cs OSGB:SD
+*FIX LongKinWest.1.0 73108 72422 450 ;673108 772422 450
+
+*INCLUDE Surface/Surface.svx
+*INCLUDE CrossPot/CrossPot.svx
+*INCLUDE FernPot/FernPot.svx
+*INCLUDE LongKinWest/LongKinWest.svx
+*INCLUDE MossPot/MossPot.svx
+*INCLUDE GoldenPippin/GoldenPippin
+
+*EQUATE CrossPot.1.0 Surface.1.13
+*EQUATE Fernpot.1.0 Surface.1.8
+*EQUATE LongKinWest.1.0 Surface.1.0
+*EQUATE MossPot.1.0 Surface.2.4
+*EQUATE GoldenPippin.1.0 Surface.3.3 
+
+
+*END NewbyMoss
