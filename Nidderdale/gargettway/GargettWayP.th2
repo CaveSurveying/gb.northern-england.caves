@@ -1,13 +1,17 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 3680.7165354336003 12451.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 3680.7165354336003 12456.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {995.0392125999999 1 1.0} {11469.7521182 1.4} PocketTopo/GargettWay_p.xvi 0 {}
 
 
 
 scrap GargettWaySP1 -projection plan -station-names "" "@GargettWay" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1224.0 11312.0 label -scale xl -text [GARGETT WAY]
+point 224.0 11516.0 label -scale xl -text [Ball of String passage]
+
+point 908.0 10960.0 label -scale xl -text [Living Room]
+
+point 1248.0 11216.0 label -scale xl -text [Gargett Way]
 
 line floor-step -close on
   493.5 11030.5
@@ -139,6 +143,14 @@ endscrap
 
 
 scrap GargettWaySP2 -projection plan -station-names "" "@GargettWay" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 452.0 10364.0 label -scale xl -text [Connection point]
+
+point 896.0 8668.0 label -scale xl -text [Original explorers inscription]
+
+point 1944.0 8960.0 label -scale xl -text [Turf pitch]
+
+point 1612.0 10040.0 label -scale xl -text [Turf passage]
 
 line wall
   2124.5 7995.0
