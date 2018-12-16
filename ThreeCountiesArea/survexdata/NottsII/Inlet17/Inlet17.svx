@@ -5,14 +5,12 @@
 
 *include Inlet17_1
 *include Inlet17_2
-;*include Inlet17_3 Missing data through the sump which dog legs to link data sets
+*include Inlet17_3 ; Missing data through the sump which dog legs to link data sets, stations 12 to 13
 
 ;--------------------------------------------------------
 
 *equate Inlet17_1.33 Inlet17_2.33
-
-;*equate Inlet17_1.45 Inlet17_3.12  Missing data through the sump which dog legs to link data sets
-
+*equate Inlet17_1.45 Inlet17_3.13  Missing data through the sump which dog legs to link data sets
 
 *end Inlet17
 

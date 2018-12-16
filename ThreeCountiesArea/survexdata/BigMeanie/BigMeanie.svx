@@ -1,7 +1,6 @@
 *begin BigMeanie
-
-*export Entrance 
-*export BigMeanieDeathsHeadSurface.8 BigMeanie_2.2x 
+ 
+*export Entrance BigMeanieDeathsHeadSurface.8 BigMeanie_1.2P BigMeanie_2.2x 
 *entrance Entrance
 
 *Include BigMeanieDeathsHeadSurface

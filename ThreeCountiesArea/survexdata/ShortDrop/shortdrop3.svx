@@ -1,6 +1,6 @@
 *begin	shortdrop3
 
-*export 001 014 015 016 025
+*export 001 002 014 015 016 025
 
 *title "Short Drop from tag at Masochist Junction"
 *date 2010.10.10

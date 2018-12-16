@@ -7,9 +7,8 @@
 ;Book: Mike Bottomley
 ;Tape: Mike Bottomley
 
-;*export 
-;*export 
-;*export 
+*export 13
+
 *calibrate declination 2.65
 
 1	0	9	122	0		
@@ -24,7 +23,7 @@
 10	9	15	148	0
 11	10	3	210	0
 12	11	5	136	0
-;13	12	10	???	0
+13	12	10	150	0 ; given as "???" but guessed as 150 by Becka - can we get approx angle at least? Becka 19/09/2018
 
 *data passage station left right up down ignoreall
 
@@ -41,7 +40,6 @@
 10	1	1	0.5	0.5
 11	1	1	0.5	0.5
 12	0.5	0.5	1	0	;diveline
-;13	0	0.5	0.5	0	;sump approx.
+13	0	0.5	0.5	0	;sump approx.
 
-	
 *end Inlet17_3
