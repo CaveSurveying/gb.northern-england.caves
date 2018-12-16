@@ -2859,7 +2859,7 @@ line rock-border -close on
   3486.0 9920.0 3461.0 9943.0 3474.0 9947.0
 endline
 
-point 2182.0 11032.0 label -text [DRY WATH BEDDING] -scale xl
+point 2471.285714285714 11546.285714285716 label -text [DRY WATH BEDDING] -scale xl
 
 point 2915.0 11311.0 label -text C2 -scale xl
 
@@ -3023,7 +3023,7 @@ line wall
   smooth off
 endline
 
-point 2181.0 10915.0 label -text [(FLAT OUT)] -scale l
+point 2327.4285714285716 10972.142857142857 label -text [(Low bedding connection opened to Frog Pot)] -scale l
 
 line wall -subtype sand
   2018.0 11084.5
