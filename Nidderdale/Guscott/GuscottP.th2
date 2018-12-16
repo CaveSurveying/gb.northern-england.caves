@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 5514.5 8009.032572187601
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -148.0 -148.0 5533.0 8018.0
+##XTHERION## xth_me_area_zoom_to 20
 ##XTHERION## xth_me_image_insert {4766.190750000001 1 1.0} {7549.53002632 1.4} PocketTopo/Guscott_p.xvi 0 {}
 
 
@@ -51,6 +51,8 @@ endline
 area water
   l139-4819-7669
 endarea
+
+point 4020.833333333334 7116.666666666667 label -text [Ralf Inlet]
 
 line border -id l139-4819-7669 -close on
   2098.0 4005.0
@@ -162,6 +164,8 @@ endline
 
 line wall
 endline
+
+point 1430.0 3000.0 label -text [Main Stream]
 
 line wall
   840.0 2631.0
@@ -439,6 +443,10 @@ line floor-step
   smooth off
 endline
 
+point 2420.0 1625.0 label -text [Test of Faith]
+
+point 1875.0 945.0 label -text [Shale Chamber]
+
 line wall
   2226.0 946.0
   2226.0 964.0 2216.5 975.5 2216.5 982.5
@@ -522,6 +530,8 @@ area water
   l134-2440-6116
   l137-2361-6097
 endarea
+
+point 2058.3333333333335 5691.666666666667 label -text [Farm Inlet]
 
 line border -id l137-2361-6097 -reverse on
   2596.0 4140.0
