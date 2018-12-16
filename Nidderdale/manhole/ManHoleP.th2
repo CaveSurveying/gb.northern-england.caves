@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -685.1428571428571 -5863.0 5500.0314960619 21456.571428571428
+##XTHERION## xth_me_area_adjust -681.5714285714286 -5863.0 5500.0314960619 21453.0
 ##XTHERION## xth_me_area_zoom_to 28
 ##XTHERION## xth_me_image_insert {713.51086614 1 1.0} {-655.3240945000034 7.14} PocketTopo/ManHole3_p.xvi 0 {}
 
@@ -636,9 +636,9 @@ point 1208.695652173913 3243.478260869565 label -text [Swinton Bypass]
 
 point 1347.8260869565217 1947.8260869565217 label -text [Sump 1]
 
-point 2078.260869565217 2460.8695652173915 label -text [Duck]
+point 2267.5465838509313 2314.44099378882 label -text [Duck]
 
-point 3773.9130434782605 1878.2608695652173 label -text [Static Sump]
+point 3773.9130434782605 1878.2608695652173 label -text [Static Sump link to Pillar Pot]
 
 point 3392.0 3164.0 label -text [<center>Climb to Hole C2.0m]
 
