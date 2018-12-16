@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -137.7560975609756 -137.7560975609756 5149.1653543277 10032.878048780487
-##XTHERION## xth_me_area_zoom_to 41
+##XTHERION## xth_me_area_adjust -150.22222222222223 -150.22222222222223 5149.1653543277 10044.666666666666
+##XTHERION## xth_me_area_zoom_to 18
 ##XTHERION## xth_me_image_insert {1957.77748031 1 1.0} {9268.97826662 1.4} PocketTopo/MudHall_p.xvi 0 {}
 
 
@@ -1221,7 +1221,9 @@ line wall
   4033.3333333333335 4968.888888888889
 endline
 
-point 3050.0 4352.0 label -scale l -text [Mud Hall]
+point 3077.7777777777774 4466.666666666667 label -scale l -text [Link to Upper Nugatory passage]
+
+point 4072.222222222222 4529.777777777778 label -scale l -text [Mud Hall]
 
 line wall
   2613.51 7705.41
@@ -1424,7 +1426,7 @@ line wall
   smooth off
 endline
 
-point 4386.88524590164 3391.8032786885246 dig
+point 4442.440801457195 3425.136612021858 label -text [dig]
 
 line wall
   3385.45 3789.09

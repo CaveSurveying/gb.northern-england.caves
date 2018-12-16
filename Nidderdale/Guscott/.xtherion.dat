@@ -1,12 +1,12 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 180.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.52m (from 1.47@Guscott at 1.79m to 3.11@Guscott at -3.73m)\nnorth-south range: 89.28m (from 1.1@Guscott at 1.12m to 3.12@Guscott at -88.16m)\neast-west range: 57.09m (from 1.0@Guscott at 0.00m to 1.47@Guscott at -57.09m)\nnumber of shots: 112\nnumber of stations: 113"
-xth_cp_data_tree_insert 132 1 1 Guscott Guscott "" "" "length: 180.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.52m (from 1.47@Guscott at 1.79m to 3.11@Guscott at -3.73m)\nnorth-south range: 89.28m (from 1.1@Guscott at 1.12m to 3.12@Guscott at -88.16m)\neast-west range: 57.09m (from 1.0@Guscott at 0.00m to 1.47@Guscott at -57.09m)\nnumber of shots: 112\nnumber of stations: 113"
+xth_cp_data_tree_insert 141 1 1 Guscott Guscott "" "" "length: 180.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.52m (from 1.47@Guscott at 1.79m to 3.11@Guscott at -3.73m)\nnorth-south range: 89.28m (from 1.1@Guscott at 1.12m to 3.12@Guscott at -88.16m)\neast-west range: 57.09m (from 1.0@Guscott at 0.00m to 1.47@Guscott at -57.09m)\nnumber of shots: 112\nnumber of stations: 113"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 131X1 p1 1 guscottPlan guscottPlan "Guscott Plan" "Guscott Plan"
+xth_cp_map_tree_insert map 1 140X1 p1 1 guscottPlan guscottPlan "Guscott Plan" "Guscott Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 181 3
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1490802736
+set xth(th_exit_number) 1544967653
 

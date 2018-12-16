@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 5514.5 8009.032572187601
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -144.0 -144.0 5528.0 8012.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {4766.190750000001 1 1.0} {7549.53002632 1.4} PocketTopo/Guscott_p.xvi 0 {}
 
 
@@ -51,6 +51,8 @@ endline
 area water
   l139-4819-7669
 endarea
+
+point 3816.0 7332.0 label -text [Ralf Inlet]
 
 line border -id l139-4819-7669 -close on
   2098.0 4005.0
