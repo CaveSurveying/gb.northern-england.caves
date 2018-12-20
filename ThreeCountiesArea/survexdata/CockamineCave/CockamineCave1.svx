@@ -1,5 +1,5 @@
 *begin cockaminecave1
-*export 1 23
+*export 1 22
 
 *title "Surface survey from Big Meanie to Cockamene Cave dig next to Meridian then down Cockamine to near end"
 *date 2018.10.11

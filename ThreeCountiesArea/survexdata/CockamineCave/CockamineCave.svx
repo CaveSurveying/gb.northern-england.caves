@@ -4,6 +4,6 @@
 *entrance Entrance
 
 *include cockaminecave1
-*equate cockaminecave1.23 Entrance
+*equate cockaminecave1.22 Entrance
 
 *end	CockamineCave
