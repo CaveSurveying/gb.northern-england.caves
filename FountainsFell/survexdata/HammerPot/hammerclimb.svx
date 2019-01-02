@@ -1,0 +1,94 @@
+*BEGIN hammerclimb
+
+*export 0
+
+;gb notes 
+;rw disto
+;green nail polish
+
+;GB PDA
+;ULSA Disto
+
+;description - start at base of final pitch, up through 4m climb into eyehole ending at tt constriction, (theoretical connection with downstream sump area (unconfirmed)
+
+*DATE 2018.12.14
+
+
+0	1	 4.73	296.24	 47.42
+*FLAGS SPLAY
+1	1a	 0.18	211.57	  5.71
+1	1b	 0.81	351.81	 67.39
+1	1c	 0.43	 73.28	-88.08
+1	1d	 0.49	 27.99	  3.16
+*FLAGS NOT SPLAY
+1	2	 0.63	314.32	 17.85
+*FLAGS SPLAY
+2	2a	 0.45	 32.49	 -1.68
+2	2b	 0.20	216.19	 -5.61
+2	2c	 0.38	331.91	 81.45
+2	2d	 0.69	166.55	-83.64
+*FLAGS NOT SPLAY
+3	2	 6.71	133.14	 41.21
+*FLAGS SPLAY
+3	3a	 2.88	121.10	 28.16
+3	3b	 2.17	111.49	 56.38
+3	3c	 1.30	166.37	 -4.65
+3	3d	 0.48	 44.88	 -4.11
+3	3e	 0.37	222.07	 14.50
+3	3f	 2.52	118.61	 68.94
+3	3g	 3.34	  9.72	-80.87
+*FLAGS NOT SPLAY
+4	3	 3.34	181.30	 83.92
+*FLAGS SPLAY
+4	4a	 1.18	168.68	 29.76
+4	4b	 1.04	141.90	 17.24
+4	4c	 1.93	147.01	 64.71
+4	4d	 0.89	220.62	 22.91
+4	4e	 1.05	242.79	-63.18
+4	4f	 1.40	 50.81	 59.41
+4	4g	 2.27	  3.26	 72.20
+4	4h	 3.01	274.22	 79.83
+4	4i	 2.51	324.56	 56.94
+4	4j	 1.68	307.01	 17.27
+4	4k	 1.78	293.27	 -5.30
+4	4l	 1.50	311.46	 -8.17
+4	4m	 2.51	303.47	-22.73
+4	4n	 1.45	269.76	  4.72
+*FLAGS NOT SPLAY
+5	4	 2.78	124.40	 16.03
+*FLAGS SPLAY
+5	5a	 1.08	 91.37	 69.53
+5	5b	 0.55	 75.48	 15.43
+5	5c	 0.27	 86.91	-16.58
+*FLAGS NOT SPLAY
+6	5	 1.75	156.50	 11.17
+*FLAGS SPLAY
+6	6a	 0.36	238.24	  9.72
+6	6b	 0.32	273.15	 66.08
+6	6c	 0.36	212.18	-47.11
+6	6d	 1.32	117.33	 26.16
+*FLAGS NOT SPLAY
+7	6	 1.31	115.95	 26.69
+*FLAGS SPLAY
+7	7a	 0.52	 61.69	 -1.93
+7	7b	 0.34	 76.74	 51.29
+7	7c	 2.59	321.25	-11.47
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.00	 0.00	 0.00	 0.00
+1	 0.18	 0.48	 0.75	 0.43
+2	 0.20	 0.44	 0.38	 0.69
+*data passage station left right up down
+3	 1.28	 0.18	 2.35	 3.30
+4	 0.98	 2.02	 2.96	 0.94
+*data passage station left right up down
+3	 0.18	 1.28	 2.35	 3.30
+2	 0.20	 0.44	 0.38	 0.69
+*data passage station left right up down
+7	 1.09	 0.00	 0.27	 0.00
+6	 0.38	 0.35	 0.29	 0.26
+5	 0.48	 0.00	 1.01	 0.00
+4	 0.98	 2.02	 2.96	 0.94
+
+*END hammerclimb

@@ -5,10 +5,12 @@
 *declination auto 385184.063	469704.284	415.252
 
 *fix EntranceTag	385184.063	469704.284	415.252	
-;from ffgps.svx
+;gps coordinates taken from Cave Registry, Northern England, Fountains fell, ffgps.svx 
 *equate hammerentrance.0 EntranceTag
 *entrance EntranceTag
 
+;Surveyors - George Breley, Rob Watson, Rebecca Lawson (RRCPC), Olly Hall (SUSS), Ian Peachey, Mike Butcher
+;November 2017 - December 2018
 
 *include hammerentrance
 *include hammerstemple
@@ -16,11 +18,30 @@
 *include hammerfifthpitch
 *include hammersidepassage1
 *include hammersidepassage2
+*include hammerfifthpitch2
+*include sludgecrawl
+*include hammeroutfell
+*include hammerlastpitch
+*include hammerdssump
+*include hammerincline
+*include hammerwaterbutt
+*include hammerclimb
+*include hammerupstream
+
 *equate hammerentrance.33 hammerstemple.33
 *equate hammerstemple.64 hammersecondpitch.64
 *equate hammersecondpitch.89 hammerfifthpitch.89
 *equate hammersecondpitch.89 hammersidepassage1.89
 *equate hammerfifthpitch.126 hammersidepassage2.126
+*equate hammerfifthpitch.126 hammerfifthpitch2.126
+*equate hammerfifthpitch2.161 sludgecrawl.161
+*equate hammeroutfell.225 sludgecrawl.225
+*equate hammeroutfell.249 hammerlastpitch.249
+*equate hammerlastpitch.280 hammerdssump.280
+*equate hammerincline.0 sludgecrawl.226
+*equate hammerincline.35 hammerwaterbutt.0
+*equate hammerlastpitch.280 hammerclimb.0
+*equate sludgecrawl.225 hammerupstream.0
 
 
 *end HammerPot
