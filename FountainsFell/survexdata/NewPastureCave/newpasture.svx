@@ -1,0 +1,16 @@
+*BEGIN NewPastureCave
+
+*cs out OSGB:SD
+*cs OSGB:SD
+*declination auto 385185.234	470509.106	455.039
+
+*fix	EntranceTag	385185.234	470509.106	455.039
+
+;from ffgps.svx
+*include newpastureentrance
+        
+*equate newpastureentrance.0 EntranceTag
+*entrance EntranceTag
+
+
+*END NewPastureCave
