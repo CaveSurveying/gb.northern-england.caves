@@ -1,0 +1,44 @@
+*begin FOUL1
+*export Tag 8 9
+;checked
+*team "Katey Bender" notes
+*team "Alice Smith" compass clino tape ; compass clino
+*team "Ian Peachey" compass clino tape ; tandem
+*instrument "023187" compass
+*instrument "023187" clino
+*instrument "947153" back compass
+*instrument "947153" back clino
+
+
+*date 2016.09.17
+;*calibrate declination			;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+
+*data normal from to tape compass clino
+
+*flags	surface
+Tag	1	0.25  066.0 +1.0
+*flags not surface
+1	2	2.53  0 -90
+2 3 1.58  266.5 +2.0
+3 4 2.55  225.0 -6.5
+4 5 3.19  247.5 -30.5
+5 6 2.45  288.0 -6.0
+6 7 1.77  291.5 +12.0
+7 8 1.60  247.5 +42.5
+8 9 2.58  322.5 -5.5
+
+*entrance	1
+
+*data passage station left right up down
+1 1 0.25  0 3
+2 0.7 0.1 0 0.5
+3 0.45  0 0.25  0.66
+4 0.3 2.5 0.2 0.85
+5 0.7 1.3 1.3 0.3
+6 0.7 1 0.3 0
+7 0.4 0.75  0.95  0.6
+8 0.7 0.5 1.2 0.6
+9 2 0 3.5 1
+
+*end FOUL1

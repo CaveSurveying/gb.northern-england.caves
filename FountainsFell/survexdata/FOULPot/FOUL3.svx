@@ -1,0 +1,70 @@
+*begin FOUL3
+*export X1 X2 18 19
+;checked
+*team "Katey Bender" notes
+*team "Carl Spence-Jones" instruments
+*team "Ian Peachey" instruments
+*team "Alice Smith" stations
+*instrument "PeacheyDistoX2" compass clino tape
+
+
+*date 2016.11.13
+;*calibrate declination			;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
+
+
+*data normal from to tape compass clino
+
+*flags not surface
+X2  X1  3.05  306.3 -15.4
+X1  1 2.76  331.6 9.8
+1 2  3.72 303.7 -18.9
+2 3 1.17  039.5 -41.6
+3 4 3.23  114.8 -1.8
+4 5 1.84  040.3 -4.8
+5 6 2.97  080.4 +83.4
+6 7 1.50  359.0 9.1
+7 8 2.31  304.0 -44.6
+9 6 1.58  332.2 -21.1
+9 10  2.76  137.1 -26.5
+10  11  3.62  215.0 10.7
+X2  11  1.43  304.2 13.8
+12 3  3.04  185.5 11.2
+;flagged up - possible reversal of leg, now flipped - tbc
+12  13  16.5  265.8 -85.3
+13  14  6.71  314.2 -2.4
+14  15  1.43  286.7 -41.5
+15  16  6.04  316.7 0.7
+16  17  2.37  324.0 -40.1
+17  18  7.99  308.5 -36.6
+18  19  3.24  062.1 5.0
+
+*data passage station left right up down
+X2  1.85  0.52  3.36  1.67  ;at base of first pitch
+X1  0.14  1.23  2.82  0     ;in boulder choke
+1 0.5 0 .2  .9
+2 0 .5  .9  1
+3 1.5 0.2 0 0.4             ;floor near pitch
+4 1 0 .4  .5                ;RHW in side passage
+5 2 2 7.8 0.9               ;boulder at base of aven
+6 1.1 0.5 4.6 3.4
+7 .3  0 2.8 2               ;entrance to inlet in aven
+8 0 .3  .5  .6
+
+*data passage station left right up down
+6 1.1 0.5 4.6 3.4
+9 .4  0 1.5 .5              ;main passage in aven
+10  .6  .9  2 1             ;flake on corner
+11  1 0 1.5 1.8             ;hole in octopus
+
+*data passage station left right up down
+3 1.5 .2 0 .4               ;floor near pitch
+12  0 1.1 0.7 17.3          ;flake on pitch
+13  .7  1.3 14.5  1.1       ;rock at base of pitch
+14  .6 .1  2.6  2.4         ;RHW in tiny chamber
+15   0  .4  4.9 3.6
+16   0  .4  7.0 1.58        ;RHW before climb
+17  .7  0 6.2 1.0
+18  .6  3.9 2.1 1.4         ;flake on far wall below handline climb
+19  .6  2.2 5.0 1.0         ;corner of boulder in chamber
+
+*end FOUL3

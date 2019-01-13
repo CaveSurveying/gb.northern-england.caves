@@ -1,0 +1,35 @@
+
+;ULSA FOUL Pot Grade 5c survey
+;Created by Katey Bender et al (ULSA) 2016-18
+;For specific survey details see individual survex files
+
+;----------------------------------------------------------------------------
+
+*begin FOULPot
+
+*export	FOUL1.Tag
+
+*include FOUL1
+*include FOUL2
+*include FOUL3
+*include FOUL4
+*include FOUL5
+*include FOUL5b
+*include FOUL6
+*include FOUL7
+*include FOUL8
+
+*equate FOUL1.8 FOUL2.X8
+*equate FOUL1.9 FOUL2.X9
+*equate FOUL2.9 FOUL3.X2
+*equate FOUL2.11  FOUL3.X1
+*equate FOUL3.18  FOUL4.18
+*equate FOUL4.23 FOUL5.X2
+*equate FOUL4.24 FOUL5.X1
+;*equate FOUL5.26 FOUL6.0
+*equate FOUL5.24 FOUL5b.1
+*equate FOUL5b.4 FOUL6.0
+*equate FOUL6.9 FOUL7.9
+*equate FOUL6.9 FOUL8.9
+
+*end FOULPot
