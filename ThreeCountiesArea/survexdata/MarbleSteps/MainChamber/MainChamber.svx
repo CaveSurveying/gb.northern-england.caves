@@ -3,7 +3,8 @@
 
 *begin MainChamber
 *export MainChamber1.026x MainChamber1.005 Mainchamber1.006 MainChamber1.011 MainChamber1.036 MainChamber1.042 Mainchamber1.026 Mainchamber1.029
-*export Mainchamber2.001
+*export Mainchamber2.001 
+*export Mainchamber1.009
 
 *include MainChamber1
 *include MainChamber2

@@ -10,21 +10,22 @@
 
 *include "SurfaceMarbleSteps\SurfaceMarbleSteps"
 *include "SurfaceMarbleSteps\SurfaceMarbleSteps2Sink"
-*include "MarbleStepsPot\MarbleStepsPot"
+;*include "MarbleStepsPot\MarbleStepsPot"
 *include "StepsPot\StepsPot"
 *include "LostMarbles\LostMarbles"
 *include "WetRoute\WetRoute"
 *include "MainChamber\MainChamber"
 *include Intestines1
 *include Intestines2
+*INCLUDE TwigSeries
 
 ;--------------------------------------------------------------------
 
-*equate SurfaceMarbleSteps.001	MarbleStepsPot.Mas01.001
+;*equate SurfaceMarbleSteps.001	MarbleStepsPot.Mas01.001
 *equate SurfaceMarbleSteps.007	SurfaceMarbleSteps2Sink.001
 
-*equate	MarbleStepsPot.Mas01.003	MarbleStepsPot.Mas02.001
-*equate	MarbleStepsPot.Mas02.016	MarbleStepsPot.Mas03.001
+;*equate	MarbleStepsPot.Mas01.003	MarbleStepsPot.Mas02.001
+;*equate	MarbleStepsPot.Mas02.016	MarbleStepsPot.Mas03.001
 
 *equate StepsPot.StepsPot1.001 StepsPot.StepsPot2.008 
 *equate StepsPot.StepsPot1.015 SurfaceMarbleSteps.003 
@@ -44,5 +45,7 @@
 *equate Intestines1.42x MainChamber.Mainchamber1.042
 *equate Intestines2.36x Intestines1.36
 *equate Intestines2.43x Intestines1.43
+
+*EQUATE MainChamber.MainChamber1.009	TwigSeries.1.0
 
 *end	AllMarbleSteps
