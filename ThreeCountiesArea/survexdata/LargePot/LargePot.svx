@@ -13,6 +13,7 @@
 
 *export EntranceTag
 *export Large15.23x
+*export Large23.11
 
 *include Large1
 *include Large2
