@@ -1,0 +1,314 @@
+*BEGIN PinocchioPot
+
+
+*export 1.0
+
+*equate 2.3 3.0
+*equate 1.10 2.0
+*equate 3.2 6.0
+
+
+*Entrance 1.3
+
+*BEGIN 1
+*CALIBRATE declination 1.74   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.193541°N,2.506882°W   2017.04.15
+
+
+
+;di pda Si distox2 
+
+*export 0 3 10
+
+*DATE 2017.07.09
+
+*flags surface
+0	1	 4.39	194.89	-11.09	;1.0 top of fence post
+1	2	10.59	257.07	-23.22	;triangle on rock
+2	3	 2.07	150.30	-28.46	;middle of top of shaft 1.3
+*flags not surface
+*FLAGS SPLAY
+3	3a	 0.68	 13.23	-10.40
+3	3b	 0.58	286.99	 -2.75
+3	3c	 0.62	 91.02	 -0.99
+3	3d	 0.53	180.70	 -2.63
+*FLAGS NOT SPLAY
+3	4	 6.31	298.83	-87.33	;1.4 bottom of shaft
+*FLAGS SPLAY
+4	4a	 0.80	 27.99	  6.04
+4	4b	 0.88	 90.99	  1.53
+4	4c	 0.37	276.95	  7.86
+4	4d	 0.70	164.15	  5.53
+4	4e	 2.04	148.90	  7.99
+4	4f	 1.77	 97.13	 48.65
+4	4g	 1.67	144.38	 51.11
+*FLAGS NOT SPLAY
+4	5	 2.26	108.61	-14.92
+*FLAGS SPLAY
+5	5a	 1.80	301.58	-82.37	;1.5 tip of boulder
+5	5b	 1.13	311.00	 74.30
+5	5c	 0.93	 21.57	  2.71
+5	5d	 0.32	125.79	-17.37
+5	5e	 1.52	245.68	 22.95
+5	5f	 1.25	329.70	 12.66
+*FLAGS NOT SPLAY
+5	6	 4.04	143.06	-68.62
+*FLAGS SPLAY
+6	6a	 1.68	  6.23	 79.20
+6	6b	 4.12	347.33	-79.94
+6	6c	 1.13	150.42	 18.64
+6	6d	 1.39	217.97	 17.59
+6	6e	 0.65	275.40	 13.46
+6	6f	 0.76	 81.64	 -3.49
+6	6g	 1.07	355.13	  0.03
+6	6h	 2.45	329.46	  7.81
+6	6i	 0.58	296.30	 -5.55
+6	6j	 2.49	328.00	  6.36
+*FLAGS NOT SPLAY
+6	7	 3.34	 13.68	-75.84
+*FLAGS SPLAY
+7	7a	 4.41	116.72	 84.08
+7	7b	 0.48	203.99	-87.01
+7	7c	 0.54	204.97	  3.30
+7	7d	 0.56	304.21	 -5.92
+7	7e	 0.87	265.46	  4.78
+*FLAGS NOT SPLAY
+7	8	 3.46	292.10	-19.99
+*FLAGS SPLAY
+8	8a	 1.39	174.58	 82.76
+8	8b	 0.27	210.94	-59.28
+8	8c	 1.37	127.25	  7.31
+8	8d	 1.27	 98.00	 16.92
+8	8e	 1.87	 15.82	 37.21
+8	8f	 2.61	282.60	  2.54
+8	8g	 1.43	198.76	-22.81
+8	8h	 1.45	196.12	-22.52
+*FLAGS NOT SPLAY
+8	9	 5.46	273.59	-15.37
+*FLAGS SPLAY
+9	9a	 5.67	109.76	 76.03
+9	9b	 1.89	177.02	-82.52
+9	9c	 1.94	 70.78	  9.55
+9	9d	 2.31	128.05	  3.00
+9	9e	 5.03	134.76	  1.41
+9	9f	 5.90	206.95	 -9.68
+9	9g	 3.10	220.70	-12.50
+9	9h	 2.67	242.31	 -5.55
+9	9i	 5.35	218.45	 70.76
+9	9j	 4.36	145.57	 11.59
+9	9k	 5.20	210.68	  8.44
+9	9l	 8.89	210.12	 85.18
+*FLAGS NOT SPLAY
+9	10	 6.44	206.66	-25.76
+*FLAGS SPLAY
+10	10a	 5.72	241.51	 79.36	
+10	10b	 4.33	264.68	-77.40
+10	10c	 1.78	225.79	-10.05
+10	10d	 2.67	280.13	 -9.76
+10	10e	 8.35	 62.37	 17.77
+10	10f	 9.31	 75.73	 15.36
+10	10g	 5.21	286.20	 64.79
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.00	 0.00	 0.00	 0.00
+1	 0.00	 0.00	 0.00	 0.00
+2	 0.00	 0.00	 0.00	 0.00
+3	 0.45	 0.00	 0.00	 0.00
+4	 0.35	 0.00	 1.30	 0.00
+5	 0.90	 1.22	 1.09	 1.78
+6	 2.32	 1.02	 1.65	 4.06
+7	 0.80	 0.00	 4.38	 0.48
+8	 1.33	 1.49	 1.38	 0.23
+9	 4.85	 0.10	 8.86	 1.87
+10	 6.78	 2.52	 5.63	 4.22  ;1.10 drill hole shoulder height in LH wall below horizontal hauling bar
+*END 1
+
+*BEGIN 2
+*export 0 3
+
+*CALIBRATE declination 1.72   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.193541°N,2.506882°W   2017.08.28
+
+;Di pda, Si distox
+;calibrated error <0.5
+
+*DATE 2017.08.28
+
+
+*FLAGS SPLAY
+0	0a	 1.73	328.55	  4.67
+0	0b	 5.72	242.45	 78.79
+0	0c	 1.47	317.29	-75.16
+*FLAGS NOT SPLAY
+0	1	 5.05	285.47	-77.31 
+*FLAGS SPLAY
+1	1a	 0.99	354.62	-82.54
+1	1b	10.53	145.23	 80.15
+1	1c	 0.55	122.24	 -3.85
+1	1d	 0.65	271.49	 29.83
+1	1e	 0.78	 73.75	  5.18
+1	1f	 0.74	  1.69	  9.88
+1	1g	 2.67	 44.52	-45.40
+1	1h	 2.99	 58.73	-27.17
+1	1i	 3.49	 40.01	-33.79
+1	1j	 1.83	 30.99	-34.74
+1	1k	 5.21	 38.38	-43.80
+*FLAGS NOT SPLAY
+1	2	 5.15	 37.91	-43.69
+*FLAGS SPLAY
+2	2a	 5.00	242.84	 42.78
+2	2b	 0.78	 98.55	  0.17
+2	2c	 0.89	277.29	 16.57
+2	2d	 1.20	224.98	  2.91
+2	2e	 0.56	170.08	 80.64
+*FLAGS NOT SPLAY
+2	3	 4.89	142.37	-69.49
+*FLAGS SPLAY
+3	3a	 0.68	343.84	  7.12
+3	3b	 0.89	 38.25	-81.47
+3	3c	 5.47	306.56	 78.89
+3	3d	 1.39	 38.12	  1.52
+3	3e	 0.72	104.17	 15.41
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.00	 1.18	 5.61	 1.42	;1.10 = 2.0 drill hole shoulder height in LH wall below horizontal hauling bar
+1	 0.53	 2.59	10.37	 0.98	;2.1 bottom of 1st shaft
+2	 0.11	 0.00	 0.55	 0.00	;2.2 'straddle' top of 2nd shaft
+3	 1.14	 0.13	 5.37	 0.88
+
+*END 2
+
+*BEGIN 3
+*export 0 2
+
+*CALIBRATE declination 1.71   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.193541°N,2.506882°W   2017.09.23
+
+;Di pda, Si distox
+;calibrated error <0.5
+
+*DATE 2017.09.23
+
+
+*FLAGS SPLAY
+0	0a	 0.18	347.51	-18.74
+0	0b	 1.00	 79.16	 -2.43
+0	0c	 1.72	158.17	 -2.38
+0	0d	 1.76	163.86	  0.25
+0	0e	 1.05	319.29	  1.69
+0	0f	 2.19	234.40	 -3.55
+0	0g	 2.43	238.81	 -5.87
+0	0h	 0.79	232.57	-80.16
+0	0i	 1.57	 83.88	  3.07
+0	0j	 0.48	174.91	 -1.63
+0	0k	 0.86	269.45	-81.18
+0	0l	 1.14	237.32	 88.46
+0	0m	 0.17	175.70	  2.15
+0	0n	 1.54	 60.42	 -3.03
+0	0o	 0.93	315.45	  0.10
+0	0p	 0.83	 43.09	-80.33
+0	0q	 0.50	 87.47	  5.05
+0	0r	 1.85	244.00	-88.46
+0	0s	 0.92	271.03	 -1.49
+0	0t	 0.70	212.56	 -0.24
+0	0u	 2.00	188.24	-89.70
+0	0v	 0.66	126.20	 -1.75
+0	0w	 1.51	145.17	 84.46
+0	0x	 0.77	 91.60	  2.60
+0	0y	 1.08	 32.27	  5.63
+*FLAGS NOT SPLAY
+0	1	 2.15	 42.02	-31.38
+*FLAGS SPLAY
+1	1a	 0.89	110.28	 82.66
+1	1b	 4.82	118.27	-83.34
+1	1c	 0.67	150.60	 -2.14
+1	1d	 2.11	 88.01	 -6.66
+1	1e	 1.16	233.71	 -2.05
+1	1f	 2.12	228.72	 31.40
+1	1g	 5.94	 94.43	-71.17
+*FLAGS NOT SPLAY
+1	2	 5.56	 79.53	-73.62
+*FLAGS SPLAY
+2	2a	 5.07	261.34	 84.91
+2	2b	 0.62	 82.64	 72.80
+2	2c	 1.75	 88.12	-11.03
+2	2d	 0.56	166.55	 -0.10
+2	2e	 1.56	247.59	  9.00
+2	2f	 2.23	 76.04	-60.41
+2	2g	 1.25	143.31	-81.47
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 1.04	 1.54	 1.14	 1.99
+1	 0.00	 0.96	 0.88	 4.79	;3.1 top of second hauling station
+2	 0.06	 0.56	 5.05	 1.24	;3.2 Survey triangle scratched onto LH wall
+*END 3
+
+;*BEGIN 4
+;*export 0
+;*CALIBRATE declination 1.71   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.193541°N,2.506882°W   2017.10.08
+;Si distox
+;calibrated error <0.5
+
+;*DATE 2017.10.29
+
+
+;0	1	 7.95	 71.99	-68.29
+;*FLAGS SPLAY
+;1	1a	 0.30	170.00	  5.53
+;1	1b	 0.58	244.92	  1.25
+;1	1c	 0.45	312.52	 14.55
+;1	1d	 0.59	 66.08	 11.82
+;1	1e	 0.56	126.03	  9.17
+;1	1f	 4.06	207.95	 76.44
+;*FLAGS NOT SPLAY
+
+;*data passage station left right up down
+;0	 0.00	 0.00	 0.00	 0.00
+;1	 0.38	 0.45	 3.95	 0.00
+;*END 4
+
+
+*BEGIN 6
+;Di pda, Si distox
+;calibrated error <0.5
+*CALIBRATE declination 1.71   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.193541°N,2.506882°W   2017.10.08
+
+*EXPORT 0
+
+*DATE 2017.09.23
+
+
+*FLAGS SPLAY
+0	0a	 1.69	 71.23	 -6.38
+0	0b	 0.55	141.06	  2.07
+0	0c	 0.96	 32.90	 77.70
+0	0d	 4.90	 87.09	-71.33
+*FLAGS NOT SPLAY
+0	1	 5.57	 77.18	-66.83
+*FLAGS SPLAY
+1	1a	 0.56	 87.31	 -7.00
+1	1b	 1.05	 17.93	 -3.80
+1	1c	 0.68	241.68	  3.76
+1	1d	 0.65	297.44	 -7.96
+1	1e	 3.06	192.58	 80.63
+*FLAGS NOT SPLAY
+1	2	 4.87	351.77	-74.55
+*FLAGS SPLAY
+2	2a	 0.59	172.44	  6.91
+2	2b	 0.74	  4.69	 -2.22
+2	2c	 0.61	108.05	  4.32
+2	2d	 1.45	302.66	-23.75
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.17	 0.49	 0.93	 4.64		;3.2 = 6.0 Survey triangle scratched onto LH wall
+1	 0.64	 0.44	 3.02	 0.00
+2	 1.00	 0.55	 0.00	 0.58
+*END 6
+
+*END PinocchioPot

@@ -141,6 +141,14 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 ;*fix Shep_Pot.getdownshep1.getdownshep1_6.20 67064 78046 372  ; TEMP - Becka, 27 Dec - this needs sorting with proper fix, this is apparently GPS to top of tallest scaff pole which was station 22 in the Shep_Pot_1 survey and I've tied it to the top station in the getdownshep1 survey but not clear where getdownshep1.6-20 actually is
 ;<<<< This has been commented out as a surface survey now connects Shep pot to Notts Pot GPS tag via PeriolousPot >>>>
 
+*include Surface/PinocchioPot_Surface
+*equate PinocchioPot_Surface.1.23	3cgps.3c15
+*include PinocchioPot/PinocchioPot
+*equate PinocchioPot.1.0 PinocchioPot_Surface.1.2
+
+*FIX SurfaceAboveFrink 			67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
+*equate SurfaceAboveFrink SurfaceAboveTopOfFrink
+
 *include NorthEndPot/NorthEndPotUnderground
 *equate NorthEndPotUnderground.1-x largetonorthendpotsurface.1-18 	; needs finishing 
 
