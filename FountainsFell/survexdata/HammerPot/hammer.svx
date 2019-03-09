@@ -1,13 +1,14 @@
 *begin HammerPot
+*export hammerentrance.0
 
 *cs out OSGB:SD 
 *cs OSGB:SD
 *declination auto 385184.063	469704.284	415.252
 
-*fix EntranceTag	385184.063	469704.284	415.252	
+*fix EntranceTag	385184.063	469704.284	415.252
 ;gps coordinates taken from Cave Registry, Northern England, Fountains fell, ffgps.svx 
 *equate hammerentrance.0 EntranceTag
-*entrance EntranceTag
+*entrance hammerentrance.0
 
 ;Surveyors - George Breley, Rob Watson, Rebecca Lawson (RRCPC), Olly Hall (SUSS), Ian Peachey, Mike Butcher
 ;November 2017 - December 2018

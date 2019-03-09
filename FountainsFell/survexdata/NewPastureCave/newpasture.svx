@@ -1,4 +1,5 @@
 *BEGIN NewPastureCave
+*export newpastureentrance.0
 
 *cs out OSGB:SD
 *cs OSGB:SD

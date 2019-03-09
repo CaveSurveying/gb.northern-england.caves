@@ -2,16 +2,26 @@
 ;Noel Snape / Holly Bradley / ULSA 2015 - 2016
 ;Fountains Fell Bench Survey
 
+*cs out OSGB:SD
+*cs OSGB:SD
+
+
 *begin fountainsfell
 
 
 *include ffgps
 *include GinglingHole/Gingling
 *include ElectionHole/Election
+*include HammerPot/hammer
+*include FOULPot/FOULPot
+*include NewPastureCave/newpasture
 
-*equate Gingling.Gingling1.tag	ffgps.214
+
 *equate Election.Election1.S1	ffgps.0004
-
+*equate FOULPot.FOUL1.tag ffgps.213 
+;*equate Gingling.Gingling1.tag	ffgps.214  ;now "fixed" in Gingling main survex file
+;*equate HammerPot.hammerentrance.0 ffgps.217 ;now "fixed" in Hammer main survex file
+;*equate NewPastureCave.newpastureentrance.0 ffgps.211 ;now "fixed" in New Pasture main survex file
 
 
 
