@@ -15,8 +15,9 @@
 *include HammerPot/hammer
 *include FOULPot/FOULPot
 *include NewPastureCave/newpasture
+;*include master_cave
 
-
+;*equate master_cave.gingling_hole_master_cave.gingling_sump_tube.6 Gingling.Gingling5.5
 *equate Election.Election1.S1	ffgps.0004
 *equate FOULPot.FOUL1.tag ffgps.213 
 ;*equate Gingling.Gingling1.tag	ffgps.214  ;now "fixed" in Gingling main survex file

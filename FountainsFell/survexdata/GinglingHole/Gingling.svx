@@ -7,7 +7,7 @@
 
 *begin Gingling
 
-*export	Gingling1.tag
+*export	Gingling1.tag ;Gingling5.5
 
 *cs out OSGB:SD
 *cs OSGB:SD
