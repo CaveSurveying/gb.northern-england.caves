@@ -1,0 +1,30 @@
+*begin WeePot
+*export 1
+
+*title "WeePot"
+*fix 1 66564 79284 328
+*entrance 1
+*date 2019.03.09
+
+;*team Instruments 
+;*team Tape 
+;*team Notes 
+
+;*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+1	2	24	-	down	;estimate
+
+;*flags surface
+
+;*data underground????
+
+;*flags not surface
+
+;*flags surface
+
+
+;*data passage station left right up down ignoreall
+
+
+*end WeePot
