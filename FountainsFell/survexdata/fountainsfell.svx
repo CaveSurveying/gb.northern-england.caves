@@ -23,7 +23,7 @@
 
 ;below equations assume survey station 'gingling_sump_tube.6' is downstream end of gingling hole sump
 *equate gingling_hole_master_cave.gingling_sump_tube.6 FAKE_gingling_sump.2
-*equate Gingling.Gingling5.10 FAKE_gingling_sump.1
+*equate Gingling.Gingling5.8c FAKE_gingling_sump.1  ;8c used as is splay down to water level from station at dive-line
 
 
 ;*equate Gingling.Gingling1.tag	ffgps.214  ;now "fixed" in Gingling main survex file
