@@ -15,8 +15,8 @@
 *include HammerPot/hammer
 *include FOULPot/FOULPot
 *include NewPastureCave/newpasture
-*include master_cave
-*include FAKE_gingling_sump  ;temp file with roughly estiamted sump
+*include MasterCave/master_cave
+*include MasterCave/FAKE_gingling_sump  ;temp file with roughly estiamted sump
 
 *equate Election.Election1.S1	ffgps.0004
 *equate FOULPot.FOUL1.tag ffgps.213 
