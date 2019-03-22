@@ -15,11 +15,17 @@
 *include HammerPot/hammer
 *include FOULPot/FOULPot
 *include NewPastureCave/newpasture
-;*include master_cave
+*include master_cave
+*include FAKE_gingling_sump  ;temp file with roughly estiamted sump
 
-;*equate master_cave.gingling_hole_master_cave.gingling_sump_tube.6 Gingling.Gingling5.5
 *equate Election.Election1.S1	ffgps.0004
 *equate FOULPot.FOUL1.tag ffgps.213 
+
+;below equations assume survey station 'gingling_sump_tube.6' is downstream end of gingling hole sump
+*equate gingling_hole_master_cave.gingling_sump_tube.6 FAKE_gingling_sump.2
+*equate Gingling.Gingling5.10 FAKE_gingling_sump.1
+
+
 ;*equate Gingling.Gingling1.tag	ffgps.214  ;now "fixed" in Gingling main survex file
 ;*equate HammerPot.hammerentrance.0 ffgps.217 ;now "fixed" in Hammer main survex file
 ;*equate NewPastureCave.newpastureentrance.0 ffgps.211 ;now "fixed" in New Pasture main survex file

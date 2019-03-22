@@ -1,0 +1,11 @@
+;FAKE passage, roughly estimated as per sump in Northern Caves index.
+;Added to tie master cave into surface in roughly correct location
+;Added by NS 22.03.2019
+
+*begin FAKE_gingling_sump
+*export 1 2
+;from	to	tape	compass	clino
+*flags surface
+1	2	75	220	0
+
+*end FAKE_gingling_sump
