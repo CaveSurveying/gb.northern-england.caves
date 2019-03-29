@@ -164,6 +164,8 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include CockamineCave/CockamineCave
 *equate CockamineCave.CockamineCave1.1 BigMeanie.BigMeanie_1.2P
 
+*include WeePot/WeePot
+
 *end leckfell
 
 ; old superceded surveys
