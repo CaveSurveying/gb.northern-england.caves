@@ -1,5 +1,5 @@
 *BEGIN Aquamole
-*export main.25
+*export main.1 main.25
 
 ;Data calculated in order to draw up original survey
 ;Original notes now lost, and only x,y,x station positions remain
@@ -7,10 +7,10 @@
 *equate main.23 side.A
 
 *begin main
-*export 23 25
+*export 1 23 25
 
 *entrance 1
-*fix 1 69928	78340	375; Footleg: WAAS GPS fix 28/04/2007
+;*fix 1 69928	78340	375; Footleg: WAAS GPS fix 28/04/2007
 
 *data cartesian station newline easting northing altitude
 1			

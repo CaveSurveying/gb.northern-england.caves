@@ -1,15 +1,15 @@
 *BEGIN AquamolePot_Resurvey
 
-*EXPORT 1.0
+*EXPORT 1.0 1.5
 *ENTRANCE 1.5
 
 *EQUATE 1.40 2.0
-
-
+*INCLUDE AquamolePot_Resurvey2
+*EQUATE 1.37 AquamolePot_Resurvey2.1.0
 
 
 *BEGIN 1
-*EXPORT 0 5 40
+*EXPORT 0 5 37 40
 
 *TEAM Di Arthurs pda & Simon Cornhill distoX
 ;calibrated error <0.5

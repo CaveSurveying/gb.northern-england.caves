@@ -34,6 +34,7 @@
 *equate JinglingPot.1.0   kdgps.3c22
 *equate Bullpot.1.23	kdgps.3c23
 *equate AquamolePot_Resurvey.1.0 kdgps.3c22
+*equate	Aquamole.main.1 AquamolePot_Resurvey.1.5
 
 *equate	kdgps.3c26	Yordas1.ext
 
@@ -44,8 +45,9 @@
 *equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
 ;-------------------------------------------------------------------------------------------
+;<<<< Entrance coordinates from Northern Caves >>>>
 
-
+;*INCLUDE ApprenticePot/ApprenticePot
 
 
 ;*solve
