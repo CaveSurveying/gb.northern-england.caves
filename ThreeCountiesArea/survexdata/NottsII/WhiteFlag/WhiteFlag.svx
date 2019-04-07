@@ -7,11 +7,12 @@
 
 ;Tape started at -10 centimetres (original notes - no Corrections)
 
-*Title "White Flag Inlet"
+
 ;equate Whiteflag.1 PAS1.1
+
 *begin Whiteflag
 ;equateWhiteflag.1 PAS1.1I
-
+*Title "White Flag Inlet"
 *export 1
 *export 7
 
