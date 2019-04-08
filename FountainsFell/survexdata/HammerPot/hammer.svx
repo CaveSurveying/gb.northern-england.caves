@@ -27,7 +27,8 @@
 *include hammerincline
 *include hammerwaterbutt
 *include hammerclimb
-*include hammerupstream
+; *include hammerupstream ;first attempt at surveying upstream passage from incline junction with out fell master cave. Survey abandoned due to disto malfunction Superceded by hammerupstreamsump survey so now commented out by Becka 6 Apr 2019
+*include hammerupstreamsump	;second go at surveying upstream passage from incline junction with out fell master cave
 
 *equate hammerentrance.33 hammerstemple.33
 *equate hammerstemple.64 hammersecondpitch.64
@@ -42,7 +43,7 @@
 *equate hammerincline.0 sludgecrawl.226
 *equate hammerincline.35 hammerwaterbutt.0
 *equate hammerlastpitch.280 hammerclimb.0
-*equate sludgecrawl.225 hammerupstream.0
-
+; *equate sludgecrawl.225 hammerupstream.0
+*equate hammerincline.0 hammerupstreamsump.x
 
 *end HammerPot
