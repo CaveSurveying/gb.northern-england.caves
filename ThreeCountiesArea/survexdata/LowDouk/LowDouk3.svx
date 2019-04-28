@@ -4,6 +4,7 @@
 
 ;equate 001 LowDouk_1.017
 
+*date 2009.11.09
 ;Date: 09/11/09
 ;Survey Kit RRCPC No 2
 ;Book/Tape: Dave Ramsay

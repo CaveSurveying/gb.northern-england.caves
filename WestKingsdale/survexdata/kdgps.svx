@@ -19,6 +19,7 @@
 ; to obtain full length co-ordinates, add 300000 to Easting and 400000 to Northing
 
 *begin	kdgps
+*date 2013.07.01
 
 *export vent	;valley entrance centre of drum outer edge, start of Footleg survey
 *export 3c23	;Bull Pot stainless steel bolt and washer in bedrock
@@ -39,7 +40,8 @@
 ; magnetic north 02 degrees 04 minutes west of grid north as per British Geological Survey online calculator for July 2013
 ; therefore zero correction term for survex is +2.067 degrees
 
-*calibrate compass +2.067 
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass +2.067 
 
 *fix	3c17ae	69387.403	77533.612	380.458	;sdE 0.0011m, sdN 0.0006m, sdElev 0.017m
 *fix	3c18ae	69505.327	77501.959	373.918	;sdE 0.0013m, sdN 0.0009m, sdElev 0.0024m

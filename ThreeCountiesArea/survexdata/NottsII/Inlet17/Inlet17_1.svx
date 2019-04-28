@@ -10,7 +10,7 @@
 ;Tape started at -10 centimetres (original notes - no Corrections)
 
 *Title "Inlet 17"
-
+*date 2006.10.16
 *export 12 33 45
 
 *calibrate tape -.10		;Tape was 10 centimetres too long

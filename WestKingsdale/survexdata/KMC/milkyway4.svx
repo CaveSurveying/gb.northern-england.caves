@@ -10,7 +10,8 @@
   ;team "Nathan W (LRUD's) station descriptions, 
   ;team Jethro P (suss), CHECC Disto 
   ;team Brendan Hall (HTC one topodroid)
-  *calibrate declination 2.00 ;    NOAA co-ordinates - Latitude:  54.191733° N 	2.465063° W - (2.00° W  ± 0.38°  changing by  0.16° E per year)
+  ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+  ;*calibrate declination 2.00 ;    NOAA co-ordinates - Latitude:  54.191733° N 	2.465063° W - (2.00° W  ± 0.38°  changing by  0.16° E per year)
   
 
   *data normal from to tape compass clino

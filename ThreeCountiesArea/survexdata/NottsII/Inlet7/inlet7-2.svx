@@ -15,7 +15,7 @@
 ;Surveyors:	Instruments: Dave Ramsay; Notes: Richard Bendall
 ;Instruments: RRCPC Kit 4 (Tape 3m Short)
 
-
+*date 2004.10.31
 
 
 ;From	To	Tape	Compass	Clino		L	R	U	D	Comments

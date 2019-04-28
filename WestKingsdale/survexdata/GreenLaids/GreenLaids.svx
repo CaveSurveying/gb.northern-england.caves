@@ -9,7 +9,8 @@
 *fix 001 70000.0 78400.0 366.0
 
 *date 2005.10.17
-*calibrate declination +3.34
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.34
 
 *calibrate clino		 0.00
 ;*calibrate tape	

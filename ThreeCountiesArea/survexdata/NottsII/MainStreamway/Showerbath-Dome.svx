@@ -1,7 +1,7 @@
 *begin Showerbath-Dome
 
 
-
+*date 2011.11.14
 ;Date: 14/11/2011
 
 ;Cave: Notts II
@@ -31,7 +31,8 @@
 
 *CALIBRATE tape -.10		;Tape was 10 centimetres too long
 
-*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.45	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2011.11.14
 	
 

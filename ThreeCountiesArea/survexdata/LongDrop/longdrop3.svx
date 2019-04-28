@@ -5,6 +5,8 @@
 
 *begin	longdrop3
 
+*date 2007.09.24
+
 *export 001
 *export 003
 *entrance 001

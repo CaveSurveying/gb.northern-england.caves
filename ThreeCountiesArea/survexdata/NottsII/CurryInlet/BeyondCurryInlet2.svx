@@ -1,7 +1,8 @@
 *BEGIN BeyondCurryInlet2
 *EXPORT 1.0
 
-*CALIBRATE declination +1.34	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination +1.34	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								;54.190808°N, 2.501691°W   2019.02.26
 
 *BEGIN 1

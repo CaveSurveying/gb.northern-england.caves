@@ -7,6 +7,9 @@
 
 *begin	WellPitchInlets
 *export 218 107 109
+
+*date 1999.07.03
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+6.50
 
 ;*fix	001	

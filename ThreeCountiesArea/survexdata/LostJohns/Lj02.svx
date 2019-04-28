@@ -8,6 +8,8 @@
 ;Surveyors:	Arther Millet, Craig, Mark Savage
 ;Instruments:	A.T.M.'s
 
+*date 1997.07.12
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.17
 
 000	001	01.80	223.5	-02.0	;000 is P hanger

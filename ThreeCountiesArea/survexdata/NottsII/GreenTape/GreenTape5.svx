@@ -10,6 +10,8 @@
 
 *export 000 014
 
+*date 2002.12.30
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+7.00
 *calibrate clino	+3.50
 *calibrate tape	+0.00

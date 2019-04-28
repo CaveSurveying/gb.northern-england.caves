@@ -3,6 +3,7 @@
 ;Title: North End Pot
 ;Date Created 22/01/13 by Becka Lawson just so it appears on survex data set (needs surveying properly!)
 
+*date 2013.01.22
 *export 1
 
 ;*fix 1 68300 76500 395 ; from Northern Caves - needs checking

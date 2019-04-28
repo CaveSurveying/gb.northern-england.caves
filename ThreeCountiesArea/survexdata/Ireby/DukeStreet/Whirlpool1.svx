@@ -4,6 +4,7 @@
 ;Instruments:	RRCPC kit 2
 
 *begin	Whirlpool1
+*date 2006.09.24
 *export 001 002
 *calibrate compass	+0.00
 

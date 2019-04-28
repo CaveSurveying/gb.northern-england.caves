@@ -10,6 +10,8 @@
 ;Date: 03/02/07	
 ;Instruments:Beardy's Set One 	
 
+*date 2007.02.03
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass		+4.00
 *calibrate clino		+0.50
 *calibrate tape		 0.00

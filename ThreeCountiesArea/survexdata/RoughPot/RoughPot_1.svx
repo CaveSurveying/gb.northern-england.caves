@@ -1,7 +1,7 @@
 ; ROUGH POT
 
 *begin RoughPot_1 ; surveyed Feb 2002 sometime; PH, AW, KL
-
+*date 2002.02.10 ;estimated date
 *export 15
 *export 001 ;lost Johns Entrance Tag
 

@@ -6,6 +6,8 @@
 ;Date:	11/10/98
 ;Instruments:	Kit1????????????
 
+*date 1998.10.11
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.00
 
 001	002	08.80	338.0	 00.0	;st001 is Aven inlet +15m above station

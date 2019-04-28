@@ -4,13 +4,16 @@
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
 
 *begin Rumblinghole_1
+*date 2007.11.05
 *export 010
 *export 017
 *export 029
 *export 014
 *Title "Rumbling Hole"
 ;*calibrate compass
-*calibrate declination +3.41	
+
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.41	
 ;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 ;Model Used IGRF11 		
 ;54.1994n 2.5124w  2007.11.05

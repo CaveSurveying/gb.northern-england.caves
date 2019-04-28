@@ -7,7 +7,9 @@
 ;Date:	22/09/11
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
-*calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*date 2011.09.22
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2011.09.08 
 ;*calibrate compass
 

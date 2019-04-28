@@ -9,7 +9,8 @@
 *instrument "023187" backclino
 
 *date 2015.08.08
-*calibrate declination +2.03		;taken from NOAA website for 54.18degrees N, 2.47degrees West
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +2.03		;taken from NOAA website for 54.18degrees N, 2.47degrees West
 *calibrate tape +0.0
 *calibrate backcompass 180
 *units clino backclino	percent

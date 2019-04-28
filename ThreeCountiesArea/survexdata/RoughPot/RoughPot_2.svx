@@ -1,6 +1,8 @@
 ; ROUGH POT
 
 *begin RoughPot_2 ; surveyed March 2nd 2002, AW, KL, PBW
+
+*date 2002.03.02
 *export 1
 ;Renamed and edited RGB 31/03/09
 *data normal from to tape compass clino

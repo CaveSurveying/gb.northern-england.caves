@@ -14,7 +14,8 @@
 ;*equate in5ext2.016 in5ext.019
 ;*equate in5ext2.001 in5ext.001
 
-
+*date 2006.10.10
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+6.50
 
 001	002	06.20	025.0	 00.0	;st001=mud bank at sump

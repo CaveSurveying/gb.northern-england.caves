@@ -3,7 +3,7 @@
 ;Survey Date:	19/09/02
 
 *begin	Paaschendale1
-
+*date 2002.09.19
 *export 0
 *export 1
 *export 14
@@ -18,7 +18,8 @@
 ;     "       "    Clinometer 726973 (RAR)
 ;     "     30m Fibron Tape (RAR)
 
-*calibrate compass	+2.50
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+2.50
 
 ;From	To	Dist	Bear	Clino
 0	1	2.9	135	3

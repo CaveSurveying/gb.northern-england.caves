@@ -8,7 +8,8 @@
 *date 2003.06.01	;Date:	01/06/03
 ;Instruments:PAG
 
-*calibrate declination +3.72
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +3.72
 *calibrate clino   +0.50
 
 1	2	13.86	034	3	;st1=knot on diver's line

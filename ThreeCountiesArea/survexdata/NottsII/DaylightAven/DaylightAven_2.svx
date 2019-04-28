@@ -1,6 +1,7 @@
 ;Notts2b
 *begin DaylightAven_2
 *export 1 2 10
+*date 2006.02.04 ; estimated date
 
 1	1a			12.00	0.00	90.00 ;SS1a is estimated height of aven
 1	2			7.90	245.00	0.00

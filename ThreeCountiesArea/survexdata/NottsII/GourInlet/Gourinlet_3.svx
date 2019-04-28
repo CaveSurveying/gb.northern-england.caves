@@ -8,8 +8,9 @@
 
 *export 001 006 010 016 
 
-
-*calibrate declination +3.26	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*date 2007.09.17
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.26	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2007.09.17
 
 001	002	02.44	220.0	+38.0	;stn001=GourInlet_2.25 is bolt at end of pit from previous survey

@@ -7,6 +7,7 @@
 ;Book: Neil Pacey
 ;Tape: Richard Bendall
 
+*date 2006.10.19
 *export 33
 *export Sump2
 *export Sump3

@@ -6,6 +6,7 @@
 *begin	Intestines2
 *export 43x 36x
 
+*date 2015.01.04
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 ;stn to stn	tape	comp	clino

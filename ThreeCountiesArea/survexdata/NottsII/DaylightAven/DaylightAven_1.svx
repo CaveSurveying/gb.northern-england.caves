@@ -3,7 +3,7 @@
 
 *begin DaylightAven_1
 *export 12 
-
+*date 2006.02.04
 ;04-02-06 S E Warren, Sweeney, Phil Parker
 ;Notts 2a survey of Daylight Aven from stream up mud slope up ropes through squeeze, down rope to stream
 

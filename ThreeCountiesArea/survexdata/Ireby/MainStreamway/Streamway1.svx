@@ -7,6 +7,7 @@
 ;*equate 	Streamway1.027	GloryHoles1.001
 
 *begin streamway1
+*date 1998.11.01
 
 *export 022
 ;*export 067

@@ -3,9 +3,10 @@
 ;Date:	05/06/2005
 ;Instruments:	N.Pacey's Kit 
 
-*calibrate tape		+0.70	;Tied round Simon's feet
-
 *begin	TrueGrit
+*calibrate tape		+0.70	;Tied round Simon's feet
+*date 2005.06.05
+
 
 *export 033 002	
 

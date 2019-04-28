@@ -1,6 +1,7 @@
 ;Cave:	Ireby Fell - pitch alternatives
 ;Surveyors:	D.Ramsay/S.Jobling/R.Bendall
 ;Date:	04/05/06
+
 ;Instruments:	RRCPC Kit 2
 
 ;*equate If14.001 DingDongBellPitches.001
@@ -11,7 +12,8 @@
 *export 001
 *export 215         ; tag
 *export 007
-
+*date 2006.05.04
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.00
 
 001	002	00.70	203.0	 00.0	;stn001 is drilled hole in big rock start of 2/4/06 survey

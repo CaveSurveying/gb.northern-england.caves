@@ -7,7 +7,8 @@
 ;vis = 1.5m at best, 0.5m at worst
 ;Water levels low. Temperature 6-8 degrees underground. Above ground, bloody freezing !
 
-*calibrate declination	+2.67
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination	+2.67
 
 *data diving from to bearing length fromdepth todepth
 ;From	To	Compass degrees	Tape metres	Depth metres	Left Tape metres (90 degrees )	Right Tape (90 degrees)	Up	Down	Total passage height - Floor to roof at station (from) metres	Comments/Description

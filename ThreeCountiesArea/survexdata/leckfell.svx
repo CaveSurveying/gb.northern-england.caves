@@ -3,6 +3,11 @@
 *cs out OSGB:SD
 *cs OSGB:SD
 
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 ;*export witchesII.witchesII-7.x	;added 22/03/11RGB
 
 ;*include Surface/OLD_LFGPS

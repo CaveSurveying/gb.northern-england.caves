@@ -7,7 +7,9 @@
 *begin	sds
 *export 014 x03
 
-*calibrate compass +3.50 ; Becka - I'm not sure where the +3.5 comes from - I'm guessing Hugh and Johnny used RRCPC instruments and I guess this is the first set of legs
+*date 2010.01.14
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +3.50 ; Becka - I'm not sure where the +3.5 comes from - I'm guessing Hugh and Johnny used RRCPC instruments and I guess this is the first set of legs
 
 *flags duplicate
 
@@ -33,7 +35,8 @@
 ; *calibrate declination 2.65
 ; On 11/07/10 Tim got a calibration of 332 at Bull Pot Farm (reading should be 328 so correction of +4 since *calibrate takes [reading - calibration])
 
-*calibrate compass +4
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +4
 
 000	020	01.56	162	-22
 020	021	05.47	95	+1.5

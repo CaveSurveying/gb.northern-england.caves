@@ -5,7 +5,8 @@
 ;PDA-Footleg
 
 *DATE 2013.07.13
-*CALIBRATE declination +2.02
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*CALIBRATE declination +2.02
 
 *FLAGS SPLAY
 0	0a	 1.09	183.92	-18.06

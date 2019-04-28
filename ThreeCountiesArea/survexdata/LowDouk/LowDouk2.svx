@@ -2,6 +2,7 @@
 *export 022 001  010	; RB changed 006 to 010 here as he does know which station to connect LowDouk5 to so is fixed!
 *Title "Low Douk 2"
 
+*date 2009.10.19
 ;Date: 19/10/09
 ;Survey Kit RRCPC No 2
 ;Book/Tape: Dave Ramsay

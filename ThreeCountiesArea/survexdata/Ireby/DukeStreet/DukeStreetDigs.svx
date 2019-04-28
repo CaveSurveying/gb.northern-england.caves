@@ -6,6 +6,7 @@
 ;*equate	If13.005 If06.059
 
 *begin	DukeStreetDigs
+*date 2006.04.10
 *export 005
 *calibrate compass	+0.00
 

@@ -1,6 +1,7 @@
 *begin ShortLongDrop
 
 ;Date: 15/02/2007
+*date 2007.02.15
 ;Cave: Short Long Drop
 ;Survey Kit RRCPC No ?
 ;Instruments:  Dave Ramsay

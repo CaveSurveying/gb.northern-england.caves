@@ -9,7 +9,9 @@
 ;calibration accuracy less than 0.5'
 
 *DATE 2013.09.19
-*CALIBRATE declination +2.39	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination +2.39	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.198037°N 2.512542°W  2013.09.19
 *FLAGS SPLAY
 0	0a	 1.65	348.06	 -5.41	;1.0 on bank opposite inlet 1.2 m above foot ledge

@@ -8,6 +8,7 @@
 ;Book:  Emma Martindale
 ;Tape:	Ruth McDonald
 
+*date 2009.10.09
 
 *Title "Low Douk Cave"
 

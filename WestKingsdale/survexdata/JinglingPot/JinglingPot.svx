@@ -13,7 +13,8 @@
 ;With Helen Blyth  and Dave Otterwell
 ;calibration accuracy less than 0.5'
 
-*CALIBRATE declination +2.17	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*CALIBRATE declination +2.17	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.200266°N 2.462872°W   2014.10.30
 *DATE 2014.10.30
 

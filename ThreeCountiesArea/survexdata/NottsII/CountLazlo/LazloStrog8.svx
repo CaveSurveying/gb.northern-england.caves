@@ -4,10 +4,10 @@
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
 *begin	LazloStrog8
-
+*date 2011.07.18
 *export 001 
 ;*equate LazloStrog1.007 LazloStrog8.001
-*calibrate declination +2.48	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;*calibrate declination +2.48	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2011.07.18 
 
 001	002	3.72	047	-58

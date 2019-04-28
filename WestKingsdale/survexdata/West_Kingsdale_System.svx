@@ -1,5 +1,12 @@
 *begin wks ;West_Kingsdale_System
 
+*cs out OSGB:SD
+*cs OSGB:SD
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ;*include KMC/allKMC
 *include KMC/Old_KMC

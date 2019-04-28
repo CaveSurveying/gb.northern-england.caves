@@ -16,7 +16,8 @@
 *instrument ULSA 50m tape
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*calibrate declination +2.94
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +2.94
 
 1	2	8.61	205	2	;1	0.4	1	0.8	0.4	1=tip of anvil rock on left side of passage when looking upstream
 2	3	4.51	245	2	;2	2.5	1.5	0.5	0.6	2=upstream left tip (as looking upstream) of large boulder in middle of stream

@@ -1,5 +1,5 @@
 *begin Poppy2
-
+*date 2004.02.15
 ;Date: 15/02/2004
 ;Cave: Notts II - Poppy Passage / Pachendalle
 ;Survey Kit RRCPC No 2
@@ -16,7 +16,9 @@
 *export 34
 
 *CALIBRATE tape +3.00		;Tape was 3 metres too short
-*calibrate declination +4.0	;added 07/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +4.0	;added 07/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1995n 2.513w 2004.02.15 
 
 ;Station Tape	Compass	Clino

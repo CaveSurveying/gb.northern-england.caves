@@ -8,7 +8,8 @@
 *export 112 121 134 138
 
 *date 1997.11.08
-*calibrate declination +4.65
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +4.65
 
 *data diving from to bearing length fromdepth todepth
 

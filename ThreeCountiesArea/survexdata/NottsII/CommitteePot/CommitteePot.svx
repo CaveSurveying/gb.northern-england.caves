@@ -8,6 +8,8 @@
 *export 001  ; entrance
 *export 019
 
+*date 1999.03.11
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.13
 
 001	002	12.00	 -	DOWN	;down to floor of 1st drop

@@ -7,6 +7,8 @@
 ;Date:	07/12/97 1pm-6pm
 ;Instruments:	CUCC set 5: clino 726974, comp 721899
 
+*date 1997.12.07
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.17
 
 002	001	05.18	152	-07.0 ; stn001 is tag

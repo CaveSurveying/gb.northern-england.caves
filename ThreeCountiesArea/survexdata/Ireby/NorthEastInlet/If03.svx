@@ -6,9 +6,11 @@
 ;Instruments:	1
 
 *begin	If03
+*date 1999.04.01 ;estimated date as non recorded
 
 *export 011
 
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+6.50
 
 000	000a	08.00	090.0	+08.0	;st000a to squeeze

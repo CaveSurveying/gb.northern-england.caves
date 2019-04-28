@@ -6,7 +6,10 @@
 *begin StepsPot3
 
 *export 001 
-*calibrate declination +3.15	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+
+*date 2008.10.16
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.15	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.188n 2.492w 2008.10.16
 ;*calibrate compass
 ;*fix 001 67992 77068 382

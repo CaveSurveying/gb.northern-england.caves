@@ -8,6 +8,8 @@
 ;Surveyors:	Pete Grant, Mike Bedford, Steve Marshal, Chris Trayner, Mark Stephens
 ;Instruments:	Pags set
 
+*date 1997.07.12
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.13
 
 001	002	02.25	005.5	+18.0	;001 is P hanger top of centipede

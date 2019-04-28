@@ -17,6 +17,7 @@
 ; *calibrate declination 2.65
 ; On 11/07/10 Tim got a calibration of 332 at Bull Pot Farm (reading should be 328 so correction of +4 since *calibrate takes [reading - calibration])
 
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass +4
 
 ;from	to	tape	compass	clino	remarks

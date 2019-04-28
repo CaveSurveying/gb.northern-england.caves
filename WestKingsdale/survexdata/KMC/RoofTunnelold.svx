@@ -18,7 +18,8 @@
 ;All legs in this file have back sights taken to provide error detection.
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*calibrate declination +1.90
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +1.90
 
 *FLAGS SPLAY
 0	0a	 1.53	230.34	-10.18	;4.0=small stump stalagmite low on right wall below broken calcite arch 

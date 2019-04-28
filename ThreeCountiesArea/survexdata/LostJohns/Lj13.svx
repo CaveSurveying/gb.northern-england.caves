@@ -7,6 +7,7 @@
 ;Date:		03/02/07 third of Feb 2007	
 ;Instruments: 	Beardy Set Two 	
 
+*date 2007.02.03
 *calibrate compass	 0.00
 *calibrate clino	-1.00
 *calibrate tape		 0.00

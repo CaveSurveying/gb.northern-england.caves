@@ -10,7 +10,8 @@
 
 *Entrance 1.0
 
-*CALIBRATE DECLINATION 1.89
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE DECLINATION 1.89
 
 *BEGIN 1
 ;di pda si distox2 neil LPz

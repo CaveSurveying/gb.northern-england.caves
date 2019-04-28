@@ -7,6 +7,7 @@
 ;Book:  Dave Ramsay 08/08/10 Ruth McDonald
 ;Tape:	Lee Paskin 08/08/10 Emma Martindale
 
+*date 2010.03.28
 
 *Title "Count Lazlo Stroganoff's Extensions"
 

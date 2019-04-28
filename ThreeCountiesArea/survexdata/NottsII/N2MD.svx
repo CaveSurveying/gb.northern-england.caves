@@ -3,7 +3,7 @@
 
 
 ;Date: 26/10/2006
-
+*date 2006.10.26
 ;Cave: Notts II
 
 ;Survey Kit RRCPC No ?
@@ -38,7 +38,8 @@
 
 *CALIBRATE tape -.10		;Tape was 10 centimetres too long
 
-*calibrate declination +3.34	;added 137/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.34	;added 137/06/11 RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1995n 2.513w 2006.10.26 
 	
 

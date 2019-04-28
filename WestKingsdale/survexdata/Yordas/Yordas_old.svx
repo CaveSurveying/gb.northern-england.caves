@@ -7,11 +7,14 @@
 ;*equate	
 
 *begin	Yordas_old
+*date 1997.08.05
+
 *export 047
 
 *fix 001 70460.00 79141.00 356.00 ;GPS
 
-*calibrate compass	+5.17
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass	+5.17
 
 ;001	002	20.08	 -	down	;top entrance main pitch
 001	001a	05.00	 -	down	;dimensions of shaft

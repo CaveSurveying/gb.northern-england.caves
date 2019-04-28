@@ -49,6 +49,7 @@
 *begin Swi01
 ; Swinsto, part 1
 ; 24 June 2000
+*date 2000.05.24
 ;
 ; Survey from entrance to part way along crawl betwen 1st
 ; and second pitches, including a couple of side passages.
@@ -61,7 +62,8 @@
 
 *export 1 65
 
-*calibrate compass	+3.75
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass	+3.75
 
 *entrance 1
 
@@ -113,7 +115,8 @@
 ; 
 ; CUCC Instrument set 4
 
-*calibrate compass	+4.00
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass	+4.00
 
 29	30	1.98	108.0	+03.5
 31	30	3.78	251.5	+04.5
@@ -235,6 +238,7 @@
 
 ; Swinsto, part 2
 ; 25 June 2000 
+*date 2000.05.25
 ; 
 ; Survey from top of second picth to part way along crawl 
 ; betwen 1st and second pitches.
@@ -246,7 +250,8 @@
 
 *export 1 27
 
-*calibrate compass	+4.00
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass	+4.00
 
 2	1	4.81	067.0	+06.0
 2	3	3.24	215.0	+07.0
@@ -311,6 +316,7 @@
 
 ; Swinsto, part3
 ; 24 June 2000
+*date 2000.05.25
 ;
 ; Survey from top of second pitch to ledge part way down
 ; big pitch.
@@ -322,7 +328,8 @@
 
 *export 1 31
 
-*calibrate compass	+5.00
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass	+5.00
 
 2   1   1.90    311.0   +09.0
 2   3   4.37    -       down
@@ -401,6 +408,7 @@
 
 ; Swinsto, part4
 ; date not given
+*date 2000.05.24
 ;
 ; Survey from ledge part way down
 ; big pitch to tag at point which can be free climbed up to from Swinsto Great Aven.
@@ -412,7 +420,8 @@
 
 *export 1
 
-*calibrate compass	+5.00  ;Copied from pervious block as no information given by Olly
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate compass	+5.00  ;Copied from pervious block as no information given by Olly
 
 2	1	1.25	333	+24.5
 2	3	1.22	091	+02.5

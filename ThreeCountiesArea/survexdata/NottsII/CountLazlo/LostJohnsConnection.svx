@@ -4,12 +4,14 @@
 
 ;*title "Lyle Caverns choke"
 ; Location: Lost Johns, Lyle Caverns Choke connection to Notts 2
-;*date 2011.11.15
+*date 2011.11.15
 ;*team Instruments Tim Allen 
 ;*team Notes Joe Giblin
 ;Instrument Tim's
 
-*calibrate compass +3.5
+
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +3.5
 
 ;from	to	tape	compass	clino	remarks
 

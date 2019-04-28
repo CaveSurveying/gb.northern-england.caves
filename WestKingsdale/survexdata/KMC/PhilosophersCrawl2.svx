@@ -15,7 +15,8 @@
 *instrument WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*CALIBRATE declination +2.59
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*CALIBRATE declination +2.59
 
 1	2	 7.36	 47.61	 -1.71	;1=tip of anvil rock on left side of passage when looking upstream
 2	3	 7.72	  9.11	 -0.30	

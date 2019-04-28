@@ -8,6 +8,7 @@
 
 *begin	Inlet7-12
 *export 101 103
+*date 2005.11.13
 
 102	101	2.00	230	 0
 102	103	6.30	-	UP	;103 is Yhang at incredibles down pitch

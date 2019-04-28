@@ -6,6 +6,8 @@
 ; GordonsInlet.018 Arrow in mudbank near mincemeat aven???
 *begin	GordonsInlet
 *export 1
+*date 2002.10.01 ;estimated date
+
 ;title "Gordens Inlet and exit to Dome Inlet"
 
 ;team Insts Pete Hall? 

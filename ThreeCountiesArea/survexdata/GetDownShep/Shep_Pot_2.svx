@@ -6,8 +6,8 @@
 
 ; inst Si & Di Disto X
 
-
-*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2012.10.28
 
 *data normal from to tape compass clino ignoreall

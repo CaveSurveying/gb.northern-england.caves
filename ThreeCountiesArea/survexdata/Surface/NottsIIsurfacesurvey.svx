@@ -24,6 +24,7 @@
 *entrance BoxHeadEntranceTube
 *entrance StartinghandleHole
 
+*date 2010.09.23
 
 *equate LostJohnsEntranceTag 47
 
@@ -31,7 +32,8 @@
 ; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
 ; surface survey - mag decl for 2010 = 2.98 deg W
 ; true N to grid N correction = -0.33 
-*calibrate declination +2.65
+;*calibrate declination +2.65
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 
 ;*calibrate compass ;not known for Survey Kit RRCPC No 2
 

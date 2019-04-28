@@ -1,6 +1,8 @@
 ;Notts2c
 *begin DaylightAven_3
 
+*date 2006.02.04 ;estimated date
+
 *export 1
 ;equate DaylightAven_2.1 DaylightAven_3.1 
 1	2	14.30	-	up

@@ -9,7 +9,9 @@
 *export 013v  ; Oliver Lloyds aven tag
 *export 036
 
-*calibrate compass	+6.50
+*date 2001.01.13
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+6.50
 
 001	002	03.90	172.0	+12.0	;st001=tag at Dome inlet
 002	003	03.60	202.0	+07.0

@@ -14,7 +14,8 @@
 *instrument Red Rose Sunto Compass & Clino, 30m tape
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*calibrate declination +4.77
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +4.77
 
 *entrance 002
 

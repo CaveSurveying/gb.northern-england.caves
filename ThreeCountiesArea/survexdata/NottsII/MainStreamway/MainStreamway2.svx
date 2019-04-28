@@ -1,5 +1,5 @@
 *begin MainStreamway2
-
+*date 2006.10.16
 ;Date: 16/10/2006
 ;Cave: Notts II - MainStreamway
 ;Survey Kit RRCPC No ?
@@ -15,7 +15,8 @@
 
 *export 1
 *export 12
-*calibrate declination +3.35	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.35	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2006.10.16 
 
 *CALIBRATE tape -.10		;Tape was 10 centimetres too long

@@ -6,7 +6,7 @@
 ;*equate	GreenTape6.010	GreenTape5.014
 
 *begin	GreenTape6
-
+*date 2002.12.30
 *export 010
 
 *calibrate compass	00.0

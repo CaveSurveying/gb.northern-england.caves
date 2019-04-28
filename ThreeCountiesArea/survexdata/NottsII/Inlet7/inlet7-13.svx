@@ -8,7 +8,7 @@
 
 *begin	Inlet7-13
 *export 103 018
-
+*date 2005.11.07
 
 
 001	002	03.90	319.0	-01.0	;stn1=end of right hand branch, surveying back from end

@@ -8,7 +8,9 @@
 *export 018
 *export 001
 
-*calibrate compass	+5.17
+*date 1997.04.17
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.17
 
 
 001	002	01.30	018.0	-19.0	;st001 is bolt belay for diving line

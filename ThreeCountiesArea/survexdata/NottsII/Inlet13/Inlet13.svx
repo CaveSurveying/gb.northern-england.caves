@@ -11,7 +11,9 @@
 *export 025
 *export 010a
 
-*calibrate compass	+5.00
+*date 2000.12.02
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.00
 
 001	002	01.90	134.0	+04.0	;st001=st019 on Committee(Iron Kiln survey Com.) boulder at bottom of short 3m pitch into chamber from stream.
 002	003	03.60	 - DOWN	; down scaffolding

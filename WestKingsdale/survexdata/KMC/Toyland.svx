@@ -14,7 +14,8 @@
 ; Calibration against pair of boulders outside Valley Entrance to the left of the gate from the road.
 ; Rose W.: Compass 191, 011 Clino -04, +03
 
-*calibrate declination	+3.09
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination	+3.09
 
 ;fr to  tape	comp clino	stn	L	R	U	D
 *flags duplicate

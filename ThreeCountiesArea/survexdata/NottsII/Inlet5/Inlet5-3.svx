@@ -9,12 +9,13 @@
 ;team Insts Allan Richardson
 ;team Notes Allan Richardson
 ;team Tape Andy Walsh 
-;date 2002.07.12
+*date 2002.07.12
 ;instrument Suunto Compass 810726 (RAR)
 ;instrument Suunto Clinometer726973 (RAR)
 ;instrument 30m Fibron Tape (RRCPC)
 
-*calibrate compass +2.5
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +2.5
 
 ;From  to  Tape Compass Clino 
 052	053	1.1	349	19

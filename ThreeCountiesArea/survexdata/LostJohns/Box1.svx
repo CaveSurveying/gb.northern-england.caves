@@ -7,6 +7,8 @@
 ;Date:	14/03/98pm
 ;Instruments:	PAG
 
+*date 1998.03.14
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.00
 
 ;start to	dist.	comass	clino	;comments

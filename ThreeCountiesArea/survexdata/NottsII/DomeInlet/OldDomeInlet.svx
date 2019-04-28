@@ -6,8 +6,10 @@
 ;*equate DomeInlet.000 MainStreamway5.019
 
 *begin	DomeInlet
+*date 2001.02.03
 *export 000 
-*calibrate compass	+6.50
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+6.50
 000	001	02.00	 -	UP	;st000=tag in main stream
 001	002	05.70	038.0	+29.0
 002	003	05.20	083.0	+08.0

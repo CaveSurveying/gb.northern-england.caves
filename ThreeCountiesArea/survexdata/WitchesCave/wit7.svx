@@ -8,7 +8,9 @@
 
 *export 001 001a
 
-*calibrate compass	+5.17
+*date 1997.07.26
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.17
 
 000	001	02.00	020.0	 00.0	;MADE UP LEGS FROM UP-LEG TO SUMP 2 TO ROCK ON CASCADE
 001	001a	02.20	020.0	 00.0	;MADE UP LEG TO SUMP 2 LINE

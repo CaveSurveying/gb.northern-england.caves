@@ -7,11 +7,10 @@
 
 
 *begin	GloryHoles1
-
+*date 2004.05.19
 *export	001
 *export 005
 *export	011
-
 
 ;*calibrate compass	+5.00
 *calibrate clino	-0.50

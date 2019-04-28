@@ -5,7 +5,9 @@
 *begin	wit
 *export 001 002b 002c
 
-*calibrate compass	+5.13
+*date 1997.02.02
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.13
 
 *flags duplicate	; data replaced by resurvey in 2011
 

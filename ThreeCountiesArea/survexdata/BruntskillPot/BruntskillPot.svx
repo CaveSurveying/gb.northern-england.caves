@@ -5,6 +5,7 @@
 ;Date:	15/02/10
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
+*date 2010.02.15
 *export Entrance
 
 ;*fix	BruntskillPot 66734 79377	364	;Bruntskill pot III active sink RGB 15/01/07

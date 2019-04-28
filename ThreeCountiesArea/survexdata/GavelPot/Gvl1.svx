@@ -4,8 +4,10 @@
 ;Cave:	Gavel Pot
 ;Surveyors:	M.Savage/C.Webster/K.Richardson
 ;Date:	03/08/97
+*date 1997.08.03
 ;Instruments:	CSG kit1
 
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.17
 
 

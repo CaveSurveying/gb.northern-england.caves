@@ -3,7 +3,10 @@
 ;Data source not currently known (not recorded in current files)
 
 *begin UpstreamSump
+*date 2015.07.13       ;date added by Simon Cornhill to make the survey compile 
+;<<<Note: this is NOT the date the survey was done>>>
 *export 5
+*calibrate declination 0 ;this is to stop declination being added twice
 *calibrate compass +182.68
 
 *data diving from to bearing length fromdepth todepth

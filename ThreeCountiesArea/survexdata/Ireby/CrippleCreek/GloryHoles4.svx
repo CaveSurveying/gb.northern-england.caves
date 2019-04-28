@@ -1,14 +1,16 @@
 ;Cave:  Ireby Fell - Glory Holes - Cripple Creek
 ;Instruments: D.Ramsay, Book: N.Pacey, Tape: B.Ward
 ;Date:  13/06/04
+
 ;Instruments:   RRCPC Survey Kit 4
 
 *begin  GloryHoles4
-
+*date 2004.06.13
 *export 001
 *export 007
 *export 064
 
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass  +5.00
 *calibrate clino    -0.50
 *calibrate tape     +8.96

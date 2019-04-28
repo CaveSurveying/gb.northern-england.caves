@@ -7,7 +7,8 @@
 *export 1
 ;*equate	Lj20.1	box3.079
 
-*calibrate compass	+6.5 ;?
+*date 1985.06.01 ;estimated date
+;*calibrate compass	+6.5 ;?
 *units dx dy dz 1.0 metres ; derived from scale bar
 *data cartesian from	to	dx	dy	dz
 

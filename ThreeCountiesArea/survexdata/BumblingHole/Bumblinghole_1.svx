@@ -1,6 +1,7 @@
 *begin Bumblinghole_1
 
 ;Date: 12/02/2007
+*date 2007.02.12
 ;Cave: Bumbling Hole
 ;Survey Kit RRCPC No ?
 ;Instruments:  Dave Ramsay

@@ -6,8 +6,10 @@
 ;Cave:	Gavel Pot
 ;Surveyors:	Pete Hall/Ian Lawton/Carmell Ramwell
 ;Date:	06/03/99
+*date 1999.03.06
 ;Instruments:	3?
 
+*calibrate declination 0  ;this is to stop declination being added twice 
 *calibrate compass	+5.00
 *entrance 000	;added by RGB 23/11/09 for clarity on 3d image
 

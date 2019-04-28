@@ -6,7 +6,8 @@
 
 ; Surveyed by Rupert Skorupka
 
-*calibrate declination	+3.87 ;Based on guessed date
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination	+3.87 ;Based on guessed date
 
 *equate pt1.11 pt2.0
 *equate pt2.260 pt3.0

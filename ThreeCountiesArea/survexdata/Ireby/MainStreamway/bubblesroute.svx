@@ -12,7 +12,9 @@
 *export 215         ; tag
 *export 007
 
-*calibrate compass	+5.00
+*date 2006.05.04
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.00
 
 001	002	00.70	203.0	 00.0	;stn001 is drilled hole in big rock start of 2/4/06 survey
 002	003	04.30	312.0	-53.5	;down ent tube

@@ -5,11 +5,12 @@
 
 *begin	DingDongBellPitches
 
+*date 1998.11.01
 *export 001
 *export 007
 *export 022
 
-
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.00
 
 

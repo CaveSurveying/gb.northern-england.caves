@@ -4,11 +4,12 @@
 ;Instruments:	PAG
 
 *begin	Mainstreamway4
-
+*date 2000.12.02
 *export 024
 *export 030
 
-*calibrate compass	+5.00
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.00
 
 024	025	05.20	100.0	 00.0	;st024=tag hanging on wire from right side of chockstone at Showerbath Inlet coming in from left
 025	026	08.80	143.0	+02.0	;chockstones 2/5m above stream all along this leg

@@ -8,6 +8,7 @@
 
 *begin	mg1
 
+*date 1997.04.09
 *export 008a 032a 038b 001 026a 014a
 
 ;next line commented out and replaced by *calibrate declination
@@ -19,7 +20,8 @@
 ; surface survey - mag decl for 1997 = 5.18 deg W
 ; true N to grid N correction = -0.33 
 
-*calibrate declination 4.85
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination 4.85
 
 
 001	002	04.15	145.5	-01.5	;st001=top of gate-post near stile

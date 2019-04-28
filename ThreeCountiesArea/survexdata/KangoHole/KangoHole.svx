@@ -10,6 +10,7 @@
 ;All KangoHole files
 
 *begin KangoHole
+*date 2010.09.17
 
 *entrance 004
 *fix 004 66711 78362 332 ;entrance GPS by Richard Bendall 15 Sept 2010

@@ -7,6 +7,8 @@
 ;Book: PParker R Mercer
 ;Tape: 
 
+*date 2008.06.01 ; estimated date
+
 *export 016
 
 ;*equate 016 Gourinlet_3.010

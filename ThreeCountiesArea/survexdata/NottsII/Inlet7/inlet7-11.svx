@@ -16,9 +16,9 @@
 ;Date:	03/04/05
 ;Instruments:	RRCPC Kit 4, Tape (Neil's tape)
 
-
-
-*calibrate compass	+5.00
+*date 2005.04.03
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+5.00
 *calibrate clino	-0.50
 
 ;From	To	Tape	Compass	Clino		L	R	U	D	Comments

@@ -8,6 +8,8 @@
 ;Date:	21/11/98
 ;Instruments:	kit 1?
 
+*date 1998.11.21
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+6.50
 
 001	002	06.00	004.0	-08.0	;st001=tag=box1 st014 between boxhead pitches and crowbar

@@ -10,6 +10,7 @@
 
 *export 016 011 
 
+*date 2002.12.30
 *calibrate compass	0.00
 *calibrate clino	+1.00
 *calibrate tape	+2.00

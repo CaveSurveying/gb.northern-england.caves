@@ -6,6 +6,8 @@
 ;Date:	20/06/98
 ;Instruments:	Kit1????????
 
+*date 1998.06.20
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.00
 
 001	001a	05.20	200	+58.0	;up boulders from tag

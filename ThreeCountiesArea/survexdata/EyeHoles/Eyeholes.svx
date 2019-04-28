@@ -1,6 +1,7 @@
 *begin Eyeholes
 
 ;Date: 26/02/07
+*date 2007.02.26
 ;Cave: Eyeholes
 ;Survey Kit RRCPC No 2
 ;Instruments:  Dave Ramsay

@@ -14,7 +14,9 @@
 ;Date:	11/01/01
 ;Instruments:	2
 
-*calibrate compass	+6.50
+*date 2001.01.11
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+6.50
 
 
 007	009	07.80	069.0	+14.0

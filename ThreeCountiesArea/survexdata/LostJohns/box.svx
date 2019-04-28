@@ -8,6 +8,8 @@
 ;*export 015 ;st015 is surface rim ;ev.ss19.022a 
 ;*entrance 015
 
+*date 1997.07.12
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.17
 
 

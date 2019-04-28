@@ -20,7 +20,8 @@
 
 ; ====== stations refindable to link to other surveys: ======
 
-*calibrate compass +2.5
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +2.5
 
 033	034	6.95	310	-3.5
 034	035	6.1	311.5	+3

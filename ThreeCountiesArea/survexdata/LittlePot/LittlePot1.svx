@@ -5,8 +5,10 @@
 
 *begin	Littlepot1
 *export Tag 003 010
+*date 2010.10.21
 
-*calibrate declination 2.65
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination 2.65
 ;*calibrate compass
 
 ;stn to stn	tape	comp	clino

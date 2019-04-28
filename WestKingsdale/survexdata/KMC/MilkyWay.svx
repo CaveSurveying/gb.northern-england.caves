@@ -18,7 +18,8 @@
 ; due to concerns with clino calibration at this point where legs with significant slope were first measured on this
 ; trip.
 
-*calibrate declination +2.21
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +2.21
 
 *FLAGS SPLAY
 ;27	27a	 8.94	115.92	  9.67  ;Splay fired down passage covered in Valley Entrance survey file

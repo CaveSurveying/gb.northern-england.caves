@@ -9,7 +9,8 @@
 *export 001 012 076 079 086 099
 
 *date 1999.07.01 ;Estimated middle of year this section was surveyed
-*calibrate declination +4.34 ;Based on estimated date ;was +5.17
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +4.34 ;Based on estimated date ;was +5.17
 
 *data diving from to bearing length fromdepth todepth
 

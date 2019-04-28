@@ -10,7 +10,9 @@
 *export 001 024
 *export 008 016 012a
 
-*calibrate compass	+3.50
+*date 2003.05.28
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+3.50
 *calibrate clino	+0.50
 
 001	002	19.20	210.0	+17.5	;st001 = new rift pot tag up high on left facing into cave

@@ -11,7 +11,8 @@
 *Entrance 1.3
 
 *BEGIN 1
-*CALIBRATE declination 1.74   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination 1.74   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.193541°N,2.506882°W   2017.04.15
 
 

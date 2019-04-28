@@ -3,25 +3,30 @@
 *cs OSGB:SD
 *cs out utm30N
 
-
-; MMMMC data - Notts 1-4, Ireby, Lost Johns, Large, Rift etc
-*include leckfell
-
 ; EaseGill data from RRCPC / Ray Duffy / Sam Lieberman
 
 ; not working yet
 ;*equate aeg1.ear.wm.001 pml1.link1.lk01.034			; links Easegill to Link/Pippikin at tag in Echo aven
 ;*equate aeg1.ear.GrindEasyStRoofTube.001 pml1.link1.lk12.033	; links Easegill to Link Pippikin via the Grind
 
-*include EaseGill/EaseGill.svx
-;*include Pippikin/pml1
-
-; not working yet
-; West Kingsdale data mainly diving data from John Cordingley and Rupert Skorupka collated by Footleg (Paul Fretwell) who has also collected some dry cave data
-*include ../../WestKingsdale/survexdata/West_Kingsdale_System
+;*include EaseGill/EaseGill.svx
+*include EaseGill-Pippikin
 
 ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
 *include Barbondale\Barbondale
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+; MMMMC data - Notts 1-4, Ireby, Lost Johns, Large, Rift etc
+*include leckfell
+
+
+; West Kingsdale data mainly diving data from John Cordingley and Rupert Skorupka collated by Footleg (Paul Fretwell) who has also collected some dry cave data
+*include ../../WestKingsdale/survexdata/West_Kingsdale_System
+
 
 ;East Kingsdale - added 07/07/13 by Becka
 *include ../../EastKingsdale/survexdata/EastKingsdale

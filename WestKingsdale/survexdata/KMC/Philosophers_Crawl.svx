@@ -14,7 +14,8 @@
 *team tape Steve Domeney
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*calibrate declination +2.96
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +2.96
 
 001	002	6.4	44	-2	;001 is a plastic tag in ceiling at downstream end of Philosophers passage
 002	003	16.2	110	-1

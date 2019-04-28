@@ -13,7 +13,8 @@
 *instrument Compass and Clino - rr2
 
 *calibrate tape +.20	; +ve if tape was too short, -ve if too long
-*calibrate declination +2.40
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.40
 ;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 ;Model Used IGRF11 		
 ;54.1994n 2.5124w  2014.02.03

@@ -12,7 +12,8 @@
 ;Instruments:	?
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*calibrate declination +4.46
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +4.46
 
 001	002	00.30	 -	DOWN
 002	003	14.60	251.0	+01.0

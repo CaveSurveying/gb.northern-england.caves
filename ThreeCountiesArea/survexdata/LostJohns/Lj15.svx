@@ -7,8 +7,9 @@
 ;Cave: Lost Johns Five Pitch Route 	
 ;Surveyors:	Sam Allshorn 
 ;Date: 03/02/07	
-;Instruments:Beardys Set Two 	
-
+;Instruments:Beardys Set Two 
+	
+*date 2007.02.03
 *calibrate compass		+2.00
 *calibrate clino		-2.50
 *calibrate tape		 0.00	

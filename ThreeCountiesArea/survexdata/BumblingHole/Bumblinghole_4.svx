@@ -1,6 +1,7 @@
 *begin Bumblinghole_4
 
 ;Date:  03/01/08
+*date 2008.01.03
 ;Cave: Bumbling Hole
 ;Survey Kit RRCPC No 2
 ;Instruments: Richard Bendall

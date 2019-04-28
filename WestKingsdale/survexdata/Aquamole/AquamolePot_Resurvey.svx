@@ -14,7 +14,8 @@
 *TEAM Di Arthurs pda & Simon Cornhill distoX
 ;calibrated error <0.5
 
-*CALIBRATE declination +1.92	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination +1.92	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.200266°N 2.462872°W   2016.04.16
 
 *DATE 2016.04.16
@@ -232,7 +233,9 @@
 *TEAM Di Arthurs pda, Simon Cornhill distoX, James carlisle LP
 ;calibrated error <0.5
 *DATE 2016.09.03
-*CALIBRATE declination +1.86	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination +1.86	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.200266°N 2.462872°W   2016.09.03
 
 *FLAGS NOT SPLAY
@@ -399,7 +402,8 @@
 ;calibrated error <0.5
 *DATE 2016.09.03
 
-*CALIBRATE declination +1.86	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination +1.86	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.200266°N 2.462872°W   2016.09.03
 
 *FLAGS SPLAY

@@ -4,7 +4,7 @@
 ;Instruments:	RRCPC Survey Kit 4
 
 *begin	GloryHoles6
-
+*date 2004.08.30
 *export 001
 ;*export 008	
 

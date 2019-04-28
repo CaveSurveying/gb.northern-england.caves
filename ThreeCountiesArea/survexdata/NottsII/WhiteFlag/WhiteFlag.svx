@@ -15,7 +15,7 @@
 *Title "White Flag Inlet"
 *export 1
 *export 7
-
+*date 2006.10.19
 *CALIBRATE tape -.10		;Tape was 10 centimetres too long
 	
 ;Station 	Tape	Compass	Clino	 L	R	U	D

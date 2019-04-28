@@ -7,6 +7,8 @@
 ;Title "House of the Rising Sump"
 ;Date:	sump data from various trips in 2013, dry passage data from 12/10/13
   
+*date 2013.10.12
+  
 ;Instruments:	Suunto Compass & Clino Tandem (beardys) , 30m tape	
 
 *data diving from to tape compass fromdepth todepth

@@ -6,7 +6,8 @@
 *instrument "Noel and Holly's Disto" Disto X
 
 *date 2015.09.13
-*calibrate declination +2.02			;taken from NOAA website for 54.18degrees N, 2.47degrees West (on 14/9/15 by NS)
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +2.02			;taken from NOAA website for 54.18degrees N, 2.47degrees West (on 14/9/15 by NS)
 
 
 *data normal from to tape compass clino	

@@ -6,7 +6,10 @@
 *begin LostMarbles1
 
 *export 001 019
-*calibrate declination +3.16	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+
+*date 2008.05.12
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.16	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.188n 2.492w 2008.05.15
 
 001	002	3.25	301	-4	;001 Entrance is 008 on surface survey

@@ -8,6 +8,8 @@
 
 *export 0 26 tag
 
+*date 2010.6.21
+
 ; mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 ; lat/long for that neck of the woods = 54.25 N 2.5 W on 21/6/2010
 ; surface survey - mag decl for 2010 = 2.98 deg W
@@ -15,7 +17,8 @@
 ; *calibrate declination 2.65
 ; On 11/07/10 Tim got a calibration of 332 at Bull Pot Farm (reading should be 328 so correction of +4 since *calibrate takes [reading - calibration])
 
-*calibrate compass +4
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +4
 
 0	1	26.6	51	17	;Notts2 centre of lid
 1	2	21.05	51.5	8

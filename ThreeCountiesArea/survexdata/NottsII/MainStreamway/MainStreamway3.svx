@@ -1,5 +1,5 @@
 *begin MainStreamway3
-
+*date 2007.01.31
 ;Date: 31/01/2007
 ;Cave: Notts II - Main Streamway
 ;Survey Kit: Neil's instruments
@@ -15,7 +15,8 @@
 *export 33
 *export 55
 
-*calibrate declination +3.32	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.32	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2007.01.31
 
 ;From	To	Tap	Compass	Clino	 L	R	U	D

@@ -6,7 +6,7 @@
 *begin	ShowerbathInlet
 *export 8
 ;title "Shower Bath"
-
+*date 2002.10.01 ;estimated date
 ;team Insts Pete Hall? 
 ;team Notes Andy Walsh?
 ;team Tape Pete Holden?

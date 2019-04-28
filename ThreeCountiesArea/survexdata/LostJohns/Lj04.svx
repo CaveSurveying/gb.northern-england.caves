@@ -7,6 +7,9 @@
 ;Date:	13/07/97
 ;Surveyors:	Lee Cartledge/tim eastwood
 ;Instruments:	CSG no. 1 set
+
+*date 1997.07.13
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.17
 
 001	002	04.95	015.0	 00.0	;001 is centre of flake at bobs pit

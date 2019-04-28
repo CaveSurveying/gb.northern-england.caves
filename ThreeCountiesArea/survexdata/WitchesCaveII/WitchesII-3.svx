@@ -6,7 +6,9 @@
 *begin	WitchesII-3
 *export 003 013 014 018 019 020 021 022 028
 
-*calibrate declination 2.65
+*date 2010.11.01
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination 2.65
 ;*calibrate compass
 
 ;stn to stn	tape	comp	clino

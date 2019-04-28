@@ -10,7 +10,7 @@
 *begin	longdrop1
 
 
-
+*date 2007.08.02 ;average date
 
 
 ;*calibrate compass

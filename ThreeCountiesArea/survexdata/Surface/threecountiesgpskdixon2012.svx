@@ -4,6 +4,8 @@
 ; Instruments:	Leica Geosystems SR530 GPS, KD Suunto Prism Compass, Suunto Clino, Disto A3 and Disto D2
 ; SVX File:	Created 25 April 2012 by K.Dixon, updated 23 August 2012
 
+
+
 ; Geodetic L1/L2 GPS post-processed using APPS at Jet Propulsion Laboratory, California to determine ITRF2008 Datum co-ords
 ; ITRF2008 co-ordinates determined for five OS GPS regional stations AMBE, BLAP, GIGG, LEED, RICM using same method
 ; 7 parameter transformation determined from ITRF2008 to ETRS89 for above five OS stations and applied to new 3C stations
@@ -15,6 +17,8 @@
 ; OSGB36 co-ordinates are for the OS 100km square SD 
 
 *begin	3cgps
+
+*date 2012.04.01
 
 *export 001	;Deaths Head Tag on fence post
 *export 004	;Lost Johns Tag on Ledge near entrance
@@ -40,7 +44,8 @@
 ; magnetic north 02 degrees 14 minutes west of grid north as per British Geological Survey online calculator for July 2012
 ; therefore zero correction term for survex is +2.23 degrees
 
-*calibrate compass +2.23 
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +2.23 
 
 *fix	3C01	67072.998	78633.040	353.7130	;sigE 0.0253m, sigN 0.0427m, sigElev 0.041m
 *fix	005	66627.330	79065.580	327.5720	;sigE 0.0141m, sigN 0.0291m, sigElev 0.021m

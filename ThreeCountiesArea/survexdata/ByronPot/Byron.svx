@@ -1,5 +1,5 @@
 *begin Byron
-
+*date 2016.01.30 ;estimated date of survey
 *export 14x
 
 14x	1	1.40	232	-53	; stn 14 is station from shortdroprumblingcoalholebyronsurface survey

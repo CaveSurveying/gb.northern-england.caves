@@ -11,7 +11,9 @@
 
 *export 016 030
 
-*calibrate compass	+3.50
+*date 2002.06.27
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass	+3.50
 *calibrate clino	-1.0
 
 030	030a	02.50	016.0	 00.0	;from station 030 of survvey to Mainstreamway2.1 in streamway

@@ -8,6 +8,9 @@
 ;Date:	12/07/97
 ;Surveyors: Andy Hall/Stuart ? from BEC
 ;Instruments: AH set
+
+*date 1997.07.12
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.17
 
 000	001	02.10	175.0	 00.0	;000 is P bolt at head of No.1 hole

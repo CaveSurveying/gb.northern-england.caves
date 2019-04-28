@@ -5,6 +5,7 @@
 
 
 *begin	in5ext
+*date 2006.10.10
 
 *export 001
 *export 016
@@ -14,6 +15,7 @@
 ;*equate in5ext2.016 in5ext.019
 ;*equate in5ext2.001 in5ext.001
 
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+6.50
 
 001	002	06.00	020.0	+10.0	;st001=mud bank at sump

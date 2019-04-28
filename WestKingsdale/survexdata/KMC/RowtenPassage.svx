@@ -16,7 +16,8 @@
 
 ; Calibration readings against pair of boulders to left of gate from road near entrance (Footleg): Compass 190, 011 Clino -04, +04
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
-*calibrate declination +2.84
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+;*calibrate declination +2.84
 *calibrate clino -1.0; Applied to correct systematic reading bias as canal surface is known to be level
 
 *equate 8 DistoXSumpTieIn.5

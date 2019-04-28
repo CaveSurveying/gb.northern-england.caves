@@ -11,6 +11,10 @@
 *export 000 007
 
 ;st011 to 016 by Paul & Chris
+
+*date 2002.12.30
+
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+7.00
 *calibrate clino	+3.50
 *calibrate tape	0.00

@@ -10,6 +10,8 @@
 ;*team Notes Geoge North
 ;*Instrument Tim's
 
+*date 2011.10.23
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass +3.5
 
 ;from	to	tape	compass	clino	remarks

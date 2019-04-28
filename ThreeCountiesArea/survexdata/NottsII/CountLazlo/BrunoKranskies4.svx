@@ -11,7 +11,9 @@
 ;*export 2	;ready for next survey
 *export 2a
 
-*calibrate compass +3.50	;
+*date 2011.09.08
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate compass +3.50	;
 
 ;1a to 3 done by Tim Allen 9/11 with help by Mike bottomley during radio location fix.  Tims instuments +disto
 

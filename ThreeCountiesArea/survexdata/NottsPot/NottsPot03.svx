@@ -8,8 +8,10 @@
 *begin	NottsPot03
 *export 022
 
+*date 2008.09.08
 ;*calibrate compass	+5.00
-*calibrate declination +3.16	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +3.16	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2008.09.08
 
 001	002	4.13	335	+3	;Top of Boulder

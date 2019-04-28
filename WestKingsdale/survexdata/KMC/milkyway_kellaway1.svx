@@ -13,7 +13,8 @@
 *export 0
   *date 2015.11.08 
   
-  *calibrate declination 2.00 ;    NOAA co-ordinates - Latitude:  54.191733° N 	2.465063° W - (2.00° W  ± 0.38°  changing by  0.16° E per year)
+  ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
+  ;*calibrate declination 2.00 ;    NOAA co-ordinates - Latitude:  54.191733° N 	2.465063° W - (2.00° W  ± 0.38°  changing by  0.16° E per year)
 
   *alias station - ..
   *flags not splay

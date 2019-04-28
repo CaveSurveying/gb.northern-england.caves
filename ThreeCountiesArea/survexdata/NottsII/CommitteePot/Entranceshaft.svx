@@ -9,7 +9,9 @@
 *entrance 001
 ;*calibrate compass
 
-*calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+*date 2011.09.08
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.47	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w 2011.09.08 
 
 ;stn to stn	tape	comp	clino

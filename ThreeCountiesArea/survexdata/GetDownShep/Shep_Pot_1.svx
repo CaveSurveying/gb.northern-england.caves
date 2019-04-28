@@ -1,5 +1,5 @@
 *begin Shep_Pot_1
-
+*date 2012.10.28
 *export D2 22
 
 *fix 22 67064 78046 372
@@ -9,7 +9,8 @@
 ; inst Tim's Pony and Disto
 ;Tim inst and book, Mick target
 
-*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.36	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2012.10.28
 
 *data normal from to tape compass clino ignoreall

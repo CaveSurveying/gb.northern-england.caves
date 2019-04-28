@@ -5,7 +5,8 @@
 *BEGIN 1
 ;di pda Si distox2
  
-*CALIBRATE declination 1.78   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*CALIBRATE declination 1.78   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.190808°N, 2.501691°W   2017.04.01
 								
 *DATE 2017.04.01

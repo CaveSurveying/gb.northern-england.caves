@@ -1,6 +1,7 @@
 ;Cave:	Ireby Fell - Glory Holes - Cripple Creek - Pacey's Patio
 ;Instruments: D.Ramsay, Book: N.Pacey
 ;Date:	08/08/2004
+*date 2004.08.08
 ;Instruments:	RRCPC Survey Kit 4
 
 *begin	GloryHoles5

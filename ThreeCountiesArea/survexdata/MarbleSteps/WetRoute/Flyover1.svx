@@ -6,9 +6,10 @@
 *begin	Flyover1
 *export 001 
 
-
+*date 2011.06.23
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*calibrate compass
-*calibrate declination +2.49	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;*calibrate declination +2.49	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.188n 2.492w 2011.06.23 
 
 ;stn to stn	tape	comp	clino

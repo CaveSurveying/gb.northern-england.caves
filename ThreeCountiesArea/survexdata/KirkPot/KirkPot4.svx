@@ -5,10 +5,12 @@
 
 
 *begin	KirkPot4
+*date 2012.03.17   ;estimated date
 *export U001 DSS1 U005 Dss4
 ;*export 001
 
-*calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
+;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
+;*calibrate declination +2.42	;RGB calculated mag decl from http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination
 				;54.1994n 2.5124w  2012.03.29
 
 *data diving from to length bearing  fromdepth todepth

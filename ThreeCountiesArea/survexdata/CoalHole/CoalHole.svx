@@ -3,6 +3,7 @@
 ;Cave:	Coal Hole
 ;Surveyors:	Dave Ramsay/Richard Bendall
 ;Date:	13/12/07
+*date 2007.12.13
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, Disto	
 
 *export EntranceLoc  ; No Tag, prominant rock projection just as you go underground

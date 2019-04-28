@@ -6,9 +6,10 @@
 
 *begin	LeckBeckHead
 *export 001
-
+*date 1993.06.01   ;estimated date
 *data diving from to length bearing fromdepth todepth
 
+*calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.67
 
 001	002	01.20	155.0	 00.0	 00.0	;001=Eyehole tie off diving line
