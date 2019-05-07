@@ -46,19 +46,110 @@
 *equate	kdgps.3c26	Yordas1.ext
 
 
+
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
 
 *include KMC/Window_Aven
 *equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
-;-------------------------------------------------------------------------------------------
+
+
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
 
-;*INCLUDE ApprenticePot/ApprenticePot
+*FIX Apprentice_Pot REFERENCE 70250 78890 367
+*ENTRANCE Apprentice_Pot 
 
+*FIX BackDoor_Stream REFERENCE 70550 79030 313
+*ENTRANCE BackDoor_Stream
 
-;*solve
+*FIX Beadstead_Pot REFERENCE 69430 77580 384
+*ENTRANCE Beadstead_Pot
 
+*FIX Blood_Pot REFERENCE 69460 77530 381
+*ENTRANCE Blood_Pot
 
+*FIX BrokenSpring_Pot REFERENCE 69650 77690 368 
+*ENTRANCE BrokenSpring_Pot
+
+*FIX Buzzers_Pot REFERENCE 69130 77010 387
+*ENTRANCE Buzzers_Pot
+
+*FIX Calf_Pot REFERENCE 70190 78770 360
+*ENTRANCE Calf_Pot
+
+*FIX Cow_Pot REFERENCE 70220 78730 357
+*ENTRANCE Cow_Pot
+
+*FIX Craftsmans_Pot REFERENCE 70230 78860 366
+*ENTRANCE Craftsmans_Pot
+
+*FIX DoubleThree_Pot REFERENCE 69460 77620 384
+*ENTRANCE DoubleThree_Pot
+
+*FIX Drip_Pot REFERENCE 69460 77370 381
+*ENTRANCE Drip_Pot
+
+*FIX Fag_Pot REFERENCE 69230 77080 384
+*ENTRANCE Fag_Pot
+
+*FIX KeldNook_Cave REFERENCE 69240 76740 366
+*ENTRANCE KeldNook_Cave
+
+*FIX KeldNook_Pot REFERENCE 69180 76770 372
+*ENTRANCE KeldNook_Pot
+
+*FIX KeldScar_Cave REFERENCE 69560 76790 303
+*ENTRANCE KeldScar_Cave
+
+*FIX Levitation_Pot REFERENCE 70570 79030 308
+*ENTRANCE Levitation_Pot
+
+*FIX Midas REFERENCE 70550 79030 313
+*ENTRANCE Midas
+
+*FIX New_Pot REFERENCE 69250 77410 381
+*ENTRANCE New_Pot
+
+*FIX Plantation_pot REFERENCE 70450 79190 355
+*ENTRANCE Plantation_pot
+
+*FIX Red_Cave REFERENCE 69450 77640 384
+*ENTRANCE Red_Cave
+
+*FIX SheepFold_Pot REFERENCE 69000 76940 387
+*ENTRANCE SheepFold_Pot
+
+*FIX Shout_Pot REFERENCE 70170 78690 361
+*ENTRANCE Shout_Pot
+
+*FIX Simpson_Cave REFERENCE 69550 77760 378
+*ENTRANCE Simpson_Cave
+
+*FIX Simpson_Pot REFERENCE 69620 77870 376
+*ENTRANCE Simpson_Pot
+
+*FIX Slanting_Cave REFERENCE 70510 79250 353
+*ENTRANCE Slanting_Cave
+
+*FIX Sloping_Cave REFERENCE 70410 79100 351
+*ENTRANCE Sloping_Cave
+
+*FIX Suicide_Pot REFERENCE 69460 77530 381
+*ENTRANCE Suicide_Pot
+
+*FIX Swinsto_South REFERENCE 69310 77500 386
+*ENTRANCE Swinsto_South
+
+*FIX Thorney_Pot REFERENCE 69540 77350 372
+*ENTRANCE Thorney_Pot
+
+*FIX Turbary_Pot REFERENCE 69500 77500 378
+*ENTRANCE Turbary_Pot
+
+*FIX Whisper_Pot REFERENCE 70170 78690 358
+*ENTRANCE Whisper_Pot
 
 *end  wks ;West_Kingsdale_System

@@ -171,6 +171,90 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *include WeePot/WeePot
 
+
+
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;<<<< Entrance coordinates from Northern Caves >>>>
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
+
+;<<<<Marble Steps Area Entrances>>>>
+*FIX BleaDubs_pot REFERENCE 68630 77010 399
+*ENTRANCE BleaDubs_pot
+
+*FIX Brolly_Pot REFERENCE 68540 76970 402
+*ENTRANCE Brolly_Pot
+
+*FIX CheesePressStone_Dig REFERENCE 68790 76090 370
+*ENTRANCE CheesePressStone_Dig
+
+*FIX CreakingDeath_Pot REFERENCE 68890 76480 393
+*ENTRANCE CreakingDeath_Pot
+
+*FIX Drifter_Pot REFERENCE 68410 76920 405
+*ENTRANCE Drifter_Pot
+
+*FIX Fathom_Pot REFERENCE 68810 77090 398
+*ENTRANCE Fathom_Pot
+
+*FIX HighPlain_Pot1 REFERENCE 68300 76900 403
+*ENTRANCE HighPlain_Pot1
+
+*FIX HighPlain_Pot2 REFERENCE 68350 76950 404
+*ENTRANCE HighPlain_Pot2
+
+*FIX Hunts_Pot REFERENCE 68880 75710 325
+*ENTRANCE Hunts_Pot
+
+*FIX Kail_Pot REFERENCE 68760 76870 396
+*ENTRANCE Kail_Pot
+
+*FIX Lamb_Pot REFERENCE 67990 77060 382
+*ENTRANCE Lamb_Pot
+
+*FIX MotheringSunday_Pot REFERENCE 68340 76770 399
+*ENTRANCE MotheringSunday_Pot
+
+*FIX NorthEndQuarry_Cave REFERENCE 68060 76730 372
+*ENTRANCE NorthEndQuarry_Cave
+
+*FIX Pilgrim_Pot REFERENCE 68640 77000 402
+*ENTRANCE Pilgrim_Pot
+
+*FIX Rapunzel_Pot1 REFERENCE 69010 76690 373
+*ENTRANCE Rapunzel_Pot1
+
+*FIX Rapunzel_Pot2 REFERENCE 69030 76700 373
+*ENTRANCE Rapunzel_Pot2
+
+*FIX RolandRats_Hole REFERENCE 68970 75430 300
+*ENTRANCE RolandRats_Hole
+
+*FIX Safari_cave REFERENCE 69180 75340 275
+*ENTRANCE  Safari_cave
+
+*FIX ThorntonForce_Cave1 REFERENCE 69480 75350 229
+*ENTRANCE ThorntonForce_Cave1
+
+*FIX ThorntonForce_Cave2 REFERENCE 69480 75350 229
+*ENTRANCE ThorntonForce_Cave2
+
+*FIX TowScar_Cave REFERENCE 68400 76430 393
+*ENTRANCE TowScar_Cave
+
+*FIX Track_Cave REFERENCE 68930 76990 390
+*ENTRANCE  Track_Cave
+
+*FIX UnnamedandPreviouslyEnjoyed REFERENCE 68370 76600 398
+*ENTRANCE UnnamedandPreviouslyEnjoyed
+
+*FIX Unnamed_Shaft1 REFERENCE 68830 76830 396 
+*ENTRANCE Unnamed_Shaft1
+
+*FIX Unnamed_Shaft2 REFERENCE 68780 76820 396
+*ENTRANCE Unnamed_Shaft2 
+
+
 *end leckfell
 
 ; old superceded surveys
