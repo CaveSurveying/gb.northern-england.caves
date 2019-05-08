@@ -22,4 +22,7 @@
 *equate	Gvl5.001	Gvl2.027
 *include	Gvl5
 
+*INCLUDE DownStreamGavel
+*EQUATE DownStreamGavel.SumpPool Gvl4.010
+
 *end	GavelPot

@@ -1,6 +1,6 @@
 
 *begin	Gvl4
-*export 001
+*export 001 010
 
 ;Cave:	Gavel Pot-Top of Pitch 2 to sump
 ;Surveyors:	`Ray Duffy/A.Hare

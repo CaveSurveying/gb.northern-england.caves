@@ -1,0 +1,111 @@
+*BEGIN DownStreamGavel
+
+*cs out OSGB:SD
+*cs OSGB:SD
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;This data is taken from Geoff Yeadon's original notes
+*date 1983.06.01	;estimated date from survey
+
+*EXPORT SumpPool
+
+*UNITS tape feet
+*UNITS depth feet
+*DATA DIVING station depth NEWLINE compass tape  
+45	-75
+	200	50	
+44	-75
+	200	50	
+43	-70			;start of thin line
+	200	50	
+42	-67	
+	210	50	
+41	-60
+	160	50	
+40	-45
+	160	50
+39	-38
+	155	50
+38	-30
+	155	50
+37	-28	
+	185	50
+36	-26
+	160	50
+35	-22
+	165	50
+34	-21
+	185	50
+33	-19
+	210	50
+32	-23			;end of thin line
+	270 50
+31	-10			;no depth data estimated at 13ft
+	185	50
+30	-13			;no depth data estimated at 13ft
+	185	50
+29	-13			;no depth data estimated at 13ft
+	185	50
+28	-13			;no depth data estimated at 13ft
+	160	50
+27	-13			;no depth data estimated at 13ft
+	170	50
+26	-13			;no depth data estimated at 13ft
+	150	50
+25	-13			;no depth data estimated at 13ft
+	150	50
+24	-13			;no depth data estimated at 13ft
+	160	50
+23	-13			;no depth data estimated at 13ft
+	160	50
+22	-13			;no depth data estimated at 13ft
+	160	50
+21	-13			;no depth data estimated at 13ft
+	210	50
+20	-13			;no depth data estimated at 13ft
+	160	50
+19	-13			;no depth data estimated at 13ft
+	170	50
+18	-13			;no depth data estimated at 13ft
+	180	50
+17	-13			;no depth data estimated at 13ft
+	140	50
+16	-13			;no depth data estimated at 13ft
+	180	50
+15	-13			;no depth data estimated at 13ft
+	200	50
+14	-13			;no depth data estimated at 13ft
+	170	50
+13	-13			;no depth data estimated at 13ft
+	100	50
+12	-13			;no depth data estimated at 13ft
+	170	50
+11	-13			;no depth data estimated at 13ft
+	150	50
+10	-13			;no depth data estimated at 13ft
+	150	50
+9	-13			;no depth data estimated at 13ft
+	190	50
+8	-13			;no depth data estimated at 13ft
+	220	50
+7	-13			;no depth data estimated at 13ft
+	270	50
+6	-13			;no depth data estimated at 13ft
+	260	50
+5	-13			;no depth data estimated at 13ft
+	235	50
+4	-13			;no depth data estimated at 13ft
+	235	50
+3	-13			;no depth data estimated at 13ft
+	140	50
+2	-13			;no depth data estimated at 13ft
+	210	50
+1	-13			;no depth data estimated at 13ft
+	230	50
+SumpPool	0			;Gavel Sump pool
+
+
+*END DownStreamGavel
