@@ -1,7 +1,7 @@
 *begin all
 
 *cs OSGB:SD
-*cs out utm30N
+*cs out OSGB:SD
 
 ; EaseGill data from RRCPC / Ray Duffy / Sam Lieberman
 

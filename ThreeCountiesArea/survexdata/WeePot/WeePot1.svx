@@ -1,6 +1,6 @@
 *BEGIN WeePot1
 
-*EXPORT 1.0
+*EXPORT 1.0 1.14
 
 *BEGIN 1
 
@@ -8,7 +8,7 @@
 ;*CALIBRATE declination 1.33   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.208198°N, 2.5141343°W   2019.03.21
 
-*EXPORT 0
+*EXPORT 0 14
 
 ;Si pda, Si distoX James and Richard l.p.
 ;calibrated error <0.5
@@ -159,13 +159,6 @@
 14	14b	 0.26	302.89	  2.46
 14	14c	 0.28	121.90	-56.24
 *FLAGS NOT SPLAY
-14	15	 2.80	236.36	 -1.80
-*FLAGS SPLAY
-15	15a	 0.25	287.94	  8.60	;1.15 cheeky shot to the end of the too tight continuation
-15	15b	 0.19	149.60	 10.48
-15	15c	 0.28	125.05	-51.98
-15	15d	 0.18	193.74	 82.84
-*FLAGS NOT SPLAY
 
 *data passage station left right up down
 0	 0.38	 0.30	 0.00	 0.87
@@ -183,7 +176,7 @@
 12	 0.00	 0.29	 0.75	 0.76
 13	 2.08	 0.47	 0.44	 0.00
 14	 0.26	 0.25	 0.00	 0.24
-15	 0.19	 0.19	 0.18	 0.22
+
 *END 1
 
 *END WeePot1

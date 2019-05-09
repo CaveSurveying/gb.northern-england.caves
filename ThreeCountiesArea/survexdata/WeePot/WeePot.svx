@@ -3,12 +3,13 @@
 *title "WeePot"
 
 *INCLUDE WeePot1
+*INCLUDE WeePot2
 
 *fix WeePot1.1.0 66564 79284 328
 *EQUATE entrance WeePot1.1.0
 *ENTRANCE entrance
 
-
+*EQUATE WeePot1.1.14	WeePot2.2.0
 
 
 
