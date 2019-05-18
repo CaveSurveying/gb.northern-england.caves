@@ -64,6 +64,8 @@
 *fix	032	67101.303	77807.68	373.3070	;sigE 0.0141m, sigN 0.0266m, sigElev 0.030m
 *fix	3C16	67365.21	77338.954	387.7230	;sigE 0.0216m, sigN 0.0953m, sigElev 0.117m
 
+*FLAGS surface
+
 ; Death Head 26 Feb 2012
 3C05	001	04.674	113.5	+09.5	;3C05 is top centre of rebar, 001 is tag on top of fence post
 3C05	002	08.447	102.0	+00.0	;002 is main tree

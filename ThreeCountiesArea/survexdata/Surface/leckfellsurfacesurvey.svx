@@ -30,7 +30,8 @@
 ; When all surface surveys are complete 
 ; this should be the one *fix in the whole setup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-*fix	 NottsIIEntrance	66667 78303 319  ; set from wheresthepath website. Changed to 319m RGB 17/01/12 since clearly not 345m but awaite better confirmation to come through as to the exact height!	
+;Commented out as Kevin Dixon GPS is now used
+;*fix	 NottsIIEntrance	66667 78303 319  ; set from wheresthepath website. Changed to 319m RGB 17/01/12 since clearly not 345m but awaite better confirmation to come through as to the exact height!	
 
 *include NottsIIsurfacesurvey
 
@@ -53,9 +54,9 @@
 *fix BruntskillPotEntrance          66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
 *fix BumblingHoleEntrance           66949	79284	343
 ; *fix CoalHoleEntrance               67168	79047	358	;GPS RGB 13/12/07
-*fix DeathsHeadHoleFencePostTag     66783	79159	335 ;GPS RGB 29/11/07
+;*fix DeathsHeadHoleFencePostTag     66783	79159	335 ;GPS RGB 29/11/07
 *fix EyeHolesStyle                  66824	79184	337	;eyehole stile RGB GPS 02/03/07
-*fix GavelPotFencePost              66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance
+;*fix GavelPotFencePost              66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance - This has been commented out as Kevin Dixon GPS is now used
 ; *fix RumblingBeckTopEntrance        67173	79128	357 ;GPS RGB 13/09/07
 
 

@@ -2,6 +2,10 @@
 
 *export 1-1
 
+*EQUATE 1-0 NorthendPot
+* ENTRANCE NorthendPot
+
+
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;
 ;  ; beckas distox 0.41 calibration 
 ;Instr: julian todd - north end pot - start at numbered stn in entrance shakehole
