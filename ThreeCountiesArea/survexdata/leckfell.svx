@@ -2,13 +2,11 @@
 
 *cs out OSGB:SD
 *cs OSGB:SD
-
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-;*export witchesII.witchesII-7.x	;added 22/03/11RGB
 
 ;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
@@ -16,12 +14,10 @@
 *include Surface/shortdroprumblingcoalholebyronsurface
 *include Surface/threecountiesgpskdixon2012
 
-; underground surveys - avg mag decl for 2010 = 3 deg W (please put in correct declination for date in each cave survey)
-; true N to grid N correction = -0.33 
-*calibrate declination 2.67
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Nott2 and LostJohns area
 
 ;; You can comment out second/third entrance equates to see what the surface closure is like
-
 *include NottsII/NottsII
 *equate NottsII.Entrance    leckfellsurfacesurvey.NottsIIEntrance
 *equate NottsII.inlet7.Inlet7-14.001 leckfellsurfacesurvey.VoldemortEntranceSWcorner
@@ -39,7 +35,7 @@
 ;*fix	BAD_LostJohnsBoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
 ;*entrance BAD_LostJohnsBoxheadSurfaceRim
 
-
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; North of NottsII area
 
 *include ShortDrop/ShortDrop
@@ -84,8 +80,34 @@
 *include StartingHandleHole/StartingHandleHole
 *equate	StartingHandleHole.001 leckfellsurfacesurvey.StartingHandleHole
 
+*include CockamineCave/CockamineCave
+*equate CockamineCave.CockamineCave1.1 BigMeanie.BigMeanie_1.2P
 
+*include WeePot/WeePot
+
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; South of NottsII area
+
+*include NottsPot/NottsPot
+*equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
+*equate NottsPot.EntrancePhanger 3cgps.033
+
+*include PerilousPot/PerilousPot 
+*include Surface/NottsPot_to_ShepPot
+*include GetDownShep/Shep_Pot
+*include Surface/PinocchioPot_Surface
+*equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0	;<<<< Connecting PerilousPot entrance to surface survey >>>>
+*equate NottsPot_to_ShepPot.3.0 3cgps.3c15  			;<<<< This connects ShepPot to PerilousPot surface survey to the NottsPot GPS Tag >>>>
+*equate NottsPot_to_ShepPot.2.9 Shep_Pot.getdownshep1.getdownshep1_6.20  	;<<<<Linking GetDownShep entrance to Perilous surface survey >>>>
+
+*equate PinocchioPot_Surface.1.23	3cgps.3c15
+*include PinocchioPot/PinocchioPot
+*equate PinocchioPot.1.0 PinocchioPot_Surface.1.2
+
+*FIX SurfaceAboveFrink	REFERENCE 67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
+;*equate SurfaceAboveFrink SurfaceAboveTopOfFrink
+
 
 *include MarbleSteps/AllMarbleSteps
 *equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
@@ -96,9 +118,7 @@
 *include Ireby/Ireby
 *equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
 
-*include NottsPot/NottsPot
-*equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
-*equate NottsPot.EntrancePhanger 3cgps.033
+
 
 *include RiftPot/RiftPot
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
@@ -123,7 +143,16 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *include KangoHole/KangoHole  
 
+*include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
+*include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
 
+*include NorthEndPot/NorthEndPotUnderground
+*equate NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
+
+*INCLUDE SkylarkPot\SkylarkPot
+
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; Witches Cave and surrounding area (some entrances to be tied in with the rest of the surface survey)
 
 *include WitchesCaveII/WitchesII 
@@ -142,41 +171,12 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *include KirkPot/KirkPot
 
-*include GetDownShep/Shep_Pot
-;*fix Shep_Pot.getdownshep1.getdownshep1_6.20 67064 78046 372  ; TEMP - Becka, 27 Dec - this needs sorting with proper fix, this is apparently GPS to top of tallest scaff pole which was station 22 in the Shep_Pot_1 survey and I've tied it to the top station in the getdownshep1 survey but not clear where getdownshep1.6-20 actually is
-;<<<< This has been commented out as a surface survey now connects Shep pot to Notts Pot GPS tag via PeriolousPot >>>>
-
-*include Surface/PinocchioPot_Surface
-*equate PinocchioPot_Surface.1.23	3cgps.3c15
-*include PinocchioPot/PinocchioPot
-*equate PinocchioPot.1.0 PinocchioPot_Surface.1.2
-
-*FIX SurfaceAboveFrink 			67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
-*equate SurfaceAboveFrink SurfaceAboveTopOfFrink
-
-*include NorthEndPot/NorthEndPotUnderground
-*equate NorthEndPotUnderground.1-x largetonorthendpotsurface.1-18 	; needs finishing 
-
-*include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
-*include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
-
-*include PerilousPot/PerilousPot 
-*include Surface/NottsPot_to_ShepPot
-*equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0	;<<<< Connecting PerilousPot entrance to surface survey >>>>
-*equate NottsPot_to_ShepPot.3.0 3cgps.3c15  			;<<<< This connects ShepPot to PerilousPot surface survey to the NottsPot GPS Tag >>>>
-*equate NottsPot_to_ShepPot.2.9 Shep_Pot.getdownshep1.getdownshep1_6.20  	;<<<<Linking GetDownShep entrance to Perilous surface survey >>>>
-
-*include CockamineCave/CockamineCave
-*equate CockamineCave.CockamineCave1.1 BigMeanie.BigMeanie_1.2P
-
-*include WeePot/WeePot
 
 
-
-;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>
-;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ;<<<<Marble Steps Area Entrances>>>>
 *FIX BleaDubs_pot REFERENCE 68630 77010 399

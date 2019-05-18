@@ -1,0 +1,19 @@
+*BEGIN SkylarkPot
+
+*Export Skylark_Pot
+
+*cs OSGB:SD
+*cs out OSGB:SD
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*FIX Skylark_Pot 68156 76755 385                                                                                                                                                                                                                                                                                                                                                                                                      
+*ENTRANCE Skylark_Pot
+*DATE 2019.05.15
+
+Skylark_Pot dig	10 0 -90	;This is an estimated leg 
+
+
+*END SkylarkPot
