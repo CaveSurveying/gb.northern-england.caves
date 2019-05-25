@@ -2,7 +2,7 @@
 
 *EXPORT	1.0						;PerilousPot GPS point Pink nail varnish triangle top left of step
 *EXPORT 3.0						;notts1 gps marker
-*EXPORT 2.9						;Top of Shep pot scafold tube
+*EXPORT 2.0 2.9						;Top of Shep pot scafold tube
 
 *EQUATE 1.0 	3.14
 *EQUATE 1.13	2.0 

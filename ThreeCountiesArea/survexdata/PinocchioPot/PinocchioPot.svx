@@ -7,8 +7,8 @@
 *equate 1.10 2.0
 *equate 3.2 6.0
 
-
-*Entrance 1.3
+*EQUATE	entrance 1.3 
+*Entrance entrance
 
 *BEGIN 1
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

@@ -6,7 +6,8 @@
 ;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
 
 *export 001 027 026
-*entrance 001
+;*EQUATE 001	Nott2_Entrance
+;*entrance Nott2_Entrance			; commented out as entrance is defined in Nott2 survey
 ;*calibrate compass
 
 *date 2011.09.08

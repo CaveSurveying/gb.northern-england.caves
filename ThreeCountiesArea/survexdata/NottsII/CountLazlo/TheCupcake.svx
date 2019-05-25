@@ -6,7 +6,7 @@
 *begin	thecupcake
 *date 2011.02.03
 *export 002 008
-*entrance 008
+;*entrance 008		;commented out as entrance defined in notts2 survey
 
 ; *fix Cupcake 66728 78424 334 ;entrance GPS by R Bendall 15 Sept 2010 before connection dug through - not used at present
 

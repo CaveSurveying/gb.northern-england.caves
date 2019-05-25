@@ -17,12 +17,12 @@
 *export StartinghandleHole
 
 ; always declare entrances so they are easy to find when not equated
-*entrance NottsIIEntrance
-*entrance VoldemortEntranceSWcorner
-*entrance CupcakeEntranceSWcorner
-*entrance LostJohnsEntranceTag
-*entrance BoxHeadEntranceTube
-*entrance StartinghandleHole
+;*entrance NottsIIEntrance				; commented out as entrance is defined in commiteepotentrance survey
+;*entrance VoldemortEntranceSWcorner 	; commented out as entrance is defined in Nott2 inlet7 survey
+;*entrance CupcakeEntranceSWcorner		; commented out as entrance is defined in Nott2 laslostrog survey
+;*entrance LostJohnsEntranceTag			; commented out as entrance is defined in leckfellsurfacesurvey survey
+;*entrance BoxHeadEntranceTube			; commented out as entrance is defined in boxheadentrancesurvey survey
+;*entrance StartinghandleHole			; commented out as entrance is defined in startinghandlehole survey
 
 *date 2010.09.23
 

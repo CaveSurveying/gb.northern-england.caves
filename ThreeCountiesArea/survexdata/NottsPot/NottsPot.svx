@@ -5,6 +5,8 @@
 *export EntrancePhanger ; P Bolt(furthest of 2)
 *export SumpTag
 
+*ENTRANCE entrance
+*equate entrance		 NottsPot01.001
 *equate EntrancePhanger  NottsPot01.001
 *equate SumpTag          NottsPot02.022
 

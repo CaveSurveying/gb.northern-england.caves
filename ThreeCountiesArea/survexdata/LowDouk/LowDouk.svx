@@ -4,8 +4,11 @@
 
 *export EntranceTag
 *export LowDouk-RiftConnection
-*equate EntranceTag LowDouk1.s01
 *equate  LowDouk4.21 LowDouk-RiftConnection
+*equate EntranceTag LowDouk1.s01
+*EQUATE EntranceTag entrance
+*ENTRANCE entrance
+
 
 *include LowDouk1
 *include LowDouk2

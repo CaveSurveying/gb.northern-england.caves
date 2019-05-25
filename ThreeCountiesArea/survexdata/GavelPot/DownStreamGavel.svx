@@ -1,10 +1,10 @@
 *BEGIN DownStreamGavel
 
-*cs out OSGB:SD
-*cs OSGB:SD
+;*cs out OSGB:SD
+;*cs OSGB:SD
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
-*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;*declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ;This data is taken from Geoff Yeadon's original notes
@@ -43,67 +43,67 @@
 	210	50
 32	-23			;end of thin line
 	270 50
-31	-10			;no depth data estimated at 13ft
+31	-17			;no depth data estimated at 17ft 5m
 	185	50
-30	-13			;no depth data estimated at 13ft
+30	-17			;no depth data estimated at 17ft 5m
 	185	50
-29	-13			;no depth data estimated at 13ft
+29	-17			;no depth data estimated at 17ft 5m
 	185	50
-28	-13			;no depth data estimated at 13ft
+28	-17			;no depth data estimated at 17ft 5m
 	160	50
-27	-13			;no depth data estimated at 13ft
+27	-17			;no depth data estimated at 17ft 5m
 	170	50
-26	-13			;no depth data estimated at 13ft
+26	-17			;no depth data estimated at 17ft 5m
 	150	50
-25	-13			;no depth data estimated at 13ft
+25	-17			;no depth data estimated at 17ft 5m
 	150	50
-24	-13			;no depth data estimated at 13ft
+24	-17			;no depth data estimated at 17ft 5m
 	160	50
-23	-13			;no depth data estimated at 13ft
+23	-17			;no depth data estimated at 17ft 5m
 	160	50
-22	-13			;no depth data estimated at 13ft
+22	-17			;no depth data estimated at 17ft 5m
 	160	50
-21	-13			;no depth data estimated at 13ft
+21	-17			;no depth data estimated at 17ft 5m
 	210	50
-20	-13			;no depth data estimated at 13ft
+20	-17			;no depth data estimated at 17ft 5m
 	160	50
-19	-13			;no depth data estimated at 13ft
+19	-17			;no depth data estimated at 17ft 5m
 	170	50
-18	-13			;no depth data estimated at 13ft
+18	-17			;no depth data estimated at 17ft 5m
 	180	50
-17	-13			;no depth data estimated at 13ft
+17	-17			;no depth data estimated at 17ft 5m
 	140	50
-16	-13			;no depth data estimated at 13ft
+16	-17			;no depth data estimated at 17ft 5m
 	180	50
-15	-13			;no depth data estimated at 13ft
+15	-17			;no depth data estimated at 17ft 5m
 	200	50
-14	-13			;no depth data estimated at 13ft
+14	-17			;no depth data estimated at 17ft 5m
 	170	50
-13	-13			;no depth data estimated at 13ft
+13	-17			;no depth data estimated at 17ft 5m
 	100	50
-12	-13			;no depth data estimated at 13ft
+12	-17			;no depth data estimated at 17ft 5m
 	170	50
-11	-13			;no depth data estimated at 13ft
+11	-17			;no depth data estimated at 17ft 5m
 	150	50
-10	-13			;no depth data estimated at 13ft
+10	-17			;no depth data estimated at 17ft 5m
 	150	50
-9	-13			;no depth data estimated at 13ft
+9	-17			;no depth data estimated at 17ft 5m
 	190	50
-8	-13			;no depth data estimated at 13ft
+8	-17			;no depth data estimated at 17ft 5m
 	220	50
-7	-13			;no depth data estimated at 13ft
+7	-17			;no depth data estimated at 17ft 5m
 	270	50
-6	-13			;no depth data estimated at 13ft
+6	-17			;no depth data estimated at 17ft 5m
 	260	50
-5	-13			;no depth data estimated at 13ft
+5	-17			;no depth data estimated at 17ft 5m
 	235	50
-4	-13			;no depth data estimated at 13ft
+4	-17			;no depth data estimated at 17ft 5m
 	235	50
-3	-13			;no depth data estimated at 13ft
+3	-17			;no depth data estimated at 17ft 5m
 	140	50
-2	-13			;no depth data estimated at 13ft
+2	-17			;no depth data estimated at 17ft 5m
 	210	50
-1	-13			;no depth data estimated at 13ft
+1	-17			;no depth data estimated at 17ft 5m
 	230	50
 SumpPool	0			;Gavel Sump pool
 

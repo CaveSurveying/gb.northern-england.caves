@@ -1,11 +1,11 @@
 *BEGIN PerilousPot1
 
-*EXPORT 1.0 1.45
+*EXPORT 1.0 1.1 1.45
 
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*CALIBRATE declination +1.93	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.195911°N 2.505374°W   2016.04.
-*Entrance 1.1
+;*Entrance 1.1 	;commented out as entrance is defined in perilouspot survey
 
 ;<<<< Perilous Pot Survey >>>>
 *BEGIN 1

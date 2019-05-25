@@ -1,12 +1,16 @@
 *BEGIN PerilousPot
 
-*EXPORT	PerilousPot1.1.0
+*EXPORT	PerilousPot1.1.0  PerilousPot2.1.0
 
 *INCLUDE PerilousPot1
 *INCLUDE PerilousPot2
 *INCLUDE PerilousPot_Singletrack
 *INCLUDE PerilousPot_to_Sump
 
+*ENTRANCE entrance
+*ENTRANCE Excellent_entrance
+*EQUATE PerilousPot2.1.0 Excellent_entrance
+*EQUATE PerilousPot1.1.1 entrance
 *EQUATE PerilousPot1.1.45 PerilousPot2.4.8
 *EQUATE PerilousPot2.5.13 PerilousPot_Singletrack.1.0
 *EQUATE PerilousPot2.6.4 PerilousPot_to_Sump.1.0

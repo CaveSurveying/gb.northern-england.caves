@@ -10,6 +10,9 @@
 ;Rigging Martin Green
 *instrument Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm
 
+*EQUATE 3 entrance
+*ENTRANCE entrance
+
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks

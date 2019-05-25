@@ -18,6 +18,8 @@
 *export EntranceTag
 *export SoutheastInletConnection
 
+*ENTRANCE entrance
+*EQUATE EntranceTag entrance
 *equate EntranceTag Streamway.DingDongBellPitches.001
 *equate SoutheastInletConnection dukestreet.southeastinlet3.7x
 

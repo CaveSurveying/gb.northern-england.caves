@@ -3,7 +3,7 @@
 *export 1-1
 
 *EQUATE 1-0 NorthendPot
-* ENTRANCE NorthendPot
+*ENTRANCE NorthendPot
 
 
 ;;; TRIP COMMENT FROM POCKETTOPO ;;;

@@ -2,6 +2,9 @@
 *date 2016.01.30 ;estimated date of survey
 *export 14x
 
+*EQUATE 14x entrance
+*ENTRANCE entrance
+
 14x	1	1.40	232	-53	; stn 14 is station from shortdroprumblingcoalholebyronsurface survey
 1	2	8.55	-	down	; stn 1 is nut on scaffolding
 2	3	0.42	075	0

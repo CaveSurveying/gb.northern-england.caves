@@ -16,6 +16,9 @@
 *export RiftTowardsMousehole.23
 *export Rift-LowDoukConnection 
 
+*EQUATE EntranceTag entrance
+*ENTRANCE entrance
+
 *include RiftPotEntrance
 *include CoatesPassage1
 *include CoatesPassage2

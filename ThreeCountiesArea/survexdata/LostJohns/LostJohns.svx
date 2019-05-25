@@ -5,8 +5,13 @@
 *export EntranceTag BoxheadSurfaceRim notts2nearconnection.1-0 
 *export ljmainstreamway1.74x
 
-*entrance itsacracker.1-56
-*entrance boxheadentranceresurvey.1-60
+*ENTRANCE EntranceTag		;Lost Johns entrance tag
+
+*EQUATE itsacracker.1-56 ItsaCracker_entrance
+*ENTRANCE ItsaCracker_entrance
+
+*EQUATE boxheadentranceresurvey.1-60 BoxHeadPot_entrance
+*ENTRANCE BoxHeadPot_entrance
 *equate BoxheadSurfaceRim boxheadentranceresurvey.1-60 
 
 *include itsacracker 	; Top of Its A Cracker to around where Lost Pot comes in (plus some surface legs to Boxhead entrance

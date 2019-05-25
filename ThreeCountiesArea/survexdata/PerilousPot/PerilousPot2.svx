@@ -1,6 +1,6 @@
 *BEGIN PerilousPot2
 
-*EXPORT 4.8 5.13 6.4
+*EXPORT 1.0 4.8 5.13 6.4 
 
 *EQUATE 1.19 2.0
 *EQUATE 2.3 3.0
@@ -8,7 +8,7 @@
 *EQUATE 2.0 5.0
 *EQUATE 2.3 6.0
 
-*Entrance 1.0
+;*Entrance 1.0	;Commented out as entrance is defined in perilouspot survey
 
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*CALIBRATE DECLINATION 1.89

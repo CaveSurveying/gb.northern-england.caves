@@ -13,7 +13,8 @@
 
 *export EntranceTag
 
-*entrance LittlePot1.003
+*EQUATE LittlePot1.003 entrance
+*entrance entrance
 ;*fix LittlePot 66214 79777 277 ;
 ;*export EntranceTag
 

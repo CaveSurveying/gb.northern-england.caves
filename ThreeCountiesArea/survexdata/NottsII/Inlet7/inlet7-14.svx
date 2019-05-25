@@ -10,8 +10,8 @@
 
 *date 2008.11.25
 *export 001
-*export 013
-*entrance 001
+*export 013	
+;*entrance 001		;commented out as entrance defined in nott2 survey
 
 001	002	02.75	261	-85	;stn1=Surface Entrance-half way along west hoizontal
 002	003	01.41	159	-12	;Stn2=Bottom of entrance shaft

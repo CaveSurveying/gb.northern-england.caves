@@ -8,11 +8,18 @@
 
 *begin	NottsII
 
+
 *export Entrance  ; CommitteePot.001 and EntranceShaft.001
 *export inlet7.Inlet7-14.001 ; voldemort
 *export CountLazloALL.TheCupcake.008 
 *export CountLazloALL.BrunoKranskiesBoxheadConnection.50
 ;*export CountLazloALL.LostJohnsConnection.1
+
+*EQUATE inlet7.Inlet7-14.001 Voldemort_entrance
+*EQUATE CountLazloALL.TheCupcake.008 TheCupCake_entrance
+*ENTRANCE ENTRANCE
+*ENTRANCE TheCupCake_entrance
+*ENTRANCE Voldemort_entrance
 
 ;-------------------------------------------------------------------------------------------
 ;Include Statements

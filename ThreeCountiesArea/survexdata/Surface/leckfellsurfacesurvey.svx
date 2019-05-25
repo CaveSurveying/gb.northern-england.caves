@@ -57,7 +57,7 @@
 ;*fix DeathsHeadHoleFencePostTag     66783	79159	335 ;GPS RGB 29/11/07
 *fix EyeHolesStyle                  66824	79184	337	;eyehole stile RGB GPS 02/03/07
 ;*fix GavelPotFencePost              66644.34 79082.83 329.13	;ev.ss25.003  ;st000=tag on fence post on path to entrance - This has been commented out as Kevin Dixon GPS is now used
-; *fix RumblingBeckTopEntrance        67173	79128	357 ;GPS RGB 13/09/07
+;*fix RumblingBeckTopEntrance        67173	79128	357 ;GPS RGB 13/09/07
 
 
 *include mg1
@@ -81,15 +81,14 @@
 *equate MarbleStepsEntranceTag  mg1.026a
 *equate LargePotTag             mg1.014a
 
-*entrance LowDoukEntranceTag
-*entrance IrebyEntranceTag
-*entrance RiftPotEntranceTag      
-*entrance NottsPotEntrancePhanger 
-*entrance MarbleStepsEntranceTag  
-*entrance LargePotTag
-*entrance NottsIIEntrance
-
-*entrance LostJohnsEntranceTag
+;*entrance LowDoukEntranceTag		; commented out as entrance is defined in Lowdouk  survey
+;*entrance IrebyEntranceTag			; commented out as entrance is defined in Ireby  survey
+;*entrance RiftPotEntranceTag      	; commented out as entrance is defined in Riftpot survey
+;*entrance NottsPotEntrancePhanger 	; commented out as entrance is defined in NottPot  survey
+;*entrance MarbleStepsEntranceTag  
+;*entrance LargePotTag				; commented out as entrance is defined in Largepot survey
+;*entrance NottsIIEntrance			; commented out as entrance is defined in Nott2  survey
+;*entrance LostJohnsEntranceTag 	; commented out as entrance is defined in lostjohns  survey
 
 
 *end	leckfellsurfacesurvey
