@@ -14,7 +14,7 @@
 *instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
-
+; ignore
 
 *Begin 1
 *Export 34
