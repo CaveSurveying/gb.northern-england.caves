@@ -10,6 +10,8 @@ source LabyrinthIndex.th
 select LabyrinthPlan@LabyrinthIndex
 select Lab2Plan@LabyrinthIndex
 select BeetRootPlan@LabyrinthIndex
+select BRCanalPlan@LabyrinthIndex
+#select BeetRootSump@LabyrinthIndex
 
 
 
@@ -17,9 +19,11 @@ select BeetRootPlan@LabyrinthIndex
 
 
 
-export map -proj plan -layout local -o ../output/LabyrinthOutput/LabyrinthIndex.pdf
+
+export map -proj plan -layout local -o ../output/LabyrinthOutput/LabyrinthIndexPlan.pdf
+#export map -proj extended -layout local -o ../Output/LabyrinthOutput/LabyrinthWestSideTrunkIndexEe.pdf
 #export map -o ../Output/LabyrinthOutput/Labyrinthindex.kml
-#export model -fmt survex -o ../Output/LabyrinthOutput/LabyrinthIndex.3d
+export model -fmt survex -o ../Output/LabyrinthOutput/LabyrinthIndex.3d
 #export model  -o ../Output/LabyrinthOutput/LabyrinthIndex.lox
 #export map -proj plan -o ../Output/LabyrinthOutput/LabyrinthIndex_Walls.3d
 #Survex file showing walls only
@@ -61,11 +65,11 @@ north grid
 #symbol-colour area flowstone [20 20 20]        ##  ##
 #symbol-colour line water-flow [22 22 95]        ##Light Blue##
 #symbol-colour point water-flow  [22 22 95]     ##Light Blue##
-#symbol-colour point station [0 0 0] 
-#symbol-colour group centerline [100 0 0]          ##Red##
+symbol-colour point station [100 0 0] 
+symbol-colour group centerline [100 0 0]          ##Red##
 
-#symbol-hide group centerline             # 1. Hides all centerline and survey station symbols in cave.
-#symbol-hide point cave-station          # 2. Hides all survey stations in the cave but not centerline.                                                         
+symbol-show group centerline             # 1. Hides all centerline and survey station symbols in cave.
+#symbol-hide point cave-station           # 2. Hides all survey stations in the cave but not centerline.                                                         
                                  
 #symbol-hide group cave-centreline
 
