@@ -32,7 +32,7 @@ base-scale 1 200
 scale 1 500
 symbol-set BCRA
 #debug station-names
-#debug on
+debug on
 
 #colour map-fg altitude
 #colour map-fg scrap

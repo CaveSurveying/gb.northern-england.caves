@@ -10,7 +10,12 @@ source BeetRoot.th
 select BeetRootPlan
 
 
+
+
+
 export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootOutput/BeetRoot.pdf
+export map -proj extended -layout local -o ../../Output/LabyrinthOutput/BeetRootOutput/BeetrootEe.pdf
+
 #export map -o ../Output/BeetRootOutput/BeetRoot.kml
 #export model -fmt survex -o ../Output/BeetRootOutput/BeetRoot.3d
 #export model  -o ../Output/BeetRootOutput/BeetRoot.lox

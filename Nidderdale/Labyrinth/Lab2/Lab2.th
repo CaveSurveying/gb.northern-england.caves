@@ -30,6 +30,7 @@ survey Lab2
 centreline
 
 equate 9.2 10.2
+#equate 1.3 7.3 Turned off because of big error
 
 copyright 2018 "GNU GPL"
 
