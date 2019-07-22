@@ -9,6 +9,8 @@ source NorthChoke.th
 select NorthChoke
 
 
+
+
 export map -proj plan -layout local -o ../../Output/NorthChokeOutput/NorthChoke.pdf
 #Produces plan of cave, on a single sheet
 

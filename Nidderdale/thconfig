@@ -10,14 +10,16 @@ select nidderdalePlan@nidderdale
 
 
 
+
 ## use Map or survey structure to selelect individual or multiple maps to export to Nidderdal pdf##
 ## If none selected individually all are exported to finished map##
 
 
 
 
-export map -proj plan -layout local -o output/NidderdaleOutput/nidderdale.pdf
-#export map -o output/NidderdaleOutput/nidderdale.kml
+export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
+export map -o Output/NidderdaleOutput/Nidderdale.kml
+#export model -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
 #export model  -o output/NidderdaleOutput/nidderdale.lox
 #export map -proj plan -o output/NidderdaleOutput/nidderdale_Walls.3d

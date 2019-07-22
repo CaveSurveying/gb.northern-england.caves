@@ -1,12 +1,15 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.77m (from 6.0@FrogPot at 8.81m to 1.28@FrogPot at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot at 0.00m to 1.28@FrogPot at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot at 0.00m to 1.19@FrogPot at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
-xth_cp_data_tree_insert 153 1 1 FrogPot FrogPot "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.77m (from 6.0@FrogPot at 8.81m to 1.28@FrogPot at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot at 0.00m to 1.28@FrogPot at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot at 0.00m to 1.19@FrogPot at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 270.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 55.17m (from 6.0@FrogPot.FrogPotIndex at 8.81m to 17@FPUpstreamSump.FrogPotIndex at -46.36m)\nnorth-south range: 144.51m (from 18@FPUpstreamSump.FrogPotIndex at 64.42m to 1.28@FrogPot.FrogPotIndex at -80.09m)\neast-west range: 41.27m (from 17@FPUpstreamSump.FrogPotIndex at 28.22m to 1.19@FrogPot.FrogPotIndex at -13.05m)\nnumber of shots: 264\nnumber of stations: 266"
+xth_cp_data_tree_insert 18 1 1 FrogPotIndex FrogPotIndex "" "" "length: 270.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 55.17m (from 6.0@FrogPot.FrogPotIndex at 8.81m to 17@FPUpstreamSump.FrogPotIndex at -46.36m)\nnorth-south range: 144.51m (from 18@FPUpstreamSump.FrogPotIndex at 64.42m to 1.28@FrogPot.FrogPotIndex at -80.09m)\neast-west range: 41.27m (from 17@FPUpstreamSump.FrogPotIndex at 28.22m to 1.19@FrogPot.FrogPotIndex at -13.05m)\nnumber of shots: 264\nnumber of stations: 266"
+xth_cp_data_tree_insert 155 18 2 FrogPot FrogPot.FrogPotIndex "" "" "length: 131.81m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@FrogPot.FrogPotIndex at 8.81m to 1.28@FrogPot.FrogPotIndex at -26.96m)\nnorth-south range: 80.09m (from 1.0@FrogPot.FrogPotIndex at 0.00m to 1.28@FrogPot.FrogPotIndex at -80.09m)\neast-west range: 13.05m (from 1.0@FrogPot.FrogPotIndex at 0.00m to 1.19@FrogPot.FrogPotIndex at -13.05m)\nnumber of shots: 247\nnumber of stations: 248"
+xth_cp_data_tree_insert 159 18 2 FPUpstreamSump FPUpstreamSump.FrogPotIndex "" "" "length: 139.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 24.60m (from 1@FPUpstreamSump.FrogPotIndex at -21.76m to 17@FPUpstreamSump.FrogPotIndex at -46.36m)\nnorth-south range: 97.84m (from 18@FPUpstreamSump.FrogPotIndex at 64.42m to 2@FPUpstreamSump.FrogPotIndex at -33.42m)\neast-west range: 41.27m (from 17@FPUpstreamSump.FrogPotIndex at 28.22m to 1@FPUpstreamSump.FrogPotIndex at -13.05m)\nnumber of shots: 17\nnumber of stations: 18"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 152X1 p1 1 frogpotPlan frogpotPlan "Frog Pot Plan" "Frog Pot Plan"
+xth_cp_map_tree_insert map 0 163X1 p1 1 FrogPotIndex FrogPotIndex@FrogPotIndex "FrogPot Index" "FrogPot Index"
+xth_cp_map_tree_insert map 1 154X1 163X1 2 frogpotPlan frogpotPlan@FrogPotIndex "Frog Pot Plan" "Frog Pot Plan"
 xth_cp_map_tree_create
-xth_cp_comp_stat 132 3
-set xth(th_exit_state) 2
-set xth(th_exit_number) 1512649951
+xth_cp_comp_stat 271 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1563816992
 

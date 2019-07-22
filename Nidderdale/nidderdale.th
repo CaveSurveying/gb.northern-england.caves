@@ -7,7 +7,7 @@ survey nidderdale
 input goyden/Goyden.th
 input manhole/ManHole.th
 input pillarPot/PillarPot.th
-input frogPot/FrogPot.th
+input FrogPot/FrogPotIndex.th
 input aquamole/Aquamole.th
 input guscott/Guscott.th
 input churchPot/ChurchPot.th
@@ -39,8 +39,8 @@ join churchPotSP4 GoydenSP1
 join GoydenSP1 PillarPotSP1
 join GoydenSP1 MudHallSP1
 join GoydenSP1 MudHallSP3
-join FrogPotSP3 AquamoleSP1
-join FrogPotSP3 ShackletonsSP1
+join FrogPotSP3@FrogPotIndex AquamoleSP1
+join FrogPotSP3@FrogPotIndex ShackletonsSP1
 join AquamoleSP4 ShackletonsSP7
 join AquamoleSP2 NorthChokeSP1@NorthChokeIndex
 join LabyrinthSP4@LabyrinthIndex CarterPassageSP1
@@ -80,7 +80,8 @@ map nidderdalePlan -title "Nidderdale Plan"
   break
   NewGoydenPlan
   break
-  frogpotPlan
+  #frogpotPlan
+  FrogPotIndex@FrogPotIndex
   break
   NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
@@ -119,11 +120,11 @@ equate 1.16@Goyden2 1.16@GargettWay
 equate 1.19@Labyrinth.LabyrinthIndex 1.19@Goyden
 equate 1.8@Goyden 1.0@PillarPot
 equate 1.0@CarterPassage 1.82@Labyrinth.LabyrinthIndex
-equate 1.19@FrogPot 1.19@Aquamole
-equate 1.28@FrogPot 1.0@Shackletons
+equate 1.19@FrogPot.FrogPotIndex 1.19@Aquamole
+equate 1.28@FrogPot.FrogPotIndex 1.0@Shackletons
 equate 1.40@Aquamole 1.0@NorthChoke.NorthChokeIndex
 equate 1.51@Aquamole 1.57@Shackletons
-equate 5.47@NewGoyden 1.28@FrogPot
+equate 5.47@NewGoyden 1.28@FrogPot.FrogPotIndex
 equate 1.15@NewGoyden 1.0@PlanHard
 equate 1.22@NewGoyden 1.0@ThropePot
 
@@ -134,7 +135,7 @@ equate 1.53@Surface1 1.0@NewGoyden
 equate 1.44@Surface2 1.0@NewGoyden
 equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott
-equate 1.26@Surface2 6.0@FrogPot
+equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
 
 endcenterline
 
