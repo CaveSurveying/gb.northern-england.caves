@@ -1,19 +1,17 @@
 encoding  utf-8
+input FPUpstreamSump.th2
 
-
-survey FPUpstreamSump
-
-#input FPUstreamSumpSumpPlan.th2
-#input FPUstreamSumpEe.th2
-
-
-#map FPUpstreamSumpSumpPlan  -title "Frog Pot Upstream Sump Plan"
-  #FPUpstreamSumpSP1
-#endmap
+map FPUpstreamSumpPlan  -title "Frog Pot Upstream Sump Plan"
+  FPUpstreamSumpSP1
+endmap
 
 #map
   #FPUpstreamSumpSE1
 #endmap
+
+
+survey FPUpstreamSump
+
 
 
 centreline

@@ -10,7 +10,7 @@ input FPUpstreamSump/FPUpstreamSump.th
 
 map FrogPotIndex -title "FrogPot Index"
   frogpotPlan
-  FPUpstreamSump
+  FPUpstreamSumpPlan
   
 endmap
 
@@ -23,7 +23,7 @@ endmap
 
 
 
-#join LabyrinthSP2 Lab2SP1
+join FrogPotSP3 FPUpstreamSumpSP1
 
 
 

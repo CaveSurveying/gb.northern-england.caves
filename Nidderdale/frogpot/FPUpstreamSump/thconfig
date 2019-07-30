@@ -6,7 +6,8 @@ source FPUpstreamSump.th
 #Surveys to output
 #-----------------
 
-select FPUpstreamSump
+#select FPUpstreamSump            ####Centreline survey
+select FPUpstreamSumpPlan        ####Map
 
 
 
@@ -17,7 +18,8 @@ select FPUpstreamSump
 
 
 
-#export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpPlan.pdf
+
+export map -proj plan -layout local -o ../../Output/FrogPotOutput/FPUpstreamSumpOutput/FPUstreamSumpPlan.pdf
 #export map -proj extended -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpEe.pdf
 
 #export model -fmt survex -o ../../Output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSump.3d
@@ -34,8 +36,8 @@ select FPUpstreamSump
 
 
 layout local
-base-scale 1 200
-scale 1 500
+base-scale 1 800
+scale 1 1000
 symbol-set BCRA
 #debug station-names
 #debug on
@@ -61,8 +63,8 @@ north grid
 #symbol-colour area flowstone [20 20 20]        ##  ##
 #symbol-colour line water-flow [22 22 95]        ##Light Blue##
 #symbol-colour point water-flow  [22 22 95]     ##Light Blue##
-#symbol-colour point station [0 0 0] 
-#symbol-colour group centerline [100 0 0]          ##Red##
+symbol-colour point station [100 0 0] 
+symbol-colour group centerline [100 0 0]          ##Red##
 
 #symbol-hide group centerline             # 1. Hides all centerline and survey station symbols in cave.
 #symbol-hide point cave-station          # 2. Hides all survey stations in the cave but not centerline.                                                         

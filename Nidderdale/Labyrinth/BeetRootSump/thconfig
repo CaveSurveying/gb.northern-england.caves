@@ -6,7 +6,9 @@ source BeetRootSump.th
 #Surveys to output
 #-----------------
 
-select BeetRootSump
+select BeetRootSump      ####Survey Centreline
+
+select BeetRootSumpPlan  ####Map
 
 
 
@@ -16,8 +18,7 @@ select BeetRootSump
 
 
 
-
-#export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpPlan.pdf
+export map -proj plan -layout local -o ../../Output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpPlan.pdf
 #export map -proj extended -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpEe.pdf
 
 #export model -fmt survex -o ../../Output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSump.3d
@@ -61,8 +62,8 @@ north grid
 #symbol-colour area flowstone [20 20 20]        ##  ##
 #symbol-colour line water-flow [22 22 95]        ##Light Blue##
 #symbol-colour point water-flow  [22 22 95]     ##Light Blue##
-#symbol-colour point station [0 0 0] 
-#symbol-colour group centerline [100 0 0]          ##Red##
+symbol-colour point station [0 0 0] 
+symbol-colour group centerline [100 0 0]          ##Red##
 
 #symbol-hide group centerline             # 1. Hides all centerline and survey station symbols in cave.
 #symbol-hide point cave-station          # 2. Hides all survey stations in the cave but not centerline.                                                         

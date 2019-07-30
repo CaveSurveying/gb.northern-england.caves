@@ -12,6 +12,8 @@ select Lab2Plan@LabyrinthIndex
 select BeetRootPlan@LabyrinthIndex
 select BRCanalPlan@LabyrinthIndex
 select BeetRootSump@LabyrinthIndex
+select BeetRootSumpPlan@LabyrinthIndex
+
 
 
 

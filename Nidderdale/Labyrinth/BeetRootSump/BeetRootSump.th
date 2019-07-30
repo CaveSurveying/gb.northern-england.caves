@@ -1,18 +1,20 @@
 encoding  utf-8
 
-survey BeetRootSump
 
-#input BeetRootSumpPlan.th2
+
+input BeetRootSump.th2
 #input BeetRootSumpEeEe.th2
 
 
-#map BeetRootSumpPlan  -title "Beet Root Sump Plan"
-  #BeetRootSumpSP1
-#endmap
+map BeetRootSumpPlan  -title "Beet Root Sump Plan"
+  BeetRootSumpSP1
+endmap
 
 #map BRCanalEe -title "Beet Root Sump Extended Elevation"
   #BeetRootSumpSE1
 #endmap
+
+survey BeetRootSump
 
 
 centreline

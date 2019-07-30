@@ -27,7 +27,7 @@ layout local
 scale 1 100
 symbol-set BCRA
 legend on
-debug off
+debug on
 #colour map-bg [0 10 80]
 #select NewGoyden
 #colour map-fg scrap
