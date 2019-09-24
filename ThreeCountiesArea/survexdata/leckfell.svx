@@ -2,6 +2,7 @@
 
 *cs out OSGB:SD
 *cs OSGB:SD
+*INFER exports on
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
@@ -114,10 +115,6 @@
 *FIX SurfaceAboveFrink	REFERENCE 67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
 ;*equate SurfaceAboveFrink SurfaceAboveTopOfFrink
 
-
-*include MarbleSteps/AllMarbleSteps
-*equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
-
 *include LowDouk/LowDouk
 *equate LowDouk.EntranceTag leckfellsurfacesurvey.LowDoukEntranceTag
 
@@ -125,6 +122,14 @@
 *equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
 *EQUATE Ireby.EntranceTag 	3cgps.036		;Attaching Ireby Fell to Kevin Dixon GPS bolt
 
+*include KangoHole/KangoHole  
+
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; Marble Steps area
+
+*include MarbleSteps/AllMarbleSteps
+*equate AllMarbleSteps.EntranceTag leckfellsurfacesurvey.MarbleStepsEntranceTag  
 
 *include RiftPot/RiftPot
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
@@ -149,8 +154,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include ForgetMePot/ForgetMePot
 *equate Mohole.Wall ForgetMePot.ForgetMePot1.1
 
-*include KangoHole/KangoHole  
-
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
 
@@ -158,7 +161,9 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *equate NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
 
 *INCLUDE SkylarkPot\SkylarkPot
-
+*INCLUDE PilgrimPot\PilgrimPot
+*INCLUDE BleaDubsPot\BleaDubsPot
+*INCLUDE KalePot\KalePot
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; Witches Cave and surrounding area (some entrances to be tied in with the rest of the surface survey)
@@ -230,8 +235,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<<Marble Steps Area Entrances>>>>
 
-*FIX BleaDubs_pot REFERENCE 68630 77010 399
-*ENTRANCE BleaDubs_pot
 
 *FIX Brolly_Pot REFERENCE 68540 76970 402
 *ENTRANCE Brolly_Pot
@@ -257,9 +260,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *FIX Hunts_Pot REFERENCE 68880 75710 325
 *ENTRANCE Hunts_Pot
 
-*FIX Kail_Pot REFERENCE 68760 76870 396
-*ENTRANCE Kail_Pot
-
 *FIX Lamb_Pot REFERENCE 67990 77060 382
 *ENTRANCE Lamb_Pot
 
@@ -268,9 +268,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *FIX NorthEndQuarry_Cave REFERENCE 68060 76730 372
 *ENTRANCE NorthEndQuarry_Cave
-
-*FIX Pilgrim_Pot REFERENCE 68640 77000 402
-*ENTRANCE Pilgrim_Pot
 
 *FIX Rapunzel_Pot1 REFERENCE 69010 76690 373
 *ENTRANCE Rapunzel_Pot1

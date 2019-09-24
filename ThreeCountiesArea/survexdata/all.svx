@@ -2,6 +2,7 @@
 
 *cs OSGB:SD
 *cs out OSGB:SD
+*INFER exports on
 
 ; EaseGill data from RRCPC / Ray Duffy / Sam Lieberman
 
