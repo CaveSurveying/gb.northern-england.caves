@@ -7,7 +7,7 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*FIX entrance 68760 76880 396
+*FIX entrance 68757 76880 396
 *ENTRANCE entrance
 *EQUATE 1.0 entrance
 

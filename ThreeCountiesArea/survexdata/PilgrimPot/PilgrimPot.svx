@@ -9,7 +9,7 @@
 
 *EQUATE 1.0 2.0
 
-*FIX entrance 68640 77000 402
+*FIX entrance 68639 76997 402
 *ENTRANCE entrance
 *EQUATE entrance 2.4
 
