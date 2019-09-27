@@ -51,7 +51,7 @@
 ; north of NottsII area
 ; *fix ShortdropFencePost             67030	78934	346	;Shortdrop fence post near stile with tag
 ; *fix LongDropStylePost              66969	79176	346	;Longdrop stile RGB GPS 02/03/07
-*fix BruntskillPotEntrance          66734	79377	364	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001
+*fix BruntskillPotEntrance          66734	79377	344	;Bruntskill pot III active sink RGB gps 15/01/07 to entrance at 001changed elevation to 344 16/09/19
 *fix BumblingHoleEntrance           66949	79284	343
 ; *fix CoalHoleEntrance               67168	79047	358	;GPS RGB 13/12/07
 ;*fix DeathsHeadHoleFencePostTag     66783	79159	335 ;GPS RGB 29/11/07

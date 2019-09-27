@@ -8,7 +8,7 @@
 *date 2010.02.15
 *export Entrance
 
-;*fix	BruntskillPot 66734 79377	364	;Bruntskill pot III active sink RGB 15/01/07
+;*fix	BruntskillPot 66734 79377	344	;Bruntskill pot III active sink RGB 15/01/07
 
 *equate Entrance 001
 *entrance 001
