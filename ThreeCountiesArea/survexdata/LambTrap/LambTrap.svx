@@ -3,22 +3,18 @@
 ;*export 
 
 *title "LambTrap"
-*fix 1 66621 79424 336
-*entrance 1
+*fix entrance 66621 79424 336
+*entrance entrance
 *date 2019.07.10
 
-;*team Instruments 
-;*team Tape 
-;*team Notes 
-
-;*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
-
-;from	to	tape	compass	clino	remarks
-1	2	10	-	down	;guestimate
-;*flags surface
+*INCLUDE LambTrap1
+*EQUATE entrance Lambtrap1.1.0
 
 
 ;*data passage station left right up down ignoreall
+
+
+
 
 
 *end LambTrap
