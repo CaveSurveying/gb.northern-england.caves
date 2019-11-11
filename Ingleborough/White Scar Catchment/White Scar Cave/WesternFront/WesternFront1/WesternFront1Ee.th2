@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2214.2 -112.53 13285.2 675.17
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1107.10023375 1 1.0} {544.647778244 1.0} PocketTopo/WesternFront_e.xvi 0 {}
+
+
+scrap WesternFrontSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WesternFrontSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WesternFrontSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WesternFrontSE4 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

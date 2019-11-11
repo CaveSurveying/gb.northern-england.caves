@@ -1,0 +1,43 @@
+encoding  utf-8
+
+survey WesternFrontIndex
+
+
+
+
+input WesternFront1/WesternFront1.th
+input WesternFront2/WesternFront2.th
+
+
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+
+#join 
+ join WesternFront1SP2@WesternFront1 WesternFront2SP1@WesternFront2
+
+
+
+###################### MAP ####################
+
+map WesternFrontIndexPlan -title "WesternFrontIndexPlan"  
+  
+  
+  
+  WesternFront1Plan@WesternFront1
+  WesternFront2Plan@WesternFront2
+  
+  endmap
+
+################# Equates #####################
+###############################################
+
+ 
+ equate 1.18@WesternFront1 1.0@WesternFront2
+
+
+endsurvey
+

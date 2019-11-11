@@ -1,0 +1,47 @@
+encoding  utf-8
+
+survey WhiteScarIndex
+
+input WSSC/WSSC.th
+input NorthernLine/NorthernLine.th
+input WesternFront/WesternFrontIndex.th
+
+
+#equate Link@WSSC 1.0@NorthernLine
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+join WSSCSP2@WSSC NorthernLineSP2@NorthernLine
+join WSSCSP2@WSSC WesternFront1SP2@WesternFront1.WesternFrontIndex
+
+
+####Line Joins####
+##################
+
+
+
+###################### MAP ####################
+
+map WhiteScarShowCave -title "WhiteScarCavePlan"  
+  
+  WSSCPlan@WSSC
+  NorthernLinePlan@NorthernLine
+  WesternFrontIndexPlan@WesternFrontIndex
+  
+ endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ equate Link@WSSC 1.0@NorthernLine
+
+ equate 1.0@NorthernLine 1.0@WesternFront1.WesternFrontIndex
+
+
+
+endsurvey
+
