@@ -7,8 +7,6 @@ input NorthernLine/NorthernLine.th
 input WesternFront/WesternFrontIndex.th
 
 
-#equate Link@WSSC 1.0@NorthernLine
-
 ################ Plan Joins #################
 ####Scrap Joins####
 ###################
