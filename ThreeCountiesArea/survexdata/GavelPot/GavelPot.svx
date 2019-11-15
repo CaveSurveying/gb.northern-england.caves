@@ -1,4 +1,4 @@
-;Every Gavel pot file
+;Gavel Pot
 
 *begin	GavelPot
 *export GavelPotFencePost
@@ -22,7 +22,10 @@
 *equate	Gvl5.001	Gvl2.027
 *include	Gvl5
 
-*INCLUDE DownStreamGavel
-*EQUATE DownStreamGavel.SumpPool Gvl4.010
+*include DownStreamGavel
+*equate DownStreamGavel.SumpPool Gvl4.010
+
+*include gavelresurvey1
+*equate gavelresurvey1 GV11.001
 
 *end	GavelPot

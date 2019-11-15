@@ -1,0 +1,108 @@
+*begin gavelresurvey1
+
+*export tag11a
+*title "Gavel Pot from entrance p-hangers down Cascade pitch (from Eco Traverse) then through surface shakehole and down main route"
+*date 2019.11.10
+*team Rigging Sandy Wright
+*team Tippex Avelina Wright
+*team Instruments Becka Lawson
+*team Notes Becka Lawson
+*instrument Becka Distox2
+
+;*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2	6.25	075		+22.46	
+1	3	7.30	092.15	+46.96		
+3	4	6.249	144.14	+05.73	
+5	3	1.31	066		+03
+5	6	12.299	037.16	+76.15		
+6	7	3.930	094.29	+41.89			
+7	8	0.798	041.54	+01.04	
+7	9	4.947	027.38	+17.73		
+10	9	2.081	165.96	-32.90		
+10	11	5.508	325.45	+01.95	
+11	12	4.590	222.65	+00.01	
+12	13	3.715	194.23	-17.15	
+13	14	4.664	275.10	-07.28		
+14	15	3.715	290.99	-27.13
+15	16	12.546	001.79	-16.66		
+16	17	5.165	132.37	+17.75		
+
+16	18	10.870	268.58	-10.41	
+18	19	7.871	342.63	-12.22	
+19	20	11.572	317.40	-76.02	
+20	21	4.262	358.52	+00.72		;  {from: 4.263 358.58 0.62, 4.256 358.58 0.73, 4.267 358.39 0.81}	
+21	22	5.175	273.09	-25.95		;  {from: 5.174 273.21 -25.96, 5.179 272.99 -25.98, 5.172 273.06 -25.92}
+22	23	5.138	355.87	-69.50		;  {from: 5.146 355.85 -69.52, 5.123 355.98 -69.51, 5.146 355.79 -69.47}
+23	24	4.195	334.73	-82.84		;  {from: 4.195 334.81 -82.84, 4.195 334.54 -82.79, 4.194 334.84 -82.90}
+25	24	1.774	127.70	-10.96		;  {from: 1.774 127.14 -10.99, 1.775 127.95 -11.02, 1.774 128.02 -10.88}
+25	26	5.413	273.60	-06.66		;  {from: 5.411 273.55 -6.65, 5.415 273.68 -6.63, 5.413 273.58 -6.70}
+26	27	7.419	138.76	+05.33		;  {from: 7.429 138.79 5.28, 7.408 138.73 5.33, 7.420 138.75 5.37}	
+27	28	6.189	090.03	+15.28	
+27	29	1.306	071.08	-17.56	
+29	30	3.322	154.28	-02.78		;  {from: 3.318 154.17 -3.11, 3.312 154.32 -2.83, 3.335 154.35 -2.40}
+26	31	5.264	341.52	-10.30		;  {from: 5.257 341.62 -10.29, 5.255 341.54 -10.35, 5.281 341.40 -10.27}	
+31	32	6.477	306.43	-00.09		;  {from: 6.477 306.28 -0.04, 6.473 306.48 -0.16, 6.480 306.54 -0.08}	
+32	33	11.949	347.85	-07.44	
+tag11a	33	2.855	326.09	+03.25		;  {from: 2.855 325.95 3.19, 2.855 326.10 3.30, 2.854 326.21 3.28}
+tag11a	34	11.628	210.26	-00.26	
+
+35	9	1.469	111.58	-23.00		;  {from: 1.470 111.71 -22.75, 1.468 111.52 -23.15, 1.468 111.49 -23.09}
+36	35	7.005	324.10	-73.36		;  {from: 7.019 323.87 -73.59, 6.998 324.16 -73.22, 6.998 324.26 -73.28}
+37	36	4.969	205.80	-18.81	
+37	38	1.988	140.06	+03.82		;  {from: 1.994 139.55 3.37, 1.991 140.33 3.97, 1.978 140.30 4.11}
+41	15x	8.483	277.89	-74.48		;  {from: 8.479 277.79 -74.48, 8.486 277.97 -74.47, 8.483 277.90 -74.48} 
+; 15 is cairn in notes - leg 41 to 15x needs repeating as I couldn't get a good leg to cairn as too close to edge
+41	40	9.153	100.26	+31.91		;  {from: 9.195 100.08 31.93, 9.134 100.41 31.95, 9.129 100.28 31.85}
+; best if repeated this one too
+40	37	7.141	52.60	-15.63		;  {from: 7.142 52.32 -15.55, 7.135 52.79 -15.64, 7.145 52.70 -15.69}
+
+*data passage station left right up down ignoreall
+
+1	1	1.5	15	0.3	water sinks, LP, guess for up
+2	2	1	15	0.8	base of waterfall, guess for up
+3	1.4	0	9	1.7	start of alcove
+4	0.1	0.1	0.6	0.4	back of alcove
+5	1.5	0	11	4	RW opposite station 3
+6	0	0.5	0.5	16	0.3m below the p hanger for the Y hang for the pitch that's nearer the Gavel entrance
+7	3	2	5	0	nose on Eco Traverse between Gavel and Short Drop
+8	3.4	0	5	2.5	phanger nearest Eco Traverse nose on Gavel side
+9	1.5	1.3	6	1.2	phanger at base of Eyehole Pitch into Gavel
+10	1.5	0.5	4	1.6	RW
+11	1.3	0	2	2.4	RW above perched boulder
+12	1	0	4	3	RW above boulder
+13	0	1.2	4	1.7	LW at corner
+14	1.5	5	-	0.5	LW in daylight, up is sky
+15	1.5	2.5	5	0.5	cairn in shakehole that this tied in to at end, , up is to top of shakehole, really it is sky
+16	4	3	8	1.7	far wall of shakehole, up is to top of shakehole, really it is sky
+
+17	-	-	-	-	wall, still in open shakehole
+18	3	7	11	1.2	LW shakehole, up is to top of shakehole, really it is sky
+19	0.2	1.2	3	11	boulder at end of shakehole above pitch
+20	0.2	1.7	13	0.2	base of pitch
+21	3.3	1	4.3	1.5	RW in chamber
+22	0.5	1.5	2.7	2	LW above pitch
+23	0.3	0.3	3	4	RW down climb
+24	-	-	-	-	unmarked pebble at base of scaffolded climb
+25	1.6	0.3	0.1	1	roof in crawl
+26	5	2	1.3	0.7	numbered at junction
+27	2	0	0.5	0.3	L passage
+28	0.3	0.3	0.5	0.5	unmarked
+29	0.5	1	1	0	start of dig
+30	0.1	0.2	0.3	2	into dig
+31	-	-	-	-	RW passage
+32	2	2.5	5	1	LW where stream enters from R
+33	3	1.5	4	1.5	RW stream
+tag11a	4	0	3.2	0.5	RW tag not at obvious location
+34	1	1	0.1	0.2	unmarked into low bedding
+
+35	2	0	6	1.8	opposite wall to phanger at base of Eyehole Pitch
+36	2.5	1	0	8	level with Y hang knot for Eyehole Pitch, on roof
+37	-	-	-	-	in daylight opposite start of Eyehole traverse
+38	-	-	-	-	lower p hanger at start of rigging for Eyehole traverse, 0.4m below a fixed bolt
+40	-	-	-	-	nose in shakehole
+41	-	-	-	-	in space roughly above an old metal ladder belay on edge of drop down to base of shakehole
+
+*end gavelresurvey1

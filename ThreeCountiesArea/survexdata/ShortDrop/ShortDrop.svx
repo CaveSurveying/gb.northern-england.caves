@@ -7,15 +7,16 @@
 *export FencePost 
 *equate shortdrop1.1 FencePost
 
-*include shortdrop1
-*include shortdrop2
-*include shortdrop3
-*include RiftEntrance
-*include shortdrop4canalinlet
-*include shortdrop5
-*include shortdrop6
-*include shortdrop7
-*include shortdrop8
+*include shortdrop1  ; Becka, Ruth, Dave
+*include shortdrop2  ; Jess and Andy C
+*include shortdrop3  ; Dave Ramsay on tape
+*include RiftEntrance  ; Richard, Dave
+*include shortdrop4canalinlet  ; Becka, Richard towards Coal Hole
+*include shortdrop5  ; Becka, Paul Whybro
+*include shortdrop6  ; Becka, Julia, repeat some of sd5 then down to junction with Ancient Highway
+*include shortdrop7  ; Becka, Julia, main streamway
+*include shortdrop8  ; Becka, Philip
+*include shortdrop9  ; Becka, Emma, Philip
 
 *equate shortdrop1.20 shortdrop2.19
 *equate shortdrop2.1 shortdrop3.001
@@ -32,7 +33,9 @@
 
 ;*equate shortdrop8.tag shortdrop3.001
 *equate shortdrop8.tag17 shortdrop1.17
+*equate shortdrop8.tag17 shortdrop9.tag
 
 ; NEED TO DECIDE HOW TO RECONCILE COMPASS FOR SHORTDROP 5 AND 6 - CHECK DECLINATION DIFFERENCE DUE TO DATE DISCREPANCY BUT UNLIKELY TO FIX MUCH; COULD JUST FORCE MAIN PASSAGE TO ROTATE ... BUT THEN NEED TO ROTATE SIDE PASSAGES BY THE SAME AMOUNT
+; USE SHORTDROP9 TO FIND ERROR IN UPPER LOOP THEN REMOVE DUPLICATES
 
 *end ShortDrop
