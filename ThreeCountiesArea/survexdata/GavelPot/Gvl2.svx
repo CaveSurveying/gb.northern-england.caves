@@ -1,7 +1,7 @@
 
 *begin	Gvl2
 *export 000   ;st000=tag on fence post on path to entrance
-*export 017 034 027 002 
+*export 017 034 027 002 005
 
 ;Cave:	Gavel Pot
 ;Surveyors:	Pete Hall/Ian Lawton/Carmell Ramwell

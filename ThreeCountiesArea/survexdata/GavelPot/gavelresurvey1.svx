@@ -1,6 +1,6 @@
 *begin gavelresurvey1
 
-*export tag11a
+*export tag11a 22
 *title "Gavel Pot from entrance p-hangers down Cascade pitch (from Eco Traverse) then through surface shakehole and down main route"
 *date 2019.11.10
 *team Rigging Sandy Wright

@@ -26,6 +26,6 @@
 *equate DownStreamGavel.SumpPool Gvl4.010
 
 *include gavelresurvey1
-*equate gavelresurvey1 GV11.001
+*equate gavelresurvey1.22 Gvl2.005 ; Becka - 15/11/19 - bodge tie in until I get another survey to tie in to fence post
 
 *end	GavelPot
