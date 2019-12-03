@@ -1,0 +1,50 @@
+*begin UpstreamGavel
+
+; This data is reconstructed from Geoff Yeadon's original notes
+*date 1983.06.01	;estimated date from survey
+
+
+*UNITS depth feet
+*DATA DIVING station depth NEWLINE compass tape  
+
+0   	0				;Gavel sump pool surface
+	211		5.92
+1   	-13
+	160		15.00 
+2    	-13
+	181		8.98
+3    	-13
+	271		15.12
+4    	-13
+	225		15.07
+5 	 	-13
+	271		15.17 
+6      	-13
+	240		15.31
+7       -13
+	190		5.79 
+8       -13
+	246		6.01
+9       -13
+	165		4.57
+10        0				;Airbell
+	120		2.83
+11		  0
+	118		11.37
+12 		-13
+    123 	1.46
+13		-13
+	174 	3.83  
+14		-13
+	180		20.43
+14a		-80
+	297		5.33
+15		-80
+	293		39.7
+16	    -210			;bottom of shaft as recorded in CDG 2015 sump index continuation too tight
+
+*end UpstreamGavel 
+
+; end of file
+
+

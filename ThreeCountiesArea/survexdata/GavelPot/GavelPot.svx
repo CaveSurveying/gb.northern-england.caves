@@ -28,4 +28,7 @@
 *include gavelresurvey1
 *equate gavelresurvey1.22 Gvl2.005 ; Becka - 15/11/19 - bodge tie in until I get another survey to tie in to fence post
 
+*include UpstreamGavel
+*equate UpstreamGavel.0 Gvl4.010
+
 *end	GavelPot
