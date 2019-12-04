@@ -1,0 +1,74 @@
+*BEGIN Yeadon_Pipikin_Surface_Survey
+
+; <<<<< This data is taken from Geoff Yeadon's 1980's note books >>>>>
+; Surface survey from Pipikin to various radio location points
+
+;*CALIBRATE declination 7.46   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.190808°N, 2.501691°W   2017.04.01
+
+*cs out OSGB:SD
+*cs OSGB:SD
+*DATE 1981.08.10
+
+
+*FIX	PetersonsPot	66700 79930 314
+
+*ENTRANCE 	PipikinEntrance
+*ENTRANCE 	PetersonsPot
+*ENTRANCE	HallOf10_MountainKing_jct
+*ENTRANCE	HallOfTheDamned
+*ENTRANCE 	CrossHall-NearWaterfall
+*ENTRANCE	GourHall
+*ENTRANCE	EndOfDive
+*ENTRANCE	SmokeyHole
+*ENTRANCE 	WaterfallChamberSump
+
+*EQUATE	SP30 	PetersonsPot
+*EQUATE	MB22	HallOf10_MountainKing_jct
+*EQUATE	MB34	HallOfTheDamned
+*EQUATE	MB23	CrossHall-NearWaterfall
+*EQUATE	MB24	GourHall
+*EQUATE	SP31	SmokeyHole
+*EQUATE	MB37 	WaterfallChamberSump
+*EQUATE	MB38	EndOfDive
+
+
+*FLAGS SURFACE
+PipikinEntrance	MB21	125 	305 0 	;MB21 = Dusty.Junction
+MB21	MB22	137		203		0	;MB22 = Hall of 10/Mountain King junction
+MB22	1		30		142 	1	
+1		SP31	16		148		-8	;SP31 = SmokeyHole (Tree)
+SP31	2		12.3	166		14
+2		3		25.0	171		3		
+3		SP30	9.0		170		-12	;SP30 = Peterson's Pot Entrance
+SP30	4		72.5	279		-4	
+4		MB34	12.4	53		-7	;MB34 = Hall Of The Damned
+
+MB22	MB23	138		252		0	;no inclination so suspect data
+
+MB23	5		30.0	109		6	;Cross Hall (Near waterfall)
+5		6		30.0	103		1
+6		7		41.2	104		2
+7		MB34	12.4	55		-7
+
+MB23	RedRoseDig		70	308		0	;Approximate length and no inclination	
+MB23	MarkerStake	260	221		0	;no inclination
+MB23	MB24			170	209		0	;MB24 = Gour Hall (far end) no inclination
+MarkerStake MB24	97	55		0	;Marker.Stake = big shake holes NOTE: these stations are the reverse of Geoffs notes.
+
+;Geoff's notes say 12deg 40m from existing survey. Is this for MB24?
+
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;Geoff Yeadon's second surface survey sketch
+
+MB22	MB34	70		210 	0
+MB34	MB37	15.5	192		0	;MB37 = waterfall chamber sump
+MB38	8		30.0	32		0	;MB38 = end of dive, peg 9m from rim of 15m diameter shakehole
+8		9		30.0	30		-3
+9		MB37	190.1	31		-3	
+MB38	NorthCornerOfSmithyHouse	350	289	-5
+
+*FLAGS NOT SURFACE
+
+
+*END Yeadon_Pipikin_Surface_Survey
