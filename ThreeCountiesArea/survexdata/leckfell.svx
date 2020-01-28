@@ -15,6 +15,7 @@
 *include Surface/shortdroprumblingcoalholebyronsurface
 *include Surface/threecountiesgpskdixon2012
 *INCLUDE Surface/Yeadon_Pipikin_Surface_Survey
+*INCLUDE Surface/LambTrap-to-WeePot
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;Nott2 and LostJohns area
@@ -91,6 +92,10 @@
 
 *include WeePot/WeePot
 *include LambTrap/LambTrap
+*EQUATE LambTrap-to-WeePot.1	BruntskillPot.Entrance
+*EQUATE LambTrap-to-WeePot.10  	LambTrap.entrance
+*EQUATE LambTrap-to-WeePot.17  	Fenwick_Pot
+*EQUATE LambTrap-to-WeePot.22  	WeePot.entrance
 
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -202,7 +207,7 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *FIX DeadDobbin_Pot REFERENCE 66440 78070 294
 *ENTRANCE DeadDobbin_Pot
 
-*FIX Fenwick_Pot REFERENCE 66580 79330 332
+;*FIX Fenwick_Pot REFERENCE 66580 79330 332
 *ENTRANCE Fenwick_Pot
 
 *FIX HumblePot REFERENCE 67060 79140 347

@@ -3,7 +3,7 @@
 ;*export 
 
 *title "LambTrap"
-*fix entrance 66621 79424 336
+;*fix entrance 66621 79424 336
 *entrance entrance
 *date 2019.07.10
 
