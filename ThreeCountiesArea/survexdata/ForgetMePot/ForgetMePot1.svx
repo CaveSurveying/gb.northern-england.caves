@@ -44,16 +44,16 @@
 
 *data passage station left right up down ignoreall
 
-1	-	-	-	-	right side of obvious through stone 2/3 down wall, 2m SW from shakehole at low point in wall; station 1 from Mohole1 survey
-2	-	-	-	-	top of stone wall
-3	-	-	-	-	knee height in field at top of shakehole for first dig
-4	-	-	-	-	uppermost exposed rock on the north side of entrance covered by 2 sheets of corrugated iron at edge of moderate shakehole with stones in middle of shakehole, first dig (abandoned)
-5	0.2	0.2	7	1.3	near base of shaft
-6	0.5	0	0.5	0.4	just 0.1m above start of sump
-7	0.25	0.25	0.2	0.2	far end of sump pool, down is guessed
-8	-	-	-	-	far side of shakehole with first dig
-9	-	-	-	-	far side of shakehole with Forget Me Pot, about level with field, ie at top
-10	-	-	-	-	small rock on far side of entrance climb (shoring and scaff bars) to Forget Me Pot
+;1	-	-	-	-	right side of obvious through stone 2/3 down wall, 2m SW from shakehole at low point in wall; station 1 from Mohole1 survey
+;2	-	-	-	-	top of stone wall
+;3	-	-	-	-	knee height in field at top of shakehole for first dig
+;4	-	-	-	-	uppermost exposed rock on the north side of entrance covered by 2 sheets of corrugated iron at edge of moderate shakehole with stones in middle of shakehole, first dig (abandoned)
+;5	0.2	0.2	7	1.3	near base of shaft
+;6	0.5	0	0.5	0.4	just 0.1m above start of sump
+;7	0.25	0.25	0.2	0.2	far end of sump pool, down is guessed
+;8	-	-	-	-	far side of shakehole with first dig
+;9	-	-	-	-	far side of shakehole with Forget Me Pot, about level with field, ie at top
+;10	-	-	-	-	small rock on far side of entrance climb (shoring and scaff bars) to Forget Me Pot
 11	0.3	0.3	2	0	base of entrance climb
 12	0.1	0.3	0.25	0.8	l wall before a few small stalagtites in roof
 13	0	0.3	1.4	1	l wall
