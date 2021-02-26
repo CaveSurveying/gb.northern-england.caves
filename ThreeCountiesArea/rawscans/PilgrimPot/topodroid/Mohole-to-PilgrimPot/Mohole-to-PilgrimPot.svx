@@ -1,0 +1,58 @@
+; 2020.10.28 created by TopoDroid v 5.0.59
+; Mohole-to-PilgrimPot - Overland from Mohole to Pilgrim Pot
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin Mohole-to-PilgrimPot 
+  *date 2020.08.30 
+  *team "Diane Arthurs, Simon Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *alias station - ..
+  *flags not splay
+  *data normal from to tape compass clino
+   *flags duplicate
+    0 1   5.56 359.5 33.2
+   *flags not duplicate
+   *flags duplicate
+    1 2   4.96 64.0 11.4
+   *flags not duplicate
+   *flags duplicate
+    2 3   9.74 90.3 1.7
+   *flags not duplicate
+   *flags duplicate
+    3 5   9.15 90.5 -1.3
+   *flags not duplicate
+   *flags duplicate
+    5 7   10.07 90.3 -1.3
+   *flags not duplicate
+   *flags duplicate
+    7 9   9.48 82.4 -2.2
+   *flags not duplicate
+   *flags duplicate
+    9 11   7.49 67.7 -9.2
+   *flags not duplicate
+   *flags duplicate
+    11 13   4.69 62.1 -22.1
+   *flags not duplicate
+   *flags duplicate
+    13 15   5.44 19.6 -33.5
+   *flags not duplicate
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.00 0.00 0.00 0.00
+1  0.00 0.00 0.00 0.00
+2  0.00 0.00 0.00 0.00
+3  0.00 0.00 0.00 0.00
+5  0.00 0.00 0.00 0.00
+7  0.00 0.00 0.00 0.00
+9  0.00 0.00 0.00 0.00
+11  0.00 0.00 0.00 0.00
+13  0.00 0.00 0.00 0.00
+15  0.00 0.00 0.00 0.00
+
+*end Mohole-to-PilgrimPot

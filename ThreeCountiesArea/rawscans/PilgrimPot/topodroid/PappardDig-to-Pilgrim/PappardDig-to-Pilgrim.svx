@@ -1,0 +1,51 @@
+; 2020.10.28 created by TopoDroid v 5.0.59
+; PappardDig-to-Pilgrim
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin PappardDig-to-Pilgrim 
+  *date 2020.08.30 
+  *team "" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *alias station - ..
+  *flags not splay
+  *data normal from to tape compass clino
+  0 - 0.44 58.4 5.4
+  0 - 0.80 318.7 -2.8
+  0 - 0.50 259.2 -6.2
+    1 0   5.92 154.2 -82.2
+  1 - 1.51 82.8 -31.3
+  1 - 0.80 229.4 -24.6
+  1 - 0.90 126.8 -18.4
+  1 - 0.86 325.7 -11.9
+   *flags duplicate
+    1 3   1.64 167.9 56.5
+   *flags not duplicate
+   *flags duplicate
+    3 5   6.04 107.7 2.7
+   *flags not duplicate
+   *flags duplicate
+    5 7   5.44 176.9 10.4
+   *flags not duplicate
+   *flags duplicate
+    7 9   6.51 208.8 -0.4
+   *flags not duplicate
+   *flags duplicate
+    9 11   6.18 192.5 -36.5
+   *flags not duplicate
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+1  1.22 0.70 0.00 0.79
+0  0.44 0.48 0.04 0.05
+3  0.00 0.00 0.00 0.00
+5  0.00 0.00 0.00 0.00
+7  0.00 0.00 0.00 0.00
+9  0.00 0.00 0.00 0.00
+11  0.00 0.00 0.00 0.00
+
+*end PappardDig-to-Pilgrim

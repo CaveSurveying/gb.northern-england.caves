@@ -1,5 +1,13 @@
 *begin WeePot
 
+*cs out OSGB:SD
+*cs OSGB:SD
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 *title "WeePot"
 
 *INCLUDE WeePot1

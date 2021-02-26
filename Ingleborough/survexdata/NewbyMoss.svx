@@ -1,6 +1,14 @@
 *BEGIN NewbyMoss
-;*cs out UTM30N
-;*cs OSGB:SD
+
+*cs out OSGB:SD
+*cs OSGB:SD
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 *FIX LongKinWest.1.0 73108 72422 450 ;673108 772422 450
 
 *INCLUDE Surface/Surface.svx
