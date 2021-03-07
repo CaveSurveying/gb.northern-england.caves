@@ -59,17 +59,17 @@
 
 
 
-*fix	0001	385207.057	470114.754	442.604	;Err (3D CQ) 	0.014m	;West side of shooting hut. Point on top western corner of rectangular rock on floor, approximately 4m from hut."	
-*fix	0002	385514.574	470179.513	458.792	;Err (3D CQ) 	0.014m	;Gingling Hole survey point. Entrance tab in rock located north east of entrance in crack.
-;*fix	0003	385488.850	470156.494	456.116	;Err (3D CQ) 	0.011m	;Hand drilled hole approximately 1cm deep on boulder outside Election Hole.	;DUPLICATED in 0004 - this one excluded as GPS fix took a while
-*fix	0004	385488.888	470156.481	456.118	;Err (3D CQ) 	0.012m	;Hand drilled hole approximately 1cm deep on boulder outside Election Hole.	
-;*fix	0005	385514.586	470179.531	458.810	;Err (3D CQ) 	0.016m	;Gingling Hole survey point. Entrance tab in rock located north east of entrance in crack.	;DUPLICATE of 0002
-*fix	0006	385559.445	470211.720	464.225	;Err (3D CQ) 	0.014m	;Gingling Wet Sink. Hand drilled hole ~1cm deep located in triangular boulder @ a 70° bearing on slope ~5m above entrance.	
-*fix	0007	385559.025	470204.131	461.204	;Err (3D CQ) 	0.013m	;Gingling Wet Sink. Hand drilled hole ~1cm deep located in prominent boulder on eastern bank of stream, approximately 2m above stream."	
-*fix	0008	385671.697	470277.807	481.405	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry entrance. Hand drilled hole in boulder located approximately 15-20m from lidded entrance, at a 50° bearing."	
-*fix	0009	385660.238	470264.628	477.409	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry Entrance. Northern scaffold bar of lidded entrance.	
-*fix	0010	385660.107	470263.793	477.408	;Err (3D CQ) 	0.014m	;Gingling Wet Sink - dry Entrance. Western scaffold bar of lidded entrance.	
-*fix	0011	385758.358	470187.475	493.484	;Err (3D CQ) 	0.012m	;Coates cavern - 1cm hand drilled hole in boulder at top of shakehole, ~6m above sink on southern side of shakehole."	
+*fix	0001 REFERENCE	85207.057	70114.754	442.604	;Err (3D CQ) 	0.014m	;West side of shooting hut. Point on top western corner of rectangular rock on floor, approximately 4m from hut."	
+*fix	0002 REFERENCE	85514.574	70179.513	458.792	;Err (3D CQ) 	0.014m	;Gingling Hole survey point. Entrance tab in rock located north east of entrance in crack.
+;*fix	0003			85488.850	70156.494	456.116	;Err (3D CQ) 	0.011m	;Hand drilled hole approximately 1cm deep on boulder outside Election Hole.	;DUPLICATED in 0004 - this one excluded as GPS fix took a while
+*fix	0004			85488.888	70156.481	456.118	;Err (3D CQ) 	0.012m	;Hand drilled hole approximately 1cm deep on boulder outside Election Hole.	
+;*fix	0005			85514.586	70179.531	458.810	;Err (3D CQ) 	0.016m	;Gingling Hole survey point. Entrance tab in rock located north east of entrance in crack.	;DUPLICATE of 0002
+*fix	0006 REFERENCE	85559.445	70211.720	464.225	;Err (3D CQ) 	0.014m	;Gingling Wet Sink. Hand drilled hole ~1cm deep located in triangular boulder @ a 70° bearing on slope ~5m above entrance.	
+*fix	0007 REFERENCE	85559.025	70204.131	461.204	;Err (3D CQ) 	0.013m	;Gingling Wet Sink. Hand drilled hole ~1cm deep located in prominent boulder on eastern bank of stream, approximately 2m above stream."	
+*fix	0008 REFERENCE	85671.697	70277.807	481.405	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry entrance. Hand drilled hole in boulder located approximately 15-20m from lidded entrance, at a 50° bearing."	
+*fix	0009 REFERENCE	85660.238	70264.628	477.409	;Err (3D CQ) 	0.018m	;Gingling Wet Sink - dry Entrance. Northern scaffold bar of lidded entrance.	
+*fix	0010 REFERENCE	85660.107	70263.793	477.408	;Err (3D CQ) 	0.014m	;Gingling Wet Sink - dry Entrance. Western scaffold bar of lidded entrance.	
+*fix	0011 REFERENCE	85758.358	70187.475	493.484	;Err (3D CQ) 	0.012m	;Coates cavern - 1cm hand drilled hole in boulder at top of shakehole, ~6m above sink on southern side of shakehole."	
 
 ;-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -92,18 +92,18 @@
 
 
 	
-*fix	222	384950.695	469701.267	397.945		;Magnetometer pot. WRT text "Milton" on lower L corner of first metal step
-*fix	221	385977.05	469178.907	508.868		;Shatter pot. Tag bolt in rock on N side of shakehole above entrance
-*fix	220	386017.727	469115.96	509.21		;Strangle Pot. Tag bolt in rock on large boulder perched above entrance
-*fix	219	385797.869	469404.93	499.878		;New Year Pot. Tag bolt in rock on surface ~5m NW of entrance
-*fix	218	385811.434	469353.015	501.685		;Rocky Pot. Tag bolt in rock on back wall of 2nd shakehole to SW of Rocky Pot 
-*fix	217	385184.063	469704.284	415.252		;Hammer Pot. Tag bolt in E wall of entrance climb, level with belay bar
-*fix	216	385612.074	470017.689	465.086		;Coronation Pot. Tag bolt in wall on N corner of entrance pitch
-*fix	215	385514.528	470179.444	458.765		;Gingling SSA. New tag
-*fix	214	385514.564	470179.528	458.757		;Gingling SS1. Old gingling tag
-*fix	213	384977.943	470176.731	422.095		;FOUL Pot. Tag bolt on jut on wall on NE vorner of entrance climb
-*fix	212	385049.369	470267.65	432.504		;Echo Pot. Tag bolt on wall on NE corner of entrance climb
-*fix	211	385185.234	470509.106	455.039		;New Pasture Cave. Tag bolt just inside cave entrance on wall inside cave on "true" left (E?)
+*fix	222 REFERENCE	84950.695	69701.267	397.945		;Magnetometer pot. WRT text "Milton" on lower L corner of first metal step
+*fix	221 REFERENCE	85977.05	69178.907	508.868		;Shatter pot. Tag bolt in rock on N side of shakehole above entrance
+*fix	220 REFERENCE	86017.727	69115.96	509.21		;Strangle Pot. Tag bolt in rock on large boulder perched above entrance
+*fix	219 REFERENCE	85797.869	69404.93	499.878		;New Year Pot. Tag bolt in rock on surface ~5m NW of entrance
+*fix	218 REFERENCE	85811.434	69353.015	501.685		;Rocky Pot. Tag bolt in rock on back wall of 2nd shakehole to SW of Rocky Pot 
+*fix	217 REFERENCE	85184.063	69704.284	415.252		;Hammer Pot. Tag bolt in E wall of entrance climb, level with belay bar
+*fix	216 REFERENCE	85612.074	70017.689	465.086		;Coronation Pot. Tag bolt in wall on N corner of entrance pitch
+*fix	215				85514.528	70179.444	458.765		;Gingling SSA. New tag
+*fix	214				85514.564	70179.528	458.757		;Gingling SS1. Old gingling tag
+*fix	213				84977.943	70176.731	422.095		;FOUL Pot. Tag bolt on jut on wall on NE vorner of entrance climb
+*fix	212	REFERENCE	85049.369	70267.65	432.504		;Echo Pot. Tag bolt on wall on NE corner of entrance climb
+*fix	211	REFERENCE	85185.234	70509.106	455.039		;New Pasture Cave. Tag bolt just inside cave entrance on wall inside cave on "true" left (E?)
 
 *data normal from to tape compass clino
 *flags surface
@@ -128,39 +128,39 @@
 ; 1.8m survey pole autocorrected in readings
 
 
-*fix	225	384037.973	471802.538	431.463		;Err (3D CQ) 	0.01	;Brants Gill Head. Point not tagged (on True L bank.) Surface survey to tag bolt - see below
-*fix	223	381256.742	472960.795	261.319		;Err (3D CQ) 	0.022	;Dale Head GPS fix. Could not get GPS fix at cave entrance so point is in middle of bog, chain surveyed with stakes and cave survey instruments to actual entrance, see below
+*fix	225	84037.973	71802.538	431.463		;Err (3D CQ) 	0.01	;Brants Gill Head. Point not tagged (on True L bank.) Surface survey to tag bolt - see below
+*fix	223	81256.742	72960.795	261.319		;Err (3D CQ) 	0.022	;Dale Head GPS fix. Could not get GPS fix at cave entrance so point is in middle of bog, chain surveyed with stakes and cave survey instruments to actual entrance, see below
 
 
 ;The following RIM points are taken around the perimeter and at the bottom of the huge shakehole along the fault running from Dale Head to Brants Gill - a few hundred metres W of Churnmilk Hole shakehole
-*fix	RIM28	383267.805	471895.18	438.399		;Err (3D CQ) 	0.026
-*fix	RIM27	383267.686	471895.502	438.405		;Err (3D CQ) 	0.046
-*fix	RIM26	383267.725	471895.55	438.4		;Err (3D CQ) 	0.038
-*fix	RIM25	383270.341	471898.086	439.749		;Err (3D CQ) 	0.035
-*fix	RIM24	383271.515	471899.792	440.6		;Err (3D CQ) 	0.021
-*fix	RIM23	383286.274	471897.444	446.701		;Err (3D CQ) 	0.019
-*fix	RIM22	383288.829	471902.544	449.857		;Err (3D CQ) 	0.014
-*fix	RIM21	383289.995	471904.446	451.49		;Err (3D CQ) 	0.015
-*fix	RIM20	383292.808	471905.053	452.597		;Err (3D CQ) 	0.014
-*fix	RIM19	383293.595	471911.421	457.608		;Err (3D CQ) 	0.013
-*fix	RIM18	383293.621	471911.435	457.607		;Err (3D CQ) 	0.013
-*fix	RIM17	383304.738	471895.644	458.084		;Err (3D CQ) 	0.019
-*fix	RIM16	383300.842	471887.344	458.24		;Err (3D CQ) 	0.017
-*fix	RIM15	383298.049	471880.196	458.368		;Err (3D CQ) 	0.021
-*fix	RIM14	383285.202	471873.574	457.427		;Err (3D CQ) 	0.019
-*fix	RIM13	383276.506	471866.333	457.353		;Err (3D CQ) 	0.017
-*fix	RIM12	383265.725	471871.437	456.493		;Err (3D CQ) 	0.042
-*fix	RIM11	383253.145	471874.438	455.475		;Err (3D CQ) 	0.02
-*fix	RIM10	383246.087	471882.387	455.333		;Err (3D CQ) 	0.02
-*fix	RIM9	383240.833	471908.55	456.662		;Err (3D CQ) 	0.018
-*fix	RIM8	383247.082	471917.738	457.321		;Err (3D CQ) 	0.049
-*fix	RIM7	383260.594	471923.934	457.716		;Err (3D CQ) 	0.018
-*fix	RIM6	383266.672	471923.485	457.939		;Err (3D CQ) 	0.017
-*fix	RIM5	383270.73	471923.513	457.792		;Err (3D CQ) 	0.017
-*fix	RIM4	383276.007	471921.132	457.878		;Err (3D CQ) 	0.014
-*fix	RIM3	383280.457	471919.077	457.815		;Err (3D CQ) 	0.016
-*fix	RIM2	383284.264	471918.827	457.759		;Err (3D CQ) 	0.018
-*fix	RIM1	383289.191	471915.977	457.719		;Err (3D CQ) 	0.017
+*fix	RIM28 REFERENCE	83267.805	71895.18	438.399		;Err (3D CQ) 	0.026
+*fix	RIM27 REFERENCE	83267.686	71895.502	438.405		;Err (3D CQ) 	0.046
+*fix	RIM26 REFERENCE	83267.725	71895.55	438.4		;Err (3D CQ) 	0.038
+*fix	RIM25 REFERENCE	83270.341	71898.086	439.749		;Err (3D CQ) 	0.035
+*fix	RIM24 REFERENCE	83271.515	71899.792	440.6		;Err (3D CQ) 	0.021
+*fix	RIM23 REFERENCE	83286.274	71897.444	446.701		;Err (3D CQ) 	0.019
+*fix	RIM22 REFERENCE	83288.829	71902.544	449.857		;Err (3D CQ) 	0.014
+*fix	RIM21 REFERENCE	83289.995	71904.446	451.49		;Err (3D CQ) 	0.015
+*fix	RIM20 REFERENCE	83292.808	71905.053	452.597		;Err (3D CQ) 	0.014
+*fix	RIM19 REFERENCE	83293.595	71911.421	457.608		;Err (3D CQ) 	0.013
+*fix	RIM18 REFERENCE	83293.621	71911.435	457.607		;Err (3D CQ) 	0.013
+*fix	RIM17 REFERENCE	83304.738	71895.644	458.084		;Err (3D CQ) 	0.019
+*fix	RIM16 REFERENCE	83300.842	71887.344	458.24		;Err (3D CQ) 	0.017
+*fix	RIM15 REFERENCE	83298.049	71880.196	458.368		;Err (3D CQ) 	0.021
+*fix	RIM14 REFERENCE	83285.202	71873.574	457.427		;Err (3D CQ) 	0.019
+*fix	RIM13 REFERENCE	83276.506	71866.333	457.353		;Err (3D CQ) 	0.017
+*fix	RIM12 REFERENCE	83265.725	71871.437	456.493		;Err (3D CQ) 	0.042
+*fix	RIM11 REFERENCE	83253.145	71874.438	455.475		;Err (3D CQ) 	0.02
+*fix	RIM10 REFERENCE	83246.087	71882.387	455.333		;Err (3D CQ) 	0.02
+*fix	RIM9  REFERENCE	83240.833	71908.55	456.662		;Err (3D CQ) 	0.018
+*fix	RIM8  REFERENCE	83247.082	71917.738	457.321		;Err (3D CQ) 	0.049
+*fix	RIM7  REFERENCE	83260.594	71923.934	457.716		;Err (3D CQ) 	0.018
+*fix	RIM6  REFERENCE	83266.672	71923.485	457.939		;Err (3D CQ) 	0.017
+*fix	RIM5  REFERENCE	83270.73	71923.513	457.792		;Err (3D CQ) 	0.017
+*fix	RIM4  REFERENCE	83276.007	71921.132	457.878		;Err (3D CQ) 	0.014
+*fix	RIM3  REFERENCE	83280.457	71919.077	457.815		;Err (3D CQ) 	0.016
+*fix	RIM2  REFERENCE	83284.264	71918.827	457.759		;Err (3D CQ) 	0.018
+*fix	RIM1  REFERENCE	83289.191	71915.977	457.719		;Err (3D CQ) 	0.017
 
 
 
@@ -176,7 +176,6 @@ SS1		SS2		21.79	118		-5		298		6				;SS1 temporary survey stake
 SS2		SS3		16.54	117		-7.5	298		8				;SS2 temporary survey stake
 SS3		DH1		7.77	004		-37		183		36.5			;DH1 is 1st P-anchor into Dale Head Pot (in W side of shakehole, below lip)
 
-*entrance DH1
 *entrance BG1
 
 
@@ -200,9 +199,9 @@ SS3		DH1		7.77	004		-37		183		36.5			;DH1 is 1st P-anchor into Dale Head Pot (in
 
 
 
-*fix	4004	381956.152	471881.376	274.947	;Err (3D CQ) 0.027  ;Dub cote cave - *** Notes to be added ***
-*fix	4003	381839.305	473425.219	306.729	;Err (3D CQ) 0.015	;Limekiln pot? Down-valley from Hull Pot - *** Notes to be added ***
-*fix	4002	381489.436	472948.402	286.271	;Err (3D CQ) 0.013	;Small stream sinking (coming from small resurgence in bog) above Brants Gill - *** Notes to be added ***
+*fix	4004  REFERENCE	81956.152	71881.376	274.947	;Err (3D CQ) 0.027  ;Dub cote cave - *** Notes to be added ***
+*fix	4003  REFERENCE	81839.305	73425.219	306.729	;Err (3D CQ) 0.015	;Limekiln pot? Down-valley from Hull Pot - *** Notes to be added ***
+*fix	4002  REFERENCE	81489.436	72948.402	286.271	;Err (3D CQ) 0.013	;Small stream sinking (coming from small resurgence in bog) above Brants Gill - *** Notes to be added ***
 
 
 

@@ -3,9 +3,9 @@
 
 *cs out OSGB:SD 
 *cs OSGB:SD
-*declination auto 385184.063	469704.284	415.252
+*declination auto 85184.063	69704.284	415.252
 
-*fix EntranceTag	385184.063	469704.284	415.252
+*fix EntranceTag	85184.063	69704.284	415.252
 ;gps coordinates taken from Cave Registry, Northern England, Fountains fell, ffgps.svx 
 *equate hammerentrance.0 EntranceTag
 *entrance hammerentrance.0

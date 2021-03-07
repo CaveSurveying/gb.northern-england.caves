@@ -5,7 +5,6 @@
 *cs out OSGB:SD
 *cs OSGB:SD
 
-
 *begin fountainsfell
 
 
@@ -30,7 +29,8 @@
 ;*equate HammerPot.hammerentrance.0 ffgps.217 ;now "fixed" in Hammer main survex file
 ;*equate NewPastureCave.newpastureentrance.0 ffgps.211 ;now "fixed" in New Pasture main survex file
 
-
+*INCLUDE DaleHeadPot/DaleHeadPot_reconstruction
+*EQUATE DaleHeadPot_reconstruction.entrance ffgps.DH1
 
 
 

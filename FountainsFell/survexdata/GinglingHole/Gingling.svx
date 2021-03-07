@@ -11,9 +11,10 @@
 
 *cs out OSGB:SD
 *cs OSGB:SD
-*declination auto 385514.586	470179.531	458.81
 
-*fix Gingling1.tag 385514.586	470179.531	458.81
+*declination auto 85514.586	70179.531	458.81
+
+*fix Gingling1.tag 85514.586	70179.531	458.81
 
 
 
