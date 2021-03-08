@@ -16,7 +16,7 @@
 *calibrate compass	+5.13
 
 *fix 001 66701.59 80152.17 259.62 ;all1.lk1.pml1.pkn1.pip02a.001
-
+*flags duplicate				;added back in by Simon Cornhill 2021/03/08
 001	002	06.26	182.0	 00.0	;st001=tag Dusty Junc.
 002	003	03.60	169.0	+10.0
 003	004	04.80	234.5	-07.0
@@ -29,5 +29,5 @@
 010	011	15.55	213.0	-02.0	;st011 is aven pool/trench on left stals on right
 011	012	13.80	203.0	+06.0
 012	013	14.70	205.0	-25.0	;st013=tag Hall of the Ten
-
+*flags not duplicate
 *end	pip02a

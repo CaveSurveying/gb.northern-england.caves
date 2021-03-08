@@ -1,0 +1,45 @@
+;Cave:		Pippikin Pot - Intercounty Passage joining previous surveys
+;Surveyors:	S.Lieberman (notes/pics), Phil Withnall (Instruments)
+;Date:		26/10/2017
+;Instruments:	Kit PAG/new disto
+
+;*equate	Pip11av.001	Pip11aii.009
+;*equate Pip11av.008	Pip11aiiii.011
+
+*begin	Pip11av
+*export 001 008
+
+*calibrate compass	-1.0
+*calibrate clino	00.0
+;*calibrate tape		
+
+001	002	05.16	098.0	+05.0	;Stn001 stood at junction on R.H. branch near tag.
+
+002	002a	05.05	039.0	+04.0	;Stn002 above floor in rift looking into tight slot to aven.
+
+002	003	01.65	132.0	-12.0	;Stn003 stood at apex of left bend in trench.
+003	004	07.48	068.0	+03.0	;Stn004 stood in narrowing at left bend in trench 
+004	005	03.71	017.0	+02.0	;Stn005 stood in trench at R.H. bend
+005	006	03.71	043.0	+01.0	;Stn006 stood at left bend in trench (same length as previous leg is correct!)
+006	007	02.93	008.0	+03.0	;Stn007 stood just beyond RH bend in trench
+007	008	02.58	038.0	+04.0	;Stn008 sitting in scoop opposite bedding to aven.
+008	008a	03.67	020.0	+04.0	;Stn008a knee height stood by small pothole at base of aven
+008a	008b	01.30	-	UP	;Stn008b raise station to head height
+008b	008c	07.60	180.0	+72.0	;Stn008c Highest visible point in aven.
+
+*end	Pip11av
+
+;st	l		r		u		d	comments
+;001	1.4		0.6		0.3		1.6	Stn001 stood at junction on R.H. branch near tag.
+;002	0.7		0.4		0.3		1.9	Stn002 above floor in rift looking into tight slot to aven.
+;002a	1 estimate	1 estimate	2 guess		0	Stn002a small rock pile at base of aven
+;003	0.9		0.4		0.8		1.6	Stn003 stood at apex of left bend in trench.
+;004	0.5		0.4		0.6		1.5	Stn004 stood in narrowing at left bend in trench
+;005	0.4		0.4		0.6		1.6	Stn005 stood in trench at R.H. bend
+;006	0.4		0.3		0.4		1.6	Stn006 stood at left bend in trench
+;007	0.4		0.5		0.3		1.5	Stn007 stood just beyond RH bend in trench
+;008	0.9		0.4		0.3		1.6	Stn008 sitting in scoop opposite bedding to aven.
+;008a	1.8 bed		0.8 bed		4.4		0.4	Stn008a knee height stood by small pothole at base of aven
+;008b	0.8		0.4		3.1		1.7	Stn008b raise station to head height
+;008c	0.5 estimate	0.3 estimate	0		8.5	Stn008c Highest visible point in aven.
+

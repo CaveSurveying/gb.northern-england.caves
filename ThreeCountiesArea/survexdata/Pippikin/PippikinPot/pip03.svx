@@ -6,7 +6,7 @@
 ;*equate	pip03.000	pip04.000
 
 *begin	pip03
-*export 000
+*export 000 008
 
 *calibrate compass	+5.17
 

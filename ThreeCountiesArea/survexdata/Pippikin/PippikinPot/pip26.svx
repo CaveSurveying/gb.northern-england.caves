@@ -9,6 +9,7 @@
 *begin	pip26
 *export 001
 *export 004
+*export 005   					;added back in by Simon Cornhill 2021/03/08
 
 *calibrate compass		+3.00
 *calibrate clino		+0.50

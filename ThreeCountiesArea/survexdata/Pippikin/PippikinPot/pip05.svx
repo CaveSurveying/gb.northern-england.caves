@@ -10,7 +10,9 @@
 *export 001
 *export 022
 
-*calibrate compass	+5.45
+;*calibrate compass	+5.45 ;original calibration
+*calibrate compass	+9	  ;calibration to align with later survey ;added back in by Simon Cornhill 2021/03/08
+*calibrate clino	+1	  ;calibration to align with later survey ;added back in by Simon Cornhill 2021/03/08
 
 001	002	02.15	-	DOWN	;st001 in roof at start of crawl to Leck Fell Lane
 002	003	02.20	263.5	-06.5

@@ -19,11 +19,24 @@
 *equate	pip02a.001 pip28a.001 ;tag in roof at Dusty Junction from pip28a
 *equate pip02a.013 pip04.038b ; from pip02a.svx
 *equate pip02a.013 pip05.022 ; from pip02a.svx
+*equate	Pip02b.001	Pip02a.001 ;from pip02b.svx - st001=tag in roof at Dusty Junction ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip02b.017	pip11a.001 ;from pip02b.svx - new tag position 		 ;added back in by Simon Cornhill 2021/03/08
 *equate pip03.000 pip04.000 ; from pip03.svx
 *equate pip.060 pip09.001 ; from pip09.svx
 *equate pip.065 pip11.001 ; from pip11.svx
 *equate pip.101a pip05.001 ; from pip05.svx
 *equate pip11.016 pip21.000 ; from pip11.svx
+*equate	pip11a.001	Pip02b.017	; from pip11a.svx ;new tag position HOTT ;added back in by Simon Cornhill 2021/03/08
+*equate	pip11a.055	pip11b.001	; from pip11a.svx ;tag bottom of Pip.    ;added back in by Simon Cornhill 2021/03/08
+*equate pip11a.055	pip.065		; from pip11a.svx;tag bottom of Pip.     ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip11ai.015	Pip11a.008	; from pip11ai.svx;					     ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip11aii.001 Pip11ai.001; from pip11aii.svx;				     ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip11aiii.001 Pip11aii.009	; from pip11aiii.svx;				 ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip11aiiii.001	pip26.005	; from pip11aiiii.svx;			     ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip11av.001	Pip11aii.009	; from pip11av.svx;			     	 ;added back in by Simon Cornhill 2021/03/08
+*equate Pip11av.008	Pip11aiiii.011	; from pip11av.svx;			     	 ;added back in by Simon Cornhill 2021/03/08
+*equate	Pip11c.001	pip11b.015		; from pip11c.svx; tag at juncton	 ;added back in by Simon Cornhill 2021/03/08
+
 *equate pip15.009 pip17.001 ; from pip15.svx
 *equate pip15.040 pip18.028 ; from pip15.svx
 *equate pip15.040 pip19.001 ; from pip15.svx
@@ -50,6 +63,7 @@
 *include	pip
 *include	pip01
 *include	pip02a
+*include	pip02b	;added back in by Simon Cornhill 2021/03/08
 *include	pip03
 *include	pip04
 *include	pip05
@@ -57,6 +71,15 @@
 *include	pip07
 *include	pip09
 *include	pip11
+*include	pip11a		;added back in by Simon Cornhill 2021/03/08
+*include	pip11ai		;added back in by Simon Cornhill 2021/03/08
+*include	pip11aii	;added back in by Simon Cornhill 2021/03/08
+*include	pip11aiii	;added back in by Simon Cornhill 2021/03/08
+*include	pip11aiiii	;added back in by Simon Cornhill 2021/03/08
+*include	pip11av		;added back in by Simon Cornhill 2021/03/08
+*include	pip11b		;added back in by Simon Cornhill 2021/03/08
+*include	pip11c		;added back in by Simon Cornhill 2021/03/08
+
 ; pip12, pip13, pip14 - moved into Mistral
 *include	pip15
 ; pip16 - moved into Peterson Pot
