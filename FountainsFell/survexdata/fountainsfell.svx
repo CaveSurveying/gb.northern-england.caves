@@ -16,6 +16,8 @@
 *include NewPastureCave/newpasture
 *include MasterCave/master_cave
 *include MasterCave/FAKE_gingling_sump  ;temp file with roughly estiamted sump
+*INCLUDE DaleHeadPot/DaleHeadPot_reconstruction
+*INCLUDE EchoPot/EchoPot_reconstruction
 
 *equate Election.Election1.S1	ffgps.0004
 *equate FOULPot.FOUL1.tag ffgps.213 
@@ -29,9 +31,9 @@
 ;*equate HammerPot.hammerentrance.0 ffgps.217 ;now "fixed" in Hammer main survex file
 ;*equate NewPastureCave.newpastureentrance.0 ffgps.211 ;now "fixed" in New Pasture main survex file
 
-*INCLUDE DaleHeadPot/DaleHeadPot_reconstruction
-*EQUATE DaleHeadPot_reconstruction.entrance ffgps.DH1
 
+*EQUATE DaleHeadPot_reconstruction.entrance ffgps.DH1
+*EQUATE EchoPot_reconstruction.entrance ffgps.212
 
 
 

@@ -1,0 +1,46 @@
+
+;This data is reconstructed from the ULSA xxx survey using Patric Warrens Inkscape to Survex addin, vertical drops were manually added afterwards.
+;https://github.com/patrickbwarren/inkscape-survex-export 
+
+*begin FarAwayInTime_reconstruction
+*EXPORT 0
+*DATE 2010.6.1	;estimated date
+
+*data normal from to tape compass clino
+
+  0   1    2.52  330  0
+  1   2    2.02  333  0
+  2	  2a   1	 -	  up
+  2a  3    1.27  338  0
+  3	  3a   0.5	 - 	  up
+  3a  4    0.88  334  0
+  4   4a   0.5   -    up
+  4a  5    0.97  088  0
+  5   5a   1.5   -    up
+  5a  6    0.85  097  0
+  6   7    0.54  109  0
+  7	  7a   3.5   -	  up
+  7a  8    1.15  333  0
+  8   9    0.86  337  0
+  9  10    1.16  047  0
+ 10  11    2.51  064  0
+ 11	 11a   0.5	 -    up
+ 11a 12    2.07  059  0
+ 12  13    2.15  057  0
+ 13  14    0.85  057  0
+ 14  15    1.93  096  0
+ 15	 15a   0.25  -    up
+ 15a 16    0.64  092  0
+ 16  17    2.28  062  0
+ 17  18    2.59  056  0
+ 18	 18a   0.25  -    up
+ 18a 19    2.27  055  0
+ 19  19a   0.25  -    up
+ 19a 20    1.45  058  0
+ 20  21    2.01  044  0
+ 21	 21a   0.25  -    down
+ 21a 22    2.34  044  0
+
+*end FarAwayInTime_reconstruction 
+
+; end of file
