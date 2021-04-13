@@ -1,0 +1,121 @@
+*begin skirwith-upper-entrance-1
+
+*export 1
+*title "Skirwith Cave upper (main) section from entrance by concrete arch past waterfall to start of canal section"
+*date 2021.04.12
+*team Tippex Kristian Brook
+*team Instruments Becka Lawson
+*team Notes Becka Lawson
+*instrument Becka Distox2
+
+;*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+1	2	6.59	130	-35
+2	3	6.39	131	-01
+3	4	8.85	136	-04
+4	5	1.95	096	+09.5
+5	6	6.60	146	+02
+6	7	13.11	131	0
+7	8	8.95	138	-01
+8	9	5.19	133	+01
+9	10	5.85	145	-02
+10	11	11.84	128	+11
+11	12	7.47	147	-05
+12	13	2.34	121	+21
+13	14	3.57	122	+46
+14	15	6.17	124	+05
+15	16	4.17	138	+03
+16	17	5.49	144	-44
+17	18	9.42	116	+08
+18	19	2.97	082	+38
+
+19	20	11.59	121	-04
+20	21	6.99	122	-03.5
+21	22	8.78	106	-01
+22	23	11.18	102	-02
+23	24	10.09	096	0
+24	25	7.49	129	+08
+24	j2ndcairn	1.11	158	-05
+25	26	5.22	349	+40
+26	27	0.26	294	+62
+26	28	6.59	004	+06
+28	29	9.61	059	-04.5
+29	30	6.34	122	+06
+30	31	6.84	086	-01
+31	32	3.47	072	+03
+32	33	1.22	078	+23
+33	34	2.21	135	-03
+26	35	5.37	102	+06
+35	36	6.64	076	-02
+36	37	6.57	058	0
+
+37	38	5.58	114.5	+03
+38	39	3.46	054	-01
+39	40	15.89	109	0
+40	41	4.41	100	+11
+41	42	3.48	071	+10
+42	43	3.95	117	-14
+43	44	8.52	133	-02
+44	45	1.01	092	-73
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	tip of mostly submerged rock on entrance at grass level above breeze block, not strictly at entrance, maybe 1.5m before concrete arch
+2	0.1	1	1.5	0.1	cairn near LW just past gate
+3	1	0.3	1.7	0.5	RW
+4	2	0.5	2	0.5	RW
+5	0.2	1.5	2	0.5	LW
+6	0.7	0	1.5	0.7	RW
+7	0	0.6	3.5	1.3	LW
+8	0.6	0	2.5	1	RW
+9	0.1	1	3	1.2	rock tip L side
+10	0.8	0.1	2.5	0.8	RW
+11	0.2	0.3	3.5	2	ceiling by concrete
+12	0.9	0	0.5	0.5	RW
+13	1.2	1	1.3	0.8	rock by concrete stairs
+14	0.7	1	0.3 1.5	ceiling before collapse
+15	0.2	2	1.7	0.5	far side of boulder collapse
+16	0.8	0.4	0.3	1.6	ceiling by path
+17	0.6	0.6	1.9	0.3	R corner of lowest concrete step
+
+18	1.5	1	1.6	0	concrete step
+19	1.5	2	1.5	2	cairn on L of top concrete stair
+
+20	0.4	0.4	0.5	1.8	ceiling at end of concrete path
+21	2.2	0.1	0.5	1.2	RW
+22	2	1	2	1	LW block
+23	0	1	0.2	1.2	LW in canal
+24	0	1.4	1.5	0.5	LW end of canal; forgot to do splays here
+25	-	-	-	-	wall on R of waterfall as face waterfall
+j2ndcairn	1.2	0.5	2.5	0.4	julians 2nd cairn from his rough survey on same day
+
+; last splay from j2ndcairn station was 0.38 5 190.7 -26.1
+
+26	0	1.2	0.5	1.4	up rubbed off partly in notes; LW above waterfall
+27	-	-	-	-	fixed bolt above waterfall close to station 26
+28	0.1	0.5	0.5	0.5	LW dry branch
+29	0	1	1	0.1	LW corner
+30	0.6	0.5	0.2	0.3	RW boulder
+31	0.5	0.3	0.2	0.2	RW
+32	0.5	1	0.4	0.1	floor
+33	0	1.5	0	0.4	L after squeeze
+34	0.5	0.5	0.1	0.1	end of squeeze
+35	1	0.3	0.2	1.3	RW along wet R branch after waterfall
+
+36	2.2	2	0.3	0.3	floor
+37	0	1.2	0.4	0.2	LW
+
+38	2.5	0.2	0.4	0.4	RW
+39	1	2	0.5	0.4	L boulder
+40	2	2	0.8	0.4	middle passage
+41	2	1	1	0	middle boulders
+42	1	1.5	0.4	1	L of white boulder
+43	1	2	0	1	L ceiling at start of big pool at far end of massive boulder
+44	2	2	1.2	0.5	RW
+45	-	-	-	-	5 cm rock wedged in ceiling with dot of liquid paper at end of pool by boulders; after this station is one more pool, approx 8m long, then rocks, then the elbow deep canal starts with no rocks for ages
+
+; approx 70 more legs to end (dive line for sump) comprising wet crawling in a canal then stooping then an attractive, long walking section then back to stooping and crawling until roof lowers for ear in the water duck into chamber with dive line
+
+*end skirwith-upper-entrance-1

@@ -1,0 +1,23 @@
+;Skirwith Cave
+
+*begin skirwith-cave
+
+;*export gps
+
+;*fix gps 67030	78934	346 ; taken from Google Earth as more precise than Becka's phone
+
+*equate lower-skirwith-entrance skirwith-lower-entrance.2
+*entrance lower-skirwith-entrance
+
+*equate upper-skirwith-entrance skirwith-upper-entrance-1.1
+*entrance upper-skirwith-entrance
+
+*include skirwith-surface
+
+*equate skirwith-surface.1 skirwith-lower-entrance.1
+*include skirwith-lower-entrance
+
+*equate skirwith-surface.6 skirwith-upper-entrance-1.1
+*include skirwith-upper-entrance-1
+
+*end skirwith-cave

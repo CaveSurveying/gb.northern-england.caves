@@ -1,0 +1,32 @@
+*begin skirwith-surface
+
+*export 1 6
+*title "Skirwith Cave lower section from concrete steps by entrance to corrugated iron at end"
+*date 2021.04.12
+*team Notes Becka Lawson
+*team Instruments Kristian Brook
+*team Notes Becka Lawson
+*instrument Kristian compass clino tape
+
+;*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+
+1	2	13.20	273	-03
+2	3	15.78	173	+03
+3	4	16.20	124	+21
+4	5	25.00	112 +11
+5	6	25.82	103	+02	
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	entrance station for survey of Lower Skirwith Cave, near outside corner of 2nd concrete step to toilet block by entrance, approx 0.4m to ground
+2	-	-	-	-	on concrete block by start of flood resurgence (dry)
+3	-	-	-	-	at cliff edge above start of active resurgence (wet)
+4	-	-	-	-	far tip of massive single boulder
+5	-	-	-	-	grass, field
+6	-	-	-	-	entrance station for survey of Upper Skirwith Cave, tip of rock at field height at start of hole approx 1.5m before concrete arch into cave
+
+*end skirwith-surface
