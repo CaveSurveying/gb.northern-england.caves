@@ -93,6 +93,7 @@ j2ndcairn	1.2	0.5	2.5	0.4	julians 2nd cairn from his rough survey on same day
 
 ; last splay from j2ndcairn station was 0.38 5 190.7 -26.1
 
+*data passage station left right up down ignoreall
 26	0	1.2	0.5	1.4	up rubbed off partly in notes; LW above waterfall
 27	-	-	-	-	fixed bolt above waterfall close to station 26
 28	0.1	0.5	0.5	0.5	LW dry branch
@@ -102,6 +103,8 @@ j2ndcairn	1.2	0.5	2.5	0.4	julians 2nd cairn from his rough survey on same day
 32	0.5	1	0.4	0.1	floor
 33	0	1.5	0	0.4	L after squeeze
 34	0.5	0.5	0.1	0.1	end of squeeze
+
+*data passage station left right up down ignoreall
 35	1	0.3	0.2	1.3	RW along wet R branch after waterfall
 
 36	2.2	2	0.3	0.3	floor

@@ -42,7 +42,6 @@
 5	0.5	0.5	1	0.5	boulder
 6	1.2	0.4	3	0.5	corner rift
 7	1	0.5	4	1.8	same rift
-8	0.1	0	0.3	0.1	LRUDs are guesses, end of too tight rift
 9	0.4	0	1.7	2	high RW
 10	0	1	2.5	0.7	LW
 11	0.6	0	2	0.5	RW
@@ -53,5 +52,8 @@
 16	3	2	2	2	rock in gour pool in final chamber
 17	0	2	0.5	1.5	LW chamber
 18	-	-	-	-	shot into boulder and corrugated iron choke
+
+*data passage station left right up down ignoreall
+8	0.1	0	0.3	0.1	LRUDs are guesses, end of too tight rift
 
 *end skirwith-lower-entrance
