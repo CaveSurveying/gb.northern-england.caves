@@ -2,9 +2,9 @@
 
 *begin skirwith-cave
 
-;*export gps
+*export skirwith-surface.1
 
-;*fix gps 67030	78934	346 ; taken from Google Earth as more precise than Becka's phone
+*fix skirwith-surface.1 370905 473799	252 ; taken from Google Earth and OS map for elevation as more precise than Becka's phone
 
 *equate lower-skirwith-entrance skirwith-lower-entrance.2
 *entrance lower-skirwith-entrance
