@@ -1,13 +1,17 @@
 
+*begin skirwith_jgtslapdash
+*export skir4.0 skir4.33 skir5back.29
+
 *equate skir5back.0 skir4.0
 
+*sd tape 1.0 metres
 
 ; 2021.04.13 created by TopoDroid v 5.1.2
 ; skir4
 ; Instrument: DistoX2 2086 - SM-G960F
 
 *begin skir4 
-*export 0
+*export 0 33
   *date 2021.04.12 
   *team "" 
   *units tape meters
@@ -163,7 +167,7 @@
 ; Instrument: DistoX2 2086 - SM-G960F
 
 *begin skir5back 
-*export 0
+*export 0 29
   *date 2021.04.12 
   *team "" 
   *units tape meters
@@ -477,4 +481,5 @@
     33 34   1.14 324.8 50.7
   *flags not splay
 *end skir5back
+*end skirwith_jgtslapdash
 
