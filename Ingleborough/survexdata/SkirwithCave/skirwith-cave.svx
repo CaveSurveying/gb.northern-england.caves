@@ -25,7 +25,7 @@
 *equate skirwith-surface.6 skirwith-upper-entrance-1.1
 *include skirwith-upper-entrance-1
 
-*equate skirwith-upper-entrance-2.2 skirwith-upper-entrance-1.45
+*equate skirwith-upper-entrance-2.1 skirwith-upper-entrance-1.45
 *include skirwith-upper-entrance-2
 
 ;*include skirwith_jgtslapdash
