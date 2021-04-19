@@ -1,6 +1,6 @@
 *begin skirwith-upper-entrance-1
 
-*export 1 j2ndcairn 19 5
+*export 1 j2ndcairn 19 5 45
 *title "Skirwith Cave upper (main) section from entrance by concrete arch past waterfall to start of canal section"
 *date 2021.04.12
 *team Tippex Kristian Brook
