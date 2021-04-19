@@ -25,13 +25,12 @@
 *equate skirwith-surface.6 skirwith-upper-entrance-1.1
 *include skirwith-upper-entrance-1
 
-*equate skir6.0 skirwith-upper-entrance-1.45
-*include skir6
+*equate skirwith-upper-entrance-2.2 skirwith-upper-entrance-1.45
+*include skirwith-upper-entrance-2
 
-*include skirwith_jgtslapdash
-*equate skirwith_jgtslapdash.skir4.33 skirwith-upper-entrance-1.j2ndcairn 
-*equate skirwith_jgtslapdash.skir4.0 skirwith-upper-entrance-1.19 
-*equate skirwith_jgtslapdash.skir5back.29 skirwith-upper-entrance-1.5
-
+;*include skirwith_jgtslapdash
+;*equate skirwith_jgtslapdash.skir4.33 skirwith-upper-entrance-1.j2ndcairn 
+;*equate skirwith_jgtslapdash.skir4.0 skirwith-upper-entrance-1.19 
+;*equate skirwith_jgtslapdash.skir5back.29 skirwith-upper-entrance-1.5
 
 *end skirwith-cave
