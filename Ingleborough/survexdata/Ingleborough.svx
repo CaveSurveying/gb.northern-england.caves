@@ -1,0 +1,19 @@
+*begin Ingleborough
+
+*cs OSGB:SD
+*cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*fix LongKinWest.1.0 73108 72422 450 ;673108 772422 450
+
+*include GapingGill.svx
+*include NewbyMoss.svx
+*include WhiteScar.svx
+
+*equate CrossPot.1.0 Surface.1.13
+
+*end Ingleborough

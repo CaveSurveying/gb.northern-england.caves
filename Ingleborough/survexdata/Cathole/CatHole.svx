@@ -1,15 +1,17 @@
-*Begin CatHole
+*begin CatHole
 
-*ENTRANCE CatHole1.1.0 ;GPS point head height above entrance marked with a triangle
+*export CatHole1.1.0
 
-*FIX CatHole1.1.0 374852 470010 228   ;Estimated coordinates from google earth
-; Note from Becka, drop leading 3 and 4 in coordinates if using the *cs OSGB:SD command as the SD replaces those numbers I believe, so this would give *FIX CatHole1.1.0 74852 70010 228
+*entrance CatHole1.1.0 ;GPS point head height above entrance marked with a triangle
 
-*Include CatHole1
-*Include CatHole2
-*Include CatHole3
+;*fix CatHole1.1.0 374852 470010 228   ;Estimated coordinates from google earth
+; Note from Becka, drop leading 3 and 4 in coordinates if using the *cs OSGB:SD command as the SD replaces those numbers I believe, so this would give *fix CatHole1.1.0 74852 70010 228
 
-*Equate CatHole1.1.24 CatHole2.1.24
-*Equate CatHole2.1.32 CatHole3.1.0
+*include CatHole1
+*include CatHole2
+*include CatHole3
 
-*End CatHole
+*equate CatHole1.1.24 CatHole2.1.24
+*equate CatHole2.1.32 CatHole3.1.0
+
+*end CatHole

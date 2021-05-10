@@ -1,4 +1,4 @@
-*BEGIN NewbyMoss
+*begin NewbyMoss
 
 *cs OSGB:SD
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
@@ -8,21 +8,19 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+*fix LongKinWest.1.0 73108 72422 450 ;673108 772422 450
 
-*FIX LongKinWest.1.0 73108 72422 450 ;673108 772422 450
+*include Surface/Surface.svx
+*include CrossPot/CrossPot.svx
+*include FernPot/FernPot.svx
+*include LongKinWest/LongKinWest.svx
+*include MossPot/MossPot.svx
+*include GoldenPippin/GoldenPippin
 
-*INCLUDE Surface/Surface.svx
-*INCLUDE CrossPot/CrossPot.svx
-*INCLUDE FernPot/FernPot.svx
-*INCLUDE LongKinWest/LongKinWest.svx
-*INCLUDE MossPot/MossPot.svx
-*INCLUDE GoldenPippin/GoldenPippin
+*equate CrossPot.1.0 Surface.1.13
+*equate Fernpot.1.0 Surface.1.8
+*equate LongKinWest.1.0 Surface.1.0
+*equate MossPot.1.0 Surface.2.4
+*equate GoldenPippin.1.0 Surface.3.3 
 
-*EQUATE CrossPot.1.0 Surface.1.13
-*EQUATE Fernpot.1.0 Surface.1.8
-*EQUATE LongKinWest.1.0 Surface.1.0
-*EQUATE MossPot.1.0 Surface.2.4
-*EQUATE GoldenPippin.1.0 Surface.3.3 
-
-
-*END NewbyMoss
+*end NewbyMoss

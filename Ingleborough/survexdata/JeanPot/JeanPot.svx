@@ -1,9 +1,11 @@
 
 *begin JeanPot
 
-*entrance jeanpot1.3
+*export JeanPot1.3
 
-*fix jeanpot1.3 0 0 0; NOTE: temporary fix for viewing jean pot alone
+*entrance JeanPot1.3
+
+;*fix JeanPot1.3 75608 72530 396; NOTE: based on email from Patrick Warren, needs double checking (Becka)
 
 *equate Jeanpot1.aX Jeanpot2.a
 *equate Jeanpot3.hX Jeanpot2.h
@@ -14,4 +16,4 @@
 *include JeanPot3
 *include JeanPot4
 
-*end Jeanpot
+*end JeanPot
