@@ -8,12 +8,8 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*fix LongKinWest.1.0 73108 72422 450 ;673108 772422 450
-
 *include GapingGill.svx
 *include NewbyMoss.svx
 *include WhiteScar.svx
-
-*equate CrossPot.1.0 Surface.1.13
 
 *end Ingleborough

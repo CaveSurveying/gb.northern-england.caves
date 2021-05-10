@@ -1,13 +1,13 @@
 ;Skirwith Cave
 
-*begin skirwith-cave
+*begin SkirwithCave
 
 *export skirwith-surface.1
 
 *cs OSGB:SD
 *cs out EPSG:27700
 
-*fix skirwith-surface.1 70905 73799	252 ; taken from Google Earth and OS map for elevation as more precise than Becka's phone
+;*fix skirwith-surface.1 70905 73799	252 ; taken from Google Earth and OS map for elevation as more precise than Becka's phone
 
 *equate lower-skirwith-entrance skirwith-lower-entrance.2
 *entrance lower-skirwith-entrance
@@ -31,4 +31,4 @@
 ;*equate skirwith_jgtslapdash.skir4.0 skirwith-upper-entrance-1.19 
 ;*equate skirwith_jgtslapdash.skir5back.29 skirwith-upper-entrance-1.5
 
-*end skirwith-cave
+*end SkirwithCave
