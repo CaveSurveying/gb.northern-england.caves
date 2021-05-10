@@ -1,6 +1,10 @@
 *BEGIN CatHole2
 
+*export 1.24 1.32
+
 *Begin 1
+
+*export 24 32
 
 *TEAM Di Arthurs pda & Simon Cornhill distoX
 ;calibration accuracy less than 0.6'

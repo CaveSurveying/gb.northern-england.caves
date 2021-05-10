@@ -1,7 +1,11 @@
 *BEGIN CatHole3
 
+*export 1.0
 
 *BEGIN 1
+
+*export 0
+
 ;Di pda & Simon distoX
 ;calibration accuracy less than 0.5'
 
