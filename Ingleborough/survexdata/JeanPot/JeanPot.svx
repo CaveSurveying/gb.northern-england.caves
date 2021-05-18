@@ -5,7 +5,7 @@
 
 *entrance JeanPot1.3
 
-;*fix JeanPot1.3 75608 72530 396; NOTE: based on email from Patrick Warren, needs double checking (Becka)
+;*fix JeanPot1.3 75608 72530 396; NOTE: based on email from Patrick Warren, but is consistent with GPS from Northern Caves provided by Beardy on 10 May 2021: SD 75617253 396m (Becka)
 
 *equate Jeanpot1.aX Jeanpot2.a
 *equate Jeanpot3.hX Jeanpot2.h

@@ -1,4 +1,4 @@
-*begin Ingleborough
+*begin GapingGill-AREA
 
 *cs OSGB:SD
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
@@ -8,8 +8,12 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*include GapingGill.svx
-*include NewbyMoss.svx
-*include WhiteScar.svx
+*include CatHole/CatHole.svx
+*fix CatHole.CatHole1.1.0 74852 70010 228
 
-*end Ingleborough
+*include JeanPot/JeanPot.svx
+*fix JeanPot.JeanPot1.3 75608 72530 396; NOTE: based on email from Patrick Warren, needs double checking (Becka)
+
+;*include GapingGill/GapingGill.svx
+
+*end GapingGill-AREA
