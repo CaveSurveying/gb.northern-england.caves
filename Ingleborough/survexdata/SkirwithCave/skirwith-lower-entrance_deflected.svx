@@ -1,0 +1,63 @@
+*begin skirwith-lower-entrance
+
+*export 1 2
+*title "Skirwith Cave lower section from concrete steps by entrance to corrugated iron at end"
+*date 2021.04.12
+*team Tippex Kristian Brook
+*team Instruments Becka Lawson
+*team Notes Becka Lawson
+*instrument Becka Distox2
+
+;*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	remarks
+
+*flags surface
+1	2	2.83	201.5	-11
+*flags not surface
+
+2	3	5.75	141	-04
+3	4	0.52	107	-45
+4	5	0.54	117	+83
+5	6	8.63	144	+07
+6	7	1.29	045	+68
+
+7	8	7.11	100	-02  ; deflected
+;7	8	7.11	118	-02
+
+6	9	5.68	160	+19
+9	10	7.04	120	+07
+10	11	4.42	158.5	-00.5
+
+11	12	7.11	198	10   ; deflected data for testing tunnelvr distortions
+;11	12	10.11	118	-01
+
+12	13	2.71	092	+39
+13	14	9.72	120	+01
+14	15	0.72	244	+15
+15	16	8.80	117.5	+15
+16	17	2.62	356	+31
+17	18	4.28	093	+22
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	outside corner 2nd concrete step to toilet block nearest to entrance 0.35m above grass
+2	0.3	1	0	0.4	corner of entrance ceiling block
+3	0.7	0.4	1	0.4	roof boulder
+4	0.5	0.5	1	0	floor
+5	0.5	0.5	1	0.5	boulder
+6	1.2	0.4	3	0.5	corner rift
+7	1	0.5	4	1.8	same rift
+8	0.1	0	0.3	0.1	LRUDs are guesses, end of too tight rift
+9	0.4	0	1.7	2	high RW
+10	0	1	2.5	0.7	LW
+11	0.6	0	2	0.5	RW
+12	0.1	0.2	3	0.1	RW
+13	0	1	1.8	1.5	LW
+14	0	0.5	0.7	0.4	LW
+15	0.8	0	0.5	0.4	RW
+16	3	2	2	2	rock in gour pool in final chamber
+17	0	2	0.5	1.5	LW chamber
+18	-	-	-	-	shot into boulder and corrugated iron choke
+
+*end skirwith-lower-entrance
