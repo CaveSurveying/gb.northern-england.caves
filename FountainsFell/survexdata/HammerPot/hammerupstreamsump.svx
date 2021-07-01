@@ -1,6 +1,6 @@
 *begin	hammerupstreamsump
 
-*export x
+*export x 10
 
 *title "Hammer Pot from junction of Incline Passage to Upstream Sump"
 *date 2019.04.06
