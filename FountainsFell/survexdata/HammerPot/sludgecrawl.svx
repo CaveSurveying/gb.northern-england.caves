@@ -8,7 +8,7 @@
 
 *DATE 2018.03.25
 
-*export 161 226 225
+*export 161 215a 226 225
 
 162	161	 4.21	133.40	  0.37
 *FLAGS SPLAY
@@ -349,16 +349,18 @@
 213	214	 3.75	262.93	 -1.64
 214	215	 5.40	267.96	 -1.22
 *FLAGS SPLAY
-215	215a	 1.70	136.59	  4.13
+215	215a	 1.70	136.59	  4.13  ; this splay now made into a leg as was close to where the hammer-upstream-to-sludge survey ended
 215	215b	 0.38	206.78	 76.41
 215	215c	 0.22	147.04	-77.63
 215	215d	 2.31	175.05	  0.18
 215	215e	 1.82	139.23	  0.30
-215	215f	 2.10	145.54	  0.07
+215	215f	 2.10	145.54	  0.07  
 215	215g	 2.39	167.31	 -2.02
 215	215h	 2.12	170.87	 -2.12
 215	215i	 1.97	179.42	 -2.61
 *FLAGS NOT SPLAY
+215	215a	 1.70	136.59	  4.13  ; this splay now made into a leg as was close to where the hammer-upstream-to-sludge survey ended
+
 215	216	 2.82	207.03	  1.44
 *FLAGS SPLAY
 216	216a	 0.93	355.96	  8.57

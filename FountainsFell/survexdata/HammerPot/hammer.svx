@@ -47,5 +47,6 @@
 ; *equate sludgecrawl.225 hammerupstream.0
 *equate hammerincline.0 hammerupstreamsump.x
 *equate hammerupstreamsump.10 hammer-upstream-to-sludge.0
+*equate hammer-upstream-to-sludge.30 sludgecrawl.215a
 
 *end HammerPot
