@@ -16,6 +16,7 @@
 *include LongKinWest/LongKinWest.svx
 *include MossPot/MossPot.svx
 *include GoldenPippin/GoldenPippin
+*include Ypot/Ypot
 
 *equate CrossPot.1.0 Surface.1.13
 *equate Fernpot.1.0 Surface.1.8
