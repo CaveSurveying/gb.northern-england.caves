@@ -1,0 +1,106 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -4485.67 -3363.73 26914.02 20182.39
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2953.85826772 1 1.0} {17870.6062992 1.0} PocketTopo/Labyrinth[1]_p.xvi 0 {}
+
+
+scrap Labyrinth[1]SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.80 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.77 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.61 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.58 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.54 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.48 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.15 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.15 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.44 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.41 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.46 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.40 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.36 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.33 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.31 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.25 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.24 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.22 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Labyrinth[1]SPX1.21 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

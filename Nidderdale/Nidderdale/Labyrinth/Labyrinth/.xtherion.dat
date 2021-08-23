@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 380.31m (surface 0.00m, duplicated 0.00m)\nvertical range: 26.75m (from 1.66@Labyrinth at 26.75m to 1.19@Labyrinth at 0.00m)\nnorth-south range: 107.21m (from 1.43@Labyrinth at 66.68m to 1.86@Labyrinth at -40.53m)\neast-west range: 229.80m (from 1.88@Labyrinth at 229.80m to 1.19@Labyrinth at 0.00m)\nnumber of shots: 861\nnumber of stations: 862"
+xth_cp_data_tree_insert 309 1 1 Labyrinth Labyrinth "" "" "length: 380.31m (surface 0.00m, duplicated 0.00m)\nvertical range: 26.75m (from 1.66@Labyrinth at 26.75m to 1.19@Labyrinth at 0.00m)\nnorth-south range: 107.21m (from 1.43@Labyrinth at 66.68m to 1.86@Labyrinth at -40.53m)\neast-west range: 229.80m (from 1.88@Labyrinth at 229.80m to 1.19@Labyrinth at 0.00m)\nnumber of shots: 861\nnumber of stations: 862"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 308X1 p1 1 LabyrinthPlan LabyrinthPlan "Labyrinth" "Labyrinth"
+xth_cp_map_tree_create
+xth_cp_comp_stat 380 15
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1629717331
+

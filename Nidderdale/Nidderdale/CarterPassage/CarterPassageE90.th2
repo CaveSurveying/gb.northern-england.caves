@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -321.91 -45.9 1931.44 275.41
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {160.953418197 1 1.0} {198.545874605 1.0} PocketTopo/CarterPassage_E90.xvi 0 {}
+
+
+scrap CarterPassageSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1173.92 -123.42 7043.51 740.5
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {586.959288765 1 1.0} {353.324140671 1.0} PocketTopo/NorthChoke_e.xvi 0 {}
+
+
+scrap NorthChokeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap NorthChokeSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap NorthChokeSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,76 @@
+encoding  utf-8
+
+source FrogPotIndex.th
+
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#select FPUpstreamSump.FrogPotIndex #survey
+#select FrogPot.FrogPotIndex       #survey
+select frogpotPlan@FrogPotIndex   #Map
+
+
+
+
+
+
+
+
+
+
+export map -proj plan -layout local -o ../Output/FrogPotOutput/FrogPotIndexPlan.pdf
+#export map -proj extended -layout local -o ../Output/FrogPotOutput/FrogPotIndexEe.pdf
+
+#export model -fmt survex -o ../../Output/FrogPotOutput/FrogPotIndex.3d
+
+
+
+
+
+####################layout Local###################
+###########################################
+
+####Uncomment (#) to activate or deactivate layout comands as needed####
+####Any line with a # at the begining will be ignored####
+
+
+layout local
+base-scale 1 200
+scale 1 500
+symbol-set BCRA
+#debug station-names
+#debug on
+
+#colour map-fg altitude
+#colour map-fg scrap
+#colour map-fg [97 86 38] ##Pale Yellow##
+#colour map-bg [90 90 90] ##Light Grey##
+
+north grid
+  #grid top
+  #grid bottom
+  #grid-size 10 10 10 m
+  #grid-coords all #border  ####Puts grid coords on intersections or at border if that is selected####
+  
+  #rotate -90
+  #map-header 5 5 sw
+  #legend on
+  #transparency on
+
+#symbol-colour area water [25 50 100]            ##Blue##
+#symbol-colour area sump [10 10 100]             ##Lighter Blue##
+#symbol-colour area flowstone [20 20 20]        ##  ##
+#symbol-colour line water-flow [22 22 95]        ##Light Blue##
+#symbol-colour point water-flow  [22 22 95]     ##Light Blue##
+#symbol-colour point station [0 0 0] 
+#symbol-colour group centerline [100 0 0]          ##Red##
+
+#symbol-hide group centerline             # 1. Hides all centerline and survey station symbols in cave.
+#symbol-hide point cave-station          # 2. Hides all survey stations in the cave but not centerline.                                                         
+                                 
+#symbol-hide group cave-centreline
+
+endlayout

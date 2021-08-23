@@ -1,0 +1,43 @@
+encoding  utf-8
+source Shackletons.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+
+
+
+
+export map -proj plan -layout local -o ../output/ShackletonsOutput/Shackletons.pdf
+#export map -o ../output/ShackletonsOutput/Shackletons.kml
+#export model -fmt survex -o ../output/ShackletonsOutput/Shackletons.3d
+#export model  -o ../output/ShackletonsOutput/Shackletons.lox
+#export map -proj plan -o ../output/ShackletonsOutput/Shackletons_Walls.3d
+#Survex file showing walls only
+
+####################layout###################
+#############################################
+
+layout local
+#base scale
+scale 1 200
+symbol-set BCRA
+#debug station-names
+#debug on
+#colour map-fg altitude
+#colour map-fg scrap
+#symbol-colour area water [25 50 100]
+
+#transparency on
+grid top
+map-header 200 180 nw
+#symbol-hide group cave-centreline
+#endlayout
+
+##code to put border around map##
+#--------------------------------
+#code tex-map
+#\framethickness=0.5mm
+endlayout

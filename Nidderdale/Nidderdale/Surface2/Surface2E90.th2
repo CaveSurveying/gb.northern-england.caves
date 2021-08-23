@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -6667.82 -425.42 40006.9 2552.49
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {6112.32484356 1 1.0} {2333.07210063 1.0} PocketTopo/Surface2_E90.xvi 0 {}
+
+
+scrap Surface2SE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

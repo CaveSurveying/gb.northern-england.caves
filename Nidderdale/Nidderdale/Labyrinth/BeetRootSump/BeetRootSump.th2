@@ -1,0 +1,12 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 388.366795172 1122.7881889760001 644.366795172 1378.7881889760001
+##XTHERION## xth_me_area_zoom_to 67
+##XTHERION## xth_me_image_insert {516.366795172 1 1.0} {1250.7881889760001 1.4} PocketTopo/BRCanal_p.xvi 0 {}
+
+
+
+scrap BRCanalSP1 -projection plan -station-names "" "@BRCanal" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,13 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 3662.8700724602995 1756.1152173300002 30690.5236157623 4563.8002566996
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {3790.8700724602995 1 1.0} {1884.1152173300002 1.4} {Pocket Topo/ManHole_E90.xvi} 0 {}
+##XTHERION## xth_me_image_insert {25712.986427150303 1 1.0} {3451.0553628200005 7.14} PocketTopo/ManHole3_E90.xvi 0 {}
+
+
+
+scrap ManHoleSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

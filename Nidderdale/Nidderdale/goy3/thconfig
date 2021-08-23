@@ -1,0 +1,49 @@
+encoding  utf-8
+source goy3.th
+
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+select goy3Plan
+
+
+export map -proj plan -layout local -o ../output/Goy3Output/Goy3.pdf 
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o ../Output/Goy3Output/goy3Ee.pdf
+
+#export map -proj [elevation 90] -layout local -o ../Output/Goy3Output/goy3.pdf
+
+#export model -fmt survex -o ../Output/Goy3Output/goy3th.3d
+#Survex file showing centre line only
+
+#export model -o ../Output/Goy3Output/Goy3.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o ../Output/Goy3Output/goy3_Walls.3d
+#Survex file showing walls only
+
+#export model -o ../Output/Goy3Output/goy3.kml
+
+layout local
+#debug on
+symbol-set BCRA
+#colour scrap-fg
+#colour map-bg 90
+symbol-colour [area] [water] [0 60 0]
+#grid top
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+
+  #code metapost
+  #def a_water (expr p) =
+    #T:=identity;
+    #thfill p withcolor (0.0, 0.5, 1.0);
+ #enddef;
+ 
+  symbol-colour area water [25 50 100]
+  #symbol-colour area sump [0.0 1.5 1.0]
+
+endlayout

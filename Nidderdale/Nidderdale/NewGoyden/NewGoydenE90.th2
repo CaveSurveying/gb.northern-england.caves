@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1905.99 -483.35 11435.93 2900.11
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {10283.4714056 1 1.0} {2634.69267114 1.0} PocketTopo/NewGoyden_E90.xvi 0 {}
+
+
+scrap NewGoydenSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

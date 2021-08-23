@@ -1,0 +1,39 @@
+encoding  utf-8
+source Aquamole.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+select aquamolePlan
+export map -proj plan -layout local -o ../output/AquamoleOutput/Aquamole.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o AquamoleEe.pdf
+
+#export model -fmt survex -o Aquamoleth.3d
+#Survex file showing centre line only
+
+#export model -o ../output/AquamoleOutput/Aquamole.lox
+
+#export 3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Aquamole_Walls.3d
+#Survex file showing walls only
+
+
+#export model -o Aquamole.kml
+#export map -o ../output/AquamoleOutput/Aquamole.kml
+
+layout local
+scale 1 500
+base-scale 1 200
+symbol-set BCRA
+debug off
+colour map-fg scrap
+symbol-colour area water [25 50 100]
+#grid top
+map-header 0 0 ne
+symbol-hide group cave-centreline
+endlayout

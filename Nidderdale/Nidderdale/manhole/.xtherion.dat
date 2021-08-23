@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 604.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.78m (from 1.0@ManHole at 238.86m to 7.36@ManHole at 195.08m)\nnorth-south range: 346.63m (from 9.8@ManHole at 76417.29m to 7.36@ManHole at 76070.66m)\neast-west range: 49.07m (from 9.8@ManHole at 10026.65m to 1.13@ManHole at 9977.58m)\nnumber of shots: 661\nnumber of stations: 662"
+xth_cp_data_tree_insert 464 1 1 ManHole ManHole "" "" "length: 604.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.78m (from 1.0@ManHole at 238.86m to 7.36@ManHole at 195.08m)\nnorth-south range: 346.63m (from 9.8@ManHole at 76417.29m to 7.36@ManHole at 76070.66m)\neast-west range: 49.07m (from 9.8@ManHole at 10026.65m to 1.13@ManHole at 9977.58m)\nnumber of shots: 661\nnumber of stations: 662"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 468X1 p1 1 manholePlan manholePlan "Man Hole Plan" "Man Hole Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 605 11
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1544966859
+

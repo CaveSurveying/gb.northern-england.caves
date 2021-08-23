@@ -1,0 +1,46 @@
+encoding  utf-8
+
+survey LowEglins
+
+
+####LowEglins Centreline Only####
+#input LowEglinsCL.th2
+
+
+
+
+
+
+#map #### -title "####"
+  
+#endmap
+
+
+
+
+
+centreline
+cs OSGB:SE
+#declination 1.6 degrees ##comment to allow auto Therion declination
+
+copyright 2017 "GNU GPL"
+
+### TRIP COMMENT ###
+##Made From YURT paper survey##
+
+  date 1967.08.01
+
+ station 1.0 "main ent" entrance
+  
+ fix 1.0 09471 73492 191
+
+data normal from to tape compass clino ignoreall
+  extend right
+  
+  
+1.0  -  0.0  0.0  0.0  Entrance Lid
+1.0  2.0  477.4  94.6  -3  ##calculated from YURT survey##
+
+endcentreline
+endsurvey
+

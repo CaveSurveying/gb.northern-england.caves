@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 589.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 26.93m (from 1.0@Surface2 at 0.00m to 1.44@Surface2 at -26.93m)\nnorth-south range: 408.96m (from 1.6@Surface2 at 24.51m to 1.43@Surface2 at -384.45m)\neast-west range: 180.92m (from 1.35@Surface2 at 180.74m to 1.1@Surface2 at -0.18m)\nnumber of shots: 184\nnumber of stations: 185"
+xth_cp_data_tree_insert 86 1 1 Surface2 Surface2 "" "" "length: 589.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 26.93m (from 1.0@Surface2 at 0.00m to 1.44@Surface2 at -26.93m)\nnorth-south range: 408.96m (from 1.6@Surface2 at 24.51m to 1.43@Surface2 at -384.45m)\neast-west range: 180.92m (from 1.35@Surface2 at 180.74m to 1.1@Surface2 at -0.18m)\nnumber of shots: 184\nnumber of stations: 185"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 85X1 p1 1 Surface2Plan Surface2Plan "Surface2 Plan" "Surface2 Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 590 4
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1512666754
+

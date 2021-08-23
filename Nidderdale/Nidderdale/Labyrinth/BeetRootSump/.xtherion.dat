@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 186.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.50m (from 0@BeetRootSump at 0.00m to 16@BeetRootSump at -13.50m)\nnorth-south range: 100.92m (from 0@BeetRootSump at 0.00m to 21@BeetRootSump at -100.92m)\neast-west range: 79.40m (from 7@BeetRootSump at 13.37m to 21@BeetRootSump at -66.02m)\nnumber of shots: 21\nnumber of stations: 22"
+xth_cp_data_tree_insert 17 1 1 BeetRootSump BeetRootSump "" "" "length: 186.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 13.50m (from 0@BeetRootSump at 0.00m to 16@BeetRootSump at -13.50m)\nnorth-south range: 100.92m (from 0@BeetRootSump at 0.00m to 21@BeetRootSump at -100.92m)\neast-west range: 79.40m (from 7@BeetRootSump at 13.37m to 21@BeetRootSump at -66.02m)\nnumber of shots: 21\nnumber of stations: 22"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 186 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1563816405
+

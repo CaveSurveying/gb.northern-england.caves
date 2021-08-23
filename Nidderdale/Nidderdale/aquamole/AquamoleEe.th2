@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -3223.87 -491.92 19343.22 2951.53
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1680.27067007 1 1.0} {2414.09426299 1.0} PocketTopo/Aquamole_e.xvi 0 {}
+
+
+scrap AquamoleSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
