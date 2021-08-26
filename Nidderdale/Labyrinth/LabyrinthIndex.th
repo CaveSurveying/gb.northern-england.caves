@@ -15,7 +15,7 @@ map LabyrinthIndex -title "Labyrinth Index"
   Lab2Plan
   BeetRootPlan
   BRCanalPlan
-  BeetRootSumpPlan
+  BeetRootSump
 endmap
 
 map LabyrinthEeIndex -title "Sand Tunnel To Beet Root Ee"
@@ -39,7 +39,6 @@ join LabyrinthSP2 Lab2SP1
 join Lab2SP3 BeetRootSP1
 join BRSP4End BRCSP1Start
 join BRSP5Start BRCSP1End
-join BRCanalSP1 BeetRootSumpSP1
 
 
 

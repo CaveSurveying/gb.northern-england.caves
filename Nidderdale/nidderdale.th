@@ -6,24 +6,25 @@ survey nidderdale
 
 input goyden/Goyden.th
 input manhole/ManHole.th
-input PillarPot/PillarPot.th
-input frogpot/FrogPotIndex.th
+input pillarPot/PillarPot.th
+input FrogPot/FrogPotIndex.th
 input aquamole/Aquamole.th
-input Guscott/Guscott.th
-input ChurchPot/ChurchPot.th
-input gargettway/GargettWay.th
-input Goyden2/Goyden2.th
-input Labyrinth/LabyrinthIndex.th
-input MudHall/MudHall.th
-input CarterPassage/CarterPassage.th
-input ThropePot/ThropePot.th
-input NewGoyden/NewGoyden.th
-input Shackletons/Shackletons.th
-input PlanHard/PlanHard.th
+input guscott/Guscott.th
+input churchPot/ChurchPot.th
+input gargettWay/GargettWay.th
+input goyden2/Goyden2.th
+input labyrinth/LabyrinthIndex.th
+input mudHall/MudHall.th
+input carterPassage/CarterPassage.th
+input thropePot/ThropePot.th
+input newGoyden/NewGoyden.th
+input shackletons/Shackletons.th
+input planHard/PlanHard.th
 input surface1/Surface1.th
-input Surface2/Surface2.th
+input surface2/Surface2.th
 input goy3/Goy3.th
 input NorthChoke/NorthChokeIndex.th
+input CapLeftTunnel/CapLeftTunnel.th
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
 
@@ -49,6 +50,8 @@ join NewGoydenSP4 PlanHardSP1
 join ThropePotSP1 NewGoydenSP5
 join Surface1SP3 Surface2SP4
 join Goyden2SP1 goy3SP1
+join CapLeftTunnelSP1 LabyrinthSP2@LabyrinthIndex
+join CapLeftTunnelSP2 PillarPotSP2
 
 
 
@@ -72,6 +75,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   CarterPassagePlan
   goyden2Plan
   goy3Plan
+  CapLeftTunnelPlan
   
   ####NewGoyden/Frog####
   
@@ -80,6 +84,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   break
   NewGoydenPlan
   break
+  #frogpotPlan
   FrogPotIndex@FrogPotIndex
   break
   NorthChokeIndex@NorthChokeIndex
@@ -108,7 +113,8 @@ endmap
 
 
 centerline
-
+equate 1.41@Labyrinth.LabyrinthIndex 1.0@CapLeftTunnel
+equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot
 equate 1.8@Goyden 1.0@MudHall

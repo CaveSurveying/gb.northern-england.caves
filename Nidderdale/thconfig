@@ -6,13 +6,7 @@ source nidderdale.th
 
 #Surveys to output
 #-----------------
-
-select nidderdalePlan@nidderdale #-map-level 1 ####All maps different colour####
-
-
-
-
-
+select nidderdalePlan@nidderdale
 
 
 
@@ -22,10 +16,11 @@ select nidderdalePlan@nidderdale #-map-level 1 ####All maps different colour####
 
 
 
+
 export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
-export map -o Output/NidderdaleOutput/Nidderdale.kml
+#export map -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -o Output/NidderdaleOutput/Nidderdale.kml
-export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
+#export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
 #export model  -o output/NidderdaleOutput/nidderdale.lox
 #export map -proj plan -o output/NidderdaleOutput/nidderdale_Walls.3d
 #Survex file showing walls only
@@ -37,23 +32,20 @@ layout local
 base-scale 1 300
 scale 1 1000
 symbol-set BCRA
-debug station-names
+#debug station-names
 #debug on
 legend on
-#colour map-fg map #[97 86 38]  #pale yellow ##comment colour for solid colour map
+#colour map-fg [97 86 38]  #pale yellow
 #colour map-bg [95 95 95]  #light grey
 #colour map-fg altitude
 #colour map-fg scrap
 symbol-colour area water [25 50 100]
 symbol-colour point water-flow [25 50 100]
 symbol-colour area sump [10 10 100]
-
-#colour legend off
 transparency on
 grid top
 map-header 50 90 nw
 #symbol-hide group cave-centreline
-symbol-colour point station [100 0 0]
 
 #endlayout
 
