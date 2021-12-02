@@ -833,5 +833,36 @@
 100  0.35 0.00 0.17 0.98	;Base of straw on Rh wall
 101  0.69 0.24 0.00 1.33    ;Tippex triange on roof at LH bend
 
-*end LambTrap1
+
+*DATE 2021.11.20
+  *team "Simon Cornhill, Pete Hall"
+
+*data normal from to tape compass clino
+    *flags not splay
+    101 102   4.36 9.0 -10.5
+  *flags splay
+  102 102a 1.83 10.4 14.4
+  102 102ba 0.34 89.4 1.4
+  102 102bb 0.16 284.9 3.3
+  102 102bc 0.34 95.8 3.1
+  102 102bd 0.62 17.3 82.0
+  102 102be 0.34 196.0 -79.9
+  *flags not splay
+    102 103   2.55 6.9 12.7
+  *flags splay
+  103 103a 0.29 276.8 -12.2
+  103 103ba 0.25 94.0 7.9
+  103 103bb 1.01 209.2 -83.0
+  103 103bc 0.47 286.8 -68.6
+  103 103bd 0.38 60.5 -78.3
+  103 103be 2.46 342.2 -4.3
+  103 103bf 2.46 345.4 -3.1
+  103 103bg 1.74 350.0 -32.0
+
+*data passage station left right up down    
+102  0.15 0.34 0.61 0.34
+103  1.03 0.25 0.03 1.00 	;Tippex triange on roof
+
+
+*end LambTrap1  
 
