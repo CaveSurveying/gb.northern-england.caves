@@ -110,14 +110,19 @@
 *include Surface/NottsPot_to_ShepPot
 *include GetDownShep/Shep_Pot
 *include Surface/PinocchioPot_Surface
+*include PinocchioPot/PinocchioPot
+*include Surface/Pinocchio-to-Hopeless
+*include HopelessPot/HopelessPot
+
 *equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0	;<<<< Connecting PerilousPot entrance to surface survey >>>>
 *equate NottsPot_to_ShepPot.2.0 PerilousPot.PerilousPot2.1.0
 *equate NottsPot_to_ShepPot.3.0 3cgps.3c15  			;<<<< This connects ShepPot to PerilousPot surface survey to the NottsPot GPS Tag >>>>
 *equate NottsPot_to_ShepPot.2.9 Shep_Pot.getdownshep1.getdownshep1_6.20  	;<<<<Linking GetDownShep entrance to Perilous surface survey >>>>
 
 *equate PinocchioPot_Surface.1.23	3cgps.3c15
-*include PinocchioPot/PinocchioPot
-*equate PinocchioPot.1.0 PinocchioPot_Surface.1.2
+*equate PinocchioPot_Surface.1.2 PinocchioPot.a0 
+*equate PinocchioPot_Surface.1.2 Pinocchio-to-Hopeless.0
+*equate Pinocchio-to-Hopeless.8  HopelessPot.0
 
 *FIX SurfaceAboveFrink	REFERENCE 67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
 ;*equate SurfaceAboveFrink SurfaceAboveTopOfFrink

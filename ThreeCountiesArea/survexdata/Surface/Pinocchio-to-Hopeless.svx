@@ -1,0 +1,43 @@
+; 2021.12.03 created by TopoDroid v 5.1.40
+; Pinocchio-to-Hopeless
+; Instrument: DistoX2 4468 - SM-N910F
+
+*begin Pinocchio-to-Hopeless 
+  *date 2021.12.03 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  
+  *FLAGS surface
+  *flags splay
+   0 0a 7.45 141.2 3.0
+  *flags not splay
+    0 1   10.72 41.8 2.0
+    1 2   11.25 39.6 5.9
+    2 3   11.44 58.3 7.5
+    3 4   11.91 43.4 8.4
+    4 5   11.90 28.0 4.9
+    5 6   8.38 41.8 4.7
+    6 7   5.83 96.2 2.4
+    7 8   9.39 65.6 -28.5
+  *FLAGS not surface
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.00 0.00 0.00 0.00
+1  0.00 0.00 0.00 0.00
+2  0.00 0.00 0.00 0.00
+3  0.00 0.00 0.00 0.00
+4  0.00 0.00 0.00 0.00
+5  0.00 0.00 0.00 0.00
+6  0.00 0.00 0.00 0.00
+7  0.00 0.00 0.00 0.00
+8  0.00 0.00 0.00 0.00
+
+*end Pinocchio-to-Hopeless
