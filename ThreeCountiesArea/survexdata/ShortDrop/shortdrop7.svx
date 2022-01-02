@@ -1,5 +1,5 @@
 *begin shortdrop7
-*export cowtag3 34x cowtag4 73
+*export cowtag3 34x cowtag4 41 73
 
 *title "Start west end of ancient highway to two avens then down main streamway as far as junction with breakdown inlet"
 *date 2015.09.13

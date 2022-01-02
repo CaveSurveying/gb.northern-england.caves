@@ -1,5 +1,5 @@
 *begin shortdrop8
-*export tag tag2 tag17
+*export tag tag2 tag17 67
 *title "Short Drop: start of Ancient Highway from east end plus high loop over main passage towards entrance and first bit of Masochist Passage"
 *date 2018.11.11
 *team Instruments Philip Withnall

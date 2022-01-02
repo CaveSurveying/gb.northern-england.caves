@@ -17,6 +17,7 @@
 *include shortdrop7  ; Becka, Julia, main streamway
 *include shortdrop8  ; Becka, Philip
 *include shortdrop9  ; Becka, Emma, Philip
+*include shortdrop10  ; Becka, Andrew, complete Ancient Highway
 
 *equate shortdrop1.20 shortdrop2.19
 *equate shortdrop2.1 shortdrop3.001
@@ -34,6 +35,9 @@
 ;*equate shortdrop8.tag shortdrop3.001
 *equate shortdrop8.tag17 shortdrop1.17
 *equate shortdrop8.tag17 shortdrop9.tag
+
+*equate shortdrop10.41X shortdrop7.41
+*equate shortdrop10.67X shortdrop8.67
 
 ; NEED TO DECIDE HOW TO RECONCILE COMPASS FOR SHORTDROP 5 AND 6 - CHECK DECLINATION DIFFERENCE DUE TO DATE DISCREPANCY BUT UNLIKELY TO FIX MUCH; COULD JUST FORCE MAIN PASSAGE TO ROTATE ... BUT THEN NEED TO ROTATE SIDE PASSAGES BY THE SAME AMOUNT
 ; USE SHORTDROP9 TO FIND ERROR IN UPPER LOOP THEN REMOVE DUPLICATES
