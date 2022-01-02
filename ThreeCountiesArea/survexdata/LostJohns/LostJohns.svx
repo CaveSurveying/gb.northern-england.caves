@@ -42,6 +42,12 @@
 ;*equate crestarun1.1-40x itsacracker2.1-40
 ;*equate crestarun1.31 box1.014
 
+*include venusdig1
+*equate crestarun1.12 venusdig1.6
+
+*include venusdig2
+*equate venusdig2.10X venusdig1.10
+
 *include crestarun2
 *equate crestarun2.32x crestarun1.32
 *equate crestarun2.18  bypasscrestarun2.17
