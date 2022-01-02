@@ -39,5 +39,29 @@
 
 *data passage station left right up down ignoreall
 
+10X	1.3	0.2	1	0.2	Numbered at tip of boulder on R, station from previous day, venusdig1 trip
+11	0.5	1	0.4	0.1	mini junction, tt straight ahead
+12	0.2	0.1	0.2	0.1 end of tt passage
+13	1 	0.4	0.4	0.3	RW
+14	0.1	1	0.1	0.5	LW
+15	0.8	0.3	0.4	0.1	R floor
+16	0.8	0.1	0.2	0.4	RW
+17	0.8	0.4	1	0.1	R floor
+18	1	0.4	0.4	0.1	cairn at junction to digs
+19	0.5	1	4.6	0.5	boulder under roped climb up aven
+20	0.6	0.1	0.3	0.1	stone
+21	0	1	0.2	0.2	L corner junction, scratch
+22	0.2	0.2	0.1	0.1	dig, unmarked
+23	0.2	0.3	2.2	0.5	scratch on wall of aven
+24	0.4	0.2	0.4	0.2	near to top of aven
+25	0	0.1	0.1	0.1	end of aven, tt
+26	1.7	0.3	6.6	0.1	below aven
+27	0	7	0.3	0.3	top of aven
+28	1	1	0	0.3	unmarked on roof
+29	0.1	0.1	0.1	0.1	shot into dig
+30	1	0.7	3	2	RW partway up climb
+31	1	0	1.2	6	fixed station, only one in this survey, a resin phanger at top of aven
+32	1	0	0.4	0.3	RW before dig
+33	0.2	0.2	0.2	0.1	into dig, tt
 
 *end venusdig2
