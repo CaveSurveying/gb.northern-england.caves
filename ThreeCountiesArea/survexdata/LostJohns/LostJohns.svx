@@ -205,6 +205,13 @@
 *equate	Lj12.009	Lj11.025
 *include	Lj12
 
+*include Lj15
+
+*end	LostJohns
+
+
+
+
 ;superceded by lj-tube3
 ;*equate	Lj13.000	Lj14.001
 ;*include Lj13  
@@ -212,10 +219,6 @@
 ;superceded by lj-tube3
 ;*equate	Lj14.015	Lj15.001	
 ;*include Lj14
-
-*include Lj15
-
-*end	LostJohns
 
 ; *include crestarun6	; no longer needed once worked out that compass readings were 010 out for 6 legs in cresta2 survey which this re-did
 ; *equate crestarun6.20x crestarun2.20
