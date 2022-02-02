@@ -1,14 +1,21 @@
 *begin toplevel1
-*export 1
+
+*export entrance
 *title "Coniston Copper Mines - Simon's Nick down to Top Level extensions"
 *date 2022.01.29
 *team Instruments Becka Lawson
 *team Notes Neil Pacey
 *instrument Becka1 Distox2
 
+; Neil GPS at entrance 28016 99041 with 10 foot accuracy, no altitude recorded - using satellite image and OS app I get 2801 9904 and altitude 424 so very similar. The GPS is for station 1 of this survey, ie toplevel1.1
+
+; in second part stations from Distox2 download had to be renumbered in order to match paper notes; original download file is also saved in same folder as "DONOTUSE-SimonsNick-TopLevel.svx"
+
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks
+
+*equate 1 entrance
 
 *alias station - ..
 
@@ -639,6 +646,5 @@
 50	1.4	0	0.5	1.4	RW
 51	0.3	1.2	0.2	1.5	LW
 52	1	0.4	0.5	1.2	back wall, end
-
 
 * end toplevel1

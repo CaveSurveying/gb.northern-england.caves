@@ -1,0 +1,13 @@
+*begin conistoncoppermines
+
+*export toplevel1.entrance
+
+*title "Coniston Copper Mines"
+
+*include toplevel1
+
+; below are the fixed gps points to tie the underground surveys to the surface
+
+*fix	toplevel1.entrance	28016 99041	424	; Neil GPS at entrance on 29.01.22 was 28016 99041 with 10 foot accuracy, no altitude recorded - using satellite image and OS app I get 2801 9904 and altitude 424 so very similar
+
+*end conistoncoppermines

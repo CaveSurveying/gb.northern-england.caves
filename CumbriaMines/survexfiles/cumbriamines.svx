@@ -1,0 +1,19 @@
+*begin cumbriamines
+
+*cs OSGB:SD
+*cs out EPSG:27700   ; 2.2.22 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
+
+*INFER exports on
+
+; Surveys started by Neil Pacey and Becka Lawson in Jan 2022
+
+;*include filename ; USE THIS FOR ANY DATA WHERE MAGNETIC DECLINATION HAS ALREADY BEEN APPLIED SO NO FURTHER CORRECTION NEEDED eg EaseGill-Pippikin data
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 28016 99041	424  ; Coordinates for toplevel1.entrance in Coniston Copper Mines ; change this when have more data and a better GPS reading
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*include ConistonCopperMines/conistoncoppermines
+
+*end cumbriamines
