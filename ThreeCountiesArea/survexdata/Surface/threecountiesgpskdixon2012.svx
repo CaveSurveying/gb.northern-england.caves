@@ -47,6 +47,8 @@
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*calibrate compass +2.23 
 
+; below are the fixed gps points collected in 2012 by Kevin Dixon et al in OS coordinates all sheet SD eg 3C01 is gps location for Lost Johns and rounding to integers it is "SD 67073 78633 354"
+
 *fix	3C01	67072.998	78633.040	353.7130	;sigE 0.0253m, sigN 0.0427m, sigElev 0.041m
 *fix	005	66627.330	79065.580	327.5720	;sigE 0.0141m, sigN 0.0291m, sigElev 0.021m
 *fix	3C03	66206.404	79776.565	279.4430	;sigE 0.0148m, sigN 0.0464m, sigElev 0.037m
@@ -65,6 +67,8 @@
 *fix	3C16	67365.21	77338.954	387.7230	;sigE 0.0216m, sigN 0.0953m, sigElev 0.117m
 
 *FLAGS surface
+
+; below are the surface legs to connect each gps-fix to a known station in the underground survey (ideally something like a fixed tag)
 
 ; Death Head 26 Feb 2012
 3C05	001	04.674	113.5	+09.5	;3C05 is top centre of rebar, 001 is tag on top of fence post

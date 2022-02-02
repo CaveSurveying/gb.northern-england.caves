@@ -14,7 +14,7 @@
 *include Surface/leckfellsurfacesurvey
 *include Surface/largetonorthendpotsurface
 *include Surface/shortdroprumblingcoalholebyronsurface
-*include Surface/threecountiesgpskdixon2012
+*include Surface/threecountiesgpskdixon2012     ; note this is 3cgps survex file that most entrances use
 *INCLUDE Surface/Yeadon_Pipikin_Surface_Survey
 *INCLUDE Surface/LambTrap-to-WeePot
 
