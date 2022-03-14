@@ -1,13 +1,19 @@
 *begin conistoncoppermines
 
-*export toplevel1.entrance
+*export toplevel1.entrance leverswatermineandbrowstopetotoplevel.entrance leverswatermineandbrowstopetotoplevel.cairn
 
 *title "Coniston Copper Mines"
 
 *include toplevel1
 
+*include leverswatermineandbrowstopetotoplevel
+*equate toplevel1.entrance leverswatermineandbrowstopetotoplevel.1x
+*equate toplevel1.48 leverswatermineandbrowstopetotoplevel.48old
+
 ; below are the fixed gps points to tie the underground surveys to the surface
 
-*fix	toplevel1.entrance	28016 99041	424	; Neil GPS at entrance on 29.01.22 was 28016 99041 with 10 foot accuracy, no altitude recorded - using satellite image and OS app I get 2801 9904 and altitude 424 so very similar
+; *fix	toplevel1.entrance	28016 99041	424	; Neil GPS on 29.01.22 was 28016 99041 with 10 foot accuracy, no altitude recorded - using satellite image and OS app I get 2801 9904 and altitude 424 so very similar
+
+*fix leverswatermineandbrowstopetotoplevel.cairn 28014 99044 425 ; Neil GPS on 2022.03.05 with 10 foot accuracy was SD 28014 99044 and 425m elevation
 
 *end conistoncoppermines

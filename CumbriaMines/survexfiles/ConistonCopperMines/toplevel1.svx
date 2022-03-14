@@ -1,6 +1,7 @@
 *begin toplevel1
 
-*export entrance
+*export entrance 48
+
 *title "Coniston Copper Mines - Simon's Nick down to Top Level extensions"
 *date 2022.01.29
 *team Instruments Becka Lawson
@@ -647,4 +648,4 @@
 51	0.3	1.2	0.2	1.5	LW
 52	1	0.4	0.5	1.2	back wall, end
 
-* end toplevel1
+*end toplevel1
