@@ -1,0 +1,19 @@
+*BEGIN HopelessPot
+
+;*export 
+
+*include HopelessEntranceSeries/HopelessEntranceSeries
+*include StreamwayOfMerit/StreamwayOfMerit
+*include LevellingUp/LevellingUp
+*include LeftInlet/LeftInlet
+*include RightInlet/RightInlet
+*include IronmongersChoke/IronmongersChoke
+
+*equate HopelessEntranceSeries.76 StreamwayOfMerit.StreamwayOfMerit.0
+*equate StreamwayOfMerit.StreamwayOfMerit.27 LevellingUp.1.0
+*equate StreamwayOfMerit.StreamwayOfMerit.2 LeftInlet.1.0
+*equate StreamwayOfMerit.StreamwayOfMerit.2 RightInlet.1.0
+*equate StreamwayOfMerit.StreamwayOfMerit.36 IronmongersChoke.DukeStreetMaybe.0
+
+
+*END HopelessPot
