@@ -1,0 +1,44 @@
+encoding  utf-8
+
+survey NHSurface
+
+input NHSurface.th2
+
+map NHSurfacePlan -title "Nidd Heads Surface Plan"
+
+NHSurfaceSP1
+
+endmap
+
+
+centreline
+
+copyright 2019 "GNU GLP"
+
+date 2019.04.11
+
+team "Ian Lloyd"
+
+explo-date 2019.04.11
+
+cs OSGB:SE
+
+station 1 "" entrance
+#fix 1 10462 73158 164 #Not fitting GE#
+fix 1 10561 73137 164
+
+
+data normal from to tape compass clino 
+              
+  #1          #NW corner of wooden north gate post      11-Apr-21
+1  2  24.85  285   -11    #Tent peg                     11-Apr-21
+2  3  14.3   230   -6     #Tent peg                     11-Apr-21
+3  4  27     311   -1     #Tree stump, E corner         11-Apr-21
+4  5  19.3     2    1     #Tree branch                  11-Apr-21
+5  6  7.6    305  -14     #Rock RH                      11-Apr-21
+6  7  5.35    30   -1     #Cave entrance - sharp spike  11-Apr-21
+                      
+    #98.4
+endcentreline
+endsurvey
+

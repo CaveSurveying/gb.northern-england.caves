@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1604.375 1328.7849999999999
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1338.583 1 1.0} {216.53500000000003 1} NHSurface.xvi 0 {}
+
+
+
+scrap NHSurfaceSP1 -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 206.303 1063.585 station -name 7
+
+point 153.543 972.445 station -name 6
+
+point 272.443 889.1750000000001 station -name 5
+
+point 259.253 509.44500000000005 station -name 4
+
+point 660.233 160.82500000000005 station -name 3
+
+point 874.803 340.74500000000006 station -name 2
+
+point 1338.583 216.53500000000003 station -name 1
+
+endscrap
+
+

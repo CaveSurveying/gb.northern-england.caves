@@ -1,0 +1,53 @@
+encoding  utf-8
+survey NiddHeads
+
+input NHEnt/NHEnt.th
+input NHSump2/NHSump2.th
+input NHSurface/NHSurface.th
+
+map NiddHeadsIndexPlan  -title "Nidd Heads Plan"
+
+NHEntPlan@NHEnt
+NHSump2Plan@NHSump2
+NHSurfacePlan@NHSurface
+  
+endmap
+
+join NHEntSP1@NHEnt NHSump2SP1@NHSump2
+
+
+
+
+
+
+
+
+centreline
+
+copyright 2019 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#pda - 
+#disto - 
+
+
+  date 2019.06.1
+
+  team "Ian Lloyd"
+  #team ""
+  #team ""
+
+  
+
+  explo-date 2019.06.1
+  
+
+
+
+equate 7@NHSurface 1@NHEnt
+equate 23@NHEnt 1@NHSump2
+
+
+endcenterline
+endsurvey
+

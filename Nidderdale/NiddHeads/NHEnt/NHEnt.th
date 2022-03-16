@@ -1,0 +1,85 @@
+encoding  utf-8
+survey NHEnt
+input NHEnt.th2
+
+map NHEntPlan  -title "Nidd Heads Plan"
+  NHEntSP1
+endmap
+
+#map
+  #NHEntSE1
+#endmap
+
+
+
+
+
+
+centreline
+
+copyright 2019 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#pda - 
+#disto - 
+
+
+  date 2019.06.1
+
+  team "Ian Lloyd"
+  #team ""
+  #team ""
+
+  
+
+  explo-date 2019.06.1
+
+
+ 
+data normal from to tape compass clino #depth #ignorall
+extend right
+
+
+                         # 1 Cave boundary - sharp spike in entrance
+1  2  0.6   350   0      #LEVEL    Low passage
+2  3  3.9   350   0      #LEVEL    Low passage
+3  4  20.5  350   0      #LEVEL    Canal passage
+4  5  5.9   110   0      #LEVEL    Low passage
+5  6  21.6  105   0      #LEVEL    6 is boulder at RHS of low passage
+6  7  8.8    65   0      #LEVEL    7 is end of low passage
+7  8  0.6    65 -90      #Treated as cliff edge - clinometer failure!  Close to actual shape, anyway
+8  9  5.6    65   0      #LEVEL    Actually 0.6 m above water level
+9  10  0.6   65  90      #Treated as cliff edge - clinometer failure!  Close to actual shape
+10 11  3.4  150   0      #LEVEL    
+11 12  3.2   70   0      #LEVEL  0  Duck
+12 13  6.0   70   0      #LEVEL    Low passage
+13 14  1.5   50 -49      #Rocky passage
+14 15  5.6   10  -6      #Rocky passage
+15 16  3.4  335  11      #Rocky passage
+16 17  3.1   25  17  #0   #17 is line belay at entrance pool
+
+
+#################Sump 1###################
+
+data diving  from fromdepth compass  tape  to todepth #ignoreall  
+extend right
+
+17                   0       50     7.5   18  -1.6    #Sump 1
+18                  -1.6     55     6.45  19  -0.9    #Sump 1
+19                  -0.9     90     5.1   20   0      #Sump 1 - at water level
+
+
+
+data normal from to tape compass clino #ignorall
+extend right
+
+20 21  7.8  40  0 #LEVEL    River passage
+21 22  5.8  90  0 #LEVEL    River passage
+22 23  4.0  120 0 #LEVEL    23 is line belay at right of sump 2 entrance pool
+
+#equate 17@NHEnt 17@Sump1
+#equate 20@Sump1 20@NHEnt
+
+endcenterline
+endsurvey
+

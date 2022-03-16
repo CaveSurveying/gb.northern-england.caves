@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 98.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.30m (from 1@NHSurface at 0.00m to 7@NHSurface at -8.30m)\nnorth-south range: 45.86m (from 7@NHSurface at 43.03m to 3@NHSurface at -2.83m)\neast-west range: 60.20m (from 1@NHSurface at 0.00m to 6@NHSurface at -60.20m)\nnumber of shots: 6\nnumber of stations: 7"
+xth_cp_data_tree_insert 18 1 1 NHSurface NHSurface "" "" "length: 98.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.30m (from 1@NHSurface at 0.00m to 7@NHSurface at -8.30m)\nnorth-south range: 45.86m (from 7@NHSurface at 43.03m to 3@NHSurface at -2.83m)\neast-west range: 60.20m (from 1@NHSurface at 0.00m to 6@NHSurface at -60.20m)\nnumber of shots: 6\nnumber of stations: 7"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 22X1 p1 1 NHSurfacePlan NHSurfacePlan@NHSurface "Nidd Heads Surface Plan" "Nidd Heads Surface Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 98 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1622201338
+
