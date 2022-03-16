@@ -122,7 +122,7 @@
 *equate PinocchioPot_Surface.1.23	3cgps.3c15
 *equate PinocchioPot_Surface.1.2 PinocchioPot.a0 
 *equate PinocchioPot_Surface.1.2 Pinocchio-to-Hopeless.0
-*equate Pinocchio-to-Hopeless.8  HopelessPot.0
+*equate Pinocchio-to-Hopeless.8  HopelessPot.HopelessEntranceSeries.0        ;HopelessPot.HopelessPot.0
 
 *FIX SurfaceAboveFrink	REFERENCE 67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
 ;*equate SurfaceAboveFrink SurfaceAboveTopOfFrink
