@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 162.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 14.39m (from 62.4@LevellingUp at 14.39m to 1.0@LevellingUp at 0.00m)\nnorth-south range: 67.13m (from 1.13@LevellingUp at 15.52m to 61.10@LevellingUp at -51.61m)\neast-west range: 52.77m (from 61.10@LevellingUp at 29.11m to 1.13@LevellingUp at -23.66m)\nnumber of shots: 457\nnumber of stations: 458"
+xth_cp_data_tree_insert 19 1 1 LevellingUp LevellingUp "" "" "length: 162.86m (surface 0.00m, duplicated 0.00m)\nvertical range: 14.39m (from 62.4@LevellingUp at 14.39m to 1.0@LevellingUp at 0.00m)\nnorth-south range: 67.13m (from 1.13@LevellingUp at 15.52m to 61.10@LevellingUp at -51.61m)\neast-west range: 52.77m (from 61.10@LevellingUp at 29.11m to 1.13@LevellingUp at -23.66m)\nnumber of shots: 457\nnumber of stations: 458"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 273X1 p1 1 LevellingUpPlan LevellingUpPlan@LevellingUp "LevellingUp Plan" "LevellingUp Plan"
+xth_cp_map_tree_insert map 1 274X1 p3 1 LevellingUpEe LevellingUpEe@LevellingUp "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 163 13
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1642463980
+

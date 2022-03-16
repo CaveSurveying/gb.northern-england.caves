@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 171.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.47m (from 59.5@StreamwayOfMerit at 2.06m to 1.39@StreamwayOfMerit at -16.41m)\nnorth-south range: 59.21m (from 58.2@StreamwayOfMerit at 58.05m to 1.2@StreamwayOfMerit at -1.16m)\neast-west range: 82.11m (from 1.0@StreamwayOfMerit at 0.00m to 1.39@StreamwayOfMerit at -82.11m)\nnumber of shots: 874\nnumber of stations: 875"
+xth_cp_data_tree_insert 19 1 1 StreamwayOfMerit StreamwayOfMerit "Streamway Of Merit" "Streamway Of Merit" "length: 171.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.47m (from 59.5@StreamwayOfMerit at 2.06m to 1.39@StreamwayOfMerit at -16.41m)\nnorth-south range: 59.21m (from 58.2@StreamwayOfMerit at 58.05m to 1.2@StreamwayOfMerit at -1.16m)\neast-west range: 82.11m (from 1.0@StreamwayOfMerit at 0.00m to 1.39@StreamwayOfMerit at -82.11m)\nnumber of shots: 874\nnumber of stations: 875"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 363X1 p1 1 StreamwayOfMeritPlan StreamwayOfMeritPlan@StreamwayOfMerit "" ""
+xth_cp_map_tree_insert map 1 364X1 p3 1 StreamwayOfMeritEe StreamwayOfMeritEe@StreamwayOfMerit "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 172 9
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1647287677
+

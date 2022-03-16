@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -344.98 -30.53 2069.88 183.17
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {172.490285135 1 1.0} {26.4842284918 1.0} PocketTopo/RightInlet_e.xvi 0 {}
+
+
+scrap RightInletSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

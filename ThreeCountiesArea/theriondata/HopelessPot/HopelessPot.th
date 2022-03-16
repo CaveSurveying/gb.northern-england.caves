@@ -1,0 +1,71 @@
+encoding  utf-8
+
+survey HopelessPot
+
+
+
+
+input HopelessEntranceSeries/HopelessEntranceSeries.th
+input StreamwayOfMerit/StreamwayOfMerit.th
+input LevellingUp/LevellingUp.th
+input LeftInlet/LeftInlet.th
+input RightInlet/RightInlet.th
+input IronmongersChoke/IronmongersChoke.th
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+#join   HopelessEntranceSeriesSP9@HopelessEntranceSeries  StreamwayOfMeritSP1@StreamwayOfMerit
+#join   StreamwayOfMeritSP1@StreamwayOfMerit LeftInletSP1@LeftInlet
+#join   StreamwayOfMeritSP1@StreamwayOfMerit RightInletSP1@RightInlet
+#join   RightInletSP1@RightInlet LeftInletSP1@LeftInlet
+#### Above scrap joins are on a 3 way junction so not used. Use lie join instead####
+join StreamwayOfMeritSP3@StreamwayOfMerit IronmongersChokeSP1@IronmongersChoke
+
+####Line Joins####
+join   Line1@StreamwayOfMerit:0     Line1@LeftInlet:end
+join   Line2@StreamwayOfMerit:end   Line2@RightInlet:0
+join   Line2@LeftInlet:0            Line1@RightInlet:end
+
+
+
+
+###################### MAP ####################
+
+map HopelessPotPlan -title "Fing Hopeless Pot"
+  
+    HopelessEntranceSeriesPlan@HopelessEntranceSeries
+    LevellingUpPlan@LevellingUp
+    break
+    StreamwayOfMeritPlan@StreamwayOfMerit
+    break
+    IronmongersChokePlan@IronmongersChoke
+    LeftInletPlan@LeftInlet  
+    RightInletPlan@RightInlet   
+endmap
+
+#map HopelessPotEe -title "Hopeless Pot Extended Elevation"
+     #HopelessEntranceSeriesEe@HopelessEntranceSeries
+     #StreamwayOfMeritEe@StreamwayOfMerit
+     #LevellingUpEe@LevellingUp
+       
+#endmap
+
+################# Equates #####################
+###############################################
+
+
+centerline
+
+equate     76@HopelessEntranceSeries   1.0@StreamwayOfMerit
+equate     1.27@StreamwayOfMerit 1.0@LevellingUp
+equate     1.2@StreamwayOfMerit  1.0@LeftInlet  
+equate     1.2@StreamwayOfMerit  1.0@RightInlet 
+equate     1.36@StreamwayOfMerit 1.0@IronmongersChoke  
+
+endcenterline
+
+endsurvey
+

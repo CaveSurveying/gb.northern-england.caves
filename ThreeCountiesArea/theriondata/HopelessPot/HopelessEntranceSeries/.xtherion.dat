@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 444.95m (surface 0.00m, duplicated 0.00m)\nvertical range: 62.60m (from 0@HopelessEntranceSeries at 379.00m to 75@HopelessEntranceSeries at 316.40m)\nnorth-south range: 43.86m (from 119@HopelessEntranceSeries at 77709.17m to 58@HopelessEntranceSeries at 77665.31m)\neast-west range: 81.90m (from 105@HopelessEntranceSeries at 67099.14m to 76@HopelessEntranceSeries at 67017.24m)\nnumber of shots: 756\nnumber of stations: 757"
+xth_cp_data_tree_insert 20 1 1 HopelessEntranceSeries HopelessEntranceSeries "Hopeless Entrance Series" "Hopeless Entrance Series" "length: 444.95m (surface 0.00m, duplicated 0.00m)\nvertical range: 62.60m (from 0@HopelessEntranceSeries at 379.00m to 75@HopelessEntranceSeries at 316.40m)\nnorth-south range: 43.86m (from 119@HopelessEntranceSeries at 77709.17m to 58@HopelessEntranceSeries at 77665.31m)\neast-west range: 81.90m (from 105@HopelessEntranceSeries at 67099.14m to 76@HopelessEntranceSeries at 67017.24m)\nnumber of shots: 756\nnumber of stations: 757"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 1771X1 p1 1 HopelessEntranceSeriesPlan HopelessEntranceSeriesPlan@HopelessEntranceSeries "" ""
+xth_cp_map_tree_insert map 1 1772X1 p3 1 HopelessEntranceSeriesEe HopelessEntranceSeriesEe@HopelessEntranceSeries "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 445 11
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1646766837
+
