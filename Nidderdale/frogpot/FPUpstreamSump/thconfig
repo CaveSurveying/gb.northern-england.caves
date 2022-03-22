@@ -1,5 +1,5 @@
 encoding  utf-8
-source FPUpstreamSump.th
+source FPUpstreamSump
 # Change name to the main therion file
 
 
@@ -7,7 +7,7 @@ source FPUpstreamSump.th
 #-----------------
 
 #select FPUpstreamSump            ####Centreline survey
-select FPUpstreamSumpPlan        ####Map
+#select FPUpstreamSumpPlan         ####Map
 
 
 
@@ -19,10 +19,10 @@ select FPUpstreamSumpPlan        ####Map
 
 
 
-export map -proj plan -layout local -o ../../Output/FrogPotOutput/FPUpstreamSumpOutput/FPUstreamSumpPlan.pdf
-#export map -proj extended -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpEe.pdf
+export map -proj plan -layout local -o ../../Output/FrogPotOutput/FPUpstreamSumpOutput/FPUpstreamSumpPlan.pdf
+#export map -proj extended -layout local -o ../../Output/
 
-#export model -fmt survex -o ../../Output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSump.3d
+export model -fmt survex -o ../../Output/
 
 
 

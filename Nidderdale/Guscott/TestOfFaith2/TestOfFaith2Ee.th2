@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -323.14 -43.83 1938.81 262.97
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {161.56760185 1 1.0} {201.378371332 1.0} PocketTopo/TestOfFaith2_e.xvi 0 {}
+
+
+scrap TestOfFaith2SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

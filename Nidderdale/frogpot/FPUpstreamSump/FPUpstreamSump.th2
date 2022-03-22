@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -1176 2290 1411
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -136.0 -640.0 2176.0 1411
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {516 1 1.0} {1283 {}} {Dive Data/FPUSCentreLine Plot.jpg} 0 {}
 
 

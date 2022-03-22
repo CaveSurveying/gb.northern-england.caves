@@ -1,0 +1,47 @@
+encoding  utf-8
+survey GuscottIndex
+
+input Guscott/Guscott.th
+input TestOfFaith1/TestOfFaith1.th
+input TestOfFaith2/TestOfFaith2.th
+
+
+
+map GuscottIndex -title "GuscottIndex"
+  GuscottPlan
+  TestOfFaith1Plan@TestOfFaith1
+  break
+  TestOfFaith2Plan@TestOfFaith2
+  
+endmap
+
+#map NorthChokeME
+  #NorthChokeSE1
+  #NorthChokeSE2
+  #NorthChokeSE3
+#endmap
+
+
+
+#join GuscottSP1 TestOfFaithSP1 -smooth on
+#join TestOfFaith1SP1 TestOfFaith2SP1
+
+centreline
+
+equate 1.38@Guscott 3.0@TestOfFaith1
+equate 3.10@TestOfFaith1 1.0@TestOfFaith2 
+
+
+
+copyright 2018 "GNU GPL"
+
+
+
+date 2018.06.03
+
+  
+
+
+endcentreline
+endsurvey
+

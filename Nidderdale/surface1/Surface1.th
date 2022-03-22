@@ -43,6 +43,8 @@ copyright 2017 "GNU GPL"
 
 data normal from to tape compass clino ignoreall
   extend right
+  
+  flags duplicate not surface
 1.0  -  0.0  0.0  0.0  inside of rh gpost
 #1.0  1.1  5.874  277.34  3.09  
 #1.0  1.1  5.878  277.36  3.13  
