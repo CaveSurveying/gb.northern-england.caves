@@ -3,11 +3,11 @@
 ; Locn:	Borrins Moor, Ingleborough
 ; Cave:	Birthday Cave and Left Bank Cave (now joined)
 
-; Birthday Cave  SD 77035 75325
+; Birthday Cave  SD 77035 75325 375
 
-; Left Bank Cave  SD  77029 75262
+; Left Bank Cave  SD  77029 75262 375
 
-; Left Bank (New Upper Ent) SD 77024 75258    is located 6m upstream of Left Bank Cave
+; Left Bank (New Upper Ent) SD 77024 75258 375   is located 6m upstream of Left Bank Cave
 
 ; Of note there was a further tight entrance located 7m downstream of left bank cave - probably associated with our last inlet....
 
