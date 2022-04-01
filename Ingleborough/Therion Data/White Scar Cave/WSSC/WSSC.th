@@ -1,0 +1,47 @@
+encoding  utf-8
+survey WSSC -title "White Scar Show Cave"
+
+
+input WSSC.th2
+
+
+
+map WSSCPlan
+  WSSCSP1
+  WSSCSP2
+endmap
+
+
+centerline
+
+cs OSGB:SD
+
+#declination
+
+station 1.0 "WSSC" entrance
+
+fix 1.0 71282.00 74524.00 251     10 10 10   #x y z x_error y_error z_error 
+####fix Link 71835.87 74521.77 300    10 10 10
+
+copyright 2008 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+ 
+
+  date 2019.03.30
+
+  #team "" notes
+  #team "" instruments
+
+  
+data normal from to tape compass clino ignoreall
+  extend right
+  
+Link - 0 0 0   
+
+endcenterline
+endsurvey
+
+
+
+
