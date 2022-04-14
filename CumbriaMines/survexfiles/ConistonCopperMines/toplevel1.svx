@@ -16,7 +16,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
-*equate 1 entrance
+*entrance 1
 
 *alias station - ..
 
