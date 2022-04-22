@@ -6,7 +6,8 @@ source BeetRootSump.th
 #Surveys to output
 #-----------------
 
-select BeetRootSump
+#select BeetRootSump
+select BeetRootSumpPlan
 
 
 
@@ -17,7 +18,8 @@ select BeetRootSump
 
 
 
-#export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpPlan.pdf
+
+export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootOutput/BeetRootSumpPlan.pdf
 #export map -proj extended -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpEe.pdf
 
 #export model -fmt survex -o ../../Output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSump.3d
