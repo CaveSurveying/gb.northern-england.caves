@@ -1,11 +1,17 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 5842.1878115801 2033.1968503909002
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -132.0 5842.1878115801 2033.1968503909002
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {5177.793250250001 1 1.0} {1120.5414173200002 1.4} PocketTopo/IronmongersChoke_p.xvi 0 {}
 
 
 
 scrap IronmongersChokeSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line ceiling-step -reverse on
+  4592.0 1164.0
+  4600.0 1162.0 4722.0 1134.0 4722.0 1134.0
+  smooth off
+endline
 
 line wall
   4540.0 902.0
@@ -19,6 +25,23 @@ line wall
   4934.0 1146.0
   4996.0 1118.0
   4996.0 1118.0 5008.0 1084.0 5016.0 1084.0
+endline
+
+point 5029.0 1137.0 blocks
+
+point 5051.0 1191.0 blocks
+
+point 5062.0 1298.0 label -text Attic
+
+line ceiling-step -reverse on
+  5095.0 1256.0
+  5095.0 1256.0 5100.0 1198.0 5100.0 1189.0
+  5100.0 1180.0 5084.0 1147.0 5077.0 1132.0
+  5070.0 1117.0 5034.0 1068.0 5033.0 1065.0
+endline
+
+line wall -subtype blocks
+  5016.0 1084.0
   5024.0 1084.0 5092.0 1104.0 5098.0 1108.0
   5104.0 1112.0 5150.0 1096.0 5150.0 1096.0
   smooth off
@@ -27,7 +50,16 @@ line wall
   smooth off
 endline
 
-line wall
+line floor-step
+  4836.0 1152.0
+  4843.0 1156.0 4859.0 1164.0 4866.0 1168.0
+  4873.0 1172.0 4890.0 1188.0 4890.0 1188.0
+  smooth off
+  4898.0 1204.0
+  4876.0 1224.0
+endline
+
+line wall -subtype blocks
   5314.0 1104.0
   5312.0 1118.0 5270.0 1172.0 5270.0 1172.0
   smooth off
@@ -35,6 +67,10 @@ line wall
   5184.0 1146.0
   5138.0 1196.0
   5078.0 1228.0
+  5020.0 1202.0
+endline
+
+line wall
   5020.0 1202.0
   4956.0 1206.0
   4804.0 1238.0
@@ -74,6 +110,14 @@ endscrap
 
 
 scrap IronmongersChokeSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 4025.0 1194.0 soda-straw
+
+point 3765.0 1255.0 soda-straw
+
+point 4149.0 703.0 soda-straw
+
+point 4426.0 1060.0 soda-straw
 
 line wall
   2144.0 464.0
@@ -131,6 +175,28 @@ line overhang
   smooth off
 endline
 
+area clay
+  l144-4166-1220
+endarea
+
+line border -id l144-4166-1220 -close on
+  4230.0 946.0
+  4220.0 938.0 4126.0 902.0 4072.0 894.0
+  4018.0 886.0 3832.0 890.0 3812.0 890.0
+  3792.0 890.0 3658.0 938.0 3658.0 938.0
+  smooth off
+  3658.0 938.0 3604.0 1076.0 3602.0 1082.0
+  3600.0 1088.0 3524.0 1168.0 3504.0 1182.0
+  3484.0 1196.0 3378.0 1206.0 3344.0 1228.0
+  3310.0 1250.0 3194.0 1290.0 3192.0 1320.0
+  3190.0 1350.0 3214.0 1414.0 3226.0 1428.0
+  3238.0 1442.0 3342.0 1448.0 3342.0 1448.0
+  smooth off
+  3342.0 1448.0 4098.0 1274.0 4112.0 1264.0
+  4126.0 1254.0 4316.0 1100.0 4312.0 1076.0
+  4308.0 1052.0 4240.0 954.0 4230.0 946.0
+endline
+
 line ceiling-step -reverse on
   3622.0 1234.0
   3608.0 1216.0 3564.0 1084.0 3570.0 1074.0
@@ -166,6 +232,22 @@ line rock-border -close on
   4256.0 1102.0 4264.0 1144.0 4240.0 1134.0
   4216.0 1124.0 4164.0 1098.0 4164.0 1078.0
 endline
+
+point 2724.0 950.0 clay
+
+point 2482.0 1008.0 clay
+
+point 2608.0 1170.0 clay
+
+point 2934.0 1080.0 clay
+
+point 2914.0 1160.0 clay
+
+point 2778.0 882.0 clay
+
+point 2576.0 848.0 clay
+
+point 2644.0 1004.0 clay
 
 line overhang -reverse on
   2320.0 542.0
@@ -240,6 +322,20 @@ point 2344.0 478.0 water-flow -orientation 258.0
 
 point 2644.0 600.0 water-flow -orientation 233.9
 
+point 3544.0 1024.0 water-flow -orientation 316.3
+
+point 3352.0 1314.0 gradient -orientation 173.9 -scale s
+
+point 3242.0 1332.0 gradient -orientation 190.5 -scale s
+
+point 3860.0 1070.0 gradient -orientation 176.1 -scale s
+
+point 3716.0 1134.0 gradient -orientation 201.0 -scale s
+
+point 4246.0 832.0 water-flow -orientation 270.3
+
+point 3942.0 848.0 water-flow -orientation 275.7
+
 point 2862.0 836.0 water-flow -orientation 208.2
 
 point 3000.0 1070.0 water-flow -orientation 215.1
@@ -276,9 +372,30 @@ line rock-border -close on
   2768.0 944.0 2800.0 926.0 2818.0 968.0
 endline
 
-point 2626.0 1096.0 gradient -orientation 168.0 -scale s
+line rock-border -close on
+  3768.0 1120.0
+  3736.0 1076.0
+  3730.0 1044.0
+  3768.0 1002.0
+  3800.0 1058.0
+  3768.0 1120.0
+endline
 
-point 2490.0 926.0 gradient -orientation 150.2 -scale s
+line rock-border -close on
+  3760.0 1020.0
+  3758.0 1026.0 3742.0 1062.0 3742.0 1062.0
+  smooth off
+  3712.0 1064.0
+  3712.0 1064.0 3694.0 1030.0 3698.0 1024.0
+  3702.0 1018.0 3722.0 972.0 3728.0 970.0
+  3734.0 968.0 3762.0 1014.0 3760.0 1020.0
+endline
+
+point 2558.0 1018.0 gradient -orientation 150.9 -scale m
+
+point 2662.0 1128.0 gradient -orientation 168.0 -scale m
+
+point 2462.0 904.0 gradient -orientation 150.2 -scale m
 
 point 2240.0 960.0 gradient -orientation 178.4 -scale s
 
@@ -341,6 +458,69 @@ line border -id l146-2300-1430 -close on -subtype invisible
   2300.0 1062.0 2398.0 1094.0 2408.0 1140.0
   2418.0 1186.0 2434.0 1236.0 2424.0 1262.0
   2414.0 1288.0 2324.0 1410.0 2294.0 1430.0
+endline
+
+area clay
+endarea
+
+line border -close on
+  3918.0 778.0
+  3964.0 804.0 4004.0 826.0 4032.0 830.0
+  4060.0 834.0 4130.0 826.0 4152.0 810.0
+  4174.0 794.0 4258.0 770.0 4272.0 758.0
+  4286.0 746.0 4318.0 706.0 4298.0 690.0
+  4278.0 674.0 4124.0 650.0 4098.0 666.0
+  4072.0 682.0 3872.0 752.0 3918.0 778.0
+endline
+
+area flowstone
+  l140-4312-984
+endarea
+
+line border -id l140-4312-984 -close on
+  4240.0 956.0
+  4236.0 948.0 4238.0 894.0 4246.0 882.0
+  4254.0 870.0 4298.0 824.0 4298.0 824.0
+  smooth off
+  4298.0 824.0 4324.0 832.0 4340.0 846.0
+  4356.0 860.0 4382.0 846.0 4382.0 846.0
+  smooth off
+  4382.0 846.0 4406.0 844.0 4414.0 852.0
+  4422.0 860.0 4452.0 890.0 4448.0 902.0
+  4444.0 914.0 4436.0 994.0 4436.0 994.0
+  smooth off
+  4436.0 994.0 4366.0 1004.0 4348.0 996.0
+  4330.0 988.0 4244.0 964.0 4240.0 956.0
+endline
+
+line ceiling-step -reverse on
+  4452.0 984.0
+  4460.0 970.0 4494.0 930.0 4502.0 916.0
+  4510.0 902.0 4526.0 834.0 4526.0 834.0
+  smooth off
+endline
+
+point 2919.0 1440.0 gradient -orientation 188.3 -scale s
+
+area flowstone
+  l183-3156-1528
+endarea
+
+line border -id l183-3156-1528 -close on
+  3037.0 1521.0
+  3058.0 1479.0 3079.0 1459.0 3081.0 1447.0
+  3083.0 1435.0 3088.0 1406.0 3090.0 1392.0
+  3092.0 1378.0 3094.0 1358.0 3094.0 1352.0
+  3094.0 1346.0 3098.0 1314.0 3098.0 1302.0
+  3098.0 1290.0 3094.0 1261.0 3105.0 1261.0
+  3116.0 1261.0 3129.0 1278.0 3134.0 1292.0
+  3139.0 1306.0 3140.0 1324.0 3143.0 1335.0
+  3146.0 1346.0 3147.0 1349.0 3159.0 1371.0
+  3171.0 1393.0 3177.0 1409.0 3181.0 1410.0
+  3185.0 1411.0 3201.0 1429.0 3206.0 1444.0
+  3211.0 1459.0 3156.0 1528.0 3156.0 1528.0
+  smooth off
+  3156.0 1528.0 3016.0 1563.0 3037.0 1521.0
 endline
 
 line wall
@@ -444,6 +624,11 @@ line wall
   1348.0 994.0
 endline
 
+line wall -id l136-2044-760 -subtype invisible
+  2040.0 704.0
+  2052.0 832.0
+endline
+
 line wall -id l52-1264-914
   1348.0 994.0
   1314.0 978.0 1250.0 914.0 1252.0 898.0
@@ -459,6 +644,13 @@ line wall -id l52-1264-914
   2040.0 704.0
 endline
 
+area sand
+  l52-1264-914
+  l136-2044-760
+  l54-1680-1140
+  l91-1714-1190
+endarea
+
 line floor-step -id l91-1714-1190
   1348.0 994.0
   1356.0 1004.0 1382.0 1010.0 1390.0 1006.0
@@ -473,7 +665,7 @@ line floor-step -id l91-1714-1190
   1510.0 1146.0 1478.0 1154.0 1538.0 1158.0
   1598.0 1162.0 1608.0 1166.0 1640.0 1170.0
   1672.0 1174.0 1734.0 1196.0 1750.0 1204.0
-  1766.0 1212.0 1812.0 1246.0 1812.0 1246.0
+  1766.0 1212.0 1818.0 1262.0 1818.0 1262.0
   smooth off
 endline
 
@@ -598,6 +790,8 @@ point 1162.0 948.0 water-flow -orientation 250.9
 
 point 1064.0 920.0 pebbles
 
+point 984.0 442.0 label -text [Covid Crawls] -scale l
+
 line wall
   1278.0 1072.0
   1254.0 1102.0
@@ -672,6 +866,14 @@ endline
 point 1532.0 222.0 water-flow -orientation 259.8
 
 point 1818.0 314.0 water-flow -orientation 253.0
+
+point 1680.0 276.0 pebbles
+
+point 2048.0 436.0 clay
+
+point 1936.0 422.0 clay
+
+point 2066.0 526.0 clay
 
 line wall -reverse on
   2144.0 464.0
