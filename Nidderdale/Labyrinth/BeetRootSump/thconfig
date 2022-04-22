@@ -6,8 +6,8 @@ source BeetRootSump.th
 #Surveys to output
 #-----------------
 
-#select BeetRootSump
-select BeetRootSumpPlan
+#select BeetRootSump      ####centerline
+select BeetRootSumpPlan   #### map
 
 
 

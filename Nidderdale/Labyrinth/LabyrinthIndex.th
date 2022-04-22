@@ -15,7 +15,7 @@ map LabyrinthIndex -title "Labyrinth Index"
   Lab2Plan
   BeetRootPlan
   BRCanalPlan
-  BeetRootSump
+  BeetRootSumpPlan
 endmap
 
 map LabyrinthEeIndex -title "Sand Tunnel To Beet Root Ee"

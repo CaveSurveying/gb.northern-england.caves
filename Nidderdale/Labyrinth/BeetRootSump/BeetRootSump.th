@@ -1,11 +1,11 @@
 encoding  utf-8
 
-#survey BeetRootSump
+
 
 input BeetRootSumpPlan.th2
 #input BeetRootSumpEeEe.th2
 
-#survey BeetRootSump
+
 
 map BeetRootSumpPlan  -title "Beet Root Sump Plan"
   BeetRootSumpSP1

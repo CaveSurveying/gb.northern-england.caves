@@ -7,11 +7,8 @@ source LabyrinthIndex.th
 
 #Surveys to output
 #-----------------
-select LabyrinthPlan@LabyrinthIndex
-select Lab2Plan@LabyrinthIndex
-select BeetRootPlan@LabyrinthIndex
-select BRCanalPlan@LabyrinthIndex
-select BeetRootSump@LabyrinthIndex
+select LabyrinthIndex
+
 
 
 

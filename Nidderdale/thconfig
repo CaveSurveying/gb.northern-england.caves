@@ -17,7 +17,7 @@ select nidderdalePlan@nidderdale
 
 
 
-#export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
+export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
 #export map -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -fmt survex -o Output/NidderdaleOutput/nidderdale.3d
