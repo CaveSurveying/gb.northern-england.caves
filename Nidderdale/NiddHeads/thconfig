@@ -1,0 +1,56 @@
+encoding  utf-8
+
+source NiddHeadsIndex.th
+#Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+select NHEnt.NiddHeads
+select NHSump2.NiddHeads
+select NHSurface.NiddHeads
+
+
+
+
+# use Map or survey structure to selelect individual or multiple maps to export to Nidderdal pdf##
+## If none selected individually all are exported to finished map##
+
+
+
+#export map -proj plan -layout local -o Output/NiddHeadsIndex.pdf
+export map -o Output/NiddHeadsIndex.kml
+#export model -o Output/NiddHeadsIndex.kml
+export model -fmt survex -o Output/NiddHeadsIndex.3d
+#export map -projection plan -o Output/NHEnt.xvi
+
+
+
+####################layout###################
+#############################################
+
+layout local
+base-scale 1 300
+scale 1 1000
+symbol-set BCRA
+#debug station-names
+#debug on
+#legend on
+#colour map-fg map #[97 86 38]  #pale yellow ##comment colour for solid colour map
+#colour map-bg [95 95 95]  #light grey
+#colour map-fg altitude
+#colour map-fg scrap
+#symbol-colour area water [25 50 100]
+#symbol-colour point water-flow [25 50 100]
+#symbol-colour area sump [10 10 100]
+symbol-colour group centreline [100 0 0] #Red#
+
+#colour legend off
+#transparency on
+#grid top
+#map-header 50 90 nw
+#symbol-hide group cave-centreline
+symbol-show group cave-centreline
+#symbol-colour point station [100 0 0]
+
+endlayout
