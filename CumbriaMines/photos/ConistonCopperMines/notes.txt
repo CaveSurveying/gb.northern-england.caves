@@ -1,0 +1,6 @@
+Original images have been rescaled down from 5Mb files to something smaller
+
+using imagemagick functions, this rescales and orients in place and adds on the filename so we can refer to them
+
+mogrify -resample 25% -auto-orient -font Liberation-Sans -fill white -undercolor '#00000080' -pointsize 26 -gravity SouthWest -annotate +0+0 %t *.jpg
+
