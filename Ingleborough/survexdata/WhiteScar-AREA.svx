@@ -13,4 +13,6 @@
 
 *include MaydayHole/MaydayHole.svx
 
+*include WhiteScarCave/WhiteScar.svx
+
 *end WhiteScar-AREA

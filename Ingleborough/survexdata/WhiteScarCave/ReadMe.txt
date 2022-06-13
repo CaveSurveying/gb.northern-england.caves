@@ -1,0 +1,2 @@
+The WhiteScar .svx was created by A McLeod from the original Waltham survey using some clever jiggery pokery. 
+The elevations may be a little out but without re-surveying the whole cave, thats all we have as .svx.
