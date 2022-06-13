@@ -7,10 +7,12 @@ survey HopelessPot
 
 input HopelessEntranceSeries/HopelessEntranceSeries.th
 input StreamwayOfMerit/StreamwayOfMerit.th
+input LoTL/LoTL.th
 input LevellingUp/LevellingUp.th
 input LeftInlet/LeftInlet.th
 input RightInlet/RightInlet.th
 input IronmongersChoke/IronmongersChoke.th
+
 
 
 ################ Plan Joins #################
@@ -38,6 +40,7 @@ map HopelessPotPlan -title "Fing Hopeless Pot"
   
     HopelessEntranceSeriesPlan@HopelessEntranceSeries
     LevellingUpPlan@LevellingUp
+    LoTLPlan@LoTL
     break
     StreamwayOfMeritPlan@StreamwayOfMerit
     break
@@ -46,12 +49,13 @@ map HopelessPotPlan -title "Fing Hopeless Pot"
     RightInletPlan@RightInlet   
 endmap
 
-#map HopelessPotEe -title "Hopeless Pot Extended Elevation"
-     #HopelessEntranceSeriesEe@HopelessEntranceSeries
-     #StreamwayOfMeritEe@StreamwayOfMerit
-     #LevellingUpEe@LevellingUp
+map HopelessPotEe -title "Hopeless Pot Extended Elevation"
+     HopelessEntranceSeriesEe@HopelessEntranceSeries
+     LoTLEe@LoTL
+     StreamwayOfMeritEe@StreamwayOfMerit
+     LevellingUpEe@LevellingUp
        
-#endmap
+endmap
 
 ################# Equates #####################
 ###############################################
@@ -63,6 +67,7 @@ equate     76@HopelessEntranceSeries   1.0@StreamwayOfMerit
 equate     1.27@StreamwayOfMerit 1.0@LevellingUp
 equate     1.2@StreamwayOfMerit  1.0@LeftInlet  
 equate     1.2@StreamwayOfMerit  1.0@RightInlet 
+equate     59.0@StreamwayOfMerit 72.3@LoTL
 equate     1.36@StreamwayOfMerit 1.0@IronmongersChoke  
 
 endcenterline
