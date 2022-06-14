@@ -6,7 +6,7 @@ source LoTL.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Output/LoTL.pdf
+export map -proj plan -layout local -o Output/LoTL.pdf
 #Produces plan of cave, on a single sheet
 
 export map -proj extended -layout local -o Output/LoTLEe.pdf
@@ -21,7 +21,8 @@ export map -proj extended -layout local -o Output/LoTLEe.pdf
 #Survex file showing walls only
 
 layout local
-debug on
+symbol-set BCRA
+#debug on
 #map-header 0 0 ne
 #symbol-hide group cave-centreline
 endlayout

@@ -888,14 +888,14 @@ area flowstone
 endarea
 
 line arrow -clip off -scale l
-  4762.0 5364.0
-  4768.0 5172.0
+  4731.0 4636.0
+  4793.0 4955.0
 endline
 
 line arrow -clip on
 endline
 
-point 4760.0 5417.0 label -text [Apostles Formation]
+point 4720.0 4599.0 label -text [Apostles Formation] -scale xs
 
 point 4737.0 5027.0 stalagmite
 
@@ -1462,6 +1462,7 @@ line wall -reverse on -subtype unsurveyed
   1496.0 5968.0 1441.0 5899.0 1441.0 5899.0
   smooth off
   1441.0 5899.0 1339.0 5805.0 1334.0 5802.0
+  smooth off
 endline
 
 line ceiling-step
@@ -1507,6 +1508,7 @@ line wall -reverse on
   871.0 5795.0
   835.0 5802.0
   835.0 5802.0 822.0 5884.0 822.0 5888.0
+  smooth off
   subtype blocks
 endline
 
