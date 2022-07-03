@@ -1,0 +1,125 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -470.0 -136.0 985.7939030101999 993.5075034753
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {9.901496418999955 1 1.0} {480.521440483 1.4} PocketTopo/5WaysEnt_e.xvi 0 {}
+
+
+
+scrap 5WaysEntSE1 -projection extended -scale [-243.25 0.25 541.9 785.65 0 0 10 10 m]
+
+line wall
+endline
+
+line wall
+endline
+
+line wall -reverse on
+  230.0 466.0
+  230.0 466.0 236.0 504.0 238.0 520.0
+  240.0 536.0 260.0 560.0 268.0 562.0
+  276.0 564.0 314.0 530.0 314.0 530.0
+  smooth off
+  314.0 530.0 320.0 402.0 324.0 380.0
+  328.0 358.0 314.0 236.0 314.0 236.0
+  smooth off
+endline
+
+line wall
+  230.0 466.0
+  218.0 476.0 126.0 502.0 126.0 502.0
+  smooth off
+  126.0 502.0 150.0 524.0 148.0 538.0
+  146.0 552.0 160.0 640.0 160.0 640.0
+  smooth off
+  188.0 652.0
+  174.0 692.0
+  -2.0 680.0
+  -6.0 710.0
+  54.0 728.0
+  76.0 766.0
+  122.0 780.0
+  140.0 802.0
+endline
+
+line wall
+  222.0 398.0
+  230.0 232.0
+endline
+
+line wall
+  78.0 842.0
+  72.0 840.0 -156.0 810.0 -156.0 810.0
+  smooth off
+  -334.0 656.0
+endline
+
+line wall
+  -334.0 656.0
+  -318.0 522.0
+  -166.0 512.0
+  -58.0 516.0
+  -36.0 488.0
+  58.0 450.0
+  58.0 450.0 126.0 388.0 130.0 398.0
+  134.0 408.0 222.0 398.0 222.0 398.0
+  smooth off
+endline
+
+point 228.42149641899994 451.631440483 station -name 73.3
+
+point 132.99149641899996 472.151440483 station -name 73.2
+
+point -39.44850358100004 545.791440483 station -name 73.1
+
+point -165.82850358100004 660.671440483 station -name 73.0
+
+point -38.12850358100005 740.251440483 station -name 1.1
+
+point 100.81149641899995 834.011440483 station -name 1.0
+
+endscrap
+
+
+
+scrap 5WaysEntSE2 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  -142.0 522.0
+  -142.0 522.0 -74.0 462.0 -66.0 452.0
+  -58.0 442.0 -56.0 402.0 -56.0 402.0
+  smooth off
+  -56.0 402.0 16.0 352.0 20.0 346.0
+  24.0 340.0 36.0 194.0 36.0 194.0
+  smooth off
+endline
+
+line wall -reverse on
+  -142.0 522.0
+  -140.0 548.0 -134.0 572.0 -124.0 578.0
+  -114.0 584.0 -54.9 557.58 -39.44850358100004 545.791440483
+  smooth off
+endline
+
+line wall
+  -39.44850358100004 545.791440483
+  -24.0 534.0 26.0 496.0 26.0 496.0
+  smooth off
+  84.0 394.0
+  178.0 202.0
+endline
+
+point 96.97149641899995 204.67144048299997 station -name 1.53
+
+point 9.901496418999955 480.521440483 station -name 1.4
+
+point -56.68850358100005 463.261440483 station -name 1.3
+
+endscrap
+
+
+
+scrap 5WaysEntSE3 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

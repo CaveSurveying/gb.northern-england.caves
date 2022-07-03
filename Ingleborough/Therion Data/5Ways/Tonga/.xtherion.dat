@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 79.58m (surface 0.00m, duplicated 0.00m)\nvertical range: 49.25m (from 74.2@Tonga at 4.13m to 1.20@Tonga at -45.12m)\nnorth-south range: 21.01m (from 1.14@Tonga at 21.01m to 1.0@Tonga at 0.00m)\neast-west range: 12.28m (from 1.19@Tonga at 8.22m to 1.7@Tonga at -4.06m)\nnumber of shots: 188\nnumber of stations: 189"
+xth_cp_data_tree_insert 19 1 1 Tonga Tonga "" "" "length: 79.58m (surface 0.00m, duplicated 0.00m)\nvertical range: 49.25m (from 74.2@Tonga at 4.13m to 1.20@Tonga at -45.12m)\nnorth-south range: 21.01m (from 1.14@Tonga at 21.01m to 1.0@Tonga at 0.00m)\neast-west range: 12.28m (from 1.19@Tonga at 8.22m to 1.7@Tonga at -4.06m)\nnumber of shots: 188\nnumber of stations: 189"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 90X1 p1 1 TongaPlan TongaPlan@Tonga "" ""
+xth_cp_map_tree_insert map 1 91X1 p2 1 TongaME TongaME@Tonga "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 80 6
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1656675117
+

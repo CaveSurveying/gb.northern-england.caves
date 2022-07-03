@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -349.49 -478.81 2096.94 2872.88
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {344.211209809 1 1.0} {1505.39678231 1.20} PocketTopo/Marmalade_e.xvi 0 {}
+
+
+scrap MarmaladeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MarmaladeSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MarmaladeSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
