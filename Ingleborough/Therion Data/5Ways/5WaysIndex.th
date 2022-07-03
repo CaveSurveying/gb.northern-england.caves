@@ -29,7 +29,9 @@ join 5WaysEntSE1@5WaysEnt TongaSE1@Tonga
 map 5WaysIndex -title "5WaysPlan"  
   
   5WaysEntPlan@5WaysEnt
+  break
   TongaPlan@Tonga
+  break
   MarmaladePlan@Marmalade
   
  endmap

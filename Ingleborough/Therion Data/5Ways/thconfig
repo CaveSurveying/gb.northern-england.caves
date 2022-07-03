@@ -6,10 +6,12 @@ source 5WaysIndex.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Output/5WaysIndex.pdf
+export map -proj plan -layout local -o Output/5WaysIndex.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o Output/5WaysEe.pdf
+#export map -proj extended -layout local -o Output/5WaysEe.pdf
+
+export map -o Output/5WaysIndex.kml
 
 #export model -fmt survex -o Output/5Ways.3d
 #Survex file showing centre line only
@@ -23,8 +25,8 @@ export map -proj extended -layout local -o Output/5WaysEe.pdf
 layout local
 #copy CommonLayout
 #copy GB_Layout
-base-scale 1 200
-scale 1 200
+base-scale 1 300
+scale 1 50
 symbol-set BCRA
 #debug station-names
 #debug on

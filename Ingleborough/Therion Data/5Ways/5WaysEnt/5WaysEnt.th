@@ -18,7 +18,16 @@ map 5WaysEntME
   #5WaysEntSE2
   #5WaysEntSE3
 endmap
+
+
 centreline
+
+cs OSGB:SD
+
+station 1.0 "entrance"
+
+fix 1.0 72968 73249 451
+
 
 copyright 2022 "GNU GPL"
 
