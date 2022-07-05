@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 90X1 p1 1 TongaPlan TongaPlan@Tonga "" ""
-xth_cp_map_tree_insert map 1 91X1 p2 1 TongaME TongaME@Tonga "" ""
+xth_cp_map_tree_insert map 1 97X1 p1 1 TongaPlan TongaPlan@Tonga "" ""
+xth_cp_map_tree_insert map 1 98X1 p2 1 TongaME TongaME@Tonga "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 80 6
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1656675117
+set xth(th_exit_number) 1656866565
 

@@ -13,8 +13,8 @@ endmap
 
 map MarmaladeME
   MarmaladeSE1
-  MarmaladeSE2
-  MarmaladeSE3
+  #MarmaladeSE2
+  #MarmaladeSE3
 endmap
 centreline
 

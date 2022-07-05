@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 67X1 p1 1 MarmaladePlan MarmaladePlan@Marmalade "" ""
-xth_cp_map_tree_insert map 1 68X1 p2 1 MarmaladeME MarmaladeME@Marmalade "" ""
+xth_cp_map_tree_insert map 1 74X1 p1 1 MarmaladePlan MarmaladePlan@Marmalade "" ""
+xth_cp_map_tree_insert map 1 75X1 p2 1 MarmaladeME MarmaladeME@Marmalade "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 30 6
+xth_cp_comp_stat 30 4
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1656611234
+set xth(th_exit_number) 1656866377
 
