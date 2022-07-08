@@ -8,10 +8,10 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-;*include KMC/allKMC
 *include KMC/Old_KMC
 *include KMC/KMC
 *include Swinsto/Swinsto
+*include TurbaryPot/TurbaryPot
 *include RowtenCaves/RowtenCaves		
 *include Yordas/Yordas_old				;old innacurate/incomplete survey - to be replaced
 *include Yordas/Yordas1
@@ -20,7 +20,6 @@
 *include UpstreamSumps/UpstreamSumps
 *include kdgps
 *include RowtenPot/RowtenPot
-*include Keld_Head/Keld_Head
 *include JinglingPot/JinglingPot
 *include BullPot/BullPot
 *include Aquamole/AquamolePot_Resurvey
@@ -29,14 +28,14 @@
 *equate Old_KMC.roof_tunnel.002	kdgps.vent
 *equate KMC.ValleyEntrance.0	kdgps.vent
 *equate	Aquamole.main.25 upstreamsumps.pt1.0
-*equate KMC.PhilosophersCrawl2.15	Old_KMC.Master_Cave.106
-
+;*equate KMC.PhilosophersCrawl2.15	Old_KMC.Master_Cave.106		;removed 
+*equate Old_KMC.Roof_Tunnel.052		KMC.KingsdaleMC1.1
+*equate TurbaryPot.entrance kdgps.3c18
 
 *equate RowtenPot.Rowten_Projected.1	kdgps.tr		;basic projection only, needs re-surveying
 *equate Rowtencaves.rowtencave_surface.5hex	kdgps.3c21
 *equate	Rowtencaves.jinglingcavetop.1	kdgps.3c22	
 
-*equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
 
 *equate JinglingPot.1.0   kdgps.3c22
 *equate Bullpot.1.23	kdgps.3c23
@@ -52,6 +51,16 @@
 *include KMC/Window_Aven
 *equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+*SOLVE    	;This distributes the Valley Entrance/Keld Head loop closure errors along sump data only
+			;and distributes the PhilosophersCraw/SwinstoSump loop closure errors along sump data only
+*include Keld_Head/Keld_Head
+*equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
+
+;*include	KMC/SwinstoSump				;John Cordingley's survey
+;*equate	SwinstoSump.001	KMC.PhilosophersCrawl2.22
+;*equate SwinstoSump.014	KMC.RowtenPassage.DistoXSumpTieIn.3
 
 
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -145,9 +154,6 @@
 
 *FIX Thorney_Pot REFERENCE 69540 77350 372
 *ENTRANCE Thorney_Pot
-
-*FIX Turbary_Pot REFERENCE 69500 77500 378
-*ENTRANCE Turbary_Pot
 
 *FIX Whisper_Pot REFERENCE 70170 78690 358
 *ENTRANCE Whisper_Pot

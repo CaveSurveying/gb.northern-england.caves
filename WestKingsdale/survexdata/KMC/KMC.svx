@@ -4,9 +4,9 @@
 
 *begin KMC
 
-*export ValleyEntrance.0
-*export	PhilosophersCrawl2.15		;TEMPORARY measure until master cave is re-surveyed and tied in below
-
+*export 	ValleyEntrance.0
+*export		PhilosophersCrawl2.15	;TEMPORARY measure until master cave is re-surveyed and tied in below
+*export 	KingsdaleMC1.1
 
 *include	ValleyEntrance			;Footleg's disto X survey
 *include	MilkyWay				;Footlegs disto X survey
@@ -25,23 +25,25 @@
 *include	KingsdaleMC1			;Sarah Parker, Rachel Rix, Holly Bradley ULSA survey 08/03/2016
 *include	KingsdaleMC2			;Luke Stangroom, Hannah Walker, Noel snape, ULSA survey 08/03/2016
 *include	KingsdaleMC3			;Tom Starnes, Noel Snape, Holly Bradley 2016/03/20
+*include 	EastEntPassage			;Di & Si disto x2 survey 2022/06/03
 
 
 *equate	ValleyEntrance.27	MilkyWay.27
-*equate MilkyWay.41	milkyway2.1
-*equate milkyway2.33	milkyway3.33x
-*equate	RoofTunnel1.1	ValleyEntrance.27
-*equate	RoofTunnel2.1	Rooftunnel1.16
+*equate MilkyWay.41			milkyway2.1
+*equate milkyway2.33		milkyway3.33x
+*equate	RoofTunnel1.1		ValleyEntrance.27
+*equate	RoofTunnel2.1		Rooftunnel1.16
 *equate	PhilosophersCrawl2.1	PhilosophersCrawl1.1
 *equate	RowtenPassage.36	PhilosophersCrawl2.15
-*equate	SwinstoSump.001	PhilosophersCrawl2.22
-*equate SwinstoSump.014	RowtenPassage.DistoXSumpTieIn.3
-*equate	RowtenSumps.0	RowtenPassage.1
-*equate	MudRiver.0	RowtenPassage.9
-*equate milkyway2.10	milkyway4.0
-*equate milkyway2.10 	milkyway_kellaway1.0 
-*equate KingsdaleMC1.11	KingsdaleMC2.13
+*equate	SwinstoSump.001		PhilosophersCrawl2.22
+*equate SwinstoSump.014		RowtenPassage.DistoXSumpTieIn.3
+*equate	RowtenSumps.0		RowtenPassage.1
+*equate	MudRiver.0			RowtenPassage.9
+*equate milkyway2.10		milkyway4.0
+*equate milkyway2.10 		milkyway_kellaway1.0 
+*equate KingsdaleMC1.11		KingsdaleMC2.13
 *equate KingsdaleMC2.15x	RowtenPassage.32
 *equate	KingsdaleMC3.x1		KingsdaleMC1.x
+*equate KingsdaleMC2.15x	EastEntPassage.0
 
 *end KMC

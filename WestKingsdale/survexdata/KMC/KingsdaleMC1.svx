@@ -1,6 +1,6 @@
 *begin KingsdaleMC1
 
-*export	11	x
+*export	11	x 1
 ;checked Holly Bradley 08/03/2016
 *team "Sarah Parker" notes
 *team "Rachel Rix" compass clino tape
