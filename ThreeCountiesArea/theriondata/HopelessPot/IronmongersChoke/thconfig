@@ -9,9 +9,9 @@ source IronmongersChoke.th
 export map -proj plan -layout local -o Output/IronmongersChoke.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Output/IronmongersChokeEe.pdf
+export map -proj extended -layout local -o Output/IronmongersChokeEe.pdf
 
-export model -fmt survex -o Output/IronmongersChoketh.3d
+#export model -fmt survex -o Output/IronmongersChoketh.3d
 #Survex file showing centre line only
 
 #export model -o Output/IronmongersChoke.lox

@@ -24,8 +24,11 @@ input IronmongersChoke/IronmongersChoke.th
 #join   StreamwayOfMeritSP1@StreamwayOfMerit RightInletSP1@RightInlet
 #join   RightInletSP1@RightInlet LeftInletSP1@LeftInlet
 #### Above scrap joins are on a 3 way junction so not used. Use lie join instead####
-join StreamwayOfMeritSP3@StreamwayOfMerit IronmongersChokeSP1@IronmongersChoke
 
+
+join StreamwayOfMeritSP3@StreamwayOfMerit IronmongersChokeSP1@IronmongersChoke
+join StreamwayOfMeritSE3@StreamwayOfMerit IronmongersChokeSE1@IronmongersChoke
+join StreamwayOfMeritSE1@StreamwayOfMerit LoTLSE1@LoTL
 ####Line Joins####
 join   Line1@StreamwayOfMerit:0     Line1@LeftInlet:end
 join   Line2@StreamwayOfMerit:end   Line2@RightInlet:0
@@ -51,9 +54,12 @@ endmap
 
 map HopelessPotEe -title "Hopeless Pot Extended Elevation"
      HopelessEntranceSeriesEe@HopelessEntranceSeries
-     LoTLEe@LoTL
      StreamwayOfMeritEe@StreamwayOfMerit
+     #LeftInletEe@LeftInlet
+     break
+     LoTLEe@LoTL
      LevellingUpEe@LevellingUp
+     IronmongersChokeEe@IronmongersChoke
        
 endmap
 

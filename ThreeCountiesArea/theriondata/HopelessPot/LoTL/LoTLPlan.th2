@@ -205,7 +205,10 @@ line arrow
   1387.0 1016.0
 endline
 
-point 1359.0 1612.0 label -scale xs -align bottom-right -text [Guardian straw pillar (care)]
+line wall
+endline
+
+point 1359.0 1612.0 label -scale xs -align bottom-right -text [Guardian Straw Pillar (care)]
 
 point 673.0 1084.0 label -text [Lady of the lake] -scale s
 
