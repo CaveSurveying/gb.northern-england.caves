@@ -320,7 +320,7 @@ line wall
   smooth off
 endline
 
-point 2344.0 478.0 water-flow -orientation 258.0
+point 2298.0 572.0 water-flow -orientation 234.9
 
 point 2644.0 600.0 water-flow -orientation 233.9
 
@@ -475,6 +475,8 @@ endline
 area flowstone
   l140-4312-984
 endarea
+
+point 2436.0 356.0 label -text Clueless -scale l
 
 line border -id l140-4312-984 -close on
   4240.0 956.0
@@ -817,6 +819,12 @@ point 1778.0 1416.0 pebbles
 point 1776.0 1526.0 water-flow -orientation 186.6
 
 point 1966.0 1604.0 water-flow -orientation 264.2
+
+point 588.0 426.0 dig
+
+point 444.0 548.0 dig
+
+point 2132.0 1628.0 dig
 
 line wall
   2024.0 1652.0

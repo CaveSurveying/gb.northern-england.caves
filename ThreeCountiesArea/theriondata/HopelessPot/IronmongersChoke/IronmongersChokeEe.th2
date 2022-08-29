@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 7450.0 2358.5750443781003
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -144.0 7460.0 2358.5750443781003
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1296.920232741 1 1.0} {1610.25899152 1.4} PocketTopo/IronmongersChoke_e.xvi 0 {}
 
 
@@ -320,6 +320,16 @@ point 6218.350232741001 261.0389915200001 station -name 71.5
 point 5941.700232741 305.5389915200001 station -name 71.4
 
 point 5750.910232741 388.59899152 station -name 71.3
+
+line label -scale xl -text IRONMONGERS
+  16.0 976.0
+  1848.0 972.0
+endline
+
+line label -text CLUELESS -scale xl
+  3164.0 212.0
+  5220.0 212.0
+endline
 
 point 5538.410232741 367.4889915200001 station -name 71.2
 

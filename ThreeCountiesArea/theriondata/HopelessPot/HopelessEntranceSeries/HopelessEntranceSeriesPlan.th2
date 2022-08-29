@@ -328,6 +328,13 @@ line wall
   smooth off
 endline
 
+line arrow
+  -24.0 12.0
+  -2.0 -53.0
+endline
+
+point -27.5 30.5 label -text [Incunablulm Crawl] -scale m
+
 line wall
   15.0 -41.0
   15.0 -41.0 -7.0 -47.0 -10.5 -48.0
@@ -647,6 +654,13 @@ point -215.20 -617.94 dig -scale xs
 point -131.96 -661.69 water-flow -orientation 102.22 -scale xs
 
 point -175.27 -620.20 water-flow -orientation 192.75 -scale xs
+
+line arrow
+  -135.5 -3.5
+  -64.0 -85.0
+endline
+
+point -165.5 12.5 label -align bottom-right -scale m -text [Tim's Pitch 9m]
 
 point -166.90 -624.56 water-flow -orientation 186.94 -scale xs
 
@@ -2084,19 +2098,20 @@ point -99.37 -340.91 blocks -scale xs
 
 line arrow
   14.5 -93.0
-  9.0 -63.0
+  11.5 -49.0
 endline
 
 line arrow
 endline
 
-point -50.5 -126.5 label -align bottom-right -text [P 9m] -scale m
-
 point 8.0 -99.5 label -scale s -align bottom-right -text [Breakthrough 1]
 
-point -496.5 -560.0 label -scale s -text 12m -align left
+line arrow
+  -500.5 -545.5
+  -531.5 -535.5
+endline
 
-point -509.0 -540.5 label -scale s -align bottom-right -text [Franks pitch]
+point -488.0 -545.5 label -align bottom-right -scale m -text [Frank's pitch 12m]
 
 point 26.0 -276.5 label -align bottom-right -scale s -text [Breakthrough 2]
 
@@ -2391,7 +2406,7 @@ line wall
   smooth off
 endline
 
-point -690.5 -701.5 label -scale s -text [Duncans pitch] -align bottom-right
+point -690.5 -701.5 label -text [Duncans pitch] -align bottom-right -scale m
 
 line wall -reverse on
   -678.32 -635.73
@@ -3680,9 +3695,9 @@ endline
 
 point -816.47 -627.29 dig -scale xs
 
-point -991.5 -540.5 label -scale s -text 4m
+point -991.5 -540.5 label -text 4m -scale m
 
-point -992.0 -525.0 label -scale s -text [Geoffs pitch]
+point -992.0 -525.0 label -scale m -text [Geoff's pitch]
 
 point -867.06 -661.69 label -text "Inward draught 11/12/21" -scale xs -align center
 

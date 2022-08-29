@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 12188.0 1740.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1565.5349164291001 1 1.0} {1099.62764602 1.4} PocketTopo/StreamwayOfMerit_e.xvi 0 {}
 
 
@@ -286,6 +286,11 @@ point 11282.15332545 582.6309640699999 station -name 1.36
 point 11077.313325449999 553.94096407 station -name 58.1
 
 point 10783.08332545 619.44096407 station -name 1.35
+
+line label -scale xl -text [STREAMWAY OF MERIT]
+  2336.0 256.0
+  8968.0 280.0
+endline
 
 endscrap
 

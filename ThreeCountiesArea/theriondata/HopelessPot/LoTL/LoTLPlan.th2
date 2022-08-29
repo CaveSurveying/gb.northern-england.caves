@@ -208,7 +208,7 @@ endline
 line wall
 endline
 
-point 1359.0 1612.0 label -scale xs -align bottom-right -text [Guardian Straw Pillar (care)]
+point 1359.0 1612.0 label -scale xs -align bottom-right -text [Gatekeeper Straw Pillar (care)]
 
 point 673.0 1084.0 label -text [Lady of the lake] -scale s
 
@@ -315,6 +315,8 @@ line border -id l58-1004-1241
   1192.0 1126.0 1183.0 1178.0 1183.0 1178.0
   smooth off
 endline
+
+point 602.0 1459.0 label -text Whitehall -scale l
 
 line border -id l55-1225-1442
   1262.0 1367.0

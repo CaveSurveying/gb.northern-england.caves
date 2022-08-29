@@ -37,6 +37,11 @@ line wall
   3860.0 454.0
 endline
 
+line label -text [EGGSHELL CHAMBER]
+  3326.0 1302.0
+  4316.0 1304.0
+endline
+
 line wall
   3860.0 454.0
   4378.0 644.0
@@ -121,6 +126,7 @@ endline
 line ceiling-step
   2792.0 802.0
   2792.0 802.0 2730.0 852.0 2712.0 838.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -242,6 +248,11 @@ point 7069.916825776 1112.312922037 station -name 61.4
 point 6658.496825776 1122.712922037 station -name 61.3
 
 point 5564.266825776 1081.422922037 station -name 61.2
+
+line label -text [LEVELING UP] -scale l
+  4870.0 1378.0
+  6678.0 1378.0
+endline
 
 point 5095.026825776 1054.332922037 station -name 61.1
 
