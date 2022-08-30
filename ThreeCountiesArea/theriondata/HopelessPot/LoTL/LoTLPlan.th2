@@ -9,9 +9,6 @@ scrap LoTLSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 863.517562383 569.550866142 station -name 1.2
 
-line wall
-endline
-
 point 838.897562383 536.430866142 station -name 1.1
 
 point 890.697562383 693.070866142 station -name 72.0
@@ -190,9 +187,9 @@ line border -id l78-1124-704 -clip off -subtype invisible
   smooth off
 endline
 
-point 1068.0 572.0 label -text P8 -scale s
+point 1068.0 572.0 label -scale s -text C8
 
-point 934.0 776.0 label -text P5 -scale s
+point 934.0 776.0 label -scale s -text C5
 
 point 1040.0 772.0 gradient -orientation 164.7 -scale xs
 
