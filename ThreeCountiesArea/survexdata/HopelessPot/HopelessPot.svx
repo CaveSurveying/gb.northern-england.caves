@@ -13,7 +13,7 @@
 *equate StreamwayOfMerit.StreamwayOfMerit.27 LevellingUp.1.0
 *equate StreamwayOfMerit.StreamwayOfMerit.2 LeftInlet.1.0
 *equate StreamwayOfMerit.StreamwayOfMerit.2 RightInlet.1.0
-*equate StreamwayOfMerit.StreamwayOfMerit.36 IronmongersChoke.DukeStreetMaybe.0
+*equate StreamwayOfMerit.StreamwayOfMerit.36 IronmongersChoke.Clueless.0
 
 
 *END HopelessPot
