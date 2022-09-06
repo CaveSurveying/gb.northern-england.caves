@@ -30,5 +30,5 @@ xth_cp_map_tree_insert map 1 2899X1 2910X1 2 IronmongersChokeEe IronmongersChoke
 xth_cp_map_tree_create
 xth_cp_comp_stat 1043 56
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1661880727
+set xth(th_exit_number) 1662452560
 

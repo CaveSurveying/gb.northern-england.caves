@@ -37,6 +37,11 @@ copyright 2022 "GNU GPL"
   team "Nick Bairstow" dog
 
   instrument  instruments "Nick 3295"
+  
+  explo-date 2022.01.02
+  
+  
+  
 data normal from to tape compass clino ignoreall
 
   extend left
