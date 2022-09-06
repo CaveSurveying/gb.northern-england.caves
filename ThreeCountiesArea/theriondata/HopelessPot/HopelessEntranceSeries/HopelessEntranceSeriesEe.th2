@@ -26,6 +26,13 @@ endline
 
 point 29.0 -29.0 label -scale l -text Entrance
 
+line arrow
+  -39.0 -707.0
+  -80.0 -631.0
+endline
+
+point -30.0 -734.0 label -text [Space Mine] -scale l
+
 point -101.0 -376.0 label -scale l -text [Tim's Pitch 9m]
 
 line wall

@@ -802,7 +802,7 @@ point 71.84 -34.59 station -name "117"
 
 point 115.97 -36.04 station -name "118"
 
-point 87.0 -76.5 label -align bottom-right -text [Entrance Dig] -scale m
+point 91.5 -67.5 label -align bottom-right -text [Entrance Dig] -scale xl
 
 point 128.85 -29.08 station -name "119"
 
@@ -2109,6 +2109,13 @@ point 8.0 -99.5 label -scale s -align bottom-right -text [Breakthrough 1]
 line arrow
   -500.5 -545.5
   -531.5 -535.5
+endline
+
+point 127.0 -165.5 label -text [Space Mine] -scale l
+
+line arrow
+  105.0 -165.0
+  -24.5 -193.5
 endline
 
 point -488.0 -545.5 label -align bottom-right -scale m -text [Frank's pitch 12m]
