@@ -95,6 +95,7 @@
 *include TopSink\TopSink ; Top Sink
 *include TopSink\UpperMainDrain ; Top Sink
 *include TopSink\GypsumCavern ; Top Sink
+*include PeglegPot\PeglegPot
 
 *include LancasterHole\MainDownstreamSump ; Sumps
 *include LancasterHole\WilfTaylorsSump ; Sumps
