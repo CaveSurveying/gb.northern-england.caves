@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 12.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.56m (from 1.0@MyLeftFoot at 0.00m to 1.5@MyLeftFoot at -8.56m)\nnorth-south range: 4.60m (from 1.5@MyLeftFoot at 4.60m to 1.0@MyLeftFoot at 0.00m)\neast-west range: 3.61m (from 1.1@MyLeftFoot at 2.06m to 1.5@MyLeftFoot at -1.55m)\nnumber of shots: 47\nnumber of stations: 48"
+xth_cp_data_tree_insert 18 1 1 MyLeftFoot MyLeftFoot "" "" "length: 12.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.56m (from 1.0@MyLeftFoot at 0.00m to 1.5@MyLeftFoot at -8.56m)\nnorth-south range: 4.60m (from 1.5@MyLeftFoot at 4.60m to 1.0@MyLeftFoot at 0.00m)\neast-west range: 3.61m (from 1.1@MyLeftFoot at 2.06m to 1.5@MyLeftFoot at -1.55m)\nnumber of shots: 47\nnumber of stations: 48"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 57X1 p1 1 MyLeftFootPlan MyLeftFootPlan@MyLeftFoot "" ""
+xth_cp_map_tree_insert map 1 58X1 p2 1 MyLeftFootME MyLeftFootME@MyLeftFoot "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 12 5
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1668604027
+

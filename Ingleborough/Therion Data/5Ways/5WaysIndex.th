@@ -5,6 +5,7 @@ survey 5WaysIndex
 input 5WaysEnt/5WaysEnt.th
 input Tonga/Tonga.th
 input Marmalade/Marmalade.th
+input MyLeftFoot/MyLeftFoot.th
 
 
 ################ Plan Joins #################
@@ -15,9 +16,10 @@ join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
 #join TongaSP3@Tonga MarmaladeSP1@Marmalade
 
 ####ME Joins####
-join 5WaysEntSE2@5WaysEnt TongaSE1@Tonga
-join 5WaysEntSE1@5WaysEnt TongaSE1@Tonga
-join TongaSE2@Tonga       MarmaladeSE1@Marmalade
+join 5WaysEntSE2@5WaysEnt     TongaSE1@Tonga
+join 5WaysEntSE1@5WaysEnt     TongaSE1@Tonga
+join TongaSE2@Tonga           MarmaladeSE1@Marmalade
+join MarmaladeSE1@Marmalade   MyLeftFootSE1@MyLeftFoot
 
 
 ####Line Joins####
@@ -34,6 +36,8 @@ map 5WaysIndex -title "5WaysPlan"
   TongaPlan@Tonga
   break
   MarmaladePlan@Marmalade
+  break
+  MyLeftFootPlan@MyLeftFoot
   
  endmap
  
@@ -42,6 +46,7 @@ map 5WaysIndex -title "5WaysPlan"
  5WaysEntME@5WaysEnt
  TongaME@Tonga
  MarmaladeME@Marmalade
+ MyLeftFootME@MyLeftFoot
  
  endmap
 
@@ -51,7 +56,8 @@ map 5WaysIndex -title "5WaysPlan"
 
 
  equate 1.53@5WaysEnt 1.0@Tonga
- equate 1.20@Tonga    1.20@Marmalade 
+ equate 1.20@Tonga    1.20@Marmalade
+ equate 1.27@Marmalade 1.0@MyLeftFoot 
  
  equate 73.3@5WaysEnt 74.2@Tonga
 

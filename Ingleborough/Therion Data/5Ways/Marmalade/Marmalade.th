@@ -7,8 +7,7 @@ input MarmaladeEe.th2
 
 map MarmaladePlan
   MarmaladeSP1
-  MarmaladeSP2
-  MarmaladeSP3
+  #MarmaladeSP2
 endmap
 
 map MarmaladeME
