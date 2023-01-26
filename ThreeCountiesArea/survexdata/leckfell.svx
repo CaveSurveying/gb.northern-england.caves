@@ -98,6 +98,9 @@
 *EQUATE LambTrap-to-WeePot.17  	Fenwick_Pot
 *EQUATE LambTrap-to-WeePot.22  	WeePot.entrance
 
+*INCLUDE PotBlack/PotBlack
+*EQUATE PotBlack.0  Yeadon_Pipikin_Surface_Survey.RedRoseDig
+
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; South of NottsII area
