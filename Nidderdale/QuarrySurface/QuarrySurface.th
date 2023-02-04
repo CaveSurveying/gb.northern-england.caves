@@ -1,0 +1,140 @@
+encoding  utf-8
+#survey QuarrySurface
+
+input QuarrySurfaceP.th2
+input QuarrySurfaceEe.th2
+
+map QuarrySurfacePlan -title "QuarrySurfacePlan"
+  QuarrySurfaceSP1
+  endmap
+
+#map QuarrySurfaceME -title "QuarrySurface"
+  #QuarrySurfaceSE1
+  #QuarrySurfaceSE2
+#endmap
+
+survey QuarrySurface
+centreline
+
+copyright 2023 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#pda - Rich
+#disto - Nick
+#
+
+  date 2018.10.29
+
+  team "Nick Bairstow" notes
+  team "Richard Hill" instruments
+  team "Nick Bairstow" dog
+
+  instrument  instruments "Nick Disto 3295"
+
+  explo-date 2018.10.29
+
+data normal from to tape compass clino ignoreall
+  extend right
+#100  0.0  0.0  0.0  0.0  
+#100  0.0  6.098  62.66  2.33  large vertical slaboutside NG ent
+#100  0.0  6.09  62.66  2.29  
+#100  0.0  6.104  62.7  2.33  
+100  0.0  4.573  42.8  1.74  Calculated leg from 4 above
+#0.0  0.1  5.713  347.32  4.75  
+#0.0  0.1  5.712  347.31  4.71  
+#0.0  0.1  5.714  347.34  4.71  
+0.0  0.1  5.713  347.31  4.72  Calculated leg from 3 above
+0.1  87.0  0.0  0.0  0.0  
+#87.0  87.1  3.106  293.64  -10.03  
+#87.0  87.1  3.104  293.73  -10.06  
+#87.0  87.1  3.106  293.7  -10.05  
+87.0  87.1  3.105  293.68  -10.05  Calculated leg from 3 above
+0.1  -  0.0  0.0  0.0  
+#0.1  0.2  8.501  342.88  2.7  
+#0.1  0.2  8.512  342.85  2.79  
+#0.1  0.2  8.513  342.88  2.77  
+0.1  0.2  8.509  342.87  2.75  Calculated leg from 3 above
+#0.2  0.3  6.291  18.67  0.72  
+#0.2  0.3  6.287  18.61  0.67  
+#0.2  0.3  6.292  18.69  0.71  
+0.2  0.3  6.29  18.64  0.7  Calculated leg from 3 above
+#0.3  0.4  6.196  66.77  6.77  
+#0.3  0.4  6.195  66.76  6.78  
+#0.3  0.4  6.199  66.75  6.8  
+0.3  0.4  6.197  66.77  6.78  Calculated leg from 3 above
+#0.4  0.5  6.197  69.15  16.5  
+#0.4  0.5  6.192  69.13  16.51  
+#0.4  0.5  6.194  69.1  16.49  
+0.4  0.5  6.194  69.14  16.5  Calculated leg from 3 above
+#0.5  0.6  8.546  15.9  1.65  
+#0.5  0.6  8.547  15.88  1.65  
+#0.5  0.6  8.544  16.05  1.58  
+0.5  0.6  8.546  15.89  1.63  Calculated leg from 3 above
+#0.6  0.7  11.296  6.0  -0.2  
+#0.6  0.7  11.294  6.0  -0.1  
+#0.6  0.7  11.299  5.99  -0.13  
+0.6  0.7  11.296  6.0  -0.14  Calculated leg from 3 above
+#0.7  0.8  9.501  11.07  -0.48  
+#0.7  0.8  9.511  11.14  -0.4  
+#0.7  0.8  9.506  11.09  -0.44  
+0.7  0.8  9.506  11.1  -0.44  Calculated leg from 3 above
+#0.8  0.9  7.307  87.11  3.42  
+#0.8  0.9  7.308  87.16  3.4  
+#0.8  0.9  7.287  87.14  3.38  
+0.8  0.9  7.301  87.14  3.4  Calculated leg from 3 above
+#0.9  0.10  7.678  95.43  11.04  
+#0.9  0.10  7.676  95.32  11.04  
+#0.9  0.10  7.672  95.36  10.98  
+0.9  0.10  7.675  95.38  11.02  Calculated leg from 3 above
+#0.10  0.11  2.142  89.97  -2.77  
+#0.10  0.11  2.15  90.06  -2.77  
+#0.10  0.11  2.154  90.03  -2.74  
+0.10  0.11  2.149  90.02  -2.76  Calculated leg from 3 above
+0.10  90  0.0  0.0  0.0  
+#90  91  6.22  75.84  14.65  
+#90  91  6.223  75.8  14.77  
+#90  91  6.231  75.78  14.77  
+90  91  6.225  75.82  14.73  Calculated leg from 3 above
+#91  92  6.678  94.25  8.92  
+#91  92  6.678  94.26  8.93  
+#91  92  6.677  94.24  8.88  
+91  92  6.678  94.26  8.91  Calculated leg from 3 above
+#92  93  12.216  90.92  13.25  
+#92  93  12.215  90.92  13.22  
+#92  93  12.213  90.86  13.25  front lh pole of pigskin
+92  93  12.215  90.92  13.24  Calculated leg from 3 above
+0.8  88.0  0.0  0.0  0.0  
+#88.0  88.1  7.121  351.42  -1.28  
+#88.0  88.1  7.121  351.43  -1.25  
+#88.0  88.1  7.119  351.45  -1.27  
+88.0  88.1  7.12  351.42  -1.27  Calculated leg from 3 above
+#88.1  88.2  8.754  332.13  -8.16  
+#88.1  88.2  8.752  332.08  -8.13  
+#88.1  88.2  8.751  332.07  -8.11  
+88.1  88.2  8.752  332.1  -8.13  Calculated leg from 3 above
+#88.2  88.3  10.223  332.07  -3.4  top of shale band
+#88.2  88.3  10.225  332.04  -3.47  
+#88.2  88.3  10.228  332.01  -3.48  
+88.2  88.3  10.225  332.06  -3.45  Calculated leg from 3 above
+88.2  90.0  0.0  0.0  0.0  
+#90.0  90.1  8.991  316.27  -3.14  
+#90.0  90.1  8.992  316.31  -3.15  
+#90.0  90.1  8.993  316.29  -3.09  
+90.0  90.1  8.992  316.29  -3.13  Calculated leg from 3 above
+88.2  91.0  0.0  0.0  0.0  
+#91.0  91.1  10.038  259.47  -4.94  
+#91.0  91.1  10.035  259.41  -4.91  
+#91.0  91.1  10.041  259.57  -4.89  Top of shale band 3
+91.0  91.1  10.038  259.44  -4.91  Calculated leg from 3 above
+0.10  92.0  0.0  0.0  0.0  
+#92.0  92.1  6.703  171.58  -0.7  
+#92.0  92.1  6.705  171.54  -0.75  
+#92.0  92.1  6.69  171.45  -0.8  
+92.0  92.1  6.699  171.56  -0.75  Calculated leg from 3 above
+#92.1  92.2  5.021  173.41  0.31  
+#92.1  92.2  5.021  173.41  0.31  
+#92.1  92.2  5.02  173.46  0.27  
+92.1  92.2  5.021  173.41  0.3  Calculated leg from 3 above
+endcentreline
+endsurvey
+

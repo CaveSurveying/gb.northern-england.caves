@@ -17,8 +17,8 @@ select nidderdalePlan@nidderdale
 
 
 
-export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
-#export map -o Output/NidderdaleOutput/Nidderdale.kml
+#export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
+export map -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -fmt survex -o Output/NidderdaleOutput/nidderdale.3d
 #export model  -o output/NidderdaleOutput/nidderdale.lox
@@ -43,6 +43,7 @@ symbol-colour area water [25 50 100]
 symbol-colour point water-flow [25 50 100]
 symbol-colour line water-flow [25 50 100]
 symbol-colour area sump [10 10 100]
+symbol-colour point station [100 0 0]
 transparency on
 grid top
 map-header 50 90 nw

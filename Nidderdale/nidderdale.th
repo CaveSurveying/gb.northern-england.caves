@@ -22,6 +22,7 @@ input shackletons/Shackletons.th
 input planHard/PlanHard.th
 input surface1/Surface1.th
 input surface2/Surface2.th
+input QuarrySurface/QuarrySurface.th
 input goy3/Goy3.th
 input NorthChoke/NorthChokeIndex.th
 input CapLeftTunnel/CapLeftTunnel.th
@@ -58,6 +59,7 @@ join CapLeftTunnelSP2 PillarPotSP2
 
 
 ####################################################
+
 map nidderdalePlan -title "Nidderdale Plan"  
   
   Surface2Plan
@@ -78,7 +80,7 @@ map nidderdalePlan -title "Nidderdale Plan"
   CapLeftTunnelPlan
   
   ####NewGoyden/Frog####
-  
+  QuarrySurfacePlan
   ThropePotPlan
   PlanHardPlan
   break
@@ -103,7 +105,7 @@ map nidderdalePlan -title "Nidderdale Plan"
                         ##so that needs sorting.
   
   
-  goy3Plan             ##Need to survey sump 2 so we can add to main map
+  #goy3Plan             ##Need to survey sump 2 so we can add to main map
   
 endmap
 
@@ -138,6 +140,7 @@ equate 1.28@Goyden2 4.0@goy3
 equate 1.34@ThropePot 1.50@Surface1
 equate 1.53@Surface1 1.0@NewGoyden
 equate 1.44@Surface2 1.0@NewGoyden
+equate 100@QuarrySurface 1.0@NewGoyden
 equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott.GuscottIndex 
 equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
