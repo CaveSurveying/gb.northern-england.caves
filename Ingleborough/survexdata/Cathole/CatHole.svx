@@ -10,8 +10,10 @@
 *include CatHole1
 *include CatHole2
 *include CatHole3
+*INCLUDE SlabbySump
 
-*equate CatHole1.1.24 CatHole2.1.24
-*equate CatHole2.1.32 CatHole3.1.0
+*equate CatHole1.1.24 	CatHole2.1.24
+*equate CatHole2.1.32 	CatHole3.1.0
+*EQUATE	CatHole1.1.10	SlabbySump.1
 
 *end CatHole

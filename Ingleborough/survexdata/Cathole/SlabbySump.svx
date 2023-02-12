@@ -1,0 +1,23 @@
+*BEGIN 	SlabbySump
+
+;Diving data for Slabby Sump from John Cordingly
+
+*DATE	2023.01.29
+*CALIBRATE declination +0.44	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
+								; 54.125334, -2.386297
+
+
+*EXPORT 1
+
+*DATA NORMAL 	from to tape compass clino
+1	2	6	332	-18		;estimated leg - 1=roof knoble top of the slope in main passage
+
+*DATA DIVING station depth NEWLINE compass tape
+2	0					;station 2 is at water level
+	345	4.5
+3	-0.5
+	340	3.5	
+4	-0.5			
+
+
+*END 	SlabbySump
