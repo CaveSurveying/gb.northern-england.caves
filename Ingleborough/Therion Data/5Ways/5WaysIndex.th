@@ -4,8 +4,11 @@ survey 5WaysIndex
 
 input 5WaysEnt/5WaysEnt.th
 input Tonga/Tonga.th
-input Marmalade/Marmalade.th
+input MarmaladeIndex/MarmaladeIndex.th
 input MyLeftFoot/MyLeftFoot.th
+input Picnic/Picnic.th
+input P5/P5.th
+input P6-P7/P6-P7.th
 
 
 ################ Plan Joins #################
@@ -16,15 +19,17 @@ join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
 #join TongaSP3@Tonga MarmaladeSP1@Marmalade
 
 ####ME Joins####
-join 5WaysEntSE2@5WaysEnt     TongaSE1@Tonga
-join 5WaysEntSE1@5WaysEnt     TongaSE1@Tonga
-join TongaSE2@Tonga           MarmaladeSE1@Marmalade
-join MarmaladeSE1@Marmalade   MyLeftFootSE1@MyLeftFoot
+join 5WaysEntSE2@5WaysEnt                      TongaSE1@Tonga
+join 5WaysEntSE1@5WaysEnt                      TongaSE1@Tonga
+join TongaSE2@Tonga                            MarmaladeSE1@Marmalade.MarmaladeIndex
+#join MarmaladeSE1@Marmalade.MarmaladeIndex    MyLeftFootSE1@MyLeftFoot
+join MyLeftFootSE1@MyLeftFoot PicnicSE1@Picnic
 
 
 ####Line Joins####
 ##################
-
+join Line1@MyLeftFoot:0    Line1@Picnic:end 
+join Line2@MyLeftFoot:end  Line2@Picnic:0
 
 
 ###################### MAPS ####################
@@ -35,31 +40,42 @@ map 5WaysIndex -title "5WaysPlan"
   break
   TongaPlan@Tonga
   break
-  MarmaladePlan@Marmalade
+  MarmaladeIndexPlan@MarmaladeIndex
   break
   MyLeftFootPlan@MyLeftFoot
+  break
+  PicnicPlan@Picnic
+  break
+  P5Plan@P5
+  P6-P7Plan@P6-P7
   
  endmap
  
- map 5WaysMEIndex -title "5Ways_Extended_Elevation"
+ #map 5WaysMEIndex -title "5Ways_Extended_Elevation"
  
- 5WaysEntME@5WaysEnt
- TongaME@Tonga
- MarmaladeME@Marmalade
- MyLeftFootME@MyLeftFoot
+ #5WaysEntME@5WaysEnt
+ #TongaME@Tonga
+ #MarmaladeIndexME@MarmaladeIndex
+ #MyLeftFootME@MyLeftFoot
+ #PicnicME@Picnic
+ #P5ME@P5
+ #P6-P7ME@P6-P7
  
- endmap
+ #endmap
 
 ################# Equates #####################
 ###############################################
 
 
 
- equate 1.53@5WaysEnt 1.0@Tonga
- equate 1.20@Tonga    1.20@Marmalade
- equate 1.27@Marmalade 1.0@MyLeftFoot 
+ equate 1.53@5WaysEnt  1.0@Tonga
+ equate 1.20@Tonga     1.20@Marmalade.MarmaladeIndex
+ equate 1.27@Marmalade.MarmaladeIndex 1.0@MyLeftFoot
+ equate 1.5@MyLeftFoot 1.0@Picnic 
+ equate 1.6@Picnic 1.0@P5
+ equate 1.6@P5 1.0@P6-P7
  
- equate 73.3@5WaysEnt 74.2@Tonga
+ #equate 73.3@5WaysEnt #74.2@Tonga
 
  
 

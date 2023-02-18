@@ -1,0 +1,56 @@
+encoding  utf-8
+
+survey MarmaladeIndex
+
+#####Declination Therion Automatic From Individual Survey Dates####
+
+
+input Marmalade/Marmalade.th
+input Marmalade2/Marmalade2.th
+
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+join   MarmaladeSP1@Marmalade  Marmalade2SP1@Marmalade2
+join   MarmaladeSP1@Marmalade  Marmalade2SP2@Marmalade2
+join   MarmaladeSP1@Marmalade  Marmalade2SP3@Marmalade2
+
+
+
+####Line Joins####
+#join   Line1@StreamwayOfMerit:0     Line1@LeftInlet:end
+#join   Line2@StreamwayOfMerit:end   Line2@RightInlet:0
+#join   Line2@LeftInlet:0            Line1@RightInlet:end
+
+
+
+
+###################### MAP ####################
+
+map MarmaladeIndexPlan -title "Marmalade"
+  
+    MarmaladePlan@Marmalade
+    Marmalade2Plan@Marmalade2  
+endmap
+
+#map MarmaladeME -title "Marmalade Extended Elevation"
+   #MarmaladeME
+   #Marmalade2ME  
+#endmap
+
+################# Equates #####################
+###############################################
+
+
+centerline
+
+equate     1.21@Marmalade   1.0@Marmalade2
+
+
+endcenterline
+
+endsurvey
+

@@ -5,6 +5,16 @@ source 5WaysIndex.th
 
 #Surveys to output
 #-----------------
+select 5WaysIndex
+
+select 5WaysEnt.5WaysIndex
+select MarmaladeIndex.5WaysIndex
+select MyLeftFoot.5WaysIndex
+select Picnic.5WaysIndex
+select Tonga.5WaysIndex
+select P5.5WaysIndex
+
+
 
 export map -proj plan -layout local -o Output/5WaysIndex.pdf
 #Produces plan of cave, on a single sheet
@@ -13,7 +23,7 @@ export map -proj extended -layout local -o Output/5WaysEe.pdf
 
 #export map -o Output/5WaysIndex.kml
 
-#export model -fmt survex -o Output/5Ways.3d
+export model -fmt survex -o Output/5Ways.3d
 #Survex file showing centre line only
 
 #export model -o Output/5Ways.lox
@@ -42,10 +52,10 @@ colour map-fg altitude
 
 
   north grid
-  grid bottom
+  #grid bottom
   #grid top
-  grid-size 5 5 5 m
-  grid-coords all #border
+  #grid-size 5 5 5 m
+  #grid-coords all #border
   
   #rotate -90
   #map-header 100 100 ne
@@ -94,19 +104,19 @@ code tex-map
 \cavename={\size[40] 5 WAYS\medskip \size[20] Dowlass Moss Yorkshire\medskip \size[10] Survey Date 12.06.22 - 00.00.22} 
 endcode
 
-#map-comment "EXPLORATION BY THE CHUMS CONTINUES"
+map-comment "EXPLORATION BY THE CHUMS CONTINUES"
 
 
 
 ##Overide cave length and depth to remove surface leg data etc##
 #----------------------------------------------------------
 
-#code tex-map
-#    \topoteam{Simon Cornhill, Diane Arthurs, Chris Scaife, Chris Fox}
+code tex-map
+    \topoteam{Leck Fell Chums}
 #    \cavelength{229.86m}
 #    \cavedepth{63.55m}
 
-#endcode
+endcode
 
 
 endlayout

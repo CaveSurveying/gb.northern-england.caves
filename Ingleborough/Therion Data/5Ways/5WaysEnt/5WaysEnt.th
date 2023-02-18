@@ -47,7 +47,7 @@ copyright 2022 "GNU GPL"
   explo-date 2022.06.26
 
 data normal from to tape compass clino ignoreall
-  extend left
+  #extend left
 1.0  -  0.0  0.0  0.0  
 1.0  -  1.89  137.55  -19.48  
 1.0  -  2.957  231.69  0.36  
@@ -61,7 +61,7 @@ data normal from to tape compass clino ignoreall
 #1.0  1.1  2.127  135.52  -33.98  
 #1.0  1.1  2.128  135.42  -33.94  
 1.0  1.1  2.129  135.67  -34.01  Calculated leg from 3 above
-extend right
+#extend right
 #1.2  1.1  1.911  33.11  31.92  
 #1.2  1.1  1.911  33.35  31.99  
 #1.2  1.1  1.911  33.24  31.89  
@@ -109,7 +109,7 @@ extend right
 #1.2  1.3  2.859  104.31  -60.8  
 #1.2  1.3  2.862  104.47  -61.14  
 #1.2  1.3  2.873  104.45  -61.25  
-extend right
+#extend right
 1.2  1.3  2.865  104.39  -61.06  Calculated leg from 3 above
 1.3  -  0.233  355.06  -1.02  
 1.3  -  0.24  182.3  16.78  
