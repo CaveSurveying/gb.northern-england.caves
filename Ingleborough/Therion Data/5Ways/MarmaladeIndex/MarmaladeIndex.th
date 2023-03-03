@@ -7,6 +7,7 @@ survey MarmaladeIndex
 
 input Marmalade/Marmalade.th
 input Marmalade2/Marmalade2.th
+input BadgerPassage/BadgerPassage.th
 
 
 
@@ -14,9 +15,11 @@ input Marmalade2/Marmalade2.th
 ####Scrap Joins####
 ###################
 
-join   MarmaladeSP1@Marmalade  Marmalade2SP1@Marmalade2
-join   MarmaladeSP1@Marmalade  Marmalade2SP2@Marmalade2
-join   MarmaladeSP1@Marmalade  Marmalade2SP3@Marmalade2
+join   MarmaladeSP1@Marmalade    Marmalade2SP1@Marmalade2
+join   MarmaladeSP1@Marmalade    Marmalade2SP2@Marmalade2
+join   MarmaladeSP1@Marmalade    Marmalade2SP3@Marmalade2
+join   MarmaladeSP1@Marmalade    BadgerPassageSP1@BadgerPassage
+join   Marmalade2SP1@Marmalade2  BadgerPassageSP1@BadgerPassage     
 
 
 
@@ -33,7 +36,8 @@ join   MarmaladeSP1@Marmalade  Marmalade2SP3@Marmalade2
 map MarmaladeIndexPlan -title "Marmalade"
   
     MarmaladePlan@Marmalade
-    Marmalade2Plan@Marmalade2  
+    Marmalade2Plan@Marmalade2
+    BadgerPassage@BadgerPassage  
 endmap
 
 #map MarmaladeME -title "Marmalade Extended Elevation"
@@ -48,6 +52,7 @@ endmap
 centerline
 
 equate     1.21@Marmalade   1.0@Marmalade2
+equate     1.21@Marmalade    1.0@BadgerPassage
 
 
 endcenterline

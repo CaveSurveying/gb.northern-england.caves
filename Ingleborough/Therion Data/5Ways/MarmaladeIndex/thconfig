@@ -17,4 +17,5 @@ layout local
 debug off
 map-header 0 0 ne
 #symbol-hide group cave-centreline
+symbol-set BCRA
 endlayout

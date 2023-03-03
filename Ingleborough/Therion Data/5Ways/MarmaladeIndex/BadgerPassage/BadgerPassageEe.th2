@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -577.93 -170.6 3467.55 1023.62
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3001.17634204 1 1.0} {317.842274269 1.0} PocketTopo/BadgerPassage_e.xvi 0 {}
+
+
+scrap BadgerPassageSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BadgerPassageSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BadgerPassageSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -42,30 +42,6 @@ line wall
   2358.0 720.0
 endline
 
-point 2324.4541354969997 774.742362205 station -name 86.11
-
-point 2296.944135497 706.5123622049999 station -name 86.10
-
-point 2161.784135497 658.4123622049999 station -name 86.9
-
-point 1832.784135497 644.582362205 station -name 86.8
-
-point 1676.794135497 622.932362205 station -name 86.7
-
-point 1476.9641354970001 636.422362205 station -name 86.6
-
-point 1260.764135497 611.232362205 station -name 86.5
-
-point 1082.144135497 622.092362205 station -name 86.4
-
-point 887.314135497 607.432362205 station -name 86.3
-
-point 701.2041354969999 593.982362205 station -name 86.2
-
-point 416.234135497 620.122362205 station -name 86.1
-
-point 211.314135497 596.102362205 station -name 86.0
-
 endscrap
 
 
@@ -79,5 +55,4 @@ endscrap
 scrap Marmalade2SE3 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
-
 
