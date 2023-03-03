@@ -19,11 +19,11 @@ select P5.5WaysIndex
 export map -proj plan -layout local -o Output/5WaysIndex.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o Output/5WaysEe.pdf
+#export map -proj extended -layout local -o Output/5WaysEe.pdf
 
 #export map -o Output/5WaysIndex.kml
 
-export model -fmt survex -o Output/5Ways.3d
+#export model -fmt survex -o Output/5Ways.3d
 #Survex file showing centre line only
 
 #export model -o Output/5Ways.lox
@@ -34,17 +34,23 @@ export model -fmt survex -o Output/5Ways.3d
 
 layout local
 #copy CommonLayout
-#copy GB_Layout
+#layout GB_Layout
+
+
 base-scale 1 100
 scale 1 100
 symbol-set BCRA
+
 #debug station-names
 #debug on
 #legend on
 
 
 
+
 colour map-fg altitude
+#colour-legend discrete
+colour-legend off
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
 #colour map-fg [90 90 90] ##Light Grey##
@@ -101,7 +107,7 @@ symbol-hide point cave-station   #2. tells therion, that you want to show statio
 #-----------------------------------
 
 code tex-map
-\cavename={\size[40] 5 WAYS\medskip \size[20] Dowlass Moss Yorkshire\medskip \size[10] Survey Date 12.06.22 - 00.00.22} 
+\cavename={\size[40] 5 WAYS\medskip \size[20] Dowlass Moss Yorkshire\medskip \size[10] Survey Date 12.06.22 - 19.02.23} 
 endcode
 
 map-comment "EXPLORATION BY THE CHUMS CONTINUES"
