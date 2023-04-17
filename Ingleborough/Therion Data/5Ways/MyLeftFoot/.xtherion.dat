@@ -9,6 +9,6 @@ xth_cp_map_tree_insert map 1 56X1 p1 1 MyLeftFootPlan MyLeftFootPlan@MyLeftFoot 
 xth_cp_map_tree_insert map 1 57X1 p2 1 MyLeftFootME MyLeftFootME@MyLeftFoot "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 12 5
-set xth(th_exit_state) 2
-set xth(th_exit_number) 1672765406
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1681754024
 

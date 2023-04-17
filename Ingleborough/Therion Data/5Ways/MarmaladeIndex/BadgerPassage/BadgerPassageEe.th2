@@ -1,20 +1,124 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -577.93 -170.6 3467.55 1023.62
+##XTHERION## xth_me_area_adjust -136.0 -136.0 3330.3487245714 1079.4430700295998
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {3001.17634204 1 1.0} {317.842274269 1.0} PocketTopo/BadgerPassage_e.xvi 0 {}
+##XTHERION## xth_me_image_insert {1790.0163420399997 1 1.0} {352.432274269 1.4} PocketTopo/BadgerPassage_e.xvi 0 {}
 
 
-scrap BadgerPassageSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BadgerPassageSE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  490.0 624.0
+  490.0 624.0 484.0 726.0 482.0 732.0
+  480.0 738.0 488.0 788.0 488.0 788.0
+  smooth off
+endline
+
+line wall
+  716.0 742.0
+  706.0 798.0
+endline
+
+line wall
+  2904.0 356.0
+  2876.0 356.0 2344.0 364.0 2344.0 364.0
+  smooth off
+  2074.0 358.0
+  1790.0 368.0
+  1604.0 384.0
+  1376.0 412.0
+  1242.0 440.0
+  1242.0 440.0 1172.0 648.0 1166.0 652.0
+  1160.0 656.0 1096.0 642.0 1068.0 628.0
+  1040.0 614.0 988.0 580.0 988.0 580.0
+  smooth off
+  988.0 580.0 902.0 662.0 892.0 670.0
+  882.0 678.0 852.0 728.0 852.0 728.0
+  smooth off
+  716.0 742.0
+endline
+
+point 510.49634203999994 628.272274269 station -name 1.11
+
+point 669.2863420399999 618.202274269 station -name 1.10
+
+point 843.5963420399999 547.342274269 station -name 1.9
+
+point 992.3763420399998 443.582274269 station -name 1.8
+
+point 1173.5463420399997 407.142274269 station -name 1.7
+
+point 1351.6363420399998 363.382274269 station -name 1.6
+
+point 1605.3263420399999 351.432274269 station -name 1.5
+
+point 1790.0163420399997 352.432274269 station -name 1.4
+
+point 2065.3363420399996 342.082274269 station -name 1.3
+
+point 2369.7263420399995 345.142274269 station -name 1.2
+
+line wall -reverse on
+  2904.0 356.0
+  2928.0 358.0 2940.0 344.0 2940.0 344.0
+  smooth off
+  2940.0 344.0 2938.0 310.0 2932.0 306.0
+  2926.0 302.0 2878.0 312.0 2878.0 312.0
+  smooth off
+endline
+
+line rock-border
+  2904.0 356.0
+  2870.0 334.0 2894.0 316.0 2894.0 316.0
+  smooth off
+  2914.0 310.0
+endline
+
+line wall
+  490.0 624.0
+  658.0 610.0
+  658.0 610.0 802.0 572.0 804.0 558.0
+  806.0 544.0 818.0 480.0 818.0 480.0
+  smooth off
+  916.0 472.0
+  916.0 472.0 950.0 424.0 990.0 420.0
+  1030.0 416.0 1184.0 388.0 1184.0 388.0
+  smooth off
+  1184.0 388.0 1336.0 338.0 1344.0 338.0
+  1352.0 338.0 1602.0 324.0 1610.0 324.0
+  1618.0 324.0 2066.0 308.0 2066.0 308.0
+  smooth off
+  2148.0 300.0
+  2148.0 300.0 2294.0 324.0 2304.0 326.0
+  2314.0 328.0 2348.0 326.0 2356.0 322.0
+  2364.0 318.0 2390.0 302.0 2390.0 302.0
+  smooth off
+  2390.0 302.0 2442.0 128.0 2448.0 126.0
+  2454.0 124.0 2466.0 108.0 2492.0 134.0
+  2518.0 160.0 2578.0 218.0 2594.0 238.0
+  2610.0 258.0 2596.0 320.0 2612.0 320.0
+  2628.0 320.0 2664.0 308.0 2676.0 308.0
+  2688.0 308.0 2878.0 312.0 2878.0 312.0
+  smooth off
+endline
+
+point 2451.9863420399997 350.712274269 station -name 93.1
+
+point 2705.5263420399997 345.68227426899995 station -name 1.1
+
+point 3001.17634204 317.842274269 station -name 1.0
 
 endscrap
 
 
-scrap BadgerPassageSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BadgerPassageSE2 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap BadgerPassageSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BadgerPassageSE3 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

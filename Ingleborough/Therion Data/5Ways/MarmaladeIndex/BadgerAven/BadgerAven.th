@@ -1,0 +1,60 @@
+encoding  utf-8
+survey BadgerAven
+
+input BadgerAvenP.th2
+input BadgerAvenEe.th2
+
+map BadgerAvenM
+  BadgerAvenSP1
+  BadgerAvenSP2
+endmap
+
+map BadgerAvenME
+  BadgerAvenSE1
+  BadgerAvenSE2
+endmap
+centreline
+
+copyright 2023 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#
+
+  date 2023.04.02
+
+  team "Nick Bairstow" notes
+  team "Richard Hill" instruments
+  team "Nick Bairstow" dog
+
+  instrument  instruments "Nick Disto 3295"
+
+  explo-date 2023.04.02
+
+data normal from to tape compass clino ignoreall
+  extend right
+1.0  -  0.0  0.0  0.0  
+  extend left
+#1.0  1.1  2.329  142.14  -62.46  
+#1.0  1.1  2.332  142.21  -62.3  
+#1.0  1.1  2.332  142.34  -62.28  
+1.0  1.1  2.331  142.17  -62.34  Calculated leg from 3 above
+#1.1  1.2  3.221  170.55  -82.86  
+#1.1  1.2  3.213  170.3  -82.9  
+#1.1  1.2  3.213  171.92  -82.98  
+1.1  1.2  3.216  170.42  -82.91  Calculated leg from 3 above
+#1.2  1.3  4.671  9.55  -73.14  
+#1.2  1.3  4.679  9.61  -73.32  
+#1.2  1.3  4.688  8.75  -73.47  
+1.2  1.3  4.679  9.58  -73.31  Calculated leg from 3 above
+#1.3  1.4  12.434  168.15  -81.99  
+#1.3  1.4  12.451  168.06  -81.75  
+#1.3  1.4  12.438  168.21  -81.72  
+1.3  1.4  12.441  168.11  -81.82  Calculated leg from 3 above
+  extend right
+#1.0  10.0  20.0  0.0  90.0  
+#1.0  10.0  20.0  0.0  90.0  
+#1.0  10.0  20.0  0.0  90.0  
+1.0  10.0  20.0  0.0  90.0  Calculated leg from 3 above
+endcentreline
+endsurvey
+

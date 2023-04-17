@@ -9,16 +9,12 @@ source BadgerPassage.th
 export map -proj plan -layout local -o Output/BadgerPassage.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Output/BadgerPassageEe.pdf
+export map -proj extended -layout local -o Output/BadgerPassageEe.pdf
 
-#export model -fmt survex -o Output/BadgerPassageth.3d
+#export model -fmt survex -o Output/BadgerPassage.3d
 #Survex file showing centre line only
 
-#export model -o Output/BadgerPassage.lox
-#3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Output BadgerPassage_Walls.3d
-#Survex file showing walls only
 
 layout local
 debug off

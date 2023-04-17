@@ -1,0 +1,88 @@
+encoding  utf-8
+source BadgerAven.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+
+export map -proj extended -layout local -o Output/BadgerAvenEe.pdf
+
+
+layout local
+base-scale 1 300
+scale 1 200
+symbol-set BCRA
+#debug station-names
+#debug on
+#legend on
+
+#colour map-fg altitude
+#colour map-fg scrap
+#colour map-fg [97 86 38] ##Pale Yellow##
+#colour map-bg [90 90 90] ##Light Grey##
+
+
+north grid
+  grid bottom
+  #grid top
+  #grid-size 20 20 20 m
+  #grid-coords all #border
+  
+  #rotate -90
+  #map-header 100 100 ne
+  #transparency on
+  scale-bar 10 metres
+
+symbol-colour area water [25 50 100]
+#symbol-colour area sump [10 10 100]
+#symbol-colour area flowstone [20 20 20]
+symbol-colour line water-flow [22 22 95]
+#symbol-colour point water-flow  [22 22 95]
+symbol-colour group centerline [100 0 0]
+symbol-colour point station [0 0 0]
+
+#symbol-hide group centerline    #1. hides all centerline symbols from everywhere (stations and shots).
+#symbol-hide point cave-station  #2. tells therion, that you want to show stations in the cave. 
+                                 #But in fact point cave-station itself does not show any symbol. 
+                                 #It only specifies, that stations in the cave should be shown rather than surface stations. 
+
+
+#code tex-map
+#/topodate {25 October 2017}
+#endcode
+
+ 
+         
+ ####CODE TO PUT BORDER AROUND MAP####
+#-----------------------------
+
+#layout layoutMapBorder
+#code tex-map
+ #\framethickness=0.5mm
+#endlayout #LayoutMapBorder
+
+###############OVERIDES##############
+
+##Overide Therion Map Header Data###
+#-----------------------------------
+
+#code tex-map
+#\cavename={Tom Taylors Cave\medskip \size[30] How Stean Gorge\medskip \size[30]North Yorkshire} 
+#endcode
+
+#map-comment "How Stean Gorge"
+
+
+##Overide cave length and depth to remove surface leg data##
+#----------------------------------------------------------
+
+#code tex-map
+    #\topoteam{BSD}
+   #\cavelength{164m}
+   #\cavedepth{12m}
+#endcode
+
+
+endlayout

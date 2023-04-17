@@ -9,6 +9,6 @@ xth_cp_map_tree_insert map 1 69X1 p1 1 5WaysEntPlan 5WaysEntPlan@5WaysEnt "" ""
 xth_cp_map_tree_insert map 1 70X1 p2 1 5WaysEntME 5WaysEntME@5WaysEnt "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 17 6
-set xth(th_exit_state) 2
-set xth(th_exit_number) 1672764458
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1681752331
 

@@ -18,11 +18,11 @@ input P6-P7/P6-P7.th
 join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
 #join TongaSP3@Tonga MarmaladeSP1@Marmalade
 
-####ME Joins####
+####Extended Elevation Joins####
 join 5WaysEntSE2@5WaysEnt                      TongaSE1@Tonga
 join 5WaysEntSE1@5WaysEnt                      TongaSE1@Tonga
 join TongaSE2@Tonga                            MarmaladeSE1@Marmalade.MarmaladeIndex
-#join MarmaladeSE1@Marmalade.MarmaladeIndex    MyLeftFootSE1@MyLeftFoot
+join MarmaladeSE1@Marmalade.MarmaladeIndex     MyLeftFootSE1@MyLeftFoot
 join MyLeftFootSE1@MyLeftFoot PicnicSE1@Picnic
 
 
@@ -51,17 +51,17 @@ map 5WaysIndex -title "5WaysPlan"
   
  endmap
  
- #map 5WaysMEIndex -title "5Ways_Extended_Elevation"
+ map 5WaysIndexME -title "5Ways_Extended_Elevation"
  
- #5WaysEntME@5WaysEnt
- #TongaME@Tonga
- #MarmaladeIndexME@MarmaladeIndex
- #MyLeftFootME@MyLeftFoot
+ 5WaysEntME@5WaysEnt
+ TongaME@Tonga
+ MarmaladeIndexME@MarmaladeIndex
+ MyLeftFootME@MyLeftFoot
  #PicnicME@Picnic
  #P5ME@P5
  #P6-P7ME@P6-P7
  
- #endmap
+ endmap
 
 ################# Equates #####################
 ###############################################

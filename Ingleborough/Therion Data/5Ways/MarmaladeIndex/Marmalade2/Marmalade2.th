@@ -12,11 +12,10 @@ map Marmalade2Plan
   
 endmap
 
-map Marmalade2ME
-  Marmalade2SE1
-  Marmalade2SE2
-  Marmalade2SE3
-endmap
+#map Marmalade2ME
+  #Marmalade2SE1
+#endmap
+
 centreline
 
 copyright 2023 "GNU GPL"
