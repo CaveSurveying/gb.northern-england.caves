@@ -19,9 +19,9 @@ select P5.5WaysIndex
 export map -proj plan -layout local -o Output/5WaysIndex.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o Output/5WaysEe.pdf
+#export map -proj extended -layout local -o Output/5WaysEe.pdf
 
-export map -o Output/5WaysIndex.kml
+#export map -o Output/5WaysIndex.kml
 
 #export model -fmt survex -o Output/5Ways.3d
 #Survex file showing centre line only
