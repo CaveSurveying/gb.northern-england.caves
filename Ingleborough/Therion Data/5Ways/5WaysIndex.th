@@ -23,7 +23,9 @@ join 5WaysEntSE2@5WaysEnt                      TongaSE1@Tonga
 join 5WaysEntSE1@5WaysEnt                      TongaSE1@Tonga
 join TongaSE2@Tonga                            MarmaladeSE1@Marmalade.MarmaladeIndex
 join MarmaladeSE1@Marmalade.MarmaladeIndex     MyLeftFootSE1@MyLeftFoot
-join MyLeftFootSE1@MyLeftFoot PicnicSE1@Picnic
+join MyLeftFootSE1@MyLeftFoot                  PicnicSE1@Picnic
+join PicnicSE1@Picnic                          P5SE1@P5
+join P5SE1@P5                                  P6-P7SE1@P6-P7
 
 
 ####Line Joins####
@@ -57,9 +59,9 @@ map 5WaysIndex -title "5WaysPlan"
  TongaME@Tonga
  MarmaladeIndexME@MarmaladeIndex
  MyLeftFootME@MyLeftFoot
- #PicnicME@Picnic
- #P5ME@P5
- #P6-P7ME@P6-P7
+ PicnicME@Picnic
+ P5ME@P5
+ P6-P7ME@P6-P7
  
  endmap
 

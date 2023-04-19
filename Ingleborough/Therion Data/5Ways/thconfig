@@ -16,7 +16,7 @@ select P5.5WaysIndex
 
 
 
-#export map -proj plan -layout local -o Output/5WaysIndex.pdf
+export map -proj plan -layout local -o Output/5WaysIndex.pdf
 #Produces plan of cave, on a single sheet
 
 export map -proj extended -layout local -o Output/5WaysEe.pdf
@@ -38,7 +38,7 @@ layout local
 
 
 base-scale 1 200
-scale 1 200
+scale 1 300
 symbol-set BCRA
 
 #debug station-names
@@ -48,13 +48,13 @@ symbol-set BCRA
 
 
 
-#colour map-fg altitude
+colour map-fg altitude
 #colour-legend discrete
 #colour-legend off
 #colour map-fg scrap
-colour map-fg [97 86 38] ##Pale Yellow##
+#colour map-fg [97 86 38] ##Pale Yellow##
 #colour map-fg [90 90 90] ##Light Grey##
-colour map-bg [90 90 90] ##Light Grey##
+#colour map-bg [90 90 90] ##Light Grey##
 
 
   north grid
