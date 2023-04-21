@@ -179,6 +179,7 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *INCLUDE PilgrimPot\PilgrimPot
 *INCLUDE BleaDubsPot\BleaDubsPot
 *INCLUDE KalePot\KalePot
+*INCLUDE CheesePressStoneDig\CheesePressStoneDig
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; Witches Cave and surrounding area (some entrances to be tied in with the rest of the surface survey)
@@ -253,9 +254,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *FIX Brolly_Pot REFERENCE 68540 76970 402
 *ENTRANCE Brolly_Pot
-
-*FIX CheesePressStone_Dig REFERENCE 68790 76090 370
-*ENTRANCE CheesePressStone_Dig
 
 *FIX CreakingDeath_Pot REFERENCE 68890 76480 393
 *ENTRANCE CreakingDeath_Pot

@@ -1,0 +1,15 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -100.0 -100.0 100.0 100.0
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {0.00 1 1.0} {0.00 0} Keld_Nook_Cave-1s.xvi 0 {}
+
+# 2023.04.05 created by TopoDroid v. 6.1.56
+
+scrap Keld_Nook_Cave-1s -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
+
+
+
+
+
+endscrap
+

@@ -11,6 +11,7 @@
 *include KMC/Old_KMC
 *include KMC/KMC
 *include Swinsto/Swinsto
+*INCLUDE KeldNookCave/KeldNookCave
 *include TurbaryPot/TurbaryPot
 *include RowtenCaves/RowtenCaves		
 *include Yordas/Yordas_old				;old innacurate/incomplete survey - to be replaced
@@ -22,12 +23,13 @@
 *include RowtenPot/RowtenPot
 *include JinglingPot/JinglingPot
 *include BullPot/BullPot
-*include Aquamole/AquamolePot_Resurvey
+*include SlantingCave/SlantingCave-recon
+
 ; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
 
 *equate Old_KMC.roof_tunnel.002	kdgps.vent
 *equate KMC.ValleyEntrance.0	kdgps.vent
-*equate	Aquamole.main.25 upstreamsumps.pt1.0
+
 ;*equate KMC.PhilosophersCrawl2.15	Old_KMC.Master_Cave.106		;removed 
 *equate Old_KMC.Roof_Tunnel.052		KMC.KingsdaleMC1.1
 *equate TurbaryPot.entrance kdgps.3c18
@@ -36,11 +38,11 @@
 *equate Rowtencaves.rowtencave_surface.5hex	kdgps.3c21
 *equate	Rowtencaves.jinglingcavetop.1	kdgps.3c22	
 
-
 *equate JinglingPot.1.0   kdgps.3c22
 *equate Bullpot.1.23	kdgps.3c23
-*equate AquamolePot_Resurvey.1.0 kdgps.3c22
-*equate	Aquamole.main.1 AquamolePot_Resurvey.1.5
+
+*equate	 Aquamole.Aquamole3.4 upstreamsumps.pt1.0
+*EQUATE  Aquamole.Aquamole1.1.0 kdgps.3c22
 
 *equate	kdgps.3c26	Yordas1.ext
 
@@ -104,9 +106,6 @@
 *FIX Fag_Pot REFERENCE 69230 77080 384
 *ENTRANCE Fag_Pot
 
-*FIX KeldNook_Cave REFERENCE 69240 76740 366
-*ENTRANCE KeldNook_Cave
-
 *FIX KeldNook_Pot REFERENCE 69180 76770 372
 *ENTRANCE KeldNook_Pot
 
@@ -139,9 +138,6 @@
 
 *FIX Simpson_Pot REFERENCE 69620 77870 376
 *ENTRANCE Simpson_Pot
-
-*FIX Slanting_Cave REFERENCE 70510 79250 353
-*ENTRANCE Slanting_Cave
 
 *FIX Sloping_Cave REFERENCE 70410 79100 351
 *ENTRANCE Sloping_Cave

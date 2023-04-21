@@ -1,0 +1,45 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -85.8 -69.2 115.8 139.2
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {13.18 1 1.0} {22.97 0} Keld_Nook_Cave-1p.xvi 0 {}
+
+# 2023.04.05 created by TopoDroid v. 6.1.56
+
+scrap Keld_Nook_Cave-1p -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line pit
+  14.75 39.19
+  13.23 38.00 10.60 31.35 14.17 30.84
+  17.15 30.42 17.12 36.74 15.80 38.08
+endline
+
+
+line splay -visibility off
+  16.76 32.92
+  -5.73 33.64
+endline
+line splay -visibility off
+  16.76 32.92
+  13.61 27.43
+endline
+line splay -visibility off
+  16.76 32.92
+  -6.22 36.13
+endline
+line splay -visibility off
+  16.76 32.92
+  -3.26 23.11
+endline
+line splay -visibility off
+  16.76 32.92
+  3.40 27.27
+endline
+line splay -visibility off
+  16.76 32.92
+  -16.93 27.61
+endline
+
+
+
+endscrap
+

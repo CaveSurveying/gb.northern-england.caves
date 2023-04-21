@@ -1,0 +1,14 @@
+Master_Cave.17		st17=tag in roof above crawl through wet bedding to East Entrance
+
+KingsdaleMC2.15x	footlegs rock two soot 
+15x = 7.83 0 1.13 0.72 ;footlegs rock two soot 
+
+
+RowtenPassage.32	Lower of two points on rock marked with soot
+32 = 0 6.5 1.4 1.2	RHS of east passage
+
+KMC
+KingsdaleMC2.15x	;this is to tie in all surveys into st17=tag in roof above crawl through wet bedding to East Entrance
+
+
+
