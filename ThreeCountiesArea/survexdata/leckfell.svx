@@ -180,6 +180,7 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *INCLUDE BleaDubsPot\BleaDubsPot
 *INCLUDE KalePot\KalePot
 *INCLUDE CheesePressStoneDig\CheesePressStoneDig
+*INCLUDE RapunzelPot1\RapunzelPot1
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; Witches Cave and surrounding area (some entrances to be tied in with the rest of the surface survey)
@@ -281,9 +282,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 
 *FIX NorthEndQuarry_Cave REFERENCE 68060 76730 372
 *ENTRANCE NorthEndQuarry_Cave
-
-*FIX Rapunzel_Pot1 REFERENCE 69010 76690 373
-*ENTRANCE Rapunzel_Pot1
 
 *FIX Rapunzel_Pot2 REFERENCE 69030 76700 373
 *ENTRANCE Rapunzel_Pot2
