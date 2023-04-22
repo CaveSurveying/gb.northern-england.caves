@@ -31,6 +31,14 @@ line wall
   260.0 724.0
 endline
 
+point 112.0 1428.0 water-flow -orientation 178.0
+
+point 280.0 2556.0 water-flow -orientation 178.0
+
+point 428.0 1348.0 label -align bottom-right -text [Blind At 42m Hight] -scale s
+
+point 428.0 1528.0 label -scale l -align bottom-right -text [Badger Aven ]
+
 point 397.74520433 3642.3384985599996 station -name 10.0
 
 point 36.155204330000004 331.1184985599998 station -name 1.4

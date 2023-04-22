@@ -49,11 +49,21 @@ line rock-edge
   smooth off
 endline
 
+point 300.0 832.0 label -text [Some Passage Left Out For Clarity] -scale s
+
 line wall -reverse on -subtype presumed
-  1488.0 798.0
-  1456.0 824.0 1438.0 800.0 1408.0 800.0
+  1502.0 782.0
+  1470.0 808.0 1438.0 800.0 1408.0 800.0
   1378.0 800.0 1238.0 810.0 1206.0 818.0
   1174.0 826.0 1030.0 798.0 1030.0 798.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  1544.0 778.0
+  1548.0 802.0
+  1548.0 802.0 1592.0 802.0 1606.0 804.0
+  1620.0 806.0 1676.0 806.0 1676.0 806.0
   smooth off
 endline
 
@@ -64,7 +74,7 @@ line wall -reverse on -subtype presumed
   1154.0 910.0 1182.0 878.0 1192.0 866.0
   1202.0 854.0 1328.0 846.0 1350.0 846.0
   1372.0 846.0 1420.0 846.0 1454.0 852.0
-  1523.27 864.22 1542.0 826.0 1542.0 826.0
+  1523.27 864.22 1674.0 860.0 1674.0 860.0
   smooth off
 endline
 
@@ -96,6 +106,10 @@ line wall
   1128.0 1242.0
   1118.0 1186.0
 endline
+
+point 314.0 1646.0 water-flow -orientation 179.0
+
+point 302.0 1008.0 label -text [Marmalade Series] -scale xl
 
 point 1707.751209809 362.28678231000004 station -name 1.27
 

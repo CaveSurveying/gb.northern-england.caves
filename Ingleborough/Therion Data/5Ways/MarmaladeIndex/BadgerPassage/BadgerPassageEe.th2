@@ -38,6 +38,8 @@ line wall
   716.0 742.0
 endline
 
+point 1750.0 506.0 label -text [Badger Passage] -scale l
+
 point 510.49634203999994 628.272274269 station -name 1.11
 
 point 669.2863420399999 618.202274269 station -name 1.10

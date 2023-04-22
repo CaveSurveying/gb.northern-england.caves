@@ -19,6 +19,7 @@ line wall
   784.0 632.0 800.0 650.0 840.0 650.0
   934.85 650.0 1012.0 656.0 1086.0 640.0
   1160.0 624.0 1296.0 600.0 1314.0 586.0
+  smooth off
 endline
 
 line wall -id Line2
@@ -30,6 +31,8 @@ line wall -id Line2
   smooth off
 endline
 
+point 1026.0 1620.0 label -scale l -align bottom-right -text [Picnic Pitch 18m]
+
 line wall -id Line1
   1348.0 714.0
   1342.0 716.0 1196.0 730.0 1184.0 726.0
@@ -38,6 +41,7 @@ line wall -id Line1
   1018.0 1070.0 1028.0 1310.0 1022.0 1322.0
   1016.0 1334.0 820.0 1732.0 804.0 1792.0
   788.0 1852.0 638.0 1916.0 644.0 1936.0
+  smooth off
 endline
 
 point 1307.867322835 705.8903937 station -name 1.6
