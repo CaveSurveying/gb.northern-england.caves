@@ -67,10 +67,10 @@ colour-legend off
   grid-coords all #border
   
   #rotate -90
-  map-header 45 90 nw ####45 90 ne####plan 
+  map-header 45 95 nw ####45 90 ne####plan 
   
   
-  transparency on
+  #transparency on
   opacity 60
   scale-bar 10 metres
 
