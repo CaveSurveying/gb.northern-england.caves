@@ -50,7 +50,7 @@ symbol-set BCRA
 
 colour map-fg altitude
 #colour-legend discrete
-#colour-legend off
+colour-legend off
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
 #colour map-fg [90 90 90] ##Light Grey##
@@ -64,8 +64,8 @@ colour map-fg altitude
   #grid-coords all #border
   
   #rotate -90
-  map-header 60 80 ne  ####plan####
-  #map-header 100 90 ne ####elevation####
+  map-header 55 90 ne
+  
   
   transparency on
   scale-bar 10 metres
