@@ -13,6 +13,7 @@ select MyLeftFoot.5WaysIndex
 select Picnic.5WaysIndex
 select Tonga.5WaysIndex
 select P5.5WaysIndex
+select P6-P7.5WaysIndex
 
 
 
@@ -49,7 +50,8 @@ symbol-set BCRA
 
 
 colour map-fg altitude
-#colour-legend discrete
+colour-legend smooth
+#colout-ledgend discrete
 colour-legend off
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
@@ -64,10 +66,11 @@ colour-legend off
   #grid-coords all #border
   
   #rotate -90
-  map-header 55 90 ne
+  map-header 45 90 ne
   
   
   transparency on
+  opacity 60
   scale-bar 10 metres
 
 symbol-colour area water [25 50 100]

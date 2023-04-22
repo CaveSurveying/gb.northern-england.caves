@@ -21,14 +21,14 @@ line arrow
   406.0 423.0
 endline
 
-point 503.0 420.5 label -scale l -text P4
+point 503.0 420.5 label -scale l -text [1st Pitch 4m] -align bottom-right
 
 line arrow
-  364.5 610.5
+  391.0 615.5
   323.0 546.0
 endline
 
-point 374.5 633.5 label -text Entrance -scale l
+point 402.0 631.0 label -text Entrance -scale l
 
 line floor-step -close on
   287.5 484.0
@@ -242,15 +242,29 @@ endscrap
 
 scrap 5WaysEntSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line pit
+line floor-step
+  404.5 441.5
+  395.0 424.5
+  392.0 417.5
+  382.0 419.0
+  382.0 419.0 377.5 408.5 380.0 407.0
+  382.5 405.5 389.5 406.0 392.0 407.5
+  394.5 409.0 409.0 417.5 409.0 417.5
+  smooth off
+endline
+
+line pit -outline in
+endline
+
+line pit -outline in
   448.0 501.0
   442.0 493.0 424.0 470.5 420.0 465.5
   416.0 460.5 407.5 447.0 404.5 441.5
-  401.11 435.29 382.0 419.0 383.0 414.0
-  384.0 409.0 402.78 418.54 409.0 417.5
-  412.0 417.0 424.5 438.0 426.5 442.0
-  428.5 446.0 434.5 454.5 440.5 465.5
-  446.5 476.5 459.0 495.0 459.0 495.0
+  401.11 435.29 402.0 435.0 403.0 430.0
+  404.0 425.0 402.78 418.54 409.0 417.5
+  412.0 417.0 423.0 439.5 425.0 443.5
+  427.0 447.5 430.5 454.0 436.5 465.0
+  442.5 476.0 459.0 495.0 459.0 495.0
   smooth off
 endline
 

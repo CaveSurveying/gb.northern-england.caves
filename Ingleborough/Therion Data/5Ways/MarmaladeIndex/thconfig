@@ -6,6 +6,12 @@ source MarmaladeIndex.th
 #Surveys to output
 #-----------------
 
+select MarmaladeIndex
+select BadgerPassage.MarmaladeIndex
+select Marmalade.MarmaladeIndex
+select Marmalade2.MarmaladeIndex
+
+
 export map -proj plan -layout local -o Output/MarmaladeIndex.pdf
 #Produces plan of cave, on a single sheet
 

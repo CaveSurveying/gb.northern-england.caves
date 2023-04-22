@@ -5,10 +5,26 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+<<<<<<< .mine
+xth_cp_map_tree_insert map 1 89X1 p1 1 BadgerPassagePlan BadgerPassagePlan@BadgerPassage "" ""
+xth_cp_map_tree_insert map 1 90X1 p2 1 BadgerPassageME BadgerPassageME@BadgerPassage "" ""
+||||||| .r3454
+xth_cp_map_tree_insert map 1 69X1 p1 1 BadgerPassagePlan BadgerPassagePlan@BadgerPassage "" ""
+xth_cp_map_tree_insert map 1 70X1 p2 1 BadgerPassageME BadgerPassageME@BadgerPassage "" ""
+=======
 xth_cp_map_tree_insert map 1 114X1 p1 1 BadgerPassagePlan BadgerPassagePlan@BadgerPassage "" ""
 xth_cp_map_tree_insert map 1 115X1 p2 1 BadgerPassageME BadgerPassageME@BadgerPassage "" ""
+>>>>>>> .r3460
 xth_cp_map_tree_create
 xth_cp_comp_stat 33 7
+<<<<<<< .mine
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1677856235
+||||||| .r3454
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1676999261
+=======
 set xth(th_exit_state) 1
 set xth(th_exit_number) 1681746911
+>>>>>>> .r3460
 
