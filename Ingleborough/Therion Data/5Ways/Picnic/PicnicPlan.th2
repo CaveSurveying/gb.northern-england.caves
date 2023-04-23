@@ -147,7 +147,7 @@ endline
 
 point 391.974839319 987.2409448820001 station -name 1.5
 
-point 253.0 1335.0 label -text [Pitch 5 6.5m] -align bottom-right
+point 253.0 1335.0 label -align bottom-right -text [Stone Age Pitch 6.5m]
 
 line arrow
   254.0 1295.0

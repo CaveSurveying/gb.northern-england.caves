@@ -17,10 +17,10 @@ select P6-P7.5WaysIndex
 
 
 
-#export map -proj plan -layout local -o Output/5WaysIndex.pdf
+export map -proj plan -layout local -o Output/5WaysIndex.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o Output/5WaysEe.pdf
+#export map -proj extended -layout local -o Output/5WaysEe.pdf
 
 #export map -o Output/5WaysIndex.kml
 
@@ -37,10 +37,14 @@ layout local
 #copy CommonLayout
 #layout GB_Layout
 
-####scales 100 100 for plan####
+####plan####
+base-scale 1 100
+scale 1 100
 
-base-scale 1 400
-scale 1 400
+####Extended Elevation####
+#base-scale 1 400
+#scale 1 400
+
 symbol-set BCRA
 
 #debug station-names
@@ -61,16 +65,21 @@ colour-legend off
 
 
   north grid
-  grid bottom
+  #grid bottom
   #grid top
   #grid-size 5 5 5 m
-  grid-coords all #border
+  #grid-coords all #border
   
   #rotate -90
-  map-header 45 95 nw ####45 90 ne####plan 
+  
+  ####Plan####
+  map-header 45 90 ne
+  
+  ####Extended Elevation####
+  #map-header 45 95 nw 
   
   
-  #transparency on
+  transparency on
   opacity 60
   scale-bar 10 metres
 

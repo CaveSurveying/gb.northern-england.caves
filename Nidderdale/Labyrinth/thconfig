@@ -75,7 +75,7 @@ symbol-colour group centerline [100 0 0]          ##Red##
 symbol-show group centerline             # 1. Hides all centerline and survey station symbols in cave.
 #symbol-hide point cave-station           # 2. Hides all survey stations in the cave but not centerline.                                                         
                                  
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 
 ####Add Topo Date to map####
 #-------------------------------------------

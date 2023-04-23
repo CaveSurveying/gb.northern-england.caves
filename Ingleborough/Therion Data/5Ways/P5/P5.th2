@@ -50,11 +50,11 @@ line arrow
   121.0 379.5
 endline
 
-point 207.5 396.0 label -align bottom-right -text [Daves Pitch 7m]
+point 207.5 396.0 label -align bottom-right -text [Deceiver Pitch 7m]
 
-line pit -reverse on -outline in
-  94.0 424.0
-  96.5 422.5 114.0 409.5 115.0 406.5
+line pit -close off -reverse on -outline in
+  106.0 416.0
+  108.5 414.5 114.0 409.5 115.0 406.5
   116.0 403.5 125.5 385.0 127.0 383.0
   128.5 381.0 127.0 364.5 129.5 362.0
   132.0 359.5 137.0 343.5 139.0 341.0
@@ -67,8 +67,9 @@ line pit -reverse on -outline in
   135.5 324.5 126.5 353.5 125.0 355.5
   123.5 357.5 105.5 390.5 105.5 390.5
   smooth off
-  93.0 409.0
-  83.5 419.0
+  105.5 390.5 95.75 402.51 95.0 408.5
+  92.5 428.5 106.0 416.0 106.0 416.0
+  smooth off
 endline
 
 line floor-step

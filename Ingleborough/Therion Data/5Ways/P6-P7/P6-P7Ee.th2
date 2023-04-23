@@ -47,7 +47,7 @@ point 1086.0 210.0 water-flow -orientation 93.1
 
 point 498.0 790.0 label -align bottom-left -scale l -text [Pincher Pitch 12m]
 
-point 110.0 1258.0 label -align bottom-left -scale l -text [Daves Pitch 7m]
+point 110.0 1334.0 label -align bottom-left -scale l -text [Deceiver Pitch 7m]
 
 line wall
   154.0 1388.0

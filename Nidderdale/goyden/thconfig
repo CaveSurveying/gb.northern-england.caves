@@ -23,12 +23,13 @@ export map -proj plan -layout local -o ../output/GoydenOutput/Goyden.pdf
 #Survex file showing walls only
 
 #export model -o ../output/GoydenOutput/Goyden.kml
-export map -o ../output/GoydenOutput/Goyden.kml
+#export map -o ../output/GoydenOutput/Goyden.kml
 
-layout local+
+layout local
 debug off
 
 #colour map-bg 90
+symbol-colour area water [25 50 100]
 #grid top
 map-header 0 0 ne
 #symbol-hide group cave-centreline

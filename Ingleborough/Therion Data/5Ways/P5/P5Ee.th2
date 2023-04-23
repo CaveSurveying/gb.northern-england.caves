@@ -38,7 +38,7 @@ line wall
   smooth off
 endline
 
-point 82.0 924.0 label -scale l -text [Pitch 5 6.5m]
+point -112.0 920.0 label -scale l -text [Stone Age Pitch 6.5m]
 
 line wall
   190.0 1178.0
