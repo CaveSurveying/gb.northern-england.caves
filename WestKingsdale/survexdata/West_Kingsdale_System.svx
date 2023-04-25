@@ -24,6 +24,7 @@
 *include JinglingPot/JinglingPot
 *include BullPot/BullPot
 *include SlantingCave/SlantingCave-recon
+*include CraftsmansPot/CraftsmansPot-recon
 
 ; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
 
@@ -93,9 +94,6 @@
 
 *FIX Cow_Pot REFERENCE 70220 78730 357
 *ENTRANCE Cow_Pot
-
-*FIX Craftsmans_Pot REFERENCE 70230 78860 366
-*ENTRANCE Craftsmans_Pot
 
 *FIX DoubleThree_Pot REFERENCE 69460 77620 384
 *ENTRANCE DoubleThree_Pot
