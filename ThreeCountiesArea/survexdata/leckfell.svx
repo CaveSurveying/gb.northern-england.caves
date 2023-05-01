@@ -17,6 +17,7 @@
 *include Surface/threecountiesgpskdixon2012     ; note this is 3cgps survex file that most entrances use
 *INCLUDE Surface/Yeadon_Pipikin_Surface_Survey
 *INCLUDE Surface/LambTrap-to-WeePot
+*INCLUDE Surface/MoholeToPilgrimPot
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;Nott2 and LostJohns area
@@ -175,6 +176,9 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include NorthEndPot/NorthEndPotUnderground
 *equate NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
 
+*EQUATE	MoholeToPilgrimPot.6	3cgps.031
+*EQUATE	MoholeToPilgrimPot.15	PilgrimPot.entrance	
+*EQUATE	MoholeToPilgrimPot.1	BleaDubsPot.entrance
 *INCLUDE SkylarkPot\SkylarkPot
 *INCLUDE PilgrimPot\PilgrimPot
 *INCLUDE BleaDubsPot\BleaDubsPot

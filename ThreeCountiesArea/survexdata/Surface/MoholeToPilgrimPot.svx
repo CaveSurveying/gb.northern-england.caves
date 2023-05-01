@@ -1,0 +1,30 @@
+; Surface survey from Mohole to PilgrimPot and Blea Dubs
+; Instrument: DistoX2 2983 - SM-N910F
+
+*BEGIN MoholeToPilgrimPot
+  *date 2020.08.30 
+  *team "Diane Arthurs, Simon Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+
+  
+*DATA normal from to tape compass clino
+*FLAGS surface
+    1 2   1.63 167.9 56.5	;1 = blea Dubs entrance
+    2 3   6.04 107.7 2.7
+    3 4   5.44 176.9 10.4
+    4 5   6.51 208.8 -0.4
+    5 15   6.18 192.5 -36.5
+    6 7   5.56 359.6 33.2	;6 = Mohole Tag
+    7 8   4.96 64.0 11.4
+    8 9   9.74 90.3 1.7
+    9 10   9.15 90.5 -1.3
+    10 11   10.07 90.3 -1.3
+    11 12   9.48 82.4 -2.2
+    12 13   7.49 67.7 -9.2
+    13 14   4.70 62.1 -22.1
+    14 15   5.43 19.6 -33.5	;15 = Pilgrim Pot Entrance
+*FLAGS not surface	
+
+*END MoholeToPilgrimPot
