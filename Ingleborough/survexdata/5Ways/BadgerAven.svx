@@ -1,0 +1,37 @@
+; 2023.05.08 created by TopoDroid v 6.1.31
+; BadgerAven
+; Instrument: ONEPLUS A5000
+
+*begin BadgerAven 
+
+*EXPORT	4
+
+  *date 2023.05.08 
+  *team ""Nick Bairstow" notes "Richard Hill" instruments "Nick Bairstow" dog" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.00 0.0 0.0
+  *flags not splay
+    0 1   2.33 142.2 -62.3
+    1 2   3.22 170.4 -82.9
+    2 3   4.68 9.6 -73.3
+    3 4   12.44 168.1 -81.8
+    0 10   20.00 180.0 90.0
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+3  0.00 0.00 0.00 0.00
+4  0.00 0.00 0.00 0.00
+2  0.00 0.00 0.00 0.00
+1  0.00 0.00 0.00 0.00
+0  0.00 0.00 0.00 0.00
+10  0.00 0.00 0.00 0.00
+
+*end BadgerAven

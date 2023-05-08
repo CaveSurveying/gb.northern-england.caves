@@ -1,0 +1,110 @@
+; 2023.05.08 created by TopoDroid v 6.1.31
+; P6-P7
+; Instrument: ONEPLUS A5000
+
+*begin P6-P7 
+
+*EXPORT 0
+
+  *date 2023.05.08 
+  *team "Nick Notes, Chris Scaife instruments" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.00 0.0 0.0
+  *flags not splay
+    0 1   6.94 263.1 -85.6
+  *flags splay
+  1 1a 0.23 251.3 22.1
+  1 1ba 0.75 54.3 2.0
+  1 1bb 6.80 65.4 86.4
+  1 1bc 0.95 157.2 8.8
+  1 1bd 1.47 140.7 7.9
+  1 1be 1.24 118.8 5.8
+  1 1bf 1.75 336.6 21.1
+  1 1bg 3.14 353.6 17.7
+  1 1bh 1.29 352.0 -4.5
+  1 1bi 2.08 6.6 11.0
+  1 1bj 1.08 22.2 27.8
+  *flags not splay
+    1 2   2.74 351.8 37.1
+  *flags splay
+  2 2a 1.03 92.6 5.0
+  2 2ba 3.05 17.0 -84.8
+  2 2bb 3.60 98.4 80.5
+  2 2bc 1.20 45.2 -1.0
+  2 2bd 2.27 16.6 -0.8
+  2 2be 2.99 8.6 1.8
+  2 2bf 0.77 356.3 2.7
+  2 2bg 2.55 359.5 8.1
+  2 2bh 4.38 8.6 -21.0
+  *flags not splay
+    2 3   2.20 15.1 -6.3
+  *flags splay
+  3 3a 0.49 293.5 -11.3
+  3 3ba 1.23 328.0 71.5
+  3 3bb 7.37 230.3 -86.3
+  3 3bc 3.12 9.3 -47.9
+  *flags not splay
+    3 4   6.50 356.9 -74.3
+  *flags splay
+  4 4a 0.40 299.7 20.0
+  4 4ba 0.50 105.7 4.6
+  4 4bb 5.46 87.8 86.4
+  4 4bc 5.63 77.5 -82.3
+  4 4bd 1.24 221.1 -1.7
+  4 4be 2.12 199.9 -3.2
+  4 4bf 3.26 189.8 -1.0
+  4 4bg 0.98 169.7 6.3
+  4 4bh 2.03 178.3 3.2
+  4 4bi 1.90 191.4 -40.6
+  4 4bj 0.88 63.1 2.9
+  4 4bk 1.71 41.0 2.1
+  4 4bl 0.44 22.7 14.6
+  4 4bm 1.35 33.0 8.7
+  *flags not splay
+    4 5   5.84 43.3 -71.6
+  *flags splay
+  5 5a 1.00 298.9 21.2
+  5 5ba 0.83 110.8 -1.0
+  5 5bb 1.63 200.6 9.1
+  5 5bc 1.98 213.7 9.9
+  5 5bd 1.14 246.1 15.8
+  5 5be 0.90 270.1 13.6
+  5 5bf 1.84 306.9 63.4
+  5 5bg 1.03 16.4 37.9
+  5 5bh 1.16 124.8 20.0
+  5 5bi 1.83 144.7 14.9
+  5 5bj 3.29 150.7 13.3
+  5 5bk 4.31 160.1 9.6
+  5 5bl 2.90 174.1 14.5
+  *flags not splay
+    5 6   0.71 288.4 27.4
+  *flags splay
+  6 6a 0.90 286.9 -11.5
+  6 6ba 1.21 302.4 -10.2
+  *flags not splay
+    6 7   3.18 295.9 -9.8
+  *flags splay
+  7 7a 0.66 246.0 -10.6
+  7 7ba 0.54 343.5 11.0
+  7 7bb 0.46 289.4 73.6
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.00 0.00 0.00 0.00
+1  1.23 2.99 6.79 0.10
+2  0.00 1.18 3.55 3.03
+3  0.47 0.00 1.17 7.36
+4  0.87 1.19 5.45 5.57
+5  0.90 3.79 1.65 0.02
+6  0.02 0.29 0.00 0.21
+7  0.50 0.39 0.44 0.12
+
+*end P6-P7

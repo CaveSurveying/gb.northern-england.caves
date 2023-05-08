@@ -1,0 +1,109 @@
+; 2023.05.08 created by TopoDroid v 6.1.31
+; Picnic
+; Instrument: ONEPLUS A5000
+
+*begin Picnic 
+
+*EXPORT 0 6
+
+  *date 2023.05.08 
+  *team ""Nick Bairstow" notes "Nick Bairstow" instruments "Chris Scaife" instruments "Nick Bairstow" dog "Chris Scaife" dog" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.00 0.0 0.0
+  *flags not splay
+    0 1   1.30 78.2 -65.3
+  *flags splay
+  1 1a 0.48 276.4 3.7
+  1 1ba 0.19 90.9 12.3
+  1 1bb 3.26 328.3 88.9
+  1 1bc 9.24 293.5 -87.0
+  1 1bd 0.54 213.1 4.7
+  1 1be 1.14 350.0 1.7
+  1 1bf 2.12 343.5 1.7
+  1 1bg 0.95 332.6 4.8
+  1 1bh 3.40 325.2 5.9
+  *flags not splay
+    1 2   9.27 255.2 -87.3
+  *flags splay
+  2 2a 0.41 245.1 -2.0
+  2 2ba 0.41 70.4 29.8
+  2 2bb 6.78 144.1 87.2
+  2 2bc 1.83 186.8 -89.3
+  2 2bd 2.45 322.2 2.3
+  2 2be 5.57 331.7 0.3
+  2 2bf 2.81 343.0 -0.8
+  2 2bg 0.79 147.4 2.9
+  2 2bh 0.29 30.6 -20.6
+  *flags not splay
+    2 3   2.10 340.1 -55.2
+  *flags splay
+  3 3a 0.72 246.6 -3.2
+  3 3ba 0.29 116.8 86.2
+  3 3bb 5.01 287.9 -89.3
+  *flags not splay
+    3 4   5.68 308.6 -74.4
+  *flags splay
+  4 4a 1.12 61.0 2.4
+  4 4ba 0.27 250.4 4.0
+  4 4bb 0.49 338.9 -77.5
+  4 4bc 3.23 7.7 5.0
+  4 4bd 3.90 359.0 6.5
+  4 4be 0.44 355.5 5.1
+  4 4bf 2.37 313.1 6.4
+  4 4bg 3.53 334.9 5.2
+  4 4bh 1.38 160.9 18.4
+  4 4bi 1.76 132.6 17.2
+  *flags not splay
+    4 5   3.89 350.0 0.6
+    5 6   2.16 31.0 4.7
+  *flags splay
+  6 6a 0.46 274.3 7.4
+  6 6ba 0.26 76.3 24.5
+  6 6bb 0.18 205.6 87.4
+  6 6bc 1.47 341.7 -84.5
+  6 6bd 1.13 331.9 -7.3
+  6 6be 1.57 318.0 -5.5
+  6 6bf 0.60 294.2 -0.9
+  *flags not splay
+   *flags duplicate
+    6 7   1.98 325.1 -28.6
+   *flags not duplicate
+  *flags splay
+  7 7a 0.71 203.8 -0.4
+  7 7ba 1.06 224.6 78.2
+  7 7bb 1.41 289.2 -87.9
+  *flags not splay
+   *flags duplicate
+    7 8   2.68 254.4 -51.2
+   *flags not duplicate
+  *flags splay
+  8 8a 0.71 356.4 5.7
+  8 8ba 0.95 77.3 85.0
+  8 8bb 0.85 353.2 -80.1
+  8 8bc 0.64 51.6 27.5
+  8 8bd 0.90 76.2 29.3
+  8 8be 3.19 220.6 0.6
+  8 8bf 3.38 233.1 -7.0
+  8 8bg 2.40 222.0 -35.3
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.00 0.00 0.00 0.00
+1  3.12 0.38 3.26 9.22
+2  0.75 5.42 6.77 1.83
+3  0.72 0.01 0.29 5.01
+4  0.70 2.99 0.52 0.48
+5  0.00 0.00 0.00 0.00
+6  1.49 0.17 0.18 1.46
+7  0.61 0.00 1.04 1.41
+8  1.77 0.70 0.95 1.38
+
+*end Picnic

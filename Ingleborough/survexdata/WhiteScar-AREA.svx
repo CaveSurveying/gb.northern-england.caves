@@ -15,4 +15,6 @@
 
 *include WhiteScarCave/WhiteScar.svx
 
+*include 5Ways/5Ways.svx
+
 *end WhiteScar-AREA

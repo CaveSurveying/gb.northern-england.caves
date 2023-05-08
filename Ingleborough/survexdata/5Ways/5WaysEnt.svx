@@ -1,0 +1,110 @@
+; 2023.05.08 created by TopoDroid v 6.1.31
+; 5WaysEnt
+; Instrument: ONEPLUS A5000
+
+*begin 5WaysEnt
+
+*EXPORT 0 53
+ 
+  *date 2023.05.08 
+  *team ""Nick Bairstow" notes "Nick Bairstow" instruments "Nick Bairstow" dog" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.00 0.0 0.0
+  0 0ba 1.89 137.6 -19.5
+  0 0bb 2.96 231.7 0.4
+  0 0bc 4.26 207.8 2.6
+  0 0bd 3.74 194.9 4.9
+  0 0be 2.53 161.8 2.5
+  0 0bf 2.00 133.2 1.9
+  0 0bg 3.52 107.7 -1.1
+  0 0bh 3.58 79.4 -5.0
+  *flags not splay
+    0 1   2.13 135.7 -34.0
+    2 1   1.91 33.2 31.9
+  *flags splay
+  2 2a 0.72 99.8 -1.0
+  2 2ba 1.89 27.3 79.6
+  2 2bb 1.92 174.8 -89.1
+  2 2bc 1.74 64.4 -52.1
+  2 2bd 1.80 29.5 -36.3
+  2 2be 2.41 120.0 -52.1
+  2 2bf 1.22 160.9 -19.2
+  2 2bg 1.77 177.6 -11.5
+  2 2bh 4.61 187.1 -5.5
+  2 2bi 2.03 183.8 -7.8
+  *flags not splay
+    2 73-0   0.00 0.0 -90.0
+    73-0 73-1   2.17 20.6 -42.3
+  *flags splay
+  73-1 73-1a 1.43 261.2 5.2
+  73-1 73-1ba 1.63 283.0 72.3
+  73-1 73-1bb 0.89 345.3 -83.3
+  73-1 73-1bc 1.43 220.4 41.0
+  73-1 73-1bd 1.71 255.3 35.5
+  73-1 73-1be 2.87 266.6 24.2
+  73-1 73-1bf 2.64 305.4 17.9
+  73-1 73-1bg 2.95 328.5 6.9
+  73-1 73-1bh 2.64 344.2 -3.0
+  *flags not splay
+    73-1 73-2   2.38 352.6 -23.1
+  *flags splay
+  73-2 73-2a 0.62 335.1 -1.3
+  73-2 73-2ba 0.70 134.3 6.7
+  73-2 73-2bb 0.42 28.3 83.5
+  73-2 73-2bc 1.08 31.5 -73.3
+  73-2 73-2bd 1.21 66.8 -16.9
+  73-2 73-2be 1.30 91.1 -18.4
+  *flags not splay
+    73-2 73-3   1.24 69.9 -12.1
+  *flags splay
+  2 2a 0.00 0.0 0.0
+  *flags not splay
+    2 3   2.86 104.4 -61.1
+  *flags splay
+  3 3a 0.23 355.1 -1.0
+  3 3ba 0.24 182.3 16.8
+  3 3bb 0.82 72.8 75.6
+  3 3bc 0.50 29.7 -88.3
+  *flags not splay
+    3 4   0.87 61.6 14.5
+  *flags splay
+  4 4a 0.59 304.3 26.9
+  4 4ba 0.28 108.6 12.8
+  4 4bb 1.59 16.9 85.9
+  4 4bc 1.62 248.9 -79.0
+  4 4bd 0.70 21.9 10.1
+  4 4be 0.93 59.2 9.2
+  4 4bf 0.44 79.7 14.7
+  4 4bg 0.96 175.1 21.0
+  4 4bh 1.05 206.6 12.8
+  *flags not splay
+    4 53   3.67 26.9 -72.5
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+2  0.09 2.02 1.86 1.92
+1  0.00 0.00 0.00 0.00
+0  2.97 4.06 0.32 0.63
+
+*data passage station left right up down
+2  0.56 1.28 1.86 1.92
+73-0  0.00 0.00 0.00 0.00
+73-1  2.43 0.00 1.56 0.88
+73-2  0.19 1.22 0.41 1.04
+73-3  0.00 0.00 0.00 0.00
+
+*data passage station left right up down
+2  1.40 4.55 1.86 1.92
+3  0.22 0.22 0.79 0.50
+4  0.47 0.82 1.58 1.59
+53  0.00 0.00 0.00 0.00
+
+*end 5WaysEnt

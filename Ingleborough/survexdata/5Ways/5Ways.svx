@@ -1,0 +1,37 @@
+*BEGIN 5Ways
+
+*CS OSGB:SD
+*cs out EPSG:27700
+*DECLINATION auto 72968 73249 451
+
+*FIX 		entrance 72968 73249 451  
+*EQUATE		entrance	5WaysEnt.0
+*ENTRANCE	entrance
+
+
+
+*INCLUDE 5WaysEnt
+*INCLUDE Tonga
+*INCLUDE MyLeftFoot
+*INCLUDE Picnic
+*INCLUDE P5
+*INCLUDE P6-P7
+*INCLUDE Marmalade
+*INCLUDE Marmalade2
+*INCLUDE BadgerPassage
+*INCLUDE BadgerAven
+
+*EQUATE	5WaysEnt.53  	Tonga.0
+*EQUATE	Tonga.20     	Marmalade.20
+*EQUATE	Marmalade.27 	MyLeftFoot.0
+*EQUATE	MyLeftFoot.5 	Picnic.0 
+*EQUATE	Picnic.6 		P5.0
+*EQUATE	P5.6 			P6-P7.0
+ 
+ ;#equate 73.3@5WaysEnt #74.2@Tonga
+
+*EQUATE	Marmalade.21     Marmalade2.0
+*EQUATE	Marmalade.21     BadgerPassage.0
+*EQUATE	BadgerPassage.11  BadgerAven.4
+
+*END 5Ways
