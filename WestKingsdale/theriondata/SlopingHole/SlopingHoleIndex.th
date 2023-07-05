@@ -1,0 +1,57 @@
+encoding  utf-8
+
+survey SlopingHoleIndex
+
+input SlopingHole1/SlopingHole1.th
+input SlopingHole2/SlopingHole2.th
+input SlopingHole3/SlopingHole3.th
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+#join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
+
+
+####Extended Elevation Joins####
+#join 5WaysEntSE2@5WaysEnt  TongaSE1@Tonga
+
+
+
+####Line Joins####
+##################
+#join Line1@MyLeftFoot:0    Line1@Picnic:end 
+
+
+
+###################### MAPS ####################
+
+map SlopingHoleIndex -title "SlopingHolePlan"
+
+  SlopingHole2Plan@SlopingHole2
+  break
+  SlopingHole1Plan@SlopingHole1
+  SlopingHole3Plan@SlopingHole3 
+  
+  
+endmap
+
+ 
+ #map SlopingHoleIndexME -title "Sloping Hole_Extended_Elevation"
+ 
+ #5WaysEntME@5WaysEnt
+ #TongaME@Tonga
+  
+ #endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ equate 1.7@SlopingHole1  50.1@SlopingHole2
+ equate 95.4@SlopingHole2 1.0@SlopingHole3
+  
+endsurvey
+
