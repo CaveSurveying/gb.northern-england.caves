@@ -7,12 +7,18 @@
 *INCLUDE Aquamole1
 *INCLUDE Aquamole2
 *INCLUDE Aquamole3
+*INCLUDE Whackamole_aven
 
 *EQUATE	Aquamole-recon.main.1 		Aquamole1.1.5
 *EQUATE Aquamole-recon.main.22 		Aquamole3.0
 *EQUATE Aquamole1.1.37 	Aquamole2.1.0
+*EQUATE Aquamole1.1.37 	Whackamole_aven.2.0 ;Underground connection
+*EQUATE Aquamole1.1.5 	Whackamole_aven.1.5 ;Surface connection
+
 
 *EQUATE Aquamole1.1.5 entrance
 *ENTRANCE entrance
 
 *END Aquamole
+
+

@@ -25,6 +25,7 @@
 *include BullPot/BullPot
 *include SlantingCave/SlantingCave-recon
 *include CraftsmansPot/CraftsmansPot-recon
+*include Midas/Midas
 
 ; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
 
@@ -112,9 +113,6 @@
 
 *FIX Levitation_Pot REFERENCE 70570 79030 308
 *ENTRANCE Levitation_Pot
-
-*FIX Midas REFERENCE 70550 79030 313
-*ENTRANCE Midas
 
 *FIX New_Pot REFERENCE 69250 77410 381
 *ENTRANCE New_Pot

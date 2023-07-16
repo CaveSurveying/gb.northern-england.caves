@@ -55,6 +55,7 @@
 *equate pip28ai.001 pip28a.008a ; from pip28ai
 *equate	pip28b.005 pip28a.019	; from pip28b
 *equate pip28c.001 pip28b.005e	; from pip28c
+*EQUATE pip28c.026 Dickeries-nosplays.000
 
 *equate mm1i.089 pip01.001
 
@@ -101,6 +102,7 @@
 *include	Pip28ai
 *include	Pip28b
 *include	Pip28c
+*INCLUDE 	Dickeries-nosplays
 
 *include	mm1i ; ie, that part of mm1 which is Leck Fell Lane
 
