@@ -2,15 +2,15 @@ encoding  utf-8
 survey SlopingHole2
 
 input SlopingHole2Plan.th2
-#input SlopingHole2Ee.th2
+input SlopingHole2Ee.th2
 
 map SlopingHole2Plan
   SlopingHole2SP1
 endmap
 
-#map SlopingHole2ME
-  #SlopingHole2SE1
-#endmap
+map SlopingHole2ME
+  SlopingHole2SE1
+endmap
 
 
 centreline

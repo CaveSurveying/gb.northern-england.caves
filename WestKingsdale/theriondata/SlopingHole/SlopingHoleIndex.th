@@ -12,16 +12,19 @@ input SlopingHole3/SlopingHole3.th
 ###################
 
 #join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
+join SlopingHole1SP1@SlopingHole1 SlopingHole2SP1@SlopingHole2
+join SlopingHole2SP1@SlopingHole2 SlopingHole3SP1@SlopingHole3
 
 
 ####Extended Elevation Joins####
-#join 5WaysEntSE2@5WaysEnt  TongaSE1@Tonga
 
+join SlopingHole1SE1@SlopingHole1 SlopingHole2SE1@SlopingHole2
+join SlopingHole2SE1@SlopingHole2 SlopingHole3SE1@SlopingHole3
 
 
 ####Line Joins####
 ##################
-#join Line1@MyLeftFoot:0    Line1@Picnic:end 
+#join Line1@MyLeftFoot:0    Line1@Picnic:end #sample line join
 
 
 
@@ -38,19 +41,20 @@ map SlopingHoleIndex -title "SlopingHolePlan"
 endmap
 
  
- #map SlopingHoleIndexME -title "Sloping Hole_Extended_Elevation"
+ map SlopingHoleIndexME -title "Sloping Hole_Extended_Elevation"
  
- #5WaysEntME@5WaysEnt
- #TongaME@Tonga
-  
- #endmap
+ SlopingHole1ME@SlopingHole1
+ SlopingHole2ME@SlopingHole2
+ SlopingHole3ME@SlopingHole3
+   
+ endmap
 
 ################# Equates #####################
 ###############################################
 
 
 
- equate 1.7@SlopingHole1  50.1@SlopingHole2
+ equate 1.8@SlopingHole1  95.0@SlopingHole2
  equate 95.4@SlopingHole2 1.0@SlopingHole3
   
 endsurvey

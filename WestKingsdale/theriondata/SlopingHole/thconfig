@@ -20,7 +20,7 @@ export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf
 
 #export map -o Output/SlopingHole.kml
 
-export model -fmt survex -o Output/SlopingHole.3d
+#export model -fmt survex -o Output/SlopingHole.3d
 #Survex file showing centre line only
 
 #export model -o Output/SlopingHole.lox
@@ -31,8 +31,8 @@ export model -fmt survex -o Output/SlopingHole.3d
 
 layout elevation
 base-scale 1 100
-map-header 45 90 nw
-scale 1 400
+map-header 80 95 nw
+scale 1 80
 grid bottom
 grid top
 grid-size 5 5 5 m
@@ -44,7 +44,7 @@ layout local
 #copy CommonLayout
 #layout GB_Layout
 
-base-scale 1 100
+base-scale 1 70
 scale 1 100
 
 
@@ -58,9 +58,10 @@ symbol-set BCRA
 
 
 #colour map-fg altitude
-colour-legend smooth
+#colour-legend smooth
 #colout-ledgend discrete
-colour-legend off
+#colour-legend off
+#colour map-fg map
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
 #colour map-fg [90 90 90] ##Light Grey##
@@ -120,7 +121,7 @@ symbol-hide point cave-station   #2. tells therion, that you want to show statio
 #-----------------------------------
 
 code tex-map
-\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 05.07.23} 
+\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 16.07.23\medskip \size[10]BCRA Grade 5d}
 endcode
 
 map-comment "EXPLORATION BY THE CHUMS CONTINUES"

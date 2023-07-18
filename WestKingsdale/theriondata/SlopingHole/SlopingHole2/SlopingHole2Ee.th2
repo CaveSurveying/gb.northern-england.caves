@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -164.09857618 1171.0 564.3423687018
+##XTHERION## xth_me_area_adjust -130.0 -164.09857618 1170.6299212589 564.3423687018
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {412.551181102 1 1.0} {363.860543909 1.0} PocketTopo/SlopingHole2_e.xvi 0 {}
 
@@ -65,6 +65,16 @@ line rock-edge
   592.0 295.0 648.0 275.0 658.0 273.0
   668.0 271.0 693.0 270.0 705.0 266.0
   717.0 262.0 742.0 238.0 756.0 242.0
+endline
+
+point 1005.0 11.5 label -text [Climb -2.7m]
+
+point 981.921181102 253.660543909 station -name 95.4
+
+point 226.0 111.5 label -text [2.5m Climb]
+
+line floor-step -reverse on
+  756.0 242.0
   770.0 246.0 815.0 250.0 815.0 250.0
   smooth off
   815.0 250.0 908.0 256.0 911.0 253.0
@@ -96,6 +106,19 @@ line wall -clip off
   151.0 345.5 129.0 308.0 129.0 308.0
   smooth off
   126.5 291.0
+endline
+
+point 630.5 174.5 label -text [Extremely Narrow Rift]
+
+line label -text [Upper Series]
+  288.5 416.5
+  288.5 416.5 342.5 413.5 352.0 416.5
+  361.5 419.5 407.5 423.0 418.0 424.0
+  428.5 425.0 455.5 426.5 475.0 426.5
+  494.5 426.5 565.0 423.0 577.0 420.0
+  589.0 417.0 645.0 401.5 649.5 400.5
+  654.0 399.5 730.5 374.0 730.5 374.0
+  smooth off
 endline
 
 line wall -reverse on -clip off
