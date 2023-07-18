@@ -19,11 +19,11 @@ line arrow
   357.0 211.0
 endline
 
-point 195.0 217.5 label -align center -text [2m Climb Down]
+point 195.0 217.5 label -align center -text [2.7m Climb Down]
 
 point 95.0 605.0 label -align center -text [To Upper Series]
 
-point 94.5 635.0 label -align center -text [2m Climb]
+point 94.5 635.0 label -align center -text [2.5m Climb]
 
 point 45.5 441.5 label -align center -text [Now Lined With Calcite]
 
@@ -70,6 +70,7 @@ line floor-step -outline none
   smooth off
   360.0 302.0 355.0 283.0 352.0 277.0
   349.0 271.0 341.5 264.5 341.5 257.5
+  smooth off
 endline
 
 line floor-step -close off -outline in
@@ -209,9 +210,9 @@ line floor-step -close on -outline in
 endline
 
 line wall
-  410.5 119.5
-  408.5 126.5 393.07 143.88 390.0 150.5
-  380.5 171.0 388.0 185.0 388.0 185.0
+  421.0 126.0
+  419.0 133.0 409.57 142.88 406.5 149.5
+  397.0 170.0 388.0 185.0 388.0 185.0
   smooth off
   388.0 185.0 388.0 187.0 384.0 194.0
   380.0 201.0 372.0 213.0 369.0 219.0
@@ -289,8 +290,8 @@ line wall
   336.5 189.0 330.48 168.08 338.5 171.0
   344.0 173.0 365.0 179.0 366.0 176.0
   367.0 173.0 383.0 149.0 387.0 142.0
-  391.0 135.0 400.0 125.0 402.0 121.0
-  404.0 117.0 422.5 98.0 410.5 119.5
+  391.0 135.0 414.0 123.0 416.0 119.0
+  417.12 116.76 433.0 104.5 421.0 126.0
   smooth off
 endline
 

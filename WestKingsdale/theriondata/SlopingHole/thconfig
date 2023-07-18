@@ -5,11 +5,8 @@ source SlopingHoleIndex.th
 
 #Surveys to output
 #-----------------
-#select SlopingHoleIndex
+select SlopingHoleIndex
 
-select SlopingHoleIndex@SlopingHoleIndex
-select SlopingHole1Plan@SlopingHole1.SlopingHoleIndex
-select SlopingHole2Plan@SlopingHole2.SlopingHoleIndex
 
 
 

@@ -11,9 +11,9 @@ input SlopingHole3/SlopingHole3.th
 ####Scrap Joins####
 ###################
 
-#join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
-join SlopingHole1SP1@SlopingHole1 SlopingHole2SP1@SlopingHole2
-join SlopingHole2SP1@SlopingHole2 SlopingHole3SP1@SlopingHole3
+
+#join SlopingHole1SP2@SlopingHole1 SlopingHole2SP1@SlopingHole2 # No plan scrap joins needed
+#join SlopingHole2SP1@SlopingHole2 SlopingHole3SP1@SlopingHole3 # as SH2 is above SH1 & SH3 
 
 
 ####Extended Elevation Joins####

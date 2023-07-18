@@ -9,16 +9,16 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 0 354X1 p1 1 SlopingHoleIndex SlopingHoleIndex@SlopingHoleIndex "SlopingHolePlan" "SlopingHolePlan"
-xth_cp_map_tree_insert map 1 157X1 354X1 2 SlopingHole2Plan SlopingHole2Plan@SlopingHole2.SlopingHoleIndex "" ""
-xth_cp_map_tree_insert map 1 85X1 354X1 2 SlopingHole1Plan SlopingHole1Plan@SlopingHole1.SlopingHoleIndex "" ""
-xth_cp_map_tree_insert map 1 346X1 354X1 2 SlopingHole3Plan SlopingHole3Plan@SlopingHole3.SlopingHoleIndex "" ""
-xth_cp_map_tree_insert map 0 355X1 p3 1 SlopingHoleIndexME SlopingHoleIndexME@SlopingHoleIndex "Sloping Hole\_Extended\_Elevation" "Sloping Hole\_Extended\_Elevation"
-xth_cp_map_tree_insert map 1 86X1 355X1 2 SlopingHole1ME SlopingHole1ME@SlopingHole1.SlopingHoleIndex "" ""
-xth_cp_map_tree_insert map 1 158X1 355X1 2 SlopingHole2ME SlopingHole2ME@SlopingHole2.SlopingHoleIndex "" ""
-xth_cp_map_tree_insert map 1 347X1 355X1 2 SlopingHole3ME SlopingHole3ME@SlopingHole3.SlopingHoleIndex "" ""
+xth_cp_map_tree_insert map 0 351X1 p1 1 SlopingHoleIndex SlopingHoleIndex@SlopingHoleIndex "SlopingHolePlan" "SlopingHolePlan"
+xth_cp_map_tree_insert map 1 157X1 351X1 2 SlopingHole2Plan SlopingHole2Plan@SlopingHole2.SlopingHoleIndex "" ""
+xth_cp_map_tree_insert map 1 85X1 351X1 2 SlopingHole1Plan SlopingHole1Plan@SlopingHole1.SlopingHoleIndex "" ""
+xth_cp_map_tree_insert map 1 345X1 351X1 2 SlopingHole3Plan SlopingHole3Plan@SlopingHole3.SlopingHoleIndex "" ""
+xth_cp_map_tree_insert map 0 352X1 p3 1 SlopingHoleIndexME SlopingHoleIndexME@SlopingHoleIndex "Sloping Hole\_Extended\_Elevation" "Sloping Hole\_Extended\_Elevation"
+xth_cp_map_tree_insert map 1 86X1 352X1 2 SlopingHole1ME SlopingHole1ME@SlopingHole1.SlopingHoleIndex "" ""
+xth_cp_map_tree_insert map 1 158X1 352X1 2 SlopingHole2ME SlopingHole2ME@SlopingHole2.SlopingHoleIndex "" ""
+xth_cp_map_tree_insert map 1 346X1 352X1 2 SlopingHole3ME SlopingHole3ME@SlopingHole3.SlopingHoleIndex "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 80 10
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1689708316
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1689710461
 

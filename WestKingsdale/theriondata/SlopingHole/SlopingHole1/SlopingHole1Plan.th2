@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -139.571878529 1165.4566929139 825.0895387937001
+##XTHERION## xth_me_area_adjust -130.0 -175.0 1165.4566929138998 825.0895387937
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {611.1493700789999 1 1.0} {378.109538794 1.4} PocketTopo/SlopingHole1_p.xvi 0 {}
 
@@ -25,7 +25,7 @@ endscrap
 
 
 
-scrap SlopingHoleSP2 -scale [0 0 787.4 787.4 0 0 10 10 m]
+scrap SlopingHole1SP2 -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 784.75 306.5 gradient -orientation 135.8
 

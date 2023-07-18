@@ -7,7 +7,7 @@ input SlopingHole1Ee.th2
 map SlopingHole1Plan
   SlopingHole1SP1
   break
-  SlopingHoleSP2
+  SlopingHole1SP2
 endmap
 
 map SlopingHole1ME
@@ -40,7 +40,7 @@ copyright 2023 "GNU GPL"
   explo-date 2023.06.05
 
 data normal from to tape compass clino ignoreall
-  extend right
+extend vertical
 1.0  -  0.0  0.0  0.0  
 #1.1  1.0  2.117  199.03  75.68  Back shot to avoid scaff.
                                  #Center of very top of shaft from nose 1m from bottom on true left.
@@ -58,7 +58,8 @@ data normal from to tape compass clino ignoreall
 1.1  -  0.965  49.07  -14.28  
 1.1  -  2.103  27.84  -29.18  
 1.1  -  1.457  45.77  -27.26  
-1.1  -  2.015  22.95  -37.63  
+1.1  -  2.015  22.95  -37.63 
+extend right 
 #1.1  1.2  2.777  43.46  -31.37  
 #1.1  1.2  2.773  43.39  -31.34  
 #1.1  1.2  2.774  43.36  -31.35  

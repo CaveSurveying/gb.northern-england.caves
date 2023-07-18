@@ -159,8 +159,6 @@ point 2098.0 -149.0 water-flow -orientation 81.0
 
 point 1666.0 -83.0 water-flow -orientation 108.0
 
-point 158.0 -57.0 label -text [-2m Climb]
-
 point 3150.0 -128.0 label -text [Very Narrow]
 
 point 2536.0 -129.0 label -text [Very Narrow]
