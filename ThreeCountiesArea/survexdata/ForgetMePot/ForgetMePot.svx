@@ -1,16 +1,219 @@
-;Cave:	Forget Me Pot - Turbary Road
+; 2023.10.16 created by TopoDroid v 6.2.16
+; ForgetMePot
+; Instrument: DistoXBLE 0212 - SM-N910F
 
-*begin	ForgetMePot
+*begin ForgetMePot
 
-*export ForgetMePot1.1 ForgetMePotEntrance OldDigEntrance
-*entrance ForgetMePotEntrance
-*entrance OldDigEntrance
+*Export Entrance
 
-*include ForgetMePot1
+*cs OSGB:SD
+*cs out OSGB:SD
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-;--------------------------------------------------------------------
+*FIX Entrance  68514 76993  405.56		;GPS taken by Roo's Trimble Catalyst DA1 accurate to 30cm?                                                                                                                                                                                                                                                                                                                                                                                               
+*ENTRANCE Entrance
+*EQUATE 0	Entrance
 
-*equate OldDigEntrance ForgetMePot1.4
-*equate ForgetMePotEntrance ForgetMePot1.10
+  *date 2023.10.15 
+  *team "Diane.Arthurs, Simon.Cornhill" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *flags not splay
+  *data normal from to tape compass clino
+  *flags splay
+  0 0a 0.74 158.3 -6.6
+  0 0ba 0.66 227.3 -14.4
+  0 0bb 0.42 114.8 -3.4
+  0 0bc 1.88 209.9 -82.1
+  *flags not splay
+    0 1   1.79 205.6 -59.8
+  *flags splay
+  1 1a 1.34 349.1 70.7
+  1 1ba 0.66 13.0 -3.0
+  1 1bb 0.44 311.3 12.5
+  1 1bc 0.59 90.7 -1.0
+  *flags not splay
+    1 2   2.51 111.5 -27.1
+  *flags splay
+  2 2a 1.11 244.3 83.5
+  2 2ba 0.27 241.5 13.4
+  2 2bb 0.99 109.0 -82.8
+  2 2bc 0.59 344.7 7.1
+  2 2bd 2.10 284.9 17.4
+  2 2be 1.15 299.4 20.8
+  *flags not splay
+    2 3   2.49 148.1 -29.5
+  *flags splay
+  3 3a 0.67 333.4 -76.7
+  3 3ba 0.71 26.0 5.1
+  3 3bb 1.01 44.9 60.6
+  3 3bc 1.05 39.0 70.4
+  3 3bd 1.41 324.9 6.0
+  3 3be 2.37 323.7 14.5
+  3 3bf 3.52 328.4 30.5
+  3 3bg 1.05 101.9 -1.3
+  3 3bh 2.32 125.1 -14.2
+  *flags not splay
+    3 4   2.35 123.5 -5.3
+  *flags splay
+  4 4a 0.21 252.9 72.0
+  4 4ba 0.29 233.4 -0.6
+  4 4bb 0.95 311.9 -35.8
+  4 4bc 1.28 273.4 -82.1
+  4 4bd 2.77 161.4 -54.0
+  *flags not splay
+    4 5   2.54 161.3 -53.9
+  *flags splay
+  5 5a 1.07 47.6 64.0
+  5 5ba 1.44 101.6 44.4
+  5 5bb 0.68 96.8 8.7
+  5 5bc 0.47 30.7 35.0
+  5 5bd 0.64 88.6 -79.8
+  5 5be 0.18 295.7 -61.9
+  5 5bf 0.18 319.4 -59.0
+  5 5bg 1.42 319.4 -26.6
+  5 5bh 2.31 314.4 -44.1
+  5 5bi 3.69 311.4 -57.5
+  *flags not splay
+    5 6   4.33 314.1 -52.8
+  *flags splay
+  6 6a 0.59 117.0 11.5
+  6 6ba 2.26 133.0 46.8
+  6 6bb 0.84 109.5 41.3
+  6 6bc 0.36 142.8 60.9
+  6 6bd 1.38 347.9 86.2
+  6 6be 0.26 32.2 -6.0
+  6 6bf 0.79 321.6 0.8
+  *flags not splay
+    6 7   3.43 224.8 -76.4
+  *flags splay
+  7 7a 4.45 24.4 76.9
+  7 7ba 4.06 267.0 -79.4
+  7 7bb 1.12 336.6 5.2
+  7 7bc 0.86 24.5 4.0
+  7 7bd 0.78 119.1 10.4
+  7 7be 2.28 183.5 -72.9
+  7 7bf 3.89 237.0 -78.7
+  7 7bg 8.31 279.9 -73.8
+  *flags not splay
+    7 8   6.93 286.1 -72.9
+  *flags splay
+  8 8a 2.44 83.8 78.7
+  8 8ba 0.23 227.0 27.8
+  8 8bb 0.49 89.7 5.0
+  8 8bc 0.70 159.9 7.1
+  8 8bd 0.40 205.9 -7.6
+  8 8be 1.16 195.1 -76.1
+  *flags not splay
+    8 9   4.45 205.6 -78.6
+  *flags splay
+  9 9a 3.91 42.0 87.7
+  9 9ba 0.29 76.0 10.8
+  9 9bb 1.44 162.0 4.3
+  9 9bc 1.01 152.7 3.1
+  9 9bd 0.68 348.1 11.0
+  9 9be 0.58 43.7 4.6
+  *flags not splay
+    9 10   4.04 199.1 -88.5
+  *flags splay
+  10 10a 3.53 308.9 86.9
+  10 10ba 0.20 276.4 4.9
+  10 10bb 0.27 70.9 10.9
+  10 10bc 2.98 185.9 84.1
+  10 10bd 2.65 341.8 74.2
+  *flags not splay
+    10 11   1.82 345.9 -9.5
+  *flags splay
+  11 11a 0.24 294.5 70.6
+  11 11ba 0.48 252.1 1.5
+  11 11bb 0.54 190.4 -7.0
+  11 11bc 1.83 167.1 12.8
+  11 11bd 0.88 296.1 -8.6
+  11 11be 0.97 338.1 0.9
+  11 11bf 2.14 323.4 -82.1
+  11 11bg 0.82 212.4 -80.8
+  11 11bh 4.02 342.6 -63.8
+  11 11bi 2.91 351.2 -68.9
+  11 11bj 0.97 340.5 -17.6
+  *flags not splay
+    11 12   2.00 335.5 -60.6
+  *flags splay
+  12 12a 0.25 61.6 -0.9
+  12 12ba 0.97 129.4 -82.5
+  12 12bb 1.90 343.3 -78.7
+  12 12bc 1.75 325.6 -64.1
+  12 12bd 2.04 353.1 -62.7
+  12 12be 0.77 180.3 9.2
+  12 12bf 0.74 119.2 5.2
+  *flags not splay
+    12 13   4.03 339.0 -47.3
+  *flags splay
+  13 13a 0.59 157.5 -2.5
+  13 13ba 0.40 245.2 14.8
+  13 13bb 0.56 316.7 -0.2
+  13 13bc 1.89 308.0 -79.8
+  13 13bd 8.88 267.2 -79.2
+  13 13be 7.45 219.5 -81.8
+  13 13bf 3.16 242.8 -70.1
+  13 13bg 11.58 258.5 -81.0
+  13 13bh 8.56 247.6 -79.2
+  *flags not splay
+    13 14   10.52 249.9 -81.4
+  *flags splay
+  14 14a 7.49 126.3 84.7
+  14 14ba 2.96 139.8 76.0
+  14 14bb 0.35 52.0 12.3
+  14 14bc 0.16 234.3 12.3
+  14 14bd 2.89 334.0 -0.6
+  14 14be 2.28 328.2 -24.0
+  14 14bf 3.08 334.7 -10.1
+  *flags not splay
+    14 15   1.96 283.3 -74.1
+  *flags splay
+  15 15a 0.53 95.6 5.5
+  15 15ba 0.59 38.2 -79.3
+  15 15bb 2.95 61.0 78.5
+  15 15bc 0.45 339.5 15.6
+  15 15bd 3.70 343.0 33.6
+  15 15be 0.58 42.8 17.1
+  15 15bf 0.69 14.8 14.2
+  15 15bg 0.84 145.5 -14.9
+  15 15bh 0.88 156.0 -21.9
+  15 15bi 2.39 159.7 -11.5
+  *flags not splay
+    15 16   0.95 154.2 -8.6
+  *flags splay
+  16 16a 4.08 166.6 -79.6
+  16 16ba 0.44 144.2 74.5
+  16 16bb 0.15 59.6 -0.8
+  16 16bc 0.15 238.5 13.0
+  16 16bd 1.81 163.6 -15.2
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.54 0.24 0.00 1.87
+1  0.54 0.41 1.27 0.03
+2  0.46 0.24 1.10 0.99
+3  0.86 0.16 1.79 0.65
+4  0.11 1.00 0.20 2.24
+5  0.89 1.00 1.01 3.11
+6  0.03 0.26 1.64 0.03
+7  0.73 1.90 4.33 7.98
+8  0.56 0.18 2.39 1.13
+9  0.98 0.40 3.91 0.00
+10  0.21 0.43 3.52 0.00
+11  0.67 0.09 0.41 3.60
+12  0.32 0.44 0.12 1.86
+13  1.78 0.02 0.10 11.44
+14  0.68 3.02 7.46 0.93
+15  1.97 2.68 2.89 0.58
+16  0.15 0.27 0.43 4.01
 
-*end	ForgetMePot
+*end ForgetMePot

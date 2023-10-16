@@ -168,7 +168,9 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *EQUATE Mohole.Wall 3cgps.031	;Attaching Mohole to Kevin Dixon GPS bolt
 
 *include ForgetMePot/ForgetMePot
-*equate Mohole.Wall ForgetMePot.ForgetMePot1.1
+
+*INCLUDE BrollyPot/BrollyPot
+*equate Mohole.Wall BrollyPot.1
 
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
@@ -256,9 +258,6 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<<Marble Steps Area Entrances>>>>
 
-
-*FIX Brolly_Pot REFERENCE 68540 76970 402
-*ENTRANCE Brolly_Pot
 
 *FIX CreakingDeath_Pot REFERENCE 68890 76480 393
 *ENTRANCE CreakingDeath_Pot
