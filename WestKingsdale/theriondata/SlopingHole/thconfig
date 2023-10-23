@@ -5,15 +5,24 @@ source SlopingHoleIndex.th
 
 #Surveys to output
 #-----------------
-select SlopingHoleIndex
+#select SlopingHoleIndex
+#select SlopingHole2.SlopingHoleIndex
+
+#select SlopingHole1.SlopingHoleIndex
+
+#select SlopingHole3.SlopingHoleIndex
+select SlopingHole2Plan@SlopingHole2.SlopingHoleIndex
+select SlopingHole1Plan@SlopingHole1.SlopingHoleIndex
+select SlopingHole3Plan@SlopingHole3.SlopingHoleIndex
 
 
 
 
-export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf
+
+#export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -layout elevation -o Output/SlopingHoleEe.pdf
+export map -proj extended -layout local -layout elevation -o Output/SlopingHoleEe.pdf
 
 #export map -o Output/SlopingHole.kml
 
@@ -57,7 +66,7 @@ symbol-set BCRA
 #colour map-fg altitude
 #colour-legend smooth
 #colout-ledgend discrete
-#colour-legend off
+colour-legend off
 #colour map-fg map
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
@@ -77,13 +86,16 @@ symbol-set BCRA
   map-header 45 90 ne
   
   transparency on
-  opacity 60
+  opacity 80
   scale-bar 10 metres
 
 symbol-colour area water [25 50 100]
 #symbol-colour area sump [10 10 100]
 symbol-colour area flowstone [20 20 20]
 symbol-colour line water-flow [22 22 95]
+symbol-colour line rock-border [50 30 20]
+symbol-colour line rock-edge [50 30 20]
+
 symbol-colour point water-flow  [22 22 95]
 symbol-colour group centerline [100 0 0]
 symbol-colour point station [0 0 0]

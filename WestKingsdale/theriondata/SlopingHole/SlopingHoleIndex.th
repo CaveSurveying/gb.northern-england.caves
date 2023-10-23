@@ -34,7 +34,9 @@ map SlopingHoleIndex -title "SlopingHolePlan"
 
   SlopingHole2Plan@SlopingHole2
   break
+  
   SlopingHole1Plan@SlopingHole1
+  #SlopingHole2Plan@SlopingHole2
   SlopingHole3Plan@SlopingHole3 
   
   

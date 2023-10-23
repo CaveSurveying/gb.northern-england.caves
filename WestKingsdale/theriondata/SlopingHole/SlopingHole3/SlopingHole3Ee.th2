@@ -221,7 +221,55 @@ line rock-border -close on
   1135.0 46.0 1132.0 62.0 1128.0 62.0
 endline
 
-line wall -subtype debris -clip off
+line rock-border -close on
+  1968.0 244.0
+  1950.0 231.0
+  1964.0 213.0
+  1973.0 216.0
+  1968.0 244.0
+endline
+
+line rock-border -close on
+  1959.0 201.0
+  1959.0 201.0 1950.0 193.0 1949.0 189.0
+  1948.0 185.0 1946.0 176.0 1946.0 176.0
+  smooth off
+  1959.0 181.0
+  1965.0 194.0
+  1959.0 201.0
+endline
+
+line rock-border -close on
+  2031.0 212.0
+  2020.0 214.0
+  2012.0 210.0
+  2019.0 202.0
+  2026.0 196.0
+  2031.0 212.0
+endline
+
+line rock-border -close off
+  1977.0 230.0
+  1963.0 225.0
+  1956.0 217.0
+  1965.0 203.0
+  1984.0 205.0
+  1989.0 218.0
+  1977.0 230.0
+endline
+
+line rock-border -close on
+  2007.0 219.0
+  2007.0 219.0 1995.0 229.0 1990.0 225.0
+  1985.0 221.0 1979.0 215.0 1979.0 215.0
+  smooth off
+  1990.0 202.0
+  1990.0 202.0 2008.0 184.0 2008.0 191.0
+  2008.0 198.0 2007.0 219.0 2007.0 219.0
+  smooth off
+endline
+
+line wall -subtype debris -outline out -clip off -scale l
   583.0 81.0
   583.0 81.0 596.0 90.0 606.0 84.0
   616.0 78.0 642.0 66.0 646.0 65.0
@@ -238,8 +286,8 @@ line wall -subtype debris -clip off
   smooth off
   1168.0 61.0
   1248.0 64.0
-  1321.0 60.0
-  1407.0 60.0
+  1316.0 54.0
+  1414.0 61.0
 endline
 
 line rock-border -close on
@@ -351,7 +399,7 @@ line wall
 endline
 
 line wall -subtype debris
-  1407.0 60.0
+  1414.0 61.0
   1470.0 67.0
   1566.0 69.0
   1566.0 69.0 1659.0 73.0 1665.0 73.0
