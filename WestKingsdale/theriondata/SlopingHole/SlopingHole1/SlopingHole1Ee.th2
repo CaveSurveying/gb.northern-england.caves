@@ -81,7 +81,26 @@ line rock-border -close on
   245.0 385.0 242.0 406.0 238.5 403.0
 endline
 
-point 108.0 598.0 label -text [Entrance Shaft -3m]
+line wall
+  100.0 530.0
+  93.5 533.5 79.0 529.5 77.5 532.0
+  76.0 534.5 67.0 556.5 67.0 556.5
+  smooth off
+  41.5 559.0
+  20.0 560.5
+  20.0 560.5 3.5 562.0 0.5 568.0
+endline
+
+line wall
+  157.5 550.0
+  164.0 555.0 175.5 566.5 180.5 569.5
+  185.5 572.5 197.0 582.0 200.5 587.0
+  204.0 592.0 216.0 613.0 216.0 613.0
+  smooth off
+  221.0 625.5
+endline
+
+point 360.0 549.5 label -text [Entrance Shaft -3m]
 
 line wall -clip off
   914.0 197.5
@@ -112,7 +131,7 @@ line wall -clip off
 endline
 
 line wall -clip off
-  101.5 522.0
+  100.0 530.0
   132.0 394.0
   130.0 362.0
   130.0 362.0 164.0 324.0 178.0 316.0

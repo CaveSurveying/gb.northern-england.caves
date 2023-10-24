@@ -21,21 +21,21 @@ endline
 
 point 195.0 217.5 label -align center -text [2.7m Climb Down]
 
-point 95.0 605.0 label -align center -text [To Upper Series]
+point 65.0 607.0 label -align center -text [To Upper Series]
 
-point 94.5 635.0 label -align center -text [2.5m Climb]
+point 107.0 620.5 label -align center -text [2.5m Climb]
 
-point 46.0 374.5 label -align center -text [Now Lined With Calcite]
+point 473.0 611.5 label -align center -text [Now Lined With Calcite]
 
-point 47.0 403.5 label -align center -text [In The Glacial Drift]
+point 508.5 620.5 label -align center -text [In The Glacial Drift]
 
-point 47.0 433.0 label -align center -text [Upper Series is A Washed Out Roof Tunnel]
+point 539.5 651.5 label -align center -text [Upper Series is A Washed Out Roof Tunnel]
 
 line label -text [Upper Series]
-  306.0 794.0
-  314.0 787.0 384.0 640.0 388.5 628.5
-  393.0 617.0 430.42 516.97 436.0 483.5
-  441.0 453.5 447.0 361.0 447.0 361.0
+  321.5 710.0
+  329.5 703.0 407.5 581.0 417.0 556.0
+  426.86 530.06 440.42 493.47 446.0 460.0
+  451.0 430.0 439.5 293.5 439.5 293.5
   smooth off
 endline
 
@@ -255,11 +255,12 @@ line wall
   smooth off
 endline
 
-point 109.5 519.0 section -scrap SlopingHole2SPX95.1
+point 164.5 472.0 section -scrap SlopingHole2SPX95.1
 
 line section -direction both
   331.0 608.5
   306.5 596.5 237.0 563.5 202.0 547.5
+  smooth off
 endline
 
 line wall

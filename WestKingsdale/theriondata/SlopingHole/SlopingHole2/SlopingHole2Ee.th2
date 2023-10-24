@@ -68,11 +68,11 @@ line rock-edge
   smooth off
 endline
 
-point 1005.0 11.5 label -text [Climb -2.7m]
+point 1003.0 -16.5 label -text [Climb -2.7m]
 
 point 981.921181102 253.660543909 station -name 95.4
 
-point 226.0 111.5 label -text [2.5m Climb]
+point 226.0 111.5 label -text [Climb 2.5m]
 
 line floor-step -reverse on
   756.0 242.0

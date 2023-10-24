@@ -362,7 +362,7 @@ endline
 line wall
 endline
 
-point 201.0 323.0 section -scrap SlopingHole3SPX1.1
+point 240.5 286.5 section -scrap SlopingHole3SPX1.1
 
 line wall
   86.5 -110.5
@@ -463,7 +463,7 @@ area flowstone
   l83-295--983
 endarea
 
-point 10.0 -973.0 section -scrap SlopingHoleSPX1.12
+point -84.0 -1047.5 section -scrap SlopingHoleSPX1.12
 
 line section -reverse on -direction both
   142.0 -1033.0
@@ -676,14 +676,14 @@ endline
 
 point 225.5 -927.75 stalagmite
 
-point -70.25 -1463.5 stalagmite
+point -60.75 -1460.0 stalagmite
 
 line section -reverse on -direction both
   -242.0 -1725.5
   -93.0 -1801.0
 endline
 
-point -356.0 -1804.5 section -scrap SlopingHoleSPX1.17
+point -395.0 -1669.0 section -scrap SlopingHoleSPX1.17
 
 line wall
   -18.5 -2139.5
@@ -705,7 +705,7 @@ line wall
   smooth off
 endline
 
-point -197.75 -273.5 air-draught -orientation 253.7
+point -210.25 -272.0 air-draught -orientation 253.7
 
 point 69.0 -1290.75 curtain -orientation 297.3 -scale l
 
@@ -726,33 +726,33 @@ line border -id l100--3--1596 -close on
   -2.0 -1654.25 -2.25 -1596.0 -4.0 -1595.75
 endline
 
-point -81.0 -1606.75 curtain -orientation 286.3 -scale l
+point -70.0 -1609.75 curtain -orientation 286.3 -scale l
 
-point -50.0 -2139.75 air-draught -orientation 137.8
+point -34.0 -2150.75 air-draught -orientation 117.4
 
-point 356.0 -1234.0 label -text [Calcite Ledge] -align bottom-left
+point 339.5 -1098.0 label -text [Calcite Ledge] -align bottom-left
 
-point -3.5 -2186.0 label -align bottom-right -text [Passage Too Small For Surveyor]
+point 28.0 -2186.0 label -align bottom-right -text [Passage Too Small For Surveyor]
 
-point -3.5 -2163.0 label -align bottom-right -text Continues
+point 64.5 -2185.0 label -align bottom-right -text Continues
 
-point -58.0 -1862.5 label -align bottom-right -text [Last Two Stations Grade 5B]
+point -315.5 -1815.5 label -align bottom-right -text [Last Two Stations Grade 5B]
 
-point 13.5 -1599.5 label -align bottom-right -text [Curtain Squeeze]
+point 0.0 -1650.0 label -align bottom-right -text [Curtain Squeeze]
 
-point 7.5 -1510.5 label -align bottom-right -text [Ramsey's Corner]
+point -116.0 -1451.0 label -align bottom-right -text [Ramsay's Corner]
 
-point 34.5 -49.0 label -text [Chapter House] -align bottom-left
+point 15.0 -5.5 label -text [Chapter House] -align bottom-left
 
-point 249.0 -98.0 label -text [Main Flow Of Water]
+point 236.0 -72.0 label -text [Main Flow Of Water]
 
-point -266.5 -305.5 label -text [Often Drafts Out]
+point -328.5 -300.5 label -text [Often Drafts Out]
 
-point -281.0 -273.5 label -text [Too Tight]
+point -296.5 -282.5 label -text [Too Tight]
 
-point -282.5 -246.0 label -text [Inlet 2]
+point -264.0 -269.0 label -text [Inlet 2]
 
-point 247.5 -54.5 label -text [Inlet 1]
+point 269.0 -51.5 label -text [Inlet 1]
 
 point 191.0 -30.0 water-flow -orientation 221.2 -scale l
 
@@ -1085,9 +1085,9 @@ line rock-border -close on -clip off
 endline
 
 line wall -clip off
-  715.0 -792.0
-  715.0 -792.0 715.0 -802.0 720.0 -825.0
-  725.0 -848.0 728.0 -864.0 726.0 -887.0
+  689.0 -728.5
+  689.0 -728.5 710.0 -769.0 715.0 -792.0
+  720.0 -815.0 728.0 -864.0 726.0 -887.0
   724.0 -910.0 721.0 -921.0 728.0 -933.0
   735.0 -945.0 746.0 -988.0 743.0 -995.0
   740.0 -1002.0 708.0 -1017.0 708.0 -1017.0
@@ -1111,8 +1111,8 @@ line wall -clip off
   643.0 -946.0 642.0 -926.0 642.0 -926.0
   smooth off
   642.0 -926.0 650.0 -894.0 646.0 -884.0
-  642.0 -874.0 644.0 -835.0 645.0 -818.0
-  646.0 -801.0 657.0 -759.0 657.0 -759.0
+  642.0 -874.0 649.0 -799.0 653.5 -745.0
+  654.91 -728.13 689.0 -728.5 689.0 -728.5
   smooth off
 endline
 

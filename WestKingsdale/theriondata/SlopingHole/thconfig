@@ -14,15 +14,18 @@ source SlopingHoleIndex.th
 select SlopingHole2Plan@SlopingHole2.SlopingHoleIndex
 select SlopingHole1Plan@SlopingHole1.SlopingHoleIndex
 select SlopingHole3Plan@SlopingHole3.SlopingHoleIndex
+#select SlopingHoleIndexME@SlopingHoleIndex
 
 
 
 
 
-#export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf
-#Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -layout elevation -o Output/SlopingHoleEe.pdf
+export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf 
+#produces plan of cave, on a single sheet
+
+
+#export map -proj extended -layout local -layout elevation -o Output/SlopingHoleEe.pdf
 
 #export map -o Output/SlopingHole.kml
 
@@ -45,13 +48,19 @@ grid-size 5 5 5 m
 grid-coords all ####borders####
 endlayout
 
+#layout -map-image/SlopingHoleEe.pdf
+#endlayout
+
 layout local
 
 #copy CommonLayout
 #layout GB_Layout
 
+
 base-scale 1 70
 scale 1 100
+
+
 
 
 symbol-set BCRA
@@ -63,7 +72,7 @@ symbol-set BCRA
 
 
 
-#colour map-fg altitude
+colour map-fg altitude
 #colour-legend smooth
 #colout-ledgend discrete
 colour-legend off
@@ -80,13 +89,13 @@ colour-legend off
   #grid-size 5 5 5 m
   #grid-coords all ####border####
   
-  #rotate -90
+  rotate -90
   
   ####Plan####
-  map-header 45 90 ne
+  map-header 60 30 nw
   
   transparency on
-  opacity 80
+  opacity 60
   scale-bar 10 metres
 
 symbol-colour area water [25 50 100]

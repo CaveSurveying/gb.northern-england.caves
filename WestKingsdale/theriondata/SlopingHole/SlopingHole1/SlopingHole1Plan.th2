@@ -11,7 +11,7 @@ point 209.47937007899992 386.409538794 station -name 1.1
 
 point 196.03937007899992 347.089538794 station -name 1.0
 
-point 205.5 294.0 label -text [Entrance Shaft]
+point 134.5 299.0 label -text [Entrance Shaft]
 
 line wall -close on
   168.5 352.5
@@ -136,18 +136,41 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 938.5 314.5 section -scrap SlopingHole1SPX1.6
+point 1008.5 198.0 section -scrap SlopingHole1SPX1.6
 
 line section -direction both
   889.0 209.0
   764.5 234.0
 endline
 
-point 360.0 342.0 section -scrap SlopingHole1SPX1.2
+line wall
+endline
+
+point 201.0 524.0 gradient -orientation 227.9 -clip off -scale l
+
+point 276.0 371.0 gradient -orientation 255.3 -clip off -scale l
+
+point 239.5 287.5 gradient -orientation 303.6 -clip off -scale l
+
+point 201.5 203.5 gradient -orientation 329.4 -clip off -scale l
+
+point 130.0 132.0 gradient -orientation 16.0 -clip off -scale l
+
+point 38.0 180.0 gradient -orientation 36.1 -clip off -scale l
+
+point 4.5 296.0 gradient -orientation 87.2 -clip off -scale l
+
+point 30.5 409.0 gradient -orientation 106.4 -clip off -scale l
+
+point 56.5 494.0 gradient -orientation 143.8 -clip off -scale l
+
+point 111.0 525.0 gradient -orientation 159.6 -clip off -scale l
+
+point 409.0 340.0 section -scrap SlopingHole1SPX1.2
 
 line section -direction both
   333.5 559.0
-  343.0 467.5
+  347.0 449.0
 endline
 
 line wall
