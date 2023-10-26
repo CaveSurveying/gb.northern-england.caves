@@ -1,17 +1,10 @@
-*begin NorthEndPot
+*BEGIN NorthEndPot
 
-;Title: North End Pot
-;Date Created 22/01/13 by Becka Lawson just so it appears on survex data set (needs surveying properly!)
+*EXPORT 	NorthEndPotUnderground.1-1
 
-*date 2013.01.22
-*export 1
+*INCLUDE	NorthEndPotUnderground
+*INCLUDE	NorthEndPotDig
 
-;*fix 1 68300 76500 395 ; from Northern Caves - needs checking
+*EQUATE		NorthEndPotDig.1 NorthEndPotUnderground.1-1
 
-*entrance 1
-
-*data normal from to tape compass clino ignoreall
-1	2	48.00	-	down	; made up leg 
-2	3	90.00	135	0		; made up leg based on http://cavemaps.org/cavePages/Marble%20Steps__North%20End%20Pot.htm
-
-*end NorthEndPot
+*END NorthEndPot
