@@ -8,9 +8,7 @@
 ;*equate If14.007 DingDongBellPitches.007
 
 *begin	Bubbles
-*export 001
-*export 215         ; tag
-*export 007
+*export 001 007 215 ; 215 is tag
 
 *date 2006.05.04
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

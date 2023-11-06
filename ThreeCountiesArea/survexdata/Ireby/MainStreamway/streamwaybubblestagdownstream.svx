@@ -90,7 +90,7 @@ bubblestag   38     5.72       -14     281
 27    0.2     1.5     1.8  1.6 WP on wall
 28    1.6     0.2     1.5  1.5 WP on wall
 29    1.1     0.1     0.5  2.5 WP on wall
-30    0.1     1.6     0.3  2.7 # WP on wall near cieling
+30    0.1     1.6     0.3  2.7 # WP on wall near ceiling
 31    0.0     1.4     0.4  2.1 WP on wall
 32    0.4     1.0     1.0  1.1 WP on wall
 33    0.4     1.2     0.6  1.0 WP on wall

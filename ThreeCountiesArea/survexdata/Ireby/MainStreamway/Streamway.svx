@@ -16,6 +16,7 @@
 *Include streamwaybubblestagdownstream
 *Include dingdongbellpitches
 *include bubblesroute
+*include shadow
 
 ; pitch and entrance equates
 *equate Bubbles.001 DingDongBellPitches.001			;Start of Bubbles Route
@@ -25,10 +26,10 @@
 *equate Bubbles.215 streamwaybubblestagdownstream.bubblestag 		;Bubbles Route Joins Streamway
 *equate streamwaybubblestagdownstream.bubblestag  Streamway1.027
 
-
 *equate	streamwayuptoduckresurvey.37       streamwayupstreamofduckresurvey.37x
 *equate streamwayupstreamofduckresurvey.59 streamwaybubblestagdownstream.p59
 
+*equate shadow.17 bubbles.215 ; note this connection may not be correct, stn 17 was a tag but it didn't specify which one
 
 *end Streamway
 
