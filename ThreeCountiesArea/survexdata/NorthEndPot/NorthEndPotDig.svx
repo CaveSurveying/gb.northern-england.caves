@@ -23,6 +23,11 @@
 11	12	1.413	038		-54.9		;12=deepest point at 25th Oct 2023
 11	13	2.002	330		-0.85		;13=to bedding end
 
+*DATE 2023.12.04
+11	14	9.82	155		-82.2
+14	15	7.5		312		-50
+14	16	2.9		175		-33
+
 ;To be continued
 
 *end NorthEndPotDig
