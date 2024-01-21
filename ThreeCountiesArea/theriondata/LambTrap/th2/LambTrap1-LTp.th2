@@ -1,6 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 0 0 1476.800000 2953.300000
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -129.0 -129.0 1761.2700000000002 6583.17
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {676.3800000000001 1 1.0} {1282.9499999999998 38} LambTrap1-LTp.xvi 0 {}
 
 
 
@@ -2175,7 +2176,21 @@ point 275.66 2814.76 station -name 112
 
 point 229.75 2801.99 station -name 113
 
-point 224.09 2817.96 station -name 114
+point 203.62000000000006 3078.68 station -name 121
+
+point 207.67000000000007 3044.74 station -name 120
+
+point 163.46000000000004 3019.6499999999996 station -name 119
+
+point 162.76000000000005 2973.3199999999997 station -name 118
+
+point 133.5 2927.75 station -name 117
+
+point 152.03000000000003 2883.58 station -name 116
+
+point 192.60000000000002 2861.8 station -name 115
+
+point 224.56000000000006 2817.4700000000003 station -name 114
 
 point 694.91 1229.21 station -name 36
 
