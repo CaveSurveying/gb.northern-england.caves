@@ -23,7 +23,7 @@ endmap
 
 
 
-#join GuscottSP1 TestOfFaithSP1 -smooth on
+#join GuscottSP1 TestOfFaith1SP1 -smooth on
 #join TestOfFaith1SP1 TestOfFaith2SP1
 
 centreline

@@ -14,7 +14,7 @@ select GuscottIndex
 export map -proj plan -layout local -o ../Output/GuscottOutput/GuscottIndex.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o ../output/GuscottOutput/GuscottEe.pdf
+#export map -proj extended -layout local -o ../output/GuscottOutput/GuscottEe.pdf
 
 #export model -fmt survex -o ../output/GuscottOutput/Guscottth.3d
 #Survex file showing centre line only
@@ -26,10 +26,10 @@ export map -proj extended -layout local -o ../output/GuscottOutput/GuscottEe.pdf
 #Survex file showing walls only
 
 #export model -o Guscott.kml
-export map -o ../output/GuscottOutput/Guscott.kml
+#export map -o ../output/GuscottOutput/Guscott.kml
 
 layout local
-scale 1 3000
+scale 1 200
 base-scale 1 100
 colour map-fg scrap
 symbol-colour area water [25 50 100]
