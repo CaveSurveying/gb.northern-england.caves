@@ -1,0 +1,131 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -300.78 232.75 138.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {12.53 1 1.0} {-172.78 0} OQP-OQPp.xvi 0 {}
+
+# 2024.02.25 created by TopoDroid v. 6.2.32
+
+
+
+
+scrap OQP-OQPp -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line pit
+  93.51 -123.35
+  93.39 -123.34 93.26 -123.33 93.14 -123.32
+  88.13 -123.1 83.92 -119.53 79.5 -118.64
+  78.24 -118.39 75.1 -122.06 72.86 -121.6
+  71.38 -121.3 69.25 -118.68 68.28 -118.63
+  66.12 -118.53 64.07 -123.51 60.8 -122.55
+  smooth off
+endline
+
+line pit
+  101.98 -118.1
+  101.87 -118.18 101.76 -118.29 101.63 -118.33
+  101.43 -118.39 101.22 -118.38 101.02 -118.38
+  100.86 -118.38 100.71 -118.35 100.56 -118.32
+  96.96 -117.68 93.32 -116.14 89.51 -115.66
+  89.33 -115.64 89.16 -115.6 88.99 -115.58
+  88.36 -115.48 87.76 -115.13 87.34 -114.71
+  smooth off
+endline
+
+line wall -subtype pit -outline in
+  62.33 -129.94
+  62.26 -130.54 61.98 -134.24 62.21 -134.76
+  62.25 -134.86 64.39 -139.48 64.5 -139.46
+  65.38 -139.26 73.58 -136.39 74.0 -136.0
+  74.3 -135.73 72.22 -128.91 71.5 -128.75
+  71.38 -128.72 70.62 -125.22 70.5 -125.25
+  69.98 -125.39 66.07 -127.77 65.54 -127.86
+  65.39 -127.89 65.24 -127.92 65.09 -127.95
+  64.94 -127.98 64.79 -128.0 64.65 -128.02
+  63.85 -128.11 62.51 -128.81 62.7 -129.66
+  62.75 -129.87 62.79 -130.09 62.82 -130.31
+  62.89 -130.73 62.98 -131.18 63.1 -131.61
+  smooth off
+endline
+
+line u:splay -visibility off
+  61.92 -131.13
+  77.32 -120.24
+endline
+
+line u:splay -visibility off
+  61.92 -131.13
+  98.35 -152.39
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  78.07 -142.83
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  70.87 -118.33
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  55.07 -133.76
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  53.8 -135.32
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  68.35 -112.72
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  91.25 -126.85
+endline
+
+line u:splay -visibility off
+  65.12 -124.45
+  78.82 -147.64
+endline
+
+line u:splay -visibility off
+  64.5 -139.46
+  57.71 -139.98
+endline
+
+line u:splay -visibility off
+  64.5 -139.46
+  80.22 -133.81
+endline
+
+line u:splay -visibility off
+  64.5 -139.46
+  60.51 -128.65
+endline
+
+line u:splay -visibility off
+  64.5 -139.46
+  69.24 -147.03
+endline
+
+point 75.75 -125.0 label -align top-right -text c2 -scale l
+
+point 82.75 -139.0 label -text [OLD QUARRY<br>POT] -align bottom-right -scale m
+
+point 103.5 -118.0 label -align top-right -text GPS -scale s -visibility off
+
+point 98.43 -118.11 station -name "0" -subtype fixed
+
+point 61.92 -131.13 station -name "1"
+
+point 65.12 -124.45 station -name "2"
+
+point 64.50 -139.46 station -name "3"
+
+endscrap
+
+
