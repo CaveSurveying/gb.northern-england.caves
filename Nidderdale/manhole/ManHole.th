@@ -39,7 +39,7 @@ survey ManHole
       station 1.1 "Manchester Hole" entrance
       fix 1.1 10003 76401 237
       station 1.46 "Bax Pot" entrance
-      fix 1.46 09983 76168 226
+      #fix 1.46 09983 76168 226      #### When used it gives a huge loop error. Needs investigation##
       
       
       
