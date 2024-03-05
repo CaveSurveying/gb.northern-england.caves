@@ -2,11 +2,12 @@ encoding  utf-8
 source ManHole.th
 # Change name to the main therion file
 
+select manchester_output
+maps-offset on
 
 #Surveys to output
 #-----------------
 
-select manholePlan
 
 export map -proj plan -layout local -o ../output/ManHoleOutput/ManHole.pdf
 #Produces plan of cave, on a single sheet

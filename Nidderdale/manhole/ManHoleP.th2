@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap ManHoleSP1 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 2643.478260869565 20130.590062111798 label -scale xl -align top-left -text MANCHESTER<br>HOLE
+
 line floor-step
   3332.0 19786.0
   3358.0 19788.0 3352.0 19848.0 3362.0 19856.0
@@ -62,6 +64,11 @@ line rock-border -close on
   3089.0 19722.0 3080.0 19733.0 3064.0 19733.0
   3048.0 19733.0 3024.0 19736.0 3017.0 19733.0
   3010.0 19730.0 3000.0 19668.0 3000.0 19648.0
+endline
+
+line arrow
+  2700.0 20103.57142857143
+  3139.2857142857147 19989.285714285714
 endline
 
 line wall -reverse on
@@ -352,9 +359,9 @@ endscrap
 
 scrap bax_pot_s1 -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point -108.69565217391303 3130.4347826086955 label -scale l -text [Divers Chamber]
+point 209.1614906832298 3016.1490683229813 label -scale xl -text [Divers<br>Chamber] -align top-left
 
-point -330.69565217391306 2141.3478260869565 label -scale xl -text [Bax Pot]
+point -180.69565217391306 2219.919254658385 label -scale xl -text BAX<br>POT
 
 line floor-step
   -3.0 2382.0
@@ -384,6 +391,10 @@ endscrap
 
 
 scrap ManHoleSP2 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 2578.571428571429 5339.285714285715 danger -scale l
+
+point 2998.6024844720496 5285.403726708075 label -scale l -text [grovel, can<br>sump fast] -align right
 
 line flowstone
   848.0 12934.0
@@ -565,9 +576,9 @@ endline
 line flowstone
 endline
 
-point 3313.714285714286 4432.857142857143 label -text [Fossil Passage]
+point 3145.857142857143 4243.571428571428 label -text Fossil<br>Passage -scale xl -align right
 
-point 1849.7142857142858 4304.285714285715 label -text [<center>Dry Oxbow C2.0m]
+point 2196.1428571428573 4315.0 label -scale l -text dry<br>oxbow<br>(c2) -align left
 
 line label
   2632.0 2904.0
@@ -632,15 +643,20 @@ line border -id l433-988-12976 -visibility on -place bottom
   1196.0 13020.0
 endline
 
-point 1208.695652173913 3243.478260869565 label -text [Swinton Bypass]
+point 1730.1242236024846 3172.0496894409935 label -text Swinton<br>Bypass -scale xl -align top-left
 
-point 1347.8260869565217 1947.8260869565217 label -text [Sump 1]
+point 1001.3975155279503 1872.8260869565217 label -text [Sump 1] -scale xl -align bottom-right
 
-point 2267.5465838509313 2314.44099378882 label -text [Duck]
+point 2335.403726708074 2396.5838509316773 label -text [duck] -scale l -align bottom-left
 
-point 3773.9130434782605 1878.2608695652173 label -text [Static Sump link to Pillar Pot]
+line arrow
+  3625.0 1889.2857142857144
+  4117.86 -467.86
+endline
 
-point 3392.0 3164.0 label -text [<center>Climb to Hole C2.0m]
+point 3816.7701863354037 1942.5465838509315 label -text [static sump<br>link to Pillar Pot] -scale l -align right
+
+point 3138.4285714285716 3142.5714285714284 label -scale l -align right -text c2
 
 line border -reverse on
   2912.0 3538.0
@@ -1618,15 +1634,31 @@ line wall
   smooth off
 endline
 
-point 927.329192546584 312.111801242236 label -text [Sump 2]
+area sump
+  l447-961-529
+endarea
 
-point -308.695652173913 -3600.0 label -text [Lesser Stream Passage]
+line border -id l447-961-529 -close on
+  857.1428571428572 642.8571428571429
+  853.5714285714287 503.5714285714286
+  825.0 471.42857142857144
+  778.5714285714287 453.5714285714286
+  778.5714285714287 453.5714285714286 748.29 446.29 742.0 441.0
+  735.71 435.71 685.71 428.57 689.2857142857143 414.28571428571433
+  692.86 400.0 757.1428571428572 346.42857142857144 757.1428571428572 346.42857142857144
+  smooth off
+  757.1428571428572 346.42857142857144 832.14 342.86 839.2857142857143 353.5714285714286
+  846.43 364.29 928.57 421.43 935.7142857142858 435.7142857142857
+  942.86 450.0 957.1428571428572 532.1428571428572 957.1428571428572 532.1428571428572
+  smooth off
+  857.1428571428572 642.8571428571429
+endline
 
-point -243.4782608695652 -582.6086956521739 label -text [Connection]
+point 930.9006211180125 387.111801242236 label -text [Sump 2] -align bottom-right -scale xl
 
-point -239.1304347826087 -500.0 label -text [Eternal Optimist]
+point -308.695652173913 -3600.0 label -text [Lesser<br>Stream<br>Passage] -scale xl
 
-point -535.1739130434783 770.3478260869565 label -scale xl -text [Lesser Stream Pot]
+point -63.745341614906806 648.9192546583851 label -scale xl -align top-left -text Lesser<br>Stream<br>Pot
 
 line wall
   61.0 515.0
@@ -1897,11 +1929,9 @@ line water-flow
   smooth off
 endline
 
-point 4724.0 21307.0 label -text [Water Enters from Surface River]
+point 4874.0 21192.714285714286 label -align top-left -text [water enters from<br>surface river] -scale l
 
-point 2143.478260869565 20191.304347826084 label -scale xl -text [Manchester Hole]
-
-point 3461.0 21174.0 label -text [Below Depression in Dry Riverbed]
+point 3453.8571428571427 21066.85714285714 label -text [below depression<br>in dry riverbed] -align top-left -scale l
 
 line water-flow
   4332.0 19999.0
@@ -2054,13 +2084,11 @@ line rock-border -close on
   4321.0 20113.0 4355.0 20136.0 4333.0 20138.0
 endline
 
-point 3352.173913043478 4878.260869565217 label -text [Grovel - can sump fast]
+point 302.79503105590067 10630.900621118011 label -text Main<br>Chamber -align bottom-left -scale xl
 
-point -4.347826086956502 10513.043478260868 label -text [Main Chamber]
+point 1704.8136645962732 15791.304347826086 label -scale l -text sandstone<br>floor -align bottom-right
 
-point 686.9565217391304 15891.304347826086 label -text [Sandstone floor]
-
-point 709.7142857142858 16067.57142857143 label -text [Flowstone pendants]
+point 1645.4285714285716 16446.14285714286 label -scale l -align top-left -text flowstone<br>pendants
 
 line label -id l261-5039-20757
   5022.0 20838.0
@@ -2234,6 +2262,8 @@ endscrap
 
 scrap EternalOptomist_s1 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 885.8695652173913 -382.1428571428571 label -align top-right -scale xl -text Eternal<br>Optimist
+
 line rock-border -close on
   810.0 -1841.0
   803.0 -1843.0 773.0 -1849.0 773.0 -1849.0
@@ -2295,6 +2325,8 @@ point 512.0208661399997 -193.35409450000225 station -name 7.11
 point 457.0508661399999 -6.184094500000356 station -name 7.10
 
 point 464.99086614 191.07590549999804 station -name 7.9
+
+point 421.42857142857144 221.42857142857144 map-connection
 
 line wall
   842.0 -1251.0
@@ -2700,7 +2732,9 @@ line rock-border -close on
   383.0 -2601.0
 endline
 
-point 1339.0 -4639.0 label -text [Climb up to Goyden Main Chamber]
+point 1032.142857142857 -4700.0 map-connection
+
+point 1339.0 -4639.0 label -align top-right -text [climb up to<br>Goyden<br>Main Chamber] -scale l
 
 line wall -subtype blocks -scale xl
   1573.0 -5352.0

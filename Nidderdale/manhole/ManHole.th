@@ -3,9 +3,6 @@ input ManHoleP.th2
 #input ManHoleEe.th2
 #input ManHoleE90.th2
 
-
-
-
 #map ManHoleME
 #  ManHoleSE1
 #  ManHoleSE2
@@ -15,8 +12,6 @@ input ManHoleP.th2
   #ManHoleSE90_1
 #endmap
 
-
-
 survey ManHole
   centreline
     cs OSGB:SE
@@ -25,26 +20,23 @@ survey ManHole
     copyright 2015 "GNU GPL"
     
     ### TRIP COMMENT FROM POCKETTOPO ###
-   
-    
+       
       date 2015.02.19
       #Data Checked And Corrected By Dave Clucas#
       
-      team "Black Sheep/Diggers"
-      #team "Nick Bairstow" notes
-      #team "Chris Fox" instruments
-      #team "Ralf Guscott" dog
-      #team "David Stubley" dog
+      #team "Black Sheep/Diggers"
+      team "Nick Bairstow" notes
+      team "Chris Fox" instruments
+      team "Ralf Guscott" dog
+      team "David Stubley" dog
       
       station 1.1 "Manchester Hole" entrance
       fix 1.1 10003 76401 237
       station 1.46 "Bax Pot" entrance
       #fix 1.46 09983 76168 226      #### When used it gives a huge loop error. Needs investigation##
+         
       
-      
-      
-    
-      #instrument  instruments "Nick Disto 2114"
+    #instrument  instruments "Nick Disto 2114"
     
     data normal from to tape compass clino ignoreall
       extend right
@@ -1025,7 +1017,12 @@ survey ManHole
 endcentreline
 endsurvey
 
-map manholePlan -title "Man Hole Plan"
+map manchester_output -projection plan
+  manholePlan
+  EternalOptomist-offset [50 0 m] below
+endmap
+
+map manholePlan  -title "Man Hole Plan"
   bax_pot_s1
   break
   lesser_s1
@@ -1036,9 +1033,12 @@ map manholePlan -title "Man Hole Plan"
   ManHoleSP4
   ManHoleSP5
   UpstreamManHole_s1
-  EternalOptomist_s1
-  EternalOptomist_s2
+endmap
+
+map EternalOptomist-offset -projection plan
+  EternalOptomist_s1 
+  EternalOptomist_s2 
   break
-  EternalOptomist_s3
+  EternalOptomist_s3  
 endmap
 

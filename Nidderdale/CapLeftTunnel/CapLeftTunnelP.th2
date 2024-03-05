@@ -95,7 +95,7 @@ line border -id l161-2940-1605 -close on
   3070.5 1557.5 2728.5 1687.5 2699.0 1648.0
 endline
 
-point 2231.5 1797.5 label -text [Climb 3m to Dig]
+point 2355.5 1711.5 label -text [c3 to dig] -align top-right  -scale l
 
 area sump
   l158-2401-1032
@@ -550,7 +550,9 @@ line border -id l62-4802-1149 -close on
   4764.0 1176.0 4603.0 1213.0 4624.0 1180.0
 endline
 
-line label -scale l -text [Cap Left Tunnel]
+point 4048.0 1216.0 label -scale xl -text [Cap Left<br>Tunnel] -align top-right
+
+line label -scale l -text [Cap Left Tunnel] -visibility off
   3698.0 1436.0
   3698.0 1436.0 3884.1 1318.49 3982.0 1298.0
   4068.0 1280.0 4187.76 1223.46 4332.0 1258.0
@@ -815,7 +817,7 @@ endline
 line wall
 endline
 
-point 1265.0 4315.0 dig -orientation 0.0
+point 1265.0 4299.0 dig -orientation 0.0
 
 line wall -subtype unsurveyed
   1262.0 4248.0
@@ -864,7 +866,7 @@ point 1236.0 4123.0 water-flow -orientation 109.6
 
 point 1133.0 4227.0 water-flow -orientation 162.5
 
-point 1195.0 4040.0 label -text C1.5
+point 1195.0 4040.0 label -text c1.5   -scale l
 
 point 940.0 4268.0 water-flow -orientation 58.3
 
@@ -936,7 +938,9 @@ point 1936.0 3530.5 bedrock -clip off
 
 point 2130.5 2882.5 bedrock -clip off
 
-line label -text [Cap Left Crawl] -scale l
+point 2340.0 3158.0 label -scale xl -align top-right -text [Cap Left<br>Crawl]
+
+line label -scale l -text [Cap Left Crawl] -visibility off
   1912.0 3914.0
   1908.0 3874.0 2076.0 3416.0 2086.0 3372.0
   2096.0 3328.0 2425.98 2962.82 2452.0 2934.0

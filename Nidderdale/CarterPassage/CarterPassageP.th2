@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -138.5263157894737 -138.5263157894737 905.9133858270001 1944.1502685966
-##XTHERION## xth_me_area_zoom_to 38
+##XTHERION## xth_me_area_zoom_to 76
 ##XTHERION## xth_me_image_insert {232.42897637800002 1 1.0} {1262.95114348 1.4} PocketTopo/CarterPassage_p.xvi 0 {}
 
 
@@ -128,7 +128,7 @@ line wall
   smooth off
 endline
 
-point 414.0 1142.0 label -text [CARTER PASSAGE] -scale xl
+point 339.0 1161.7368421052631 label -scale xl -text Carter<br>Passage -align right
 
 line wall
   669.0 1794.0

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -134.4516129032258 -960.0 23891.6850393658 16225.1338582645
-##XTHERION## xth_me_area_zoom_to 62
+##XTHERION## xth_me_area_zoom_to 31
 ##XTHERION## xth_me_image_insert {3361.313779528 1 1.0715193052376064} {6485.520315000002 1.16} {Labyrinth[1]With Clay Tunnel 30.10.15/PocketTopo/Labyrinth[1]_p.xvi} 0 {}
 ##XTHERION## xth_me_image_insert {3360.313779528 -1 1.0} {6485.520315000002 {}} {Labyrinth[1]/PocketTopo/Labyrinth[1]_p.xvi} 0 {}
 
@@ -354,7 +354,7 @@ line gradient
   smooth off
 endline
 
-point 11252.0 5044.0 label -text [FIVE WAYS]
+point 11445.548387096775 5140.774193548387 label -text Five<br>Ways -align right -scale xl
 
 line label -reverse on
   10570.0 6883.0
@@ -371,7 +371,7 @@ line label -reverse on
   smooth off
 endline
 
-point 10881.0 6900.0 label -text [10 FOOT CLIMB]
+point 10555.193548387097 6787.096774193548 label -align bottom-left -text [10'<br>Climb] -scale xl
 
 point 10709.0 6977.0 fixed-ladder
 
@@ -764,9 +764,9 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-point 12681.0 7510.0 label -text [SAND TUNNEL] -scale l
+point 13187.451612903225 7290.645161290323 label -text [Sand Tunnel] -scale xl -align top-right
 
-point 11185.0 8428.0 label -text [OLD YEAR PASSAGE]
+point 11185.0 8428.0 label -align right -text [Old Year<br>Passage] -scale xl
 
 line water-flow
   11090.0 8486.0
@@ -1089,6 +1089,40 @@ line wall
   smooth off
 endline
 
+point 18035.483870967742 5135.4838709677415 label -scale l -text mud<br>sump -align top-right
+
+point 16693.548387096773 5619.354838709677 label -align bottom-left -scale l -text mud<br>sump
+
+area sump
+  l297-18019-5123
+endarea
+
+line border -id l297-18019-5123 -close on
+  17993.548387096773 5129.032258064516
+  17790.32258064516 5074.193548387097
+  17870.96774193548 4980.645161290322
+  17977.41935483871 4977.419354838709
+  17977.41935483871 4977.419354838709 18077.42 5009.68 18074.193548387095 5074.193548387097
+  18070.97 5138.71 17993.548387096773 5129.032258064516 17993.548387096773 5129.032258064516
+  smooth off
+endline
+
+area sump
+  l295-16768-5874
+endarea
+
+line border -id l295-16768-5874 -close on
+  16648.387096774193 5887.096774193548
+  16648.387096774193 5887.096774193548 16622.58 5745.16 16667.74193548387 5709.677419354838
+  16712.9 5674.19 16741.935483870966 5683.870967741935 16741.935483870966 5683.870967741935
+  smooth off
+  16741.935483870966 5683.870967741935 16787.1 5845.16 16761.290322580644 5870.967741935484
+  16735.48 5896.77 16648.387096774193 5887.096774193548 16648.387096774193 5887.096774193548
+  smooth off
+endline
+
+point 16261.290322580644 6222.58064516129 label -scale xl -align top-right -text [Clay Tunnel]
+
 line wall
   18205.0 2902.0
   18204.92 2921.15 18204.0 2967.0 18197.0 2990.0
@@ -1201,7 +1235,7 @@ line wall
   smooth off
 endline
 
-point 18350.0 3405.0 label -text [EYE HOLE] -scale m
+point 18030.645161290322 3395.3225806451615 label -text [eye<br>hole] -scale l -align left
 
 line ceiling-step -reverse on
   10928.0 7944.0
@@ -1509,11 +1543,21 @@ point 18290.913779528 2349.320315000001 station -name 1.66
 
 point 23567.293779527998 -428.85968499999944 station -name 1.88
 
-line wall
+line wall -subtype blocks
+  23562.0 -543.0
+  23574.0 -416.0
+endline
+
+line wall -subtype blocks
   23574.0 -416.0
   23542.71 -418.14 23512.0 -432.0 23496.0 -432.0
   23480.0 -432.0 23475.0 -436.0 23455.0 -434.0
   23435.0 -432.0 23441.0 -436.0 23424.0 -432.0
+  smooth off
+endline
+
+line wall
+  23424.0 -432.0
   23407.0 -428.0 23354.0 -427.0 23346.0 -421.0
   23338.0 -415.0 23323.0 -405.0 23318.0 -397.0
   23313.0 -389.0 23245.0 -344.0 23229.0 -347.0
@@ -1591,9 +1635,9 @@ line rock-border -close on
   19442.0 2317.0
 endline
 
-point 18300.5 3210.0 label -text SLOT
+point 18048.887096774193 3206.7741935483873 label -text slot -scale l -align left
 
-point 18301.5 3161.5 label -text C1
+point 18236.983870967742 3200.2096774193546 label -text c1 -scale l -align right
 
 line label
   18191.0 3245.0
@@ -1614,9 +1658,9 @@ line rock-edge
   smooth off
 endline
 
-point 18469.0 2806.0 label -text P5
+point 18270.96774193548 2874.1935483870966 label -text [+P5] -scale l -align right
 
-point 18467.0 2885.0 label -text [TELEGRAPH AVEN]
+point 17989.58064516129 2881.7741935483873 label -scale xl -align bottom-left -text Telegraph<br>Aven
 
 line rock-border -close on
   19579.0 2204.0
@@ -1627,7 +1671,7 @@ line rock-border -close on
   19579.0 2204.0
 endline
 
-point 18413.0 2428.0 label -scale l -text C2
+point 18225.90322580645 2340.9032258064517 label -scale l -text c2 -align bottom-left
 
 line label -close on
   18311.5 2459.5
@@ -1696,7 +1740,7 @@ line rock-border -close off
   18540.5 2313.0
 endline
 
-point 18870.5 2117.5 label -text [CHERT FLOOR] -scale l
+point 18883.40322580645 2162.6612903225805 label -text chert<br>floor -scale l -align bottom-left
 
 line label
   19211.0 2269.0
@@ -1872,7 +1916,7 @@ line floor-step
   smooth off
 endline
 
-point 22458.0 -113.0 label -text [CRATER CHAMBER] -scale xl
+point 22458.0 -113.0 label -scale xl -align top-right -text Crater<br>Chamber
 
 line label
 endline
@@ -2080,6 +2124,11 @@ line wall
   23200.0 -551.0 23236.0 -553.0 23250.0 -547.0
   23264.0 -541.0 23289.0 -521.0 23306.0 -525.0
   23323.0 -529.0 23397.0 -545.0 23423.0 -551.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  23423.0 -551.0
   23449.0 -557.0 23548.0 -560.0 23562.0 -543.0
   smooth off
 endline

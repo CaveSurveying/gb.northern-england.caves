@@ -1,0 +1,53 @@
+; 2023.11.11 created by TopoDroid v 6.2.16
+; astron furthest aven
+; Instrument: DistoX2 4202 - SM-N910F
+
+*begin astron 
+  *date 2023.10.14 
+  *team "phil walker Howard jones" 
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+	*export 6
+  *alias station - ..
+  *flags not splay
+  *data normal from to tape compass clino
+    0 1   4.02 15.1 85.0  ; 0 last bolt.  1 is roof
+  0 - 0.97 200.0 25.8
+  0 - 1.48 16.1 6.0
+  0 - 0.19 334.8 6.2
+  0 - 0.50 64.2 2.7
+    0 2   4.50 204.6 -78.4
+    3 2   2.74 264.0 44.7
+  3 - 0.88 213.8 40.7
+  3 - 0.41 349.2 26.8
+  3 - 0.51 142.0 37.5
+  3 - 2.07 105.7 69.4
+  3 - 5.52 268.7 72.0
+  3 - 1.79 285.7 12.0
+    3 4   2.05 96.6 -27.8
+    4 5   1.46 60.3 -13.6
+  4 - 1.46 52.9 -10.7
+  4 - 0.36 358.5 -1.7
+  4 - 0.24 202.5 6.5
+  4 - 2.04 13.1 74.1
+  4 - 0.82 304.6 -38.2
+    5 6   1.54 187.9 22.8
+  5 - 7.28 338.6 -10.0
+  5 - 2.88 183.9 6.3
+  5 - 1.36 147.8 15.5
+  *flags not splay
+*units left meters
+*units right meters
+*units up meters
+*units down meters
+*data passage station left right up down
+0  0.13 0.36 0.42 0.00
+1  0.00 0.00 0.00 0.00
+2  0.00 0.00 0.00 0.00
+3  0.51 0.65 5.25 0.00
+4  0.99 0.23 1.96 0.51
+5  7.09 2.38 0.36 1.26
+6  0.00 0.00 0.00 0.00
+
+*end astron

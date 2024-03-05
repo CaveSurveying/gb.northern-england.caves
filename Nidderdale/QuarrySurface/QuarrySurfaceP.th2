@@ -7,11 +7,11 @@ encoding  utf-8
 
 scrap QuarrySurfaceSP1 -projection plan -station-names "" "@QuarrySurface" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 5364.0 5008.0 label -text [Pigskin Pot]
+point 5474.0 5192.0 label -align top-right -scale m -text Pigskin<br>Pot
 
-point 1162.0 6432.0 label -orientation 297.3 -text [Top Of Shale Band]
+point 1162.0 6432.0 label -orientation 297.3 -text [Top of shale band]
 
-line wall -clip off
+line rock-border -reverse on -clip off
   1532.0 7066.0
   1532.0 7042.0 1515.19 6990.07 1511.5969477620001 6963.037244094
   1508.0 6936.0 1403.33 6772.15 1399.6669477619998 6764.077244094
@@ -20,7 +20,7 @@ line wall -clip off
   1018.0 5802.0
 endline
 
-point 3816.0 4838.0 label -text [Quarry Dig]
+point 3724.0 4844.0 label -text Quarry<br>Dig -align right -scale m
 
 line rock-border -reverse on -clip off
   3478.0 5142.0

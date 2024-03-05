@@ -1,0 +1,205 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -249.93 -530.7 245.0 170.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {-121.93 1 1.0} {-402.7 0} astron-astronp.xvi 0 {}
+
+# 2023.11.11 created by TopoDroid v. 6.2.16
+
+
+
+
+scrap astron-astronp -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  -13.25 -102.5
+  -8.5 -101.5
+  -8.5 -101.5 -6.75 -101.75 -6.0 -102.25
+  -5.25 -102.75 -3.5 -103.5 -3.5 -103.5
+  smooth off
+  0.75 -103.5
+endline
+
+line wall -subtype debris -scale xs
+  -16.5 -96.0
+  -19.25 -95.75
+  -20.0 -98.25
+  -20.0 -98.25 -19.75 -100.25 -19.5 -101.0
+  -19.25 -101.75 -17.75 -102.5 -16.75 -102.5
+  -15.75 -102.5 -13.25 -102.5 -13.25 -102.5
+  smooth off
+endline
+
+line wall
+  1.25 -98.0
+  -0.75 -98.75
+  -3.75 -98.75
+  -6.5 -98.25
+  -9.0 -97.75
+  -11.0 -96.75
+  -16.5 -96.0
+endline
+
+line wall
+  80.45 -93.61
+  70.27 -95.71 58.58 -97.79 48.37 -94.55
+  47.68 -94.33 46.96 -94.05 46.21 -93.98
+  39.46 -93.37 28.78 -92.34 23.88 -86.87
+  21.6 -84.33 22.92 -80.17 23.01 -77.11
+  23.24 -69.29 23.35 -61.08 21.69 -53.41
+  smooth off
+  13.56 -56.52 10.02 -67.9 8.89 -75.86
+  7.81 -83.4 4.54 -91.22 1.25 -98.0
+  smooth off
+endline
+
+line wall
+  0.75 -103.5
+  -0.24 -105.53 2.08 -106.58 2.0 -108.75
+  smooth off
+endline
+
+line wall
+  2.0 -108.75
+  9.89 -110.99 22.35 -113.93 30.52 -112.17
+  37.42 -110.68 44.04 -106.48 51.23 -106.03
+  56.18 -105.72 62.19 -107.34 67.09 -108.23
+  68.93 -108.57 74.4 -109.35 76.17 -108.64
+  smooth off
+endline
+
+line pit
+  20.64 -92.14
+  21.3 -95.69 22.82 -99.86 21.36 -103.4
+  19.87 -107.02 14.56 -107.17 11.43 -108.25
+  smooth off
+  8.69 -108.47 4.58 -107.19 3.47 -104.25
+  2.04 -100.48 5.81 -97.71 6.75 -94.0
+  7.01 -92.96 6.15 -91.01 6.5 -90.0
+  7.44 -87.25 8.68 -83.68 10.14 -81.22
+  11.68 -78.61 13.16 -75.79 14.14 -72.92
+  15.11 -70.03 14.76 -66.6 15.15 -63.6
+  15.36 -62.02 15.38 -55.95 18.16 -57.23
+  smooth off
+  18.43 -57.44 18.74 -57.63 18.98 -57.88
+  19.25 -58.15 19.5 -58.45 19.68 -58.77
+  19.93 -59.2 20.11 -59.66 20.28 -60.13
+  21.98 -64.76 20.67 -70.06 20.28 -74.8
+  20.22 -75.48 20.19 -76.15 20.15 -76.83
+  20.11 -77.42 20.07 -78.0 20.02 -78.59
+  19.98 -79.06 19.93 -79.52 19.9 -79.99
+  19.71 -82.33 20.17 -84.74 20.34 -87.06
+  20.57 -90.24 19.23 -94.2 21.21 -96.8
+  smooth off
+endline
+
+point -20.5 -106.0 label -text cobble<br>choke -scale m -align bottom-left -visibility off
+
+point 4.62 -61.709999999999994 label -text [+P10<br>(blind)] -scale m -align top-left
+
+line u:splay -visibility off
+  11.76 -88.02
+  5.87 -104.22
+endline
+
+line u:splay -visibility off
+  11.76 -88.02
+  19.75 -60.28
+endline
+
+line u:splay -visibility off
+  11.76 -88.02
+  10.15 -84.59
+endline
+
+line u:splay -visibility off
+  11.76 -88.02
+  20.52 -83.78
+endline
+
+line u:splay -visibility off
+  42.45 -100.17
+  35.16 -111.04
+endline
+
+line u:splay -visibility off
+  42.45 -100.17
+  41.09 -93.04
+endline
+
+line u:splay -visibility off
+  42.45 -100.17
+  47.37 -106.48
+endline
+
+line u:splay -visibility off
+  42.45 -100.17
+  56.22 -104.03
+endline
+
+line u:splay -visibility off
+  42.45 -100.17
+  8.87 -100.95
+endline
+
+line u:splay -visibility off
+  42.45 -100.17
+  9.32 -90.84
+endline
+
+line u:splay -visibility off
+  77.97 -104.3
+  100.45 -87.28
+endline
+
+line u:splay -visibility off
+  77.97 -104.3
+  77.78 -97.18
+endline
+
+line u:splay -visibility off
+  77.97 -104.3
+  76.17 -108.64
+endline
+
+line u:splay -visibility off
+  77.97 -104.3
+  80.45 -93.61
+endline
+
+line u:splay -visibility off
+  77.97 -104.3
+  67.54 -97.11
+endline
+
+line u:splay -visibility off
+  102.24 -90.48
+  50.81 40.88
+endline
+
+line u:splay -visibility off
+  102.24 -90.48
+  98.43 -146.75
+endline
+
+line u:splay -visibility off
+  102.24 -90.48
+  115.96 -112.24
+endline
+
+point 98.43 -118.11 station -name "6"
+
+point 102.24 -90.48 station -name "5"
+
+point 77.97 -104.30 station -name "4"
+
+point 42.45 -100.17 station -name "3"
+
+point 4.38 -104.16 station -name "2"
+
+point 11.76 -88.02 station -name "0"
+
+point 13.57 -81.32 station -name "1"
+
+endscrap
+
+

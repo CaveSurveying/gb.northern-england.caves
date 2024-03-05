@@ -26,11 +26,11 @@ copyright 2015 "GNU GPL"
 
   date 2015.01.20
    
-   team "Black Sheep/Diggers"
+  # team "Black Sheep/Diggers"
   #team "Nick Bairstow" notes
-  #team "Nick Bairstow" instruments
-  #team "Chris Fox" instruments
-  #team "David Stubley" dog
+  team "Nick Bairstow" instruments
+  team "Chris Fox" instruments
+  team "David Stubley" dog
   
   station 1.47 "Guscott Pot." entrance
   

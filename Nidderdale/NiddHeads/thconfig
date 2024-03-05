@@ -10,13 +10,8 @@ select NHEnt.NiddHeads
 select NHSump2.NiddHeads
 select NHSurface.NiddHeads
 
-
-
-
 # use Map or survey structure to selelect individual or multiple maps to export to Nidderdal pdf##
 ## If none selected individually all are exported to finished map##
-
-
 
 #export map -proj plan -layout local -o Output/NiddHeadsIndex.pdf
 export map -o Output/NiddHeadsIndex.kml

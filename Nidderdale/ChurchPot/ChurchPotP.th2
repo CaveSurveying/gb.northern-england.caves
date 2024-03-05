@@ -1,13 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 4616.0 5768.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {680.568141202 1 1.0} {4905.56685039 1.4} PocketTopo/ChurchPot_p.xvi 0 {}
 
 
 
 scrap churchPotSP1 -projection plan -station-names "" "@ChurchPot" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 829.0 5620.0 label -text [CHURCH POT] -scale xl
+point 605.0 5584.0 label -scale xl -text CHURCH<br>POT -align top-right
 
 point 490.578141202 5325.19685039 station -name 1.0
 
@@ -163,9 +163,13 @@ line rock-border
   smooth off
 endline
 
-point 820.0 5364.0 label -text [fixed ladder]
+point 716.0 5328.0 label -text fixed<br>ladder -align right  -scale l
 
-point 920.0 4800.0 label -text [fixed ladder]
+point 776.0 4848.0 label -align right -text fixed<br>ladder  -scale l
+
+point 666.0 4860.0 fixed-ladder -scale s
+
+point 572.0 5338.0 fixed-ladder -scale s
 
 line wall
   804.178141202 4549.43685039
@@ -295,15 +299,15 @@ line wall
   smooth off
 endline
 
-point 3924.0 472.0 label -text [Static Sump]
+point 4232.0 478.0 label -align bottom-left -text static<br>sump
 
-point 3284.0 1188.0 label -text [The Pinnacle C 6.0m]
+point 3470.0 1208.0 label -text [The Pinnacle<br>(c6)] -align left -scale l
 
-point 2768.0 2132.0 label -scale l -text [Gaskell's Passage]
+point 2988.0 2150.0 label -align left -text Gaskell's<br>Passage -scale xl
 
-point 1804.0 4452.0 label -text [Riggwelter Pot, Aven - passage at top]
+point 1804.0 4452.0 label -scale l -text [Riggwelter Pot<br>(aven - passage<br>at top)]
 
-point 1912.0 3724.0 label -scale l -text [Black Sheep Passage]
+point 1890.0 3888.0 label -scale l -text [Black Sheep<br>Passage] -align bottom
 
 line floor-step
   2877.5 3264.5
@@ -479,7 +483,7 @@ endscrap
 
 scrap churchPotSP4 -projection plan -station-names "" "@ChurchPot" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line ceiling-step -reverse on
+line ceiling-step
   3800.0 3960.0
   3827.0 3914.0 3873.0 3860.0 3889.0 3830.0
   3905.0 3800.0 3897.0 3673.0 3898.0 3666.0
@@ -516,9 +520,12 @@ line floor-step -visibility on
   smooth off
 endline
 
-point 3924.0 4252.0 label -text [down to Main Stream Passage]
+line arrow
+  3874.0 4034.0
+  3916.0 3856.0
+endline
 
-point 3924.0 4336.0 label -text [Fixed chain C 4.5m]
+point 3850.0 4068.0 label -align top-left  -scale l -text [fixed chain c4.5<br>down to main stream]
 
 line wall -reverse on
   4192.0 3948.0
@@ -563,7 +570,7 @@ line rock-border -close off -reverse on
   3885.0 3718.0
 endline
 
-line ceiling-step -reverse on
+line ceiling-step
   3865.0 3981.0
   3874.0 3973.0 3908.0 3914.0 3928.0 3908.0
   3948.0 3902.0 3967.0 3851.0 3981.0 3837.0

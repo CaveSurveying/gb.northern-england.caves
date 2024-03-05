@@ -55,7 +55,7 @@ line floor-step -reverse on
   2290.0 3026.25
 endline
 
-point 4020.833333333334 7116.666666666667 label -text [Ralf Inlet]
+point 4020.833333333334 7116.666666666667 label -text [Ralf<br>Inlet] -scale xl
 
 line wall
   5317.0 7637.0
@@ -228,6 +228,8 @@ line rock-edge -close on -reverse on
   685.25 2956.25 631.75 3002.0 632.5 3007.75
 endline
 
+point 592.5 3097.5 label -align top-left -text GUSCOTT<br>POT -scale xl
+
 line ceiling-step -scale s
   810.0 2936.5
   814.0 2947.5 811.0 2953.0 821.0 2955.0
@@ -377,7 +379,7 @@ area water
   l137-2361-6097
 endarea
 
-point 2058.3333333333335 5691.666666666667 label -text [Farm Inlet]
+point 2058.3333333333335 5691.666666666667 label -text [Farm<br>Inlet] -scale xl
 
 line border -id l137-2361-6097 -reverse on
   2596.0 4140.0

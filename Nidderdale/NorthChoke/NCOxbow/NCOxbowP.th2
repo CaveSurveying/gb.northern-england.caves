@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 2999.5 7339.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2529.1977339799996 1 1.0} {6871.28677165 1.4} PocketTopo/NCOxbow_p.xvi 0 {}
 
 
@@ -31,6 +31,7 @@ endline
 line wall
   1702.5 6759.0
   1695.0 6763.0 1667.0 6738.0 1656.0 6745.0
+  smooth off
 endline
 
 line pit -close on
@@ -89,6 +90,7 @@ line wall
   2747.0 6954.5
   2752.0 6989.0
   2752.0 6989.0 2763.5 6991.0 2769.0 6989.0
+  smooth off
 endline
 
 line floor-step -reverse on -outline in
@@ -107,6 +109,7 @@ line floor-step -reverse on -outline in
   2843.0 7009.0
   2843.0 7009.0 2811.5 7013.0 2806.0 7016.5
   2800.5 7020.0 2794.74 7021.03 2786.0 7025.0
+  smooth off
 endline
 
 line wall
@@ -169,6 +172,7 @@ line wall
   2613.5 6876.0 2659.0 6852.5 2630.5 6856.0
   2602.0 6859.5 2514.5 6879.0 2510.0 6879.0
   2505.5 6879.0 2412.5 6897.0 2413.5 6899.0
+  smooth off
 endline
 
 point 2425.5 6867.5 gradient -orientation 269.3 -scale s

@@ -38,10 +38,12 @@ CHANGES
 
 
 TODO
-----
+----)
 * Name of plan / system?  Goyden Cave System?
+* big loop error in ManHole, seems to be caused by Bax Pot entrance co-ords. Turned them off and no error
 * Add GPS to entrance labels?
 * new GPS fixes for Pigskin and OQP required
+* Move folders under respective Main Cave?  such as PLanHard under NewGoyden (make generation Chris' sections easier?  would have to update hierarchy links in th)
 * fix Goyden 3 Sumps, alignment and include streamway detals
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Finish label consistency resize

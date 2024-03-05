@@ -285,6 +285,8 @@ line wall -reverse on -subtype invisible
   13456.0 4664.0
 endline
 
+point 12152.0 5516.0 label -align bottom-left -scale xl -text HOWGILL<br>POT
+
 line wall
   6800.0 7532.0
   7254.0 7302.0
@@ -383,6 +385,7 @@ line wall
   14132.0 8662.0 14178.0 9090.0 14152.0 9138.0
   14126.0 9186.0 14032.0 9454.0 14034.0 9526.0
   14036.0 9598.0 13978.0 9856.0 13980.0 9908.0
+  smooth off
 endline
 
 line wall
@@ -411,9 +414,9 @@ line floor-step
   smooth off
 endline
 
-point 13612.0 9688.0 label -scale xl -scale xl -text [NEW GOYDEN]
+point 13612.0 9688.0 label -scale xl -scale xl -text [NEW GOYDEN] -visibility off
 
-point 13168.0 7600.0 label -text [THROPE POT]-scale xl
+point 13168.0 7600.0 label -text [THROPE POT]-scale xl -visibility off
 
 endscrap
 

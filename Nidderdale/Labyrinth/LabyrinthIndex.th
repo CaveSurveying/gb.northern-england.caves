@@ -7,9 +7,6 @@ input BeetRoot/BeetRoot.th
 input BRCanal/BRCanal.th
 input BeetRootSump/BeetRootSump.th
 
-
-
-
 map LabyrinthIndex -title "Labyrinth Index"
   LabyrinthPlan
   Lab2Plan
@@ -32,14 +29,10 @@ BeetRootEe
 
 endmap
 
-
-
-
 join LabyrinthSP2 Lab2SP1
 join Lab2SP3 BeetRootSP1
 join BRSP4End BRCSP1Start
 join BRSP5Start BRCSP1End
-
 
 
 centreline
@@ -54,9 +47,7 @@ copyright 2018 "GNU GPL"
 
 
 
-  date 2018.08.20
-
-  
+  date 2018.08.20 
 
 
   explo-date 20.08.18

@@ -1,35 +1,28 @@
 encoding  utf-8
-
 source nidderdale.th
 #Change name to the main therion file
 
+##Call global templates
+input XTherionFiles\_layouts.mp        #standard settings
+input XTherionFiles\_globallayouts.thc #more standard settings, different 'size' cave layouts
 
 #Surveys to output
 #-----------------
-select nidderdalePlan@nidderdale
+select surfacePlan@nidderdale -colour [95 95 95]
+select nidderdalePlan@nidderdale -colour [97 86 38] 
 
-
-
-
-## use Map or survey structure to selelect individual or multiple maps to export to Nidderdal pdf##
+## use Map or survey structure to select individual or multiple maps to export to Nidderdale.pdf##
 ## If none selected individually all are exported to finished map##
 
-
-
-
-#export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
-export map -o Output/NidderdaleOutput/Nidderdale.kml
+export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
+export map -proj plan -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -o Output/NidderdaleOutput/Nidderdale.kml
-<<<<<<< .mine
+
+#(recommend comment out select SurfacePlan call above before generating the below)
+#export map -proj plan -o Output/NidderdaleOutput/GoydenSystemNoSurface.kml 
 #export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
-export model  -o output/NidderdaleOutput/nidderdale.lox
-||||||| .r3273
-export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
 #export model  -o output/NidderdaleOutput/nidderdale.lox
-=======
-#export model -fmt survex -o Output/NidderdaleOutput/nidderdale.3d
-#export model  -o output/NidderdaleOutput/nidderdale.lox
->>>>>>> .r3408
+
 #export map -proj plan -o output/NidderdaleOutput/nidderdale_Walls.3d
 #Survex file showing walls only
 
@@ -37,42 +30,40 @@ export model -fmt survex -o output/NidderdaleOutput/nidderdale.3d
 #############################################
 
 layout local
+
+copy custom_standard_settings
+
+map-header 50 99 nw
+map-image 70 96 nw XTherionFiles\by-nc-sa.png
 base-scale 1 300
 scale 1 1000
-symbol-set BCRA
-#debug station-names
 #debug on
 legend on
 #colour map-fg [97 86 38]  #pale yellow
 #colour map-bg [95 95 95]  #light grey
-#colour map-fg altitude
-#colour map-fg scrap
-symbol-colour area water [25 50 100]
-symbol-colour point water-flow [25 50 100]
-symbol-colour line water-flow [25 50 100]
-symbol-colour area sump [10 10 100]
-symbol-colour point station [100 0 0]
-transparency on
-grid top
-map-header 50 90 nw
-#symbol-hide group cave-centreline
-
-#endlayout
-
-
-####TEX MAP####
-##code to put border around map##
-#--------------------------------
-code tex-map
-     \framethickness=0.5mm
-
-#     \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage}
-#>   \def\maplayout{
-#>   \legendbox{10}{100}{NE}{\the\legendcontent}
-#>
-#> \legendbox{0}{100}{NW}{\loadpicture{C:/Users/Public/Pictures/BSD.png}}
-#>        %%% pdf, png, jpg supported
-
-
-#end code           
+#color map-fg scrap
+#color map-fg altitude
+symbol-hide group cave-centreline
+symbol-show point station
+debug station-names
 endlayout
+
+#hide / rename some legend entries 
+text en "line border:visible" ""
+text en "line wall:sand" ""
+text en "line wall:debris" ""
+text en "line wall:blocks" ""
+text en "line wall:flowstone" ""
+text en "line border:presumed" ""
+text en "line rock-border" ""
+text en "line rock-edge" ""
+text en "line slope" ""
+text en "line chimney" ""
+#text en "line cross-section" ""
+text en "line u:user" ""
+text en "point blocks" ""
+text en "point pebbles" ""
+text en "point debris" ""#hidden the point symbol but the area one is not that reflective...
+text en "point low-end"          ""
+text en "point narrow-end"       ""
+text en "area flowstone" ""

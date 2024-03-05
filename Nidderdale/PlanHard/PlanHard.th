@@ -1,12 +1,19 @@
 encoding  utf-8
 
-
 input PlanHardP.th2
+input astronomers/astronomers.th #2024 Astronomer's Resurvey & avens
+
+    
 #input PlanHardEe.th2
 #input PlanHardE90.th2
 
+equate 18@astro.astronomers 1.69@PlanHard
+join astro-astrop@astro.astronomers PlanHardSP3
+
+
 map PlanHardPlan -title "PlanHard Plan"
-  PlanHardSP7
+ #m1p@astronomers #2024 Astronmers
+  #PlanHardSP7 #Old Astronomers
   break
   PlanHardSP1
   PlanHardSP3
@@ -18,7 +25,6 @@ map PlanHardPlan -title "PlanHard Plan"
   PlanHardSP6
   break
   PlanHardSP5
-  
 endmap
 
 #map PlanHardME
@@ -39,8 +45,8 @@ copyright 2016 "GNU GPL"
 
   date 2016.10.14
 
-  #team "Nick Bairstow" notes
-  #team "Chris Fox" instruments
+  team "Nick Bairstow" notes
+  team "Chris Fox" instruments
   #team "Chris Fox" dog
 
   #instrument  instruments "Nick Disto 3. 5 Hrs"

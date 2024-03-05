@@ -1,11 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -136.0 -136.0 5497.0944881889 7836.669291336999
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {5058.53559055 1 1.0} {5223.927401569999 3.10} PocketTopo/TestOfFaith1_p.xvi 0 {}
 
 
 
 scrap TestOfFaith1SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 5400.0 7116.0 label -scale xl -align top-right -text [Test of<br>Faith]
 
 line wall
   5150.0 6526.0

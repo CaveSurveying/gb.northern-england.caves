@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -129.0 -129.0 4229.75 4455.4803149553
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2338.61678868 1 1.0} {3251.6868503899996 1.4} PocketTopo/ThropePot_p.xvi 0 {}
 
 
@@ -809,6 +809,8 @@ endscrap
 
 
 scrap ThropePotSP6 -projection plan -station-names "" "@ThropePot" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 2836.0 2518.0 label -align left -text [THROPE POT] -scale xl
 
 line wall -close on
   2874.5 2599.5

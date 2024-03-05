@@ -1,8 +1,5 @@
 encoding  utf-8
-
-survey nidderdale ###### Use standard deviation 0.02 0.02 .01 on all fixes
-
-
+survey nidderdale -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom" ###### Use standard deviation 0.02 0.02 .01 on all fixes
 
 input goyden/Goyden.th
 input manhole/ManHole.th
@@ -28,10 +25,14 @@ input NorthChoke/NorthChokeIndex.th
 input CapLeftTunnel/CapLeftTunnel.th
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
-
-
 #input TomTaylors/TomTaylors.th
 
+##PW NEW 2024
+input OQP/OQP.th
+input PigskinPot/PigskinPot.th
+#input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
+input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
+input SurfaceOQP/SurfaceOQP.th
 
 
 #### Plan Joins ####
@@ -54,16 +55,26 @@ join Goyden2SP1 goy3SP1
 join CapLeftTunnelSP1 LabyrinthSP2@LabyrinthIndex
 join CapLeftTunnelSP2 PillarPotSP2
 
+join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
+join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
 
-
-
+#join NewGoydenSP5 GoydenDownstreamSumpsP@GoydenDownstreamSumps
+#join PlanHardSP2  NewGoydenSP4
 
 ####################################################
-
-map nidderdalePlan -title "Nidderdale Plan"  
-  
+map surfacePlan
   Surface2Plan
   surface1Plan
+  #m1p@SurfaceOQP #need latest GPS from Nick, but does not really work as surface overlay
+endmap
+
+map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+  
+  #m1p@OQP   #NEED NEW GPS
+  #m1p@PigskinPot #NEED NEW GPS
+  break  
+  #Surface2Plan
+  #surface1Plan
   GuscottIndex@GuscottIndex
   churchPotPlan
   gargettwayPlan
@@ -72,16 +83,20 @@ map nidderdalePlan -title "Nidderdale Plan"
   break
   goydenPlan
   break
-  manholePlan 
+  manholePlan
+  EternalOptomist-offset [-50 0 m] below
+  
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
   goyden2Plan
   goy3Plan
+
   CapLeftTunnelPlan
   
   ####NewGoyden/Frog####
   QuarrySurfacePlan
   ThropePotPlan
+  m1p@astronomers
   PlanHardPlan
   break
   NewGoydenPlan
@@ -92,6 +107,10 @@ map nidderdalePlan -title "Nidderdale Plan"
   NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
   aquamolePlan
+  
+  break
+  #m1p@GoydenDownstreamSumps
+  m1p@NewGoydenDownstreamSumps
   
   
   ############################
@@ -144,6 +163,15 @@ equate 100@QuarrySurface 1.0@NewGoyden
 equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott.GuscottIndex 
 equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
+
+##PW IN PROGRESS
+#equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
+#equate 1.36@GoydenDownstreamSumps 1.9@goy3
+#equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
+
+equate 1.59@NewGoydenDownstreamSumps 1.59@PlanHard
+equate 1@SurfaceOQP 0@OQP
+
 
 endcenterline
 

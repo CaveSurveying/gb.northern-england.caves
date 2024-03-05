@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -150.22222222222223 -150.22222222222223 5149.1653543277 10044.666666666666
-##XTHERION## xth_me_area_zoom_to 18
+##XTHERION## xth_me_area_zoom_to 72
 ##XTHERION## xth_me_image_insert {1957.77748031 1 1.0} {9268.97826662 1.4} PocketTopo/MudHall_p.xvi 0 {}
 
 
@@ -242,7 +242,7 @@ line wall
   2024.0 8046.0
 endline
 
-point 1002.4390243902438 9346.341463414634 label -text [Second Window]
+point 1109.3834688346883 9310.230352303523 label -text Second<br>Window -align left -scale m
 
 line pit
   1210.8108108108108 9390.54054054054
@@ -524,7 +524,7 @@ area blocks
   l145-2592-7964
 endarea
 
-point 1182.9268292682927 7763.414634146341 label -text [Third Window]
+point 1320.4268292682927 7777.30352303523 label -text Third<br>Window -align left -scale m
 
 line border -id l145-2592-7964 -close on -subtype invisible
   2708.0 7786.0
@@ -683,11 +683,11 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-point 3772.131147540984 4070.4918032786886 gradient -orientation 188.2
+point 3761.0200364298726 4057.9918032786886 gradient -orientation 188.2
 
-point 3721.311475409836 4098.360655737705 gradient -orientation 207.6
+point 3711.589253187614 4080.3051001821495 gradient -orientation 207.6
 
-point 3659.016393442623 4149.180327868853 gradient -orientation 207.6
+point 3668.7386156648454 4124.180327868853 gradient -orientation 207.6
 
 point 3511.475409836066 4236.065573770492 gradient -orientation 177.3
 
@@ -721,11 +721,11 @@ line rock-border -close on
   3657.377049180328 4611.475409836065
 endline
 
-point 3831.1475409836066 4409.836065573771 gradient -orientation 167.9 -scale l
+point 3831.1475409836066 4409.836065573771 gradient -orientation 167.9 -scale m
 
-point 3772.131147540984 4368.852459016393 gradient -orientation 162.6 -scale l
+point 3772.131147540984 4368.852459016393 gradient -orientation 162.6 -scale m
 
-point 3704.9180327868853 4352.459016393444 gradient -orientation 127.8 -scale l
+point 3704.9180327868853 4352.459016393444 gradient -orientation 127.8 -visibility on -scale m
 
 point 3716.3934426229507 4475.409836065574 gradient -orientation 147.4
 
@@ -782,21 +782,21 @@ endline
 
 point 3657.3770491803284 4470.491803278689 gradient -orientation 168.1
 
-point 3692.8852459016393 4300.491803278689 gradient -orientation 101.8 -scale l
+point 3692.8852459016393 4300.491803278689 gradient -orientation 101.8 -scale m
 
-point 3740.0 4220.0 gradient -orientation 31.3 -scale l
+point 3740.0 4220.0 gradient -orientation 31.3 -scale m
 
-point 3708.0 4256.0 gradient -orientation 75.5 -scale l
+point 3708.0 4256.0 gradient -orientation 75.5 -visibility on -scale m
 
-point 3778.4590163934427 4194.360655737705 gradient -orientation 14.0 -scale l
+point 3778.4590163934427 4194.360655737705 gradient -orientation 14.0 -scale m -visibility on
 
-point 3816.3934426229507 4163.934426229508 gradient -orientation 356.8 -scale l
+point 3816.3934426229507 4163.934426229508 gradient -orientation 356.8 -scale m
 
-point 3919.672131147541 4045.9016393442625 gradient -orientation 333.4 -scale l
+point 3918.2832422586525 4084.7905282331512 gradient -orientation 333.4 -scale m
 
-point 3885.2459016393445 4185.245901639344 gradient -orientation 327.7 -scale l
+point 3885.2459016393445 4185.245901639344 gradient -orientation 327.7 -visibility on -scale m
 
-point 3936.065573770492 4254.098360655737 gradient -orientation 301.2 -scale l
+point 3936.065573770492 4254.098360655737 gradient -orientation 301.2 -scale m
 
 point 3818.032786885246 4695.081967213115 gradient -orientation 359.8
 
@@ -1221,9 +1221,14 @@ line wall
   4033.3333333333335 4968.888888888889
 endline
 
-point 3077.7777777777774 4466.666666666667 label -scale l -text [Link to Upper Nugatory passage]
+line arrow
+  3165.277777777778 4580.555555555556
+  3475.0 4480.555555555556
+endline
 
-point 4072.222222222222 4529.777777777778 label -scale l -text [Mud Hall]
+point 3145.833333333333 4600.0 label -scale l -align bottom-left -text [link to<br>Upper<br>Nurgatory]
+
+point 4072.222222222222 4529.777777777778 label -scale xl -text Mud<br>Hall
 
 line wall
   2613.51 7705.41
@@ -1367,11 +1372,11 @@ line ceiling-step
   smooth off
 endline
 
-point 3360.9756097560976 2512.1951219512193 label -scale l -text [Zannusi Pot (sealed)]
+point 3591.5311653116532 2548.3062330623306 label -align left -text [ZANNUSI POT<br>(sealed)] -scale xl
 
-point 4121.951219512195 1978.0487804878048 label -text [Limley Bypass]
+point 4235.840108401084 2037.771002710027 label -align bottom-left -text Limley<br>Bypass -scale xl
 
-point 3287.8048780487807 3353.6585365853657 label -scale l -text [Limley Pot]
+point 3364.1937669376694 3328.6585365853657 label -align left -text LIMLEY<br>POT -scale xl
 
 line wall
   3461.82 3696.36
@@ -1426,7 +1431,9 @@ line wall
   smooth off
 endline
 
-point 4442.440801457195 3425.136612021858 label -text [dig]
+point 4354.166666666666 3377.7777777777774 dig -scale m
+
+point 4429.940801457195 3427.914389799636 label -text [dig] -scale l
 
 line wall
   3385.45 3789.09

@@ -30,7 +30,7 @@ area pebbles
   l86-544-4675
 endarea
 
-point 550.4761904761905 4446.666666666666 label -align top-right -text [HIGH RIFT] -scale xl
+point 550.4761904761905 4446.666666666666 label -align top-right -text [High<br>Rift] -scale xl
 
 line wall
 endline

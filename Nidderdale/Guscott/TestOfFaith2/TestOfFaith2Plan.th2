@@ -44,7 +44,7 @@ endline
 
 point 162.0 252.0 dig
 
-point 847.0 634.0 label -text [Nicked Eye Hole] -align bottom-right -scale xs
+point 847.0 634.0 label -text [Nicked<br>Eye<br>Hole] -align bottom-right -scale xl
 
 point 665.0 767.5 low-end
 

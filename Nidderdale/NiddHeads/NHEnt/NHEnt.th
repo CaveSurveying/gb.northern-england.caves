@@ -11,10 +11,6 @@ endmap
 #endmap
 
 
-
-
-
-
 centreline
 
 copyright 2019 "GNU GPL"
@@ -23,14 +19,12 @@ copyright 2019 "GNU GPL"
 #pda - 
 #disto - 
 
-
   date 2019.06.1
 
   team "Ian Lloyd"
   #team ""
   #team ""
-
-  
+ 
 
   explo-date 2019.06.1
 

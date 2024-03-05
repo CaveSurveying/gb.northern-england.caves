@@ -29,10 +29,10 @@ survey Goyden
     
     declination -1.4 degrees
      
-     team "Black Sheep/Diggers"
-    #team "Nick Bairstow" notes
-    #team "Chris Fox" instruments
-    #team "Ian Walker" dog
+    # team "Black Sheep/Diggers"
+    team "Nick Bairstow" notes
+    team "Chris Fox" instruments
+    team "Ian Walker" dog
     
     station 1.0 "Goyden" entrance
     

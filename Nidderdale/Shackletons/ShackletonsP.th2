@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -154.66666666666666 -154.66666666666666 5301.333333333334 10345.5702106457
-##XTHERION## xth_me_area_zoom_to 15
+##XTHERION## xth_me_area_zoom_to 30
 ##XTHERION## xth_me_image_insert {3482.4477864500004 1 1.0} {1214.0885571 1.4} PocketTopo/Shackletons_p.xvi 0 {}
 
 
@@ -203,7 +203,7 @@ line wall
   smooth off
 endline
 
-point 2853.3333333333335 973.3333333333334 label -text [Too tight]
+point 3053.3333333333335 1030.0 label -text too<br>tight -align left
 
 line wall
   4362.643678160919 1664.942528735632
@@ -302,9 +302,9 @@ line rock-border -close on
   4373.770491803279 2911.475409836066
 endline
 
-point 3606.6666666666665 1493.3333333333335 label -text [Shackleton Way]
+point 3606.6666666666665 1493.3333333333335 label -text Shackleton<br>Way -scale xl
 
-point 4673.333333333334 1406.666666666667 label -text [Downstream sump]
+point 4653.333333333334 2033.3333333333335 label -text Downstream<br>Sump -align bottom-right -scale xl
 
 line border -id l52-4753-2826 -close on
   4824.691358024691 2687.654320987654
@@ -363,6 +363,8 @@ endscrap
 
 
 scrap ShackletonsSP2 -projection plan -station-names "" "@Shackletons" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 2320.0 3590.0 danger -scale s
 
 line wall -subtype blocks
   2464.044943820225 3451.685393258427
@@ -535,11 +537,11 @@ line gradient
   smooth off
 endline
 
-point 2553.3333333333335 3653.3333333333335 label -text [Choke - Take care]
+point 2553.3333333333335 3653.3333333333335 label -text [choke,<br>take care] -scale l
 
-point 1393.3333333333333 3566.6666666666665 label -text [Lister Hall Inlet]
+point 1716.6666666666665 3550.0 label -align bottom-left -text [Lister Hall<br>Inlet] -scale xl
 
-point 1573.3333333333335 4000.0 label -text [Lister Hall]
+point 1763.3333333333335 4050.0 label -align top-left -scale s -text Lister<br>Hall -scale xl
 
 line wall -id l69-2277-4185
   2173.11 3810.92

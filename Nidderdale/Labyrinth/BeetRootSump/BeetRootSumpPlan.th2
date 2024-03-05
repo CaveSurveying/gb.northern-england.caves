@@ -84,6 +84,8 @@ line border -id l27-1388--188 -close on
   1340.0 -172.0 1220.25 -207.5 1214.0 -212.25
 endline
 
+point 1013.0 -1060.0 label -align center -scale xl -text [Beetroot Sump]
+
 line wall
   187.75 -1814.75
   185.75 -1810.25 186.25 -1783.0 185.5 -1779.5

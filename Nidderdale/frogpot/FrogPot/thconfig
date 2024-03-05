@@ -33,8 +33,8 @@ symbol-set BCRA
 cs [osgb:SE]
 #colour map-bg 90
 #colour map-fg [0 100 0]
-colour map-fg scrap
-#colour map-bg altitude
+#colour map-fg scrap
+colour map-fg altitude
 #grid bottom
 #grid-coords all
 #grid-origin [0] [0] [0] [metric]

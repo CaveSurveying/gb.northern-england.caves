@@ -1,0 +1,846 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -304.56 -467.0 540.75 563.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {-176.56 1 1.0} {-339.0 0} astro-astrop.xvi 0 {}
+
+# 2023.11.11 created by TopoDroid v. 6.2.16
+
+
+
+
+scrap astro-astrop -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  74.37 -73.38
+  75.58 -68.4 78.42 -63.87 79.75 -59.1
+  81.9 -51.43 85.75 -39.55 92.05 -34.25
+  smooth off
+  94.04 -39.99 84.65 -46.12 86.27 -52.44
+  87.06 -55.52 93.24 -55.95 93.52 -59.38
+  94.08 -66.1 88.47 -71.95 87.06 -78.16
+  85.26 -86.15 89.44 -95.06 87.91 -103.32
+  87.82 -103.84 87.72 -104.38 87.43 -104.82
+  84.16 -109.94 78.34 -114.27 72.64 -114.85
+  smooth off
+endline
+
+point 125.25 263.75 label -align bottom-right -text cascade -visibility off -scale m
+
+line floor-step
+  94.5 12.5
+  95.0 15.0 97.0 22.0 97.75 24.25
+  98.5 26.5 100.25 32.25 101.25 34.75
+  102.25 37.25 104.5 40.0 105.5 42.75
+  106.5 45.5 108.0 49.0 109.25 51.25
+  110.5 53.5 112.5 56.75 114.25 59.5
+  116.0 62.25 117.0 63.75 119.25 66.0
+  121.5 68.25 121.25 67.75 124.5 70.25
+  127.75 72.75 127.0 72.25 130.25 74.5
+  133.5 76.75 142.0 80.25 142.0 80.25
+  smooth off
+endline
+
+line floor-step
+  72.75 31.75
+  72.75 30.5 72.25 26.0 72.0 24.5
+  71.75 23.0 71.25 22.25 70.0 19.75
+  68.75 17.25 67.25 15.0 66.0 13.5
+  64.75 12.0 62.5 8.25 62.5 8.25
+  smooth off
+  62.5 8.25 65.5 5.25 65.5 3.75
+  65.5 2.25 66.5 -1.5 66.5 -3.5
+  66.5 -5.5 63.0 -10.75 63.0 -11.75
+  smooth off
+endline
+
+point 115.0 115.5 label -text mud<br>banks -scale m -align left
+
+line floor-step
+  132.78 89.68
+  132.78 89.68 132.75 99.25 133.0 100.25
+  133.25 101.25 135.0 108.5 135.0 110.0
+  135.0 111.5 135.5 118.0 135.0 120.75
+  134.5 123.5 134.5 128.75 134.0 130.75
+  133.5 132.75 132.25 141.75 131.25 143.25
+  130.25 144.75 127.75 151.5 126.5 153.5
+  125.25 155.5 122.25 161.75 122.0 163.0
+  121.75 164.25 120.25 171.75 120.0 173.25
+  119.75 174.75 119.25 182.25 119.25 182.25
+  smooth off
+endline
+
+line floor-step -reverse on
+  98.97 172.1
+  107.25 168.0
+  115.0 160.25
+  120.75 150.75
+  125.5 141.25
+  128.25 134.0
+  128.25 134.0 130.0 126.5 129.75 125.25
+  129.5 124.0 128.5 113.0 128.5 113.0
+  smooth off
+  128.5 113.0 128.5 105.75 127.5 105.0
+  126.5 104.25 125.0 101.25 124.0 100.5
+  123.0 99.75 119.15 98.4 119.15 98.4
+  smooth off
+endline
+
+point 108.0 -111.75 label -text [dig<br>upwards<br>in shaft] -scale m -align top-right -visibility off
+
+line wall
+  98.49 -129.28
+  100.38 -124.15 103.17 -118.9 103.08 -113.56
+  103.07 -113.09 103.08 -112.61 103.08 -112.14
+  103.08 -111.5 103.09 -110.86 103.08 -110.22
+  103.07 -109.72 103.0 -109.21 103.02 -108.71
+  103.06 -107.99 103.25 -107.28 103.28 -106.56
+  103.3 -106.09 103.28 -105.61 103.17 -105.14
+  101.26 -97.01 98.19 -87.86 100.16 -79.19
+  101.4 -73.76 103.23 -68.08 106.37 -63.47
+  107.92 -61.19 110.06 -57.88 109.54 -54.97
+  107.94 -46.01 98.83 -39.31 97.33 -30.46
+  97.22 -29.81 97.08 -29.16 96.88 -28.53
+  96.74 -28.09 96.49 -27.68 96.31 -27.26
+  92.12 -17.52 87.82 -7.26 81.89 1.7
+  79.46 5.36 72.47 11.76 76.25 16.49
+  smooth off
+  81.19 21.08 87.12 25.24 93.48 27.68
+  99.0 29.79 106.12 31.12 110.53 35.24
+  117.01 41.3 117.77 50.8 125.96 55.52
+  smooth off
+endline
+
+line wall
+  63.98 -133.49
+  71.23 -130.59 77.21 -126.19 85.0 -125.5
+  88.55 -125.18 95.74 -131.33 98.49 -129.28
+  smooth off
+endline
+
+line wall
+  100.97 181.18
+  98.73 179.37 98.11 175.09 98.97 172.1
+  100.6 166.39 107.73 159.87 111.56 156.33
+  smooth off
+endline
+
+line wall
+  115.25 141.75
+  122.0 143.0 122.16 140.35 122.89 139.67
+  smooth off
+  126.38 135.5 126.1 129.07 126.19 123.84
+  126.33 114.97 121.73 106.55 119.15 98.4
+  118.06 94.98 117.35 91.32 116.03 87.98
+  114.74 84.7 112.04 83.86 110.26 80.85
+  smooth off
+endline
+
+line wall
+  125.96 55.52
+  134.1 62.53 130.13 75.77 131.75 85.5
+  133.34 95.03 141.32 109.32 140.4 119.1
+  139.45 129.2 135.39 136.29 132.0 145.5
+  128.5 155.0 127.83 156.29 125.93 161.72
+  smooth off
+endline
+
+line wall
+  104.9 278.83
+  98.23 271.27 96.34 259.92 89.55 252.65
+  89.31 252.39 89.07 252.11 88.76 251.94
+  88.42 251.75 88.01 251.7 87.64 251.58
+  smooth off
+  80.18 250.43 73.7 257.1 67.31 259.68
+  59.57 262.81 46.3 267.64 38.07 265.39
+  33.64 264.18 31.76 258.87 28.52 256.41
+  26.52 254.89 21.4 254.73 20.29 252.34
+  19.22 250.03 21.32 243.73 22.28 241.42
+  23.74 237.94 26.12 232.88 30.0 232.25
+  smooth off
+endline
+
+line wall
+  34.5 231.25
+  37.51 231.58 42.76 232.19 44.95 234.28
+  46.88 236.13 45.8 239.59 46.95 241.67
+  49.02 245.46 55.97 244.71 58.78 242.6
+  67.45 234.91 65.04 219.81 71.48 211.13
+  71.74 210.78 72.04 210.46 72.32 210.12
+  72.63 209.75 72.91 209.36 73.25 209.01
+  73.71 208.53 74.16 208.03 74.69 207.63
+  82.42 201.7 86.18 193.25 94.0 187.75
+  94.46 187.43 95.54 186.84 96.0 186.5
+  96.34 186.26 97.93 185.27 98.25 185.0
+  98.77 184.57 99.0 184.19 99.5 183.75
+  101.2 182.25 100.69 183.09 100.97 181.18
+  smooth off
+endline
+
+line wall
+  125.93 161.72
+  123.83 163.96 116.76 180.97 114.84 183.35
+  111.13 187.94 102.61 204.85 102.0 211.5
+  101.57 216.23 100.94 212.6 101.41 216.86
+  101.59 218.4 101.61 220.14 101.52 221.69
+  101.07 228.87 102.12 236.39 103.89 243.37
+  106.08 251.98 108.83 261.5 113.8 268.92
+  116.57 273.05 122.65 273.45 127.02 274.5
+  131.75 275.65 154.0 282.25 161.0 285.75
+  smooth off
+endline
+
+line wall
+  113.25 347.5
+  107.25 336.5 108.8 301.03 106.75 292.79
+  105.03 285.83 108.86 284.54 104.9 278.83
+  smooth off
+endline
+
+line rock-border -close on
+  154.4 316.06
+  141.8 315.7
+  131.36 314.91
+  121.38 313.17
+  121.24 300.56
+  125.84 294.86
+  137.98 297.02
+  148.88 296.79
+  153.8 304.84
+  153.75 315.05
+  154.4 316.06
+endline
+
+point 140.97 288.28 water-flow -orientation 102.00 -scale s
+
+line pit
+  28.23 255.29
+  23.74 252.76 28.6 244.18 30.87 241.75
+  35.0 237.31 44.23 239.67 47.79 243.4
+  smooth off
+endline
+
+line pit
+  67.31 259.68
+  57.5 260.5
+  53.76 262.49
+  49.87 263.32
+  49.87 263.32 46.0 263.25 44.5 262.5
+  43.0 261.75 41.0 262.0 40.75 260.5
+  40.5 259.0 40.0 258.0 40.0 257.0
+  40.0 256.0 39.25 253.5 41.5 252.75
+  43.75 252.0 46.25 251.5 49.0 250.25
+  51.75 249.0 54.25 248.0 55.25 247.5
+  56.25 247.0 58.5 246.75 59.0 246.0
+  59.5 245.25 59.49 241.76 59.49 241.76
+  smooth off
+endline
+
+line floor-step
+  87.49 251.11
+  84.84 244.93 81.18 238.58 80.58 231.78
+  80.03 225.62 77.25 217.75 74.69 207.63
+  smooth off
+endline
+
+point 74.17 224.29 debris -scale s
+
+point 74.25 248.04 debris -scale s
+
+point 37.92 247.60 debris
+
+point 54.5 -98.25 water-flow -orientation 18.4 -scale s
+
+point 41.25 -131.11 water-flow -orientation 18.4 -scale s
+
+point 69.17 -63.65 water-flow -orientation 17.3 -scale s
+
+point 79.03 -7.19 water-flow -orientation 327.00 -scale s
+
+point 123.55 82.40 water-flow -orientation 10.00 -scale s
+
+point 112.44 171.80 water-flow
+
+point 98.57 255.91 water-flow -orientation 24.00 -scale s
+
+point 166.0 294.75 gradient -orientation 15.8 -scale s
+
+point 112.75 309.25 gradient -orientation 15.8 -scale s
+
+point 132.0 287.25 gradient -orientation 100.5 -scale s
+
+point 107.75 270.75 gradient -orientation 26.9 -scale s
+
+point 97.0 248.5 gradient -orientation 26.9 -scale s
+
+point 138.51 286.28 water-flow -orientation 97.2 -scale s
+
+line wall
+  110.26 80.85
+  103.5 64.5 103.2 58.42 97.21 48.2
+  93.98 42.69 88.59 38.19 84.15 33.69
+  78.52 28.0 70.25 24.6 62.47 23.07
+  61.36 22.85 60.17 22.95 59.13 22.5
+  57.01 21.59 57.37 18.26 57.57 16.47
+  smooth off
+  58.24 13.64 59.47 10.89 60.55 8.22
+  63.57 0.71 72.04 -4.55 74.49 -12.66
+  75.05 -14.54 75.54 -16.51 76.21 -18.35
+  77.59 -22.12 78.8 -26.35 78.45 -30.42
+  78.1 -34.56 74.11 -37.29 72.08 -40.23
+  71.79 -40.64 71.63 -41.14 71.45 -41.61
+  69.15 -47.9 65.8 -53.92 63.04 -59.92
+  62.85 -60.34 62.67 -60.78 62.5 -61.22
+  smooth off
+endline
+
+point 94.0 -117.25 dig -scale s
+
+line pit-chimney -close on -reverse on
+  101.25 -108.0
+  101.25 -108.0 98.0 -107.25 96.5 -107.25
+  95.0 -107.25 91.5 -107.0 90.0 -108.0
+  88.5 -109.0 86.25 -110.5 86.25 -111.75
+  86.25 -113.0 86.0 -116.0 86.0 -117.0
+  86.0 -118.0 86.0 -121.25 87.25 -122.25
+  88.5 -123.25 90.25 -125.5 91.0 -125.75
+  91.75 -126.0 94.0 -127.25 95.0 -127.0
+  96.0 -126.75 96.5 -126.5 98.5 -124.75
+  100.5 -123.0 102.25 -122.5 102.25 -120.25
+  102.25 -118.0 101.75 -115.0 101.75 -113.5
+  101.75 -112.0 101.25 -108.0 101.25 -108.0
+  smooth off
+endline
+
+point 94.25 -90.25 gradient -orientation 0.0 -scale s
+
+line floor-step
+  81.29 -129.1
+  83.42 -126.46 83.03 -122.06 81.77 -119.09
+  81.07 -117.44 78.1 -111.93 76.52 -112.58
+  smooth off
+endline
+
+line wall -subtype presumed
+  62.5 -61.22
+  63.36 -69.3 59.08 -76.58 56.53 -84.04
+  49.91 -103.42 43.02 -123.97 31.25 -140.5
+  smooth off
+endline
+
+line wall -subtype presumed
+  34.25 -143.0
+  43.25 -128.0 48.63 -134.09 53.48 -135.31
+  55.94 -135.93 58.91 -134.29 61.48 -133.82
+  62.19 -133.69 63.2 -133.58 63.98 -133.49
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  74.37 -73.38
+  72.94 -74.35 72.93 -81.43 71.5 -82.5
+  63.56 -88.42 63.82 -93.59 58.5 -101.21
+  56.92 -103.47 56.26 -106.34 55.32 -108.91
+  54.18 -112.03 49.19 -121.72 53.82 -123.57
+  smooth off
+  61.91 -123.06 65.73 -117.94 72.64 -114.85
+  smooth off
+endline
+
+point 93.25 -105.75 debris -scale s
+
+point 63.82 15.48 debris -scale s
+
+point 127.49 66.32 debris -scale s
+
+point 30.0 238.0 continuation -scale s -text [unclimbed P4 to sandstone boulder, space behind?]
+
+point 19.0 256.25 label -align top-left -scale m -text [+P4?]
+
+point 48.25 -148.25 label -scale l -align bottom-right -text Astronomer's<br>Passage
+
+point 55.75 270.25 label -align top-right -text [+P10] -scale m
+
+point 113.81 150.42 debris -scale s
+
+line u:splay -visibility off
+  98.43 -118.11
+  100.69 -114.14
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  97.58 -129.91
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  101.11 -122.27
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  79.51 -110.76
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  100.45 -115.22
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  53.53 -124.24
+endline
+
+line u:splay -visibility off
+  92.03 -86.5
+  87.36 -81.49
+endline
+
+line u:splay -visibility off
+  92.03 -86.5
+  102.02 -85.32
+endline
+
+line u:splay -visibility off
+  92.03 -86.5
+  100.19 -82.98
+endline
+
+line u:splay -visibility off
+  92.03 -86.5
+  93.94 -80.05
+endline
+
+line u:splay -visibility off
+  107.3 -56.32
+  89.43 -57.43
+endline
+
+line u:splay -visibility off
+  107.3 -56.32
+  111.85 -53.59
+endline
+
+line u:splay -visibility off
+  107.3 -56.32
+  104.86 -52.53
+endline
+
+line u:splay -visibility off
+  96.62 -47.11
+  87.39 -55.02
+endline
+
+line u:splay -visibility off
+  96.62 -47.11
+  102.93 -40.87
+endline
+
+line u:splay -visibility off
+  96.62 -47.11
+  96.96 -45.94
+endline
+
+line u:splay -visibility off
+  96.62 -47.11
+  99.44 -43.81
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  73.23 -36.16
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  96.07 -27.69
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  90.97 -28.09
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  62.41 -67.0
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  62.61 -81.45
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  81.23 -53.48
+endline
+
+line u:splay -visibility off
+  92.61 -30.71
+  70.41 -42.19
+endline
+
+line u:splay -visibility off
+  79.86 -8.41
+  71.18 -15.53
+endline
+
+line u:splay -visibility off
+  79.86 -8.41
+  89.42 -3.85
+endline
+
+line u:splay -visibility off
+  79.86 -8.41
+  79.96 -6.55
+endline
+
+line u:splay -visibility off
+  79.86 -8.41
+  77.7 -10.16
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  96.67 42.37
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  60.27 21.45
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  86.75 2.3
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  70.72 10.75
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  65.95 6.96
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  68.22 23.58
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  79.96 16.02
+endline
+
+line u:splay -visibility off
+  69.2 7.82
+  83.67 3.12
+endline
+
+line u:splay -visibility off
+  96.63 42.61
+  96.28 45.21
+endline
+
+line u:splay -visibility off
+  96.63 42.61
+  110.65 34.06
+endline
+
+line u:splay -visibility off
+  96.63 42.61
+  101.06 41.45
+endline
+
+line u:splay -visibility off
+  96.63 42.61
+  103.57 45.29
+endline
+
+line u:splay -visibility off
+  125.28 77.77
+  110.26 80.85
+endline
+
+line u:splay -visibility off
+  125.28 77.77
+  128.88 78.54
+endline
+
+line u:splay -visibility off
+  125.28 77.77
+  126.22 83.55
+endline
+
+line u:splay -visibility off
+  125.28 77.77
+  125.96 55.52
+endline
+
+line u:splay -visibility off
+  118.22 150.18
+  100.98 150.98
+endline
+
+line u:splay -visibility off
+  118.22 150.18
+  125.93 161.72
+endline
+
+line u:splay -visibility off
+  118.22 150.18
+  111.68 168.72
+endline
+
+line u:splay -visibility off
+  118.22 150.18
+  111.56 156.33
+endline
+
+line u:splay -visibility off
+  118.22 150.18
+  33.75 103.69
+endline
+
+line u:splay -visibility off
+  112.97 175.14
+  98.16 173.95
+endline
+
+line u:splay -visibility off
+  112.97 175.14
+  114.84 183.35
+endline
+
+line u:splay -visibility off
+  112.97 175.14
+  100.97 181.18
+endline
+
+line u:splay -visibility off
+  36.21 245.04
+  40.52 232.3
+endline
+
+line u:splay -visibility off
+  36.21 245.04
+  28.81 254.25
+endline
+
+line u:splay -visibility off
+  36.21 245.04
+  20.58 252.67
+endline
+
+line u:splay -visibility off
+  36.21 245.04
+  46.47 233.37
+endline
+
+line u:splay -visibility off
+  36.21 245.04
+  59.24 244.23
+endline
+
+line u:splay -visibility off
+  57.22 248.8
+  97.5 225.19
+endline
+
+line u:splay -visibility off
+  57.22 248.8
+  97.88 209.52
+endline
+
+line u:splay -visibility off
+  57.22 248.8
+  48.12 242.76
+endline
+
+line u:splay -visibility off
+  57.22 248.8
+  54.37 255.67
+endline
+
+line u:splay -visibility off
+  100.17 237.74
+  101.47 230.33
+endline
+
+line u:splay -visibility off
+  100.17 237.74
+  48.14 260.81
+endline
+
+line u:splay -visibility off
+  100.17 237.74
+  63.11 246.9
+endline
+
+line u:splay -visibility off
+  100.17 237.74
+  73.06 216.52
+endline
+
+line u:splay -visibility off
+  77.79 210.38
+  73.59 212.23
+endline
+
+line u:splay -visibility off
+  77.79 210.38
+  101.89 220.15
+endline
+
+line u:splay -visibility off
+  77.79 210.38
+  81.56 217.08
+endline
+
+line u:splay -visibility off
+  77.79 210.38
+  96.31 251.25
+endline
+
+line u:splay -visibility off
+  112.51 277.87
+  127.77 293.36
+endline
+
+line u:splay -visibility off
+  112.51 277.87
+  119.0 271.93
+endline
+
+line u:splay -visibility off
+  112.51 277.87
+  147.61 291.75
+endline
+
+line u:splay -visibility off
+  139.64 287.56
+  147.0 299.41
+endline
+
+line u:splay -visibility off
+  139.64 287.56
+  140.84 279.33
+endline
+
+line u:splay -visibility off
+  139.64 287.56
+  140.74 287.02
+endline
+
+line u:splay -visibility off
+  139.64 287.56
+  143.54 290.75
+endline
+
+line u:splay -visibility off
+  171.57 292.61
+  140.37 434.78
+endline
+
+line u:splay -visibility off
+  171.57 292.61
+  198.88 287.13
+endline
+
+line u:splay -visibility off
+  171.57 292.61
+  173.7 300.54
+endline
+
+line u:splay -visibility off
+  171.57 292.61
+  174.82 297.77
+endline
+
+line u:splay -visibility off
+  286.7 335.12
+  309.94 269.52
+endline
+
+line u:splay -visibility off
+  286.7 335.12
+  273.89 395.28
+endline
+
+line u:splay -visibility off
+  286.7 335.12
+  258.09 326.05
+endline
+
+line u:splay -visibility off
+  286.7 335.12
+  300.35 323.81
+endline
+
+line u:splay -visibility off
+  286.7 335.12
+  411.76 297.44
+endline
+
+point 98.43 -118.11 station -name "0"
+
+point 99.53 -127.01 station -name "1"
+
+point 92.03 -86.50 station -name "2"
+
+point 107.30 -56.32 station -name "3"
+
+point 96.62 -47.11 station -name "4"
+
+point 92.61 -30.71 station -name "5"
+
+point 79.86 -8.41 station -name "6"
+
+point 69.20 7.82 station -name "7"
+
+point 96.63 42.61 station -name "8"
+
+point 125.28 77.77 station -name "9"
+
+point 133.81 128.17 station -name "10"
+
+point 97.0 -50.5 mud
+
+point 29.25 -147.0 continuation -text [inlet, low] -scale m
+
+point 134.69 105.81 station -name 10A
+
+point 118.22 150.18 station -name "11"
+
+point 112.97 175.14 station -name "12"
+
+point 77.79 210.38 station -name "13"
+
+point 100.17 237.74 station -name "a5"
+
+point 112.51 277.87 station -name "14"
+
+point 139.64 287.56 station -name "15"
+
+point 171.57 292.61 station -name "16"
+
+point 286.70 335.12 station -name "17"
+
+point 120.07 321.19 station -name "18" -subtype fixed
+
+point 57.22 248.80 station -name "a4"
+
+point 63.42 249.24 station -name "a3"
+
+point 36.21 245.04 station -name "a1"
+
+point 38.20 261.64 station -name "a2"
+
+endscrap
+
+

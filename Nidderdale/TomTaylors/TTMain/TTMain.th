@@ -32,9 +32,9 @@ copyright 2018 "GNU GPL"
 
   #################
   date 2018.02.15
-  #team "Nick Bairstow" notes
-  #team "Chris Fox" instruments
-  team "BSD"
+  team "Nick Bairstow" notes
+  team "Chris Fox" instruments
+  #team "BSD"
   #instrument  instruments "Nick Disto 3765"
   explo-date 2018.02.15
   ##################

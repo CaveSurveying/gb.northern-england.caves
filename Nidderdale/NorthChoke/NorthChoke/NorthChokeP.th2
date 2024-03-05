@@ -89,9 +89,9 @@ line arrow -reverse on
   336.36 3890.91
 endline
 
-point 997.7777777777778 3422.222222222222 dig
+point 833.3333333333334 3420.0 dig
 
-point 313.33333333333337 3942.2222222222226 label -text C2
+point 295.5555555555556 3895.555555555556 label -text c2 -align bottom-left  -scale l
 
 line pit
   598.1818181818181 3941.8181818181815
@@ -382,7 +382,7 @@ endline
 line wall -subtype blocks
 endline
 
-point 888.8888888888888 5751.919191919193 label -scale xl -text [North Choke]
+point 182.22222222222217 5529.69696969697 label -scale xl -align left -text North<br>Choke
 
 line label -close on
   225.45454545454544 5156.363636363636

@@ -27,9 +27,9 @@ layout local
 scale 1 500
 base-scale 1 200
 symbol-set BCRA
-#debug off
-#colour map-bg
-#colour map-fg elevation
+#debug on
+#color map-fg scrap
+color map-fg altitude
 symbol-colour area water [25 50 100]
 symbol-colour area sump [10 10 100]
 map-header 0 0 ne

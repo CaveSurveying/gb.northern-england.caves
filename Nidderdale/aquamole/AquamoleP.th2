@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.22222222222223 -130.22222222222223 8010.1259842576 12510.251968503198
-##XTHERION## xth_me_area_zoom_to 180
+##XTHERION## xth_me_area_zoom_to 45
 ##XTHERION## xth_me_image_insert {7155.09787402 1 1.0} {7328.02629921 1.4} PocketTopo/Aquamole_p.xvi 0 {}
 
 
@@ -48,7 +48,7 @@ line wall
   smooth off
 endline
 
-point 5532.0 6870.0 label -text [First Air Bell]
+point 5709.777777777777 6772.222222222223 label -align left -text first<br>air<br>bell  -scale l
 
 line wall
   6100.0 6780.0
@@ -117,7 +117,7 @@ line rock-border -close on -reverse on -outline none
   6493.5 6032.31 6492.0 5976.0 6448.0 5972.0
 endline
 
-point 5644.0 6032.0 label -text [MUD SUMP]
+point 5948.444444444444 6105.333333333333 label -align left -text Mud<br>Sump  -scale l
 
 area water
   l143-5990-8784
@@ -515,7 +515,7 @@ area clay
   l130-3784-8424
 endarea
 
-point 1812.0 11448.0 label -text [SUMP 6]
+point 2107.5555555555557 11316.888888888889 label -text [Sump 6] -align right  -scale xl -visibility off
 
 line water-flow
   2044.0 10400.0
@@ -547,9 +547,9 @@ endline
 
 point 1808.0 11294.0 water-flow -orientation 181.7
 
-point 2020.0 9954.0 label -text [SUMP 7]
+point 2217.777777777778 10282.888888888889 label -text [Sump 7] -align right  -scale xl -visibility off
 
-point 3194.0 9118.0 label -text [TOAD HALL]
+point 3222.8888888888887 8929.111111111111 label -align top-right -text Toad<br>Hall  -scale xl
 
 line label -id l130-3784-8424 -close on
   3838.0 8412.0
@@ -631,7 +631,9 @@ scrap AquamoleSP5 -projection plan -station-names "" "@Aquamole" -scale [0 0 787
 line wall
 endline
 
-point 942.0 11910.0 label -text [DEAD DOG DIG]
+point 968.8888888888889 11733.333333333334 dig -scale m
+
+point 968.6666666666666 11858.888888888889 label -text [Dead Dog<br>Dig]  -scale xl
 
 line rock-border
 endline
