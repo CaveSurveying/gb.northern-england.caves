@@ -89,7 +89,7 @@ endline
 line pit
 endline
 
-line pit -close on
+line pit -close on -outline in
   1420.0 1635.0
   1414.0 1639.5 1385.0 1646.5 1382.5 1641.5
   1380.0 1636.5 1366.0 1602.5 1372.5 1600.0
@@ -106,7 +106,12 @@ endline
 
 point 2719.565217391304 1300.0 label -scale xl -align bottom-right -text NEW<br>GOYDEN<br>POT
 
-point 1514.0 1534.0 label -scale xl -text P14 -align bottom-right
+line arrow
+  1176.086956521739 1434.782608695652
+  1395.6521739130435 1606.5217391304348
+endline
+
+point 1137.913043478261 1416.608695652174 label -scale xl -text P14 -align bottom-left
 
 line wall -close on -clip on
   1500.5 1162.5
@@ -228,7 +233,12 @@ endscrap
 
 scrap NewGoydenSP3 -projection plan -station-names "" "@NewGoyden" -scale [-6561.0 128.0 -5772.6 916.4 0 0 10 10 m]
 
-point 1507.0 1914.0 label -scale xl -text P11 -align right
+line arrow
+  886.9565217391304 1965.2173913043478
+  1389.1304347826085 1960.8695652173913
+endline
+
+point 848.304347826087 1974.8695652173913 label -scale xl -text P11 -align left
 
 line wall -close on -place bottom
   1308.0 1624.5
@@ -258,7 +268,7 @@ line wall -close on -place bottom
   1371.5 1585.0 1321.0 1626.5 1308.0 1624.5
 endline
 
-line pit -close on
+line pit -close on -outline in
   1417.5 2047.5
   1413.0 2043.5 1399.0 2050.0 1396.5 2039.0
   1394.0 2028.0 1359.5 1994.5 1362.0 1990.5
@@ -774,7 +784,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -subtype sand
   1986.0 5941.0
   2024.0 5917.0 2128.0 5984.0 2134.0 5994.0
   smooth off
@@ -886,6 +896,26 @@ line floor-step -id l53-1760-4163
   2246.0 6394.0 2334.0 6312.0 2334.0 6312.0
   smooth off
 endline
+
+point 4280.434782608695 6173.913043478261 water-flow -orientation 111.5
+
+point 3534.782608695652 6363.043478260869 water-flow -orientation 111.5
+
+point 2432.608695652174 6430.434782608695 water-flow -orientation 89.7
+
+point 1889.1304347826085 6932.608695652174 water-flow -orientation 128.1
+
+point 1410.8695652173913 6869.565217391304 water-flow -orientation 22.9
+
+point 1371.7391304347825 6178.260869565217 water-flow -orientation 358.4
+
+point 1393.4782608695652 5360.869565217391 water-flow -orientation 358.4
+
+point 1363.0434782608695 4513.043478260869 water-flow -orientation 358.4
+
+point 1747.8260869565217 3589.1304347826085 water-flow -orientation 350.6
+
+point 1563.0434782608695 2756.5217391304345 water-flow -orientation 20.8
 
 line wall -id l182-1644-2101
   1604.0 1970.0
@@ -1536,6 +1566,8 @@ line ceiling-step
   smooth off
 endline
 
+point 1460.8695652173913 1815.2173913043478 water-flow -orientation 2.8
+
 line wall -id l265-1300-1828
   1266.0 1972.0
   1258.89 1919.24 1326.0 1576.0 1340.0 1498.0
@@ -1571,6 +1603,38 @@ line wall -id l266-1048-712
   596.0 590.0 518.0 578.0 480.0 590.0
   smooth off
 endline
+
+point 1439.1304347826085 719.5652173913043 water-flow -orientation 30.8
+
+point 747.8260869565217 452.17391304347825 water-flow -orientation 72.4
+
+point 93.47826086956522 667.391304347826 water-flow -orientation 160.6
+
+point -36.95652173913043 1273.9130434782608 water-flow -orientation 160.6
+
+point -243.4782608695652 1610.8695652173913 water-flow -orientation 90.5
+
+point -1076.086956521739 1617.391304347826 water-flow -orientation 131.1
+
+point -1519.5652173913043 1604.3478260869565 water-flow -orientation 54.4
+
+point -2406.5217391304345 1476.086956521739 water-flow -orientation 88.7
+
+point -3230.4347826086955 1734.782608695652 water-flow -orientation 138.3
+
+point -4073.9130434782605 2713.0434782608695 water-flow -orientation 138.3
+
+point -4502.173913043478 3126.086956521739 water-flow -orientation 124.0
+
+point -5386.95652173913 3913.0434782608695 water-flow -orientation 149.7
+
+point -5647.826086956521 4952.173913043478 water-flow -orientation 179.0
+
+point -5667.391304347826 6176.086956521739 water-flow -orientation 179.0
+
+point -5373.913043478261 7097.826086956521 water-flow -orientation 214.5
+
+point -5308.695652173913 8050.0 water-flow -orientation 176.7
 
 line wall -id l264-336-564
   480.0 590.0

@@ -48,7 +48,7 @@ TODO
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Finish label consistency resize
 * Point size consistency
-* Confirm water points format
+* Confirm water points format (think you use line, i've used point.  Will change to line?)
 * change point mud for area mud?  Only used a few times and stands out
 * Missing water flow points in various places
 * highlight gaps (Guscott pot gap to Bridge Hall, Guscott pot to North choke, October passage to Bridge Hall)

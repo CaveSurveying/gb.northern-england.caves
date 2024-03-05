@@ -30,7 +30,7 @@ input CapLeftTunnel/CapLeftTunnel.th
 ##PW NEW 2024
 input OQP/OQP.th
 input PigskinPot/PigskinPot.th
-#input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
+input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
 input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
 input SurfaceOQP/SurfaceOQP.th
 
@@ -109,7 +109,7 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   aquamolePlan
   
   break
-  #m1p@GoydenDownstreamSumps
+  m1p@GoydenDownstreamSumps
   m1p@NewGoydenDownstreamSumps
   
   
@@ -164,13 +164,13 @@ equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott.GuscottIndex 
 equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
 
-##PW IN PROGRESS
-#equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
-#equate 1.36@GoydenDownstreamSumps 1.9@goy3
-#equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
-
 equate 1.59@NewGoydenDownstreamSumps 1.59@PlanHard
 equate 1@SurfaceOQP 0@OQP
+
+##PW IN PROGRESS - AS GoyDownSump are digitised need to fudge some data to prevent warp.
+#equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
+equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
+#equate 1.36@GoydenDownstreamSumps 1.9@goy3
 
 
 endcenterline

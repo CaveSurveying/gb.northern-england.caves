@@ -1556,7 +1556,7 @@ point 3302.3399212599998 7155.49917164 station -name 1.9
 
 point 3818.618582677 7006.14368503 station -name 1.40
 
-point 3031.818181818182 9959.09090909091 label -text [Hardy Pools<br>Passage] -scale l -align right
+point 3031.818181818182 9959.09090909091 label -text [Hardy Pools<br>Passage] -align right -scale xl
 
 line wall -reverse on
   3201.0 7126.0
