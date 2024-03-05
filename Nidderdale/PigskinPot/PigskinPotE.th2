@@ -1,0 +1,305 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -252.17000000000002 -475.05 309.75 172.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {-124.17 1 1.0} {-347.05 0} Pigskin_Pot-pigskins.xvi 0 {}
+
+# 2024.02.25 created by TopoDroid v. 6.2.32
+
+
+
+
+scrap PigskinPotE -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  178.0 -126.25
+  158.0 -120.75 159.75 -123.43 154.4 -122.16
+  149.47 -120.99 141.51 -118.53 136.81 -120.18
+  131.89 -121.9 126.29 -120.26 121.38 -119.43
+  118.02 -118.85 113.8 -117.78 110.67 -116.49
+  104.27 -113.84 95.27 -103.59 100.81 -97.01
+  smooth off
+endline
+
+line rock-border -close on
+  83.5 -104.0
+  82.75 -104.25 72.0 -103.75 72.0 -103.75
+  smooth off
+  69.5 -115.75
+  81.0 -119.25
+  81.0 -119.25 84.25 -103.75 83.5 -104.0
+endline
+
+line wall -subtype debris
+  33.0 -113.25
+  36.48 -113.92 43.35 -119.17 47.17 -119.9
+  47.6 -119.98 58.82 -117.76 59.25 -117.75
+  smooth off
+endline
+
+line wall
+  59.25 -117.75
+  70.63 -117.54 75.57 -120.0 86.5 -123.12
+  94.32 -125.36 91.03 -129.76 98.89 -130.89
+  99.47 -130.97 108.36 -126.27 108.91 -126.45
+  109.35 -126.59 109.7 -126.92 110.09 -127.15
+  114.46 -129.8 118.38 -132.38 123.51 -132.01
+  130.6 -131.5 139.74 -129.95 146.8 -128.91
+  148.48 -128.66 150.26 -128.48 151.97 -128.68
+  152.59 -128.76 154.84 -129.12 155.48 -129.29
+  155.97 -129.42 156.44 -129.63 156.93 -129.79
+  157.55 -129.98 158.17 -130.17 158.79 -130.34
+  162.59 -131.35 169.0 -131.0 178.25 -131.5
+  smooth off
+endline
+
+line wall
+  68.2 -31.19
+  67.2 -40.43 58.19 -69.95 55.12 -78.53
+  51.53 -88.56 43.25 -103.88 32.75 -108.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  135.05 40.9
+  135.05 40.9 124.5 49.0 114.0 38.75
+  smooth off
+endline
+
+line wall
+  78.0 -91.25
+  74.75 -86.25 79.33 -67.13 78.6 -61.22
+  78.19 -57.83 77.05 -54.27 76.35 -50.93
+  75.85 -48.56 75.5 -37.5 68.2 -31.19
+  smooth off
+endline
+
+line wall
+  100.81 -97.01
+  102.06 -93.4 108.32 -95.76 111.15 -94.12
+  116.34 -91.1 119.22 -83.82 120.48 -78.34
+  smooth off
+endline
+
+line wall -subtype debris
+  114.0 38.75
+  116.72 31.6 114.82 25.72 112.75 18.75
+  smooth off
+endline
+
+line wall
+  112.75 18.75
+  112.58 18.18 103.94 3.84 103.81 3.26
+  103.68 2.71 103.66 2.15 103.59 1.59
+  103.53 1.05 102.8 0.54 102.75 -0.0
+  102.58 -1.67 101.2 -2.28 101.14 -3.95
+  100.99 -7.69 103.76 -12.62 104.38 -16.26
+  105.87 -25.05 106.05 -34.28 107.0 -43.14
+  107.37 -46.65 108.59 -50.68 108.19 -54.18
+  107.53 -59.86 100.85 -67.5 99.29 -72.95
+  smooth off
+endline
+
+line wall
+  120.48 -78.34
+  122.18 -68.18 122.57 -57.66 121.5 -48.0
+  121.44 -47.5 121.89 -43.71 121.91 -43.21
+  121.93 -42.68 122.14 -38.76 122.25 -38.25
+  123.69 -31.3 123.58 -27.86 128.5 -22.63
+  131.57 -19.38 135.7 -13.08 137.25 -8.93
+  138.39 -5.86 136.59 16.23 136.25 19.5
+  smooth off
+endline
+
+line wall -subtype debris
+  136.25 19.5
+  135.25 29.25 132.24 27.33 135.05 40.9
+  smooth off
+endline
+
+line wall
+  99.29 -72.95
+  96.4 -75.91 94.15 -80.1 90.34 -82.11
+  smooth off
+  88.34 -84.3 80.08 -91.89 78.0 -91.25
+  smooth off
+endline
+
+point 37.69 -123.85 label -scale s -align bottom-left -text Covid<br>Way
+
+point 163.63 -138.92 label -scale s -align bottom-right -text Proudler<br>Passage
+
+point 180.56 -128.98 dig -scale s
+
+point 27.88 -108.91 dig -scale s
+
+point 140.19 39.32 label -scale s -align right -text Entrance<br><it>(c6)
+
+line u:splay -visibility off
+  58.73 -115.83
+  59.01 -115.49
+endline
+
+line u:splay -visibility off
+  58.73 -115.83
+  61.95 -114.75
+endline
+
+line u:splay -visibility off
+  58.73 -115.83
+  68.2 -31.19
+endline
+
+line u:splay -visibility off
+  58.73 -115.83
+  72.28 -35.94
+endline
+
+line u:splay -visibility off
+  58.73 -115.83
+  32.45 -109.65
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  86.5 -123.12
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  92.83 -123.74
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  98.89 -130.89
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  89.29 -81.79
+endline
+
+line u:splay -visibility off
+  125.53 -123.35
+  180.25 -129.29
+endline
+
+line u:splay -visibility off
+  125.53 -123.35
+  125.97 -125.0
+endline
+
+line u:splay -visibility off
+  125.53 -123.35
+  128.83 -123.71
+endline
+
+line u:splay -visibility off
+  125.53 -123.35
+  123.51 -132.01
+endline
+
+line u:splay -visibility off
+  91.33 -97.32
+  96.9 -96.6
+endline
+
+line u:splay -visibility off
+  91.33 -97.32
+  90.82 -95.69
+endline
+
+line u:splay -visibility off
+  91.33 -97.32
+  89.92 -82.68
+endline
+
+line u:splay -visibility off
+  91.33 -97.32
+  75.05 -93.13
+endline
+
+line u:splay -visibility off
+  107.74 -44.35
+  116.77 -45.16
+endline
+
+line u:splay -visibility off
+  107.74 -44.35
+  109.32 -42.91
+endline
+
+line u:splay -visibility off
+  107.74 -44.35
+  121.91 -43.21
+endline
+
+line u:splay -visibility off
+  107.74 -44.35
+  109.75 -41.85
+endline
+
+line u:splay -visibility off
+  112.35 -81.7
+  92.03 -80.31
+endline
+
+line u:splay -visibility off
+  112.35 -81.7
+  112.62 -83.1
+endline
+
+line u:splay -visibility off
+  112.35 -81.7
+  106.3 -81.95
+endline
+
+line u:splay -visibility off
+  112.35 -81.7
+  110.33 -81.14
+endline
+
+line u:splay -visibility off
+  115.37 -12.57
+  101.14 -3.95
+endline
+
+line u:splay -visibility off
+  115.37 -12.57
+  137.25 -8.93
+endline
+
+line u:splay -visibility off
+  115.37 -12.57
+  121.04 -12.61
+endline
+
+line u:splay -visibility off
+  115.37 -12.57
+  111.37 -13.76
+endline
+
+line u:splay -visibility off
+  115.37 -12.57
+  103.36 -7.72
+endline
+
+point 98.43 -118.11 station -name "1"
+
+point 58.73 -115.83 station -name "0"
+
+point 125.53 -123.35 station -name "2"
+
+point 91.33 -97.32 station -name "3"
+
+point 112.35 -81.70 station -name "4"
+
+point 107.74 -44.35 station -name "5"
+
+point 115.37 -12.57 station -name "6"
+
+point 126.48 38.56 station -name "7" -subtype fixed
+
+endscrap
+
+

@@ -1,0 +1,281 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -781.81 -1622.27 702.0 141.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {-653.81 1 1.0} {-1494.27 0} OQP_surface-surfacep.xvi 0 {}
+
+# 2024.02.25 created by TopoDroid v. 6.2.32
+
+
+
+
+scrap SurfaceOQPPlan -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+point 438.0 -135.0 gradient -orientation 255.0 -scale m
+
+point 426.0 -103.0 gradient -orientation 255.0 -scale m
+
+line pit
+  107.11 -222.31
+  111.61 -215.71 111.57 -202.34 112.96 -194.61
+  114.9 -183.74 118.64 -165.75 125.22 -157.03
+  smooth off
+endline
+
+line pit
+  112.78 -358.1
+  105.47 -343.22 102.15 -326.27 100.96 -309.83
+  100.33 -301.28 97.9 -292.57 97.81 -283.92
+  97.64 -267.27 98.86 -249.81 103.08 -233.63
+  104.08 -229.79 105.51 -225.93 107.11 -222.31
+  smooth off
+endline
+
+line pit
+  81.45 -414.21
+  84.19 -406.73 92.86 -402.88 97.12 -396.58
+  104.79 -385.23 109.23 -371.21 112.78 -358.1
+  smooth off
+endline
+
+point 82.71 -374.99 debris -scale s
+
+point 80.61 -339.97 debris -scale s
+
+point 57.209999999999994 -348.11 debris -scale s
+
+point 53.239999999999995 -294.36 debris -scale s
+
+point 97.81 -184.36 debris -scale s
+
+point 92.57 -202.61 debris -scale s
+
+point 318.0 -427.0 gradient -orientation 359.7 -scale m
+
+point 355.0 -425.0 gradient -orientation 359.7 -scale m
+
+point 384.0 -435.0 gradient -orientation 359.7 -scale m
+
+point 421.0 -406.0 gradient -orientation 317.2 -scale m
+
+point 433.0 -373.0 gradient -orientation 317.2 -scale m
+
+point 450.0 -348.0 gradient -orientation 317.2 -scale m
+
+point 467.0 -311.0 gradient -orientation 274.2 -scale m
+
+point 464.0 -259.0 gradient -orientation 274.2 -scale m
+
+point 464.0 -204.0 gradient -orientation 274.2 -scale m
+
+point 491.0 -159.0 gradient -orientation 343.6 -scale m
+
+point 541.0 -126.0 gradient -orientation 343.6 -scale m
+
+point 569.0 -121.0 gradient -orientation 343.6 -scale m
+
+point 443.0 -28.0 gradient -orientation 157.3 -scale m
+
+point 474.0 -24.0 gradient -orientation 189.8 -scale m
+
+point 498.0 -33.0 gradient -orientation 189.8 -scale m
+
+point 543.0 -26.0 gradient -orientation 189.8 -scale m
+
+point 561.0 -15.0 gradient -orientation 189.8 -scale m
+
+point 447.59 -65.56 debris -scale s
+
+point 465.38 -66.16 debris -scale s
+
+point 481.98 -68.92 debris -scale s
+
+point 107.06 -98.53 label -align top-right -text [Old Quarry<br>Pot (stn 0)] -scale m
+
+point -456.96 -1296.43 label -text "New Goyden (stn 30)" -align bottom-right -scale m
+
+point 537.56 -142.6 label -align bottom-right -scale m -text [Pigskin<br>Pot (stn 12)]
+
+line pit
+  122.74 -142.61
+  122.74 -136.85 122.51 -127.98 118.93 -123.14
+  118.17 -122.11 117.3 -121.15 116.36 -120.27
+  110.09 -114.39 102.31 -107.76 94.79 -103.54
+  92.59 -102.29 90.03 -101.02 88.5 -98.87
+  87.6 -97.61 84.79 -93.93 85.94 -94.98
+  86.82 -95.79 87.48 -96.8 88.25 -97.72
+  smooth off
+endline
+
+line pit
+  125.22 -157.03
+  124.68 -157.76 126.07 -157.34 125.22 -157.03
+  125.0 -156.95 128.99 -151.48 127.32 -150.35
+  126.68 -149.92 125.11 -146.29 122.93 -142.68
+  smooth off
+endline
+
+point 557.14 -55.14 water-flow -orientation 259.00 -scale s
+
+point 496.15 -86.15 water-flow -orientation 254.00 -scale s
+
+line u:splay -visibility off
+  309.21 -350.39
+  301.66 -396.27
+endline
+
+line u:splay -visibility off
+  309.21 -350.39
+  333.28 -399.11
+endline
+
+line u:splay -visibility off
+  381.72 -360.93
+  384.67 -402.76
+endline
+
+line u:splay -visibility off
+  381.72 -360.93
+  407.92 -387.07
+endline
+
+line u:splay -visibility off
+  381.72 -360.93
+  369.47 -407.85
+endline
+
+line u:splay -visibility off
+  421.04 -260.06
+  443.91 -263.82
+endline
+
+line u:splay -visibility off
+  428.91 -181.14
+  449.66 -192.38
+endline
+
+line u:splay -visibility off
+  431.55 -114.52
+  420.55 -181.37
+endline
+
+line u:splay -visibility off
+  431.55 -114.52
+  454.29 -145.67
+endline
+
+line u:splay -visibility off
+  479.7 -120.03
+  494.33 -101.3
+endline
+
+line u:splay -visibility off
+  479.7 -120.03
+  458.56 -73.37
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  116.58 -156.58
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  72.18 -109.76
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  43.61 -102.67
+endline
+
+line u:splay -visibility off
+  73.38 -182.5
+  107.07 -187.25
+endline
+
+line u:splay -visibility off
+  73.38 -182.5
+  100.61 -212.46
+endline
+
+line u:splay -visibility off
+  62.69 -260.0
+  95.33 -275.31
+endline
+
+line u:splay -visibility off
+  62.69 -260.0
+  97.95 -308.07
+endline
+
+line u:splay -visibility off
+  60.33 -314.65
+  101.71 -366.1
+endline
+
+line u:splay -visibility off
+  60.33 -314.65
+  20.09 -390.08
+endline
+
+point 98.43 -118.11 station -name "0"
+
+point 120.71 -95.80 station -name "1"
+
+point 193.17 -177.23 station -name "2"
+
+point 247.33 -257.18 station -name "4"
+
+point 309.21 -350.39 station -name "5"
+
+point 381.72 -360.93 station -name "6"
+
+point 408.86 -326.91 station -name "7"
+
+point 421.04 -260.06 station -name "8"
+
+point 428.91 -181.14 station -name "9"
+
+point 73.38 -182.50 station -name "13"
+
+point 62.69 -260.00 station -name "14"
+
+point 60.33 -314.65 station -name "15"
+
+point 71.06 -406.30 station -name "16"
+
+point 11.02 -133.58 station -name "17"
+
+point -83.73 -108.75 station -name "18"
+
+point -183.40 -90.31 station -name "19"
+
+point -283.23 -182.51 station -name "20"
+
+point -288.76 -304.90 station -name "21"
+
+point -295.60 -418.50 station -name "22"
+
+point -295.45 -529.67 station -name "23"
+
+point -299.16 -625.61 station -name "24"
+
+point -294.05 -739.12 station -name "25"
+
+point -294.82 -864.71 station -name "26"
+
+point -344.32 -967.25 station -name "27"
+
+point -393.41 -1115.37 station -name "28"
+
+point -444.69 -1254.52 station -name "29"
+
+point 431.55 -114.52 station -name "10"
+
+point 479.70 -120.03 station -name "11"
+
+point 512.09 -80.36 station -name "12"
+
+endscrap
+
+
