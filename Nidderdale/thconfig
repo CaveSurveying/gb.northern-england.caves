@@ -32,9 +32,10 @@ export map -proj plan -o Output/NidderdaleOutput/Nidderdale.kml
 layout local
 
 copy custom_standard_settings
+symbol-hide group sections
 
 map-header 50 99 nw
-map-image 70 96 nw XTherionFiles\by-nc-sa.png
+map-image 70 95 nw XTherionFiles\by-nc-sa.png
 base-scale 1 300
 scale 1 1000
 #debug on
@@ -57,9 +58,10 @@ text en "line wall:flowstone" ""
 text en "line border:presumed" ""
 text en "line rock-border" ""
 text en "line rock-edge" ""
+text en "line contour" ""
+text en "line section" ""
 text en "line slope" ""
 text en "line chimney" ""
-#text en "line cross-section" ""
 text en "line u:user" ""
 text en "point blocks" ""
 text en "point pebbles" ""
