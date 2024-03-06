@@ -35,6 +35,7 @@ CHANGES
 * in nidderdale.th file create new map for surface scraps.  This then can be controlled with a different colour in the thconfig
 * Review legend and hidden some options (rock edges, border, presumed border, x3 blocks, cross-section, flowstone) - mainly where multiples of same, can be reviewed in thconfig.
 * added presumed sump connection between Goyden2SP1 and GoydenSP1
+* added LimleyLeadMine digitised.  NEED accurate GPS
 
 
 TODO
