@@ -33,6 +33,7 @@ input PigskinPot/PigskinPot.th
 input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
 input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
 input SurfaceOQP/SurfaceOQP.th
+#input LimleyLeadMine/LimleyLeadMine.th
 
 
 #### Plan Joins ####
@@ -111,6 +112,7 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   m1p@GoydenDownstreamSumps
   m1p@NewGoydenDownstreamSumps
+  #m1p@LimleyLeadMine
   
   
   ############################
