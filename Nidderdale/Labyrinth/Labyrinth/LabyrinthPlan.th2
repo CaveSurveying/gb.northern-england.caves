@@ -282,8 +282,7 @@ line wall
 endline
 
 line wall
-  10486.0 6944.0
-  10512.0 6910.0 10602.0 6866.0 10614.0 6844.0
+  10614.0 6844.0
   10626.0 6822.0 10668.0 6802.0 10662.0 6756.0
   10656.0 6710.0 10694.0 6588.0 10632.0 6574.0
   10570.0 6560.0 10548.0 6546.0 10536.0 6526.0
@@ -315,12 +314,6 @@ line wall
   10984.0 5414.0 10909.01 5413.92 10898.0 5413.0
   10886.0 5412.0 10851.0 5402.0 10847.0 5406.0
   10843.0 5410.0 10795.0 5513.0 10795.0 5513.0
-  smooth off
-endline
-
-line wall
-  10664.0 6996.0
-  10630.0 7010.0 10610.0 7026.0 10588.0 7046.0
   smooth off
 endline
 
@@ -357,9 +350,9 @@ endline
 point 11445.548387096775 5140.774193548387 label -text Five<br>Ways -align right -scale xl
 
 line label -reverse on
-  10570.0 6883.0
-  10589.0 6883.0 10607.0 6901.0 10621.0 6886.0
-  10635.0 6871.0 10663.0 6852.0 10664.0 6833.0
+  10614.0 6844.0
+  10633.0 6844.0 10656.97 6885.97 10670.97 6870.97
+  10684.97 6855.97 10663.0 6852.0 10664.0 6833.0
   10665.0 6814.0 10659.0 6770.0 10662.0 6756.0
   10665.0 6742.0 10655.0 6717.0 10678.0 6702.0
   10701.0 6687.0 10712.0 6684.0 10719.0 6699.0
@@ -371,9 +364,22 @@ line label -reverse on
   smooth off
 endline
 
-point 10555.193548387097 6787.096774193548 label -align bottom-left -text [10'<br>Climb] -scale xl
+point 10770.967741935483 6825.8064516129025 debris -scale m
+
+line arrow
+  10348.387096774193 7319.354838709677
+  10709.0 6977.0
+endline
+
+point 10303.58064516129 7358.064516129032 label -text [10'<br>Climb] -scale xl -align top-left
 
 point 10709.0 6977.0 fixed-ladder
+
+line wall
+  10660.5 6993.5
+  10635.48387096774 6990.322580645161
+  10600.0 6980.645161290322
+endline
 
 line wall
   10842.0 6854.0
@@ -622,30 +628,6 @@ endline
 line wall
   12128.0 7065.0
   12128.0 7048.0 12123.0 7010.0 12123.0 7010.0
-  smooth off
-endline
-
-line water-flow
-  12048.0 7219.0
-  12111.0 7170.0 12086.0 7127.0 12122.0 7123.0
-  smooth off
-endline
-
-line water-flow
-  11955.0 7445.0
-  11971.0 7381.0 11975.0 7306.0 11990.0 7293.0
-  smooth off
-endline
-
-line water-flow
-  11948.0 7579.0
-  11994.0 7513.0 11988.0 7491.0 11993.0 7461.0
-  smooth off
-endline
-
-line water-flow
-  11778.0 7712.0
-  11846.0 7664.0 11877.0 7639.0 11894.0 7609.0
   smooth off
 endline
 
@@ -1283,18 +1265,6 @@ endline
 line water-flow
 endline
 
-line water-flow
-  11678.0 7886.0
-  11722.0 7818.0 11768.0 7766.0 11786.0 7746.0
-  smooth off
-endline
-
-line water-flow
-  11598.0 7914.0
-  11624.0 7878.0 11652.0 7864.0 11686.0 7826.0
-  smooth off
-endline
-
 line floor-step
   11427.0 8052.0
   11444.0 8074.0 11488.0 8084.0 11488.0 8084.0
@@ -1357,17 +1327,13 @@ endline
 line water-flow
 endline
 
-line water-flow
-  10814.0 7616.0
-  10840.0 7558.0 10900.0 7478.0 10900.0 7478.0
-  smooth off
-endline
+point 10919.354838709676 7429.032258064516 water-flow -orientation 143.7 -scale m
 
-line water-flow
-  10790.0 7788.0
-  10764.0 7712.0 10752.0 7724.0 10776.0 7678.0
-  smooth off
-endline
+point 11212.90322580645 6038.709677419354 water-flow -orientation 177.0 -scale m
+
+point 11209.677419354837 6558.064516129032 water-flow -orientation 177.0 -scale m
+
+point 11041.935483870968 7164.516129032258 water-flow -orientation 168.7 -scale m
 
 line wall -subtype presumed
   11226.0 5649.0
@@ -1383,23 +1349,13 @@ line wall -subtype presumed
   smooth off
 endline
 
-line water-flow
-  11228.0 6428.0
-  11232.0 6296.0 11188.0 6208.0 11200.0 6148.0
-  smooth off
-endline
+point 12090.322580645161 7190.322580645161 water-flow -orientation 142.0 -scale m
 
-line water-flow
-  11104.0 6944.0
-  11112.0 6844.0 11192.0 6736.0 11192.0 6660.0
-  smooth off
-endline
+point 11996.774193548386 7490.322580645161 water-flow -orientation 164.3 -scale m
 
-line water-flow
-  10944.0 7392.0
-  10976.0 7292.0 11012.0 7272.0 11016.0 7216.0
-  smooth off
-endline
+point 11854.838709677419 7648.387096774193 water-flow -orientation 143.7 -scale m
+
+point 11664.516129032258 7845.1612903225805 water-flow -orientation 143.7 -scale m
 
 line wall -subtype presumed
   10804.0 7550.0
@@ -1658,7 +1614,7 @@ line rock-edge
   smooth off
 endline
 
-point 18270.96774193548 2874.1935483870966 label -text [+P5] -scale l -align right
+point 18312.903225806447 2832.258064516129 label -text [+P5] -scale l -align right
 
 point 17989.58064516129 2881.7741935483873 label -scale xl -align bottom-left -text Telegraph<br>Aven
 
@@ -1933,6 +1889,8 @@ line rock-edge
   22123.0 -283.0 22169.0 -332.0 22169.0 -332.0
   smooth off
 endline
+
+point 22003.22580645161 -332.258064516129 label -scale l -text P9 -align bottom
 
 line floor-step
   22076.0 -156.0

@@ -95,7 +95,7 @@ line border -id l161-2940-1605 -close on
   3070.5 1557.5 2728.5 1687.5 2699.0 1648.0
 endline
 
-point 2355.5 1711.5 label -text [c3 to dig] -align top-right  -scale l
+point 2355.5 1711.5 label -scale l -text [c3 to<br>dig] -align top
 
 area sump
   l158-2401-1032
@@ -235,28 +235,6 @@ line ceiling-step
   smooth off
 endline
 
-point 5328.0 617.5 mud -clip on
-
-point 5267.5 621.5 mud -clip on
-
-point 5271.0 657.0 mud -clip on
-
-point 5195.0 625.0 mud -clip on
-
-point 5209.0 661.0 mud -clip on
-
-point 5167.5 680.0 mud -clip on
-
-point 5118.5 673.0 mud -clip on
-
-point 5142.5 672.5 mud -clip on
-
-point 5184.5 660.0 mud -clip on
-
-point 5221.5 645.0 mud -clip on
-
-point 5252.0 654.5 mud -clip on
-
 area water
   l186-4785-1007
 endarea
@@ -278,11 +256,44 @@ area clay
   l184-4538-849
 endarea
 
-point 4188.5 750.0 mud -clip on
+area clay
+  l198-5344-554
+endarea
 
-point 4183.5 800.5 mud -clip on
+line border -id l198-5344-554 -close on -subtype invisible
+  5342.0 556.0
+  5344.0 562.0 5354.0 614.0 5354.0 614.0
+  smooth off
+  5336.0 648.0
+  5336.0 648.0 5310.0 658.0 5288.0 658.0
+  5266.0 658.0 5242.0 658.0 5230.0 664.0
+  5218.0 670.0 5216.0 682.0 5200.0 682.0
+  5184.0 682.0 5164.0 688.0 5150.0 688.0
+  5136.0 688.0 5102.0 682.0 5096.0 680.0
+  5090.0 678.0 5074.0 670.0 5074.0 670.0
+  smooth off
+  5074.0 670.0 5070.0 648.0 5090.0 638.0
+  5110.0 628.0 5202.0 588.0 5210.0 586.0
+  5218.0 584.0 5230.0 576.0 5244.0 576.0
+  5258.0 576.0 5290.0 570.0 5296.0 568.0
+  5302.0 566.0 5340.0 550.0 5342.0 556.0
+endline
 
-point 4149.5 832.5 mud -clip on
+area clay
+  l196-4242-738
+endarea
+
+line border -id l196-4242-738 -close on -subtype invisible
+  4210.0 862.0
+  4156.0 878.0
+  4099.0 873.0
+  4146.0 726.0
+  4206.0 698.0
+  4206.0 698.0 4246.0 734.0 4246.0 744.0
+  4246.0 754.0 4232.0 810.0 4232.0 810.0
+  smooth off
+  4210.0 862.0
+endline
 
 point 3616.5 1240.0 pebbles
 
@@ -291,26 +302,6 @@ point 3548.0 1144.5 pebbles
 point 3512.5 1302.0 pebbles
 
 point 3397.5 1329.0 pebbles
-
-point 4111.5 875.5 mud -clip on
-
-point 4135.0 869.5 mud -clip on
-
-point 4158.5 863.0 mud -clip on
-
-point 4126.0 830.0 mud -clip on
-
-point 4161.5 805.5 mud -clip on
-
-point 4180.5 822.0 mud -clip on
-
-point 4204.0 799.0 mud -clip on
-
-point 4192.5 776.5 mud -clip on
-
-point 4164.5 751.5 mud -clip on
-
-point 4151.0 786.0 mud -clip on
 
 line border -id l184-4538-849 -close on
   4356.5 797.5
@@ -503,12 +494,6 @@ point 4554.0 1008.0 pebbles
 point 4608.0 930.0 pebbles
 
 point 4790.0 830.0 pebbles
-
-point 5166.0 650.0 pebbles -clip on
-
-point 5218.0 620.0 mud -clip on
-
-point 5290.0 628.0 mud -clip on
 
 line ceiling-step
   5094.0 902.0

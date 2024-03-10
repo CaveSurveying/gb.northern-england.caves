@@ -28,10 +28,13 @@ input CapLeftTunnel/CapLeftTunnel.th
 #input TomTaylors/TomTaylors.th
 
 ##PW NEW 2024
-input OQP/OQP.th
-input PigskinPot/PigskinPot.th
+
 input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
 input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
+input goyden/Pyradine/pyradine.th
+
+input OQP/OQP.th
+input PigskinPot/PigskinPot.th
 input SurfaceOQP/SurfaceOQP.th
 #input LimleyLeadMine/LimleyLeadMine.th
 
@@ -55,9 +58,11 @@ join Surface1SP3 Surface2SP4
 join Goyden2SP1 goy3SP1
 join CapLeftTunnelSP1 LabyrinthSP2@LabyrinthIndex
 join CapLeftTunnelSP2 PillarPotSP2
-
 join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
 join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
+
+join LabyrinthSP1@LabyrinthIndex pyradine-PyradinePlanp@pyradine
+join MudHallSP4 pyradine-ScaffoldTraverswp@pyradine
 
 #join NewGoydenSP5 GoydenDownstreamSumpsP@GoydenDownstreamSumps
 #join PlanHardSP2  NewGoydenSP4
@@ -71,8 +76,8 @@ endmap
 
 map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
   
-  #m1p@OQP   #NEED NEW GPS
-  #m1p@PigskinPot #NEED NEW GPS
+  m1p@OQP   #NEED NEW GPS
+  m1p@PigskinPot #NEED NEW GPS
   break  
   #Surface2Plan
   #surface1Plan
@@ -113,6 +118,8 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   m1p@GoydenDownstreamSumps
   m1p@NewGoydenDownstreamSumps
   #m1p@LimleyLeadMine
+  
+ m1p@pyradine
   
   
   ############################
@@ -168,6 +175,8 @@ equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
 
 equate 1.59@NewGoydenDownstreamSumps 1.59@PlanHard
 equate 1@SurfaceOQP 0@OQP
+
+equate 0@pyradine 1.39@Labyrinth.LabyrinthIndex
 
 ##PW IN PROGRESS - AS GoyDownSump are digitised need to fudge some data to prevent warp.
 #equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden

@@ -64,8 +64,10 @@ text en "line slope" ""
 text en "line chimney" ""
 text en "line u:user" ""
 text en "point blocks" ""
+text en "point mud" ""
 text en "point pebbles" ""
 text en "point debris" ""#hidden the point symbol but the area one is not that reflective...
 text en "point low-end"          ""
 text en "point narrow-end"       ""
 text en "area flowstone" ""
+text en "area clay" "mud" #used clay area fill to represent mud, amended legend
