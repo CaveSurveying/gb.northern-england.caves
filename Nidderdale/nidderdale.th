@@ -68,19 +68,18 @@ join MudHallSP4 pyradine-ScaffoldTraverswp@pyradine
 #join PlanHardSP2  NewGoydenSP4
 
 ####################################################
+
+
 map surfacePlan
   Surface2Plan
   surface1Plan
   #m1p@SurfaceOQP #need latest GPS from Nick, but does not really work as surface overlay
 endmap
 
-map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
-  
+map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
   m1p@OQP   #NEED NEW GPS
   m1p@PigskinPot #NEED NEW GPS
   break  
-  #Surface2Plan
-  #surface1Plan
   GuscottIndex@GuscottIndex
   churchPotPlan
   gargettwayPlan
@@ -91,12 +90,11 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   manholePlan
   EternalOptomist-offset [-50 0 m] below
-  
+  m1p@pyradine
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
   goyden2Plan
   goy3Plan
-
   CapLeftTunnelPlan
   
   ####NewGoyden/Frog####
@@ -112,30 +110,65 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
-  aquamolePlan
-  
+  aquamolePlan  
   break
   m1p@GoydenDownstreamSumps
-  m1p@NewGoydenDownstreamSumps
-  #m1p@LimleyLeadMine
-  
- m1p@pyradine
-  
+  m1p@NewGoydenDownstreamSumps  
   
   ############################
+  #m1p@LimleyLeadMine  #digitised.  adding creates large pdf as this is ~1km of passage heading west
   #LowEglinsPlan
-  #LofthousePotPlan
-   
+  #LofthousePotPlan   
   #TomTaylors@TomTaylors ##This is the new cave that needed the 
                         ##survey endsurvey to render correctly.
                         ##It is a Small cave located in bottom left of pdf
                         ##Adding this has buggered up the current pdf layout
                         ##so that needs sorting.
-  
-  
-  #goy3Plan             ##Need to survey sump 2 so we can add to main map
+
   
 endmap
+
+################################
+## Chris Fox Publication Maps ##
+################################
+
+map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+churchPotPlan
+  gargettwayPlan
+  MudHallPlan
+  PillarPotPlan
+  break
+  goydenPlan
+  break
+  manholePlan
+  EternalOptomist-offset [-50 0 m] below  
+  LabyrinthSection1@LabyrinthIndex
+  m1p@pyradine
+  CarterPassagePlan
+  #goyden2Plan
+  #goy3Plan
+  CapLeftTunnelPlan
+endmap
+
+map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+  ThropePotPlan
+  m1p@astronomers
+  PlanHardPlan
+  break
+  NewGoydenPlan
+  break
+  #frogpotPlan
+  FrogPotIndex@FrogPotIndex
+  break
+  NorthChokeIndex@NorthChokeIndex
+  ShackletonsPlan
+  aquamolePlan
+endmap
+
+#map PublishSection3 -title "Everything Else?<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+
+
+#endmap
 
 
 ###############################################

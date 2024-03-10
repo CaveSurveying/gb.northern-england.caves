@@ -36,7 +36,12 @@ CHANGES
 * Review legend and hidden some options (rock edges, border, presumed border, x3 blocks, cross-section, flowstone) - mainly where multiples of same, can be reviewed in thconfig.
 * added presumed sump connection between Goyden2SP1 and GoydenSP1
 * added LimleyLeadMine digitised.  NEED accurate GPS
-* add pitch / length for Crater Chamber (9m)
+* added pitch / length for Crater Chamber (9m)
+* Removde mud points (approx, 3 areas only)
+* 25m aven UP is using ceiling step down (as if looking from the top).  Reversed
+* Made MUD SUMP a sump? (it's bailable, but decision to show as sump)
+* add sump length and depth - Sump Index only has lengths
+* completed Caravan Trail Details
 
 
 TODO
@@ -47,10 +52,8 @@ TODO
 * Move folders under respective Main Cave?  such as PLanHard under NewGoyden (make generation Chris' sections easier?  would have to update hierarchy links in th)
 * fix Goyden 3 Sumps, alignment and include streamway detals  -- DIFFICULT.  FIX TO AQUAMOLE AND CREATE SEPERATE SKETCHES OF UPS and DWNS
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
-* Finish label consistency resize
 * Point size consistency
 * Change the line water symbols to point (L)
-* Remove mud points (approx, 3 areas only)
 * Missing water flow points in various places
 * highlight gaps (Guscott pot gap to Bridge Hall, Guscott pot to North choke, October passage to Bridge Hall)
 * highlight Dry Wath link/Aquamole series and Frog pot/Hardy Pools and Dry Wath series near link/ Thrope pot and mine levels. How Gill pot
@@ -61,19 +64,13 @@ TODO
 * BSD logo (into XTherionFiles) - Chris to provide
 * Sumps are missing sump area – review - Phil ongoing review
 * Review ceiling vs floor steps, confirmed some are wron way round (i.e. step down nr Hardy Pools)
-* 25m aven UP is using ceiling step down (as if looking from the top), should it not be reversed?  Personal pref?
-* Is MUD SUMP a sump? - Yes, fix area fill
-* Dotted line from static sump to pillar pot? - presumed lines preferred
+* Dotted line from static sump to pillar pot? - presumed lines preferred but need extra pillar pot survey
 * Water flow from Manchester to Goyden
 * First duck and then climbs in roof in Clay Tunnel
-* add sump length and depth - Chris to provide?
-* other pitch lengths / hand climbs?
-* some labels / detail on Pocket topo originals not included - discuss
 * Pitches - set outline-in to 'view' into passage below
 * there is a cross-section (line) visible somewhere (as shows in legend).. Need to find it and hide
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication
 * Digitise Hardy Pools Sump extension
-* compelte Caravan Trail Details
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
 * Fix Joins
 	- Beetroot - Beetroot canal

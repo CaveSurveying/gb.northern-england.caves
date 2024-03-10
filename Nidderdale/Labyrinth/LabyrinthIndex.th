@@ -15,6 +15,12 @@ map LabyrinthIndex -title "Labyrinth Index"
   BeetRootSumpPlan
 endmap
 
+map LabyrinthSection1 -title "Labyrinth Section 1" #used for Chris' Publication Section 1
+  LabyrinthPlan
+  #Lab2Plan 
+endmap
+
+
 map LabyrinthEeIndex -title "Sand Tunnel To Beet Root Ee"
 
 #BRCanalSE1

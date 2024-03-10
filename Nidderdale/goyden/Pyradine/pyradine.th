@@ -1,7 +1,7 @@
 encoding  utf-8
 # 2024.03.09 created by TopoDroid v 6.2.32
 
-survey pyradine -title "Pyradine Passage<br><it>Goyden Pot, Nidderdale"
+survey pyradine -title "Pyridine Passage<br><it>Goyden Pot, Nidderdale"
 
    input "pyradine-PyradinePlanp.th2"
    input "pyradine-PyradinePlans.th2"
