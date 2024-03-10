@@ -8,7 +8,7 @@ encoding  utf-8
 
 scrap GoydenSP1 -projection plan -station-names "" "@Goyden" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 3383.125 1585.125 label -text [Upstream<br>Sump 1] -align bottom-right -scale xl
+point 3383.125 1585.125 label -text [Upstream<br>Sump 1] -align bottom-right -scale l
 
 area sump
   l151-2482-3022
@@ -213,7 +213,7 @@ line border -id l151-2482-3022 -close on
   2406.0 3076.0 2420.0 3136.0 2406.0 3136.0
 endline
 
-point 1806.25 6912.5 label -scale l -visibility off -text [climb to<br>Gaskill's Passage]
+point 1806.25 6912.5 label -scale xl -visibility off -text [climb to<br>Gaskill's Passage]
 
 point 5520.0 2834.0 label -scale xl -visibility on -align bottom-left -text Labyrinth<br>Passage
 
@@ -227,9 +227,9 @@ point 1671.875 11290.625 label -scale xl -text Main<br>Chamber -align left
 
 point 93.75 13165.625 dig -scale m
 
-point 52.56410256410256 13312.419871794873 label -scale l -text abandoned<br>dig -align top-right
+point 52.56410256410256 13312.419871794873 label -scale m -text abandoned<br>dig -align top-right
 
-point 2603.125 10034.625 label -scale xl -visibility on -text Lesser<br>Stream<br>Exit -align bottom-left
+point 2603.125 10034.625 label -scale m -visibility on -text Lesser<br>Stream<br>Exit -align bottom-left
 
 point 616.0 15702.0 label -scale xl -visibility on -text GOYDEN<br>POT
 
@@ -1333,7 +1333,7 @@ line arrow -visibility on
   1810.0 12586.0
 endline
 
-point 1693.375 12218.0 label -text [rockfall<br>(Jan 2015)] -scale l -align bottom-left
+point 1693.375 12218.0 label -text [rockfall<br>(Jan 2015)] -scale m -align bottom-left
 
 line rock-border -close on
   1798.0 12702.0

@@ -102,10 +102,20 @@ MISSING SURVEYS
 * Beyond Sump 8, 9 (New Goyden)
 * High Rift – Beet Route?
 
-
 OTHER
 -----
-
 * Canal Cave area survey - To highlight Canal cave, river truncating Lofthouse Foss caves 1&2 canal cave and lower canal cave, Perrier pot and another, Lofthouse pot and sink far side of river. Highlight possible link Lofthouse pot to Low Eglin’s. Add to Canal cave Survey rest of pots and surface river, Fire station and cricket ground
 * Eglin’s System survey - To highlight Eglin system, Use pdf of the system available
 * Tom Taylor’s and gaps - To highlight gaps between Tom Taylor’s and Low Eglin’s/Tom Taylor’s and Eglin’s Hole, Use pdf of the system available
+
+THERION DRAWING STDS RECOMMENDATIONS
+------------------------------------
+* Labels (use point, not line, align away from passage, split over newline <br> where appropriate)
+	- ENTRANCES- capitals and XL
+	- Major Landmarks normal case and XL
+	- Minor Landmarks, pitches and climbs, normal case and L
+	- minor comments, M
+	- note, if using arrows with any labels, set size of line arrow to match the label
+* Water Flow - use point (M) Orientated with flow of water
+* Passage Slopes - use passage gradient point (M) Orientated down slope (not line)
+* All other points (M) - Dig, ? etc.

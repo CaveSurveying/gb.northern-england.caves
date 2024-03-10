@@ -95,7 +95,7 @@ line border -id l161-2940-1605 -close on
   3070.5 1557.5 2728.5 1687.5 2699.0 1648.0
 endline
 
-point 2355.5 1711.5 label -scale l -text [c3 to<br>dig] -align top
+point 2355.5 1711.5 label -scale m -text [c3 to<br>dig] -align top
 
 area sump
   l158-2401-1032

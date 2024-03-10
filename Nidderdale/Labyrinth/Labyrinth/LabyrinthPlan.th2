@@ -371,7 +371,7 @@ line arrow
   10709.0 6977.0
 endline
 
-point 10303.58064516129 7358.064516129032 label -text [10'<br>Climb] -scale xl -align top-left
+point 10303.58064516129 7358.064516129032 label -text [10'<br>Climb] -scale l -align top-left
 
 point 10709.0 6977.0 fixed-ladder
 
@@ -748,7 +748,7 @@ endline
 
 point 13187.451612903225 7290.645161290323 label -text [Sand Tunnel] -scale xl -align top-right
 
-point 11185.0 8428.0 label -align right -text [Old Year<br>Passage] -scale xl
+point 11185.0 8428.0 label -align right -text [Old Year<br>Passage] -scale l
 
 line water-flow
   11090.0 8486.0
@@ -1071,9 +1071,9 @@ line wall
   smooth off
 endline
 
-point 18035.483870967742 5135.4838709677415 label -scale l -text mud<br>sump -align top-right
+point 18035.483870967742 5135.4838709677415 label -scale m -text mud<br>sump -align top-right
 
-point 16693.548387096773 5619.354838709677 label -align bottom-left -scale l -text mud<br>sump
+point 16693.548387096773 5619.354838709677 label -align bottom-left -scale m -text mud<br>sump
 
 area sump
   l297-18019-5123
@@ -1217,7 +1217,7 @@ line wall
   smooth off
 endline
 
-point 18030.645161290322 3395.3225806451615 label -text [eye<br>hole] -scale l -align left
+point 18030.645161290322 3395.3225806451615 label -text [eye<br>hole] -scale m -align left
 
 line ceiling-step -reverse on
   10928.0 7944.0
@@ -1591,7 +1591,7 @@ line rock-border -close on
   19442.0 2317.0
 endline
 
-point 18048.887096774193 3206.7741935483873 label -text slot -scale l -align left
+point 18048.887096774193 3206.7741935483873 label -text slot -scale m -align left
 
 point 18236.983870967742 3200.2096774193546 label -text c1 -scale l -align right
 
@@ -1696,7 +1696,7 @@ line rock-border -close off
   18540.5 2313.0
 endline
 
-point 18883.40322580645 2162.6612903225805 label -text chert<br>floor -scale l -align bottom-left
+point 18883.40322580645 2162.6612903225805 label -text chert<br>floor -scale m -align bottom-left
 
 line label
   19211.0 2269.0
@@ -1889,6 +1889,8 @@ line rock-edge
   22123.0 -283.0 22169.0 -332.0 22169.0 -332.0
   smooth off
 endline
+
+point 22045.16129032258 -203.2258064516129 rope -scale m
 
 point 22003.22580645161 -332.258064516129 label -scale l -text P9 -align bottom
 

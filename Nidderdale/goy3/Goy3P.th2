@@ -154,7 +154,7 @@ endline
 line rock-border
 endline
 
-point 3080.3548387096776 1420.3548387096773 label -align left -text [dive line<br>anchor]  -scale l -visibility off
+point 3080.3548387096776 1420.3548387096773 label -align left -text [dive line<br>anchor]  -scale m -visibility off
 
 line rock-border -close on
   2731.0 2466.0
@@ -251,9 +251,9 @@ line rock-border -close on
   1349.0 4589.0 1331.0 4590.0 1312.0 4582.0
 endline
 
-point 1155.0 7698.0 label -text [stn 1<br>dive line<br>anchor] -align right  -scale l
+point 1155.0 7698.0 label -text [stn 1<br>dive line<br>anchor] -align right  -scale m
 
-point 3372.7741935483873 979.5806451612904 label -text [Sump 3] -align left  -scale xl -visibility off
+point 3372.7741935483873 979.5806451612904 label -text [Sump 3] -align left  -scale l -visibility off
 
 line rock-edge
   1835.0 3433.0

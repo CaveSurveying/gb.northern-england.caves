@@ -67,6 +67,7 @@ line wall
   50.74 -5.31 47.89 8.1 43.53 20.25
   40.27 29.33 28.85 36.6 21.0 42.5
   19.4 43.7 10.96 47.72 9.0 46.26
+  smooth off
 endline
 
 line ceiling-step -reverse on
@@ -163,6 +164,7 @@ line wall
   -143.3 257.5 -143.97 258.51 -144.64 259.53
   -145.3 260.54 -155.83 261.99 -156.5 263.0
   -159.01 266.82 -151.0 242.0 -148.0 239.5
+  smooth off
 endline
 
 area blocks
@@ -201,6 +203,7 @@ line wall
   -87.91 112.05 -87.47 106.79 -84.72 102.83
   -80.77 97.13 -67.01 78.08 -63.5 72.0
   -61.89 69.21 -67.57 72.59 -69.0 72.5
+  smooth off
 endline
 
 line border -id ScaffoldTraverswp-a12 -close on
@@ -348,7 +351,22 @@ line wall -subtype invisible
   -59.33 -65.57
 endline
 
-point 74.57 -0.33999999999999986 label -text Deep<br>Well -align right -scale xl
+line floor-step
+  -50.0 -58.0
+  -41.0 -51.0
+  -41.0 -51.0 -35.5 -46.0 -34.0 -44.0
+  -32.5 -42.0 -29.0 -38.5 -27.0 -36.5
+  -25.0 -34.5 -23.0 -30.5 -22.0 -29.0
+  -21.0 -27.5 -19.0 -23.5 -19.0 -23.5
+  smooth off
+  -19.0 -23.5 -18.5 -19.0 -18.5 -16.5
+  -18.5 -14.0 -17.92 -13.24 -18.21 -12.12
+  -18.5 -11.0 -18.0 -10.0 -18.5 -8.0
+  -19.0 -6.0 -20.5 -0.5 -20.5 -0.5
+  smooth off
+endline
+
+point 74.57 -0.33999999999999986 label -text Deep<br>Well -align right -scale l
 
 line section -id xx4 -direction both
   -257.15 126.16

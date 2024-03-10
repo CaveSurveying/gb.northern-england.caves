@@ -809,8 +809,6 @@ point 125.28 77.77 station -name "9"
 
 point 133.81 128.17 station -name "10"
 
-point 97.0 -50.5 mud
-
 point 29.25 -147.0 continuation -text [inlet, low] -scale m
 
 point 134.69 105.81 station -name 10A

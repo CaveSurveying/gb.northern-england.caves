@@ -111,7 +111,7 @@ line arrow
   1395.6521739130435 1606.5217391304348
 endline
 
-point 1137.913043478261 1416.608695652174 label -scale xl -text P14 -align bottom-left
+point 1137.913043478261 1416.608695652174 label -scale l -text P14 -align bottom-left
 
 line wall -close on -clip on
   1500.5 1162.5
@@ -238,7 +238,7 @@ line arrow
   1389.1304347826085 1960.8695652173913
 endline
 
-point 848.304347826087 1974.8695652173913 label -scale xl -text P11 -align left
+point 848.304347826087 1974.8695652173913 label -scale l -text P11 -align left
 
 line wall -close on -place bottom
   1308.0 1624.5
@@ -634,9 +634,9 @@ point 1737.51941485 8764.083594119998 station -name 1.17
 
 point 1483.3294148500001 7925.56359412 station -name 1.16
 
-point 1496.8695652173915 10146.434782608696 label -scale xl -align bottom-left -text [Main Inlet<br>Downstream Sump]
+point 1496.8695652173915 10146.434782608696 label -scale l -align bottom-left -text [Main Inlet<br>Downstream Sump]
 
-point 1343.0434782608695 7786.869565217391 label -text Main<br>Inlet -align bottom-left -scale xl
+point 1343.0434782608695 7786.869565217391 label -text Main<br>Inlet -align bottom-left -scale l
 
 line water-flow
   1575.0 7745.0
@@ -1126,7 +1126,7 @@ area pebbles
   l242--1476-1488
 endarea
 
-point -630.8260869565217 1338.9565217391305 label -align bottom -text duck -scale l
+point -630.8260869565217 1338.9565217391305 label -align bottom -text duck -scale m
 
 line label -close on
   -355.0 1719.0
@@ -1443,7 +1443,7 @@ area sump
   l79--5202-8368
 endarea
 
-point -5539.782608695652 8732.08695652174 label -scale xl -align top-left -text [Upstream<br>Sump 1] -visibility off
+point -5539.782608695652 8732.08695652174 label -scale l -align top-left -text [Upstream<br>Sump 1] -visibility off
 
 line rock-border -close on
   -5878.0 6226.0
@@ -2280,7 +2280,7 @@ endline
 
 point 2836.7826086956525 7931.304347826087 label -scale xl -align top-left -text [Dry Wath<br>Passage]
 
-point 3096.0 6719.0 label -align top-right -text handline<br>(c2) -scale m
+point 3096.0 6719.0 label -align top-right -text c2<br>(handline) -scale m
 
 line wall
   3048.25 6878.25
@@ -2467,7 +2467,7 @@ endline
 
 point 3755.0 8235.0 water-flow
 
-point 3713.086956521739 8233.695652173914 label -text drip -scale l -align bottom-left
+point 3713.086956521739 8233.695652173914 label -text drip -scale m -align bottom-left
 
 line label
   3763.0 8212.0
@@ -2964,7 +2964,7 @@ line rock-border -close on
   3486.0 9920.0 3461.0 9943.0 3474.0 9947.0
 endline
 
-point 2460.4161490683227 11504.98136645963 label -scale xl -text [Dry Wath<br>Bedding] -align top-right
+point 2460.4161490683227 11504.98136645963 label -scale l -text [Dry Wath<br>Bedding] -align top-right
 
 point 2915.0 11311.0 label -align top-left -text c2 -scale l
 
@@ -3128,7 +3128,7 @@ line wall
   smooth off
 endline
 
-point 2540.4720496894415 11017.7950310559 label -text [low bedding<br>connection<br>opened to<br>Frog Pot] -scale s -align bottom-right
+point 2540.4720496894415 11017.7950310559 label -text [connection<br>point] -scale s -align bottom-right
 
 line wall -subtype sand
   2018.0 11084.5
@@ -3209,7 +3209,7 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 4446.521739130435 9690.0 label -scale xl -align top -text [DRY WATH<br>(blocked)]
+point 4446.521739130435 9690.0 label -scale l -align top -text [DRY WATH<br>(blocked)]
 
 area clay
   l398-4054-9766
@@ -3460,7 +3460,7 @@ line wall
   smooth off
 endline
 
-point 1378.086956521739 12233.478260869566 label -scale xl -text Bedding<br>Chamber -align left
+point 1378.086956521739 12233.478260869566 label -scale l -text Bedding<br>Chamber -align left
 
 line wall -id l442-1577-12056 -reverse on
   1610.0 12027.5

@@ -59,7 +59,7 @@ line ceiling-step
   smooth off
 endline
 
-point 942.1875 6406.25 label -align top-right -text Silcock's<br>Pool -scale xl
+point 942.1875 6406.25 label -align top-right -text Silcock's<br>Pool -scale l
 
 line wall
   1006.73 6274.04
@@ -717,7 +717,7 @@ line border -id l185-2457--1439 -close on -subtype invisible
   2514.81 -1511.11 2503.7 -1468.52 2461.1111111111113 -1438.888888888889
 endline
 
-point 2519.4444444444443 -1249.2063492063492 label -align top-right -text [crawl to<br>New Stream<br>Sump]
+point 2519.4444444444443 -1249.2063492063492 label -align top-right -text [crawl to<br>New Stream<br>Sump] -scale m
 
 point 2370.3703703703704 -1527.7777777777776 gradient -orientation 172.5 -scale m
 
@@ -872,7 +872,7 @@ line wall
   1925.0000000000002 975.0000000000001
 endline
 
-point 686.3839285714286 3035.2678571428573 label -align left -text Worm<br>Drive -scale xl
+point 686.3839285714286 3035.2678571428573 label -align left -text Worm<br>Drive -scale l
 
 point 1679.6875 2562.5 dig
 
@@ -989,9 +989,9 @@ line wall
   970.1492537313434 3253.731343283582
 endline
 
-point 877.6785714285714 3768.75 label -text [20' Climb<br>(fixed handline)] -align right -scale xl
+point 877.6785714285714 3768.75 label -text [20' Climb<br>(fixed handline)] -align right -scale l
 
-point 806.25 3892.410714285714 label -text P6 -align top-right -scale xl
+point 806.25 3892.410714285714 label -text P6 -align top-right -scale l
 
 line floor-step
   1975.0000000000002 581.8181818181819
@@ -1054,7 +1054,7 @@ line wall
   smooth off
 endline
 
-point 1778.927203065134 2554.0229885057474 label -align top-right -text [Williams Dig<br>(re-started 2018)] -scale xl
+point 1778.927203065134 2554.0229885057474 label -align top-right -text [Williams Dig<br>(re-started 2018)] -scale m
 
 line wall
   2272.03 774.71
@@ -1276,7 +1276,7 @@ line wall
   smooth off
 endline
 
-point 229.01785714285717 3963.6160714285716 label -align left -text Carbide<br>Tin<br>Passage -scale xl
+point 229.01785714285717 3963.6160714285716 label -align left -text Carbide<br>Tin<br>Passage -scale l
 
 area pebbles
   l139-427-4305

@@ -187,6 +187,7 @@ endline
 line pit
   7177.0 5719.0
   7177.0 5719.0 7170.0 5757.0 7124.0 5739.0
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -212,11 +213,13 @@ endline
 line pit
   7935.0 5437.0
   7935.0 5437.0 7926.0 5473.0 7878.0 5458.0
+  smooth off
 endline
 
 line pit
   8275.0 5322.0
   8275.0 5322.0 8249.0 5357.0 8217.0 5339.0
+  smooth off
 endline
 
 line wall

@@ -727,7 +727,7 @@ point 3772.131147540984 4368.852459016393 gradient -orientation 162.6 -scale m
 
 point 3704.9180327868853 4352.459016393444 gradient -orientation 127.8 -visibility on -scale m
 
-point 3716.3934426229507 4475.409836065574 gradient -orientation 147.4
+point 3716.3934426229507 4475.409836065574 gradient -orientation 147.4 -scale m
 
 area clay
   l251-2977-7797
@@ -780,7 +780,7 @@ line border -id l251-2977-7797 -close on -subtype invisible
   3477.03 4377.03 2620.46 7732.13 2613.51 7705.41
 endline
 
-point 3657.3770491803284 4470.491803278689 gradient -orientation 168.1
+point 3657.3770491803284 4470.491803278689 gradient -orientation 168.1 -scale m
 
 point 3692.8852459016393 4300.491803278689 gradient -orientation 101.8 -scale m
 
@@ -798,11 +798,11 @@ point 3885.2459016393445 4185.245901639344 gradient -orientation 327.7 -visibili
 
 point 3936.065573770492 4254.098360655737 gradient -orientation 301.2 -scale m
 
-point 3637.704918032787 4852.459016393443 gradient -orientation 47.5
+point 3637.704918032787 4852.459016393443 gradient -orientation 47.5 -scale m
 
-point 3627.8688524590166 4908.196721311476 gradient -orientation 68.3
+point 3627.8688524590166 4908.196721311476 gradient -orientation 68.3 -scale m
 
-point 3700.546448087432 5046.857923497268 gradient -orientation 151.2
+point 3700.546448087432 5046.857923497268 gradient -orientation 151.2 -scale m
 
 line floor-step
   3570.4918032786886 4924.5901639344265
@@ -1205,7 +1205,7 @@ line arrow
   3475.0 4480.555555555556
 endline
 
-point 2406.944444444444 5188.888888888889 label -scale l -align bottom-left -text [link to<br>Upper<br>Nurgatory]
+point 2406.944444444444 5188.888888888889 label -scale m -align bottom-left -text [link to<br>Upper<br>Nurgatory]
 
 point 3205.5555555555557 4215.88888888889 label -scale xl -text Mud<br>Hall -align bottom-left
 
@@ -1351,9 +1351,9 @@ line ceiling-step
   smooth off
 endline
 
-point 3591.5311653116532 2548.3062330623306 label -align left -text [ZANNUSI POT<br>(sealed)] -scale xl
+point 3591.5311653116532 2548.3062330623306 label -align left -text [ZANNUSI POT<br>(sealed)] -scale l
 
-point 4235.840108401084 2037.771002710027 label -align bottom-left -text Limley<br>Bypass -scale xl
+point 4235.840108401084 2037.771002710027 label -align bottom-left -text Limley<br>Bypass -scale l
 
 point 3364.1937669376694 3328.6585365853657 label -align left -text LIMLEY<br>POT -scale xl
 

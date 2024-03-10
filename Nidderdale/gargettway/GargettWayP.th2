@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap GargettWaySP1 -projection plan -station-names "" "@GargettWay" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 412.0 11564.0 label -scale xl -align top-left -text [Ball of<br>String<br>Passage]
+point 412.0 11564.0 label -scale l -align top-left -text [Ball of<br>String<br>Passage]
 
-point 384.0 10912.0 label -scale xl -text Living<br>Room -align bottom-left
+point 384.0 10912.0 label -scale l -text Living<br>Room -align bottom-left
 
 point 1248.0 11332.0 label -scale xl -text Gargett<br>Way -align bottom-right
 
@@ -144,13 +144,13 @@ endscrap
 
 scrap GargettWaySP2 -projection plan -station-names "" "@GargettWay" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1108.0 10436.0 label -align right -scale l -text connection<br>point
+point 1108.0 10436.0 label -align right -scale m -text connection<br>point
 
-point 1168.0 8852.0 label -align bottom-left -text original<br>explorers<br>inscription -scale l
+point 1168.0 8852.0 label -align bottom-left -text original<br>explorers<br>inscription -scale m
 
-point 1944.0 8960.0 label -scale xl -text Turf<br>Pitch
+point 1944.0 8960.0 label -scale l -text Turf<br>Pitch
 
-point 1352.0 9900.0 label -scale xl -text Turf<br>Passage -align right
+point 1352.0 9900.0 label -scale l -text Turf<br>Passage -align right
 
 line wall
   2124.5 7995.0

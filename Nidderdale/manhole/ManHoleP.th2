@@ -392,9 +392,9 @@ endscrap
 
 scrap ManHoleSP2 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 2578.571428571429 5339.285714285715 danger -scale l
+point 2578.571428571429 5339.285714285715 danger -scale m
 
-point 2998.6024844720496 5285.403726708075 label -scale l -text [grovel, can<br>sump fast] -align right
+point 2998.6024844720496 5285.403726708075 label -scale m -text [grovel,<br>sumps fast] -align right
 
 line flowstone
   848.0 12934.0
@@ -578,7 +578,7 @@ endline
 
 point 3145.857142857143 4243.571428571428 label -text Fossil<br>Passage -scale xl -align right
 
-point 2196.1428571428573 4315.0 label -scale l -text dry<br>oxbow<br>(c2) -align left
+point 2196.1428571428573 4315.0 label -scale m -text dry<br>oxbow<br>(c2) -align left
 
 line label
   2632.0 2904.0
@@ -643,18 +643,18 @@ line border -id l433-988-12976 -visibility on -place bottom
   1196.0 13020.0
 endline
 
-point 1730.1242236024846 3172.0496894409935 label -text Swinton<br>Bypass -scale xl -align top-left
+point 1730.1242236024846 3172.0496894409935 label -text Swinton<br>Bypass -scale l -align top-left
 
-point 1001.3975155279503 1872.8260869565217 label -text [Sump 1] -scale xl -align bottom-right
+point 1001.3975155279503 1872.8260869565217 label -text [Sump 1] -scale l -align bottom-right
 
-point 2335.403726708074 2396.5838509316773 label -text [duck] -scale l -align bottom-left
+point 2335.403726708074 2396.5838509316773 label -text [duck] -scale m -align bottom-left
 
 line arrow
   3625.0 1889.2857142857144
   4117.86 -467.86
 endline
 
-point 3816.7701863354037 1942.5465838509315 label -text [static sump<br>link to Pillar Pot] -scale l -align right
+point 3816.7701863354037 1942.5465838509315 label -text [static sump<br>link to Pillar Pot] -scale m -align right
 
 point 3138.4285714285716 3142.5714285714284 label -scale l -align right -text c2
 
@@ -753,9 +753,9 @@ endline
 
 point 816.0 11216.0 gradient -orientation 119.1 -scale m
 
-point 688.0 12430.0 gradient -orientation 68.5
+point 688.0 12430.0 gradient -orientation 68.5 -scale m
 
-point 732.0 12344.0 gradient -orientation 42.8
+point 732.0 12344.0 gradient -orientation 42.8 -scale m
 
 point 768.0 12208.0 gradient -orientation 50.4 -scale m
 
@@ -1654,11 +1654,11 @@ line border -id l447-961-529 -close on
   857.1428571428572 642.8571428571429
 endline
 
-point 930.9006211180125 387.111801242236 label -text [Sump 2] -align bottom-right -scale xl
+point 930.9006211180125 387.111801242236 label -text [Sump 2] -align bottom-right -scale l
 
-point -308.695652173913 -3600.0 label -text [Lesser<br>Stream<br>Passage] -scale xl
+point -308.695652173913 -3600.0 label -text [Lesser<br>Stream<br>Passage] -scale l
 
-point -63.745341614906806 648.9192546583851 label -scale xl -align top-left -text Lesser<br>Stream<br>Pot
+point -63.745341614906806 648.9192546583851 label -scale l -align top-left -text Lesser<br>Stream<br>Pot
 
 line wall
   61.0 515.0
@@ -1929,9 +1929,9 @@ line water-flow
   smooth off
 endline
 
-point 4874.0 21192.714285714286 label -align top-left -text [water enters from<br>surface river] -scale l
+point 4874.0 21192.714285714286 label -align top-left -text [water enters from<br>surface river] -scale m
 
-point 3453.8571428571427 21066.85714285714 label -text [below depression<br>in dry riverbed] -align top-left -scale l
+point 3453.8571428571427 21066.85714285714 label -text [below depression<br>in dry riverbed] -align top-left -scale m
 
 line water-flow
   4332.0 19999.0
@@ -2086,9 +2086,9 @@ endline
 
 point 302.79503105590067 10630.900621118011 label -text Main<br>Chamber -align bottom-left -scale xl
 
-point 1704.8136645962732 15791.304347826086 label -scale l -text sandstone<br>floor -align bottom-right
+point 1704.8136645962732 15791.304347826086 label -scale m -text sandstone<br>floor -align bottom-right
 
-point 1645.4285714285716 16446.14285714286 label -scale l -align top-left -text flowstone<br>pendants
+point 1645.4285714285716 16446.14285714286 label -scale m -align top-left -text flowstone<br>pendants
 
 line label -id l261-5039-20757
   5022.0 20838.0
@@ -2734,7 +2734,7 @@ endline
 
 point 1032.142857142857 -4700.0 map-connection
 
-point 1339.0 -4639.0 label -align top-right -text [climb up to<br>Goyden<br>Main Chamber] -scale l
+point 1339.0 -4639.0 label -align top-right -text [climb up to Goyden<br>Main Chamber] -scale m
 
 line wall -subtype blocks -scale xl
   1573.0 -5352.0

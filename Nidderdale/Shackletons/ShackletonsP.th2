@@ -302,9 +302,9 @@ line rock-border -close on
   4373.770491803279 2911.475409836066
 endline
 
-point 3606.6666666666665 1493.3333333333335 label -text Shackleton<br>Way -scale xl
+point 2583.333333333333 1403.3333333333335 label -text Shackleton<br>Way -scale xl -align bottom-left
 
-point 4653.333333333334 2033.3333333333335 label -text Downstream<br>Sump -align bottom-right -scale xl
+point 4360.000000000001 2140.0 label -text Downstream<br>Sump -align top-left -scale l
 
 line border -id l52-4753-2826 -close on
   4824.691358024691 2687.654320987654
@@ -537,9 +537,9 @@ line gradient
   smooth off
 endline
 
-point 2553.3333333333335 3653.3333333333335 label -text [choke,<br>take care] -scale l
+point 2553.3333333333335 3653.3333333333335 label -text [choke,<br>take care] -scale m
 
-point 1716.6666666666665 3550.0 label -align bottom-left -text [Lister Hall<br>Inlet] -scale xl
+point 1716.6666666666665 3550.0 label -align bottom-left -text [Lister Hall<br>Inlet] -scale l
 
 point 1763.3333333333335 4050.0 label -align top-left -scale s -text Lister<br>Hall -scale xl
 
@@ -712,6 +712,8 @@ line wall -subtype underlying
   2130.56 4171.3 2136.9747899159665 4153.781512605042 2136.9747899159665 4153.781512605042
   smooth off
 endline
+
+point 493.33333333333337 5523.333333333334 dig -scale m
 
 line wall
   560.1851851851852 5441.666666666667

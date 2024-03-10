@@ -89,9 +89,9 @@ area water
   l21-512-2202
 endarea
 
-point 791.8032786885245 234.42622950819674 label -text [water<br>level<br>-500mm] -scale l
+point 791.8032786885245 234.42622950819674 label -text [water<br>level<br>-500mm] -scale m
 
-point 704.9180327868853 365.57377049180326 label -text [end station<br>is dive line<br>anchor] -scale l -align top-left -visibility off
+point 704.9180327868853 365.57377049180326 label -text [end station<br>is dive line<br>anchor] -align top-left -visibility off -scale m
 
 line border -id l21-512-2202 -close off
   510.0 2048.0

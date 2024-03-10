@@ -198,7 +198,7 @@ area water
   PyradinePlanp-a2
 endarea
 
-point -227.46 -261.07 label -align right -scale xl -text A-Junction
+point -227.46 -261.07 label -align right -text A-Junction -scale l
 
 line wall
   -256.14 -216.98
@@ -327,7 +327,9 @@ area water
   PyradinePlanp-a6
 endarea
 
-point -511.35 -137.2 label -text Tadpole<br>Passage -scale xl -align top-right
+point -335.5 -66.0 label -scale xl -align center -text Pyridine<br>Passage
+
+point -507.85 -144.7 label -text Tadpole<br>Passage -align top-right -scale l
 
 line wall
   -544.87 -100.3

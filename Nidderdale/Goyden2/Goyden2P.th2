@@ -21,9 +21,9 @@ line ceiling-step -reverse on
   698.0 1514.0
 endline
 
-point 638.0 1371.8181818181818 label -scale xl -text [Sump 2] -align bottom-left
+point 638.0 1371.8181818181818 label -text [Sump 2] -align bottom-left -scale l
 
-point 3450.0 6530.0 label -scale xl -align bottom-right -text [Downstream<br>Sump 1]
+point 3450.0 6530.0 label -align bottom-right -text [Downstream<br>Sump 1] -scale l
 
 area water
   l74-2985-6571
@@ -64,7 +64,7 @@ line border -id l76-544-4747 -close on
   smooth off
 endline
 
-point 3218.181818181818 6070.909090909091 label -text [to October<br>Passage] -scale l -align right
+point 3218.181818181818 6070.909090909091 label -text [to October<br>Passage] -align right -scale m
 
 line wall -subtype unsurveyed
   3154.5454545454545 6080.0
@@ -240,6 +240,7 @@ line wall
   3250.0 6740.0 3253.11 6806.78 3251.11 6817.78
   3249.11 6828.78 3219.0 6884.0 3205.0 6895.0
   3191.0 6906.0 3185.0 6900.0 3167.0 6921.0
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -409,7 +410,7 @@ line ceiling-step
   smooth off
 endline
 
-point 1254.5454545454545 1972.7272727272727 label -text deep<br>water -align right -scale l
+point 1254.5454545454545 1972.7272727272727 label -text deep<br>water -align right -scale m
 
 point 1061.8181818181818 2294.5454545454545 water-flow -orientation 172.4
 
@@ -762,7 +763,7 @@ line wall
   smooth off
 endline
 
-point 521.8181818181818 5656.363636363636 label -align left -scale xl -text [Cristian's<br>Little Sump]
+point 521.8181818181818 5656.363636363636 label -align left -text [Cristian's<br>Little Sump] -scale l
 
 area sump
   l67-875-5893
