@@ -36,6 +36,7 @@ input goyden/Pyradine/pyradine.th
 input OQP/OQP.th
 input PigskinPot/PigskinPot.th
 input SurfaceOQP/SurfaceOQP.th
+input SurfaceOverlays/Overlays.th
 #input LimleyLeadMine/LimleyLeadMine.th
 
 
@@ -70,10 +71,12 @@ join MudHallSP4 pyradine-ScaffoldTraverswp@pyradine
 ####################################################
 
 
-map surfacePlan
+map surfacePlan  
   Surface2Plan
   surface1Plan
   #m1p@SurfaceOQP #need latest GPS from Nick, but does not really work as surface overlay
+  break
+  m1p@Overlays
 endmap
 
 map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
@@ -215,6 +218,9 @@ equate 0@pyradine 1.39@Labyrinth.LabyrinthIndex
 #equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
 equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
 #equate 1.36@GoydenDownstreamSumps 1.9@goy3
+
+equate 1.10@CarterPassage S1@Overlays
+equate 10@NewGoydenDownstreamSumps S2@Overlays
 
 
 endcenterline

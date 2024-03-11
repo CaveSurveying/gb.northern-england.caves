@@ -17,6 +17,7 @@ select nidderdalePlan@nidderdale -colour [97 86 38]
 export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
 export map -proj plan -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -o Output/NidderdaleOutput/Nidderdale.kml
+export map -projection plan -output nidderdale.xvi
 
 #(recommend comment out select SurfacePlan call above before generating the below)
 #export map -proj plan -o Output/NidderdaleOutput/GoydenSystemNoSurface.kml 
@@ -63,6 +64,7 @@ text en "line section" ""
 text en "line slope" ""
 text en "line chimney" ""
 text en "line u:user" ""
+text en "point u:mappe" ""
 text en "point blocks" ""
 text en "point mud" ""
 text en "point pebbles" ""
@@ -71,3 +73,4 @@ text en "point low-end"          ""
 text en "point narrow-end"       ""
 text en "area flowstone" ""
 text en "area clay" "mud" #used clay area fill to represent mud, amended legend
+text en "line u:hydro" "Presumed connection"

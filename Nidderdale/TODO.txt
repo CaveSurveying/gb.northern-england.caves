@@ -40,8 +40,20 @@ CHANGES
 * Removde mud points (approx, 3 areas only)
 * 25m aven UP is using ceiling step down (as if looking from the top).  Reversed
 * Made MUD SUMP a sump? (it's bailable, but decision to show as sump)
+* there is a cross-section (line) visible somewhere (as shows in legend).. Need to find it and hide.  Didn't find it, so hidden all cross-sections.
 * add sump length and depth - Sump Index only has lengths
 * completed Caravan Trail Details
+* added PublishSections.thconfig and new maps in nidderdale.th. 
+	* These are for Chris' publication requirements (x3 sections).  Sections 1 and 2 'ready' but need review and the missing bits confirmed / surveyed!
+* created new line l_u_hydro for showing proposed connections on an overlay (use with line u and options -subtype hydro)
+	* added an overlay - warning this generates "equate used to define new station" warning (can be ignored).  There is probably a better way to do this....
+		* added proposed links (via on/off overlay)
+			- eastern trunk route (Crater to Sump 8)
+			- Bridge Hall to Guscott
+			- October to Guscott
+			- Guscott to North
+			- Beet route to Frog
+
 
 
 TODO
@@ -49,29 +61,28 @@ TODO
 * topodroid has some 'clunky' naming ways... hyphens over camelcase, plan-scrapp etc.  Need to discuss or live with it
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
+* Add Entrance symbol (plus redefine symbol)
+* Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
 * Move folders under respective Main Cave?  such as PLanHard under NewGoyden (make generation Chris' sections easier?  would have to update hierarchy links in th)
 * fix Goyden 3 Sumps, alignment and include streamway detals  -- DIFFICULT.  FIX TO AQUAMOLE AND CREATE SEPERATE SKETCHES OF UPS and DWNS
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Point size consistency
 * Change the line water symbols to point (L)
 * Missing water flow points in various places
-* highlight gaps (Guscott pot gap to Bridge Hall, Guscott pot to North choke, October passage to Bridge Hall)
-* highlight Dry Wath link/Aquamole series and Frog pot/Hardy Pools and Dry Wath series near link/ Thrope pot and mine levels. How Gill pot
-* highlight Old Quarry pot, Pigskin, surface features, Planetarium, Astronomers passage, 25m aven and Dye Hard inlet
-* highlight Goyden system and possible eastern trunk route
+	* i.e water flow from Manchester to Goyden?
 * Add in Possible Continuations points with options, this quite good for leads / jobs list (Chris to provide list of ?)
 		-text "tight wet inlet series" -attr who "Phil Walker" -attr what rift -attr priority Low -attr ref elevation #-explored 0m
 * BSD logo (into XTherionFiles) - Chris to provide
 * Sumps are missing sump area – review - Phil ongoing review
 * Review ceiling vs floor steps, confirmed some are wron way round (i.e. step down nr Hardy Pools)
 * Dotted line from static sump to pillar pot? - presumed lines preferred but need extra pillar pot survey
-* Water flow from Manchester to Goyden
 * First duck and then climbs in roof in Clay Tunnel
 * Pitches - set outline-in to 'view' into passage below
-* there is a cross-section (line) visible somewhere (as shows in legend).. Need to find it and hide
-* Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication
+* Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * Digitise Hardy Pools Sump extension
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
+* There is something wrong with the stations / warp at the very end of Beetroot Sump
+* Need to add Grade 3 label for the sumps 
 * Fix Joins
 	- Beetroot - Beetroot canal
 	- Stream - Planetarium
@@ -81,9 +92,7 @@ MISSING SURVEYS
 ---------------
 * Upper and lower nurgatory to Main Stream
 * October Passage
-* Pyradine - A junction - DONE
 * Labryinth - New Stream Passage
-* extension beyond Hardy Pools sump - DRAWING TO DIGITISE
 * Limley inlet/survey Back Steps (and offset produce)
 * Limley Pot?
 * Carols back passage/re-survey main chamber
@@ -94,16 +103,20 @@ MISSING SURVEYS
 * Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole
 * Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel.
 * Survey October passage/ Add in survey of sumps 2-4 incl Bridge Hall
-* Caravan Trail (CDG 112)
-* Equinox Chamber (between sumps 3 and 4 new goyden
-* Beyond Sump 8, 9 (New Goyden)
 * High Rift – Beet Route?
+
+* Pyradine - A junction - DONE
+* extension beyond Hardy Pools sump - DRAWING TO DIGITISE
+* Caravan Trail (CDG 112) - ROUGH DIGITISE DONE
+* Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDES
 
 OTHER
 -----
 * Canal Cave area survey - To highlight Canal cave, river truncating Lofthouse Foss caves 1&2 canal cave and lower canal cave, Perrier pot and another, Lofthouse pot and sink far side of river. Highlight possible link Lofthouse pot to Low Eglin’s. Add to Canal cave Survey rest of pots and surface river, Fire station and cricket ground
 * Eglin’s System survey - To highlight Eglin system, Use pdf of the system available
 * Tom Taylor’s and gaps - To highlight gaps between Tom Taylor’s and Low Eglin’s/Tom Taylor’s and Eglin’s Hole, Use pdf of the system available
+* highlight Dry Wath link/Aquamole series and Frog pot/Hardy Pools and Dry Wath series near link/ Thrope pot and mine levels. How Gill pot
+* highlight Old Quarry pot, Pigskin, surface features, Planetarium, Astronomers passage, 25m aven and Dye Hard inlet
 
 THERION DRAWING STDS RECOMMENDATIONS
 ------------------------------------

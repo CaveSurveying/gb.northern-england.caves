@@ -649,12 +649,7 @@ point 1001.3975155279503 1872.8260869565217 label -text [Sump 1] -scale l -align
 
 point 2335.403726708074 2396.5838509316773 label -text [duck] -scale m -align bottom-left
 
-line arrow
-  3625.0 1889.2857142857144
-  4117.86 -467.86
-endline
-
-point 3816.7701863354037 1942.5465838509315 label -text [static sump<br>link to Pillar Pot] -scale m -align right
+point 3702.4844720496894 2049.6894409937886 label -scale m -align right -text static<br>sump
 
 point 3138.4285714285716 3142.5714285714284 label -scale l -align right -text c2
 

@@ -1,0 +1,50 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 12746.085 38021.625
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {3740.16 1 1.0} {28976.340000000004 1.0@Goyden.nidderdale} nidderdale.xvi 0 {}
+
+
+
+scrap PresumedConnectionsPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 9504.0 18636.0 u -subtype mappe -attr bordersmooth 0 -attr text "Eastern trunk route?" -scale l -visibility off -align bottom-left
+
+point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [Eastern trunk route?<br><it>(Carter Passage to Sump 8)]
+
+line u -subtype hydro
+  4176.0 25212.0
+  4652.0 22680.0
+endline
+
+line u -subtype hydro
+  7148.0 20820.0
+  7400.0 20532.0
+endline
+
+line u -subtype hydro
+  5804.0 22080.0
+  4712.0 22648.0
+endline
+
+line u -subtype hydro
+  6296.0 21296.0
+  6313.58 20770.83
+endline
+
+line u -subtype hydro
+  4720.0 29760.0
+  4928.0 29208.0
+endline
+
+line u -subtype hydro
+  8964.0 24936.0
+  8964.0 24936.0 10632.0 10684.0 9692.0 4724.0
+endline
+
+point 8908.86 25014.920000000002 station -name S1
+
+point 8874.02 12876.34 station -name S2
+
+endscrap
+
+

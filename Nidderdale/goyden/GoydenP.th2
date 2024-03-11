@@ -8,7 +8,7 @@ encoding  utf-8
 
 scrap GoydenSP1 -projection plan -station-names "" "@Goyden" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 3383.125 1585.125 label -text [Upstream<br>Sump 1] -align bottom-right -scale l
+point 3383.125 1585.125 label -text [Upstream<br>Sump 1] -align bottom-right -scale l -visibility off
 
 area sump
   l151-2482-3022
@@ -539,6 +539,7 @@ line wall
   2936.0 2516.0 2974.0 2414.0 2980.0 2354.0
   2986.0 2294.0 3036.0 2208.0 3034.0 2186.0
   3032.0 2164.0 2809.38 2015.63 2846.88 1615.63
+  smooth off
 endline
 
 line wall -subtype presumed

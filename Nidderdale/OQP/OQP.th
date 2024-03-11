@@ -3,22 +3,22 @@ encoding  utf-8
 
 survey OQP -title "Old Quarry Pot,<br><it>Nidderdale"
 
-   input "OQP-OQPp.th2"
+input "OQP-OQPp.th2"
    
-   input "OQP-jigsawp.th2"
-   input "OQP-jigsaws.th2"
+input "OQP-jigsawp.th2"
+input "OQP-jigsaws.th2"
 
-   map m1p -projection plan
-     OQP-OQPp
-     break
-    OQP-jigsawp
-   endmap
+map m1p -projection plan
+  OQP-OQPp
+   break
+  OQP-jigsawp
+endmap
    
-   map m1s -projection extended
-   
+map m1s -projection extended
   OQP-jigsaws
-   endmap   
-   revise    OQP-jigsaws  -flip horizontal
+endmap  
+    
+revise    OQP-jigsaws  -flip horizontal
    
 
 
@@ -26,7 +26,8 @@ survey OQP -title "Old Quarry Pot,<br><it>Nidderdale"
   
     cs UTM30
     station 0 "Old Quarry Pot" entrance
-    fix 0 0575362 6003602 206   ##Phil Walker Garmin Instinct 2 (2024)
+    #fix 0 0575362 6003602 206   ##Phil Walker Garmin Instinct 2 (2024)
+    fix 0 0575361 6003609 209 ##Phil Walker Garmin etrex touch 25 (2024)
     
     date 2024.02.24 
     team "Phil Walker"

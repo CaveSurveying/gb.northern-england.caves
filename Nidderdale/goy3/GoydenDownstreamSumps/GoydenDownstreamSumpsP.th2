@@ -166,21 +166,23 @@ line border -id l38-261--80 -close on
   262.25 -93.5
 endline
 
-point 262.5 -62.0 label -scale xl -align top-right -text Bridge<br>Hall
+point 263.5 -80.0 label -scale xl -text Bridge<br>Hall -align right
 
-point 206.25 -50.75 label -scale xl -text [Sump 3] -align top-right
+point 206.25 -50.75 label -scale l -text [Sump 3<br><it>(Length 27m)] -align top-right
 
-point 253.5 -110.75 label -scale xl -align bottom-left -text [Sump 4]
+point 253.5 -110.75 label -scale l -align bottom-left -text [Sump 4<br><it>(Length 2m)]
 
-point 275.5 -202.0 label -scale xl -align left -text [Sump 5]
+point 275.5 -202.0 label -scale l -align left -text [Sump 5<br><it>(Length 57m)]
 
-point 330.25 -289.25 label -scale xl -text [Sump 6] -visibility off -align right
+point 330.25 -289.25 label -scale l -text [Sump 6<br><it>(Length 12m)] -align right
 
-point 335.75 -340.5 label -scale xl -text [Sump 7] -visibility off -align right
+point 335.75 -340.5 label -scale l -text [Sump 7<br><it>(Length 8m)]  -align right
 
-point 319.25 -412.0 label -align right -scale xl -text [Sump 2]
+point 303.25 -358.25 label -align left -scale l -text Alf's<br>Airbell
 
-point 254.75 -640.0 label -text [Sump 1] -scale xl -align left
+point 319.5 -411.5 label -align right -scale l -text [Sump 2<br><it>(Length 30m)]
+
+point 254.75 -640.0 label -text [Sump 1<br><it>(Length 76m)] -scale l -align left
 
 area sump
   l19-316--586

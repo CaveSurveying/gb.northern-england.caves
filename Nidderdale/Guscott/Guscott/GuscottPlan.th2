@@ -228,7 +228,7 @@ line rock-edge -close on -reverse on
   685.25 2956.25 631.75 3002.0 632.5 3007.75
 endline
 
-point 592.5 3097.5 label -align top-left -text GUSCOTT<br>POT -scale xl
+point 621.25 2893.75 label -text GUSCOTT<br>POT -scale xl -align bottom-left
 
 line ceiling-step -scale s
   810.0 2936.5

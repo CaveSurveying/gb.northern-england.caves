@@ -226,21 +226,21 @@ point 634.0 3292.0 label -align right -scale m -text airbell
 
 point 832.0 436.0 label -align right -scale m -text airbell
 
-point 1002.0 47.0 label -scale l -align left -text [Sump 8<it>(Length 120m)]
+point 1002.0 47.0 label -scale l -align left -text [Sump 8<br><it>(Length 120m)]
 
-point 458.0 314.0 label -scale l -align bottom-left -text [Sump 7<it>Length 110m)]
+point 458.0 314.0 label -scale l -align bottom-left -text [Sump 7<br><it>Length 110m)]
 
-point 694.0 1201.0 label -align right -scale l -text [Sump 6<it>(Length 9m)]
+point 694.0 1201.0 label -align right -scale l -text [Sump 6<br><it>(Length 9m)]
 
-point 902.0 1725.0 label -align right -scale l -text [Sump 5<it>Length 24m)]
+point 902.0 1725.0 label -align right -scale l -text [Sump 5<br><it>Length 24m)]
 
-point 903.0 2073.0 label -align right -scale l -text [Sump 4<it>Length 55m)]
+point 903.0 2073.0 label -align right -scale l -text [Sump 4<br><it>Length 55m)]
 
-point 888.0 2364.0 label -align right -scale l -text [Sump 3<it>Length 24m)]
+point 888.0 2364.0 label -align right -scale l -text [Sump 3<br><it>Length 24m)]
 
-point 588.0 3067.0 label -align right -scale l -text [Sump 2<it>Length 64m)]
+point 588.0 3067.0 label -align right -scale l -text [Sump 2<br><it>Length 64m)]
 
-point 602.0 3434.0 label -text [Sump 1<it>Length 36m)] -align right -scale l
+point 602.0 3434.0 label -text [Sump 1<br><it>Length 36m)] -align right -scale l
 
 point 956.0 2293.0 label -scale l -text Equinox<br>Chamber -align right
 

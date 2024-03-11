@@ -1,0 +1,27 @@
+encoding  utf-8
+survey Overlays -title "Overlays"
+
+input PresumedConnectionsPlan.th2
+
+map m1p -title "Overlays"
+  PresumedConnectionsPlan
+endmap
+
+
+centerline
+  
+    
+    date 2024.03.11 
+   # team "Phil Walker"
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+
+   # S1 S2 0 0 0
+    
+  endcenterline
+
+endsurvey
+
