@@ -37,6 +37,7 @@ symbol-hide group sections
 
 map-header 50 99 nw
 map-image 70 96 nw XTherionFiles\by-nc-sa.png
+map-image 80 96 nw XTherionFiles\BSDLogo.png
 base-scale 1 300
 scale 1 1000
 #debug on
