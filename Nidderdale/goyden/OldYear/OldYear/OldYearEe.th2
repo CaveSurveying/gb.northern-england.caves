@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -154.19 -58.34 925.14 350.05
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {77.0950642766 1 1.0} {67.977623819 1.1} PocketTopo/OldYear_e.xvi 0 {}
+
+
+scrap OldYearSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap OldYearSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap OldYearSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

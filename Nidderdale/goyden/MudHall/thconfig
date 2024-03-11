@@ -1,0 +1,43 @@
+encoding  utf-8
+source MudHall.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#select MudHallPlan
+
+
+export map -proj plan -layout local -o ../output/MudHallOutput/MudHall.pdf
+#export map -o ../output/MudHallOutput/MudHall.kml
+#export model -fmt survex -o ../output/MudHallOutput/MudHall.3d
+#export model  -o ../output/MudHallOutput/MudHall.lox
+#export map -proj plan -o ../output/MudHallOutput/MudHall_Walls.3d
+#Survex file showing walls only
+
+####################layout###################
+#############################################
+
+layout local
+base-scale 1 100
+scale 1 500
+symbol-set BCRA
+map-header 50 90 nw
+#debug station-names
+#debug on
+#colour map-fg altitude
+#colour map-fg scrap
+#symbol-colour area water [25 50 100]
+
+#transparency on
+grid top
+map-header 50 90 nw
+#symbol-hide group cave-centreline
+#endlayout
+
+##code to put border around map##
+#--------------------------------
+#code tex-map
+     #\framethickness=0.5mm
+endlayout
