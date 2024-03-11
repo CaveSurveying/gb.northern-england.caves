@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap pyradine-PyradinePlans -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
+scrap PyridineElevation -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
 
 line wall
   249.08 -117.11

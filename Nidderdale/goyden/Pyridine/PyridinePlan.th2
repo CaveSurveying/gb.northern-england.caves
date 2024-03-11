@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap pyradine-PyradinePlanp -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+scrap PyridinePlan -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
 
 line wall
   48.59 -121.6

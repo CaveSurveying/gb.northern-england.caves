@@ -1,29 +1,29 @@
 encoding  utf-8
 # 2024.03.09 created by TopoDroid v 6.2.32
 
-survey pyradine -title "Pyridine Passage<br><it>Goyden Pot, Nidderdale"
+survey Pyridine -title "Pyridine Passage<br><it>Goyden Pot, Nidderdale"
 
-   input "pyradine-PyradinePlanp.th2"
-   input "pyradine-PyradinePlans.th2"
-   input "pyradine-ScaffoldTraverswp.th2"
-   input "pyradine-ScaffoldTraversws.th2"
+   input "PyridinePlan.th2"
+   input "PyridineElevation.th2"
+   input "ScaffoldTraversePlan.th2"
+   input "ScaffoldTraverseElevation.th2"
  
    ##CROSS SECTIONS  
-   input "CrossSections/pyradine-xx1.th2"
-   input "CrossSections/pyradine-xx0.th2"
-   input "CrossSections/pyradine-xx4.th2"
-   input "CrossSections/pyradine-xx5.th2"
+   input "CrossSections/Pyridine-xx1.th2"
+   input "CrossSections/Pyridine-xx0.th2"
+   input "CrossSections/Pyridine-xx4.th2"
+   input "CrossSections/Pyridine-xx5.th2"
 
 
    map m1p -projection plan
-  pyradine-ScaffoldTraverswp
+  ScaffoldTraversePlan
   break   
-  pyradine-PyradinePlanp
+  PyridinePlan
    endmap
   
   # map m1s -projection extended
- # pyradine-ScaffoldTraversws#   
- # pyradine-PyradinePlans
+ # ScaffoldTravereElevation  
+ # PyridineElevation
   # endmap
  
 

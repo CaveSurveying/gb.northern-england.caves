@@ -1,8 +1,8 @@
 ; 2024.03.09 created by TopoDroid v 6.2.32
-; pyradine
+; pyridine
 ; Instrument: DistoX2 4202 - SM-N910F
 
-*begin pyradine 
+*begin Pyridine 
   *date 2024.03.09 
   *team "phil walker Howard jones" 
   *units tape meters
@@ -326,4 +326,4 @@
 38  2.00 6.16 6.61 2.95
 39  0.00 0.00 0.00 0.00
 
-*end pyradine
+*end Pyridine
