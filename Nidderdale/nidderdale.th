@@ -65,8 +65,15 @@ join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
 join LabyrinthSP1@LabyrinthIndex pyradine-PyradinePlanp@pyradine
 join MudHallSP4 pyradine-ScaffoldTraverswp@pyradine
 
-#join NewGoydenSP5 GoydenDownstreamSumpsP@GoydenDownstreamSumps
+
 #join PlanHardSP2  NewGoydenSP4
+
+##JOINING DIGITISED NEWGOYDENSUMPS.  NOTE: THE SUMP SURVEY IS 3B AT BEST
+##I'VE HAD TO DRASTICALLY ALTER IT TO FIT WITH THE KNOWN CAVE.  SOME FORM OF DIVE ERROR
+##THAT GETS PROGRESSIVELY WORSE DOWNSTREAM
+
+join GoydenDownstreamSumpsP@GoydenDownstreamSumps goy3SP1
+join GoydenDownstreamSumpsP@GoydenDownstreamSumps AquamoleSP6
 
 ####################################################
 

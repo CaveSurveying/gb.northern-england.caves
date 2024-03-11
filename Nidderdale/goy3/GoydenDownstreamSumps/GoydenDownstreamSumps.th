@@ -6,11 +6,12 @@ survey GoydenDownstreamSumps -title "Goyden Sumps<br><it>Nidderdale"
 
    map m1p -projection plan
      GoydenDownstreamSumpsP
+     GoydenDownstreamSumpsP2
    endmap
    
 
   centerline
-    date 2024.02.25
+    date 2024.02.25 #date of digitise
    # team "Phil Walker" #digitised 2024
     team "Julian Griffiths"
     team "Rob Shackleton"

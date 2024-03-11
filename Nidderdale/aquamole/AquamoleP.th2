@@ -546,20 +546,6 @@ area clay
   l130-3784-8424
 endarea
 
-point 2107.5555555555557 11316.888888888889 label -text [Sump 6] -align right  -scale xl -visibility off
-
-point 1968.888888888889 10540.0 water-flow -orientation 165.4
-
-point 1733.3333333333335 10588.888888888889 water-flow -orientation 144.2
-
-point 1644.4444444444446 10957.777777777777 water-flow -orientation 181.7
-
-point 1895.5555555555557 11100.0 water-flow -orientation 181.7
-
-point 1719.111111111111 11289.555555555555 water-flow -orientation 181.7
-
-point 2217.777777777778 10282.888888888889 label -text [Sump 7] -align right  -scale xl -visibility off
-
 point 3222.8888888888887 8929.111111111111 label -align top-right -text Toad<br>Hall  -scale xl
 
 line label -id l130-3784-8424 -close on
@@ -682,6 +668,16 @@ endscrap
 
 
 scrap AquamoleSP6 -projection plan -station-names "" "@Aquamole" -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 2107.5555555555557 11316.888888888889 label -text [Sump 6] -align right  -scale xl -visibility off
+
+point 1840.0000000000002 10617.777777777777 water-flow -orientation 144.2
+
+point 1762.2222222222224 10884.444444444443 water-flow -orientation 181.7
+
+point 2217.777777777778 10282.888888888889 label -text [Sump 7] -align right  -scale xl -visibility off
+
+point 1797.777777777778 11182.222222222223 water-flow -orientation 181.7
 
 line pit
 endline
