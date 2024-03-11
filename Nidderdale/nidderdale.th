@@ -1,7 +1,13 @@
 encoding  utf-8
 survey nidderdale -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom" ###### Use standard deviation 0.02 0.02 .01 on all fixes
 
+
 input goyden/Goyden.th
+input goyden/CapLeftTunnel/CapLeftTunnel.th
+input goyden/mudHall/MudHall.th
+input goyden/carterPassage/CarterPassage.th
+
+
 input manhole/ManHole.th
 input pillarPot/PillarPot.th
 input FrogPot/FrogPotIndex.th
@@ -11,8 +17,7 @@ input churchPot/ChurchPot.th
 input gargettWay/GargettWay.th
 input goyden2/Goyden2.th
 input labyrinth/LabyrinthIndex.th
-input mudHall/MudHall.th
-input carterPassage/CarterPassage.th
+
 input thropePot/ThropePot.th
 input newGoyden/NewGoyden.th
 input shackletons/Shackletons.th
@@ -22,14 +27,14 @@ input surface2/Surface2.th
 input QuarrySurface/QuarrySurface.th
 input goy3/Goy3.th
 input NorthChoke/NorthChokeIndex.th
-input CapLeftTunnel/CapLeftTunnel.th
+
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
 #input TomTaylors/TomTaylors.th
 
 input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
 input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
-input goyden/Pyradine/pyradine.th
+input goyden/Pyridine/Pyridine.th
 
 
 input OQP/OQP.th
@@ -61,8 +66,8 @@ join CapLeftTunnelSP2 PillarPotSP2
 join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
 join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
 
-join LabyrinthSP1@LabyrinthIndex pyradine-PyradinePlanp@pyradine
-join MudHallSP4 pyradine-ScaffoldTraverswp@pyradine
+join LabyrinthSP1@LabyrinthIndex PyridinePlan@Pyridine
+join MudHallSP4 ScaffoldTraversePlan@Pyridine
 
 
 #join PlanHardSP2  NewGoydenSP4
@@ -99,7 +104,7 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   manholePlan
   EternalOptomist-offset [-50 0 m] below
-  m1p@pyradine
+  m1p@Pyridine
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
   goyden2Plan
@@ -142,7 +147,7 @@ endmap
 ################################
 
 map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
-churchPotPlan
+  churchPotPlan
   gargettwayPlan
   MudHallPlan
   PillarPotPlan
@@ -152,7 +157,7 @@ churchPotPlan
   manholePlan
   EternalOptomist-offset [-50 0 m] below  
   LabyrinthSection1@LabyrinthIndex
-  m1p@pyradine
+  m1p@Pyridine
   CarterPassagePlan
   #goyden2Plan
   #goy3Plan
@@ -186,7 +191,7 @@ endmap
 
 centerline
 equate 1.41@Labyrinth.LabyrinthIndex 1.0@CapLeftTunnel
-equate 1.10@AJunction.LabyrinthIndex 11@pyradine
+equate 1.10@AJunction.LabyrinthIndex 11@Pyridine
 equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot
@@ -219,7 +224,7 @@ equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
 equate 1.59@NewGoydenDownstreamSumps 1.59@PlanHard
 equate 1@SurfaceOQP 0@OQP
 
-equate 0@pyradine 1.39@Labyrinth.LabyrinthIndex
+equate 0@Pyridine 1.39@Labyrinth.LabyrinthIndex
 
 ##PW IN PROGRESS - AS GoyDownSump are digitised need to fudge some data to prevent warp.
 #equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
