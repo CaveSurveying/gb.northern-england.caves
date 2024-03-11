@@ -187,6 +187,7 @@ endmap
 
 centerline
 equate 1.41@Labyrinth.LabyrinthIndex 1.0@CapLeftTunnel
+equate 1.10@AJunction.LabyrinthIndex 11@pyradine
 equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 1.12@Goyden 7.36@ManHole 
 equate 1.16@Goyden 1.21@ChurchPot

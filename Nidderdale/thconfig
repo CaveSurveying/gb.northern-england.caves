@@ -15,9 +15,9 @@ select nidderdalePlan@nidderdale -colour [97 86 38]
 ## If none selected individually all are exported to finished map##
 
 export map -proj plan -layout local -o Output/NidderdaleOutput/nidderdale.pdf
-export map -proj plan -o Output/NidderdaleOutput/Nidderdale.kml
+#export map -proj plan -o Output/NidderdaleOutput/Nidderdale.kml
 #export model -o Output/NidderdaleOutput/Nidderdale.kml
-export map -projection plan -output nidderdale.xvi
+#export map -projection plan -output nidderdale.xvi
 
 #(recommend comment out select SurfacePlan call above before generating the below)
 #export map -proj plan -o Output/NidderdaleOutput/GoydenSystemNoSurface.kml 

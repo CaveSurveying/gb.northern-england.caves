@@ -10,26 +10,12 @@ source LabyrinthIndex.th
 select LabyrinthIndex
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export map -proj plan -layout local -o ../output/LabyrinthOutput/LabyrinthIndexPlan.pdf
-#export map -proj extended -layout local -o ../Output/LabyrinthOutput/LabyrinthWestSideTrunkIndexEe.pdf
-#export map -o ../Output/LabyrinthOutput/Labyrinthindex.kml
-export model -fmt survex -o ../Output/LabyrinthOutput/LabyrinthIndex.3d
-#export model  -o ../Output/LabyrinthOutput/LabyrinthIndex.lox
-#export map -proj plan -o ../Output/LabyrinthOutput/LabyrinthIndex_Walls.3d
+export map -proj plan -layout local -o Output/LabyrinthIndexPlan.pdf
+#export map -proj extended -layout local -o Output/LabyrinthWestSideTrunkIndexEe.pdf
+#export map -o ../Output/Labyrinthindex.kml
+#export model -fmt survex -o ../Output/LabyrinthIndex.3d
+#export model  -o ../Output/LabyrinthIndex.lox
+#export map -proj plan -o ../Output/LabyrinthIndex_Walls.3d
 #Survex file showing walls only
 
 
