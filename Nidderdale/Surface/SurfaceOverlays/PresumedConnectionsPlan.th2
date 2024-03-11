@@ -37,8 +37,19 @@ line u -subtype hydro
 endline
 
 line u -subtype hydro
+  7264.0 17028.0
+  7184.0 17332.0
+endline
+
+line u -subtype hydro
+  7204.0 17516.0
+  7575.79 17568.86
+endline
+
+line u -subtype hydro
   8964.0 24936.0
-  8964.0 24936.0 10632.0 10684.0 9692.0 4724.0
+  8964.0 24936.0 10620.0 11000.0 9680.0 5040.0
+  smooth off
 endline
 
 point 8908.86 25014.920000000002 station -name S1

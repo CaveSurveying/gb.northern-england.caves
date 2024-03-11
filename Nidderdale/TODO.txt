@@ -60,6 +60,7 @@ CHANGES
 
 TODO
 ----
+* Expand the presumed connection overlay (presumed vs proven hydro connection)
 * topodroid has some 'clunky' naming ways... hyphens over camelcase, plan-scrapp etc.  CHANGE ALL TO CAMELCASE
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
