@@ -43,6 +43,7 @@ CHANGES
 * there is a cross-section (line) visible somewhere (as shows in legend).. Need to find it and hide.  Didn't find it, so hidden all cross-sections.
 * add sump length and depth - Sump Index only has lengths
 * completed Caravan Trail Details
+* Need to add Grade 3 label for the sumps 
 * added PublishSections.thconfig and new maps in nidderdale.th. 
 	* These are for Chris' publication requirements (x3 sections).  Sections 1 and 2 'ready' but need review and the missing bits confirmed / surveyed!
 * created new line l_u_hydro for showing proposed connections on an overlay (use with line u and options -subtype hydro)
@@ -53,17 +54,17 @@ CHANGES
 			- October to Guscott
 			- Guscott to North
 			- Beet route to Frog
+* Agreed to move into Main Folders (Goyden / NewGoyden etc.).  At present just folder hierarchy call for each, but could be moved into indexes in future....
 
 
 
 TODO
 ----
-* topodroid has some 'clunky' naming ways... hyphens over camelcase, plan-scrapp etc.  Need to discuss or live with it
+* topodroid has some 'clunky' naming ways... hyphens over camelcase, plan-scrapp etc.  CHANGE ALL TO CAMELCASE
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
 * Add Entrance symbol (plus redefine symbol)
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
-* Move folders under respective Main Cave?  such as PLanHard under NewGoyden (make generation Chris' sections easier?  would have to update hierarchy links in th)
 * fix Goyden 3 Sumps, alignment and include streamway detals  -- DIFFICULT.  FIX TO AQUAMOLE AND CREATE SEPERATE SKETCHES OF UPS and DWNS
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Point size consistency
@@ -82,7 +83,6 @@ TODO
 * Digitise Hardy Pools Sump extension
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
 * There is something wrong with the stations / warp at the very end of Beetroot Sump
-* Need to add Grade 3 label for the sumps 
 * Fix Joins
 	- Beetroot - Beetroot canal
 	- Stream - Planetarium
@@ -104,11 +104,10 @@ MISSING SURVEYS
 * Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel.
 * Survey October passage/ Add in survey of sumps 2-4 incl Bridge Hall
 * High Rift – Beet Route?
-
 * Pyradine - A junction - DONE
 * extension beyond Hardy Pools sump - DRAWING TO DIGITISE
 * Caravan Trail (CDG 112) - ROUGH DIGITISE DONE
-* Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDES
+* Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
 
 OTHER
 -----
@@ -129,3 +128,5 @@ THERION DRAWING STDS RECOMMENDATIONS
 * Water Flow - use point (M) Orientated with flow of water
 * Passage Slopes - use passage gradient point (M) Orientated down slope (not line)
 * All other points (M) - Dig, ? etc.
+
+* use CamelCase for all naming
