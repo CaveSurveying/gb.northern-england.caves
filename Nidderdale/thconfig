@@ -46,8 +46,8 @@ legend on
 #color map-fg scrap
 #color map-fg altitude
 symbol-hide group cave-centreline
-symbol-show point station
-debug station-names
+#symbol-show point station
+#debug station-names
 endlayout
 
 #hide / rename some legend entries 

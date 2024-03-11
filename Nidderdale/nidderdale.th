@@ -27,11 +27,10 @@ input CapLeftTunnel/CapLeftTunnel.th
 #input LofthousePot/LofthousePot.th
 #input TomTaylors/TomTaylors.th
 
-##PW NEW 2024
-
 input goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
 input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
 input goyden/Pyradine/pyradine.th
+
 
 input OQP/OQP.th
 input PigskinPot/PigskinPot.th

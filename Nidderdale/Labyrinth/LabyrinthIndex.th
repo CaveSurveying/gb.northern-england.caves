@@ -19,6 +19,7 @@ endmap
 
 map LabyrinthSection1 -title "Labyrinth Section 1" #used for Chris' Publication Section 1
   LabyrinthPlan
+  AJunctionPlan
   #Lab2Plan 
 endmap
 
