@@ -537,9 +537,11 @@ line gradient
   smooth off
 endline
 
-point 2553.3333333333335 3653.3333333333335 label -text [choke,<br>take care] -scale m
+point 1706.6666666666667 3596.666666666667 continuation -text "Lister Hall Inlet" -attr who "BSD" -attr what inlet -attr priority High -attr ref elevation #-explored 0m  -scale l
 
-point 1716.6666666666665 3550.0 label -align bottom-left -text [Lister Hall<br>Inlet] -scale l
+point 2553.3333333333335 3653.3333333333335 label -scale m -text choke<br>(dangerous)
+
+point 1786.6666666666665 3546.6666666666665 label -align bottom-left -text [Lister Hall<br>Inlet] -scale l
 
 point 1763.3333333333335 4050.0 label -align top-left -scale s -text Lister<br>Hall -scale xl
 

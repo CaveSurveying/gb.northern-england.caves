@@ -477,6 +477,8 @@ line wall
   803.0 2419.0
 endline
 
+point 996.0 312.0 continuation -scale m -text "sump at 0m" -attr who "Paul Monico?" -attr what sump -attr priority Low -attr ref plan #-explored 0m
+
 line wall
   1112.0 -120.0
   1112.0 -120.0 1108.0 -103.0 1107.0 -100.0
@@ -1703,7 +1705,7 @@ line wall
   smooth off
 endline
 
-point 500.0 1903.0 continuation -scale m -text [-text "unclimbed aven" -attr who "Paul Monico?" -attr what aven-attr priority Low -attr ref elevation #-explored 0m ]
+point 500.0 1903.0 continuation -scale m -text "unclimbed aven" -attr who "Paul Monico?" -attr what aven -attr priority Low -attr ref plan #-explored +20m
 
 point 701.0 1972.0 label -scale m -text chert<br>floor -align top-right
 
@@ -1713,7 +1715,7 @@ point 504.0 1884.0 label -align bottom-left -scale m -text [+20m<br>(aven)]
 
 point 600.0 1799.0 label -text [+6m<br>(aven)] -align bottom-left -scale m
 
-point 639.0 1801.0 continuation -scale m -text [-text "unclimbed aven" -attr who "Paul Monico?" -attr what aven-attr priority Low -attr ref elevation #-explored 0m ]
+point 639.0 1801.0 continuation -scale m -text "unclimbed aven" -attr who "Paul Monico?" -attr what aven -attr priority Low -attr ref plan #-explored +6m
 
 line wall
   546.5 1861.0

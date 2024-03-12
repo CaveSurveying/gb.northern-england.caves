@@ -55,16 +55,20 @@ CHANGES
 			- Guscott to North
 			- Beet route to Frog
 * Agreed to move into Main Folders (Goyden / NewGoyden etc.).  At present just folder hierarchy call for each, but could be moved into indexes in future....
+* BSD logo (into XTherionFiles) - added into XtherionFile folder and added to main Nidderdale.pdf
 
 
 
 TODO
 ----
+* Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
 * topodroid has some 'clunky' naming ways... hyphens over camelcase, plan-scrapp etc.  CHANGE ALL TO CAMELCASE
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
 * Add Entrance symbol (plus redefine symbol)
+* Add Vulcan Rift Pot entrance (and the one in the river.. or is that Dry Wath)
+* Change Howgill surface / pot
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
 * fix Goyden 3 Sumps, alignment and include streamway detals  -- DIFFICULT.  FIX TO AQUAMOLE AND CREATE SEPERATE SKETCHES OF UPS and DWNS
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
@@ -72,9 +76,9 @@ TODO
 * Change the line water symbols to point (L)
 * Missing water flow points in various places
 	* i.e water flow from Manchester to Goyden?
-* Add in Possible Continuations points with options, this quite good for leads / jobs list (Chris to provide list of ?)
-		-text "tight wet inlet series" -attr who "Phil Walker" -attr what rift -attr priority Low -attr ref elevation #-explored 0m
-* BSD logo (into XTherionFiles) - Chris to provide
+* On PresumedConnections overlay add:
+	* Pigskin > Produler to Dye Hard Inlet (dye traced)
+	* Pigskin > Covid Way to NG 25m aven
 * Sumps are missing sump area – review - Phil ongoing review
 * Review ceiling vs floor steps, confirmed some are wron way round (i.e. step down nr Hardy Pools)
 * Dotted line from static sump to pillar pot? - presumed lines preferred but need extra pillar pot survey
@@ -129,5 +133,7 @@ THERION DRAWING STDS RECOMMENDATIONS
 * Water Flow - use point (M) Orientated with flow of water
 * Passage Slopes - use passage gradient point (M) Orientated down slope (not line)
 * All other points (M) - Dig, ? etc.
+*For all POssible Continuations points (?) add the following into options, amended accordingly!   
+	 -text "tight wet inlet series" -attr who "Phil Walker" -attr what aven -attr priority Low -attr ref elevation #-explored 5m
 
 * use CamelCase for all naming

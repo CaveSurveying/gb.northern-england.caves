@@ -289,6 +289,10 @@ endscrap
 
 scrap NewGoydenSP4 -projection plan -station-names "" "@NewGoyden" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 2060.869565217391 5841.304347826087 continuation -scale l -text "easy dig in sand but probably oxbow?" -attr who "BSD" -attr what dig -attr priority Low -attr ref elevation #-explored 0m
+
+point 2049.9999999999995 5993.478260869565 dig -scale m
+
 line wall -reverse on
   1340.0 7936.0
   1346.0 7988.0
@@ -495,6 +499,8 @@ area sump
   l224-1920-10018
 endarea
 
+point 1369.5652173913043 7960.869565217391 continuation -scale l -text "dig in tube?" -attr who "BSD" -attr what aven -attr priority Low -attr ref elevation #-explored 0m
+
 line wall -id l61-1503-9860
   1616.0 9970.0
   1596.0 9944.0 1480.0 9848.0 1476.0 9826.0
@@ -567,7 +573,9 @@ line wall -id l466-2212-9904 -reverse on -subtype invisible
   2212.0 9868.0
 endline
 
-point 2274.0 9900.0 dig -scale m
+point 2289.1304347826085 9904.347826086956 continuation -scale l -text "dig" -attr who "BSD" -attr what dig -attr priority High -attr ref elevation #-explored 0m
+
+point 2169.6521739130435 9900.0 dig -scale m
 
 line rock-border -close on
   1956.0 8766.0
@@ -1323,6 +1331,8 @@ endline
 
 point 1635.5294148500002 830.9235941199997 station -name 1.22
 
+point -6267.391304347826 1206.5217391304348 continuation -scale l -text "Inlet beyond NG duck" -attr who "BSD" -attr what inlet -attr priority High -attr ref elevation #-explored 0m
+
 line wall
   -6222.0 1298.0
   -6274.0 1426.0 -6330.0 1640.0 -6336.0 1716.0
@@ -1421,6 +1431,8 @@ line wall -id l216--5756-4484
   -5822.0 4118.0 -5766.0 3952.0 -5760.0 3940.0
   smooth off
 endline
+
+point -6202.173913043478 8434.782608695652 continuation -scale l -text "rift in fault with mineralised water inlet?" -attr who "BSD" -attr what rift -attr priority High -attr ref elevation #-explored 0m
 
 line wall -id l78--5448-8324
   -5456.0 8402.0
@@ -1826,7 +1838,7 @@ line border -id l181--5156-8334
   smooth off
 endline
 
-point -6076.086956521739 8506.521739130434 dig -scale m
+point -5880.434782608696 8310.86956521739 dig -scale m
 
 area sump
   l466--5059-8467

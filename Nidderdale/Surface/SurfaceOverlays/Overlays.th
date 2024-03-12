@@ -4,7 +4,10 @@ survey Overlays -title "Overlays"
 input PresumedConnectionsPlan.th2
 
 map m1p -title "Overlays"
-  PresumedConnectionsPlan
+  #PresumedConnectionsPlan
+  GoydenPlan
+  NewGoydenPlan
+ # OverallPlan
 endmap
 
 

@@ -93,6 +93,16 @@ point 477.808976378 1565.94114348 station -name 1.1
 
 point 673.188976378 1772.14114348 station -name 1.0
 
+point 567.1052631578948 190.78947368421055 dig -scale m
+
+point 611.8421052631579 123.6842105263158 continuation -scale l -text "dig in roof of passage" -attr who "BSD" -attr what dig -attr priority High -attr ref elevation #-explored 0m
+
+line wall -reverse on -subtype sand
+  602.0 200.0
+  602.0 200.0 631.42 84.68 544.0 168.0
+  smooth off
+endline
+
 line wall
   602.0 200.0
   591.0 208.0 589.0 199.0 579.0 224.0
