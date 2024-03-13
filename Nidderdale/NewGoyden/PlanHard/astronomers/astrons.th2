@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap astron-astrons -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
+scrap astrons -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
 
 line wall
   30.06 102.81

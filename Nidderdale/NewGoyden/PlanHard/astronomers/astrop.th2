@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap astro-astrop -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+scrap astrop -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
 
 line wall
   74.37 -73.38
@@ -352,7 +352,7 @@ point 63.82 15.48 debris -scale s
 
 point 127.49 66.32 debris -scale s
 
-point 30.0 238.0 continuation -scale s -text [unclimbed P4 to sandstone boulder, space behind?]
+point 30.0 238.0 continuation -scale s -text ">P4 to sandstone boulder in roof, back space behind?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m
 
 point 19.0 256.25 label -align top-left -scale m -text [+P4?]
 
@@ -809,7 +809,9 @@ point 125.28 77.77 station -name "9"
 
 point 133.81 128.17 station -name "10"
 
-point 29.25 -147.0 continuation -text [inlet, low] -scale m
+point 94.0 -124.0 continuation -scale m -text "dig upward in shaft" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+
+point 29.25 -147.0 continuation -scale m -text "low inlet" -attr who "BSD" -attr what inlet -attr priority Low -attr ref plan #-explored 3m
 
 point 134.69 105.81 station -name 10A
 
