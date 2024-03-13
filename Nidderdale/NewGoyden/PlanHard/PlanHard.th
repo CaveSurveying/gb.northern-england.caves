@@ -8,7 +8,7 @@ input astronomers/astronomers.th #2024 Astronomer's Resurvey & avens
 #input PlanHardE90.th2
 
 equate 18@astro.astronomers 1.69@PlanHard
-join astro-astrop@astro.astronomers PlanHardSP3
+join astrop@astro.astronomers PlanHardSP3
 
 
 map PlanHardPlan -title "PlanHard Plan"

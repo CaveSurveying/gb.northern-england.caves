@@ -6,22 +6,22 @@ source PlanHard.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../Output/PlanHardOutput/PlanHard.pdf
+export map -proj plan -layout local -o PlanHard.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/PlanHardOutput/PlanHardEe.pdf
+#export map -proj extended -layout local -o PlanHardEe.pdf
 
-#export model -fmt survex -o../Output/PlanHardOutput/PlanHardth.3d
+#export model -fmt survex -o PlanHardth.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/PlanHardOutput/PlanHard.lox
+#export model -o PlanHard.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/PlanHardOutput/_Walls.3d
+#export map -proj plan -o PlanHard_Walls.3d
 #Survex file showing walls only
 
-#export model -o ../Output/PlanHard/OutputPlanHard.kml
-#export map -o ../Output/PlanHardOutput/PlanHard.kml
+#export model -o PlanHard.kml
+#export map -o PlanHard.kml
 
 layout local
 scale 1 500
