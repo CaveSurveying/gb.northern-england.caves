@@ -1,0 +1,27 @@
+encoding  utf-8
+# 2023.11.11 created by TopoDroid v 6.2.16
+
+
+survey astronomers -title "Astronomer's Passage<br><it>New Goyden, Nidderdale"
+
+   input "astro.th"
+   input "astron.th"   
+   
+   
+   map m1p -projection plan
+     m1p@astro
+     m1p@astron
+   endmap
+   
+   map m1s -projection extended 
+    m1s@astro  
+     break
+   m1s@astron
+   endmap
+
+equate 10@astro 6@astron
+
+join astrop@astro astronp@astron
+ 
+endsurvey
+

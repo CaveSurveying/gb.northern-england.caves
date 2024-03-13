@@ -6,7 +6,7 @@ source Surface1.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../Output/Surface1Output/Surface1.pdf
+export map -proj plan -layout local -o Surface1.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o Surface1Ee.pdf
@@ -20,8 +20,8 @@ export map -proj plan -layout local -o ../Output/Surface1Output/Surface1.pdf
 #export map -proj plan -o Surface1_Walls.3d
 #Survex file showing walls only
 
-#export model -o ../Output/SurfaceOutput/Surface1.kml
-export map -o ../Output/SurfaceOutput/Surface1.kml
+#export model -o Surface1.kml
+export map -o Surface1.kml
 
 
 

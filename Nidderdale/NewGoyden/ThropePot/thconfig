@@ -9,11 +9,11 @@ source ThropePot.th
 select ThropePotPlan
 
 
-export map -proj plan -layout local -o ../output/ThropePotOutput/ThropePot.pdf
-#export map -o ../output/ThropePotOutput/ThropePot.kml
-#export model -fmt survex -o ../output/ThropePotOutput/ThropePot.3d
-export model  -o ../output/ThropePotOutput/ThropePot.lox
-#export map -proj plan -o ../output/ThropePotOutput/ThropePot_Walls.3d
+export map -proj plan -layout local -o ThropePot.pdf
+#export map -o ThropePot.kml
+#export model -fmt survex -o ThropePot.3d
+export model  -o ThropePot.lox
+#export map -proj plan -o ThropePot_Walls.3d
 #Survex file showing walls only
 
 ####################layout###################

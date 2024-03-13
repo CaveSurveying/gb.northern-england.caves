@@ -6,22 +6,22 @@ source ChurchPot.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../Output/ChurchPotOutput/ChurchPot.pdf
+export map -proj plan -layout local -o ChurchPot.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/ChurchPotOutput/ChurchPotEe.pdf
+#export map -proj extended -layout local -o ChurchPotEe.pdf
 
 
 #Survex file showing centre line only
 
-#export model -o ../Output/ChurchPotOutput/ChurchPot.lox
+#export model -o ChurchPot.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/ChurchPotOutput/_Walls.3d
+#export map -proj plan -o ChurchPot/_Walls.3d
 #Survex file showing walls only
 
 #export model -o ChurchPot.kml
-export map -layout local -o ../Output/ChurchPotOutput/ChurchPot.kml
+export map -layout local -o ChurchPot.kml
 
 layout local
 #scale 1 100

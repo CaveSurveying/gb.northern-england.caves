@@ -59,6 +59,10 @@ CHANGES
 * Agreed to move into Main Folders (Goyden / NewGoyden etc.).  At present just folder hierarchy call for each, but could be moved into indexes in future....
 * BSD logo (into XTherionFiles) - added into XtherionFile folder and added to main Nidderdale.pdf
 * Digitised Hardy Pools Sump extension, plus added detail into Hardy Pools 
+* First duck and then climbs in roof in Clay Tunnel
+* Missing water flow points in various places
+	* i.e water flow from Manchester to Goyden?
+* Removed output folders.  All lower level now generate locally (may have missed a few - will error).  Root > Output to be used only for NIdderdale (master survey) and 'distinct' caves (Goyden, New Goyden, TT etc.) - TBC
 
 
 
@@ -70,22 +74,18 @@ TODO
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
 * Add Entrance symbol (plus redefine symbol)
-* Add Vulcan Rift Pot entrance (and the one in the river.. or is that Dry Wath)
+* Add Vulcan Rift Pot entrance
 * Change Howgill surface / pot
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
 * fix Goyden 3 Sumps, alignment and include streamway detals  -- DIFFICULT.  FIX TO AQUAMOLE AND CREATE SEPERATE SKETCHES OF UPS and DWNS
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Point size consistency
 * Change the line water symbols to point (L)
-* Missing water flow points in various places
-	* i.e water flow from Manchester to Goyden?
 * On PresumedConnections overlay add:
 	* Pigskin > Produler to Dye Hard Inlet (dye traced)
 	* Pigskin > Covid Way to NG 25m aven
-* Sumps are missing sump area – review - Phil ongoing review
 * Review ceiling vs floor steps, confirmed some are wron way round (i.e. step down nr Hardy Pools)
 * Dotted line from static sump to pillar pot? - presumed lines preferred but need extra pillar pot survey
-* First duck and then climbs in roof in Clay Tunnel
 * Pitches - set outline-in to 'view' into passage below
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
@@ -107,6 +107,7 @@ MISSING SURVEYS
 * Back Steps
 * Pillar Crawls, Pilar Pot Passage, Timber Passage
 * survey over the Turf plus passage above Chapel chamber
+* Bakk of String Passage
 * Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole
 * Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel.
 * Survey October passage/ Add in survey of sumps 2-4 incl Bridge Hall

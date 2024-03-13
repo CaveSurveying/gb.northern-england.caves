@@ -1,0 +1,9 @@
+
+*begin astronomers 
+
+*include astro.svx
+*include astron.svx
+
+*equate astro.10 astron.6
+
+*end astronomers

@@ -9,11 +9,11 @@ source Surface2.th
 #select Surface2Plan
 
 
-export map -proj plan -layout local -o ../Output/Surface2Output/Surface2.pdf
-#export map -o ../Output/Surface2Output/Surface2.kml
-#export model -fmt survex -o ../Output/Surface2Output/Surface2.3d
-#export model  -o ../Output/Surface2Output/Surface2.lox
-#export map -proj plan -o ../Output/Surface2Output/Surface2_Walls.3d
+export map -proj plan -layout local -o Surface2.pdf
+#export map -o Surface2.kml
+#export model -fmt survex -o Surface2.3d
+#export model  -o Surface2.lox
+#export map -proj plan -o Surface2_Walls.3d
 #Survex file showing walls only
 
 ####################layout###################

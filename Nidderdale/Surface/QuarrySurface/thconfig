@@ -9,22 +9,22 @@ select QuarrySurface
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../Output/QuarrySurfaceOutput/QuarrySurface.pdf
+export map -proj plan -layout local -o QuarrySurface.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/QuarrySurfaceOutput/QuarrySurfaceEe.pdf
+#export map -proj extended -layout local -o QuarrySurfaceEe.pdf
 
-#export model -fmt survex -o Output/QuarrySurfaceOutput/QuarrySurface.3d
+#export model -fmt survex -o QuarrySurface.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/QuarrySurfaceOutput/QuarrySurface.lox
+#export model -o QuarrySurface.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/QuarrySurfaceOutput/_Walls.3d
+#export map -proj plan -o QuarrySurface_Walls.3d
 #Survex file showing walls only
 
-#export model -o ../Output/QuarrySurface/OutputQuarrySurface.kml
-#export map -o ../Output/QuarrySurfaceOutput/QuarrySurface.kml
+#export model -o QuarrySurface.kml
+#export map -o QuarrySurface.kml
 
 layout local
 base-scale 1 300
