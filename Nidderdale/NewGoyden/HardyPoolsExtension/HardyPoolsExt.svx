@@ -1,0 +1,90 @@
+*begin HardyPoolsExt						
+					
+*date 2024.03.13					
+*team "Phil Walker" digitised					
+					
+					
+*export 0					
+							
+					
+;from	to	tape	compass	clino	
+					
+0	1	3.232727273	234	0	;0 = start of sump
+1	2	6.927272727	269	30	
+2	3	2.309090909	232	0	; sump pool exit
+3	4	1.847272727	7	2	
+4	5	5.08	7	5	;5=dig juncion
+5	6	0.923636364	340	90	;climbt o crawl
+6	7	2.770909091	340	32	
+7	8	6.927272727	351	32	;to inlet
+7	9	2.770909091	297	41	
+9	10	5.08	9	55	
+10	11	6.465454545	298	46	
+5	12	2.309090909	0	90	;climb to dig
+12	13	4.156363636	228	0	
+13	14	5.08	331	-42	
+14	15	5.08	0	-50	;15 end of dig
+15	16	5.541818182	0	0	;16 center of chamber
+16	16A	4.618181818	208	0	
+16A	16B	5.541818182	208	0	;16b is small downstream sump
+16	16C	6.003636364	342	45	;iny inlet on LHS
+16	16D	4.156363636	55	2	;16D is side chamber
+16D	16E	4.618181818	55	90	
+16E	16F	2.770909091	55	4	;16f inlet in roof
+16	17	9.236363636	22	0	
+17	18	4.156363636	22	0	;17 Istart of sump pool
+18	19	6.927272727	22	0	
+19	20	1.385454545	22	0	;20 other side of sump pool
+					
+					
+					
+*data passage station left right up down ignoreall					
+					
+0	0	0.461818182	0.461818182	0	;0 = start of sump
+1	0	1.385454545	0.923636364	0	
+2	0.923636364	0	0.461818182	0	; sump pool exit
+3	0.923636364	0.461818182	0.923636364	0	
+4	0.461818182	0.461818182	0.923636364	0	;5=dig juncion
+5	0.461818182	0	0.461818182	0	;climbt o crawl
+6	0.461818182	0	0.461818182	0	
+7	0.923636364	0.923636364	3.232727273	0	;to inlet
+					
+*data passage station left right up down ignoreall					
+7	0.923636364	0.923636364	3.232727273	0	
+9	0	0.923636364	1.385454545	0	
+10	2.770909091	0	2.309090909	0	
+11	0.461818182	0.461818182	0.923636364	0	
+					
+*data passage station left right up down ignoreall					
+5	0.923636364	0.923636364	2.309090909	0	;climb to dig
+12	0.923636364	0.923636364	0.923636364	0	
+13	0	1.385454545	1.385454545	0	
+14	0	1.385454545	0.923636364	0	;15 end of dig
+15	0	0.461818182	0.461818182	0	;16 center of chamber
+16	1.385454545	1.847272727	0.923636364	0	
+					
+*data passage station left right up down ignoreall					
+16	1.385454545	1.847272727	0.923636364	0	
+16A	1.847272727	0.461818182	0.923636364	0	;16b is small downstream sump
+					
+*data passage station left right up down ignoreall					
+16	2.770909091	1.847272727	0.923636364	0	;16D is side chamber
+16D	2.309090909	2.770909091	4.618181818	0	
+16E	2.309090909	2.770909091	0	4.618181818	;16f inlet in roof
+*data passage station left right up down ignoreall					
+16	2.309090909	1.385454545	0.461818182	0	
+17	1.385454545	0.461818182	0.461818182	0	;17 Istart of sump pool
+18	1.847272727	0.461818182	0.923636364	0	
+19	0.923636364	0.461818182	0.461818182	0	;20 other side of sump pool
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+*end HardyPoolsExt					
