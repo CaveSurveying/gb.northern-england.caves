@@ -16,7 +16,6 @@ input goyden/gargettWay/GargettWay.th
 input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 
-
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
 input NewGoyden/thropePot/ThropePot.th
@@ -31,7 +30,6 @@ input NewGoyden/HardyPoolsExtension/HardyPoolsExt.th
 
 input Guscott/GuscottIndex.th
 
-
 input Surface/surface1/Surface1.th
 input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
@@ -42,11 +40,6 @@ input Surface/SurfaceOverlays/Overlays.th
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
 #input TomTaylors/TomTaylors.th
-
-
-
-
-
 
 #### Plan Joins ####
 

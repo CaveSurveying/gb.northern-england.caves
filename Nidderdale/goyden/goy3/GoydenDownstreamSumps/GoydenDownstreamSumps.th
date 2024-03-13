@@ -7,6 +7,7 @@ survey GoydenDownstreamSumps -title "Goyden Sumps<br><it>Nidderdale"
    map m1p -projection plan
      GoydenDownstreamSumpsP
      GoydenDownstreamSumpsP2
+     GoydenDownstreamSumpsP3
    endmap
    
 
