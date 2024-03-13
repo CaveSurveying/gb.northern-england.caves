@@ -62,7 +62,7 @@ line wall
   smooth off
 endline
 
-point 417.0 -737.5 continuation -scale m -text "narrow inlet" -attr who "BSD" -attr what inlet -attr priority Low -attr ref elevation #-explored 2m
+point 417.0 -737.5 continuation -scale m -text "narrow inlet" -attr who "BSD" -attr what inlet -attr priority Low -attr ref plan #-explored 2m
 
 point 398.5 -741.5 water-flow -orientation 256.7
 

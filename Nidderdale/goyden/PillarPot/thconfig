@@ -9,11 +9,11 @@ source PillarPot.th
 #select PillarPotPlan
 
 
-export map -proj plan -layout local -o ../Output/PillarPotOutput/PillarPot.pdf
-#export map -o ../Output/PillarPotOutput/PillarPot.kml
-#export model -fmt survex -o ../output/PillarPotOutput/PillarPot.3d
-#export model  -o ../output/PillarPotOutput/PillarPot.lox
-#export map -proj plan -o ../output/PillarPotOutput/PillarPot_Walls.3d
+export map -proj plan -layout local -o PillarPot.pdf
+#export map -o PillarPot.kml
+#export model -fmt survex -o PillarPot.3d
+#export model  -o PillarPot.lox
+#export map -proj plan -o PillarPot_Walls.3d
 #Survex file showing walls only
 
 ####################layout###################

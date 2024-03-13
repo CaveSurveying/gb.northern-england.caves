@@ -9,22 +9,10 @@ source FPUpstreamSump
 #select FPUpstreamSump            ####Centreline survey
 #select FPUpstreamSumpPlan         ####Map
 
+export map -proj plan -layout local -o FPUpstreamSumpPlan.pdf
+#export map -proj extended -layout local -o FPUpstreamSumpElev.pdf
 
-
-
-
-
-
-
-
-
-
-export map -proj plan -layout local -o ../../Output/FrogPotOutput/FPUpstreamSumpOutput/FPUpstreamSumpPlan.pdf
-#export map -proj extended -layout local -o ../../Output/
-
-export model -fmt survex -o ../../Output/
-
-
+export model -fmt survex -o ../../Output/FPUpstreamSumpPlan.3d
 
 
 

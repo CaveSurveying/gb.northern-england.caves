@@ -667,7 +667,11 @@ line floor-step -reverse on
   1986.0759493670887 403.95569620253167
 endline
 
-point 1055.357142857143 2680.357142857143 continuation -scale m
+point 1707.1428571428573 2560.714285714286 continuation -scale m -text "Williams Dig, between Worm Drive and High Rift?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+
+point 989.2857142857143 3285.714285714286 continuation -scale m -text "dig opposite Worm Drive?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+
+point 1055.357142857143 2685.714285714286 continuation -scale m -text "aven just past Worm Drive RHS?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m
 
 line wall
   2472.727272727273 -1279.5454545454547
@@ -874,9 +878,9 @@ endline
 
 point 686.3839285714286 3035.2678571428573 label -align left -text Worm<br>Drive -scale l
 
-point 1679.6875 2562.5 dig
+point 1643.9732142857142 2507.1428571428573 dig
 
-point 1021.09375 3297.65625 dig
+point 931.8080357142857 3260.15625 dig -scale m
 
 line wall -reverse on -subtype invisible
   765.6716417910449 2989.5522388059703
@@ -1054,7 +1058,7 @@ line wall
   smooth off
 endline
 
-point 1778.927203065134 2554.0229885057474 label -align top-right -text [Williams Dig<br>(re-started 2018)] -scale m
+point 1771.784345922277 2516.5229885057474 label -align top-right -text [Williams Dig<br>(re-started 2018)] -scale m
 
 line wall
   2272.03 774.71

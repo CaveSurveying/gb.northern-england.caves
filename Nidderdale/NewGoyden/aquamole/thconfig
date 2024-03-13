@@ -7,15 +7,15 @@ source Aquamole.th
 #-----------------
 
 select aquamolePlan
-export map -proj plan -layout local -o ../output/AquamoleOutput/Aquamole.pdf
+export map -proj plan -layout local -o Aquamole.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o AquamoleEe.pdf
 
-#export model -fmt survex -o Aquamoleth.3d
+#export model -fmt survex -o Aquamole.3d
 #Survex file showing centre line only
 
-#export model -o ../output/AquamoleOutput/Aquamole.lox
+#export model -o Aquamole.lox
 
 #export 3d therion model to be viewed in the therion viewer
 
@@ -24,7 +24,7 @@ export map -proj plan -layout local -o ../output/AquamoleOutput/Aquamole.pdf
 
 
 #export model -o Aquamole.kml
-#export map -o ../output/AquamoleOutput/Aquamole.kml
+#export map -o Aquamole.kml
 
 layout local
 scale 1 500

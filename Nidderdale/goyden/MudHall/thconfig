@@ -9,11 +9,11 @@ source MudHall.th
 #select MudHallPlan
 
 
-export map -proj plan -layout local -o ../output/MudHallOutput/MudHall.pdf
-#export map -o ../output/MudHallOutput/MudHall.kml
-#export model -fmt survex -o ../output/MudHallOutput/MudHall.3d
-#export model  -o ../output/MudHallOutput/MudHall.lox
-#export map -proj plan -o ../output/MudHallOutput/MudHall_Walls.3d
+export map -proj plan -layout local -o MudHall.pdf
+#export map -o MudHall.kml
+#export model -fmt survex -o MudHall.3d
+#export model  -o MudHall.lox
+#export map -proj plan -o ../MudHallWalls.3d
 #Survex file showing walls only
 
 ####################layout###################

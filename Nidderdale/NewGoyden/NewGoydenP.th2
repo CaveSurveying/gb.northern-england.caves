@@ -289,7 +289,7 @@ endscrap
 
 scrap NewGoydenSP4 -projection plan -station-names "" "@NewGoyden" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 2060.869565217391 5841.304347826087 continuation -scale l -text "easy dig in sand but probably oxbow?" -attr who "BSD" -attr what dig -attr priority Low -attr ref elevation #-explored 0m
+point 2060.869565217391 5841.304347826087 continuation -scale l -text "easy dig in sand but probably oxbow?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
 
 point 2049.9999999999995 5993.478260869565 dig -scale m
 
@@ -499,7 +499,7 @@ area sump
   l224-1920-10018
 endarea
 
-point 1369.5652173913043 7960.869565217391 continuation -scale l -text "dig in tube?" -attr who "BSD" -attr what aven -attr priority Low -attr ref elevation #-explored 0m
+point 1369.5652173913043 7960.869565217391 continuation -scale l -text "dig in tube?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m
 
 line wall -id l61-1503-9860
   1616.0 9970.0
@@ -573,7 +573,7 @@ line wall -id l466-2212-9904 -reverse on -subtype invisible
   2212.0 9868.0
 endline
 
-point 2289.1304347826085 9904.347826086956 continuation -scale l -text "dig" -attr who "BSD" -attr what dig -attr priority High -attr ref elevation #-explored 0m
+point 2289.1304347826085 9904.347826086956 continuation -scale l -text "dig" -attr who "BSD" -attr what dig -attr priority High -attr ref plan #-explored 0m
 
 point 2169.6521739130435 9900.0 dig -scale m
 
@@ -1331,7 +1331,7 @@ endline
 
 point 1635.5294148500002 830.9235941199997 station -name 1.22
 
-point -6267.391304347826 1206.5217391304348 continuation -scale l -text "Inlet beyond NG duck" -attr who "BSD" -attr what inlet -attr priority High -attr ref elevation #-explored 0m
+point -6267.391304347826 1206.5217391304348 continuation -scale l -text "Inlet beyond NG duck" -attr who "BSD" -attr what inlet -attr priority High -attr ref plan #-explored 0m
 
 line wall
   -6222.0 1298.0
@@ -1432,7 +1432,7 @@ line wall -id l216--5756-4484
   smooth off
 endline
 
-point -6202.173913043478 8434.782608695652 continuation -scale l -text "rift in fault with mineralised water inlet?" -attr who "BSD" -attr what rift -attr priority High -attr ref elevation #-explored 0m
+point -6202.173913043478 8434.782608695652 continuation -scale l -text "rift in fault with mineralised water inlet?" -attr who "BSD" -attr what rift -attr priority High -attr ref plan #-explored 0m
 
 line wall -id l78--5448-8324
   -5456.0 8402.0

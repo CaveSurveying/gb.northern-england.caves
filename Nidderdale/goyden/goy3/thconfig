@@ -9,23 +9,23 @@ source goy3.th
 select goy3Plan
 
 
-export map -proj plan -layout local -o ../output/Goy3Output/Goy3.pdf 
+export map -proj plan -layout local -o Goy3.pdf 
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/Goy3Output/goy3Ee.pdf
+#export map -proj extended -layout local -o goy3Ee.pdf
 
-#export map -proj [elevation 90] -layout local -o ../Output/Goy3Output/goy3.pdf
+#export map -proj [elevation 90] -layout local -o goy3.pdf
 
-#export model -fmt survex -o ../Output/Goy3Output/goy3th.3d
+#export model -fmt survex -o goy3.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/Goy3Output/Goy3.lox
+#export model -o Goy3.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/Goy3Output/goy3_Walls.3d
+#export map -proj plan -o goy3_Walls.3d
 #Survex file showing walls only
 
-#export model -o ../Output/Goy3Output/goy3.kml
+#export model -o goy3.kml
 
 layout local
 #debug on

@@ -11,22 +11,22 @@ select NorthChoke
 
 
 
-export map -proj plan -layout local -o ../../Output/NorthChokeOutput/NorthChoke.pdf
+export map -proj plan -layout local -o NorthChoke.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../../Output/NorthChokeOutput/NorthChokeEe.pdf
+#export map -proj extended -layout local -o NorthChokeEe.pdf
 
-#export model -fmt survex -o../../Output/NorthChokeOutput/NorthChoketh.3d
+#export model -fmt survex -o NorthChoke.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/NorthChokeOutput/NorthChoke.lox
+#export model -o NorthChoke.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../../Output/NorthChokeOutput/_Walls.3d
+#export map -proj plan -o _Walls.3d
 #Survex file showing walls only
 
-#export model -o ../../Output/NorthChoke/OutputNorthChoke.kml
-#export map -o ../../Output/NorthChokeOutput/NorthChoke.kml
+#export model -o NorthChoke.kml
+#export map -o NorthChoke.kml
 
 layout local
 base-scale 1 300

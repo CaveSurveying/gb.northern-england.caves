@@ -7,22 +7,22 @@ source CarterPassage.th
 #-----------------
 
 
-export map -proj plan -layout local -o ../Output/CarterPassageOutput/CarterPassage.pdf
+export map -proj plan -layout local -o CarterPassage.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/CarterPassageOutput/CarterPassageEe.pdf
+#export map -proj extended -layout local -o CarterPassageEe.pdf
 
-#export model -fmt survex -o../Output/CarterPassageOutput/CarterPassageth.3d
+#export model -fmt survex -o CarterPassage.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/CarterPassageOutput/CarterPassage.lox
+#export model -o CarterPassage.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/CarterPassageOutput/_Walls.3d
+#export map -proj plan -o CarterPassageWalls.3d
 #Survex file showing walls only
 
 #export model -o CarterPassage.kml
-#export map -o ../Output/CarterPassageOutput/CarterPassage.kml
+#export map -o CarterPassage.kml
 
 layout local
 scale 1 100

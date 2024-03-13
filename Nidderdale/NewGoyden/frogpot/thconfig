@@ -14,18 +14,10 @@ select frogpotPlan@FrogPotIndex   #Map
 select FPUpstreamSumpPlan@FrogPotIndex
 
 
+#export map -proj plan -layout local -o FrogPotIndexPlan.pdf
+#export map -proj extended -layout local -o FrogPotIndexEe.pdf
 
-
-
-
-
-
-
-
-#export map -proj plan -layout local -o ../Output/FrogPotOutput/FrogPotIndexPlan.pdf
-#export map -proj extended -layout local -o ../Output/FrogPotOutput/FrogPotIndexEe.pdf
-
-export model -fmt survex -o ../Output/FrogPotOutput/FrogPotIndexOutput/FrogPotIndex.3d
+export model -fmt survex -o FrogPotIndex.3d
 
 
 

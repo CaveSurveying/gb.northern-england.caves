@@ -7,23 +7,23 @@ source FrogPot.th
 #-----------------
 
 select frogpotPlan
-export map -proj plan -layout local -o ../../Output/FrogPotOutput/FrogPot.pdf
+export map -proj plan -layout local -o FrogPot.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../../Output/FrogPotOutput/FrogPotEe.pdf
+#export map -proj extended -layout local -o FrogPotEe.pdf
 
 #export model -fmt survex -o FrogPotth.3d
 #Survex file showing centre line only
 
-#export model -o ../output/FrogPotOutput/FrogPot.lox
+#export model -o FrogPot.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o FrogPot_Walls.3d
 #Survex file showing walls only
 
-#export map -proj plan -layout local -o ../output/FrogPot.kml
+#export map -proj plan -layout local -o FrogPot.kml
 #export model -o FrogPot.kml
-#export map -o ../output/FrogPotOutput/FrogPot.kml
+#export map -o  FrogPot.kml
 
 layout local
 scale 1 100

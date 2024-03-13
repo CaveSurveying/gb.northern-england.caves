@@ -6,22 +6,22 @@ source NewGoyden.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o ../Output/NewGoydenOutput/NewGoyden.pdf
+#export map -proj plan -layout local -o NewGoyden.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/NewGoydenOutput/NewGoydenEe.pdf
+#export map -proj extended -layout local -o NewGoydenEe.pdf
 
-#export model -fmt survex -o../Output/NewGoydenOutput/NewGoydenth.3d
+#export model -fmt survex -o NewGoydenth.3d
 #Survex file showing centre line only
 
-export model -o ../Output/NewGoydenOutput/NewGoyden.lox
+export model -o NewGoyden.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/NewGoydenOutput/_Walls.3d
+#export map -proj plan -o _Walls.3d
 #Survex file showing walls only
 
 #export model -o NewGoyden.kml
-#export map -o ../Output/NewGoydenOutput/NewGoyden.kml
+#export map -o NewGoyden.kml
 
 layout local
 #scale 1 100

@@ -136,6 +136,8 @@ line rock-edge -clip off
   smooth off
 endline
 
+point 475.40983606557376 939.344262295082 continuation -scale m -text "?? Just before beet root sump" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+
 line wall -id BRCSP1Start
   214.61 2260.67
   214.61 2260.67 248.0 2184.0 252.0 2170.0

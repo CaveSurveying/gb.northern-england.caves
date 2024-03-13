@@ -6,22 +6,22 @@ source LowerNorthChoke.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../../Output/NorthChokeOutput/LowerNorthChokeOutput/LowerNorthChoke.pdf
+export map -proj plan -layout local -o LowerNorthChoke.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/LowerNorthChokeOutput/LowerNorthChokeEe.pdf
+#export map -proj extended -layout local -o LowerNorthChokeEe.pdf
 
-#export model -fmt survex -o../Output/LowerNorthChokeOutput/LowerNorthChoketh.3d
+#export model -fmt survex -o LowerNorthChoke.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/LowerNorthChokeOutput/LowerNorthChoke.lox
+#export model -o LowerNorthChoke.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/LowerNorthChokeOutput/_Walls.3d
+#export map -proj plan -o LowerNorthChoke.3d
 #Survex file showing walls only
 
-#export model -o ../Output/LowerNorthChoke/OutputLowerNorthChoke.kml
-#export map -o ../Output/LowerNorthChokeOutput/LowerNorthChoke.kml
+#export model -o LowerNorthChoke.kml
+#export map -o LowerNorthChoke.kml
 
 layout local
 base-scale 1 300

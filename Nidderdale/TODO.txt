@@ -29,7 +29,9 @@ CHANGES
 	- added Dye Hard Inlet lable and 25m aven & dig
 * Digitise Goyden Downstream Sumps - done.  I've equated in two points, sump start (New Goyden) and 1.69 in Aguamole.  it creates some warp, but not as much if linked sump to Goyden. Probably as good as it will get without origianl data / re-survey
 	- other option is to split it into two and start at Aquamole (one downstream and one upstream)
-* Digitise New Goyden Downstream Sumps - done.  linked to point 1.59 on PlanHard.  Included Caravan Trail as well, but had to link to same 1.59 and have not digitised as too small (circa 237m according to CDG - need good quality copy of survey)
+* Digitise New Goyden Downstream Sumps - done.  linked to point 1.59 on PlanHard.  Included Caravan Trail as well, but had to link to same 1.59 and have not digitised as too small (circa 237m according to CDG - need good quality copy of survey)* Pyradine - A junction - DONE
+* extension beyond Hardy Pools sump - DIGITISED
+* Caravan Trail (CDG 112) - DIGITISED
 * Planetarium, added in new astronmers and avens, linked to 1.69.  Added in slopes and boulders 
 * List of surveyors or “Black Sheep Diggers”? - I've temporarily reverted to surveyors over BSD, as there was spelling mistake in one of them.  List of surveyors better if ever want to do 'explo' stats etc.?
 * in nidderdale.th file create new map for surface scraps.  This then can be controlled with a different colour in the thconfig
@@ -62,9 +64,9 @@ CHANGES
 
 TODO
 ----
+* Rename [blank].thconfig files do appropriate names (for ease of opening / identification)
 * Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
-* topodroid has some 'clunky' naming ways... hyphens over camelcase, plan-scrapp etc.  CHANGE ALL TO CAMELCASE
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
 * Add Entrance symbol (plus redefine symbol)
@@ -109,9 +111,6 @@ MISSING SURVEYS
 * Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel.
 * Survey October passage/ Add in survey of sumps 2-4 incl Bridge Hall
 * High Rift – Beet Route?
-* Pyradine - A junction - DONE
-* extension beyond Hardy Pools sump - DRAWING TO DIGITISE
-* Caravan Trail (CDG 112) - ROUGH DIGITISE DONE
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
 
 OTHER

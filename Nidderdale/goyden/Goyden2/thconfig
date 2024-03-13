@@ -8,22 +8,22 @@ source Goyden2.th
 
 select goyden2Plan
 
-export map -proj plan -layout local -o ../Output/Goyden2Output/Goyden2.pdf
+export map -proj plan -layout local -o Goyden2.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/Goyden2Output/Goyden2Ee.pdf
+#export map -proj extended -layout local -o Goyden2Ee.pdf
 
-#export model -fmt survex -o../Output/Goyden2Output/Goyden2th.3d
+#export model -fmt survex -o Goyden2.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/Goyden2Output/Goyden2.lox
+#export model -o Goyden2.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/Goyden2Output/_Walls.3d
+#export map -proj plan -o Goyden2Walls.3d
 #Survex file showing walls only
 
 #export model -o Goyden2.kml
-#export map -o ../Output/Goyden2Output/Goyden2.kml
+#export map -o Goyden2.kml
 
 layout local
 #scale 1 100

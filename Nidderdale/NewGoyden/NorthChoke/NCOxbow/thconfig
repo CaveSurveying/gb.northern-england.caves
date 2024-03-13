@@ -6,22 +6,22 @@ source NCOxbow.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../../Output/NorthChokeOutput/NCOxbowOutput/NCOxbow.pdf
+export map -proj plan -layout local -o NCOxbow.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../Output/NCOxbowOutput/NCOxbowEe.pdf
+#export map -proj extended -layout local -o NCOxbowEe.pdf
 
-#export model -fmt survex -o../Output/NCOxbowOutput/NCOxbowth.3d
+#export model -fmt survex -o NCOxbowth.3d
 #Survex file showing centre line only
 
-#export model -o ../Output/NCOxbowOutput/NCOxbow.lox
+#export model -o NCOxbow.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../Output/NCOxbowOutput/_Walls.3d
+#export map -proj plan -o _Walls.3d
 #Survex file showing walls only
 
-#export model -o ../Output/NCOxbow/OutputNCOxbow.kml
-#export map -o ../Output/NCOxbowOutput/NCOxbow.kml
+#export model -o NCOxbow.kml
+#export map -o NCOxbow.kml
 
 layout local
 base-scale 1 100
