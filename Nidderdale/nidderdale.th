@@ -1,7 +1,7 @@
 encoding  utf-8
 survey nidderdale -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom" ###### Use standard deviation 0.02 0.02 .01 on all fixes
 
-input manhole/ManHole.th
+input ManchesterHole/ManHole.th
 
 input goyden/Goyden.th
 input goyden/CapLeftTunnel/CapLeftTunnel.th
