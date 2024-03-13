@@ -27,6 +27,7 @@ input NewGoyden/NorthChoke/NorthChokeIndex.th
 input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
 input NewGoyden/OQP/OQP.th
 input NewGoyden/PigskinPot/PigskinPot.th
+input NewGoyden/HardyPoolsExtension/HardyPoolsExt.th
 
 input Guscott/GuscottIndex.th
 
@@ -131,6 +132,7 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   m1p@GoydenDownstreamSumps
   m1p@NewGoydenDownstreamSumps  
+  m1p@HardyPoolsExt
   
   ############################
   #m1p@LimleyLeadMine  #digitised.  adding creates large pdf as this is ~1km of passage heading west
@@ -180,6 +182,7 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
   aquamolePlan
+  m1p@HardyPoolsExt
 endmap
 
 #map PublishSection3 -title "Everything Else?<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -223,7 +226,6 @@ equate 100@QuarrySurface 1.0@NewGoyden
 equate 1.0@Surface2 1.0@Surface1
 equate 1.13@Surface2 1.47@Guscott.GuscottIndex 
 equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
-
 equate 1.59@NewGoydenDownstreamSumps 1.59@PlanHard
 equate 1@SurfaceOQP 0@OQP
 
@@ -236,6 +238,7 @@ equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
 
 equate 1.10@CarterPassage S1@Overlays
 equate 10@NewGoydenDownstreamSumps S2@Overlays
+equate 0@HardyPoolsExt 1.29@PlanHard
 
 
 endcenterline

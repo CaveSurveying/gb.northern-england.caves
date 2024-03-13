@@ -56,6 +56,7 @@ CHANGES
 			- Beet route to Frog
 * Agreed to move into Main Folders (Goyden / NewGoyden etc.).  At present just folder hierarchy call for each, but could be moved into indexes in future....
 * BSD logo (into XTherionFiles) - added into XtherionFile folder and added to main Nidderdale.pdf
+* Digitised Hardy Pools Sump extension, plus added detail into Hardy Pools 
 
 
 
@@ -85,7 +86,6 @@ TODO
 * First duck and then climbs in roof in Clay Tunnel
 * Pitches - set outline-in to 'view' into passage below
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
-* Digitise Hardy Pools Sump extension
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
 * There is something wrong with the stations / warp at the very end of Beetroot Sump
 * Fix Joins

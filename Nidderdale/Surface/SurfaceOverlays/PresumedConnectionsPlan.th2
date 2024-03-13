@@ -70,8 +70,8 @@ line u -subtype hydro
 endline
 
 line u -subtype hydro
-  7204.0 17516.0
-  7575.79 17568.86
+  7192.0 17516.0
+  7204.0 17636.0
 endline
 
 endscrap
