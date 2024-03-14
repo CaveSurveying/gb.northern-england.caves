@@ -19,6 +19,10 @@ line wall -close on -reverse on
   252.5 -89.5
 endline
 
+area water
+  l42-327--259
+endarea
+
 line border -id l42-327--259 -close on
   305.0 -263.0
   297.5 -268.75
