@@ -71,10 +71,13 @@ join MudHallSP4 ScaffoldTraversePlan@Pyridine
 
 ##JOINING DIGITISED NEWGOYDENSUMPS.  NOTE: THE SUMP SURVEY IS 3B AT BEST
 ##I'VE HAD TO DRASTICALLY ALTER IT TO FIT WITH THE KNOWN CAVE.  SOME FORM OF DIVE ERROR
-##THAT GETS PROGRESSIVELY WORSE DOWNSTREAM
+##THAT GETS PROGRESSIVELY WORSE DOWNSTREAM.  ANY MAJOR WARP ERRORS IN FUTURE, CHECK HERE FIRST!
 
 join GoydenDownstreamSumpsP@GoydenDownstreamSumps goy3SP1
 join GoydenDownstreamSumpsP@GoydenDownstreamSumps AquamoleSP6
+join GoydenDownstreamSumpsP2@GoydenDownstreamSumps AquamoleSP6
+join GoydenDownstreamSumpsP3@GoydenDownstreamSumps NewGoydenSP5
+join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@GoydenDownstreamSumps
 
 ####################################################
 

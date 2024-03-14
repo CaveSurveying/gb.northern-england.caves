@@ -28,7 +28,7 @@ CHANGES
 	- added Howgill Pot label to surface?  No u/g survey?
 	- added Dye Hard Inlet lable and 25m aven & dig
 * Digitise Goyden Downstream Sumps - done.  I've equated in two points, sump start (New Goyden) and 1.69 in Aguamole.  it creates some warp, but not as much if linked sump to Goyden. Probably as good as it will get without origianl data / re-survey
-	- other option is to split it into two and start at Aquamole (one downstream and one upstream)
+	- split into two, had to shorten one.  there is obvious error in the old survey (either doubled up stations or scale was wrong on part of it.  Error got progressively worse as reached end of survey / dive?
 * Digitise New Goyden Downstream Sumps - done.  linked to point 1.59 on PlanHard.  Included Caravan Trail as well, but had to link to same 1.59 and have not digitised as too small (circa 237m according to CDG - need good quality copy of survey)* Pyradine - A junction - DONE
 * extension beyond Hardy Pools sump - DIGITISED
 * Caravan Trail (CDG 112) - DIGITISED
@@ -77,7 +77,6 @@ TODO
 * Add Vulcan Rift Pot entrance
 * Change Howgill surface / pot
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
-* fix Goyden 3 Sumps, alignment and include streamway detals  -- DIFFICULT.  FIX TO AQUAMOLE AND CREATE SEPERATE SKETCHES OF UPS and DWNS
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Point size consistency
 * Change the line water symbols to point (L)
