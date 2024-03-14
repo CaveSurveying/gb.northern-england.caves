@@ -384,6 +384,11 @@ scrap ManHoleSP2 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4
 
 point 2578.571428571429 5339.285714285715 danger -scale m
 
+line arrow
+  2960.714285714286 5271.428571428572
+  2639.285714285714 5321.428571428572
+endline
+
 point 2998.6024844720496 5285.403726708075 label -scale m -text [grovel,<br>sumps fast] -align right
 
 line flowstone
@@ -570,7 +575,12 @@ endline
 
 point 3145.857142857143 4243.571428571428 label -text Fossil<br>Passage -scale xl -align right
 
-point 2196.1428571428573 4315.0 label -scale m -text dry<br>oxbow<br>(c2) -align left
+line ceiling-step
+  2932.0 3096.0
+  3002.25 3113.0
+endline
+
+point 2328.2857142857147 4200.714285714285 label -scale m -text dry<br>oxbow<br>(c2) -align left
 
 point 2742.857142857143 3360.714285714286 water-flow -orientation 193.2 -scale s
 
@@ -594,7 +604,7 @@ point 1132.142857142857 11964.285714285716 water-flow -orientation 153.7 -scale 
 
 point 1346.4285714285716 11564.285714285716 water-flow -orientation 153.7 -scale s
 
-point 1300.0 10992.857142857143 water-flow -orientation 153.7 -scale s
+point 1371.4285714285713 11010.714285714286 water-flow -orientation 153.7 -scale s
 
 point 1703.5714285714287 10607.142857142857 water-flow -orientation 170.9 -scale s
 
@@ -1132,6 +1142,7 @@ endarea
 line floor-step
   940.0 2954.0
   940.0 2954.0 973.43 2939.29 976.0 3050.0
+  smooth off
 endline
 
 line border -id l210-675-2830 -close on -visibility off
@@ -1151,15 +1162,6 @@ line border -id l210-675-2830 -close on -visibility off
   774.0 2606.0 881.0 2636.0 872.0 2662.0
   863.0 2688.0 908.0 2785.0 806.0 2797.0
   704.0 2809.0 462.0 2927.0 449.0 2861.0
-endline
-
-line slope -id l208-666-2275
-  772.0 2336.0
-  706.0 2315.0 637.0 2251.0 605.0 2237.0
-  l-size 44.3
-  573.0 2223.0 483.0 2101.0 478.0 2087.0
-  473.0 2073.0 410.0 1995.0 410.0 1995.0
-  smooth off
 endline
 
 line overhang -close on -place top
