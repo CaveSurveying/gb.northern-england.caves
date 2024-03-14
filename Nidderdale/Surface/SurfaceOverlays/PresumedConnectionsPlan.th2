@@ -13,11 +13,11 @@ point 7364.0 20728.0 label -scale xl -align top-right -text [<it>Beet Route Sump
 
 point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<it>The Eastern trunk route?<br>(Carter Passage to Sump 8)]
 
-point 4516.0 24108.0 label -scale xl -align top-right -text [<it>October Passage<br>to Bridge Hall]
+point 4724.0 23476.0 label -scale xl -text [<it>October Passage<br>to Bridge Hall] -align left
 
 line u -subtype hydro
-  4176.0 25212.0
-  4652.0 22680.0
+  4912.0 23984.0
+  4688.0 22588.0
 endline
 
 line u -subtype hydro
@@ -61,7 +61,7 @@ point 8908.86 25014.920000000002 station -name S1
 
 line u -subtype hydro
   5804.0 22080.0
-  4712.0 22648.0
+  4732.0 22544.0
 endline
 
 line u -subtype hydro

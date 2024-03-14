@@ -6,7 +6,7 @@ input Goyden2P.th2
 #input Goyden2E90.th2
 
 map goyden2Plan -title "Goyden2 Plan"
-  Goyden2SP1
+  Goyden2SP1  
 endmap
 
 #map Goyden2ME
@@ -16,7 +16,6 @@ endmap
 #map Goyden2E90 -proj [elevation 90]
   #Goyden2SE90_1
 #endmap
-
 
 
 survey Goyden2

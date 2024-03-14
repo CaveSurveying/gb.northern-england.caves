@@ -32,6 +32,7 @@ CHANGES
 * Digitise New Goyden Downstream Sumps - done.  linked to point 1.59 on PlanHard.  Included Caravan Trail as well, but had to link to same 1.59 and have not digitised as too small (circa 237m according to CDG - need good quality copy of survey)* Pyradine - A junction - DONE
 * extension beyond Hardy Pools sump - DIGITISED
 * Caravan Trail (CDG 112) - DIGITISED
+* October Passage - DIGITISED
 * Planetarium, added in new astronmers and avens, linked to 1.69.  Added in slopes and boulders 
 * List of surveyors or “Black Sheep Diggers”? - I've temporarily reverted to surveyors over BSD, as there was spelling mistake in one of them.  List of surveyors better if ever want to do 'explo' stats etc.?
 * in nidderdale.th file create new map for surface scraps.  This then can be controlled with a different colour in the thconfig
@@ -63,6 +64,7 @@ CHANGES
 * Missing water flow points in various places
 	* i.e water flow from Manchester to Goyden?
 * Removed output folders.  All lower level now generate locally (may have missed a few - will error).  Root > Output to be used only for NIdderdale (master survey) and 'distinct' caves (Goyden, New Goyden, TT etc.) - TBC
+* Renamed Beetroot to Beet Route on th2 (rename folders / files in long run?)
 
 
 
@@ -97,7 +99,6 @@ TODO
 MISSING SURVEYS
 ---------------
 * Upper and lower nurgatory to Main Stream
-* October Passage
 * Labryinth - New Stream Passage
 * Limley inlet/survey Back Steps (and offset produce)
 * Limley Pot?

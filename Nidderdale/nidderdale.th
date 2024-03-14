@@ -15,6 +15,7 @@ input goyden/goyden2/Goyden2.th
 input goyden/gargettWay/GargettWay.th
 input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
+input goyden/goyden2/OctoberPassage/OctoberPassage.th
 
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
@@ -43,29 +44,31 @@ input Surface/SurfaceOverlays/Overlays.th
 
 #### Plan Joins ####
 
-join GoydenSP1 LabyrinthSP1@LabyrinthIndex
-join churchPotSP4 GoydenSP1
+
+join GoydenSP1 churchPotSP4
 join GoydenSP1 PillarPotSP1
 join GoydenSP1 MudHallSP1
 join GoydenSP1 MudHallSP3
+join GoydenSP1 LabyrinthSP1@LabyrinthIndex
+join LabyrinthSP4@LabyrinthIndex CarterPassageSP1
+join LabyrinthSP1@LabyrinthIndex MudHallSP5
+join LabyrinthSP2@LabyrinthIndex CapLeftTunnelSP1
+join LabyrinthSP1@LabyrinthIndex PyridinePlan@Pyridine
+join MudHallSP4 ScaffoldTraversePlan@Pyridine
+join PillarPotSP2 CapLeftTunnelSP2
+join Goyden2SP1 goy3SP1
+join Goyden2SP1 OctoberPassagePlan@OctoberPassage
+join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
+
+join NewGoydenSP5 ThropePotSP1
+join NewGoydenSP4 PlanHardSP1
+join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
 join FrogPotSP3@FrogPotIndex AquamoleSP1
 join FrogPotSP3@FrogPotIndex ShackletonsSP1
 join AquamoleSP4 ShackletonsSP7
 join AquamoleSP2 NorthChokeSP1@NorthChokeIndex
-join LabyrinthSP4@LabyrinthIndex CarterPassageSP1
-join LabyrinthSP1@LabyrinthIndex MudHallSP5
-join NewGoydenSP4 PlanHardSP1
-join ThropePotSP1 NewGoydenSP5
+
 join Surface1SP3 Surface2SP4
-join Goyden2SP1 goy3SP1
-join CapLeftTunnelSP1 LabyrinthSP2@LabyrinthIndex
-join CapLeftTunnelSP2 PillarPotSP2
-join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
-join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
-
-join LabyrinthSP1@LabyrinthIndex PyridinePlan@Pyridine
-join MudHallSP4 ScaffoldTraversePlan@Pyridine
-
 
 #join PlanHardSP2  NewGoydenSP4
 
@@ -108,6 +111,7 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
   goyden2Plan
+  m1p@OctoberPassage
   goy3Plan
   CapLeftTunnelPlan
   
@@ -161,6 +165,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   m1p@Pyridine
   CarterPassagePlan
   #goyden2Plan
+  #m1p@OctoberPassage
   #goy3Plan
   CapLeftTunnelPlan
 endmap
@@ -202,6 +207,7 @@ equate 1.11@Goyden 1.70@MudHall
 equate 1.23@Labyrinth.LabyrinthIndex 1.101@MudHall
 equate 1.0@GargettWay 1.9@ChurchPot
 equate 1.16@Goyden2 1.16@GargettWay
+equate 1.17@Goyden2 0@OctoberPassage 
 equate 1.19@Labyrinth.LabyrinthIndex 1.19@Goyden
 equate 1.8@Goyden 1.0@PillarPot
 equate 1.0@CarterPassage 1.82@Labyrinth.LabyrinthIndex
