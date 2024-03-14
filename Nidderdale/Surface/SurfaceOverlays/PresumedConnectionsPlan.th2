@@ -9,7 +9,7 @@ scrap GoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 9504.0 18636.0 u -subtype mappe -attr bordersmooth 0 -attr text "Eastern trunk route?" -scale l -visibility off -align bottom-left
 
-point 7364.0 20728.0 label -scale xl -align top-right -text [<it>Beetroot Sump to<br>Frog Pot Upstream Sump]
+point 7364.0 20728.0 label -scale xl -align top-right -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump]
 
 point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<it>The Eastern trunk route?<br>(Carter Passage to Sump 8)]
 

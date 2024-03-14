@@ -93,6 +93,8 @@ point 791.8032786885245 234.42622950819674 label -text [water<br>level<br>-500mm
 
 point 704.9180327868853 365.57377049180326 label -text [end station<br>is dive line<br>anchor] -align top-left -visibility off -scale m
 
+point 663.9344262295082 1322.9508196721313 label -text [Beet Route<br>Canal] -scale l -align right
+
 line border -id l21-512-2202 -close off
   510.0 2048.0
   498.0 2084.0 528.0 2340.0 512.0 2348.0
@@ -136,7 +138,7 @@ line rock-edge -clip off
   smooth off
 endline
 
-point 475.40983606557376 939.344262295082 continuation -scale m -text "?? Just before beet root sump" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+point 475.40983606557376 939.344262295082 continuation -scale m -text "?? Just before beet route sump" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
 
 line wall -id BRCSP1Start
   214.61 2260.67

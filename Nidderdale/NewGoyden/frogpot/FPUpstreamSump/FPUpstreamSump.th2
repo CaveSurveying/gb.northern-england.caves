@@ -70,6 +70,8 @@ line wall
   smooth off
 endline
 
+point 1728.0 336.0 label -text [Frog Pot<br>Upstream Sump] -scale m
+
 line wall
   1489.0 -349.0
   1489.0 -349.0 1490.0 -306.0 1492.0 -287.0
