@@ -1,0 +1,393 @@
+encoding  utf-8
+survey NidderdaleFixedPoints -title "GPS Locations<br><it>Nidderdale, United Kingdom"
+
+
+### THIS IS A TEMP FILE.  THE GPS ARE FROM VARIOUS PLACES.... (https://gridreferencefinder.com/)
+  centerline
+  
+cs OSGB:SE
+
+station AngramCave "Angram Cave"
+fix AngramCave              04600 76600  361
+
+station BackSteps "Back Steps"          
+fix BackSteps               09982 76125 224
+
+station BaxPot "Bax Pot"     ##Probably incorrect
+fix BaxPot                  09983 76168 224
+
+station BlayshawGillPotNo1 "Blayshaw Gill Pot No. 1"    
+fix BlayshawGillPotNo1      09980 72860 188
+
+station BlayshawGillPotNo2 "Blayshaw Gill Pot No. 2"
+fix BlayshawGillPotNo2      09960 72850 188
+
+station CanalCave  "Canal Cave"
+fix CanalCave               10060 73550 174
+
+station ChurchPot "Church Pot"
+fix ChurchPot               09959 76033 224 
+
+station CliffWoodSink "Cliff Wood Sink"
+fix CliffWoodSink           08690 73970 223
+
+station EglinsHole "Eglin’s Hole"                                      
+fix EglinsHole              09350 73550 190
+
+station LowEglins "Low Eglin's"
+fix LowEglins             09471 73492 190
+
+station FoxHole "Fox Hole"
+fix FoxHole                 08710 73930 223
+
+station FrogPot "Frog Pot"
+fix FrogPot                 10140 75630 212
+
+station GoydenPot "Goyden Pot"
+fix GoydenPot               09976 76127 219 #old? 0999 7613 
+
+#station GoydenScarNo1 "Goyden Scar No. 1" (scar to left of Goyden entrance)
+#fix GoydenScarNo1 xxxx
+
+#station GoydenScarNo2 "Goyden Scar No.2" (scar to left of Goyden entrance)
+#fix GoydenScarNo2 xxxx
+
+station GuscottPot "Guscott Pot"   
+fix GuscottPot            10090 75780 219
+
+#station HarrogateHole "Harrogate Hole"       
+#fix HarrogateHole       #Lost
+
+station HazelCloseCave "Hazel Close Cave"     
+fix HazelCloseCave         09000 73630 222
+
+station HowSteanTunnel  "How Stean Tunnel"
+fix HowSteanTunnel        09210 73450 200
+
+station HowgillPot "Howgill Pot"
+fix HowgillPot            10140 75380 208
+
+station LesserStreamPot "Lesser Steam Pot"                            
+fix LesserStreamPot         09980 76140 224
+
+station LimleyPot "Limley Pot"  
+fix LimleyPot                10040 76010 231
+
+station LofthouseFossCaveNo1 "Lofthouse Foss Cave No. 1"
+fix LofthouseFossCaveNo1            10070 73640 189
+
+station LofthouseFossCaveNo2 "Lofthouse Foss Cave No. 2"  
+fix    LofthouseFossCaveNo2        10070 73620 174
+
+station LofthousePot "Lofthouse Pot"       
+fix LofthousePot            10069 73480 174
+
+station LowerCanalCave "Lower Canal Cave"
+fix LowerCanalCave           1007 7355 174
+
+station ManchesterHole "Manchester Hole"
+fix ManchesterHole            10013 76401 234
+
+station NewGoydenPot "New Goyden Pot"
+fix NewGoydenPot              10154 75407 208
+
+station NiddHeadRisingNWRising "Nidd Head Rising NW Rising"         
+fix NiddHeadRisingNWRising   10500 73180 186
+
+station NiddHeadRisingSERising "Nidd Head Rising SE Rising"       
+fix NiddHeadRisingSERising   10590 73100 169
+
+station NiddHeadsTributaryRising "Nidd Heads Tributary Rising"         
+fix NiddHeadsTributaryRising  10490 73180 186
+
+station LimleyLeadMine "Limley Lead Mine"
+fix LimleyLeadMine  10074 75745 214 219
+
+station OldQuarryPot "Old Quarry Pot"
+fix OldQuarryPot   10186 75471 209
+
+station PigskinPot "Pigskin Pot"
+fix PigskinPot    10210 75475 211
+
+station DryWathEntrance "DryWath"
+fix DryWathEntrance  10177 75514 205
+
+#station VulcanRiftPot "Vulcan Rift Pot"
+#fix VulcanRiftPot
+
+station ThropeEdgePot "Thrope Edge Pot"
+fix ThropeEdgePot   10158 75385 208
+
+station ZanussiPot "Zanussi Pot"
+fix ZanussiPot   10051 75987 231
+
+station TomTaylorsCave "Tom Taylors Cave"
+fix TomTaylorsCave 09374 73529 190
+                
+   
+  endcenterline          
+
+                
+  scrap AngramCaveLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name AngramCave
+      point 0 0 label -scale s -align left -text [Angram Cave<br><it>SE 04600 76600]
+    endscrap 
+
+    scrap BackStepsLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name BackSteps
+      point 0 0 label -scale s -align left -text [Back Steps <br><it> SE 09982 76125]
+    endscrap
+
+    scrap BaxPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name BaxPot
+      point 0 0 label -scale s -align left -text [Bax Pot<br><it>SE 09980 76170]
+    endscrap
+                
+    scrap BlayshawGillPotNo1Loc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name BlayshawGillPotNo1
+      point 0 0 label -scale s -align left -text [BlayshawGillPotNo1<br><it>SE 09980 72860]
+    endscrap
+                
+   scrap BlayshawGillPotNo2Loc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name BlayshawGillPotNo2
+      point 0 0 label -scale s -align left -text [BlayshawGillPotNo2<br><it>SE 09960 72850]
+    endscrap
+                
+     scrap CanalCaveLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name CanalCave
+      point 0 0 label -scale s -align left -text [Canal Cave<br><it>SE 10060 73555]
+    endscrap
+                
+     scrap ChurchPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name ChurchPot
+      point 0 0 label -scale s -align left -text [Church Pot<br><it>SE 09959 76033 217]
+    endscrap
+                
+    scrap CliffWoodSinkLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name CliffWoodSink
+      point 0 0 label -scale s -align left -text [Cliff Wood Sink<br><it>SE 0869 7397]
+    endscrap
+
+   scrap EglinsHoleLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name EglinsHole
+      point 0 0 label -scale s -align left -text [Eglins Hole<br><it>SE 0935 7355]
+    endscrap
+                
+   scrap FoxHoleLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name FoxHole
+      point 0 0 label -scale s -align left -text [FoxHole<br><it> SE 0871 7393]
+    endscrap
+                
+    scrap FrogPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name FrogPot
+      point 0 0 label -scale s -align left -text [Frog Pot<br><it>SE 10140 75630 200]
+    endscrap
+                
+    scrap GoydenPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name GoydenPot
+      point 0 0 label -scale s -align left -text [Goyden Pot<br><it>SE 09976 76127 219]
+    endscrap
+
+   scrap GuscottPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name GuscottPot
+      point 0 0 label -scale s -align left -text [Guscott Pot<br><it>SE 10090 75780 210]
+    endscrap
+
+    scrap HazelCloseCaveLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name HazelCloseCave
+      point 0 0 label -scale s -align left -text [Hazel Close Cave<br><it>SE 0900 7363]
+    endscrap
+
+    scrap HowSteanTunnelLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name HowSteanTunnel
+      point 0 0 label -scale s -align left -text [How Stean Tunnel<br><it>SE 0921 7345]
+    endscrap
+
+    scrap HowgillPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name HowgillPot
+      point 0 0 label -scale s -align left -text [Howgill Pot<br><it>SE 1014 7538]
+    endscrap
+
+    scrap LesserStreamPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LesserStreamPot
+      point 0 0 label -scale s -align left -text [Lesser Stream Pot<br><it>SE 0998 7614]
+    endscrap
+                
+    scrap LimleyPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LimleyPot
+      point 0 0 label -scale s -align left -text [Limley Pot<br><it>SE 1004 7601]
+    endscrap
+                
+    scrap LofthouseFossCaveNo1Loc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LofthouseFossCaveNo1
+      point 0 0 label -scale s -align left -text [Lofthouse Foss Cave No1<br><it>SE 1007 7364]
+    endscrap
+                
+    scrap LofthouseFossCaveNo2Loc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LofthouseFossCaveNo2
+      point 0 0 label -scale s -align left -text [Lofthouse Foss Cave No2<br><it>SE 1007 7362]
+    endscrap
+
+    scrap LofthousePotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LofthousePot
+      point 0 0 label -scale s -align left -text [Lofthouse Pot<br><it>SE 10069 73480 166]
+    endscrap    
+
+   scrap LowEglinsLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LowEglins
+      point 0 0 label -scale s -align left -text [Low Eglin's br><it>SE 09471 73492 191]
+    endscrap
+    
+   scrap LowerCanalCaveLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LowerCanalCave
+      point 0 0 label -scale s -align left -text [Lower Canal Cave<br><it>SE 1007 7355]
+    endscrap
+
+    scrap ManchesterHoleLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name ManchesterHole
+      point 0 0 label -scale s -align left -text [Manchester Hole<br><it>SE 1001 7640]
+    endscrap
+                
+    scrap NewGoydenPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name NewGoydenPot
+      point 0 0 label -scale s -align left -text [New Goyden Pot<br><it>SE 10154 75407 200m]
+    endscrap
+
+    scrap NiddHeadRisingNWRisingLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name NiddHeadRisingNWRising
+      point 0 0 label -scale s -align left -text [Nidd Head Rising NW Rising<br><it>SE 1050 7318]
+    endscrap
+                
+    scrap NiddHeadRisingSERisingLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name NiddHeadRisingSERising
+      point 0 0 label -scale s -align left -text [Nidd Head Rising SE Rising<br><it>SE 1059 7310]
+    endscrap
+                
+    scrap NiddHeadsTributaryRisingLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name NiddHeadsTributaryRising
+      point 0 0 label -scale s -align left -text [Nidd Heads Tributary Rising<br><it>SE 1049 7318]
+    endscrap
+
+    scrap OldQuarryPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name OldQuarryPot
+      point 0 0 label -scale s -align left -text [Old Quarry Pot<br><it> SE 10186 75471 209m]
+    endscrap
+
+    scrap PigskinPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name PigskinPot
+      point 0 0 label -scale s -align left -text [Pigskin Pot <br><it> SE 10210 75475 211m]
+    endscrap
+
+    scrap DryWathEntranceLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name DryWathEntrance
+      point 0 0 label -scale s -align left -text [Dry Wath Entrance<br><it> SE 10177 75514]
+    endscrap
+
+    scrap LimleyLeadMineLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LimleyLeadMine
+      point 0 0 label -scale s -align left -text [Limley Lead Mine <br><it> SE 10074 75745 214m]
+    endscrap
+
+    scrap ThropeEdgePotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name ThropeEdgePot
+      point 0 0 label -scale s -align left -text [ThropeEdgePot <br><it> SE 10158 75385 200m]
+    endscrap
+
+     scrap ZanussiPotLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name ZanussiPot
+      point 0 0 label -scale s -align left -text [Zanussi Pot <br><it> SE 10051 75987]
+    endscrap
+    
+    scrap TomTaylorsCaveLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name TomTaylorsCave
+      point 0 0 label -scale s -align left -text [Tom Taylors Cave<br><it>SE 09374 73529 193]
+    endscrap 
+
+
+###BUILD MAPS
+
+map GoydenSystem -projection plan
+    
+  ManchesterHoleLoc
+  GoydenPotLoc
+  BaxPotLoc
+  BackStepsLoc
+  LimleyPotLoc
+  ZanussiPotLoc
+  LesserStreamPotLoc
+  ChurchPotLoc
+  GuscottPotLoc
+                
+  NewGoydenPotLoc
+  FrogPotLoc
+  LimleyLeadMineLoc
+  HowgillPotLoc
+  OldQuarryPotLoc
+  PigskinPotLoc
+  ThropeEdgePotLoc
+  DryWathEntranceLoc            
+    
+endmap
+   
+map Lofthouse -projection plan
+
+   LofthousePotLoc
+   CanalCaveLoc 
+   LowerCanalCaveLoc
+   LofthouseFossCaveNo1Loc
+   LofthouseFossCaveNo2Loc
+   NiddHeadRisingNWRisingLoc
+   NiddHeadRisingSERisingLoc
+   NiddHeadsTributaryRisingLoc
+   BlayshawGillPotNo1Loc
+   BlayshawGillPotNo2Loc
+   
+endmap
+   
+map Howstean -projection plan
+
+   HowSteanTunnelLoc
+   HazelCloseCaveLoc
+   EglinsHoleLoc
+   #TomTaylorsCaveLoc
+   FoxHoleLoc
+   
+endmap
+
+endsurvey
+
