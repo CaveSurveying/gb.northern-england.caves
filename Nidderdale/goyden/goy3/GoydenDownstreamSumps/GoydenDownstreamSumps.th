@@ -45,12 +45,14 @@ survey GoydenDownstreamSumps -title "Goyden Sumps<br><it>Nidderdale"
 21  22  21.15384615  348  1  
 22  23  15.38461538  348  0  
 23  24  9.615384615  348  1  #stn24 edge of Sump4
-24  25  9.615384615  331  0  #stn25 endge of sump 4
-25  26  9.615384615  313  0  
-26  27  15.38461538  313  0  #stn27 start of sump 3
-27  28  17.30769231  251  0  #Bridge Hall
-28  29  19.23076923  285  1  #Bridge Hall
-29  1.9  9.615384615  308  0  #1.9 is  dive line on wall (Goyden)
+
+##BELOW COVERED UNDER MAINSTREAM EXTENSION
+#24  25  9.615384615  331  0  #stn25 endge of sump 4
+#25  26  9.615384615  313  0  
+#26  27  15.38461538  313  0  #stn27 start of sump 3
+#27  28  17.30769231  251  0  #Bridge Hall
+#28  29  19.23076923  285  1  #Bridge Hall
+#29  1.9  9.615384615  308  0  #1.9 is  dive line on wall (Goyden)
 
 
 data dimensions station left right up down
@@ -81,11 +83,11 @@ data dimensions station left right up down
 22  0  3.846153846  3.846153846  0  
 23  0  5.769230769  3.846153846  0  #stn24 edge of Sump4
 24  5.769230769  0  3.846153846  0  #stn25 endge of sump 4
-25  5.769230769  0  7.692307692  0  
-26  5.769230769  7.692307692  9.615384615  0  #stn27 start of sump 3
-27  7.692307692  0  5.769230769  0  #Bridge Hall
-28  0  7.692307692  5.769230769  0  #Bridge Hall
-29  3.846153846  3.846153846  3.846153846  0  #1.9 is  dive line on wall (Goyden)
+#25  5.769230769  0  7.692307692  0  
+#26  5.769230769  7.692307692  9.615384615  0  #stn27 start of sump 3
+#27  7.692307692  0  5.769230769  0  #Bridge Hall
+#28  0  7.692307692  5.769230769  0  #Bridge Hall
+#29  3.846153846  3.846153846  3.846153846  0  #1.9 is  dive line on wall (Goyden)
    
   endcenterline
 

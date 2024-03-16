@@ -11,6 +11,7 @@ input goyden/labyrinth/LabyrinthIndex.th
 input goyden/Pyridine/Pyridine.th
 input goyden/goy3/Goy3.th
 input goyden/goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
+input goyden/goy3/GoydenDownstreamSumps/GoydenMainStreamExtension.th   #####################TODO###########
 input goyden/goyden2/Goyden2.th
 input goyden/gargettWay/GargettWay.th
 input goyden/pillarPot/PillarPot.th
@@ -36,6 +37,7 @@ input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
+input Surface/SurfaceOverlays/NidderdaleFixedPoints.th
 
 #input LimleyLeadMine/LimleyLeadMine.th
 #input LowEglins/LowEglins.th
@@ -72,11 +74,12 @@ join Surface1SP3 Surface2SP4
 
 #join PlanHardSP2  NewGoydenSP4
 
-##JOINING DIGITISED NEWGOYDENSUMPS.  NOTE: THE SUMP SURVEY IS 3B AT BEST
-##I'VE HAD TO DRASTICALLY ALTER IT TO FIT WITH THE KNOWN CAVE.  SOME FORM OF DIVE ERROR
+##JOINING DIGITISED NEWGOYDENSUMPS.  NOTE: THE SUMP SURVEY IS 3B AT BEST FROM BRIDGEHALL DOWN
+##I'VE HAD TO DRASTICALLY ALTER IT BETWEEN SUMP 7 AND NEW GOYDEN TO SOME FORM OF DIVE ERROR
 ##THAT GETS PROGRESSIVELY WORSE DOWNSTREAM.  ANY MAJOR WARP ERRORS IN FUTURE, CHECK HERE FIRST!
 
-join GoydenDownstreamSumpsP@GoydenDownstreamSumps goy3SP1
+join goy3SP1 GoydenMainStreamExtensionPlan@GoydenMainStreamExtension
+join GoydenDownstreamSumpsP@GoydenDownstreamSumps GoydenMainStreamExtensionPlan@GoydenMainStreamExtension
 join GoydenDownstreamSumpsP@GoydenDownstreamSumps AquamoleSP6
 join GoydenDownstreamSumpsP2@GoydenDownstreamSumps AquamoleSP6
 join GoydenDownstreamSumpsP3@GoydenDownstreamSumps NewGoydenSP5
@@ -91,6 +94,7 @@ map surfacePlan
   #m1p@SurfaceOQP #need latest GPS from Nick, but does not really work as surface overlay
   break
   m1p@Overlays
+  #GoydenSystem@NidderdaleFixedPoints  ##all entrance GPS (NEEDS AN UPDATE)
 endmap
 
 map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
@@ -131,6 +135,7 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   aquamolePlan  
   break
   m1p@GoydenDownstreamSumps
+  m1p@GoydenMainStreamExtension
   m1p@NewGoydenDownstreamSumps  
   m1p@HardyPoolsExt
   
@@ -234,9 +239,12 @@ equate 1@SurfaceOQP 0@OQP
 equate 0@Pyridine 1.39@Labyrinth.LabyrinthIndex
 
 ##PW IN PROGRESS - AS GoyDownSump are digitised need to fudge some data to prevent warp.
+
 #equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
 equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
 #equate 1.36@GoydenDownstreamSumps 1.9@goy3
+equate 1.9@goy3 1.9@GoydenMainStreamExtension
+equate 11@GoydenMainStreamExtension 24@GoydenDownstreamSumps
 
 equate 1.10@CarterPassage S1@Overlays
 equate 10@NewGoydenDownstreamSumps S2@Overlays

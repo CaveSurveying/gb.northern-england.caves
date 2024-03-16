@@ -9,20 +9,20 @@ scrap GoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 9504.0 18636.0 u -subtype mappe -attr bordersmooth 0 -attr text "Eastern trunk route?" -scale l -visibility off -align bottom-left
 
-point 7364.0 20728.0 label -scale xl -align top-right -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump]
+point 7396.0 20752.0 label -scale xl -align top-right -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)]
 
-point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<it>The Eastern trunk route?<br>(Carter Passage to Sump 8)]
+point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<it>The Eastern trunk route?<br>(Carter Passage to Sump 8)<br>(approx. 1km)]
 
-point 4724.0 23476.0 label -scale xl -text [<it>October Passage<br>to Bridge Hall] -align left
+point 5016.0 23560.0 label -scale xl -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -align right
 
 line u -subtype hydro
-  4912.0 23984.0
-  4688.0 22588.0
+  4896.0 23984.0
+  4932.0 22440.0
 endline
 
 line u -subtype hydro
   7148.0 20820.0
-  7400.0 20532.0
+  7488.0 20564.0
 endline
 
 line u -subtype hydro
@@ -48,9 +48,9 @@ scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 8874.02 12876.34 station -name S2
 
-point 5384.0 22408.0 label -scale xl -align top-right -text [<it>Bridge Hall<br>to Guscott Pot]
+point 5564.0 22456.0 label -scale xl -align top-right -text [<it>Bridge Hall<br>to Guscott Pot<br>(approx. 53m)]
 
-point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke]
+point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)]
 
 line u -subtype hydro
   6296.0 21296.0
@@ -60,8 +60,9 @@ endline
 point 8908.86 25014.920000000002 station -name S1
 
 line u -subtype hydro
-  5804.0 22080.0
-  4732.0 22544.0
+  5828.0 22128.0
+  5828.0 22128.0 5524.0 22652.0 4752.0 22432.0
+  smooth off
 endline
 
 line u -subtype hydro
