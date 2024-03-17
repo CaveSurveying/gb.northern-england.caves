@@ -5,7 +5,9 @@ input OSMOverlay.th2
 
 map OSMSurface -title "OSM Overlay"
   OSMGoyden
-  OSMNewGoyden
+  OSMNewGoyden2
+  break
+  OSMNewGoyden1
 endmap
 
 

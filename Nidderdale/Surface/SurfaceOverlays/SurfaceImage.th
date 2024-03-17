@@ -4,8 +4,9 @@ survey SurfaceImage -title "Nidderdale Surface Image"
 
 surface
 
-bitmap ..\..\XTherionFiles\778x1802.png [114 107 0 0 88 56 -33 -64]
+bitmap ..\..\XTherionFiles\778x1802.png [0 1176 1529079.8 5089914.6 854 186 1529802.9 5089076.7]
 
 endsurface
 
 endsurvey
+
