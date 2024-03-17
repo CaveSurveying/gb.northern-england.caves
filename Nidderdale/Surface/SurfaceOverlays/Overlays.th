@@ -3,7 +3,7 @@ survey Overlays -title "Overlays"
 
 input PresumedConnectionsPlan.th2
 
-map m1p -title "Overlays"
+map OverlaysPlan -title "Overlays"
   #PresumedConnectionsPlan
   GoydenPlan
   NewGoydenPlan

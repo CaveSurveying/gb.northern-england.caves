@@ -1,0 +1,11 @@
+encoding  utf-8
+survey SurfaceImage -title "Nidderdale Surface Image"
+
+
+surface
+
+bitmap ..\..\XTherionFiles\778x1802.png [114 107 0 0 88 56 -33 -64]
+
+endsurface
+
+endsurvey
