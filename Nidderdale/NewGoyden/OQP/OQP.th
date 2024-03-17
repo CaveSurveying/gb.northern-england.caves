@@ -8,13 +8,13 @@ input "OQP-OQPp.th2"
 input "OQP-jigsawp.th2"
 input "OQP-jigsaws.th2"
 
-map m1p -projection plan
+map OldQuarryPotPlan -projection plan
   OQP-OQPp
    break
   OQP-jigsawp
 endmap
    
-map m1s -projection extended
+map OldQuarryPotElevation -projection extended
   OQP-jigsaws
 endmap  
     

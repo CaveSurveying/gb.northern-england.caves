@@ -12,9 +12,8 @@ TODO
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * Point size consistency
-* Change the line water symbols to point (L)
 * On PresumedConnections overlay add:
-	* Pigskin > Produler to Dye Hard Inlet (dye traced)
+	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
 	* Pigskin > Covid Way to NG 25m aven
 * Review ceiling vs floor steps, confirmed some are wron way round (i.e. step down nr Hardy Pools)
 * Dotted line from static sump to pillar pot? - presumed lines preferred but need extra pillar pot survey
@@ -69,14 +68,20 @@ THERION DRAWING STDS RECOMMENDATIONS
 * Water Flow - use point (M) Orientated with flow of water
 * Passage Slopes - use passage gradient point (M) Orientated down slope (not line)
 * All other points (M) - Dig, ? etc.
-*For all POssible Continuations points (?) add the following into options, amended accordingly!   
+*For all Possible Continuations points (?) add the following into options, amended accordingly!   
 	 -text "tight wet inlet series" -attr who "Phil Walker" -attr what aven -attr priority Low -attr ref elevation #-explored 5m
 
 * use CamelCase for all naming
+* naming conventions
+	* maps (in th file) tobe meaningful, i.e. PyridinePassagePlan
+	* scraps to follow map naming i.e. PyridinePassageP1, P2 etc. (or be distinct names)
 
 
 CHANGES
 -------
+* Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?)
+* Survey stats are including Surface data in the total.  Need to exclude.	-  added "flags surface", some surface ones had it on, some not.  
+* Change the line water symbols to point (L)
 * Add TODO file at root level (this document)
 * Add XTherionFiles folder at root level for images / generic template call
 * Create global layout templates (custom_border, custom_lines, custom_scalebar)

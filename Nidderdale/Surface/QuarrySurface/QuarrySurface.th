@@ -21,7 +21,6 @@ copyright 2023 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #pda - Rich
 #disto - Nick
-#
 
   date 2018.10.29
 
@@ -32,7 +31,7 @@ copyright 2023 "GNU GPL"
   instrument  instruments "Nick Disto 3295"
 
   explo-date 2018.10.29
-
+flags surface
 data normal from to tape compass clino ignoreall
   extend right
 #100  0.0  0.0  0.0  0.0  

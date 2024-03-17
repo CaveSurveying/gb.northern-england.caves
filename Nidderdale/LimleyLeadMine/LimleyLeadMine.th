@@ -6,13 +6,13 @@ survey LimleyLeadMine -title "Limley Lead Mine,<br><it>Nidderdale"
    input "LimleyLeadMinePlan.th2"
 
 
-   map m1p -projection plan
+   map LimleyLeadMinePlan -projection plan
      LimleyLeadMinePlan2
      break
      LimleyLeadMinePlan1
    endmap
    
-  # map m1s -projection extended   
+  # map LimleyLeadMineElevation -projection extended   
  # LimleyLeadMineE
   # endmap   
  

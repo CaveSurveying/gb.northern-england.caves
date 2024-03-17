@@ -37,7 +37,9 @@ input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
-input Surface/SurfaceOverlays/NidderdaleFixedPoints.th
+#input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##NEEDS NEW GPS
+#input Surface/SurfaceOverlays/SurfaceImage.th            ##DONT USE YET
+input Surface/SurfaceOverlays/SurfaceOSM.th
 
 #input LimleyLeadMine/LimleyLeadMine.th
 #input LowEglins/LowEglins.th
@@ -61,7 +63,6 @@ join PillarPotSP2 CapLeftTunnelSP2
 join Goyden2SP1 goy3SP1
 join Goyden2SP1 OctoberPassagePlan@OctoberPassage
 join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
-
 join NewGoydenSP5 ThropePotSP1
 join NewGoydenSP4 PlanHardSP1
 join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
@@ -69,9 +70,7 @@ join FrogPotSP3@FrogPotIndex AquamoleSP1
 join FrogPotSP3@FrogPotIndex ShackletonsSP1
 join AquamoleSP4 ShackletonsSP7
 join AquamoleSP2 NorthChokeSP1@NorthChokeIndex
-
 join Surface1SP3 Surface2SP4
-
 #join PlanHardSP2  NewGoydenSP4
 
 ##JOINING DIGITISED NEWGOYDENSUMPS.  NOTE: THE SUMP SURVEY IS 3B AT BEST FROM BRIDGEHALL DOWN
@@ -89,17 +88,19 @@ join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@Goyde
 
 
 map surfacePlan  
-  Surface2Plan
-  surface1Plan
-  #m1p@SurfaceOQP #need latest GPS from Nick, but does not really work as surface overlay
+  OSMSurface@SurfaceOSM
+  #SurfaceImage
+  #Surface2Plan
+  #surface1Plan  
   break
-  m1p@Overlays
-  #GoydenSystem@NidderdaleFixedPoints  ##all entrance GPS (NEEDS AN UPDATE)
+  OverlaysPlan@Overlays   #connection lines  
+  #SurfaceOQP #need latest GPS from Nick, but does not really work as surface overlay
+  #GoydenSystem@NidderdaleFixedPoints  ##all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
-  m1p@OQP   #NEED NEW GPS
-  m1p@PigskinPot #NEED NEW GPS
+  OldQuarryPotPlan@OQP   #NEED NEW GPS
+  PigskinPotPlan@PigskinPot #NEED NEW GPS
   break  
   GuscottIndex@GuscottIndex
   churchPotPlan
@@ -111,18 +112,18 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   manholePlan
   EternalOptomist-offset [-50 0 m] below
-  m1p@Pyridine
+  PyridineP@Pyridine
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
   goyden2Plan
-  m1p@OctoberPassage
+  OctoberPassageP@OctoberPassage
   goy3Plan
   CapLeftTunnelPlan
   
   ####NewGoyden/Frog####
   QuarrySurfacePlan
   ThropePotPlan
-  m1p@astronomers
+  AstronomersPlan@astronomers
   PlanHardPlan
   break
   NewGoydenPlan
@@ -134,13 +135,13 @@ map nidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   ShackletonsPlan
   aquamolePlan  
   break
-  m1p@GoydenDownstreamSumps
-  m1p@GoydenMainStreamExtension
-  m1p@NewGoydenDownstreamSumps  
-  m1p@HardyPoolsExt
+  GoydenDownstreamSumpsPlan@GoydenDownstreamSumps
+  GoydenMainStreamExtPlan@GoydenMainStreamExtension
+  NewGoydenDownstreamSumpsPlan@NewGoydenDownstreamSumps  
+  HardyPoolsExtPlan@HardyPoolsExt
   
   ############################
-  #m1p@LimleyLeadMine  #digitised.  adding creates large pdf as this is ~1km of passage heading west
+  #LimleyLeadMinePlan@LimleyLeadMine  #digitised.  adding creates large pdf as this is ~1km of passage heading west
   #LowEglinsPlan
   #LofthousePotPlan   
   #TomTaylors@TomTaylors ##This is the new cave that needed the 
@@ -167,17 +168,17 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   manholePlan
   EternalOptomist-offset [-50 0 m] below  
   LabyrinthSection1@LabyrinthIndex
-  m1p@Pyridine
+  PyridineP@Pyridine
   CarterPassagePlan
   #goyden2Plan
-  #m1p@OctoberPassage
+  #OctoberPassageP@OctoberPassage
   #goy3Plan
   CapLeftTunnelPlan
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
   ThropePotPlan
-  m1p@astronomers
+  AstronomersPlan@astronomers
   PlanHardPlan
   break
   NewGoydenPlan
@@ -188,7 +189,7 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
   aquamolePlan
-  m1p@HardyPoolsExt
+  HardyPoolsExtPlan@HardyPoolsExt
 endmap
 
 #map PublishSection3 -title "Everything Else?<br><it>Nidderdale, North Yorkshire<br>United Kingdom"

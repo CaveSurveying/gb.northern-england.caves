@@ -8,12 +8,12 @@ survey astronomers -title "Astronomer's Passage<br><it>New Goyden, Nidderdale"
    input "astron.th"   
    
    
-   map m1p -projection plan
+   map AstronomersPlan -projection plan
      m1p@astro
      m1p@astron
    endmap
    
-   map m1s -projection extended 
+   map AstronomersElevation -projection extended 
     m1s@astro  
      break
    m1s@astron

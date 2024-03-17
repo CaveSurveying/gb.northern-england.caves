@@ -2,6 +2,7 @@ encoding  utf-8
 source Surface1.th
 # Change name to the main therion file
 
+select OSMSurface@Surface1
 
 #Surveys to output
 #-----------------

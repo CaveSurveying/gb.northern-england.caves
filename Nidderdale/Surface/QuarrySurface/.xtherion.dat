@@ -1,13 +1,13 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 169.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.04m (from 93@QuarrySurface at 11.04m to 100@QuarrySurface at 0.00m)\nnorth-south range: 80.02m (from 88.3@QuarrySurface at 80.02m to 100@QuarrySurface at 0.00m)\neast-west range: 57.95m (from 93@QuarrySurface at 57.00m to 87.1@QuarrySurface at -0.95m)\nnumber of shots: 30\nnumber of stations: 31"
-xth_cp_data_tree_insert 57 1 1 QuarrySurface QuarrySurface "" "" "length: 169.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.04m (from 93@QuarrySurface at 11.04m to 100@QuarrySurface at 0.00m)\nnorth-south range: 80.02m (from 88.3@QuarrySurface at 80.02m to 100@QuarrySurface at 0.00m)\neast-west range: 57.95m (from 93@QuarrySurface at 57.00m to 87.1@QuarrySurface at -0.95m)\nnumber of shots: 30\nnumber of stations: 31"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 0.00m (surface 169.02m, duplicated 0.00m)\nvertical range: 11.04m (from 93@QuarrySurface at 11.04m to 100@QuarrySurface at 0.00m)\nnorth-south range: 80.02m (from 88.3@QuarrySurface at 80.02m to 100@QuarrySurface at 0.00m)\neast-west range: 57.95m (from 93@QuarrySurface at 57.00m to 87.1@QuarrySurface at -0.95m)\nnumber of shots: 30\nnumber of stations: 31"
+xth_cp_data_tree_insert 57 1 1 QuarrySurface QuarrySurface "" "" "length: 0.00m (surface 169.02m, duplicated 0.00m)\nvertical range: 11.04m (from 93@QuarrySurface at 11.04m to 100@QuarrySurface at 0.00m)\nnorth-south range: 80.02m (from 88.3@QuarrySurface at 80.02m to 100@QuarrySurface at 0.00m)\neast-west range: 57.95m (from 93@QuarrySurface at 57.00m to 87.1@QuarrySurface at -0.95m)\nnumber of shots: 30\nnumber of stations: 31"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert map 1 56X1 p1 1 QuarrySurfacePlan QuarrySurfacePlan "QuarrySurfacePlan" "QuarrySurfacePlan"
 xth_cp_map_tree_create
-xth_cp_comp_stat 169 4
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1675534947
+xth_cp_comp_stat 0 4
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1710709144
 

@@ -7,7 +7,9 @@ encoding  utf-8
 
 scrap GoydenDownstreamSumpsP -projection plan -scale [40.0 -895.5 140.0 -895.5 0.0 0.0 50 0.0 m]
 
-point 274.0 -130.0 water-flow -orientation 154.2
+point 266.25 -108.25 water-flow -orientation 161.1
+
+point 276.0 -131.5 water-flow -orientation 161.1
 
 area water
   l42-327--259
@@ -31,9 +33,9 @@ area water
 endarea
 
 line border -id l40-279--109 -close on
-  279.0 -109.25
   265.0 -98.5
   256.5 -100.5
+  255.5 -110.25
   270.5 -125.5
   273.5 -132.25
   273.5 -132.25 275.5 -138.0 275.75 -138.75
@@ -42,7 +44,7 @@ line border -id l40-279--109 -close on
   277.75 -150.25
   286.75 -149.75
   284.5 -127.0
-  279.0 -109.25
+  265.0 -98.5
 endline
 
 point 251.25 -101.5 label -scale l -align bottom-left -text [Sump 4<br><it>(Length 2m)]
@@ -117,12 +119,12 @@ line wall
   265.0 -98.5
 endline
 
-point 277.0 -100.75 label -text [Grade 3B] -scale m -align right
+point 276.25 -101.75 label -text [Grade 3B] -scale m -align bottom-right
 
 line arrow -scale m
-  254.5 -107.5
+  254.25 -102.5
   273.25 -95.75
-  274.75 -98.25
+  274.5 -99.0
 endline
 
 line wall

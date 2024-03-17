@@ -15,13 +15,13 @@ survey Pyridine -title "Pyridine Passage<br><it>Goyden Pot, Nidderdale"
    input "CrossSections/Pyridine-xx5.th2"
 
 
-   map m1p -projection plan
+   map PyridineP -projection plan
   ScaffoldTraversePlan
   break   
   PyridinePlan
    endmap
   
-  # map m1s -projection extended
+  # map PyridineE -projection extended
  # ScaffoldTravereElevation  
  # PyridineElevation
   # endmap

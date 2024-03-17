@@ -5,18 +5,19 @@ survey SurfaceOQP -title "Pigskin Pot to<br>Old Quarry Pot Surface<br><it>Nidder
 
    input "SurfaceOQPPlan.th2"  
 
-   map m1p -projection plan
+   map SurfaceOQP -projection plan
      SurfaceOQPPlan
    endmap
-
 
   centerline  
     date 2024.02.24 
     team "Phil Walker"
     team "Chris Fox" 
     units length meters
-    units compass clino degrees
-    data normal from to length compass clino
+    units compass clino degrees   
+  
+  flags surface
+data normal from to length compass clino
     
     extend right
     0 1 1.83 45.0 28.9

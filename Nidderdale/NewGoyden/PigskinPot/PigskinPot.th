@@ -7,13 +7,13 @@ survey PigskinPot -title "Pigskin Pot,<br><it>Nidderdale"
    input "PigskinPotE.th2"
    input "PigskinPotP.th2"   
 
-   map m1p -projection plan
+   map PigskinPotPlan -projection plan
      PigskinPotShaftP
      break
      PigskinPotP
    endmap
    
-   map m1s -projection extended
+   map PigskinPotElevation -projection extended
      PigskinPotE 
    endmap
 

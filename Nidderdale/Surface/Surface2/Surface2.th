@@ -33,6 +33,7 @@ copyright 2017 "GNU GPL"
 
   #instrument  instruments "Nick Disto 2"
 
+flags surface
 data normal from to tape compass clino ignoreall
   extend right
 1.0  -  0.0  0.0  0.0  

@@ -4,7 +4,7 @@ survey GoydenDownstreamSumps -title "Goyden Sumps<br><it>Nidderdale"
 
    input "GoydenDownstreamSumpsP.th2"   
 
-   map m1p -projection plan
+   map GoydenDownstreamSumpsPlan -projection plan
      GoydenDownstreamSumpsP
      GoydenDownstreamSumpsP2
      GoydenDownstreamSumpsP3
