@@ -313,6 +313,7 @@ endline
 line ceiling-step
   2228.0 4132.0
   2228.0 4132.0 2216.0 4060.0 2156.0 4040.0
+  smooth off
 endline
 
 area sump
@@ -437,9 +438,11 @@ point 3470.0 1208.0 label -text [The Pinnacle<br>(c6)] -align left -scale l
 
 point 2988.0 2150.0 label -align left -text Gaskell's<br>Passage -scale xl
 
-point 1804.0 4452.0 label -scale l -text [Riggwelter Pot<br>(aven - passage<br>at top)]
+point 1902.0 4250.0 continuation -text "Riggwelter Pot - aven at top?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
 
-point 1890.0 3888.0 label -scale l -text [Black Sheep<br>Passage] -align bottom
+point 1848.0 4402.0 label -scale l -text Riggwelter<br>Pot -align top-left
+
+point 1718.0 3816.0 label -scale l -text [Black Sheep<br>Passage] -align bottom
 
 line floor-step
   2877.5 3264.5

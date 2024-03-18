@@ -542,6 +542,8 @@ line wall
   smooth off
 endline
 
+point 2568.75 1328.125 label -align bottom-right -text [Sump 1<br><it>(Length 20m)] -scale l
+
 line wall -subtype presumed
   1481.25 1437.5
   1921.875 1428.125

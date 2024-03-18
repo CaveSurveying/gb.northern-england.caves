@@ -93,7 +93,8 @@ map SurfacePlan
   OSMSurface@SurfaceOSM                 #Digitised from OSM, temp until surface survey completed
   #SurfaceImage
   #Surface2Plan
-  #surface1Plan  
+  #surface1Plan 
+  #QuarrySurfacePlan 
   break
   OverlaysPlan@Overlays                 #hydological assumed / proved connection lines  
   #SurfaceOQP                           #need latest GPS from Nick, but does not really work as surface overlay
@@ -123,7 +124,6 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   CapLeftTunnelPlan
   
   ####NewGoyden/Frog####
-  QuarrySurfacePlan
   ThropePotPlan
   AstronomersPlan@astronomers
   PlanHardPlan

@@ -181,7 +181,7 @@ area water
   l44-330--348
 endarea
 
-point 303.25 -358.25 label -align left -scale l -text Alf's<br>Airbell
+point 305.0 -370.5 label -scale l -text Alf's<br>Airbell -align bottom-left
 
 point 319.5 -411.5 label -align right -scale l -text [Sump 2<br><it>(Length 30m)]
 
@@ -198,9 +198,9 @@ line border -id l44-330--348 -close on
   308.75 -359.75
   307.0 -374.25
   306.5 -381.0
-  319.0 -381.25
-  319.0 -381.25 318.75 -378.25 318.5 -377.25
-  318.25 -376.25 317.75 -373.0 317.5 -372.0
+  324.5 -381.0
+  324.5 -381.0 320.5 -379.0 320.25 -378.0
+  320.0 -377.0 317.75 -373.0 317.5 -372.0
 endline
 
 area sump

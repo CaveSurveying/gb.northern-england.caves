@@ -13,6 +13,42 @@ line wall -subtype invisible
   smooth off
 endline
 
+area water
+endarea
+
+area blocks
+  l54-259-361
+endarea
+
+line border -id l54-259-361 -close on -subtype invisible
+  226.5 322.0
+  244.0 319.0
+  257.5 305.5
+  257.5 305.5 258.0 299.5 257.5 294.0
+  257.0 288.5 253.5 272.0 253.5 269.5
+  253.5 267.0 250.5 246.0 250.5 244.0
+  250.5 242.0 250.5 233.0 251.0 230.5
+  251.5 228.0 251.0 228.5 262.0 230.5
+  273.0 232.5 295.5 252.0 300.5 259.0
+  305.5 266.0 314.5 288.0 315.5 291.5
+  316.5 295.0 320.0 316.5 319.0 318.5
+  318.0 320.5 311.0 331.0 311.0 331.0
+  smooth off
+  311.0 331.0 291.5 340.0 289.0 342.0
+  286.5 344.0 277.5 354.0 277.5 354.0
+  smooth off
+  277.5 354.0 264.5 364.5 258.0 360.5
+  251.5 356.5 250.0 359.0 244.5 349.0
+  239.0 339.0 226.5 322.0 226.5 322.0
+  smooth off
+endline
+
+point 228.0 265.5 continuation -text "dig nr nikc eyed hole?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
+point 434.0 474.5 continuation -text "low end passage?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
+point 623.5 732.5 continuation -text "low end passage?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
 line wall
   434.0 169.0
   431.0 179.0 407.0 208.0 409.0 217.0
@@ -40,6 +76,7 @@ line wall -subtype presumed
   315.5 335.5 326.0 339.5 326.0 339.5
   smooth off
   326.0 339.5 329.5 331.0 331.5 332.5
+  smooth off
 endline
 
 point 162.0 252.0 dig
@@ -50,9 +87,29 @@ point 665.0 767.5 low-end
 
 point 440.5 512.5 low-end
 
-point 274.5 285.0 blocks
+line rock-border -close on
+  288.5 297.0
+  277.5 281.0
+  288.0 282.5
+  298.5 293.5
+  288.5 297.0
+endline
 
-point 274.0 320.0 blocks
+line rock-border -close on
+  285.0 300.5
+  274.5 298.5
+  274.5 287.5
+  285.0 290.0
+  285.0 300.5
+endline
+
+line rock-border -close on
+  283.5 330.5
+  274.5 329.5
+  275.0 319.5
+  283.0 319.5
+  283.5 330.5
+endline
 
 line wall -subtype presumed
   343.0 362.0
@@ -71,6 +128,7 @@ line wall
   smooth off
   256.0 195.0
   256.0 195.0 246.0 214.0 246.0 221.0
+  smooth off
 endline
 
 line wall
@@ -91,6 +149,7 @@ line ceiling-step -reverse on
   246.0 221.0
   246.0 228.0 251.0 292.0 256.0 298.0
   261.0 304.0 242.5 324.0 235.5 321.0
+  smooth off
 endline
 
 line wall
@@ -125,6 +184,7 @@ line wall
   smooth off
   374.0 303.0
   374.0 303.0 348.0 357.0 343.0 362.0
+  smooth off
 endline
 
 line floor-step
@@ -203,6 +263,7 @@ line wall
   764.0 623.0 692.0 658.0 686.0 659.0
   680.0 660.0 663.0 663.0 660.0 665.0
   657.0 667.0 638.0 741.0 641.0 739.0
+  smooth off
 endline
 
 line wall
@@ -252,12 +313,14 @@ point 82.1653543307 889.291338583 station -name 1.0
 line water-flow
   307.0 199.5
   296.25 204.5 276.5 225.0 254.5 213.5
+  smooth off
 endline
 
 line water-flow
   432.0 158.75
   432.75 153.0 421.62 128.78 414.0 126.25
   371.0 112.0 360.5 155.25 352.75 158.75
+  smooth off
 endline
 
 line wall -subtype presumed

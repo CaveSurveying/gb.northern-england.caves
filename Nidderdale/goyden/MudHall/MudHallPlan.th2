@@ -1352,9 +1352,9 @@ line ceiling-step
   smooth off
 endline
 
-point 3591.5311653116532 2548.3062330623306 label -align left -text [ZANNUSI POT<br>(sealed)] -scale l
+point 3730.4200542005424 2348.3062330623306 label -scale l -align bottom-left -text ZANNUSI<br>POT<br>(sealed)
 
-point 4235.840108401084 2037.771002710027 label -align bottom-left -text Limley<br>Bypass -scale l
+point 4621.951219512195 1915.5487804878048 label -text Limley<br>Bypass -scale l -align bottom-right
 
 point 3364.1937669376694 3328.6585365853657 label -align left -text LIMLEY<br>POT -scale xl
 
@@ -1446,22 +1446,24 @@ line border -id l283-4561-2003 -close on -subtype invisible
   4744.44 1341.67 4730.56 1419.44 4727.777777777777 1427.7777777777778
 endline
 
+point 4416.666666666667 3416.6666666666665 continuation -text "dig at bottom of Mud Hall, opposite Limley?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
 line arrow
-  4258.333333333333 2341.6666666666665
+  4052.78 2008.33
   4277.777777777777 2147.222222222222
 endline
 
 line arrow
-  4275.0 2380.5555555555557
+  4030.56 2033.33
   4141.666666666667 2313.8888888888887
 endline
 
 line arrow
-  4266.666666666666 2413.8888888888887
+  4002.78 2052.78
   4013.8888888888887 2455.5555555555557
 endline
 
-point 4302.777777777777 2402.777777777778 label -align top-right -text barrels -scale m
+point 4008.333333333333 2008.3333333333335 label -text barrels -scale m -align bottom-left
 
 line floor-step -reverse on
   3718.032786885246 2721.311475409836
@@ -1533,7 +1535,7 @@ line floor-step -reverse on
   3869.4444444444443 3286.111111111111
 endline
 
-point 4431.944444444443 3430.555555555555 dig -scale m
+point 4348.61111111111 3363.8888888888882 dig -scale m
 
 line wall
   3385.45 3789.09

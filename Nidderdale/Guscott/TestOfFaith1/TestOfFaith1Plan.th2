@@ -79,6 +79,10 @@ line border -id l23-5228-6878 -close on
   5218.0 6866.0
 endline
 
+point 5208.0 5382.0 continuation -scale m -text "unexplored inlet?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+
+point 5338.0 6146.0 continuation -scale m -text "unexplored inlet?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+
 point 5156.0 5366.0 water-flow -orientation 239.7
 
 line border

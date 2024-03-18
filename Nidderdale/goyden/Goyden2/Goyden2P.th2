@@ -23,8 +23,6 @@ endline
 
 point 638.0 1371.8181818181818 label -align bottom-left -scale l -text [Sump 2<br><it>(Length 1m, 2m ,3m)]
 
-point 3577.2727272727275 6857.272727272727 label -align bottom-right -scale l -text [Sump 1<br><it>(Length 20m)]
-
 area water
   l74-2985-6571
 endarea

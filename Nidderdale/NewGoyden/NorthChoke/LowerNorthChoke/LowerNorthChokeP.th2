@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -151.8095238095238 -2556.5714285714284 956.5714285714286 1099.4285714285716
-##XTHERION## xth_me_area_zoom_to 21
+##XTHERION## xth_me_area_zoom_to 42
 ##XTHERION## xth_me_image_insert {240.68598425200003 1 1.0} {650.752992126 1.4} PocketTopo/LowerNorthChoke_p.xvi 0 {}
 
 
@@ -43,6 +43,7 @@ line wall -subtype presumed
   684.75 242.37 710.52 157.8 713.5593220338983 150.84745762711864
   725.42 123.73 778.65 -306.26 776.0 -320.0
   712.0 -652.0 733.83 -2399.52 744.0 -2408.0
+  smooth off
 endline
 
 point 396.6101694915254 583.0508474576271 water-flow -orientation 121.9 -scale xs
