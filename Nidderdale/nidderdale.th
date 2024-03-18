@@ -32,19 +32,25 @@ input NewGoyden/HardyPoolsExtension/HardyPoolsExt.th
 
 input Guscott/GuscottIndex.th
 
+##OTHER CAVES
+#input LimleyLeadMine/LimleyLeadMine.th
+#input LowEglins/LowEglins.th
+#input LofthousePot/LofthousePot.th
+#input TomTaylors/TomTaylors.th
+
+##SURFACE OVERLAYS
 input Surface/surface1/Surface1.th
 input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
+
+input Surface/SurfaceOverlays/SurfaceOSM.th
+#input Surface/SurfaceOverlays/SurfaceOSMGrid.th     ##DONT USE YET
 #input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##NEEDS NEW GPS
 #input Surface/SurfaceOverlays/SurfaceImage.th            ##DONT USE YET
-input Surface/SurfaceOverlays/SurfaceOSM.th
 
-#input LimleyLeadMine/LimleyLeadMine.th
-#input LowEglins/LowEglins.th
-#input LofthousePot/LofthousePot.th
-#input TomTaylors/TomTaylors.th
+
 
 #### Plan Joins ####
 

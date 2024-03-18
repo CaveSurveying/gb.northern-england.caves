@@ -80,6 +80,7 @@ THERION DRAWING STDS RECOMMENDATIONS
 CHANGES
 -------
 * Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?)
+* Added Example GoogleEarth imagary embedded overlay as an example (to review / discuss)
 * Survey stats are including Surface data in the total.  Need to exclude.	-  added "flags surface", some surface ones had it on, some not.  
 * Change the line water symbols to point (L)
 * Add TODO file at root level (this document)
