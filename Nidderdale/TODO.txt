@@ -83,6 +83,7 @@ CHANGES
 * Added Example GoogleEarth imagary embedded overlay as an example (to review / discuss)
 * Survey stats are including Surface data in the total.  Need to exclude.	-  added "flags surface", some surface ones had it on, some not.  
 * Change the line water symbols to point (L)
+* Added fault lines to Ne Goyden based on the ULSA / YURT survey.  Included on overlays.th
 * Add TODO file at root level (this document)
 * Add XTherionFiles folder at root level for images / generic template call
 * Create global layout templates (custom_border, custom_lines, custom_scalebar)
