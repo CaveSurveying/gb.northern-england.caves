@@ -44,12 +44,11 @@ input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
-
 input Surface/SurfaceOverlays/SurfaceOSM.th
 
 #input Surface/SurfaceOverlays/SurfaceOSMGrid.th          ##DONT USE YET - NEEDS WORK
 #input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##DONT USE YET - NEEDS NEW GPS
-#input Surface/SurfaceOverlays/SurfaceImage.th            ##DONT USE YET - NEEDS PARAM FIXES
+
 
 #### Plan Joins ####
 join GoydenSP1 churchPotSP4
@@ -88,10 +87,13 @@ join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@Goyde
 
 ####################################################
 
+#surface
+#  cs OSGB:SE
+ # bitmap XTherionFiles\778x1802.png [422 1137 4284 33033 369 1419 4131 32751 m]
+#endsurface
 
 map SurfacePlan  
   OSMSurface@SurfaceOSM                 #Digitised from OSM, temp until surface survey completed
-  #SurfaceImage
   #Surface2Plan
   #surface1Plan 
   #QuarrySurfacePlan 
