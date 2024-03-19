@@ -87,13 +87,14 @@ join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@Goyde
 
 ####################################################
 
-#surface
-#  cs OSGB:SE
- # bitmap XTherionFiles\778x1802.png [422 1137 4284 33033 369 1419 4131 32751 m]
-#endsurface
+surface
+  cs OSGB:SE
+  #bitmap XTherionFiles\778x1802.png [369 1419 09976 76127  423 1767 10013 76401] #slightly off GPS
+  bitmap XTherionFiles\OSM673x1929.png [249 1586 09976 76127  295 1888 10013 76401] 
+endsurface
 
 map SurfacePlan  
-  OSMSurface@SurfaceOSM                 #Digitised from OSM, temp until surface survey completed
+  #OSMSurface@SurfaceOSM                 #Digitised from OSM, temp until surface survey completed
   #Surface2Plan
   #surface1Plan 
   #QuarrySurfacePlan 
