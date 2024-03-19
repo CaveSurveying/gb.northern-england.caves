@@ -44,9 +44,7 @@ input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
-input Surface/SurfaceOverlays/SurfaceOSM.th
 
-#input Surface/SurfaceOverlays/SurfaceOSMGrid.th          ##DONT USE YET - NEEDS WORK
 #input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##DONT USE YET - NEEDS NEW GPS
 
 
@@ -93,7 +91,6 @@ surface
 endsurface
 
 map SurfacePlan  
-  #OSMSurface@SurfaceOSM                 #Digitised from OSM, temp until surface survey completed
   #Surface2Plan
   #surface1Plan 
   #QuarrySurfacePlan 
