@@ -45,8 +45,8 @@ MISSING SURVEYS
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
 * survey over the Turf plus passage above Chapel chamber
 * Ball of String Passage
-* Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole
-* Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel.
+* Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole   (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
+* Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel. (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
 
 OTHER
@@ -79,7 +79,8 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
-* Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?)
+*  Added an OSM image as an overlay
+* Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?) - REDUNDANT, SEE ABOVE
 * Added Example GoogleEarth imagary embedded overlay as an example (to review / discuss)
 * Survey stats are including Surface data in the total.  Need to exclude.	-  added "flags surface", some surface ones had it on, some not.  
 * Change the line water symbols to point (L)

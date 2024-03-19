@@ -89,8 +89,7 @@ join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@Goyde
 
 surface
   cs OSGB:SE
-  #bitmap XTherionFiles\778x1802.png [369 1419 09976 76127  423 1767 10013 76401] #slightly off GPS
-  bitmap XTherionFiles\OSM673x1929.png [249 1586 09976 76127  295 1888 10013 76401] 
+  bitmap XTherionFiles\OSM673x1929.png [249 1586 09976 76127  295 1888 10013 76401] #slightly off - need GPS accuracy
 endsurface
 
 map SurfacePlan  
