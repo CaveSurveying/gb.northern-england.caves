@@ -19,10 +19,10 @@ select BeetRootSumpPlan   #### map
 
 
 
-export map -proj plan -layout local -o ../../output/LabyrinthOutput/BeetRootOutput/BeetRootSumpPlan.pdf
-#export map -proj extended -layout local -o ../../output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSumpEe.pdf
+export map -proj plan -layout local -o Output/BeetRootSumpPlan.pdf
+#export map -proj extended -layout local -o Output/BeetRootSumpEe.pdf
 
-#export model -fmt survex -o ../../Output/LabyrinthOutput/BeetRootSumpOutput/BeetRootSump.3d
+#export model -fmt survex -o Output/BeetRootSump.3d
 
 
 
