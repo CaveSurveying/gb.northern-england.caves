@@ -5,7 +5,7 @@ input GargettWayP.th2
 #input GargettWayEe.th2
 #input GargettWayE90.th2
 
-map gargettwayPlan -title "Gargett Way Plan"
+map GargettwayPlan -title "Gargett Way Plan"
   GargettWaySP1
   break
   GargettWaySP2

@@ -13,7 +13,7 @@ input goyden/goy3/Goy3.th
 input goyden/goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
 input goyden/goy3/GoydenDownstreamSumps/GoydenMainStreamExtension.th
 input goyden/goyden2/Goyden2.th
-input goyden/gargettWay/GargettWay.th
+input goyden/GargettWay/GargettWay.th
 input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
@@ -106,7 +106,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break  
   GuscottIndex@GuscottIndex
   churchPotPlan
-  gargettwayPlan
+  GargettwayPlan
   MudHallPlan
   PillarPotPlan
   break
@@ -160,7 +160,7 @@ endmap
 
 map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
   churchPotPlan
-  gargettwayPlan
+  GargettwayPlan
   MudHallPlan
   PillarPotPlan
   break

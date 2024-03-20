@@ -9,7 +9,7 @@ maps-offset on
 #-----------------
 
 
-export map -proj plan -layout local -o ../output/ManHoleOutput/ManHole.pdf
+export map -proj plan -layout local -o Output/ManHole.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o ManHoleEe.pdf

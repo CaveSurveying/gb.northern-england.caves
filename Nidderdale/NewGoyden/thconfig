@@ -8,12 +8,12 @@ input ..\XTherionFiles\_globallayouts.thc #more standard settings, different 'si
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ../Output/NewGoydenOutput/NewGoyden.pdf
+export map -proj plan -layout local -o Output/NewGoyden.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o ../Output/NewGoydenOutput/NewGoydenEe.pdf
+#export map -proj extended -layout local -o Output/NewGoydenEe.pdf
 
-#export model -fmt survex -o ../Output/NewGoydenOutput/NewGoydenth.3d
+#export model -fmt survex -o Output/NewGoydenth.3d
 #Survex file showing centre line only
 
 #export model -o ../Output/NewGoydenOutput/NewGoyden.lox
@@ -22,8 +22,8 @@ export map -proj extended -layout local -o ../Output/NewGoydenOutput/NewGoydenEe
 #export map -proj plan -o ../Output/NewGoydenOutput/_Walls.3d
 #Survex file showing walls only
 
-#export model -o ../output/NewGoydenOutput/NewGoyden.kml
-#export map -o ../Output/NewGoydenOutput/NewGoyden.kml
+#export model -o Output/NewGoyden.kml
+#export map -o Output/NewGoyden.kml
 
 select NewGoydenPlan
 

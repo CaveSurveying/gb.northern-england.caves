@@ -15,10 +15,8 @@ map GuscottIndex -title "GuscottIndex"
   
 endmap
 
-#map NorthChokeME
-  #NorthChokeSE1
-  #NorthChokeSE2
-  #NorthChokeSE3
+#map GuscottIndexME
+  
 #endmap
 
 

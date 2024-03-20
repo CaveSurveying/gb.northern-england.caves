@@ -2,26 +2,27 @@ encoding  utf-8
 source Surface1.th
 # Change name to the main therion file
 
-select OSMSurface@Surface1
+select Surface1
+ 
 
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Surface1.pdf
+export map -proj plan -layout local -o Output/Surface1.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Surface1Ee.pdf
+#export map -proj extended -layout local -o Output/Surface1Ee.pdf
 
-#export model -fmt survex -o Surface1th.3d
+#export model -fmt survex -o Output/Surface1th.3d
 #Survex file showing centre line only
 
-#export model -o Surface1.lox
+#export model -o Output/Surface1.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Surface1_Walls.3d
+#export map -proj plan -o Output/Surface1_Walls.3d
 #Survex file showing walls only
 
-#export model -o Surface1.kml
+#export model -o Output/Surface1.kml
 export map -o Surface1.kml
 
 

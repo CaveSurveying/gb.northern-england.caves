@@ -8,9 +8,9 @@ source GargettWay.th
 #Surveys to output
 #-----------------
 
-select gargettwayPlan
+select GargettwayPlan
 
-export map -proj plan -layout local -o GargettWay.pdf
+export map -proj plan -layout local -o Output/GargettWay.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o GargettWayEe.pdf
