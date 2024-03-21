@@ -7,11 +7,7 @@ encoding  utf-8
 
 scrap GoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 9504.0 18636.0 u -subtype mappe -attr bordersmooth 0 -attr text "Eastern trunk route?" -scale l -visibility off -align bottom-left
-
 point 7396.0 20752.0 label -scale xl -align top-right -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)]
-
-point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<it>The Eastern trunk route?<br>(Carter Passage to Sump 8)<br>(approx. 1km)]
 
 point 5016.0 23560.0 label -scale xl -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -align right
 
@@ -23,17 +19,6 @@ endline
 line u -subtype hydro
   7148.0 20820.0
   7488.0 20564.0
-endline
-
-line u -subtype hydro
-  4720.0 29760.0
-  4928.0 29208.0
-endline
-
-line u -subtype hydro
-  8920.0 24976.0
-  8920.0 24976.0 10620.0 11000.0 9680.0 5040.0
-  smooth off
 endline
 
 point 8908.86 25014.920000000002 station -name S1
@@ -48,8 +33,6 @@ scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 8874.02 12876.34 station -name S2
 
-point 5564.0 22456.0 label -scale xl -align top-right -text [<it>Bridge Hall<br>to Guscott Pot<br>(approx. 53m)]
-
 point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)]
 
 line u -subtype hydro
@@ -60,12 +43,6 @@ endline
 point 8908.86 25014.920000000002 station -name S1
 
 line u -subtype hydro
-  5828.0 22128.0
-  5828.0 22128.0 5524.0 22652.0 4752.0 22432.0
-  smooth off
-endline
-
-line u -subtype hydro
   7264.0 17028.0
   7184.0 17332.0
 endline
@@ -73,6 +50,24 @@ endline
 line u -subtype hydro
   7192.0 17516.0
   7204.0 17636.0
+endline
+
+endscrap
+
+
+
+scrap OtherPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 8908.0 25012.0 station -name S1
+
+point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<it>The Eastern trunk route?<br>(Carter Passage to Sump 8)<br>(approx. 1km)]
+
+point 9504.0 18636.0 u -subtype mappe -attr bordersmooth 0 -attr text "Eastern trunk route?" -scale l -visibility off -align bottom-left
+
+line u -subtype hydro
+  8920.0 24976.0
+  8920.0 24976.0 10620.0 11000.0 9680.0 5040.0
+  smooth off
 endline
 
 endscrap
