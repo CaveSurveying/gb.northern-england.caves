@@ -31,6 +31,43 @@ endline
 
 point 211.0 -634.0 station -name 0
 
+point 658.0 -345.0 label -align right -text [DRY WATH VEIN] -scale l
+
+line fault
+  997.0 -506.0
+  987.0 -505.0
+endline
+
+line fault
+  661.0 -521.0
+  667.0 -521.0
+endline
+
+line fault
+  265.0 -867.0
+  259.0 -867.0
+endline
+
+line fault
+  119.0 -876.0
+  124.0 -876.0
+endline
+
+point 137.0 -878.0 label -scale m -text [8ft (2.4m)] -align right
+
+point 246.0 -870.0 label -scale m -align left -text [8ft (2.4m)]
+
+point 681.0 -519.0 label -scale m -align right -text [30ft (9m)]
+
+point 975.0 -506.0 label -scale m -align left -text [20ft (6m)]
+
+point 799.0 -526.0 label -text [5ft (1.5m)] -align right -scale m
+
+line fault
+  777.0 -527.0
+  787.0 -527.0
+endline
+
 line fault
   618.0 -30.0
   655.0 -420.0

@@ -794,7 +794,7 @@ line ceiling-step
   smooth off
 endline
 
-point 1854.5454545454547 6890.909090909092 label -align top-left -text Planetarium -scale xl
+point 1150.0000000000002 6629.545454545456 label -text Planetarium -scale xl -align left
 
 line floor-step
   1995.4545454545457 6445.454545454546

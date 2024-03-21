@@ -122,6 +122,34 @@ line wall -reverse on
   smooth off
 endline
 
+point 4803.75 7588.75 water-flow -orientation 247.5 -scale m
+
+point 4443.75 7152.5 water-flow -orientation 198.5 -scale m
+
+point 4132.5 6020.0 water-flow -orientation 198.5 -scale m
+
+point 3597.5 5303.75 water-flow -orientation 198.5 -scale m
+
+point 3616.25 4883.75 water-flow -orientation 159.6 -scale m
+
+point 3455.0 4385.0 water-flow -orientation 239.9 -scale m
+
+point 2587.5 3841.25 water-flow -orientation 275.1 -scale m
+
+point 2936.25 4020.0 water-flow -orientation 216.5 -scale m
+
+point 2426.25 4037.5 water-flow -orientation 188.4 -scale m
+
+point 1142.5 2741.25 water-flow -orientation 243.3 -scale m
+
+point 1481.25 2890.0 water-flow -orientation 243.3 -scale m
+
+point 2030.0 2972.5 water-flow -orientation 243.3 -scale m
+
+point 2285.0 3307.5 water-flow -orientation 179.0 -scale m
+
+point 2376.25 3752.5 water-flow -orientation 202.3 -scale m
+
 line wall -reverse on
   844.5 2964.5
   867.0 2952.5 861.87 2955.18 866.5 2945.5
@@ -237,18 +265,7 @@ line ceiling-step -scale s
   smooth off
 endline
 
-line water-flow -scale xl
-  4923.0 7639.0
-  4869.0 7621.0 4902.0 7634.0 4822.0 7606.0
-  4742.0 7578.0 4746.0 7584.0 4707.0 7563.0
-  smooth off
-endline
-
-line water-flow -scale xl
-  5171.0 7553.0
-  5167.0 7591.0 5161.0 7641.0 5142.0 7665.0
-  smooth off
-endline
+point 5176.25 7633.75 water-flow -orientation 335.6 -scale m
 
 point 675.6307500000003 3071.8500263200003 station -name 1.47
 
@@ -421,13 +438,15 @@ line wall -reverse on
   smooth off
 endline
 
-line water-flow -scale xl
-  2526.0 5998.0
-  2532.5 5982.25 2545.25 5947.0 2545.0 5929.0
-  2544.75 5911.0 2561.0 5889.0 2560.5 5876.25
-  2560.0 5863.5 2552.0 5849.5 2541.25 5837.75
-  smooth off
-endline
+point 2402.5 4291.25 water-flow -orientation 141.8 -scale m
+
+point 2308.75 4566.25 water-flow -orientation 173.5 -scale m
+
+point 2287.5 5007.5 water-flow -orientation 173.5 -scale m
+
+point 2472.5 5708.75 water-flow -orientation 219.9 -scale m
+
+point 2537.5 5970.0 water-flow -orientation 166.5 -scale m
 
 line ceiling-step
   2551.0 5884.0
