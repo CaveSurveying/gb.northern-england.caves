@@ -23,6 +23,11 @@ map LabyrinthSection1 -title "Labyrinth Section 1" #used for Chris' Publication 
   #Lab2Plan 
 endmap
 
+map LabyrinthSection3 -title "Labyrinth Section 3" #used for Chris' Publication Section 1
+  BRCanalPlan
+  BeetRootSumpPlan
+endmap
+
 
 map LabyrinthEeIndex -title "Sand Tunnel To Beet Root Ee"
 

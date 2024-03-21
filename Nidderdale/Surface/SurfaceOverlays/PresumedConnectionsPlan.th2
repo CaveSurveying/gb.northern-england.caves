@@ -31,8 +31,6 @@ endscrap
 
 scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 8874.02 12876.34 station -name S2
-
 point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)]
 
 line u -subtype hydro
@@ -41,6 +39,12 @@ line u -subtype hydro
 endline
 
 point 8908.86 25014.920000000002 station -name S1
+
+endscrap
+
+
+
+scrap OtherPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 line u -subtype hydro
   7264.0 17028.0
@@ -52,11 +56,7 @@ line u -subtype hydro
   7204.0 17636.0
 endline
 
-endscrap
-
-
-
-scrap OtherPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+point 8874.02 12876.34 station -name S2
 
 point 8908.0 25012.0 station -name S1
 

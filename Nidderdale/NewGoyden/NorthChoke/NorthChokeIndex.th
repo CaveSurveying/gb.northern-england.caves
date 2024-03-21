@@ -15,6 +15,10 @@ map NorthChokeIndex -title "NorthChokeIndex"
   LowerNorthChokePlan #@LowerNorthChoke
 endmap
 
+map NorthChokeSection3 -title "Section 3 for Chris Fox Publication"
+NorthChokePlan
+endmap
+
 #map NorthChokeME
   #NorthChokeSE1
   #NorthChokeSE2

@@ -12,6 +12,16 @@ map OverlaysPlan -title "Overlays"
   NewGoydenFaultsPlan
 endmap
 
+map Section3 -title "Section 3 for Chris Fox Publications"
+  GoydenPlan
+  NewGoydenPlan  
+endmap
+
+map NewGoydenFaults -title "New Goyden Faults"
+NewGoydenFaultsPlan
+endmap
+
+
 
 centerline
   flags surface

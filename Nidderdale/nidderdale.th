@@ -157,7 +157,6 @@ endmap
 ################################
 ## Chris Fox Publication Maps ##
 ################################
-
 map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
   churchPotPlan
   GargettwayPlan
@@ -178,6 +177,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+  NewGoydenFaults@Overlays
   ThropePotPlan
   AstronomersPlan@astronomers
   PlanHardPlan
@@ -189,13 +189,24 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   break
   NorthChokeIndex@NorthChokeIndex
   ShackletonsPlan
-  aquamolePlan
-  HardyPoolsExtPlan@HardyPoolsExt
+  aquamolePlan  
+  break
+  GoydenDownstreamSumpsPlan@GoydenDownstreamSumps
 endmap
 
-#map PublishSection3 -title "Everything Else?<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
-#TBC
-#endmap
+map PublishSection3 -title "The Missing Links<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+  Section3@Overlays
+  GoydenMainStreamExtPlan@GoydenMainStreamExtension
+  GoydenDownstreamSumpsSection3@GoydenDownstreamSumps
+  LabyrinthSection3@LabyrinthIndex
+  OctoberPassageP@OctoberPassage
+  goyden2Plan
+  goy3Plan
+  GuscottIndex@GuscottIndex
+  FrogPotSection3@FrogPotIndex
+  break
+  NorthChokeSection3@NorthChokeIndex
+endmap
 ###############################################
 ###############################################
 

@@ -10,6 +10,9 @@ survey GoydenDownstreamSumps -title "Goyden Sumps<br><it>Nidderdale"
      GoydenDownstreamSumpsP3
    endmap
    
+   map GoydenDownstreamSumpsSection3
+   GoydenDownstreamSumpsP
+   endmap
 
   centerline
     date 2024.02.25 #date of digitise
