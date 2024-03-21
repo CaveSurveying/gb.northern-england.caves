@@ -86,6 +86,14 @@ endline
 
 point 1013.0 -1060.0 label -scale xl -text [Beet Route<br>Sump] -align bottom
 
+point 1199.0 -262.0 label -align bottom-left -scale m -text [Grade 3B]
+
+line arrow -scale m
+  1229.0 -218.0
+  1187.0 -243.0
+  1191.0 -248.0
+endline
+
 line wall
   187.75 -1814.75
   185.75 -1810.25 186.25 -1783.0 185.5 -1779.5

@@ -6,17 +6,13 @@ TODO
 * Need new GPS for all entrances. (Nick - Trimble)
 * Add GPS to entrance labels (once revised set complete)
 * Add Entrance symbols (plus redefine symbol)
-* Add Vulcan Rift Pot entrance?
 * Add GPS / entrance symbol for dig above Caravan Trail?
-* Change Howgill surface / pot
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
-* Point size consistency
 * On PresumedConnections overlay add:
 	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
 	* Pigskin > Covid Way to NG 25m aven
-* Review ceiling vs floor steps, confirmed some are wron way round (i.e. step down nr Hardy Pools)
-* Dotted line from static sump to pillar pot? - presumed lines preferred but need extra pillar pot survey
+* Review ceiling vs floor steps, confirmed some are wrong way round (i.e. step down nr Hardy Pools)
 * Pitches - set outline-in to 'view' into passage below
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
@@ -29,7 +25,8 @@ TODO
 * need general review / discussion on all leads / add possible continuations
 * Manchester Hole - Does the stream, go obvious route, via the duck to Sump 1. Sump2 etc (where does it reappear - this is not shown on the survey)
 * More boulders in entrance to Goyden Pot?
-
+* Include Pitch lengths for Church Pot
+* Include Pitch lengths for Frog Pot (Toad U So is 22m)
 
 
 MISSING SURVEYS
@@ -45,8 +42,6 @@ MISSING SURVEYS
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
 * survey over the Turf plus passage above Chapel chamber
 * Ball of String Passage
-* Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole   (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
-* Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel. (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
 
 OTHER
@@ -79,10 +74,13 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
-*  Added an OSM image as an overlay
+* Added an OSM image as an overlay, so no need for:
+	- Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole   (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
+	- Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel. (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 * Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?) - REDUNDANT, SEE ABOVE
 * Added Example GoogleEarth imagary embedded overlay as an example (to review / discuss)
 * Survey stats are including Surface data in the total.  Need to exclude.	-  added "flags surface", some surface ones had it on, some not.  
+* added in a number of 'presumed sumps'  Static sump to pillar pot, SS to Goyden2, Main Inlet to 'Shakleton'
 * Change the line water symbols to point (L)
 * Added fault lines to Ne Goyden based on the ULSA / YURT survey.  Included on overlays.th
 * Add TODO file at root level (this document)

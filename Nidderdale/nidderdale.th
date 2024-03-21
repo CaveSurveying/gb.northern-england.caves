@@ -33,6 +33,7 @@ input NewGoyden/HardyPoolsExtension/HardyPoolsExt.th
 input Guscott/GuscottIndex.th
 
 ##OTHER CAVES
+#input NiddHeads/NIddHeadsIndex.th
 #input LimleyLeadMine/LimleyLeadMine.th
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
@@ -140,6 +141,8 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   GoydenMainStreamExtPlan@GoydenMainStreamExtension
   NewGoydenDownstreamSumpsPlan@NewGoydenDownstreamSumps  
   HardyPoolsExtPlan@HardyPoolsExt
+  
+  #NiddHeadsIndexPlan@NiddHeads
   
   ############################
   #LimleyLeadMinePlan@LimleyLeadMine  #digitised.  adding creates large pdf as this is ~1km of passage heading west
