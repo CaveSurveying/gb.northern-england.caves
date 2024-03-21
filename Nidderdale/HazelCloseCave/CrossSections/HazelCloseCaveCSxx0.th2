@@ -1,0 +1,104 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -10.4 -239.3 245.6 16.69999999999999
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {60.07 1 1.0} {-172.8 0} hazel_close_cave-xx0.xvi 0 {}
+
+# 2024.03.21 created by TopoDroid v. 6.2.32
+
+
+
+
+scrap HazelCloseCaveCSxx0 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  112.21 -117.12
+  112.55 -114.38 119.77 -112.62 119.13 -110.04
+endline
+
+line wall
+  119.13 -110.04
+  118.69 -108.23 114.28 -108.95 113.03 -108.97
+  107.29 -109.1 101.48 -107.6 95.87 -106.68
+  94.35 -106.43 91.04 -104.4 89.59 -105.35
+  87.91 -106.46 91.58 -113.28 92.23 -115.02
+endline
+
+line wall -subtype flowstone
+  92.23 -115.02
+  92.48 -115.69 92.92 -116.31 93.3 -116.95
+  93.4 -117.11 93.49 -117.28 93.56 -117.45
+  smooth off
+  97.95 -133.76
+endline
+
+line wall
+  97.95 -133.76
+  99.02 -136.75 102.91 -139.7 106.31 -139.33
+  107.94 -139.14 110.88 -138.77 111.26 -136.78
+endline
+
+line wall -subtype flowstone
+  111.26 -136.78
+  111.91 -133.41 108.21 -129.12 108.21 -125.63
+  108.21 -121.85 110.84 -118.64 111.94 -115.46
+  smooth off
+endline
+
+line u:splay -visibility off
+  130.99 -123.33
+  117.45 -122.46
+endline
+
+line u:splay -visibility off
+  130.99 -123.33
+  111.94 -141.58
+endline
+
+line u:splay -visibility off
+  130.99 -123.33
+  115.83 -140.91
+endline
+
+line u:splay -visibility off
+  130.99 -123.33
+  111.69 -141.49
+endline
+
+line u:splay -visibility off
+  130.99 -123.33
+  106.74 -141.0
+endline
+
+line u:splay -visibility off
+  96.77 -117.84
+  112.24 -116.67
+endline
+
+line u:splay -visibility off
+  96.77 -117.84
+  98.74 -106.46
+endline
+
+line u:splay -visibility off
+  96.77 -117.84
+  105.92 -137.26
+endline
+
+line u:splay -visibility off
+  96.77 -117.84
+  110.07 -137.91
+endline
+
+line u:splay -visibility off
+  96.77 -117.84
+  119.53 -110.66
+endline
+
+line u:splay -visibility off
+  96.77 -117.84
+  90.6 -105.68
+endline
+
+endscrap
+
+
