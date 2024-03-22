@@ -114,7 +114,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   goydenPlan
   break
   manholePlan
-  EternalOptomist-offset [-70 0 m] below
+  EternalOptomist-offset [-50 0 m] below
   PyridineP@Pyridine
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
