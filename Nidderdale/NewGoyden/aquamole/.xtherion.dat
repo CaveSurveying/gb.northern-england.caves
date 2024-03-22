@@ -1,12 +1,12 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 309.72m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@Aquamole at 8.81m to 1.28@Aquamole at -26.96m)\nnorth-south range: 128.84m (from 1.65@Aquamole at 48.75m to 1.28@Aquamole at -80.09m)\neast-west range: 86.25m (from 1.0@Aquamole at 0.00m to 1.64@Aquamole at -86.25m)\nnumber of shots: 399\nnumber of stations: 400"
-xth_cp_data_tree_insert 157 1 1 Aquamole Aquamole "" "" "length: 309.72m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.76m (from 6.0@Aquamole at 8.81m to 1.28@Aquamole at -26.96m)\nnorth-south range: 128.84m (from 1.65@Aquamole at 48.75m to 1.28@Aquamole at -80.09m)\neast-west range: 86.25m (from 1.0@Aquamole at 0.00m to 1.64@Aquamole at -86.25m)\nnumber of shots: 399\nnumber of stations: 400"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 309.72m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.77m (from 6.0@Aquamole at 8.81m to 1.28@Aquamole at -26.96m)\nnorth-south range: 128.84m (from 1.65@Aquamole at 48.75m to 1.28@Aquamole at -80.09m)\neast-west range: 86.25m (from 1.0@Aquamole at 0.00m to 1.64@Aquamole at -86.25m)\nnumber of shots: 399\nnumber of stations: 400"
+xth_cp_data_tree_insert 157 1 1 Aquamole Aquamole "" "" "length: 309.72m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.77m (from 6.0@Aquamole at 8.81m to 1.28@Aquamole at -26.96m)\nnorth-south range: 128.84m (from 1.65@Aquamole at 48.75m to 1.28@Aquamole at -80.09m)\neast-west range: 86.25m (from 1.0@Aquamole at 0.00m to 1.64@Aquamole at -86.25m)\nnumber of shots: 399\nnumber of stations: 400"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert map 1 156X1 p1 1 aquamolePlan aquamolePlan "Aquamole Plan" "Aquamole Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 310 5
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1528465043
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1711111962
 

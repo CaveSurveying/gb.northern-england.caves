@@ -6,7 +6,8 @@ source FrogPot.th
 #Surveys to output
 #-----------------
 
-select frogpotPlan
+select FrogPot
+
 export map -proj plan -layout local -o Output/FrogPot.pdf
 #Produces plan of cave, on a single sheet
 
@@ -22,8 +23,8 @@ export map -proj plan -layout local -o Output/FrogPot.pdf
 #Survex file showing walls only
 
 #export map -proj plan -layout local -o Output/FrogPot.kml
-#export model -o Output/FrogPot.kml
-#export map -o  Output/FrogPot.kml
+#export model -o FrogPot.kml
+#export map -o Output/FrogPot.kml
 
 layout local
 scale 1 100
@@ -33,8 +34,8 @@ symbol-set BCRA
 cs [osgb:SE]
 #colour map-bg 90
 #colour map-fg [0 100 0]
-#colour map-fg scrap
-colour map-fg altitude
+colour map-fg scrap
+#colour map-bg altitude
 #grid bottom
 #grid-coords all
 #grid-origin [0] [0] [0] [metric]

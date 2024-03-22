@@ -1,12 +1,3 @@
-set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 139.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 24.60m (from 1@FPUpstreamSump at 0.00m to 17@FPUpstreamSump at -24.60m)\nnorth-south range: 97.85m (from 18@FPUpstreamSump at 96.98m to 2@FPUpstreamSump at -0.87m)\neast-west range: 41.27m (from 17@FPUpstreamSump at 41.27m to 1@FPUpstreamSump at 0.00m)\nnumber of shots: 17\nnumber of stations: 18"
-xth_cp_data_tree_insert 44 1 1 FPUpstreamSump FPUpstreamSump "" "" "length: 139.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 24.60m (from 1@FPUpstreamSump at 0.00m to 17@FPUpstreamSump at -24.60m)\nnorth-south range: 97.85m (from 18@FPUpstreamSump at 96.98m to 2@FPUpstreamSump at -0.87m)\neast-west range: 41.27m (from 17@FPUpstreamSump at 41.27m to 1@FPUpstreamSump at 0.00m)\nnumber of shots: 17\nnumber of stations: 18"
-xth_cp_data_tree_create
-set xth(ctrl,cp,maplist) {}
-xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 43X1 p1 1 FPUpstreamSumpPlan FPUpstreamSumpPlan "Frog Pot Upstream Sump Plan" "Frog Pot Upstream Sump Plan"
-xth_cp_map_tree_create
-xth_cp_comp_stat 139 1
-set xth(th_exit_state) 2
-set xth(th_exit_number) 1710962407
+set xth(th_exit_state) 0
+set xth(th_exit_number) 1619014417
 

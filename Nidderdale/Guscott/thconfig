@@ -6,12 +6,17 @@ source GuscottIndex.th
 
 #Surveys to output
 #-----------------
+#select TestOfFaith2.GuscottIndex
+#select TestOfFaith1.GuscottIndex
+
 
 
 select GuscottIndex
 
 
+
 export map -proj plan -layout local -o Output/GuscottIndex.pdf
+
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o Output/GuscottEe.pdf

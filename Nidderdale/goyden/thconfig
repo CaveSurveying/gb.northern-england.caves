@@ -6,20 +6,20 @@ source Goyden.th
 #Surveys to output
 #-----------------
 
-#export model -o ../output/GoydenOutput/goyden_elev_90.xvi
+#export model -o Output/goyden_elev_90.xvi
 select goydenPlan
-export map -proj plan -layout local -o ../output/GoydenOutput/Goyden.pdf
+export map -proj plan -layout local -o Output/Goyden.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o GoydenEe.pdf
-#export map -proj [elevation 90] -layout local -o GoydenE90.pdf
-#export model -fmt survex -o Goydenth.3d
+#export map -proj extended -layout local -o Output/GoydenEe.pdf
+#export map -proj [elevation 90] -layout local -o Output/GoydenE90.pdf
+#export model -fmt survex -o Output/Goydenth.3d
 #Survex file showing centre line only
 
-#export model -o ../output/GoydenOutput/Goyden.lox
+#export model -o Output/Goyden.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../output/GoydenOutput/Goyden_Walls.3d
+#export map -proj plan -o Output/Goyden_Walls.3d
 #Survex file showing walls only
 
 #export model -o ../output/GoydenOutput/Goyden.kml

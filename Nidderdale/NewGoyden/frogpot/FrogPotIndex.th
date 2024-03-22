@@ -5,18 +5,26 @@ input FrogPot/FrogPot.th
 input FPUpstreamSump/FPUpstreamSump.th
 
 
+
+
+
 map FrogPotIndex -title "FrogPot Index"
-  frogpotPlan
+  FrogpotPlan
   FPUpstreamSumpPlan  
 endmap
 
 map FrogPotSection3 -title "Section 3 for Chris Fox Publication"
-FPUpstreamSumpPlan 
+FPUpstreamSumpPlan
 endmap
 
 #map 
+
 #FrogPotIndex -title "Frog Pot Index Ee"
+
 #endmap
+
+
+
 
 
 join FrogPotSP3 FPUpstreamSumpSP1
@@ -30,7 +38,11 @@ equate 1.19@FrogPot 1@FPUpstreamSump
 
 copyright 2018 "GNU GPL"
 
-  date 2019.07.21 
+
+
+  date 2019.07.21
+
+  
 
 
   explo-date 20.08.20

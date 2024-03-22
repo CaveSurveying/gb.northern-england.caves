@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -140.12121212121212 -140.12121212121212 2897.6969696969695 7578.3937007860995
-##XTHERION## xth_me_area_zoom_to 33
+##XTHERION## xth_me_area_adjust -140.12121212121212 -140.12121212121212 2364.3636363636365 7578.3937007860995
+##XTHERION## xth_me_area_zoom_to 66
 ##XTHERION## xth_me_image_insert {1433.36559055 1 1.0} {6884.35700787 1.4} {Pocket Topo/FrogPot_p.xvi} 0 {}
 
 
@@ -269,8 +269,6 @@ endline
 line border
 endline
 
-point 1560.6060606060605 7409.090909090909 water-flow -orientation 138.7 -scale m
-
 line border -id l59-975-5299 -close on -reverse on -scale xs
   703.0 5228.5
   713.0 5210.0 716.5 5203.5 726.0 5168.5
@@ -452,13 +450,6 @@ line wall -reverse on
   1819.5 7101.5 1760.0 7135.0 1760.0 7135.0
   smooth off
 endline
-
-line arrow
-  2700.0 7093.939393939394
-  1803.030303030303 7151.515151515151
-endline
-
-point 2754.545454545454 7109.090909090909 label -align bottom-right -text FROG<br>POT -scale xl
 
 line wall
   1839.5 7099.0
@@ -984,7 +975,6 @@ line wall -reverse on -clip off
   1378.79 4756.06 1401.33 4851.7 1483.33 4869.7
   1488.01 4870.73 1535.65 4961.35 1571.21 5042.42
   1609.09 5128.78 1690.41 5341.08 1734.85 5424.24
-  smooth off
 endline
 
 line wall -subtype invisible

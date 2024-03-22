@@ -130,7 +130,6 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   NewGoydenPlan
   break
-  #frogpotPlan
   FrogPotIndex@FrogPotIndex
   break
   NorthChokeIndex@NorthChokeIndex
@@ -187,7 +186,6 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   break
   NewGoydenPlan
   break
-  #frogpotPlan
   FrogPotIndex@FrogPotIndex
   break
   NorthChokeIndex@NorthChokeIndex
@@ -206,7 +204,7 @@ map PublishSection3 -title "The Missing Links<br><it>Nidderdale, North Yorkshire
   goyden2Plan
   goy3Plan
   GuscottIndex@GuscottIndex
-  FrogPotSection3@FrogPotIndex
+  #FrogPotSection3@FrogPotIndex
   break
   NorthChokeSection3@NorthChokeIndex
 endmap

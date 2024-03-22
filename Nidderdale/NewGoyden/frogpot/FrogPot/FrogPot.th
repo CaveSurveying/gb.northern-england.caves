@@ -4,7 +4,7 @@ encoding  utf-8
 input FrogPotP.th2
 #input FrogPotEe.th2
 
-map frogpotPlan -title "Frog Pot Plan"
+map FrogpotPlan -title "Frog Pot Plan"
   FrogPotSP1
   break
   FrogPotSP2
@@ -30,9 +30,9 @@ copyright 2015 "GNU GPL"
 
   date 2015.02.19
   
-   #team "Black Sheep/Diggers"
-  team "Nick Bairstow" notes
-  team "Chris Fox" instruments
+   team "Black Sheep/Diggers"
+  #team "Nick Bairstow" notes
+  #team "Chris Fox" instruments
   #team "Chris Fox" dog
   
   #####Using Surface2 to give location as GPS is iffy#####
