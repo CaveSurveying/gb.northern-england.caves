@@ -7,6 +7,13 @@ encoding  utf-8
 
 scrap GoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
+point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)]
+
+line u -subtype hydro
+  6296.0 21296.0
+  6313.58 20770.83
+endline
+
 point 7396.0 20752.0 label -scale xl -align top-right -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)]
 
 point 5016.0 23560.0 label -scale xl -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -align right
@@ -30,13 +37,6 @@ endscrap
 
 
 scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
-
-point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)]
-
-line u -subtype hydro
-  6296.0 21296.0
-  6313.58 20770.83
-endline
 
 point 8908.86 25014.920000000002 station -name S1
 
