@@ -70,6 +70,8 @@ THERION DRAWING STDS RECOMMENDATIONS
 * naming conventions
 	* maps (in th file) tobe meaningful, i.e. PyridinePassagePlan
 	* scraps to follow map naming i.e. PyridinePassageP1, P2 etc. (or be distinct names)
+* Use UIS symbols styles: https://www.carto.net/neumann/caving/cave-symbols/cave_symbol.php?languageSelection=english
+
 
 
 CHANGES
