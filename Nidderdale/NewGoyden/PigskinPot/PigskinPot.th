@@ -18,10 +18,10 @@ survey PigskinPot -title "Pigskin Pot,<br><it>Nidderdale"
    endmap
 
   centerline
-    cs UTM30
+    cs OSGB:SE
     station 7 "Pigskin Pot" entrance
-    #fix 7 0575383 6003601 211   ##Phil Walker Garmin Instinct 2 (2024)
-    fix 7 0575379 6003608 211 ##Phil Walker Garmin etrex touch 25 (2024)
+    
+    fix 7 10205 75477 211 ##Phil Walker Garmin etrex touch 25 (2024)
     
     date 2024.02.24 
     team "Phil Walker"

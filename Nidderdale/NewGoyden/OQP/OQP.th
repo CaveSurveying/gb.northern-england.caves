@@ -24,10 +24,10 @@ revise    OQP-jigsaws  -flip horizontal
 
   centerline
   
-    cs UTM30
+    cs OSGB:SE
+
     station 0 "Old Quarry Pot" entrance
-    #fix 0 0575362 6003602 206   ##Phil Walker Garmin Instinct 2 (2024)
-    fix 0 0575361 6003609 209 ##Phil Walker Garmin etrex touch 25 (2024)
+    fix 0 10187 75473 209 ##2024 Phil's Garmin eTrex Touch 25
     
     date 2024.02.24 
     team "Phil Walker"

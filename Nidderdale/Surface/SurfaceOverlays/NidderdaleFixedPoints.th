@@ -42,9 +42,11 @@ fix FoxHole                 08710 73930 223
 
 station FrogPot "Frog Pot"
 fix FrogPot                 10140 75630 212
+#fix FrogPot                   10144 75639 196 ##2024 Phil's Garmin eTrex Touch 25
 
 station GoydenPot "Goyden Pot"
 fix GoydenPot               09976 76127 219 #old? 0999 7613 
+#fix GoydenPot               09988 76138 202 ##2024 Phil's Garmin eTrex Touch 25
 
 #station GoydenScarNo1 "Goyden Scar No. 1" (scar to left of Goyden entrance)
 #fix GoydenScarNo1 xxxx
@@ -87,9 +89,11 @@ fix LowerCanalCave           1007 7355 174
 
 station ManchesterHole "Manchester Hole"
 fix ManchesterHole            10013 76401 234
+#fix ManchesterHole            10009 76403 206 ##2024 Phil's Garmin eTrex Touch 25
 
 station NewGoydenPot "New Goyden Pot"
-fix NewGoydenPot              10154 75407 208
+#fix NewGoydenPot              10154 75407 208
+fix NewGoydenPot              10165 75422 190 ##2024 Phil's Garmin eTrex Touch 25
 
 station NiddHeadRisingNWRising "Nidd Head Rising NW Rising"         
 fix NiddHeadRisingNWRising   10500 73180 186
@@ -101,13 +105,14 @@ station NiddHeadsTributaryRising "Nidd Heads Tributary Rising"
 fix NiddHeadsTributaryRising  10490 73180 186
 
 station LimleyLeadMine "Limley Lead Mine"
-fix LimleyLeadMine  10074 75745 214 219
+fix LimleyLeadMine  10074 75745 214
+#fix LimleyLeadMine  10094 75737 216 ##2024 Phil's Garmin eTrex Touch 25
 
 station OldQuarryPot "Old Quarry Pot"
-fix OldQuarryPot   10186 75471 209
+fix OldQuarryPot   10187 75473 209 ##2024 Phil's Garmin eTrex Touch 25
 
 station PigskinPot "Pigskin Pot"
-fix PigskinPot    10210 75475 211
+fix PigskinPot    10205 75477 211 ##2024 Phil's Garmin eTrex Touch 25
 
 station DryWathEntrance "DryWath"
 fix DryWathEntrance  10177 75514 205
@@ -116,18 +121,22 @@ fix DryWathEntrance  10177 75514 205
 #fix VulcanRiftPot
 
 station ThropeEdgePot "Thrope Edge Pot"
-fix ThropeEdgePot   10158 75385 208
+#fix ThropeEdgePot   10158 75385 208
+fix ThropeEdgePot   10158 75394 190 ##2024 Phil's Garmin eTrex Touch 25
 
 station ZanussiPot "Zanussi Pot"
 fix ZanussiPot   10051 75987 231
 
 station TomTaylorsCave "Tom Taylors Cave"
 fix TomTaylorsCave 09374 73529 190
+
+station CaravanTrailDig "Caravan Trail Dig"
+fix CaravanTrailDig 10239 75195 208  ##2024 Phil's Garmin eTrex Touch 25
                 
    
   endcenterline          
 
-                
+             
   scrap AngramCaveLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name AngramCave
@@ -299,13 +308,13 @@ fix TomTaylorsCave 09374 73529 190
     scrap OldQuarryPotLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name OldQuarryPot
-      point 0 0 label -scale l -align left -text [Old Quarry Pot<br><it>SE 10186 75471 209m]
+      point 0 0 label -scale l -align left -text [Old Quarry Pot<br><it>SE 10187 75473 209m]
     endscrap
 
     scrap PigskinPotLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name PigskinPot
-      point 0 0 label -scale l -align left -text [Pigskin Pot <br><it>SE 10210 75475 211m]
+      point 0 0 label -scale l -align left -text [Pigskin Pot <br><it>SE 10205 75477 211m]
     endscrap
 
     scrap DryWathEntranceLoc -proj plan
@@ -338,6 +347,11 @@ fix TomTaylorsCave 09374 73529 190
       point 0 0 label -scale l -align left -text [Tom Taylors Cave<br><it>SE 09374 73529 190m]
     endscrap 
 
+  scrap CaravanTrailDigLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name CaravanTrailDig
+      point 0 0 label -scale l -align left -text [Caravan Trail Dig<br><it>SE 10239 75195 208m]
+    endscrap 
 
 ###BUILD MAPS
 
@@ -360,7 +374,8 @@ map GoydenSystem -projection plan
   OldQuarryPotLoc
   PigskinPotLoc
   ThropeEdgePotLoc
-  DryWathEntranceLoc            
+  DryWathEntranceLoc 
+  CaravanTrailDigLoc           
     
 endmap
    
