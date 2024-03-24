@@ -372,6 +372,7 @@ line wall
   1828.13 10218.96 1790.0 9972.0 1778.0 10006.0
   1763.39 10047.38 1740.0 10062.0 1744.0 10176.0
   1745.47 10218.02 1681.0 10329.0 1681.0 10351.0
+  smooth off
 endline
 
 line wall
@@ -836,7 +837,7 @@ area pebbles
   l71-1834-3050
 endarea
 
-line rock-border -close on -clip on -place top -outline in
+line rock-border -close on -place top -outline in -clip off
   1274.0 6344.0
   1256.0 6299.0 1258.0 6249.0 1265.0 6240.0
   1272.0 6231.0 1330.0 6241.0 1329.0 6251.0

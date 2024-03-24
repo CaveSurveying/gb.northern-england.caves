@@ -535,7 +535,7 @@ line border -id l62-4802-1149 -close on
   4764.0 1176.0 4603.0 1213.0 4624.0 1180.0
 endline
 
-point 4048.0 1216.0 label -scale xl -text [Cap Left<br>Tunnel] -align top-right
+point 4116.0 1198.0 label -scale xl -text [Cap Left<br>Tunnel] -align top-right
 
 line label -scale l -text [Cap Left Tunnel] -visibility off
   3698.0 1436.0

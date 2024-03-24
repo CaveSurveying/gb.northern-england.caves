@@ -233,7 +233,7 @@ point 52.56410256410256 13312.419871794873 label -scale m -text abandoned<br>dig
 
 point 2603.125 10034.625 label -scale m -visibility on -text Lesser<br>Stream<br>Exit -align bottom-left
 
-point 616.0 15702.0 label -scale xl -visibility on -text GOYDEN<br>POT
+point 3431.625 15577.0 label -scale xl -visibility on -text GOYDEN<br>POT -align top-right
 
 point 3310.84992126 3051.2855906000023 station -id G1.20 -name 1.20
 
@@ -552,6 +552,7 @@ line wall
   3370.0 3452.0 3302.0 3314.0 3278.0 3290.0
   3254.0 3266.0 3202.0 3250.0 3160.0 3240.0
   3118.0 3230.0 2519.25 3111.13 2481.25 3103.13
+  smooth off
 endline
 
 line wall
@@ -1261,9 +1262,8 @@ line rock-border -close on
 endline
 
 line arrow
-  700.0 15662.0
-  772.0 15630.0 1958.0 15336.0 1958.0 15336.0
-  smooth off
+  3375.0 15556.25
+  2078.125 15325.0
 endline
 
 line rock-border -close on

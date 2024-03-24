@@ -171,11 +171,17 @@ line wall -subtype presumed
   1112.0 -120.0
 endline
 
-point 1077.5 -151.0 label -scale l -text [Apporx. 1.6km to<br>Nidd House NW Risings<br>Entrance] -align bottom-right
+line wall -subtype invisible
+  1043.0 -175.5
+  1043.0 -175.5 1102.0 -190.0 1120.0 -144.0
+  smooth off
+endline
+
+point 1091.5 -177.5 label -scale l -text [Apporx. 1.6km to<br>Nidd House NW Risings<br>Entrance] -align bottom-right
 
 point 1000.5 54.0 label -scale l -align left -text [Sump 8<br><it>(Length 120m)]
 
-point 458.0 314.0 label -scale l -align bottom-left -text [Sump 7<br><it>Length 110m)]
+point 498.5 399.0 label -scale l -text [Sump 7<br><it>Length 110m)] -align top-right
 
 point 694.0 1201.0 label -align right -scale l -text [Sump 6<br><it>(Length 9m)]
 
@@ -189,7 +195,7 @@ point 588.0 3067.0 label -align right -scale l -text [Sump 2<br><it>Length 64m)]
 
 point 602.0 3434.0 label -text [Sump 1<br><it>Length 36m)] -align right -scale l
 
-point 956.0 2293.0 label -scale l -text Equinox<br>Chamber -align right
+point 927.5 2257.5 label -scale l -text Equinox<br>Chamber -align bottom-right
 
 line wall -subtype presumed
   886.0 2251.0
@@ -424,7 +430,7 @@ line wall
   803.0 2419.0
 endline
 
-point 996.0 312.0 continuation -scale m -text "sump at 0m" -attr who "Paul Monico?" -attr what sump -attr priority Low -attr ref plan #-explored 0m
+point 996.0 312.0 continuation -scale m -text "sump at 0m, multi level" -attr who "Paul Monico?" -attr what sump -attr priority Low -attr ref plan #-explored 0m
 
 line wall
   1112.0 -120.0
@@ -750,12 +756,12 @@ endline
 
 point 805.5 2463.0 gradient -orientation 194.8 -scale m
 
-point 621.0 3519.0 label -scale m -text [Grade 3B]
+point 620.5 3527.5 label -scale m -text [Grade 3B]
 
 line arrow
   499.0 3522.0
   614.0 3546.0
-  615.0 3534.0
+  617.0 3535.0
 endline
 
 line wall
@@ -965,7 +971,7 @@ area water
   l81-565-3289
 endarea
 
-line border -id l81-565-3289 -close on
+line border -id l81-565-3289 -close on -subtype invisible
   600.0 3316.0
   593.0 3325.0
   582.0 3331.0
@@ -1003,7 +1009,7 @@ area water
   l137-532-3564
 endarea
 
-line border -id l137-532-3564 -close on
+line border -id l137-532-3564 -close on -subtype invisible
   563.0 3576.0
   555.0 3573.0
   540.0 3569.0
@@ -1019,11 +1025,11 @@ line border -id l137-532-3564 -close on
   563.0 3576.0
 endline
 
-line border -id l64-821-2689 -close on
+line border -id l64-821-2689 -close on -subtype invisible
   619.0 2831.0
   625.72 2842.0 627.33 2837.33 615.0 2841.0
-  611.66 2841.99 608.47 2844.3 605.0 2844.0
-  600.37 2843.6 595.93 2841.48 592.0 2839.0
+  611.66 2841.99 607.97 2841.8 604.5 2841.5
+  599.87 2841.1 595.93 2841.48 592.0 2839.0
   589.4 2837.36 588.47 2833.83 586.0 2832.0
   579.38 2827.1 565.61 2827.21 565.0 2819.0
   561.99 2778.61 545.62 2724.78 576.0 2698.0
@@ -1050,7 +1056,7 @@ area water
   l77-900-2278
 endarea
 
-line border -id l77-900-2278 -close on
+line border -id l77-900-2278 -close on -subtype invisible
   898.0 2279.0
   873.0 2297.0
   851.0 2312.0
@@ -1070,7 +1076,7 @@ area water
   l75-905-1875
 endarea
 
-line border -id l75-905-1875 -close on
+line border -id l75-905-1875 -close on -subtype invisible
   889.0 1905.0
   869.0 1921.0
   864.0 1923.0
@@ -1092,7 +1098,7 @@ area water
   l73-865-1434
 endarea
 
-line border -id l73-865-1434 -close on
+line border -id l73-865-1434 -close on -subtype invisible
   907.0 1638.0
   878.0 1663.0
   870.0 1670.0
@@ -1117,7 +1123,7 @@ area water
   l71-511-723
 endarea
 
-line border -id l71-511-723 -close on
+line border -id l71-511-723 -close on -subtype invisible
   389.0 520.0
   422.0 496.0
   433.0 486.0
@@ -1155,7 +1161,7 @@ area sump
   l69-837-402
 endarea
 
-line border -id l69-837-402 -close on
+line border -id l69-837-402 -close on -subtype invisible
   839.0 402.0
   804.0 389.0
   789.0 383.0
@@ -1171,8 +1177,8 @@ line border -id l69-837-402 -close on
   397.0 339.0
   953.0 -66.0
   1019.0 -170.0
-  1043.0 -175.5
-  1120.0 -144.0
+  1044.0 -189.5
+  1127.0 -163.5
   1055.0 381.0
   839.0 402.0
 endline
@@ -1181,7 +1187,7 @@ area sump
   l67-699-1230
 endarea
 
-line border -id l67-699-1230 -close on
+line border -id l67-699-1230 -close on -subtype invisible
   675.0 1248.0
   658.0 1245.0
   645.5 1223.5
@@ -1206,7 +1212,7 @@ area sump
   l65-921-1754
 endarea
 
-line border -id l65-921-1754 -close on
+line border -id l65-921-1754 -close on -subtype invisible
   881.0 1822.0
   874.0 1819.0
   866.0 1810.0
@@ -1227,7 +1233,7 @@ area sump
   l63-906-2206
 endarea
 
-line border -id l63-906-2206 -close on
+line border -id l63-906-2206 -close on -subtype invisible
   905.0 2207.0
   872.0 2216.0
   865.0 2197.0
@@ -1261,7 +1267,7 @@ area sump
   l61-834-2415
 endarea
 
-line border -id l61-834-2415 -close on
+line border -id l61-834-2415 -close on -subtype invisible
   833.0 2417.0
   803.0 2419.0
   797.0 2410.0
@@ -1281,7 +1287,7 @@ area sump
   l59-618-3376
 endarea
 
-line border -id l59-618-3376 -close on
+line border -id l59-618-3376 -close on -subtype invisible
   610.0 3304.0
   613.0 3321.0
   619.0 3352.0
@@ -1314,7 +1320,7 @@ area sump
   l57-607-3289
 endarea
 
-line border -id l57-607-3289 -close on
+line border -id l57-607-3289 -close on -subtype invisible
   608.0 3288.0
   591.0 3278.0
   583.0 3272.0
@@ -1327,7 +1333,7 @@ line border -id l57-607-3289 -close on
   557.0 2847.0
   586.0 2832.0
   592.0 2839.0
-  605.0 2844.0
+  604.5 2841.5
   615.0 2841.0
   652.0 2867.0
   676.0 3188.0
@@ -1684,7 +1690,7 @@ point 703.0 2109.0 label -scale m -align right -text chert<br>floor
 
 point 504.0 1884.0 label -align bottom-left -scale m -text [+20m<br>(aven)]
 
-point 600.0 1799.0 label -text [+6m<br>(aven)] -align bottom-left -scale m
+point 612.5 1804.5 label -text [+6m<br>(aven)] -align bottom-left -scale m
 
 point 639.0 1801.0 continuation -scale m -text "unclimbed aven" -attr who "Paul Monico?" -attr what aven -attr priority Low -attr ref plan #-explored +6m
 

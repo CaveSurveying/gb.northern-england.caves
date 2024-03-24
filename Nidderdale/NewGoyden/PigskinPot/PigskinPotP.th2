@@ -58,7 +58,7 @@ point 77.44 -90.42 debris -scale s
 
 point 94.10 -119.86 debris -scale s
 
-point 73.54 -69.93 label -text "Covid<br>Way" -align top-right -scale m
+point 54.790000000000006 -79.93 label -text "Covid<br>Way" -scale m -align bottom-left
 
 point 166.61 -127.16 label -text Proudler<br>Passage -align bottom-right -scale m
 

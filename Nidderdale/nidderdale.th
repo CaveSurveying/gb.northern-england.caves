@@ -88,9 +88,8 @@ join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@Goyde
 
 surface
   cs OSGB:SE
-  bitmap XTherionFiles\OSM673x1929.png [249 1586 09976 76127  295 1888 10013 76401] #slightly off - need GPS accuracy
-  #bitmap XTherionFiles\OSM673x1929.png [249 1586 09976 76120  295 1888 10013 76401] #slightly off - need GPS accuracy
-##8 digits, 1-2 are pixel co-ord of Goyden, 3-4 actual, 5-6 pixel of Manchester, 7-8 actual
+   bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10013 76401] 
+##8 digits, 1-2 are pixels of Goyden, 3-4 actual, 5-6 pixels of Manchester, 7-8 actual
 endsurface
 
 map SurfacePlan  
