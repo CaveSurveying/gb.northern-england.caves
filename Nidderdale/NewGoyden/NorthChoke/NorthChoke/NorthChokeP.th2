@@ -268,6 +268,8 @@ endscrap
 
 scrap NorthChokeSP2 -projection plan -station-names "" "@NorthChoke" -scale [512.688976016 3802.071259843 20.73333333333335 465.17777777777775 0 0 10 10 m]
 
+point 597.7777777777777 4571.919191919192 label -scale xl -text North<br>Choke -align right
+
 line wall
   607.27 3956.36
   607.27 3956.36 601.64 3980.53 600.0 3985.45
@@ -434,8 +436,6 @@ endline
 
 line wall -subtype blocks
 endline
-
-point 513.3333333333333 5620.80808080808 label -scale xl -text North<br>Choke -align right
 
 line label -close on
   225.45454545454544 5156.363636363636
