@@ -23,6 +23,7 @@
 *include RowtenPot/RowtenPot
 *include JinglingPot/JinglingPot
 *include BullPot/BullPot
+*include SlopingHole/SlopingHole 
 *include SlantingCave/SlantingCave-recon
 *include CraftsmansPot/CraftsmansPot-recon
 *include Midas/Midas
@@ -135,8 +136,8 @@
 *FIX Simpson_Pot REFERENCE 69620 77870 376
 *ENTRANCE Simpson_Pot
 
-*FIX Sloping_Cave REFERENCE 70410 79100 351
-*ENTRANCE Sloping_Cave
+;*FIX Sloping_Cave REFERENCE 70410 79100 351
+;*ENTRANCE Sloping_Cave
 
 *FIX Suicide_Pot REFERENCE 69460 77530 381
 *ENTRANCE Suicide_Pot
