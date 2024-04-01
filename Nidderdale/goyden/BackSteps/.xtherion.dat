@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 44.25m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.82m (from 1.11@BackSteps at 8.82m to 1.0@BackSteps at 0.00m)\nnorth-south range: 23.46m (from 1.16@BackSteps at 23.46m to 1.0@BackSteps at 0.00m)\neast-west range: 21.78m (from 1.1@BackSteps at 0.91m to 1.17@BackSteps at -20.87m)\nnumber of shots: 84\nnumber of stations: 85"
+xth_cp_data_tree_insert 88 1 1 BackSteps BackSteps "" "" "length: 44.25m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.82m (from 1.11@BackSteps at 8.82m to 1.0@BackSteps at 0.00m)\nnorth-south range: 23.46m (from 1.16@BackSteps at 23.46m to 1.0@BackSteps at 0.00m)\neast-west range: 21.78m (from 1.1@BackSteps at 0.91m to 1.17@BackSteps at -20.87m)\nnumber of shots: 84\nnumber of stations: 85"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 87X1 p1 1 BackStepsPlan BackStepsPlan "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 44 4
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1711998689
+

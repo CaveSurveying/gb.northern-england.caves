@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -379.21 -187.32 2275.28 1123.94
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2085.66929134 1 1.0} {211.771653543 1.0} PocketTopo/BackSteps_e.xvi 0 {}
+
+
+scrap BackStepsSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BackStepsSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BackStepsSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BackStepsSE4 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
