@@ -17,6 +17,7 @@ input goyden/GargettWay/GargettWay.th
 input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
+input goyden/BackSteps/BackSteps.th
 
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
@@ -64,6 +65,7 @@ join PillarPotSP2 CapLeftTunnelSP2
 join Goyden2SP1 goy3SP1
 join Goyden2SP1 OctoberPassagePlan@OctoberPassage
 join Goyden2SP1 GoydenSP1 #join the 2 sumps with presumed connection
+join GoydenSP2 BackStepsSP1
 join NewGoydenSP5 ThropePotSP1
 join NewGoydenSP4 PlanHardSP1
 join PlanHardSP4  NewGoydenDownstreamSumpsP@NewGoydenDownstreamSumps
@@ -110,6 +112,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   churchPotPlan
   GargettwayPlan
   MudHallPlan
+  BackStepsPlan
   PillarPotPlan
   break
   goydenPlan
@@ -123,6 +126,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   OctoberPassageP@OctoberPassage
   goy3Plan
   CapLeftTunnelPlan
+  
   
   ####NewGoyden/Frog####
   ThropePotPlan
@@ -226,6 +230,7 @@ equate 1.41@Labyrinth.LabyrinthIndex 1.0@CapLeftTunnel
 equate 1.39@Labyrinth.LabyrinthIndex 0@Pyridine
 equate 1.10@AJunction.LabyrinthIndex 11@Pyridine
 equate 1.4@PillarPot 1.29@CapLeftTunnel 
+equate 8.1@Goyden 1.0@BackSteps
 
 equate 1.0@GargettWay 1.9@ChurchPot
 equate  1.16@GargettWay 1.16@Goyden2
