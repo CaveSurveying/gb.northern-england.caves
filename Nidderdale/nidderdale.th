@@ -47,7 +47,7 @@ input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
 
-#input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##DONT USE YET - NEEDS NEW GPS
+#input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##DONT USE YET - NEEDS NEW GPS AND LABELS AMENDED
 
 
 #### Plan Joins ####
@@ -168,6 +168,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   churchPotPlan
   GargettwayPlan
   MudHallPlan
+  BackStepsPlan
   PillarPotPlan
   break
   goydenPlan

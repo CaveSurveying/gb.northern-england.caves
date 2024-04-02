@@ -4,10 +4,9 @@ TODO
 * Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
 * Need new GPS for all entrances. (Nick - Trimble)
-* Add GPS to entrance labels (once revised set complete)
-* Add Entrance symbols (plus redefine symbol)
-* Add GPS / entrance symbol for dig above Caravan Trail?
-* Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
+	* Add GPS to entrance labels (once revised set complete)
+	* Add Entrance symbols (plus redefine symbol)
+	* Add GPS / entrance symbol for dig above Caravan Trail? - done and included on fixed points, but all still requires improved GPS work
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * On PresumedConnections overlay add:
 	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
@@ -23,10 +22,10 @@ TODO
 	- Stream - Planetarium
 	- Goyden Downstream Sumps (6&7 connection to Aquamole)
 * need general review / discussion on all leads / add possible continuations
-* Manchester Hole - Does the stream, go obvious route, via the duck to Sump 1. Sump2 etc (where does it reappear - this is not shown on the survey)
-* More boulders in entrance to Goyden Pot?
 * Include Pitch lengths for Church Pot
 * Include Pitch lengths for Frog Pot (Toad U So is 22m)
+* Remove old OSM overlays and equates from main th file
+* Create index level files for main Goyden / NewGoyden, following folder restructure
 
 
 MISSING SURVEYS
@@ -38,7 +37,6 @@ MISSING SURVEYS
 * Drum Rift
 * Carols back passage/re-survey main chamber
 * low streams by sand tunnel 
-* Back Steps (and offset produce)
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
 * survey over the Turf plus passage above Chapel chamber
 * Ball of String Passage
@@ -76,7 +74,10 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
-* Added an OSM image as an overlay, so no need for:
+*Back Steps (and offset produce) added, no need for offset
+* Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
+* Manchester Hole - Does the stream, go obvious route, via the duck to Sump 1. Sump2 etc (where does it reappear - this is not shown on the survey) - added otline route
+*Added an OSM image as an overlay, so no need for:
 	- Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole   (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 	- Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel. (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 * Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?) - REDUNDANT, SEE ABOVE
