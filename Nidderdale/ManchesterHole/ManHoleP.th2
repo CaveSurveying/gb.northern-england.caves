@@ -551,6 +551,14 @@ line wall -subtype presumed
   smooth off
 endline
 
+point 3325.0 1767.8571428571431 label -text [Grade 1] -scale m -align bottom-left
+
+line arrow
+  3750.0 2032.14
+  3282.1428571428573 1878.5714285714287
+  3296.43 1835.71
+endline
+
 line wall
   3685.71 1932.14
   3678.57 2007.14 3660.0 1982.0 3642.0 2014.0
