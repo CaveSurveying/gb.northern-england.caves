@@ -5,6 +5,7 @@ survey SlopingHoleIndex
 input SlopingHole1/SlopingHole1.th
 input SlopingHole2/SlopingHole2.th
 input SlopingHole3/SlopingHole3.th
+input SlopingHole4/SlopingHole4.th
 
 
 ################ Plan Joins #################
@@ -20,6 +21,7 @@ input SlopingHole3/SlopingHole3.th
 
 join SlopingHole1SE1@SlopingHole1 SlopingHole2SE1@SlopingHole2
 join SlopingHole2SE1@SlopingHole2 SlopingHole3SE1@SlopingHole3
+join SlopingHole3SE1@SlopingHole3 SlopingHole4SE1@SlopingHole4
 
 
 ####Line Joins####
@@ -36,9 +38,8 @@ map SlopingHoleIndex -title "SlopingHolePlan"
   break
   
   SlopingHole1Plan@SlopingHole1
-  #SlopingHole2Plan@SlopingHole2
   SlopingHole3Plan@SlopingHole3 
-  
+  SlopingHole4Plan@SlopingHole4  
   
 endmap
 
@@ -48,6 +49,7 @@ endmap
  SlopingHole1ME@SlopingHole1
  SlopingHole2ME@SlopingHole2
  SlopingHole3ME@SlopingHole3
+ SlopingHole4ME@SlopingHole4
    
  endmap
 
@@ -58,6 +60,7 @@ endmap
 
  equate 1.8@SlopingHole1  95.0@SlopingHole2
  equate 95.4@SlopingHole2 1.0@SlopingHole3
+ equate 1.14@SlopingHole3 1.2@SlopingHole4
   
 endsurvey
 

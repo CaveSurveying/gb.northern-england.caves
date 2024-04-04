@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 28.66m (surface 0.00m, duplicated 15.61m)\nvertical range: 3.74m (from 1.0@SlopingHole3 at 0.00m to 1.15@SlopingHole3 at -3.74m)\nnorth-south range: 30.46m (from 1.0@SlopingHole3 at 0.00m to 1.19@SlopingHole3 at -30.46m)\neast-west range: 6.44m (from 1.9@SlopingHole3 at 3.70m to 1.17@SlopingHole3 at -2.74m)\nnumber of shots: 161\nnumber of stations: 162"
+xth_cp_data_tree_insert 18 1 1 SlopingHole3 SlopingHole3 "" "" "length: 28.66m (surface 0.00m, duplicated 15.61m)\nvertical range: 3.74m (from 1.0@SlopingHole3 at 0.00m to 1.15@SlopingHole3 at -3.74m)\nnorth-south range: 30.46m (from 1.0@SlopingHole3 at 0.00m to 1.19@SlopingHole3 at -30.46m)\neast-west range: 6.44m (from 1.9@SlopingHole3 at 3.70m to 1.17@SlopingHole3 at -2.74m)\nnumber of shots: 161\nnumber of stations: 162"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 231X1 p1 1 SlopingHole3Plan SlopingHole3Plan@SlopingHole3 "" ""
+xth_cp_map_tree_insert map 1 232X1 p3 1 SlopingHole3ME SlopingHole3ME@SlopingHole3 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 29 6
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1712229343
+
