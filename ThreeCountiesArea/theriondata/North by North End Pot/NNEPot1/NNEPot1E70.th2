@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -37.16 -310.11 222.95 1860.64
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {89.722262683 1 1.0} {1180.40366915 1.0} PocketTopo/NNEPot1_E70.xvi 0 {}
+
+
+scrap NNEPot1SE70_1 -projection [elevation 70] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,56 @@
+encoding  utf-8
+
+survey NNEPotIndex
+
+input NNEPot1/NNEPot1.th
+input NNEPot2/NNEPot2.th
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+#join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
+#join TongaSP3@Tonga MarmaladeSP1@Marmalade
+
+####ME Joins####
+join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
+
+
+
+####Line Joins####
+##################
+#join Line1@MyLeftFoot:0    Line1@Picnic:end 
+
+
+
+###################### MAPS ####################
+
+  map NNEPotIndex -title "North_By_North_End_Pot"  
+  
+  NNEPot1Plan@NNEPot1 
+  NNEPot2Plan@NNEPot2 
+  
+  endmap
+ 
+###############################################
+ 
+ map NNEPotMEIndex -title "North_By_North_End_Pot-Extended_Elevation"
+ 
+ NNEPot1ME@NNEPot1
+ NNEPot2ME@NNEPot2 
+ 
+ endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ equate 1.5@NNEPot1  1.0@NNEPot2
+ 
+
+ 
+
+endsurvey
+
