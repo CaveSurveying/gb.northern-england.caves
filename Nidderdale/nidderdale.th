@@ -19,6 +19,7 @@ input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
 input goyden/BackSteps/BackSteps.th
 input goyden/OldYear/OldYearSeriesIndex.th.th #need to fix the double extension
+input goyden/TurfPassage/TurfPassage.th
 
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
@@ -113,6 +114,8 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   PigskinPotPlan@PigskinPot             #NEED NEW GPS
   break  
   GuscottIndex@GuscottIndex
+  TurfPassagePlan@TurfPassage
+  break
   churchPotPlan
   GargettwayPlan
   MudHallPlan
@@ -131,7 +134,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   goy3Plan
   CapLeftTunnelPlan
   OldYearSeriesIndex@OldYearSeriesIndex
-  
+    
   
   ####NewGoyden/Frog####
   ThropePotPlan
@@ -170,6 +173,8 @@ endmap
 ## Chris Fox Publication Maps ##
 ################################
 map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+ TurfPassagePlan@TurfPassage
+  break
   churchPotPlan
   GargettwayPlan
   MudHallPlan
@@ -239,6 +244,7 @@ equate 1.10@AJunction.LabyrinthIndex 11@Pyridine
 equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 8.1@Goyden 1.0@BackSteps
 equate 0@OldYearDigi.OldYearSeriesIndex 1.42@Labyrinth.LabyrinthIndex 
+equate 0@TurfPassage 1.27@ChurchPot
 
 equate 1.0@GargettWay 1.9@ChurchPot
 equate  1.16@GargettWay 1.16@Goyden2
