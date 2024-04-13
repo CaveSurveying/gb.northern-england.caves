@@ -4,32 +4,27 @@ survey OldYearSeriesIndex
 input OldYear/OldYear.th
 input OldyearSump/OldYearSump.th
 
-
+input OldYearDigitised/OldYearDigi.th
 
 
 map OldYearSeriesIndex -title "OldYearSeriesIndex"
    
-  OldYearSumpPlan@OldYearSump
-  break
-  OldYearPlan@OldYear
-  
+ # OldYearSumpPlan@OldYearSump
+ # break
+ # OldYearPlan@OldYear
+ # break
+  OldYearDigiPlan@OldYearDigi  
   
 endmap
-
-
-
-
 
 #join OldYearSP1@OldYear OldYearSumpSP1@OldYearSump -smooth on
 
 centreline
 
 equate 1.1@OldYear 1.1@OldYearSump
-
+equate 1.2@OldYear 1@OldYearDigi 
 
 copyright 2018 "GNU GPL"
-
-
 
   date 2018.06.03
 
@@ -44,4 +39,5 @@ copyright 2018 "GNU GPL"
 
 endcentreline
 endsurvey
+
 
