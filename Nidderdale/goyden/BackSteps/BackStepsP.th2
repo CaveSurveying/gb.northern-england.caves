@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 2377.2755905481 2811.3149606296
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1440.86992126 1 1.0} {1617.232047244 1.4} PocketTopo/BackSteps_p.xvi 0 {}
 
 
@@ -36,6 +36,7 @@ line border -id l27-1728-1343
   1822.5 1221.5
   1822.5 1221.5 1816.0 1252.0 1781.5 1285.0
   1747.0 1318.0 1687.0 1388.0 1686.5 1389.5
+  smooth off
 endline
 
 line ceiling-step
@@ -50,6 +51,7 @@ line ceiling-step -reverse on -clip off
   1342.0 1348.5 1346.5 1342.0 1348.0 1328.5
   1349.5 1315.0 1345.5 1314.0 1352.0 1297.5
   1358.5 1281.0 1363.0 1269.0 1384.0 1265.0
+  smooth off
 endline
 
 line floor-step -reverse on
@@ -186,6 +188,7 @@ line wall -clip off
   1701.5 1129.0 1694.75 998.0 1694.75 998.0
   smooth off
   1694.75 998.0 1609.5 960.0 1609.0 955.0
+  smooth off
 endline
 
 line wall
@@ -449,6 +452,8 @@ endscrap
 scrap BackStepsSP4 -projection plan -station-names "" "@BackSteps" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 1219.36992126 1945.882047244 station -name 1.10
+
+point 1166.0 1869.0 label -align bottom-left -scale xl -text [BACK STEPS<br>ENTRANCE]
 
 line rock-border -close on -clip off
   1202.5 1954.75

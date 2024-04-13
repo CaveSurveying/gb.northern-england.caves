@@ -14,7 +14,7 @@ station BackSteps "Back Steps"
 fix BackSteps               09982 76125 224
 
 station BaxPot "Bax Pot"     ##Probably incorrect
-fix BaxPot                  09983 76168 224
+fix BaxPot                  09983 76168 226
 
 station BlayshawGillPotNo1 "Blayshaw Gill Pot No. 1"    
 fix BlayshawGillPotNo1      09980 72860 188
@@ -41,8 +41,8 @@ station FoxHole "Fox Hole"
 fix FoxHole                 08710 73930 223
 
 station FrogPot "Frog Pot"
-fix FrogPot                 10140 75630 212
-#fix FrogPot                   10144 75639 196 ##2024 Phil's Garmin eTrex Touch 25
+fix FrogPot                 10140 75630 212 
+#fix FrogPot                 10144 75639 196 ##2024 Phil's Garmin eTrex Touch 25
 
 station GoydenPot "Goyden Pot"
 fix GoydenPot               09976 76127 219 #old? 0999 7613 
@@ -76,7 +76,7 @@ station LimleyPot "Limley Pot"
 fix LimleyPot                10040 76010 231
 
 station LofthouseFossCaveNo1 "Lofthouse Foss Cave No. 1"
-fix LofthouseFossCaveNo1            10070 73640 189
+fix LofthouseFossCaveNo1           10070 73640 189
 
 station LofthouseFossCaveNo2 "Lofthouse Foss Cave No. 2"  
 fix    LofthouseFossCaveNo2        10070 73620 174
@@ -92,8 +92,8 @@ fix ManchesterHole            10013 76401 234
 #fix ManchesterHole            10009 76403 206 ##2024 Phil's Garmin eTrex Touch 25
 
 station NewGoydenPot "New Goyden Pot"
-#fix NewGoydenPot              10154 75407 208
-fix NewGoydenPot              10165 75422 190 ##2024 Phil's Garmin eTrex Touch 25
+fix NewGoydenPot              10154 75407 208 
+#fix NewGoydenPot              10165 75422 190 ##2024 Phil's Garmin eTrex Touch 25
 
 station NiddHeadRisingNWRising "Nidd Head Rising NW Rising"         
 fix NiddHeadRisingNWRising   10500 73180 186
@@ -121,8 +121,8 @@ fix DryWathEntrance  10177 75514 205
 #fix VulcanRiftPot
 
 station ThropeEdgePot "Thrope Edge Pot"
-#fix ThropeEdgePot   10158 75385 208
-fix ThropeEdgePot   10158 75394 190 ##2024 Phil's Garmin eTrex Touch 25
+fix ThropeEdgePot   10158 75385 208
+#fix ThropeEdgePot   10158 75394 190 ##2024 Phil's Garmin eTrex Touch 25
 
 station ZanussiPot "Zanussi Pot"
 fix ZanussiPot   10051 75987 231

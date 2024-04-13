@@ -18,6 +18,7 @@ input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
 input goyden/BackSteps/BackSteps.th
+input goyden/OldYear/OldYearSeriesIndex.th.th #need to fix the double extension
 
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
@@ -49,8 +50,9 @@ input Surface/SurfaceOverlays/Overlays.th
 
 #input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##DONT USE YET - NEEDS NEW GPS AND LABELS AMENDED
 
-
-#### Plan Joins ####
+####################
+#### PLAN JOINS ####
+####################
 join GoydenSP1 churchPotSP4
 join GoydenSP1 PillarPotSP1
 join GoydenSP1 MudHallSP1
@@ -60,6 +62,8 @@ join LabyrinthSP4@LabyrinthIndex CarterPassageSP1
 join LabyrinthSP1@LabyrinthIndex MudHallSP5
 join LabyrinthSP2@LabyrinthIndex CapLeftTunnelSP1
 join LabyrinthSP1@LabyrinthIndex PyridinePlan@Pyridine
+#join OldYearDigiPlan@OldYearSeriesIndex LabyrinthSP2@LabyrinthIndex 
+
 join MudHallSP4 ScaffoldTraversePlan@Pyridine
 join PillarPotSP2 CapLeftTunnelSP2
 join Goyden2SP1 goy3SP1
@@ -101,7 +105,7 @@ map SurfacePlan
   break
   OverlaysPlan@Overlays                 #hydological assumed / proved connection lines  
   #SurfaceOQP                           #need latest GPS from Nick, but does not really work as surface overlay
-  #GoydenSystem@NidderdaleFixedPoints   #all entrance GPS (NEEDS AN UPDATE)  
+ # GoydenSystem@NidderdaleFixedPoints   #all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
@@ -126,6 +130,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   OctoberPassageP@OctoberPassage
   goy3Plan
   CapLeftTunnelPlan
+  OldYearSeriesIndex@OldYearSeriesIndex
   
   
   ####NewGoyden/Frog####
@@ -182,6 +187,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   #OctoberPassageP@OctoberPassage
   #goy3Plan
   CapLeftTunnelPlan
+  OldYearSeriesIndex@OldYearSeriesIndex
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -232,6 +238,7 @@ equate 1.39@Labyrinth.LabyrinthIndex 0@Pyridine
 equate 1.10@AJunction.LabyrinthIndex 11@Pyridine
 equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 8.1@Goyden 1.0@BackSteps
+equate 0@OldYearDigi.OldYearSeriesIndex 1.42@Labyrinth.LabyrinthIndex 
 
 equate 1.0@GargettWay 1.9@ChurchPot
 equate  1.16@GargettWay 1.16@Goyden2

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -134.4516129032258 -960.0 23891.6850393658 16225.1338582645
-##XTHERION## xth_me_area_zoom_to 62
+##XTHERION## xth_me_area_zoom_to 31
 ##XTHERION## xth_me_image_insert {3361.313779528 1 1.0715193052376064} {6485.520315000002 1.16} {Labyrinth[1]With Clay Tunnel 30.10.15/PocketTopo/Labyrinth[1]_p.xvi} 0 {}
 ##XTHERION## xth_me_image_insert {3360.313779528 -1 1.0} {6485.520315000002 {}} {Labyrinth[1]/PocketTopo/Labyrinth[1]_p.xvi} 0 {}
 
@@ -747,14 +747,7 @@ endline
 
 point 13187.451612903225 7290.645161290323 label -text [Sand Tunnel] -scale xl -align top-right
 
-point 11185.0 8428.0 label -align right -text [Old Year<br>Passage] -scale l
-
-line water-flow
-  11090.0 8486.0
-  11054.0 8451.0 11042.0 8427.0 11034.0 8412.0
-  11026.0 8397.0 10981.0 8386.0 10996.0 8341.0
-  smooth off
-endline
+point 11185.0 8428.0 label -align right -text [Old Year<br>Passage] -scale l -visibility off
 
 area clay
   l151-13304-6898
@@ -860,8 +853,7 @@ line wall
 endline
 
 line wall
-  10980.0 8445.0
-  10971.0 8424.0 10932.0 8405.0 10933.0 8379.0
+  10933.0 8379.0
   10934.0 8353.0 10959.0 8257.0 10977.0 8224.0
   10995.0 8191.0 11000.0 8147.0 11002.0 8136.0
   11004.0 8125.0 10993.0 8099.0 10987.0 8097.0
@@ -908,8 +900,6 @@ line wall
   11251.0 8249.0 11225.0 8267.0 11190.0 8260.0
   11155.0 8253.0 11123.0 8237.0 11124.0 8229.0
   11125.0 8221.0 11113.0 8271.0 11094.0 8292.0
-  11075.0 8313.0 11058.0 8326.0 11056.0 8336.0
-  smooth off
 endline
 
 line wall
@@ -1232,12 +1222,6 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line gradient
-  11122.0 8038.0
-  11084.0 8036.0 11008.0 8024.0 11008.0 8024.0
-  smooth off
-endline
-
 line rock-edge
   11886.832992130001 7535.365590600002
   11890.0 7490.0 11894.0 7490.0 11926.0 7414.0
@@ -1270,11 +1254,13 @@ line floor-step
   smooth off
 endline
 
-line gradient
-  11462.0 8052.0
-  11502.0 8020.0 11538.0 8004.0 11570.0 7962.0
-  smooth off
-endline
+point 11517.74193548387 8001.612903225806 gradient -orientation 135.3 -scale m
+
+point 11080.645161290322 8020.967741935483 gradient -orientation 267.1 -scale m
+
+point 11082.258064516129 8124.193548387097 gradient -orientation 238.3 -scale m
+
+point 11041.935483870968 8245.16129032258 gradient -orientation 193.7 -scale m
 
 line gradient
   10752.0 7740.0
@@ -1282,17 +1268,7 @@ line gradient
   smooth off
 endline
 
-line gradient
-  11058.0 8280.0
-  11046.0 8222.0 11036.0 8142.0 11024.0 8120.0
-  smooth off
-endline
-
-line gradient
-  11106.0 8158.0
-  11078.0 8132.0 11016.0 8074.0 10998.0 8056.0
-  smooth off
-endline
+point 11082.258064516129 8401.612903225807 water-flow -orientation 194.0 -scale m
 
 line wall
   10858.0 7605.0

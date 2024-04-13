@@ -7,8 +7,9 @@ source OldYearSeriesIndex.th
 #-----------------
 
 select OldYearSeriesIndex@OldYearSeriesIndex
-select OldYearSumpPlan@OldYearSump.OldYearSeriesIndex
-select OldYearPlan@OldYear.OldYearSeriesIndex
+#select OldYearSumpPlan@OldYearSump.OldYearSeriesIndex
+#select OldYearPlan@OldYear.OldYearSeriesIndex
+#select OldYearDigiPlan@OldYearDigi.OldYearSeriesIndex
 
 
 
@@ -33,7 +34,7 @@ layout local
 base-scale 1 400
 scale 1 300
 symbol-set BCRA
-#debug station-names
+debug station-names
 #debug on
 #legend on
 

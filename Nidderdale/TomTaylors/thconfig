@@ -14,7 +14,7 @@ source TomTaylors.th
 
 export map -proj plan -layout local -o Output/TomTaylors.pdf
 #export map -proj extended -layout local -o Output/TomTaylorsEe.pdf
-#export map -o Output/TTMain.kml
+export map -o Output/TTMain.kml
 #export model -fmt survex -o Output/TTMain.3d
 #export model  -o Output/TTMain.lox
 #export map -proj plan -o Output/TTMain_Walls.3d

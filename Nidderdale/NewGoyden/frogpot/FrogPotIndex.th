@@ -5,9 +5,6 @@ input FrogPot/FrogPot.th
 input FPUpstreamSump/FPUpstreamSump.th
 
 
-
-
-
 map FrogPotIndex -title "FrogPot Index"
   FrogpotPlan
   FPUpstreamSumpPlan  
@@ -25,11 +22,7 @@ endmap
 
 
 
-
-
 join FrogPotSP3 FPUpstreamSumpSP1
-
-
 
 centreline
 
@@ -38,13 +31,7 @@ equate 1.19@FrogPot 1@FPUpstreamSump
 
 copyright 2018 "GNU GPL"
 
-
-
   date 2019.07.21
-
-  
-
-
   explo-date 20.08.20
 
 
