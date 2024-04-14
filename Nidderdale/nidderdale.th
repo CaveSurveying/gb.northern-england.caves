@@ -64,6 +64,7 @@ join LabyrinthSP1@LabyrinthIndex MudHallSP5
 join LabyrinthSP2@LabyrinthIndex CapLeftTunnelSP1
 join LabyrinthSP1@LabyrinthIndex PyridinePlan@Pyridine
 #join OldYearDigiPlan@OldYearSeriesIndex LabyrinthSP2@LabyrinthIndex 
+join TurfPassageP1@TurfPassage churchPotSP3
 
 join MudHallSP4 ScaffoldTraversePlan@Pyridine
 join PillarPotSP2 CapLeftTunnelSP2

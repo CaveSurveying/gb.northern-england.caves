@@ -398,6 +398,11 @@ line wall -subtype presumed
   smooth off
 endline
 
+line pit -reverse on
+  3644.0 1234.0
+  3586.0 1216.0
+endline
+
 line wall
   2985.0 2580.5
   2988.0 2549.0 3041.0 2300.0 3076.0 2269.0
@@ -412,6 +417,7 @@ line wall
   3511.0 1351.0 3509.0 1346.0 3511.0 1324.0
   3513.0 1302.0 3515.0 1279.0 3527.0 1258.0
   3539.0 1237.0 3570.0 1207.0 3586.0 1216.0
+  smooth off
 endline
 
 line wall
@@ -516,7 +522,12 @@ endline
 
 point 4406.0 442.0 label -text static<br>sump -align top-right
 
-point 3466.0 1320.0 label -align left -scale l -text The<br>Pinnacle<br>(c6)
+line arrow
+  3348.0 1310.0
+  3604.0 1246.0
+endline
+
+point 3296.0 1320.0 label -align left -scale l -text [The Pinnacle<br>(c6)]
 
 point 2988.0 2150.0 label -align left -text Gaskell's<br>Passage -scale xl
 

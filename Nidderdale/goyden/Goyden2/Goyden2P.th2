@@ -1015,7 +1015,7 @@ point 3134.1992126 6271.082118199999 station -name 1.17
 
 point 3228.7692125999997 6816.8621182 station -name 1.18
 
-point 1632.0 7382.0 label -scale xl -text [Turf<br>Passage]
+point 1632.0 7382.0 label -scale xl -text [Turf<br>Passage] -visibility off
 
 endscrap
 
