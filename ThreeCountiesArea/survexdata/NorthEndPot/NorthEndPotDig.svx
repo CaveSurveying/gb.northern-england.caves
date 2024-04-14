@@ -15,6 +15,7 @@
 2	5	7.108	311		+27			;5=Surface edge above dig
 2	6	4.866	308		-18.1		;6=Rock sticking out at start of dig shaft
 *FLAGS not surface
+*FLAGS duplicate
 6	7	3.864	238		-63.3	
 7	8	3.998	255		-85.8	
 8	9	7.089	226		-69.6		;9=top of wooden shored step
@@ -27,6 +28,8 @@
 11	14	9.82	155		-82.2
 14	15	7.5		312		-50
 14	16	2.9		175		-33
+
+*FLAGS not duplicate
 
 ;To be continued
 

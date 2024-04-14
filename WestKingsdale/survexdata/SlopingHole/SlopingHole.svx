@@ -1,4 +1,4 @@
-*BEGIN		SlopingHole
+*BEGIN SlopingHole
 
 *cs out OSGB:SD
 *cs OSGB:SD
@@ -11,15 +11,10 @@
 *INCLUDE	SlopingHole1
 *INCLUDE	SlopingHole2
 *INCLUDE	SlopingHole3
-
-*EQUATE		SlopingHole1.8		SlopingHole2.95.0
-*EQUATE		SlopingHole2.95.0	SlopingHole3.0
-
-
-
-
-
-
-
+*INCLUDE	SlopingHole4
+ 
+*EQUATE SlopingHole1.8  	SlopingHole2.95.0
+*EQUATE SlopingHole2.95.4 	SlopingHole3.0
+*EQUATE SlopingHole3.14 	SlopingHole4.2
 
 *END SlopingHole

@@ -175,8 +175,10 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
 *include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
 
-*include NorthEndPot/NorthEndPot
-*equate NorthEndPot.NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
+*INCLUDE NorthEndPot/NorthEndPot
+*INCLUDE NorthNorthEndPot/NNEPot
+*EQUATE NorthEndPot.NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
+*EQUATE NNEPot.entrance NorthEndPot.NorthEndPotDig.entrance
 
 *EQUATE	MoholeToPilgrimPot.6	3cgps.031
 *EQUATE	MoholeToPilgrimPot.15	PilgrimPot.entrance	

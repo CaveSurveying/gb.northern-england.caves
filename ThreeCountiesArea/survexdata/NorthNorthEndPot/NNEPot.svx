@@ -1,0 +1,16 @@
+*BEGIN NNEPot
+
+;*cs out OSGB:SD
+;*cs OSGB:SD
+
+*EXPORT 	entrance
+;*FIX 		entrance 
+*EQUATE		NNEPot1.1 entrance
+*ENTRANCE 	entrance
+
+*INCLUDE	NNEPot1
+*INCLUDE	NNEPot2
+ 
+*EQUATE NNEPot1.5  	NNEPot2.1.0
+
+*END NNEPot
