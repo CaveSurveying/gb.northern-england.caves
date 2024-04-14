@@ -1,6 +1,8 @@
 TODO
 ----
-* the 3d file created appears to have some duplicate surveys (Church pot etc.) Need fix, and need to check therion, if it's been double counted in places the stats are going to be wrong
+* the 3d file output appears to have some duplicate surveys, needs fix and check therion, if it's been double counted in places the stats are going to be wrong
+	- Aquamole and Frog Pot (th files have duplicate data and then additional in one)
+	- Goyden 2 and Gargett Way (th files look like they are the same)
 * Rename [blank].thconfig files to appropriate names (for ease of opening / identification)
 * Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
@@ -41,7 +43,7 @@ MISSING SURVEYS
 * small passages from 10 foot climb though to Sand tunnel 
 * Carbide tin passage from 5 Ways junction to bottom of the 20 foot climb.
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
-* survey over the Turf plus passage above Chapel chamber
+* survey over the Turf plus passage above Chapel chamber - DIGITISED VERSION
 * Ball of String Passage
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
 
@@ -77,12 +79,12 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
-*Digitised version of Turf Passage - Pitch
-*Digitised version of Old year added
-*Back Steps (and offset produce) added, no need for offset
+* Digitised version of Turf Passage - Pitch
+* Digitised version of Old year added
+* Back Steps (and offset produce) added, no need for offset
 * Add label at bottom of Sump 8 - 1km / 2km to Nidd House Risings
 * Manchester Hole - Does the stream, go obvious route, via the duck to Sump 1. Sump2 etc (where does it reappear - this is not shown on the survey) - added otline route
-*Added an OSM image as an overlay, so no need for:
+* Added an OSM image as an overlay, so no need for:
 	- Need to survey riverbed from Guscott pot to beyond sinks for Manchester Hole   (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 	- Need to survey road from Limley farm entrance to far side of railway tunnel, incl sealed railway tunnel. (Check file GoydenSystemSurface.pdf in output, this uses an OSM map, alternative to manual survey of surface?)
 * Added a new SurfaceOverlay, digitised from OSM but using the Surface 1 data for points.  (Temporary until new suface survey done?) - REDUNDANT, SEE ABOVE
