@@ -8,25 +8,29 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+*include kdgps
 *include KMC/Old_KMC
 *include KMC/KMC
-*include Swinsto/Swinsto
+*include UpstreamSumps/UpstreamSumps
+
+*include Aquamole/Aquamole
+*include BullPot/BullPot
+*INCLUDE BuzzersPot/BuzzersPot
+*include CraftsmansPot/CraftsmansPot-recon
+*INCLUDE FagPot/FagPot
+*include GreenLaids/GreenLaids
+*include JinglingPot/JinglingPot
 *INCLUDE KeldNookCave/KeldNookCave
-*include TurbaryPot/TurbaryPot
+*include Midas/Midas
 *include RowtenCaves/RowtenCaves		
+*include RowtenPot/RowtenPot
+*INCLUDE SheepFoldPot/SheepFoldPot
+*include SlantingCave/SlantingCave-recon
+*include SlopingHole/SlopingHole 
+*include Swinsto/Swinsto
+*include TurbaryPot/TurbaryPot
 *include Yordas/Yordas_old				;old innacurate/incomplete survey - to be replaced
 *include Yordas/Yordas1
-*include GreenLaids/GreenLaids
-*include Aquamole/Aquamole
-*include UpstreamSumps/UpstreamSumps
-*include kdgps
-*include RowtenPot/RowtenPot
-*include JinglingPot/JinglingPot
-*include BullPot/BullPot
-*include SlopingHole/SlopingHole 
-*include SlantingCave/SlantingCave-recon
-*include CraftsmansPot/CraftsmansPot-recon
-*include Midas/Midas
 
 ; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
 
@@ -88,9 +92,6 @@
 *FIX BrokenSpring_Pot REFERENCE 69650 77690 368 
 *ENTRANCE BrokenSpring_Pot
 
-*FIX Buzzers_Pot REFERENCE 69130 77010 387
-*ENTRANCE Buzzers_Pot
-
 *FIX Calf_Pot REFERENCE 70190 78770 360
 *ENTRANCE Calf_Pot
 
@@ -102,9 +103,6 @@
 
 *FIX Drip_Pot REFERENCE 69460 77370 381
 *ENTRANCE Drip_Pot
-
-*FIX Fag_Pot REFERENCE 69230 77080 384
-*ENTRANCE Fag_Pot
 
 *FIX KeldNook_Pot REFERENCE 69180 76770 372
 *ENTRANCE KeldNook_Pot
@@ -123,9 +121,6 @@
 
 *FIX Red_Cave REFERENCE 69450 77640 384
 *ENTRANCE Red_Cave
-
-*FIX SheepFold_Pot REFERENCE 69000 76940 387
-*ENTRANCE SheepFold_Pot
 
 *FIX Shout_Pot REFERENCE 70170 78690 361
 *ENTRANCE Shout_Pot

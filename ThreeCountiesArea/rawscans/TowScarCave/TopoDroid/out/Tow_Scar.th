@@ -1,0 +1,42 @@
+# 2024.04.14 created by TopoDroid v 6.2.47
+
+survey Tow_Scar -title "Tow Scar"
+
+  # input "Tow_Scar-1p.th2"
+
+  # map m1p -projection plan
+  #   Tow_Scar-1p
+  # endmap
+
+  centerline
+    date 2023.08.13 
+    # team Diane.Arthurs, Simon.Cornhill 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 0.36 131.3 -19.7
+    0 . 0.52 285.2 -20.1
+    0 . 0.94 14.0 -25.3
+    0 . 1.29 63.4 -13.4
+    0 . 1.07 242.6 -73.2
+    extend right
+    0 1 7.88 24.7 -78.2
+    # extend auto
+    1 . 2.77 84.6 87.1
+    1 . 1.28 108.3 -86.9
+    1 . 0.37 75.1 -2.4
+    1 . 0.83 23.7 4.0
+    1 . 1.29 47.7 -1.7
+    1 . 0.62 141.3 1.3
+    1 . 1.20 120.4 39.0
+    1 . 0.70 205.2 5.4
+    1 . 1.24 220.6 5.0
+    1 . 1.17 251.1 3.4
+    1 . 0.70 287.1 2.3
+    units left right up down meters
+    data dimensions station left right up down
+    0 0.48 0.78 0.78 1.03
+  endcenterline
+
+endsurvey
