@@ -79,6 +79,7 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
+* Added top level controlled legend.txt file so legend despcriptions can be turned on and off, amendments to name etc.
 * Digitised version of Turf Passage - Pitch
 * Digitised version of Old year added
 * Back Steps (and offset produce) added, no need for offset
