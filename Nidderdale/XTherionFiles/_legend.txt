@@ -1,0 +1,39 @@
+encoding  utf-8
+# adapted from github SpeleoPhilippines under Creative Commons Share Alike, translations changed to Spanish!
+
+
+
+##CURRENT USAGE
+
+##hide / rename some legend entries 
+text en "line border:visible" ""
+text en "line wall:sand" ""
+text en "line wall:debris" ""
+text en "line wall:blocks" ""
+text en "line wall:flowstone" ""
+text en "line wall:underlying" "" ##hidden as not many and similar to presumed
+text en "line wall:overlying" ""  ##hidden as not many and similar to presumed
+text en "line wall:unsurveyed" "" ##hidden as not many and similar to presumed
+text en "line wall:presumed" "presumed/unsurveyed wall" ##hidden as not many and similar to presumed
+text en "line border:presumed" ""
+text en "line rock-border" ""
+text en "line rock-edge" ""
+text en "line contour" ""
+text en "line section" ""
+text en "line slope" ""
+text en "line chimney" ""
+text en "line pit-chimney" ""
+text en "line pit" "pitch"
+text en "line u:user" ""
+text en "point u:mappe" ""
+text en "point blocks" ""
+text en "point vegetable-debris" "flood/tree debris"
+text en "point mud" ""
+text en "point pebbles" ""
+text en "point debris" ""#hidden the point symbol but the area one is not that reflective...
+text en "point low-end"          ""
+text en "point narrow-end"       ""
+text en "area flowstone" ""
+text en "area clay" "mud" #used clay area fill to represent mud, amended legend
+text en "line u:hydro" "presumed connection"
+text en "line u:break" "passage omitted/offset"
