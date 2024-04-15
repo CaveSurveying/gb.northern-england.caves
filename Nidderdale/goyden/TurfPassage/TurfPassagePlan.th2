@@ -146,6 +146,16 @@ line wall -close on
   smooth off
 endline
 
+point 537.0 -1415.0 water-flow -orientation 269.4 -scale m
+
+point 623.0 -1434.0 water-flow -orientation 293.6 -scale m
+
+point 757.0 -1419.0 water-flow -orientation 266.3 -scale m
+
+point 1013.0 -1397.0 water-flow -orientation 246.1 -scale m
+
+point 1123.0 -1301.0 water-flow -orientation 193.3 -scale m
+
 line wall
   888.0 -1338.0
   888.0 -1338.0 886.0 -1357.0 885.0 -1361.0
@@ -288,6 +298,7 @@ line wall
   1297.0 -1074.0 1289.0 -1058.0 1287.0 -1052.0
   1285.0 -1046.0 1280.0 -1035.0 1279.0 -1029.0
   1278.0 -1023.0 1271.0 -1013.0 1270.0 -1007.0
+  smooth off
 endline
 
 line wall
