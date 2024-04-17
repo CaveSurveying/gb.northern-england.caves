@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -201.99999999999977 -140.5 5662.375 16155.669291335798
-##XTHERION## xth_me_area_zoom_to 64
+##XTHERION## xth_me_area_zoom_to 32
 ##XTHERION## xth_me_image_insert {2585.4137795280003 1 1.0} {14170.2533071 1.4} PocketTopo/GoydenFulMain_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {2585.4137795280003 1 1.0} {14170.2533071 1.4} ../Labyrinth/PocketTopo/Labyrinth_p.xvi 0 {}
 
@@ -214,8 +214,6 @@ line border -id l151-2482-3022 -close on
 endline
 
 point 1806.25 6912.5 label -scale xl -visibility off -text [climb to<br>Gaskill's Passage]
-
-point 4331.25 3750.0 label -visibility on -align right -scale m -text [to Limley<br>Inlet and<br>Lower Nurgatory]
 
 point 5513.75 2830.875 label -scale xl -visibility on -align bottom-left -text Labyrinth<br>Passage
 
@@ -467,13 +465,13 @@ line wall
   smooth off
 endline
 
-line wall -subtype presumed
+line wall
   4221.875 3759.375
   4181.25 3756.25
   4134.38 3762.5
 endline
 
-line wall -subtype presumed
+line wall
   4200.0 3650.0
   4200.0 3650.0 4212.5 3659.38 4221.875 3662.5
   4231.25 3665.63 4268.75 3675.0 4268.75 3675.0
@@ -501,9 +499,23 @@ line wall
   2918.0 6684.0 3626.0 7096.0 3632.0 7154.0
   3638.0 7212.0 3572.0 7370.0 3590.0 7356.0
   3608.0 7342.0 3682.0 7256.0 3666.0 7316.0
-  3650.0 7376.0 3692.0 8032.0 3684.0 8106.0
-  3676.0 8180.0 3634.0 8466.0 3632.0 8552.0
-  3630.0 8638.0 3452.0 9136.0 3418.0 9296.0
+  3650.0 7376.0 3693.75 7734.375 3693.75 7734.375
+  smooth off
+endline
+
+line wall
+  3700.0 7812.5
+  3700.0 7812.5 3711.13 7972.88 3703.13 8046.88
+endline
+
+line wall
+  3703.13 8046.88
+  3695.13 8120.88 3645.75 8382.75 3643.75 8468.75
+endline
+
+line wall
+  3631.25 8553.13
+  3629.25 8639.13 3452.0 9136.0 3418.0 9296.0
   3384.0 9456.0 3260.68 9712.55 3244.68 9742.55
   smooth off
 endline
@@ -1202,11 +1214,6 @@ line wall
   smooth off
 endline
 
-line arrow
-  4106.25 7940.625
-  3668.75 8040.625
-endline
-
 line rock-border -close on
   2246.875 15240.625
   2131.25 15253.125
@@ -1617,6 +1624,7 @@ endline
 line wall
   2601.56 13743.75
   2465.56 13709.75 2450.01 13715.63 2435.94 13707.81
+  smooth off
 endline
 
 line wall

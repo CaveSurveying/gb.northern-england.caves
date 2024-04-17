@@ -76,19 +76,6 @@ line wall -reverse on
   smooth off
 endline
 
-line water-flow
-  985.0 5173.5
-  953.5 5164.0 923.5 5159.25 923.5 5153.75
-  923.5 5148.25 917.25 5145.75 906.0 5142.5
-  smooth off
-endline
-
-line water-flow
-  976.5 5198.75
-  954.75 5188.5 955.5 5195.0 926.25 5178.75
-  smooth off
-endline
-
 line rock-edge -close on -reverse on
   1234.5 6647.0
   1242.5 6650.5 1277.0 6656.0 1277.0 6656.0
@@ -395,12 +382,11 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line water-flow -place bottom
-  1693.5 7264.0
-  1718.0 7238.0 1714.0 7244.5 1733.0 7222.0
-  1734.02 7220.79 1754.0 7202.0 1754.0 7202.0
-  smooth off
-endline
+point 1637.8787878787878 7321.212121212121 water-flow -orientation 126.3 -scale m
+
+point 1734.8484848484848 7240.909090909091 water-flow -orientation 126.3 -scale m
+
+point 950.0 5175.757575757576 water-flow -orientation 247.6 -scale m
 
 line water-flow
   1751.5 7147.5
@@ -415,6 +401,8 @@ line wall
   1227.0 6537.0 1286.0 6595.0 1301.0 6599.0
   smooth off
 endline
+
+point 1753.030303030303 7333.333333333333 label -text FROG<br>POT -align top -scale xl
 
 line wall
   1298.0 6538.0
@@ -975,6 +963,7 @@ line wall -reverse on -clip off
   1378.79 4756.06 1401.33 4851.7 1483.33 4869.7
   1488.01 4870.73 1535.65 4961.35 1571.21 5042.42
   1609.09 5128.78 1690.41 5341.08 1734.85 5424.24
+  smooth off
 endline
 
 line wall -subtype invisible

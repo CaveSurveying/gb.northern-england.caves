@@ -10,16 +10,20 @@ input goyden/carterPassage/CarterPassage.th
 input goyden/labyrinth/LabyrinthIndex.th
 input goyden/Pyridine/Pyridine.th
 input goyden/goy3/Goy3.th
-input goyden/goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
-input goyden/goy3/GoydenDownstreamSumps/GoydenMainStreamExtension.th
 input goyden/goyden2/Goyden2.th
 input goyden/GargettWay/GargettWay.th
 input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
 input goyden/BackSteps/BackSteps.th
+
+##DIGITISED GOYDEN SURVEYS
+input goyden/goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
+input goyden/goy3/GoydenDownstreamSumps/GoydenMainStreamExtension.th
 input goyden/OldYear/OldYearSeriesIndex.th.th #need to fix the double extension
 input goyden/TurfPassage/TurfPassage.th
+input goyden/LimleyInlet/LimleyInlet.th
+input goyden/Nurgatory/Nurgatory.th
 
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
@@ -65,6 +69,9 @@ join LabyrinthSP2@LabyrinthIndex CapLeftTunnelSP1
 join LabyrinthSP1@LabyrinthIndex PyridinePlan@Pyridine
 #join OldYearDigiPlan@OldYearSeriesIndex LabyrinthSP2@LabyrinthIndex 
 join TurfPassageP1@TurfPassage churchPotSP3
+join GoydenSP1 LimleyInletP1@LimleyInlet
+join GoydenSP1  UpperNurgatoryP1@Nurgatory
+join GoydenSP1  LowerNurgatoryP1@Nurgatory
 
 join MudHallSP4 ScaffoldTraversePlan@Pyridine
 join PillarPotSP2 CapLeftTunnelSP2
@@ -101,13 +108,8 @@ surface
 endsurface
 
 map SurfacePlan  
-  #Surface2Plan
-  #surface1Plan 
-  #QuarrySurfacePlan 
-  break
   OverlaysPlan@Overlays                 #hydological assumed / proved connection lines  
-  #SurfaceOQP                           #need latest GPS from Nick, but does not really work as surface overlay
- # GoydenSystem@NidderdaleFixedPoints   #all entrance GPS (NEEDS AN UPDATE)  
+  #GoydenSystem@NidderdaleFixedPoints   #all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
@@ -135,6 +137,9 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   goy3Plan
   CapLeftTunnelPlan
   OldYearSeriesIndex@OldYearSeriesIndex
+  break
+  LimleyInletPlan@LimleyInlet
+  NurgatoryPlan@Nurgatory
     
   
   ####NewGoyden/Frog####
@@ -194,6 +199,9 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   #goy3Plan
   CapLeftTunnelPlan
   OldYearSeriesIndex@OldYearSeriesIndex
+  break
+  LimleyInletPlan@LimleyInlet
+  NurgatoryPlan@Nurgatory
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -246,6 +254,8 @@ equate 1.4@PillarPot 1.29@CapLeftTunnel
 equate 8.1@Goyden 1.0@BackSteps
 equate 0@OldYearDigi.OldYearSeriesIndex 1.42@Labyrinth.LabyrinthIndex 
 equate 0@TurfPassage 1.27@ChurchPot
+equate 1.19@Goyden 1.19@LimleyInlet 
+equate 1.14@Goyden 1.14@Nurgatory
 
 equate 1.0@GargettWay 1.9@ChurchPot
 equate  1.16@GargettWay 1.16@Goyden2
