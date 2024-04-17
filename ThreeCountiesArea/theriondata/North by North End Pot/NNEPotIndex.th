@@ -10,8 +10,7 @@ input NNEPot2/NNEPot2.th
 ####Scrap Joins####
 ###################
 
-#join 5WaysEntSP3@5WaysEnt TongaSP1@Tonga
-#join TongaSP3@Tonga MarmaladeSP1@Marmalade
+#join ####SP1@#### ####SP1@####
 
 ####ME Joins####
 join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2

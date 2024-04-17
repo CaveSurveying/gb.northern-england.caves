@@ -19,10 +19,12 @@ endmap
 
 centreline
 
+station 1.1 "North by North End Pot" entrance
+
 copyright 2024 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
-#pda - Nic
+#pda - Nick
 #disto - Nick
 #
 

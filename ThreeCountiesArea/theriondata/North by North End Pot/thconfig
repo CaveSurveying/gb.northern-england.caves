@@ -24,8 +24,7 @@ export model -fmt survex -o Output/NNEPotIndex.3d
 
 
 layout local
-#copy CommonLayout
-#copy GB_Layout
+
 base-scale 1 100
 scale 1 80
 symbol-set BCRA
@@ -112,6 +111,3 @@ endcode
 
 
 endlayout
-
-#input CommonLayout.thc
-#input GB_Layout.thc
