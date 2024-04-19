@@ -11,7 +11,7 @@ map Lab2Plan -title "Labyrinth 2"
   Lab2SP2
   break
   Lab2SP1
-  Lab2SP4
+  #Lab2SP4 ##hiding, so that digitised Lab can be used
     
 endmap
 

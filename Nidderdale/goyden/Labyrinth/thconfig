@@ -7,7 +7,9 @@ source LabyrinthIndex.th
 
 #Surveys to output
 #-----------------
-select LabyrinthIndex
+select LabyrinthIndex@LabyrinthIndex
+
+
 
 
 export map -proj plan -layout local -o Output/LabyrinthIndexPlan.pdf
