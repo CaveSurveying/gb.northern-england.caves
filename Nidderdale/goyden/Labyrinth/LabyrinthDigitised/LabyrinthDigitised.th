@@ -1,0 +1,26 @@
+encoding  utf-8
+survey LabyrinthDigitised
+
+input LabyrinthDigitisedPlan.th2
+
+map LabyrinthDigitisedPlan
+  LabyrinthDigitisedP1
+  
+  
+  break
+  LabyrinthDigitisedP2
+endmap
+
+centreline
+  date 2024.04.18
+  team "Phil Walker" #digitised based on 1970's ULSA / YURT version
+data normal from to tape compass clino ignoreall
+1.32 A1 6 110 -2
+
+
+data dimensions station left right up down
+
+
+endcentreline
+endsurvey
+

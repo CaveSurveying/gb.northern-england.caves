@@ -1,0 +1,22 @@
+*begin LabyrinthDigitised				
+					
+					
+*date 2024.04.18					
+*team "Phil Walker" digitised					
+
+;from the ULSA / YURT 1970's survey					
+					
+*export 0 					
+					
+					
+					
+;from	to	tape	compass	clino	
+					
+					
+					
+					
+*data passage station left right up down ignoreall					
+
+					
+					
+*end LabyrinthDigitised					

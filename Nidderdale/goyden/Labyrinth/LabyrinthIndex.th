@@ -7,8 +7,11 @@ input BeetRoot/BeetRoot.th
 input BRCanal/BRCanal.th
 input BeetRootSump/BeetRootSump.th
 input AJunction/AJunction.th
+input WormDrive/WormDrive.th ##digitised version
 
 map LabyrinthIndex -title "Labyrinth Index"
+  #WormDriveP1@WormDrive
+  #break
   LabyrinthPlan
   AJunctionPlan
   Lab2Plan
@@ -18,6 +21,8 @@ map LabyrinthIndex -title "Labyrinth Index"
 endmap
 
 map LabyrinthSection1 -title "Labyrinth Section 1" #used for Chris' Publication Section 1
+  #WormDriveP1@WormDrive
+  #break
   LabyrinthPlan
   AJunctionPlan
   #Lab2Plan 
@@ -30,17 +35,13 @@ endmap
 
 
 map LabyrinthEeIndex -title "Sand Tunnel To Beet Root Ee"
-
 #BRCanalSE1
-
 #BeetRootSE1
 #BeetRootSE2
 #BeetRootSE3
 #BeetRootSE4
-
 BRCanalEe
 BeetRootEe
-
 endmap
 
 join LabyrinthSP2 Lab2SP1
@@ -50,6 +51,7 @@ join BRSP5Start BRCSP1End
 join LabyrinthSP1 AJunctionSP1
 #join Line2@Labyrinth Line1@AJunction
 #join Line4@Labyrinth:0 Line3@AJunctionend
+join Lab2SP3 WormDriveP1@WormDrive 
 
 
 centreline
@@ -61,6 +63,7 @@ equate 1.18@BeetRoot 1.8@BRCanal
 equate 0@BeetRootSump 1.0@BRCanal
 equate 1.0@AJunction 1.33@Labyrinth
 equate 102.6@AJunction 1.26@Labyrinth
+equate 1.18@Lab2 1.18@WormDrive
 
 copyright 2018 "GNU GPL"
 
