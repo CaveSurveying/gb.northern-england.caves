@@ -5,7 +5,7 @@ encoding  utf-8
 
 ##CURRENT USAGE
 
-##hide / rename some legend entries 
+##hide / rename some legend entries (generally as point symbol more representative of all uses, rather than having x3 of similar entries)
 text en "line border:visible" ""
 text en "line wall:sand" ""
 text en "line wall:debris" ""
@@ -29,6 +29,7 @@ text en "line pit" "pitch"
 text en "line u:user" ""
 
 
+text en "point sand" "silt"
 text en "point u:mappe" ""
 text en "point blocks" ""
 text en "point vegetable-debris" "flood/tree debris"
