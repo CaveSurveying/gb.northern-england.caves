@@ -1,9 +1,6 @@
 TODO
 ----
-* the 3d file output appears to have some duplicate surveys, needs fix and check therion, if it's been double counted in places the stats are going to be wrong
-	- Aquamole and Frog Pot (th files have duplicate data and then additional in one) - DONE - COMMENTED OUT 1.0 to 1.28 IN AQUAMOLE
-	- Goyden 2 and Gargett Way (th files look like they are the same)
-	- PlanHard (Astronomers) and new Astronmers - DONE
+
 * Rename [blank].thconfig files to appropriate names (for ease of opening / identification)
 * Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
@@ -80,6 +77,10 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
+* the 3d file output appears to have some duplicate surveys, needs fix and check therion, if it's been double counted in places the stats are going to be wrong
+	- Aquamole and Frog Pot (th files have duplicate data and then additional in one) - DONE - COMMENTED OUT 1.0 to 1.28 IN AQUAMOLE
+	- Goyden 2 and Gargett Way (th files look like they are the same) - DONE (GargettWay 1.16 onwards commented out, Goyden 2 1.0 to 1.16 commented out)
+	- PlanHard (Astronomers) and new Astronmers - DONE
 * Added top level controlled legend.txt file so legend despcriptions can be turned on and off, amendments to name etc.
 * Digitised version of Turf Passage - Pitch
 * Digitised version of Old year added
