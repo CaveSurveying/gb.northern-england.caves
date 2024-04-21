@@ -509,6 +509,7 @@ line wall -id LD1
   1281.0 -1496.0 1280.0 -1502.0 1279.0 -1508.0
   1278.0 -1514.0 1273.0 -1520.0 1271.0 -1523.0
   1269.0 -1526.0 1225.0 -1522.0 1221.0 -1522.0
+  smooth off
   mark top
 endline
 
@@ -1086,6 +1087,34 @@ line wall -subtype debris
   971.0 -1693.0 965.0 -1699.0 965.0 -1699.0
   smooth off
   950.0 -1709.0
+endline
+
+line wall -subtype invisible
+endline
+
+line wall -subtype invisible
+  2368.0 -2654.0
+  2371.0 -2671.0
+endline
+
+line wall -subtype invisible
+  2020.0 -2458.0
+  2003.0 -2465.0
+endline
+
+line wall -subtype invisible
+  1790.0 -1969.0
+  1782.0 -1963.0
+endline
+
+line wall -subtype invisible
+  1873.0 -1635.0
+  1865.0 -1630.0
+endline
+
+line wall -reverse on -subtype invisible
+  1035.0 -1746.0
+  1037.0 -1757.0
 endline
 
 line wall -subtype debris

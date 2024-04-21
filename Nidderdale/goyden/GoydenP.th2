@@ -506,11 +506,15 @@ endline
 line wall
   3700.0 7812.5
   3700.0 7812.5 3711.13 7972.88 3703.13 8046.88
+  smooth off
 endline
+
+point 3715.625 8243.75 label -align bottom-right -text [+c6] -scale m
 
 line wall
   3703.13 8046.88
   3695.13 8120.88 3645.75 8382.75 3643.75 8468.75
+  smooth off
 endline
 
 line wall
