@@ -100,21 +100,23 @@ join GoydenDownstreamSumpsP3@GoydenDownstreamSumps NewGoydenSP5
 join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@GoydenDownstreamSumps
 
 ####################################################
-
+##ADD A SURFACE IMAGE
 surface
   cs OSGB:SE
    bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10013 76401] 
 ##8 digits, 1-2 are pixels of Goyden, 3-4 actual, 5-6 pixels of Manchester, 7-8 actual
 endsurface
 
+####################################################
+
 map SurfacePlan  
-  OverlaysPlan@Overlays                 #hydological assumed / proved connection lines  
-  #GoydenSystem@NidderdaleFixedPoints   #all entrance GPS (NEEDS AN UPDATE)  
+  OverlaysPlan@Overlays                 ##hydological assumed / proved connection lines  
+  #GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
-  OldQuarryPotPlan@OQP                  #NEED NEW GPS
-  PigskinPotPlan@PigskinPot             #NEED NEW GPS
+  OldQuarryPotPlan@OQP                  ##NEED NEW GPS
+  PigskinPotPlan@PigskinPot             ##NEED NEW GPS
   break  
   GuscottIndex@GuscottIndex
   TurfPassagePlan@TurfPassage
@@ -252,7 +254,7 @@ equate 1.39@Labyrinth.LabyrinthIndex 0@Pyridine
 equate 1.10@AJunction.LabyrinthIndex 11@Pyridine
 equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 8.1@Goyden 1.0@BackSteps
-equate 0@OldYearDigi.OldYearSeriesIndex 1.42@Labyrinth.LabyrinthIndex 
+equate 1.42@Labyrinth.LabyrinthIndex 0@OldYearDigi.OldYearSeriesIndex 
 equate 0@TurfPassage 1.27@ChurchPot
 equate 1.19@Goyden 1.19@LimleyInlet 
 equate 1.14@Goyden 1.14@Nurgatory
@@ -263,8 +265,8 @@ equate 1.17@Goyden2 0@OctoberPassage
 equate 1.28@Goyden2 4.0@goy3
 equate 1.9@goy3 1.9@GoydenMainStreamExtension
 equate 11@GoydenMainStreamExtension 24@GoydenDownstreamSumps
-#equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
 equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
+#equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
 #equate 1.36@GoydenDownstreamSumps 1.9@goy3
 
 equate 5.47@NewGoyden 1.28@FrogPot.FrogPotIndex
@@ -289,8 +291,6 @@ equate 1@SurfaceOQP 0@OQP
 equate 1.10@CarterPassage S1@Overlays
 equate 10@NewGoydenDownstreamSumps S2@Overlays
 
-
-#equate 1@SurfaceOSMGrid 1.1@ManHole
 equate 0@Overlays 1.0@NewGoyden
 
 

@@ -7,8 +7,8 @@ input BeetRoot/BeetRoot.th
 input BRCanal/BRCanal.th
 input BeetRootSump/BeetRootSump.th
 input AJunction/AJunction.th
-input WormDrive/WormDrive.th ##digitised version
-input LabyrinthDigitised/LabyrinthDigitised.th
+input WormDrive/WormDrive.th                        ##digitised version
+input LabyrinthDigitised/LabyrinthDigitised.th      ##digitised version
 
 map LabyrinthIndex -title "Labyrinth Index"
   LabyrinthPlan
@@ -61,7 +61,19 @@ join LabyrinthSP1 AJunctionSP1
 #join Line4@Labyrinth:0 Line3@AJunctionend
 join Lab2SP3 WormDriveP1@WormDrive 
 
+##JOINS TO THE DIGITISED VERSION~~
 #join LabyrinthSP1 LabyrinthDigitisedP2@LabyrinthDigitised
+#join L1@Labyrinth:top LD1@LabyrinthDigitised:top
+#join L2@Labyrinth:bottom LD2@LabyrinthDigitised:bottom
+
+
+
+#Labyrinth.LabyrinthIndex
+
+
+
+
+
 #join Lab2SP3 LabyrinthDigitisedP2@LabyrinthDigitised
 
 
@@ -74,19 +86,13 @@ equate 1.18@BeetRoot 1.8@BRCanal
 equate 0@BeetRootSump 1.0@BRCanal
 equate 1.0@AJunction 1.33@Labyrinth
 equate 102.6@AJunction 1.26@Labyrinth
+
 equate 1.18@Lab2 1.18@WormDrive
 equate 1.32@Labyrinth 1.32@LabyrinthDigitised
 
 copyright 2018 "GNU GPL"
-
-
-
   date 2018.08.20 
-
-
   explo-date 20.08.18
-
-
 endcentreline
 endsurvey
 
