@@ -163,9 +163,9 @@ line rock-border
   smooth off
 endline
 
-point 716.0 5328.0 label -text fixed<br>ladder -align right  -scale m
+point 716.0 5328.0 label -align right  -scale m -text P6<br>(fixed<br>ladder)
 
-point 776.0 4848.0 label -align right -text fixed<br>ladder  -scale m
+point 776.0 4848.0 label -align right -scale m -text P3<br>(fixed<br>ladder)
 
 point 666.0 4860.0 fixed-ladder -scale s
 

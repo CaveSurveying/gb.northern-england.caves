@@ -5,14 +5,11 @@ TODO
 * Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
 * Need new GPS for all entrances. (Nick - Trimble)
-	* Add GPS to entrance labels (once revised set complete)
-	* Add Entrance symbols (plus redefine symbol)
-	* Add GPS / entrance symbol for dig above Caravan Trail? - done and included on fixed points, but all still requires improved GPS work
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * On PresumedConnections overlay add:
 	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
 	* Pigskin > Covid Way to NG 25m aven
-	* OQP to Astronomers
+	* OQP to Astronomers - NO POINT ADDING THIS UNTIL PROPER GPS WORK COMPLETE
 * Pitches - set outline-in to 'view' into passage below
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?
@@ -23,17 +20,14 @@ TODO
 	- Stream - Planetarium
 	- Goyden Downstream Sumps (6&7 connection to Aquamole)
 * need general review / discussion on all leads / add possible continuations
-* Include Pitch lengths for Church Pot
-* Include Pitch lengths for Frog Pot (Toad U So is 22m)
 * Remove old OSM overlays and equates from main th file - CANNOT DO THIS YET.  SOME ENTRANCES ARE ONLY WORKING VIA THE SURFACE EQUATES
 * Create index level files for main Goyden / NewGoyden, following folder restructure
 
 
 MISSING SURVEYS
 ---------------
-* Upper and lower nurgatory to Main Stream
-* Labryinth - New Stream Passage
-* Limley inlet
+* Ball of String Passage
+* New Stream Sump
 * Limley Pot?
 * Drum Rift
 * Carols back passage/re-survey main chamber
@@ -42,8 +36,11 @@ MISSING SURVEYS
 * Carbide tin passage from 5 Ways junction to bottom of the 20 foot climb.
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
 * survey over the Turf plus passage above Chapel chamber - DIGITISED VERSION
-* Ball of String Passage
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
+* Upper and lower nurgatory to Main Stream - DIGITISED VERSION INCLUDED
+* Labryinth - New Stream Passage - DIGITISED VERSION INCLUDED
+* Limley inlet - DIGITISED VERSION INCLUDED
+
 
 OTHER
 -----
@@ -77,6 +74,8 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
+* Included Pitch lengths for Frog Pot (entrance c9, Toad U So is 22m)
+* Included Pitch lengths for Church Pot (6m & 3M)
 * the 3d file output appears to have some duplicate surveys, needs fix and check therion, if it's been double counted in places the stats are going to be wrong
 	- Aquamole and Frog Pot (th files have duplicate data and then additional in one) - DONE - COMMENTED OUT 1.0 to 1.28 IN AQUAMOLE
 	- Goyden 2 and Gargett Way (th files look like they are the same) - DONE (GargettWay 1.16 onwards commented out, Goyden 2 1.0 to 1.16 commented out)
