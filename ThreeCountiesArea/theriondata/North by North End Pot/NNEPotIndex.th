@@ -4,13 +4,15 @@ survey NNEPotIndex
 
 input NNEPot1/NNEPot1.th
 input NNEPot2/NNEPot2.th
+input LleanBean1/LleanBean1.th
+input LleanBean2/LleanBean2.th
 
 
 ################ Plan Joins #################
 ####Scrap Joins####
 ###################
 
-#join ####SP1@#### ####SP1@####
+join NNEPot2SP5@NNEPot2 LleanBean1SP1@LleanBean1
 
 ####ME Joins####
 join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
@@ -28,7 +30,10 @@ join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
   map NNEPotIndex -title "North_By_North_End_Pot"  
   
   NNEPot1Plan@NNEPot1 
-  NNEPot2Plan@NNEPot2 
+  NNEPot2Plan@NNEPot2
+  LleanBean1Plan@LleanBean1
+  break
+  LleanBean2Plan@LleanBean2 
   
   endmap
  
@@ -46,7 +51,9 @@ join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
 
 
 
- equate 1.5@NNEPot1  1.0@NNEPot2
+ equate 1.5@NNEPot1    1.0@NNEPot2
+ equate 105.13@NNEPot2 1.0@LleanBean1
+ equate 1.0@LleanBean2 1.4@LleanBean1
  
 
  

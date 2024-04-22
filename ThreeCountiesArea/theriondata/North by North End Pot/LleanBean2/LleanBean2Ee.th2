@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -917.39 -1183.28 5504.33 7099.67
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4543.66404542 1 1.0} {4021.56021043 1.0} PocketTopo/LleanBean2_e.xvi 0 {}
+
+
+scrap LleanBean2SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LleanBean2SE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
