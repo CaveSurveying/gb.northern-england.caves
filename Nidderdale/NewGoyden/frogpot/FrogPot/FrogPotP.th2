@@ -85,6 +85,13 @@ line rock-edge -close on -reverse on
   1240.0 6633.5 1226.5 6643.5 1234.5 6647.0
 endline
 
+line arrow
+  1028.7878787878788 5200.0
+  784.8484848484849 5146.969696969697
+endline
+
+point 1046.969696969697 5204.545454545454 label -scale m -text P22<br>Toad-U-So -align right
+
 line wall
   1742.0 7158.0
   1724.0 7147.0 1708.5 7139.5 1697.0 7134.0
@@ -446,6 +453,8 @@ line wall
   1918.5 7113.0 1835.0 7214.0 1835.0 7214.0
   smooth off
 endline
+
+point 1798.4848484848485 7078.787878787879 label -text c9 -align bottom-left -scale m
 
 line wall
   1835.0 7214.0
