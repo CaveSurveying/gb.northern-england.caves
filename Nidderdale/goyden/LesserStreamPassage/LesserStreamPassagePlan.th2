@@ -214,6 +214,14 @@ line wall -subtype blocks
   486.0 -706.0
 endline
 
+point 657.0 -960.0 label -align top-left -text [Grade 3B] -scale m
+
+line arrow
+  876.0 -819.0
+  683.0 -975.0
+  675.0 -968.0
+endline
+
 line wall
   486.0 -706.0
   495.0 -714.0
@@ -295,6 +303,7 @@ line wall
   919.0 -899.0
   931.0 -913.0
   931.0 -913.0 937.0 -921.0 940.0 -922.0
+  smooth off
 endline
 
 line wall
