@@ -2318,7 +2318,7 @@ endscrap
 
 scrap EternalOptomist_s1 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1210.8695652173913 -1600.0 label -align top-right -scale xl -text Eternal<br>Optimist
+point 553.7267080745341 -1392.857142857143 label -scale xl -text Eternal<br>Optimist -align left
 
 line rock-border -close on
   810.0 -1841.0
@@ -3192,7 +3192,10 @@ endline
 line wall
   194.0 -2103.0
   180.0 -2114.0 125.19 -2140.8 127.0 -2215.0
-  128.0 -2256.0 86.0 -2236.0 143.0 -2357.0
+endline
+
+line wall
+  143.0 -2357.0
   158.63 -2390.18 198.0 -2430.0 198.0 -2430.0
   smooth off
 endline

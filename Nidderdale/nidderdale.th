@@ -24,6 +24,7 @@ input goyden/OldYear/OldYearSeriesIndex.th.th #need to fix the double extension
 input goyden/TurfPassage/TurfPassage.th
 input goyden/LimleyInlet/LimleyInlet.th
 input goyden/Nurgatory/Nurgatory.th
+input goyden/LesserStreamPassage/LesserStreamPassage.th
 
 input NewGoyden/FrogPot/FrogPotIndex.th
 input NewGoyden/aquamole/Aquamole.th
@@ -72,6 +73,7 @@ join TurfPassageP1@TurfPassage churchPotSP3
 join GoydenSP1 LimleyInletP1@LimleyInlet
 join GoydenSP1  UpperNurgatoryP1@Nurgatory
 join GoydenSP1  LowerNurgatoryP1@Nurgatory
+join EternalOptomist_s3 LesserStreamPassageP1@LesserStreamPassage
 
 join MudHallSP4 ScaffoldTraversePlan@Pyridine
 join PillarPotSP2 CapLeftTunnelSP2
@@ -130,7 +132,9 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   goydenPlan
   break
   manholePlan
-  EternalOptomist-offset [-50 0 m] below
+  EternalOptomist-offset [-40 0 m] below
+  break
+  LesserStreamPassagePlan@LesserStreamPassage  [-40 0 m] below  
   PyridineP@Pyridine
   LabyrinthIndex@LabyrinthIndex
   CarterPassagePlan
@@ -142,6 +146,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   LimleyInletPlan@LimleyInlet
   NurgatoryPlan@Nurgatory
+
     
   
   ####NewGoyden/Frog####
@@ -192,7 +197,9 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   goydenPlan
   break
   manholePlan
-  EternalOptomist-offset [-50 0 m] below  
+  EternalOptomist-offset [-40 0 m] below
+  break
+  LesserStreamPassagePlan@LesserStreamPassage  [-40 0 m] below  
   LabyrinthSection1@LabyrinthIndex
   PyridineP@Pyridine
   CarterPassagePlan
@@ -204,6 +211,8 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   break
   LimleyInletPlan@LimleyInlet
   NurgatoryPlan@Nurgatory
+  break
+  LesserStreamPassagePlan@LesserStreamPassage
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -258,6 +267,8 @@ equate 1.42@Labyrinth.LabyrinthIndex 0@OldYearDigi.OldYearSeriesIndex
 equate 0@TurfPassage 1.27@ChurchPot
 equate 1.19@Goyden 1.19@LimleyInlet 
 equate 1.14@Goyden 1.14@Nurgatory
+
+equate 7.24@ManHole 20@LesserStreamPassage
 
 equate 1.0@GargettWay 1.9@ChurchPot
 equate  1.16@GargettWay 1.16@Goyden2
