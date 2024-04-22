@@ -1696,6 +1696,25 @@ line wall
   1526.0 -2114.0
 endline
 
+point 1439.0 -1985.0 continuation -text "aven -Labyrinth" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
+
+point 1557.0 -1962.0 continuation -text "aven -Labyrinth" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
+
+point 2150.0 -2612.0 label -align bottom-left -scale l -text Worm<br>Drain
+
+point 1490.0 -1968.0 label -text avens -scale m
+
+line ceiling-step
+  1404.0 -1999.0
+  1468.0 -1993.0
+endline
+
+line ceiling-step
+  1514.0 -1978.0
+  1553.0 -1975.0
+  1583.0 -1964.0
+endline
+
 line wall
   1782.0 -1963.0
   1782.0 -1963.0 1781.0 -1970.0 1781.0 -1975.0

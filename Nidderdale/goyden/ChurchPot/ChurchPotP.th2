@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap churchPotSP1 -projection plan -station-names "" "@ChurchPot" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 605.0 5584.0 label -scale xl -text CHURCH<br>POT -align top-right
+point 393.0 5368.0 label -scale xl -text CHURCH<br>POT -align bottom-left
 
 point 490.578141202 5325.19685039 station -name 1.0
 
@@ -163,13 +163,15 @@ line rock-border
   smooth off
 endline
 
-point 716.0 5328.0 label -align right  -scale m -text P6<br>(fixed<br>ladder)
+point 632.0 5314.0 label -scale m -text P6<br>(fixed<br>ladder) -align bottom-right
 
 point 776.0 4848.0 label -align right -scale m -text P3<br>(fixed<br>ladder)
 
 point 666.0 4860.0 fixed-ladder -scale s
 
 point 572.0 5338.0 fixed-ladder -scale s
+
+point 622.0 5510.0 label -align top-right -scale l -text Clive's<br>Cellar
 
 line wall
   804.178141202 4549.43685039
@@ -438,6 +440,20 @@ line wall
   smooth off
 endline
 
+line ceiling-step -close on -reverse on
+  1898.0 4308.0
+  1888.0 4282.0
+  1888.0 4282.0 1874.0 4254.0 1866.0 4242.0
+  1858.0 4230.0 1834.0 4192.0 1834.0 4192.0
+  smooth off
+  1834.0 4192.0 1814.0 4170.0 1830.0 4162.0
+  1846.0 4154.0 1856.0 4150.0 1878.0 4160.0
+  1900.0 4170.0 1928.0 4198.0 1928.0 4206.0
+  1928.0 4214.0 1934.0 4240.0 1928.0 4256.0
+  1922.0 4272.0 1898.0 4308.0 1898.0 4308.0
+  smooth off
+endline
+
 line wall
   4362.0 511.0
   4358.0 520.0 4330.0 542.0 4293.0 544.0
@@ -531,11 +547,15 @@ point 3296.0 1320.0 label -align left -scale l -text [The Pinnacle<br>(c6)]
 
 point 2988.0 2150.0 label -align left -text Gaskell's<br>Passage -scale xl
 
-point 1902.0 4250.0 continuation -text "Riggwelter Pot - aven at top?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
+point 616.0 4322.0 continuation -text "aven before Wretched Corner" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
 
-point 1848.0 4402.0 label -scale l -text Riggwelter<br>Pot -align top-left
+point 1894.0 4222.0 continuation -text "Riggwelter Pot - aven at top?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
 
-point 1718.0 3816.0 label -scale l -text [Black Sheep<br>Passage] -align bottom-right
+point 810.0 3892.0 label -scale l -align bottom-left -text Wretched<br>Corner
+
+point 1920.0 4362.0 label -scale l -text Riggwelter<br>Pot -align top-right
+
+point 1566.0 3748.0 label -scale l -text [Black Sheep<br>Passage] -align bottom-right
 
 line floor-step
   2877.5 3264.5
@@ -654,6 +674,24 @@ line wall
   smooth off
 endline
 
+line ceiling-step -close on -reverse on
+  612.0 4278.0
+  648.0 4260.0
+  698.0 4242.0
+  698.0 4242.0 728.0 4246.0 730.0 4254.0
+  732.0 4262.0 732.0 4284.0 728.0 4292.0
+  724.0 4300.0 730.0 4310.0 712.0 4324.0
+  694.0 4338.0 676.0 4348.0 666.0 4354.0
+  656.0 4360.0 646.0 4372.0 626.0 4376.0
+  606.0 4380.0 586.0 4380.0 586.0 4380.0
+  smooth off
+  586.0 4380.0 562.0 4362.0 564.0 4348.0
+  566.0 4334.0 560.0 4324.0 566.0 4314.0
+  572.0 4304.0 592.0 4282.0 592.0 4282.0
+  smooth off
+  612.0 4278.0
+endline
+
 line wall
   714.0 4539.5
   713.5 4531.5 671.0 4496.0 667.5 4483.5
@@ -734,6 +772,8 @@ endline
 line ceiling-step
 endline
 
+point 3802.0 4020.0 label -align top-left -text [c4.5<br>fixed chain]
+
 line wall -reverse on
   3865.0 3981.0
   3900.0 3977.0 3961.0 3928.0 4027.0 3922.0
@@ -752,8 +792,6 @@ line arrow
   3874.0 4034.0
   3916.0 3856.0
 endline
-
-point 3850.0 4068.0 label -align top-left  -scale l -text [fixed chain c4.5<br>down to main stream]
 
 line wall -reverse on
   4192.0 3948.0
@@ -813,6 +851,8 @@ point 2757.528141202 3289.8568503899996 station -name 1.24
 point 2853.318141202 3412.8568503899996 station -name 1.23
 
 point 2846.478141202 3484.84685039 station -name 1.22
+
+point 3142.0 3644.0 label -scale l -align top-left -text Sheep<br>Dip
 
 line wall -reverse on
   2818.0 3421.0

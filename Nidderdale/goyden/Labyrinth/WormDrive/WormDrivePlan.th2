@@ -7,7 +7,15 @@ encoding  utf-8
 
 scrap WormDriveP1 -projection plan -scale [1328.0 -3100.0 1624.0 -3100.0 0.0 0.0 15.24 0.0 m]
 
-point 1980.0 -2293.0 label -align bottom-left -text Worm<br>Drive -scale l
+line wall
+  1727.0 -1684.0
+  1723.0 -1677.0
+  1707.0 -1675.0
+endline
+
+point 2044.0 -2199.0 label -scale l -align top-right -text Worm<br>Pot
+
+point 1874.0 -2032.0 label -align bottom-left -text Worm<br>Drive -scale l
 
 line wall -close on -reverse on
   1939.0 -2094.0
