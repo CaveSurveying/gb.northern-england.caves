@@ -8,10 +8,10 @@ source LleanBean2.th
 select LleanBean2
 
 
-export map -proj plan -layout local -o Output/LleanBean2.pdf
+#export map -proj plan -layout local -o Output/LleanBean2.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Output/LleanBean2Ee.pdf
+export map -proj extended -layout local -o Output/LleanBean2Ee.pdf
 
 #export model -fmt survex -o Output/LleanBean2th.3d
 #Survex file showing centre line only

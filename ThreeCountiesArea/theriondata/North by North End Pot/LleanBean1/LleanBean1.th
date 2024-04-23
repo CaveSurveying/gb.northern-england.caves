@@ -11,8 +11,8 @@ endmap
 
 map LleanBean1ME
   LleanBean1SE1
-  LleanBean1SE2
 endmap
+
 centreline
 
 copyright 2024 "GNU GPL"
@@ -89,7 +89,7 @@ data normal from to tape compass clino ignoreall
 1.3  -  3.47  186.66  5.63  
 1.3  -  2.65  214.73  10.29  
 1.3  -  3.189  127.71  -46.71  
-1.3  -  3.897  159.7  -47.05  
+1.3  -  3.897  159.7  -47.05 
 #1.3  1.4  4.97  267.53  -33.06  Small Rock on RHS of pitch shaft below lip.Cemented in place. 
 #1.3  1.4  4.971  267.57  -33.17  
 #1.3  1.4  4.971  267.6  -33.12  

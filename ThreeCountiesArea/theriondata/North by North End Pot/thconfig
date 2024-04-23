@@ -11,10 +11,10 @@ select NNEPotIndex
 
 
 
-export map -proj plan -layout local -o Output/NNEPotIndex.pdf
+#export map -proj plan -layout local -o Output/NNEPotIndex.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Output/NNEPotEeIndex.pdf
+export map -proj extended -layout local -o Output/NNEPotEeIndex.pdf
 
 #export map -o Output/NNEPotIndex.kml
 
@@ -23,20 +23,21 @@ export map -proj plan -layout local -o Output/NNEPotIndex.pdf
 
 
 
+
 layout local
 
-base-scale 1 100
-scale 1 80
+base-scale 1 300
+scale 1 200
 symbol-set BCRA
-#debug station-names
+debug station-names 
 #debug on
 #legend on
 
 
 
-colour map-fg altitude
+#colour map-fg altitude
 #colour map-fg scrap
-#colour map-fg [97 86 38] ##Pale Yellow##
+colour map-fg [97 86 38] ##Pale Yellow##
 #colour map-fg [90 90 90] ##Light Grey##
 colour map-bg [90 90 90] ##Light Grey##
 
@@ -48,13 +49,13 @@ colour map-bg [90 90 90] ##Light Grey##
   grid-coords all #border
   
   #rotate -90
-  map-header 100 100 ne ##Plan
-  #map-header  10 100 nw   ##Elevation
+  #map-header 100 100 ne ##Plan
+  map-header  10 100 nw   ##Elevation
   
   #transparency on
   scale-bar 5 metres
 
-symbol-colour area water [25 50 100]
+#symbol-colour area water [25 50 100]
 #symbol-colour area sump [10 10 100]
 symbol-colour area flowstone [20 20 20]
 symbol-colour line water-flow [22 22 95]

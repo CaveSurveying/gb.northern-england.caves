@@ -15,13 +15,18 @@ input LleanBean2/LleanBean2.th
 join NNEPot2SP5@NNEPot2 LleanBean1SP1@LleanBean1
 
 ####ME Joins####
-join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
+join NNEPot1SE1@NNEPot1       NNEPot2SE1@NNEPot2
+join NNEPot2SE2@NNEPot2       LleanBean1SE1@LleanBean1
+#join LleanBean1SE1@LleanBean1 LleanBean2SE1@LleanBean2
 
 
 
 ####Line Joins####
 ##################
-#join Line1@MyLeftFoot:0    Line1@Picnic:end 
+join Line1@LleanBean1:0    Line1@LleanBean2:end 
+join Line1@LleanBean1:end  Line1@LleanBean2:0
+join Line2@LleanBean1:end  Line2@LleanBean2:0
+join Line3@LleanBean1:0    Line3@LleanBean2:end
 
 
 
@@ -43,6 +48,8 @@ join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
  
  NNEPot1ME@NNEPot1
  NNEPot2ME@NNEPot2 
+ LleanBean1ME@LleanBean1
+ LleanBean2ME@LleanBean2
  
  endmap
 
@@ -53,7 +60,7 @@ join NNEPot1SE1@NNEPot1  NNEPot2SE1@NNEPot2
 
  equate 1.5@NNEPot1    1.0@NNEPot2
  equate 105.13@NNEPot2 1.0@LleanBean1
- equate 1.0@LleanBean2 1.4@LleanBean1
+ equate 1.4@LleanBean1 1.0@LleanBean2
  
 
  
