@@ -63,8 +63,8 @@ join Lab2SP3 WormDriveP1@WormDrive
 
 ##JOINS TO THE DIGITISED VERSION~~
 #join LabyrinthSP1 LabyrinthDigitisedP2@LabyrinthDigitised
-#join L1@Labyrinth:top LD1@LabyrinthDigitised:top
-#join L2@Labyrinth:bottom LD2@LabyrinthDigitised:bottom
+#join L1@Labyrinth LD1@LabyrinthDigitised
+#join L2@LabyrinthSP1:end LD2@LabyrinthDigitised:0
 
 
 
