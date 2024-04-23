@@ -15,7 +15,7 @@ select NHSurface.NiddHeads
 
 export map -proj plan -layout local -o Output/NiddHeadsIndex.pdf
 #export map -o Output/NiddHeadsIndex.kml
-#export model -o Output/NiddHeadsIndex.kml
+export model -o Output/NiddHeadsIndex.kml
 #export model -fmt survex -o Output/NiddHeadsIndex.3d
 #export map -projection plan -o Output/NHEnt.xvi
 

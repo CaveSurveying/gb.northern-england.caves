@@ -29,12 +29,9 @@ copyright 2019 "GNU GPL"
   team "Ian Lloyd"
   #team ""
   #team ""
-
-  
+ 
 
   explo-date 2019.06.1
-  
-
 
 
 equate 7@NHSurface 1@NHEnt

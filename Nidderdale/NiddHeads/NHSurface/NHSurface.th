@@ -23,7 +23,7 @@ explo-date 2019.04.11
 
 cs OSGB:SE
 
-station 1 "" entrance
+station 7 "Nidd Head Risings" entrance
 #fix 1 10462 73158 164 #Not fitting GE#
 fix 1 10561 73137 164
 
