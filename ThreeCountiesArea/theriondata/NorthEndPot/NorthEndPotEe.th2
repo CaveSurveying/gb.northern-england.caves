@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1263.14 -865.59 7578.84 5193.54
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1000.49784488 1 1.0} {3428.62204724 1.0} PocketTopo/NorthEndPot_e.xvi 0 {}
+
+
+scrap NorthEndPotSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap NorthEndPotSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
