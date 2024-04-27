@@ -27,8 +27,12 @@
 
 14	13	16.03	189.5	-07
 15	13	3.00	312	-40
+
+*FLAGS duplicate		;this data has been marked as duplicate as it has been replaced by the NorthNorthEndPot survey Simon Cornhill 2024.04.27
 16	15	9.00	017	+03
 17	16	1.45	085	-54
+*FLAGS not duplicate
+
 ; 18	17	4.56	008	-37 removed as superceded by Large20 survey
 ; 18	19	12.60	152	+49
 ; 18	19	14.20	146	+51	; two shots up aven - removed both as superceded by Large20 survey

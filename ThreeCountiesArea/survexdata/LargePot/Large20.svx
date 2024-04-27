@@ -11,6 +11,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
+*FLAGS duplicate	;this data has been marked as duplicate as it has been replaced by the NorthNorthEndPot survey Simon Cornhill 2024.04.27
 ; 18x	17x	4.53	006	-35 removed as duplicate leg with Large19 survey
 1	17x	9.00	351	-44
 2	1	9.83	325	-37
@@ -23,6 +24,8 @@
 6	7	55.13	089	+83	; to remove - temp leg up aven taken on 9/6/13 by Becka and George
 3	8	26.00	-	up
 2	9	16.98	241	+86
+
+*FLAGS not duplicate
 
 *data passage station left right up down ignoreall
 

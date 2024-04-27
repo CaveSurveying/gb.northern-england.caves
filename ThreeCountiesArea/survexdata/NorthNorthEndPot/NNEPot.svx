@@ -3,14 +3,18 @@
 ;*cs out OSGB:SD
 ;*cs OSGB:SD
 
-*EXPORT 	entrance
+*EXPORT 	entrance LleanBean2.1.5
 ;*FIX 		entrance 
 *EQUATE		NNEPot1.1 entrance
 *ENTRANCE 	entrance
 
 *INCLUDE	NNEPot1
 *INCLUDE	NNEPot2
+*INCLUDE	LleanBean1
+*INCLUDE	LleanBean2
  
-*EQUATE NNEPot1.5  	NNEPot2.1.0
+*EQUATE NNEPot1.5  		NNEPot2.1.0
+*EQUATE NNEPot2.105.13	LleanBean1.1.0
+*EQUATE LleanBean2.1.0	LleanBean1.1.4
 
 *END NNEPot

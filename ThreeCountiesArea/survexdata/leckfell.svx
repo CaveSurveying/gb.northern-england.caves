@@ -179,6 +179,8 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *INCLUDE NorthNorthEndPot/NNEPot
 *EQUATE NorthEndPot.NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
 *EQUATE NNEPot.entrance NorthEndPot.NorthEndPotDig.entrance
+*EQUATE NNEPot.LleanBean2.1.5	LargePot.Large20.3
+
 
 *EQUATE	MoholeToPilgrimPot.6	3cgps.031
 *EQUATE	MoholeToPilgrimPot.15	PilgrimPot.entrance	
