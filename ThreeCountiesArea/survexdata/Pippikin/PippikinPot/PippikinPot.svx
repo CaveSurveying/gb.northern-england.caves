@@ -8,6 +8,7 @@
 *export pip15.030
 *export mm1i.079
 *export mm1i.089
+*EXPORT PoohsRevenge.3
 
 *equate pip.007 pip06.001 ; from pip06.svx
 *equate pip01.018 pip15.004 ; from pip01.svx
@@ -59,7 +60,8 @@
 
 *equate mm1i.089 pip01.001
 
-*EQUATE	PoohsRevenge.0 pip03.008
+*EQUATE	PipSump1.14 pip03.008
+*EQUATE	PipSump1.0  PoohsRevenge.10
 
 *include	pip
 *include	pip01
@@ -106,6 +108,7 @@
 
 *include	mm1i ; ie, that part of mm1 which is Leck Fell Lane
 
+*INCLUDE PipSump1
 *INCLUDE PoohsRevenge
 
 *end PippikinPot

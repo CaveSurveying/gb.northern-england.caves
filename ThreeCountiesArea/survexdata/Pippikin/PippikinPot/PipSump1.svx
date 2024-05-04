@@ -1,0 +1,30 @@
+*BEGIN PipSump1
+;Downstream Pipikin from Waterfall Chamber
+;230m long sump 
+;This data is reconstructed from the 1989 N.C.C. Pipikin Lost Johns Gavel survey
+;using Patric Warren's Inkscape survex pluging
+
+*calibrate declination +7.46	;Calculated mag decl from https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml
+				;54.1994n 2.5124w  1981.08.10
+
+*DATE 1981.08.10 ;estimated date
+
+*EXPORT 0 14
+
+*data normal from to tape compass clino
+0   1     35.963  339.5    	-	;Poohs Revenge
+1   2     19.244   35.3    	-
+2   3    16.783   35.4    	-
+3   4    13.130   42.7    	-
+4   5    10.282   25.7    	-
+5   6     6.251    0.1    	-
+6   7    28.551    5.4    	-
+7   8    29.920   67.6    	-
+8   9    13.849   48.1    	-
+9   10   16.132   18.4    	-
+10  11    29.802   44.3    	-
+11  12    16.056  125.4    	-
+12  13    29.406  137.9    	-
+13  14    30.950   58.7    	-	;Waterfall Chamber
+
+*END PipSump1

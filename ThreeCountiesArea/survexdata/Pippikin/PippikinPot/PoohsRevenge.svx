@@ -1,34 +1,33 @@
-*begin PoohsRevenge
+*BEGIN PoohsRevenge
+
 ;Data fron Geoff Yeadon's original notes
 ;Downstream Pipikin from -25m sump, Poohs' revenge
 ;molephone at end of leg to base of 3m pitch (rope) to base of ladder pitch over pot in floor
 
+*calibrate declination +7.46	;Calculated mag decl from https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml
+				;54.1994n 2.5124w  1981.08.10
+
 *DATE 1981.08.10 ;estimated date
 
-*EXPORT 0
+*EXPORT 3 10
+
+; this fixes station 3 to be under MolePhone point BM38
+*fix	3	66533.60 79695.40 214.69	;ev.ss05.001
+
+
 
 *data normal from to tape compass clino
- 
-  0   1   30.95  239  0		;Waterfall chamber, sump
-  1   2   29.41  318  0
-  2   3   16.06  305  0
-  3   4   29.80  224  0
-  4   5   16.13  198  0
-  5   6   13.85  228  0
-  6   7   29.92  248  0
-  7   8   28.55  185  0
-  8   9    6.25  180  0
-  9  10   10.28  206  0
- 10  11   13.13  223  0
- 11  12   16.78  215  0
- 12  13   19.24  215  0		;13 end of sump
- 13  14   35.96  160  0
- 14  15   14.40  169  0
- 15  16    6.85  089  0
- 16  17    9.50  172  0
- 17  18   10.28  197  0
- 18  19    6.88  186  0		;19 over pot 
- 19  20    6.53  144  0		;20 to drop into river gallery
- 20  21   11.44  149  0		;21 to pebble bank 
+ *data normal from to tape compass clino
+ 1	 2		34		330		-
+ 2	 3		10 		330		-	;3 mole Phone at end of leg
+ 3	 4		12		330		-	;to base of 3m pitch (rope)
+ 4	 5		7		325		-	;to base of ladder pitch
+ 5	 6		6		10		-	;over pot in floor
+ 6	 7		10		15		-
+ 7	 8		10		350		-
+ 8	 9		6		270		-	;over pot
+ 9	10		15		350		-	;to drop into river gallery
+10	11		50		340		-	; to pebble bank
 
-*end PoohsRevenge 
+*END PoohsRevenge
+
