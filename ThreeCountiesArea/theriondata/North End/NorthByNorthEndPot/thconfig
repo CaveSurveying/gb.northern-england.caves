@@ -1,0 +1,80 @@
+encoding  utf-8
+source NNEPotIndex.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+select NNEPotIndex
+
+
+
+
+
+#export map -proj plan -layout local -o Output/NNEPotIndex.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Output/NNEPotEeIndex.pdf
+
+#export map -o Output/NNEPotIndex.kml
+
+#export model -fmt survex -o Output/NNEPotIndex.3d
+#Survex file showing centre line only
+
+
+
+
+layout local
+
+base-scale 1 300
+scale 1 200
+symbol-set BCRA
+debug station-names 
+#debug on
+#legend on
+
+
+
+#colour map-fg altitude
+colour-legend off
+#colour map-fg scrap
+#colour map-fg [97 86 38] ##Pale Yellow##
+#colour map-fg [90 90 90] ##Light Grey##
+colour map-bg [90 90 90] ##Light Grey##
+
+
+  north grid
+  grid bottom
+  #grid top
+  #grid-size 5 5 5 m
+  grid-coords all #border
+  
+  #rotate -90
+  #map-header 100 100 ne ##Plan
+  map-header  10 95 nw   ##Elevation
+  
+  #transparency on
+  scale-bar 5 metres
+
+#symbol-colour area water [25 50 100]
+#symbol-colour area sump [10 10 100]
+symbol-colour area flowstone [20 20 20]
+symbol-colour line water-flow [22 22 95]
+symbol-colour point water-flow  [22 22 95]
+symbol-colour group centerline [100 0 0]
+symbol-colour point station [0 0 0]
+symbol-colour line arrow [90 20 20]
+symbol-colour line label [25 50 100]
+symbol-colour point label [25 50 100]
+
+#symbol-hide group centerline     #1. hides all centerline symbols from everywhere (stations and shots).
+
+symbol-hide point cave-station   #2. tells therion, that you want to show stations in the cave. 
+                                 #But in fact point cave-station itself does not show any symbol. 
+                                 #It only specifies, that stations in the cave should be shown rather than surface stations. 
+
+
+
+       
+
+endlayout

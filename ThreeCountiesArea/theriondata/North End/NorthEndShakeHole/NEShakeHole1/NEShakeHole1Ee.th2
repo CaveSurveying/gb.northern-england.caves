@@ -1,0 +1,46 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -177.081832212 1354.0 472.6189551895
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1121.03718073 1 1.0} {326.241577956 1.0} PocketTopo/NEShakeHole1_e.xvi 0 {}
+
+
+
+scrap NEShakeHole1SE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -id Line2 -reverse on
+  1222.0 285.0
+  1216.0 187.0
+endline
+
+line wall -id Line1
+  1222.0 285.0
+  1215.0 282.0 978.0 272.0 978.0 272.0
+  smooth off
+  978.0 272.0 925.0 273.0 922.0 271.0
+  919.0 269.0 821.0 245.0 821.0 245.0
+  smooth off
+  821.0 245.0 628.0 289.0 617.0 288.0
+  606.0 287.0 462.0 303.0 429.0 301.0
+  396.0 299.0 199.0 293.0 189.0 292.0
+  179.0 291.0 135.0 294.0 135.0 294.0
+  smooth off
+  133.0 255.0
+  140.0 188.0
+endline
+
+line rock-border -close on -clip off
+  1119.0 320.0
+  1109.0 312.0 1100.0 304.0 1103.0 300.0
+  1106.0 296.0 1138.0 292.0 1138.0 292.0
+  smooth off
+  1138.0 292.0 1162.0 289.0 1147.0 300.0
+  1132.0 311.0 1129.0 328.0 1119.0 320.0
+endline
+
+point 634.36718073 29.66157795600003 station -name 1.1
+
+point 1121.03718073 326.241577956 station -name 1.0
+
+endscrap
+
+

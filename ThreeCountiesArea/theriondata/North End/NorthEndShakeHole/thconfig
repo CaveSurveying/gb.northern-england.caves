@@ -1,0 +1,54 @@
+encoding  utf-8
+source NEShakeHoleIndex.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+select NEShakeHoleIndex
+
+
+
+
+
+#export map -proj plan -layout local -o Output/NEShakeHoleIndex.pdf
+
+
+export map -proj extended -layout local -o Output/NEShakeHoleIndexEe.pdf
+
+layout local
+
+base-scale 1 100
+scale 1 100
+symbol-set BCRA
+#debug station-names 
+#debug on
+#legend on
+
+
+
+colour map-fg altitude
+colour-legend off
+#colour map-fg scrap
+#colour  map-fg surface 
+#colour map-fg [97 86 38] ##Pale Yellow##
+#colour map-fg [90 90 90] ##Light Grey##
+colour map-bg [90 90 90] ##Light Grey##
+
+
+  north grid
+  #grid bottom
+  #grid top
+  #grid-size 5 5 5 m
+  #grid-coords all #border
+  
+  #rotate -90
+  #map-header 100 100 ne ##Plan
+  #map-header  10 95 nw  ##Elevation
+  
+  transparency on
+  #scale-bar 5 metres
+
+
+endlayout

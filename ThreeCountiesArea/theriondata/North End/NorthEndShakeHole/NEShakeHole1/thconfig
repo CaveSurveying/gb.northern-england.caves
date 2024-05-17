@@ -1,0 +1,24 @@
+encoding  utf-8
+source NEShakeHole1.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+select NEShakeHole1
+
+
+#export map -proj plan -layout local -o Output/NEShakeHole1.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Output/NEShakeHole1Ee.pdf
+
+#export model -o Output/NEShakeHole1.kml
+#3d therion model to be viewed in the therion viewer
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+transparency on
+endlayout

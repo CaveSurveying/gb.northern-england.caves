@@ -1,0 +1,62 @@
+encoding  utf-8
+
+survey NorthEndIndex
+
+
+input NorthEndPot/NorthEndPot.th
+input NorthEndShakeHole/NEShakeHoleIndex.th
+input NorthByNorthEndPot/NNEPotIndex.th
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+#join NNEPot2SP5@NNEPot2 LleanBean1SP1@LleanBean1
+
+####ME Scrap Joins####
+join NNEPot1SE1@NNEPot1.NNEPotIndex  NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex
+join NEPotSE1@      NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex
+
+
+
+####Line Joins####
+##################
+join Line1@NNEPot1.NNEPotIndex:0    Line1@NEShakeHole2.NEShakeHoleIndex:end 
+join Line2@NNEPot1.NNEPotIndex:end  Line2@NEShakeHole2.NEShakeHoleIndex:0
+
+
+
+###################### MAPS ####################
+
+  map NorthEndIndexPlan -title "North_End_Pots" 
+   
+  NEShakeHoleIndexPlan@NEShakeHoleIndex
+  break
+  NNEPotIndexPlan@NNEPotIndex
+  NorthEndPotPlan@NorthEndPot  
+  
+  endmap
+ 
+###############################################
+ 
+ map NorthEndIndexME -title "North_End-Extended_Elevation"
+ 
+ NEShakeHoleIndexME@NEShakeHoleIndex
+ NNEPotIndexME@NNEPotIndex
+ NorthEndPotME@NorthEndPot  
+ 
+ endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ equate 1.1@NEShakeHole2.NEShakeHoleIndex    1.1@NNEPot1.NNEPotIndex
+ equate 116.2@NEShakeHole2.NEShakeHoleIndex    1.2@NorthEndPot
+ 
+ 
+
+endsurvey
+

@@ -1,0 +1,56 @@
+encoding  utf-8
+
+survey NEShakeHoleIndex
+
+input NEShakeHole1/NEShakeHole1.th
+input NEShakeHole2/NEShakeHole2.th
+
+
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+#join NEShakeHole1SP1@NEShakeHole1 NEShakeHole2SP1@NEShakeHole2
+
+####ME Joins####
+#join NEShakeHole1SE1@NEShakeHole1 NEShakeHole2SE1@NEShakeHole2
+
+
+
+
+####Line Joins####
+##################
+join Line1@NEShakeHole1:end    Line1@NEShakeHole2:0 
+join Line2@NEShakeHole1:end    Line3@NEShakeHole2:end
+
+###################### MAPS ####################
+
+  map NEShakeHoleIndexPlan -title "NorthEndShakeHolePlan " 
+   
+  NEShakeHole1Plan@NEShakeHole1
+  break
+  NEShakeHole2Plan@NEShakeHole2
+  
+  endmap
+ 
+###############################################
+ 
+ map NEShakeHoleIndexME -title "North_End-Shake_Hole_Extended_Elevation"
+ NEShakeHole1ME@NEShakeHole1
+ NEShakeHole2ME@NEShakeHole2
+ endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ equate 1.1@NEShakeHole1    1.0@NEShakeHole2
+ 
+ 
+ 
+
+endsurvey
+

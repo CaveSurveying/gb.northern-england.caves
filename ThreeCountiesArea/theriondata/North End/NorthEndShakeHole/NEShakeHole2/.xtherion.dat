@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 15.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.59m (from 116.1@NEShakeHole2 at 2.53m to 116.2@NEShakeHole2 at -3.06m)\nnorth-south range: 8.66m (from 1.1@NEShakeHole2 at 2.58m to 116.2@NEShakeHole2 at -6.08m)\neast-west range: 3.27m (from 116.1@NEShakeHole2 at 0.96m to 1.1@NEShakeHole2 at -2.31m)\nnumber of shots: 28\nnumber of stations: 29"
+xth_cp_data_tree_insert 19 1 1 NEShakeHole2 NEShakeHole2 "" "" "length: 15.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.59m (from 116.1@NEShakeHole2 at 2.53m to 116.2@NEShakeHole2 at -3.06m)\nnorth-south range: 8.66m (from 1.1@NEShakeHole2 at 2.58m to 116.2@NEShakeHole2 at -6.08m)\neast-west range: 3.27m (from 116.1@NEShakeHole2 at 0.96m to 1.1@NEShakeHole2 at -2.31m)\nnumber of shots: 28\nnumber of stations: 29"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 88X1 p1 1 NEShakeHole2Plan NEShakeHole2Plan@NEShakeHole2 "" ""
+xth_cp_map_tree_insert map 1 89X1 p2 1 NEShakeHole2ME NEShakeHole2ME@NEShakeHole2 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 16 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1715884604
+

@@ -1,0 +1,95 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -173.0 -183.0 1129.0 644.4586941741
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {971.6130254980001 1 1.0} {44.01659411999998 116.2} PocketTopo/NEShakeHole2_e.xvi 0 {}
+
+
+
+scrap NEShakeHole2SE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -reverse on -subtype invisible
+  -78.0 472.0
+  1036.0 465.0
+endline
+
+line wall -id Line1
+  -78.0 472.0
+  -78.0 465.0 -38.0 286.0 -38.0 271.0
+  -38.0 256.0 -32.0 231.0 -30.0 223.0
+  -28.0 215.0 -22.0 143.0 -22.0 143.0
+  smooth off
+  -26.0 85.0
+endline
+
+line wall -subtype invisible
+  85.0 88.0
+  89.0 87.0 -26.0 85.0 -26.0 85.0
+  smooth off
+endline
+
+line rock-edge
+endline
+
+line rock-border -close on
+  790.0 -48.0
+  791.0 -44.0 808.0 -18.0 808.0 -18.0
+  smooth off
+  808.0 -18.0 822.0 -25.0 824.0 -29.0
+  826.0 -33.0 821.0 -44.0 815.0 -48.0
+  809.0 -52.0 789.0 -52.0 790.0 -48.0
+endline
+
+line rock-border -close on
+  738.0 -23.0
+  741.0 -20.0 750.0 -3.0 754.0 -4.0
+  758.0 -5.0 771.0 -4.0 773.0 -11.0
+  775.0 -18.0 779.0 -27.0 771.0 -31.0
+  763.0 -35.0 748.0 -43.0 748.0 -43.0
+  smooth off
+  748.0 -43.0 735.0 -26.0 738.0 -23.0
+endline
+
+line wall -id Line2
+  85.0 88.0
+  84.0 145.0
+  166.0 147.0
+  subtype pebbles
+  185.0 242.0
+  subtype pebbles
+  185.0 242.0 242.0 400.0 246.0 401.0
+  250.0 402.0 426.0 403.0 426.0 403.0
+  smooth off
+  subtype pebbles
+  524.0 150.0
+  subtype pebbles
+  524.0 150.0 700.0 64.0 703.0 58.0
+  706.0 52.0 731.0 -9.0 731.0 -9.0
+  smooth off
+  subtype bedrock
+  837.0 -44.0
+  841.0 -109.0
+endline
+
+line pit -reverse on
+  -22.0 143.0
+  84.0 145.0
+endline
+
+line wall -id Line3 -clip off
+  1000.0 -111.0
+  994.0 -91.0 997.0 117.0 1005.0 141.0
+  1013.0 165.0 1036.0 465.0 1036.0 465.0
+  smooth off
+endline
+
+point 88.3330254980001 151.40659412 station -name 1.1
+
+point 360.8830254980001 285.19659412 station -name 116.0
+
+point 763.1130254980001 484.19659412 station -name 116.1
+
+point 971.6130254980001 44.01659411999998 station -name 116.2
+
+endscrap
+
+

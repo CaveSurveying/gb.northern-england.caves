@@ -1,0 +1,79 @@
+encoding  utf-8
+survey NEShakeHole2
+
+input NEShakeHole2Plan.th2
+input NEShakeHole2Ee.th2
+
+map NEShakeHole2Plan
+  NEShakeHole2SP1
+endmap
+
+map NEShakeHole2ME
+  NEShakeHole2SE1
+endmap
+
+
+centreline
+
+copyright 2024 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#pda - Nick
+#disto - Nick
+#
+
+  date 2024.03.23
+
+  team "Nick Bairstow" notes
+  team "Rich Hill" instruments
+  team "Rich Hill" dog
+
+  instrument  instruments "Nick 3259"
+
+  explo-date 2024.05.10
+
+data normal from to tape compass clino ignoreall
+#flags surface
+  extend right
+1.0  -  0.0  0.0  0.0  
+1.0  -  2.0  38.95  28.03  
+1.0  -  3.325  357.12  13.19  
+1.0  -  5.01  328.97  5.2  
+1.0  -  6.012  312.72  4.73  
+1.0  -  5.52  299.85  3.42  
+1.0  -  4.9  288.93  4.74  
+1.0  -  4.201  266.07  18.8  
+1.0  -  2.448  300.74  -17.2  
+1.0  -  1.327  243.28  -0.73  
+1.0  -  2.212  220.55  -0.01  
+1.0  -  3.666  249.92  18.72  
+1.0  -  2.805  165.05  0.35  
+1.0  -  4.473  222.98  6.02  
+1.0  -  4.939  205.21  3.72  
+1.0  -  5.764  194.47  3.91  
+1.0  -  7.127  183.17  3.15  
+1.0  -  6.404  176.23  4.85  
+1.0  -  4.642  168.24  8.34  
+1.0  -  5.142  145.35  18.78  
+1.0  -  3.775  120.66  20.21  
+1.0  -  2.494  101.26  22.34  
+1.0  -  4.593  321.41  -20.65  
+1.0  -  5.163  302.96  -17.68  
+  extend left
+#1.0  1.1  3.861  318.05  -26.25  
+#1.0  1.1  3.857  318.09  -26.13  
+#1.0  1.1  3.85  318.04  -26.06  vert scaff bar at horizontal level
+1.0  1.1  3.856  318.07  -26.15  Calculated leg from 3 above
+  extend right
+1.0  116.0  0.0  0.0  0.0  
+#116.0  116.1  5.699  169.19  26.35  
+#116.0  116.1  5.702  169.24  26.35  
+#116.0  116.1  5.697  169.28  26.27  
+116.0  116.1  5.699  169.22  26.32  Calculated leg from 3 above
+#116.1  116.2  6.189  246.3  -64.66  
+#116.1  116.2  6.192  246.17  -64.69  
+#116.1  116.2  6.176  246.23  -64.61  RH side iron bolt not LH side Petzl bolt
+116.1  116.2  6.186  246.3  -64.65  Calculated leg from 3 above
+endcentreline
+endsurvey
+
