@@ -7,6 +7,15 @@ encoding  utf-8
 
 scrap NEShakeHole2SE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line rock-border
+  88.3330254980001 151.40659412
+  88.3330254980001 151.40659412 88.0 192.0 90.0 200.0
+  92.0 208.0 92.0 245.0 98.0 255.0
+  104.0 265.0 115.0 299.0 115.0 299.0
+  smooth off
+  210.0 313.0
+endline
+
 line wall -reverse on -subtype invisible
   -78.0 472.0
   1036.0 465.0

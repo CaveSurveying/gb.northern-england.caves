@@ -10,6 +10,39 @@ scrap NEShakeHole2SP1 -projection plan -scale [10.0 28.0 779.4 797.4 0 0 10 10 m
 line rock-border
 endline
 
+####
+
+
+line rock-border
+  105.0 843.0
+  107.0 848.0 113.0 890.0 109.0 903.0
+  105.0 916.0 119.0 957.0 119.0 957.0
+  smooth off
+  130.0 958.0
+  130.0 958.0 165.0 978.0 166.0 974.0
+  167.0 970.0 192.0 959.0 192.0 959.0
+  smooth off
+  208.0 987.0
+  208.0 987.0 243.0 983.0 244.0 986.0
+  245.0 989.0 276.0 1026.0 276.0 1026.0
+  smooth off
+endline
+
+line pit-chimney -close off -reverse on -outline in
+  127.5 926.25
+  166.0 940.0
+  166.0 940.0 183.0 954.0 199.0 959.0
+  207.19 961.56 228.0 962.0 228.0 962.0
+  smooth off
+  262.25 974.25
+  290.0 914.0
+  152.25 858.75
+  127.5 926.25
+endline
+
+####
+
+
 line rock-border -close off
   470.0 754.0
   442.0 724.0
@@ -21,15 +54,13 @@ line rock-border -close off
   470.0 754.0
 endline
 
-point 414.0 707.0 gradient -orientation 333.8
+point 414.0 707.0 gradient -orientation 333.8 -scale s
 
-point 542.0 601.0 gradient -orientation 302.1
+point 542.0 601.0 gradient -orientation 302.1 -scale s
 
-point 457.0 377.0 gradient -orientation 197.1
+point 489.0 368.0 gradient -orientation 214.2
 
-point 366.0 395.0 gradient -orientation 159.0
-
-point 534.0 430.0 gradient -orientation 199.7
+point 307.0 423.0 gradient -orientation 148.8
 
 point 490.0 563.0 pebbles
 
@@ -55,7 +86,7 @@ point 455.0 625.0 pebbles
 
 point 416.0 591.0 pebbles
 
-point 339.0 632.0 gradient -orientation 119.6
+point 339.0 632.0 gradient -orientation 119.6 -scale s
 
 point 298.0 692.0 pebbles
 
@@ -65,7 +96,7 @@ point 173.0 736.0 pebbles
 
 point 224.0 674.0 pebbles
 
-point 286.0 531.0 gradient -orientation 158.6
+point 403.0 418.0 gradient -orientation 184.1
 
 point 388.0 624.0 pebbles
 
@@ -74,8 +105,6 @@ point 523.0 645.0 pebbles
 point 165.0 787.0 pebbles
 
 point 132.0 800.0 pebbles
-
-point 416.0 498.0 pebbles
 
 line rock-border -close on
   398.0 860.0
@@ -91,25 +120,27 @@ line rock-border -close on
   360.0 836.0 399.0 857.0 398.0 860.0
 endline
 
-line rock-border
-  277.0 1024.0
-  268.0 1021.0 240.0 1008.0 240.0 1008.0
+line rock-border -outline in
+  388.0 187.0
+  365.0 204.0
+  352.0 223.0
+  358.0 240.0
+endline
+
+line rock-border -outline in
+  358.0 240.0
+  370.0 246.0 389.54 255.59 397.75 255.0
+  418.72 253.49 431.5 247.75 431.5 247.75
   smooth off
-  240.0 1008.0 218.0 989.0 212.0 985.0
-  206.0 981.0 201.0 982.0 201.0 976.0
-  201.0 970.0 181.0 944.0 181.0 944.0
-  smooth off
-  152.0 948.0
-  152.0 948.0 141.0 963.0 140.0 967.0
-  139.0 971.0 129.0 966.0 125.0 967.0
-  121.0 968.0 95.0 951.0 95.0 951.0
+  431.5 247.75 433.8 233.23 430.0 225.0
+  424.0 212.0 397.48 187.45 388.0 187.0
   smooth off
 endline
 
 line pit-chimney -reverse on
-  350.0 248.0
-  477.0 273.0
-  490.0 183.0
+  353.0 248.0
+  445.0 287.0
+  489.0 184.0
 endline
 
 line floor-step -reverse on
@@ -130,14 +161,6 @@ line floor-step -reverse on
 endline
 
 line pit-chimney
-endline
-
-line pit-chimney -close on -reverse on
-  250.0 990.0
-  292.0 919.0
-  138.0 830.0
-  98.0 906.0
-  250.0 990.0
 endline
 
 line floor-step -reverse on
@@ -228,14 +251,14 @@ line floor-step -reverse on
 endline
 
 line contour
-  122.0 971.0
-  122.0 971.0 122.0 978.0 127.0 984.0
+  119.0 957.0
+  119.0 957.0 122.0 978.0 127.0 984.0
   132.0 990.0 145.0 1000.0 143.0 1007.0
   141.0 1014.0 137.0 1032.0 138.0 1040.0
   139.0 1048.0 141.0 1057.0 141.0 1057.0
   smooth off
-  141.0 1057.0 162.0 1048.0 164.0 1043.0
-  166.0 1038.0 171.0 1022.0 172.0 1019.0
+  141.0 1057.0 158.0 1054.0 160.0 1049.0
+  162.0 1044.0 171.0 1022.0 172.0 1019.0
   173.0 1016.0 183.0 1013.0 192.0 1013.0
   201.0 1013.0 272.0 1048.0 272.0 1048.0
   smooth off
