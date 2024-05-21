@@ -6,6 +6,9 @@ input SlopingHole1/SlopingHole1.th
 input SlopingHole2/SlopingHole2.th
 input SlopingHole3/SlopingHole3.th
 input SlopingHole4/SlopingHole4.th
+input SlopingHole5/SlopingHole5.th
+input SlopingHole6/SlopingHole6.th
+input SlopingHole7/SlopingHole7.th
 
 
 ################ Plan Joins #################
@@ -16,13 +19,15 @@ input SlopingHole4/SlopingHole4.th
 #join SlopingHole1SP2@SlopingHole1 SlopingHole2SP1@SlopingHole2 # No plan scrap joins needed
 #join SlopingHole2SP1@SlopingHole2 SlopingHole3SP1@SlopingHole3 # as SH2 is above SH1 & SH3 
 
+join SlopingHole3SP1@SlopingHole3 SlopingHole4SP1@SlopingHole4
+join SlopingHole4SP1@SlopingHole4 SlopingHole5SP1@SlopingHole5
+join SlopingHole6SP2@SlopingHole6 SlopingHole7SP1@SlopingHole7 
 
 ####Extended Elevation Joins####
 
-join SlopingHole1SE1@SlopingHole1 SlopingHole2SE1@SlopingHole2
-join SlopingHole2SE1@SlopingHole2 SlopingHole3SE1@SlopingHole3
-join SlopingHole3SE1@SlopingHole3 SlopingHole4SE1@SlopingHole4
-
+#join SlopingHole1SE1@SlopingHole1 SlopingHole2SE1@SlopingHole2
+#join SlopingHole2SE1@SlopingHole2 SlopingHole3SE1@SlopingHole3
+#join SlopingHole3SE1@SlopingHole3 SlopingHole4SE1@SlopingHole4
 
 ####Line Joins####
 ##################
@@ -32,6 +37,15 @@ join SlopingHole3SE1@SlopingHole3 SlopingHole4SE1@SlopingHole4
 
 ###################### MAPS ####################
 
+####Temp Map####
+
+#map SlopingHole6/7
+#SlopingHole5Plan@SlopingHole5
+#break
+#SlopingHole6Plan@SlopingHole6
+#SlopingHole7Plan@SlopingHole7
+#endmap
+
 map SlopingHoleIndex -title "SlopingHolePlan"
 
   SlopingHole2Plan@SlopingHole2
@@ -40,27 +54,33 @@ map SlopingHoleIndex -title "SlopingHolePlan"
   SlopingHole1Plan@SlopingHole1
   SlopingHole3Plan@SlopingHole3 
   SlopingHole4Plan@SlopingHole4  
-  
+  SlopingHole5Plan@SlopingHole5
+  break
+  SlopingHole6Plan@SlopingHole6
+  SlopingHole7Plan@SlopingHole7
 endmap
 
  
- map SlopingHoleIndexME -title "Sloping Hole_Extended_Elevation"
+ #map SlopingHoleIndexME -title "Sloping Hole_Extended_Elevation"
  
- SlopingHole1ME@SlopingHole1
- SlopingHole2ME@SlopingHole2
- SlopingHole3ME@SlopingHole3
- SlopingHole4ME@SlopingHole4
+ #SlopingHole1ME@SlopingHole1
+ #SlopingHole2ME@SlopingHole2
+ #SlopingHole3ME@SlopingHole3
+ #SlopingHole4ME@SlopingHole4
    
- endmap
+ #endmap
 
 ################# Equates #####################
 ###############################################
 
 
 
- equate 1.8@SlopingHole1  95.0@SlopingHole2
- equate 95.4@SlopingHole2 1.0@SlopingHole3
- equate 1.14@SlopingHole3 1.2@SlopingHole4
+ equate 1.8@SlopingHole1   95.0@SlopingHole2
+ equate 95.4@SlopingHole2  1.0@SlopingHole3
+ equate 1.14@SlopingHole3  1.2@SlopingHole4
+ equate 1.11@SlopingHole4  117.1@SlopingHole5
+ equate 1.4@SlopingHole5   1.1@SlopingHole6
+ equate 114.2@SlopingHole6 1.0@SlopingHole7
   
 endsurvey
 

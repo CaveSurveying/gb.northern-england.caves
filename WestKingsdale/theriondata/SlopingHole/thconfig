@@ -5,33 +5,17 @@ source SlopingHoleIndex.th
 
 #Surveys to output
 #-----------------
-#select SlopingHoleIndex
-
-
-#select SlopingHole3.SlopingHoleIndex
-select SlopingHole2Plan@SlopingHole2.SlopingHoleIndex
-select SlopingHole1Plan@SlopingHole1.SlopingHoleIndex
-select SlopingHole3Plan@SlopingHole3.SlopingHoleIndex
-select SlopingHole4Plan@SlopingHole4.SlopingHoleIndex
-
-#select SlopingHoleIndexME@SlopingHoleIndex
-select SlopingHole1ME@SlopingHole1.SlopingHoleIndex
-select SlopingHole2ME@SlopingHole2.SlopingHoleIndex
-select SlopingHole3ME@SlopingHole3.SlopingHoleIndex
-select SlopingHole4ME@SlopingHole4.SlopingHoleIndex
+select SlopingHoleIndex
 
 
 
-
-
-
-#export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf 
+export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf 
 #produces plan of cave, on a single sheet
 
 
-export map -proj extended -layout local -layout elevation -o Output/SlopingHoleIndexEe.pdf
+#export map -proj extended -layout local -layout elevation -o Output/SlopingHoleIndexEe.pdf
 
-#export map -o Output/SlopingHole.kml
+export map -o Output/SlopingHole.kml
 
 #export model -fmt survex -o Output/SlopingHole.3d
 #Survex file showing centre line only
@@ -143,7 +127,7 @@ symbol-hide point cave-station   #2. tells therion, that you want to show statio
 #-----------------------------------
 
 code tex-map
-\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 03.04.24\medskip \size[10]BCRA Grade 5d}
+\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 28.04.24\medskip \size[10]BCRA Grade 5d}
 endcode
 
 map-comment "EXPLORATION BY THE CHUMS CONTINUES"

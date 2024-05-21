@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -98.12 -255.08 588.72 1530.48
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {49.0601708728 1 1.0} {1337.30435248 1.0} PocketTopo/SlopingHole5_e.xvi 0 {}
+
+
+scrap SlopingHole5SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

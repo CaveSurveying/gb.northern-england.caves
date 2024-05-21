@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -162.63938941700002 3596.2649038433 644.5417129451
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1182.435612505 1 1.0} {278.08007041999997 1.4} PocketTopo/SlopingHole4_e.xvi 0 {}
 
 
@@ -89,6 +89,7 @@ line rock-edge -close off
   smooth off
   1263.25 206.5 1271.0 210.25 1267.5 211.5
   1264.0 212.75 1250.0 219.25 1251.25 219.25
+  smooth off
 endline
 
 line rock-edge -close on
@@ -311,6 +312,7 @@ line rock-edge -close off
   883.25 205.25 884.25 205.25 884.25 206.75
   884.25 208.25 885.0 210.75 882.5 212.25
   880.0 213.75 878.75 215.5 880.0 215.5
+  smooth off
 endline
 
 line rock-edge -close on
@@ -625,11 +627,7 @@ line wall
   3510.0 43.0
 endline
 
-point 3505.2456125050003 298.52007042 station -name 1.13
-
-point 2973.5156125050003 297.13007042 station -name 1.12
-
-point 2786.0 301.0 station -name 1.11
+point 2783.065612505 296.64007042 station -name 1.11
 
 point 2635.7256125050003 306.70007042 station -name 1.10
 
