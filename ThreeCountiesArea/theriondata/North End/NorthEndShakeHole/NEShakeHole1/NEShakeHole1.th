@@ -19,8 +19,8 @@ cs OSGB:SD
 
 station 1.0 "Entrance"
 
-fix 1.0 68303 76533 392
-
+#fix 1.0 68303 76533 392 ####Manually adjusted from GE
+fix 1.0 368305.736 476529.162  393.482  ####Roo's GNNS fix
 copyright 2024 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###

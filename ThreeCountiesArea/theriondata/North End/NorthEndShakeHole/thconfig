@@ -15,7 +15,7 @@ select NEShakeHoleIndex
 #export map -proj plan -layout local -o Output/NEShakeHoleIndex.pdf
 
 
-export map -proj extended -layout local -o Output/NEShakeHoleIndexEe.pdf
+#export map -proj extended -layout local -o Output/NEShakeHoleIndexEe.pdf
 
 layout local
 
