@@ -4,21 +4,21 @@ input ../gb_layout.thc
 source WestKingsdaleSystem.th
 
 #Produces plan of cave, on a single sheet
-export map -proj plan -layout local -o WestKingsdaleSystem.pdf
+export map -proj plan -layout local -o Output/WestKingsdaleSystem.pdf
 
-#export map -proj extended -layout local -o WestKingsdaleSystemEe.pdf
+#export map -proj extended -layout local -o Output/WestKingsdaleSystemEe.pdf
 
 #Survex file showing centre line only
-export model -fmt survex -o WestKingsdaleSystem-th.3d
+export model -fmt survex -o Output/WestKingsdaleSystem-th.3d
 
-export map -proj plan -fmt kml -o WestKingsdale.kml
-export model -fmt kml -o WestKingsdaleCentreline.kml
+export map -proj plan -fmt kml -o Output/WestKingsdale.kml
+export model -fmt kml -o Output/WestKingsdaleCentreline.kml
 
 #3d therion model to be viewed in the therion viewer
-export model -o WestKingsdaleSystem.lox
+export model -o OutputWestKingsdaleSystem.lox
 
 #Survex file showing walls only
-export map -proj plan -o WestKingsdaleSystem_Walls.3d
+export map -proj plan -o Output/WestKingsdaleSystem_Walls.3d
 
 
 layout local
