@@ -1,6 +1,6 @@
 *begin wks ;West_Kingsdale_System
 
-*cs out OSGB:SD
+*cs OSGB:SD
 *cs out EPSG:27700
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -32,7 +32,13 @@
 *include Yordas/Yordas_old				;old innacurate/incomplete survey - to be replaced
 *include Yordas/Yordas1
 
+;+++++++++++++++
+;Kingsdale Head
+;+++++++++++++++
+*INCLUDE BattyCave/BattyCave
+
 ; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
+
 
 *equate Old_KMC.roof_tunnel.002	kdgps.vent
 *equate KMC.ValleyEntrance.0	kdgps.vent

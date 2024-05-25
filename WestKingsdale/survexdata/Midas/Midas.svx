@@ -8,7 +8,7 @@
 *cs out OSGB:SD
 *DECLINATION auto 70550 79030 313
 
-*FIX Entrance 70550 79030 313
+*FIX Entrance 70567 79051 313
 *ENTRANCE Entrance
 *EQUATE 0 Entrance
 

@@ -172,8 +172,12 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *INCLUDE BrollyPot/BrollyPot
 *equate Mohole.Wall BrollyPot.1
 
-*include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
-*include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
+;*include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
+;*include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
+
+*INCLUDE BrokenRibCave/BrokenRibCave
+*INCLUDE BrokenRibPot/BrokenRibPot
+*EQUATE BrokenRibPot.entrance BrokenRibCave.4-0
 
 *INCLUDE NorthEndPot/NorthEndPot
 *INCLUDE NorthNorthEndPot/NNEPot
