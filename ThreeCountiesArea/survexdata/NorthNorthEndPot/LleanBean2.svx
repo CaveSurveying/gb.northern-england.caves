@@ -129,6 +129,9 @@
 *FLAGS NOT SPLAY
 
 *data passage station left right up down
+
+0	 4		 3 		31		 23			;estimated LRUD
+1	 4		 3 		33		 22			;estimated LRUD
 2	 1.92	 5.62	22.62	 0.00
 3	 0.68	 4.64	22.56	 0.66
 4	 1.04	 0.46	24.62	 0.00

@@ -1,6 +1,6 @@
 *BEGIN NNEPot1
 
-*EXPORT 1 5
+*EXPORT 100 5
 
 *DATE 2024.03.23
 *TEAM Nick Bairstow
@@ -24,7 +24,11 @@
 0	0o	 4.00	 74.14	 46.97
 0	0p	 4.04	 86.00	 46.49
 *FLAGS NOT SPLAY
-0	1	 7.13	 91.01	 64.54
+0	1	 7.13	 91.01	 64.54		;1.1 Splay to corner of lid now used as a dummy leg
+;###########################  ;False station in corner of ent to join to Shakehole survey.
+                              ;Thought station was in corner of lid but when double checked it was offset .689m along horizontal scaff bar.
+1 	100  0.689 71.37 1.92     ;Made lid corner splay a dummy leg and added station 100 to correct the join to NEShakehole2. NB  
+;##########################
 *FLAGS SPLAY
 1	1a	 0.89	339.19	 11.36
 1	1b	 1.25	307.67	 10.60

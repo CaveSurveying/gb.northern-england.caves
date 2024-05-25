@@ -12,7 +12,7 @@
 ;*equate aeg1.ear.GrindEasyStRoofTube.001 pml1.link1.lk12.033	; links Easegill to Link Pippikin via the Grind
 
 ;*include filename ; USE THIS FOR ANY DATA WHERE MAGNETIC DECLINATION HAS ALREADY BEEN APPLIED SO NO FURTHER CORRECTION NEEDED eg EaseGill-Pippikin data
-;;*include EaseGill-Pippikin
+*include EaseGill-Pippikin
 
 ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
 *include Barbondale\Barbondale

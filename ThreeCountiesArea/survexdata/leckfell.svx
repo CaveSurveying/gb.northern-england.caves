@@ -12,7 +12,6 @@
 
 ;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
-*include Surface/largetonorthendpotsurface
 *include Surface/shortdroprumblingcoalholebyronsurface
 *include Surface/threecountiesgpskdixon2012     ; note this is 3cgps survex file that most entrances use
 *INCLUDE Surface/Yeadon_Pipikin_Surface_Survey
@@ -156,8 +155,10 @@
 
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
-LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag which seemed to be missing in 2013; KevinDixonGPSBolt is Kevin Dixon's 3C13 survey bolt, s/s bolt+washer in bedrock in Large Pot entrance, washer stamped LARGE POT 3C13; this leg connects the RRCPC tag with the Kevin Dixon bolt in order to tie in the 2013 surface survey from Large to North End Pot
-*EQUATE 3cgps.028 largetonorthendpotsurface.KevinDixonGPSBolt	;Attaching surveys to Kevin Dixon Largepot GPS bolt
+
+LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag which seemed to be missing in 2013; 3cgps.028 is Kevin Dixon's 3C13 survey bolt, s/s bolt+washer in bedrock in Large Pot entrance, washer stamped LARGE POT 3C13; this leg connects the RRCPC tag with the Kevin Dixon bolt in order to tie in the 2013 surface survey from Large to North End Pot
+*include Surface/largetonorthendpotsurface  
+*EQUATE 3cgps.028 largetonorthendpotsurface.KevinDixonGPSBolt	;Attaching largetonorthendpotsurface to Kevin Dixon Largepot GPS bolt
 
 *equate RiftPot.RiftTowardsMousehole.23 LargePot.Large15.23x
 
@@ -172,19 +173,15 @@ LargePot.EntranceTag largetonorthendpotsurface.KevinDixonGPSBolt	1.08	-	DOWN	; L
 *INCLUDE BrollyPot/BrollyPot
 *equate Mohole.Wall BrollyPot.1
 
-;*include aaaTempLocationForFiles/WestKingsdaleDigTEMP1
-;*include aaaTempLocationForFiles/WestKingsdaleDigTEMP2
-
 *INCLUDE BrokenRibCave/BrokenRibCave
 *INCLUDE BrokenRibPot/BrokenRibPot
 *EQUATE BrokenRibPot.entrance BrokenRibCave.4-0
 
 *INCLUDE NorthEndPot/NorthEndPot
 *INCLUDE NorthNorthEndPot/NNEPot
-*EQUATE NorthEndPot.NorthEndPotUnderground.1-1 largetonorthendpotsurface.1-18 	; needs finishing 
-*EQUATE NNEPot.entrance NorthEndPot.NorthEndPotDig.entrance
-*EQUATE NNEPot.LleanBean2.1.5	LargePot.Large20.3
 
+*EQUATE NNEPot.NEShakeHole2.116.2 NorthEndPot.1-2		;Connecting Northend Pot and North North End pot surveys
+*EQUATE NNEPot.LleanBean2.1.5	LargePot.Large20.3		;connectes NNEPot to Largepot at the bottom of Llean Bean aven
 
 *EQUATE	MoholeToPilgrimPot.6	3cgps.031
 *EQUATE	MoholeToPilgrimPot.15	PilgrimPot.entrance	

@@ -1,18 +1,25 @@
 *BEGIN NNEPot
 
-;*cs out OSGB:SD
-;*cs OSGB:SD
+*cs out OSGB:SD
+*cs OSGB:SD
 
-*EXPORT 	entrance LleanBean2.1.5
-;*FIX 		entrance 
-*EQUATE		NNEPot1.1 entrance
+*EXPORT 	entrance LleanBean2.1.5 NEShakeHole2.116.2
+*EQUATE		NEShakeHoleGPS NEShakeHole1.1.0
+*FIX  		NEShakeHoleGPS 68305.736 76529.162  393.482  ;Roo's GNNS fix
+
+*EQUATE		NNEPot1.100 entrance
 *ENTRANCE 	entrance
 
+*INCLUDE	NEShakeHole1
+*INCLUDE	NEShakeHole2
 *INCLUDE	NNEPot1
 *INCLUDE	NNEPot2
 *INCLUDE	LleanBean1
 *INCLUDE	LleanBean2
  
+*EQUATE NEShakeHole1.1.1 NEShakeHole2.1.0
+*EQUATE NEShakeHole2.1.1 NNEPot1.100
+
 *EQUATE NNEPot1.5  		NNEPot2.1.0
 *EQUATE NNEPot2.105.13	LleanBean1.1.0
 *EQUATE LleanBean2.1.0	LleanBean1.1.4
