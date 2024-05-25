@@ -34,11 +34,17 @@ copyright 2024 "GNU GPL"
 
 data normal from to tape compass clino ignoreall
   extend right
-1.0  -  0.0  0.0  0.0  
+  flags duplicate
+#1.0  -  0.0  0.0  0.0 #### station 1.0 now not needed as survey 5 was added 
+#and connected at survey 5 1.4
+
 #1.0  1.1  3.338  176.47  -88.29  
 #1.0  1.1  3.355  169.43  -88.45  
-#1.0  1.1  3.323  181.87  -88.21  
-1.0  1.1  3.339  172.95  -88.32  Calculated leg from 3 above
+#1.0  1.1  3.323  181.87  -88.21 
+#1.0  1.1  3.339  172.95  -88.32  Calculated leg from 3 above
+
+flags not duplicate
+1.1  - 0.0  0.0  0.0    #### start and join at 1.1 not 1.0
 1.1  -  0.389  272.18  -12.05  
 1.1  -  3.767  299.23  84.39  
 1.1  -  12.626  70.13  -88.21  

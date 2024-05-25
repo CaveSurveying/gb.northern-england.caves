@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -466.0 -20047.348921410998 911.8171506906999 544.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {38.40053651750003 1 1.0} {-257.5265592109972 1.4} PocketTopo/SlopingHole3_p.xvi 0 {}
 
 
@@ -569,6 +569,7 @@ line floor-step
   145.25 -1252.25 137.5 -1258.0 132.25 -1262.25
   127.0 -1266.5 126.0 -1279.75 123.5 -1282.0
   121.0 -1284.25 112.25 -1295.25 109.25 -1298.75
+  smooth off
 endline
 
 point 200.5 -850.5 flowstone
@@ -701,6 +702,7 @@ line wall
   138.5 -1213.25 127.75 -1245.0 127.75 -1245.0
   smooth off
   127.75 -1245.0 95.0 -1285.5 94.0 -1287.5
+  smooth off
 endline
 
 point 120.14053651750001 -1278.0365592109983 station -name 1.14

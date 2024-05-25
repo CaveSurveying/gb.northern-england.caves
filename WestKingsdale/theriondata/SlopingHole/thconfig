@@ -15,15 +15,15 @@ export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf
 
 #export map -proj extended -layout local -layout elevation -o Output/SlopingHoleIndexEe.pdf
 
-export map -o Output/SlopingHole.kml
+#export map -o Output/SlopingHoleIndex.kml
 
-#export model -fmt survex -o Output/SlopingHole.3d
+export model -fmt survex -o Output/SlopingHoleIndex.3d
 #Survex file showing centre line only
 
-#export model -o Output/SlopingHole.lox
+#export model -o Output/SlopingHoleIndex.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Output/5Ways_Walls.3d
+#export map -proj plan -o Output/SlopingHoleIndex_Walls.3d
 #Survex file showing walls only
 
 layout elevation
@@ -127,7 +127,7 @@ symbol-hide point cave-station   #2. tells therion, that you want to show statio
 #-----------------------------------
 
 code tex-map
-\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 28.04.24\medskip \size[10]BCRA Grade 5d}
+\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 18.05.24\medskip \size[10]BCRA Grade 5d}
 endcode
 
 map-comment "EXPLORATION BY THE CHUMS CONTINUES"
@@ -142,10 +142,7 @@ code tex-map
 #    \cavelength{229.86m}
 #    \cavedepth{63.55m}
 
-#ndcode
+endcode
 
 
 endlayout
-
-#input CommonLayout.thc
-#input GB_Layout.thc
