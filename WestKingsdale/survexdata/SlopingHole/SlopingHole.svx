@@ -4,17 +4,24 @@
 *cs OSGB:SD
 
 *EXPORT 	entrance
-*FIX 		entrance 70384  79087   358
 *EQUATE		SlopingHole1.0 entrance
 *ENTRANCE 	entrance
+*FIX 		entrance 70384  79087   358
 
 *INCLUDE	SlopingHole1
 *INCLUDE	SlopingHole2
 *INCLUDE	SlopingHole3
 *INCLUDE	SlopingHole4
+*INCLUDE	SlopingHole5
+*INCLUDE	SlopingHole6
+*INCLUDE	SlopingHole7
  
 *EQUATE SlopingHole1.8  	SlopingHole2.95.0
 *EQUATE SlopingHole2.95.4 	SlopingHole3.0
 *EQUATE SlopingHole3.14 	SlopingHole4.2
+*EQUATE SlopingHole4.11  	SlopingHole5.117.1
+*EQUATE SlopingHole5.1.4   	SlopingHole6.1.1
+*EQUATE SlopingHole6.114.2 	SlopingHole7.1.0
+
 
 *END SlopingHole

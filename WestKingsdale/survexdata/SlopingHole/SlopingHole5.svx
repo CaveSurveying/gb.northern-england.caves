@@ -1,0 +1,69 @@
+*BEGIN SlopingHole5
+
+*EXPORT 1.4 117.1
+*EQUATE 1.0 117.0
+
+*BEGIN 1
+*EXPORT 0 4
+
+;pda - Nic
+;disto - Nick
+
+*DATE 2024.05.19
+
+
+0	1	 1.61	140.78	  5.70	;point mid neight on R/H wall sloping Corner
+*FLAGS SPLAY
+1	1a	 0.41	123.41	  4.94
+1	1b	 0.79	281.91	 47.56
+1	1c	 0.68	118.36	 85.51
+1	1d	 0.67	186.80	-87.05
+1	1e	 1.00	202.86	  9.28
+1	1f	 1.70	206.19	  5.69
+1	1g	 0.82	326.66	  2.89
+1	1h	 0.94	288.83	 -0.19
+1	1i	 1.33	233.12	 23.60
+1	1j	 2.93	223.53	 10.11
+*FLAGS NOT SPLAY
+1	2	 3.88	208.93	  1.79	;L/H boltof y hang
+*FLAGS SPLAY
+2	2a	 0.29	291.82	  3.32
+2	2b	 0.55	284.72	 83.59
+2	2c	15.65	103.83	-88.81
+2	2d	 1.15	233.76	 -0.73
+2	2e	 1.52	221.61	 -2.07
+*FLAGS NOT SPLAY
+2	3	 1.23	354.93	-46.67	;<; <; <
+3	4	 2.41	173.66	-66.90	;Nose on L/H wall 2m down pitch 
+
+*data passage station left right up down
+0	 0.00	 0.00	 0.00	 0.00
+1	 0.32	 2.17	 0.67	 0.67
+2	 1.32	 0.00	 0.55	15.64
+3	 0.00	 0.00	 0.00	 0.00
+*END 1
+
+*BEGIN 117
+*EXPORT 0 1
+
+;pda - Nic
+;disto - Nick
+
+*DATE 2024.03.23
+
+
+0	1	 1.13	262.23	 32.00
+*FLAGS SPLAY
+1	1a	 0.63	151.39	 11.42
+1	1b	 0.23	336.23	 25.08
+1	1c	 0.23	 39.76	 81.89
+1	1d	 0.98	340.81	-88.42
+1	1e	 0.80	127.69	  8.25
+*FLAGS NOT SPLAY
+
+*data passage station left right up down
+0	 0.00	 0.00	 0.00	 0.00
+1	 0.57	 0.20	 0.23	 0.98
+*END 117
+
+*END SlopingHole5
