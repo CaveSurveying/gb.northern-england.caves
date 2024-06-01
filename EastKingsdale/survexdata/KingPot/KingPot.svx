@@ -5,12 +5,14 @@
 
 *cs OSGB:SD
 *cs out EPSG:27700
-*INCLUDE KingPot-recon1		;centreline data reconstructed from NCC survey using Patric Warrens Inkscape plugin
-*INCLUDE KingPot-recon2		;centreline data reconstructed from NCC survey using Patric Warrens Inkscape plugin
-
 *DECLINATION AUTO 70793.56 77377.74 368.43
 
-*INCLUDE DownstreamSumpRSkorupka
+*INCLUDE KingPot-recon1		;centreline data reconstructed from NCC survey using Patric Warren's Inkscape plugin
+*INCLUDE KingPot-recon2		;centreline data reconstructed from NCC survey using Patric Warren's Inkscape plugin
+*INCLUDE Upstream-recon1	;centreline data reconstructed from CDG sketch using Patric Warren's Inkscape plugin
+*INCLUDE Upstream-recon2	;centreline data reconstructed from CDG sketch using Patric Warren's Inkscape plugin
+*INCLUDE Upstream-recon3   	;centreline data reconstructed from CDG sketch using Patric Warren's Inkscape plugin
+*INCLUDE DownstreamSumpRSkorupka	
 
 *EQUATE 	entrance KingPot-recon1.path3.0
 *ENTRANCE	entrance
@@ -18,5 +20,8 @@
 
 *EQUATE	KingPot-recon1.path3.80	KingPot-recon2.path2.0
 *EQUATE	KingPot-recon2.path7.5	DownstreamSumpRSkorupka.DS-Surface
+*EQUATE KingPot-recon2.path11.5	Upstream-recon1.0
+*EQUATE Upstream-recon1.23		Upstream-recon2.4
+*EQUATE Upstream-recon2.43 		Upstream-recon3.0
 
 *end KingPot
