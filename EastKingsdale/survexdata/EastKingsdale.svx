@@ -17,7 +17,8 @@
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
 
-*FIX Valley_Exit REFERENCE 70570 78200 274
+*FIX GrandMastersAven 	REFERENCE 70994 78463 320
+*FIX Valley_Exit 		REFERENCE 70570 78200 274
 *ENTRANCE Valley_Exit 
 
 *END EastKingsdale
