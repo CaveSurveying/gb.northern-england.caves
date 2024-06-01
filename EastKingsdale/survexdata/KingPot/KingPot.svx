@@ -1,20 +1,22 @@
-;Title: King Pot
-
-;Date Created 05/02/2011 by Becka Lawson
-
-;-------------------------------------------------------------------------------------------
-;Modifications
-;
-
 ;--------------------------------------------------------------------------------------------
 ;All King Pot files
 
 *begin KingPot
 
-; *export EntranceTag
+*cs OSGB:SD
+*cs out EPSG:27700
+*INCLUDE KingPot-recon1		;centreline data reconstructed from NCC survey using Patric Warrens Inkscape plugin
+*INCLUDE KingPot-recon2		;centreline data reconstructed from NCC survey using Patric Warrens Inkscape plugin
 
-*include DownstreamSumpRSkorupka
+*DECLINATION AUTO 70793.56 77377.74 368.43
 
-; *equate EntranceTag King1.tag
+*INCLUDE DownstreamSumpRSkorupka
+
+*EQUATE 	entrance KingPot-recon1.path3.0
+*ENTRANCE	entrance
+*FIX		entrance 70793.56 77377.74 368.43 ;this is the location of Kevin Dixons GPS bolt at the entrance of King POT
+
+*EQUATE	KingPot-recon1.path3.80	KingPot-recon2.path2.0
+*EQUATE	KingPot-recon2.path7.5	DownstreamSumpRSkorupka.DS-Surface
 
 *end KingPot

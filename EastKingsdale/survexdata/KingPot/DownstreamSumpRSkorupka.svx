@@ -1,68 +1,100 @@
 
-*begin DownstreamSumpRSkorupka
-; *export
+*BEGIN DownstreamSumpRSkorupka
 
 *title "Downstream Sump of King Pot heading towards KMC from handwritten notes from RSkorupka"
+; initial remark "Survey out from 410 metres. King Pot Downstream Sump"
 ; *date not recorded - perhaps 1990?
 *team Instruments Rupert Skorupka
 *team Notes Rupert Skorupka
 *instrument Not recorded - assume a dive computer and reel
 
-; *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
+*EXPORT DS-Surface	;start of King Pot Downstream sump
 
-;from	to	tape	compass	clino	remarks
+*DATE	1991.06.01	;this is the date on the graph paper sketch @410m
 
-; initial remark "Survey out from 410 metres. King Pot Downstream Sump"
-
-; Becka 05.02.11: no clino or depth recorded so have written clino as 0 throughout
-; Becka 05.02.11: I have assumed tape is in metres - could possibly be feet - drawings all in metres
-
-*data normal from to compass tape clino
-
-410       400    080     29.5   0
-400       390    070     28.9   0
-390       380    075     30.3   0
-380       370    090     29.9   0
-370       360    090     30.6   0
-360       350    030     28.6   0
-350       340    080     28.8   0
-340       330    110     29.1   0
-330       320    090     30.0   0
-320       310    060     29.4   0
-310       300    040     30.3   0
-300       290    010     28.6   0
-290       280    000     28.9   0
-280       270    050     29.4   0
-270       260    350     29.1   0
-260       250    340     30.1   0
-250       240    350     31.1   0
-240       230    345     31.3   0
-230       220    355     30.3   0
-220       210    340     31.3   0
-210       200    005     30.4   0
-200       190    025     30.8   0
-190       180    020     29.7   0
-180       170    030     30.4   0
-170       160    025     30.3   0
-160       150    022     31.0   0
-150       140    025     32.0   0
-140       130    095     31.8   0
-130       120    040     31.9   0
-120       110    080     32.8   0
-110       100    130     34.2   0
-100       90     095     30.1   0
-90        80     090     23.4   0
-80        70     095     22.3   0
-70        60     105     23.6   0
-60        50     030     25.1   0
-50        40     335     23.8   0
-40        30     340     20.8   0
-30        20     050     17.3   0
-20        10     080     12.6   0
-10        0      030     06.7   0
-
-*data passage station left right up down ignoreall
-
-; no LRUDS
+*DATA DIVING station depth NEWLINE tape compass 		;assuming this is diving data reading tagged line compass and depth, 410=limit of dive, 0=surface
+410   -29.5 
+	10    080      
+400   -28.9
+	10    070 
+390   -30.3    
+	10    075
+380   -29.9       
+	10    090     
+370   -30.6       
+	10    090     
+360   -28.6       
+	10    030     
+350   -28.8       
+	10    080     
+340   -29.1      
+	10    110     
+330   -30.0       
+	10    090     
+320   -29.4       
+	10    060     
+310   -30.3       
+	10    040     
+300   -28.6       
+	10    010     
+290   -28.9       
+	10    000     
+280   -29.4       
+	10    050     
+270   -29.1      
+	10    350     
+260   -30.1       
+	10    340     
+250   -31.1    
+	10    350     
+240   -31.3    
+	10    345       
+230   -30.3    
+	10    355        
+220   -31.3    
+	10    340        
+210   -30.4    
+	10    005        
+200   -30.8    
+	10    025        
+190   -29.7    
+	10    020        
+180   -30.4    
+	10    030        
+170   -30.3    
+	10    025        
+160   -31.0     
+	10    022       
+150   -32.0    
+	10    025        
+140   -31.8      
+	10    095      
+130   -31.9       
+	10    040     
+120   -32.8     
+	10    080       
+110   -34.2     
+	10    130       
+100   -30.1     
+	10     095       
+90    -23.4    
+	10     090        
+80    -22.3    
+	10     095       
+70    -23.6    
+	10     105        
+60    -25.1    
+	10     030        
+50    -23.8      
+	10     335      
+40    -20.8    
+	10     340        
+30    -17.3    
+	10     050        
+20    -12.6    
+	10     080        
+10    -06.7      
+	10      030      ;King Pot downstream sump surface
+DS-Surface	-0
 
 *end DownstreamSumpRSkorupka

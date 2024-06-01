@@ -1,12 +1,24 @@
 ;Include file for East Kingsdale caves
 ;Created by Becka 07/07/2013
 
-*begin EastKingsdale
+*BEGIN EastKingsdale
 
-*include IllusionPot/IllusionPot
+*cs OSGB:SD
+*cs out EPSG:27700
 
-*include CrescentPot/CrescentPot
+*DECLINATION AUTO 70793.56 77377.74 368.43
 
-; *include KingPot/KingPot
+*INCLUDE CrescentPot/CrescentPot
+*INCLUDE IllusionPot/IllusionPot
+*INCLUDE KingPot/KingPot
 
-*end EastKingsdale
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;<<<< Entrance coordinates from Northern Caves >>>>
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
+
+*FIX Valley_Exit REFERENCE 70570 78200 274
+*ENTRANCE Valley_Exit 
+
+*END EastKingsdale
+
