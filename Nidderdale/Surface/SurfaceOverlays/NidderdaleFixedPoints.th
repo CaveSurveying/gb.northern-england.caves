@@ -306,15 +306,15 @@ fix CaravanTrailDig 10239 75195 208  ##2024 Phil's Garmin eTrex Touch 25
     endscrap
 
     scrap OldQuarryPotLoc -proj plan
-      point 2 0 entrance -scale l
+      point 2 0 entrance -scale l  -align top
       point 0 0 station -name OldQuarryPot
-      point 0 0 label -scale l -align left -text [Old Quarry Pot<br><it>SE 10187 75473 209m]
+      point 0 0 label -scale l -align bottom-right -text [Old Quarry Pot<br><it>SE 10187 75473 209m]
     endscrap
 
     scrap PigskinPotLoc -proj plan
-      point 2 0 entrance -scale l
+      point 2 0 entrance -scale l -align top
       point 0 0 station -name PigskinPot
-      point 0 0 label -scale l -align left -text [Pigskin Pot <br><it>SE 10205 75477 211m]
+      point 0 0 label -scale l -align bottom-right -text [Pigskin Pot <br><it>SE 10205 75477 211m]
     endscrap
 
     scrap DryWathEntranceLoc -proj plan
@@ -354,6 +354,13 @@ fix CaravanTrailDig 10239 75195 208  ##2024 Phil's Garmin eTrex Touch 25
     endscrap 
 
 ###BUILD MAPS
+
+map Section2 -projection plan
+
+  OldQuarryPotLoc
+  PigskinPotLoc
+
+endmap
 
 map GoydenSystem -projection plan
     

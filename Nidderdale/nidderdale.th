@@ -54,7 +54,7 @@ input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
 
-#input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   ##DONT USE YET - NEEDS NEW GPS AND LABELS AMENDED
+input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   
 
 ####################
 #### PLAN JOINS ####
@@ -216,6 +216,9 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+    
+  Section2@NidderdaleFixedPoints
+  break
   NewGoydenFaults@Overlays
   ThropePotPlan
   AstronomersPlan@astronomers
@@ -230,10 +233,11 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   aquamolePlan  
   break
   GoydenDownstreamSumpsPlan@GoydenDownstreamSumps
+  
 endmap
 
-map PublishSection3 -title "The Missing Links<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
-  #Section3@Overlays
+map PublishSection3 -title "Goyden System - The Missing Links<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
+  Section3@Overlays
   GoydenMainStreamExtPlan@GoydenMainStreamExtension
   GoydenDownstreamSumpsSection3@GoydenDownstreamSumps
   LabyrinthSection3@LabyrinthIndex
@@ -241,7 +245,8 @@ map PublishSection3 -title "The Missing Links<br><it>Nidderdale, North Yorkshire
   goyden2Plan
   goy3Plan
   GuscottIndex@GuscottIndex
-  #FrogPotSection3@FrogPotIndex
+  FrogPotSection3@FrogPotIndex
+  #FrogPotIndex@FrogPotIndex
   break
   NorthChokeSection3@NorthChokeIndex
 endmap
@@ -303,7 +308,6 @@ equate 1.10@CarterPassage S1@Overlays
 equate 10@NewGoydenDownstreamSumps S2@Overlays
 
 equate 0@Overlays 1.0@NewGoyden
-
 
 endcenterline
 
