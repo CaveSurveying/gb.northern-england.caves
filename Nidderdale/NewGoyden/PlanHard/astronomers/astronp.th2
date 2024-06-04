@@ -94,7 +94,7 @@ endline
 
 point -20.5 -106.0 label -text cobble<br>choke -scale m -align bottom-left -visibility off
 
-point 4.62 -61.709999999999994 label -text [+P10<br>(blind)] -scale m -align top-left
+point 4.62 -61.709999999999994 label -text [+P10<br>(blind)] -scale m -align top-left -visibility off
 
 line u:splay -visibility off
   11.76 -88.02

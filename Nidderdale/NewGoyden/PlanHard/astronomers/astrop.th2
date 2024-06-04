@@ -53,7 +53,7 @@ line floor-step
   smooth off
 endline
 
-point 115.0 115.5 label -text mud<br>banks -scale m -align left
+point 115.0 115.5 label -text mud<br>banks -scale m -align left -visibility off
 
 line floor-step
   132.78 89.68
@@ -354,11 +354,11 @@ point 127.49 66.32 debris -scale s
 
 point 30.0 238.0 continuation -scale s -text ">P4 to sandstone boulder in roof, back space behind?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m
 
-point 19.0 256.25 label -align top-left -scale m -text [+P4?]
+point 19.0 256.25 label -align top-left -scale m -text [+P4?] -visibility off
 
-point 48.25 -148.25 label -scale l -align bottom-right -text Astronomer's<br>Passage
+point 32.5 -119.0 label -scale l -text Astronomer's<br>Passage -align top-left
 
-point 55.75 270.25 label -align top-right -text [+P10] -scale m
+point 55.75 270.25 label -align top-right -text [+P10] -scale m -visibility off
 
 point 113.81 150.42 debris -scale s
 

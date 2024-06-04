@@ -38,6 +38,18 @@ endscrap
 
 scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
+point 8874.02 12876.34 station -name S2
+
+line u -subtype hydro
+  7840.0 16024.0
+  7500.0 16072.0
+endline
+
+line u -subtype hydro
+  8412.0 16724.0
+  8412.0 16724.0 8448.0 16392.0 8224.0 16124.0
+endline
+
 point 8908.86 25014.920000000002 station -name S1
 
 endscrap

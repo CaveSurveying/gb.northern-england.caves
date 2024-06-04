@@ -145,9 +145,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   OldYearSeriesIndex@OldYearSeriesIndex
   break
   LimleyInletPlan@LimleyInlet
-  NurgatoryPlan@Nurgatory
-
-    
+  NurgatoryPlan@Nurgatory    
   
   ####NewGoyden/Frog####
   ThropePotPlan
@@ -186,7 +184,7 @@ endmap
 ## Chris Fox Publication Maps ##
 ################################
 map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
- TurfPassagePlan@TurfPassage
+  TurfPassagePlan@TurfPassage
   break
   churchPotPlan
   GargettwayPlan
@@ -220,8 +218,11 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   Section2@NidderdaleFixedPoints
   break
   NewGoydenFaults@Overlays
+  break
   ThropePotPlan
+  break
   AstronomersPlan@astronomers
+  break
   PlanHardPlan
   break
   NewGoydenPlan
