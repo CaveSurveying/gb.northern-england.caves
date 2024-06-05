@@ -1,0 +1,16 @@
+*BEGIN BrownHillPot
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 71400 78400 374
+
+*INCLUDE BrownHillPot-Recon1
+*INCLUDE BrownHill-DownStream-Recon1
+
+*EQUATE 	entrance BrownHillPot-Recon1.path3.0
+*ENTRANCE	entrance
+*FIX		entrance 71320 78460 374 ;Floyds Entrance 
+
+*EQUATE BrownHillPot-Recon1.path3.59	BrownHill-DownStream-Recon1.0
+
+*END BrownHillPot

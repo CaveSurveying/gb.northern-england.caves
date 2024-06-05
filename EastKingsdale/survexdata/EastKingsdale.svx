@@ -8,6 +8,7 @@
 
 *DECLINATION AUTO 70793.56 77377.74 368.43
 
+*INCLUDE BrownHillPot/BrownHillPot
 *INCLUDE CrescentPot/CrescentPot
 *INCLUDE IllusionPot/IllusionPot
 *INCLUDE KingPot/KingPot
