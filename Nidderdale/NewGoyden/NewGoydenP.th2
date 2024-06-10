@@ -2242,6 +2242,14 @@ line wall
   smooth off
 endline
 
+line u -subtype hydro -clip off
+endline
+
+line u -subtype hydro -clip off
+  3276.086956521739 9465.217391304348
+  2980.4347826086955 10728.260869565216
+endline
+
 line wall
   3787.0 9458.0
   3786.5 9445.5 3773.0 9399.5 3795.5 9426.5
@@ -2935,6 +2943,11 @@ line chimney
   3022.5 11215.0 3023.5 11224.0 3026.5 11236.5
   3029.5 11249.0 3034.5 11255.5 3036.5 11255.0
   smooth off
+endline
+
+line u -subtype hydro -clip off
+  3091.304347826087 11430.434782608694
+  3191.3 11826.09
 endline
 
 line wall

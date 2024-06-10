@@ -2,8 +2,7 @@ encoding  utf-8
 
 input PlanHardP.th2
 input astronomers/astronomers.th #2024 Astronomer's Resurvey & avens
-
-    
+ 
 #input PlanHardEe.th2
 #input PlanHardE90.th2
 
@@ -12,7 +11,7 @@ join astrop@astro.astronomers PlanHardSP3
 
 
 map PlanHardPlan -title "PlanHard Plan"
- #m1p@astronomers #2024 Astronmers
+  #m1p@astronomers #2024 Astronmers
   #PlanHardSP7 #Old Astronomers
   break
   PlanHardSP1
@@ -916,7 +915,7 @@ data normal from to tape compass clino ignoreall
 1.67  1.68  13.749  186.36  -7.46  Calculated leg from 3 above
 
 ##########Survey Added 7.01.17##########  
-## 21/04/2024 - commented out 1.69 to 1.80 as replaced with new Astronomers Survey
+## 21/04/2024 - PW commented out 1.69 to 1.80 as replaced with new Astronomers Survey
 ################
 1.6  -  0.0  0.0  0.0  
 #1.6  1.69  13.086  268.99 11.61  high back wall waist   height

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 12746.085 38021.625
+##XTHERION## xth_me_area_adjust -144.0 -144.0 12746.085 38021.625
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3740.16 1 1.0} {28976.340000000004 1.0@Goyden.nidderdale} nidderdale.xvi 0 {}
 
@@ -38,19 +38,20 @@ endscrap
 
 scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 8874.02 12876.34 station -name S2
-
-line u -subtype hydro
+line u -subtype hydro -visibility off
   7840.0 16024.0
   7500.0 16072.0
 endline
 
-line u -subtype hydro
+line u -subtype hydro -visibility off
   8412.0 16724.0
   8412.0 16724.0 8448.0 16392.0 8224.0 16124.0
+  smooth off
 endline
 
-point 8908.86 25014.920000000002 station -name S1
+point 8908.0 25012.0 station -name S1
+
+point 8874.02 12876.34 station -name S2
 
 endscrap
 
@@ -58,12 +59,12 @@ endscrap
 
 scrap OtherPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-line u -subtype hydro
+line u -subtype hydro -visibility off
   7264.0 17028.0
   7184.0 17332.0
 endline
 
-line u -subtype hydro
+line u -subtype hydro -visibility off
   7192.0 17516.0
   7204.0 17636.0
 endline

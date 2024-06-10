@@ -8,9 +8,9 @@ encoding  utf-8
 
 scrap PlanHardSP1 -projection plan -station-names "" "@PlanHard" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1615.47992126 3272.61917164 station -name 1.68
-
 point 1761.7799212599998 4336.02917164 station -name 1.67
+
+point 1615.47992126 3272.61917164 station -name 1.68
 
 area water
   l4-1027-4949
@@ -112,6 +112,16 @@ point 1252.2727272727275 4734.09090909091 water-flow -orientation 113.6 -scale l
 point 1677.2727272727275 4406.818181818182 water-flow -orientation 171.4 -scale l
 
 point 1675.0000000000002 3870.454545454546 water-flow -orientation 171.4 -scale l
+
+line u -subtype hydro -clip off
+  3479.55 4300.0
+  3479.55 4300.0 4329.55 5259.09 4070.454545454546 6634.09090909091
+endline
+
+line u -subtype hydro -clip off
+  1770.45 4006.82
+  350.0 4275.0
+endline
 
 line wall
   1736.0 3486.0

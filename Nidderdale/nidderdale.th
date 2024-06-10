@@ -53,7 +53,6 @@ input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
-
 input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   
 
 ####################
@@ -214,7 +213,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
-    
+  #Section2@Overlays  
   Section2@NidderdaleFixedPoints
   break
   NewGoydenFaults@Overlays
@@ -223,7 +222,7 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   break
   AstronomersPlan@astronomers
   break
-  PlanHardPlan
+  PlanHardPlan  
   break
   NewGoydenPlan
   break
@@ -234,7 +233,7 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   aquamolePlan  
   break
   GoydenDownstreamSumpsPlan@GoydenDownstreamSumps
-  
+  HardyPoolsExtPlan@HardyPoolsExt
 endmap
 
 map PublishSection3 -title "Goyden System - The Missing Links<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -305,10 +304,11 @@ equate 1.13@Surface2 1.47@Guscott.GuscottIndex
 equate 1.26@Surface2 6.0@FrogPot.FrogPotIndex
 equate 1@SurfaceOQP 0@OQP
 
-equate 1.10@CarterPassage S1@Overlays
-equate 10@NewGoydenDownstreamSumps S2@Overlays
 
+equate S1@Overlays 1.10@CarterPassage 
+equate S2@Overlays 10@NewGoydenDownstreamSumps
 equate 0@Overlays 1.0@NewGoyden
+
 
 endcenterline
 

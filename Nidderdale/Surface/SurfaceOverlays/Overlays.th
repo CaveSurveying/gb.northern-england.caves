@@ -12,6 +12,11 @@ map OverlaysPlan -title "Overlays"
   NewGoydenFaultsPlan
 endmap
 
+map Section2 -title "Section 2 for Chris Fox Publications"
+  NewGoydenPlan
+  NewGoydenFaultsPlan
+endmap
+
 map Section3 -title "Section 3 for Chris Fox Publications"
   GoydenPlan
   #NewGoydenPlan  
@@ -19,7 +24,8 @@ map Section3 -title "Section 3 for Chris Fox Publications"
 endmap
 
 map NewGoydenFaults -title "New Goyden Faults"
-NewGoydenFaultsPlan
+## Fault Lines
+  NewGoydenFaultsPlan
 endmap
 
 
@@ -35,7 +41,8 @@ centerline
     data normal from to length compass clino
     
 
-   # S1 S2 0 0 0
+   #S1 S2 0 0 0
+   #P1 P2 0 0 0 
     
   endcenterline
 
