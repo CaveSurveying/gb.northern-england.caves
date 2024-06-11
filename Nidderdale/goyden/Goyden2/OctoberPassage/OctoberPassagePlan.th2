@@ -229,6 +229,13 @@ line wall -close on
   smooth off
 endline
 
+point 1165.0 -1508.0 label -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -align left -scale xl
+
+line u -subtype hydro -clip off
+  1217.0 -1103.0
+  1230.0 -2081.0
+endline
+
 line wall
   1206.0 -1034.0
   1206.0 -1034.0 1202.0 -1020.0 1200.0 -1016.0

@@ -237,7 +237,7 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
 endmap
 
 map PublishSection3 -title "Goyden System - The Missing Links<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
-  Section3@Overlays
+  #Section3@Overlays
   GoydenMainStreamExtPlan@GoydenMainStreamExtension
   GoydenDownstreamSumpsSection3@GoydenDownstreamSumps
   LabyrinthSection3@LabyrinthIndex

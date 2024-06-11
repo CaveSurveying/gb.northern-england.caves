@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -1986.0 1698.0 141.0
+##XTHERION## xth_me_area_adjust -132.0 -2362.0 1698.0 141.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} BeetRouteSumpCentreLine.jpg 0 {}
 
@@ -93,6 +93,13 @@ line arrow -scale m
   1187.0 -243.0
   1196.0 -254.0
 endline
+
+line u -subtype hydro -clip off
+  192.0 -1834.0
+  694.0 -2266.0
+endline
+
+point 579.0 -2129.0 label -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)] -align top-right -scale xl
 
 line wall
   187.75 -1814.75

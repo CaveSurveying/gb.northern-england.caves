@@ -7,23 +7,23 @@ encoding  utf-8
 
 scrap GoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)]
+point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)] -visibility off
 
-line u -subtype hydro
+line u -subtype hydro -visibility off
   6280.0 21292.0
   6316.0 20800.0
 endline
 
-point 7396.0 20752.0 label -scale xl -align top-right -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)]
+point 7396.0 20752.0 label -scale xl -align top-right -visibility off -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)]
 
-point 4804.0 23548.0 label -scale xl -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -align left
+point 4804.0 23548.0 label -scale xl -align left -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -visibility off
 
-line u -subtype hydro
+line u -subtype hydro -visibility off
   4896.0 23984.0
   4932.0 22440.0
 endline
 
-line u -subtype hydro
+line u -subtype hydro -visibility off
   7148.0 20820.0
   7468.0 20588.0
 endline

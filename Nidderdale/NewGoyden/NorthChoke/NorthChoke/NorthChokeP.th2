@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.88888888888889 -136.88888888888889 1160.3822324509 5941.333333333334
+##XTHERION## xth_me_area_adjust -136.88888888888889 -136.88888888888889 1160.3822324509 6725.777777777778
 ##XTHERION## xth_me_area_zoom_to 45
 ##XTHERION## xth_me_image_insert {447.948976016 1 1.0} {1781.941259843 1.4} PocketTopo/NorthChoke_p.xvi 0 {}
 
@@ -405,6 +405,11 @@ point 157.77777777777777 4693.333333333334 water-flow -orientation 179.1 -scale 
 point 182.22222222222223 4844.444444444444 water-flow -orientation 198.9 -scale xs
 
 point 213.33333333333334 5195.555555555556 water-flow -orientation 247.5 -scale xs
+
+line u -subtype hydro -clip off
+  353.33333333333337 5846.666666666667
+  344.44 6651.11
+endline
 
 line wall -subtype blocks
   334.42622950819674 5411.475409836065

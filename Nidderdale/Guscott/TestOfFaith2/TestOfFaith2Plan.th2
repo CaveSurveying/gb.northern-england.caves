@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -131.6614173228 -130.0 990.4803149605 1077.1338582675999
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -136.0 -1304.0 990.4803149605 1077.1338582675999
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {723.9453543307 1 1.0} {545.3613385829999 1.4} PocketTopo/TestOfFaith2_p.xvi 0 {}
 
 
@@ -150,6 +150,13 @@ line ceiling-step -reverse on
   246.0 228.0 251.0 292.0 256.0 298.0
   261.0 304.0 242.5 324.0 235.5 321.0
   smooth off
+endline
+
+point 378.0 -957.0 label -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)] -align right -scale xl
+
+line u -subtype hydro -clip off
+  227.0 72.0
+  316.0 -1296.0
 endline
 
 line wall
