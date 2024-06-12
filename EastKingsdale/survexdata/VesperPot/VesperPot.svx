@@ -1,0 +1,17 @@
+*BEGIN VesperPot
+
+;*cs OSGB:SD
+;*cs out EPSG:27700
+;*DECLINATION AUTO 71200 77600 381
+
+*EXPORT  VesperPot-Recon1.path3.152a
+*INCLUDE VesperPot-Recon1
+
+
+*EQUATE 	entrance VesperPot-Recon1.path3.0
+*ENTRANCE	entrance
+;*FIX		entrance 71200 77600 381 
+
+
+
+*END VesperPot

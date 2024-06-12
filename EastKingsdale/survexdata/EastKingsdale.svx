@@ -12,6 +12,10 @@
 *INCLUDE CrescentPot/CrescentPot
 *INCLUDE IllusionPot/IllusionPot
 *INCLUDE KingPot/KingPot
+*INCLUDE SpectaclePot/SpectaclePot
+*INCLUDE VesperPot/VesperPot
+
+*EQUATE SpectaclePot.SpectaclePot-Recon1.path3.90a   VesperPot.VesperPot-Recon1.path3.152a
 
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>

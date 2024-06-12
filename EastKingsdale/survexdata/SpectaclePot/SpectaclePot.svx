@@ -1,0 +1,17 @@
+*BEGIN SpectaclePot
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 71080 77760 372 
+
+*EXPORT  SpectaclePot-Recon1.path3.90a
+*INCLUDE SpectaclePot-Recon1
+
+
+*EQUATE 	entrance SpectaclePot-Recon1.path3.0
+*ENTRANCE	entrance
+*FIX		entrance 71080 77760 372 
+
+
+
+*END SpectaclePot
