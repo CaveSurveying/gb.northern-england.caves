@@ -10,6 +10,7 @@
 
 *INCLUDE BrownHillPot/BrownHillPot
 *INCLUDE CrescentPot/CrescentPot
+*INCLUDE GrowlingHole/GrowlingHole
 *INCLUDE IllusionPot/IllusionPot
 *INCLUDE KingPot/KingPot
 *INCLUDE SpectaclePot/SpectaclePot

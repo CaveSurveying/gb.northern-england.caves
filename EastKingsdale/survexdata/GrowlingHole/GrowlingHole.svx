@@ -1,0 +1,15 @@
+*BEGIN GrowlingHole
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 71250 77490 383 
+
+*INCLUDE GrowlingHole-Recon1
+
+
+*EQUATE 	entrance GrowlingHole-Recon1.path3.0
+*ENTRANCE	entrance
+*FIX		entrance 71250 77490 383 
+
+
+*END GrowlingHole
