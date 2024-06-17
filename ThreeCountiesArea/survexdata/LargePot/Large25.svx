@@ -1,0 +1,27 @@
+*begin Large25
+*export 29x
+
+*title "Eastern Front - short survey to tie in Fred Rattray's radio location beacon to the survey"
+*date 2024.06.15
+*team Instruments Becka Lawson
+*team Dog Patrick Warren (Sam Allshorn also on trip)
+*team Notes Becka Lawson
+*instrument Becka's SAP6 
+
+;from	to	tape	compass	clino	remarks
+
+*flags duplicate
+; surface location of the beacon by Fred Rattray was SD 68582 76297 which is only ~4m horizontally
+; from the beacon survey station underground. He was unable to get a depth reading
+1	beacon	4.02	161	-01
+2	1	4.21	129	-03
+3	2	5.48	171	-07
+29x	3	0.97	157	-66
+
+*data passage station left right up down ignoreall
+
+1	-	-	-	-	beacon where final crawl enters final large section of passage then boulder choke. Beacon on shelf on right where roof still low before muddy descent
+29x	-	-	-	-	old numbered station on roof in final low section before boulder choke passage
+
+
+*end Large25
