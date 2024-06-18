@@ -13,6 +13,7 @@
 *INCLUDE GrowlingHole/GrowlingHole
 *INCLUDE IllusionPot/IllusionPot
 *INCLUDE KingPot/KingPot
+*INCLUDE LordsTopHole/LordsTopHole
 *INCLUDE SpectaclePot/SpectaclePot
 *INCLUDE VesperPot/VesperPot
 

@@ -1,0 +1,15 @@
+*BEGIN LordsTopHole
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 70659 77209 378 
+
+*INCLUDE LordsTopHole-Recon1
+
+
+*EQUATE 	entrance LordsTopHole-Recon1.path3.0
+*ENTRANCE	entrance
+*FIX		entrance 70659 77209 378
+
+
+*END LordsTopHole
