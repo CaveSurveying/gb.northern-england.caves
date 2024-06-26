@@ -10,15 +10,13 @@ scrap NorthEndPotSE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 line wall
 endline
 
-point 2320.0 3102.0 label -scale s -align bottom-right -text [Length: 123m<br>Depth: 36m]
+point 2254.0 3456.0 label -scale s -align bottom-right -text [Length: 123m<br>Depth: 36m]
 
-point 2234.0 3298.0 label -align bottom-right -scale m -text [Map based on survey by <br>Becka Lawson and Julian Todd 2013]
+point 2205.0 3641.0 label -align bottom-right -scale m -text [Map based on survey by <br>Becka Lawson and Julian Todd 2013]
 
-point 2192.0 3424.0 label -text [Explored by EPC 1987] -align bottom-right -scale m
+point 2177.0 3771.0 label -text [Explored by EPC 1987] -align bottom-right -scale m
 
-point 2128.0 3580.0 label -scale xl -text [North End Pot] -align bottom-right
-
-point 2128.0 3580.0 label -scale xl -text [North End Pot] -align bottom-right
+point 2136.0 3936.0 label -scale xl -text [North End Pot] -align bottom-right
 
 line wall -id Line2
   3328.0 1996.0

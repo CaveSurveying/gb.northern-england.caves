@@ -16,9 +16,9 @@ point 1512.0 357.0 label -scale m -text [Human remains found in both shafts <br>
 
 point 1511.0 526.0 bones -scale l
 
-point -334.0 1320.0 label -text [Length: 179m<br>Depth 92m]
+point -329.0 1463.0 label -text [Length: 179m<br>Depth 92m]
 
-point 136.0 1569.0 label -text [North By North End Pot] -scale xl
+point 140.0 1732.0 label -text [North By North End Pot] -scale xl
 
 line wall -id Line1
   1158.0 1641.0
