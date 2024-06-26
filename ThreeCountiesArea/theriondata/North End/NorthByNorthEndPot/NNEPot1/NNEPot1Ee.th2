@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 1513.5198673521 1858.5665410463
+##XTHERION## xth_me_area_adjust -401.0 -132.0 1645.0 1858.5665410463
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {839.8387649900001 1 1.0} {474.53384128999994 1.4} PocketTopo/NNEPot1_e.xvi 0 {}
 
@@ -11,6 +11,14 @@ line floor-step -reverse on
   949.0 788.0
   1104.0 791.0
 endline
+
+point 1512.0 357.0 label -scale m -text [Human remains found in both shafts <br>           at approximately -18m]
+
+point 1511.0 526.0 bones -scale l
+
+point -334.0 1320.0 label -text [Length: 179m<br>Depth 92m]
+
+point 136.0 1569.0 label -text [North By North End Pot] -scale xl
 
 line wall -id Line1
   1158.0 1641.0

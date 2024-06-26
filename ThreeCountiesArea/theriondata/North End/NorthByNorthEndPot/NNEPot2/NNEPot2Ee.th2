@@ -174,7 +174,7 @@ endscrap
 
 scrap NNEPot2SE2 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -reverse on -subtype blocks
+line wall -reverse on
   1080.0 7680.0
   1219.5 7722.0
   1205.5 7826.5
@@ -195,6 +195,13 @@ line wall -reverse on -subtype blocks
   2017.0 7663.5 2066.0 7641.0 2066.0 7641.0
   smooth off
 endline
+
+line arrow
+  1540.0 8059.0
+  1539.0 7922.0
+endline
+
+point 1545.0 8116.0 label -align center -text [Breakthough point March 24] -scale m
 
 line wall
   1364.5 7634.0

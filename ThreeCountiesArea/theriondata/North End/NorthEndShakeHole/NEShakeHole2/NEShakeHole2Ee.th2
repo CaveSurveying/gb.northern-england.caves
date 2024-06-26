@@ -75,8 +75,8 @@ line wall -id Line2
   706.0 52.0 731.0 -9.0 731.0 -9.0
   smooth off
   subtype bedrock
-  837.0 -44.0
-  841.0 -109.0
+  904.0 -38.0
+  918.0 -97.0
 endline
 
 line pit -reverse on
@@ -85,9 +85,9 @@ line pit -reverse on
 endline
 
 line wall -id Line3 -clip off
-  1000.0 -111.0
-  994.0 -91.0 997.0 117.0 1005.0 141.0
-  1013.0 165.0 1036.0 465.0 1036.0 465.0
+  1025.0 -95.0
+  1019.0 -75.0 1024.7 113.1 1029.0 126.0
+  1037.0 150.0 1036.0 465.0 1036.0 465.0
   smooth off
 endline
 

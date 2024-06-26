@@ -20,7 +20,7 @@ cs OSGB:SD
 station 1.0 "Entrance"
 
 #fix 1.0 68303 76533 392 ####Manually adjusted from GE
-fix 1.0 368305.736 476529.162  393.482  ####Roo's GNNS fix
+fix 1.0 368305.736 476529.162  391.482  ####Roo's GNNS fix said 393.482m but I think he forgot to remove 2m for survey pole
 copyright 2024 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
@@ -41,6 +41,7 @@ copyright 2024 "GNU GPL"
 data normal from to tape compass clino ignoreall
   extend right
   flags surface
+ 
 1.0  -  0.0  0.0  0.0  point on bed rock on col oposit tower
   extend left
 #1.0  1.1  7.234  332.07  -31.38  

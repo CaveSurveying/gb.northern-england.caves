@@ -20,33 +20,39 @@ input NorthByNorthEndPot/NNEPotIndex.th
 
 
 
-####Line Joins####
+#### Elevation Line Joins ####
 ##################
 join Line1@NNEPot1.NNEPotIndex:0    Line1@NEShakeHole2.NEShakeHoleIndex:end 
 join Line2@NNEPot1.NNEPotIndex:end  Line2@NEShakeHole2.NEShakeHoleIndex:0
 
+join Line2@NEShakeHole2.NEShakeHoleIndex:end   Line1@NorthEndPot:0
+join Line3@NEShakeHole2.NEShakeHoleIndex:0      Line2@NorthEndPot:end
 
+join Line2@LleanBean1.NNEPotIndex:end      Line2@LleanBean2.NNEPotIndex:0
+join Line1@LleanBean1.NNEPotIndex:0        Line1@LleanBean2.NNEPotIndex:end
+join Line1@LleanBean1.NNEPotIndex:end      Line1@LleanBean2.NNEPotIndex:0
+join Line3@LleanBean1.NNEPotIndex:0        Line3@LleanBean2.NNEPotIndex:end
 
 ###################### MAPS ####################
 
-  map NorthEndIndexPlan -title "North_End_Pots" 
+  #map NorthEndIndexPlan -title "North_End_Pots" 
    
-  NEShakeHoleIndexPlan@NEShakeHoleIndex
-  break
-  NNEPotIndexPlan@NNEPotIndex
-  NorthEndPotPlan@NorthEndPot  
+  #NEShakeHoleIndexPlan@NEShakeHoleIndex
+  #break
+  #NNEPotIndexPlan@NNEPotIndex
+  #NorthEndPotPlan@NorthEndPot  
   
-  endmap
+  #endmap
  
 ###############################################
  
- #map NorthEndIndexME -title "North_End-Extended_Elevation"
+ map NorthEndIndexME -title "North_End-Extended_Elevation"
  
- #NEShakeHoleIndexME@NEShakeHoleIndex
- #NNEPotIndexME@NNEPotIndex
- #NorthEndPotME@NorthEndPot  
+ NEShakeHoleIndexME@NEShakeHoleIndex
+ NNEPotIndexME@NNEPotIndex
+ NorthEndPotME@NorthEndPot  
  
- #endmap
+ endmap
 
 ################# Equates #####################
 ###############################################

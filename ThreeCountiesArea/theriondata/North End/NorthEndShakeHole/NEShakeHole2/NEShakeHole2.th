@@ -33,7 +33,7 @@ copyright 2024 "GNU GPL"
   explo-date 2024.05.10
 
 data normal from to tape compass clino ignoreall
-#flags surface
+flags surface
   extend right
 1.0  -  0.0  0.0  0.0  
 1.0  -  2.0  38.95  28.03  
