@@ -22,6 +22,7 @@
 8	7	5.23	057	-01
 9	8	2.97	074	-01
 10	9	5.60	330	-02
+
 11	10	4.53	345.5	-01
 11	top	6.64	193	+62
 12	11	5.02	200	-30
@@ -41,20 +42,32 @@
 
 *data passage station left right up down ignoreall 
 
-42x	-	-	-	-	numbered old station in roof, base of entrance climbs down
+42x	0.5	2.5	0	0.3	numbered old station in roof, base of entrance climbs down
 1	1.4	0.3	0.2	0.1
 2	1.2	1	1.4	0	
 3	1	1.5	1	0.2
 4	1.2	0.5	0.3	0.3
-5	-	-	-	-   one LRUD forgotten, unclear if was 5 or 7
+
+*data passage station left right up down ignoreall
+1	1.4	0.3	0.2	0.1
+5	1.4	0.3	0.2	0.1   one LRUD forgotten, unclear if was 5 or 7
 6	1	0.3	0.3	0
 7	0.7	1	0.3	0
 8	1.6	1	0.6	0.1
 9	0.5	1	0.2	0.1
 10	0.5	0.7	0.3	0.2
 11	5	2	6	0.1 cross rift with avens
+
+*data passage station left right up down ignoreall
+11	5	2	6	0.1 cross rift with avens
 top	0	0.5	3	1.5 distox shot up to top of aven; free climbed by Ian Walker in 22 Jan 2017, too tight in 2 directions, possible tight continuation above
+
+*data passage station left right up down ignoreall
+11	5	2	6	0.1 cross rift with avens
 12	2	1.5	6	1.8
+
+*data passage station left right up down ignoreall
+11	5	2	6	0.1 cross rift with avens
 13	0	2	0.3	0.1
 14	0.1	1.2	0.2	0.2
 15	1	0.2	0.2	0.2

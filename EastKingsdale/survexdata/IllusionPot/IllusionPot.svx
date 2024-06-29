@@ -11,7 +11,7 @@
 
 *begin IllusionPot
 
-*export Entrance
+*export Entrance illusion_3.6
 *entrance Entrance
 
 *fix gps 70011 76255 292 ;to stone on SW side of top of shakehole - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013

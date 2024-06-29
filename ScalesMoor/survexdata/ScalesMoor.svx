@@ -1,0 +1,21 @@
+;Include file for Scales Moor caves
+
+*BEGIN ScalesMoor
+
+*cs OSGB:SD
+*cs out EPSG:27700
+
+*DECLINATION AUTO 71080 75550 259
+
+*EXPORT	 DaleBarnCave.ExpressWay-Recon.path5.0
+
+*INCLUDE DaleBarnCave/DaleBarnCave
+
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;<<<< Entrance coordinates from Northern Caves >>>>
+;++++++++++++++++++++++++++++++++++++++++++++++++++++
+;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
+
+
+
+*END ScalesMoor

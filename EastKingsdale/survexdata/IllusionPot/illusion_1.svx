@@ -66,8 +66,8 @@ lid	1	11.13	343	-83
 
 *data passage station left right up down ignoreall 
 
-gps	-	-	-	-	rock in shakehole where took gps
-lid	-	-	-	-	point on inner ring of concrete tube at entrance opposite the midpoint of the left and right steps down the tube
+;gps	-	-	-	-		rock in shakehole where took gps
+lid 0.75	0.25	0	11	point on inner ring of concrete tube at entrance opposite the midpoint of the left and right steps down the tube
 1	0.75	0.25	11	0	base of entrance concrete pipe and first (two ladders	
 2	0.6	0.7	0	1	l wall
 3	1.2	0	1.2	6	in roof, level with 3rd rung down of 2nd ladder
@@ -77,12 +77,13 @@ lid	-	-	-	-	point on inner ring of concrete tube at entrance opposite the midpoi
 7	1.6	0.5	1	0.5	junction with low crawl off back under entrance and main way ahead, on stump of stal, the highest of about 3 and only one directly under a broken stalagtite with pencil number 7
 ; 8	0.5	0.5	0.2	0.2	unmarked up low crawl, needs surveying properly then take this station out ; now superceded by illusion_2 survey
 9	0.5	1.8	0.4	0.8	boulder tip
-10	-	-	-	-	inlet, too tight to enter
+;10	-	-	-	-	inlet, too tight to enter
 11	0.4	1.8	0.9	0.1	floor of main passage
 12	1	2.3	1.2	0.2	bottom tip of large, obvious stalagtite at junction
-13	0.3	06	2.3	1.5	tip of boulder
+13	0.3	0.6	2.3	1.5	tip of boulder
 14	0.3	0	3	1.8	numbered on right wall, end of inlet
-15	-	-	-	-	unmarked at top of drippy inlet with boulders in
+;15	-	-	-	-	unmarked at top of drippy inlet with boulders in
+12	1	2.3	1.2	0.2	
 16	0.4	2.5	0.4	0.5	l wall
 17	0.6	1.5	0.4	0.8	l wall
 18	0.6	1.2	0.3	1.1	l wall
@@ -94,12 +95,12 @@ lid	-	-	-	-	point on inner ring of concrete tube at entrance opposite the midpoi
 23	1.8	0.4	1.1	0.8	r mud bank; can't really read the down but definitely 0.something
 
 24	1.5	1.3	1	1.1
-25	-	-	-	-	end of side alcove
+;25	-	-	-	-	end of side alcove
 26	3	0.5	0.6	1.2
 27	2.5	0.7	0.5	0.7	down unclear
 28	5	4	5	2.5
-29	-	-	-	-	end of alcove
-30	-	-	-	-	end of alcove
+;29	-	-	-	-	end of alcove
+;30	-	-	-	-	end of alcove
 31	0.4	2	1.5	1.6
 32	3	1	6	0.3	
 33	-	-	-	-	end of side alcove
@@ -113,6 +114,6 @@ lid	-	-	-	-	point on inner ring of concrete tube at entrance opposite the midpoi
 40	1.1	1.9	0.6	0.2 end of duck section
 41	0	1	2	1	bolt at end of rope through duck
 
-42	0.5	2.5	0	0.3	numbered in roof at start of low crawl, remainder needs surveying
+;42	0.5	2.5	0	0.3	numbered in roof at start of low crawl, remainder needs surveying
 
 *end illusion_1

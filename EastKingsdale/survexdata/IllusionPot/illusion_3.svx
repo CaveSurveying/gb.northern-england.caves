@@ -1,6 +1,6 @@
 *begin illusion_3
 
-*export 41x
+*export 6 41x
 
 *title "East Kingsdale - Illusion Pot - from bolt at far side of sump into Expressway"
 *date 2017.01.22
@@ -35,7 +35,7 @@
 4	0	3.9	1.8	4.3	L wall at corner
 5	0.8	3	2.5	3	Numbered on pebble
 6	7	3.9	23	0	Missile Silo (drippy aven) above here
-7	-	-	-	-	Unmarked shot up aven to roof where rope anchored for Missile Silo
+;7	-	-	-	-	Unmarked shot up aven to roof where rope anchored for Missile Silo
 8	0.8	12	2.6	5	Flake on L wall
 9	6	5.2	8.6	0	Mud hall? Can't read description, also R distance from notes looked like 8 or 0 but Distox download suggests 5, check with Ian
 10	11.5	2.6	9.6	1	Rock spike, L and R may be wrong, L looked like 11.9 on notes but Distox suggests 11.5 with L as 2.6 correct, check with Ian

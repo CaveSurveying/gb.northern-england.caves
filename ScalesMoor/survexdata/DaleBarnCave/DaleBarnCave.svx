@@ -1,0 +1,25 @@
+*BEGIN DaleBarnCave
+
+;<<<<The three NCC surveys for DaleBarn Cave are drawn to grid north >>>>
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 71080 75550 259
+
+*EXPORT		ExpressWay-Recon.path5.0 NewEntrance
+             
+*INCLUDE DaleBarnCave-Recon1
+*INCLUDE DaleBarnCave-Recon2
+*INCLUDE ExpressWay-Recon
+
+*EQUATE 	NewEntrance DaleBarnCave-Recon1.path3.0
+*ENTRANCE	NewEntrance
+*FIX		NewEntrance 71080 75550 259	
+
+*EQUATE 	OldEntrance DaleBarnCave-Recon1.path4.0
+*ENTRANCE	OldEntrance
+
+*EQUATE DaleBarnCave-Recon1.path3.103	DaleBarnCave-Recon2.path3.0
+*EQUATE DaleBarnCave-Recon2.path10.3	ExpressWay-Recon.path3.0
+
+*END DaleBarnCave

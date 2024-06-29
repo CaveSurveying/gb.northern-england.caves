@@ -17,7 +17,15 @@
 *INCLUDE SpectaclePot/SpectaclePot
 *INCLUDE VesperPot/VesperPot
 
-*EQUATE SpectaclePot.SpectaclePot-Recon1.path3.90a   VesperPot.VesperPot-Recon1.path3.152a
+
+
+
+*EQUATE SpectaclePot.SpectaclePot-Recon1.path3.90a   	VesperPot.VesperPot-Recon1.path3.152a
+
+
+*SOLVE	;<<<This forces any survey errors to be distributed along the reconstructed centrelines>>>
+*INCLUDE ../../ScalesMoor/survexdata/ScalesMoor
+*EQUATE	IllusionPot.illusion_3.6	ScalesMoor.DaleBarnCave.ExpressWay-Recon.path5.0 
 
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>
