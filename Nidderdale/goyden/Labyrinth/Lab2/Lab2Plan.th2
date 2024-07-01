@@ -151,6 +151,8 @@ endline
 
 point 822.65625 5935.9375 gradient -orientation 160.2
 
+point 307.14285714285717 6003.571428571428 continuation -text "Too tight but could be dug to drop down into what looks like slightly bigger passage" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
 point 203.125 5991.40625 dig -align right
 
 point 639.84375 5941.40625 label -text [c2.5] -scale l

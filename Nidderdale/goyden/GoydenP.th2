@@ -225,10 +225,6 @@ endline
 
 point 1671.875 11290.625 label -scale xl -text Main<br>Chamber -align left
 
-point 93.75 13165.625 dig -scale m
-
-point 52.56410256410256 13312.419871794873 label -scale m -text abandoned<br>dig -align top-right
-
 point 2603.125 10034.625 label -scale m -visibility on -text Lesser<br>Stream<br>Exit -align bottom-left
 
 point 3431.625 15577.0 label -scale xl -visibility on -text GOYDEN<br>POT -align top-right
@@ -398,14 +394,42 @@ line ceiling-step -reverse on
   smooth off
 endline
 
+point 3175.0 13853.125 continuation -text "choked tube - looks to go vertical and likely sink in dry abandoned valley behind Goyden pot entrance" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale s
+
+point 3187.5 13981.25 dig -scale m
+
+line wall -subtype debris
+  3231.25 13906.25
+  3196.875 13915.625
+  3125.0 13906.25
+endline
+
+line wall
+  3125.0 13906.25
+  3106.25 13868.75
+  3087.5 13834.38
+endline
+
+line wall
+  3212.5 13781.25
+  3231.25 13815.625
+  3237.5 13853.125
+  3237.5 13887.5
+  3231.25 13906.25
+endline
+
 line wall
   3856.45 12480.65
   3820.45 12456.65 3765.59 12440.49 3760.0 12454.0
   3736.0 12512.0 3458.0 12772.0 3460.0 12808.0
   3462.0 12844.0 3494.0 13078.0 3492.0 13170.0
   3490.0 13262.0 3226.0 13468.0 3248.0 13510.0
-  3270.0 13552.0 3230.0 13664.0 3226.0 13760.0
-  3222.0 13856.0 2946.0 13854.0 2946.0 13854.0
+  3264.97 13542.39 3190.63 13546.88 3212.5 13781.25
+endline
+
+line wall
+  3087.5 13834.38
+  2978.13 13831.25 2946.0 13854.0 2946.0 13854.0
   smooth off
 endline
 
@@ -1414,6 +1438,10 @@ endscrap
 
 scrap GoydenSP2 -projection plan -station-names "" "@Goyden" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 78.125 13162.5 continuation -text "abandoned dig, heading to field dwnstrm of Goyden pot (where stone river crossing)" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale s
+
+point 52.56410256410256 13312.419871794873 label -scale m -text abandoned<br>dig -align top-right
+
 line label
 endline
 
@@ -1642,6 +1670,8 @@ line wall
   smooth off
 endline
 
+point 387.5 12728.125 label -align bottom-left -text [White Gate<br>Passage] -scale m
+
 line wall
   1252.0 13052.0
   1224.0 13034.0 962.0 13092.0 918.0 13094.0
@@ -1650,7 +1680,15 @@ line wall
   410.0 13086.0 340.0 13202.0 330.0 13216.0
   320.0 13230.0 334.0 13238.0 290.0 13236.0
   246.0 13234.0 84.0 13216.0 54.0 13210.0
+endline
+
+line wall -subtype debris
+  54.0 13210.0
   24.0 13204.0 24.0 13112.0 32.0 13106.0
+endline
+
+line wall
+  32.0 13106.0
   40.0 13100.0 244.0 13150.0 268.0 13136.0
   292.0 13122.0 362.0 12966.0 362.0 12966.0
   smooth off

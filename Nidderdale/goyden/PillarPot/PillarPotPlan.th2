@@ -27,6 +27,15 @@ line ceiling-step
   smooth off
 endline
 
+point 1027.659574468085 1282.9787234042553 continuation -text "unknown dig - LHS" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale s
+
+point 1042.5531914893618 1344.6808510638298 dig -scale s
+
+line wall -subtype debris
+  1050.0 1302.7027027027027
+  1010.8108108108108 1316.2162162162163
+endline
+
 line wall
   1010.8108108108108 1316.2162162162163
   1010.8108108108108 1316.2162162162163 1009.46 1272.97 1002.7027027027027 1271.6216216216217
@@ -311,7 +320,21 @@ endline
 line wall -reverse on
   2727.848101265823 1998.1012658227849
   2845.4545454545455 1996.3636363636363
-  2889.090909090909 1910.9090909090908
+endline
+
+line wall
+  2870.2127659574467 1857.4468085106382
+  2855.31914893617 1870.2127659574467
+  2840.43 1900.0
+endline
+
+line wall -reverse on
+  2870.21 1919.15
+  2840.43 1900.0
+endline
+
+line wall -reverse on
+  2853.19 1838.3
   2836.3636363636365 1834.5454545454545
   2766.4556962025317 1894.3037974683546
 endline
@@ -521,6 +544,17 @@ endline
 line wall -reverse on
   1879.8319327731092 4013.4453781512607
   1805.4054054054054 3989.189189189189
+endline
+
+line wall -subtype debris
+endline
+
+line wall -reverse on -subtype debris
+  1805.4054054054054 3989.189189189189
+  1797.2972972972973 4054.0540540540537
+endline
+
+line wall -reverse on
   1797.2972972972973 4054.0540540540537
   1873.9495798319329 4093.27731092437
 endline
@@ -600,9 +634,9 @@ line border -id l101-2560-3623 -close on
   smooth off
 endline
 
-point 1757.4468085106382 4014.8936170212764 continuation -scale m -text "dig LHS nr Pillar Pot" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+point 1834.0425531914893 4034.0425531914893 continuation -scale m -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m -text [Choked phreatic tube found after search for what could be other end of choked tube  to left of first junction entering Goyden pot]
 
-point 1842.5531914893618 4042.553191489362 dig -scale m
+point 1763.8297872340427 4010.6382978723404 dig -scale m
 
 line wall
   2491.1392405063293 3247.46835443038

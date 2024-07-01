@@ -1468,7 +1468,12 @@ line border -id l283-4561-2003 -close on -subtype invisible
   4744.44 1341.67 4730.56 1419.44 4727.777777777777 1427.7777777777778
 endline
 
-point 4416.666666666667 3416.6666666666665 continuation -text "dig at bottom of Mud Hall, opposite Limley?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+line wall -subtype clay
+  4386.734693877551 3357.1428571428573
+  4361.224489795918 3429.591836734694
+endline
+
+point 4416.666666666667 3416.6666666666665 continuation -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m -text [dig at bottom of Mud Hall, opposite Limley Silt choke dig cant but much passage ]
 
 line arrow
   4344.44 2425.0

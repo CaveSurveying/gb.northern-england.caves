@@ -12,10 +12,12 @@ input goyden/Pyridine/Pyridine.th
 input goyden/goy3/Goy3.th
 input goyden/goyden2/Goyden2.th
 input goyden/GargettWay/GargettWay.th
+input goyden/GargettWay/BallOfStringPassage/BallOfStringPassage.th
 input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
 input goyden/BackSteps/BackSteps.th
+
 
 ##DIGITISED GOYDEN SURVEYS
 input goyden/goy3/GoydenDownstreamSumps/GoydenDownstreamSumps.th
@@ -124,6 +126,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
   churchPotPlan
   GargettwayPlan
+  BallOfStringPassagePlan@BallOfStringPassage
   MudHallPlan
   BackStepsPlan
   PillarPotPlan
@@ -187,6 +190,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   break
   churchPotPlan
   GargettwayPlan
+  BallOfStringPassagePlan@BallOfStringPassage
   MudHallPlan
   BackStepsPlan
   PillarPotPlan
@@ -276,6 +280,7 @@ equate 1.14@Goyden 1.14@Nurgatory
 equate 7.24@ManHole 20@LesserStreamPassage
 
 equate 1.0@GargettWay 1.9@ChurchPot
+equate 1.5@GargettWay 1.17@BallOfStringPassage
 equate  1.16@GargettWay 1.16@Goyden2
 equate 1.17@Goyden2 0@OctoberPassage 
 equate 1.28@Goyden2 4.0@goy3

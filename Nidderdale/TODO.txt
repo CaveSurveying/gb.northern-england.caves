@@ -10,24 +10,23 @@ TODO
 	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
 	* Pigskin > Covid Way to NG 25m aven
 	* OQP to Astronomers - NO POINT ADDING THIS UNTIL PROPER GPS WORK COMPLETE
-* Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
+
 * There is something wrong with the stations / warp at the very end of Beetroot Sump
 * In adobe, the colours of sumps seem odd (see GoydenDownstream - same scrap?)
 * Fix Joins
 	- Beetroot - Beetroute canal
 	- Stream - Planetarium
 	- Goyden Downstream Sumps (6&7 connection to Aquamole)
-* need general review / discussion on all leads / add possible continuations
+* need general review / discussion on all leads / add possible continuations - IN PROGRESS
 * Remove old OSM overlays and equates from main th file - CANNOT DO THIS YET.  SOME ENTRANCES ARE ONLY WORKING VIA THE SURFACE EQUATES
 * Create index level files for main Goyden / NewGoyden, following folder restructure
 * Create svx versions (low priority)
-* Compelte cross sections (low priority)
-* What's "The Spiral"?  'open' passage south of route to the Chapel?
+* Complete cross sections (low priority)
 
 
 MISSING SURVEYS
 ---------------
-* Ball of String Passage
+* The Spiral (Turf Passage)  - 'open' passage south of route to the Chapel?
 * New Stream Sump
 * Limley Pot?
 * Drum Rift
@@ -36,6 +35,7 @@ MISSING SURVEYS
 * small passages from 10 foot climb though to Sand tunnel 
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
 
+* Ball of String Passage - DIGITISED VERSION
 * survey over the Turf plus passage above Chapel chamber - DIGITISED VERSION
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
 * Upper and lower nurgatory to Main Stream - DIGITISED VERSION INCLUDED
@@ -77,6 +77,7 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
+* Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?  outline -in removed
 * Included Pitch lengths for Frog Pot (entrance c9, Toad U So is 22m)
 * Included Pitch lengths for Church Pot (6m & 3M)

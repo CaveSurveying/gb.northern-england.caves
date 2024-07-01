@@ -549,7 +549,7 @@ point 2988.0 2150.0 label -align left -text Gaskell's<br>Passage -scale xl
 
 point 616.0 4322.0 continuation -text "aven before Wretched Corner" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
 
-point 1894.0 4222.0 continuation -text "Riggwelter Pot - aven at top?" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m
+point 1894.0 4222.0 continuation -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m  -scale m -text [Riggwelter pot , aven climbed by Chris Foxme to top, hacked away calcite patch to open low crawl through to chamber. In roof rift choked with sand heading for surface would make for good entrance]
 
 point 810.0 3892.0 label -scale l -align bottom-left -text Wretched<br>Corner
 

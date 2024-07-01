@@ -125,8 +125,12 @@ line wall
   1280.0 -3093.0
 endline
 
+point 1363.0 -2640.0 continuation -text "unknown, limlet inlet" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
+point 1322.0 -2701.0 continuation -text "unknown, limlet inlet" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
+
 line wall
-  1584.0 -3044.0
+  1588.0 -3047.0
   1562.0 -3034.0
   1558.0 -3018.0
   1552.0 -2998.0
@@ -196,7 +200,7 @@ line wall
   1506.0 -3064.0
   1526.0 -3056.0
   1526.0 -3056.0 1544.0 -3048.0 1550.0 -3052.0
-  1556.0 -3056.0 1570.0 -3064.0 1570.0 -3064.0
+  1556.0 -3056.0 1580.0 -3059.0 1580.0 -3059.0
   smooth off
 endline
 
