@@ -20,6 +20,6 @@
 *ENTRANCE	OldEntrance
 
 *EQUATE DaleBarnCave-Recon1.path3.103	DaleBarnCave-Recon2.path3.0
-*EQUATE DaleBarnCave-Recon2.path10.3	ExpressWay-Recon.path3.0
+*EQUATE DaleBarnCave-Recon2.path10.5	ExpressWay-Recon.path3.0
 
 *END DaleBarnCave
