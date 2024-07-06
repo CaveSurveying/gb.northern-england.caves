@@ -33,6 +33,8 @@
 ;East Kingsdale - added 07/07/13 by Becka
 *include ../../EastKingsdale/survexdata/EastKingsdale
 
+*INCLUDE ../../Ingleborough/survexdata/Ingleborough-AREA
+
 ; Richard forgot to check in this file!
 ;*include 3cgps
 

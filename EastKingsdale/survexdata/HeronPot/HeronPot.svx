@@ -1,0 +1,17 @@
+*BEGIN HeronPot
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 71440 78760 363 
+
+*INCLUDE HeronPot-Recon1
+
+
+*EQUATE 	TopEntrance HeronPot-Recon1.path3.0
+*ENTRANCE	TopEntrance
+*FIX		TopEntrance 71440 78760 363
+
+*EQUATE 	BottomEntrance HeronPot-Recon1.path3.161
+*ENTRANCE	BottomEntrance
+
+*END HeronPot

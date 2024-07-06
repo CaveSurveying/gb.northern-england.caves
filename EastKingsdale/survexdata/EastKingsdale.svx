@@ -11,6 +11,7 @@
 *INCLUDE BrownHillPot/BrownHillPot
 *INCLUDE CrescentPot/CrescentPot
 *INCLUDE GrowlingHole/GrowlingHole
+*INCLUDE HeronPot/HeronPot
 *INCLUDE IllusionPot/IllusionPot
 *INCLUDE KingPot/KingPot
 *INCLUDE LordsTopHole/LordsTopHole
