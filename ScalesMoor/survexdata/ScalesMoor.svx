@@ -16,6 +16,19 @@
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
 
-
+*FIX		BlunderPot			REFERENCE 71990 76810 384
+*ENTRANCE	BlunderPot		
+*FIX		BrowsPastureCave	REFERENCE 73030 76840 252
+*ENTRANCE	BrowsPastureCave
+*FIX 		BurnleysBottom		REFERENCE 71360 77100 390
+*ENTRANCE 	BurnleysBottom
+*FIX		CappedShaft			REFERENCE 70200 76030 398
+*ENTRANCE	CappedShaft
+*FIX		CollapseCave		REFERENCE 71050 76870 390
+*ENTRANCE 	CollapseCave
+*FIX 		CorkscrewPot		REFERENCE 71880 77180 389
+*ENTRANCE	CorkscrewPot
+*FIX		DryGillCave			REFERENCE 71890 75960 236
+*ENTRANCE 	DryGillCave
 
 *END ScalesMoor
