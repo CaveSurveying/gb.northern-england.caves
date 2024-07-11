@@ -5,7 +5,7 @@
 
 *EXPORT 	entrance LleanBean2.1.5 NEShakeHole2.116.2
 *EQUATE		NEShakeHoleGPS NEShakeHole1.1.0
-*FIX  		NEShakeHoleGPS 68305.736 76529.162  393.482  ;Roo's GNNS fix
+*FIX  		NEShakeHoleGPS 68305.736 76529.162  393.482  ;Roo's GNSS fix
 
 *EQUATE		NNEPot1.100 entrance
 *ENTRANCE 	entrance
