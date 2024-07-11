@@ -19,7 +19,7 @@ cs OSGB:SD
 
 station 1.0 "Entrance"
 
-#fix 1.0 68303 76533 392 ####Manually adjusted from GE
+#fix 1.0 68303 76533 392 ####Manually adjusted from GE now superceeded by Roo's fix
 fix 1.0 368305.736 476529.162  391.482  ####Roo's GNNS fix said 393.482m but I think he forgot to remove 2m for survey pole
 copyright 2024 "GNU GPL"
 
@@ -28,7 +28,7 @@ copyright 2024 "GNU GPL"
 #disto - Nick
 #
 
-  date 2024.03.23
+  date 2024.05.10
 
   team "Nick Bairstow" notes
   team "Rich Hill" instruments
