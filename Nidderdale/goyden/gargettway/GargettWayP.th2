@@ -147,9 +147,31 @@ line wall
   smooth off
 endline
 
+point 1132.0 12194.0 continuation -text "Bairstow Inlet - climb to boulder" -attr who "Nicke" -attr what climb -attr priority low -attr ref plan # -explored 0.0m  -scale s
+
+line wall
+  1132.0 12218.0
+  1132.0 12218.0 1102.0 12200.0 1128.0 12168.0
+endline
+
+line floor-step
+  1132.0 12218.0
+  1132.0 12218.0 1182.0 12184.0 1128.0 12168.0
+endline
+
 line wall
   1132.0 12264.0
-  1134.0 12228.0 1152.0 12088.0 1138.0 12076.0
+  1134.0 12228.0 1132.0 12218.0 1132.0 12218.0
+  smooth off
+endline
+
+line wall
+  1128.0 12168.0
+  1128.0 12168.0 1148.19 12084.73 1138.0 12076.0
+endline
+
+line wall
+  1138.0 12076.0
   1124.0 12064.0 1120.0 12048.0 1100.0 12046.0
   1080.0 12044.0 1074.0 12034.0 1062.0 12046.0
   1050.0 12058.0 1022.0 12106.0 1018.0 12096.0

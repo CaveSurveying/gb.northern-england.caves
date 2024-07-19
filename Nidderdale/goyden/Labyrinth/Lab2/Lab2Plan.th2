@@ -669,7 +669,7 @@ line floor-step -reverse on
   1986.0759493670887 403.95569620253167
 endline
 
-point 1707.1428571428573 2560.714285714286 continuation -scale m -text "Williams Dig, between Worm Drive and High Rift?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
+point 1707.1428571428573 2560.714285714286 continuation -scale m -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m -text [Winding Woods Passage - Interesting dig needs surveying zig-zags trending left and up]
 
 point 989.2857142857143 3285.714285714286 continuation -scale m -text "dig opposite Worm Drive?" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m
 

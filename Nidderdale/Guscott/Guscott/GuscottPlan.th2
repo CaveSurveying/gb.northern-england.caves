@@ -176,9 +176,15 @@ endline
 
 point 1430.0 3000.0 label -text [Main Stream]
 
-line wall
+line wall -subtype debris
   840.0 2631.0
-  912.0 2653.0 912.44 2682.04 970.7207500000004 2687.5200263200004
+  873.75 2641.25 888.75 2653.75 888.75 2653.75
+  smooth off
+endline
+
+line wall
+  888.75 2653.75
+  888.75 2653.75 912.44 2682.04 970.7207500000004 2687.5200263200004
   1029.0 2693.0 1208.0 2736.0 1265.6707500000002 2777.9900263199997
   1306.63 2807.81 1382.0 2851.0 1416.0 2858.0
   1450.0 2865.0 1532.0 2902.0 1598.0 2889.0
@@ -213,6 +219,15 @@ line wall
   824.5 2907.0 839.5 2898.5 848.0 2887.0
   856.5 2875.5 909.5 2739.5 915.0 2725.5
   920.5 2711.5 897.5 2699.5 877.5 2690.5
+endline
+
+line wall -subtype debris
+  824.0 2665.5
+  840.0 2631.0
+endline
+
+line wall -subtype debris
+  877.5 2690.5
   857.5 2681.5 863.5 2692.5 824.0 2665.5
   smooth off
 endline
@@ -255,6 +270,10 @@ line rock-edge -close on -reverse on
   smooth off
   685.25 2956.25 631.75 3002.0 632.5 3007.75
 endline
+
+point 807.5 2638.75 dig -scale m
+
+point 857.5 2660.0 continuation -text "Guscott choke dug down for about 30m depth, takes a lot of water. Rocks and gravel. Scaffolded all the way" -attr who "Nicke" -attr what dig -attr priority low -attr ref plan # -explored 20.0m  -scale m
 
 point 621.25 2893.75 label -text GUSCOTT<br>POT -scale xl -align bottom-left
 
@@ -414,6 +433,11 @@ line border -id l134-2440-6116 -reverse on
   smooth off
 endline
 
+line wall -subtype sand
+  2882.0 6122.0
+  2840.0 6102.0
+endline
+
 line wall
   2461.0 4084.0
   2469.0 4124.0 2465.88 4194.68 2444.44075 4266.84002632
@@ -426,6 +450,10 @@ line wall
   2493.0 5698.0 2494.0 5728.0 2513.0 5748.0
   2532.0 5768.0 2587.0 5915.0 2624.0 5931.0
   2661.0 5947.0 2761.0 6023.0 2779.0 6033.0
+endline
+
+line wall -subtype sand
+  2779.0 6033.0
   2797.0 6043.0 2839.0 6040.0 2853.0 6062.0
   2867.0 6084.0 2877.0 6105.0 2882.0 6122.0
   smooth off
@@ -434,7 +462,7 @@ endline
 line wall -reverse on
   2551.0 5884.0
   2544.0 5906.0 2540.0 5889.0 2529.0 5932.0
-  2518.0 5975.0 2514.0 5990.0 2513.0 6008.0
+  2518.0 5975.0 2514.75 5992.0 2513.75 6010.0
   smooth off
 endline
 
@@ -446,7 +474,7 @@ point 2287.5 5007.5 water-flow -orientation 173.5 -scale m
 
 point 2472.5 5708.75 water-flow -orientation 219.9 -scale m
 
-point 2537.5 5970.0 water-flow -orientation 166.5 -scale m
+point 2518.75 6035.0 water-flow -orientation 166.5 -scale m
 
 line ceiling-step
   2551.0 5884.0
@@ -457,7 +485,7 @@ endline
 line wall
   2573.75 5907.75
   2558.75 5926.75 2565.0 5908.0 2554.0 5959.0
-  2543.0 6010.0 2535.0 6026.0 2535.0 6026.0
+  2543.0 6010.0 2528.75 6012.5 2528.75 6012.5
   smooth off
 endline
 
@@ -484,6 +512,14 @@ endline
 line wall -reverse on
   2606.3207500000003 5964.88002632
   2629.0 6001.0 2742.0 6063.0 2772.0 6068.0
+endline
+
+point 2817.5 6067.5 continuation -text "silt choke" -attr who "BSD" -attr what dig -attr priority low -attr ref plan # -explored 0.0m  -scale m
+
+point 2895.0 6092.5 dig -scale m
+
+line wall -reverse on -subtype sand
+  2772.0 6068.0
   2786.65 6070.44 2820.0 6090.0 2840.0 6102.0
   smooth off
 endline

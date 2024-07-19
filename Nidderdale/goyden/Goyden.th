@@ -4,8 +4,12 @@ input GoydenP.th2
 #input GoydenEe.th2
 #input GoydenE90.th2
 
-
-
+map goydenPlan -title "Goyden Plan"
+  GoydenSP1
+  GoydenSP2
+  
+  
+endmap
 
 #map GoydenME
   #GoydenSE1
@@ -339,11 +343,10 @@ survey Goyden
     8.5  -  0.426  165.17  -80.18  
     8.5  -  0.775  188.48  2.68  
     8.5  -  0.558  356.75  23.3  
+    
+    
   endcentreline
 endsurvey
 
-map goydenPlan -title "Goyden Plan"
-  GoydenSP1
-  GoydenSP2
-endmap
+
 
