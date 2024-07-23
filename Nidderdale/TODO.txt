@@ -1,10 +1,11 @@
 TODO
 ----
 
+* The current digitised version of Labyrinth includes original (70's) path of water.  This has changed recently... needs correcting / resurvey
 * Rename [blank].thconfig files to appropriate names (for ease of opening / identification)
 * Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
-* Need new GPS for all entrances. (Nick - Trimble)
+* Need new GPS for all entrances. (Nick - Trimble, or Tony's GPS software)
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
 * On PresumedConnections overlay add:
 	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
@@ -17,7 +18,6 @@ TODO
 	- Beetroot - Beetroute canal
 	- Stream - Planetarium
 	- Goyden Downstream Sumps (6&7 connection to Aquamole)
-* need general review / discussion on all leads / add possible continuations - IN PROGRESS
 * Remove old OSM overlays and equates from main th file - CANNOT DO THIS YET.  SOME ENTRANCES ARE ONLY WORKING VIA THE SURFACE EQUATES
 * Create index level files for main Goyden / NewGoyden, following folder restructure
 * Create svx versions (low priority)
@@ -26,15 +26,18 @@ TODO
 
 MISSING SURVEYS
 ---------------
-* The Spiral (Turf Passage)  - 'open' passage south of route to the Chapel?
+
 * New Stream Sump
 * Limley Pot?
-* Drum Rift
-* Carols back passage/re-survey main chamber
+* re-survey main chamber
 * low streams by sand tunnel 
 * small passages from 10 foot climb though to Sand tunnel 
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
+* Quick Win Rift
 
+* The Spiral (Turf Passage)  - 'open' passage south of route to the Chapel? - Just spirals up to silt / low
+* Drum Rift - BLOCKED
+* Carols back passage - BLOCKED
 * Ball of String Passage - DIGITISED VERSION
 * survey over the Turf plus passage above Chapel chamber - DIGITISED VERSION
 * Equinox Chamber (between sumps 3 and 4 new goyden) - ROUGH OUTLINE INCLUDED
@@ -63,7 +66,8 @@ THERION DRAWING STDS RECOMMENDATIONS
 * Water Flow - use point (M) Orientated with flow of water
 * Passage Slopes - use passage gradient point (M) Orientated down slope (not line)
 * All other points (M) - Dig, ? etc.
-*For all Possible Continuations points (?) add the following into options, amended accordingly!   
+* need general review / discussion on all leads / add possible continuations
+* For all Possible Continuations points (?) add the following into options, amended accordingly!   
 	 -text "tight wet inlet series" -attr who "Phil Walker" -attr what aven -attr priority Low -attr ref elevation #-explored 5m
 
 * Pitches - set outline-in to 'view' into passage below

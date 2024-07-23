@@ -1693,7 +1693,7 @@ endline
 
 point 980.9006211180125 383.54037267080747 label -align bottom-right -scale l -text [Sump 2<br><it>(undived,<br>approx 23m)]
 
-point -308.695652173913 -3600.0 label -text [Lesser<br>Stream<br>Passage] -scale l
+point 455.59006211180133 -3785.714285714286 label -text [Lesser<br>Stream<br>Passage] -scale l -visibility off -align left
 
 point -63.745341614906806 648.9192546583851 label -scale l -align top-left -text Lesser<br>Stream<br>Pot
 
@@ -2328,7 +2328,17 @@ endscrap
 
 scrap EternalOptomist_s1 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 553.7267080745341 -1392.857142857143 label -scale xl -text Eternal<br>Optimist -align left
+point 1289.2857142857144 -2014.2857142857144 label -scale s -align right -text [Grade 1]
+
+line arrow -scale s
+  1135.7142857142858 -2189.285714285714
+  1200.0 -1985.7142857142858
+  1225.0 -1996.4285714285716
+endline
+
+point 1503.5714285714287 -2517.857142857143 label -scale s -align right -text [tight connection<br>to Goyden<br>Main Chamber]
+
+point 550.1552795031056 -1400.0 label -scale xl -text Eternal<br>Optimist -align left
 
 line rock-border -close on
   810.0 -1841.0
@@ -2592,6 +2602,30 @@ point 646.4285714285714 -2007.1428571428573 water-flow -orientation 264.0 -scale
 line wall
 endline
 
+line rock-border -close on
+  1060.7142857142858 -1996.4285714285716
+  1025.0 -2050.0
+  1060.7142857142858 -2064.285714285714
+  1096.43 -2035.71
+  1060.7142857142858 -1996.4285714285716
+endline
+
+line rock-border -close on
+  1046.4285714285716 -2078.571428571429
+  1046.4285714285716 -2135.714285714286
+  1100.0 -2132.1428571428573
+  1103.5714285714287 -2082.1428571428573
+  1046.4285714285716 -2078.571428571429
+endline
+
+line rock-border -close on
+  1125.0 -2000.0
+  1060.7142857142858 -2032.1428571428573
+  1078.5714285714287 -2082.1428571428573
+  1117.857142857143 -2060.714285714286
+  1125.0 -2000.0
+endline
+
 line wall -subtype unsurveyed
   1532.1428571428573 -2807.1428571428573
   1503.5714285714287 -2757.1428571428573
@@ -2669,6 +2703,7 @@ line wall
   smooth off
   985.0 -2291.0 1065.0 -2235.0 1072.0 -2206.0
   1079.0 -2177.0 1087.29 -2118.0 1089.29 -2100.0
+  smooth off
 endline
 
 area water
@@ -2694,6 +2729,7 @@ endline
 line pit
   1096.43 -2035.71
   1096.43 -2035.71 1067.87 -2050.0 1089.29 -2100.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -2730,6 +2766,7 @@ line wall
   1096.43 -2035.71
   1098.43 -2017.71 1085.0 -2009.0 1087.0 -1993.0
   1089.0 -1977.0 1053.57 -1945.57 1053.57 -1928.57
+  smooth off
 endline
 
 line wall

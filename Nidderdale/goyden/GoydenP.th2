@@ -640,6 +640,7 @@ line wall
   2184.0 11618.0 1720.0 11406.0 1764.0 11344.0
   1808.0 11282.0 2046.0 10838.0 2092.0 10774.0
   2138.0 10710.0 2401.13 10532.38 2453.13 10534.38
+  smooth off
 endline
 
 line pit
@@ -652,6 +653,7 @@ line wall
   2971.875 10153.125
   2971.875 10153.125 2995.58 10080.66 3006.0 9966.0
   3008.0 9944.0 2938.0 9662.0 2968.0 9614.0
+  smooth off
 endline
 
 point 2956.25 9518.75 water-flow -orientation 153.2 -scale s
@@ -1347,6 +1349,7 @@ line wall
   3120.0 13330.0 3360.0 13178.0 3358.0 13120.0
   3356.0 13062.0 3266.6 12901.11 3273.2999212600002 12854.555590600003
   3280.0 12808.0 3428.13 12680.25 3428.13 12656.25
+  smooth off
 endline
 
 line wall
@@ -1603,7 +1606,7 @@ endscrap
 
 scrap GoydenSP2 -projection plan -station-names "" "@Goyden" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 78.125 13162.5 continuation -text "abandoned dig, heading to field dwnstrm of Goyden pot (where stone river crossing)" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale s
+point 78.125 13162.5 continuation -text "abandoned dig, heading to field dwnstrm of Goyden pot (where stone river crossing)" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale s -visibility off
 
 point 52.56410256410256 13312.419871794873 label -scale m -text abandoned<br>dig -align top-right
 
@@ -1925,6 +1928,7 @@ endline
 line pit -reverse on -outline in
   2950.0 12590.625
   2950.0 12590.625 2996.88 12631.25 2993.75 12575.0
+  smooth off
 endline
 
 line wall -clip off -place bottom -subtype underlying
@@ -1949,6 +1953,7 @@ line wall -clip off -place bottom -subtype underlying
   3184.38 12665.62 3175.0 12665.63 3156.25 12675.0
   3137.5 12684.38 3103.13 12693.75 3087.5 12700.0
   3071.88 12706.25 3071.88 12709.37 3053.125 12718.75
+  smooth off
 endline
 
 line wall -place top -subtype overlying
