@@ -14,10 +14,12 @@ input goyden/goyden2/Goyden2.th
 input goyden/GargettWay/GargettWay.th
 input goyden/GargettWay/BallOfStringPassage/BallOfStringPassage.th
 input goyden/pillarPot/PillarPot.th
+input goyden/pillarPot/PillarCrawls/PillarCrawls.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
 input goyden/BackSteps/BackSteps.th
 input goyden/QuickWinRift/QuickWinRift.th
+input goyden/TimberPassage/TimberPassage.th
 
 
 ##DIGITISED GOYDEN SURVEYS
@@ -131,8 +133,10 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   MudHallPlan
   BackStepsPlan
   PillarPotPlan
+  break
+  PillarCrawlsPlan@PillarCrawls
   QuickWinRift2@QuickWinRift 
-    break
+  break
   goydenPlan
   break
   QuickWinRift3@QuickWinRift 
@@ -150,10 +154,14 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   OctoberPassageP@OctoberPassage
   goy3Plan
   CapLeftTunnelPlan
+  TimberPassagePlan@TimberPassage
+  break
   OldYearSeriesIndex@OldYearSeriesIndex
   break
   LimleyInletPlan@LimleyInlet
   NurgatoryPlan@Nurgatory   
+  break
+
   
   
   ####NewGoyden/Frog####
@@ -202,7 +210,15 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   BackStepsPlan
   PillarPotPlan
   break
+  PillarCrawlsPlan@PillarCrawls
+  break
+  QuickWinRift2@QuickWinRift 
+  break
   goydenPlan
+  break
+  QuickWinRift3@QuickWinRift 
+  break
+  QuickWinRift1@QuickWinRift
   break
   manholePlan
   EternalOptomist-offset [-40 0 m] below
@@ -215,13 +231,15 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   #OctoberPassageP@OctoberPassage
   #goy3Plan
   CapLeftTunnelPlan
+  TimberPassagePlan@TimberPassage
+  break
   OldYearSeriesIndex@OldYearSeriesIndex
   break
   LimleyInletPlan@LimleyInlet
   NurgatoryPlan@Nurgatory
   break
   LesserStreamPassagePlan@LesserStreamPassage
-  QuickWinRiftPlan@QuickWinRift
+  QuickWinRiftPlan@QuickWinRift  
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -278,13 +296,15 @@ equate 1.23@Labyrinth.LabyrinthIndex 1.101@MudHall
 equate 1.41@Labyrinth.LabyrinthIndex 1.0@CapLeftTunnel
 equate 1.39@Labyrinth.LabyrinthIndex 0@Pyridine
 equate 1.10@AJunction.LabyrinthIndex 11@Pyridine
-equate 1.4@PillarPot 1.29@CapLeftTunnel 
 equate 8.1@Goyden 1.0@BackSteps
 equate 1.42@Labyrinth.LabyrinthIndex 0@OldYearDigi.OldYearSeriesIndex 
 equate 0@TurfPassage 1.27@ChurchPot
 equate 1.19@Goyden 1.19@LimleyInlet 
 equate 1.14@Goyden 1.14@Nurgatory
 equate 1.7@Goyden 1.7@QuickWinRift
+equate 1.4@PillarPot 1.29@CapLeftTunnel 
+equate 1.21@PillarPot 1.21@PillarCrawls
+equate 1.10@PillarPot 1.10@TimberPassage 
 
 equate 7.24@ManHole 20@LesserStreamPassage
 

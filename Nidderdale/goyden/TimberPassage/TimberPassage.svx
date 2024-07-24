@@ -1,0 +1,38 @@
+*begin TimberPassage					
+					
+					
+*date 2024.07.24					
+*team "Phil Walker" digitised					
+					
+					
+*export 1_10					
+					
+					
+;from	to	tape	compass	clino	
+1_10	1	5.715	119	-2	;Timber Passage
+1	2	1.905	152	-1	
+1_10	3	4.953	58	1	
+3	4	4.953	171	-2	
+4	5	1.143	90	0	
+5	6	3.81	159	-1	
+6	7	0.762	90	0	
+7	8	5.715	159	-2	
+					
+					
+					
+					
+					
+*data passage station left right up down ignoreall					
+					
+1_10	0.762	0.381	0.381	0	;Timber Passage
+1	1.143	0	0.381	0	
+*data passage station left right up down ignoreall					
+1_10	1.905	0.381	0.381	0	
+3	0	1.905	0.381	0	
+4	1.143	0	0.381	0	
+5	0	1.143	0.381	0	
+6	0.762	0	0.381	0	
+7	0	0.762	0.381	0	
+					
+					
+*end TimberPassage					
