@@ -1,0 +1,90 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -12.0 -219.2 244.0 36.80000000000001
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {40.72 1 1.0} {-124.12 0} quickWin-xx1.xvi 0 {}
+
+# 2024.07.23 created by TopoDroid v. 6.2.16
+
+
+
+
+scrap quickWin-xx1 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall -close on
+  130.9 -113.77
+  125.0 -114.5
+  125.0 -114.5 120.25 -115.5 119.25 -115.75
+  118.25 -116.0 113.14 -115.85 113.14 -115.85
+  smooth off
+  113.14 -115.85 109.0 -115.25 108.0 -115.25
+  107.0 -115.25 98.54 -112.39 98.54 -112.39
+  smooth off
+  88.75 -114.0
+  90.6 -117.13
+  98.5 -121.25
+  98.5 -121.25 100.5 -121.5 105.25 -121.5
+  110.0 -121.5 117.25 -122.0 117.25 -122.0
+  smooth off
+  123.5 -119.75
+  127.5 -117.0
+  130.9 -113.77
+endline
+
+line u:splay -visibility off
+  100.04 -120.92
+  130.9 -113.77
+endline
+
+line u:splay -visibility off
+  100.04 -120.92
+  92.77 -117.36
+endline
+
+line u:splay -visibility off
+  100.04 -120.92
+  98.54 -112.39
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  120.61 -120.61
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  89.03 -115.63
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  102.48 -114.99
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  175.44 -117.81
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  119.16 -116.95
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  113.14 -115.85
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  98.16 -118.26
+endline
+
+line u:splay -visibility off
+  98.14 -117.62
+  114.6 -117.84
+endline
+
+endscrap
+
+

@@ -17,6 +17,7 @@ input goyden/pillarPot/PillarPot.th
 input goyden/churchPot/ChurchPot.th
 input goyden/goyden2/OctoberPassage/OctoberPassage.th
 input goyden/BackSteps/BackSteps.th
+input goyden/QuickWinRift/QuickWinRift.th
 
 
 ##DIGITISED GOYDEN SURVEYS
@@ -130,8 +131,13 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   MudHallPlan
   BackStepsPlan
   PillarPotPlan
-  break
+  QuickWinRift2@QuickWinRift 
+    break
   goydenPlan
+  break
+  QuickWinRift3@QuickWinRift 
+  break
+  QuickWinRift1@QuickWinRift
   break
   manholePlan
   EternalOptomist-offset [-50 10 m] below
@@ -147,7 +153,8 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   OldYearSeriesIndex@OldYearSeriesIndex
   break
   LimleyInletPlan@LimleyInlet
-  NurgatoryPlan@Nurgatory    
+  NurgatoryPlan@Nurgatory   
+  
   
   ####NewGoyden/Frog####
   ThropePotPlan
@@ -214,6 +221,7 @@ map PublishSection1 -title "Manchester Hole to Goyden Pot<br><it>Nidderdale, Nor
   NurgatoryPlan@Nurgatory
   break
   LesserStreamPassagePlan@LesserStreamPassage
+  QuickWinRiftPlan@QuickWinRift
 endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
@@ -276,6 +284,7 @@ equate 1.42@Labyrinth.LabyrinthIndex 0@OldYearDigi.OldYearSeriesIndex
 equate 0@TurfPassage 1.27@ChurchPot
 equate 1.19@Goyden 1.19@LimleyInlet 
 equate 1.14@Goyden 1.14@Nurgatory
+equate 1.7@Goyden 1.7@QuickWinRift
 
 equate 7.24@ManHole 20@LesserStreamPassage
 

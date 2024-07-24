@@ -1,0 +1,46 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1.6 -227.5 254.4 28.5
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {71.85 1 1.0} {-136.34 0} quickWin-xx4.xvi 0 {}
+
+# 2024.07.23 created by TopoDroid v. 6.2.16
+
+
+
+
+scrap quickWin-xx4 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall -close off
+  125.33 -120.53
+  121.5 -120.75 119.7 -120.9 117.32 -120.75
+  116.82 -120.72 107.09 -119.46 107.09 -119.51
+  smooth off
+  107.15 -119.84 111.59 -122.82 112.0 -123.25
+  113.21 -124.54 117.63 -125.62 119.32 -125.56
+  121.46 -125.49 124.27 -121.97 125.33 -120.53
+  smooth off
+endline
+
+line u:splay -visibility off
+  119.32 -125.56
+  107.09 -119.51
+endline
+
+line u:splay -visibility off
+  119.32 -125.56
+  124.7 -120.83
+endline
+
+line u:splay -visibility off
+  119.32 -125.56
+  167.5 -124.2
+endline
+
+line u:splay -visibility off
+  119.32 -125.56
+  120.16 -120.66
+endline
+
+endscrap
+
+

@@ -33,7 +33,7 @@ MISSING SURVEYS
 * low streams by sand tunnel 
 * small passages from 10 foot climb though to Sand tunnel 
 * Pillar Crawls, Pillar Pot Passage, Timber Passage
-* Quick Win Rift
+
 
 * The Spiral (Turf Passage)  - 'open' passage south of route to the Chapel? - Just spirals up to silt / low
 * Drum Rift - BLOCKED
@@ -81,6 +81,7 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
+* Quick Win Rift - surveyed
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?  outline -in removed
 * Included Pitch lengths for Frog Pot (entrance c9, Toad U So is 22m)
