@@ -31,6 +31,8 @@ line border -id l22-1234--1094 -close on
   1216.0 -1030.0
 endline
 
+point 1210.0 -1080.0 continuation -text "undived sump at end of october passage" -attr who "BSD" -attr what sump -attr priority Low -attr ref plan #-explored 0m  -scale m
+
 line wall -subtype presumed
   1224.0 -1087.0
   1223.0 -1084.0 1221.0 -1069.0 1219.0 -1066.0

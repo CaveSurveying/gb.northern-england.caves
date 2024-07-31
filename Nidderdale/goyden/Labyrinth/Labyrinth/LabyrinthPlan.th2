@@ -1216,6 +1216,7 @@ line wall
   17606.0 5589.0 17609.0 5612.0 17604.0 5623.0
   17599.0 5634.0 17558.0 5637.0 17551.0 5643.0
   17544.0 5649.0 17511.32 5679.23 17490.32 5703.23
+  smooth off
 endline
 
 line wall
@@ -1227,9 +1228,14 @@ line wall
   smooth off
 endline
 
-point 17496.774193548386 5787.096774193548 continuation -attr who "BSD" -attr what climb -attr priority Low -attr ref plan #-explored 0m  -scale m -text [tube in roof - c5 to continuing tube (drafts)]
+point 17496.774193548386 5787.096774193548 continuation -text "tube in roof - c5 to continuing tube (drafts)" -attr who "BSD" -attr what climb -attr priority Low -attr ref plan #-explored 0m  -scale m
 
-point 17141.935483870966 5880.645161290322 continuation -attr who "BSD" -attr what climb -attr priority Low -attr ref plan #-explored 0m  -scale m -text [tube in roof - c3 to choked dig]
+line wall -subtype debris
+  17203.23 5848.39
+  17154.84 5832.26
+endline
+
+point 17141.935483870966 5880.645161290322 continuation -text "tube in roof - c3 to choked dig, awkward" -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m
 
 line wall -reverse on
   17154.84 5832.26
