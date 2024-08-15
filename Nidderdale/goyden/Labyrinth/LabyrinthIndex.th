@@ -54,8 +54,8 @@ endmap
 
 join LabyrinthSP2 Lab2SP1
 join Lab2SP3 BeetRootSP1
-join BRSP4End BRCSP1Start
-join BRSP5Start BRCSP1End
+join BRCanalSP1 BeetRootSumpSP1
+join BeetRootSP4 BRCanalSP1
 join LabyrinthSP1 AJunctionSP1
 #join Line2@Labyrinth Line1@AJunction
 #join Line4@Labyrinth:0 Line3@AJunctionend
