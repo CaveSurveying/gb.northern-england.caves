@@ -1,3 +1,22 @@
-set xth(th_exit_state) 0
-set xth(th_exit_number) 1718046404
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 529.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 33.28m (from a2@astro.astronomers at 10.90m to 1.61@PlanHard at -22.38m)\nnorth-south range: 115.97m (from 1.19@PlanHard at 79.53m to 1.58@PlanHard at -36.45m)\neast-west range: 46.85m (from 1.47@PlanHard at 43.69m to a1@astro.astronomers at -3.16m)\nnumber of shots: 848\nnumber of stations: 851"
+xth_cp_data_tree_insert 304 1 1 astronomers astronomers "Astronomer's Passage<br><it>New Goyden, Nidderdale" "Astronomer's Passage<br><it>New Goyden, Nidderdale" "length: 86.59m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.97m (from a2@astro.astronomers at 10.90m to 17@astro.astronomers at -11.07m)\nnorth-south range: 23.47m (from 17@astro.astronomers at 23.02m to 1@astro.astronomers at -0.45m)\neast-west range: 12.72m (from 17@astro.astronomers at 9.56m to a1@astro.astronomers at -3.16m)\nnumber of shots: 137\nnumber of stations: 139"
+xth_cp_data_tree_insert 306 304 2 astro astro.astronomers "Astronomer's<br><it>New Goyden,<br>Nidderdale" "Astronomer's<br><it>New Goyden,<br>Nidderdale" "length: 70.28m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.97m (from a2@astro.astronomers at 10.90m to 17@astro.astronomers at -11.07m)\nnorth-south range: 23.47m (from 17@astro.astronomers at 23.02m to 1@astro.astronomers at -0.45m)\neast-west range: 12.72m (from 17@astro.astronomers at 9.56m to a1@astro.astronomers at -3.16m)\nnumber of shots: 113\nnumber of stations: 114"
+xth_cp_data_tree_insert 629 304 2 astron astron.astronomers "astron" "astron" "length: 16.31m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.64m (from 1@astron.astronomers at 9.09m to 5@astron.astronomers at -2.55m)\nnorth-south range: 1.87m (from 1@astron.astronomers at 14.36m to 6@astron.astronomers at 12.50m)\neast-west range: 4.97m (from 5@astron.astronomers at 1.99m to 2@astron.astronomers at -2.98m)\nnumber of shots: 24\nnumber of stations: 25"
+xth_cp_data_tree_insert 709 1 1 PlanHard PlanHard "" "" "length: 442.87m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.53m (from 1.39@PlanHard at 0.15m to 1.61@PlanHard at -22.38m)\nnorth-south range: 115.97m (from 1.19@PlanHard at 79.53m to 1.58@PlanHard at -36.45m)\neast-west range: 42.77m (from 1.47@PlanHard at 43.69m to 1.30@PlanHard at 0.92m)\nnumber of shots: 711\nnumber of stations: 712"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 703X1 p1 1 AstronomersPlan AstronomersPlan@astronomers "" ""
+xth_cp_map_tree_insert map 1 625X1 703X1 2 m1p m1p@astro.astronomers "" ""
+xth_cp_map_tree_insert map 1 699X1 703X1 2 m1p m1p@astron.astronomers "" ""
+xth_cp_map_tree_insert map 0 704X1 p2 1 AstronomersElevation AstronomersElevation@astronomers "" ""
+xth_cp_map_tree_insert map 1 626X1 704X1 2 m1s m1s@astro.astronomers "" ""
+xth_cp_map_tree_insert map 1 700X1 704X1 2 m1s m1s@astron.astronomers "" ""
+xth_cp_map_tree_insert map 1 708X1 p1 1 PlanHardPlan PlanHardPlan "PlanHard Plan" "PlanHard Plan"
+xth_cp_map_tree_create
+xth_cp_comp_stat 529 11
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1723737347
 
