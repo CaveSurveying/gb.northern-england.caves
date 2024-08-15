@@ -12,10 +12,10 @@ TODO
 	* Pigskin > Covid Way to NG 25m aven
 	* OQP to Astronomers - NO POINT ADDING THIS UNTIL PROPER GPS WORK COMPLETE
 
-* There is something wrong with the stations / warp at the very end of Beetroot Sump
+* There is something wrong with the stations / warp at the very end of Beetroot Sump ####Fixed, station 18 and 19 were swapped around####
 * In adobe, the colours of sumps seem odd (see GoydenDownstream - same scrap?)
 * Fix Joins
-	- Beetroot - Beetroute canal
+	- Beetroot - Beetroute canal ####Fixed 15.08.24 NB####
 	- Stream - Planetarium
 	- Goyden Downstream Sumps (6&7 connection to Aquamole)
 * Remove old OSM overlays and equates from main th file - CANNOT DO THIS YET.  SOME ENTRANCES ARE ONLY WORKING VIA THE SURFACE EQUATES
