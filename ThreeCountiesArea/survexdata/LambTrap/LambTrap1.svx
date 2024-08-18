@@ -964,7 +964,7 @@
 114  0.53 0.30 0.00 1.23
 
 
-*DATE 2024.1.21
+*DATE 2024.1.20
   *team "Simon Cornhill, Diane Arthurs"
   
 *data normal from to tape compass clino
@@ -1039,7 +1039,7 @@
 120  0.56 0.00 0.03 0.81	;120 drill hole tight hand wall100mm from roof
 
 
-*DATE 2024.4.12
+*DATE 2024.04.12
   *team "Simon Cornhill, Diane Arthurs"
   
 *data normal from to tape compass clino

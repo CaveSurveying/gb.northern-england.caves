@@ -1,0 +1,26 @@
+; 2024.06.29 created by TopoDroid v 6.2.47
+; AKAHole
+; Instrument: DistoX2 4468 - SM-N910F
+
+*BEGIN AKAHole 
+
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION auto  67293 77482 396.88
+ 
+*INCLUDE  AKAHole-1
+*INCLUDE  AKAHole-2
+*INCLUDE  AKAHole-3 
+*INCLUDE  AKAHole-4
+
+*EQUATE	AKAHole-1.35	AKAHole-2.35
+*EQUATE	AKAHole-2.49	AKAHole-3.49
+*EQUATE	AKAHole-2.56	AKAHole-4.56
+ 
+*EQUATE AKAHole-1.2 	entrance
+*ENTRANCE	entrance
+*FIX AKAHole-1.0 67293 77482 396.88  ;GPS from ROO's fancy device 
+
+
+*END AKAHole
