@@ -531,12 +531,12 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 3325.0 1767.8571428571431 label -text [Grade 1] -scale m -align bottom-left
+point 3328.5714285714284 1753.571428571429 label -text [Grade 1] -scale m -align bottom-left
 
 line arrow
   3750.0 2032.14
   3282.1428571428573 1878.5714285714287
-  3296.43 1835.71
+  3307.14 1807.14
 endline
 
 line wall
@@ -2328,12 +2328,12 @@ endscrap
 
 scrap EternalOptomist_s1 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1289.2857142857144 -2014.2857142857144 label -scale s -align right -text [Grade 1]
+point 1325.0000000000002 -2032.1428571428573 label -scale s -align right -text [Grade 1]
 
 line arrow -scale s
   1135.7142857142858 -2189.285714285714
   1200.0 -1985.7142857142858
-  1225.0 -1996.4285714285716
+  1260.71 -2007.14
 endline
 
 point 1503.5714285714287 -2517.857142857143 label -scale s -align right -text [tight connection<br>to Goyden<br>Main Chamber]
@@ -2732,7 +2732,7 @@ line pit
   smooth off
 endline
 
-line wall
+line wall -subtype unsurveyed
   1485.7142857142858 -3110.714285714286
   1485.7142857142858 -3110.714285714286 1485.72 -3078.57 1492.86 -3067.86
   1500.0 -3057.15 1507.14 -3046.43 1510.71 -3032.14
@@ -2744,7 +2744,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -subtype unsurveyed
   1507.142857142857 -2835.714285714286
   1525.0 -2867.857142857143
   1525.0 -2867.857142857143 1521.43 -2900.0 1517.857142857143 -2910.714285714286
