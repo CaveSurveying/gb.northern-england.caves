@@ -22,7 +22,7 @@ survey LimleyLeadMine -title "Limley Lead Mine,<br><it>Nidderdale"
     station 0 "Limley Lead Mine" entrance
     fix 0 0575252 6003862 214   ##approx from google earth
     
-    date 2024.02.24 
+    date 1900.02.24 
     team "Phil Walker" #digitised from 1890 schematic
    
     units length meters
