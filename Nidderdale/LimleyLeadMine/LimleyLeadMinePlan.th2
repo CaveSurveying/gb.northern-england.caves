@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 12824.825 8978.88
+##XTHERION## xth_me_area_adjust -144.0 -144.0 12824.825 9010.88
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {11476.380000000001 1 1.0} {4224.91 0} limley.xvi 0 {}
 
@@ -85,7 +85,9 @@ point 7880.0 5391.0 label -orientation 295.0 -scale l -text hopper -align bottom
 
 point 8210.0 5269.0 label -orientation 305.7 -scale l -text hopper -align bottom-left
 
-point 8589.0 5153.0 label -orientation 305.7 -scale l -text sump -align bottom-left
+point 9224.0 5192.0 label -orientation 305.7 -scale l -align bottom-left -text swallow<br>hole
+
+point 8597.0 5133.0 label -orientation 305.7 -scale l -text sump -align bottom-left
 
 point 7134.0 5661.0 label -orientation 305.7 -scale l -text hopper -align bottom-left
 

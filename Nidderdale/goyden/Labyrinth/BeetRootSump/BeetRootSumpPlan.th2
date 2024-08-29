@@ -97,10 +97,10 @@ endline
 
 line u -subtype hydro -clip off
   192.0 -1834.0
-  694.0 -2266.0
+  434.0 -1983.5
 endline
 
-point 579.0 -2129.0 label -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 26m)] -align top-right -scale xl
+point 291.0 -1864.0 label -scale xl -text [<it>Beet Route Sump to<br>Frog Pot Upstream Sump<br>(approx. 24m)] -align top-right
 
 line wall
   198.5 -1817.5
