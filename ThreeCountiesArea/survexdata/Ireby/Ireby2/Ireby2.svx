@@ -24,6 +24,7 @@
 *include FarFrink		;Extensions North from Frink Chamber
 *include LovleyAndSpecial	;Dig at the bottom of escalator rift/end of Duke Street2
 *include Cerro_Blanco		;To the end of Cerro blanco from stn:29 
+*INCLUDE TripppleCreekInlets ;the three inlets at the end of Tripple creek, and splas around that chamber
 
 ;Equate Ireby2 Files
 
@@ -49,5 +50,6 @@
 *equate FarFrink.1.0 frink1.8
 *equate LovleyAndSpecial.1.0 jupiter2irebyone.1.32
 *equate	Cerro_Blanco.1.7 dukest2tidyup.4.29
+*EQUATE triplecreekaven.97 TripppleCreekInlets.0
  
 *end Ireby2
