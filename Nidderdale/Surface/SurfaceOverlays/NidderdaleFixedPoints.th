@@ -132,10 +132,28 @@ fix TomTaylorsCave 09374 73529 190
 
 station CaravanTrailDig "Caravan Trail Dig"
 fix CaravanTrailDig 10239 75195 208  ##2024 Phil's Garmin eTrex Touch 25
+
+station AstroBeacon "Astronomer's Beacon"
+fix AstroBeacon 10175 75479 197  ##2024 Phil's Garmin eTrex Touch 25
+
+station 25mAvenBeacon "25m Aven Beacon"
+fix 25mAvenBeacon 10200 75508 203 ##2024 Phil's Garmin eTrex Touch 25
                 
    
   endcenterline          
 
+  scrap 25mAvenBeaconLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name 25mAvenBeacon
+      point 0 0 label -scale l -align left -text [25m Aven Beacon<br><it>SE 10200 75508 203m]
+    endscrap 
+    
+
+      scrap AstroBeaconLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name AstroBeacon
+      point 0 0 label -scale l -align left -text [Astronomer's Beacon<br><it>SE 10175 75479 197m]
+    endscrap 
              
   scrap AngramCaveLoc -proj plan
       point 2 0 entrance -scale l
@@ -382,7 +400,9 @@ map GoydenSystem -projection plan
   PigskinPotLoc
   ThropeEdgePotLoc
   DryWathEntranceLoc 
-  CaravanTrailDigLoc           
+  CaravanTrailDigLoc   
+  25mAvenBeaconLoc
+  AstroBeaconLoc        
     
 endmap
    
