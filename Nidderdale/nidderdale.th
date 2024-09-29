@@ -118,7 +118,7 @@ endsurface
 
 map SurfacePlan  
   OverlaysPlan@Overlays                 ##hydological assumed / proved connection lines  
-  #GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
+  GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
