@@ -30,16 +30,22 @@ survey ManHole
       team "Ralf Guscott" dog
       team "David Stubley" dog
       
-      station 1.1 "Manchester Hole" entrance
-      fix 1.1 10003 76401 237
+      #station 1.1 "Manchester Hole" entrance #### Original co-ords off GE
+      #fix 1.1 10003 76401 237#
+      
+      station 1.0 "Manchester Hole" entrance  #### New Co-ords from Trimble Catalyst (TC) 28.09.24##
+      fix 1.0 10005.528 76400.013 222.36      #### May need more correction 
+      
       station 1.46 "Bax Pot" entrance
-      #fix 1.46 09983 76168 226      #### When used it gives a huge loop error. Needs investigation##
+      fix 1.46 09983.093 76171.162 224.6      #### New Co-ords from TC 28.09.24####    
+                                              #### May need more correction####
          
       
     #instrument  instruments "Nick Disto 2114"
     
     data normal from to tape compass clino ignoreall
       extend right
+      flags surface
     1.0  -  0.0  0.0  0.0  
     #1.0  1.1  5.165  100.41  -21.1  
     #1.0  1.1  5.162  100.47  -21.15  
@@ -48,7 +54,8 @@ survey ManHole
     1.1  -  2.5  163.91  1.54  
     1.1  -  1.815  202.94  0.79  
     1.1  -  2.522  250.81  1.45  
-    1.1  -  0.647  20.61  13.19  
+    1.1  -  0.647  20.61  13.19 
+    flags not surface 
     #1.1  1.2  4.671  220.72  -13.56  
     #1.1  1.2  4.67  220.61  -13.56  
     #1.1  1.2  4.675  220.71  -13.51  

@@ -13,8 +13,8 @@ fix AngramCave              04600 76600  361
 station BackSteps "Back Steps"          
 fix BackSteps               09982 76125 224
 
-station BaxPot "Bax Pot"     ##Probably incorrect
-fix BaxPot                  09983 76168 226
+station BaxPot "Bax Pot"     ####Corrected 28.09.24####
+fix BaxPot                  09983.093 76171.162 224.6
 
 station BlayshawGillPotNo1 "Blayshaw Gill Pot No. 1"    
 fix BlayshawGillPotNo1      09980 72860 188
@@ -88,8 +88,8 @@ station LowerCanalCave "Lower Canal Cave"
 fix LowerCanalCave           1007 7355 174
 
 station ManchesterHole "Manchester Hole"
-fix ManchesterHole            10013 76401 234
-#fix ManchesterHole            10009 76403 206 ##2024 Phil's Garmin eTrex Touch 25
+fix ManchesterHole            10005.528 76400.013 223.76    ####Corrected 28.09.24 Trimble Catalyst####
+#fix ManchesterHole           10009 76403 206 ##2024 Phil's Garmin eTrex Touch 25
 
 station NewGoydenPot "New Goyden Pot"
 fix NewGoydenPot              10154 75407 208 
