@@ -170,7 +170,7 @@ fix 25mAvenBeacon 10200 75508 203 ##2024 Phil's Garmin eTrex Touch 25
     scrap BaxPotLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name BaxPot
-      point 0 0 label -scale l -align left -text [Bax Pot<br><it>SE 09983 76168 224m]
+      point 0 0 label -scale l -align left -text [Bax Pot<br><it>SE 09983 76171 224m]
     endscrap
                 
     scrap BlayshawGillPotNo1Loc -proj plan
@@ -296,7 +296,7 @@ fix 25mAvenBeacon 10200 75508 203 ##2024 Phil's Garmin eTrex Touch 25
     scrap ManchesterHoleLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name ManchesterHole
-      point 0 0 label -scale l -align left -text [Manchester Hole<br><it>SE 10013 76401 234m]
+      point 0 0 label -scale l -align left -text [Manchester Hole<br><it>SE 10005 76400 223m]
     endscrap
                 
     scrap NewGoydenPotLoc -proj plan
