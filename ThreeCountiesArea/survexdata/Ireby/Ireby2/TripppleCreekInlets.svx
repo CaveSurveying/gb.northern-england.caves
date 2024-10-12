@@ -5,7 +5,7 @@
 *begin TripppleCreekInlets 
   *date 2024.09.07 
   
-*EXPORT 0  
+*EXPORT 0  9
   
   *team "Diane.Arthurs, Simon.Cornhill" 
   *units tape meters

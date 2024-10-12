@@ -101,6 +101,7 @@
 *INCLUDE PotBlack/PotBlack
 *EQUATE PotBlack.0  Yeadon_Pipikin_Surface_Survey.RedRoseDig
 
+*INCLUDE TipTop/TipTop
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; South of NottsII area
@@ -140,7 +141,7 @@
 *include KangoHole/KangoHole  
 
 *INCLUDE AKAHole/AKAHole
-
+;*EQUATE AKAHole.AKAHole-4.111 Ireby.Ireby2.TripppleCreek_AKA.14
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; Marble Steps area

@@ -5,6 +5,7 @@
 *export jupitertoescalator.33 
 *export jupiter2irebyone.1.50
 *export dukest2tocanal.2.25
+*EXPORT	TripppleCreek_AKA.14
 
 ;Include Ireby2 Files
 
@@ -16,7 +17,7 @@
 *include dukest2tidyup		;four extra bits onto jupiter2irebyone survey
 *include dukest2tocanal		;Duke Street II along canal past Whirlpool to small junction
 *include triplecreekaven	;up bold climb at end of Triple Creek
-*include canal			;from junction in canal beyond where Whirlpool enters up to diver's line at sump to Notts
+*include canal				;from junction in canal beyond where Whirlpool enters up to diver's line at sump to Notts
 *include milkandhoney		;from Jupiter Cavern to end of Milk and Honey
 *include escalatorclimb		;from rope at base of Escalator Rift pitches up stream then up climbs and ending at ladder out of Escalator Rift by Jupiter Cavern
 *include frink1			;from chamber before pitch into Frink Chamber to chamber and along passage to right
@@ -25,6 +26,7 @@
 *include LovleyAndSpecial	;Dig at the bottom of escalator rift/end of Duke Street2
 *include Cerro_Blanco		;To the end of Cerro blanco from stn:29 
 *INCLUDE TripppleCreekInlets ;the three inlets at the end of Tripple creek, and splas around that chamber
+*INCLUDE TripppleCreek_AKA	;Connects TripppleCreek stn:99 to AKA stn:
 
 ;Equate Ireby2 Files
 
@@ -50,6 +52,7 @@
 *equate FarFrink.1.0 frink1.8
 *equate LovleyAndSpecial.1.0 jupiter2irebyone.1.32
 *equate	Cerro_Blanco.1.7 dukest2tidyup.4.29
-*EQUATE triplecreekaven.97 TripppleCreekInlets.0
+*EQUATE blissfulcreek.97 TripppleCreekInlets.0
+*EQUATE TripppleCreekInlets.9 TripppleCreek_AKA.1
  
 *end Ireby2
