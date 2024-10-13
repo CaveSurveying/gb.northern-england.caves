@@ -5,7 +5,7 @@
 *export jupitertoescalator.33 
 *export jupiter2irebyone.1.50
 *export dukest2tocanal.2.25
-*EXPORT	TripppleCreek_AKA.14
+*EXPORT	TripppleCreek_AKA.13
 
 ;Include Ireby2 Files
 

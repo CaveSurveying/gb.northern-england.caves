@@ -141,7 +141,7 @@
 *include KangoHole/KangoHole  
 
 *INCLUDE AKAHole/AKAHole
-*EQUATE AKAHole.AKAHole-4.111 Ireby.Ireby2.TripppleCreek_AKA.14
+*EQUATE AKAHole.AKAHole-4.111 Ireby.Ireby2.TripppleCreek_AKA.13
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; Marble Steps area

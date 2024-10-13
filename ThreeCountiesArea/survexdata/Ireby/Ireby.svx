@@ -17,7 +17,7 @@
 
 *export EntranceTag
 *export SoutheastInletConnection
-;*EXPORT	Ireby2.TripppleCreek_AKA.14
+;*EXPORT	Ireby2.TripppleCreek_AKA.13
 
 *ENTRANCE entrance
 *EQUATE EntranceTag entrance
