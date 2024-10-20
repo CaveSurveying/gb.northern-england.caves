@@ -48,7 +48,7 @@ input Guscott/GuscottIndex.th
 
 ##OTHER CAVES
 #input NiddHeads/NIddHeadsIndex.th
-#input LimleyLeadMine/LimleyLeadMine.th
+input LimleyLeadMine/LimleyLeadMine.th
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
 #input TomTaylors/TomTaylors.th
@@ -125,7 +125,7 @@ map SurfacePlan
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
-  #LimleyLeadMinePlan@LimleyLeadMine
+  LimleyLeadMinePlan@LimleyLeadMine
   OldQuarryPotPlan@OQP                  ##NEED NEW GPS
   PigskinPotPlan@PigskinPot             ##NEED NEW GPS
   break  

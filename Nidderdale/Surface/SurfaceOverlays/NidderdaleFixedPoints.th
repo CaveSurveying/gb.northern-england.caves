@@ -6,6 +6,12 @@ survey NidderdaleFixedPoints -title "GPS Locations<br><it>Nidderdale, United Kin
   centerline
   
 cs OSGB:SE
+  
+station LimleyAirShaft "Limley Air Shaft"
+fix LimleyAirShaft      09936 75737 201   #Phil's Garmin Instinct 2 m19/10/2024
+
+
+
 
 station AngramCave "Angram Cave"
 fix AngramCave              04600 76600  361
@@ -142,6 +148,14 @@ fix 25mAvenBeacon 10200 75508 203 ##2024 Phil's Garmin eTrex Touch 25
    
   endcenterline          
 
+
+  scrap LimleyAirShaftLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name LimleyAirShaft
+      point 0 0 label -scale l -align left -text [Limley Air Shaft<br><it>SE 09936 75737 201m]
+    endscrap 
+    
+    
   scrap 25mAvenBeaconLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name 25mAvenBeacon
@@ -402,7 +416,8 @@ map GoydenSystem -projection plan
   DryWathEntranceLoc 
   CaravanTrailDigLoc   
   25mAvenBeaconLoc
-  AstroBeaconLoc        
+  AstroBeaconLoc  
+  LimleyAirShaftLoc      
     
 endmap
    
