@@ -17,6 +17,8 @@ TODO
 * Create svx versions (low priority)
 * Complete cross sections (low priority)
 * Fix Goyden entrance
+* Fix KML (filled in labyrinth, rocks out line in
+* Manchester Hole to use Google Earth GPS?
 
 
 MISSING SURVEYS
