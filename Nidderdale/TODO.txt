@@ -1,38 +1,31 @@
 TODO
 ----
 
+* Create index level files for main Goyden / NewGoyden, following folder restructure
+* create a version with no labels other than XL 
+* Nick to fix dodgy joins
 * The current digitised version of Labyrinth includes original (70's) path of water.  This has changed recently... needs correcting / resurvey
 * Rename [blank].thconfig files to appropriate names (for ease of opening / identification)
-* Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or simlar?
+
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
 * Need new GPS for all entrances. (Nick - Trimble, or Tony's GPS software)
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
-* On PresumedConnections overlay add:
-	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
-	* Pigskin > Covid Way to NG 25m aven
-	* OQP to Astronomers - NO POINT ADDING THIS UNTIL PROPER GPS WORK COMPLETE
 
-* There is something wrong with the stations / warp at the very end of Beetroot Sump ####Fixed, station 18 and 19 were swapped around####
 * In adobe, the colours of sumps seem odd (see GoydenDownstream - same scrap?)
-* Fix Joins
-	- Beetroot - Beetroute canal ####Fixed 15.08.24 NB####
-	- Stream - Planetarium
-	- Goyden Downstream Sumps (6&7 connection to Aquamole)
 * Remove old OSM overlays and equates from main th file - CANNOT DO THIS YET.  SOME ENTRANCES ARE ONLY WORKING VIA THE SURFACE EQUATES
-* Create index level files for main Goyden / NewGoyden, following folder restructure
+* add boulders in stream of Goyden downstream start of Sump 7
 * Create svx versions (low priority)
 * Complete cross sections (low priority)
+* Fix Goyden entrance
 
 
 MISSING SURVEYS
 ---------------
-
 * New Stream Sump
 * Limley Pot?
 * re-survey main chamber
 * low streams by sand tunnel 
 * small passages from 10 foot climb though to Sand tunnel 
-
 * The Spiral (Turf Passage)  - 'open' passage south of route to the Chapel? - Just spirals up to silt / low
 * Drum Rift - BLOCKED
 * Carols back passage - BLOCKED
@@ -80,6 +73,7 @@ THERION DRAWING STDS RECOMMENDATIONS
 
 CHANGES
 -------
+* There is something wrong with the stations / warp at the very end of Beetroot Sump ####Fixed, station 18 and 19 were swapped around####
 * Quick Win Rift - surveyed
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED
 * LabyrinthSP2 has reversed flowsone line with pillar (makes white blob)?  outline -in removed
@@ -169,4 +163,10 @@ CHANGES
 	* i.e water flow from Manchester to Goyden?
 * Removed output folders.  All lower level now generate locally (may have missed a few - will error).  Root > Output to be used only for NIdderdale (master survey) and 'distinct' caves (Goyden, New Goyden, TT etc.) - TBC
 * Renamed Beetroot to Beet Route on th2 (rename folders / files in long run?)
-
+* Beetroot - Beetroute canal ####Fixed 15.08.24 NB####
+- Stream - Planetarium
+* Amend Nidderdale.pdf output to more descriptive name "GoydenPotCaveSystem" or similar?
+* On PresumedConnections overlay add:
+	* Pigskin > Proudler to Dye Hard Inlet (dye traced)
+	* Pigskin > Covid Way to NG 25m aven
+	* OQP to Astronomers - NO POINT ADDING THIS UNTIL PROPER GPS WORK COMPLETE
