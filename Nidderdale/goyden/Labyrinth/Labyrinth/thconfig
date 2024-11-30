@@ -11,7 +11,7 @@ select LabyrinthPlan
 
 
 
-#export map -proj plan -layout local -o ../../Output/LabyrinthOutput/LabyrinthOutput/Labyrinth.pdf
+#export map -proj plan -layout local -o Output/Labyrinth.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o ../../output/LabyrinthOutput/LabyrinthEe.pdf

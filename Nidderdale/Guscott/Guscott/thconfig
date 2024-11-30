@@ -10,22 +10,22 @@ source Guscott.th
 #select 
 
 
-export map -proj plan -layout local -o ../../Output/GuscottOutput/Guscott.pdf
+export map -proj plan -layout local -o Output/Guscott.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ../output/GuscottOutput/GuscottEe.pdf
+#export map -proj extended -layout local -o Output/GuscottEe.pdf
 
-#export model -fmt survex -o ../output/GuscottOutput/Guscottth.3d
+#export model -fmt survex -o Output/Guscottth.3d
 #Survex file showing centre line only
 
-#export model -o ../output/GuscottOutput/Guscott.lox
+#export model -o Output/Guscott.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o ../output/GuscottOutput/Guscott_Walls.3d
+#export map -proj plan -o Output/Guscott_Walls.3d
 #Survex file showing walls only
 
 #export model -o Guscott.kml
-export map -o ../output/GuscottOutput/Guscott.kml
+export map -o Output/Guscott.kml
 
 layout local
 scale 1 3000

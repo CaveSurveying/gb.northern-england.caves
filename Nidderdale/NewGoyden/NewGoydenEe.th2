@@ -70,6 +70,7 @@ endline
 line wall -subtype invisible
   1318.0 2774.0
   1318.0 2774.0 1172.0 2800.0 1250.0 2708.0
+  smooth off
 endline
 
 line u -subtype deviation
