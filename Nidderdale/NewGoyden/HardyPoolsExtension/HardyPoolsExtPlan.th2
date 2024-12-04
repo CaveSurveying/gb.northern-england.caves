@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -129.0 -1505 1052 138.75
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {CUCC CU83 New Goyden Pot - Extension.png} 0 {}
 
 
@@ -66,7 +66,7 @@ point 417.0 -737.5 continuation -scale m -text "narrow inlet" -attr who "BSD" -a
 
 point 398.5 -741.5 water-flow -orientation 256.7
 
-line arrow
+line arrow -context point label -scale xs
   406.75 -816.5
   377.75 -748.0
 endline

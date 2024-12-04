@@ -177,7 +177,7 @@ endline
 
 point 2202.0 -3604.0 label -scale m -text [Grade 3B] -align left
 
-line arrow -scale m
+line arrow -context point label -scale xs
   2690.0 -3452.0
   2248.0 -3660.0
   2234.0 -3630.0
@@ -185,7 +185,7 @@ endline
 
 point 840.0 -1772.0 label -scale m -text [Grade 3B] -align bottom
 
-line arrow -scale m
+line arrow -context point label -scale xs
   1563.0 -1418.0
   822.0 -1730.0
   833.0 -1751.0

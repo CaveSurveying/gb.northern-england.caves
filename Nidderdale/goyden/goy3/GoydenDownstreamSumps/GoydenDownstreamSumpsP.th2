@@ -123,7 +123,7 @@ endline
 
 point 276.25 -101.75 label -text [Grade 3B] -scale m -align bottom-right
 
-line arrow -scale m
+line arrow -context point label -scale xs
   254.25 -102.5
   273.25 -95.75
   274.5 -99.0
@@ -250,6 +250,58 @@ line wall
   326.75 -336.25
   325.0 -333.0
   322.25 -327.0
+endline
+
+line wall
+endline
+
+line rock-border -close on
+  317.75 -327.0
+  317.75 -327.0 314.5 -328.75 315.0 -329.5
+  315.5 -330.25 317.5 -331.5 317.75 -331.5
+  318.0 -331.5 319.25 -330.5 319.25 -330.5
+  smooth off
+  317.75 -327.0
+endline
+
+line rock-border
+  319.25 -330.5
+  318.25 -329.5
+  317.5 -333.25
+  320.5 -332.75
+  318.25 -329.5
+endline
+
+line rock-border -close on
+  315.0 -329.5
+  315.0 -329.5 312.75 -331.5 313.0 -332.25
+  313.25 -333.0 315.0 -335.5 315.0 -335.5
+  smooth off
+  317.5 -333.25
+  317.5 -333.25 318.75 -332.25 317.75 -331.5
+  316.75 -330.75 315.0 -329.5 315.0 -329.5
+  smooth off
+endline
+
+line rock-border -close on
+  321.0 -328.0
+  318.75 -328.0
+  318.75 -328.0 318.5 -328.75 318.25 -329.5
+  318.0 -330.25 318.5 -330.25 319.25 -330.5
+  320.0 -330.75 321.5 -330.5 321.5 -330.5
+  smooth off
+  321.0 -328.0
+endline
+
+line rock-border -close on
+  324.25 -326.5
+  322.25 -327.0
+  320.5 -329.5
+  323.0 -329.25
+  324.25 -326.5
+endline
+
+line wall
 endline
 
 line wall

@@ -46,7 +46,7 @@ scrap TimberPassageP2 -projection plan -scale [1632.0 -986.0 2290.0 -994.0 0.0 0
 
 point 1986.0 -2260.0 label -text [Grade 3B] -align bottom-right -scale m
 
-line arrow
+line arrow -context point label -scale xs
   1718.0 -2322.0
   1950.0 -2210.0
   1964.0 -2230.0

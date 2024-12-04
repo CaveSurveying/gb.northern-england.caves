@@ -83,7 +83,7 @@ line wall
   333.0 -729.0
 endline
 
-line arrow -scale xs
+line arrow -context point label -scale xs
   345.0 -863.0
   614.0 -805.0
 endline

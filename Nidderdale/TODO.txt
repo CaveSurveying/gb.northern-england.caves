@@ -2,22 +2,18 @@ TODO
 ----
 
 * Create index level files for main Goyden / NewGoyden, following folder restructure
-* create a version with no labels other than XL 
 * Nick to fix dodgy joins
 * The current digitised version of Labyrinth includes original (70's) path of water.  This has changed recently... needs correcting / resurvey
 * Rename [blank].thconfig files to appropriate names (for ease of opening / identification)
-
 * Expand the presumed connection overlay (presumed vs proven hydro connection)
 * Need new GPS for all entrances. (Nick - Trimble, or Tony's GPS software)
 * The digitised Sumps (from Sump Index) have no elevation, so this is not reflected in any 3d models etc. (need an altitude from somewhere and fudge it, or real data!)
-
 * In adobe, the colours of sumps seem odd (see GoydenDownstream - same scrap?)
 * Remove old OSM overlays and equates from main th file - CANNOT DO THIS YET.  SOME ENTRANCES ARE ONLY WORKING VIA THE SURFACE EQUATES
-* add boulders in stream of Goyden downstream start of Sump 7
 * Create svx versions (low priority)
 * Complete cross sections (low priority)
-* Fix Goyden entrance
-* Fix KML (filled in labyrinth, rocks out line in
+* Fix Goyden entrance - PW - made some changes - NEED GPS FIX
+* Fix KML (filled in labyrinth, rocks out line in)
 * Manchester Hole to use Google Earth GPS?
 
 
@@ -63,18 +59,20 @@ THERION DRAWING STDS RECOMMENDATIONS
 * need general review / discussion on all leads / add possible continuations
 * For all Possible Continuations points (?) add the following into options, amended accordingly!   
 	 -text "tight wet inlet series" -attr who "Phil Walker" -attr what aven -attr priority Low -attr ref elevation #-explored 5m
-
 * Pitches - set outline-in to 'view' into passage below
 * use CamelCase for all naming
 * naming conventions
-	* maps (in th file) tobe meaningful, i.e. PyridinePassagePlan
+	* maps (in th file) to be meaningful, i.e. PyridinePassagePlan
 	* scraps to follow map naming i.e. PyridinePassageP1, P2 etc. (or be distinct names)
 * Use UIS symbols styles: https://www.carto.net/neumann/caving/cave-symbols/cave_symbol.php?languageSelection=english
+* any any arow set these options -context point label -scale xs (it can then be controlled by min-symbol-set)
 
 
 
 CHANGES
 -------
+* create a version with no labels other than XL - CAN'T DO THIS, WITHOUT APPLYING SCALE TO ALL WALLS!  STICK WITH M AND CHANGE SCALE OF FONTS (-layout landscape)
+* add boulders in stream of Goyden downstream start of Sump 7 - DONE
 * There is something wrong with the stations / warp at the very end of Beetroot Sump ####Fixed, station 18 and 19 were swapped around####
 * Quick Win Rift - surveyed
 * Complete Chris' sections surveys (Goyden, New Goyden, Other) for publication - NEED MORE INFORMATION AND COMPLETION OF O/S SURVEYS BEFORE THIS CAN BE COMPLETED

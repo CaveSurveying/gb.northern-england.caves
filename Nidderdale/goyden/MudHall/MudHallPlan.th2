@@ -694,8 +694,6 @@ endline
 
 point 3761.0200364298726 4057.9918032786886 gradient -orientation 188.2
 
-point 3711.589253187614 4080.3051001821495 gradient -orientation 207.6
-
 point 3668.7386156648454 4124.180327868853 gradient -orientation 207.6
 
 point 3511.475409836066 4236.065573770492 gradient -orientation 177.3
@@ -734,10 +732,6 @@ point 3831.1475409836066 4409.836065573771 gradient -orientation 167.9 -scale m
 
 point 3772.131147540984 4368.852459016393 gradient -orientation 162.6 -scale m
 
-point 3704.9180327868853 4352.459016393444 gradient -orientation 127.8 -visibility on -scale m
-
-point 3716.3934426229507 4475.409836065574 gradient -orientation 147.4 -scale m
-
 area clay
   l251-2977-7797
 endarea
@@ -750,15 +744,9 @@ point 3487.837837837838 4363.513513513513 gradient -orientation 154.5 -scale m
 
 point 3578.594594594594 4416.216216216216 gradient -orientation 222.4 -scale m
 
-point 3575.6756756756754 4470.27027027027 gradient -orientation 213.0 -scale m
-
-point 3569.1351351351354 4342.4324324324325 gradient -orientation 229.3 -scale m
-
 point 3498.6486486486488 4418.918918918918 gradient -orientation 154.7 -scale m
 
 point 3555.5675675675675 4515.459459459459 gradient -orientation 190.1 -scale m
-
-point 3517.5675675675675 4491.891891891892 gradient -orientation 167.2 -scale m
 
 point 3393.2432432432433 4631.081081081081 gradient -orientation 136.9 -scale m
 
@@ -795,10 +783,6 @@ point 3692.8852459016393 4300.491803278689 gradient -orientation 101.8 -scale m
 
 point 3740.0 4220.0 gradient -orientation 31.3 -scale m
 
-point 3708.0 4256.0 gradient -orientation 75.5 -visibility on -scale m
-
-point 3778.4590163934427 4194.360655737705 gradient -orientation 14.0 -scale m -visibility on
-
 point 3816.3934426229507 4163.934426229508 gradient -orientation 356.8 -scale m
 
 point 3918.2832422586525 4084.7905282331512 gradient -orientation 333.4 -scale m
@@ -806,8 +790,6 @@ point 3918.2832422586525 4084.7905282331512 gradient -orientation 333.4 -scale m
 point 3885.2459016393445 4185.245901639344 gradient -orientation 327.7 -visibility on -scale m
 
 point 3936.065573770492 4254.098360655737 gradient -orientation 301.2 -scale m
-
-point 3637.704918032787 4852.459016393443 gradient -orientation 47.5 -scale m
 
 point 3627.8688524590166 4908.196721311476 gradient -orientation 68.3 -scale m
 
@@ -1475,17 +1457,17 @@ endline
 
 point 4416.666666666667 3416.6666666666665 continuation -attr who "BSD" -attr what dig -attr priority Low -attr ref plan #-explored 0m  -scale m -text [dig at bottom of Mud Hall, opposite Limley Silt choke dig cant but much passage ]
 
-line arrow
+line arrow -context point label -scale xs
   4344.44 2425.0
   4277.777777777777 2147.222222222222
 endline
 
-line arrow
+line arrow -context point label -scale xs
   4327.78 2433.33
   4141.666666666667 2313.8888888888887
 endline
 
-line arrow
+line arrow -context point label -scale xs
   4308.33 2444.44
   4013.8888888888887 2455.5555555555557
 endline
@@ -1513,8 +1495,6 @@ point 3680.555555555555 3519.4444444444443 gradient -orientation 183.4 -scale m
 point 3911.111111111111 3377.777777777778 gradient -orientation 327.7 -scale m
 
 point 3813.8888888888887 3552.777777777778 gradient -orientation 199.1 -scale m
-
-point 3652.777777777778 3625.0 gradient -orientation 162.8 -scale m
 
 point 3741.6666666666665 3672.222222222222 gradient -orientation 162.8 -scale m
 

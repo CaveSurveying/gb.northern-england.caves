@@ -538,12 +538,12 @@ endline
 
 point 4406.0 442.0 label -text static<br>sump -align top-right
 
-line arrow
+line arrow -context point label -scale xs
   3348.0 1310.0
   3604.0 1246.0
 endline
 
-point 3296.0 1320.0 label -align left -scale l -text [The Pinnacle<br>(c6)]
+point 3296.0 1320.0 label -align left -text [The Pinnacle<br>(c6)] -scale m
 
 point 2988.0 2150.0 label -align left -text Gaskell's<br>Passage -scale xl
 
@@ -769,7 +769,7 @@ endline
 line ceiling-step
 endline
 
-point 3802.0 4020.0 label -align top-left -text [c4.5<br>fixed chain]
+point 3802.0 4020.0 label -align top-left -text [c4.5<br>fixed chain] -scale l
 
 line wall -reverse on
   3865.0 3981.0
@@ -785,7 +785,7 @@ line floor-step -visibility on
   smooth off
 endline
 
-line arrow
+line arrow -context point label -scale xs
   3874.0 4034.0
   3916.0 3856.0
 endline

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -245.4173228330003 -137.0909090909091 4262.5511811032 25253.173685029997
-##XTHERION## xth_me_area_zoom_to 176
+##XTHERION## xth_me_area_zoom_to 44
 ##XTHERION## xth_me_image_insert {2587.4085826769997 1 1.0} {9758.19368503 1.16} PocketTopo/PlanHard_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {1336.648582677 1 1.0} {25125.173685029997 1.4} PocketTopo/PlanHard07.01.17_p.xvi 0 {}
 
@@ -808,7 +808,7 @@ line ceiling-step
   smooth off
 endline
 
-point 1150.0000000000002 6629.545454545456 label -text Planetarium -scale xl -align left
+point 1531.818181818182 6877.272727272729 label -text Planetarium -scale xl -align top
 
 line floor-step
   1995.4545454545457 6445.454545454546
@@ -878,9 +878,9 @@ point 1481.818181818182 6468.181818181819 gradient -orientation 153.6 -scale l
 
 point 1950.0000000000002 6618.181818181819 gradient -orientation 175.6 -scale l
 
-point 3104.545454545455 6859.09090909091 dig -scale l
+point 3104.545454545455 6859.09090909091 dig -scale s
 
-point 2745.4545454545455 7127.272727272728 label -align top-left -text [+P25<br>(aven)] -scale l
+point 2745.4545454545455 7127.272727272728 label -align top-left -text [+P25<br>(aven)] -scale m
 
 line wall
   3201.0 7126.0

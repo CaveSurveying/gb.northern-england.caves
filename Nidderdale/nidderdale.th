@@ -48,7 +48,7 @@ input Guscott/GuscottIndex.th
 
 ##OTHER CAVES
 #input NiddHeads/NIddHeadsIndex.th
-input LimleyLeadMine/LimleyLeadMine.th
+#input LimleyLeadMine/LimleyLeadMine.th
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
 #input TomTaylors/TomTaylors.th
@@ -119,9 +119,13 @@ endsurface
 
 ####################################################
 
+map A0Version
+  NidderdalePlanTruncated
+endmap
+
 map SurfacePlan  
   OverlaysPlan@Overlays                 ##hydological assumed / proved connection lines  
-  GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
+  #GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
@@ -201,6 +205,68 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
 
   
 endmap
+
+map NidderdalePlanTruncated -title "Goyden Cave System<br>(excluding New Goyden<br>Downstream Sumps)<br><br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
+  #OldQuarryPotPlan@OQP                  ##NEED NEW GPS
+  #PigskinPotPlan@PigskinPot             ##NEED NEW GPS
+  #break  
+  GuscottIndex@GuscottIndex
+  TurfPassagePlan@TurfPassage
+  break
+  churchPotPlan
+  GargettwayPlan
+  BallOfStringPassagePlan@BallOfStringPassage
+  MudHallPlan
+  BackStepsPlan
+  PillarPotPlan
+  break
+  PillarCrawlsPlan@PillarCrawls
+  QuickWinRift2@QuickWinRift 
+  break
+  goydenPlan
+  break
+  QuickWinRift3@QuickWinRift 
+  break
+  QuickWinRift1@QuickWinRift
+  break
+  manholePlan
+  EternalOptomist-offset [-50 10 m] below
+  break
+  LesserStreamPassagePlan@LesserStreamPassage  [-40 0 m] below  
+  PyridineP@Pyridine
+  LabyrinthIndex@LabyrinthIndex
+  CarterPassagePlan
+  goyden2Plan
+  OctoberPassageP@OctoberPassage
+  goy3Plan
+  CapLeftTunnelPlan
+  TimberPassagePlan@TimberPassage
+  break
+  OldYearSeriesIndex@OldYearSeriesIndex
+  break
+  LimleyInletPlan@LimleyInlet
+  NurgatoryPlan@Nurgatory   
+  break  
+  
+  ####NewGoyden/Frog####
+  ThropePotPlan
+  AstronomersPlan@astronomers
+  PlanHardPlan
+  break
+  NewGoydenPlan
+  break
+  FrogPotIndex@FrogPotIndex
+  break
+  NorthChokeIndex@NorthChokeIndex
+  ShackletonsPlan
+  aquamolePlan  
+  break
+  GoydenDownstreamSumpsPlan@GoydenDownstreamSumps
+  GoydenMainStreamExtPlan@GoydenMainStreamExtension
+  #NewGoydenDownstreamSumpsPlan@NewGoydenDownstreamSumps  
+  HardyPoolsExtPlan@HardyPoolsExt
+  
+  endmap
 
 ################################
 ## Chris Fox Publication Maps ##

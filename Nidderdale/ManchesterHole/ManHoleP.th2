@@ -11,7 +11,7 @@ point 1645.4285714285716 16446.14285714286 label -scale m -align top-left -text 
 
 point 1704.8136645962732 15791.304347826086 label -scale m -text sandstone<br>floor -align right
 
-point 2511.3354037267077 19794.87577639751 label -scale xl -text MANCHESTER<br>HOLE -align bottom-left
+point 2257.7639751552792 20019.87577639751 label -scale xl -text MANCHESTER<br>HOLE -align bottom-left
 
 line floor-step
   3332.0 19786.0
@@ -71,7 +71,7 @@ line rock-border -close on
 endline
 
 line arrow
-  2575.0 19800.0
+  2346.43 20021.43
   3139.2857142857147 19989.285714285714
 endline
 
@@ -384,7 +384,7 @@ scrap ManHoleSP2 -projection plan -station-names "" "@ManHole" -scale [0 0 787.4
 
 point 2578.571428571429 5339.285714285715 danger -scale m
 
-line arrow
+line arrow -context point label -scale xs
   2960.714285714286 5271.428571428572
   2639.285714285714 5321.428571428572
 endline
@@ -533,7 +533,10 @@ endline
 
 point 3328.5714285714284 1753.571428571429 label -text [Grade 1] -scale m -align bottom-left
 
-line arrow
+area water
+endarea
+
+line arrow -context point label -scale xs
   3750.0 2032.14
   3282.1428571428573 1878.5714285714287
   3307.14 1807.14
