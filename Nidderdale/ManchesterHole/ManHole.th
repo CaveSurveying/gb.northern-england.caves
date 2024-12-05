@@ -30,11 +30,11 @@ survey ManHole
       team "Ralf Guscott" dog
       team "David Stubley" dog
       
-      #station 1.1 "Manchester Hole" entrance #### Original co-ords off GE
-      #fix 1.1 10003 76401 237#
+      station 1.1 "Manchester Hole" entrance #### Original co-ords off GE
+      fix 1.1 10003 76401 237
       
-      station 1.0 "Manchester Hole" entrance  #### New Co-ords from Trimble Catalyst (TC) 28.09.24##
-      fix 1.0 10005.528 76400.013 222.36      #### May need more correction 
+      #station 1.0 "Manchester Hole" entrance  #### New Co-ords from Trimble Catalyst (TC) 28.09.24##
+      #fix 1.0 10005.528 76400.013 222.36      #### May need more correction 
       
       station 1.46 "Bax Pot" entrance
       fix 1.46 09983.093 76171.162 224.6      #### New Co-ords from TC 28.09.24####    
