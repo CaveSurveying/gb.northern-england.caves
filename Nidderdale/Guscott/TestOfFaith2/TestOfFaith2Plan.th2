@@ -156,7 +156,7 @@ endline
 
 point 378.0 -957.0 label -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)] -align right -scale xl
 
-line u -subtype hydro -clip off
+line u -subtype hydro -clip off -scale xl
   227.0 72.0
   316.0 -1296.0
 endline

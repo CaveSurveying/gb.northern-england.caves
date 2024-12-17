@@ -95,7 +95,7 @@ line arrow -scale m -place top
   1196.0 -254.0
 endline
 
-line u -subtype hydro -clip off
+line u -subtype hydro -clip off -scale xl
   192.0 -1834.0
   434.0 -1983.5
 endline

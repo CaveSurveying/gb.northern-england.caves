@@ -59,7 +59,7 @@ input Surface/surface2/Surface2.th
 input Surface/QuarrySurface/QuarrySurface.th
 input Surface/SurfaceOQP/SurfaceOQP.th
 input Surface/SurfaceOverlays/Overlays.th
-input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   
+#input Surface/SurfaceOverlays/NidderdaleFixedPoints.th   
 
 ####################
 #### PLAN JOINS ####
@@ -110,9 +110,9 @@ join GoydenDownstreamSumpsP2@GoydenDownstreamSumps GoydenDownstreamSumpsP3@Goyde
 ##ADD A SURFACE IMAGE
 surface
   cs OSGB:SE
-   #bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10013 76401] 
+   bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10013 76401] ##THIS IS THE ONLY ONE THAT WORKS CORRECTLY WITH THE OVERLAY OSM
   # bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10005 76400] #using Nick's trimble correctionm for Man 29/09/24
-  bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10003 76401 ] #using GE
+  #bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10003 76401 ] #using GE
  
   
    
@@ -317,7 +317,7 @@ endmap
 
 map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br>United Kingdom"
   #Section2@Overlays  
-  Section2@NidderdaleFixedPoints
+  #Section2@NidderdaleFixedPoints
   break
   NewGoydenFaults@Overlays
   break

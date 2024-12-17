@@ -9,7 +9,7 @@ scrap GoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 point 6388.0 21064.0 label -scale xl -align top-right -text [<it>Test of Faith<br>to North Choke<br>(approx. 36m)] -visibility off
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale xl
   6280.0 21292.0
   6316.0 20800.0
 endline
@@ -18,12 +18,12 @@ point 7120.0 20732.0 label -scale xl -text [<it>Beet Route Sump to<br>Frog Pot U
 
 point 4804.0 23548.0 label -scale xl -align left -text [<it>October Passage<br>to Bridge Hall<br>(approx. 86m)] -visibility off
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale xl
   4896.0 23984.0
   4932.0 22440.0
 endline
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale xl
   7148.0 20820.0
   7316.0 20704.0
 endline
@@ -38,12 +38,12 @@ endscrap
 
 scrap NewGoydenPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale m
   7840.0 16024.0
   7500.0 16072.0
 endline
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale m
   8412.0 16724.0
   8412.0 16724.0 8448.0 16392.0 8224.0 16124.0
   smooth off
@@ -59,12 +59,12 @@ endscrap
 
 scrap OtherPlan -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale xl
   7264.0 17028.0
   7184.0 17332.0
 endline
 
-line u -subtype hydro -visibility off
+line u -subtype hydro -visibility off -scale xl
   7192.0 17516.0
   7204.0 17636.0
 endline
@@ -77,7 +77,7 @@ point 9456.0 18980.0 label -scale xl -visibility on -align bottom-left -text [<i
 
 point 9504.0 18636.0 u -subtype mappe -attr bordersmooth 0 -attr text "Eastern trunk route?" -scale l -visibility off -align bottom-left
 
-line u -subtype hydro
+line u -subtype hydro -scale xl
   8920.0 24976.0
   8920.0 24976.0 10620.0 11000.0 9680.0 5040.0
   smooth off
