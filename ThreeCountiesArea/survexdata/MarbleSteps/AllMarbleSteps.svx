@@ -1,23 +1,31 @@
 ;Cave:	Marble Steps Area
 
 ; made from 3 distinct caves, hence called AllMarbleSteps, but could be renamed to MarbleStepsArea instead
+; Caves are Marble Steps Pot (3 entrances) and ????
 
 *begin	AllMarbleSteps
 *export EntranceTag 
 *export surfacemarblesteps.001
 
-*equate EntranceTag SurfaceMarbleSteps.001
+*entrance StepsPotEntrance
+*entrance WetRouteEntrance
+*entrance LostMarblesEntrance
 
-*include "SurfaceMarbleSteps\SurfaceMarbleSteps"
-*include "SurfaceMarbleSteps\SurfaceMarbleSteps2Sink"
-;*include "MarbleStepsPot\MarbleStepsPot"
-*include "StepsPot\StepsPot"
-*include "LostMarbles\LostMarbles"
-*include "WetRoute\WetRoute"
-*include "MainChamber\MainChamber"
+*equate EntranceTag SurfaceMarbleSteps.001
+*equate StepsPotEntrance StepsPot.StepsPot1.015
+*equate WetRouteEntrance WetRoute.WetRoute1.001
+*equate LostMarblesEntrance LostMarbles.LostMarbles1.001
+
+*include "SurfaceMarbleSteps/SurfaceMarbleSteps"
+*include "SurfaceMarbleSteps/SurfaceMarbleSteps2Sink"
+;*include "MarbleStepsPot/MarbleStepsPot"
+*include "StepsPot/StepsPot"
+*include "LostMarbles/LostMarbles"
+*include "WetRoute/WetRoute"
+*include "MainChamber/MainChamber"
 *include Intestines1
 *include Intestines2
-*INCLUDE TwigSeries
+*include TwigSeries
 
 ;--------------------------------------------------------------------
 
@@ -46,6 +54,6 @@
 *equate Intestines2.36x Intestines1.36
 *equate Intestines2.43x Intestines1.43
 
-*EQUATE MainChamber.MainChamber1.009	TwigSeries.1.0
+*equate MainChamber.MainChamber1.009	TwigSeries.1.0
 
 *end	AllMarbleSteps
