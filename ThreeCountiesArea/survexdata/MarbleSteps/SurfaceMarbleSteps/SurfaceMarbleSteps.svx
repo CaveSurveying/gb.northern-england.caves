@@ -15,9 +15,9 @@
 
 ;surface survey
 
-*entrance 003 
-*entrance 007
-*entrance 008
+;*entrance 003 
+;*entrance 007
+;*entrance 008
 
 *flags surface
 
