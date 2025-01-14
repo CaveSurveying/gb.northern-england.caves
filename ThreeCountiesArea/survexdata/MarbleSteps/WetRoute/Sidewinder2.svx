@@ -17,6 +17,8 @@
 
 001	002	8.52	101	+52	;Stn001 = Stn Sidewinder1.006
 003	002	3.8	224	-46
+
+*flags duplicate ; the following legs are repeated in the picnicdig survex file
 003	004	2.59	352	+43
 004	005	2.23	054	+2
 005	006	7.2	113	+1
