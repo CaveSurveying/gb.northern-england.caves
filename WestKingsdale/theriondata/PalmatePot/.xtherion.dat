@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 21.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.16m (from 1.0@PalmatePot at 361.00m to 1.8@PalmatePot at 352.84m)\nnorth-south range: 8.21m (from 118.2@PalmatePot at 79003.86m to 1.6@PalmatePot at 78995.65m)\neast-west range: 6.48m (from 1.8@PalmatePot at 70344.48m to 1.0@PalmatePot at 70338.00m)\nnumber of shots: 75\nnumber of stations: 76"
+xth_cp_data_tree_insert 19 1 1 PalmatePot PalmatePot "" "" "length: 21.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.16m (from 1.0@PalmatePot at 361.00m to 1.8@PalmatePot at 352.84m)\nnorth-south range: 8.21m (from 118.2@PalmatePot at 79003.86m to 1.6@PalmatePot at 78995.65m)\neast-west range: 6.48m (from 1.8@PalmatePot at 70344.48m to 1.0@PalmatePot at 70338.00m)\nnumber of shots: 75\nnumber of stations: 76"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 53X1 p1 1 PalmatePotM PalmatePotM@PalmatePot "" ""
+xth_cp_map_tree_insert map 1 54X1 p3 1 PalmatePotME PalmatePotME@PalmatePot "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 22 6
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1736282137
+
