@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey PalmateSlopingIndex
+
+input ../SlopingHole/SlopingHoleIndex.th
+input ../PalmatePot/PalmatePot.th
+
+
+###################### MAPS ####################
+
+#map PalmateSlopingIndex -title "PalmateSlopingPlan"
+
+  #SlopingHoleIndexPlan@SlopingHoleIndex
+  #PalmatePotPlan
+  
+#endmap
+  
+endsurvey
+
