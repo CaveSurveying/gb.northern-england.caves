@@ -15,9 +15,9 @@ export map -proj plan -layout local -o Output/SlopingHoleIndex.pdf
 
 #export map -proj extended -layout local -layout elevation -o Output/SlopingHoleIndexEe.pdf
 
-#export map -o Output/SlopingHoleIndex.kml
+export map -o Output/SlopingHoleIndex.kml
 
-export model -fmt survex -o Output/SlopingHoleIndex.3d
+#export model -fmt survex -o Output/SlopingHoleIndex.3d
 #Survex file showing centre line only
 
 #export model -o Output/SlopingHoleIndex.lox
@@ -127,7 +127,7 @@ symbol-hide point cave-station   #2. tells therion, that you want to show statio
 #-----------------------------------
 
 code tex-map
-\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 18.05.24\medskip \size[10]BCRA Grade 5d}
+\cavename={\size[40] Sloping Hole\medskip \size[20] West Kingsdale Yorkshire\medskip \size[10] Survey Date 05.06.23 - 23.02.25\medskip \size[10]BCRA Grade 5d}
 endcode
 
 map-comment "EXPLORATION BY THE CHUMS CONTINUES"
