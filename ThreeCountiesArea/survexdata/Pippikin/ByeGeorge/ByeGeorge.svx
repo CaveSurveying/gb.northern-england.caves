@@ -12,6 +12,8 @@
 *equate mm1.042 mm3.043 ; from mm3.svx
 *equate mm3.000 mm4.050 ; from mm3.svx
 
+*EQUATE cig1.000 Cig-recon.0
+
 *include	mm1
 ;*include	mm2	;see Pete Hall/JAK/Jim Stevenson
 *include	mm3
@@ -24,5 +26,6 @@
 *include	bg5
 
 *include	cig1
+*INCLUDE 	Cig-recon
 
 *end ByeGeorge
