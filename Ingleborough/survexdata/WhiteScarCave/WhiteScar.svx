@@ -18,7 +18,7 @@
 
 *cs out OSGB:SD 
 *cs OSGB:SD
-*declination auto 71282.00	74524.00	251
+; *declination auto 71282.00	74524.00	251 ; commented out by Becka 3 Apr 2025 as it was causing higher level files not to process. It isn't clear to me why this breaks survex but there is already a *declination auto command in the WhiteScar-AREA file that incldes WhiteScar
 
 *fix Entrance	71282.00	74524.00	251
 

@@ -1,5 +1,3 @@
-;Y Pot
-
 *begin YPot
 
 *export YPotEntrance

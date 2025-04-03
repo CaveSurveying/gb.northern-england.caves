@@ -1,8 +1,5 @@
-; 2021.04.08 created by TopoDroid v 5.1.2
-; MaydayHole
-; Instrument: DistoX2 4468 - SM-N910F
+*begin MaydayHole
 
-*begin MaydayHole 
   *date 2021.04.06 
   *team "Diane Arthurs, Simon Cornhill, Mick Nunwick" 
   *units tape meters
@@ -11,9 +8,13 @@
   ; fix stations as long-lat alt
   ; *fix 0 -2.417976 54.147794 448
   
+; 2021.04.08 created by TopoDroid v 5.1.2
+; MaydayHole
+; Instrument: DistoX2 4468 - SM-N910F
+ 
   *CS OSGB:SD
   *cs out EPSG:27700
-  *DECLINATION auto 72796 72526 448
+;  *DECLINATION auto 72796 72526 448 ; commented out by Becka 3 Apr 2025 as it was causing higher level files not to process. It isn't clear to me why this breaks survex but there is already a *declination auto command in the WhiteScar-AREA file that includes MaydayHole
   
   *FIX entrance 72796 72526 448
   *EQUATE 0 entrance

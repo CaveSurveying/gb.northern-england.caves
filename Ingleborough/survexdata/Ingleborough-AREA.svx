@@ -8,6 +8,7 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+*include Chapel-le-Dale-AREA.svx
 *include GapingGill-AREA.svx
 *include NewbyMoss-AREA.svx
 *include WhiteScar-AREA.svx

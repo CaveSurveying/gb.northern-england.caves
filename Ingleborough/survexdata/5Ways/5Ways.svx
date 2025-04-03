@@ -2,7 +2,7 @@
 
 *CS OSGB:SD
 *cs out EPSG:27700
-*DECLINATION auto 72968 73249 451
+;*DECLINATION auto 72968 73249 451 ; commented out by Becka 3 Apr 2025 as it was causing higher level files not to process. It isn't clear to me why this breaks survex but there is already a *declination auto command in the WhiteScar-AREA file that incldes 5Ways
 
 *FIX 		entrance 72968 73249 451  
 *EQUATE		entrance	5WaysEnt.0
