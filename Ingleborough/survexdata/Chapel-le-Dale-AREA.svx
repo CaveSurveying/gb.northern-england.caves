@@ -1,0 +1,14 @@
+*begin Chapel-le-Dale-AREA
+
+*cs OSGB:SD
+*cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*include HardrawkinPot/HardrawkinPot.svx
+*fix HardrawkinPot.63 74470 76809 342  ; taken from CNCC rigging guide for approx location - NEED PROPER LOCATION FOR STN 63
+
+*end Chapel-le-Dale-AREA
