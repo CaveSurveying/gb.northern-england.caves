@@ -25,6 +25,7 @@
 *include "MainChamber/MainChamber"
 *include Intestines1
 *include Intestines2
+*include Intestines3
 *include TwigSeries
 
 ;--------------------------------------------------------------------
@@ -53,6 +54,7 @@
 *equate Intestines1.42x MainChamber.Mainchamber1.042
 *equate Intestines2.36x Intestines1.36
 *equate Intestines2.43x Intestines1.43
+*equate Intestines2.53 Intestines3.1
 
 *equate MainChamber.MainChamber1.009	TwigSeries.1.0
 

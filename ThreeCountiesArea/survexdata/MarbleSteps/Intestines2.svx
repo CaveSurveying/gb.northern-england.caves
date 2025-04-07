@@ -4,7 +4,7 @@
 ;Instruments:	Becka's old Distox which was calibrated a few days ago	
 
 *begin	Intestines2
-*export 43x 36x
+*export 43x 36x 53
 
 *date 2015.01.04
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
@@ -72,8 +72,11 @@
 54	55	7.89	307	-08
 55	56	2.80	327	-10
 56	32	3.61	301	-10
-54	57	3.80	114	0
-57	58	10.71	117	-06
+
+*flags duplicate
+54	57	3.80	114	0   ; leg repeated in Intestines3
+57	58	10.71	117	-06  ; leg repeated in Intestines3
+*flags not duplicate
 
 40	59	1.05	295	-35
 59	60	4.81	236	+04
