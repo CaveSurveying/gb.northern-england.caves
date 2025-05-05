@@ -1,19 +1,19 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 197.84m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.84m (from 1.47@Guscott.GuscottIndex at 1.79m to 1.10@TestOfFaith2.GuscottIndex at -5.05m)\nnorth-south range: 96.98m (from 1.1@Guscott.GuscottIndex at 1.12m to 1.10@TestOfFaith2.GuscottIndex at -95.86m)\neast-west range: 57.09m (from 1.0@Guscott.GuscottIndex at 0.00m to 1.47@Guscott.GuscottIndex at -57.09m)\nnumber of shots: 194\nnumber of stations: 197"
 xth_cp_data_tree_insert 18 1 1 GuscottIndex GuscottIndex "" "" "length: 197.84m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.84m (from 1.47@Guscott.GuscottIndex at 1.79m to 1.10@TestOfFaith2.GuscottIndex at -5.05m)\nnorth-south range: 96.98m (from 1.1@Guscott.GuscottIndex at 1.12m to 1.10@TestOfFaith2.GuscottIndex at -95.86m)\neast-west range: 57.09m (from 1.0@Guscott.GuscottIndex at 0.00m to 1.47@Guscott.GuscottIndex at -57.09m)\nnumber of shots: 194\nnumber of stations: 197"
-xth_cp_data_tree_insert 135 18 2 Guscott Guscott.GuscottIndex "" "" "length: 146.09m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.37m (from 1.47@Guscott.GuscottIndex at 1.79m to 1.41@Guscott.GuscottIndex at -3.58m)\nnorth-south range: 64.24m (from 1.1@Guscott.GuscottIndex at 1.12m to 1.44@Guscott.GuscottIndex at -63.12m)\neast-west range: 57.09m (from 1.0@Guscott.GuscottIndex at 0.00m to 1.47@Guscott.GuscottIndex at -57.09m)\nnumber of shots: 87\nnumber of stations: 88"
-xth_cp_data_tree_insert 139 18 2 TestOfFaith1 TestOfFaith1.GuscottIndex "" "" "length: 30.67m (surface 0.00m, duplicated 0.00m)\nvertical range: 0.49m (from 3.10@TestOfFaith1.GuscottIndex at -2.89m to 3.2@TestOfFaith1.GuscottIndex at -3.38m)\nnorth-south range: 28.82m (from 3.0@TestOfFaith1.GuscottIndex at -57.63m to 3.10@TestOfFaith1.GuscottIndex at -86.45m)\neast-west range: 4.99m (from 3.1@TestOfFaith1.GuscottIndex at -34.52m to 3.8@TestOfFaith1.GuscottIndex at -39.51m)\nnumber of shots: 22\nnumber of stations: 23"
-xth_cp_data_tree_insert 176 18 2 TestOfFaith2 TestOfFaith2.GuscottIndex "" "" "length: 21.08m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.16m (from 1.0@TestOfFaith2.GuscottIndex at -2.89m to 1.10@TestOfFaith2.GuscottIndex at -5.05m)\nnorth-south range: 9.41m (from 1.0@TestOfFaith2.GuscottIndex at -86.45m to 1.10@TestOfFaith2.GuscottIndex at -95.86m)\neast-west range: 8.16m (from 1.4@TestOfFaith2.GuscottIndex at -29.78m to 1.0@TestOfFaith2.GuscottIndex at -37.94m)\nnumber of shots: 85\nnumber of stations: 86"
+xth_cp_data_tree_insert 145 18 2 Guscott Guscott.GuscottIndex "" "" "length: 146.09m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.37m (from 1.47@Guscott.GuscottIndex at 1.79m to 1.41@Guscott.GuscottIndex at -3.58m)\nnorth-south range: 64.24m (from 1.1@Guscott.GuscottIndex at 1.12m to 1.44@Guscott.GuscottIndex at -63.12m)\neast-west range: 57.09m (from 1.0@Guscott.GuscottIndex at 0.00m to 1.47@Guscott.GuscottIndex at -57.09m)\nnumber of shots: 87\nnumber of stations: 88"
+xth_cp_data_tree_insert 149 18 2 TestOfFaith1 TestOfFaith1.GuscottIndex "" "" "length: 30.67m (surface 0.00m, duplicated 0.00m)\nvertical range: 0.49m (from 3.10@TestOfFaith1.GuscottIndex at -2.89m to 3.2@TestOfFaith1.GuscottIndex at -3.38m)\nnorth-south range: 28.82m (from 3.0@TestOfFaith1.GuscottIndex at -57.63m to 3.10@TestOfFaith1.GuscottIndex at -86.45m)\neast-west range: 4.99m (from 3.1@TestOfFaith1.GuscottIndex at -34.52m to 3.8@TestOfFaith1.GuscottIndex at -39.51m)\nnumber of shots: 22\nnumber of stations: 23"
+xth_cp_data_tree_insert 190 18 2 TestOfFaith2 TestOfFaith2.GuscottIndex "" "" "length: 21.08m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.16m (from 1.0@TestOfFaith2.GuscottIndex at -2.89m to 1.10@TestOfFaith2.GuscottIndex at -5.05m)\nnorth-south range: 9.41m (from 1.0@TestOfFaith2.GuscottIndex at -86.45m to 1.10@TestOfFaith2.GuscottIndex at -95.86m)\neast-west range: 8.16m (from 1.4@TestOfFaith2.GuscottIndex at -29.78m to 1.0@TestOfFaith2.GuscottIndex at -37.94m)\nnumber of shots: 85\nnumber of stations: 86"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 0 240X1 p1 1 GuscottIndex GuscottIndex@GuscottIndex "GuscottIndex" "GuscottIndex"
-xth_cp_map_tree_insert map 1 134X1 240X1 2 GuscottPlan GuscottPlan@GuscottIndex "GuscottPlan" "GuscottPlan"
-xth_cp_map_tree_insert map 1 173X1 240X1 2 TestOfFaith1Plan TestOfFaith1Plan@TestOfFaith1.GuscottIndex "TestOfFaith1Plan" "TestOfFaith1Plan"
-xth_cp_map_tree_insert map 1 237X1 240X1 2 TestOfFaith2Plan TestOfFaith2Plan@TestOfFaith2.GuscottIndex "TestOfFaith2Plan" "TestOfFaith2Plan"
+xth_cp_map_tree_insert map 0 257X1 p1 1 GuscottIndex GuscottIndex@GuscottIndex "GuscottIndex" "GuscottIndex"
+xth_cp_map_tree_insert map 1 144X1 257X1 2 GuscottPlan GuscottPlan@GuscottIndex "GuscottPlan" "GuscottPlan"
+xth_cp_map_tree_insert map 1 187X1 257X1 2 TestOfFaith1Plan TestOfFaith1Plan@TestOfFaith1.GuscottIndex "TestOfFaith1Plan" "TestOfFaith1Plan"
+xth_cp_map_tree_insert map 1 254X1 257X1 2 TestOfFaith2Plan TestOfFaith2Plan@TestOfFaith2.GuscottIndex "TestOfFaith2Plan" "TestOfFaith2Plan"
 xth_cp_map_tree_create
 xth_cp_comp_stat 198 5
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1711110875
+set xth(th_exit_number) 1736699194
 

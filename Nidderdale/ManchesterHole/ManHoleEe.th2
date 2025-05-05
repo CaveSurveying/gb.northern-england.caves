@@ -11,7 +11,7 @@ point 2267.94916008 1957.48031496 station -name 1.0
 
 point 2649.0 1812.0 station -name 1.1
 
-point 2164.0 2044.0 label -text  ENTERANCE
+point 2164.0 2044.0 label -text Manchester<br>Hole<br>Entrance
 
 point 10436.209160080001 1283.43031496 label
 

@@ -1,6 +1,8 @@
 encoding  utf-8
 source ChurchPot.th
 # Change name to the main therion file
+input ..\..\XTherionFiles\_layouts.mp        #standard settings
+input ..\..\XTherionFiles\_globallayouts.thc #more standard settings, different 'size' cave layouts
 
 
 #Surveys to output
@@ -9,7 +11,7 @@ source ChurchPot.th
 export map -proj plan -layout local -o ChurchPot.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o ChurchPotEe.pdf
+export map -proj extended -layout riggingTopo -o ChurchPotEe.pdf
 
 
 #Survex file showing centre line only
@@ -32,4 +34,16 @@ debug off
 #symbol-colour [area] [water-flow] [0 20 0]
 map-header 0 0 ne
 #symbol-hide group cave-centreline
+endlayout
+
+layout riggingTopo
+
+copy custom_rigging_topos
+copy custom_standard_settings
+copy custom_scalebar
+scale-bar 25 m
+map-comment "Rigging Guide<br><br>Black Sheep Diggers<br><br>BCRA Grade 5D (except where stated)<br>Data: cave-registry.org.uk/svn/NorthernEngland/Nidderdale"
+scale 1 500
+grid off
+colour map-fg [97 86 38]  #pale yellow
 endlayout

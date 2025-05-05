@@ -170,6 +170,8 @@ line wall
   2526.0 1120.0
 endline
 
+point 1248.0 2864.0 label -align top -text New<br>Goyden<br>Pot -scale m
+
 line wall
   2806.0 968.0
   2804.0 990.0
