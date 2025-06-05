@@ -137,7 +137,10 @@ station TomTaylorsCave "Tom Taylors Cave"
 fix TomTaylorsCave 09374 73529 190
 
 station CaravanTrailDig "Caravan Trail Dig"
-fix CaravanTrailDig 10239 75195 208  ##2024 Phil's Garmin eTrex Touch 25
+fix CaravanTrailDig 10239 75195 250  ##2024 Phil's Garmin eTrex Touch 25
+
+station FourWaysJunctionRL "Four Ways Junction RL"
+fix FourWaysJunctionRL 10244 75185 263 ##2025 Roo Walter's Trimble
 
 station AstroBeacon "Astronomer's Beacon"
 fix AstroBeacon 10175 75479 197  ##2024 Phil's Garmin eTrex Touch 25
@@ -382,7 +385,13 @@ fix 25mAvenBeacon 10200 75508 203 ##2024 Phil's Garmin eTrex Touch 25
   scrap CaravanTrailDigLoc -proj plan
       point 2 0 entrance -scale l
       point 0 0 station -name CaravanTrailDig
-      point 0 0 label -scale l -align left -text [Caravan Trail Dig<br><it>SE 10239 75195 208m]
+      point 0 0 label -scale l -align left -text [Caravan Trail Dig<br><it>SE 10239 75195 250m]
+    endscrap 
+    
+      scrap FourWaysJunctionRLLoc -proj plan
+      point 2 0 entrance -scale l
+      point 0 0 station -name FourWaysJunctionRL
+      point 0 0 label -scale l -align left -text [Four Ways Junction RL<br><it>SE 10244 75185 263m]
     endscrap 
 
 ###BUILD MAPS
@@ -414,7 +423,8 @@ map GoydenSystem -projection plan
   PigskinPotLoc
   ThropeEdgePotLoc
   DryWathEntranceLoc 
-  CaravanTrailDigLoc   
+  CaravanTrailDigLoc
+  FourWaysJunctionRLLoc   
   25mAvenBeaconLoc
   AstroBeaconLoc  
   LimleyAirShaftLoc      
