@@ -102,6 +102,7 @@
 *EQUATE PotBlack.0  Yeadon_Pipikin_Surface_Survey.RedRoseDig
 
 *INCLUDE TipTop/TipTop
+*INCLUDE Earwigo/Earwigo
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; South of NottsII area

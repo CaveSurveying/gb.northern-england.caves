@@ -1,0 +1,13 @@
+*BEGIN Earwigo
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION auto  67170 79649 349 ;estimated from Google maps
+				
+*INCLUDE Earwigo-1
+
+*EQUATE Earwigo-1.1	entrance
+*Entrance	entrance
+*FIX entrance  67170 79649 349 ;estimated from Google maps
+
+*END Earwigo
