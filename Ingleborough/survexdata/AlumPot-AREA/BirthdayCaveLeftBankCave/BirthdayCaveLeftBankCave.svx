@@ -1,5 +1,13 @@
 *begin birthdaycaveleftbankcave
 
+*cs OSGB:SD
+*cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 ; Locn:	Borrins Moor, Ingleborough
 ; Cave:	Birthday Cave and Left Bank Cave (now joined)
 
@@ -13,12 +21,14 @@
 
 *export 1
 
-*equate 1 entrancebirthdaycave
+*equate 1 entrance
+*ENTRANCE entrance
+*FIX entrance 77035 75325 375
 
 *title "Birthday Cave and Left Bank Cave (now joined)"
 *date 2022.03.20	
-*team Insts Paul Swire (Beardy)
-*team Notes Becka Lawson
+*team  "Paul Swire (Beardy)" Insts
+*team  "Becka Lawson"	Notes
 *instrument Compass and Clino - Neil's compass-clino set and Becka's distox for tape
 
 ;from	to	tape	compass	clino	remarks

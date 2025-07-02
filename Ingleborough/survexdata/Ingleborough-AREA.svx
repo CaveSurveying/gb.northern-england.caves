@@ -8,9 +8,10 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*include Chapel-le-Dale-AREA.svx
-*include GapingGill-AREA.svx
-*include NewbyMoss-AREA.svx
-*include WhiteScar-AREA.svx
+*INCLUDE AlumPot-AREA/AlumPot-AREA.svx
+*INCLUDE Chapel-le-Dale-AREA/Chapel-le-Dale-AREA.svx
+*INCLUDE GapingGill-AREA/GapingGill-AREA.svx
+*INCLUDE NewbyMoss-AREA/NewbyMoss-AREA.svx
+*INCLUDE WhiteScar-AREA/WhiteScar-AREA.svx
 
 *end Ingleborough-AREA
