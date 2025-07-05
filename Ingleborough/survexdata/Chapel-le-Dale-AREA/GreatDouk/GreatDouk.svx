@@ -1,0 +1,45 @@
+
+; Area: Chaple Le Dale
+; Cave:	Great Douk
+
+
+*begin GreatDouk 
+
+*export greatdouk5.38
+*Export greatdouk11.5
+*export greatdouk8.8
+*export greatdouk5.72
+*export greatdouk1.1
+
+
+*include greatdouk1.svx
+*include greatdouk2.svx
+*include greatdouk3.svx
+*include greatdouk4.svx
+*include greatdouk5.svx
+*include greatdouk7.svx
+*include greatdouk8.svx  
+*include greatdouk9.svx
+*include greatdouk10.svx
+*include greatdouk11.svx
+*include greatdouk13.svx
+*include greatdouk12.svx
+*include greatdoukpot.svx
+*include olddouk.svx
+
+*equate greatdouk1.127 greatdouk2.1
+*equate greatdouk1.108 greatdouk3.1
+*equate greatdouk1.3 greatdouk4.26
+*equate greatdouk2.46 greatdouk5.1
+*equate greatdouk5.38 greatdouk9.2
+*equate greatdouk5.56 greatdouk7.1
+*equate greatdouk9.9 greatdouk10.1
+*equate greatdouk1.1 greatdouk11.1
+*equate olddouk.1 greatdouk1.1
+*equate greatdoukpot.30 greatdouk1.1
+*equate greatdouk12.60 greatdouk5.72
+*equate greatdouk13.1 greatdouk8.8
+*equate greatdouk8.35 greatdouk5.72
+
+*end GreatDouk
+

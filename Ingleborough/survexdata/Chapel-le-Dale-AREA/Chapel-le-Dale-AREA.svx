@@ -8,7 +8,26 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+*include GreatDouk/GreatDouk.svx
+*Include Surface/SurfaceMaster.svx
+*include HighDouk/HighDouk.svx
 *include HardrawkinPot/HardrawkinPot.svx
-*fix HardrawkinPot.63 74470 76809 342  ; taken from CNCC rigging guide for approx location - NEED PROPER LOCATION FOR STN 63
+*include Sunset/Sunset.svx 
+*include Meregill/Meregill.svx 
+*include Southerscales/Southerscales.svx 
+
+
+*Equate SurfaceMaster.Surface1.53 HighDouk.HighDouk1.1
+*Equate SurfaceMaster.Surface2.1 HighDouk.HighDouk1.79
+*equate SurfaceMaster.Surface2.35 GreatDouk.greatdouk5.72
+*equate SurfaceMaster.Surface2.41 GreatDouk.greatdouk8.8
+*Equate SurfaceMaster.Surface1.9 GreatDouk.greatdouk1.1
+*Equate SurfaceMaster.Surface1.34 Southerscales.Southerscales4.1
+*Equate SurfaceMaster.Surface1.38 Southerscales.Southerscales4.20
+*equate HardrawkinPot.63 HighDouk.HighDouk1.1
+*equate SurfaceMaster.Surface2.75 Sunset.Sunset1.169
+*equate SurfaceMaster.Surface2.92 Meregill.Meregill1.11
+
+*fix GreatDouk.GreatDouk11.5 74679 77039 339
 
 *end Chapel-le-Dale-AREA
