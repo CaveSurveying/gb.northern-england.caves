@@ -4,6 +4,21 @@
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;The Chapel-le-Dale resurvey project is ongoing as of summer 2025. Todd Rye and Lara Bartleet are spearheading the effort, and aim to resurvey the following caves on Chapel-le-Dale. 
+;The southerscales/Great Douk system, the High Douk/Hardrawkin system, Knacker Trapper, Sunset Hole, Roaring Hole, Meregill, and Black Shiver Pot. 
+;Associated inlet entrances will also be surveyed. Notable surface points are noted below to allow other surveyors to add other data to this combined survey. 
+
+;Notable points
+;GreatDouk11.5 is a point on the left of the Great Douk stile, marked by a point of Tipex.
+;Hardrawkin.63/HighDouk1.1 is a dot of tipex on the Hardrawkin side of the dry stone wall near stream level
+;Surface2.66 is the top of the southwestern gatepost on the main Ingleborough footpath exiting the Nature Reserve
+;Surface2.49 is the top of the southeastern stile post between the Great Douk field and the Knacker Trapper field
+;Surface2.88 is the top of the southeastern stile post by Meregill
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
