@@ -4,9 +4,9 @@
 *title "Downstream Sump of King Pot heading towards KMC from handwritten notes from RSkorupka"
 ; initial remark "Survey out from 410 metres. King Pot Downstream Sump"
 ; *date not recorded - perhaps 1990?
-*team Instruments Rupert Skorupka
-*team Notes Rupert Skorupka
-*instrument Not recorded - assume a dive computer and reel
+*team "Rupert Skorupka" Instruments 
+*team "Rupert Skorupka" Notes 
+;*instrument Not recorded - assume a dive computer and reel
 
 *EXPORT DS-Surface	;start of King Pot Downstream sump
 

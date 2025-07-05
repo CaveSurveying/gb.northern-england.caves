@@ -4,9 +4,9 @@
 
 *title "East Kingsdale - Crescent Pot - up inlet shortly after low crawl (first main inlet on left after old 3rd pitch) and then up final inlet on right before 4th pitch"
 *date 2013.10.05
-*team InstrumentsIan Walker with Distox 
-*team Notes Becka Lawson
-*instrument Becka's Distox
+*team "Ian Walker" Instruments ;with Distox 
+*team "Becka Lawson" Notes 
+*instrument Distox "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
@@ -46,7 +46,6 @@
 29	30	5.35	121	-02
 
 *data passage station left right up down ignoreall 
-
 10x	0.6	0.9	0.4	1.3	obvious stal tip at major inlet coming in on left
 1	0.9	0.3	0.2	0.4	r wall of inlet
 2	0.4	0.6	0.4	0.1	l wall
@@ -55,6 +54,7 @@
 5	0.6	0.4	2.2	2.5	climb up aven to start of inlet
 6	-	-	-	-	too tight inlet (10-15cm wide)
 
+*data passage station left right up down ignoreall 
 7	0	0.5	0.7	2	traverse bolt for 4th pitch
 8	0.8	0	1	1.6	numbered at junction with major inlet on right shortly before 4th pitch
 9	0.3	0.6	1.4	1.4	l wall of inlet

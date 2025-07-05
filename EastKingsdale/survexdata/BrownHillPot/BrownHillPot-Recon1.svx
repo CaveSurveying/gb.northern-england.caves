@@ -15,7 +15,7 @@
 						;the calibrate compass command compensates for the auto adjusted declination of +0.23 degrees
 *CALIBRATE compass -0.23;so the *AUTO DECLINATION command should not affect this data.
 
-*EXPORT path3.0 path3.59
+*EXPORT path3.0 path3.59 path7.0
 
 *equate path3.25 path7.14 ; separation 0.013 m
 *equate path3.28 path4.36 ; separation 0.017 m
@@ -27,8 +27,8 @@
 *begin path3
 *export 0 25 28 59
 
-0	0a		5		-		up
-0   1      2.212  316.2    0.000
+0	0a		5		-		down
+0a  1      2.212  316.2    0.000
 1	1a		5		-		down
 1a   2     2.124  302.8    0.000
 2   3      2.515  234.3    0.000
@@ -75,6 +75,10 @@
 36  37     9.185  202.6    0.000
 37  38    10.880  200.4    0.000
 38  39    10.465  204.0    0.000
+*FLAGS splay	
+39	39b 	18    204.0    68.000
+39	39c 	24    204.0    38.000
+*FLAGS not splay
 39	39a		28		-		down
 39a  40    6.103  203.6    0.000
 40	40a		22		-		down
@@ -180,7 +184,7 @@
 *end path6
 
 *begin path7
-*export 14
+*export 0 14
 0	0a		12		-		down
 0a   1     2.769  244.1    0.000
 1   2      5.180  206.0    0.000

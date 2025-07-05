@@ -4,13 +4,25 @@
 *cs out EPSG:27700
 *DECLINATION AUTO 71400 78400 374
 
+*EXPORT BrownHillPot-Recon1.path3.0
+
 *INCLUDE BrownHillPot-Recon1
 *INCLUDE BrownHill-DownStream-Recon1
 
-*EQUATE 	entrance BrownHillPot-Recon1.path3.0
+*EQUATE 	Floyds-Ent BrownHillPot-Recon1.path3.0
+*ENTRANCE 	Floyds-Ent
+*EQUATE 	entrance BrownHillPot-Recon1.path7.0
 *ENTRANCE	entrance
-*FIX		entrance 71320 78460 374 ;Floyds Entrance 
+;*FIX		entrance   71320 78460 370 ;Brown Hill Pot entrance from NC3
+*FIX		Floyds-Ent 71336 78415 370 ;Floyds Entrance from google earth
+;*FIX       Floyds-Ent 71330 78390 374 ;Floyds Entrance from NC3
 
 *EQUATE BrownHillPot-Recon1.path3.59	BrownHill-DownStream-Recon1.0
+
+; Brown Hill Pot and Thunder Hole are connected in the main EastKingsdale survex file
+;*INCLUDE ../ThunderHole/ThunderHole
+;*EQUATE BrownHillPot-Recon1.path3.0		ThunderHole.surface.0
+
+
 
 *END BrownHillPot

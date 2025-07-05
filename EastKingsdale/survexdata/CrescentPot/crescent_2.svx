@@ -4,9 +4,10 @@
 
 *title "East Kingsdale - Crescent Pot - from bottom of stone stairs (old 3rd pitch) to final inlet junction just before 4th pitch"
 *date 2013.10.05
-*team Tape Becka Lawson
-*team Instruments mostly Hannah Walker on Tandem but first few legs Ian Walker with Distox (I think up to station 10, "distinctive stal") - junction with inlet
-*team Notes James Carlisle
+*team "Becka Lawson" Tape
+*team "Hannah Walker" Instruments ;mostly  on Tandem but first few legs Ian Walker with Distox (I think up to station 10, "distinctive stal") - junction with inlet
+*team "Ian Walker" instruments
+*team "James Carlisle" Notes 
 *instrument Becka's Tandem as comp + clino and Becka's 30m tape except where Becka's Distox
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
@@ -89,6 +90,7 @@
 
 16	0.4	0.1	0	3	roof (later LRUD tieing in to this station gives 0.3	0.4	0	0.2)
 
+*data passage station left right up down ignoreall
 2-1	2	2.2	0.5	1.6	station 8 of Becka and Ian's survey on same day
 2-2	0	0.4	1	2.5	l wall
 2-3	0	0.5	0.2	1.5	numbered on wall

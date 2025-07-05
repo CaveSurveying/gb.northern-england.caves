@@ -4,10 +4,10 @@
 
 *title "East Kingsdale - Illusion Pot - from bolt at far side of sump into Expressway"
 *date 2017.01.22
-*team Instruments Becka Lawson on tandem
-*team Instruments Hannah Walker on Distox2 #1
-*team Notes Ian Walker
-*instrument Becka's Distox2 #1 for tape and clino; Becka's tandem for compass (also Distox for compass after semicolon but not calibrated so ignore)
+*team "Becka Lawson" Instruments ; on tandem
+*team "Hannah Walker" Instruments ; on Distox2 #1
+*team "Ian Walker" Notes 
+*instrument Distox2 "Becka's  #1 for tape and clino" ; Becka's tandem for compass (also Distox for compass after semicolon but not calibrated so ignore)
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

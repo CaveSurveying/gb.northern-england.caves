@@ -4,9 +4,9 @@
 
 *title "East Kingsdale - Illusion Pot - upstream from bottom of entrance ladders to junction with mud crawl on R and blasted inlet ahead"
 *date 2013.09.07
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*instrument Becka's Distox
+*team "Becka Lawson" Instruments 
+*team "Neil Pacey" Notes 
+*instrument Distox "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

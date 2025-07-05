@@ -4,9 +4,9 @@
 
 *title "East Kingsdale - Crescent Pot - from entrance GPS through to bottom of stone stairs (old 3rd pitch) at start of low crawl"
 *date 2013.09.07
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*instrument Becka's Distox
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes 
+*instrument Distox "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -16,12 +16,12 @@
 *INCLUDE KingPot/KingPot
 *INCLUDE LordsTopHole/LordsTopHole
 *INCLUDE SpectaclePot/SpectaclePot
+*INCLUDE ThunderHole/ThunderHole
 *INCLUDE VesperPot/VesperPot
 
 
-
-
 *EQUATE SpectaclePot.SpectaclePot-Recon1.path3.90a   	VesperPot.VesperPot-Recon1.path3.152a
+*EQUATE BrownHillPot.BrownHillPot-Recon1.path3.0		ThunderHole.surface.0
 
 
 *SOLVE	;<<<This forces any survey errors to be distributed along the reconstructed centrelines>>>
@@ -107,8 +107,6 @@
 *ENTRANCE	StagNightHole
 *FIX		SuprisePot		REFERENCE 70600 76670 390
 *ENTRANCE	SuprisePot
-*FIX		ThunderHole		REFERENCE 71240 78290 372
-*ENTRANCE	ThunderHole
 *FIX		ThunderThighsHole REFERENCE 70540 76800 387
 *ENTRANCE	ThunderThighsHole
 *FIX		TimberPot		REFERENCE 70740 77440 366
