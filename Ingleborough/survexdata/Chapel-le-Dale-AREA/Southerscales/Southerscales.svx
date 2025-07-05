@@ -1,0 +1,27 @@
+
+; Area: Chaple Le Dale
+; Cave:	Southerscales Pot
+
+
+*begin Southerscales
+
+;*export Southerscales1.1
+*export Southerscales4.1
+*export Southerscales4.20
+
+
+
+;*include Southerscales1.svx
+;*include Southerscales2.svx
+;*include Southerscales3.svx
+*include Southerscales4.svx
+
+
+;*equate Southerscales1.66 Southerscales2.11
+;*equate Southerscales1.116 Southerscales2.2
+;*equate Southerscales1.123 Southerscales3.1
+
+
+
+*end Southerscales
+

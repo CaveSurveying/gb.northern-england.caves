@@ -1,0 +1,20 @@
+*BEGIN Meregill
+
+*export Meregill1.11
+
+*Include Meregill1.svx
+*Include Meregill2.svx
+*Include Meregill3.svx
+*Include Meregill4.svx
+*Include Meregill5.svx
+*Include Meregill7.svx
+
+*Equate Meregill2.1 Meregill3.102
+*Equate Meregill2.6 Meregill4.1
+*Equate Meregill2.105 Meregill4.120
+*Equate Meregill2.105 Meregill5.1
+*Equate Meregill5.64 Meregill1.23
+*Equate Meregill7.1 Meregill3.90
+*Equate Meregill7.37 Meregill3.70
+
+*end Meregill
