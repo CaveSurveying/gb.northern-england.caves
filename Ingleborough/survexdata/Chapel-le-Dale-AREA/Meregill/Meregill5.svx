@@ -3,9 +3,9 @@
 ; Area in cave/QM: Bridge Hall to top of second pitch
 *title "Bridge Hall to top of second pitch"
 *date 2025.06.16
-*team Notes Todd Rye
-*team Instruments Aidan Kuhlmann 
-*instrument RRCPCC disto
+*team Notes "Todd Rye"
+*team Instruments "Aidan Kuhlmann" 
+*instrument "RRCPCC disto"
 
 ;Important points 
 *export 1 64

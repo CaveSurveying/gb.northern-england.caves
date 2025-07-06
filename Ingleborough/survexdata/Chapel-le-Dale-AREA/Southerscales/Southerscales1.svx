@@ -3,9 +3,9 @@
 ; Area in cave/QM: Below Zoology Pot
 *title Southerscales1
 *date 2025.02.28
-*team Notes Lara Bartleet
-*team Instruments Todd Rye
-*instrument BPC Disto
+*team Notes "Lara Bartleet"
+*team Instruments "Todd Rye"
+*instrument "BPC Disto"
 
 *export 1 123 118 116 66
 

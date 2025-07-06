@@ -4,9 +4,9 @@
 ; Area in cave/QM: Upper entrance area
 *title "greatdouk5"
 *date 2024.09.27
-*team Notes Lara Bartleet
-*team Instruments Todd Rye
-*instrument RRCPC Disto
+*team Notes "Lara Bartleet"
+*team Instruments "Todd Rye"
+*instrument "RRCPC Disto"
 
 *export 1 38 56 72
 ;*fix 72 74743 76468 354 Commented out to reduce Fixed Points

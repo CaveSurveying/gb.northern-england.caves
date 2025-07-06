@@ -3,9 +3,9 @@
 ; Area in cave/QM: The Mere
 *title "The Mere"
 *date 2025.04.15
-*team Notes Todd Rye
-*team Instruments Todd Rye
-*instrument BPC disto
+*team Notes "Todd Rye"
+*team Instruments "Todd Rye"
+*instrument "BPC disto"
 
 ;Important points 
 *export 23 11 

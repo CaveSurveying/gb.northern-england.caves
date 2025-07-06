@@ -4,9 +4,9 @@
 ; Area in cave/QM: the whole thing
 *title "olddouk"
 *date 2024.09.13
-*team Notes Lara Bartleet
-*team Instruments Isaac Neale
-*instrument BPC Disto
+*team Notes "Lara Bartleet"
+*team Instruments "Isaac Neale"
+*instrument "BPC Disto"
 
 *export 1
 

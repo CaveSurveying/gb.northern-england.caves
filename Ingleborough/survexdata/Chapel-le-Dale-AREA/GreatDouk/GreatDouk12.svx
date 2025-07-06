@@ -4,9 +4,9 @@
 ; Area in cave/QM: MW wet entrance
 *title "greatdouk10"
 *date 2025.05.21
-*team Notes Todd Rye
-*team Instruments Todd Rye
-*instrument RRCPC Disto
+*team Notes "Todd Rye"
+*team Instruments "Todd Rye"
+*instrument "RRCPC Disto"
 
 *export 60
 

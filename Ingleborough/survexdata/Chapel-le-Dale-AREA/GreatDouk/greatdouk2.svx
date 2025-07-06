@@ -4,9 +4,9 @@
 ; Area in cave/QM: squeeze past black cairn to inlet on left with small cairn
 *title "greatdouk2"
 *date 2024.09.15
-*team Notes Lara Bartleet
-*team Instruments Todd Rye
-*instrument RRCPC Disto
+*team Notes "Lara Bartleet"
+*team Instruments "Todd Rye"
+*instrument "RRCPC Disto"
 
 *export 1 46
 

@@ -4,9 +4,9 @@
 ; Area in cave/QM: shakey holey 
 *title "greatdouk11"
 *date 2024.11.16
-*team Notes Lara Bartleet
-*team Instruments Todd Rye
-*instrument RRCPC Disto
+*team Notes "Lara Bartleet"
+*team Instruments "Todd Rye"
+*instrument "RRCPC Disto"
 
 *export 1 5
 
