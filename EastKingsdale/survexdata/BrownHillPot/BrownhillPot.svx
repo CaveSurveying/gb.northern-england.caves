@@ -4,13 +4,16 @@
 *cs out EPSG:27700
 *DECLINATION AUTO 71400 78400 374
 
-*EXPORT BrownHillPot-Recon1.path3.0
+*EXPORT Floyds-Ent
 
+*INCLUDE BrownHillPot-1
 *INCLUDE BrownHillPot-Recon1
 *INCLUDE BrownHill-DownStream-Recon1
 
-*EQUATE 	Floyds-Ent BrownHillPot-Recon1.path3.0
+;*EQUATE 	Floyds-Ent BrownHillPot-Recon1.path3.0
 *ENTRANCE 	Floyds-Ent
+*EQUATE 	Floyds-Ent BrownHillPot-1.0
+*EQUATE		BrownHillPot-1.33	BrownHillPot-Recon1.path3.25 ;connecting resurvey to recon at bottom of 'bolt climb'
 *EQUATE 	entrance BrownHillPot-Recon1.path7.0
 *ENTRANCE	entrance
 ;*FIX		entrance   71320 78460 370 ;Brown Hill Pot entrance from NC3
@@ -19,9 +22,9 @@
 
 *EQUATE BrownHillPot-Recon1.path3.59	BrownHill-DownStream-Recon1.0
 
-; Brown Hill Pot and Thunder Hole are connected in the main EastKingsdale survex file
+;; Brown Hill Pot and Thunder Hole are connected in the main EastKingsdale survex file
 ;*INCLUDE ../ThunderHole/ThunderHole
-;*EQUATE BrownHillPot-Recon1.path3.0		ThunderHole.surface.0
+;*EQUATE 	Floyds-Ent		ThunderHole.surface.0
 
 
 

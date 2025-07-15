@@ -21,7 +21,7 @@
 
 
 *EQUATE SpectaclePot.SpectaclePot-Recon1.path3.90a   	VesperPot.VesperPot-Recon1.path3.152a
-*EQUATE BrownHillPot.BrownHillPot-Recon1.path3.0		ThunderHole.surface.0
+*EQUATE BrownHillPot.Floyds-Ent		ThunderHole.surface.0
 
 
 *SOLVE	;<<<This forces any survey errors to be distributed along the reconstructed centrelines>>>
