@@ -9,7 +9,7 @@
 *instrument "RRCPCC disto"
 
 ;Important points 
-*export 1
+*export 1 2 
 
 *alias station - ..
 

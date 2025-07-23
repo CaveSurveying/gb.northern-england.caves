@@ -8,7 +8,7 @@
 *instrument "RRCPCC disto"
 
 ;Important points 
-*export 1 105 72 46 6
+*export 1 105 72 6 45 46
 ;*fix x 
  
 

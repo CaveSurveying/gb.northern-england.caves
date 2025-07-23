@@ -7,14 +7,21 @@
 *Include Meregill3.svx
 *Include Meregill4.svx
 *Include Meregill5.svx
+*include Meregill6.svx
 *Include Meregill7.svx
+*include Meregill8.svx
+*include Meregill9.svx
 
 *Equate Meregill2.1 Meregill3.102
 *Equate Meregill2.6 Meregill4.1
 *Equate Meregill2.105 Meregill4.120
 *Equate Meregill2.105 Meregill5.1
+*Equate Meregill5.1 Meregill4.120
 *Equate Meregill5.64 Meregill1.23
 *Equate Meregill7.1 Meregill3.90
 *Equate Meregill7.37 Meregill3.70
+*Equate Meregill8.12 Meregill3.4
+*Equate Meregill9.1 Meregill3.38
+*Equate Meregill2.45 Meregill6.1
 
 *end Meregill
