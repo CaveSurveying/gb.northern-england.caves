@@ -1,7 +1,7 @@
 *begin Southerscales4
 ; Cave: Southerscales pot
 ; Area in cave/QM: Entrances to first pitch 
-*title Southerscales
+*title Southerscales4
 *date 2025.05.10
 *team Notes "Lara Bartleet"
 *team Instruments "Isaac Neale"
