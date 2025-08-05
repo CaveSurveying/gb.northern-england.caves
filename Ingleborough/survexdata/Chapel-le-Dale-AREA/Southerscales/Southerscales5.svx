@@ -3,7 +3,7 @@
 ; Area in cave/QM: Millipede Crawl to Presidents 
 *title Southerscales5
 *date 2025.07.25
-*team Notes "Todd Ruye"
+*team Notes "Todd Rye"
 *team Instruments "Christopher Chappel-Holt"
 *instrument "RRCPC Disto"
 

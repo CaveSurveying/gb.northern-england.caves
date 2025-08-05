@@ -3,5 +3,9 @@
 *export Sunset1.169
 
 *Include Sunset1.svx
+*Include Sunset2.svx
+
+*Equate Sunset1.1 Sunset2.23
+*Equate Sunset1.37 Sunset2.1
 
 *end Sunset
