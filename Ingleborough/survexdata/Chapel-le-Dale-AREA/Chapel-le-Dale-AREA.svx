@@ -5,7 +5,7 @@
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;The Chapel-le-Dale resurvey project is ongoing as of summer 2025. Todd Rye and Lara Bartleet are spearheading the effort, and aim to resurvey the following caves on Chapel-le-Dale. 
-;The southerscales/Great Douk system, the High Douk/Hardrawkin system, Knacker Trapper, Sunset Hole, Roaring Hole, Meregill, and Black Shiver Pot. 
+;The Southerscales/Great Douk system, the High Douk/Hardrawkin system, Knacker Trapper, Sunset Hole, Roaring Hole, Meregill, and Black Shiver Pot. 
 ;Associated inlet entrances will also be surveyed. Notable surface points are noted below to allow other surveyors to add other data to this combined survey. 
 
 ;Notable points

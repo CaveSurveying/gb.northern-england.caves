@@ -24,6 +24,7 @@
 *include greatdouk11.svx
 *include greatdouk13.svx
 *include greatdouk12.svx
+*include greatdouk14.svx
 *include greatdoukpot.svx
 *include olddouk.svx
 
@@ -40,6 +41,7 @@
 *equate greatdouk12.60 greatdouk5.72
 *equate greatdouk13.1 greatdouk8.8
 *equate greatdouk8.35 greatdouk5.72
+*equate greatdouk1.3 greatdouk14.1
 
 *end GreatDouk
 
