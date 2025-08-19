@@ -23,7 +23,7 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*include GreatDouk/GreatDouk.svx
+*include greatdouk/greatdouk.svx
 *Include Surface/SurfaceMaster.svx
 *include HighDouk/HighDouk.svx
 *include HardrawkinPot/HardrawkinPot.svx
