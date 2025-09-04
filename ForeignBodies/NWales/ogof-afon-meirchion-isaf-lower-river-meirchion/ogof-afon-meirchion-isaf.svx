@@ -3,13 +3,13 @@
 ; *EXPORT 
  
 ; GPS 30U 468890 5896089 taken by Becka at station 1 using Gaia on 12 Aug 2025, elevation around 87m based on Open Street Map contours 
-;  *cs OSGB:SJ
-;  *cs out EPSG:27700
+  *cs OSGB:SJ
+  *cs out EPSG:27700
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
-;*declination auto 67293 77482 87  
+*declination auto 67293 77482 87  
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-;  *FIX 1  02208 69463 87 ; station 1 is where GPS taken
+  *FIX 1  02208 69463 87 ; station 1 is where GPS taken
   
   *team "Becka Lawson, Chris Mitchell, Chris Jowett" 
   *date 2025.08.12   
