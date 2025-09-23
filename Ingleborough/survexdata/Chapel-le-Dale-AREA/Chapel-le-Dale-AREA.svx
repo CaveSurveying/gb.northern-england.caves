@@ -30,6 +30,7 @@
 *include Sunset/Sunset.svx 
 *include Meregill/Meregill.svx 
 *include Southerscales/Southerscales.svx 
+*include Roaring/Roaring.svx ;commented out till tied in via surface survey
 
 
 *Equate SurfaceMaster.Surface1.53 HighDouk.HighDouk1.1
