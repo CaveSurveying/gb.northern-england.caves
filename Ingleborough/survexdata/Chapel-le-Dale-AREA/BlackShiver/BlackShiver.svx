@@ -1,0 +1,14 @@
+*begin BlackShiver
+
+*include BlackShiver2 
+*include BlackShiver3
+*include BlackShiver1 
+*include BlackShiver4
+
+*equate Blackshiver4.6 BlackShiver1.22
+*equate BlackShiver4.49 BlackShiver3.11
+*equate BlackShiver2.19 BlackShiver3.15
+
+
+*end BlackShiver
+

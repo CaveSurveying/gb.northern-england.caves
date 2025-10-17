@@ -7,7 +7,7 @@
 *team Instruments "Christopher Chappel-Holt"
 *instrument "RRCPC Disto"
 
-*export 1 20
+*export 1 19
 
 *data normal from to length bearing gradient ignoreall
 *alias station - ..
@@ -203,6 +203,4 @@
 19	-	2.029	9.76	-68.73	
 19	-	2.713	345.82	-75.12	
 19	-	2.780	314.06	-74.64	
-20	19	3.887	92.98	-63.85		;  {from: 3.880 93.15 -63.93, 3.894 92.99 -63.77, 3.888 92.80 -63.85}
-
 *end Roaring1

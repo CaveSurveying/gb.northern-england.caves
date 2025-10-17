@@ -1,6 +1,5 @@
 *BEGIN SurfaceMaster
 
-;all files to be updated with our own data once p97a/congress is found and a surface survey is done between all entrances on this top section of fell
 
 *Export Surface1.1
 *Export Surface1.34
@@ -16,10 +15,16 @@
 *Export Surface2.75
 *Export Surface2.88
 *Export Surface2.92
+*Export Surface3.1
+*Export Surface3.19
+*Export Surface4.1
+*Export Surface4.14
 
 
 *Include Surface2
 *Include Surface1
+*Include Surface3
+*Include Surface4
 
 
 

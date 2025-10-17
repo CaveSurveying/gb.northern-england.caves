@@ -4,7 +4,7 @@
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-;The Chapel-le-Dale resurvey project is ongoing as of summer 2025. Todd Rye and Lara Bartleet are spearheading the effort, and aim to resurvey the following caves on Chapel-le-Dale. 
+;The Chapel-le-Dale resurvey project is ongoing as of autumn 2025. Todd Rye and Lara Bartleet are spearheading the effort, and aim to resurvey the following caves on Chapel-le-Dale. 
 ;The Southerscales/Great Douk system, the High Douk/Hardrawkin system, Knacker Trapper, Sunset Hole, Roaring Hole, Meregill, and Black Shiver Pot. 
 ;Associated inlet entrances will also be surveyed. Notable surface points are noted below to allow other surveyors to add other data to this combined survey. 
 
@@ -23,14 +23,15 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*include greatdouk/greatdouk.svx
-*Include Surface/SurfaceMaster.svx
-*include HighDouk/HighDouk.svx
+;*include BlackShiver/BlackShiver.svx ;commented out until cave connected to surface
+*include GreatDouk/GreatDouk.svx
 *include HardrawkinPot/HardrawkinPot.svx
-*include Sunset/Sunset.svx 
+*include HighDouk/HighDouk.svx
 *include Meregill/Meregill.svx 
+*include Roaring/Roaring.svx 
 *include Southerscales/Southerscales.svx 
-*include Roaring/Roaring.svx ;commented out till tied in via surface survey
+*include Sunset/Sunset.svx 
+*include Surface/SurfaceMaster.svx
 
 
 *Equate SurfaceMaster.Surface1.53 HighDouk.HighDouk1.1
@@ -43,6 +44,9 @@
 *equate HardrawkinPot.63 HighDouk.HighDouk1.1
 *equate SurfaceMaster.Surface2.75 Sunset.Sunset1.169
 *equate SurfaceMaster.Surface2.92 Meregill.Meregill1.11
+*equate SurfaceMaster.Surface3.19 SurfaceMaster.Surface2.88
+*equate SurfaceMaster.Surface4.1 SurfaceMaster.Surface2.66
+*Equate SurfaceMaster.Surface4.14 Roaring.Roaring1.19
 
 *fix GreatDouk.GreatDouk11.5 74679 77039 339
 

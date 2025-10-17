@@ -5,7 +5,7 @@
 
 *begin Roaring
 
-*export Roaring1.20
+*export Roaring1.19
 
 
 
