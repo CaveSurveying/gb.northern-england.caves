@@ -8,6 +8,7 @@
 *export Southerscales1.1
 *export Southerscales4.1
 *export Southerscales4.20
+*export Southerscales6.3
 
 
 *include Southerscales1.svx
@@ -15,6 +16,7 @@
 *include Southerscales3.svx
 *include Southerscales4.svx
 *include Southerscales5.svx
+*include Southerscales6.svx
 
 
 *equate Southerscales1.66 Southerscales2.11
@@ -22,6 +24,7 @@
 *equate Southerscales1.123 Southerscales3.1
 *equate Southerscales5.2 Southerscales4.14
 *equate Southerscales5.41 Southerscales3.50
+*equate Southerscales1.1 Southerscales6.1
 
 
 

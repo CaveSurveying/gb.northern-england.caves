@@ -1,0 +1,20 @@
+*begin Southerscales6
+; Cave: Southerscales Sump
+; Area in cave/QM: Sump
+*title Southerscales6
+*date 2025.10.25
+*team Notes "Samuel Devey"
+*team Instruments "Samuel Devey"
+*instrument "Tape, Dive Compass, Dive Computer"
+
+;Data has been converted to non dive data for the mental ease of Todd
+
+*export 1 3 
+
+*data normal from to length bearing gradient ignoreall
+*alias station - ..
+
+1	2	4.620	285.00	-8.30	
+2	3	18.430	255.00	2.20	
+
+*end Southerscales6

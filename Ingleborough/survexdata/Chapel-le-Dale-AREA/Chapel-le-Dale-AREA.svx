@@ -47,6 +47,7 @@
 *equate SurfaceMaster.Surface3.19 SurfaceMaster.Surface2.88
 *equate SurfaceMaster.Surface4.1 SurfaceMaster.Surface2.66
 *Equate SurfaceMaster.Surface4.14 Roaring.Roaring1.19
+*equate GreatDouk.GreatDouk14.10 Southerscales.Southerscales6.3
 
 *fix GreatDouk.GreatDouk11.5 74679 77039 339
 

@@ -10,6 +10,7 @@
 *export greatdouk8.8
 *export greatdouk5.72
 *export greatdouk1.1
+*export GreatDouk14.10
 
 
 *include greatdouk1.svx
