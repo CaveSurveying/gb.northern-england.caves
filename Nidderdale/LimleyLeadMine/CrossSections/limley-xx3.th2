@@ -1,0 +1,88 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -1.6 -253.6 223.6 4.1
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {73.82 1 1.0} {-210.64 0} limley-xx3.xvi 0 {}
+
+# 2025.11.01 created by TopoDroid v. 6.3.39
+
+scrap limley-xx3 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  100.09 -104.21
+  98.77 -115.75 100.28 -127.76 101.57 -139.16
+  101.89 -142.07 101.45 -149.23 104.82 -149.98
+  105.18 -150.03 105.55 -150.07 105.92 -150.13
+  106.32 -150.19 106.73 -150.28 107.14 -150.34
+  110.53 -150.80 112.16 -145.73 113.12 -143.17
+  113.37 -142.49 113.65 -141.77 113.93 -141.04
+  114.56 -139.37 114.89 -137.56 115.52 -135.91
+  117.64 -130.40 123.46 -124.63 123.58 -118.39
+  123.67 -113.57 118.00 -105.83 114.87 -102.34
+  112.94 -100.03 108.04 -95.73 104.79 -95.90
+  103.08 -95.99 101.74 -100.97 101.28 -102.31
+endline
+
+line rock-border -close on
+  100.24 -153.55
+  107.50 -145.11
+  110.43 -139.77
+  103.56 -140.35
+  100.03 -145.18
+  103.81 -148.34
+  100.24 -153.55
+endline
+
+line rock-border -close on
+  106.70 -140.09
+  106.74 -131.76
+  102.64 -134.35
+  106.47 -138.65
+  106.70 -140.09
+endline
+
+line rock-border -close on
+  108.83 -132.26
+  105.55 -128.10
+  99.86 -125.97
+  98.72 -130.75
+  108.83 -132.26
+endline
+
+
+line u:splay -visibility off
+  98.60 -118.10
+  114.35 -112.78
+endline
+line u:splay -visibility off
+  98.60 -118.10
+  103.47 -101.88
+endline
+line u:splay -visibility off
+  98.60 -118.10
+  102.94 -144.63
+endline
+line u:splay -visibility off
+  98.60 -118.10
+  98.81 -139.65
+endline
+line u:splay -visibility off
+  98.60 -118.10
+  100.55 -140.03
+endline
+line u:splay -visibility off
+  98.42 -118.11
+  117.62 -122.93
+endline
+line u:splay -visibility off
+  98.42 -118.11
+  108.30 -147.87
+endline
+line u:splay -visibility off
+  98.42 -118.11
+  102.56 -98.75
+endline
+
+
+
+endscrap
+

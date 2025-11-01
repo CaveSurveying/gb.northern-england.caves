@@ -1,0 +1,248 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -231.7 -540.0899999999999 418.5 218.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-103.7 1 1.0} {-412.09 0} limley-pitch2s.xvi 0 {}
+
+# 2025.11.01 created by TopoDroid v. 6.3.39
+
+
+
+
+scrap limley-pitch2s -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  169.92 -69.29
+  161.84 -68.47 131.61 -71.5 123.5 -71.5
+  smooth off
+endline
+
+line wall -subtype debris
+  123.5 -71.5
+  124.07 -71.46 129.92 -81.5 130.5 -81.5
+  smooth off
+endline
+
+line rope-ladder
+  263.5 9.0
+  262.0 -72.0
+endline
+
+point 237.0 87.5 label -scale s -align top-left -text entrance<br>shaft
+
+point 288.0 11.5 label -scale s -text [P7<br>fixed ladders] -align right
+
+line rope-ladder
+  251.5 75.0
+  250.0 15.0
+endline
+
+point 130.0 -144.5 label -text P10 -scale s
+
+line rope -rebelays off -clip off
+  156.5 -77.5
+  122.0 -96.5
+  103.0 -117.5
+  103.0 -249.5
+endline
+
+line wall
+  130.5 -81.5
+  134.0 -81.51 129.96 -86.35 128.4 -88.7
+  121.25 -99.43 103.44 -101.29 97.19 -112.88
+  95.08 -116.8 93.67 -121.2 92.36 -125.42
+  89.38 -135.01 91.47 -145.61 91.57 -155.28
+  91.69 -167.01 90.63 -179.08 90.32 -190.81
+  90.3 -191.49 90.19 -192.16 90.15 -192.84
+  90.12 -193.42 90.15 -194.01 90.11 -194.59
+  90.07 -195.17 88.53 -204.43 88.5 -205.0
+  smooth off
+endline
+
+line wall
+  116.0 -206.5
+  116.0 -198.0 112.6 -186.81 111.36 -179.27
+  111.05 -177.4 110.5 -175.34 109.94 -173.19
+  106.43 -159.79 107.87 -144.1 109.67 -130.3
+  110.18 -126.34 110.44 -121.31 112.52 -117.82
+  119.47 -106.14 135.33 -102.78 146.63 -96.32
+  148.21 -95.42 149.9 -94.6 151.42 -93.61
+  156.91 -90.03 235.88 -86.16 242.81 -86.78
+  smooth off
+endline
+
+line wall
+  247.5 76.0
+  238.08 -57.12
+  169.92 -69.29
+endline
+
+line wall
+  242.81 -86.78
+  264.5 -80.5
+  268.88 75.47
+endline
+
+line u:splay -visibility off
+  98.43 -242.16
+  100.94 -203.92
+endline
+
+line u:splay -visibility off
+  143.95 -243.04
+  159.18 -211.9
+endline
+
+line u:splay -visibility off
+  182.51 -244.65
+  200.1 -213.73
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  168.84 -70.8
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  161.73 -87.46
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  153.96 -78.78
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  167.67 -74.51
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  141.23 -92.48
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  130.03 -89.59
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  116.06 -106.35
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  138.42 -83.0
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  117.85 -107.46
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  140.89 -93.66
+endline
+
+line u:splay -visibility off
+  162.13 -76.25
+  130.09 -101.04
+endline
+
+line u:splay -visibility off
+  189.32 -78.19
+  177.55 -78.34
+endline
+
+line u:splay -visibility off
+  189.32 -78.19
+  192.27 -65.74
+endline
+
+line u:splay -visibility off
+  189.32 -78.19
+  187.65 -90.0
+endline
+
+line u:splay -visibility off
+  240.49 -80.7
+  241.08 -78.59
+endline
+
+line u:splay -visibility off
+  240.49 -80.7
+  234.94 -77.49
+endline
+
+line u:splay -visibility off
+  240.49 -80.7
+  238.08 -57.12
+endline
+
+line u:splay -visibility off
+  240.49 -80.7
+  242.81 -86.78
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -0.04
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -1.69
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -0.17
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 15.35
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -79.59
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -37.52
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -14.77
+endline
+
+line u:splay -visibility off
+  255.95 -5.34
+  255.95 -8.59
+endline
+
+point 98.43 -118.11 station -name "3A"
+
+point 148.73 -74.44 station -name "3B"
+
+point 162.13 -76.25 station -name "3C"
+
+point 189.32 -78.19 station -name "3D"
+
+point 240.49 -80.70 station -name "3E"
+
+point 255.95 -55.81 station -name "3F"
+
+point 255.95 -5.34 station -name "3G"
+
+point 255.95 70.54 station -name "3H"
+
+endscrap
+
+
