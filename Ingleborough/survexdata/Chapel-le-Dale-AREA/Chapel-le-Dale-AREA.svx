@@ -7,8 +7,9 @@
 ;The Chapel-le-Dale resurvey project is ongoing as of autumn 2025. Todd Rye and Lara Bartleet are spearheading the effort, and aim to resurvey the following caves on Chapel-le-Dale. 
 ;The Southerscales/Great Douk system, the High Douk/Hardrawkin system, Knacker Trapper, Sunset Hole, Roaring Hole, Meregill, and Black Shiver Pot. 
 ;Associated inlet entrances will also be surveyed. Notable surface points are noted below to allow other surveyors to add other data to this combined survey. 
+;Where possible the first or final points by sumps were taken from the dive line tie off to allow future dive data to be tied in.
 
-;Notable points
+;Notable surface points
 ;GreatDouk11.5 is a point on the left of the Great Douk stile, marked by a point of Tipex.
 ;Hardrawkin.63/HighDouk1.1 is a dot of tipex on the Hardrawkin side of the dry stone wall near stream level
 ;Surface2.66 is the top of the southwestern gatepost on the main Ingleborough footpath exiting the Nature Reserve
@@ -23,7 +24,7 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-;*include BlackShiver/BlackShiver.svx ;commented out until cave connected to surface
+*include BlackShiver/BlackShiver.svx ;commented out until cave connected to surface
 *include GreatDouk/GreatDouk.svx
 *include HardrawkinPot/HardrawkinPot.svx
 *include HighDouk/HighDouk.svx
@@ -48,6 +49,7 @@
 *equate SurfaceMaster.Surface4.1 SurfaceMaster.Surface2.66
 *Equate SurfaceMaster.Surface4.14 Roaring.Roaring1.19
 *equate GreatDouk.GreatDouk14.10 Southerscales.Southerscales6.3
+*Equate BlackShiver.BlackShiver5.59 SurfaceMaster.Surface3.1
 
 *fix GreatDouk.GreatDouk11.5 74679 77039 339
 

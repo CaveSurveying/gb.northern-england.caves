@@ -9,6 +9,7 @@
 *instrument "BPC Disto"
 
 *export 30
+*entrance 27
 
 ; Centreline data
 *data normal from to length bearing gradient ignoreall

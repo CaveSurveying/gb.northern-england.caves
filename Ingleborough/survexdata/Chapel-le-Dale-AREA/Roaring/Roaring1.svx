@@ -8,6 +8,7 @@
 *instrument "RRCPC Disto"
 
 *export 1 19
+*entrance 19
 
 *data normal from to length bearing gradient ignoreall
 *alias station - ..

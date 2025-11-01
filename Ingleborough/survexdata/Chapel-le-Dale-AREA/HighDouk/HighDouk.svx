@@ -5,6 +5,9 @@
 
 
 *Include HighDouk1.svx
+*Include HighDouk2.svx
+
+*equate HighDouk1.79 HighDouk2.1
 
 
 
