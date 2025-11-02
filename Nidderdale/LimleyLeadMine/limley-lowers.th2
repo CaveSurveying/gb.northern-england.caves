@@ -120,6 +120,10 @@ line wall -subtype presumed
   -176.5 -154.0
 endline
 
+area water
+  l151--62--227
+endarea
+
 line border -id l151--62--227 -close on -subtype invisible
   -46.5 -201.5
   -155.5 -200.5
