@@ -171,7 +171,12 @@ line rock-border -close on
   smooth off
 endline
 
-point -37.56 -159.29 label -text "c2" -scale s -align bottom-right
+line arrow
+  -24.0 -172.0
+  -31.8 -153.37
+endline
+
+point -21.060000000000002 -175.79 label -text "c2" -scale s -align bottom-right
 
 area blocks
   l193-220--102
@@ -206,7 +211,12 @@ endline
 
 point -125.25 -148.0 continuation -align top-left -scale s
 
-point -72.53 -135.01 label -scale s -align top-right -text deep<br>mud
+line arrow
+  -96.5 -208.5
+  -63.5 -151.0
+endline
+
+point -100.03 -218.51 label -scale s -align top-right -text deep<br>mud
 
 line wall
   199.1 -106.21
@@ -285,6 +295,7 @@ line wall
   639.02 -69.05 637.09 -75.21 626.0 -76.5
   623.71 -76.77 610.16 -82.78 607.85 -82.73
   584.27 -82.14 586.08 -89.6 562.5 -91.5
+  smooth off
 endline
 
 line wall -subtype debris
@@ -355,15 +366,15 @@ line wall
   -47.29 -138.38 -53.89 -140.83 -54.93 -140.98
   -63.43 -142.18 -72.48 -141.62 -80.92 -143.52
   -83.93 -144.2 -86.92 -145.4 -89.95 -146.09
-  -97.03 -147.71 -109.75 -150.0 -109.75 -150.0
+  -97.03 -147.71 -104.5 -148.0 -104.5 -148.0
   smooth off
 endline
 
 point -111.75 -154.5 debris -scale s
 
-line wall -subtype debris
-  -109.75 -150.0
-  -109.75 -150.0 -102.75 -149.5 -114.5 -150.0
+line wall -reverse on -subtype debris
+  -119.5 -145.0
+  -119.5 -145.0 -115.5 -143.5 -106.0 -147.0
   smooth off
 endline
 
@@ -374,15 +385,15 @@ endline
 
 line wall
   -114.5 -158.25
-  -113.99 -158.24 -101.44 -155.99 -100.94 -155.99
-  -90.76 -155.99 -80.23 -153.36 -69.91 -153.96
-  -62.57 -154.38 -55.14 -158.11 -47.74 -157.53
+  -113.99 -158.24 -100.0 -159.5 -99.5 -159.5
+  -89.32 -159.5 -76.32 -156.9 -66.0 -157.5
+  -58.66 -157.92 -55.14 -158.11 -47.74 -157.53
   smooth off
 endline
 
 line wall
-  -46.16 -156.23
-  -35.7 -154.49 -22.46 -151.28 -12.87 -146.8
+  -47.74 -157.53
+  -37.28 -155.79 -22.46 -151.28 -12.87 -146.8
   smooth off
 endline
 
@@ -404,16 +415,16 @@ line rock-border -close on
 endline
 
 line border -id lowerp-a13 -close on
-  -61.86 -151.94
-  -61.69 -148.99 -59.55 -143.62 -62.71 -141.42
+  -58.5 -161.5
+  -58.33 -158.55 -59.55 -143.62 -62.71 -141.42
   -66.41 -138.84 -73.03 -140.25 -77.15 -140.52
   -81.04 -140.77 -90.41 -139.37 -93.31 -142.69
   -94.77 -144.35 -92.77 -148.36 -92.31 -149.88
   -91.27 -152.77 -91.24 -157.15 -88.31 -158.63
   -87.99 -158.79 -87.64 -158.9 -87.29 -158.96
-  -79.1 -160.39 -69.66 -155.51 -62.11 -153.13
+  -79.1 -160.39 -75.55 -167.38 -68.0 -165.0
   smooth off
-  -61.86 -151.94
+  -58.5 -161.5
 endline
 
 area water
@@ -545,21 +556,36 @@ line u:splay -visibility off
   -34.52 -152.88
 endline
 
-point 253.5 -131.75 gradient -orientation 99.8
+point 290.0 -131.75 gradient -orientation 94.9
 
-point 231.75 -128.75 gradient -orientation 99.8
+point 242.75 -130.75 gradient -orientation 99.8
 
-point 109.25 -125.0 gradient -orientation 99.8
+line floor-step -reverse on
+  90.5 -135.0
+  93.5 -127.0
+  100.5 -122.5
+  107.5 -120.5
+  107.5 -120.5 115.0 -120.0 117.5 -120.0
+  120.0 -120.0 136.5 -120.0 136.5 -120.0
+  smooth off
+  136.5 -120.0 148.0 -120.0 150.5 -120.0
+  153.0 -120.0 169.0 -121.5 169.0 -121.5
+  smooth off
+  181.5 -123.5
+  189.5 -124.5
+  198.5 -130.5
+  205.0 -137.0
+  209.0 -140.0
+endline
 
-point 7.25 -133.25 gradient -orientation 247.9
+line wall
+endline
 
-point 6.5 -121.75 gradient -orientation 247.9
+point 5.0 -127.75 gradient -orientation 247.9
 
 point 99.75 -128.75 gradient -orientation 99.8
 
-point 184.75 -128.25 gradient -orientation 253.9
-
-point 189.25 -136.5 gradient -orientation 253.9
+point 214.75 -124.25 gradient -orientation 253.9
 
 line u:splay -visibility off
   116.3 -115.57

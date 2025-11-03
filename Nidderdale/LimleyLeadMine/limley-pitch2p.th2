@@ -47,9 +47,9 @@ line pit
   63.99 -113.16
 endline
 
-line pit
-  90.73 -92.5
-  83.95 -101.27 75.78 -116.42 82.02 -127.53
+line pit -outline in
+  87.1 -98.56
+  80.32 -107.33 79.5 -109.5 78.91 -118.45
   smooth off
 endline
 
@@ -96,16 +96,23 @@ line wall -subtype debris
   49.57 -113.89
 endline
 
-line pit
-  97.32 -128.49
-  97.32 -124.24 104.23 -118.57 103.44 -111.96
-  103.0 -108.35 98.05 -94.77 93.95 -96.98
+line pit -outline in
+  99.74 -123.81
+  99.74 -119.56 104.24 -118.57 103.44 -111.96
+  103.01 -108.35 102.75 -107.0 102.13 -102.94
   smooth off
 endline
 
-point 64.25 -18.5 rope-ladder -scale s
+point 64.25 -18.5 fixed-ladder
 
-point 73.25 -3.5 label -align top-right -text [entrance<br>shaft<br>P7 (fixed ladders)] -scale s
+line arrow
+  36.5 -23.5
+  55.75 -21.25
+endline
+
+point 31.75 -22.75 label -scale s -align left -text [fixed<br>ladders (P7)]
+
+point 78.25 -11.75 label -scale s -text entrance<br>shaft -align right
 
 line pit -close on
   54.25 -23.5
@@ -124,7 +131,12 @@ line pit -close on
   smooth off
 endline
 
-point 80.45 -85.67 label -text "P10" -scale s -align top-right
+line arrow
+  64.5 -134.5
+  79.0 -101.75
+endline
+
+point 63.2 -138.17000000000002 label -text "P10" -scale s -align bottom-left
 
 line u:splay -visibility off
   56.54 -125.5

@@ -1,7 +1,7 @@
 encoding  utf-8
 # 2025.11.01 created by TopoDroid v 6.3.39
 
-survey limley -title "Limley Mine"
+survey limley -title "Limley Lead Mine<br><it>Air Shaft<br>Entrance"
 
    input "limley-lowerp.th2"
    input "limley-lowers.th2"
@@ -19,20 +19,21 @@ survey limley -title "Limley Mine"
   limley-lowerp
    endmap
    
-   
+  
    map m1s -projection extended
   limley-pitch2s   
   limley-lowers
    endmap
 
+ join limley-pitch2s  limley-lowers
 
   centerline
   
-    cs UTM30
+    cs OSGB:SE
 
-    station 3G "Limley Shaft Entrance" entrance
-    #fix 3G 0575103 6003863 206 ##2025 Phil's Garmin Instinct 2
-   fix 3G 0575108 6003867 227 ##2025 Google earth
+    station 3H "Limley Shaft Entrance" entrance
+    #fix 3H 0575103 6003863 206 ##2025 Phil's Garmin Instinct 2
+   fix 3H 09935 75742 227 ##2025 Google earth
    
   
     date 2025.10.01 

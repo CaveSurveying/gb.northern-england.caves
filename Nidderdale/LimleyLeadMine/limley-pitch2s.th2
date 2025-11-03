@@ -22,21 +22,52 @@ line wall -subtype debris
   smooth off
 endline
 
-line rope-ladder
-  263.5 9.0
-  262.0 -72.0
+line rock-border -close on
+  255.95 -79.59
+  246.0 -83.0
+  248.0 -91.5
+  257.0 -89.0
+  255.95 -79.59
+endline
+
+line rock-border -close on
+  268.0 -74.5
+  258.5 -74.5
+  259.0 -83.5
+  267.0 -84.0
+  268.0 -74.5
+endline
+
+line rock-border
+endline
+
+line arrow
+  228.5 5.5
+  261.5 -29.5
+endline
+
+line arrow
+  228.0 14.0
+  248.5 39.0
+endline
+
+line fixed-ladder
+  258.0 9.0
+  257.5 -71.5
 endline
 
 point 237.0 87.5 label -scale s -align top-left -text entrance<br>shaft
 
-point 288.0 11.5 label -scale s -text [P7<br>fixed ladders] -align right
+point 223.0 10.0 label -scale s -align left -text fixed<br>ladders
 
-line rope-ladder
-  251.5 75.0
-  250.0 15.0
+point 288.0 11.5 label -scale s -align right -text P7
+
+line fixed-ladder
+  254.5 75.5
+  254.0 14.5
 endline
 
-point 130.0 -144.5 label -text P10 -scale s
+point 126.0 -153.5 label -text P10 -scale s
 
 line rope -rebelays off -clip off
   156.5 -77.5
@@ -54,7 +85,7 @@ line wall
   91.69 -167.01 90.63 -179.08 90.32 -190.81
   90.3 -191.49 90.19 -192.16 90.15 -192.84
   90.12 -193.42 90.15 -194.01 90.11 -194.59
-  90.07 -195.17 88.53 -204.43 88.5 -205.0
+  90.07 -195.17 87.53 -200.43 87.5 -201.0
   smooth off
 endline
 
@@ -72,8 +103,23 @@ endline
 
 line wall
   247.5 76.0
-  238.08 -57.12
+  246.5 -65.0
   169.92 -69.29
+endline
+
+line wall -subtype invisible
+  281.0 75.5
+  281.0 75.5 251.5 96.0 236.0 75.5
+endline
+
+line wall -reverse on -subtype sand
+  247.5 76.0
+  236.0 75.5
+endline
+
+line wall -reverse on -subtype sand
+  281.0 75.5
+  268.88 75.47
 endline
 
 line wall
