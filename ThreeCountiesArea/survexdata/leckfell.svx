@@ -103,6 +103,11 @@
 
 *INCLUDE TipTop/TipTop
 *INCLUDE Earwigo/Earwigo
+*INCLUDE HorseFlyHole/HorseFlyHole
+*INCLUDE Surface/Earwigo2HorseflyHole
+*EQUATE  Earwigo2HorseflyHole.1  Earwigo.entrance
+*EQUATE  Earwigo2HorseflyHole.12 HorseFlyHole.entrance
+
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; South of NottsII area

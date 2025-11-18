@@ -1,0 +1,10 @@
+*BEGIN HorseFlyHole
+
+*EXPORT entrance
+
+*ENTRANCE 	entrance 
+*EQUATE   	entrance	HorseFlyHole-1.1
+
+*INCLUDE	HorseFlyHole-1
+
+*END HorseFlyHole
