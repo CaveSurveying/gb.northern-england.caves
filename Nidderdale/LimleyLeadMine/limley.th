@@ -1,7 +1,7 @@
 encoding  utf-8
 # 2025.11.01 created by TopoDroid v 6.3.39
 
-survey limley -title "Limley Lead Mine<br><it>Air Shaft<br>Entrance"
+survey limley -title "Limley Lead Mine<br><it>Air Shaft Entrance"
 
    input "limley-lowerp.th2"
    input "limley-lowers.th2"
@@ -12,20 +12,37 @@ survey limley -title "Limley Lead Mine<br><it>Air Shaft<br>Entrance"
    input "CrossSections/limley-xx2.th2"
    input "CrossSections/limley-xx3.th2"
    input "CrossSections/limley-xx4.th2"
+   
+   input LimleyLeadMine.th
 
+map m1pFull -projection plan
+  limley-pitch2p   
+   break
+  limley-lowerp  
+  break
+  ##old schematic below
+  LimleyLeadMinePlan2@LimleyLeadMine
+     break
+     LimleyLeadMinePlan1@LimleyLeadMine
+ endmap
+     
    map m1p -projection plan
   limley-pitch2p   
-  break
+   break
   limley-lowerp
+  break
+  ##old schematic below
    endmap
-   
-  
+    
    map m1s -projection extended
   limley-pitch2s   
   limley-lowers
    endmap
 
  join limley-pitch2s  limley-lowers
+
+##use this to join 2025 to schematic, using 2025 air shaft GPS as fixed point
+equate 11C@LimleyLeadMine 3H
 
   centerline
   

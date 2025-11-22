@@ -18,9 +18,9 @@ survey LimleyLeadMine -title "Limley Lead Mine,<br><it>Nidderdale"
  
   centerline
   
-    cs UTM30
-    station 0 "Limley Lead Mine" entrance
-    fix 0 0575252 6003862 214   ##approx from google earth
+   # cs UTM30
+   # station 0 "Limley Lead Mine" entrance
+   # fix 0 0575252 6003862 214   ##approx from google earth
     
     date 1900.02.24 
     team "Phil Walker" #digitised from 1890 schematic

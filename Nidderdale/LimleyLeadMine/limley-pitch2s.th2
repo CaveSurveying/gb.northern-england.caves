@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -231.7 -540.0899999999999 418.5 218.0
+##XTHERION## xth_me_area_adjust -231.7 -540.0899999999999 411.0 218.0
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-103.7 1 1.0} {-412.09 0} limley-pitch2s.xvi 0 {}
 
@@ -58,22 +58,25 @@ endline
 
 point 237.0 87.5 label -scale s -align top-left -text entrance<br>shaft
 
-point 223.0 10.0 label -scale s -align left -text fixed<br>ladders
-
-point 288.0 11.5 label -scale s -align right -text P7
+point 223.0 10.0 label -scale s -align left -text fixed<br>ladders<br>(P7)
 
 line fixed-ladder
   254.5 75.5
   254.0 14.5
 endline
 
-point 126.0 -153.5 label -text P10 -scale s
+point 126.0 -153.5 label -scale s -align right -text fixed<br>ladder<br>(P6)
+
+line fixed-ladder -clip off
+  102.5 -121.0
+  102.5 -250.0
+endline
 
 line rope -rebelays off -clip off
   156.5 -77.5
   122.0 -96.5
-  103.0 -117.5
-  103.0 -249.5
+  96.5 -122.0
+  96.5 -249.5
 endline
 
 line wall
@@ -110,6 +113,7 @@ endline
 line wall -subtype invisible
   281.0 75.5
   281.0 75.5 251.5 96.0 236.0 75.5
+  smooth off
 endline
 
 line wall -reverse on -subtype sand

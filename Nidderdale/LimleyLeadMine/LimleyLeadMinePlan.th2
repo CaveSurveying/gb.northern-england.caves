@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 12824.825 9010.88
+##XTHERION## xth_me_area_adjust -144.0 -144.0 12824.825 8978.88
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {11476.380000000001 1 1.0} {4224.91 0} limley.xvi 0 {}
 
@@ -18,7 +18,7 @@ line wall
   5078.0 6302.0
 endline
 
-point 11378.0 4222.0 label -text LIMLEY<br>LEAD<br>MINE -scale xl -align bottom-left
+point 11378.0 4222.0 label -align bottom-left -text LIMLEY<br>LEAD<br>MINE -scale m
 
 line wall
   5080.32 6346.96
@@ -71,7 +71,7 @@ line wall
   2544.0 7092.0
 endline
 
-point 1492.0 7564.0 label -orientation 308.1 -scale l -text [Thumper hole in roof] -align top-right
+point 1492.0 7564.0 label -scale s -align top-right -text [thumper hole<br>in roof]
 
 line pit -close on
   8560.0 5194.0
@@ -81,35 +81,40 @@ line pit -close on
   8560.0 5194.0
 endline
 
-point 7880.0 5391.0 label -orientation 295.0 -scale l -text hopper -align bottom-left
+point 7880.0 5391.0 label -scale s -text hopper -align bottom-left
 
-point 8210.0 5269.0 label -orientation 305.7 -scale l -text hopper -align bottom-left
+point 8210.0 5269.0 label -scale s -text hopper -align bottom-left
 
-point 9224.0 5192.0 label -orientation 305.7 -scale l -align bottom-left -text swallow<br>hole
+point 9224.0 5204.0 label -scale s -text swallow<br>hole -align top-right
 
-point 8597.0 5133.0 label -orientation 305.7 -scale l -text sump -align bottom-left
+line arrow
+  8300.0 5144.0
+  8544.0 5216.0
+endline
 
-point 7134.0 5661.0 label -orientation 305.7 -scale l -text hopper -align bottom-left
+point 8245.0 5121.0 label -scale s -text sump -align left
 
-point 6794.0 5944.0 label -orientation 305.7 -scale l -align top-right -text crosscut?
+point 7134.0 5661.0 label -scale s -text hopper -align bottom-left
 
-point 5152.0 6402.0 label -orientation 305.7 -scale l -align top-right -text [Stone's Rise into top grits]
+point 6794.0 5944.0 label -scale s -align top-right -text crosscut?
 
-point 4088.0 6724.0 label -orientation 305.7 -scale l -align top-right -text [Harker's Hopper]
+point 5152.0 6402.0 label -scale s -align top-right -text [Stone's Rise<br>into top grits]
 
-point 3426.0 6880.0 label -orientation 305.7 -scale l -align top-right -text [E.Alsop's Hopper]
+point 4088.0 6724.0 label -scale s -align top-right -text [Harker's Hopper]
 
-point 2962.0 7122.0 label -orientation 305.7 -scale l -align top-right -text [Double Hoppers]
+point 3426.0 6880.0 label -scale s -align top-right -text [E.Alsop's Hopper]
 
-point 2310.0 7314.0 label -orientation 305.7 -scale l -align top-right -text [Rise into top grits]
+point 2962.0 7122.0 label -scale s -align top-right -text [double hoppers]
 
-point 2114.0 7478.0 label -orientation 305.7 -scale l -align top-right -text [Stone's Rise]
+point 2310.0 7314.0 label -scale s -align top-right -text [rise into<br>top grits]
 
-point 1784.0 7464.0 label -orientation 305.7 -scale l -align top-right -text [Harker's Rise]
+point 2074.0 7610.0 label -scale s -text [Stone's Rise] -align right
 
-point 1314.0 7672.0 label -orientation 305.7 -scale l -text [Forehead, April 1895] -align top-right
+point 1736.0 7288.0 label -scale s -text [Harker's Rise] -align bottom-left
 
-point 7018.0 1348.0 label -align right -text [supposed limit of<br>Stone's Cross Cut<br>(800' / 244m)] -scale l
+point 1222.0 7656.0 label -scale s -align top-left -text [forehead<br>(April 1895)]
+
+point 7018.0 1348.0 label -align right -scale s -text [supposed limit of<br>Stone's Cross Cut<br>(800' / 244m)]
 
 line wall
   6830.0 5756.0
@@ -143,6 +148,49 @@ endline
 line wall
   6782.0 5886.0
   6784.0 5812.0
+endline
+
+line arrow
+  7134.0 5661.0
+  7177.0 5719.0
+endline
+
+line arrow
+endline
+
+line arrow
+  2962.0 7122.0
+  2944.0 7064.0
+endline
+
+line arrow
+  3426.0 6880.0
+  3406.1099999999997 6826.290000000001
+endline
+
+line arrow
+  4088.0 6724.0
+  4072.0 6652.0
+endline
+
+line arrow
+  5152.0 6402.0
+  5168.0 6328.0
+endline
+
+line arrow
+  7880.0 5391.0
+  7915.0 5460.0
+endline
+
+line arrow
+  8210.0 5269.0
+  8250.0 5326.0
+endline
+
+line arrow
+  9224.0 5204.0
+  9196.0 5112.0
 endline
 
 line wall
@@ -202,7 +250,12 @@ line wall -subtype presumed
   7032.0 5811.0
 endline
 
-point 8999.0 5222.0 label -orientation 298.8 -text [Air Shaft] -align top-right -scale l
+line arrow
+  8931.0 5498.0
+  8964.0 5176.0
+endline
+
+point 8931.0 5498.0 label -text [air shaft] -scale s -align top
 
 line wall
   7142.0 5731.0

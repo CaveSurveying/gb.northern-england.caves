@@ -211,12 +211,12 @@ endline
 
 point -125.25 -148.0 continuation -align top-left -scale s
 
-line arrow
+line arrow -visibility off
   -96.5 -208.5
   -63.5 -151.0
 endline
 
-point -100.03 -218.51 label -scale s -align top-right -text deep<br>mud
+point -100.03 -218.51 label -scale s -align top-right -text deep<br>mud -visibility off
 
 line wall
   199.1 -106.21

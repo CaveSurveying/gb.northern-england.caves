@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -150.92000000000002 -376.57 246.5 138.75
+##XTHERION## xth_me_area_adjust -150.92000000000002 -376.57 259.75 169.25
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-22.92 1 1.0} {-248.57 0} limley-pitch2p.xvi 0 {}
 
@@ -103,16 +103,18 @@ line pit -outline in
   smooth off
 endline
 
-point 64.25 -18.5 fixed-ladder
+point 90.25 -110.5 fixed-ladder
+
+point 64.75 -18.5 fixed-ladder
 
 line arrow
-  36.5 -23.5
+  4.75 37.25
   55.75 -21.25
 endline
 
-point 31.75 -22.75 label -scale s -align left -text [fixed<br>ladders (P7)]
+point 2.25 40.0 label -scale s -align left -text [fixed<br>ladders (P7)]
 
-point 78.25 -11.75 label -scale s -text entrance<br>shaft -align right
+point 73.0 2.5 label -scale s -text entrance<br>shaft -align top-right
 
 line pit -close on
   54.25 -23.5
@@ -132,11 +134,11 @@ line pit -close on
 endline
 
 line arrow
-  64.5 -134.5
-  79.0 -101.75
+  127.0 -158.75
+  87.75 -109.25
 endline
 
-point 63.2 -138.17000000000002 label -text "P10" -scale s -align bottom-left
+point 130.45 -162.92000000000002 label -scale s -text fixed<br>ladder<br>(P6) -align bottom-right
 
 line u:splay -visibility off
   56.54 -125.5
