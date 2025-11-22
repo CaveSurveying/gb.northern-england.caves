@@ -171,12 +171,12 @@ line rock-border -close on
   smooth off
 endline
 
-line arrow
-  -24.0 -172.0
+line arrow -scale s
+  -14.060000000000002 -186.29
   -31.8 -153.37
 endline
 
-point -21.060000000000002 -175.79 label -text "c2" -scale s -align bottom-right
+point -14.060000000000002 -186.29 label -text "c2" -scale s -align bottom-right
 
 area blocks
   l193-220--102
@@ -211,7 +211,7 @@ endline
 
 point -125.25 -148.0 continuation -align top-left -scale s
 
-line arrow -visibility off
+line arrow -visibility off -scale s
   -96.5 -208.5
   -63.5 -151.0
 endline

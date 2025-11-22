@@ -48,7 +48,8 @@ input Guscott/GuscottIndex.th
 
 ##OTHER CAVES
 #input NiddHeads/NIddHeadsIndex.th
-#input LimleyLeadMine/LimleyLeadMine.th
+#input LimleyLeadMine/LimleyLeadMine.th  ##original
+input LimleyLeadMine/limley.th  ##2025
 #input LowEglins/LowEglins.th
 #input LofthousePot/LofthousePot.th
 #input TomTaylors/TomTaylors.th
@@ -114,9 +115,7 @@ surface
    bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10013 76401] ##THIS IS THE ONLY ONE THAT WORKS CORRECTLY WITH THE OVERLAY OSM
   # bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10005 76400] #using Nick's trimble correctionm for Man 29/09/24
   #bitmap XTherionFiles\OSM673x1929.png [241 1572 09976 76120  285 1880 10003 76401 ] #using GE
- 
-  
-   
+    
 ##8 digits, 1-2 are pixels of Goyden, 3-4 actual, 5-6 pixels of Manchester, 7-8 actual
 endsurface
 
@@ -128,11 +127,12 @@ endmap
 
 map SurfacePlan  
   OverlaysPlan@Overlays                 ##hydological assumed / proved connection lines  
-  GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
+  #GoydenSystem@NidderdaleFixedPoints   ##all entrance GPS (NEEDS AN UPDATE)  
 endmap
 
 map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire<br>United Kingdom"  
   #LimleyLeadMinePlan@LimleyLeadMine
+  #m1pFull@limley
   OldQuarryPotPlan@OQP                  ##NEED NEW GPS
   PigskinPotPlan@PigskinPot             ##NEED NEW GPS
   break  
@@ -173,9 +173,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   LimleyInletPlan@LimleyInlet
   NurgatoryPlan@Nurgatory   
   break
-
-  
-  
+ 
   ####NewGoyden/Frog####
   ThropePotPlan
   AstronomersPlan@astronomers

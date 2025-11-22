@@ -103,11 +103,11 @@ line pit -outline in
   smooth off
 endline
 
-point 90.25 -110.5 fixed-ladder
+point 90.25 -110.5 fixed-ladder -scale s
 
-point 64.75 -18.5 fixed-ladder
+point 64.75 -18.5 fixed-ladder -scale s
 
-line arrow
+line arrow -scale s
   4.75 37.25
   55.75 -21.25
 endline
@@ -133,7 +133,7 @@ line pit -close on
   smooth off
 endline
 
-line arrow
+line arrow -scale s
   127.0 -158.75
   87.75 -109.25
 endline
