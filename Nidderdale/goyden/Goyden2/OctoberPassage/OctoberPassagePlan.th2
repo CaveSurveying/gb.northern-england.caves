@@ -311,7 +311,7 @@ endline
 
 point 701.0 -344.0 label -align bottom-right -scale m -text [Grade 3B]
 
-line arrow
+line arrow -scale m
   768.0 -275.0
   690.0 -325.0
   695.0 -332.0

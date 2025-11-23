@@ -389,7 +389,7 @@ line arrow -context point label -scale xs
   2639.285714285714 5321.428571428572
 endline
 
-point 2998.6024844720496 5285.403726708075 label -scale m -text [grovel,<br>sumps fast] -align right
+point 2998.6024844720496 5271.11801242236 label -scale m -text [grovel,<br>sumps fast] -align right
 
 line flowstone
   848.0 12934.0
@@ -640,7 +640,7 @@ endline
 line flowstone
 endline
 
-point 3145.857142857143 4243.571428571428 label -text Fossil<br>Passage -scale xl -align right
+point 3188.714285714286 4261.428571428572 label -text Fossil<br>Passage -scale xl -align right
 
 line ceiling-step
   2932.0 3096.0
@@ -1263,7 +1263,7 @@ area clay
   l210-675-2830
 endarea
 
-line floor-step
+line floor-step -reverse on
   940.0 2954.0
   940.0 2954.0 973.43 2939.29 976.0 3050.0
   smooth off

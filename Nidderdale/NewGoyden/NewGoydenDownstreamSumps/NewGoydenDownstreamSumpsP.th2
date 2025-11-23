@@ -758,7 +758,7 @@ point 805.5 2463.0 gradient -orientation 194.8 -scale m
 
 point 620.5 3527.5 label -scale m -text [Grade 3B]
 
-line arrow -context point label -scale xs
+line arrow -context point label -scale m
   499.0 3522.0
   614.0 3546.0
   617.0 3535.0

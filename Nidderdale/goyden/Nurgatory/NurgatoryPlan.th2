@@ -186,7 +186,7 @@ scrap LowerNurgatoryP1 -projection plan -scale [1400.0 -3460.0 1720.0 -3454.0 0.
 
 point 1113.0 -2214.0 label -scale m -text [Grade 3B] -align bottom-right
 
-line arrow -context point label -scale xs
+line arrow -context point label -scale m
   1111.0 -1822.0
   1114.0 -2198.0
   1131.0 -2198.0

@@ -9,7 +9,7 @@ scrap LimleyInletP1 -projection plan -scale [1390.0 -3460.0 1718.0 -3454.0 0.0 0
 
 point 1407.0 -3189.0 label -text [Grade 3B] -scale m -align right
 
-line arrow -context point label -scale xs
+line arrow -context point label -scale m
   1293.0 -3073.0
   1375.0 -3195.0
   1388.0 -3191.0
