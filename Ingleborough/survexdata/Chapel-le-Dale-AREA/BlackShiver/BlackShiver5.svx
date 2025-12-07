@@ -9,6 +9,7 @@
 *instrument "Harry Kettles SAP 6"
 
 *export 1 59
+*entrance 59
 
 ; Centreline data
 *data normal from to length bearing gradient ignoreall
