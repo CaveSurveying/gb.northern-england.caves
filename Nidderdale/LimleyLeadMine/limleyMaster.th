@@ -1,0 +1,36 @@
+encoding  utf-8
+# 2026.01.24 created by TopoDroid v 6.3.39
+
+survey limleyMaster -title "Limley Lead Mine<br><it>Air Shaft Entrance"
+
+input limley.th
+input limley2.th
+
+map m1p -projection plan
+ m1p@limley
+ m1p@limley2
+endmap
+
+map m1s -projection extended
+ m1s@limley
+ m1s@limley2
+endmap
+
+##PLAN JOINS
+join limley-lowerp@limley limley2-westernChokep@limley2
+
+##ELEVATION JOINS
+join limley-lowers@limley limley2-westernChokes@limley2
+
+  centerline
+  
+  equate 0A@limley 0A@limley2
+  
+##TODO add in schematics below will not work yet  
+##use this to join 2025 to schematic, using 2025 air shaft GPS as fixed point
+#equate 11C@LimleyLeadMine 3H
+  
+      endcenterline
+
+endsurvey
+

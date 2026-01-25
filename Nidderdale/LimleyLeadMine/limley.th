@@ -7,23 +7,26 @@ survey limley -title "Limley Lead Mine<br><it>Air Shaft Entrance"
    input "limley-lowers.th2"
    input "limley-pitch2p.th2"
    input "limley-pitch2s.th2"
+   
+   
   # input "CrossSections/limley-xx0.th2"
    input "CrossSections/limley-xx1.th2"
    input "CrossSections/limley-xx2.th2"
    input "CrossSections/limley-xx3.th2"
    input "CrossSections/limley-xx4.th2"
    
-   input LimleyLeadMine.th
+  # input LimleyLeadMine.th
 
 map m1pFull -projection plan
   limley-pitch2p   
    break
   limley-lowerp  
   break
+  
   ##old schematic below
-  LimleyLeadMinePlan2@LimleyLeadMine
-     break
-     LimleyLeadMinePlan1@LimleyLeadMine
+ # LimleyLeadMinePlan2@LimleyLeadMine
+   #  break
+   #  LimleyLeadMinePlan1@LimleyLeadMine
  endmap
      
    map m1p -projection plan
@@ -31,18 +34,22 @@ map m1pFull -projection plan
    break
   limley-lowerp
   break
+  
   ##old schematic below
    endmap
     
    map m1s -projection extended
   limley-pitch2s   
   limley-lowers
+  
    endmap
 
  join limley-pitch2s  limley-lowers
 
+
+
 ##use this to join 2025 to schematic, using 2025 air shaft GPS as fixed point
-equate 11C@LimleyLeadMine 3H
+#equate 11C@LimleyLeadMine 3H
 
   centerline
   

@@ -1,0 +1,92 @@
+encoding  utf-8
+# 2026.01.24 created by TopoDroid v 6.3.39
+
+survey limley2 -title "Limley - Western Choke"
+
+   input "limley2-westernChokep.th2"
+   input "limley2-westernChokes.th2"
+   
+   input "CrossSections/limley2-xx0.th2"
+   input "CrossSections/limley2-xx1.th2"
+
+   map m1p -projection plan
+     limley2-westernChokep
+   endmap
+   
+   map m1s -projection extended
+     limley2-westernChokes
+   endmap
+
+  centerline
+    date 2025.11.22 
+    # team phil walker, Chris fox 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    0A 1 1.09 288.3 -24.6
+    # extend auto
+    0A . 0.46 345.7 5.1
+    0A . 2.49 9.0 83.8
+    0A . 0.66 84.6 -80.7
+    extend left
+    1 2 4.19 264.3 -4.6
+    # extend auto
+    1 . 0.46 162.0 0.3
+    1 . 0.80 6.7 -21.4
+    1 . 0.97 268.5 -74.3
+    extend left
+    2 3 2.03 255.1 25.0
+    # extend auto
+    2 . 0.99 159.1 4.4
+    2 . 1.01 152.8 68.8
+    2 . 0.83 162.9 -82.3
+    extend left
+    3 4 2.14 227.0 68.7
+    # extend auto
+    3 . 0.67 179.7 25.0
+    3 . 1.13 14.0 15.9
+    3 . 3.30 146.7 83.0
+    3 . 2.08 79.0 -54.6
+    extend left
+    4 5 4.12 294.4 1.8
+    # extend auto
+    4 . 1.90 29.0 5.5
+    4 . 1.32 34.2 77.8
+    4 . 2.16 40.2 -64.8
+    extend left
+    5 6 3.35 258.3 14.5
+    # extend auto
+    5 . 1.12 164.3 5.3
+    5 . 1.09 174.8 83.7
+    5 . 1.03 223.9 -69.1
+    extend vertical
+    7 6 1.20 162.1 80.0
+    extend left
+    6 8 1.89 236.2 -39.2
+    # extend auto
+    6 . 3.34 119.0 78.5
+    6 . 1.58 106.0 -85.5
+    6 . 0.82 159.3 10.5
+    6 . 0.98 358.7 -29.3
+    extend left
+    8 9 2.54 267.2 -38.1
+    # extend auto
+    8 . 0.32 168.2 -2.5
+    8 . 0.84 5.3 -21.5
+    8 . 2.38 215.4 -77.5
+    8 . 2.31 213.8 -78.7
+    units left right up down meters
+    data dimensions station left right up down
+    8 0.40 0.77 0.77 2.32
+    1 0.45 0.72 0.72 0.93
+    6 0.79 0.72 0.72 1.57
+    0A 0.00 0.39 0.39 0.65
+    5 1.11 0.00 0.00 0.96
+    4 0.00 1.89 1.89 1.96
+    3 0.64 0.59 0.59 1.70
+    2 0.98 0.00 0.00 0.82
+  endcenterline
+
+endsurvey
+
