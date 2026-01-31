@@ -8,6 +8,8 @@
 *Include Sunset4.svx
 *Include Sunset5.svx
 *Include Sunset6.svx
+*Include Sunset7.svx
+*Include Sunset8.svx
 
 *Equate Sunset1.1 Sunset2.23
 *Equate Sunset1.37 Sunset2.1
@@ -15,5 +17,7 @@
 *Equate Sunset3.16 Sunset4.21
 *Equate Sunset4.4 Sunset5.1
 *Equate Sunset5.10 Sunset6.1
+*Equate Sunset6.1 Sunset8.1
+*Equate Sunset7.1 Sunset6.34
 
 *end Sunset
