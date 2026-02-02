@@ -10,6 +10,7 @@
 *EXPORT	 DaleBarnCave.ExpressWay-Recon.path5.0
 
 *INCLUDE DaleBarnCave/DaleBarnCave
+*INCLUDE BurnlysBottom/BurnlysBottom
 
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>
@@ -20,8 +21,6 @@
 *ENTRANCE	BlunderPot		
 *FIX		BrowsPastureCave	REFERENCE 73030 76840 252
 *ENTRANCE	BrowsPastureCave
-*FIX 		BurnleysBottom		REFERENCE 71360 77100 390
-*ENTRANCE 	BurnleysBottom
 *FIX		CappedShaft			REFERENCE 70200 76030 398
 *ENTRANCE	CappedShaft
 *FIX		CollapseCave		REFERENCE 71050 76870 390

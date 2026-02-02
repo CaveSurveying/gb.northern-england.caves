@@ -10,11 +10,11 @@
 
 *date 2013.03.03
 
-*team Instruments Tom Clayton 
-*team Notes Emma Wilson
-*team Tape Tom Clayton
+*team "Tom Clayton" insts 
+*team "Emma Wilson" notes
+*team "Tom Clayton" tape
 
-*instrument Tom Clayton's Tandem Comp and Clino
+*instrument insts "Tom Clayton's Tandem Comp and Clino"
 
 *calibrate compass +1.0	; Calibrated on 03/03/2013
 *calibrate clino   +0.5 ; Calibrated on 03/03/2013

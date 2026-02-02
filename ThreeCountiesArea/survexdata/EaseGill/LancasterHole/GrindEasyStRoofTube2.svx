@@ -7,11 +7,11 @@
 
 *date 2012.04.28
 
-*team Instruments Tom Clayton 
-*team Notes Emma Wilson
-*team Tape Kathryn Hopkins
+*team "Tom Clayton" insts 
+*team "Emma Wilson" notes
+*team "Kathryn Hopkins" Tape
 
-*instrument Tom Clayton's Suunto Tandem Compass and Clino, RRCPC tape read from end of black strap - i.e. 28cm extra from zero. 
+*instrument insts "Tom Clayton's Suunto Tandem Compass and Clino, RRCPC tape read from end of black strap - i.e. 28cm extra from zero. "
 
 *calibrate compass +1.0	; Calibrated on 03/03/2013
 *calibrate clino   +0.5 ; Calibrated on 03/03/2013

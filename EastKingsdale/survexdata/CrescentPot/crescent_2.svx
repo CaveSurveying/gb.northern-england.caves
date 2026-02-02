@@ -8,7 +8,7 @@
 *team "Hannah Walker" Instruments ;mostly  on Tandem but first few legs Ian Walker with Distox (I think up to station 10, "distinctive stal") - junction with inlet
 *team "Ian Walker" instruments
 *team "James Carlisle" Notes 
-*instrument Becka's Tandem as comp + clino and Becka's 30m tape except where Becka's Distox
+*instrument insts "Becka's Tandem as comp + clino and Becka's 30m tape except where Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

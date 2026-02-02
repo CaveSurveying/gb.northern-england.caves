@@ -7,7 +7,7 @@
 *team "Becka Lawson" Instruments ; on tandem
 *team "Hannah Walker" Instruments ; on Distox2 #1
 *team "Ian Walker" Notes 
-*instrument Distox2 "Becka's  #1 for tape and clino" ; Becka's tandem for compass (also Distox for compass after semicolon but not calibrated so ignore)
+*instrument insts "Becka's  #1 for tape and clino" ; Becka's tandem for compass (also Distox for compass after semicolon but not calibrated so ignore)
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -14,10 +14,10 @@
 
 *title "Connecting entrances of Short Drop, Coal Hole, Rumbling Hole and ByRon"
 *date 2014.11.23
-*team Instruments Andy Chapman
-*team Notes Neil Pacey
-*team Tape Dinny Davies
-*instrument Neil Pacey's comp and clino set
+*team "Andy Chapman" insts
+*team "Neil Pacey" notes
+*team "Dinny Davies" tape
+*instrument insts"Neil Pacey's comp and clino set"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

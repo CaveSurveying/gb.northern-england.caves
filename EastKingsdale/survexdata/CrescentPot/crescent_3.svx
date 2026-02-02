@@ -6,7 +6,7 @@
 *date 2013.10.05
 *team "Ian Walker" Instruments ;with Distox 
 *team "Becka Lawson" Notes 
-*instrument Distox "Becka's Distox"
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

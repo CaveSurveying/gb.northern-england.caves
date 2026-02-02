@@ -7,7 +7,7 @@
 *team "Philip Withnall" instruments ;Distox 
 *team "Nathaniel Dalton" dog ;Target 
 *team "Becka Lawson" Notes 
-*instrument Distox2 "Becka's Distox2 1"
+*instrument insts "Becka's Distox2 1"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -3,7 +3,8 @@
 *EXPORT 1 10 17 22
 
 *DATE 2020.1.26
-*TEAM Diane Arthurs survey phone, Simon Cornhill Distox2
+*TEAM "Diane Arthurs" notes
+*TEAM "Simon Cornhill" insts
 ;Overland survey from Brunskill Pot to Lamb Trap, Fenwick pot and finally Wee Pot
 
 *alias station - ..

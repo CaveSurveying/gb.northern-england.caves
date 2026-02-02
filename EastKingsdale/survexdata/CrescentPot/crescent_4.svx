@@ -6,7 +6,7 @@
 *date 2014.08.31
 *team "Sam Allshorn" Tape 
 *team "Becka Lawson" Notes 
-*instrument Distox "Becka's Old Distox"
+*instrument insts "Becka's Old Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

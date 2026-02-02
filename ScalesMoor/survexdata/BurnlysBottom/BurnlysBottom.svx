@@ -1,0 +1,15 @@
+*BEGIN BurnlysBottom
+
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION AUTO 71360 77100 390
+
+*EXPORT		BurnlysBottom-1.0
+   
+*INCLUDE 	BurnlysBottom-1
+
+*EQUATE 	Entrance BurnlysBottom-1.0
+*ENTRANCE	Entrance
+*FIX 		Entrance 71360 77100 390
+
+*END BurnlysBottom

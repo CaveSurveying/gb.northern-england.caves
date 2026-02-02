@@ -6,7 +6,7 @@
 *date 2013.09.07
 *team "Becka Lawson" Instruments
 *team "Neil Pacey" Notes 
-*instrument Distox "Becka's Distox"
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

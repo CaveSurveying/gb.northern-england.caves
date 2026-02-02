@@ -6,7 +6,7 @@
 *date 2013.07.07
 *team "Julian Todd" Instruments 
 *team "Becka Lawson" Notes 
-*instrument Distox "Becka's Distox"
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
