@@ -8,7 +8,9 @@
 *BEGIN 1
 *EXPORT 0 5 37 40
 
-*TEAM Di Arthurs pda & Simon Cornhill distoX
+*TEAM "Diane Arthurs" notes
+*TEAM "Simon Cornhill" insts
+*INSTRUMENT insts "PDA and Distox"
 ;calibrated error <0.5
 
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

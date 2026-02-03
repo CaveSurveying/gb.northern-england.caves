@@ -9,8 +9,9 @@
 ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination 54.203604°N 2.458170°W  2014.26.11
 
 *BEGIN 1
-*TEAM Di Arthurs pda, Simon Cornhill distox
-; DistoX calibration error less than 0.5 deg
+*TEAM "Diane Arthurs" notes
+*TEAM "Simon Cornhill" insts
+*INSTRUMENT insts "PDA and Distox"; DistoX calibration error less than 0.5 deg
 
 *DATE 2014.11.26
 
