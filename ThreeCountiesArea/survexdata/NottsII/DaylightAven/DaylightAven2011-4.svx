@@ -8,10 +8,10 @@
 
 *title "Upper Daylight Aven the bitterend"
 *date 2011.10.31
-*team Insts Richard Bendall
-*team tape Dave Ramsay
-*team Notes Dave Ramsay
-*instrument Compass and Clino - rr2
+*team "Richard Bendall" Insts
+*team "Dave Ramsay" tape
+*team "Dave Ramsay" Notes
+*instrument Compass Clino "rr2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

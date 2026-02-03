@@ -4,8 +4,9 @@
 
 *title "Final survey of the Mohole dig"
 *date 2014.05.27
-*team Frank Pearson and Tim Allen
-*instrument probably Tim Allen's instruments
+*team "Frank Pearson" 
+*team "Tim Allen"
+*instrument insts "probably Tim Allen's instruments"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

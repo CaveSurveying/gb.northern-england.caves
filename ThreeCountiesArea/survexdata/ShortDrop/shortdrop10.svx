@@ -2,9 +2,9 @@
 *export 67X 41X
 *title "Short Drop: rest of Ancient Highway from Portcullis to N and W to pitch and connection"
 *date 2022.01.01
-*team Instruments Andrew Atkinson
-*team Notes Becka Lawson
-*instrument Becka1 Distox2
+*team "Andrew Atkinson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka1 Distox2"
 
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long
 

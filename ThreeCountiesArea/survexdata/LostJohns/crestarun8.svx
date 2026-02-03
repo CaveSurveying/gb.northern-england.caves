@@ -4,11 +4,11 @@
 *title "Survey from handline climb down from Lyle Caverns Upper Series towards Cresta Run"
 
 *date 2013.12.28
-*team Instruments Nick Edwards
-*team Tape Kayleigh Gilkes
-*team Notes Becka Lawson
+*team "Nick Edwards" Instruments
+*team "Kayleigh Gilkes" Tape
+*team "Becka Lawson" Notes
 
-*instrument Becka's Distox  
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

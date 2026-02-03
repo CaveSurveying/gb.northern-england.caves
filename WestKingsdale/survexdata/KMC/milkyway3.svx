@@ -4,9 +4,9 @@
 
 *title "From end of Milky Way 2 at start of Toyland chamber to start of low crawl towards Good Friday Passage"
 *date 2014.02.23
-*team Instruments Andy Chapman
-*team Notes Becka Lawson
-*instrument new Leck Fell Distox2 (first outing!) and Becka's Distox(old) - old Distox calibration didn't seem great so its measurements are in second, after the semi-colon, and are OPPOSITE direction, with main readings the Distox2 readings which was calibrated (0.45) this morning
+*team "Andy Chapman" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "new Leck Fell Distox2 (first outing!) and Becka's Distox(old) - old Distox calibration didn't seem great so its measurements are in second, after the semi-colon, and are OPPOSITE direction, with main readings the Distox2 readings which was calibrated (0.45) this morning"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

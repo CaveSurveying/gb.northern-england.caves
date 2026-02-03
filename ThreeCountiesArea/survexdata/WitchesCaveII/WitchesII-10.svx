@@ -3,10 +3,10 @@
 
 *title "Passages up Lake Chamber Aven beyond Zigzag"
 *date 2011.03.21
-*team Instruments Richard Bendall
-*team Tape Dave Ramsay
-*team Notes Dave Ramsay
-*instrument RRCPC kit2 30m tape 
+*team "Richard Bendall" Instruments
+*team "Dave Ramsay" Tape
+*team "Dave Ramsay" Notes
+*instrument insts "RRCPC kit2 30m tape"
 
 
 

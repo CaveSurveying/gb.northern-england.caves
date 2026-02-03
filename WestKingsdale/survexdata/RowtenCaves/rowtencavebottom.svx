@@ -4,10 +4,10 @@
 *team "Rachel Turnbull" notes 								
 *team "Caroline Nunn" compass clino tape  			
 *team "Mike Butcher" backcompass backclino
-*instrument "Beardy's Tandum" compass							
-*instrument "Beardy's Tandum" clino
-*instrument "Beardy's Tandum" backcompass
-*instrument "Beardy's Tandum" backclino
+*instrument compass "Beardy's Tandum" 							
+*instrument clino "Beardy's Tandum" 
+*instrument backcompass "Beardy's Tandum" 
+*instrument backclino "Beardy's Tandum" 
 
 *date 2015.06.13
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

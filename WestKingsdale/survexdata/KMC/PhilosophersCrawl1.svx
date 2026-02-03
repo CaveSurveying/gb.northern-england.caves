@@ -9,11 +9,11 @@
 *title "Philosophers Crawl"
 *date 2008.03.15
 
-*team instruments Richard Vidler
-*team tape Tony Cook
-*team notes Footleg
-*instrument Footleg's Suunto Tandem
-*instrument ULSA 50m tape
+*team "Richard Vidler" instruments
+*team "Tony Cook" tape
+*team "Footleg" notes
+*instrument insts "Footleg's Suunto Tandem"
+*instrument tape " ULSA 50m tape"
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

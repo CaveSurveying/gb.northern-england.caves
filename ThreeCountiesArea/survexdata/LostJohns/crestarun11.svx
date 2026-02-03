@@ -5,10 +5,10 @@
 *export 8x 14t 26t 
 
 *date 2013.12.29
-*team notes Becka Lawson
-*team insts Olaf Kähler
+*team "Becka Lawson" notes
+*team "Olaf Kähler" insts
 
-*instrument Becka's Distox
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

@@ -5,10 +5,10 @@
 *title "Lost Johns, up Mud Inlet from old numbered station 30x in main streamway"
 
 *date 2013.12.29
-*team notes Becka Lawson
-*team insts Chris Densham
+*team "Becka Lawson" notes
+*team "Chris Densham" insts
 
-*instrument Becka's Distox
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

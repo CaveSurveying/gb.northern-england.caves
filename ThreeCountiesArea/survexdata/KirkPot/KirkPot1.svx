@@ -6,12 +6,10 @@
 
 *date 2012.03.29
 
-*team Instruments Richard Bendall
-
-*team Notes Dave Ramsay
-
-*team Tape Richard Bendall
-*instrument RR set 2, YSS DISTO
+*team "Richard Bendall" Instruments
+*team "Dave Ramsay" Notes
+*team "Richard Bendall" Tape
+*instrument insts "RR set 2, YSS DISTO"
 
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long

@@ -5,11 +5,12 @@
 *title "Survey from handline climb down from Cresta Run to tag just the far side of the duck"
 
 *date 2013.12.28
-*team Instruments Becka Lawson
-*team Tape Dave Loeffler and Michael Sargent
-*team Notes Becka Lawson
+*team "Becka Lawson" Instruments
+*team "Dave Loeffler" Tape
+*team "Michael Sargent" tape
+*team "Becka Lawson" Notes
 
-*instrument Becka's Distox  
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

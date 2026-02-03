@@ -5,10 +5,10 @@
 *title "Survey from numbered Becka Julian station just upstream of canal at small inlet, then up inlet to sump then up main streamway to mud inlet to bolt"
 
 *date 2013.10.12
-*team Instruments Dave Ottewell
-*team Tape Helen Blyth
-*team Notes Becka Lawson
-*instrument Becka's Distox  
+*team "Dave Ottewell" Instruments
+*team "Helen Blyth" Tape
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Distox"
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 ;follow up trip to check dodgy readings down to sump at start from station 74x on

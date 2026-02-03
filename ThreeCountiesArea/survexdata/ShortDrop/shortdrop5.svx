@@ -3,10 +3,10 @@
 
 *title "Entrance of Short Drop upstream (Canal Inlet) towards Coal Hole to junction"
 *date 2014.11.30
-*team Instruments Becka Lawson
-*team Notes Becka Lawson
-*team Target Paul Whybro
-*instrument MMMMC New Distox2 (with some dodgy readings towards the end)
+*team "Becka Lawson" Instruments
+*team "Becka Lawson" Notes
+*team "Paul Whybro" station
+*instrument insts "MMMMC New Distox2 (with some dodgy readings towards the end)"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

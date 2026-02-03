@@ -5,10 +5,10 @@
 
 *title "Entrance to Short Drop"
 *date 2010.07.25
-*team Instruments Becka Lawson
-*team Notes Ruth Macdonald
-*team Tape Dave Ramsay
-*instrument RRCPC tape read from 0cm and RRCOC's set 2 comp/clino
+*team "Becka Lawson" Instruments
+*team "Ruth Macdonald" Notes
+*team "Dave Ramsay" Tape
+*instrument insts "RRCPC tape read from 0cm and RRCOC's set 2 comp/clino"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

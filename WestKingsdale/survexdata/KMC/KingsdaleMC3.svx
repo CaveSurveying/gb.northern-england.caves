@@ -5,10 +5,10 @@
 *export	x1  ;	p1nn
 ;checked 
 *team "Noel Snape" notes
-*team "Tom Starnes" disto
-*team "Holly Bradley" rigging
-*instrument "Holly and Noel's 2nd Disto X2" Compass
-*instrument "Holly and Noel's 2nd Disto X2" Clino
+*team "Tom Starnes" insts
+*team "Holly Bradley" ;rigging
+*instrument insts "Holly and Noel's 2nd Disto X2 Compass"
+*instrument insts "Holly and Noel's 2nd Disto X2 Clino"
 
 
 *date 2016.03.20

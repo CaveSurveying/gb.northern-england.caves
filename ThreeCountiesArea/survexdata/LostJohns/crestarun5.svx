@@ -5,12 +5,12 @@
 *title "Survey of Epiglottis Grotto and aven off it"
 
 *date 2013.09.08
-*team Instruments Steve Woods
-*team Tape Andy Chapman
+*team "Steve Woods" Instruments
+*team "Andy Chapman" Tape
 ; actually Steve Woods did Distox and Andy Chapman read conventional compass and clino so could double check them both
-*team Notes Becka Lawson
+*team "Becka Lawson" Notes
 
-*instrument Becka's Distox and Becka's tandem comp and clino 
+*instrument insts "Becka's Distox and Becka's tandem comp and clino"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

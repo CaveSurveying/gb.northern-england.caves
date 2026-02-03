@@ -6,11 +6,11 @@
 ;checked
 
 *team	"Chris Williams" Notes
-*team	"Brendan Hall" disto splay monster
-*team	"Dan Lenartowicz Legacy"	disto	stations
+*team	"Brendan Hall" insts ;disto splay monster
+*team	"Dan Lenartowicz Legacy" insts ;station
 
-*instrument	"DistoX2 2734 (Brendan)" Compass
-*instrument	"DistoX2 2734 (Brendan)" Clino
+*instrument insts	"DistoX2 2734 (Brendan) Compass"
+*instrument insts	"DistoX2 2734 (Brendan) Clino"
 
 
 *date 2015.09.12

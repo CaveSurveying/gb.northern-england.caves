@@ -5,10 +5,10 @@
 *title "Boxhead Pot - Just past duck, start of Handshake Crawl (tag) to end of Handshake Crawl along main route"
 
 *date 2013.12.29
-*team notes Chris Densham
-*team insts Wookey
+*team "Chris Densham" notes
+*team "Wookey" insts
 
-*instrument Wookey's Distox
+*instrument insts "Wookey's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

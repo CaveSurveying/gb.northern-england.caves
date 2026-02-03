@@ -8,10 +8,10 @@
 
 *title "Upper Daylight Aven down to crawl"
 *date 2011.10.23
-*team Insts Richard Bendall
-*team tape Sally
-*team Notes Andy Chapman
-*instrument Compass and Clino - rr2
+*team "Richard Bendall" Insts
+*team "Sally" notes
+*team "Andy Chapman" notes
+*instrument Compass Clino "rr2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

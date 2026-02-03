@@ -2,12 +2,12 @@
 *export 1	18
 ;checked 
 *team "chris williams ian peachey" notes 								
-*team "clara duncan chris williams" disto
+*team "clara duncan chris williams" insts
 *team "clara duncan chris williams" backcompass backclino
-*instrument "holly and noels disto" compass
-*instrument "holly and noels disto" clino
-*instrument "holly and noels disto" backcompass
-*instrument "holly and noels disto" backclino
+*instrument compass "holly and noels disto" 
+*instrument clino "holly and noels disto" 
+*instrument backcompass "holly and noels disto" 
+*instrument backclino "holly and noels disto" 
 
 *date 2015.06.13
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

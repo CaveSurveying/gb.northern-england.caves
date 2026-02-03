@@ -5,7 +5,7 @@
 *team "Clara Duncan" notes
 *team "Ian Peachey" compass clino
 * team "Rob Watson" backcompass backclino tape
-*instrument "947153" tandem
+*instrument insts"tandem 947153" 
 
 *date 2015.06.14
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

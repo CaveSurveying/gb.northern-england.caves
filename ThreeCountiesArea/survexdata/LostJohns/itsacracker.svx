@@ -9,11 +9,11 @@
 *title "Surface survey from Boxhead rim to Its A Cracker then down Its a Cracker down to Lost Pot area"
 
 *date 2012.10.26
-*team Instruments Andrew Atkinson
-*team Tippex Julian Todd
-*team Notes Becka Lawson
+*team "Andrew Atkinson" Instruments
+*team "Julian Todd" station
+*team "Becka Lawson" Notes
 
-*instrument Becka's distox calibrated in the cave on 26.10.12 with delta of 0.61 I think and Becka's PDA for notes
+*instrument insts "Becka's distox calibrated in the cave on 26.10.12 with delta of 0.61 I think and Becka's PDA for notes"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

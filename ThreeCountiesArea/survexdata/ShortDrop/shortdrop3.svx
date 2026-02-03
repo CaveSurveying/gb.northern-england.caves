@@ -4,10 +4,10 @@
 
 *title "Short Drop from tag at Masochist Junction"
 *date 2010.10.10
-*team Instruments Graham Derbyshire
-*team Notes Simon McCabe
-*team Tape Dave Ramsay
-*instrument RRCPC tape read from 0cm and RRCOC's Suunto set 2 comp/clino
+*team "Graham Derbyshire" Instruments
+*team "Simon McCabe" Notes
+*team  "Dave Ramsay" Tape
+*instrument insts "RRCPC tape read from 0cm and RRCOC's Suunto set 2 comp/clino"
 
 ;*calibrate compass
 

@@ -6,10 +6,10 @@
 
 *date 2014.12.31
 
-*team Instruments + Notes Becka Lawson
-*team LiquidPaper Hugh Singleton with support from Nathaniel Bolton and Patrick Warren
+*team "Becka Lawson" Instruments notes
+*team "Hugh Singleton" station ; with support from Nathaniel Bolton and Patrick Warren
 
-*instrument Becka's old Distox calibrated 2 days earlier
+*instrument insts "Becka's old Distox calibrated 2 days earlier"
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks

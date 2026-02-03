@@ -4,7 +4,9 @@
 ; Some further gardening may be required as large rocks have made their way down the aven unpromted.
 ; Further route descriprion and toppo to come.
 
-*TEAM C Kuhlmann & J Pine distoX2
+*TEAM "C Kuhlmann" 
+*TEAM "J Pine"
+*INSTRUMENT insts "distoX2"
 *EXPORT 2.0 ;2.0 is underground survey
 *EXPORT 1.5 ;1.5 is overground survey
 

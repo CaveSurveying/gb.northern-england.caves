@@ -8,10 +8,10 @@
 
 *title "Inlet 14"
 *date 2012.02.11
-*team Insts Simon Cornhill
-*team tape Simon Cornhill
-*team Notes Di Arthus
-*instrument Compass and Clino - Tim's pony and 50m tape
+*team "Simon Cornhill" Insts
+*team "Simon Cornhill" tape
+*team "Diane Arthus" Notes
+*instrument insts "Tim's pony and 50m tape"
 
 *calibrate tape +.00	; +ve if tape was too short, -ve if too long
 

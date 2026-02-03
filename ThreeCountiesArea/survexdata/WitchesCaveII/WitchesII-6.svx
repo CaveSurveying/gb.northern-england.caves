@@ -3,9 +3,9 @@
 
 *title "From pitch above canal beyond Zigzag to pitches up"
 *date 2010.12.31
-*team Instruments Becka Lawson
-*team Notes Ruth MacDonald
-*instrument Neil's DistoX
+*team "Becka Lawson" Instruments
+*team "Ruth MacDonald" Notes
+*instrument insts "Neil's DistoX"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

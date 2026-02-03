@@ -4,10 +4,10 @@
 
 *title "Large Pot - Red Herring - Flake Aven"
 *date 2011.12.30
-*team Tape Dave Ramsay
-*team Instruments Andy Chapman
-*team Notes Becka Lawson
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *30cm*
+*team "Dave Ramsay" Tape
+*team "Andy Chapman" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *30cm*"
 
 *calibrate tape 0.30	; +ve if tape was too short, -ve if too long
 

@@ -8,10 +8,10 @@
 
 *title "Wall next to the Mohole via shakehole with drop to sump then Forget Me Pot down to current end of dig"
 *date 2014.07.06
-*team Instruments Becka Lawson
-*team Notes Becka Lawson
-*team Tape Richard Bendall
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+*team "Becka Lawson" Instruments
+*team "Becka Lawson" Notes
+*team "Richard Bendall" Tape
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

@@ -3,9 +3,9 @@
 
 *title "Start west end of ancient highway to two avens then down main streamway as far as junction with breakdown inlet"
 *date 2015.09.13
-*team Instruments Julia Arce Saez
-*team Notes Becka Lawson
-*instrument MMMMC New Distox2
+*team "Julia Arce Saez" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "MMMMC New Distox2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -4,10 +4,10 @@
 
 *title "Leck Beck Head - dry cave and surface survey to Witches entrance along river bed"
 *date 2011.10.30
-*team Instruments Edvin Deadman
-*team Notes Becka Lawson
-*team Tape Julian Todd
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+*team "Edvin Deadman" Instruments
+*team "Becka Lawson" Notes
+*team "Julian Todd" Tape
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

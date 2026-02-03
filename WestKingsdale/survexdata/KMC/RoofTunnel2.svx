@@ -4,9 +4,9 @@
 *team "Chris Shezi" notes 								
 *team "Chris Williams" compass clino 		
 *team "Shezi" backcompass backclino tape						 
-*instrument "947153" compass clino
-*instrument "436006" backcompass
-*instrument "023187" backclino
+*instrument compass clino "947153" 
+*instrument backcompass "436006" 
+*instrument backclino "023187" 
 
 *date 2015.08.08
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

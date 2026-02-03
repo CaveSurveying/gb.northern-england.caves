@@ -4,10 +4,10 @@
 *team "Luke Stangroom" notes 								
 *team "George Breley" compass clino 		
 *team "Nathanael Dalton" backcompass backclino tape
-*instrument "436006" compass							 
-*instrument "023187" clino
-*instrument "436006" backcompass
-*instrument "023187" backclino
+*instrument compass "436006" 							 
+*instrument clino "023187" 
+*instrument backcompass "436006" 
+*instrument backclino "023187" 
 
 *date 2015.06.13
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

@@ -3,9 +3,9 @@
 
 *title "Repeat last legs of shortdrop5 to check data then continue to yellow RRCPC cowtag at junction to ancient highway"
 *date 2015.09.12
-*team Instruments Julia Arce Saez
-*team Notes Becka Lawson
-*instrument MMMMC New Distox2
+*team "Julia Arce Saez" Instruments
+*team "Becka Lawson" Notes
+*instrument INSTS "MMMMC New Distox2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

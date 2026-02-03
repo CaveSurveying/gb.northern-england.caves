@@ -9,9 +9,9 @@
 *title "Roof Tunnel"
 *date 1997.04.03	;Date:	03/04/97eve
 
-*team Surveyor "R.Duffy"
-*team Surveyor "Pete Grant"
-*instrument Red Rose Sunto Compass & Clino, 30m tape
+*team "R.Duffy"
+*team "Pete Grant"
+*instrument insts "Red Rose Sunto Compass & Clino, 30m tape"
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

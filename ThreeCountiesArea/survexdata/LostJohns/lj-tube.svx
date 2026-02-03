@@ -5,10 +5,10 @@
 *title "From RRCPC tag at bottom of Boxhead shaft into Tube and most of the way towards Lyle Caverns"
 
 *date 2012.10.27
-*team Instruments Julian Todd
-*team Notes Becka Lawson
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
 
-*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+*instrument insts "Becka's tandem comp and clino and Becka's 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

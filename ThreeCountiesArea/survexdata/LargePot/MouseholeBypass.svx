@@ -3,9 +3,9 @@
 
 *title "Bypass above Mousehole in Rift Pot"
 *date 2011.11.05
-*team Instruments Julian Todd
-*team Notes Becka Lawson
-*instrument Becka's comp/clino tandem and Becka's 30m tape missing last 20cm
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's comp/clino tandem and Becka's 30m tape missing last 20cm"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

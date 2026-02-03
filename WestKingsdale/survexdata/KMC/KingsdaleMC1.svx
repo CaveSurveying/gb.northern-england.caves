@@ -5,9 +5,9 @@
 *team "Sarah Parker" notes
 *team "Rachel Rix" compass clino tape
 *team "Holly Bradley" backcompass backclino
-*instrument "947153" tandem
-*instrument "813849" backcompass
-*instrument "419881" backclino
+*instrument Insts "tandem 947153" 
+*instrument backcompass "813849" 
+*instrument backclino "419881" 
 
 *date 2016.02.28
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

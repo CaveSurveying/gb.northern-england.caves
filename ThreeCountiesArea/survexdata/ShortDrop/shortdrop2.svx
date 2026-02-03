@@ -3,10 +3,10 @@
 
 *title "Short Drop along Dry Oxbow to Masochists Passage"
 *date 2010.07.25
-*team Instruments Andy Chapman
-*team Notes Jess Stirrups
-*team Tape Jess Stirrups
-*instrument Becka's tape read from 10cm and Becka's tandem comp/clino
+*team "Andy Chapman" Instruments
+*team "Jess Stirrups" Notes
+*team "Jess Stirrups" Tape
+*instrument insts "Becka's tape read from 10cm and Becka's tandem comp/clino"
 
 *calibrate tape +0.10       ; +ve if tape was too short, -ve if too long
 

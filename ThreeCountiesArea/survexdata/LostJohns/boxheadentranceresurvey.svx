@@ -9,11 +9,11 @@
 *title "Bypass of Cresta Run - From station near base of Boxhead main pitch from Its A Cracker survey to end of Cresta Run"
 
 *date 2012.10.27
-*team Instruments Andy Powell
-*team Tippex Andy Chapman
-*team Notes Andrew Atkinson
+*team "Andy Powell" Instruments
+*team "Andy Chapman" station
+*team "Andrew Atkinson" Notes
 
-*instrument Becka's distox calibrated in the cave with delta of 0.61 I think on 26.10.12 and Becka's PDA for notes
+*instrument insts "Becka's distox calibrated in the cave with delta of 0.61 I think on 26.10.12 and Becka's PDA for notes"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 *data normal from to tape compass clino ignoreall

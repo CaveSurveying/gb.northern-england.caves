@@ -5,10 +5,10 @@
 
 *date 2013.12.14
 
-*team Instruments Edvin Deadman
-*team Notes Becka Lawson
+*team "Edvin Deadman" Instruments
+*team "Becka Lawson" Notes
 
-*instrument Becka's Distox
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

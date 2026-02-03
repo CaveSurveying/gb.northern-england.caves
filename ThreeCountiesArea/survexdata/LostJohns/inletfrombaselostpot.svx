@@ -5,10 +5,10 @@
 *title "From old numbered station 44 from base of Lost Pot (below Kendal Flyover) then up inlet plus 2 legs up low crawl on left - neither route pushed to conclusion - try again when drier"
 
 *date 2013.1.01
-*team Instruments Julian Todd
-*team Notes Becka Lawson
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
 
-*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+*instrument insts "Becka's tandem comp and clino and Becka's 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

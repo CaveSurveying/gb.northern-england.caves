@@ -8,9 +8,9 @@
 *title "Valley Entrance"
 *date 2012.08.04
 
-*team DistoX Tony Cook
-*team Notes Footleg
-*instrument WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36
+*team "Tony Cook" insts
+*team "Footleg" Notes
+*instrument insts "WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36"
 ; Calibration: DistoX was calibration checked at start of trip. Back sights were taken for visual checking of all legs 
 ; on PDA sketch (represented by splays in this data). Magnetic steel toe caps in wellies resulted in some problems 
 ; with matching back shots to forward shots when feet too close to Disto. Legs were re-measured when this occurred. 

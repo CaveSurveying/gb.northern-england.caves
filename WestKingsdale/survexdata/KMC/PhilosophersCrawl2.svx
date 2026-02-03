@@ -10,9 +10,9 @@
 *title "Philosophers Crawl"
 *DATE 2010.05.30
 
-*team DistoX Tony Cook
-*team Notes Footleg
-*instrument WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36
+*team "Tony Cook" insts
+*team "Footleg" Notes
+*instrument insts "WSCC DistoX1, Footleg's Dell Axim x51v PDA, PocketTopo V1.36"
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

@@ -5,10 +5,10 @@
 
 *title "Large Pot - Red Herring - Climb at start, above fourth pitch, to aven"
 *date 2011.12.30
-*team Tape Becka Lawson
-*team Instruments Andy Chapman
-*team Notes Dave Ramsay
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *30cm*
+*team "Becka Lawson" Tape
+*team "Andy Chapman" Instruments
+*team "Dave Ramsay" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *30cm*"
 
 *calibrate tape 0.30	; +ve if tape was too short, -ve if too long
 

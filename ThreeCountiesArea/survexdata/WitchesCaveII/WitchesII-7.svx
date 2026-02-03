@@ -3,9 +3,9 @@
 
 *title "Connecting legs around sump pools"
 *date 2010.12.31
-*team Instruments Julian Todd
-*team Notes Becka Lawson
-*instrument Neil's DistoX
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Neil's DistoX"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

@@ -6,10 +6,10 @@
 ; NOTE!!!! Something went wrong with the readings from station 20 into Epiglottis grotto. These readings were repeated in cresta6 file and these repeated readings fitted well with the original RRCPC readings (box5). Not sure what went wrong since earlier readings fitted well with the RRCPC data so have just corrected the compass readings on 3 legs here
 
 *date 2013.01.02 ; Jan 2nd
-*team Instruments Andy Chapman
-*team Notes Becka Lawson
+*team "Andy Chapman" Instruments
+*team "Becka Lawson" Notes
 
-*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+*instrument insts "Becka's tandem comp and clino and Becka's 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

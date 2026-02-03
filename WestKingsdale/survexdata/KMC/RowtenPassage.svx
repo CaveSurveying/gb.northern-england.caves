@@ -8,11 +8,11 @@
 *title "Rowten Passage"
 *date 2008.11.15
 
-*team instruments Footleg
-*team tape Tony Cook
-*team Notes Footleg
-*instrument ULSA 50m tape
-*instrument Footleg's SUUNTO Tandem
+*team "Footleg" instruments
+*team " Tony Cook" tape
+*team "Footleg" Notes
+*instrument tape "ULSA 50m tape"
+*instrument insts "Footleg's SUUNTO Tandem"
 
 ; Calibration readings against pair of boulders to left of gate from road near entrance (Footleg): Compass 190, 011 Clino -04, +04
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752

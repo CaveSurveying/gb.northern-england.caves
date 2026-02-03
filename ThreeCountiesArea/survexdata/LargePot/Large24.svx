@@ -3,9 +3,9 @@
 
 *title "Eastern Front - pitch up to small inlet on right in Red Mist"
 *date 2013.10.13
-*team Instruments Emma Wilson
-*team Notes Becka Lawson
-*instrument Becka's Distox 
+*team "Emma Wilson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

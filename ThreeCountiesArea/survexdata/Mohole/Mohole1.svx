@@ -4,10 +4,10 @@
 
 *title "Entrance of The Mohole to top of first pitch; too wet to continue"
 *date 2011.10.09
-*team Instruments Fleur Loveridge
-*team Notes Neil Pacey
-*team Tape Becka Lawson
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+*team "Fleur Loveridge" Instruments
+*team "Neil Pacey" Notes
+*team "Becka Lawson" Tape 
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

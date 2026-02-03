@@ -6,12 +6,12 @@
 
 *date 2013.12.30
 
-*team Instruments Becka Lawson
-*team Tape Ruth MacDonald
-*team Notes Dave Ramsay 
+*team "Becka Lawson" Instruments
+*team "Ruth MacDonald" Tape
+*team "Dave Ramsay" Notes
 ; Notes from surface to bottom of pitch (so as far as station 9) was Becka Lawson
 
-*instrument Becka's Distox except for two lower legs on pitch where too drippy to use Distox
+*instrument insts "Becka's Distox except for two lower legs on pitch where too drippy to use Distox"
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks

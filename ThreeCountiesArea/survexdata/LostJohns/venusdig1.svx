@@ -5,9 +5,9 @@
 *title "From old bolt (30cm right of phanger) at Kendal Flyover where Cresta Run crawl begins then up Venus dig on left at junction - this is a resurvey as dig extended after my initial survey in 2012"
 
 *date 2021.12.31
-*team Instruments Emma Wilson
-*team Notes Becka Lawson
-*instrument Becka1 Distox2
+*team "Emma Wilson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka1 Distox2"
 
 ;*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

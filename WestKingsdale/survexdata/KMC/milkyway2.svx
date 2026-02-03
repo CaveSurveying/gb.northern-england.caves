@@ -4,10 +4,10 @@
 
 *title "From Cascade Inlet along Milky Way to partway down Kellaway Crawl and also up Cascade Inlet to start of Toyland"
 *date 2013.11.10
-*team Rigging Ian Walker
-*team Instruments Hannah Walker
-*team Notes Becka Lawson
-*instrument Becka's Distox 
+*team "Ian Walker" ;Rigging
+*team "Hannah Walker" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

@@ -5,9 +5,9 @@
 *title "Continuing resurvey of Venus dig from yesterday as dig extended after my initial survey in 2012"
 
 *date 2022.01.01
-*team Instruments Andrew Atkinson
-*team Notes Becka Lawson
-*instrument Becka1 Distox2
+*team "Andrew Atkinson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka1 Distox2"
 
 ;*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

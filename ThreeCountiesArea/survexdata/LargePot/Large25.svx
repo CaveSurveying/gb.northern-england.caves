@@ -3,10 +3,10 @@
 
 *title "Eastern Front - short survey to tie in Fred Rattray's radio location beacon to the survey"
 *date 2024.06.15
-*team Instruments Becka Lawson
-*team Dog Patrick Warren (Sam Allshorn also on trip)
-*team Notes Becka Lawson
-*instrument Becka's SAP6 
+*team "Becka Lawson" Instruments
+*team "Patrick Warren" dog ; (Sam Allshorn also on trip)
+*team "Becka Lawson" Notes
+*instrument insts "Becka's SAP6"
 
 ;from	to	tape	compass	clino	remarks
 

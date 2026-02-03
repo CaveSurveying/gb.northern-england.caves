@@ -8,10 +8,10 @@
 
 *title "Inlet 14"
 *date 2012.02.11
-*team Insts Richard Bendall
-*team tape Richard Bendall
-*team Notes Becka Lawson
-*instrument Compass and Clino - Becka's pony
+*team "Richard Bendall" Insts
+*team "Richard Bendall" tape
+*team "Becka Lawson" notes
+*instrument Compass Clino "Becka's pony"
 
 *calibrate tape +.30	; +ve if tape was too short, -ve if too long
 

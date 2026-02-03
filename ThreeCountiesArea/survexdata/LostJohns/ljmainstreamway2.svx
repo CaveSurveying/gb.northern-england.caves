@@ -7,10 +7,10 @@
 *export 15; Tag at Rumbling inlet
 
 *date 2013.12.29
-*team notes Wookey
-*team insts Olaf Kahler
+*team "Wookey" notes
+*team "Olaf Kahler" insts
 
-*instrument Wookey's Distox
+*instrument insts "Wookey's Distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

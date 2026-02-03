@@ -8,7 +8,7 @@
 *title "Swinsto Downstream Sump"
 *date 2008.06.22
 
-*team surveyor John Cordingley
+*team "John Cordingley" 
 ;*instrument ?
 
 ;No depth readings taken, but maximum depth on dive was -1.5m

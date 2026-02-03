@@ -6,12 +6,12 @@
 
 *date 2014.03.06
 
-*team Instruments Richard Bendall
-*team Tape Dave Ramsay 
-*team Notes Dave Ramsay 
+*team "Richard Bendall" Instruments
+*team  "Dave Ramsay" Tape
+*team  "Dave Ramsay" Notes 
 
 
-*instrument Compass and Clino - rr2
+*instrument insts "Compass and Clino - rr2"
 
 *calibrate tape +.20	; +ve if tape was too short, -ve if too long
 

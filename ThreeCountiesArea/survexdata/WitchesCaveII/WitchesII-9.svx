@@ -3,10 +3,10 @@
 
 *title "Traverse above Lake Chamber canal beyond Zigzag"
 *date 2011.01.24
-*team Instruments Richard Bendall
-*team Tape Dave Ramsay
-*team Notes Becka Lawson
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+*team "Richard Bendall" Instruments
+*team "Dave Ramsay" Tape
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

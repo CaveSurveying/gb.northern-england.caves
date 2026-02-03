@@ -8,7 +8,7 @@
 *title "Milky Way"
 *date 1999.01.05
 
-*team surveyor DCC
+*team "DCC"
 ;Instruments:	?
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752

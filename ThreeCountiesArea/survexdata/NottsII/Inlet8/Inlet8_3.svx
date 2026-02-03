@@ -8,10 +8,9 @@
 
 *title "Inlet 8"
 *date 2012.11.05
-*team Insts Richard Bendall
-;*team tape 
-*team Notes Dave Ramsay
-*instrument RR kit 2
+*team "Richard Bendall" Insts
+*team "Dave Ramsay" Notes
+*instrument Compass Clino "rr2"
 
 *calibrate tape +0.20	; +ve if tape was too short, -ve if too long
 

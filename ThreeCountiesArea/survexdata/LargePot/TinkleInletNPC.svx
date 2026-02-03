@@ -4,9 +4,9 @@
 
 *title "From sump in Tinkle Inlet - original NPC survey data emailed by Andy Waddington to Becka on 2011.02.10"
 *date 1983.04.15  ; date was April 1983 on drawn up survey so have guessed mid moknth
-*team Instruments Andy Waddington
-*team Notes Mike Thomas
-*instrument unknown
+*team "Andy Waddington"
+*team "Mike Thomas" Notes
+*instrument "unknown"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

@@ -5,11 +5,11 @@
 
 *date 2013.12.28
 
-*team Instruments Andy Chapman
-*team Notes David Loeffler
-*team Tape Michael Sargent
+*team "Andy Chapman" Instruments
+*team "David Loeffler" Notes
+*team "Michael Sargent" Tape
 
-*instrument Becka's tandom + beckas 30m tape
+*instrument insts "Becka's tandom + beckas 30m tape"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

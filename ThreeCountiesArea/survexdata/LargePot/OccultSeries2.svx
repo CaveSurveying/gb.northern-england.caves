@@ -8,10 +8,10 @@
 
 *title "Occult Series 2"
 *date 2012.01.15
-*team Insts Dave Ramsay
-*team Notes Patrick Warren
-*team Tape Ruth MacDonald
-*instrument Tape, Compass and Clino - Patrick's tandem
+*team "Dave Ramsay" Insts
+*team "Patrick Warren" Notes
+*team "Ruth MacDonald" Tape
+*instrument Tape Compass Clino "Patrick's tandem"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

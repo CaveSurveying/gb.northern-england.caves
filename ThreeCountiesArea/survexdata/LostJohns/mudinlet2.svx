@@ -5,10 +5,10 @@
 *title "Lost Johns, from half way up Mud Inlet from old numbered station 16x to end of extensions"
 
 *date 2016.11.26
-*team notes Becka Lawson
-*team insts Nathaniel Dalton
+*team "Becka Lawson" notes
+*team "Nathaniel Dalton" insts
 
-*instrument Becka's New Distox not properly calibrated but too miserable using conventional instruments
+*instrument insts "Becka's New Distox not properly calibrated but too miserable using conventional instruments"
 
 ;*calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

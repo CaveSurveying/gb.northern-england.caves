@@ -2,10 +2,10 @@
 *export tag tag2 tag3
 *title "Short Drop:check loop around main stream upstream of Ancient Highway - no notes, just checking numbers"
 *date 2019.10.26
-*team Instruments Philip Withnall
-*team Instruments Emma Wilson
-*team Notes Becka Lawson
-*instrument Becka Distox2
+*team "Philip Withnall" Instruments
+*team "Emma Wilson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka Distox2"
 
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long
 

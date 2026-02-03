@@ -4,9 +4,9 @@
 
 *title "Large Pot - Red Herring - Little Pot Inlet from pitchhead bolt for third pitch to Thornton Hall then down inlet until lots of straws"
 *date 2012.01.15
-*team Instruments Becka Lawson
-*team Notes James Sugden
-*instrument Becka's Tandem as comp and clino and Becka's new 30m tape read from 0cm
+*team "Becka Lawson" Instruments
+*team "James Sugden" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's new 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

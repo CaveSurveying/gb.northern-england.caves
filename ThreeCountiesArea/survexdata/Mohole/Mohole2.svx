@@ -4,10 +4,10 @@
 
 *title "The Mohole from the top of the first pitch to spit for final drop down, not enough rope for bottom!"
 *date 2011.11.26
-*team Instruments Julian Todd
-*team Notes Becka Lawson
-*team Tape Patrick Warren
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
+*team "Patrick Warren" Tape
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

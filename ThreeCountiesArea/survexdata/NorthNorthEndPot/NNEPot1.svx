@@ -3,7 +3,7 @@
 *EXPORT 100 5
 
 *DATE 2024.03.23
-*TEAM Nick Bairstow
+*TEAM "Nick Bairstow"
 
 *DATA normal from to tape compass clino
 *FLAGS SPLAY

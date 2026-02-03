@@ -8,10 +8,10 @@
 
 *title "RiftEntrance"
 *date 2012.02.23
-*team Insts Richard Bendall
-*team Disto Richard Bendall
-*team Notes Dave Ramsay
-*instrument Compass and Clino - RR2
+*team "Richard Bendall" Insts
+*team "Richard Bendall" insts ; disto
+*team "Dave Ramsay" Notes
+*instrument insts "Compass and Clino - RR2"
 
 ;*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

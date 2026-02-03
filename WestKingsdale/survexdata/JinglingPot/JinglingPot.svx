@@ -242,7 +242,10 @@
 
 *EXPORT 0
 
-*TEAM Di Arthurs pda & Simon Cornhill distoX
+*TEAM "Diane Arthurs" notes
+*TEAM "Simon Cornhill" insts
+*INSTRUMENT insts "PDA and Distox"
+
 ;With Helen Blyth  and Dave Otterwell
 ;calibration accuracy less than 0.5'
 *CALIBRATE declination +2.17	;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination

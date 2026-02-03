@@ -8,9 +8,9 @@
 
 *title "Upper Daylight Aven down to crawl"
 *date 2011.02.26
-*team Insts Andy Chapman
-*team Notes Patrick Warren
-*instrument Compass and Clino - Becka's Tandem; Patrick's Tape - 20m read from 0cm
+*team "Andy Chapman" insts
+*team "Patrick Warren" notes
+*instrument insts "Compass and Clino - Becka's Tandem; Patrick's Tape - 20m read from 0cm"
 ; Oops, maybe all clino readings are percent not degrees
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long

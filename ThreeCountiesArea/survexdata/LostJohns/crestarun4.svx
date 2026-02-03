@@ -5,10 +5,10 @@
 *title "Survey up Tantrum aven and also along small crawl at base of Tantrum aven"
 
 *date 2013.08.31
-*team Instruments Patrick Warren
-*team Notes Becka Lawson
+*team "Patrick Warren" Instruments
+*team "Becka Lawson" Notes
 
-*instrument Patrick's tandem comp and clino and Patrick's 30m tape read from 0cm
+*instrument insts "Patrick's tandem comp and clino and Patrick's 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

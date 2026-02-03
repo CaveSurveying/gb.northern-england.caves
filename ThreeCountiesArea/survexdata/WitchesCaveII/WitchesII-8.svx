@@ -3,9 +3,9 @@
 
 *title "From traverse beyon canal beyond Zigzag up pitches at end"
 *date 2011.01.24
-*team Instruments Richard Bendall
-*team Notes Becka Lawson
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+*team "Richard Bendall" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 
