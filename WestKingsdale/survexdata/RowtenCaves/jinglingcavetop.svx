@@ -4,10 +4,10 @@
 *team "Shezi Moha" notes
 *team "Rob Watson" compass clino tape 
 *team "Rob Watson" backcompass backclino
-*instrument "947153" compass
-*instrument "947153" clino
-*instrument "947153" backcompass
-*instrument "947153" backclino
+*instrument compass "947153" 
+*instrument clino "947153" 
+*instrument backcompass "947153" 
+*instrument backclino "947153" 
 
 *date 2015.06.13
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

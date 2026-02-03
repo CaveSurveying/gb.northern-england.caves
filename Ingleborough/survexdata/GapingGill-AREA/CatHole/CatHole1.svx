@@ -6,7 +6,9 @@
 
 *export 0 10 24
 
-*TEAM Di Arthurs pda & Simon Cornhill distoX
+*TEAM "Diane Arthurs" notes
+*TEAM "Simon Cornhill" insts
+*INSTRUMENT insts "PDA and Distox"
 ;calibration accuracy less than 0.6'
 
 *DATE 2013.09.19

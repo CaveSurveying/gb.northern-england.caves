@@ -29,7 +29,7 @@
 *date 2022.03.20	
 *team  "Paul Swire (Beardy)" Insts
 *team  "Becka Lawson"	Notes
-*instrument Compass and Clino - Neil's compass-clino set and Becka's distox for tape
+*instrument insts "Compass and Clino - Neil's compass-clino set and Becka's distox for tape"
 
 ;from	to	tape	compass	clino	remarks
 

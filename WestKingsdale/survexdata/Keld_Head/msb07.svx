@@ -4,8 +4,8 @@
 *title "Southern Passage (aka Southern Branch); end of Marble Steps Branch"
 *date 2013.06.07
 ;*team Instruments Beardy (Paul Swire) ;Commented out, as seems unlikely as I am pretty sure JNC dived alone.
-*team Notes John N Cordingley
-*instrument Not known
+*team "John N Cordingley" notes
+*instrument insts "Not known"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx

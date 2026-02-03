@@ -4,8 +4,8 @@
 *team "Noel Snape" notes
 *team "Rachel Turnbull" compass clino tape ; disto
 
-*instrument "H&N Distox2" compass
-*instrument "H&N Distox2" clino
+*instrument compass "H&N Distox2" 
+*instrument clino "H&N Distox2" 
 
 
 *date 2015.06.14

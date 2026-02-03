@@ -12,8 +12,8 @@
 
 *title "Y Pot - N.G.R. SD. 7310472324. Alt. 445m."
 *date 2014.02.04
-*team Instruments Alan Speight
-*team Notes John A. Thorp
+*team "Alan Speight" insts
+*team "John A. Thorp" notes
 ;*instrument 
 
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long

@@ -6,11 +6,11 @@
 
 *date 2011.12.28
 
-*team Instruments Becka Lawson except for Stns 35 till 42 which were Julian Todd
-*team Notes Emma Wilson
-*team Tape Andy Chapman until stn 34
+*team "Becka Lawson" insts ; except for Stns 35 till 42 which were Julian Todd
+*team "Emma Wilson" notes
+*team "Andy Chapman" tape ; until stn 34
 
-*instrument CHECK but probably RRCPC Compass and Clino Set 2
+*instrument insts "CHECK but probably RRCPC Compass and Clino Set 2"
 
 
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

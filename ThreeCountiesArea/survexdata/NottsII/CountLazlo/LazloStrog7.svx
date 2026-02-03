@@ -4,10 +4,10 @@
 
 *title "Climb down where handline up before pitch into Hubert Carstairs chamber"
 *date 2011.01.23
-*team Instruments Becka Lawson
-*team Notes Ruth MacDonald
-*team Tape Dave Ramsay
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+*team "Becka Lawson" insts
+*team "Ruth MacDonald" notes
+*team "Dave Ramsay" tape
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

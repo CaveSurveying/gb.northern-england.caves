@@ -4,10 +4,10 @@
 *title "Cupcake, extension from Hubert Carstairs II chamber - extension found by Sam Allshorn and Mike Cooper on 20 August 2013"
 
 *date 2015.12.20
-*team Instruments Nathaniel Dalton
-*team Notes Becka Lawson
-*team Dog Sam Allshorn
-*instrument Becka's Distox2
+*team "SNathaniel Dalton" insts
+*team "Becka Lawson" notes
+*team "Sam Allshorn" dog
+*instrument insts "Becka's Distox2"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

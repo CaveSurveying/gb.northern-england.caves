@@ -8,10 +8,10 @@
 *title "Window Aven"
 *date 1977.10.01	;Date:	??/10/77
 
-*team Insts Terry Whittaker
-*team Insts Lugger(J.Thorpe)
-*team Insts M.Watson
-*instrument Red Rose Sunto Compass & Clino, 30m tape
+*team "Terry Whittaker" insts
+*team "Lugger(J.Thorpe)" insts
+*team "M.Watson" insts
+*instrument insts "Red Rose Sunto Compass & Clino, 30m tape"
 
 ;Grid adjustment for OSGB in West Kingsdale: 0.3752
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in West_Kingsdale_System.svx
