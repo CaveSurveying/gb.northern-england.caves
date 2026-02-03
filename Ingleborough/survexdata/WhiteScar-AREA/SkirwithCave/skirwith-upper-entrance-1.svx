@@ -3,10 +3,10 @@
 *export 1 j2ndcairn 19 5 45
 *title "Skirwith Cave upper (main) section from entrance by concrete arch past waterfall to start of canal section"
 *date 2021.04.12
-*team Tippex Kristian Brook
-*team Instruments Becka Lawson
-*team Notes Becka Lawson
-*instrument Becka Distox2
+*team "Kristian Brook" station
+*team "Becka Lawson" insts
+*team "Becka Lawson" notes
+*instrument insts "Becka Distox2"
 
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long
 

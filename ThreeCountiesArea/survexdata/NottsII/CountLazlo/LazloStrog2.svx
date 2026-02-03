@@ -4,9 +4,9 @@
 
 *title "Count Lazlo Stroganoff from end of large passage to base of 24m pitch up"
 *date 2010.09.12
-*team Instruments Dave Ramsay
-*team Notes Ruth MacDonald
-*instrument RRCPC set ?2? and 30m yellow tape
+*team "Dave Ramsay" insts
+*team "Ruth MacDonald" notes
+*instrument insts "RRCPC set ?2? and 30m yellow tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

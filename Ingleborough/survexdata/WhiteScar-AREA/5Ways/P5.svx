@@ -7,7 +7,9 @@
 *EXPORT 0 6
 
   *date 2023.05.08 
-  *team ""Nick" notes "Nick" instruments "Chris Scaife" dog" 
+  *team "Nick" notes 
+  *team "Nick" instruments 
+  *team "Chris Scaife" dog
   *units tape meters
   *units compass degrees
   *units clino degrees

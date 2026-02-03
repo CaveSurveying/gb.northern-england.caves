@@ -3,15 +3,15 @@
 *export 1
 
   *date 2021.04.19 
-  *team Notes Becka Lawson
-  *team StationMarker+Photographer Kristian Brook
+  *team "Becka Lawson" notes
+  *team "Kristian Brook" station ;StationMarker+Photographer 
   *units tape meters
   *units compass degrees
   *units clino degrees
   *alias station - ..
   *flags not splay
   
-  *instrument Becka Distox2
+  *instrument insts "Becka Distox2"
   
 ; 2021.04.19 created by TopoDroid v 5.1.2
 ; skir6 when downloaded

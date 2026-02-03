@@ -9,8 +9,9 @@
 ; Locn:	Notts II
 *title "Poppy Passage"
 *date 2003.09.04 ; discovered D.R R.B
-*team DR/RGB
-*instrument Suunto Compass/Clino, RST Tape
+*team "Richard Bendall" insts
+*team "Dave Ramsay" Notes
+*instrument insts "Suunto Compass/Clino, RST Tape"
 ; Calibration:none
 
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

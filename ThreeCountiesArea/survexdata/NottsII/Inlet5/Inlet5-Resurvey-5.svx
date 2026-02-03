@@ -6,11 +6,12 @@
 
 *date 2015.02.07
 
-*team Dog Darren Mackenzie
-*team Paint Richard Bendall
-*team Instruments Becka Lawson
-*team Notes Becka Lawson
-*instrument Becka's old Distox 
+*team "Darren Mackenzie" dog
+*team "Richard Bendall" station
+*team "Becka Lawson" insts
+*team "Becka Lawson" notes
+*instrument insts "Becka's old Distox"
+ 
 ;*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks

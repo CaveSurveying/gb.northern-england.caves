@@ -8,11 +8,11 @@
 
 *date 2011.12.19
 
-*team Instruments Dave Ramsay
+*team "Dave Ramsay" insts
 
-*team Notes Ruth MacDonald
+*team "Ruth MacDonald" notes
 
-*instrument CHECK but probably RRCPC Compass and Clino Set 2
+*instrument insts "CHECK but probably RRCPC Compass and Clino Set 2"
 
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long

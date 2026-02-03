@@ -7,7 +7,10 @@
 *EXPORT 0
 
   *date 2023.05.08 
-  *team ""Nick Bairstow" notes "Nick Bairstow" instruments "Nick Bairstow" dog "Geoff Yeadon" dog" 
+  *team "Nick Bairstow" notes 
+  *team "Nick Bairstow" instruments 
+  *team "Nick Bairstow" dog 
+  *team "Geoff Yeadon" dog
   *units tape meters
   *units compass degrees
   *units clino degrees

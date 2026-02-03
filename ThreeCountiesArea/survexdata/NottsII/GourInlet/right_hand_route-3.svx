@@ -4,10 +4,10 @@
 
 *title "Notts II - Gour Inlet - right hand route after window - continuing from right hand route second survey"
 *date 2018.09.16
-*team Tippex Nathanael Dalton
-*team Distox Emma Heron
-*team Notes Becka Lawson
-*instrument Becka's Distox2 2
+*team "Nathanael Dalton" dog
+*team "Emma Heron" insts
+*team "Becka Lawson" notes
+*instrument insts "Becka's Distox2 2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

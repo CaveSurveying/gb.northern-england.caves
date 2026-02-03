@@ -4,8 +4,9 @@
 ; Locn:	Notts II
 *title "Trick or Treat"
 *date 2003.09.04 ; discovered N.P,B.H,A.W
-*team DR/RGB
-*instrument Suunto Compass/Clino, RST Tape
+*team "Richard Bendall" insts
+*team "Dave Ramsay" Notes
+*instrument insts "Suunto Compass/Clino, RST Tape"
 ; Calibration:none
 ; Ref.:	
 

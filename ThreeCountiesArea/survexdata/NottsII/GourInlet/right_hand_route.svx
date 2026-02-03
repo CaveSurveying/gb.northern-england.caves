@@ -4,9 +4,9 @@
 
 *title "Notts II - Gour Inlet - right hand route after window"
 *date 2017.11.25
-*team Distox Nathaniel Dalton
-*team Notes Becka Lawson
-*instrument Becka's Distox2 1
+*team "Nathaniel Dalton" insts
+*team "Becka Lawson" notes
+*instrument insts "Becka's Distox2 1"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -8,10 +8,10 @@
 
 *date 2012.03.26
 
-*team Instruments Richard Bendall
+*team "Richard Bendall" Insts
+*team "Dave Ramsay" Notes
+*instrument insts "RR set 2 & 30m tape" 
 
-*team Notes Dave Ramsay
-*instrument RR set 2 & 30m tape 
 ;*calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 
 

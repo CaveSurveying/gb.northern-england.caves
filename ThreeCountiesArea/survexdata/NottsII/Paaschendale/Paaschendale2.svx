@@ -2,8 +2,12 @@
 ; Locn:	Notts II
 *title "Paaschendale"
 *date 2003.09.04 ;
-*team DR/RGB
-*instrument Suunto Compass/Clino, RST Tape
+
+*team "Darren Mackenzie" dog
+*team "Richard Bendall" station
+
+*instrument insts "Suunto Compass/Clino, RST Tape"
+
 ; Calibration:none
 ; Ref.:	
 

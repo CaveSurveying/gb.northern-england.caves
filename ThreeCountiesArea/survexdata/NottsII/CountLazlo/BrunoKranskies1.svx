@@ -8,13 +8,13 @@
 
 *date 2010.11.20
 
-*team Instruments Becka Lawson
+*team "Becka Lawson" insts
 
-*team Notes Di Arthurs
+*team "Diane Arthurs" notes
 
-*team Tape Simon Cornhill
+*team "Simon Cornhill" tape
 
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!"
 
 
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

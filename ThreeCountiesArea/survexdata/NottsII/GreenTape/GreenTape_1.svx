@@ -8,10 +8,10 @@
 
 *title "GreenTape"
 *date 2012.02.13
-*team Insts Richard Bendall
-*team tape Ruth MacDonald
-*team Notes Dave Ramsay
-*instrument Compass and Clino - RR2
+*team "Richard Bendall" insts
+*team "Ruth MacDonald" tape
+*team "Dave Ramsay" notes
+*instrument insts "Compass and Clino - RR2"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

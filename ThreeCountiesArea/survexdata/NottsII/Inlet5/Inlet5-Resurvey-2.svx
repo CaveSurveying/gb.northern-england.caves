@@ -18,11 +18,11 @@
 
 *date 2011.12.19
 
-*team Instruments Richard Bendall
+*team "Richard Bendall" insts
 
-*team Notes Becka Lawson
+*team "Becka Lawson" notes
 
-*instrument Becka's tandem compass and clino and Becka's 30m tape with 20cm missing from end
+*instrument insts "Becka's tandem compass and clino and Becka's 30m tape with 20cm missing from end"
 
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long

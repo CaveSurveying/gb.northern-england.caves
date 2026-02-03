@@ -7,7 +7,11 @@
 *EXPORT 0 6
 
   *date 2023.05.08 
-  *team ""Nick Bairstow" notes "Nick Bairstow" instruments "Chris Scaife" instruments "Nick Bairstow" dog "Chris Scaife" dog" 
+  *team "Nick Bairstow" notes 
+  *team "Nick Bairstow" instruments 
+  *team "Chris Scaife" instruments 
+  *team "Nick Bairstow" dog 
+  *team "Chris Scaife" dog
   *units tape meters
   *units compass degrees
   *units clino degrees
