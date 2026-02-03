@@ -7,10 +7,10 @@
 
 *title "BottomAcrobat"
 *date 2012.10.28
-*team Insts Richard Bendall
-*team Notes Dave Ramsay
-*team Tape Andy Chapman
-;*instrument Tape is Disto
+*team "Richard Bendall" Insts
+*team "Dave Ramsay" Notes
+*team "Andy Chapman" Tape
+;*instrument insts "Tape is Disto"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

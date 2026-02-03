@@ -7,11 +7,11 @@
 
 *date 2012.10.28
 *title "From bolt at top of iron ladder before Adamson's to part way down Acrobat Route in Notts"
-*team Instruments Andrew Atkinson
-*team Notes Becka Lawson with help from Andrew
-*team Tippex and Distox for last few legs Sally White
+*team "Andrew Atkinson" Instruments
+*team "Becka Lawson" Notes ; with help from Andrew
+*team "Sally White" station insts ; for the last few legs
 
-*instrument Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes
+*instrument insts "Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

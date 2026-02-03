@@ -6,10 +6,11 @@
 
 *title "Twilight Route from last station of LeftHand1 route down to cow tag where routes meet"
 *date 2013.12.31
-*team Insts Al Cook and Andy Chapman
-*team Notes Becka Lawson
-*team Tape Hannah Walker
-*instrument Becka's Distox
+*team "Al Cook" Insts
+*team "Andy Chapman" Insts
+*team "Becka Lawson" Notes
+*team "Hannah Walker" Tape
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

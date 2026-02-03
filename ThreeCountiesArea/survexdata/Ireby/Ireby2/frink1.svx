@@ -8,9 +8,9 @@
 
 *title "Frink Chamber"
 *date 2010.03.28
-*team Insts Becka Lawson
-*team Notes Neil Pacey
-*instrument Compass and Clino - Neil's Disto-X with a back-up / check of readings for first few legs of Becka's Tandem and Becka's Tape from 0cm
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument Compass Clino "- Neil's Disto-X with a back-up / check of readings for first few legs of Becka's Tandem and Becka's Tape from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -8,10 +8,10 @@
 
 *title "Jupiter to Ireby I"
 *date 2008.07.13
-*team Insts Julian Todd
-*team Notes Becka Lawson
-*team Tape Julian Todd 
-*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+*team "Julian Todd" Insts
+*team "Becka Lawson" Notes
+*team "Julian Todd" Tape
+*instrument Compass Clino "- Pony; Tape - 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 ; ignore

@@ -9,9 +9,9 @@
 
 *title "Duke Street II along canal"
 *date 2009.02.01
-*team Insts & Tape Julian Todd
-*team Notes Becka Lawson
-*instrument Compass and Clino - Becka's Pony; Tape - 30m yellow read from 0cm
+*team "Julian Todd" insts tape
+*team "Becka Lawson" Notes
+*instrument Compass Clino "- Becka's Pony; Tape - 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -8,11 +8,11 @@
 
 *title "Above Well Pitch"
 *date 2009.04.25
-*team Insts & Tape Becka Lawson
-*team Notes Sam Lieberman
-*team Snappering Neil Pacey
-*team Photography Julian Todd
-*instrument Compass and Clino - Becka's Pony; Tape - Neil Pacey's Leica disto
+*team "Becka Lawson" Insts Tape
+*team "Sam Lieberman" Notes
+*team "Neil Pacey" ; Snappering
+*team "Julian Todd" ; Photography
+*instrument Compass Clino "- Becka's Pony; Tape - Neil Pacey's Leica disto"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

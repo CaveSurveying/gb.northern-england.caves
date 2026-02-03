@@ -6,8 +6,9 @@
 *export 1.19
 
 *date 2013.05.26
-*team Simon Cornhill pda & distoX
-*team Di Arthurs LP coordinator
+*team "Simon Cornhill" insts notes
+*team "Diane Arthurs" station
+*instrument insts "pda & distox"
 ;calibration accuracy less than 1.0'
 
 *BEGIN 1

@@ -7,9 +7,9 @@
 
 *title "Rift Pot - starting entrance side of Temple of Doom to Coate's chamber at base of pitches"
 *date 2009.11.08
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*Instrument Becka's 30m tape and Becka's tandem comp & clino 
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*Instrument insts "Becka's 30m tape and Becka's tandem comp & clino "
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

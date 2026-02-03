@@ -3,10 +3,10 @@
 ; Area in cave/QM: Sumps to Torrent
 *title "Base of pitches to Torrent"
 *date 2025.06.13
-*team Notes "Todd Rye"
-*team Instruments "James Hallihan"
-*team Dog "Ella Marcovitch"
-*instrument "RRCPCC disto"
+*team  "Todd Rye" Notes
+*team  "James Hallihan" Instruments
+*team  "Ella Marcovitch" Dog
+*instrument insts "RRCPCC disto"
 
 ;Important points 
 *export 102 90 70 4 38

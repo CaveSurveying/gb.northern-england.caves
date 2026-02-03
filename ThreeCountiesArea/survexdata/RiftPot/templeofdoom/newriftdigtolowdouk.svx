@@ -8,12 +8,12 @@
 
 *title "New Rift Dig to Low Douk"
 *date 2009.09.26
-*team Notes Ruth McDonald
-*team Insts  Becka Lawson
-*team Tape Richard Bendall 
-*team Digger Dave Ramsay
+*team "Ruth McDonald" Notes
+*team " Becka Lawson" Insts
+*team "Richard Bendall" Tape
+*team "Dave Ramsay" ; Digger
 
-*instrument Compass and Clino - Becka's tandem set ; Tape - Becka's 30m yellow read from 0cm
+*instrument Compass Clino "- Becka's tandem set ; Tape - Becka's 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -5,10 +5,10 @@
 
 *title "Rumbling Main Route"
 *date 2010.11.07
-*team Notes Becka Lawson
-*team Instruments Julian Todd
+*team "Becka Lawson" Notes
+*team "Julian Todd" Instruments
 ;Rigging Martin Green
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm"
 
 *EQUATE 3 entrance
 *ENTRANCE entrance

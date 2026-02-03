@@ -3,10 +3,10 @@
 ; Area in cave/QM: Bisector
 *title "Bisector passage"
 *date 2025.07.12
-*team Notes "Lucy Hyde"
-*team Instruments "Todd Rye"
-*team Dog "Christopher Chappel-Holt"
-*instrument "RRCPCC disto"
+*team  "Lucy Hyde" Notes
+*team  "Todd Rye" Instruments
+*team  "Christopher Chappel-Holt" Dog
+*instrument insts "RRCPCC disto"
 
 ;Important points 
 *export 1 

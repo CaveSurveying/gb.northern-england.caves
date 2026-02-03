@@ -8,15 +8,15 @@
 
 *title "Whirlpool"
 *date 2009.06.27
-*team Insts & Tape Julian Todd
-*team Notes Becka Lawson
+*team "Julian Todd" Insts Tape
+*team "Becka Lawson" Notes
 
 ; account for the fact we were using a badly calabrated SAP.  
 ; this gets corrected to the earlier surveys through the sump and cripple creek
 *sd compass 10 degrees
 *sd clino 10 degrees
 
-*instrument Compass and Clino - Becka's Pony ; Tape - Becka's 30m yellow read from 0cm
+*instrument Compass Clino "- Becka's Pony ; Tape - Becka's 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

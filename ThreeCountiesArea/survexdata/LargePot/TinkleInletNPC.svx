@@ -6,7 +6,7 @@
 *date 1983.04.15  ; date was April 1983 on drawn up survey so have guessed mid moknth
 *team "Andy Waddington"
 *team "Mike Thomas" Notes
-*instrument "unknown"
+*instrument insts " unknown "
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

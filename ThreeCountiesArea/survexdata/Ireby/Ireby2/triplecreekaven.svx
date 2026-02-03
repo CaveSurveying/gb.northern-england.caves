@@ -8,9 +8,9 @@
 
 *title "Triple Creek Aven Climb"
 *date 2009.05.03
-*team Insts Tom Clayton
-*team Notes Mad Phil Rowsell
-*instrument Compass and Clino - assume Phil's instruments ; Tape - assume Phil's tape
+*team "Tom Clayton" Insts
+*team "Mad Phil Rowsell" Notes
+*instrument Compass Clino "- assume Phil's instruments ; Tape - assume Phil's tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

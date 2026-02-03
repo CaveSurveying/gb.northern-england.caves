@@ -3,9 +3,9 @@
 
 *title "From traverse over pit through constrictions and up boulder ramp to aven and boulder choke"
 *date 2011.06.19
-*team Instruments Ian Lawton
-*team Notes Becka Lawson
-*instrument Neil's distox
+*team "Ian Lawton" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Neil's distox" 
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

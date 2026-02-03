@@ -8,14 +8,14 @@
 *export 21	;Rift connection surveyed to here
 *date 2009.12.09
 
-*team Notes Dave Ramsay
+*team "Dave Ramsay" Notes
 
-*team Instruments Becka Lawson
+*team "Becka Lawson" Instruments
 
-*team Tape Richard Bendall
+*team "Richard Bendall" Tape
 
 
-*instrument comp&clino Becka's tandem tape Becka's 30m tape
+*instrument insts "comp&clino Becka's tandem tape Becka's 30m tape"
 ; double-checked 
 
 

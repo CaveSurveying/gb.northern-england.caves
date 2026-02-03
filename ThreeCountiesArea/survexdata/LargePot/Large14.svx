@@ -4,9 +4,9 @@
 
 *title "End of Necropolis through choke to midway chamber"
 *date 2011.01.30
-*team Instruments Julian Todd
-*team Notes Neil Pacey
-*instrument Becka's Tandem as comp and clino and Tim Allen's Leica Disto-DXT for tape
+*team "Julian Todd" Instruments
+*team "Neil Pacey" Notes
+*instrument insts "Becka's Tandem as comp and clino and Tim Allen's Leica Disto-DXT for tape"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

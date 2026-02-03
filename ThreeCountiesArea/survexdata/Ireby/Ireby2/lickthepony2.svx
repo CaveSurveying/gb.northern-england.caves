@@ -7,9 +7,10 @@
 *export 20 37 50 51
 *title "Lick The Pony 2"
 *date 2008.06.21
-*team Insts Becka Lawson
-*team Notes Neil Pacey and Paul Swire
-*instrument Compass and Clino - Becka's Pony; Tape - 30m yellow read from 0cm
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes 
+*team "Paul Swire" Notes
+*instrument Compass Clino "- Becka's Pony; Tape - 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

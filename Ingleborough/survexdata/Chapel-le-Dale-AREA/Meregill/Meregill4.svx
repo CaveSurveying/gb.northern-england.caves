@@ -3,10 +3,10 @@
 ; Area in cave/QM: Torrent and Crossover
 *title "Torrent and Crossover"
 *date 2025.06.16
-*team Notes "Todd Rye"
-*team Instruments "James Hallihan"
-*team Dog "Christopher Chappel-Holt" 
-*instrument "RRCPCC disto"
+*team  "Todd Rye" Notes
+*team  "James Hallihan" Instruments
+*team  "Christopher Chappel-Holt" Dog
+*instrument insts "RRCPCC disto"
 
 ;Important points 
 *export 1 53 120

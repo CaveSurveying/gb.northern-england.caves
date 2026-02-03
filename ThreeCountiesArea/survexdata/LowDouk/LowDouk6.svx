@@ -7,11 +7,12 @@
 *title "Low Douk second entrance & pitches"
 
 *date 2010.04.22
-*team Notes Richard Bendall
-*team Instruments Richard Bendall, Phil Parker
+*team "Richard Bendall" Notes
+*team "Richard Bendall" Instruments
+*team "Phil Parker" Instruments
 
-*team Support Dave Ramsay
-*instrument Phil's Disto X 
+*team "Dave Ramsay" ;support
+*instrument insts "Phil's Disto X"
 
 
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long

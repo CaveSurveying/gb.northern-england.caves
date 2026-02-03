@@ -8,10 +8,10 @@
 
 *title "Canal ending at dive line to Notts"
 *date 2009.06.27
-*team Insts & Tape Julian Todd
-*team Notes Becka Lawson
+*team "Julian Todd" Insts tape
+*team "Becka Lawson" Notes
 
-*instrument Compass and Clino - Becka's Pony ; Tape - Becka's 30m yellow read from 0cm
+*instrument Compass Clino "- Becka's Pony ; Tape - Becka's 30m yellow read from 0cm"
 
 ; account for the fact we were using a badly calabrated SAP.  
 ; this gets corrected to the original dukest2canal survey

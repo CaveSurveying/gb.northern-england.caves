@@ -2,12 +2,13 @@
   
 *export 1 10
   
-*team "Becka Lawson, Sandy Wright" 
+*team "Becka Lawson"
+*team "Sandy Wright" 
 *date 2025.04.06   
 *units tape meters
 *units compass degrees
 *units clino degrees
-*instrument Becka's SAP6
+*instrument insts "Becka's SAP6"
   
 *data normal from to tape compass clino
   

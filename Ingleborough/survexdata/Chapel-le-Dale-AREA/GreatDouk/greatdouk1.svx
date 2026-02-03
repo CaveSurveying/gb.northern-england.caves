@@ -4,9 +4,9 @@
 ; Area in cave/QM: entrance to great douk up to squeeze past black cairn
 *title "greatdouk1"
 *date 2024.09.13
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*instrument "RRCPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "RRCPC Disto"
 
 *export 127 108 3 1
 *entrance 1 ;Great Douk Shakehole

@@ -3,9 +3,9 @@
 ; Area in cave/QM: Base of pitches to Torrent
 *title "Base of pitches to Torrent"
 *date 2025.06.12
-*team Notes "Todd Rye"
-*team Instruments "Todd Rye"
-*instrument "RRCPCC disto"
+*team  "Todd Rye" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "RRCPCC disto"
 
 ;Important points 
 *export 1 105 72 6 45

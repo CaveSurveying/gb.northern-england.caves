@@ -10,11 +10,11 @@
 
 *title "Rope Pitch Redo Numbers"
 *date 2010.01.10
-*team Insts Becka Lawson
-*team Tape Martin Green
-*team Notes Patrick Warren
+*team "Becka Lawson" Insts
+*team "Martin Green" Tape
+*team "Patrick Warren" Notes
 
-*instrument Compass and Clino - Becka's tandem ; Tape - Becka's 30m yellow read from 0cm
+*instrument Compass Clino "- Becka's tandem ; Tape - Becka's 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

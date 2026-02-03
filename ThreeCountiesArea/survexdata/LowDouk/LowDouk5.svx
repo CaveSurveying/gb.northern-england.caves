@@ -7,12 +7,12 @@
 *title "Low Douk dig below second entrance pitches"
 
 *date 2009.12.09
-*team Notes Dave Ramsay
+*team "Dave Ramsay" Notes
 
-*team Instruments Becka Lawson
+*team "Becka Lawson" Instruments
 
-*team Tape Richard Bendall
-*instrument comp&clino Becka's tandem tape Becka's 30m tape
+*team "Richard Bendall" Tape
+*instrument insts "comp&clino Becka's tandem tape Becka's 30m tape"
 ; double-checked 
 
 

@@ -4,9 +4,9 @@
 ; Area in cave/QM: Black Dub to entrance
 *title "BlackShiver5"
 *date 2025.11.01
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*instrument "Harry Kettles SAP 6"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "Harry Kettles SAP 6"
 
 *export 1 59
 *entrance 59

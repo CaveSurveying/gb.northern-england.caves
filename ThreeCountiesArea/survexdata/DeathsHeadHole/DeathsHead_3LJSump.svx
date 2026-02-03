@@ -8,11 +8,11 @@
 
 *date 2012.01.14
 
-*team Instruments Julian Todd
+*team "Julian Todd" Instruments
 
-*team Notes Becka Lawson
+*team "Becka Lawson" Notes
 
-*instrument Becka's Tandem as comp and clino and Becka's new 30m tape read from 0cm
+*instrument insts "Becka's Tandem as comp and clino and Becka's new 30m tape read from 0cm"
 
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long

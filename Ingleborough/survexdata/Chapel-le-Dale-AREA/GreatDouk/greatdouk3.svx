@@ -4,9 +4,9 @@
 ; Area in cave/QM: inlet on true left 
 *title "greatdouk3"
 *date 2024.09.15
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*instrument "RRCPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "RRCPC Disto"
 
 *export 1
 

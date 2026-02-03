@@ -7,10 +7,12 @@
 
 *title "Deaths Aven 6"
 *date 2014.02.03
-*team Insts Dave Ramsay/Jon Tompkins
-*team tape Ramsay/Jon Tompkins
-*team Notes Dave Ramsay
-*instrument Compass and Clino - rr2
+*team "Dave Ramsay" Insts
+*team "Jon Tompkins" insts
+*team "Ramsay" tape
+*team "Jon Tompkins" tape
+*team "Dave Ramsay" Notes
+*instrument Compass Clino "rr2"
 
 *calibrate tape +.20	; +ve if tape was too short, -ve if too long
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

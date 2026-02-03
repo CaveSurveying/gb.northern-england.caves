@@ -7,9 +7,9 @@
 
 *title "Rift Pot - Temple Of Doom"
 *date 2009.10.25
-*team DistoX Paul Windle
-*team Notes Neil Pacey
-*Instrument Leica A3 DistoX - Neil Pacey's
+*team "Paul Windle" insts
+*team "Neil Pacey" Notes
+*Instrument insts "Leica A3 DistoX - Neil Pacey's"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

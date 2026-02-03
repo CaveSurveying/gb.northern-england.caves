@@ -8,9 +8,9 @@
 
 *title "North East Inlet 7"
 *date 2010.04.25
-*team Insts Becka Lawson
-*team Notes Neil Pacey
-*instrument Compass and Clino - Becka's tandem compass-clino and Patrick's tape
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument Compass Clino "- Becka's tandem compass-clino and Patrick's tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

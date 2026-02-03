@@ -9,9 +9,9 @@
 
 *title "Rift Pot - Unadulterated Pleasure"
 *date 2009.10.03
-*team DistoX Becka Lawson
-*team Notes Neil Pacey
-*Instrument Leica A3 DistoX - Neil Pacey's
+*team "Becka Lawson" insts 
+*team "Neil Pacey" notes
+*Instrument insts "Leica A3 DistoX - Neil Pacey's"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

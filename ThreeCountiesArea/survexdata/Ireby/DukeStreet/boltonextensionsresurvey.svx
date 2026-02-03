@@ -8,9 +8,9 @@
 
 *title "Bolton Extensions Resurvey"
 *date 2010.06.13
-*team Instruments Julian Todd
-*team Notes Becka Lawson
-*Instrument Becka's 30m tape read from 0cm and Becka's tandem comp & clino
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
+*Instrument insts "Becka's 30m tape read from 0cm and Becka's tandem comp & clino"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

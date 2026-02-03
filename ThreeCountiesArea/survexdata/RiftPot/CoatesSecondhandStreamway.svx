@@ -5,10 +5,10 @@
 
 *date 2013.07.17
 
-*team Instruments Dave Ramsay
-*team Notes Dave Ramsay
-*team Tape Dave Ramsay
-*instrument RRCPC2
+*team "Dave Ramsay" Instruments
+*team "Dave Ramsay" Notes
+*team "Dave Ramsay" Tape
+*instrument insts "RRCPC2"
 *calibrate tape 0.18	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks

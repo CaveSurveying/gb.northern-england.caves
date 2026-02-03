@@ -2,10 +2,10 @@
 
 *title "Hardrawkin Pot"
 *date 2025.02.16
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*team Dog "James Hallihan"
-*instrument "BPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*team  "James Hallihan" Dog
+*instrument insts "BPC Disto"
 
 *export 63 ;A small dot of tipex to the true right of the downstream side of the lowest stone in the drystone wall crossing the stream flowing from High Douk Holes into Hardrawkin
 *entrance 63

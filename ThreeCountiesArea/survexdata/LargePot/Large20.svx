@@ -3,9 +3,10 @@
 
 *title "Eastern Front up first section of initial aven"
 *date 2013.05.31
-*team Instruments Beardy (Paul Swire)
-*team Notes Neil Pacey
-*instrument Beardy's conventional Suunto comp and clino  and Neil's Distox for distance
+*team "Beardy (Paul Swire)" Instruments
+*team "Neil Pacey" Notes
+*instrument insts "Beardy's conventional Suunto comp and clino  and Neil's Distox for distance"
+
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

@@ -3,9 +3,9 @@
 ; Area in cave/QM: Surface
 *title "Surface, Great Douk to High Douk and Southerscales"
 *date 2025.05.19
-*team Notes "Todd Rye"
-*team Instruments "Todd Rye"
-*instrument "BPC Disto"
+*team  "Todd Rye" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "BPC Disto"
 
 ;Important points 
 *export 1 53 27 34 38 9

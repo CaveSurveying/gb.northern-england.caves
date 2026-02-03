@@ -8,10 +8,10 @@
 
 *title "Cripple Creek connection"
 *date 2008.03.09
-*team Insts Patrick Warren
-*team Notes Neil Pacey 
-*team Tape Becka Lawson 
-*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+*team "Patrick Warren" Insts
+*team "Neil Pacey" Notes
+*team "Becka Lawson" Tape
+*instrument insts "Compass and Clino - Pony; Tape - 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

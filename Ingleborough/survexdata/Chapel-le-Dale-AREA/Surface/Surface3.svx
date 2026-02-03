@@ -3,9 +3,9 @@
 ; Area in cave/QM: Surface
 *title "Surface, Black Shiver to Meregill"
 *date 2025.10.10
-*team Notes "Todd Rye"
-*team Instruments "Lara Bartleet"
-*instrument "BPC Disto"
+*team  "Todd Rye" Notes
+*team  "Lara Bartleet" Instruments
+*instrument insts "BPC Disto"
 
 ;Important points 
 *export 1 19

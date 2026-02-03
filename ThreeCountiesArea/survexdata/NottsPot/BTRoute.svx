@@ -6,9 +6,9 @@
 
 *title "BT Route from yellow RRCPC tag in three ways chamber down to low point of duck"
 *date 2014.12.29
-*team Insts and Notes Becka Lawson
-*team Rigger and Target Sam Allshorn
-*instrument Becka's Old Distox before it got calibrated the same evening
+*team "Becka Lawson" Insts notes
+*team "Sam Allshorn" Insts
+*instrument insts "Becka's Old Distox before it got calibrated the same evening"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

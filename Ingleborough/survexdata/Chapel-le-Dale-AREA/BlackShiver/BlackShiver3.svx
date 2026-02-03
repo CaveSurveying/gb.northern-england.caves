@@ -4,9 +4,9 @@
 ; Area in cave/QM: Black Rift to White Shudder Aven
 *title "BlackShiver3"
 *date 2025.10.11
-*team Notes "Todd Rye"
-*team Instruments "Jonty Pine"
-*instrument "BPC Disto"
+*team  "Todd Rye" Notes
+*team  "Jonty Pine" Instruments
+*instrument insts "BPC Disto"
 
 *export 2 11 15
 

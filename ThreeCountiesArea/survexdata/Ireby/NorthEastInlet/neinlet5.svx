@@ -8,10 +8,10 @@
 
 *title "North East Inlet 5"
 *date 2010.02.07
-*team Tape Becka Lawson
-*team Insts Julian Todd
-*team Notes Neil Pacey
-*instrument Compass and Clino - Becka's tandem compass-clino and Becka's 30m tape
+*team "Becka Lawson" Tape
+*team "Julian Todd" Insts
+*team "Neil Pacey" Notes
+*instrument Compass Clino "- Becka's tandem compass-clino and Becka's 30m tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

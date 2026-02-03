@@ -6,12 +6,12 @@
 ;  ; beckas distox 0.39 calibration - recalibrated in the cave today
 
 *date 2012.10.28
-*team Instruments Andrew Atkinson
-*team Notes Becka Lawson with help from Andrew
-*team Tippex and Distox for last few legs Sally White
+*team "Andrew Atkinson" Instruments
+*team "Becka Lawson with help from Andrew" Notes
+*team "Sally White" station insts ;for the last few legs
 *title "From part way down Acrobat Route in Notts to below last pitch where Dave, Richard and Andy's survey ended which did final bit of Acrobat Route"
 
-*instrument Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes
+*instrument insts "Becka's distox calibrated in the cave on 28.10.12 with delta of 0.39 and Becka's PDA for notes"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

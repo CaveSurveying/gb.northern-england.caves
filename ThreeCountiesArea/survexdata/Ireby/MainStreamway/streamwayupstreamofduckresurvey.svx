@@ -8,10 +8,10 @@
 
 *title "Ireby - Main Streamway starting at starting at 37x just upstream of the duck and continuing until a bit before the first crawling section"
 *date 2010.01.01
-*team Instruments Patrick Warren
-*team Tape Martin Green
-*team Notes Becka Lawson
-*Instrument Becka's tandem comp & clino and Becka's 30m yellow tape
+*team "Patrick Warren" Instruments
+*team "Martin Green" Tape
+*team "Becka Lawson" Notes
+*Instrument insts "Becka's tandem comp & clino and Becka's 30m yellow tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -8,9 +8,9 @@
 
 *title "Roof of North East Inlet from Adulterers plus inlet"
 *date 2010.06.13
-*team Insts Julian Todd
-*team Notes Becka Lawson
-*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape
+*team "Julian Todd" Insts
+*team "Becka Lawson" Notes
+*instrument Compass Clino "- Becka's tandem compass-clino and Becka's tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

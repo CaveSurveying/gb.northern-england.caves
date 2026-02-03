@@ -3,11 +3,11 @@
 
 *title "Coates Cavern then towards Large"
 *date 2010.12.28
-*team Instruments Andy Chapman
-*team Notes Neil Pacey
-*team Notes Sally White
-*team Tape Becka Lawson
-*instrument Neil's DistoX
+*team "Andy Chapman" Instruments
+*team "Neil Pacey" Notes
+*team "Sally White" Notes
+*team "Becka Lawson" Tape
+*instrument insts "Neil's DistoX"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

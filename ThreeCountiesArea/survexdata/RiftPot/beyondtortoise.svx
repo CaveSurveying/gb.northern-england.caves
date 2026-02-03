@@ -3,9 +3,9 @@
 
 *title "From top of climb up into old Tim Allen, Mick Nunwick, Geoff Yeadon dig above the Mouse Trap to end of dig"
 *date 2015.01.11
-*team Tippex Tim Allen
-*team Notes Becka Lawson
-*instrument Becka's old distox calibrated over New Year
+*team "Tim Allen" station
+*team "Becka Lawson" Notes
+*instrument insts "Becka's old distox calibrated over New Year"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

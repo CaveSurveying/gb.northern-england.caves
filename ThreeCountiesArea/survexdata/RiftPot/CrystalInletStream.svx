@@ -3,10 +3,10 @@
 
 *title "From old station 53 up inlet on left, small stream"
 *date 2011.12.29
-*team Instruments Becka Lawson
-*team Notes Emma Wilson
-*team Tape Olaf Kahler
-*instrument Becka's tandem comp and clino and Becka's 30m tape missing last 30cm
+*team "Becka Lawson" Instruments
+*team "Emma Wilson" Notes
+*team "Olaf Kahler" Tape
+*instrument insts "Becka's tandem comp and clino and Becka's 30m tape missing last 30cm"
 
 *calibrate tape 0.30	; +ve if tape was too short, -ve if too long
 

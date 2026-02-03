@@ -8,9 +8,9 @@
 
 *title "Ireby - Main Streamway starting at starting at 59  from a bit before the first crawling section to the bubbles tag"
 *date 2010.05.29
-*team Instruments Julian Todd
-*team Notes Martin Green
-*Instrument Patrick's tandem comp & clino and Patrick's 30m yellow tape
+*team "Julian Todd" Instruments
+*team "Martin Green" Notes
+*Instrument insts "Patrick's tandem comp & clino and Patrick's 30m yellow tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

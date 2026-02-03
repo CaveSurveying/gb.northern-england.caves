@@ -3,9 +3,9 @@
 
 *title "Eastern Front from dig through choke and nearly to crawl"
 *date 2013.05.24
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*instrument initially (through dig and water) Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm then Becka's Distox as back reading through second pool and up boulder choke and rest of trip
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*instrument insts "initially (through dig and water) Becka's Tandem as comp and clino and Becka's 30m tape read from 0cm then Becka's Distox as back reading through second pool and up boulder choke and rest of trip"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

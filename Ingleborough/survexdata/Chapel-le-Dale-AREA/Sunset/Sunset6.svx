@@ -3,9 +3,9 @@
 ; Area in cave/QM: "Extensions cont"
 *title Sunset6
 *date 2025.12.12
-*team Notes "Todd Rye"
-*team Instruments "Christopher Chappel-Holt"
-*instrument "RRCPC Disto"
+*team  "Todd Rye" Notes
+*team  "Christopher Chappel-Holt" Instruments
+*instrument insts "RRCPC Disto"
 
 ;Important points 
 *export 1 34

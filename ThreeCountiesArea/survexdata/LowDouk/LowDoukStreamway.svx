@@ -7,14 +7,14 @@
 
 *date 2009.11.30
 
-*team Notes Becka Lawson
+*team "Becka Lawson" Notes
 
-*team Instruments Richard Bendall
+*team "Richard Bendall" Instruments
 
-*team Tape Dave Ramsay
+*team "Dave Ramsay" Tape
 
 
-*instrument comp&clino Becka's tandem tape Becka's 30m tape
+*instrument compass clino "Becka's tandem tape Becka's 30m tape"
 ; double-checked 
 
 

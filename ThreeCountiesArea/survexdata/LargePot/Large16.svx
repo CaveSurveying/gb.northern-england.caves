@@ -4,9 +4,9 @@
 
 *title "Choke at end of Necropolis up towards James and Chris dig and beyond"
 *date 2011.02.12
-*team Instruments Patrick Warren
-*team Notes Becka Lawson
-*instrument Becka's Tandem as comp and clino and Patrick's 60m tape
+*team "Patrick Warren" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Tandem as comp and clino and Patrick's 60m tape"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

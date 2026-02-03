@@ -3,10 +3,10 @@
 
 *title "Low Douk from just beyond climb down to sump through dig into BAC rift"
 *date 2013.10.05
-*team Notes Becka Lawson
-*team Instruments Emma Wilson
+*team "Becka Lawson" Notes
+*team "Emma Wilson" Instruments
 
-*instrument comp&clino Becka's Distox
+*instrument compass clino "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

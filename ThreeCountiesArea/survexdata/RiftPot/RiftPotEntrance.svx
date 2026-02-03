@@ -4,9 +4,9 @@
 
 *title "Rift Pot Entrance"
 *date 2009.11.28
-*team Instruments Becka Lawson
-*team Notes Patrick Warren
-*instrument tape Neil's distox
+*team "Becka Lawson" Instruments
+*team "Patrick Warren" Notes
+*instrument insts "tape Neil's distox"
 ; double-checked 
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long

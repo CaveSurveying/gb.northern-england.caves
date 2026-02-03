@@ -4,10 +4,10 @@
 ; Area in cave/QM: Towards Southerscales Sump
 *title "greatdouk14"
 *date 2025.08.12
-*team Notes "Todd Rye"
-*team Instruments "Todd Rye"
-*team Dog "Samuel Devey"
-*instrument "RRCPC Disto"
+*team  "Todd Rye" Notes
+*team  "Todd Rye" Instruments
+*team  "Samuel Devey" Dog
+*instrument insts "RRCPC Disto"
 
 *export 1 10
 *alias station - ..

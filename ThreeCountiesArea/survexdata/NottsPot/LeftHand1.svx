@@ -6,10 +6,11 @@
 
 *title "Pitch into Three Ways Chamber and start of Left Hand Route towards Twilight Route"
 *date 2012.02.12
-*team Insts Becka Lawson
-*team Notes Ruth McDonald then Dave Ramsay
-*team Tape Sally White
-*instrument Tape is ex-RRCPC Disto Compass and Clino - Becka's tandem
+*team "Becka Lawson" Insts
+*team "Ruth McDonald" Notes
+*team "Dave Ramsay" Notes
+*team "Sally White" Tape
+*instrument insts "Tape is ex-RRCPC Disto Compass and Clino - Becka's tandem"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx

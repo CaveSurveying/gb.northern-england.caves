@@ -3,9 +3,9 @@
 
 *title "From RiftTowardsMousehole survey to drafting inlet and then along an earlier inlet which didn't get to end of"
 *date 2011.06.19
-*team Instruments Ian Lawton
-*team Notes Becka Lawson
-*instrument Neil's distox
+*team "Ian Lawton" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Neil's distox"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

@@ -8,9 +8,9 @@
 
 *title "North East Inlet 2"
 *date 2009.12.29
-*team Insts Becka Lawson
-*team Notes Neil Pacey
-*instrument Compass and Clino - Neil's Disto-X until approx station 35, just before climbed up out of tight rift which we could have avoided by going over the top from the inlet
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument insts "Compass and Clino - Neil's Disto-X until approx station 35, just before climbed up out of tight rift which we could have avoided by going over the top from the inlet"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

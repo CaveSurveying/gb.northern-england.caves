@@ -4,10 +4,10 @@
 
 *title "Below Colossus"
 *date 2011.01.22
-*team Tape Neil Pacey
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*instrument Neil's DistoX
+*team "Neil Pacey" Tape
+*team "Becka Lawson" Instruments
+*team  "Neil Pacey" Notes
+*instrument insts "Neil's DistoX"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

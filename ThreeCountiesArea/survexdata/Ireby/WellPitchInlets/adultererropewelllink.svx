@@ -8,9 +8,9 @@
 
 *title "Link from traverse before Adulterers to between Rope and Well pitch"
 *date 2009.10.25
-*team Instruments Julian Todd
-*team Notes Becka Lawson
-*Instrument Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
+*Instrument insts "Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

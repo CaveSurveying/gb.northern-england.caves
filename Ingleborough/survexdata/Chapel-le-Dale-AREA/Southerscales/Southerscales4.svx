@@ -3,9 +3,9 @@
 ; Area in cave/QM: Entrances to first pitch 
 *title Southerscales4
 *date 2025.05.10
-*team Notes "Lara Bartleet"
-*team Instruments "Isaac Neale"
-*instrument "BPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Isaac Neale" Instruments
+*instrument insts "BPC Disto"
 
 *export 1 14 20
 *entrance 1

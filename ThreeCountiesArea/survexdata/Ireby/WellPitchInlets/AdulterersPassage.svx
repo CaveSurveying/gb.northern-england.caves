@@ -8,11 +8,11 @@
 
 *title "Adulterer's Passage"
 *date 2009.05.17
-*team Disto Liz Lawton
-*team Notes Neil Pacey
-*team Instruments Ian Lawton
-*team Photography Ian Lawton
-*instrument Compass and Clino, Leica A3 Disto - Neil Pacey's
+*team "Liz Lawton" insts
+*team "Neil Pacey" Notes
+*team "Ian Lawton" Instruments
+*team "Ian Lawton" ; Photography
+*instrument Compass Clino ", Leica A3 Disto - Neil Pacey's"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

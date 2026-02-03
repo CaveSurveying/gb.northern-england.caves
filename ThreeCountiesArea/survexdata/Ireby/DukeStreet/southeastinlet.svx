@@ -8,9 +8,9 @@
 
 *title "South East inlet"
 *date 2010.05.23
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*Instrument Patrick's 30m tape read from 0cm and Becka's tandem comp & clino 
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*Instrument insts "Patrick's 30m tape read from 0cm and Becka's tandem comp & clino"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

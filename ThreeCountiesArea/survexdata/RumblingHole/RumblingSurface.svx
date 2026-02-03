@@ -8,10 +8,10 @@
 
 *title "RumblingSurface"
 *date 2008.02.03
-*team Insts Becka Lawson
-*team Notes Becka Lawson 
-*team Tape Julian Todd 
-*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+*team "Becka Lawson" Insts
+*team "Becka Lawson" Notes
+*team "Julian Todd" Tape
+*instrument insts "Compass and Clino - Pony; Tape - 30m yellow read from 0cm"
 
 ;ref.:	2008 #1
 

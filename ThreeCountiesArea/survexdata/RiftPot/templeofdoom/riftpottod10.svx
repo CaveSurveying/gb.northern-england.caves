@@ -7,10 +7,10 @@
 
 *title "Rift Pot - small passage back to top of main passage near All Fool's Choke"
 *date 2013.06.30
-*team Instruments Becka Lawson
-*team Notes Dave Ramsey
-*team Tape Mike from Black Rose
-*instrument Becka's Distox
+*team "Becka Lawson" Instruments
+*team "Dave Ramsey" Notes
+*team "Mike from Black Rose" Tape
+*instrument insts "Becka's Distox"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

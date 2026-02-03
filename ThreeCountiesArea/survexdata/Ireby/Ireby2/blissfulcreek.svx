@@ -8,9 +8,9 @@
 
 *title "Blissful Creek and Triple Creek"
 *date 2008.05.17
-*team Insts Becka Lawson
-*team Notes Neil Pacey 
-*instrument Compass and Clino - Becka's Pony; Tape - 30m yellow read from 0cm
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument Compass Clino "- Becka's Pony; Tape - 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

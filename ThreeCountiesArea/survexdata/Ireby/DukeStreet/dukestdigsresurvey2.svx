@@ -8,9 +8,9 @@
 
 *title "Two digs at end of Duke St 1"
 *date 2012.02.18
-*team Instruments Sally White
-*team Notes Andy Chapman
-*Instrument ?
+*team "Sally White" Instruments
+*team "Andy Chapman" Notes
+;*Instrument ?
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 
 ;from	to	tape	compass	clino	remarks

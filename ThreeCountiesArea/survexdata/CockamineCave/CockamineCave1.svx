@@ -3,9 +3,9 @@
 
 *title "Surface survey from Big Meanie to Cockamene Cave dig next to Meridian then down Cockamine to near end"
 *date 2018.10.11
-*team Instruments Richard Bendall
-*team Notes Becka Lawson
-*instrument Becka's Distox2
+*team "Richard Bendall" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Distox2"
 
 ;*calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

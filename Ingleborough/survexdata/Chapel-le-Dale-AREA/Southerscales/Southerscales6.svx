@@ -3,9 +3,9 @@
 ; Area in cave/QM: Sump
 *title Southerscales6
 *date 2025.10.25
-*team Notes "Samuel Devey"
-*team Instruments "Samuel Devey"
-*instrument "Tape, Dive Compass, Dive Computer"
+*team  "Samuel Devey" Notes
+*team  "Samuel Devey" Instruments
+*instrument insts "Tape, Dive Compass, Dive Computer"
 
 ;Data has been converted to non dive data for the mental ease of Todd
 

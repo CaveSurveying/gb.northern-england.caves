@@ -3,9 +3,9 @@
 ; Area in cave/QM: "Final Chamber to surface"
 *title Sunset1
 *date 2025.04.18
-*team Notes "Lucy Hyde"
-*team Instruments "Todd Rye"
-*instrument "BPC Disto"
+*team  "Lucy Hyde" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "BPC Disto"
 
 ;Important points 
 *export 1 169 90 37 19 

@@ -6,9 +6,9 @@
 
 *title "Adamsons Route from old station 10 above pitch down to old station 14 where all routes merge"
 *date 2015.01.31
-*team Insts and Notes Becka Lawson
-*team Target Andy Chapman
-*instrument Becka's Old Distox calibrated last month
+*team "and Notes Becka Lawson" Insts
+*team "Andy Chapman" station
+*instrument insts "Becka's Old Distox calibrated last month"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

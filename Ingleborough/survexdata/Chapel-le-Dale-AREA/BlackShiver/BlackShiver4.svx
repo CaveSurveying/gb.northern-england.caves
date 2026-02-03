@@ -4,9 +4,9 @@
 ; Area in cave/QM: North Chamber to Black rift
 *title "BlackShiver4"
 *date 2025.10.13
-*team Notes "Todd Rye"
-*team Instruments "Christopher Chappel-Holt"
-*instrument "BPC Disto"
+*team  "Todd Rye" Notes
+*team  "Christopher Chappel-Holt" Instruments
+*instrument insts "BPC Disto"
 
 *export 6 49 26 35
 

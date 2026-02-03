@@ -8,9 +8,9 @@
 
 *title "Low, wet side passage on west and parallel to top end of Duke Street"
 *date 2010.05.29
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*Instrument Becka's 30m tape and Becka's tandem comp & clino
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*Instrument insts "Becka's 30m tape and Becka's tandem comp & clino"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

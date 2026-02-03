@@ -4,9 +4,9 @@
 ; Area in cave/QM: Great Douk Pot
 *title "greatdoukpot"
 *date 2025.05.10
-*team Notes "Lara Bartleet"
-*team Instruments "Isaac Neale"
-*instrument "BPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Isaac Neale" Instruments
+*instrument insts "BPC Disto"
 
 *export 30 27
 *entrance 27

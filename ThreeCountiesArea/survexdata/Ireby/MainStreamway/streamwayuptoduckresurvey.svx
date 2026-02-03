@@ -8,9 +8,9 @@
 
 *title "Ireby - Main Streamway starting at 1 at the top of Rope Pitch and finishing at 37 just upstream of the duck"
 *date 2009.11.28
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*Instrument Neil's Disto-X (recalibrated since Rift trips two or more weeks ago)
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*Instrument insts "Neil's Disto-X (recalibrated since Rift trips two or more weeks ago)"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

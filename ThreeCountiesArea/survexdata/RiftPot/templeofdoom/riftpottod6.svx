@@ -7,9 +7,9 @@
 
 *title "Rift Pot - side passage beyond Temple of Doom at station 102"
 *date 2009.10.24
-*team Instruments Julian Todd
-*team Notes Becka Lawson
-*Instrument Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)
+*team "Julian Todd" Instruments
+*team "Becka Lawson" Notes
+*Instrument insts "Becka's 30m tape and Becka's tandem comp & clino with backup Becka's Pony read backwards by Becka (Pony measurements after semicolon on each line)"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

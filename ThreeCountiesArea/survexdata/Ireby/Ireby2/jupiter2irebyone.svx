@@ -9,10 +9,10 @@
 
 *title "Jupiter to Ireby I"
 *date 2008.05.03
-*team Insts Becka Lawson
-*team Notes Patrick Warren
-*team Tape Becka Lawson 
-*instrument Compass and Clino - Pony; Tape - 30m yellow read from 0cm
+*team "Becka Lawson" Insts
+*team "Patrick Warren" Notes
+*team "Becka Lawson" Tape
+*instrument Compass Clino "- Pony; Tape - 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

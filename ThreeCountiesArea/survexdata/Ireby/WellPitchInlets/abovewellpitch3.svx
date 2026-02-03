@@ -8,11 +8,12 @@
 
 *title "Above Well Pitch 3"
 *date 2009.05.04
-*team Insts & Tape Paul Windle
-*team Notes Becka Lawson
-*team Snappering Neil Pacey 
-*team Clearance Ian & Liz Lawton
-*instrument Compass and Clino - Becka's Pony; Tape - Becka's 30m yellow read from 0cm
+*team "Paul Windle" Insts Tape 
+*team "Becka Lawson" Notes
+*team "Neil Pacey" ; Snappering
+*team "Ian Lawton" ; Clearance
+*team "Liz Lawton" ; Clearance
+*instrument Compass Clino "- Becka's Pony; Tape - Becka's 30m yellow read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

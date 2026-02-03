@@ -6,9 +6,9 @@
 
 *title "Centre Route from yellow RRCPC tag in three ways chamber down to tag at end of Centre Route, just above streamway and duck"
 *date 2015.01.02
-*team Insts Nick Edwards
-*team Notes Nathaniel Dalton
-*instrument  Neil's conventional compassa and clino and Becka's 30m tape read from 0cm
+*team  "Nick Edwards" Insts
+*team "Nathaniel Dalton" Notes
+*instrument  insts "Neil's conventional compassa and clino and Becka's 30m tape read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

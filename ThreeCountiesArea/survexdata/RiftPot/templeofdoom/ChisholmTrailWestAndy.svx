@@ -3,10 +3,11 @@
 
 *title "From old numbered station 174 CHECK to Dave Ramsay station 10 survey"
 *date 2012.10.14
-*team Instruments Fleur Loveridge
-*team Notes Andy Chapman
-*team Tape Pete Talling and Sally White
-*instrument RRCPC comp and clino and RRCPC 30m tape read from 20cm
+*team "Fleur Loveridge" Instruments
+*team "Andy Chapman" Notes
+*team "Pete Talling" Tape
+*team "Sally White" Tape
+*instrument insts "RRCPC comp and clino and RRCPC 30m tape read from 20cm"
 
 *calibrate tape +0.20	; +ve if tape was too short, -ve if too long
 

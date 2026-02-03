@@ -3,10 +3,10 @@
 ; Area in cave/QM: "Pitch Bypass"
 *title Sunset2
 *date 2025.04.18
-*team Notes "Todd Rye"
-*team Instruments "Aidan Kuhlmann"
-*team Dog "Christopher Chappel-Holt"
-*instrument "RRCPC Disto"
+*team  "Todd Rye" Notes
+*team  "Aidan Kuhlmann" Instruments
+*team  "Christopher Chappel-Holt" Dog
+*instrument insts "RRCPC Disto"
 
 ;Important points 
 *export 1 23 20

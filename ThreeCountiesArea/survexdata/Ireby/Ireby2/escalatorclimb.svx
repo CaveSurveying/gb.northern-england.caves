@@ -8,9 +8,9 @@
 
 *title "Escalator Rift Climb"
 *date 2010.02.20
-*team Insts Patrick Warren
-*team Notes Becka Lawson 
-*instrument Compass and Clino - Becka's Tandem; Patrick's Tape - 20m read from 0cm
+*team "Patrick Warren" Insts
+*team "Becka Lawson" Notes
+*instrument Compass Clino "- Becka's Tandem; Patrick's Tape - 20m read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

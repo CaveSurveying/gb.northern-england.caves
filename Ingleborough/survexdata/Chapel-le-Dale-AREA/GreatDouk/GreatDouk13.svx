@@ -4,9 +4,9 @@
 ; Area in cave/QM: Wet Sink
 *title "greatdouk13"
 *date 2025.05.21
-*team Notes "Todd Rye"
-*team Instruments "Todd Rye"
-*instrument "RRCPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "RRCPC Disto"
 
 *export 1 
 

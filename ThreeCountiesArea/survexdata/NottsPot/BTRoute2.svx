@@ -6,9 +6,9 @@
 
 *title "Short loop at top of BT route route wet inlets"
 *date 2015.01.31
-*team Insts and Notes Becka Lawson
-*team Target Beardy (Paul Swire)
-*instrument Becka's Old Distox calibrated last month
+*team "Becka Lawson" Insts notes
+*team " Beardy (Paul Swire)" station
+*instrument insts "Becka's Old Distox calibrated last month"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

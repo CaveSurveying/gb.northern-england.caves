@@ -4,9 +4,9 @@
 
 *title "Entrance of Large Pot down initial 3 pitches to nearly Tinkle Inlet"
 *date 2010.09.11
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*instrument Neil's distox calibrated that morning in Ingleton after changing batteries
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*instrument insts "Neil's distox calibrated that morning in Ingleton after changing batteries"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

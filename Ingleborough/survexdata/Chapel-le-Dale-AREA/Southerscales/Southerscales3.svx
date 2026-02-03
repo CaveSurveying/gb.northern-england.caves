@@ -3,9 +3,9 @@
 ; Area in cave/QM: Main passage from Presidents to Zoology
 *title Southerscales3
 *date 2025.05.09
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*instrument "BPC Disto"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "BPC Disto"
 
 *export 1 50 52
 *equate 34 50

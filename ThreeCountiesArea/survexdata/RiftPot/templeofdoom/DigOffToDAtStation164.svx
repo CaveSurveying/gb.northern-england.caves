@@ -3,10 +3,10 @@
 
 *title "From old numbered station 164 on main Temple of Doom passage into inlet dig"
 *date 2012.10.14
-*team Instruments Becka Lawson
-*team Notes Dave Ramsay
-*team Tape Chris Densham
-*instrument Becka's tandem comp and clino and Becka's 30m tape read from 0cm
+*team "Becka Lawson" Instruments
+*team "Dave Ramsay" Notes
+*team "Chris Densham" Tape
+*instrument insts "Becka's tandem comp and clino and Becka's 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

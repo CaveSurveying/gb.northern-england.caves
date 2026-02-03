@@ -3,10 +3,10 @@
 ; Area in cave/QM: "Extensions start"
 *title Sunset3
 *date 2025.09.05
-*team Notes "Todd Rye"
-*team Instruments "Buck Blake"
-*team Dog "Alice Kirby"
-*instrument "RRCPC Disto"
+*team  "Todd Rye" Notes
+*team  "Buck Blake" Instruments
+*team  "Alice Kirby" Dog
+*instrument insts "RRCPC Disto"
 
 ;Important points 
 *export 1 16

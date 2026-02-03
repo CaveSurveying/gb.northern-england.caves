@@ -8,9 +8,9 @@
 
 *title "Upper Frink Chamber"
 *date 2010.06.12
-*team Insts Neil Pacey
-*team Notes Becka Lawson
-*instrument Becka's Compass and Clino Tandem and Patrick's Tape from 0cm
+*team "Neil Pacey" Insts
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Compass and Clino Tandem and Patrick's Tape from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

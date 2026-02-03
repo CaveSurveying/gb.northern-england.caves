@@ -3,9 +3,9 @@
 ; Area in cave/QM: Static sump 2
 *title "Static sump 2"
 *date 2025.07.12
-*team Notes "Lucy Hyde"
-*team Instruments "Todd Rye"
-*instrument "RRCPCC disto"
+*team  "Lucy Hyde" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "RRCPCC disto"
 
 ;Important points 
 *export 12

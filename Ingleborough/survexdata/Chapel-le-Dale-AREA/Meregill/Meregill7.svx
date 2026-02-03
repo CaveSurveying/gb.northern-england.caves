@@ -3,8 +3,8 @@
 ; Area in cave/QM: Branched Oxbow
 *title "Branched Oxbow"
 *date 2025.06.23
-*team Notes "Todd Rye" 
-*instrument "RRCPCC disto"
+*team  "Todd Rye" Notes
+*instrument insts "RRCPCC disto"
 
 ;Important points 
 *export 1 37

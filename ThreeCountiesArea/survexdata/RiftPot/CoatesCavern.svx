@@ -3,10 +3,10 @@
 
 *title "Rest of Coates Cavern"
 *date 2010.07.18
-*team Instruments Patrick Warren
-*team Notes Becka Lawson
-*team Tape Ruth Macdonald
-*instrument Patrick's tape read from 0cm and Becka's tandem for comp/clino
+*team "Patrick Warren" Instruments
+*team "Becka Lawson" Notes
+*team "Ruth Macdonald" Tape
+*instrument insts "Patrick's tape read from 0cm and Becka's tandem for comp/clino"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

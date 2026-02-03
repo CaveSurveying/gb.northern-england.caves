@@ -4,9 +4,9 @@
 
 *title "Rift Pot - From old station 22 from initial Chisholm Trial survey with Julian to remainder of area"
 *date 2013.04.28
-*team Instruments Dave Ramsey
-*team Notes Becka Lawson
-*instrument Becka's tandem and Becka's 30m tape read from 0cm
+*team "Dave Ramsey" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka's tandem and Becka's 30m tape read from 0cm"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

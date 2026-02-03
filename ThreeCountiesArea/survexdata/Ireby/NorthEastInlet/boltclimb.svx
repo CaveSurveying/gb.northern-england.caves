@@ -11,9 +11,8 @@
 
 *title "Boltclimb"
 *date 2009.05.13
-*team Neil Pacey
-*team Notes Neil Pacey
-*instrument Compass and Clino - Neil's Disto-X
+*team "Neil Pacey" Notes
+*instrument insts "Compass and Clino - Neil's Disto-X"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

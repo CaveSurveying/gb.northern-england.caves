@@ -3,9 +3,9 @@
 ; Area in cave/QM: Lower streamway
 *title "Highest Entrance to upstream limit"
 *date 2025.10.31
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*instrument "Harry Kettles SAP 6"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "Harry Kettles SAP 6"
 
 ;Important points 
 *export 1

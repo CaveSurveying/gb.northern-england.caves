@@ -8,9 +8,9 @@
 
 *title "Milk and Honey"
 *date 2010.02.20
-*team Insts Becka Lawson
-*team Notes Patrick Warren
-*instrument Compass and Clino - Becka's Tandem; Patrick's Tape - 20m read from 0cm
+*team "Becka Lawson" Insts
+*team "Patrick Warren" Notes
+*instrument Compass Clino "- Becka's Tandem; Patrick's Tape - 20m read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

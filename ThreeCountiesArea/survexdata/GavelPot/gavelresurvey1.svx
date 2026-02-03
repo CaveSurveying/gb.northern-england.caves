@@ -3,11 +3,11 @@
 *export tag11a 22
 *title "Gavel Pot from entrance p-hangers down Cascade pitch (from Eco Traverse) then through surface shakehole and down main route"
 *date 2019.11.10
-*team Rigging Sandy Wright
-*team Tippex Avelina Wright
-*team Instruments Becka Lawson
-*team Notes Becka Lawson
-*instrument Becka Distox2
+*team "Sandy Wright" ;Rigging
+*team "Avelina Wright" station
+*team "Becka Lawson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Becka Distox2"
 
 ;*calibrate tape 0	; +ve if tape was too short, -ve if too long
 

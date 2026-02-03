@@ -8,9 +8,9 @@
 
 *title "Tube and Cold COmfort"
 *date 2009.12.28
-*team Insts Becka Lawson
-*team Notes Neil Pacey
-*instrument Compass and Clino - Neil's Disto-X
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument Compass Clino "- Neil's Disto-X"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

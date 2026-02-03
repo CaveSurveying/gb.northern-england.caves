@@ -4,10 +4,11 @@
 
 *title "Passage off Coates Cavern"
 *date 2010.06.26
-*team Instruments Chris Smith
-*team Notes James Sugden
-*team Tape Ollie Sugden & Becka Lawson
-*instrument Becka's tape read from 0cm and Becka's tandem for comp/clino
+*team "Chris Smith" Instruments
+*team "James Sugden" Notes
+*team "Ollie Sugden" Tape
+*team "Becka Lawson" Tape
+*instrument insts "Becka's tape read from 0cm and Becka's tandem for comp/clino"
 ; double-checked 
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long

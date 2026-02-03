@@ -4,9 +4,9 @@
 
 *title "Side inlet on right in Large Pot between Thornton Hall and Tinkle Inlet"
 *date 2010.10.30
-*team Instruments Becka Lawson
-*team Notes Neil Pacey
-*instrument Neil's distox calibrated about a month ago for the Large1 trip
+*team "Becka Lawson" Instruments
+*team "Neil Pacey" Notes
+*instrument insts "Neil's distox calibrated about a month ago for the Large1 trip"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

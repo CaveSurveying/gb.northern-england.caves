@@ -8,10 +8,10 @@
 
 *title "Duke St 1 Resurvey 2009"
 *date 2009.06.13
-*team Insts & Tape Various CUCC
-*team Notes Various under supervision of Anthony Day
+*team "Various CUCC" Insts Tape 
+*team "Various under supervision of Anthony Day" Notes
 
-*instrument Compass and Clino - CUCC and Becka's Pony and CUCC comp/clino ; Tape - CUCC disto andn Becka's 30m yellow read from 0cm
+*instrument Compass Clino "- CUCC and Becka's Pony and CUCC comp/clino ; Tape - CUCC disto andn Becka's 30m yellow read from 0cm2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

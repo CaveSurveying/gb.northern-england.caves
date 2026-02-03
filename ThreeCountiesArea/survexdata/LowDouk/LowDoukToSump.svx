@@ -4,10 +4,10 @@
 
 *title "Low Douk from Steps Chamber to sumps"
 *date 2010.01.02
-*team Notes Becka Lawson
-*team Instruments Julian Todd
+*team "Becka Lawson" Notes
+*team "Julian Todd" Instruments
 
-*instrument comp&clino Becka's tandem tape Becka's 30m tape
+*instrument compass clino "Becka's tandem tape Becka's 30m tape"
 ; double-checked 
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long

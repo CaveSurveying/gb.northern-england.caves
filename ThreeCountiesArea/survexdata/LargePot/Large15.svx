@@ -4,9 +4,9 @@
 
 *title "End of large passage in Rift towards Mouse trap"
 *date 2011.01.30
-*team Instruments Andrew Atkinson
-*team Notes Becka Lawson
-*instrument Neil's DistoX
+*team "Andrew Atkinson" Instruments
+*team "Becka Lawson" Notes
+*instrument insts "Neil's DistoX"
 
 *calibrate tape 0.00	; +ve if tape was too short, -ve if too long
 

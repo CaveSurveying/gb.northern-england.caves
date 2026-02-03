@@ -3,9 +3,9 @@
 
 *title "Eastern Front - Julian's bypass"
 *date 2013.06.09
-*team Instruments Julian Todd
-*team Notes Beardy
-*instrument Beardy's conventional Suunto comp and clino  and Neil's Distox for distance
+*team "Julian Todd" Instruments
+*team "Beardy" Notes
+*instrument insts "Beardy's conventional Suunto comp and clino  and Neil's Distox for distance"
 
 *calibrate tape 0.0	; +ve if tape was too short, -ve if too long
 

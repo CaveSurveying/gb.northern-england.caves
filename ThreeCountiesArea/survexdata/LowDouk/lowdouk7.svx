@@ -8,9 +8,9 @@
 
 *title "Low Douk 7"
 *date 2010.07.10	; added final leg to yellow RRCPC tag on 23/05/11 - on Marble Steps Main Chamber notes for that day with Becka Lawson, Richard Bendall and Dave Ramsay
-*team Insts Becka Lawson
-*team Notes Mark Shinwell
-*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape
+*team "Becka Lawson" Insts
+*team "Mark Shinwell" Notes
+*instrument Compass Clino "- Becka's tandem compass-clino and Becka's tape"
 ; at Bull Pot Farm the next day and from the corner level with the screws (and with the carpark full of cars) I got 342 (and +2.5) to the top of the near footpath sign and 340 to the short post just to the right of the further footpath sign
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long

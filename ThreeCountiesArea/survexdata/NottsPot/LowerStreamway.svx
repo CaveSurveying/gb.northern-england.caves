@@ -6,9 +6,9 @@
 
 *title "Centre Route from yellow RRCPC tag in three ways chamber down to tag at end of Centre Route, just above streamway and duck"
 *date 2015.01.02
-*team Insts Ralph Leech
-*team Notes Becka Lawson
-*instrument Becka's Old Distox before it got calibrated the same evening
+*team "Ralph Leech" Insts
+*team "Becka Lawson" Notes
+*instrument insts "Becka's Old Distox before it got calibrated the same evening"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

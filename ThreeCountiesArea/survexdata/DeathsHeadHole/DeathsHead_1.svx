@@ -8,10 +8,10 @@
 
 *title "Deaths Head-Lost John's connection"
 *date 2007.12.19
-*team Insts Richard Bendall
-*team tape Richard Bendall
-*team Notes Dave Ramsay
-;Instruments:	Red Rose Sunto Compass & Clino kit 2, 30m tape	
+*team "Richard Bendall" Insts
+*team "Richard Bendall" tape
+*team "Dave Ramsay" Notes
+*Instrument insts "Red Rose Sunto Compass & Clino kit 2, 30m tape"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

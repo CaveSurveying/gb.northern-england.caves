@@ -8,9 +8,9 @@
 
 *title "Shadow Route"
 *date 2006.09.27
-*team Insts Dom Hoare
-*team Notes Dave Ramsay
-*instrument RRCPC Set 2
+*team "Dom Hoare" Insts
+*team "Dave Ramsay" Notes
+*instrument insts "RRCPC Set 2"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

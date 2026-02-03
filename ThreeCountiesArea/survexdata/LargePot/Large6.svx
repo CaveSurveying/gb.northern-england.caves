@@ -4,10 +4,10 @@
 
 *title "Colossus up to last station in Large 5 and then most of Pumpkin Passage"
 *date 2010.11.06
-*team Tape Becka Lawson
-*team Instruments Julian Todd
-*team Notes Diane Arthurs
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!
+*team "Becka Lawson" Tape
+*team "Julian Todd" Instruments
+*team "Diane Arthurs" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape read from *20cm* as end now fallen off!"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

@@ -3,9 +3,9 @@
 
 *title "Upstream of supposed Occult sump"
 *date 2011.04.30
-*team Instruments Becka Lawson
-*team Notes James Sugden
-*instrument Becka's Tandem as comp and clino and Becka's 30m tape with 20cm end off
+*team "Becka Lawson" Instruments
+*team "James Sugden" Notes
+*instrument insts "Becka's Tandem as comp and clino and Becka's 30m tape with 20cm end off"
 
 *calibrate tape 0.20	; +ve if tape was too short, -ve if too long
 

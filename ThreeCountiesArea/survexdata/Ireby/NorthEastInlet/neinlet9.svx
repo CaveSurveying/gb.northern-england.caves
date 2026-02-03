@@ -8,9 +8,9 @@
 
 *title "North East Inlet 9 - True Mud / True Grit connection"
 *date 2010.10.09
-*team Insts Becka Lawson
-*team Notes Neil Pacey
-*instrument Compass and Clino - Becka's tandem compass-clino and Becka's tape read from 0cm
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument Compass Clino "- Becka's tandem compass-clino and Becka's tape read from 0cm"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

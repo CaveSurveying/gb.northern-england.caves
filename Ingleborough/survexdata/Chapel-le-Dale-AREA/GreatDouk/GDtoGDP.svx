@@ -3,9 +3,9 @@
 ; Area in cave/QM: "1 to Pot"
 *title GDtoGDP
 *date 2026.01.31
-*team Notes "Lara Bartleet"
-*team Instruments "Todd Rye"
-*instrument "Feather Mcgraw"
+*team  "Lara Bartleet" Notes
+*team  "Todd Rye" Instruments
+*instrument insts "Feather Mcgraw"
 
 ;Important points 
 *export 1 3

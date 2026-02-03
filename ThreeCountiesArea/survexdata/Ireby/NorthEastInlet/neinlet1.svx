@@ -8,9 +8,9 @@
 
 *title "North East Inlet 1"
 *date 2009.12.06
-*team Insts Becka Lawson
-*team Notes Neil Pacey
-*instrument Compass and Clino - Neil's Disto-X
+*team "Becka Lawson" Insts
+*team "Neil Pacey" Notes
+*instrument insts "Compass and Clino - Neil's Disto-X"
 
 *calibrate tape 0	; +ve if tape was too short, -ve if too long
 

@@ -4,10 +4,10 @@
 ; Area in cave/QM: Sump to North Chamber 
 *title "BlackShiver1"
 *date 2025.10.11
-*team Notes "Buck Blake"
-*team Instruments "Lara Bartleet"
-*team Dog "Christopher Chappel-Holt"
-*instrument "RRCPC Disto"
+*team  "Buck Blake" Notes
+*team  "Lara Bartleet" Instruments
+*team  "Christopher Chappel-Holt" Dog
+*instrument insts "RRCPC Disto"
 
 *export 22
 *equate 9 11
