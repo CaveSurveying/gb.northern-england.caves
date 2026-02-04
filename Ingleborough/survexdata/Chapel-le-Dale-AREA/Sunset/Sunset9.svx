@@ -1,0 +1,21 @@
+*begin Sunset9
+; Cave: Sunset Hole
+; Area in cave/QM: "Scrotty crawl under Braithwaite"
+*title Sunset9
+*date 2026.02.03
+*team "Todd Rye" Notes
+*team "Todd Rye" Instruments 
+*instrument insts "Feathers McGraw"
+
+;Important points 
+*export 10
+
+*alias station - ..
+
+10	-	1.357	275.94	-3.38	
+10	11	1.367	275.04	-3.76		;  {from: 1.357 275.59 -3.47, 1.391 273.95 -4.36, 1.352 275.59 -3.44}
+11	-	1.352	275.31	-3.50	
+11	-	1.392	274.78	-4.02	
+11	12	2.996	304.31	-1.97		;  {from: 3.007 305.39 -2.01, 3.007 303.82 -2.09, 2.975 303.73 -1.82}
+
+*end Sunset9
