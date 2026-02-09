@@ -1,9 +1,9 @@
 *BEGIN GlasfurdsUpStreamExt1
-*export 1.0
+*export 1.0 1.12
 
 
 *BEGIN 1
-*export 0
+*export 0 12 
 
 ;pda - Nick
 ;disto - Nick
@@ -11,7 +11,7 @@
 *DATE 2026.02.08
 
 
-0	1	 1.53	272.54	-61.18  ;R Duffy's cow tag high on left befor Geoff chamber duck
+0	1	 1.53	272.54	-61.18  ;R Duffy's cow tag high on left before Geoffs chamber duck
 *FLAGS SPLAY
 1	1a	 0.47	181.35	-86.74
 1	1b	 0.60	135.34	-49.81
