@@ -1,8 +1,10 @@
 *BEGIN GlasfurdsUpStreamExt1
-*export 0
+*export 1.0
 
 
 *BEGIN 1
+*export 0
+
 ;pda - Nick
 ;disto - Nick
 
