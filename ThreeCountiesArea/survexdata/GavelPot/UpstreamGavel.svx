@@ -2,7 +2,7 @@
 
 ; This data is reconstructed from Geoff Yeadon's original notes
 *date 1983.06.01	;estimated date from survey
-
+*export 0
 
 *UNITS depth feet
 *DATA DIVING station depth NEWLINE compass tape  

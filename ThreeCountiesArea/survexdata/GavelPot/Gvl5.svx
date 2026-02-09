@@ -1,6 +1,7 @@
 
 *begin	Gvl5
 *export  001
+*export 010c
 
 ;Cave:	Gavel Pot - Glasfords
 ;Surveyors:	R.Duffy/A.Whitney

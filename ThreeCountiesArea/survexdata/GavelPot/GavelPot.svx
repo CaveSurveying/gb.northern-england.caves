@@ -31,4 +31,7 @@
 *include UpstreamGavel
 *equate UpstreamGavel.0 Gvl4.010
 
+*equate GlasfurdsUpStreamExt1.0 Gvl5.010c
+*include GlasfurdsUpStreamExt1
+
 *end	GavelPot
