@@ -1,0 +1,36 @@
+encoding  utf-8
+survey Southerscales6
+
+
+###Maps, a collection of scraps that make up the final map###
+map plan -projection plan 
+  S1
+endmap
+
+#map elev -projection extended 
+ # "insert scrap names here"
+#endmap
+
+
+###Inputs th2 file for final drawing###
+input "Southerscales6.plan.th2"
+#input "Southerscales6.ee.th2"
+
+
+###Centreline data###  
+  centreline
+  
+    data normal from to length compass clino
+    
+    1  2  4.620  285.00  -8.30  
+    2  3  18.430  255.00  2.20  
+  
+  
+    extend start 1
+  
+  
+  endcentreline
+
+
+endsurvey
+

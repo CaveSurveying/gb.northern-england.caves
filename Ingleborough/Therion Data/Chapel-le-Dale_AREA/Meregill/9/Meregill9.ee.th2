@@ -1,0 +1,19 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -866.14 -314.96 2125.98 157.48
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Meregill9.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap meregill9-ee -projection extended
+
+point 246.6905 -38.383694 station -name 2
+
+point 319.75058 -39.63763 station -name 3
+
+point 697.3256 -51.74449 station -name 4
+
+point 889.5597 -65.91836 station -name 5
+
+point 1231.6774 -83.55856 station -name 6
+
+endscrap

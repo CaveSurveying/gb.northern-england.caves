@@ -1,0 +1,173 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -915.4016 -757.92126 994.1417600000001 1545.3229000000001
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {174.10000000000002 1 1.0} {345.68 2} Sunset8.plan.xvi 0 {}
+
+
+
+scrap S1 -projection plan -scale [-1181.10 -1023.62 1338.58 -1023.62 0.0 0.0 63.999871999999996 0.0 m]
+
+point 174.10432 345.6822 station -name 2
+
+point 103.23892 478.2212 station -name 3
+
+point 172.67918 593.46814 station -name 4
+
+line rock-border
+endline
+
+line rock-border -close on
+  222.0 855.0
+  237.0 868.0
+  265.0 832.0
+  259.0 826.0
+  222.0 855.0
+endline
+
+line rock-border -close on
+  178.0 874.0
+  199.0 907.0
+  224.0 874.0
+  200.0 850.0
+  178.0 874.0
+endline
+
+point 49.0 685.0 section -scrap CS1
+
+line section -direction both
+  82.0 629.0
+  105.5 617.0 221.82 563.06 258.0 546.0
+  smooth off
+endline
+
+line wall -subtype bedrock
+endline
+
+line wall -subtype bedrock
+  220.0 424.0
+  206.0 451.0 163.0 449.0 163.0 481.0
+  163.0 513.0 186.0 546.0 197.0 572.0
+  208.0 598.0 201.99 592.97 226.0 643.0
+  238.0 668.0 261.0 744.0 308.0 774.0
+  smooth off
+endline
+
+line wall -subtype bedrock
+endline
+
+line border
+endline
+
+area clay
+endarea
+
+area clay
+  l29-371-935
+endarea
+
+line border -id l29-371-935 -close on -subtype invisible
+  136.0 1007.0
+  -20.0 845.0
+  54.0 600.0
+  234.0 582.0
+  400.0 713.0
+  360.0 1003.0
+  136.0 1007.0
+endline
+
+line rock-border -close on
+  118.0 454.0
+  146.0 448.0
+  118.0 412.0
+  100.0 434.0
+  118.0 454.0
+endline
+
+line rock-border -close on
+  172.0 568.0
+  167.0 542.0
+  185.0 532.0
+  198.0 553.0
+  172.0 568.0
+endline
+
+line rock-border
+endline
+
+line rock-border -close on
+  90.0 553.0
+  112.0 549.0
+  119.0 518.0
+  93.0 518.0
+  66.0 537.0
+  90.0 553.0
+endline
+
+line rock-border -close on
+  112.0 561.0
+  140.0 567.0
+  114.0 601.0
+  102.0 567.0
+  112.0 561.0
+endline
+
+area water
+endarea
+
+line wall -subtype bedrock
+  130.0 593.0
+  130.0 593.0 93.0 536.0 78.0 519.0
+  smooth off
+endline
+
+line wall
+  195.0 925.0
+  171.74 877.11 181.0 783.0 176.0 730.0
+  171.0 677.0 147.0 629.0 142.0 622.0
+  137.0 615.0 130.0 593.0 130.0 593.0
+  smooth off
+endline
+
+point 255.55536 715.448 station -name 5
+
+point 182.62747 781.8039 station -name 6
+
+endscrap
+
+
+
+scrap CS1 -projection none -scale [-1181.10 -1023.62 1338.58 -1023.62 0.0 0.0 63.999871999999996 0.0 m]
+
+line rock-border
+endline
+
+line rock-border -close on
+  401.5 411.5
+  402.0 401.5
+  423.5 404.0
+  422.0 414.0
+  401.5 411.5
+endline
+
+line rock-border -close on
+  355.5 399.0
+  366.5 409.0
+  385.0 409.0
+  376.5 398.0
+  355.5 399.0
+endline
+
+line wall -close on
+  332.0 413.0
+  332.0 413.0 329.0 421.0 364.0 427.0
+  399.0 433.0 409.0 434.0 423.0 429.0
+  437.0 424.0 448.0 428.0 442.0 418.0
+  436.0 408.0 428.0 408.0 409.0 406.0
+  390.0 404.0 376.0 401.0 362.0 401.0
+  348.0 401.0 332.0 413.0 332.0 413.0
+  smooth off
+endline
+
+endscrap
+
+

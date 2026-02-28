@@ -1,0 +1,130 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1624.063 -915.4016 757.9213199999999 994.1417600000001
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-748.79 1 1.0} {192.66999999999996 11} {Great Douk 9.plan.xvi} 0 {}
+
+
+
+scrap S1 -projection plan -scale [-1889.76 -1181.10 1102.36 -1181.10 0.0 0.0 75.999848 0.0 m]
+
+line wall
+  -992.0315 36.842377
+  -992.0315 36.842377 -959.0 44.5 -948.0 52.0
+  -937.0 59.5 -942.5 98.5 -916.5 98.0
+  -890.5 97.5 -835.0 104.5 -826.5 91.5
+  -818.0 78.5 -811.0 46.5 -784.5 28.5
+  -758.0 10.5 -727.5 -4.5 -716.0 -1.0
+  -704.5 2.5 -667.19 44.88 -725.0 77.0
+  -738.5 84.5 -747.5 171.0 -745.0 204.5
+  -742.5 238.0 -758.0 258.5 -707.5 303.0
+  -657.0 347.5 -667.5 357.5 -667.5 357.5
+  smooth off
+endline
+
+line wall
+  -992.0315 36.842377
+  -965.0 -114.0
+endline
+
+point -838.5 279.0 pebbles -orientation 106.3
+
+line water-flow
+  -996.0 86.0
+  -955.0 128.0 -869.0 232.0 -869.0 232.0
+  smooth off
+endline
+
+area water
+endarea
+
+point -857.5 134.0 pebbles -orientation 85.2
+
+point -927.5 216.5 pebbles -orientation 277.4
+
+point -931.5 150.5 pebbles
+
+point -874.5 191.5 pebbles -orientation 51.6
+
+point -618.5 129.5 label -text [c1]
+
+point -834.5 -46.0 label -text [roof tube]
+
+line overhang -reverse on
+  -944.0 103.5
+  -944.0 103.5 -962.0 117.5 -968.5 132.0
+  -975.0 146.5 -981.0 181.0 -981.0 195.5
+  -981.0 210.0 -971.5 225.0 -971.5 225.0
+  smooth off
+endline
+
+line wall
+  -1100.0 -74.0
+  -1100.0 -74.0 -1068.0 -34.0 -1060.5 -7.0
+  -1053.0 20.0 -1020.0 107.5 -1021.5 122.0
+  -1023.0 136.5 -994.5 213.0 -971.5 225.0
+  -948.5 237.0 -845.5 388.0 -839.5 402.0
+  smooth off
+endline
+
+point -748.7931 192.6726 station -name 11
+
+point -745.41003 122.807 station -name 10
+
+point -769.6018 225.26666 station -name 8
+
+point -1023.93665 -203.4833 station -name 9
+
+point -992.0315 36.842377 station -name 7
+
+endscrap
+
+
+
+scrap scrap29 -scale [-1889.76 -1181.10 1102.36 -1181.10 0.0 0.0 75.999848 0.0 m]
+
+endscrap
+
+
+
+scrap S2 -scale [-1889.76 -1181.10 1102.36 -1181.10 0.0 0.0 75.999848 0.0 m]
+
+line wall
+  -693.0 61.0
+  -766.5 78.5 -803.5 84.5 -851.0 88.5
+  -898.5 92.5 -930.0 101.5 -944.0 103.5
+  smooth off
+endline
+
+line chimney -close on
+  -742.0 51.5
+  -758.8 6.22 -705.5 -24.0 -699.5 27.5
+  -696.36 54.48 -730.5 82.5 -742.0 51.5
+endline
+
+line wall
+  -751.0 5.5
+  -645.0 -18.5
+endline
+
+line wall
+  -976.5 45.5
+  -955.5 48.5 -909.5 63.0 -874.0 48.0
+  -838.5 33.0 -798.5 22.0 -751.0 5.5
+  smooth off
+endline
+
+point -753.2283 49.3071 station -name 5
+
+point -942.2837 98.639175 station -name 6
+
+point -557.4065 -43.854023 station -name 4
+
+point -362.08206 64.270386 station -name 3
+
+point 0.0 0.0 station -name 1
+
+point 200.01036 -84.49179 station -name 2
+
+endscrap
+
+

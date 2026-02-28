@@ -1,0 +1,10 @@
+encoding  utf-8
+survey Surface
+
+input 1/Surface1.th
+input 2/Surface2.th
+input 3/Surface3.th
+input 4/Surface4.th
+
+endsurvey
+

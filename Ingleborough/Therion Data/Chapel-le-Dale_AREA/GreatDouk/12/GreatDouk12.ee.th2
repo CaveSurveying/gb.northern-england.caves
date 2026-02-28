@@ -1,0 +1,127 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1574.80 -1023.62 7322.83 629.92
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "GreatDouk12.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap greatdouk12-ee -projection extended
+
+point 223.44781 9.467392 station -name 2
+
+point 315.12216 -58.586555 station -name 3
+
+point 633.7926 -41.88983 station -name 4
+
+point 880.0602 -54.958748 station -name 5
+
+point 925.4456 -44.67718 station -name 6
+
+point 1015.3864 -32.698795 station -name 7
+
+point 1141.1538 -50.025726 station -name 8
+
+point 1272.2589 -54.49383 station -name 9
+
+point 1393.4182 -70.44475 station -name 10
+
+point 1452.7008 -59.19143 station -name 11
+
+point 1511.1144 -47.59359 station -name 12
+
+point 1628.0533 -52.922684 station -name 13
+
+point 1752.1952 -56.708675 station -name 14
+
+point 1866.0157 -73.76714 station -name 15
+
+point 2014.0276 -62.696934 station -name 16
+
+point 2092.8274 -80.02468 station -name 17
+
+point 2185.156 -88.05286 station -name 18
+
+point 2298.1997 -176.68655 station -name 19
+
+point 2366.9868 -169.26509 station -name 20
+
+point 2511.437 -190.73468 station -name 21
+
+point 2612.928 -180.87947 station -name 22
+
+point 2816.182 -199.38426 station -name 23
+
+point 2885.5554 -197.59694 station -name 24
+
+point 2976.3496 -215.91963 station -name 25
+
+point 3107.5354 -221.05797 station -name 26
+
+point 3211.4465 -225.09476 station -name 27
+
+point 3254.7744 -233.13747 station -name 28
+
+point 3390.9592 -223.73053 station -name 29
+
+point 3509.5967 -301.3234 station -name 30
+
+point 3574.9355 -237.68687 station -name 31
+
+point 3632.8271 -244.06013 station -name 32
+
+point 3712.0574 -317.19073 station -name 33
+
+point 3867.8203 -303.04474 station -name 34
+
+point 3916.9614 -308.55167 station -name 35
+
+point 4003.1238 -310.90103 station -name 36
+
+point 4068.828 -351.36652 station -name 37
+
+point 4183.5317 -344.97058 station -name 38
+
+point 4278.192 -326.1698 station -name 39
+
+point 4383.1675 -356.19812 station -name 40
+
+point 4531.3804 -355.33133 station -name 41
+
+point 4674.4536 -365.18192 station -name 42
+
+point 4795.317 -364.30896 station -name 43
+
+point 4932.143 -372.3201 station -name 44
+
+point 5100.3687 -366.67303 station -name 45
+
+point 5191.8667 -374.55826 station -name 46
+
+point 5250.9106 -410.57135 station -name 47
+
+point 5323.144 -414.4139 station -name 48
+
+point 5408.301 -406.9189 station -name 49
+
+point 5517.825 -417.95007 station -name 50
+
+point 5590.241 -424.10226 station -name 51
+
+point 5633.0137 -413.06668 station -name 52
+
+point 5734.383 -469.32056 station -name 53
+
+point 72.36552 43.859753 station -name 54
+
+point 187.9464 72.301476 station -name 55
+
+point 377.5787 76.77477 station -name 56
+
+point 746.95624 141.08676 station -name 57
+
+point 1029.1201 35.53584 station -name 58
+
+point 1229.449 47.444927 station -name 59
+
+point 1377.23 -5.1178284 station -name 60
+
+endscrap

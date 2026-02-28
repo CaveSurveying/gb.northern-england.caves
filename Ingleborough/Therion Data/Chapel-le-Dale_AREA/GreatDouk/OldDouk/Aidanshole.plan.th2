@@ -1,0 +1,45 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1574.80 -2755.91 2047.24 1574.80
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Aidanshole.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap aidanshole-plan -projection plan
+
+point 137.28075 -58.03385 station -name 2
+
+point -0.45329568 -26.910353 station -name 3
+
+point -33.819508 -108.175125 station -name 4
+
+point -264.1841 -192.3824 station -name 5
+
+point -529.9331 -737.1808 station -name 6
+
+point -378.55533 -936.9337 station -name 7
+
+point -363.34192 -1148.6161 station -name 8
+
+point -219.86308 -1221.3668 station -name 9
+
+point -424.43576 -655.3308 entrance -scale l -orientation 359.43274
+
+point -438.88492 -436.04404 entrance -scale l -orientation 19.983109
+
+point -322.44196 -259.25476 entrance -scale l -orientation 31.504272
+
+point -350.4774 -845.2224 clay -scale xl
+
+point -331.94888 -1045.3304 clay -scale xl
+
+point -394.94583 -830.39954 clay -scale xl
+
+point -134.31125 -1277.5547 clay -scale xl
+
+point -56.491463 -1219.4985 clay -scale xl
+
+point -407.2982 -994.68585 clay -scale xl
+
+point -326.16226 -666.2487 clay -scale xl
+
+endscrap

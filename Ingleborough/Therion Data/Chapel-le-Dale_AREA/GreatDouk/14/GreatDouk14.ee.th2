@@ -1,0 +1,27 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1181.10 -314.96 4881.89 157.48
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "GreatDouk14.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap greatdouk14-ee -projection extended
+
+point 566.52405 -58.156914 station -name 2
+
+point 1048.1027 -79.40925 station -name 3
+
+point 1462.866 -66.61414 station -name 4
+
+point 2203.1743 -59.634613 station -name 5
+
+point 2396.7605 -67.01882 station -name 6
+
+point 2797.1174 -115.70988 station -name 7
+
+point 3205.7017 -111.21791 station -name 8
+
+point 3488.8044 -124.45482 station -name 9
+
+point 3515.0024 -120.58069 station -name 10
+
+endscrap

@@ -1,0 +1,74 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2411.4646 -1466.5826 442.96068000000014 757.9214000000002
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} Southerscales6.plan.xvi 0 {}
+
+
+
+scrap S1 -projection plan -scale [-2677.17 -1732.28 787.40 -1732.28 0.0 0.0 88.000078 0.0 m]
+
+point -347.70358 93.16688 station -name 2
+
+point -1748.4037 -282.1495 station -name 3
+
+line wall
+  -1600.0 -288.0
+  -1496.0 -276.0 -1532.0 -344.0 -1188.0 -292.0
+  -844.0 -240.0 -772.0 -120.0 -664.0 -64.0
+  -556.0 -8.0 -508.0 84.0 -388.0 8.0
+  smooth off
+endline
+
+area water
+  l7--1896-40
+endarea
+
+area water
+  l11-6-182
+endarea
+
+line u:water -id l11-6-182 -close on -visibility off
+  -510.0 248.0
+  -442.0 20.0
+  -304.0 -100.0
+  24.0 -176.0
+  4.0 232.0
+  -510.0 248.0
+endline
+
+area sump
+  l9--464--112
+endarea
+
+line u:water -id l9--464--112 -close on -visibility off
+  -524.0 280.0
+  -420.0 -100.0
+  -920.0 -252.0
+  -946.0 -248.0
+  -946.0 -248.0 -746.0 -156.0 -1012.0 -20.0
+  -1137.92 44.38 -1256.0 18.0 -1382.0 32.0
+  -1508.0 46.0 -1130.0 304.0 -1134.0 282.0
+  -1138.0 260.0 -524.0 280.0 -524.0 280.0
+  smooth off
+endline
+
+line u:water -id l7--1896-40 -close on -visibility off
+  -2060.0 56.0
+  -1948.0 -796.0
+  -1260.0 -348.0
+  -1260.0 -348.0 -764.0 -212.0 -892.0 -112.0
+  -1020.0 -12.0 -1124.0 28.0 -1280.0 24.0
+  -1436.0 20.0 -2060.0 56.0 -2060.0 56.0
+  smooth off
+endline
+
+line wall
+  -1540.0 -64.0
+  -1380.0 16.0 -976.0 248.0 -784.0 240.0
+  -592.0 232.0 -272.0 196.0 -216.0 172.0
+  smooth off
+endline
+
+endscrap
+
+

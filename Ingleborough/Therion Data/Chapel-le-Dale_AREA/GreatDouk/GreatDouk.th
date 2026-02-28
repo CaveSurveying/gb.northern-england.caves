@@ -1,0 +1,73 @@
+encoding  utf-8
+survey GreatDouk
+
+###Inputs, add surveys here###
+input 1/GreatDouk1.th
+input 2/GreatDouk2.th
+input 3/GreatDouk3.th
+input 4/GreatDouk4.th
+input 9/GreatDouk9.th
+input 10/GreatDouk10.th
+input 11/GreatDouk11.th
+input 6/GreatDouk6.th
+input 7/GreatDouk7.th
+input 8/GreatDouk8.th
+input 12/GreatDouk12.th
+input 13/GreatDouk13.th
+input 14/GreatDouk14.th
+input Pot/Greatdoukpot.th
+input GDtoGDP/GDtoGDP.th
+
+###Joins, connecting scraps on the surveys###
+join S1@GreatDouk9 S1@GreatDouk10
+join S3@GreatDouk1 S1@GreatDouk4
+join S1@GreatDouk1 S1@GreatDouk2
+join S4@GreatDouk1 S1@GreatDouk3
+join S1@GreatDouk11 S2@GreatDouk1
+join S4@GreatDouk6 S1@GreatDouk9
+join S2@GreatDouk9 S6@GreatDouk6
+join S5@GreatDouk6 S1@GreatDouk7
+join S3@GreatDouk6 S1@GreatDouk2
+join S6@GreatDouk1 S1@GreatDouk14
+
+###Equates, connecting points on surveys###
+equate 9@GreatDouk9 1@GreatDouk10
+equate 3@GreatDouk1 26@GreatDouk4
+equate 1@GreatDouk2 127@GreatDouk1
+equate 108@GreatDouk1 1@GreatDouk3
+equate 1@GreatDouk1 1@GreatDouk11
+equate 38@GreatDouk6 2@GreatDouk9
+equate 1@GreatDouk6 46@GreatDouk2
+equate 1@GreatDouk7 56@GreatDouk6
+equate 1@GreatDouk1 1@GDtoGDP
+equate 60@GreatDouk12 72@GreatDouk6
+equate 36@GreatDouk8 72@GreatDouk6
+equate 8@GreatDouk8 1@GreatDouk13
+equate 3@GreatDouk1 1@GreatDouk14
+equate 3@GDtoGDP 27@Greatdoukpot
+
+
+###Map, to create overall map. Input individual survey maps to create the whole###
+map plan -projection plan
+  plan@GreatDouk1
+  plan@GreatDouk11
+  plan@GreatDouk2
+  plan@GreatDouk4
+  plan@GreatDouk3
+  plan@GreatDouk6
+  plan@GreatDouk7
+  plan@GreatDouk10
+  plan@GreatDouk9
+  plan@GreatDouk12
+  plan@GreatDouk8
+  plan@GreatDouk13
+  plan@GreatDouk14
+  plan@Greatdoukpot
+endmap
+
+#map elev -projection extended
+#  
+#endmap
+
+endsurvey
+

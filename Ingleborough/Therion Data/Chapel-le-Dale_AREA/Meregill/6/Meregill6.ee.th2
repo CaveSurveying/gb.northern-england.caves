@@ -1,0 +1,91 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -157.48 10866.14 551.18
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Meregill6.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap meregill6-ee -projection extended
+
+point 231.56688 91.89378 station -name 2
+
+point 618.63904 99.09397 station -name 3
+
+point 837.32007 106.861565 station -name 4
+
+point 876.8526 114.63056 station -name 5
+
+point 1200.012 127.41235 station -name 6
+
+point 1296.3748 109.54431 station -name 7
+
+point 1387.9005 124.91983 station -name 8
+
+point 1753.3474 130.2458 station -name 9
+
+point 2089.6724 146.53137 station -name 10
+
+point 2367.5298 158.9891 station -name 11
+
+point 2714.1184 164.97089 station -name 12
+
+point 3276.9731 187.5395 station -name 13
+
+point 3525.1128 175.63535 station -name 14
+
+point 3779.341 215.59142 station -name 15
+
+point 3887.0125 231.35202 station -name 16
+
+point 4145.033 197.66815 station -name 17
+
+point 4235.6577 189.73274 station -name 18
+
+point 4622.553 207.35178 station -name 19
+
+point 4859.227 210.35469 station -name 20
+
+point 4950.903 216.22223 station -name 21
+
+point 5279.8833 220.0283 station -name 22
+
+point 5371.563 219.76755 station -name 23
+
+point 5454.3525 215.74544 station -name 24
+
+point 5806.687 223.26819 station -name 25
+
+point 5896.17 237.30838 station -name 26
+
+point 6101.074 238.53947 station -name 27
+
+point 6432.707 242.23843 station -name 28
+
+point 6468.801 257.36093 station -name 29
+
+point 6781.7095 263.3616 station -name 30
+
+point 6988.3374 265.6201 station -name 31
+
+point 7022.78 276.48645 station -name 32
+
+point 7237.6406 261.54144 station -name 33
+
+point 7454.7363 287.66284 station -name 34
+
+point 7663.433 281.35153 station -name 35
+
+point 7933.2407 279.2476 station -name 36
+
+point 8075.15 291.84735 station -name 37
+
+point 8150.6313 286.15582 station -name 38
+
+point 8476.356 278.03473 station -name 39
+
+point 8685.824 286.34653 station -name 40
+
+point 9030.563 297.94095 station -name 41
+
+point 9111.434 315.00464 station -name 42
+
+endscrap

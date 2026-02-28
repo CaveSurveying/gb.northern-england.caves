@@ -1,0 +1,46 @@
+encoding  utf-8
+survey Southerscales
+	
+	###Inputs, add surveys here###
+	input 1/Southerscales1
+	input 2/Southerscales2
+	input 3/Southerscales3
+	input 4/Southerscales4
+	input 5/Southerscales5
+	input 6/Southerscales6
+	
+	
+	###Joins, connecting scraps on the surveys###
+	join S1@Southerscales1 S1@Southerscales6
+	join S2@Southerscales2 S5@Southerscales1
+	join S1@Southerscales2 S4@Southerscales1
+	join S1@Southerscales3 S6@Southerscales1
+	join S1@Southerscales5 S1@Southerscales3
+	join S1@Southerscales5 S2@Southerscales4
+	
+	###Equates, connecting points on surveys###
+	equate 1@Southerscales3 123@Southerscales1
+	equate 116@Southerscales1 2@Southerscales2
+	equate 66@Southerscales1 11@Southerscales2
+	equate 2@Southerscales5 14@Southerscales4
+	equate 41@Southerscales5 50@Southerscales3
+	equate 1@Southerscales1 1@Southerscales6
+	
+	
+	###Map, to create overall map. Input individual survey maps to create the whole###
+	map plan -projection plan
+		plan@Southerscales2
+		plan@Southerscales3
+		plan@Southerscales1
+		plan@Southerscales4
+		plan@Southerscales5
+		plan@Southerscales6
+	endmap
+	
+	#map elev -projection extended
+	#
+	#endmap
+	
+	
+endsurvey
+

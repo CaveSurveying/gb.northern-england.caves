@@ -1,0 +1,123 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1702.8032 -1072.8819 1230.3622400000002 836.66146
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {591.91 1 1.0} {-93.7600000000001 2} Southerscales2.plan.xvi 0 {}
+
+
+
+scrap S1 -projection plan -scale [-1968.50 -1338.58 1574.80 -1338.58 0.0 0.0 89.99982 0.0 m]
+
+point 591.9104 -93.76494 station -name 2
+
+line wall
+endline
+
+point 0.0 -1.1368683772161603e-13 station -name 1
+
+line wall
+  15.5 12.5
+  15.5 12.5 53.0 18.0 73.0 48.0
+  93.0 78.0 107.0 110.0 107.0 122.0
+  smooth off
+endline
+
+area water
+endarea
+
+point -560.0 -99.0 blocks
+
+line wall
+  -551.0 -175.5
+  -546.0 -164.5 -507.0 -95.0 -497.0 -89.0
+  -487.0 -83.0 -421.0 -79.5 -409.0 -78.0
+  -397.0 -76.5 -309.0 -58.0 -281.5 -59.5
+  -254.0 -61.0 -187.5 -30.5 -147.5 -27.5
+  subtype flowstone
+  -107.5 -24.5 -44.5 -62.5 -23.5 -69.0
+  -2.5 -75.5 75.0 -92.0 75.0 -92.0
+  smooth off
+  75.0 -92.0 96.0 -83.0 126.0 -117.0
+  smooth off
+endline
+
+point -96.0 -8.0 soda-straw
+
+line floor-step
+endline
+
+line wall
+  15.5 12.5
+  -26.5 12.5 20.5 5.0 -54.5 13.5
+  -129.5 22.0 -109.0 39.0 -154.5 36.5
+  -200.0 34.0 -338.0 -8.0 -376.0 -13.0
+  subtype flowstone
+  -414.0 -18.0 -555.0 -19.0 -577.0 -36.0
+  -599.0 -53.0 -613.5 -80.5 -626.5 -116.0
+  smooth off
+endline
+
+point -152.97285 -5.8889055 station -name 3
+
+point -348.67654 -40.413963 station -name 4
+
+point -449.19427 -62.0464 station -name 5
+
+point -484.75836 -27.084091 station -name 6
+
+endscrap
+
+
+
+scrap S2 -scale [-1968.50 -1338.58 1574.80 -1338.58 0.0 0.0 89.99982 0.0 m]
+
+line wall
+  -917.0 -235.0
+  -914.0 -235.0 -933.5 -200.5 -906.0 -207.0
+  -878.5 -213.5 -877.5 -215.0 -829.5 -213.5
+  -781.5 -212.0 -764.5 -195.5 -709.5 -200.0
+  -654.5 -204.5 -620.5 -230.0 -600.5 -216.0
+  -580.5 -202.0 -556.0 -186.5 -551.0 -175.5
+  smooth off
+endline
+
+point -951.0 -175.0 soda-straw
+
+line wall
+  -626.5 -116.0
+  -639.5 -151.5 -618.5 -167.5 -666.0 -158.5
+  -713.5 -149.5 -797.5 -123.0 -809.5 -117.5
+  -821.5 -112.0 -908.0 -136.0 -908.0 -136.0
+  smooth off
+  -908.0 -136.0
+  -908.0 -136.0 -913.5 -143.5 -946.5 -146.5
+  smooth off
+endline
+
+point -1005.94904 -343.9705 station -name 11
+
+line floor-meander
+  -907.0 -172.0
+  -754.0 -177.0
+  -754.0 -177.0 -626.0 -186.0 -614.0 -176.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  -908.0 -136.0
+  -908.0 -136.0 -897.0 -196.0 -919.5 -206.0
+  smooth off
+endline
+
+point -864.0 -290.0 label -text c6
+
+point -951.35474 -146.93698 station -name 10
+
+point -916.62164 -200.2137 station -name 9
+
+point -734.323 -165.48204 station -name 8
+
+point -556.10284 -180.71469 station -name 7
+
+endscrap
+
+

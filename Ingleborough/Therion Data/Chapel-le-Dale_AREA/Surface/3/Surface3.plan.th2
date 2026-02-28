@@ -1,0 +1,45 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1889.76 -1811.02 32519.69 28346.46
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Surface3.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap surface3-plan -projection plan
+
+point 235.74625 204.79268 station -name 2
+
+point 1461.5289 2236.9055 station -name 3
+
+point 2784.7969 3090.4614 station -name 4
+
+point 4023.7134 4848.513 station -name 5
+
+point 5435.499 5956.903 station -name 6
+
+point 6691.636 7672.3936 station -name 7
+
+point 7743.6133 9323.007 station -name 8
+
+point 9143.274 10792.553 station -name 9
+
+point 11074.865 11427.379 station -name 10
+
+point 12467.524 12761.642 station -name 11
+
+point 13804.471 13599.778 station -name 12
+
+point 15946.033 15468.574 station -name 13
+
+point 17814.078 17420.5 station -name 14
+
+point 19055.318 18796.879 station -name 15
+
+point 20251.621 21505.97 station -name 16
+
+point 22839.385 22267.986 station -name 17
+
+point 24598.12 22343.236 station -name 18
+
+point 26892.643 23816.547 station -name 19
+
+endscrap

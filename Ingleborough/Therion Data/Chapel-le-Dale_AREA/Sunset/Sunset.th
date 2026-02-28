@@ -1,0 +1,66 @@
+encoding  utf-8
+survey Sunset -title "Sunset Hole"
+
+###Inputs, add surveys here###
+input 1/Sunset1.th
+input 2/Sunset2.th
+input 3/Sunset3.th
+input 4/Sunset4.th
+input 5/Sunset5.th
+input 6/Sunset6.th
+input 7/Sunset7.th
+input 8/Sunset8.th
+input 9/Sunset9.th
+
+###Joins, connecting scraps on the surveys###
+join S4@Sunset1 S1@Sunset2
+join S2@Sunset2 S1@Sunset1
+join S1@Sunset3 S2@Sunset2
+join S1@Sunset8 S1@Sunset5
+join S1@Sunset5 S1@Sunset4
+join S1@Sunset8 S1@Sunset4
+join S1@Sunset7 S2@Sunset6
+join S1@Sunset1 S1@Sunset9
+
+###Equates, connecting points on surveys###
+equate 1@Sunset1 23@Sunset2
+equate 1@Sunset2 37@Sunset1
+equate 1@Sunset3 20@Sunset2
+equate 16@Sunset3 21@Sunset4
+equate 1@Sunset6 10@Sunset5
+equate 4@Sunset4 1@Sunset5
+equate 1@Sunset6 1@Sunset8
+equate 1@Sunset7 34@Sunset6
+equate 19@Sunset1 10@Sunset9
+
+
+###Map, to create overall map. Input individual survey maps to create the whole###
+map plan -projection plan  
+  plan@Sunset2
+  break
+  plan@Sunset1
+  plan@Sunset9
+  plan@Sunset3
+  plan@Sunset4 
+  plan@Sunset8 
+  break
+  plan@Sunset5
+  break
+  plan@Sunset6 [18 5 m] below
+  plan@Sunset7 [18 5 m] below
+endmap
+
+map plan2 -projection plan  
+  plan2@Sunset1
+  plan@Sunset9
+  plan@Sunset2
+  plan@Sunset3
+  plan@Sunset4
+  plan@Sunset5
+  plan@Sunset6
+  plan@Sunset7
+  plan@Sunset8
+endmap
+  
+endsurvey
+

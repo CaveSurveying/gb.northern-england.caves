@@ -1,0 +1,113 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -600.4409499999999 -442.96063 1230.3622500000001 679.1811299999999
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} {Great Douk 7.plan.xvi} 0 {}
+
+
+
+scrap S1 -projection plan -scale [-866.14 -708.66 1574.80 -708.66 0.0 0.0 61.999876 0.0 m]
+
+line wall
+  -18.5 -0.0
+  -18.5 -0.0 -26.5 -47.5 -26.5 -58.5
+  -26.5 -69.5 4.56 -89.2 13.2783575 -100.35174
+  22.0 -111.5 51.5 -134.5 72.5 -139.5
+  93.5 -144.5 125.0 -157.5 153.0 -164.5
+  181.0 -171.5 292.0 -192.5 281.5 -125.5
+  271.0 -58.5 265.5 -56.5 266.5 8.5
+  267.5 73.5 272.0 105.0 369.5 186.0
+  389.89 202.94 485.0 221.5 564.0 256.5
+  643.0 291.5 776.0 360.0 761.0 389.0
+  smooth off
+endline
+
+line abyss-entrance
+endline
+
+line abyss-entrance
+  697.5 395.0
+  701.0 387.5 716.0 307.5 752.5 390.0
+  smooth off
+endline
+
+line wall
+  694.5 396.5
+  626.5 371.5 672.0 373.0 558.5 372.5
+  445.0 372.0 439.5 358.0 405.5 327.5
+  371.5 297.0 275.0 221.0 254.0 151.0
+  233.0 81.0 205.0 53.5 231.5 -34.0
+  258.0 -121.5 276.5 -139.5 229.5 -141.0
+  182.5 -142.5 101.5 -113.0 81.5 -111.0
+  61.5 -109.0 13.5 -90.5 3.5 -63.0
+  -6.5 -35.5 -2.5 -3.0 0.0 0.0
+  smooth off
+endline
+
+point 0.0 0.0 station -name 1
+
+point 13.2783575 -100.35174 station -name 3
+
+point 163.38942 -162.52388 station -name 5
+
+point 703.97534 367.97095 station -name 10
+
+point 114.51912 -124.107925 station -name 4
+
+point 431.0 -52.5 label -text [constricted <br>corner]
+
+line arrow
+endline
+
+line arrow
+  -92.0 -104.0
+  -45.5 -57.5 -37.5 -49.5 -37.5 -49.5
+  smooth off
+endline
+
+area pebbles
+  l27-588-391
+endarea
+
+line border -id l27-588-391 -close on -visibility off
+  636.0 394.0
+  639.0 389.5 722.0 294.5 722.0 294.5
+  smooth off
+  338.5 105.0
+  225.0 184.0
+  428.5 376.5
+  428.5 376.5 633.0 398.5 636.0 394.0
+endline
+
+point -1.5 -75.5 clay
+
+point -10.5 -20.0 clay
+
+point -13.0 -49.0 clay
+
+point -129.5 -141.0 clay
+
+line wall
+endline
+
+area water
+endarea
+
+line wall
+endline
+
+area water
+endarea
+
+point 277.80917 -149.82756 station -name 6
+
+point 265.5959 -35.9782 station -name 7
+
+point 225.2075 31.20107 station -name 8
+
+point -14.504151 -28.913671 station -name 2
+
+point 268.0543 160.78893 station -name 9
+
+endscrap
+
+

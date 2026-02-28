@@ -1,0 +1,61 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1338.58 -1417.32 4409.45 1023.62
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Southerscalesentrance.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap southerscalesentrance-ee -projection extended
+
+point 19.811394 -111.508354 station -name 2
+
+point 384.47482 -101.413506 station -name 3
+
+point 520.1735 -103.91603 station -name 4
+
+point 773.08325 -102.55817 station -name 5
+
+point 1023.83093 -88.26287 station -name 6
+
+point 1230.68 -87.50927 station -name 7
+
+point 261.6982 -97.19854 station -name 8
+
+point 537.8094 -109.33928 station -name 9
+
+point 790.69727 -94.32189 station -name 10
+
+point 1020.7337 -115.07976 station -name 11
+
+point 1120.2389 -87.214035 station -name 12
+
+point 1308.7607 -90.82332 station -name 13
+
+point 1494.1182 -204.97995 station -name 14
+
+point 1950.3204 -101.80576 station -name 15
+
+point 2696.6167 -79.14122 station -name 16
+
+point 2835.0498 -66.00242 station -name 17
+
+point 2940.2185 -75.431564 station -name 18
+
+point 2868.0854 -2.4485025 station -name 19
+
+point 2923.6345 15.825663 station -name 20
+
+point 2957.3945 -97.35006 pebbles -scale xs
+
+point 3030.5742 -83.850876 pebbles -scale xs
+
+point 2869.2947 -95.929085 pebbles -scale xs
+
+point 2806.772 -106.94158 pebbles -scale xs
+
+point 2712.2773 -102.32343 pebbles -scale xs
+
+point 2645.137 -100.90246 pebbles -scale xs
+
+point 2762.3665 -101.612946 pebbles -scale xs
+
+endscrap

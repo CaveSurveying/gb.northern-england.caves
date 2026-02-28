@@ -1,0 +1,105 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -2440.94 -1102.36 9842.52 2047.24
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "BlackShiver4.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap blackshiver4-ee -projection extended
+
+point 240.64256 234.28273 station -name 2
+
+point 427.4076 228.63469 station -name 3
+
+point 729.5119 347.63824 station -name 4
+
+point 245.50804 -134.8503 station -name 5
+
+point 641.3067 -83.35996 station -name 6
+
+point 940.5997 1.1567807 station -name 7
+
+point 1463.2587 625.3867 station -name 8
+
+point 1864.4849 500.68744 station -name 9
+
+point 2848.3186 585.47345 station -name 10
+
+point 3909.8425 572.6835 station -name 11
+
+point 4485.063 614.59674 station -name 12
+
+point 5444.9287 450.72885 station -name 13
+
+point 5765.5005 530.3641 station -name 14
+
+point 400.46448 356.00363 station -name 15
+
+point 538.75665 399.3771 station -name 16
+
+point 683.99445 415.84085 station -name 17
+
+point 861.40717 419.67422 station -name 18
+
+point 1119.9691 450.72623 station -name 19
+
+point 1216.5302 432.92035 station -name 20
+
+point 1494.0875 433.8872 station -name 21
+
+point 1629.9296 451.51947 station -name 22
+
+point 1955.5911 462.69104 station -name 23
+
+point 2217.567 465.83914 station -name 24
+
+point 2456.389 472.81702 station -name 25
+
+point 2605.6333 467.363 station -name 26
+
+point 3023.4937 498.28024 station -name 27
+
+point 3147.6858 485.94418 station -name 28
+
+point 3310.1555 499.30777 station -name 29
+
+point 3614.7883 504.19537 station -name 30
+
+point 3929.1313 528.7669 station -name 31
+
+point 4279.808 530.7842 station -name 32
+
+point 4566.0967 520.9724 station -name 33
+
+point 4817.0674 548.6584 station -name 34
+
+point 5004.851 530.4784 station -name 35
+
+point 5306.0596 538.3832 station -name 36
+
+point 5610.9385 545.4483 station -name 37
+
+point 6067.184 568.4323 station -name 38
+
+point 6480.045 602.3514 station -name 39
+
+point 6611.7446 572.50305 station -name 40
+
+point 6889.5186 564.1294 station -name 41
+
+point 6983.1104 577.85657 station -name 42
+
+point 7165.1226 585.6441 station -name 43
+
+point 7423.133 606.74164 station -name 44
+
+point 7628.9473 609.0241 station -name 45
+
+point 7771.755 615.747 station -name 46
+
+point 7949.9224 618.53723 station -name 47
+
+point 8091.108 629.3737 station -name 48
+
+point 8243.81 620.8443 station -name 49
+
+endscrap

@@ -1,0 +1,53 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1653.54 -2440.94 7007.87 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Sunset2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap sunset2-ee -projection extended
+
+point 200.78412 -8.6678505 station -name 2
+
+point 469.4099 -16.507929 station -name 3
+
+point 1136.3118 -43.654106 station -name 4
+
+point 1306.6403 -51.836296 station -name 5
+
+point 1720.2408 -56.052925 station -name 6
+
+point 1868.9264 -76.83756 station -name 7
+
+point 2356.8767 -54.147713 station -name 8
+
+point 2519.3027 -63.18382 station -name 9
+
+point 2631.2786 -193.7352 station -name 10
+
+point 2881.7615 -156.90675 station -name 11
+
+point 3014.9202 -375.9614 station -name 12
+
+point 3532.2788 -444.98145 station -name 13
+
+point 3546.7085 -558.1333 station -name 14
+
+point 3723.425 -543.4842 station -name 15
+
+point 3916.8745 -549.5138 station -name 16
+
+point 4046.4 -830.3772 station -name 17
+
+point 4280.395 -816.4443 station -name 18
+
+point 4518.496 -957.3938 station -name 19
+
+point 4650.5376 -943.1393 station -name 20
+
+point 4694.564 -1314.3434 station -name 21
+
+point 5182.8467 -1564.6198 station -name 22
+
+point 5371.8677 -1651.2488 station -name 23
+
+endscrap

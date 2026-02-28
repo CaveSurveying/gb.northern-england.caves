@@ -1,0 +1,185 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1939.0237 -3198.8661999999995 5324.85054 1151.622120000001
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {869.83 1 1.0} {-1463.5499999999997 13} {Great Foul 10.plan.xvi} 0 {}
+
+
+
+scrap S1 -projection plan -scale [-2598.43 -3858.27 6062.99 -3858.27 0.0 0.0 220.000068 0.0 m]
+
+point 936.0 -2202.0 pebbles -orientation 270.8
+
+point 906.0 -1921.0 pebbles -orientation 292.7
+
+point 829.0 -2057.0 pebbles
+
+point 675.0 -2494.0 label -text [water flows from tight bedding plane]
+
+point 925.0 -1774.0 pebbles -orientation 90.2
+
+point 969.0 -1533.0 pebbles -orientation 0.0
+
+point 980.0 -1199.0 pebbles -orientation 106.2
+
+point 947.0 -1375.0 pebbles -orientation 199.3
+
+point 1121.0 -1065.0 pebbles -orientation 52.6
+
+point 824.0 -663.0 pebbles -orientation 131.1
+
+point 647.0 -606.0 pebbles
+
+point -71.0 -459.0 pebbles
+
+point -19.0 -246.0 blocks
+
+point -18.0 -67.0 blocks -orientation 59.4
+
+point 594.0 -1619.0 label -orientation 0 -text [water sinks]
+
+line water-flow
+  900.0 -1920.0
+  890.0 -1850.0 847.0 -1745.0 836.0 -1716.0
+  smooth off
+endline
+
+line water-flow
+endline
+
+line water-flow
+  924.0 -2460.0
+  875.0 -2218.0
+endline
+
+line wall -outline in -subtype presumed
+  740.0 -952.0
+  740.0 -952.0 724.0 -1000.0 687.0 -1002.0
+  650.0 -1004.0 305.0 -925.0 305.0 -925.0
+  smooth off
+  subtype presumed
+endline
+
+line wall
+endline
+
+line wall
+endline
+
+area water
+endarea
+
+line wall
+  988.0 -2283.0
+  976.0 -2229.0 928.0 -1982.0 954.0 -1836.0
+  980.0 -1690.0 1043.0 -1320.0 1043.0 -1320.0
+  smooth off
+  1043.0 -1320.0 1168.0 -1167.0 1179.0 -1099.0
+  1190.0 -1031.0 1218.0 -961.0 1030.0 -869.0
+  842.0 -777.0 996.0 -803.0 947.0 -687.0
+  898.0 -571.0 865.0 -617.0 809.0 -606.0
+  753.0 -595.0 654.0 -487.0 631.0 -447.0
+  608.0 -407.0 411.0 -480.0 386.0 -485.0
+  361.0 -490.0 295.0 -479.0 252.0 -402.0
+  209.0 -325.0 131.0 -329.0 94.0 -293.0
+  57.0 -257.0 25.0 -240.0 49.0 -114.0
+  73.0 12.0 63.0 -22.0 64.0 41.0
+  65.87 158.6 68.0 41.0 60.0 93.0
+  smooth off
+endline
+
+line wall
+  798.0 -990.0
+  810.0 -964.0 807.0 -958.0 844.0 -907.0
+  881.0 -856.0 870.0 -815.0 902.0 -843.0
+  934.0 -871.0 1037.0 -941.0 1021.0 -1021.0
+  1005.0 -1101.0 956.0 -1154.0 918.0 -1173.0
+  880.0 -1192.0 904.0 -1241.0 896.0 -1295.0
+  888.0 -1349.0 830.0 -1401.0 824.0 -1479.0
+  818.0 -1557.0 773.0 -1792.0 773.0 -1833.0
+  773.0 -1874.0 761.0 -2210.0 761.0 -2210.0
+  smooth off
+endline
+
+line wall
+  798.0 -990.0
+  subtype presumed
+  798.0 -990.0 804.0 -1042.0 678.0 -1049.0
+  subtype presumed
+  552.0 -1056.0 367.0 -982.0 353.0 -982.0
+  subtype presumed
+  339.0 -982.0 260.0 -960.0 260.0 -960.0
+  smooth off
+  subtype presumed
+endline
+
+line wall -outline in
+  305.0 -925.0
+  214.0 -892.0 25.0 -861.0 -48.0 -713.0
+  -121.0 -565.0 -37.0 -496.0 -10.0 -418.0
+  17.0 -340.0 9.0 -293.0 69.0 -324.0
+  129.0 -355.0 234.0 -399.0 243.0 -479.0
+  252.0 -559.0 325.0 -515.0 385.0 -515.0
+  445.0 -515.0 449.0 -506.0 509.0 -525.0
+  569.0 -544.0 570.0 -561.0 570.0 -588.0
+  570.0 -615.0 535.0 -641.0 635.0 -705.0
+  735.0 -769.0 803.0 -728.0 819.0 -730.0
+  835.0 -732.0 886.0 -695.0 816.0 -788.0
+  746.0 -881.0 744.0 -951.0 740.0 -952.0
+  smooth off
+endline
+
+line wall
+  -73.0 176.0
+  -93.0 142.0 -136.72 162.01 -126.0 58.0
+  -109.0 -107.0 -91.58 -104.12 -83.0 -119.0
+  -68.0 -145.0 -91.0 -403.0 -91.0 -403.0
+  smooth off
+  -91.0 -403.0 -163.0 -593.0 -126.0 -681.0
+  -89.0 -769.0 -101.0 -835.0 260.0 -960.0
+  smooth off
+endline
+
+point 869.83484 -1463.546 station -name 13
+
+point -3.0675743 -811.17523 station -name 20
+
+point 858.92596 -731.06354 station -name 9
+
+point 1046.5801 -1020.3934 station -name 11
+
+point 31.118929 -186.90865 station -name 3
+
+point -101.1147 -87.32926 station -name 2
+
+point -115.82983 -673.8904 station -name 19
+
+point 616.2925 -524.2958 station -name 8
+
+point 254.01663 -918.69446 station -name 21
+
+point -0.4326288 -254.26929 station -name 4
+
+point -87.71322 -422.33572 station -name 18
+
+point 0.0 0.0 station -name 1
+
+point 799.32715 -1821.2194 station -name 15
+
+point 819.6259 -2114.4048 station -name 16
+
+point 1036.0204 -1276.9904 station -name 12
+
+point 822.677 -1679.0848 station -name 14
+
+point 469.05374 -509.23795 station -name 7
+
+point 936.3304 -721.77765 station -name 10
+
+point 294.229 -499.25424 station -name 6
+
+point 918.4839 -2213.5093 station -name 17
+
+point 229.26198 -374.79712 station -name 5
+
+endscrap
+

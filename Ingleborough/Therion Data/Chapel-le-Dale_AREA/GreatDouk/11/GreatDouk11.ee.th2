@@ -1,0 +1,19 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1968.50 -1181.10 6692.91 1811.02
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Great douk 11 shakehole.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap great-douk-11-shakehole-ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 885.0697 -111.14482 station -name 2
+
+point 5065.8125 1004.7363 station -name 5
+
+point 3176.4329 97.56736 station -name 4
+
+point 2224.7454 -252.00233 station -name 3
+
+endscrap

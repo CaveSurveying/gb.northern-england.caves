@@ -1,0 +1,125 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -944.88 13070.87 3070.87
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "BlackShiver5.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap blackshiver5-ee -projection extended
+
+point 112.83695 32.418316 station -name 2
+
+point 173.08266 63.794487 station -name 3
+
+point 322.7733 95.78506 station -name 4
+
+point 380.67834 66.925766 station -name 5
+
+point 543.3985 65.17196 station -name 6
+
+point 711.1977 86.99711 station -name 7
+
+point 884.8192 124.18266 station -name 8
+
+point 231.86362 -26.147507 station -name 9
+
+point 1107.3539 -14.775015 station -name 10
+
+point 1414.5569 5.53959 station -name 11
+
+point 1648.709 78.56622 station -name 12
+
+point 1730.393 118.19062 station -name 13
+
+point 1926.8099 306.98785 station -name 14
+
+point 2189.0254 736.6857 station -name 15
+
+point 2646.9854 792.4156 station -name 16
+
+point 3010.6187 799.4323 station -name 17
+
+point 3560.5781 814.1923 station -name 18
+
+point 4008.688 876.0726 station -name 19
+
+point 4347.1377 857.6633 station -name 20
+
+point 4650.051 857.2885 station -name 21
+
+point 4762.085 944.61414 station -name 22
+
+point 4868.43 943.45294 station -name 23
+
+point 4963.2017 937.45685 station -name 24
+
+point 5094.9634 932.27295 station -name 25
+
+point 5484.3574 1312.7761 station -name 26
+
+point 5620.2705 1559.1671 station -name 27
+
+point 5685.175 1707.849 station -name 28
+
+point 6047.924 1753.969 station -name 29
+
+point 6468.531 1783.6636 station -name 30
+
+point 6576.9897 1780.5548 station -name 31
+
+point 6733.1953 1790.3004 station -name 32
+
+point 6971.689 1805.477 station -name 33
+
+point 7099.223 1813.642 station -name 34
+
+point 7396.7427 1834.7566 station -name 35
+
+point 7627.8154 1836.049 station -name 36
+
+point 7848.343 1851.2395 station -name 37
+
+point 8022.824 1852.7432 station -name 38
+
+point 8141.031 1864.7948 station -name 39
+
+point 8459.682 1890.4855 station -name 40
+
+point 8574.115 1867.3651 station -name 41
+
+point 8619.625 1865.1497 station -name 42
+
+point 8723.584 1874.2539 station -name 43
+
+point 8855.517 1896.2455 station -name 44
+
+point 9128.109 1894.4243 station -name 45
+
+point 9237.925 1909.8448 station -name 46
+
+point 9390.122 1899.9348 station -name 47
+
+point 9521.454 1906.5067 station -name 48
+
+point 9587.868 1912.5912 station -name 49
+
+point 9751.364 1917.5082 station -name 50
+
+point 9856.847 1896.6082 station -name 51
+
+point 9884.613 1898.7308 station -name 52
+
+point 10151.798 1911.8671 station -name 53
+
+point 10226.637 1929.3345 station -name 54
+
+point 10540.07 1927.7074 station -name 55
+
+point 10760.296 1923.695 station -name 56
+
+point 11147.612 1915.5588 station -name 57
+
+point 11323.712 1929.0272 station -name 58
+
+point 11400.636 2231.9863 station -name 59
+
+endscrap

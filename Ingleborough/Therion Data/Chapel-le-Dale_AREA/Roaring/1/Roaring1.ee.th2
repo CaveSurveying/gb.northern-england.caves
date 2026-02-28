@@ -1,0 +1,47 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1889.76 -1023.62 3937.01 3543.31
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Roaring1.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap roaring1-ee -projection extended
+
+point 744.1991 576.99945 station -name 2
+
+point 1086.9271 806.114 station -name 3
+
+point 555.706 502.66068 station -name 4
+
+point 816.60864 950.2855 station -name 5
+
+point 947.6697 958.4047 station -name 6
+
+point 1071.7286 886.5623 station -name 7
+
+point 1255.0868 941.63745 station -name 8
+
+point 1470.0721 871.90906 station -name 9
+
+point 1696.0718 840.3756 station -name 10
+
+point 1954.4075 760.086 station -name 11
+
+point 2095.858 792.9723 station -name 12
+
+point 2690.5923 13.111145 station -name 13
+
+point 1507.8251 1107.5603 station -name 14
+
+point 1598.029 1166.2896 station -name 15
+
+point 1771.0928 1496.6425 station -name 16
+
+point 2220.9014 1920.0167 station -name 17
+
+point 2454.5068 2010.0853 station -name 18
+
+point 2615.1604 2468.247 station -name 19
+
+point 2750.0574 2743.0076 station -name 20
+
+endscrap

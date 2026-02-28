@@ -1,0 +1,207 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -47007.88 -74960.63 13858.27 1889.76
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Surface2.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap surface2-plan -projection plan
+
+point 117.389565 243.85022 station -name 2
+
+point 325.93066 160.87779 station -name 3
+
+point 557.9691 -71.02721 station -name 4
+
+point 779.813 -261.29324 station -name 5
+
+point 1076.0989 -582.6613 station -name 6
+
+point 1452.7157 -936.4649 station -name 7
+
+point 1859.7136 -1318.9072 station -name 8
+
+point 2270.5244 -1670.0592 station -name 9
+
+point 2638.8025 -2004.6194 station -name 10
+
+point 3139.8813 -2376.3936 station -name 11
+
+point 3604.5215 -2787.4321 station -name 12
+
+point 3912.886 -3039.792 station -name 13
+
+point 4586.88 -3509.9426 station -name 14
+
+point 4808.48 -3804.4255 station -name 15
+
+point 5051.636 -4154.053 station -name 16
+
+point 5343.38 -4665.389 station -name 17
+
+point 5661.2036 -5282.0527 station -name 18
+
+point 5927.8965 -5909.732 station -name 19
+
+point 6016.503 -6615.8687 station -name 20
+
+point 6139.1646 -7258.131 station -name 21
+
+point 6325.418 -7836.4736 station -name 22
+
+point 6723.1084 -8524.734 station -name 23
+
+point 7012.272 -9083.814 station -name 24
+
+point 7356.1675 -9640.327 station -name 25
+
+point 7760.803 -10282.856 station -name 26
+
+point 8101.6626 -10773.103 station -name 27
+
+point 8518.981 -11222.109 station -name 28
+
+point 8987.857 -11618.351 station -name 29
+
+point 9438.251 -12113.278 station -name 30
+
+point 10009.065 -12622.585 station -name 31
+
+point 10640.68 -13291.96 station -name 32
+
+point 10997.107 -13874.317 station -name 33
+
+point 11794.318 -14140.425 station -name 34
+
+point 11929.617 -13909.991 station -name 35
+
+point 11813.39 -14151.98 station -name 36
+
+point 11496.769 -14962.895 station -name 37
+
+point 11568.268 -15814.489 station -name 38
+
+point 11382.074 -16752.268 station -name 39
+
+point 11184.097 -17420.096 station -name 40
+
+point 11765.842 -17433.912 station -name 41
+
+point 10270.223 -18513.979 station -name 42
+
+point 9117.33 -19692.652 station -name 43
+
+point 8311.288 -21427.775 station -name 44
+
+point 7156.0425 -22481.504 station -name 45
+
+point 5968.2554 -24336.174 station -name 46
+
+point 5082.822 -26006.03 station -name 47
+
+point 4750.514 -27080.818 station -name 48
+
+point 3894.46 -27774.525 station -name 49
+
+point 2168.8044 -28909.79 station -name 50
+
+point 235.16287 -30397.062 station -name 51
+
+point -2308.1313 -31290.324 station -name 52
+
+point -2086.974 -31544.941 station -name 53
+
+point -4608.901 -32819.58 station -name 54
+
+point -6798.546 -34304.723 station -name 55
+
+point -8559.935 -35348.48 station -name 56
+
+point -10263.019 -36513.97 station -name 57
+
+point -11922.022 -37546.41 station -name 58
+
+point -13398.311 -38548.402 station -name 59
+
+point -14444.55 -39859.496 station -name 60
+
+point -16325.536 -40314.21 station -name 61
+
+point -17844.771 -40886.18 station -name 62
+
+point -19595.3 -42032.766 station -name 63
+
+point -21484.822 -43133.363 station -name 64
+
+point -22732.045 -44489.12 station -name 65
+
+point -23656.314 -44421.777 station -name 66
+
+point -24030.93 -45612.742 station -name 67
+
+point -26202.045 -47603.65 station -name 68
+
+point -27948.975 -49127.094 station -name 69
+
+point -29146.133 -50568.184 station -name 70
+
+point -29731.875 -52656.203 station -name 71
+
+point -29878.744 -54371.332 station -name 72
+
+point -29820.254 -55618.027 station -name 73
+
+point -29989.844 -56173.82 station -name 74
+
+point -30037.707 -56463.445 station -name 75
+
+point -30554.215 -56716.438 station -name 76
+
+point -31067.04 -57143.066 station -name 77
+
+point -32203.402 -57936.72 station -name 78
+
+point -33805.7 -59140.293 station -name 79
+
+point -36107.434 -60428.996 station -name 80
+
+point -37944.29 -62022.3 station -name 81
+
+point -39607.816 -62987.426 station -name 82
+
+point -40813.96 -64073.82 station -name 83
+
+point -43132.555 -65046.473 station -name 84
+
+point -44314.78 -67190.38 station -name 85
+
+point -44640.582 -68864.61 station -name 86
+
+point -43639.883 -70754.91 station -name 87
+
+point -42691.28 -72418.24 station -name 88
+
+point -43597.992 -73384.97 station -name 89
+
+point -43476.527 -72961.414 station -name 90
+
+point -43577.246 -72708.6 station -name 91
+
+point -43565.242 -72595.336 station -name 92
+
+point 12158.107 -13842.286 label -text " 35 Middle washfold entrance (GD7?) " -scale l
+
+point 12118.219 -17234.797 label -text " 41 Wet sink entrance (GD8) " -scale l
+
+point 3711.3584 -27271.174 label -text " 49 top of gatepost over stile  " -scale m
+
+point -1749.2347 -31489.248 label -text " 53 knacker trapper entrance " -scale m
+
+point -24251.635 -43456.098 label -text " 66 hinge side gate post on main ingleb path  " -scale xl
+
+point -29279.402 -56376.83 label -text " 75 sunset entrance  " -scale xl
+
+point -41450.176 -71592.484 label -text " 88 uphill stile post " -scale xl
+
+point -45403.586 -72492.984 label -text " 92 Meregill entrance  " -scale xl
+
+endscrap

@@ -1,0 +1,51 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1417.32 -866.14 4330.71 787.40
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Great Foul 10.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap great-foul-10-ee -projection extended
+
+point 2318.1487 199.93846 station -name 13
+
+point 993.6827 64.51583 station -name 20
+
+point 1415.2161 133.75735 station -name 9
+
+point 1811.4934 172.45561 station -name 11
+
+point 299.14093 23.678211 station -name 3
+
+point 133.60608 22.646618 station -name 2
+
+point 816.0244 43.945576 station -name 19
+
+point 1096.4309 84.30222 station -name 8
+
+point 1272.345 77.75039 station -name 21
+
+point 373.5248 7.289099 station -name 4
+
+point 562.9033 23.280403 station -name 18
+
+point 0.0 0.0 station -name 1
+
+point 2682.8262 233.79874 station -name 15
+
+point 2976.7134 246.76814 station -name 16
+
+point 2068.3076 189.04083 station -name 12
+
+point 2538.7861 220.01167 station -name 14
+
+point 948.4243 78.10231 station -name 7
+
+point 1493.1754 143.20836 station -name 10
+
+point 773.3147 60.844215 station -name 6
+
+point 3116.694 251.24763 station -name 17
+
+point 632.9214 60.525658 station -name 5
+
+endscrap

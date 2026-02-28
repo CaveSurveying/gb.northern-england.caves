@@ -1,0 +1,32 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -757.92126 -1151.6221 1781.54338 1151.6220600000001
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {599.29 1 1.0} {-489.27 2} Southerscales2.ee.xvi 0 {}
+
+
+
+scrap E1 -projection extended -scale [-1968.50 -1338.58 1574.80 -1338.58 0.0 0.0 89.99982 0.0 m]
+
+point 599.2911 -489.26672 station -name 2
+
+point 153.08617 -16.655098 station -name 3
+
+point 351.8119 110.65961 station -name 4
+
+point 454.63104 179.71822 station -name 5
+
+point 504.50256 191.33823 station -name 6
+
+point 673.8909 192.98935 station -name 7
+
+point 852.76086 192.27481 station -name 8
+
+point 1038.3386 168.3557 station -name 9
+
+point 1101.9373 -67.57975 station -name 10
+
+point 1306.3944 -343.7561 station -name 11
+
+endscrap
+
+

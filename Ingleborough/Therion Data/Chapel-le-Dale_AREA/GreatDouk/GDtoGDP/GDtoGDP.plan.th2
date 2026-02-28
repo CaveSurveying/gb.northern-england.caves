@@ -1,0 +1,13 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -2283.46 -1023.62 944.88 2283.46
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "GDtoGDP.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap gdtogdp-plan -projection plan
+
+point -670.94464 690.4025 station -name 2
+
+point -1377.1926 1327.4391 station -name 3
+
+endscrap

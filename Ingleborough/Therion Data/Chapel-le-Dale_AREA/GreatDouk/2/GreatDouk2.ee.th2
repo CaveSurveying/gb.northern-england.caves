@@ -1,0 +1,119 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -2125.98 -314.96 17244.09 314.96
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Great douk 2.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap great-douk-2-ee -projection extended
+
+point 5925.911 43.766697 station -name 22
+
+point 11832.803 -62.44959 station -name 41
+
+point 11238.141 -30.051756 station -name 53 connects to 43
+
+point 546.925 26.343103 station -name 2
+
+point 1639.9814 -21.455315 station -name 6
+
+point 3304.6543 -46.454266 station -name 14
+
+point 7251.406 -36.40235 station -name 26
+
+point 1878.2714 -11.1657715 station -name 9
+
+point 12137.175 -56.213646 station -name 42
+
+point 10940.394 -20.003515 station -name 38
+
+point 12395.733 -91.03555 station -name 43
+
+point 10856.996 -106.829094 station -name 50
+
+point 11294.138 -42.790005 station -name 54
+
+point 1088.537 13.821641 station -name 4
+
+point 6366.572 16.199318 station -name 23
+
+point 10032.456 -95.34726 station -name 47
+
+point 10407.542 -36.77726 station -name 36
+
+point 1395.0824 24.141315 station -name 5
+
+point 9274.523 5.114175 station -name 33
+
+point 0.0 0.0 station -name 1
+
+point 8492.73 -4.577144 station -name 30
+
+point 12874.313 -80.89383 station -name 44
+
+point 1373.049 -15.927338 station -name 7
+
+point 10103.624 -3.3781097 station -name 35
+
+point 7019.317 -20.236734 station -name 25
+
+point 3910.9316 26.075136 station -name 16
+
+point 11193.138 -106.45311 station -name 51
+
+point 4507.6323 20.791986 station -name 19
+
+point 4185.7783 6.9401383 station -name 17
+
+point 2298.2498 -6.883837 station -name 11
+
+point 4951.6675 9.706953 station -name 20
+
+point 11207.912 -44.651413 station -name 52 
+
+point 9019.624 9.334219 station -name 32
+
+point 726.2601 16.009838 station -name 3
+
+point 4258.496 14.628232 station -name 18
+
+point 7478.486 -30.188793 station -name 27
+
+point 7778.855 0.84952575 station -name 28
+
+point 9786.695 -73.621735 station -name 34
+
+point 2145.2014 -14.834132 station -name 10
+
+point 8043.8 24.040583 station -name 29
+
+point 11153.615 -51.158527 station -name 39
+
+point 5392.5073 10.157781 station -name 21
+
+point 10600.796 -12.26412 station -name 37
+
+point 11456.388 -62.238686 station -name 55
+
+point 6658.6484 -2.5413332 station -name 24
+
+point 10623.1045 -117.75009 station -name 49
+
+point 8652.048 -4.0985475 station -name 31
+
+point 10368.392 -107.12925 station -name 48
+
+point 1631.6018 -14.555697 station -name 8 same 6
+
+point 14110.925 -107.29834 station -name 46
+
+point 3004.467 -24.745129 station -name 13
+
+point 11469.03 -34.025883 station -name 40
+
+point 3608.1006 -7.1261716 station -name 15
+
+point 2565.614 19.483767 station -name 12
+
+point 13828.286 -99.15776 station -name 45
+
+endscrap

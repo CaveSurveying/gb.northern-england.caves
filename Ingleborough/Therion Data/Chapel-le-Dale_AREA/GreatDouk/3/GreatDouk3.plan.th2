@@ -1,0 +1,96 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2440.94 -787.40 787.40 2992.13
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} {Great Douk 3.plan.xvi} 0 {}
+
+
+
+scrap S1 -projection plan -scale [-2440.94 -787.40 787.40 -787.40 0.0 0.0 81.999836 0.0 m]
+
+line wall
+  -956.0 940.0
+  -852.0 868.0 -852.0 844.0 -814.0 886.0
+  -776.0 928.0 -840.0 1030.0 -840.0 1030.0
+  smooth off
+endline
+
+point -859.0 775.0 label -text [tt]
+
+point -963.0 1132.0 pebbles
+
+point -1402.0 1795.0 water-flow -orientation 343.8
+
+line wall
+  -1324.0 2032.0
+  -1354.0 2010.0 -1434.0 2006.0 -1378.0 1850.0
+  -1322.0 1694.0 -1128.0 1336.0 -1106.0 1324.0
+  -1084.0 1312.0 -852.0 1050.0 -840.0 1030.0
+  smooth off
+endline
+
+area water
+endarea
+
+point -1447.0 1613.0 water-flow -orientation 82.7
+
+line floor-step -clip off
+  -1512.25 1993.75
+  -1466.25 1997.75 -1486.0 2012.0 -1456.0 2012.0
+  -1426.0 2012.0 -1370.75 2023.25 -1350.75 2017.25
+  smooth off
+endline
+
+area water
+endarea
+
+line wall
+endline
+
+line wall
+  -1406.0 1588.0
+  -1394.0 1592.0 -1398.0 1606.0 -1388.0 1578.0
+  -1378.0 1550.0 -1326.0 1502.0 -1302.0 1430.0
+  -1278.0 1358.0 -1156.0 1274.0 -1136.0 1212.0
+  -1116.0 1150.0 -956.0 940.0 -956.0 940.0
+  smooth off
+endline
+
+line wall
+  -1566.0 1978.0
+  -1528.0 1984.0 -1502.0 2018.0 -1488.0 1964.0
+  -1474.0 1910.0 -1440.0 1784.0 -1440.0 1768.0
+  -1440.0 1752.0 -1382.0 1660.0 -1410.0 1650.0
+  smooth off
+endline
+
+point 0.0 0.0 station -name 1
+
+point -1465.0251 1920.3661 station -name 11
+
+point -621.5853 1991.8328 station -name 5
+
+point -937.6383 1951.1923 station -name 8
+
+point -483.91846 1090.7577 station -name 4
+
+point -259.01404 831.3245 station -name 3
+
+point -686.2422 1914.3798 station -name 6
+
+point -1384.7623 1776.0266 station -name 12
+
+point -1100.8486 2174.4607 station -name 9
+
+point -289.7018 343.78528 station -name 2
+
+point -782.70184 2029.9144 station -name 7
+
+point -1392.2958 1619.3082 station -name 13
+
+point -1434.7893 2075.7424 station -name 10
+
+point -1306.5538 1640.1313 station -name 14
+
+endscrap
+
+

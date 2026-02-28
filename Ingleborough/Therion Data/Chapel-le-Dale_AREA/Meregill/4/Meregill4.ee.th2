@@ -1,0 +1,247 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1653.54 -787.40 34645.67 2204.72
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Meregill4.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap meregill4-ee -projection extended
+
+point 523.19714 258.9067 station -name 2
+
+point 699.1586 179.38284 station -name 3
+
+point 985.60754 258.4667 station -name 4
+
+point 1121.8062 217.48381 station -name 5
+
+point 1267.8684 276.1445 station -name 6
+
+point 1613.6052 208.95688 station -name 7
+
+point 1992.4957 265.3951 station -name 8
+
+point 2365.8098 240.05203 station -name 9
+
+point 2815.239 297.3804 station -name 10
+
+point 2971.5574 284.15558 station -name 11
+
+point 3220.0977 317.84674 station -name 12
+
+point 3431.844 305.6052 station -name 13
+
+point 3790.5103 314.07736 station -name 14
+
+point 4021.1523 353.2022 station -name 15
+
+point 4237.3804 350.34125 station -name 16
+
+point 4392.0527 370.3222 station -name 17
+
+point 4734.3623 370.3222 station -name 18
+
+point 4963.142 403.00415 station -name 19
+
+point 5391.6963 426.29602 station -name 20
+
+point 5725.822 395.2518 station -name 21
+
+point 5946.188 405.47772 station -name 22
+
+point 6250.149 383.92526 station -name 23
+
+point 6522.2314 429.2214 station -name 24
+
+point 6785.0015 401.27875 station -name 25
+
+point 6941.6333 445.50433 station -name 26
+
+point 7196.6396 398.8517 station -name 27
+
+point 7577.558 417.2966 station -name 28
+
+point 7830.6807 417.65256 station -name 29
+
+point 8383.698 430.89236 station -name 30
+
+point 8710.97 519.2013 station -name 31
+
+point 8903.196 535.4702 station -name 32
+
+point 9261.586 515.89984 station -name 33
+
+point 9512.698 479.38858 station -name 34
+
+point 10165.153 570.5522 station -name 35
+
+point 10509.181 579.5807 station -name 36
+
+point 11145.709 591.5636 station -name 37
+
+point 11875.708 590.2105 station -name 38
+
+point 12572.516 620.8272 station -name 39
+
+point 13210.887 622.0513 station -name 40
+
+point 13906.827 663.3564 station -name 41
+
+point 14562.852 629.90894 station -name 42
+
+point 15036.01 679.2302 station -name 43
+
+point 15276.939 724.6299 station -name 44
+
+point 15586.89 714.8104 station -name 45
+
+point 16115.355 691.59045 station -name 46
+
+point 16678.205 715.54626 station -name 47
+
+point 17150.99 774.1503 station -name 48
+
+point 17957.053 775.7732 station -name 49
+
+point 18336.209 805.4476 station -name 50
+
+point 18714.162 851.8185 station -name 51
+
+point 19236.092 875.50336 station -name 52
+
+point 19455.34 872.86865 station -name 53
+
+point 19680.135 899.1514 station -name 54
+
+point 19861.777 873.35724 station -name 55
+
+point 20311.85 882.1034 station -name 56
+
+point 20629.803 870.6061 station -name 57
+
+point 20852.145 860.4878 station -name 58
+
+point 21019.846 876.3881 station -name 59
+
+point 21280.945 886.91583 station -name 60
+
+point 21454.22 894.45715 station -name 61
+
+point 21663.393 865.9867 station -name 62
+
+point 21777.232 899.1853 station -name 63
+
+point 21967.133 890.8962 station -name 64
+
+point 22069.006 886.5113 station -name 65
+
+point 22283.844 896.95557 station -name 66
+
+point 22427.236 919.6185 station -name 67
+
+point 22584.568 896.27026 station -name 68
+
+point 22608.102 939.6992 station -name 69
+
+point 22734.227 915.9245 station -name 70
+
+point 22793.844 911.04956 station -name 71
+
+point 22975.621 927.7807 station -name 72
+
+point 23065.52 930.6893 station -name 73
+
+point 23318.81 912.21704 station -name 74
+
+point 23468.434 915.5264 station -name 75
+
+point 24068.354 921.355 station -name 76
+
+point 24128.87 925.84424 station -name 77
+
+point 24410.99 930.13617 station -name 78
+
+point 24603.932 933.09607 station -name 79
+
+point 24703.137 941.4473 station -name 80
+
+point 24948.555 921.6083 station -name 81
+
+point 25134.348 936.0298 station -name 82
+
+point 25229.248 923.724 station -name 83
+
+point 25390.219 936.73126 station -name 84
+
+point 25534.076 928.4745 station -name 85
+
+point 25813.137 925.1032 station -name 86
+
+point 25910.584 917.18195 station -name 87
+
+point 26299.545 911.4387 station -name 88
+
+point 26404.568 913.2245 station -name 89
+
+point 26615.027 927.9241 station -name 90
+
+point 26737.299 913.9173 station -name 91
+
+point 27030.078 901.4187 station -name 92
+
+point 27136.02 917.56305 station -name 93
+
+point 27235.346 905.7503 station -name 94
+
+point 27438.78 902.27826 station -name 95
+
+point 27558.781 920.9419 station -name 96
+
+point 27910.955 919.17487 station -name 97
+
+point 28413.979 938.24976 station -name 98
+
+point 28503.623 935.5245 station -name 99
+
+point 28679.346 941.5413 station -name 100
+
+point 28815.771 942.6662 station -name 101
+
+point 28967.97 929.9369 station -name 102
+
+point 29142.254 920.47577 station -name 103
+
+point 29405.31 907.29144 station -name 104
+
+point 29508.004 925.6993 station -name 105
+
+point 30021.898 929.7066 station -name 106
+
+point 30399.535 930.40656 station -name 107
+
+point 30553.543 935.5469 station -name 108
+
+point 30673.219 956.5093 station -name 109
+
+point 30795.814 924.0412 station -name 110
+
+point 30994.758 934.8666 station -name 111
+
+point 31131.469 963.53485 station -name 112
+
+point 31329.186 947.09406 station -name 113
+
+point 31537.951 946.88727 station -name 114
+
+point 31614.459 946.699 station -name 115
+
+point 31799.023 957.0909 station -name 116
+
+point 32319.713 980.31934 station -name 117
+
+point 32609.895 1027.9806 station -name 118
+
+point 32728.123 893.4722 station -name 119
+
+point 33065.844 901.79517 station -name 120
+
+endscrap

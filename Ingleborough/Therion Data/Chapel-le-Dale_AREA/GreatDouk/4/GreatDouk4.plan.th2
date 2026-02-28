@@ -1,0 +1,110 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1624.063 -2411.4646 1230.3622799999998 3435.0867600000006
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {-407.99 1 1.0} {-1122.8600000000001 12} {Great douk 4.plan.xvi} 0 {}
+
+
+
+scrap S1 -projection plan -scale [-1889.76 -3070.87 1574.80 -3070.87 0.0 0.0 87.99982399999999 0.0 m]
+
+point 552.0 -1050.0 label -text [c3]
+
+point 67.0 56.0 breakdown-choke -orientation 23.7
+
+point 2.0 67.0 breakdown-choke
+
+line wall
+endline
+
+line wall
+  -28.0 59.0
+  -8.0 -38.0 7.0 -148.0 18.0 -209.0
+  29.0 -270.0 22.0 -291.0 52.0 -415.0
+  82.0 -539.0 104.0 -639.0 208.0 -739.0
+  312.0 -839.0 424.0 -876.0 299.0 -930.0
+  174.0 -984.0 228.0 -979.0 103.0 -1027.0
+  71.51 -1039.09 98.0 -1099.0 -46.0 -985.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  304.0 -909.0
+  348.0 -933.0 451.0 -991.0 451.0 -991.0
+  smooth off
+endline
+
+line floor-step
+  175.0 -1207.0
+  188.0 -1165.0 190.0 -1151.0 201.0 -1105.0
+  212.0 -1059.0 232.0 -1035.0 199.0 -1014.0
+  166.0 -993.0 132.0 -970.0 132.0 -970.0
+  smooth off
+endline
+
+line wall
+  93.0 -1286.0
+  92.0 -1259.0 136.65 -1215.91 152.0 -1201.0
+  256.0 -1100.0 382.0 -1034.0 407.0 -980.0
+  432.0 -926.0 498.0 -948.0 351.0 -782.0
+  204.0 -616.0 106.0 -533.0 105.0 -426.0
+  104.0 -319.0 115.0 -262.0 95.0 -203.0
+  75.0 -144.0 92.0 -148.0 90.0 -72.0
+  88.0 4.0 88.0 23.0 88.0 39.0
+  smooth off
+endline
+
+point -407.99142 -1122.8616 station -name 12
+
+point -127.07498 2597.4812 station -name 25
+
+point 63.620125 -153.02518 station -name 2
+
+point -390.4883 1991.173 station -name 22
+
+point -420.74924 1617.8685 station -name 21
+
+point -694.6382 1295.9087 station -name 20
+
+point -603.39636 -523.00696 station -name 13
+
+point -942.5263 -34.843937 station -name 16
+
+point 193.10007 -689.4355 station -name 5
+
+point 361.48596 -790.73553 station -name 6
+
+point 264.264 -1032.2864 station -name 8
+
+point 403.20752 -970.2662 station -name 7
+
+point -644.6641 521.3719 station -name 18
+
+point -968.3112 962.9583 station -name 19
+
+point -136.30875 2287.8892 station -name 24
+
+point 247.13857 -983.9618 station -name 9
+
+point -83.61982 2564.4753 station -name 26
+
+point 24.907364 -1197.0508 station -name 11
+
+point -511.37515 2124.4653 station -name 23
+
+point 67.10204 -470.32822 station -name 4
+
+point -645.56256 141.45082 station -name 17
+
+point 0.0 0.0 station -name 1
+
+point 66.953224 -276.27747 station -name 3
+
+point -880.51074 -504.82614 station -name 14
+
+point 75.407875 -1278.6396 station -name 10
+
+point -1057.863 -264.50845 station -name 15
+
+endscrap
+
+

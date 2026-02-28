@@ -1,0 +1,26 @@
+# Created with SexyTopo 1.10.1 on 2026-01-31
+
+encoding utf-8
+# created with SexyTopo 1.10.1
+
+survey GDtoGDP
+
+input "GDtoGDP.plan.th2"
+input "GDtoGDP.ee.th2"
+
+	
+	centreline
+	
+		data normal from to length compass clino
+		
+		1	2	12.509	315.82	-12.21		#  {from: 12.508 315.83 -12.26, 12.510 315.84 -12.14, 12.510 315.79 -12.22}
+		2	3	12.211	312.05	-8.44		#  {from: 12.216 312.28 -8.48, 12.219 311.89 -8.59, 12.199 311.99 -8.25}
+	
+	
+		extend start 1
+	
+	
+	endcentreline
+
+
+endsurvey

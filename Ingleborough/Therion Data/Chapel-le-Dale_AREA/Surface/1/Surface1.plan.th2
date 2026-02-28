@@ -1,0 +1,121 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -15275.59 -23779.53 27559.05 2677.17
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Surface1.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap surface1-plan -projection plan
+
+point -236.87753 -543.97906 station -name 2
+
+point -33.083733 -401.3652 station -name 3
+
+point 316.23074 -944.69727 station -name 4
+
+point 840.63873 -1066.4597 station -name 5
+
+point 2133.506 -1445.2395 station -name 6
+
+point 2152.4934 -1528.6211 station -name 7
+
+point 4167.7285 -1718.6545 station -name 8
+
+point 3932.9336 -2115.459 station -name 9
+
+point 282.7921 189.92455 station -name 10
+
+point 634.65076 849.16833 station -name 11
+
+point 1328.4863 597.4277 station -name 12
+
+point 2163.1633 489.95462 station -name 13
+
+point 3174.175 206.54912 station -name 14
+
+point 4612.5054 -45.961697 station -name 15
+
+point 5692.28 -749.4145 station -name 16
+
+point 6769.836 -1228.7112 station -name 17
+
+point 7711.404 -1668.1257 station -name 18
+
+point 8735.971 -2096.5103 station -name 19
+
+point 10269.598 -2988.4973 station -name 20
+
+point 11094.276 -3137.7087 station -name 21
+
+point 12397.456 -4340.95 station -name 22
+
+point 13499.312 -5559.5522 station -name 23
+
+point 14531.006 -6881.3726 station -name 24
+
+point 15575.52 -7920.3604 station -name 25
+
+point 16727.371 -8875.932 station -name 26
+
+point 17917.512 -9982.578 station -name 27
+
+point 18721.33 -11625.779 station -name 28
+
+point 19829.969 -13044.966 station -name 29
+
+point 20794.75 -14113.48 station -name 30
+
+point 21818.041 -15271.258 station -name 31
+
+point 23831.352 -16552.945 station -name 32
+
+point 23608.975 -16749.01 station -name 33
+
+point 23627.908 -16827.43 station -name 34
+
+point 24186.28 -16149.763 station -name 35
+
+point 24563.855 -15337.044 station -name 36
+
+point 24674.19 -14678.319 station -name 37
+
+point 24798.021 -14631.119 station -name 38
+
+point -1302.1937 -1099.7572 station -name 39
+
+point -1931.2975 -1763.3225 station -name 40
+
+point -2815.1865 -3990.2554 station -name 41
+
+point -3716.6003 -5582.897 station -name 42
+
+point -5183.745 -7889.6484 station -name 43
+
+point -6303.4385 -9946.971 station -name 44
+
+point -7543.978 -11775.104 station -name 45
+
+point -8848.896 -13668.401 station -name 46
+
+point -9983.399 -15957.867 station -name 47
+
+point -11133.313 -18448.623 station -name 48
+
+point -12250.539 -20564.434 station -name 49
+
+point -13320.605 -22140.695 station -name 50
+
+point -13670.068 -22027.361 station -name 51
+
+point -13496.261 -21900.777 station -name 52
+
+point -13336.045 -21755.408 station -name 53
+
+point 17777.488 -8642.465 label -text " 27 tipex on fence post  " -scale xl
+
+point 15670.761 -9790.513 label -text "  " -scale xl
+
+point 23156.355 -17076.861 label -text " 34 entrance to Southerscales " -scale xl
+
+point 25094.61 -15226.92 label -text " 38 southerscales entrance " -scale m
+
+endscrap

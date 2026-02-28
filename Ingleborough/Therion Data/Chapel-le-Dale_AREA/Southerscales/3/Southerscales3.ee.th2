@@ -1,0 +1,93 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1811.02 -314.96 8110.24 314.96
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Southerscales3.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap southerscales3-ee -projection extended
+
+point 236.71516 11.2347765 station -name 2
+
+point 317.8973 6.6351576 station -name 3
+
+point 448.183 16.46751 station -name 4
+
+point 669.1527 24.125494 station -name 5
+
+point 850.6828 13.118519 station -name 6
+
+point 1022.04443 17.489603 station -name 7
+
+point 1174.4515 25.128246 station -name 8
+
+point 1393.2877 34.31617 station -name 9
+
+point 1604.7393 37.10044 station -name 10
+
+point 1848.5255 43.022697 station -name 11
+
+point 1968.6046 -7.3327136 station -name 12
+
+point 2162.3918 29.9922 station -name 13
+
+point 2235.1423 29.101698 station -name 14
+
+point 2353.8054 -2.8403773 station -name 15
+
+point 2644.1577 21.74266 station -name 16
+
+point 2698.1465 -6.589115 station -name 17
+
+point 2672.6545 19.900831 station -name 18
+
+point 2812.9424 19.510782 station -name 19
+
+point 2942.574 35.41521 station -name 20
+
+point 3165.5166 20.53802 station -name 21
+
+point 3435.0354 33.752728 station -name 22
+
+point 3736.8184 28.013645 station -name 23
+
+point 3926.0046 45.85969 station -name 24
+
+point 4141.466 50.535812 station -name 25
+
+point 4265.821 43.737263 station -name 26
+
+point 4459.4106 35.78284 station -name 27
+
+point 4746.5366 24.472202 station -name 28
+
+point 5007.1206 39.62069 station -name 29
+
+point 5212.957 43.824688 station -name 30
+
+point 5374.9146 54.1073 station -name 31
+
+point 5518.7393 51.01348 station -name 32
+
+point 5822.451 58.566307 station -name 33
+
+point 6280.4893 69.25395 station -name 34
+
+point 5279.509 35.80767 station -name 44
+
+point 5528.532 62.465565 station -name 45
+
+point 5708.934 45.971466 station -name 46
+
+point 5874.6616 55.207157 station -name 47
+
+point 5971.2603 53.481285 station -name 48
+
+point 6227.297 53.399464 station -name 49
+
+point 6479.585 70.80187 station -name 50
+
+point 6045.6523 71.01518 station -name 51
+
+point 6275.798 66.79297 station -name 52
+
+endscrap

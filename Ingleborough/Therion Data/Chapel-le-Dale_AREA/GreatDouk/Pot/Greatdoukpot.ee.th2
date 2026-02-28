@@ -1,0 +1,87 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1968.50 -1496.06 11338.58 4645.67
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Greatdoukpot.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap greatdoukpot-ee -projection extended
+
+point 228.69249 214.88092 station -name 2
+
+point 466.0535 324.4825 station -name 3
+
+point 628.9136 432.65588 station -name 4
+
+point 766.53735 471.66168 station -name 5
+
+point 852.60767 1118.7183 station -name 6
+
+point 1344.5896 1145.8517 station -name 7
+
+point 1512.8597 1512.6383 station -name 8
+
+point 1808.1102 1639.0679 station -name 9
+
+point 2132.3533 1680.2698 station -name 10
+
+point 2661.8354 1704.2804 station -name 11
+
+point 3111.967 1718.0227 station -name 12
+
+point 3336.3933 1712.7645 station -name 13
+
+point 3648.9836 1762.9174 station -name 14
+
+point 3905.6836 1794.7114 station -name 15
+
+point 4171.4355 1848.7039 station -name 16
+
+point 4629.161 2022.7854 station -name 17
+
+point 5083.3257 2308.3525 station -name 18
+
+point 5237.348 2334.308 station -name 19
+
+point 5570.849 2275.869 station -name 20
+
+point 5886.5244 2304.0393 station -name 21
+
+point 6240.4165 2327.939 station -name 22
+
+point 6371.1313 2374.5967 station -name 23
+
+point 6269.179 2368.2266 station -name 24
+
+point 6426.7837 2452.3486 station -name 25
+
+point 6543.8154 2479.4631 station -name 26
+
+point 6586.322 2981.8938 station -name 27
+
+point 8949.266 3439.5215 station -name 28
+
+point 9309.236 3328.174 station -name 29
+
+point 9457.207 3343.0203 station -name 30
+
+point 1300.7797 1577.0073 label -text " ladder " -scale s
+
+point 167.7684 -35.67673 blocks -scale l
+
+point 260.1273 52.666553 blocks -scale l
+
+point 336.42374 124.144295 blocks -scale l
+
+point -7.3119316 -246.89749 blocks -scale l
+
+point -60.317898 -261.3537 blocks -scale l
+
+point 596.31976 338.57755 blocks -scale l
+
+point 479.86722 292.79965 blocks -scale l
+
+point 6424.6772 2375.9724 entrance -scale m -orientation 231.25903
+
+point 6376.775 2322.4346 entrance -scale m -orientation 239.69733
+
+endscrap

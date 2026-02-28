@@ -1,0 +1,13 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -787.40 -236.22 2598.43 236.22
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Southerscales6.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap southerscales6-ee -projection extended
+
+point 359.9692 -52.51383 station -name 2
+
+point 1810.0808 3.1938374 station -name 3
+
+endscrap

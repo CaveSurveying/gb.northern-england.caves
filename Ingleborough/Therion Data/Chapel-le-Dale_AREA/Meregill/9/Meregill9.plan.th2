@@ -1,0 +1,64 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1417.32 -1496.06 1496.06 1968.50
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {610.11 1 1.0} {959.61 6} Meregill9.plan.xvi 0 {}
+
+
+
+scrap S1 -projection plan -scale [-1417.32 -1496.06 1496.06 -1496.06 0.0 0.0 73.999852 0.0 m]
+
+line wall
+  364.0 92.0
+  336.0 164.0 344.0 212.0 356.0 308.0
+  368.0 404.0 352.0 620.0 388.0 696.0
+  424.0 772.0 556.0 928.0 648.0 960.0
+  740.0 992.0 934.0 988.0 934.0 988.0
+  smooth off
+endline
+
+line water-flow
+  336.0 737.0
+  449.0 896.0
+endline
+
+area pebbles
+  l13-737-643
+endarea
+
+line border -id l13-737-643 -close on
+  -123.0 431.0
+  83.0 953.0
+  263.0 1225.0
+  880.0 1352.0
+  1004.0 915.0
+  590.0 488.0
+  558.0 162.0
+  428.0 17.0
+  -123.0 431.0
+endline
+
+point 984.0 1157.0 label -text tt
+
+line wall
+  151.0 388.0
+  181.0 513.0 174.0 511.0 186.0 563.0
+  198.0 615.0 162.0 461.0 206.0 649.0
+  250.0 837.0 276.0 784.0 292.0 900.0
+  308.0 1016.0 300.0 1032.0 416.0 1072.0
+  532.0 1112.0 883.0 1272.0 883.0 1272.0
+  smooth off
+endline
+
+point 144.06955 200.25026 station -name 2
+
+point 169.34114 268.8004 station -name 3
+
+point 213.0564 643.8362 station -name 4
+
+point 299.89832 815.33673 station -name 5
+
+point 610.1069 959.6114 station -name 6
+
+endscrap
+
+

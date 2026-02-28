@@ -1,0 +1,23 @@
+encoding  utf-8
+survey HighDouk
+
+###Inputs, add surveys here###
+input 1/HighDouk1.th
+input 2/HighDouk2.th
+
+
+###Joins, connecting scraps on the surveys###
+join S1@HighDouk2 S1@HighDouk1
+
+###Equates, connecting points on surveys###
+equate 79@HighDouk1 1@HighDouk2
+
+###Map, to create overall map. Input individual survey maps to create the whole###
+map plan -projection plan
+  plan@HighDouk1
+  break
+  plan@HighDouk2
+endmap 
+
+endsurvey
+

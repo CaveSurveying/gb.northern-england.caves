@@ -1,0 +1,61 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1889.76 -1811.02 8740.16 866.14
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Great douk 4.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap great-douk-4-ee -projection extended
+
+point 2196.3027 -708.9369 station -name 12
+
+point 7060.3457 -855.7038 station -name 25
+
+point 165.72334 -21.909494 station -name 2
+
+point 6161.5474 -917.7308 station -name 22
+
+point 5787.0186 -811.06305 station -name 21
+
+point 5364.3203 -768.55786 station -name 20
+
+point 2827.1821 -739.66724 station -name 13
+
+point 3660.566 -748.24445 station -name 16
+
+point 735.82336 -141.04352 station -name 5
+
+point 932.3316 -150.14975 station -name 6
+
+point 1268.8036 -353.33807 station -name 8
+
+point 1116.6464 -253.39111 station -name 7
+
+point 4385.8394 -728.8723 station -name 18
+
+point 4933.33 -770.9821 station -name 19
+
+point 6750.616 -894.7296 station -name 24
+
+point 1320.0729 -517.70624 station -name 9
+
+point 7114.9146 -951.909 station -name 26
+
+point 1757.0928 -678.8947 station -name 11
+
+point 6341.4927 -869.59454 station -name 23
+
+point 483.0715 -13.119582 station -name 4
+
+point 4005.917 -746.7214 station -name 17
+
+point 0.0 0.0 station -name 1
+
+point 289.0207 -17.23797 station -name 3
+
+point 3104.8923 -737.7857 station -name 14
+
+point 1661.1394 -629.08734 station -name 10
+
+point 3403.567 -775.10834 station -name 15
+
+endscrap

@@ -1,0 +1,93 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1889.76 -314.96 18818.90 629.92
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Southerscales5.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap southerscales5-ee -projection extended
+
+point 252.10587 270.17267 station -name 2
+
+point 235.23428 -28.288616 station -name 3
+
+point 503.80316 -80.63149 station -name 4
+
+point 1054.8229 -78.571175 station -name 5
+
+point 1660.8121 -83.645226 station -name 6
+
+point 2313.2585 -120.109535 station -name 7
+
+point 2814.0454 -112.81115 station -name 8
+
+point 3089.5044 -119.40594 station -name 9
+
+point 3751.7053 -117.09921 station -name 10
+
+point 4077.6814 -119.40152 station -name 11
+
+point 4488.408 -124.71784 station -name 12
+
+point 4829.1562 -119.55577 station -name 13
+
+point 5221.6016 -96.47749 station -name 14
+
+point 5367.332 -107.779915 station -name 15
+
+point 5691.8467 -118.683754 station -name 16
+
+point 6358.613 -97.17606 station -name 17
+
+point 7163.2505 -114.74189 station -name 18
+
+point 7598.3813 -123.69854 station -name 19
+
+point 8100.405 -112.32166 station -name 20
+
+point 8462.792 -99.95977 station -name 21
+
+point 8847.775 -104.77059 station -name 22
+
+point 8993.002 -119.61803 station -name 23
+
+point 9240.751 -109.557236 station -name 24
+
+point 9491.615 -114.80118 station -name 25
+
+point 9811.57 -102.69911 station -name 26
+
+point 10286.164 -102.27444 station -name 27
+
+point 10517.358 -107.75774 station -name 28
+
+point 10820.03 -100.64693 station -name 29
+
+point 11083.855 -98.78358 station -name 30
+
+point 11426.221 -94.78983 station -name 31
+
+point 12094.121 -95.451515 station -name 32
+
+point 12506.207 -113.78224 station -name 33
+
+point 12984.735 -106.63998 station -name 34
+
+point 13435.976 -97.16421 station -name 35
+
+point 14183.4 -99.48116 station -name 36
+
+point 14834.782 -77.32354 station -name 37
+
+point 15335.167 -83.2086 station -name 38
+
+point 16014.167 -81.08205 station -name 39
+
+point 16281.3955 -64.93874 station -name 40
+
+point 16613.3 -57.236675 station -name 41
+
+point 16931.725 -56.890682 station -name 42
+
+point 17230.398 -51.917297 station -name 43
+
+endscrap

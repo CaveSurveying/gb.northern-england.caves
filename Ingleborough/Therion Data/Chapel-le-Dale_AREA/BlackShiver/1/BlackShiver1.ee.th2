@@ -1,0 +1,65 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -1023.62 9842.52 2047.24
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "blackshiver1.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap blackshiver1-ee -projection extended
+
+point 496.40155 24.005007 station -name 2
+
+point 1064.1893 56.447792 station -name 3
+
+point 1423.5045 62.729614 station -name 4
+
+point 1796.4991 277.68103 station -name 5
+
+point 2272.393 307.45255 station -name 6
+
+point 2875.5444 281.70416 station -name 7
+
+point 3096.2646 235.46355 station -name 8
+
+point 3211.6577 584.0523 station -name 9
+
+point 3171.7383 621.6996 station -name 10
+
+point 3621.7317 590.8476 station -name 11
+
+point 3435.75 623.1255 station -name 12
+
+point 3713.3918 628.3167 station -name 13
+
+point 4001.4268 789.1478 station -name 14
+
+point 4206.488 768.85187 station -name 15
+
+point 4390.245 795.97174 station -name 16
+
+point 4610.42 789.757 station -name 17
+
+point 4873.0713 798.8428 station -name 18
+
+point 4987.139 806.96375 station -name 19
+
+point 5148.2603 825.2228 station -name 20
+
+point 5342.9155 827.78595 station -name 21
+
+point 5740.075 937.5446 station -name 22
+
+point 6101.9043 874.5588 station -name 24
+
+point 6545.118 998.57074 station -name 25
+
+point 6948.074 1030.2504 station -name 26
+
+point 7249.1226 948.93463 station -name 27
+
+point 7655.6543 923.13715 station -name 28
+
+point 7997.7783 911.09436 station -name 29
+
+point 8243.47 962.6893 station -name 30
+
+endscrap

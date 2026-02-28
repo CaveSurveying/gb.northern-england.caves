@@ -1,0 +1,135 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1968.50 -1811.02 18110.24 10708.66
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Meregill5.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap meregill5-ee -projection extended
+
+point 175.84712 -42.08761 station -name 2
+
+point 268.7918 -118.28087 station -name 3
+
+point 530.1059 -26.445229 station -name 4
+
+point 913.06085 346.41275 station -name 5
+
+point 1035.3966 346.66293 station -name 6
+
+point 1228.5487 375.73718 station -name 7
+
+point 1450.4618 684.7903 station -name 8
+
+point 1863.8271 720.8397 station -name 9
+
+point 2295.8794 573.099 station -name 10
+
+point 2465.5427 708.90607 station -name 11
+
+point 2844.9307 901.4112 station -name 12
+
+point 3162.0693 932.2578 station -name 13
+
+point 3288.774 956.0747 station -name 14
+
+point 2903.0332 843.6676 station -name 15
+
+point 3366.527 848.31885 station -name 16
+
+point 3644.1897 879.6321 station -name 17
+
+point 3941.1626 960.1322 station -name 18
+
+point 4331.6577 1014.9991 station -name 19
+
+point 4421.8613 936.41644 station -name 20
+
+point 3703.856 885.9519 station -name 21
+
+point 4271.2007 938.6833 station -name 22
+
+point 4502.954 968.58417 station -name 23
+
+point 4816.049 999.52234 station -name 24
+
+point 5178.281 1040.9475 station -name 25
+
+point 5580.285 1086.4135 station -name 26
+
+point 5852.2285 2416.4292 station -name 27
+
+point 5931.887 2411.4177 station -name 28
+
+point 6128.8633 3057.7102 station -name 29
+
+point 6231.0 3098.6235 station -name 30
+
+point 6302.229 3113.8313 station -name 31
+
+point 6584.326 3207.4238 station -name 32
+
+point 6651.462 3228.4165 station -name 33
+
+point 7071.8853 3285.2842 station -name 34
+
+point 7441.4756 3417.0862 station -name 35
+
+point 8409.386 3432.3992 station -name 36
+
+point 8799.126 3707.333 station -name 37
+
+point 9828.072 3805.8208 station -name 38
+
+point 10417.254 3874.994 station -name 39
+
+point 10499.762 3940.1257 station -name 40
+
+point 10722.378 4019.3699 station -name 41
+
+point 10825.094 4067.698 station -name 42
+
+point 11200.01 4553.4316 station -name 43
+
+point 11804.503 5145.8745 station -name 44
+
+point 12087.272 5643.1772 station -name 45
+
+point 12161.537 6388.647 station -name 46
+
+point 12312.211 6729.708 station -name 47
+
+point 12505.675 7069.519 station -name 48
+
+point 12802.623 7063.5874 station -name 49
+
+point 13092.373 7069.811 station -name 50
+
+point 13458.29 7072.9565 station -name 51
+
+point 13857.76 7096.8574 station -name 52
+
+point 14208.411 7059.116 station -name 53
+
+point 14406.796 7074.4443 station -name 54
+
+point 14617.267 7091.1064 station -name 55
+
+point 15056.51 7260.0254 station -name 56
+
+point 15353.345 7263.08 station -name 57
+
+point 15551.2705 7762.678 station -name 58
+
+point 15727.262 8305.767 station -name 59
+
+point 15950.039 8950.184 station -name 60
+
+point 16066.66 8942.88 station -name 61
+
+point 16216.139 8940.238 station -name 62
+
+point 16382.028 8950.718 station -name 63
+
+point 16506.475 8957.286 station -name 64
+
+endscrap

@@ -1,0 +1,56 @@
+encoding  utf-8
+survey Meregill
+
+###Inputs, add surveys here###
+input 1/Meregill1
+input 2/Meregill2
+input 3/Meregill3
+input 4/Meregill4
+input 5/Meregill5
+input 6/Meregill6
+input 7/Meregill7
+input 8/Meregill8
+input 9/Meregill9
+
+
+###Joins, connecting scraps on the surveys###
+join S1@Meregill4 S2@Meregill2
+join S1@Meregill2 S8@Meregill3
+join S1@Meregill1 S3@Meregill5
+join S6@Meregill2 S1@Meregill5
+join S1@Meregill5 S4@Meregill4
+join S6@Meregill3 S2@Meregill7
+join S8@Meregill3 S1@Meregill7
+join S1@Meregill8 S1@Meregill3
+join S1@Meregill9 S4@Meregill3
+join S1@Meregill6 S5@Meregill2
+
+###Equates, connecting points on surveys###
+equate 1@Meregill2 102@Meregill3
+equate 6@Meregill2 1@Meregill4
+equate 105@Meregill2 120@Meregill4
+equate 105@Meregill2 1@Meregill5
+equate 64@Meregill5 23@Meregill1
+equate 1@Meregill7 90@Meregill3
+equate 37@Meregill7 70@Meregill3
+equate 12@Meregill8 4@Meregill3
+equate 1@Meregill9 38@Meregill3
+equate 45@Meregill2 1@Meregill6
+
+
+
+###Map, to create overall map. Input individual survey maps to create the whole###
+map plan -projection plan
+  plan@Meregill1
+  plan@Meregill2
+  plan@Meregill3
+  plan@Meregill4
+  plan@Meregill5
+  plan@Meregill6
+  plan@Meregill7
+  plan@Meregill8
+  plan@Meregill9
+endmap
+
+endsurvey
+
