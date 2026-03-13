@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -820.16 -208.15 4920.97 1248.92
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {565.398990336 1 1.0} {476.235850897 1.0} PocketTopo/Glasfurds_e.xvi 0 {}
+
+
+scrap GlasfurdsSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GlasfurdsSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

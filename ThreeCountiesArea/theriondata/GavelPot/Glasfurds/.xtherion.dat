@@ -1,0 +1,24 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 202.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.76m (from 126.11@GlasfurdsUpStreamExt2.GlasfurdsIndex at 4.79m to 128.6@Glasfurds.GlasfurdsIndex at -10.97m)\nnorth-south range: 97.96m (from 128.6@Glasfurds.GlasfurdsIndex at 61.44m to 127.2@GlasfurdsUpStreamExt2.GlasfurdsIndex at -36.52m)\neast-west range: 44.52m (from 129.2@Glasfurds.GlasfurdsIndex at 44.52m to 1.12@GlasfurdsUpStreamExt1.GlasfurdsIndex at 0.00m)\nnumber of shots: 669\nnumber of stations: 673"
+xth_cp_data_tree_insert 18 1 1 GlasfurdsIndex GlasfurdsIndex "" "" "length: 202.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.76m (from 126.11@GlasfurdsUpStreamExt2.GlasfurdsIndex at 4.79m to 128.6@Glasfurds.GlasfurdsIndex at -10.97m)\nnorth-south range: 97.96m (from 128.6@Glasfurds.GlasfurdsIndex at 61.44m to 127.2@GlasfurdsUpStreamExt2.GlasfurdsIndex at -36.52m)\neast-west range: 44.52m (from 129.2@Glasfurds.GlasfurdsIndex at 44.52m to 1.12@GlasfurdsUpStreamExt1.GlasfurdsIndex at 0.00m)\nnumber of shots: 669\nnumber of stations: 673"
+xth_cp_data_tree_insert 20 18 2 GlasfurdsUpStreamExt1 GlasfurdsUpStreamExt1.GlasfurdsIndex "" "" "length: 39.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.94m (from 1.12@GlasfurdsUpStreamExt1.GlasfurdsIndex at 0.00m to 1.2@GlasfurdsUpStreamExt1.GlasfurdsIndex at -5.94m)\nnorth-south range: 25.72m (from 1.1@GlasfurdsUpStreamExt1.GlasfurdsIndex at 25.72m to 1.12@GlasfurdsUpStreamExt1.GlasfurdsIndex at 0.00m)\neast-west range: 14.43m (from 1.0@GlasfurdsUpStreamExt1.GlasfurdsIndex at 14.43m to 1.12@GlasfurdsUpStreamExt1.GlasfurdsIndex at 0.00m)\nnumber of shots: 155\nnumber of stations: 156"
+xth_cp_data_tree_insert 81 18 2 GlasfurdsUpStreamExt2 GlasfurdsUpStreamExt2.GlasfurdsIndex "" "" "length: 60.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.53m (from 126.11@GlasfurdsUpStreamExt2.GlasfurdsIndex at 4.79m to 126.1@GlasfurdsUpStreamExt2.GlasfurdsIndex at -1.74m)\nnorth-south range: 36.52m (from 1.0@GlasfurdsUpStreamExt2.GlasfurdsIndex at 0.00m to 127.2@GlasfurdsUpStreamExt2.GlasfurdsIndex at -36.52m)\neast-west range: 29.46m (from 126.11@GlasfurdsUpStreamExt2.GlasfurdsIndex at 29.46m to 1.0@GlasfurdsUpStreamExt2.GlasfurdsIndex at 0.00m)\nnumber of shots: 142\nnumber of stations: 143"
+xth_cp_data_tree_insert 137 18 2 Glasfurds Glasfurds.GlasfurdsIndex "" "" "length: 81.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.36m (from 129.2@Glasfurds.GlasfurdsIndex at -3.61m to 128.6@Glasfurds.GlasfurdsIndex at -10.97m)\nnorth-south range: 35.76m (from 128.6@Glasfurds.GlasfurdsIndex at 61.44m to 132.10@Glasfurds.GlasfurdsIndex at 25.68m)\neast-west range: 30.09m (from 129.2@Glasfurds.GlasfurdsIndex at 44.52m to 132.10@Glasfurds.GlasfurdsIndex at 14.43m)\nnumber of shots: 256\nnumber of stations: 257"
+xth_cp_data_tree_insert 212 18 2 GlasfurdsLink GlasfurdsLink.GlasfurdsIndex "" "" "length: 21.42m (surface 0.00m, duplicated 0.00m)\nvertical range: 2.64m (from 1.5@GlasfurdsLink.GlasfurdsIndex at -4.02m to 1.1@GlasfurdsLink.GlasfurdsIndex at -6.66m)\nnorth-south range: 16.75m (from 1.6@GlasfurdsLink.GlasfurdsIndex at 37.45m to 1.0@GlasfurdsLink.GlasfurdsIndex at 20.70m)\neast-west range: 8.63m (from 1.1@GlasfurdsLink.GlasfurdsIndex at 38.60m to 1.7@GlasfurdsLink.GlasfurdsIndex at 29.97m)\nnumber of shots: 116\nnumber of stations: 117"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 209X1 p3 1 GlasfurdsME GlasfurdsME@Glasfurds.GlasfurdsIndex "" ""
+xth_cp_map_tree_insert map 1 256X1 p3 1 GlasfurdsLinkME GlasfurdsLinkME@GlasfurdsLink.GlasfurdsIndex "" ""
+xth_cp_map_tree_insert map 0 262X1 p1 1 GlasfurdsIndexPlan GlasfurdsIndexPlan@GlasfurdsIndex "Glasfurds" "Glasfurds"
+xth_cp_map_tree_insert map 1 78X1 262X1 2 GlasfurdsUpStreamExt1Plan GlasfurdsUpStreamExt1Plan@GlasfurdsUpStreamExt1.GlasfurdsIndex "" ""
+xth_cp_map_tree_insert map 1 134X1 262X1 2 GlasfurdsUpStreamExt2Plan GlasfurdsUpStreamExt2Plan@GlasfurdsUpStreamExt2.GlasfurdsIndex "" ""
+xth_cp_map_tree_insert map 1 208X1 262X1 2 GlasfurdsPlan GlasfurdsPlan@Glasfurds.GlasfurdsIndex "" ""
+xth_cp_map_tree_insert map 1 255X1 262X1 2 GlasfurdsLinkPlan GlasfurdsLinkPlan@GlasfurdsLink.GlasfurdsIndex "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 202 27
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1773420800
+

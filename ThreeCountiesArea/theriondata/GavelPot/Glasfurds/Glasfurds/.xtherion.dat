@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 81.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.35m (from 129.2@Glasfurds at 2.74m to 128.6@Glasfurds at -4.61m)\nnorth-south range: 35.76m (from 128.6@Glasfurds at 9.84m to 132.10@Glasfurds at -25.92m)\neast-west range: 30.09m (from 129.2@Glasfurds at 8.92m to 132.10@Glasfurds at -21.17m)\nnumber of shots: 256\nnumber of stations: 257"
+xth_cp_data_tree_insert 18 1 1 Glasfurds Glasfurds "" "" "length: 81.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.35m (from 129.2@Glasfurds at 2.74m to 128.6@Glasfurds at -4.61m)\nnorth-south range: 35.76m (from 128.6@Glasfurds at 9.84m to 132.10@Glasfurds at -25.92m)\neast-west range: 30.09m (from 129.2@Glasfurds at 8.92m to 132.10@Glasfurds at -21.17m)\nnumber of shots: 256\nnumber of stations: 257"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 60X1 p1 1 GlasfurdsPlan GlasfurdsPlan@Glasfurds "" ""
+xth_cp_map_tree_insert map 1 61X1 p3 1 GlasfurdsME GlasfurdsME@Glasfurds "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 81 10
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1772017743
+

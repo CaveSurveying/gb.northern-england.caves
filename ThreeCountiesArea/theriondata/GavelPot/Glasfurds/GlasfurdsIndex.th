@@ -1,0 +1,70 @@
+encoding  utf-8
+
+survey GlasfurdsIndex
+
+
+input GlasfurdsUpStreamExt1/GlasfurdsUpStreamExt1.th
+input GlasfurdsUpStreamExt2/GlasfurdsUpStreamExt2.th
+input Glasfurds/Glasfurds.th
+input GlasfurdsLink/GlasfurdsLink.th
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+join GlasfurdsUpStreamExt1SP2@GlasfurdsUpStreamExt1 GlasfurdsUpStreamExt2SP1@GlasfurdsUpStreamExt2
+join GlasfurdsSP1@Glasfurds GlasfurdsUpStreamExt1SP1@GlasfurdsUpStreamExt1
+join GlasfurdsSP1@Glasfurds GlasfurdsLinkSP1@GlasfurdsLink
+####ME Scrap Joins####
+#join NNEPot1SE1@NNEPot1.NNEPotIndex  NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex  # Not used at the mo
+#join NorthEndPotSE1@NorthEndPot      NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex  # as they may be distorting output
+
+
+
+#### Elevation Line Joins ####
+##################
+#join Line1@NNEPot1.NNEPotIndex:0    Line1@NEShakeHole2.NEShakeHoleIndex:end 
+#join Line2@NNEPot1.NNEPotIndex:end  Line2@NEShakeHole2.NEShakeHoleIndex:0
+
+
+
+###################### MAPS ####################
+
+  map GlasfurdsIndexPlan -title "Glasfurds" 
+   
+  GlasfurdsUpStreamExt1Plan@GlasfurdsUpStreamExt1
+  GlasfurdsUpStreamExt2Plan@GlasfurdsUpStreamExt2
+  GlasfurdsPlan@Glasfurds
+  GlasfurdsLinkPlan@GlasfurdsLink
+  
+  
+  #NEShakeHoleIndexPlan@NEShakeHoleIndex
+  #break    
+  
+  endmap
+ 
+###############################################
+ 
+ #map NorthEndIndexME -title "North_End-Extended_Elevation"
+ 
+ #NEShakeHoleIndexME@NEShakeHoleIndex
+ #NNEPotIndexME@NNEPotIndex
+ #NorthEndPotME@NorthEndPot  
+ 
+ #endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ equate 1.12@GlasfurdsUpStreamExt1 1.0@GlasfurdsUpStreamExt2  
+ equate 1.0@GlasfurdsUpStreamExt1 132.10@Glasfurds 
+ equate 132.4@Glasfurds 1.7@GlasfurdsLink 
+ 
+ 
+ 
+
+endsurvey
+
