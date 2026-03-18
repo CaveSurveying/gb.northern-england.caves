@@ -24,6 +24,7 @@
 *include LowerStreamway		;added by Becka 02/01/2015
 *include AdamsonsRoute		;added by Becka 31/01/2015
 *include BTRoute2		;added by Becka 31/01/2015
+*INCLUDE SkyDancer
 
 ;--------------------------------------------
 
@@ -44,5 +45,6 @@
 *equate AdamsonsRoute.10x	acrobat.1-10
 *equate BTRoute2.5x	BTRoute.5
 *equate BTRoute2.y	BTRoute.3
+*EQUATE SkyDancer.5 bottomacrobat.7
 
 *end	NottsPot
