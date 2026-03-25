@@ -1,7 +1,7 @@
 
 *begin	Gvl2
 *export 000   ;st000=tag on fence post on path to entrance
-*export 017 034 027 002 005
+*export 017 034 027 002 005 020 021
 
 ;Cave:	Gavel Pot
 ;Surveyors:	Pete Hall/Ian Lawton/Carmell Ramwell
@@ -55,7 +55,7 @@
 024	025	00.50	 -	DOWN	;st025=tag narrow inlet on left
 025	026	05.90	325.0	+15.0
 026	022	07.20	073.0	-03.0	;oxbow
-026	027	03.50	351.0	+08.0	;st027=tag Glasfords on right
+026	027	03.50	351.0	+08.0	;st027=tag Glasfords on right. ##NOTE:Does not fit. Changed to st021 as this seems to fix the Glasfurds connection.NB26##
 027	028	16.30	228.0	-07.0	;st028=tag Southbound passage on right
 028	029	11.10	215.0	-04.0
 029	030	03.60	194.0	-20.0
