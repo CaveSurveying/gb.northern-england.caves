@@ -1,16 +1,17 @@
 ;Gavel Pot
 
 *begin	GavelPot
-*export GavelPotFencePost
+;*export GavelPotFencePost
 
 *equate Gvl2.000 GavelPotFencePost
+;*equate Gvl2.000 3C02  ; KD GPS bolt ;NB
 
 *equate Gvl2.002 Gvl1.001	 ;st001=P-hanger
 *include	Gvl1  ; see where it goes
 
 *equate	Gvl2.017	Gvl3.001
 *equate	Gvl2.034	Gvl4.001
-*equate	Gvl2.027	Gvl5.001
+*equate	Gvl2.021	Gvl5.001    ;Changed to 021 from 027 as connection to Glasfurds looks wrong. Now disagrees with note in Gvl2 but seems to fit much better. NB Feb26
 *include	Gvl2
 
 *equate	Gvl3.001	Gvl2.017
@@ -19,7 +20,7 @@
 *equate	Gvl4.001	Gvl2.034
 *include	Gvl4
 
-*equate	Gvl5.001	Gvl2.027
+*equate	Gvl5.001	Gvl2.021    ;Changed to 021 from 027 as connection to Glasfurds looked wrong. Now seems to fit.NB Feb26
 *include	Gvl5
 
 *include DownStreamGavel
