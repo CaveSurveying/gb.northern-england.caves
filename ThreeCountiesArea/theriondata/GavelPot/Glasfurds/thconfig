@@ -39,7 +39,7 @@ export map -proj plan -layout local -o Output/GlasfurdsIndex.pdf
 
 
 layout local
-base-scale 1 50
+base-scale 1 200
 scale 1 50
 symbol-set BCRA
 #debug station-names
