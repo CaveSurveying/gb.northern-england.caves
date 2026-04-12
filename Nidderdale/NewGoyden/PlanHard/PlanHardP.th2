@@ -780,24 +780,7 @@ line floor-step
   smooth off
 endline
 
-line ceiling-step
-  2957.0 7090.0
-  2977.0 7088.0 3036.0 7068.0 3050.0 7048.0
-  3064.0 7028.0 3098.0 7032.0 3078.0 6998.0
-  3058.0 6964.0 2996.52 6898.89 2988.5245901639346 6886.88524590164
-  smooth off
-endline
-
-point 2940.909090909091 6984.09090909091 continuation -scale l -text "25m aven to dig, heading toward Pigskin" -attr who "BSD" -attr what aven -attr priority Low -attr ref plan #-explored 0m
-
 point 3159.0909090909095 7163.636363636364 label -align top-left -text c3 -scale s
-
-line ceiling-step -reverse on
-  2752.0 7043.0
-  2770.0 7013.0 2870.84 6933.02 2876.0 6922.0
-  2901.64 6867.21 2988.5245901639346 6886.88524590164 2988.5245901639346 6886.88524590164
-  smooth off
-endline
 
 line wall
 endline
@@ -877,10 +860,6 @@ point 963.6363636363637 6386.363636363637 gradient -orientation 132.1 -scale l
 point 1481.818181818182 6468.181818181819 gradient -orientation 153.6 -scale l
 
 point 1950.0000000000002 6618.181818181819 gradient -orientation 175.6 -scale l
-
-point 3104.545454545455 6859.09090909091 dig -scale s
-
-point 2745.4545454545455 7127.272727272728 label -align top-left -text [+P25<br>(aven)] -scale m
 
 line wall
   3201.0 7126.0

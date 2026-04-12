@@ -10,9 +10,6 @@ cs OSGB:SE
 station LimleyAirShaft "Limley Air Shaft"
 fix LimleyAirShaft      09936 75737 201   #Phil's Garmin Instinct 2 m19/10/2024
 
-
-
-
 station AngramCave "Angram Cave"
 fix AngramCave              04600 76600  361
 

@@ -1,0 +1,102 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -4.8 -236.6 202.4 -10.7
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {88.32 1 1.0} {-162.15 0} doubleFoxAven-xx0.xvi 0 {}
+
+# 2026.04.11 created by TopoDroid v. 6.3.39
+
+scrap doubleFoxAven-xx0 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  101.17 -110.87
+  100.82 -111.02 100.50 -111.28 100.14 -111.44
+  98.78 -112.04 95.97 -111.48 95.21 -113.33
+  94.83 -114.26 95.30 -115.72 96.19 -116.29
+  98.80 -117.97 101.19 -112.54 101.24 -110.69
+endline
+
+line wall
+  102.36 -136.23
+  102.40 -136.35 102.34 -136.61 102.26 -136.56
+endline
+
+line border
+  96.07 -116.57
+  96.18 -116.54 96.30 -116.52 96.41 -116.47
+  96.49 -116.43 96.56 -116.37 96.63 -116.32
+  97.24 -115.84 95.58 -114.66 95.36 -115.01
+  95.18 -115.30 96.02 -116.25 96.15 -116.57
+endline
+
+line border
+  101.34 -112.88
+  100.25 -112.79 98.91 -116.42 99.81 -115.80
+  100.32 -115.45 100.74 -113.35 101.05 -112.69
+endline
+
+
+line u:splay -visibility off
+  97.46 -114.54
+  95.46 -115.05
+endline
+line u:splay -visibility off
+  97.46 -114.54
+  101.36 -110.78
+endline
+line u:splay -visibility off
+  97.46 -114.54
+  98.11 -118.29
+endline
+line u:splay -visibility off
+  97.46 -114.54
+  97.77 -111.30
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  105.19 -126.21
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  90.77 -124.03
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  98.25 -108.54
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  93.55 -140.89
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  88.70 -143.35
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  99.01 -128.38
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  88.86 -131.18
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  79.76 -148.51
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  82.94 -130.15
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  87.81 -109.92
+endline
+line u:splay -visibility off
+  100.64 -126.34
+  88.92 -103.48
+endline
+
+
+
+endscrap
+

@@ -42,7 +42,7 @@ line wall
   smooth off
 endline
 
-point 58.15 -13.53 dig -scale s
+point 57.9 -9.78 dig -scale s
 
 line wall
   88.99 -112.41
@@ -120,7 +120,14 @@ endline
 
 point 79.39 -53.260000000000005 label -text "scaffold" -scale s -align right
 
-point 51.099999999999994 -53.68 label -text [Jigsaw<br>Puzzle<br>Passage] -scale m -align bottom-left
+line arrow -scale l
+  58.5 -122.5
+  99.75 -112.75
+endline
+
+point 55.0 -123.0 label -align bottom-left -scale l -text [OLD QUARRY<br>POT]
+
+point 51.349999999999994 -54.68 label -text [Jigsaw<br>Puzzle<br>Passage] -scale m -align bottom-left
 
 line u:splay -visibility off
   95.84 -109.78

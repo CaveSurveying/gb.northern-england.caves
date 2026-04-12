@@ -43,6 +43,7 @@ input NewGoyden/NewGoydenDownstreamSumps/NewGoydenDownstreamSumps.th
 input NewGoyden/OQP/OQP.th
 input NewGoyden/PigskinPot/PigskinPot.th
 input NewGoyden/HardyPoolsExtension/HardyPoolsExt.th
+input NewGoyden/doubleFoxAven/doubleFoxAven.th
 
 input Guscott/GuscottIndex.th
 
@@ -175,6 +176,8 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   break
  
   ####NewGoyden/Frog####
+  m1p@doubleFoxAven
+  break
   ThropePotPlan
   AstronomersPlan@astronomers
   PlanHardPlan
@@ -250,6 +253,8 @@ map NidderdalePlanTruncated -title "Goyden Cave System<br>(excluding New Goyden<
   break  
   
   ####NewGoyden/Frog####
+  m1p@doubleFoxAven
+  break
   ThropePotPlan
   AstronomersPlan@astronomers
   PlanHardPlan
@@ -319,6 +324,8 @@ map PublishSection2 -title "New Goyden Pot<br><it>Nidderdale, North Yorkshire<br
   #Section2@NidderdaleFixedPoints
   break
   NewGoydenFaults@Overlays
+  break
+  m1p@doubleFoxAven
   break
   ThropePotPlan
   break
@@ -391,6 +398,7 @@ equate 1.69@GoydenDownstreamSumps 1.69@Aquamole
 #equate 1.36@GoydenDownstreamSumps 1.36@NewGoyden
 #equate 1.36@GoydenDownstreamSumps 1.9@goy3
 
+equate 1_8@doubleFoxAven 1.8@PlanHard
 equate 5.47@NewGoyden 1.28@FrogPot.FrogPotIndex
 equate 1.15@NewGoyden 1.0@PlanHard
 equate 1.22@NewGoyden 1.0@ThropePot
