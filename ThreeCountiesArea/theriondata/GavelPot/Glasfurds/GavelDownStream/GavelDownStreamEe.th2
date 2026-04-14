@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1695.19 -201.06 10171.15 1206.37
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {847.596230894 1 1.0} {938.798829478 1.0} PocketTopo/GavelDownStream_e.xvi 0 {}
+
+
+scrap GavelDownStreamSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GavelDownStreamSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

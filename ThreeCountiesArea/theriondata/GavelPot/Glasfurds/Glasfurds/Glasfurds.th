@@ -7,7 +7,7 @@ input GlasfurdsEe.th2
 map GlasfurdsPlan
   GlasfurdsSP1
   GlasfurdsSP2
-  GlasfurdsSP3
+  #GlasfurdsSP3
 endmap
 
 map GlasfurdsME

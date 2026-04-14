@@ -7,6 +7,8 @@ input GlasfurdsUpStreamExt1/GlasfurdsUpStreamExt1.th
 input GlasfurdsUpStreamExt2/GlasfurdsUpStreamExt2.th
 input Glasfurds/Glasfurds.th
 input GlasfurdsLink/GlasfurdsLink.th
+input GlasfurdsPassage/GlasfurdsPassage.th
+input GavelDownStream/GavelDownStream.th
 
 
 ################ Plan Joins #################
@@ -16,6 +18,7 @@ input GlasfurdsLink/GlasfurdsLink.th
 join GlasfurdsUpStreamExt1SP2@GlasfurdsUpStreamExt1 GlasfurdsUpStreamExt2SP1@GlasfurdsUpStreamExt2
 join GlasfurdsSP1@Glasfurds GlasfurdsUpStreamExt1SP1@GlasfurdsUpStreamExt1
 join GlasfurdsSP1@Glasfurds GlasfurdsLinkSP1@GlasfurdsLink
+join GlasfurdsSP1@Glasfurds GlasfurdsPassageSP1@GlasfurdsPassage
 ####ME Scrap Joins####
 #join NNEPot1SE1@NNEPot1.NNEPotIndex  NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex  # Not used at the mo
 #join NorthEndPotSE1@NorthEndPot      NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex  # as they may be distorting output
@@ -37,6 +40,9 @@ join GlasfurdsSP1@Glasfurds GlasfurdsLinkSP1@GlasfurdsLink
   GlasfurdsUpStreamExt2Plan@GlasfurdsUpStreamExt2
   GlasfurdsPlan@Glasfurds
   GlasfurdsLinkPlan@GlasfurdsLink
+  break
+  GlasfurdsPassagePlan@GlasfurdsPassage
+  GavelDownStreamPlan@GavelDownStream
   
   
   #NEShakeHoleIndexPlan@NEShakeHoleIndex
@@ -62,6 +68,8 @@ join GlasfurdsSP1@Glasfurds GlasfurdsLinkSP1@GlasfurdsLink
  equate 1.12@GlasfurdsUpStreamExt1 1.0@GlasfurdsUpStreamExt2  
  equate 1.0@GlasfurdsUpStreamExt1 132.10@Glasfurds 
  equate 132.4@Glasfurds 1.7@GlasfurdsLink 
+ equate 129.2@Glasfurds 1.0@GlasfurdsPassage
+ equate 133.2@GavelDownStream 1.0@GlasfurdsLink
  
  
  

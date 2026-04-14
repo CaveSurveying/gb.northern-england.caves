@@ -8,6 +8,9 @@ select GlasfurdsUpStreamExt1.GlasfurdsIndex
 select GlasfurdsUpStreamExt2.GlasfurdsIndex
 select Glasfurds.GlasfurdsIndex
 select GlasfurdsLink.GlasfurdsIndex
+select GlasfurdsPassage.GlasfurdsIndex
+select GavelDownStream.GlasfurdsIndex
+
 
 
 
@@ -40,15 +43,18 @@ export map -proj plan -layout local -o Output/GlasfurdsIndex.pdf
 
 layout local
 base-scale 1 200
-scale 1 50
+scale 1 200
 symbol-set BCRA
 #debug station-names
 #debug on
 
-#colour map-fg altitude
-#colour map-fg scrap
+colour map-fg altitude
+#colour map-fg scrap 
 #colour map-fg [97 86 38] ##Pale Yellow##
+#colour map-fg [90 90 90] ## Light Grey##
 #colour map-bg [90 90 90] ##Light Grey##
+
+
 
 north grid
   #grid top
@@ -61,11 +67,11 @@ north grid
   #legend on
   transparency on
 
-#symbol-colour area water [25 50 100]            ##Blue##                #### The three numbers represent the three primary colours as a percentage####
+symbol-colour area water [25 50 100]            ##Blue##                #### The three numbers represent the three primary colours as a percentage####
 #symbol-colour area sump [10 10 100]             ##Lighter Blue##        #### When applied together - Mixed - they make the finished colour####   
 symbol-colour area flowstone [100 80 0]          ##Dark Yellow##
 #symbol-colour line water-flow [22 22 95]        ##Light Blue##
-#symbol-colour point water-flow  [22 22 95]
+symbol-colour point water-flow  [22 22 95]
 symbol-colour area clay          [62 28 0]       ##Dark Brown##
 symbol-colour point station [100 0 0]            ##Light Blue##
 symbol-colour group centerline [100 0 0]         ##Red##
@@ -73,7 +79,7 @@ symbol-colour group centerline [100 0 0]         ##Red##
 #symbol-hide group centerline             # 1. Hides all centerline and survey station symbols in cave.
 #symbol-hide point cave-station           # 2. Hides all survey stations in the cave but not centerline.                                                         
                                  
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 
 #### Add Topo Date to map ####
 #-------------------------------------------
@@ -86,10 +92,11 @@ symbol-colour group centerline [100 0 0]         ##Red##
  ####CODE TO PUT BORDER AROUND MAP####
 #------------------------------------------------------------
 
+
 #layout layoutMapBorder
-#code tex-map
-  #\framethickness=0.5mm
-#endlayout #LayoutMapBorder
+code tex-map
+  \framethickness=0.5mm
+endlayout #LayoutMapBorder
 
 
 ###############HEADER OVERIDES##############
@@ -103,14 +110,16 @@ symbol-colour group centerline [100 0 0]         ##Red##
 ##Change the cave details in the { } to what you want##
 
 #code tex-map
-#\cavename={Tom Taylors Cave\medskip \size[30] How Stean Gorge\medskip \size[30]North Yorkshire}  
+#\cavename={Glasfurds 2026 Extension\medskip \size[30] #How Stean Gorge\medskip \size[30]North Yorkshire}  
 #endcode
 
 
 ####This adds a comment on the map####
 #-----------------------------------------------------
 
-#map-comment "How Stean Gorge"
+#code tex-map
+ #map-comment "Surveyed March/April 2026"
+#endcode
 
 
 ####Overide cave length and depth automatically shown on map header to remove surface leg data etc####
@@ -122,4 +131,4 @@ symbol-colour group centerline [100 0 0]         ##Red##
    #\cavedepth{12m}
 #endcode
 
-endlayout
+#endlayout

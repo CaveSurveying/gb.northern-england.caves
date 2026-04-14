@@ -1,26 +1,31 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 3142.0 3855.9338995432004
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -130.0 -130.0 3134.5 3855.9338995432004
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2404.531954958 1 1.0} {1262.5591154400001 126.6} PocketTopo/GlasfurdsUpStreamExt2_p.xvi 0 {}
 
 
 
 scrap GlasfurdsUpStreamExt2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line flowstone -close on -reverse on
+point 2017.0 2162.0 pillar
+
+line flowstone
+endline
+
+line flowstone -id l2-2056-2182 -close on -reverse on
   2048.0 2184.0
   2012.0 2196.0
   1988.0 2190.0
   1988.0 2190.0 1985.0 2163.0 1987.5 2149.5
   1990.0 2136.0 2018.0 2124.0 2024.0 2126.0
   2030.0 2128.0 2047.7 2134.24 2052.0 2148.0
-  2062.0 2180.0 2048.0 2184.0 2048.0 2184.0
+  2057.86 2166.75 2048.0 2184.0 2048.0 2184.0
   smooth off
 endline
 
 line wall -id l36-1998-2208
-  2300.0 1986.0
-  2288.0 1986.0 2232.0 1972.0 2232.0 1972.0
+  2284.5 1976.0
+  2272.5 1976.0 2240.0 1962.0 2240.0 1962.0
   smooth off
   2152.0 2040.0
   2152.0 2040.0 2104.91 2042.23 2084.0 2113.5
@@ -119,23 +124,23 @@ line wall -id l35-2498-1218
   2400.0 1724.0 2388.0 1768.0 2384.0 1778.0
   2380.0 1788.0 2330.0 1848.0 2330.0 1848.0
   smooth off
-  2264.0 1938.0
-  2264.0 1938.0 2298.0 1939.5 2306.0 1945.5
+  2254.5 1948.0
+  2254.5 1948.0 2280.5 1957.0 2288.5 1963.0
   smooth off
 endline
 
 line wall -id l57-2252-1951 -reverse on -subtype invisible
-  2232.0 1972.0
-  2264.0 1938.0
+  2240.0 1962.0
+  2254.5 1948.0
 endline
 
-area flowstone
-  l61-2469-1207
+area clay
   l35-2498-1218
   l57-2252-1951
   l36-1998-2208
   l48-2175-1958
   l24-1947-2095
+  l61-2469-1207
 endarea
 
 line floor-step -reverse on
@@ -249,16 +254,6 @@ line border -reverse on -subtype presumed
 endline
 
 area flowstone
-  l40-2031-2191
-  l36-1998-2208
-  l39-2081-2066
-  l24-1947-2095
-endarea
-
-line wall
-endline
-
-area flowstone
   l35-2498-1218
   l57-2252-1951
   l36-1998-2208
@@ -267,19 +262,37 @@ area flowstone
   l61-2469-1207
 endarea
 
+line wall
+endline
+
 line border
 endline
 
-point 2104.0 2020.0 gradient -orientation 247.2 -scale xs
+point 2384.0 1084.5 gradient -orientation 209.9 -scale xs
 
-point 2110.5 1993.0 gradient -orientation 267.1 -scale xs
+point 2096.0 2028.0 gradient -orientation 232.4 -scale xs
 
-area clay
-  l48-2175-1958
-  l36-1998-2208
+point 2136.0 1982.5 gradient -orientation 287.2 -scale xs
+
+area flowstone
+  l78-2026-2082
   l39-2081-2066
-  l24-1947-2095
+  l36-1998-2208
+  l40-2031-2191
 endarea
+
+line rock-border -id l78-2026-2082
+  1858.5 2183.5
+  1862.5 2183.5 1908.5 2169.5 1911.0 2168.5
+  1913.5 2167.5 1944.0 2146.0 1944.0 2146.0
+  smooth off
+  1944.0 2146.0 1998.0 2116.5 1999.5 2114.0
+  2001.0 2111.5 2032.0 2075.0 2032.0 2075.0
+  smooth off
+  2032.0 2075.0 2045.0 2063.5 2045.0 2049.5
+  2045.0 2035.5 2041.0 2005.5 2041.0 2005.5
+  smooth off
+endline
 
 line wall -id l24-1947-2095
   559.0 3353.0
@@ -315,10 +328,11 @@ line wall -id l24-1947-2095
   1246.0 2777.0 1582.0 2542.0 1586.0 2528.0
   1590.0 2514.0 1682.0 2408.0 1690.0 2392.0
   1698.0 2376.0 1768.0 2282.0 1768.0 2270.0
-  1768.0 2258.0 1842.0 2214.0 1842.0 2204.0
-  1842.0 2194.0 1926.5 2153.5 1926.5 2141.5
-  1926.5 2129.5 1965.5 2057.5 1989.5 2037.5
-  2013.5 2017.5 2105.0 1926.0 2105.0 1916.0
+  1768.0 2258.0 1838.5 2217.5 1838.5 2207.5
+  1838.5 2197.5 1927.5 2151.0 1927.5 2139.0
+  1927.5 2127.0 1966.0 2039.0 1989.0 2036.5
+  smooth off
+  2050.0 2046.5 2105.0 1926.0 2105.0 1916.0
   2105.0 1906.0 2150.0 1868.5 2150.0 1868.5
   smooth off
   2278.0 1746.0
@@ -410,9 +424,10 @@ line floor-step -id l57-982-3322 -clip off
   smooth off
 endline
 
-line floor-step
+line floor-step -id l47-825-3056
   904.0 3428.0
   806.0 3334.0 793.86 3089.93 846.0 2990.0
+  smooth off
 endline
 
 point 2357.431954958 1776.0491154400002 station -name 126.5
@@ -426,6 +441,31 @@ point 1759.221954958 2416.0391154400004 station -name 126.2
 point 1107.401954958 3006.6391154400003 station -name 126.1
 
 point 641.341954958 2974.39911544 station -name 1.1
+
+line border
+endline
+
+area clay
+  l24-1947-2095
+  l62-700-3098
+  l24-1947-2095
+  l82-695-3380
+  l47-825-3056
+endarea
+
+area flowstone
+  l47-825-3056
+  l24-1947-2095
+  l62-700-3098
+  l24-1947-2095
+  l82-695-3380
+endarea
+
+line border -id l82-695-3380 -subtype invisible
+  559.0 3353.0
+  670.0 3374.0
+  904.0 3428.0
+endline
 
 line ceiling-step
   670.0 3374.0
