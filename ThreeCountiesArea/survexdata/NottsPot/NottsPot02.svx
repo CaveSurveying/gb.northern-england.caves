@@ -11,6 +11,8 @@
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*calibrate compass	+5.00
 
+*flags duplicate ; needs replacing as cannot draw up from underground notes
+
 001	002	04.40	157.0	-38.0	;st001=TAG junction of routes
 002	003	08.13	261.5	+21.5	;st002 straddling streamway start of traverse
 003	004	10.30	255.0	+04.0	;st004 top of pitch

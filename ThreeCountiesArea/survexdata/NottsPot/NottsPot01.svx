@@ -13,6 +13,8 @@
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*calibrate compass	+5.00
 
+*flags duplicate ; needs replacing as cannot draw up from underground notes
+
 001	002	02.30	353.0	-17.0	;ST001=P Bolt(furthest of 2)
 002	003	07.00	 -	DOWN
 003	004	01.40	247.0	+15.0
