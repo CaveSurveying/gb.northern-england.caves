@@ -7,14 +7,14 @@ source GlasfurdsIndex.th
 select GlasfurdsUpStreamExt1.GlasfurdsIndex
 select GlasfurdsUpStreamExt2.GlasfurdsIndex
 select Glasfurds.GlasfurdsIndex
-select GlasfurdsLink.GlasfurdsIndex
-select GlasfurdsPassage.GlasfurdsIndex
-select GavelDownStream.GlasfurdsIndex
+#select GlasfurdsLink.GlasfurdsIndex
+#select GlasfurdsPassage.GlasfurdsIndex
+#select GavelDownStream.GlasfurdsIndex
 
 
 
 
-export map -proj plan -layout local -o Output/GlasfurdsIndex.pdf
+export map -proj plan -layout local -o Output/GlasfurdsExtIndex.pdf
 ##Produces a pdf map##
 
 #export map -o Output/GlasfurdsIndex.kml
@@ -48,10 +48,10 @@ symbol-set BCRA
 #debug station-names
 #debug on
 
-colour map-fg altitude
+#colour map-fg altitude
 #colour map-fg scrap 
 #colour map-fg [97 86 38] ##Pale Yellow##
-#colour map-fg [90 90 90] ## Light Grey##
+colour map-fg [90 90 90] ## Light Grey##
 #colour map-bg [90 90 90] ##Light Grey##
 
 
@@ -63,7 +63,7 @@ north grid
   #grid-coords all #border  ####Puts grid coords on intersections or at border if that is selected####
   
   rotate 90 ##Rotate map 90'
-  map-header 5 5 se
+  map-header 30 5 se
   #legend on
   transparency on
 
