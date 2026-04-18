@@ -1,0 +1,29 @@
+*BEGIN adamson-pot-dig-surface-survey
+
+*EXPORT stud-entrance lhphanger-entrance
+
+*date 2026.04.18
+*team "Becka Lawson" notes ;Sexytopo
+;*team Richard Bendall + James Carlisle ;Beckas Discovery / DiscoX 
+*units tape meters
+*units compass degrees
+*units clino degrees
+ 
+*data normal from to tape compass clino
+
+stud-entrance	lhphanger-entrance	0.88	114.2	+70.8 ; stud-entrance is Kevin Dixon GPS location stud, lhphanger-entrance is left hand phanger for open entrance pitch
+
+*flags surface
+stud-entrance	1	0.93	293.5	+29.6
+1	2	2.29	289.3	+21.5
+2	3	3.95	307.6	+10.7
+3	4	2.48	319.0	+15.7
+4	5	3.39	273.3	-16.5
+5	6	4.31	334.5	+00.4
+6	7	2.52	303.8	-12.9 ; stn 6 top of spoil heap
+
+*flags not surface
+7	8	3.55	260.5	-66.0  ; stn 7 scaff board at top of scaffold climb down
+8	9	1.66	256.1	-05.4  ; stn 8 bottom of dig and stn 9 end of dig (ahead)
+ 
+*END adamson-pot-dig-surface-survey

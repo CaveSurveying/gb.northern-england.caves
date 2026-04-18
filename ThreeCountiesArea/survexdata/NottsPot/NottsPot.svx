@@ -10,9 +10,9 @@
 *equate EntrancePhanger  NottsPot01.001
 *equate SumpTag          NottsPot02.022
 
-*include NottsPot01		; Becka - eventually replace this or ask Ray to drawn
+*include NottsPot01		; Replaced by NottsPot03
 *include NottsPot02 		; Becka - eventually replace this or ask Ray to drawn
-*include NottsPot03 		; Becka - resurvey of entrance - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and find out how connects to other surveys
+*include NottsPot03 		; Becka - resurvey of entrance by Dave & Richard - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and see if there is a Kevin Dixon stud to tie in to instead (just below)
 *include LeftHand1		;from hangers for pitch into Three Ways Chamber to Left Hand Route then to start of Twilight Route
 *include LeftHand2		;from start of Twilight Route down to tag where routes meet
 *include NorthInlet		;added 21/02/12 RGB
@@ -25,6 +25,7 @@
 *include AdamsonsRoute		;added by Becka 31/01/2015
 *include BTRoute2		;added by Becka 31/01/2015
 *INCLUDE SkyDancer
+*include adamson-pot-dig-surface-survey
 
 ;--------------------------------------------
 
@@ -46,5 +47,6 @@
 *equate BTRoute2.5x	BTRoute.5
 *equate BTRoute2.y	BTRoute.3
 *EQUATE SkyDancer.5 bottomacrobat.7
+*equate adamson-pot-dig-surface-survey.lhphanger-entrance NottsPot03.022
 
 *end	NottsPot
