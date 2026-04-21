@@ -5,7 +5,7 @@
 *include	peg01
 *include	peg02
 *include	peg03
-;*include	
+
 
 
 *equate	peg01.043	peg02.022

@@ -3,8 +3,8 @@
 *export Entrance cockaminecave1.1 
 *entrance Entrance
 
-*include cockaminecave1
-*include cockaminecave2
+*include CockamineCave1
+*include CockamineCave2
 *equate cockaminecave1.22 Entrance
 *equate cockaminecave1.36 cockaminecave2.1.0
 

@@ -23,9 +23,9 @@
 *include greatdouk9.svx
 *include greatdouk10.svx
 *include greatdouk11.svx
-*include greatdouk13.svx
-*include greatdouk12.svx
-*include greatdouk14.svx
+*include GreatDouk13.svx
+*include GreatDouk12.svx
+*include GreatDouk14.svx
 *include greatdoukpot.svx
 *include olddouk.svx
 *include GDtoGDP.svx
