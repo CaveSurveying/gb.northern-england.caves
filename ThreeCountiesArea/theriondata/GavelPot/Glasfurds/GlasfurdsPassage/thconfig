@@ -4,28 +4,9 @@ source GlasfurdsPassage.th
 export map -proj plan -layout local -o Output/GlasfurdsPassage.pdf
 ##Produces a pdf map##
 
-#export map -o Output/GlasfurdsPassage.kml
-##Produces a map of cave on Google Earth. Entrance needs GPS or map reference to work. See Footlegs Tutorial## 
-
-#export model -o Output/GlasfurdsPassage.kml
-##As above but produces a cave centerline on Google Earth##
-
-#export model -fmt survex -o Output/GlasfurdsPassage.3d
-##Produces a Survex 3d centerline##
-
-#export model  -o Output/GlasfurdsPassage.lox
-##Produces a 3d model viewed with Loch the Therion viewer##
-
-#export map -proj plan -o Output/GlasfurdsPassage_Walls.3d
-##Survex file showing walls only##
-
-
 ###################################################
 ####################layout Local###################
 ###################################################
-
-
-
 
 layout local
 base-scale 1 200
@@ -63,51 +44,5 @@ north grid
                                  
 #symbol-hide group cave-centreline
 
-#### Add Topo Date to map ####
-#-------------------------------------------
-
-#code tex-map
-#/topodate {25 October 2017}
-#endcode
-
-
- ####CODE TO PUT BORDER AROUND MAP####
-#------------------------------------------------------------
-
-#layout layoutMapBorder
-#code tex-map
-  #\framethickness=0.5mm
-#endlayout #LayoutMapBorder
-
-
-###############HEADER OVERIDES##############
-
-##Overide Therion Map Header Data###
-#-------------------------------------------------
-
-####This adds a second and third line of text in the map header.####
-#-------------------------------------------------------------------------------------
-
-##Change the cave details in the { } to what you want##
-
-code tex-map
-\cavename={Tom Taylors Cave\medskip \size[30] How Stean Gorge\medskip \size[30]North Yorkshire}  
-endcode
-
-
-####This adds a comment on the map####
-#-----------------------------------------------------
-
-#map-comment "How Stean Gorge"
-
-
-####Overide cave length and depth automatically shown on map header to remove surface leg data etc####
-#-----------------------------------------------------------------------------------------
-
-#code tex-map
-    #\topoteam{BSD}           ##Change team details in the { } to what you want##
-    #\cavelength{164m}      ##Change numbers in the { } to what you want##
-   #\cavedepth{12m}
-#endcode
 
 endlayout

@@ -38,16 +38,12 @@ join GlasfurdsSP1@Glasfurds GlasfurdsPassageSP1@GlasfurdsPassage
    
   GlasfurdsUpStreamExt1Plan@GlasfurdsUpStreamExt1
   GlasfurdsUpStreamExt2Plan@GlasfurdsUpStreamExt2
-  #GlasfurdsPlan@Glasfurds
-  #GlasfurdsLinkPlan@GlasfurdsLink
-  #break
-  #GlasfurdsPassagePlan@GlasfurdsPassage
-  #GavelDownStreamPlan@GavelDownStream
-  
-  
-  #NEShakeHoleIndexPlan@NEShakeHoleIndex
-  #break    
-  
+  GlasfurdsPlan@Glasfurds
+  GlasfurdsLinkPlan@GlasfurdsLink
+  break
+  GlasfurdsPassagePlan@GlasfurdsPassage
+  GavelDownStreamPlan@GavelDownStream
+   
   endmap
  
 ###############################################
@@ -69,10 +65,7 @@ join GlasfurdsSP1@Glasfurds GlasfurdsPassageSP1@GlasfurdsPassage
  equate 1.0@GlasfurdsUpStreamExt1 132.10@Glasfurds 
  equate 132.4@Glasfurds 1.7@GlasfurdsLink 
  equate 129.2@Glasfurds 1.0@GlasfurdsPassage
- equate 133.2@GavelDownStream 1.0@GlasfurdsLink
- 
- 
- 
+ equate 133.2@GavelDownStream 1.0@GlasfurdsLink 
 
 endsurvey
 

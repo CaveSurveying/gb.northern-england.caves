@@ -8,64 +8,11 @@ select GlasfurdsUpStreamExt2
 export map -proj plan -layout local -o Output/GlasfurdsUpStreamExt2.pdf
 ##Produces a pdf map##
 
-#export map -o Output/GlasfurdsUpStreamExt2.kml
-##Produces a map of cave on Google Earth. Entrance needs GPS or map reference to work. See Footlegs Tutorial## 
-
-#export model -o Output/GlasfurdsUpStreamExt2.kml
-##As above but produces a cave centerline on Google Earth##
-
-#export model -fmt survex -o Output/GlasfurdsUpStreamExt2.3d
-##Produces a Survex 3d centerline##
-
-#export model  -o Output/GlasfurdsUpStreamExt2.lox
-##Produces a 3d model viewed with Loch the Therion viewer##
-
-#export map -proj plan -o Output/GlasfurdsUpStreamExt2_Walls.3d
-##Survex file showing walls only##
-
-
-############################ IMPORTANT ########################################################
-############################### NOTE ##########################################################
-
-#### The above lines are directing your output files to a folder up one level to a folder called Output.
-#### Your files are then directed to a folder called "YourCaveName"Output within the folder named Output. This is where your files will be placed.
-
-#### For example -o, means output at the same level as this config file in a folder called Output, ../Output, means place the files (pdf etc) up one level into a folder called Output.
-
-#### The next part of the instruction, GlasfurdsUpStreamExt2Output, means move your files down a level into a folder called "YourCaveName"Output.
- 
-#### The next part GlasfurdsUpStreamExt2.pdf means that a file called "YourCaveName".pdf is created here.
-
-#### It Sounds complicated but it's not too bad when you try it. If you just use -o "YourCaveName".pdf then your pdf
-#### will be placed alongside the .th,.th2 and the thconfig files.
-                                   
-#### Also always name your individual survey Output folder ie "YourCaveName"Output and not just Output, it avoids confusion when you have multiple
-#### surveys in the same survey directory which is what happens when you create a bigger project.
-
-#### When the .top file is processed by TopParsa the lines above will automatically insert your survey name, it goes in the GlasfurdsUpStreamExt2 fields.
-
-#### You will have to first create the Output folders. The main one "Output" will be in your survey directory alongside your survey/s folders.
-#### The next one will be "yourCaveName"Output and this is created in the folder named Output. 
-
-#### So in effect your files are being directed by the thconfig up one level to a folder named Output and from there down one level 
-#### to a folder named "yourCaveName"Output. Simples! 
-
-
-#### Once you understand all of the above it can be deleted to streamline the thconfig. ########
- 
- 
-################################################################################################
-################################################################################################
-
 
 
 ###################################################
 ####################layout Local###################
 ###################################################
-
-#### Uncomment (#) to activate or deactivate layout comands as needed ###
-#### Any line with a # at the begining will be ignored.##################
-#### Below is a basic layout which will get you going. Try turning things on and off to see your pdf results change####
 
 
 layout local
@@ -104,51 +51,5 @@ north grid
                                  
 #symbol-hide group cave-centreline
 
-#### Add Topo Date to map ####
-#-------------------------------------------
-
-#code tex-map
-#/topodate {25 October 2017}
-#endcode
-
-
- ####CODE TO PUT BORDER AROUND MAP####
-#------------------------------------------------------------
-
-#layout layoutMapBorder
-#code tex-map
-  #\framethickness=0.5mm
-#endlayout #LayoutMapBorder
-
-
-###############HEADER OVERIDES##############
-
-##Overide Therion Map Header Data###
-#-------------------------------------------------
-
-####This adds a second and third line of text in the map header.####
-#-------------------------------------------------------------------------------------
-
-##Change the cave details in the { } to what you want##
-
-code tex-map
-\cavename={Tom Taylors Cave\medskip \size[30] How Stean Gorge\medskip \size[30]North Yorkshire}  
-endcode
-
-
-####This adds a comment on the map####
-#-----------------------------------------------------
-
-#map-comment "How Stean Gorge"
-
-
-####Overide cave length and depth automatically shown on map header to remove surface leg data etc####
-#-----------------------------------------------------------------------------------------
-
-#code tex-map
-    #\topoteam{BSD}           ##Change team details in the { } to what you want##
-    #\cavelength{164m}      ##Change numbers in the { } to what you want##
-   #\cavedepth{12m}
-#endcode
 
 endlayout

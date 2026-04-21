@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 142.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.67m (from 1.0@GavelDownStream at 0.00m to 1.23@GavelDownStream at -7.67m)\nnorth-south range: 35.38m (from 1.0@GavelDownStream at 0.00m to 135.2@GavelDownStream at -35.38m)\neast-west range: 59.41m (from 1.0@GavelDownStream at 0.00m to 1.23@GavelDownStream at -59.41m)\nnumber of shots: 350\nnumber of stations: 351"
+xth_cp_data_tree_insert 18 1 1 GavelDownStream GavelDownStream "" "" "length: 142.26m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.67m (from 1.0@GavelDownStream at 0.00m to 1.23@GavelDownStream at -7.67m)\nnorth-south range: 35.38m (from 1.0@GavelDownStream at 0.00m to 135.2@GavelDownStream at -35.38m)\neast-west range: 59.41m (from 1.0@GavelDownStream at 0.00m to 1.23@GavelDownStream at -59.41m)\nnumber of shots: 350\nnumber of stations: 351"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 111X1 p1 1 GavelDownStreamPlan GavelDownStreamPlan@GavelDownStream "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 142 5
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1776196781
+
