@@ -6,10 +6,12 @@
 *export SumpTag
 
 *ENTRANCE entrance
+*equate entrance		 EntranceArea.0 	;EntranceArea.0 is actually the Kevin Dixon GPS tag
 *equate entrance		 NottsPot01.001
 *equate EntrancePhanger  NottsPot01.001
 *equate SumpTag          NottsPot02.022
 
+*include EntranceArea	;added by simon 08/05/2026 resurvey of entrance area interconnecting passaages.
 *include NottsPot01		; Replaced by NottsPot03
 *include NottsPot02 		; Becka - eventually replace this or ask Ray to drawn
 *include NottsPot03 		; Becka - resurvey of entrance by Dave & Richard - replaces NottsPot01 - need to double-check the entrance location which is stn 022 hanger and see if there is a Kevin Dixon stud to tie in to instead (just below)
