@@ -1,0 +1,148 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -22.2 -226.8 219.4 -6.6
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {36.46 1 1.0} {-146.50 0} planetAvens-xx1.xvi 0 {}
+
+# 2026.05.09 created by TopoDroid v. 6.3.39
+
+scrap planetAvens-xx1 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  111.19 -112.75
+  109.12 -110.15 100.01 -106.63 96.75 -106.63
+  94.15 -106.63 89.60 -112.60 86.91 -114.05
+  85.06 -115.06 83.14 -116.09 81.21 -116.94
+  81.01 -117.03 77.78 -118.11 77.79 -118.28
+  77.86 -118.95 80.43 -120.43 80.99 -120.77
+  84.62 -122.87 88.20 -125.54 92.25 -126.82
+  97.25 -128.40 104.04 -126.27 109.23 -125.91
+  111.47 -125.76 118.81 -124.57 119.37 -121.69
+  120.29 -117.02 108.87 -115.27 109.39 -111.39
+endline
+
+
+line u:splay -visibility off
+  96.91 -117.16
+  99.31 -109.06
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  102.36 -134.51
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  116.37 -121.72
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  84.26 -106.52
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  114.74 -117.71
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  127.37 -118.23
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  145.58 -123.06
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  125.56 -125.59
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  112.13 -111.17
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  110.75 -116.06
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  116.19 -122.99
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  111.18 -118.20
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  92.52 -121.52
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  89.99 -118.90
+endline
+line u:splay -visibility off
+  96.91 -117.16
+  91.07 -107.28
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  75.52 -117.79
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  104.70 -108.44
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  97.95 -131.32
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  110.55 -115.86
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  65.84 -109.74
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  78.39 -113.21
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  84.28 -118.55
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  90.87 -119.82
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  89.76 -125.09
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  111.43 -122.80
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  114.78 -124.33
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  120.23 -120.06
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  111.25 -113.09
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  96.16 -104.65
+endline
+line u:splay -visibility off
+  100.37 -119.33
+  71.20 -81.96
+endline
+
+
+
+endscrap
+

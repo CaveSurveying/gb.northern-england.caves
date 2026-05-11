@@ -23,8 +23,9 @@ survey doubleFoxAven -title "Double Fox Aven<br><it>New Goyden"
    map m1s -projection extended
      doubleFoxAven-digs
    endmap
-   
-revise    doubleFoxAven-digs  -flip horizontal
+
+   ##Next revise turned off for the PlanElevationMaster.  If uncommented will need to fix extends and rope in th   
+#revise    doubleFoxAven-digs  -flip horizontal
 
 
   centerline
@@ -39,8 +40,8 @@ revise    doubleFoxAven-digs  -flip horizontal
     1 . 0.30 128.3 39.7
     1 . 0.28 239.7 -43.3
     1 . 0.17 231.2 73.0
-    #extend left
-    extend right
+    extend left
+    #extend right
     2 1 1.75 255.0 20.1
     # extend auto
     2 . 0.31 201.7 1.2
@@ -54,8 +55,8 @@ revise    doubleFoxAven-digs  -flip horizontal
     2 . 2.64 49.1 -4.2
     2 . 1.95 47.4 25.3
     2 . 1.73 41.4 42.2
-    #extend right
-    extend left
+    extend right
+    #extend left
     2 3 2.09 53.6 -18.5
     # extend auto
     4 . 0.92 210.0 -5.3
@@ -71,8 +72,8 @@ revise    doubleFoxAven-digs  -flip horizontal
     4 . 0.39 199.4 14.9
     extend vertical
     4 5 7.55 274.3 -84.5
-    #extend right
-    extend left
+    extend right
+    #extend left
     5 6 1.58 14.0 24.5
     # extend auto
     5 . 0.84 97.3 8.5
@@ -106,8 +107,8 @@ revise    doubleFoxAven-digs  -flip horizontal
     7 . 0.65 66.2 -27.9
     7 . 1.13 91.3 -62.4
     7 . 4.35 110.5 -78.6
-    #extend right
-    extend left
+    extend right
+    #extend left
   # 1_8 on plntarum
     8 1_8 1.98 68.5 7.2
     units left right up down meters

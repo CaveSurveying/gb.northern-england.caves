@@ -1,0 +1,25 @@
+encoding  utf-8
+
+input PlanHard.th
+input ../doubleFoxAven/doubleFoxAven.th
+input PlanHardEe.th2 
+
+#input ../doubleFoxAven/doubleFoxAven-digs.th2
+
+##EQUATES
+
+equate 1.8@PlanHard 1_8@doubleFoxAven
+
+
+##BUILD MAPS
+
+map PlanHardME
+  PlanHardSE1
+  break
+  #AstronomersElevation@astronomers
+  break
+  #m1s@doubleFoxAven
+  
+endmap
+
+

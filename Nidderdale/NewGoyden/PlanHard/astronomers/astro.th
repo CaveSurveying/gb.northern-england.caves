@@ -12,8 +12,15 @@ survey astro -title "Astronomer's<br><it>New Goyden,<br>Nidderdale"
    endmap
    
    map m1s -projection extended
+     aven1
+     break
      astros
    endmap
+   
+   map PlanetElevation -projection extended  ##used in Elevation profile
+     aven1
+   endmap
+   
 
   centerline
     date 2023.11.11 

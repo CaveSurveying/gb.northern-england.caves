@@ -1,0 +1,28 @@
+encoding  utf-8
+# 2026.05.09 created by TopoDroid v 6.3.39
+
+survey planetAvensElevation -title "Planetarium & Avens,<it><br>New Goyden, Nidderdale"
+
+   input "planetAvens.th"
+   input "../../doubleFoxAven/doubleFoxAven.th"  
+  input ../astronomers/astronomers.th #2024 Astronomer's Resurvey & avens
+
+  
+   map m1s -projection extended
+   PlanetE@astronomers
+   break     
+    m1s@planetAvens
+    break
+    m1s@astron.astronomers 
+    m1s@doubleFoxAven
+
+   endmap
+
+equate 1_8@doubleFoxAven 1.8@planetAvens
+equate a5@astro.astronomers A5@planetAvens
+equate 6@astron.astronomers 7E@planetAvens
+
+
+
+endsurvey
+

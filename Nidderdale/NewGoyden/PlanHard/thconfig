@@ -9,7 +9,7 @@ source PlanHard.th
 export map -proj plan -layout local -o PlanHard.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o PlanHardEe.pdf
+export map -proj extended -layout local -o PlanHardEe.pdf
 
 #export model -fmt survex -o PlanHardth.3d
 #Survex file showing centre line only
@@ -24,14 +24,16 @@ export map -proj plan -layout local -o PlanHard.pdf
 #export map -o PlanHard.kml
 
 layout local
-scale 1 500
-base-scale 1 200
+#scale 1 500
+#base-scale 1 200
 symbol-set BCRA
 #debug on
 #color map-fg scrap
 color map-fg altitude
+color-legend off
 symbol-colour area water [25 50 100]
 symbol-colour area sump [10 10 100]
 map-header 0 0 ne
 #symbol-hide group cave-centreline
+legend off
 endlayout

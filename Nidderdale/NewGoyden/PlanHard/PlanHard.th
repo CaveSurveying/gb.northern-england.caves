@@ -2,6 +2,7 @@ encoding  utf-8
 
 input PlanHardP.th2
 input astronomers/astronomers.th #2024 Astronomer's Resurvey & avens
+
  
 #input PlanHardEe.th2
 #input PlanHardE90.th2
@@ -11,8 +12,8 @@ join astrop@astro.astronomers PlanHardSP3
 
 
 map PlanHardPlan -title "PlanHard Plan"
-  #m1p@astronomers #2024 Astronmers
-  #PlanHardSP7 #Old Astronomers
+  #m1p@astronomers  #2024 Astronomers
+  #PlanHardSP7      #Old Astronomers
   break
   PlanHardSP1
   PlanHardSP3
@@ -28,6 +29,8 @@ endmap
 
 #map PlanHardME
   #PlanHardSE1
+  #AstronomersElevation@astronomers
+  #m1s@doubleFoxAven
 #endmap
 
 #map PlanHardE90 -proj [elevation 90]
