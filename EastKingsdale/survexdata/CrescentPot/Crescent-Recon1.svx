@@ -10,7 +10,7 @@
 *begin Crescent-Recon1
 ;*DATE 1974.04.01
 *DATE 2024.04.1 				;this is to compensate for the plan used for reconstruction being drawn to grid north
-;*CALIBRATE compass -0.23		;this is to compensate for the plan used for reconstruction being drawn to grid north
+*CALIBRATE compass -0.23		;this is to compensate for the plan used for reconstruction being drawn to grid north
 
 *EXPORT path8.33 path9.40 
 
