@@ -12,7 +12,9 @@
 *DATE 2024.04.1 				;this is to compensate for the plan used for reconstruction being drawn to grid north
 *CALIBRATE compass -0.23		;this is to compensate for the plan used for reconstruction being drawn to grid north
 
-*EXPORT path8.33 path9.40 
+*EXPORT path8.33 path9.40
+
+*entrance path9.40
 
 *equate path3.0 path8.45 ; separation 0.092 m
 *equate path3.35 path5.0 ; separation 0.182 m
