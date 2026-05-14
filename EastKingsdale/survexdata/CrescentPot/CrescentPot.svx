@@ -8,6 +8,11 @@
 
 ;All Crescent Pot files
 
+*cs OSGB:SD
+*cs out EPSG:27700
+*DECLINATION auto 70545 76594 393
+
+
 *fix GPS 70545 76594 393 ;to peaty "step" near top of shakehole, just above steps - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
 
 *ENTRANCE 	Entrance
@@ -20,11 +25,14 @@
 *include crescent_3
 *include crescent_4
 *include crescent_5
+*INCLUDE Crescent-Recon1.svx
 
 *equate crescent_1.14	crescent_2.1
 *equate crescent_3.10x	crescent_2.10
 *equate crescent_3.8	crescent_2.2-1
 *equate crescent_3.8	crescent_4.8x
 *equate crescent_4.25	crescent_5.25x
+*EQUATE crescent_5.26	Crescent-Recon1.path8.33
+;*EQUATE Entrance		Crescent-Recon1.path9.40
 
 *end CrescentPot

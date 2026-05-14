@@ -1,6 +1,6 @@
 *begin crescent_5
 
-*export 25x
+*export 25x 26
 
 *title "East Kingsdale - Crescent Pot - from head of 7th pitch down to low flat area in crawl about halfway to step"
 *date 2017.11.18
