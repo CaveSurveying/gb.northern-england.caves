@@ -10,8 +10,7 @@
 
 *cs OSGB:SD
 *cs out EPSG:27700
-*DECLINATION auto 70545 76594 393
-
+*DECLINATION AUTO 70545 76594 393
 
 *fix GPS 70545 76594 393 ;to peaty "step" near top of shakehole, just above steps - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
 
