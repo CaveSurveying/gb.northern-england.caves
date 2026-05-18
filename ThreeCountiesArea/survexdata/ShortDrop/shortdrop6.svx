@@ -1,5 +1,6 @@
 *begin shortdrop6
-*export cowtag cowtag2 cowtag3
+
+*export cowtag cowtag2 cowtag3 64x 29x 25x
 
 *title "Repeat last legs of shortdrop5 to check data then continue to yellow RRCPC cowtag at junction to ancient highway"
 *date 2015.09.12

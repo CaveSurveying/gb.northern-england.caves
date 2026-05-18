@@ -2,11 +2,11 @@
 ; Cave:	Short Drop Cave
 ; Rift Entrance
 
-*begin RiftEntrance
+*begin riftentrance
 
 *export 1
 
-*title "RiftEntrance"
+*title "Rift Entrance to Short Drop"
 *date 2012.02.23
 *team "Richard Bendall" Insts
 *team "Richard Bendall" insts ; disto
@@ -59,7 +59,7 @@
 
 *data passage station left right up down ignoreall
 
-1	1.0	1.0	1.3	1.3	;Tag at Junction to Rift Entrance = ShortDrop2.9
+1	1.0	1.0	1.3	1.3	;Tag at Junction to Rift Entrance = shortdrop2.9 = shortdrop9.tag2
 2	0.3	0.0	1.0	0.8
 3	0.1	0.2	1.4	0.8
 4	0.2	0.1	1.3	1.0
@@ -93,6 +93,6 @@
 30	0.0	0.4	1.0	0.8
 31	0.0	1.0	0.1	0.1
 
-*end RiftEntrance
+*end riftentrance
 
 

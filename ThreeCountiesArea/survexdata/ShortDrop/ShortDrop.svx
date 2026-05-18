@@ -8,9 +8,8 @@
 *equate shortdrop1.1 FencePost
 
 *include shortdrop1  ; Becka, Ruth, Dave
-*include shortdrop2  ; Jess and Andy C
 *include shortdrop3  ; Dave Ramsay on tape
-*include RiftEntrance  ; Richard, Dave
+*include riftentrance  ; Richard, Dave
 *include shortdrop4canalinlet  ; Becka, Richard towards Coal Hole
 *include shortdrop5  ; Becka, Paul Whybro
 *include shortdrop6  ; Becka, Julia, repeat some of sd5 then down to junction with Ancient Highway
@@ -19,27 +18,40 @@
 *include shortdrop9  ; Becka, Emma, Philip
 *include shortdrop10  ; Becka, Andrew, complete Ancient Highway
 
-*equate shortdrop1.20 shortdrop2.19
-*equate shortdrop2.1 shortdrop3.001
-*equate RiftEntrance.1	ShortDrop2.9
+*equate shortdrop9.19 shortdrop3.001
+*equate riftentrance.1	shortdrop9.tag2
 *equate shortdrop1.4 shortdrop4canalinlet.1x
 
 *equate shortdrop3.025 shortdrop5.25x
-;*equate shortdrop3.014 shortdrop5.tag1
+*equate shortdrop3.014 shortdrop5.tag1
 *equate shortdrop3.015 shortdrop5.15x
-;*equate shortdrop3.016 shortdrop5.16x
+*equate shortdrop3.016 shortdrop5.16x
 
-*equate shortdrop5.tag2 shortdrop6.cowtag2
-*equate shortdrop6.cowtag3 shortdrop7.cowtag3
+; shortdrop 5 and 6 don't match very well but lots of common stations and there's a loop closure
+; so have just tied the two together, doesn't seem worth repeating a 3rd time to triple check compass
+*equate shortdrop5.tag2 shortdrop6.cowtag2 ; tag6
+*equate shortdrop5.64 shortdrop6.64x ; numbered stn
+*equate shortdrop5.29 shortdrop6.29x ; numbered stn
+*equate shortdrop3.025 shortdrop6.25x ; numbered stn
+*equate shortdrop3.014 shortdrop6.cowtag ; tag
 
-;*equate shortdrop8.tag shortdrop3.001
+*equate shortdrop6.cowtag3 shortdrop7.cowtag3 ; connect far end, where Ancient Highway drops back in
+
+*equate shortdrop8.tag shortdrop3.001
 *equate shortdrop8.tag17 shortdrop1.17
 *equate shortdrop8.tag17 shortdrop9.tag
 
 *equate shortdrop10.41X shortdrop7.41
 *equate shortdrop10.67X shortdrop8.67
 
-; NEED TO DECIDE HOW TO RECONCILE COMPASS FOR SHORTDROP 5 AND 6 - CHECK DECLINATION DIFFERENCE DUE TO DATE DISCREPANCY BUT UNLIKELY TO FIX MUCH; COULD JUST FORCE MAIN PASSAGE TO ROTATE ... BUT THEN NEED TO ROTATE SIDE PASSAGES BY THE SAME AMOUNT
-; USE SHORTDROP9 TO FIND ERROR IN UPPER LOOP THEN REMOVE DUPLICATES
+; DRECONCILED SHORTDROP 5 AND 6 BY EQUATING AT TAGS AND NUMBERED STATIONS; bu
+; the compass for the two are quite out of alignment. It could be worth checking a few legs down the 2 side passages
+; however they look similar to the ULSA survey so maybe ignore
+
+; USED SHORTDROP9 TO FIND ERROR IN UPPER LOOP (SHORTDROP 2 SEEMS TO BE THE PROBLEM SO REMOVED IT) THEN MARKED DUPLICATE LEGS IN SHORT DROP 9
+; *include shortdrop2  ; Jess and Andy C - something horribly wrong with this data - misreadings?! Comment out
+;*equate shortdrop1.20 shortdrop2.19
+;*equate shortdrop2.1 shortdrop3.001
+;*equate riftentrance.1	shortdrop2.9
 
 *end ShortDrop

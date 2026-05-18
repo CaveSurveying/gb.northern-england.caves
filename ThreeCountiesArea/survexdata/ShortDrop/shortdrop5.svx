@@ -1,5 +1,6 @@
 *begin shortdrop5
-*export 15x 16x 25x tag1 tag2
+
+*export 15x 16x 25x tag1 tag2 64 29
 
 *title "Entrance of Short Drop upstream (Canal Inlet) towards Coal Hole to junction"
 *date 2014.11.30
@@ -12,6 +13,7 @@
 
 ;from	to	tape	compass	clino	remarks
 
+*flags duplicate
 25x	1	1.76	167	+15
 1	2	2.77	106	-05
 2	3	3.39	015	+16
@@ -20,6 +22,8 @@
 5	6	2.34	100	+04
 6	16x	2.80	039	+05
 16x	tag1	6.41	100	+07
+
+*flags not duplicate
 tag1	15x	3.13	053	0
 15x	7	3.37	142	+18
 7	8	2.94	132	+08
@@ -49,6 +53,8 @@ tag1	15x	3.13	053	0
 29	30	3.78	359	-13
 30	31	4.98	279	-05	; could possibly be 4.18 but looks more like 4.98, drawn as 4m
 31	tag2	7.93	305	+06
+
+*flags not duplicate
 tag2	32	2.73	273	+38
 32	33	7.67	250	+01
 33	34	4.91	171	+02
@@ -69,6 +75,7 @@ tag2	32	2.73	273	+38
 47	48	2.91	187	+02
 48	49	6.27	135	0
 
+*flags duplicate
 tag2	50	14.46	345.5	-04
 50	51	5.88	326	-01
 51	52	4.95	335.5	+05.5
