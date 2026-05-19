@@ -14,8 +14,11 @@
 ; *fix	FencePost 67030	78934	346
 ; *declination auto 67030	78934	346
 ; *begin
-; *date 1970.07.25
-; FencePost Declination_test 1 8.5 0
+; *date 1974.07.25
+; FencePost Declination_test 1 8.5 0  ; This leg should show up due north as declination around -8.5 in 1970
+; **** if you change the date from 2017 to 2010 and the compass from 8.5 to 
+; **** Declination in this area was -8.5 in 1974, -7.7 in 1979, -2.4 in 2013 and -1.6 in 2017
+; **** Survex reports auto declination correction in the log file for each date used so you can check
 ; *end
 
 *include shortdrop1  ; Becka, Ruth, Dave
