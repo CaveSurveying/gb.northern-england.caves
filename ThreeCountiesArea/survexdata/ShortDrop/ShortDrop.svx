@@ -1,11 +1,22 @@
 *begin ShortDrop
 
-;*fix	FencePost 67030	78934	346
-
-*export shortdrop4canalinlet.14
-
-*export FencePost 
+*export shortdrop4canalinlet.14 FencePost
+ 
 *equate shortdrop1.1 FencePost
+
+; **** BELOW USED TO TEST THAT *DECLINATION AUTO WORKING CORRECTLY IN TUNNEL
+; **** IT DOES WORK (IE THE IMPORTED SURVEX FILE IS IDENTICAL TO THE SURVEX FILE OUTPUT)
+; **** HOWEVER, OBVIOUSLY THE *FIX AND *DECLINATION NEED TO BE CALCULATED SO FOR THE
+; **** FINAL TUNNEL DRAWING USE LECKFELL (WHERE THESE ARE INCLUDED) THEN COMPONENT + DELETE
+; **** TO GET A TRUE NORTH SURVEX FILE AND THEN BRING IN ALL YOUR INDIVIDUAL DRAWINGS TO THIS
+; *cs OSGB:SD
+; *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
+; *fix	FencePost 67030	78934	346
+; *declination auto 67030	78934	346
+; *begin
+; *date 1970.07.25
+; FencePost Declination_test 1 8.5 0
+; *end
 
 *include shortdrop1  ; Becka, Ruth, Dave
 *include shortdrop3  ; Dave Ramsay on tape
