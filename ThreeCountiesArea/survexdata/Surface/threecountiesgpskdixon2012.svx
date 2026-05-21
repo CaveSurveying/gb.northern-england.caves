@@ -4,8 +4,6 @@
 ; Instruments:	Leica Geosystems SR530 GPS, KD Suunto Prism Compass, Suunto Clino, Disto A3 and Disto D2
 ; SVX File:	Created 25 April 2012 by K.Dixon, updated 23 August 2012
 
-
-
 ; Geodetic L1/L2 GPS post-processed using APPS at Jet Propulsion Laboratory, California to determine ITRF2008 Datum co-ords
 ; ITRF2008 co-ordinates determined for five OS GPS regional stations AMBE, BLAP, GIGG, LEED, RICM using same method
 ; 7 parameter transformation determined from ITRF2008 to ETRS89 for above five OS stations and applied to new 3C stations
@@ -16,7 +14,7 @@
 
 ; OSGB36 co-ordinates are for the OS 100km square SD 
 
-*begin	3cgps
+*begin threecountiesgpskdixon2012.svx ; old name was 3cgps, BL updated to match the meaningful filename
 
 *date 2012.04.01
 
@@ -155,4 +153,4 @@
 3C16	035	1.095	-	UP	;3C16 is s/s bolt+washer in bedrock, washer stamped IREBY FELL CAVERN 3C16
 035	036	10.489	254.0	-31.0	;035 is base of GPS antenna, 036 is RRCPC tag hole in rock at right end of scaffold bar at entrance
 
-*end	3cgps
+*end threecountiesgpskdixon2012.svx

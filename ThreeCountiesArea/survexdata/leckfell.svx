@@ -9,11 +9,10 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 ;*include Surface/OLD_LFGPS
 *include Surface/leckfellsurfacesurvey
 *include Surface/shortdroprumblingcoalholebyronsurface
-*include Surface/threecountiesgpskdixon2012     ; note this is 3cgps survex file that most entrances use
+*include Surface/threecountiesgpskdixon2012    ; these are the brass studs with accurate GPS data
 *INCLUDE Surface/Yeadon_Pipikin_Surface_Survey
 *INCLUDE Surface/LambTrap-to-WeePot
 *INCLUDE Surface/MoholeToPilgrimPot
@@ -23,34 +22,32 @@
 
 ;; You can comment out second/third entrance equates to see what the surface closure is like
 *include NottsII/NottsII
-*EQUATE 3cgps.010			leckfellsurfacesurvey.NottsIIEntrance	;Attaching Notts2 to Kevin Dixon GPS bolt
+*EQUATE threecountiesgpskdixon2012.010			leckfellsurfacesurvey.NottsIIEntrance	;Attaching Notts2 to Kevin Dixon GPS bolt
 *equate NottsII.Entrance    leckfellsurfacesurvey.NottsIIEntrance
 *equate NottsII.inlet7.Inlet7-14.001 leckfellsurfacesurvey.VoldemortEntranceSWcorner
 *equate NottsII.CountLazloALL.TheCupcake.008 leckfellsurfacesurvey.CupcakeEntranceSWcorner
 
 *include LostJohns/LostJohns
-*equate LostJohns.EntranceTag 		3cgps.004
+*equate LostJohns.EntranceTag 		threecountiesgpskdixon2012.004
 *equate LostJohns.EntranceTag       leckfellsurfacesurvey.LostJohnsEntranceTag
 *equate LostJohns.BoxheadSurfaceRim leckfellsurfacesurvey.BoxHeadEntranceTube
 *equate LostJohns.notts2nearconnection.1-0 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50
 *equate LostJohns.ljmainstreamway1.74x DeathsHeadHole.DeathsHead_3LJSump.74
+;*fix	BAD_LostJohnsBoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
+;*entrance BAD_LostJohnsBoxheadSurfaceRim
 
 *include RoughPot/RoughPot
 *equate RoughPot.LostJohnsEntranceTag leckfellsurfacesurvey.LostJohnsEntranceTag
-
-;*fix	BAD_LostJohnsBoxheadSurfaceRim	67110.19 78353.90 362.70   ;ev.ss19.022a  ;st015 is surface rim
-;*entrance BAD_LostJohnsBoxheadSurfaceRim
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; North of NottsII area
 
 *include ShortDrop/ShortDrop
-;*equate ShortDrop.FencePost  leckfellsurfacesurvey.
 *equate	ShortDrop.FencePost shortdroprumblingcoalholebyronsurface.0
 
 *include LongDrop/LongDrop
-;*equate LongDrop.StylePost	leckfellsurfacesurvey.LongDropStylePost
 *equate	LongDrop.StylePost shortdroprumblingcoalholebyronsurface.16
+;*equate LongDrop.StylePost	leckfellsurfacesurvey.LongDropStylePost
 
 *include BigMeanie/BigMeanie
 *equate BigMeanie.BigMeanieDeathsHeadSurface.8 DeathsHeadHole.DeathsHead_1.FencePostTag
@@ -63,12 +60,12 @@
 *equate	BumblingHole.Entrance	leckfellsurfacesurvey.BumblingHoleEntrance
 
 *include CoalHole/CoalHole
-;*equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
 *equate	CoalHole.029 ShortDrop.shortdrop4canalinlet.14
 *equate	CoalHole.EntranceLoc shortdroprumblingcoalholebyronsurface.7
+;*equate	CoalHole.EntranceLoc leckfellsurfacesurvey.CoalHoleEntrance
 
 *include DeathsHeadHole/DeathsHeadHole
-*EQUATE leckfellsurfacesurvey.DeathsHeadHoleFencePostTag	3cgps.001	;Attaching Deaths Head to Kevin Dixon GPS bolt
+*equate leckfellsurfacesurvey.DeathsHeadHoleFencePostTag	threecountiesgpskdixon2012.001	;Attaching Deaths Head to Kevin Dixon GPS bolt
 *equate	leckfellsurfacesurvey.DeathsHeadHoleFencePostTag	DeathsHeadHole.DeathsHead_1.FencePostTag	
 
 *include EyeHoles/Eyeholes
@@ -76,11 +73,11 @@
 
 *include GavelPot/GavelPot
 *equate	GavelPot.GavelPotFencePost	leckfellsurfacesurvey.GavelPotFencePost
-*EQUATE GavelPot.GavelPotFencePost 	3cgps.039	;Attaching Gavel Pot to Kevin Dixon GPS bolt
+*equate GavelPot.GavelPotFencePost 	threecountiesgpskdixon2012.039	;Attaching Gavel Pot to Kevin Dixon GPS bolt
 
 *include RumblingHole/RumblingHole
-; *equate	RumblingHole.RumblingBeckTopEntrance leckfellsurfacesurvey.RumblingBeckTopEntrance
 *equate	RumblingHole.RumblingSurface.1 shortdroprumblingcoalholebyronsurface.10
+; *equate	RumblingHole.RumblingBeckTopEntrance leckfellsurfacesurvey.RumblingBeckTopEntrance
 
 *include ByronPot/Byron
 *equate	Byron.14x shortdroprumblingcoalholebyronsurface.14
@@ -102,19 +99,19 @@
 *EQUATE PotBlack.0  Yeadon_Pipikin_Surface_Survey.RedRoseDig
 
 *INCLUDE TipTop/TipTop
+
 *INCLUDE Earwigo/Earwigo
 *INCLUDE HorseFlyHole/HorseFlyHole
 *INCLUDE Surface/Earwigo2HorseflyHole
 *EQUATE  Earwigo2HorseflyHole.1  Earwigo.entrance
 *EQUATE  Earwigo2HorseflyHole.12 HorseFlyHole.entrance
 
-
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ; South of NottsII area
 
 *include NottsPot/NottsPot
 *equate NottsPot.EntrancePhanger leckfellsurfacesurvey.NottsPotEntrancePhanger
-*equate NottsPot.EntrancePhanger 3cgps.033	
+*equate NottsPot.EntrancePhanger threecountiesgpskdixon2012.033	
 
 *include PerilousPot/PerilousPot 
 *include Surface/NottsPot_to_ShepPot
@@ -126,10 +123,10 @@
 
 *equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0	;<<<< Connecting PerilousPot entrance to surface survey >>>>
 *equate NottsPot_to_ShepPot.2.0 PerilousPot.PerilousPot2.1.0
-*equate NottsPot_to_ShepPot.3.0 3cgps.3c15  			;<<<< This connects ShepPot to PerilousPot surface survey to the NottsPot GPS Tag >>>>
+*equate NottsPot_to_ShepPot.3.0 threecountiesgpskdixon2012.3c15  			;<<<< This connects ShepPot to PerilousPot surface survey to the NottsPot GPS Tag >>>>
 *equate NottsPot_to_ShepPot.2.9 Shep_Pot.getdownshep1.getdownshep1_6.20  	;<<<<Linking GetDownShep entrance to Perilous surface survey >>>>
 
-*equate PinocchioPot_Surface.1.23	3cgps.3c15
+*equate PinocchioPot_Surface.1.23	threecountiesgpskdixon2012.3c15
 *equate PinocchioPot_Surface.1.2 PinocchioPot.a0 
 *equate PinocchioPot_Surface.1.2 Pinocchio-to-Hopeless.0
 *equate Pinocchio-to-Hopeless.8  HopelessPot.HopelessEntranceSeries.0        ;HopelessPot.HopelessPot.0
@@ -142,7 +139,7 @@
 
 *include Ireby/Ireby
 *equate Ireby.EntranceTag   leckfellsurfacesurvey.IrebyEntranceTag
-*EQUATE Ireby.EntranceTag 	3cgps.036		;Attaching Ireby Fell to Kevin Dixon GPS bolt
+*EQUATE Ireby.EntranceTag 	threecountiesgpskdixon2012.036		;Attaching Ireby Fell to Kevin Dixon GPS bolt
 
 *include KangoHole/KangoHole  
 
@@ -154,17 +151,19 @@
 
 *include RiftPot/RiftPot
 *equate RiftPot.EntranceTag leckfellsurfacesurvey.RiftPotEntranceTag
-
 *equate RiftPot.SoutheastInletConnection Ireby.SoutheastInletConnection
-
 *equate RiftPot.Rift-LowDoukConnection LowDouk.LowDouk-RiftConnection
 
 *include LargePot/LargePot
 *equate LargePot.EntranceTag leckfellsurfacesurvey.LargePotTag
+LargePot.EntranceTag threecountiesgpskdixon2012.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag which seemed to be missing in 2013; threecountiesgpskdixon2012.028 is Kevin Dixon's 3C13 survey bolt, s/s bolt+washer in bedrock in Large Pot entrance, washer stamped LARGE POT 3C13; this leg connects the RRCPC tag with the Kevin Dixon bolt in order to tie in the 2013 surface survey from Large to North End Pot
 
-LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag which seemed to be missing in 2013; 3cgps.028 is Kevin Dixon's 3C13 survey bolt, s/s bolt+washer in bedrock in Large Pot entrance, washer stamped LARGE POT 3C13; this leg connects the RRCPC tag with the Kevin Dixon bolt in order to tie in the 2013 surface survey from Large to North End Pot
+*INCLUDE NorthEndPot/NorthEndPot
+*INCLUDE NorthNorthEndPot/NNEPot
+*EQUATE NNEPot.NEShakeHole2.116.2 NorthEndPot.1-2		;Connecting Northend Pot and North North End pot surveys
+*EQUATE NNEPot.LleanBean2.1.5	LargePot.Large20.3		;connectes NNEPot to Largepot at the bottom of Llean Bean aven
 *include Surface/largetonorthendpotsurface  
-*EQUATE 3cgps.028 largetonorthendpotsurface.KevinDixonGPSBolt	;Attaching largetonorthendpotsurface to Kevin Dixon Largepot GPS bolt
+*EQUATE threecountiesgpskdixon2012.028 largetonorthendpotsurface.KevinDixonGPSBolt	;Attaching largetonorthendpotsurface to Kevin Dixon Largepot GPS bolt
 
 *equate RiftPot.RiftTowardsMousehole.23 LargePot.Large15.23x
 
@@ -172,9 +171,13 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 *equate LittlePot.EntranceTag leckfellsurfacesurvey.LargePotTag
 
 *include Mohole/Mohole
-*EQUATE Mohole.Wall 3cgps.031	;Attaching Mohole to Kevin Dixon GPS bolt
+*EQUATE Mohole.Wall threecountiesgpskdixon2012.031	;Attaching Mohole to Kevin Dixon GPS bolt
 
-*include ForgetMePot/ForgetMePot
+*INCLUDE PilgrimPot/PilgrimPot
+*INCLUDE BleaDubsPot/BleaDubsPot
+*EQUATE	MoholeToPilgrimPot.6	threecountiesgpskdixon2012.031
+*EQUATE	MoholeToPilgrimPot.15	PilgrimPot.entrance	
+*EQUATE	MoholeToPilgrimPot.1	BleaDubsPot.entrance
 
 *INCLUDE BrollyPot/BrollyPot
 *equate Mohole.Wall BrollyPot.1
@@ -183,18 +186,8 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 *INCLUDE BrokenRibPot/BrokenRibPot
 *EQUATE BrokenRibPot.entrance BrokenRibCave.4-0
 
-*INCLUDE NorthEndPot/NorthEndPot
-*INCLUDE NorthNorthEndPot/NNEPot
-
-*EQUATE NNEPot.NEShakeHole2.116.2 NorthEndPot.1-2		;Connecting Northend Pot and North North End pot surveys
-*EQUATE NNEPot.LleanBean2.1.5	LargePot.Large20.3		;connectes NNEPot to Largepot at the bottom of Llean Bean aven
-
-*EQUATE	MoholeToPilgrimPot.6	3cgps.031
-*EQUATE	MoholeToPilgrimPot.15	PilgrimPot.entrance	
-*EQUATE	MoholeToPilgrimPot.1	BleaDubsPot.entrance
+*include ForgetMePot/ForgetMePot
 *INCLUDE SkylarkPot/SkylarkPot
-*INCLUDE PilgrimPot/PilgrimPot
-*INCLUDE BleaDubsPot/BleaDubsPot
 *INCLUDE KalePot/KalePot
 *INCLUDE CheesePressStoneDig/CheesePressStoneDig
 *INCLUDE RapunzelPot1/RapunzelPot1
@@ -209,7 +202,7 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 
 *include WitchesCaveII/WitchesII 
 ;*fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
-*EQUATE WitchesII.WitchesII-2.001	3cgps.009	;Kevin Dixon GPS
+*EQUATE WitchesII.WitchesII-2.001	threecountiesgpskdixon2012.009	;Kevin Dixon GPS
 
 *include WitchesCave/WitchesCave
 *fix WitchesCave.wit.001 66029.79 80004.53 214.77 
@@ -224,8 +217,6 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 
 *include KirkPot/KirkPot
 
-
-
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>
 ;It is intended that these *FIXes will be moved into the relevant folder when the cave is surveyed
@@ -235,7 +226,6 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 
 *FIX AluminiumBar_Pot REFERENCE 66350 79550 311
 *ENTRANCE AluminiumBar_Pot
-
 
 *FIX DeadDobbin_Pot REFERENCE 66440 78070 294
 *ENTRANCE DeadDobbin_Pot
@@ -273,7 +263,6 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<<Marble Steps Area Entrances>>>>
-
 
 *FIX CreakingDeath_Pot REFERENCE 68890 76480 393
 *ENTRANCE CreakingDeath_Pot
@@ -323,8 +312,7 @@ LargePot.EntranceTag 3cgps.028	1.08	-	DOWN	; LargePot.EntranceTag is RRCPC tag w
 
 *end leckfell
 
-; old superceded surveys
+; old superceded equates and surface surveys
 ; *equate LostJohns.lylecavernbruno.7 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50; superceded
 ; *equate LostJohns.lylecaverndig2.7 NottsII.CountLazloALL.LostJohnsConnection.1  ; to delete
-; *include NorthEndPot/NorthEndPot
 ; *equate NorthEndPot.1 largetonorthendpotsurface.1-18 	; needs fixing with proper survey, this just a made-up survey

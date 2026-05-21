@@ -1,11 +1,8 @@
 ;Add these lines to leckfell.svx
 ;*include Surface/PinocchioPot_Surface
-;*equate PinocchioPot_Surface.1.23	3cgps.3c15
+;*equate PinocchioPot_Surface.1.23	threecountiesgpskdixon2012.3c15 
 ;*FIX SurfaceAboveFrink 			67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
 ;*Equate SurfaceAboveFrink doit
-
-
-
 
 *BEGIN PinocchioPot_Surface
 
@@ -16,8 +13,7 @@
 ;commented out by Simon Cornhill 2019.04.27 as it is superseded by *declination auto in leckfell.svx
 ;*CALIBRATE declination 1.78   ;Calculated mag decl from http://www.ngdc.noaa.gov/geomag-web/#declination
 								; 54.190808°N,2.501691°W   2017.04.15
-								
-
+							
 *BEGIN 1
 ;di pda Si distox2 
 
@@ -55,7 +51,6 @@
 22	23	 3.77	118.49	-39.74
 
 *flags not surface
-
 
 *END 1
 
