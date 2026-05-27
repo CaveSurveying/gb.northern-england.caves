@@ -24,15 +24,26 @@
 *include crescent_3
 *include crescent_4
 *include crescent_5
-*INCLUDE Crescent-Recon1   ; this is reconstructed centreline for Preston 1974-1979 survey taking their "Grid North" arrow at face value
-*INCLUDE Crescent-Recon1-AddSomeDegreesCW ; this is reconstructed centreline for Preston 1974-1979 survey but assuming they
-; mistakenly subtracted (rather than added) the approx -8 degree declination for their survey when they drew up their plan
+*include crescent24may-above4thpitch.svx
+*include crescent24may-ent-to-digchamber
 
 *equate crescent_1.14	crescent_2.1
 *equate crescent_3.10x	crescent_2.10
 *equate crescent_3.8	crescent_2.2-1
 *equate crescent_3.8	crescent_4.8x
 *equate crescent_4.25	crescent_5.25x
+;*equate crescent_2.12	crescent24may-above4thpitch.1
+;*equate crescent_2.2-34	crescent24may-above4thpitch.6
+;*equate crescent_2.2-15	crescent24may-above4thpitch.28
+*equate crescent_2.2-6	crescent24may-above4thpitch.41
+;*equate crescent_1.2 crescent24may-ent-to-digchamber.3
+*equate crescent_1.11 crescent24may-ent-to-digchamber.19
+
+; comment these lines out this once resurvey complete
+*flags duplicate
+*INCLUDE Crescent-Recon1   ; this is reconstructed centreline for Preston 1974-1979 survey taking their "Grid North" arrow at face value
+*INCLUDE Crescent-Recon1-AddSomeDegreesCW ; this is reconstructed centreline for Preston 1974-1979 survey but assuming they
+; mistakenly subtracted (rather than added) the approx -8 degree declination for their survey when they drew up their plan
 ;*EQUATE crescent_5.26	Crescent-Recon1.path8.33
 *EQUATE Entrance		Crescent-Recon1.path9.40
 *EQUATE Entrance		Crescent-Recon1-AddSomeDegreesCW.path9.40

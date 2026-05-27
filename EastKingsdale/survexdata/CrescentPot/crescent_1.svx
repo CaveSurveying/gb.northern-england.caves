@@ -1,6 +1,6 @@
 *begin crescent_1
 
-*export gps 2 14 15
+*export gps 2 11 14 15
 
 *title "East Kingsdale - Crescent Pot - from entrance GPS through to bottom of stone stairs (old 3rd pitch) at start of low crawl"
 *date 2013.09.07
@@ -28,8 +28,8 @@ gps	2	5.79	336	-33	; notes say 1 to 2 but wrong
 8	9	9.89	292	-70
 9	10	1.15	081	-64
 10	11	3.82	029	-50
-12	11	12.36	114	+53
-13	12	3.05	318.5	+74
+12	11	12.36	194	+53 ; BECKA ALTERED THIS 2026 - raw notes not scanned (Illusion notes incorrectly uploaded) but maybe 114 compass should be 194
+13	12	3.05	318.5	+74 
 14	13	3.21	195	+48.5
 15	14	1.76	158	+68	
 

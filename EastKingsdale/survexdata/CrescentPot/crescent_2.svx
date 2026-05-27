@@ -1,6 +1,6 @@
 *begin crescent_2
 
-*export 1 10 2-1
+*export 1 10 12 2-1 2-6 2-15 2-34
 
 *title "East Kingsdale - Crescent Pot - from bottom of stone stairs (old 3rd pitch) to final inlet junction just before 4th pitch"
 *date 2013.10.05
@@ -46,7 +46,9 @@
 2-13	2-14	4.51	122	+02
 
 2-14	2-15	4.58	125	+11
-2-15	2-16	6.93	116	-31
+2-15	2-16	6.93	116	-3 ; Becka May 2026 - originally this entered as -31 but having resurveyed this
+; leg it looked suspicious and very close inspection of original (paper) notes suggests the 1 of the +11 of
+; the previous 2-14	2-15leg's clino reading had slipped down so it looked like -31 but should have been -3
 2-16	2-17	1.52	183	+10
 2-17	2-18	4.16	122	+02
 2-18	2-19	1.50	166	-15
