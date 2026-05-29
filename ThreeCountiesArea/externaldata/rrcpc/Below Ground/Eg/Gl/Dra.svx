@@ -1,0 +1,25 @@
+;Cave:		Dragon Hole
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		17/05/09
+;Instruments:	Disto + MKO
+
+*begin	Dra
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+*fix 001 67756.18 80751.30 326.30 ;sf2a.010a tag Dragon hole
+
+002	001	00.87	189.0	-15.0	;st001=tag
+002	003	03.10	182.0	-44.0	;st003 is head height standing in sump pool
+003	004	01.52	233.0	-44.0	;st004 is left wall at sump level
+
+003	005	01.67	046.0	+40.0	;st005 is arrete on left wall
+005	006	01.86	075.0	-12.0	;st006 is junction
+
+006	007	02.40	198.0	-16.0	;st007 is too tight end of right hand passage
+
+006	008	02.24	340.0	-08.0	;st008 is too tight end of left hand passage
+
+*end	Dra

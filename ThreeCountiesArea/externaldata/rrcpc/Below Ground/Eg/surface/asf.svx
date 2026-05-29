@@ -1,0 +1,31 @@
+;all surface features/roads/streams/shakeholes etc
+
+*begin	asf
+
+*include	Gil1
+*include	Gil1a
+*include	Gil1b
+*include	Gil2
+*include	Gil2a ;used to find small caves on upper EG
+*include	Gil3
+*include	Gil4
+*include	Gil5
+*include	Gil6
+*include	Gil7
+*include	Gil8
+*include	Gil8a
+*include	Rd1
+*include	Pth1
+*include	Pth2
+*include	Pth3
+*include	Bpf01
+*include	Shake1
+*include	Shake2
+*include	Shake3
+*include	Mapleshk
+*include	Strsnk1
+*include	Strsnk2
+*include	Strsnk3
+*include	mb35
+
+*end	asf

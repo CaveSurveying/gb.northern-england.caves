@@ -1,0 +1,8 @@
+;Every Large Pot file
+
+*begin	Lp1
+
+*include	Lp01
+
+
+*end	Lp1

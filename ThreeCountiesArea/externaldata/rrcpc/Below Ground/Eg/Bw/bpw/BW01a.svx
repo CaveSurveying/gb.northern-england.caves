@@ -1,0 +1,28 @@
+;Cave:		Bull Pot of the Witches - base of chimney to foot of Robert's Inlet
+;Surveyors:	R.Duffy
+;Date:		09/07/08
+;Instruments:	MKO + disto
+
+*equate	BW01a.013 BW02a.003 ;st003=tag at Robert's Inlet
+*equate	BW01a.001 BW00a.012 ;st001=tag opp. foot of chimney
+
+*begin	BW01a
+
+*calibrate compass	0.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+002	001	04.72	180.0	-12.0	;st001=tag opposite foot of chimney, thread at head height
+002	003	07.52	000.0	-24.0
+004	003	04.02	178.0	+04.0
+004	005	12.50	014.0	-23.0
+006	005	04.08	141.0	+22.0	;st006 is small spike on tree across passage
+007	006	10.36	181.0	+23.0
+008	007	06.95	177.0	+18.0
+008	009	00.75	 -	DOWN	;st009 is top of boulder before dry oxbow
+010	009	06.79	172.0	+03.0
+010	011	03.50	 -	DOWN	;st011 is floor level in lower pass. from oxbow
+011	012	01.55	 -	UP	;st012 is head height at left edge at foot of oxbow
+012	013	03.64	346.0	+08.0	;st013=tag in flow opposite oxbow near Robert's Inlet
+
+*end	BW01a

@@ -1,0 +1,24 @@
+;CAve: Penyghent pot , Kaboom aven
+;Surveyors: Pete Hall (book), Ben Young
+;Date: 15/5/99
+;compass:Silva 129766 clino: silva 517168 both from kit1
+;Tape from kit1 was 10m short but readings in this file are all corrected
+1 0 5 138 30		;0=top of final choke, furthest point. Good draught,hanging death
+1 2 3.9 40 -12		;1=base of final choke
+2a 2 2.2 354 -24
+2a 2b 4 0 90		;2b=tight rift going up
+2 3 5.5 15 -40		;slope down to head of pitch. 3=bolt
+3 4 9.2 0 -90		;Kaboom aven
+4 5 4.8 155 -40		;5=low arch into aven
+6 5 3.4 263 -6
+6 7 4.2 70 -13		;7=main stream corner start of Kaboom oxbow. Deep pool
+a1 a0 4 43 0		;A0=upstream dig. a1=previous abandoned dig over top
+a1 a2 8.3 183 -7	;A2=start of climbs down. draughting dig goes in opposite direction
+a2 a3 1.6 0 -90		;
+a3 a4 7.5 332 -28	;tight squeeze
+a4 a5 3.3 0 -90
+a5 a6 5.2 335 -21 
+a6 a7 5.9 0 -90
+a7 a8 8.3 331 -41
+a8 a9 4.1 0 -90
+a9 6 5.7 11 -2 

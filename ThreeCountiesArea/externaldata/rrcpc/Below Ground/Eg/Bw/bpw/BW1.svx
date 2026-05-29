@@ -1,0 +1,18 @@
+;every New Bull Pot Of The Witches file
+
+*begin	BW1
+
+*include	BW00a
+*include	BW01a
+*include	BW02a
+*include	BW03a
+*include	BW04a
+*include	BW10a
+*include	BW11a
+*include	BW12a
+*include	BW13a
+*include	BW14a
+
+*include	tt01
+
+*end	BW1

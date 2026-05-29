@@ -1,0 +1,9 @@
+;Every Marble Steps file
+
+*begin	Mas1
+
+*include	Mas01
+*include	Mas02
+*include	Mas03
+
+*end	Mas1

@@ -1,0 +1,28 @@
+;Cave:	Crumbles part only
+;Surveyors:	Cave Surveying Group
+;Date:	02/10/99
+;Instruments:	CUCC1 (tape missing 22cm)
+
+*begin	cr
+
+*calibrate compass	+5.00
+
+*fix 001 66614.73 80315.00 270.52 	;sf6.010a
+
+001	002	00.85	122.0	-26.0	;st001=tag at ent.
+003	002	01.79	073.0	+63.0	
+003	004	03.51	216.0	-20.0
+005	004	04.01	028.0	-23.0
+;005	005a	05.02			;width of chamber
+005	006	03.29	245.0	+25.0
+006	006a	04.25	010.0	+01.0	;tag right hand side at top of Black Rabbit Chimney
+
+006a	006b	05.00	 -	DOWN	;made up leg for pitch depth (not surveyed)
+
+007	006	03.67	089.0	-02.0
+007	007a	04.03	279.0	-01.0
+007a	007b	08.22	000.0	+06.0
+007	008	04.46	176.0	+06.0
+008	008a	04.22	176.0	 00.0	;continues low and wet
+
+*end	cr

@@ -1,0 +1,36 @@
+;2002.07.22 RAR added exports and comments
+;2002.07.22 RAR Changed name to Inlet 5 Survey 2 from Notts2
+
+*Equate I5/2.052 CJ.052
+
+*begin I5/2
+*export I5/2
+*title "Inlet 5 survey 2"
+      
+*team Insts Allan Richardson
+*team Notes Allan Richardson
+*team Tape Andy Walsh 
+*date 2002.07.12
+*instrument Suunto Compass 810726 (RAR)
+*instrument Suunto Clinometer726973 (RAR)
+*instrument 30m Fibron Tape (RRCPC)
+;Calibration :
+;
+;
+; ====== stations refindable to link to other surveys: ======
+
+*calibrate compass +2.5
+
+;From  to  Tape Compass Clino 
+52	53	1.1	349	19
+53	54	8.6	301	-1.5
+54	55	8.4	25	-3
+55	56	4.8	39	-17
+56	57	6.7	67	-4.5
+57	58	3.6	323	-9
+58	59	3.95	64	-9.5
+59	60	2.08	21	-9
+60	61	6.4	38	-7
+61	62	6.9	80	-3
+*endI5/2
+

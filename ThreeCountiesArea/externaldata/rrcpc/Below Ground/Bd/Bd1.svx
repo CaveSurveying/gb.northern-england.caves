@@ -1,0 +1,13 @@
+;Every Barbondale file
+
+*begin	Bd1
+
+*include	bmc
+;*include	
+;*include	
+;*include	
+;*include	
+;*include	
+;*include	
+
+*end	Bd1

@@ -1,0 +1,31 @@
+;Cave:	Aygill-Middle Series
+;Surveyors:	JAK/H.St.Lawrence
+;Date:	31/01/98pm
+;Instruments:	kit?
+
+*equate	ay16.001	ay13.008
+*equate	ay16.008	ay17.001
+*equate	ay16.013	ay17a.012
+
+*begin	ay16
+
+;*fix	
+
+*calibrate compass	+5.17
+
+;start to	dist.	compass	clino	;comments
+
+001	002	01.65	304.0	-01.0	;st.001=small stal point
+002	003	02.15	268.0	 00.0
+003	004	03.60	235.0	+08.5
+004	005	01.90	192.0	-10.0
+005	006	03.40	248.0	+08.0
+006	007	01.80	236.0	-14.0
+007	008	01.70	213.0	+03.0	;st.008 is junction
+008	009	04.00	230.0	+04.0
+009	010	04.60	189.0	+04.0
+010	011	03.15	142.0	+28.0
+011	012	04.20	250.0	+10.0
+012	013	06.30	228.0	-09.0
+
+*end	ay16

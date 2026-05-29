@@ -1,0 +1,25 @@
+;Cave:	Five Ways Pot - Dowlass Moss
+;Surveyors:	Pete Hall/Pete O'Niel
+;Date:	??/12/98
+;Instruments:	Kit1????
+
+*equate	fw2.000	fw1.C
+
+*begin	fw2
+
+*calibrate compass	+5.00
+
+000	001	03.60	194.0	-36.0	;st000=entrance to Main Cave
+001	002	04.30	355.0	-22.0
+002	003	02.70	072.0	-26.0
+003	004	09.00	 -	DOWN
+004	004a	04.40	130.0	+56.0
+004a	004b	03.30	202.0	+39.0
+004b	004c	02.50	 -	UP
+004c	004d	06.00	249.0	+24.0
+004	005	09.90	351.0	-36.0
+005	006	05.20	351.0	-66.0
+006	007	02.30	006.0	-38.0
+007	008	04.40	115.0	-27.0	;st008=sump
+
+*end	fw2

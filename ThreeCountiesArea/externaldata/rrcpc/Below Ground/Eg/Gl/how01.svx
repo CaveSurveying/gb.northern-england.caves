@@ -1,0 +1,27 @@
+;Cave:		Howgill Sink - dig so far
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		24/04/08
+;Instruments:	MKO + disto
+
+;*equate how01.001 sf5.002f ;st002f=tag above Jim's dig
+
+*begin	how01
+
+*calibrate compass	+1.00
+*calibrate clino	+0.50
+*calibrate tape	 	 0.00
+
+*fix 003 67216.30 80434.87 292.50 ;gl1.how01.003
+
+002	002a	05.04	255.0	-53.0	;st002a is bottom of dig above Howgill Sink
+002	001	01.75	258.0	-17.0	;st001=tag above Jim's dig
+002	003	07.68	334.0	-22.0	;st003 is head height standing over drop at entrance
+003	004	04.00	 -	DOWN	;st004 is top of large flat cobble at foot of ent. climb
+005	004	01.26	019.0	-21.0
+005	006	04.00	152.0	-15.0	;st006 is floor level in rift
+
+005	005a	03.35	246.0	-63.0	;st005a is floor of too low bedding in dug pit
+
+005	005z	03.59	134.0	+23.0	;st005z is in roof of boulder above rift
+
+*end	how01

@@ -1,0 +1,16 @@
+;cave:	Wretched Rabbit mud inlet off upper level route
+;date:	Wr4	???1989
+
+*equate	wr4.001	wr6.007
+
+*begin	wr4
+
+*calibrate compass	+6.17
+
+001	002	04.50	180.0	 00.0	;Mud Inlet
+002	003	06.10	225.0	-03.0	;4m aven
+003	004	05.20	262.0	-03.0
+004	005	02.10	256.0	 00.0
+005	006	03.40	180.0	 00.0	;continues low and wet
+
+*end	wr4

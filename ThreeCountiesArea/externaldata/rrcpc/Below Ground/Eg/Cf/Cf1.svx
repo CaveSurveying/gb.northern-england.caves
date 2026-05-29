@@ -1,0 +1,7 @@
+;every Chocolate factory file
+
+*begin	Cf1
+
+*include	cf
+
+*end	Cf1

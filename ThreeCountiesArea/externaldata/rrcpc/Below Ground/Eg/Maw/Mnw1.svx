@@ -1,0 +1,11 @@
+;Contains all Mancunian Way-Nice Way files
+
+*begin	Mnw1
+
+*include	maw1
+*include	maw2
+;;*include	maw3
+*include	maw4
+*include	maw5
+
+*end	Mnw1

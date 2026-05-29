@@ -1,0 +1,9 @@
+;Every New Rift file
+
+*begin	Nr1
+
+;;;;*include	Nr01	;not needed as Nr02 is real survey
+*include	Nr02
+*include	Nr03
+
+*end	Nr1

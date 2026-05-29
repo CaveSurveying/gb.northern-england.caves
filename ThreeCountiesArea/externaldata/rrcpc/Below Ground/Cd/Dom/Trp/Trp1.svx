@@ -1,0 +1,44 @@
+;Cave:	Trapdoor Pot-(Dowlass Moss)entraance fix from book
+;Surveyors:	Dave Foxton/P.Swire/P.Hall
+;Date:	03/10/99
+;Instruments:	2
+
+*equate	Trp1.014	Trp2.012
+
+*begin	Trp1
+
+*calibrate compass	+5.50
+
+*fix 001 72720.00 72720.00 433.00 ;from GPS
+
+;001	00A	15.40	084.0	+35.0
+;001	00B	07.40	024.0	+31.0
+;00B	00C	03.00	024.0	-33.0	;st00C is bottom of double shakehole
+;001	00D	07.80	350.0	+34.0
+;001	00E	11.70	165.0	+28.0	;previous measurements in shakehole ABDE at moor level
+
+
+001	002	02.50	 -	DOWN	;st001=tag
+002	003	01.70	085.0	-22.0
+003	003a	01.30	138.0	 00.0
+003	00J	03.90	 -	DOWN
+003a	00K	06.15	 -	DOWN
+002	004	04.30	 -	DOWN	;st004 base of pit
+004	005	02.05	285.0	 00.0
+005	00N	03.10	008.0	 00.0	;st00N is bottom of rift
+005	006	03.55	 -	DOWN	;from st005-006 is down dig
+006	007	02.10	240.0	-33.0	;st007 is by window
+007	00P	01.55	180.0	 00.0	;st00P is inlet too tight
+007	008	01.50	265.0	 00.0	;st008 is rift top
+008	009	02.40	003.0	 00.0
+009	010	04.00	 -	DOWN
+010	011	06.30	358.0	 00.0	;st011 is pitch head goes up 8m
+011	011a	08.00	 -	UP
+011	012	14.40	 -	DOWN
+012	013	03.80	003.0	-01.0
+
+013	013a	05.00	316.0	 00.0
+
+013	014	05.50	 -	 DOWN
+
+*end	Trp1

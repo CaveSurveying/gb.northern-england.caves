@@ -1,0 +1,12 @@
+;Other areas file
+
+*begin	Ot1
+
+*include	Gg01
+;*include	
+;*include	
+;*include	
+;*include	
+;*include	
+
+*end	Ot1

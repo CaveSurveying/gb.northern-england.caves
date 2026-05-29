@@ -1,0 +1,21 @@
+;Cave:	Low Dowk
+;Surveyors:	mg1.038b
+;Date:	
+;Instruments:	
+
+;*equate	
+
+*begin	Ld01
+
+;*calibrate compass	+
+
+*fix	001	68004.61 77068.98 384.46 ;ev.mg1.038b
+
+001	002	05.00	 -	DOWN	;made up leg
+;002	003	
+;003	004	
+;004	005	
+;005	006	
+;006	007	
+
+*end	Ld01

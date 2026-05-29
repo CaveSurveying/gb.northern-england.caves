@@ -1,0 +1,23 @@
+;cave:	Wretched Rabbit high level route over big rift
+;date:	Wr3	????1989
+;surveyors:	A.Hall????
+
+;*equate	wr3.0	wr7.004
+*equate wr3.0 wra.007
+
+*begin	wr3
+
+*calibrate compass	+6.17
+
+Z4	Z5	03.00	239.0	+18.0	;junction
+
+Z4	Z4A	00.50	-	UP
+Z4A	Z4B	02.50	281.0	-03.0	;awkward crawl continues to the 3m pitch
+
+Z3	Z4	04.10	154.0	+20.0
+Z2	Z3	01.90	061.0	+15.0
+Z1	Z2	02.20	188.0	-02.0
+Z	Z1	01.30	105.0	-22.0	;wretch.006=head of 4m pitch
+0	Z	04.20	-	DOWN	;wretch.007 is in Big Rift(4m pitch above 2nd climb down)
+
+*end	wr3

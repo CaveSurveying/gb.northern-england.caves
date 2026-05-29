@@ -1,0 +1,23 @@
+;Cave:	Gelder Hole
+;Surveyors:	R.Duffy/S.Lieberman/A.Hall
+;Date:	20/11/05
+;Instruments:	PAG + disto
+
+;*equate	geh.001	bat.000	
+
+*begin	Geh
+
+*calibrate compass	+4.00
+*calibrate clino	+1.00
+
+*fix	001	67569.12 80593.01 314.19	;ev.sf3.014a
+
+002	001	01.86	318.0	-05.0	;tag to start of drop
+003	002	02.93	046.0	+42.0
+003	004	01.30	 -	DOWN	;st004 is floor level looking down streamway
+005	004	03.13	098.0	+01.0
+006	005	01.83	047.0	+03.0
+006	007	01.43	347.0	 00.0
+007	008	04.50	305.0	-03.0	;wide wet bedding plane needs digging
+
+*end	Geh

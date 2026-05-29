@@ -1,0 +1,35 @@
+;Cave:	Bilberry Pot
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	04/04/02
+;Instruments:	PAG
+
+*begin	bil
+
+;*calibrate compass	+5.00
+
+*fix 002 74365.00 76110.00 372.00 ;GPS
+
+;001	002	77.50	073.0	-04.0	;st001 is top of left-most stile post facing Ingleborough
+
+;*calibrate compass	+3.00	;leg surveyed 12/09/02
+
+;002	002a	46.55	215.0	+09.0	;st002a is head height at Molephone Base 300
+
+*calibrate compass	+5.00
+
+;001	002	10.00	000.0	00.0
+;002	002a	10.00	090.0	00.0
+002	003	05.20	 -	DOWN	;from head height at lip of craglet into hole entrance
+
+003	004	02.10	027.0	-35.0	;003 to 005 down steep rift
+004	005	02.60	002.0	-16.0
+
+005	005a	02.20	050.0	 00.0	;into wall of aven
+
+005	006	01.65	 -	DOWN	;down to tube crawl level
+006	007	05.10	358.0	-05.0
+007	008	01.35	327.0	+12.0
+008	009	01.50	057.0	+04.0
+009	010	2	007	0	;made up leg on bearing 007.0	
+
+*end	bil

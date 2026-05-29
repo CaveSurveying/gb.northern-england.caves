@@ -1,0 +1,30 @@
+;Cave:	Aygill Caverns-Waterfall Series
+;Surveyors:	H.St.L/Mark Savage
+;Date:	30/05/97eve
+;Instruments:	Red Rose Sunto Compass & Clino, 30m tape
+
+*equate	ay12.001	ay08.006l
+
+*begin	ay12
+
+*calibrate compass	+5.17
+
+
+001	002	01.40	178.0	+10.0
+002	002a	03.10	 -	UP
+002a	002b	01.75	051.0	+04.0
+002b	002c	05.20	177.0	 00.0
+002c	002d	01.20	234.0	+03.0
+002d	022d	03.10	087.0	-11.0
+022d	023d	03.50	035.0	 00.0	;choke
+002d	002e	05.40	254.0	+08.0
+002e	002f	06.00	217.0	+08.0
+002f	002g	04.45	275.0	+32.0
+002g	002h	02.55	208.0	+28.0
+002	003	03.40	267.0	 00.0	;passage on left between 002&003
+003	004	02.15	283.0	-09.0
+004	005	01.55	185.0	+19.0
+005	006	05.95	201.0	+25.0
+006	007	03.00	232.0	-12.0	;choke on left, sump on right
+
+*end	ay12

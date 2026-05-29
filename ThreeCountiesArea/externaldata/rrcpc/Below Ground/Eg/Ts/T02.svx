@@ -1,0 +1,107 @@
+;This file brings together all CRG extension surveys
+;Date started:	T02	22-07-96
+;By Ray Duffy
+;Survey Name:	Top sink CRG extension
+;Survey Date:	02/09/95
+;Survey Notebook:
+;Surveyors:	R.Duffy &D.Edland
+
+*equate	T02.048	T01bii.100b
+;*EQUATE	T02.052	md1.167a
+*EQUATE	T02.104	T05a.010
+
+*BEGIN	T02
+
+*CALIBRATE COMPASS	+5.13
+
+001	002	07.50	312.0	-21.0	;CRG001=start of shingled sloping bedding
+002	003	04.10	311.0	-22.0	;start of streamway
+003	004	02.30	272.0	-16.0
+004	005	02.10	327.0	 00.0
+005	006	02.30	250.0	-35.0
+006	007	01.00	 -	DOWN
+007	008	03.20	350.0	-39.0
+008	009	04.00	304.0	-33.0
+009	010	03.20	342.0	-19.0	;passage below CRG010 continues
+010	011	07.20	013.0	+18.0
+011	011a	04.70	118	+06.0	;011a is entrance to bedding in dripping boulder choke
+011	012	03.90	258.0	-05.0	;011 is cairn in middle of chamber on boulder
+
+;20-04-97 surveyors P.Grant/R.Duffy
+*calibrate compass	+5.13
+
+011	101	04.65	186.0	-20.5
+101	102	06.40	279.0	-06.0
+102	103	01.10	155.5	-11.0	;st103 is spike above cairn
+103	104	01.25	 -	DOWN	;st104 is cairn on true left ledge
+
+
+*CALIBRATE COMPASS	+5.39
+
+012	013	06.60	260.0	-03.0
+013	014	01.50	 -	DOWN
+014	015	08.20	316.0	-13.0
+015	016	03.90	275.0	-04.0
+016	017	01.50	095.0	+45.0	;Bolt mark at top of a pitch (CRG34????)	
+
+;CHECK DATE????
+*CALIBRATE COMPASS	+5.39
+
+017	018	02.10	135.0	+76.0	;surveyors AP AH DE JC RD
+018	019	01.20	 -	UP
+019	020	03.40	288.0	-05.0
+020	021	08.80	322.0	-05.0
+021	022	06.10	302.0	-30.0	;cobweb chamber route goes off here???
+
+;Cave:	CRG	en-route to Cobweb Chamber
+;Surveyors:	Ray Duffy	Rick Scott
+;Date:	T7	12/10/96 afternoon
+;Instruments:	Red Rose Silva Compass & Clino,Mel Wilkinson 30m tape
+
+;*calibrate compass	+5.26
+
+;201	202	07.30	276.0	-34.0	;small chamber beyond dangerous crawl poss. way on in floor
+;202	203	02.00	253.5	-20.0
+;203	204	01.00	 -	UP
+;204	205	06.80	201.7	-10.0
+;205a	205	06.60	252.0	-45.5	;205a is up in roof at right end of chamber after climbing up boulder slope back over ;chamber is way on to COBWEB CHAMBER???
+;205	206	04.30	268.0	+01.5	;st 206 is Top of Boulder slope
+;206	207	01.80	276.0	-44.0
+;207	208	04.80	180.0	-54.0	;008 is boulder in middle of chamber
+;208	022	03.35	072.0	+15.0	;009 is left wall head height facing upstream at corner
+
+*CALIBRATE COMPASS	+5.85
+
+022	023	04.20	250.0	+01.0	
+023	024	06.00	298.0	 00.0	;small boulderstewn chamber
+024	025	05.70	278.0	-15.0
+025	026	06.20	246.0	+04.0
+026	027	01.30	 -	UP
+027	028	07.60	255	-05.0
+028	029	08.60	322.0	-10.0
+029	030	03.90	282.0	-09.0
+030	031	03.30	315.0	-04.0
+031	032	03.60	262.0	-40.0
+032	033	05.50	240.0	+05.0
+033	034	07.00	310.0	 00.0
+034	035	03.40	355.0	+01.0
+035	036	04.30	343.0	-02.0
+036	037	03.40	251.0	+40.0
+037	038	05.20	350.0	-30.0
+038	039	05.30	283.0	+09.0
+039	040	02.70	201.0	+21.0
+040	041	03.50	290.0	-25.0
+041	042	04.50	 -	UP
+042	043	02.80	340.0	+12.0
+043	044	05.10	298.0	-41.0
+044	045	04.40	186.0	-22.0
+045	046	03.90	246.0	-06.0
+046	047	03.80	322.0	-25.0
+047	048	02.20	270.0	+10.0	;CRG048 is pointed boulder
+
+;048	049	02.40	194.0	-37.0
+;049	050	11.50	248.0	-13.0
+;050	051	03.10	181.0	-14.0
+;051	052	02.60	125.0	-16.0	;CRG052=UP107 Limerick Junction
+
+*END	T02

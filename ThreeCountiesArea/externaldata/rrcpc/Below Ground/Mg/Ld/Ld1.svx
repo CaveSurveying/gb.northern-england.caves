@@ -1,0 +1,7 @@
+;Every Low Dowk file
+
+*begin	Ld1
+
+*include	Ld01
+
+*end	Ld1

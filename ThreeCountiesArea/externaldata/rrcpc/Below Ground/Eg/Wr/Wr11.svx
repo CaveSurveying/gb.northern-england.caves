@@ -1,0 +1,21 @@
+;Cave:	Wretched Rabbit
+;Surveyors:	Ray Duffy/M.Savage/Julie Marshall
+;Date:	20/06/98
+;Instruments:	kit 2
+
+*equate	wr11.008	wr.053	
+
+*begin	wr11
+
+*calibrate compass	+5.00
+
+
+001	002	03.90	007.0	-07.0	;choke is 3m at about 30deg from st.001:aven on left at 1.9m
+002	003	01.20	 -	DOWN	;drop over boulder
+003	004	03.70	352.0	-32.0	;st004 is knob of rock in cross passage
+004	005	06.50	085.0	-06.0	;st005 is x on wall behind flake in main inlet passage, with water coming from boulders on right
+005	006	04.20	318.0	-25.0	;downstream toward Wretched Rabbit main passage
+006	007	02.80	298.0	-24.0
+007	008	02.00	199.0	-20.0	;st008 is bolt hole in wretched above awkward climbs
+
+*end	wr11

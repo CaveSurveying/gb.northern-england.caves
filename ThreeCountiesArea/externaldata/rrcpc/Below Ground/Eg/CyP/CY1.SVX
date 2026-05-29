@@ -1,0 +1,80 @@
+;Survey Name:Broadway south to Platypus Jcn inc.Toadstool Jcn
+;Survey Date:	21-2-82
+;Survey Notebook:	EG1 p.45
+;Surveyors:	FA&JM
+
+*equate cy1.17  cy.023
+;;*equate cy1.61  cy2.17
+;;*equate	cy1.50	cy4.001
+;;*equate	cy1.56	cy4.015
+;*equate	cy1.56	cy14.001	;not needed at all
+;*equate	cy1.53	cy14.007	;not needed at all
+
+*begin  cy1
+
+*calibrate compass	+7.17
+
+1	2	6.6	29	-10	
+2	3	4.7	294	0	
+3	4	4	-	DOWN	
+4	5	9.1	318	-35	
+5	6	3.5	63	-5	
+6	7	2.2	-	DOWN	
+7	8	4.6	86	-14	
+8	9	7.3	11	-10	
+9	10	5.2	36	4	
+10	11	5.5	25	3	
+11	12	6.6	2	-4	
+12	13	4	-	DOWN	
+13	14	30.2	351	-5
+14	15	9.5	353	-5
+15	16	10.2	343	-5
+16	17	10.9	315	-7	;cy1_Plat17=Co_PJ.21 Point on wall opposite climb down in Broadway.
+;17	18	7.2	310	-7
+;18	19	3.8	301	-23	;cy1_Plat.18=UP40 Broadway
+;19	20	6.2	294	-5
+;20	21	4.6	323	-12
+;21	22	1.5	266	0
+;22	23	3.9	307	-10
+;23	23f	4.5	356	0
+;23	24	2.8	251	-11
+;24	25	2.4	297	-10
+;25	26	2.3	324	-8
+;26	27	3	279	-6
+;27	28	3.4	258	-4
+;28	29	3.7	203	-10
+;29	30	2.7	282	0
+;30	31	1.6	345	0
+;31	32	3	-	DOWN
+;32	33	2.8	46	0
+;33	34	2.5	290	-3
+;34	35	2.5	32	0
+;35	36	4.2	291	3
+;36	37	6.1	7	-12
+;37	38	4.6	295	-10
+;38	39	3.2	242	-30	;cy1_Plat.39=UP38 Toadstool Jcn
+;39	40	5.1	309	-10	;cy1_Plat.40=Ent. to Pincer Chamber
+;40	41	2.5	273	-7
+;41	42	5.6	287	-32
+;42	43	3.1	349	-10
+;43	44	3.7	48	0
+;44	45	4.9	151	4
+;45	46	5.9	17	0	;cy1_Plat.45=UP41 Razor Passage D/sfrom Toad-stool.1st roof oxbow, hole above stream
+;46	47	2.5	17	-10
+;47	48	3.2	-	DOWN
+;48	49	5.3	310	-6
+;49	50	4.5	337	-7
+;50	50e	6	40	0	;cy1_Plat.50=UP42 Razor pass.ent.to 2nd break-down Chamber
+;50	51	5.7	349	-17
+;51	52	2.8	324	-30
+;52	53	4	329	-10
+;53	54	2.6	10	-40	 ;cy1_Plat.53=UP43 Point at which streamway splits Razor Pass.
+;54	55	5.6	329	-4
+;55	56	6.6	322	-12	;cy1_Plat.56=UP44 Point at which streamway rejoins.Razor Passage
+;56	57	7	342	-10
+;57	58	5	340	-5
+;58	59	2.8	25	-7
+;59	60	5.2	321	-10
+;60	61	6.8	283	-2  	;cy1_Plat61=PJ_Plat17/UP9 Platypus at Platypus Jcn.
+
+*END cy1

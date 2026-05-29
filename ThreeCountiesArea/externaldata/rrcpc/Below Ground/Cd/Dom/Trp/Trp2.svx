@@ -1,0 +1,24 @@
+;Cave:	Trapdoor Pot-Continuation
+;Surveyors:	Carmel Ramwell/Dave Ramsey
+;Date:	27/11/99
+;Instruments:	3
+
+*equate	Trp2.012	Trp1.014
+
+*begin	Trp2
+
+*calibrate compass	+6.00
+
+001	002	02.80	282.0	+05.0	;st001 is bolt hole in corner where blasting
+002	003	02.50	308.0	+18.0
+003	004	12.60	 -	UP
+004	005	06.10	284.0	+04.0
+005	006	01.20	339.0	 00.0
+006	007	02.45	038.0	+40.0
+007	008	02.40	336.0	+40.0
+008	009	05.05	 -	UP
+009	010	02.90	275.0	+67.0
+010	011	04.00	 -	UP	;010 to 011 is boulder choke
+011	012	00.90	090.0	+50.0	;st012=014 on Trp1
+
+*end	Trp2

@@ -1,0 +1,43 @@
+;Cave:	Ireby fell - Glory Holes (part 2)
+;Surveyors:	J.Baker/D.Ramsay/Brian Ward
+;Date:	26/05/04
+;Instruments:	4
+
+*equate If09.001 If08.005 ;junction of continuation/Cripple Creek/route to Pussy
+
+*begin	If09
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+8.96
+
+001	002	21.20	170.0	-01.0	;st001=st005 on If08 survey, left-hand branch at junction
+002	003	17.10	125.0	-01.0
+003	004	15.60	159.0	+00.5
+004	005	22.10	109.0	-02.0	;st005 is junction
+
+;following left branch to pit and trench
+005	005a	16.70	071.0	+03.0
+005a	005b	12.00	 -	DOWN	;st005b is directly above trench
+005b	005c	10.96	098.0	 00.0	;st005c is calcite blockage
+005b	005d	10.00	071.0	 00.0	;estimate to blockage left
+
+;back to main passage
+005	006	18.40	161.0	+10.0
+006	007	11.66	176.0	-19.0	;trench 1 from st005 rejoins on right
+007	008	19.09	120.0	-01.0
+008	009	16.00	169.0	-01.0
+009	010	16.38	105.0	+03.0	;2nd junction dig to L stream to right
+
+010	010a	13.45	075.0	+09.0	;small passage to left ends in clay dig no draught
+
+010	011	12.84	153.0	+04.0
+011	012	11.07	212.0	-02.0
+012	013	10.66	203.0	+05.0
+013	014	11.55	162.0	 00.0
+014	015	11.72	130.0	+01.0
+015	016	12.35	090.0	-01.0
+016	017	12.97	125.0	 00.0
+017	018	11.85	096.0	-01.0
+
+*end	If09

@@ -1,0 +1,25 @@
+;Cave:	Goseunder Pot	Lead Mine Moss	Chape-le-dale
+;Surveyors:	Andy Hall/Ray Duffy/Sam Lieberman/Paul (beardy) Swire
+;Date:	03/11/01 pm
+;Instruments:	PAG	A.Hall GPS
+
+*begin	gos
+
+*fix	001	72880.00 74300.00 447.00 ;GPS
+
+*calibrate compass 	+5.00
+
+001	002	00.70	218.0	+22.0	;st001=tag on fin of rock at entrance
+002	003	03.30	 -	DOWN	;st002 to st009 are climb down shored rubble
+003	004	01.20	347.0	-19.0	;too small inlet on left
+004	005	02.20	 -	DOWN
+005	006	01.10	323.0	+18.0
+006	007	01.65	 -	DOWN
+007	008	00.50	325.0	-23.0
+008	009	01.30	 -	DOWN
+009	010	02.50	331.0	+08.0	;st009 to st010 anog first bit of banged rift
+010	011	01.40	 -	DOWN	;st011 floor of flat out crawl to aven
+011	012	02.00	331.0	 00.0	;estimated leg due to Beardy's injury, st012 is end of crawl just entering aven at floor level
+012	013	10.00	 -	UP	;estimate of aven
+
+*end	gos

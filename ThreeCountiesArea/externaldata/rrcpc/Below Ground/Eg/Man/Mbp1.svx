@@ -1,0 +1,12 @@
+;Contains Manchester By pass files etc
+
+*begin	Mbp1
+
+*include	Man1
+;*include	Car
+*include	Car1
+*include	Car2
+*include	Oec
+*include	Cry
+
+*end	Mbp1

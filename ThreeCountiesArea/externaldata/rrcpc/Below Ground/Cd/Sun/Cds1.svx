@@ -1,0 +1,28 @@
+;Cave:	Surface survey from Hugh's Hole to Ingleborough Stile, Bilberry to MB300
+;Surveyors:	R.Duffy/S.Leiberman
+;Date:	12/09/02
+;Instruments:	PAG
+
+;*equate	Cds1.004	Bil.001
+*equate	Cds1.009	Sun1.001
+
+*begin	Cds1
+
+*calibrate compass	+3.00
+*calibrate clino	0.00
+
+*fix	004	774275	776125	360
+
+001	002	50.00	229.0	+05.5	;st001 is straddling Hugh's Hole near Braithwate
+002	003	50.00	221.0	+05.0
+003	004	05.10	202.0	+12.0	;st004=top of left Stile Post facing Ingleborough
+
+;survey from stile to Sunset entrance
+
+004	005	50.00	223.0	+03.0
+005	006	50.00	225.0	+03.0
+006	007	50.00	219.5	+02.0
+007	008	33.50	168.0	+02.5
+008	009	01.92	 -	DOWN	;st009=tag at entrance
+
+*end	Cds1

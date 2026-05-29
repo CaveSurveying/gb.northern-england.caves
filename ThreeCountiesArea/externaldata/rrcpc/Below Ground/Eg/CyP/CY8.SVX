@@ -1,0 +1,40 @@
+;Cave:	PJ ladder-UP6(resurvey) UP86 to Fatarse Squeeze
+;Surveyors:	F.Addis/J.Mundy
+;Date:	09/10/83
+;Instruments:	?????
+
+*equate	cy8.001a	cy.059
+
+*begin	cy8
+
+*calibrate compass	+7.07
+
+001	001a	01.70	 -	UP	;st001a=cy.059 head height at bottom of the ladder
+001a	002	04.50	348.0	 00.0
+002b	002a	05.10	326.0	-20.0	;002b-002a-002 is chamber on right from pitch and is below Brown & Smelly chamber
+002a	002	03.80	283.0	-30.0	;st002 is boulder in middle of pass. below Rock Bridge
+
+002	003	05.20	340.0	-06.0
+003	004	03.60	279.0	-05.0
+004	005	04.20	255.0	-07.0
+005	006	03.10	347.0	-04.0
+006	007	01.70	029.0	-07.0
+007	008	04.30	310.0	-04.0
+008	009	02.40	304.0	-05.0	;st009 is in streamway below boulder high up and UP84 even higher,UP86 is 10m climb up?
+
+009	009a	05.40	 -	UP
+009a	009b	03.50	148.0	+55.0
+
+009b	099b	04.50	107.0	+25.0	;left hand loop to Fatarse Squeeze
+099b	099c	04.10	145.0	+06.0	;left hand loop to Fatarse Squeeze
+
+009b	009c	04.40	159.0	+05.0	;right hand loop to Fatarse Squeeze
+009c	009d	04.10	127.0	+20.0
+009d	009e	02.00	 -	UP	;st009e is Jersey Junction climb up thro' boulders on way to Fatarse Squeeze
+
+;009	010	01.70	049.0	 00.0
+;010	011	02.90	010.0	-04.0
+;011	012	02.50	288.0	-08.0
+;012	013	02.60	067.0	-04.0	;st013=UP6=cy.067a Trident Corner
+
+*end	cy8

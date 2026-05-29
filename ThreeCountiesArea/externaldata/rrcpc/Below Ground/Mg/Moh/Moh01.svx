@@ -1,0 +1,24 @@
+;Cave:	The Mohole - entrance
+;Surveyors:	
+;Date:	
+;Instruments:
+
+;*equate	
+
+*begin	Moh01
+
+;*calibrate compass	
+;*calibrate clino	
+;*calibrate tape		
+
+*fix 001 68642.00 76996.00 404.00 ;GPS but height from guidebook
+
+001	001a	5.00	 -	DOWN
+001	000	0.173	180.0	00.0
+002	000	0.173	300.0	00.0
+003	000	0.173	060.0	00.0
+001	002	0.300	150.0	00.0
+001	003	0.300	210.0	00.0
+002	003	0.300	270.0	00.0
+
+*end	Moh01

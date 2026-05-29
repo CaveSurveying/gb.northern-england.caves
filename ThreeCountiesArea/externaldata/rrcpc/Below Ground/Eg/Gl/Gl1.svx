@@ -1,0 +1,35 @@
+;Every other gill cave entrance
+
+*begin	Gl1
+
+*Include	Bat
+*Include	Bhh
+*Include	Beh
+*Include	Bly
+*Include	CC1
+*Include	CC1p5
+*Include	CC2
+*Include	CC3
+*Include	Cd2
+*Include	Dra
+*Include	Geh
+*Include	Gin
+*Include	How01
+*Include	How
+*Include	Is
+*Include	Kip
+*Include	MB5
+*Include	Oh
+*Include	Owl
+*Include	OX1
+*Include	OX2
+*Include	Pic
+*Include	Reb
+*Include	Row
+*Include	Ry
+*Include	2ndB
+*Include	Sink01
+*Include	Shf
+*Include	StG
+
+*end	Gl1

@@ -1,0 +1,10 @@
+;Every Slit Sink file
+
+*begin	Ss1
+
+;;;;*include	nss ;not needed included in Borehole notes
+*include	Nss01
+*include	Ss01
+*include	Ss02
+
+*end	Ss1

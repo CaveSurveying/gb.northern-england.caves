@@ -1,0 +1,10 @@
+;Dowlass Moss file
+
+*begin	Dom1
+
+*include	Fw\Fw
+*include	Trp\Trp
+*include	Bog\Brh
+*include	Ne\Ne1
+
+*end	Dom1

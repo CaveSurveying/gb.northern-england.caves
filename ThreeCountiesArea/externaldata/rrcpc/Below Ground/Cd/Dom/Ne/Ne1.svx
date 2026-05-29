@@ -1,0 +1,14 @@
+;All Other Dowlass Moss entrances
+
+*begin	Ne1
+
+*Include	clp
+*Include	fup
+*Include	grp
+*Include	jbc
+*Include	lsp
+*Include	myh
+*Include	skp
+*Include	thp
+
+*end	Ne1

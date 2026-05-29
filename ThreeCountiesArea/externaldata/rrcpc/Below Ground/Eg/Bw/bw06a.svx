@@ -1,0 +1,21 @@
+;Cave:		Bull Pot of the Witches-Sump to air bell???
+;Surveyors:	Fred Winstanley
+;Date:		23/05/98pm
+;Instruments:	
+
+*equate	bw06a.001	bw06.001
+*equate	bw06a.001	bw09.001
+
+*begin	bw06a
+
+*calibrate compass	+4.97
+
+*data diving from to bearing length fromdepth todepth
+
+001	002	177.0	06.80	 00.00	-01.70	;st.001=knot on line or surface????????
+002	003	237.0	04.60	-01.70	-03.60
+003	004	237.0	03.60	-03.60	-03.90
+004	005	270.0	09.20	-03.90	-05.70	;st.005 below air-bell??????
+005	006	287.0	02.75	-05.70	-05.70	;st.006 is constriction
+
+*end	bw06a

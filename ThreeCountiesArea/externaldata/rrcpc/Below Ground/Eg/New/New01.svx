@@ -1,0 +1,49 @@
+;Cave:	New Cave
+;Surveyors:	S.Lieberman/P.Wilkinson
+;Date:	10/02/07
+;Instruments:	PAG + disto
+
+;*equate	
+
+*begin	New01
+
+*calibrate compass		+3.00
+*calibrate clino		-0.50
+*calibrate tape		 0.00
+
+*fix 001 67633.26 80672.92 318.31 ;tag at entrance	
+
+001	002	00.35	-	DOWN ;st001=tag at entrance
+003	002	01.84	140.0	 00.0
+004	003	03.23	062.0	 00.0
+005	004	04.97	078.0	 00.0
+006	005	01.19	 -	DOWN	;st006 is at hole up in roof
+
+005	005a	02.05	031.0	-05.0	;st005a is top of climb down
+005a	005b	01.94	 -	DOWN	;st005b is lip of 5.7m drop to floor
+
+006	007	01.30	070.0	 00.0
+007	008	02.11	048.0	+01.0
+
+008	008a	02.65	118.0	+09.0
+
+008	009	01.78	056.0	-02.0
+009	010	02.59	034.0	 00.0
+010	011	01.60	060.0	 00.0
+011	012	01.50	312.0	+30.0
+012	013	01.96	066.0	+01.0
+013	014	02.62	135.0	+03.0	;vocal connection  through choke to WretchedRabbit entrance crawl, too tight straight ahead
+
+006	015	00.90	245.0	-03.0	;continuation straight on beyond hole up
+015	016	03.41	286.0	-03.0
+016	017	05.40	261.0	-01.0
+017	018	00.84	281.0	 00.0
+018	019	01.63	239.0	-04.0	;st019 is start of vadose development
+019	020	01.77	273.0	-04.0	;small side pass. to left just before st020
+020	021	04.10	337.0	+01.0
+021	022	01.81	350.0	+02.0
+022	023	04.21	331.0	+05.0
+024	023	01.29	077.0	 00.0
+024	025	02.81	341.0	-20.0
+
+*end	New01

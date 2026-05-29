@@ -1,0 +1,29 @@
+;Cave:	TAG in scaffolding pole Smokey Hole
+;Surveyors:	R.Duffy/A.Whitney/J.Baker
+;Date:	23/06/02
+;Instruments:	PAG
+
+;*equate	
+
+*begin	Smh
+
+*calibrate compass	+3.0
+
+*fix 001 66684.00 79989.00 310.37 	;GPS
+
+001	002	00.45	276.0	-03.0	;st001=top of front scaffold pole (tag missing again)
+002	003	04.04	 -	DOWN	;st003 right horizontal crack bottom of pitch
+003	004	05.83	352.0	-34.0	;chamber, passing acrow holding back wall on left
+004	005	05.02	031.0	+02.0	;st005 on dogleg of mud crawl
+005	006	04.80	313.0	+21.0	;st006 on ledge on right above climb down
+006	007	02.86	 -	DOWN
+007	008	03.65	258.0	-37.0
+008	009	02.63	189.0	-36.0
+009	010	01.75	255.0	-04.0	;st010 on right wall head height almost over pitch looking down right rift
+
+010	010a	05.00	346.0	-39.0	;st010a is corner in rift where left goes too small
+
+010	011	01.35	257.0	-19.0	;st011 is head height on opposite wall to ladder
+011	012	03.17	 -	DOWN	;to right 7m just too tight, to left 2m far too tight but draughts
+
+*end	Smh

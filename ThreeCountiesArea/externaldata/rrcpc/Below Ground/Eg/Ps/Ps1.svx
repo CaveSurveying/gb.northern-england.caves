@@ -1,0 +1,29 @@
+;All Pool Sink files
+
+
+
+*begin	Ps1
+
+*include	P1ai
+*include	P1aii
+*include	P1aiii
+*include	P1a
+;;*include	P1b ;not needed anymore see P1bi
+*include	P1bi
+;;*include	P1c ;not needed anymore
+*include	P1d
+*include	P1e
+*include	P1ei
+*include	P1f
+*include	P1g
+*include	P1h
+*include	P1i
+*include	P2a
+*include	P3a
+*include	P4a
+;*include	P5a
+*include	P6a
+;;*include	P7a ;not needed anymore
+*include	P7b
+
+*end	Ps1

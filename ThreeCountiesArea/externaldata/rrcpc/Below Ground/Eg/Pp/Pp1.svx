@@ -1,0 +1,10 @@
+;Every Pegleg Pot file
+
+*begin	Pp1
+
+*include	peg01
+*include	peg02
+;*include	
+;*include	
+
+*end	Pp1

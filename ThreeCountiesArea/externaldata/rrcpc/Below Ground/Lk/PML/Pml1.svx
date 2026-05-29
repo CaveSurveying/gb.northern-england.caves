@@ -1,0 +1,17 @@
+;Every Pipikin/Mistral/Link file
+
+*begin	Pml1
+
+*equate	Mis1.ms.018	Pkn1.Pip12.001
+*equate	Mis1.ms4.004a	Pkn1.Pip12.001
+*equate	Mis1.ms.035	Pkn1.Pip02a.001
+*equate	Mis1.ms.016a	Pkn1.Pip13.001
+*equate	Mis1.ms1.001	Pkn1.Pip13.001
+*equate	Mis1.ms4.001	Pkn1.Pip13.001
+*equate	Mis1.ms.035	Link1.Lk03.044
+
+*include	Mis\Mis1
+*include	Link\Link1
+*include	Pkn\Pkn1
+
+*end	Pml1

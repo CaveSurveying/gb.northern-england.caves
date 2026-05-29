@@ -1,0 +1,21 @@
+;Cave:	Owl Hole from surface survey
+;Surveyors:	R.Duffy/A.Whitney
+;Date:	
+;Instruments:	PAG
+
+;;*equate owl.001	sf5.004b
+
+*begin	owl
+
+*calibrate compass	+5.00
+*calibrate clino	+0.50
+*calibrate tape		 0.00
+
+*fix 005  67116.21 80396.87 291.27 ;sf5.004b
+
+002	001	01.45	223.0	-29.0	;st001 is head height sitting with feet in low continuation/too small but beyond station is bangable
+002	003	02.24	 -	UP	;st002 has large rift in front almost passable and bangable
+004	003	03.23	204.0	-61.5	;st004 is on surface to get leg to tag
+004	005	01.00	233.0	-38.0	;st005=tag
+
+*end	owl

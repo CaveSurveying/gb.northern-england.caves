@@ -1,0 +1,8 @@
+;Five Ways Pot file
+
+*begin	Fw
+
+*include	fw1
+*include	fw2
+
+*end	Fw

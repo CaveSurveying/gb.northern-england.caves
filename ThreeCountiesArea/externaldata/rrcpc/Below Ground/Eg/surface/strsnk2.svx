@@ -1,0 +1,15 @@
+;Cave:	Stream Sink 2
+;Surveyors:	Andy Hall
+;Date:	03/12/01
+
+*begin	strs2
+
+;*calibrate compass	-55.45
+
+*fix	001	66820.00	80690.00	326.00	;GPS
+
+001	000	02.73	180.0	00.0
+002	000	01.73	135.0	00.0
+003	000	01.73	225.0	00.0
+
+*end	strs2

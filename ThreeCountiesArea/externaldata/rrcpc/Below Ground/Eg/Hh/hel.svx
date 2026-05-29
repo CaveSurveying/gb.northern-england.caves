@@ -1,0 +1,26 @@
+;Cave:	Hellot Hole
+;Surveyors:	R.Duffy/T.Eastwood
+;Date:	07/02/98pm
+;Instruments:	kit2
+
+;*equate	
+
+*begin	hel
+
+*fix	001	66181.01 80653.64 295.57 ;ev.ss14.001
+
+*calibrate compass	+5.45
+
+001	002	01.14	302.5	+12.0	;st001=TAG on surface
+002	003	03.90	088.0	-45.0	;st003 is near top of vertical shaft
+003	004	09.00	 -	DOWN
+004	005	01.00	185.0	 00.0
+005	006	05.00	 -	DOWN	;st006 is floor of pitch
+006	006a	03.65	226.0	-20.0
+006a	006b	03.00	135.0	+30.0	;st006b is end of dig
+006	007	00.80	 -	UP
+007	008	05.00	335.0	-07.0	;crawl through muddy pool
+008	009	01.50	244.0	+40.0
+009	010	05.85	327.0	+44.0	;st010 is end of tight rift passing small aven on right
+
+*end	hel

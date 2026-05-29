@@ -1,0 +1,22 @@
+;Cave:	Finger Pot
+;Surveyors:	H.St.Lawrence/A.Hall
+;Date:	20/09/04
+;Instruments:	2
+
+;*equate	
+
+*begin	Fip
+
+*calibrate compass	+5.00
+*calibrate clino	-1.00
+
+;;*fix	001	67457.05 80514.00 309.74	;ev.ss30.009
+*fix	001	67456.42 80514.67 309.74	;ev.ss30.009
+
+001	002	04.00	248.0	+38.0	;st001 is limit of dig
+002	003	03.10	 -	UP
+003	004	01.80	278.0	+10.0
+004	005	03.60	 -	UP
+005	006	03.40	096.0	+50.0	;st006=tip of limestone at pitch head
+
+*end	Fip

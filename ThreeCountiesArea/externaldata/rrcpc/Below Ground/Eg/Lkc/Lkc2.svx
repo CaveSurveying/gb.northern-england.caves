@@ -1,0 +1,21 @@
+;Cave:	Lower Kirk Cave2 - first cave ent. after descent path on grass, on left true bank
+;Surveyors:	R.Duffy
+;Date:	05/05/07
+;Instruments:	PAG + disto
+
+;*equate	
+
+*begin	lkc2
+
+*calibrate compass		+2.00
+*calibrate clino		+0.50
+*calibrate tape		 0.00
+
+*fix 002 66092.60 79977.02 217.43 ;sf8a.005
+
+002	003	00.73	 -	DOWN	;st002=cable tie in roof
+003	004	01.72	172.0	+12.0	;st004 is right wall at bifurcation
+004	004a	02.49	186.5	 00.0	;too tight
+004	004b	02.16	120.0	 00.0	;too tight
+
+*end	lkc2

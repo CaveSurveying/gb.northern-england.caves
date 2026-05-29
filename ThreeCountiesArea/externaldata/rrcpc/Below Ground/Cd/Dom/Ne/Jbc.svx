@@ -1,0 +1,22 @@
+;Cave:	Jenkin Beck Cave
+;Surveyors:	R.Duffy/H.St.Lawrence
+;Date:	30/05/03
+;Instruments:	PAG
+
+;*equate	
+
+*begin	jbc
+
+*calibrate compass	+5.00
+*calibrate clino	+00.5
+;*calibrate tape		
+
+*fix 006 70779.00 72657.00 195.00 ;from map
+
+001	002	04.00	212.0	-29.0	;st001 is top of mud choke
+002	003	02.55	295.0	-12.0
+003	004	01.78	262.0	+04.0	;st004 is on corner with legs down hole beside pool
+004	005	03.30	334.0	+09.0
+005	006	00.20	 -	DOWN	;st006=tag at entrance
+
+*end	jbc

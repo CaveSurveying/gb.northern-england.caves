@@ -1,0 +1,44 @@
+;All Trident
+
+*begin	AllTrident
+
+;*include	Tridentscale
+*include	Trident01
+*include	Trident02
+*include	Trident02a
+*include	Trident03
+*include	Trident04
+*include	Trident05
+*include	Trident06
+*include	Trident07
+*include	Trident08
+*include	Trident09
+*include	Trident10
+*include	Trident11
+*include	Trident12
+*include	Trident13
+*include	Trident14
+*include	Trident15
+*include	Trident16
+*include	Trident17
+*include	Trident18
+*include	Trident19
+*include	Trident20
+*include	trident20a
+*include	Trident21
+*include	Trident22
+*include	Trident22a
+*include	Trident23
+*include	Trident23a
+*include	Trident23b
+*include	Trident24
+*include	Trident25
+*include	Trident25a
+*include	Trident25b
+*include	Trident26
+;;*include	Trident26a ; loop resurveyed to aid drawup
+*include	Trident27a
+*include	Trident28
+*include	Trident28a
+*include	Trident28b
+*end	AllTrident

@@ -1,0 +1,24 @@
+;Cave:	Kingsdale Master Cave-Window Aven to Roof Tunnel Inlet
+;Surveyors:	Terry Whittaker/Lugger(J.Thorpe)/M.Watson?????
+;Date:	??/10/77
+;Instruments:	?????(no correction)CHECK COMPASS CALIBRATE????
+
+*equate	kmc01b.007	kmc01.052
+*equate	kmc01b.001	kmc01a.031
+
+*begin	kmc01b
+
+*calibrate compass	+7.84
+
+
+001	002	02.30	002.0	-30.0
+002	003	05.00	 -	DOWN
+003	004	06.50	030.0	-30.0
+004	005	04.90	024.0	-11.0
+005	006	04.20	084.0	-02.0
+006	007	05.60	020.0	-10.0
+001	008	12.37	210.0	+39.0
+008	009	01.90	130.0	+38.0
+009	010	01.00	192.0	+10.0
+
+*end	kmc01b

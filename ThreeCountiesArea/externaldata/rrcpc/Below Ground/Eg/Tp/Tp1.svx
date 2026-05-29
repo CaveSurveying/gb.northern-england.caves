@@ -1,0 +1,8 @@
+;every Trig Point in the Easegill area
+
+*begin	Tp1
+
+;*include	trig04
+*include	trig05
+
+*end	Tp1

@@ -1,0 +1,35 @@
+;Cave:	3rd Dive; 19-3-00, Woodings
+;Surveyors:	John cordingley
+;Date:	19/03/00
+;Instruments:	JNC
+
+*equate	kh10b.wp036	kh10a.wp036
+*equate	kh10b.wp054	kh10c.wp054
+
+*begin	kh10b
+
+*calibrate compass	+4.97
+
+*data diving from to bearing length fromdepth todepth
+
+wp036	wp037	005.0	11.60	+01.00	-01.40	;st wp036 is above water
+wp037	wp038	342.0	04.93	-01.40	-02.20
+wp038	wp039	346.0	01.25	-02.00	-02.20	;(A/B 2m beyond wp039 at 362.74m)
+wp039	wp040	336.0	04.56	-02.20	-02.20
+wp040	wp041	279.0	09.71	-02.20	-01.40
+wp041	wp042	293.0	06.96	-01.40	-00.70
+wp042	wp043	260.0	03.31	-00.70	-00.60
+wp043	wp044	293.0	04.78	-00.60	-01.50
+wp044	wp045	345.0	04.06	-01.50	-01.40	;(A/B 1m beyond wp 045 at 395.12m)
+wp045	wp046	339.0	02.28	-01.40	-01.60
+wp046	wp047	313.0	26.07	-01.60	-03.20	;(422.47m A/B overhead, and along next leg)
+wp047	wp048	027.0	09.40	-03.20	-04.40
+wp048	wp049	033.0	08.36	-04.40	-05.00
+wp049	wp050	328.0	05.17	-05.00	-05.20
+wp050	wp051	350.0	03.05	-05.20	-05.20
+wp051	wp052	037.0	05.95	-05.20	-05.50
+wp052	wp053	011.0	03.91	-05.50	-05.60
+wp053	wp054	359.0	05.20	-05.60	-05.70
+
+
+*end	kh10b

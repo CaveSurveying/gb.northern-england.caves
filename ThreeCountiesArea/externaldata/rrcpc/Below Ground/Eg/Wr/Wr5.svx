@@ -1,0 +1,13 @@
+;cave:	Wretched Rabbit high level oxbow route
+;date:	Wr5	???1989
+
+*equate	wr5.001	wr1.005
+
+*begin	wr5
+
+*calibrate compass	+6.17
+
+001	002	02.40	194.0	+27.0	;st001=crp.005 start of High Level Ox-bow
+002	003	01.50	-	UP
+
+*end	wr5

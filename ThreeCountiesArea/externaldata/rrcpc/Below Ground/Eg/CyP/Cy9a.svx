@@ -1,0 +1,92 @@
+;Cave/Series:   Dismal Bypass
+;Date: Feb 1984
+;Surveyor      Andy Hall & Hugh St Lawrence
+;Notes. This passage connects Molluscan Hall, Razor Pass and Spout Passage at High level
+
+*equate	cy9a.20	cy10.037
+
+*begin	cy9A
+
+*calibrate compass	+6.87
+*calibrate tape		+8.00
+
+A	B	11.10	288.0	+05.0	;StA=UP70 in Molluscan Hall on first boulder after Dismal Junct
+B	C	16.50	317.0	+18.0
+C	D	10.80	352.0	+57.0
+D	E	15.90	340.0	+35.0
+E	F	18.60	160.0	+10.0	;StF=start of Upper Molluscan Hall
+F	G	14.90	131.0	+12.0	;rift
+G	H	16.10	160.0	-05.0
+H	J	20.80	111.0	 00.0
+
+H	K	33.00	135.0	+08.0
+
+J	Ji	11.10	-	DOWN
+
+J	L	10.60	079.0	-22.0
+L	M	14.50	054.0	-06.0
+M	N	21.30	136.0	+02.0	;junct
+
+N	P	12.50	132.0	+14.0
+P	Q	14.90	095.0	+04.0
+Q	R	10.40	047.0	+05.0
+R	S	10.60	089.0	-14.0	;Dismal Bypass  Pass
+S	T	23.20	061.0	 00.0
+T	U	20.50	108.0	+04.0	;between T&U is crawl passage to right
+U	V	10.30	248.0	+07.0
+V	W	12.35	098.0	+47.0	;Funnel Chamber
+W	X	12.85	131.0	+04.0
+X	Y	11.45	108.0	-17.0
+Y	Z	10.40	167.0	 00.0
+Z	Ai	12.95	164.0	-18.0	;junct at stAi passage to right leads to Razor pass.
+
+Ai	Bi	15.20	084.0	+04.0
+Bi	Ci	19.05	093.0	+05.0     ;crystal pool & stals in Gallery Ext
+
+*calibrate tape		+7.80
+
+Ci	Di	14.25	032.0	+12.0
+Di	Ei	08.90	065.0	-14.0
+Ei	Fi	12.70	352.0	+22.0    ;choke end of Gallery Ext
+Fi	Gi	15.80	085.0	 00.0	;low bedding possible link to bedding in Ignoranc eis Bliss
+
+Ai	1	09.15	144.0	+15.0
+1	2	10.30	 -	DOWN
+3	2	10.85	266.0	-23.0
+
+3	4	10.75	229.0	-19.0	;start of side passage bearing 275deg way on to Channel Tunnel and Luff's Pass
+
+
+3	5	11.40	116.0	+14.0
+5	6	09.20	 -	DOWN
+7	6	17.40	279.0	-03.0
+8	7	12.00	281.0	-06.0
+9	8	25.00	252.0	-04.0
+
+Aii	9	09.50	197.0	+02.0
+Bii	Aii	10.50	257.0	+04.0
+Cii	Bii	11.90	204.0	-05.0	;thru ckoke
+Dii	Cii	09.45	127.0	-23.0
+Eii	Dii	12.60	185.0	-22.0
+Fii	Eii	16.60	203.0	 00.0	;stFii=UP48
+Gii	Fii	10.90	217.0	 00.0
+Hii	Gii	14.30	290.0	-04.0
+Jii	Hii	15.20	228.0	-03.0
+Kii	Jii	11.20	278.0	 00.0
+Lii	Kii	19.40	216.0	+05.0	;start of The Gallery
+Mii	Lii	11.30	295.0	-07.0	;StMii=UP8 Spout Pass
+
+
+10	9	09.10	272.0	-18.0
+11	10	11.40	278.0	+07.0
+12	11	13.60	299.0	-06.0
+13	12	10.45	307.0	-34.0
+14	13	10.15	310.0	-22.0
+15	14	10.80	285.0	+23.0
+16	15	12.70	325.0	-06.0
+17	16	09.60	346.0	-02.0
+18	17	09.50	 -	DOWN
+19	18	14.60	261.0	+10.0
+20	19	10.30	019.0	-09.0	;st20 = UP44 in Razor Pass
+
+*end	cy9A

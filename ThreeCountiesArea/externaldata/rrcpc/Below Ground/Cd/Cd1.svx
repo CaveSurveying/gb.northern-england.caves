@@ -1,0 +1,14 @@
+;Chapel-le-Dale file
+
+*begin	Cd1
+
+;*include	Dom\Fw\Fw
+;*include	Dom\Trp\Trp
+;*include	Dom\Boggarts\Brh
+;*include	Dom\BgTp
+*include	Bil\bil
+*include	Sun\sun
+;*include	
+
+
+*end	Cd1

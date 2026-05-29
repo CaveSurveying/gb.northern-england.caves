@@ -1,0 +1,23 @@
+;Cave:	Lancaster Hole - Earby Series - Passage off Brew Chamber  to left of Equinox
+;Surveyors:	R.Duffy/A.Hall
+;Date:	07/12/02
+;Instruments:	PAG
+
+*equate	esd.002	es.082
+
+*begin	esd
+
+*calibrate compass	+4.50
+*calibrate clino	00.0
+
+001	002	01.70	 -	UP	;st001 is foot level in hole to Lang Gallery
+002	003	03.50	225.0	+17.0	;st003 is out in Brew Chamber
+003	004	05.80	076.0	-05.0	;st004 is in tight crawl to bedding passage on bend
+004	005	04.10	119.0	+13.0
+005	006	12.30	112.0	+03.0
+006	007	07.50	155.0	+03.0	;st007 is pointed rock at edge of aven floor
+007	008	08.50	130.0	+04.0	;st008 is at foot of small climb up into chamberette
+008	009	02.10	 -	UP
+009	010	03.75	157.5	+29.0	;rock steps up to tight bedding st010 broken rock lip at edge of bedding
+
+*end	esd

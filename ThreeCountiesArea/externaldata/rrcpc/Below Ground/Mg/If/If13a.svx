@@ -1,0 +1,20 @@
+;Cave:	Ireby Fell Caverns - Glory Holes extensions - Cripple Sreek end
+;Surveyors:	D.Ramsay/B.Ward
+;Date:	30/08/04
+;Instruments:	4
+
+*equate	If13a.018 If13.018
+
+*begin	If13a
+
+*calibrate compass	+5.00
+*calibrate clino	-0.50
+*calibrate tape		+3.00
+
+018	019	06.35	293.0	-12.0	;st018=st018 If12, between stations is calcite ramp to roof on left
+019	020	06.90	291.0	+02.0
+020	021	05.65	244.0	-50.0
+021	022	03.75	235.0	 00.0	;small pool of water between st021 and 022
+022	023	05.20	245.0	+40.0	;st023 under small roof in Pacey's Patio
+
+*end	If13a

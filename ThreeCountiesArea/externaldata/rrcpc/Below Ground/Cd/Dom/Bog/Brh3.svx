@@ -1,0 +1,38 @@
+;Cave:	BOGGARTS
+;Surveyors:	New Data compiled from two trips 20/10/01 (Hugh & Frank) and 24/11/01 (Hugh and Paul W)
+;Date:	20/10/01 & 24/11/01
+;Instruments:	2
+
+*equate	Brh3.001	Brh2.029
+
+*begin	Brh3
+
+*calibrate compass	+1.00
+
+001	002	02.40	048.0	-12.00
+002	003	03.20	118.0	-01.00
+003	004	03.50	047.0	 00.00	;Top of BMB pitch
+004	005	07.60	 -	DOWN
+005	006	01.00	010.0	 00.00	;Offset on ledge
+006	006a	07.75	 -	DOWN	;Pitch below BMB
+006	007	03.80	097.0	 00.00	;along squeeze to top of the two 40' pitches
+007	008	12.90	 -	DOWN	;main 40' pitch
+008	009	02.40	349.0	-16.00
+009	010	02.70	006.0	-35.00
+010	011	02.50	345.0	 00.00	;head of pitch
+011	012	23.10	 -	DOWN
+012	013	01.00	327.0	-32.00
+
+;Continuation by Paul Swire, Mark Madden & Rich on 03/02/02 using kit 1
+
+*calibrate compass	+5.00
+
+013	014	04.20	015.0	 -08.00	;replaces estimated leg into final rift
+014	015	06.00	014.0	+05.0
+015	016	07.70	 -	DOWN
+
+016	016a	04.00	153.0	-40.0	;016a looks like closes down c 5m getting tight, continues too tight
+
+016	016b	03.50	320.0	-30.0	;continues too tight
+
+*end	brh3

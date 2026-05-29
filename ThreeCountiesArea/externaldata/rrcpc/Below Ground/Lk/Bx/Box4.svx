@@ -1,0 +1,25 @@
+;Cave:	Lyle Cavern-Lost Johns
+;Surveyors:	Pete Hall/Roger Watkinson/Sam Carradice
+;Date:	20/06/98
+;Instruments:	Kit1????????
+
+;*equate	
+
+*begin	Box4
+
+*calibrate compass	+5.00
+
+001	001a	05.20	200	+58.0	;up boulders from tag
+001a	001b	09.30	174.5	+28.0
+001b	001c	16.00	148.0	+34.0	;up 5m climb to end
+001	002	00.70	186.0	 00.0	;st001=tag on shelf below climb up to Lyle Cav.
+002	003	05.30	120.0	+13.0
+003	004	05.40	106.0	-03.0
+004	005	13.50	169.0	+05.0
+005	006	09.20	243.0	+01.0
+006	006a	08.00	190.0	+01.0	;passage on right
+006a	006b	15.20	245.0	+01.0
+006b	006c	12.90	188.0	+02.0
+006	007	10.00	342.0	 00.0
+
+*end	Box4
