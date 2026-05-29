@@ -5,7 +5,7 @@
 ; SVX File:	Created 19 September 2013 by K.Dixon 
 
 ; Note that Mohole and Keld Head can be found in 
-; ThreeCountiesArea/survexdata/Surface/threecountiesgpskdixon2012.svx
+; NC3-MarbleStepsAndLeckFell/survexdata/Surface/marblesteps-leckfell-easegill-gps-kdixon-2012.svx
 
 ; Geodetic L1/L2 GPS post-processed using RTKlib open source software with IGS precise ephemerides and OS base station
 ; data at Giggleswick, Leeds and Richmond. 

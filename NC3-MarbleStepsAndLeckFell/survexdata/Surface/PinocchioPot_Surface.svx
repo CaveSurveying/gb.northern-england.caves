@@ -1,9 +1,3 @@
-;Add these lines to leckfell.svx
-;*include Surface/PinocchioPot_Surface
-;*equate PinocchioPot_Surface.1.23	threecountiesgpskdixon2012.3c15 
-;*FIX SurfaceAboveFrink 			67047 77521 400 ; Cordinates taken from survex and height from altimiter watch - calibrated from Lost John's GPS tag
-;*Equate SurfaceAboveFrink doit
-
 *BEGIN PinocchioPot_Surface
 
 ; Overland survey from new surface dig for 2017 to Notts1 GPS tag

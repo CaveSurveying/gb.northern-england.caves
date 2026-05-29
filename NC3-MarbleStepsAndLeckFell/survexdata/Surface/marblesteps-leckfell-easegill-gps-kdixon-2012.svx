@@ -14,7 +14,7 @@
 
 ; OSGB36 co-ordinates are for the OS 100km square SD 
 
-*begin marblesteps-leckfell-gps-kdixon-2012 ; was threecountiesgpskdixon2012 but then Becka removed easegill entrances May 2026 ; old name was 3cgps, BL updated to match the meaningful filename
+*begin marblesteps-leckfell-easegill-gps-kdixon-2012 ; was threecountiesgpskdixon2012 but Becka renamed as reorganising files May 2026 ; old name was 3cgps, BL updated to match the meaningful filename
 
 *date 2012.04.01
 
@@ -153,4 +153,4 @@
 3C16	035	1.095	-	UP	;3C16 is s/s bolt+washer in bedrock, washer stamped IREBY FELL CAVERN 3C16
 035	036	10.489	254.0	-31.0	;035 is base of GPS antenna, 036 is RRCPC tag hole in rock at right end of scaffold bar at entrance
 
-*end marblesteps-leckfell-gps-kdixon-2012
+*end marblesteps-leckfell-easegill-gps-kdixon-2012
