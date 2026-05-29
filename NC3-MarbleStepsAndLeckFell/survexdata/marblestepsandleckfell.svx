@@ -1,4 +1,4 @@
-*begin leckfell
+*begin marblestepsandleckfell
 
 *cs OSGB:SD
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
@@ -291,7 +291,7 @@ LargePot.EntranceTag marblesteps-leckfell-gps-kdixon-2012.028	1.08	-	DOWN	; Larg
 *ENTRANCE Unnamed_Shaft2 
 
 
-*end leckfell
+*end marblestepsandleckfell
 
 ; old superceded equates and surface surveys
 ; *equate LostJohns.lylecavernbruno.7 NottsII.CountLazloALL.BrunoKranskiesBoxheadConnection.50; superceded

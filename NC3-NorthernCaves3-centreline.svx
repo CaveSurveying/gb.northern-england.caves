@@ -20,7 +20,7 @@
 
 ; Largely MMMMC data - Notts 1-4, Ireby, Lost Johns, Large, Rift etc from Marble Steps and Leck Fell areas of NC3
 ; plus data from more recent digs
-*include NC3-MarbleStepsAndLeckFell/survexdata/leckfell
+*include NC3-MarbleStepsAndLeckFell/survexdata/marblestepsandleckfell
 
 ; West Kingsdale data including diving data from John Cordingley and Rupert Skorupka collated by Footleg (Paul Fretwell) who has also collected some dry cave data
 ; plus more recent data
