@@ -1,4 +1,4 @@
-*begin Grind2
+*begin grind2
 *export 45x
 
 *title "Wormway to about 2/3 up the Grind to where Tom and James got to on Grind"
@@ -130,4 +130,4 @@
 54	0.4	0.5	0.4	1.4
 55	-	-	0	1.7	left and right are both passage (Wormways); station numbered and marked with liquid paper in roof by far wall at main junction
 
-*end Grind2
+*end grind2
