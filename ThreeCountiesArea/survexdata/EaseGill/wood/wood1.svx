@@ -1,9 +1,0 @@
-;Contains all Woodhouse Way files
-
-*begin	wood1
-*export wh.001
-
-*include	wh
-*include	wh01
-
-*end	wood1

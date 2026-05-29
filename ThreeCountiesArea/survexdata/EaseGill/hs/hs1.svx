@@ -1,7 +1,0 @@
-;Every Hazel Sykes file
-
-*begin	hs1
-
-*include	hz
-
-*end	hs1

@@ -1,7 +1,0 @@
-;Every Gale Garth file
-
-*begin	gg1
-
-*include	gg
-
-*end	gg1
