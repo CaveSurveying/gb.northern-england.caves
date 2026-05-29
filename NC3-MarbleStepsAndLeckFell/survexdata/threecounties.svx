@@ -5,20 +5,17 @@
 
 *INFER exports on
 
-; EaseGill data from RRCPC / Ray Duffy / Sam Lieberman
-
-; not working yet
-;*equate aeg1.ear.wm.001 pml1.link1.lk01.034			; links Easegill to Link/Pippikin at tag in Echo aven
-;*equate aeg1.ear.GrindEasyStRoofTube.001 pml1.link1.lk12.033	; links Easegill to Link Pippikin via the Grind
-
 ;*include filename ; USE THIS FOR ANY DATA WHERE MAGNETIC DECLINATION HAS ALREADY BEEN APPLIED SO NO FURTHER CORRECTION NEEDED eg EaseGill-Pippikin data
+; EaseGill data from RRCPC / Ray Duffy / Sam Lieberman
 *include EaseGill-Pippikin
-
 ;Added 22/04/12 RGB having spotted Sam had created a Barbondale file -hopefully more to come
 *include Barbondale\Barbondale
 
+;*include filename ; USE THIS FOR ANY DATA WHERE MAGNETIC DECLINATION HAS ALREADY BEEN APPLIED SO NO FURTHER CORRECTION NEEDED eg EaseGill-Pippikin data
+
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
+;Any files where the declination has ALREADY been applied (eg most data in EaseGill) should have its *include ABOVE this *declination line so that line does not apply
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
