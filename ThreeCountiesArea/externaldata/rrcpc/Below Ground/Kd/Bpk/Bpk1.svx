@@ -1,7 +1,0 @@
-;Includes all Bull Pot Kingsdale Files
-
-*begin	Bpk1
-
-*Include	bpk01
-
-*end	Bpk1

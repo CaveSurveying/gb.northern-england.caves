@@ -1,8 +1,0 @@
-;contains all Sand cavern files
-
-*begin	Sac1
-
-*Include	Sc1
-*Include	Sc2
-
-*end	Sac1

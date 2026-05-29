@@ -1,7 +1,0 @@
-;Every trig point file
-
-*begin	Tp_11
-
-*include	trig02
-
-*end	Tp_11

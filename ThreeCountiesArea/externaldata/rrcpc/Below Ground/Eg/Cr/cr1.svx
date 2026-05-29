@@ -1,7 +1,0 @@
-;every Crumbles file
-
-*begin	cr1
-
-*include	cr
-
-*end	cr1

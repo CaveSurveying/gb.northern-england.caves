@@ -1,8 +1,0 @@
-;Contains all Crater files
-
-*begin	Crat1
-
-*include	crat
-*include	crat2
-
-*end	Crat1

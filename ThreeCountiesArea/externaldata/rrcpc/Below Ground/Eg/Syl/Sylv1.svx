@@ -1,8 +1,0 @@
-;contains all Sylvester files
-
-*begin	Sylv1
-
-*Include	Syl2
-*Include	Syl3
-
-*end	Sylv1

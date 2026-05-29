@@ -1,9 +1,0 @@
-;Every Corner sink file
-
-*begin	Cs1
-
-;*include	corn
-*include	cns1
-*include	cns2
-
-*end	Cs1

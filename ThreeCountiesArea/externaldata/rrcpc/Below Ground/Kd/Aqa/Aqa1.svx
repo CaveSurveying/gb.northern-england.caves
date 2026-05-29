@@ -1,7 +1,0 @@
-;All Aqaumole Files
-
-*begin	Aqa1
-
-*Include	aqa01
-
-*end	Aqa1

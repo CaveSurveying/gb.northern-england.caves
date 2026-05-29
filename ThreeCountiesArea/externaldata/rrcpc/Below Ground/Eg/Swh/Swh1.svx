@@ -1,8 +1,0 @@
-;Every Swindon Hole file
-
-*begin	Swh1
-
-;;*include	sw
-*include	swh
-
-*end	Swh1

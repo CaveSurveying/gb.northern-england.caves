@@ -1,7 +1,0 @@
-;includes all the swinsto files
-
-*begin	swi
-
-*include	swi01
-
-*end	swi

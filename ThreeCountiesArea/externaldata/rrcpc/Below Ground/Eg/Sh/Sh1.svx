@@ -1,7 +1,0 @@
-;every shorty Hole file
-
-*begin	Sh1
-
-*include	Short
-
-*end	Sh1

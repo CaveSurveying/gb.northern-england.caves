@@ -1,7 +1,0 @@
-;every Herbert's dig file
-
-*begin	Hd1
-
-*include	her
-
-*end	Hd1

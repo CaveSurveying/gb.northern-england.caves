@@ -1,8 +1,0 @@
-;Every Yordas file
-
-*begin	Yc1
-
-*include	yds
-;*include	
-
-*end	Yc1

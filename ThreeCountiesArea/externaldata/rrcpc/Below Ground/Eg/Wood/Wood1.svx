@@ -1,8 +1,0 @@
-;Contains all Woodhouse Way files
-
-*begin	Wood1
-
-*include	Wh
-*include	Wh01
-
-*end	Wood1

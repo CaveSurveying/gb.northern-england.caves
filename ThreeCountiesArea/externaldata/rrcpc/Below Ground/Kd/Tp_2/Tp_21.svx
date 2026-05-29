@@ -1,7 +1,0 @@
-;Every trig point
-
-*begin	Tp_21
-
-*include	trig03
-
-*end	Tp_21

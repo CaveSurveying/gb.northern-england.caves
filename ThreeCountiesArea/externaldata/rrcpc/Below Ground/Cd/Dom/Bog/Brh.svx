@@ -1,9 +1,0 @@
-;Includes all Boggarts Raoring Hole Files
-
-*begin	Brh
-
-
-*include	Brh2
-*include	Brh3
-
-*end	Brh

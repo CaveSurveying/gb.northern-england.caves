@@ -1,7 +1,0 @@
-;All North End Pot Files
-
-*begin	Nep1
-
-*include	nep01
-
-*end	Nep1

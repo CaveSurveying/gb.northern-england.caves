@@ -1,7 +1,0 @@
-;All Simpson Pot files
-
-*begin	Sim1
-
-*Include	Sim01
-
-*end	Sim1

@@ -1,9 +1,0 @@
-;All Bilberry Files
-
-*begin	bil1
-
-*include	bil
-*include	mb300
-*include	stp
-
-*end	bil1

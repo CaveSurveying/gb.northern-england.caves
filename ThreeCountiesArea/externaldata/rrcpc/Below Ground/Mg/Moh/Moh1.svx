@@ -1,7 +1,0 @@
-;Contains all Mohole files
-
-*begin	Moh1
-
-*Include	Moh01
-
-*end	Moh1

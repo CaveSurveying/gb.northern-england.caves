@@ -1,7 +1,0 @@
-;Hidden pot files
-
-*begin	Hp1
-
-*include	hip
-
-*end	Hp1

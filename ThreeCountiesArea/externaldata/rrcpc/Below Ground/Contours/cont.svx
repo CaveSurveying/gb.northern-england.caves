@@ -1,8 +1,0 @@
-;includes all the contour files
-
-*begin	cont
-
-*include	cont2
-*include	cont1
-
-*end	cont

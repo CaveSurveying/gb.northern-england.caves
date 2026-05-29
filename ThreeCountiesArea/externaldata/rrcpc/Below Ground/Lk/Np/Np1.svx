@@ -1,9 +1,0 @@
-;Every Notts Pot file
-
-*begin	Np1
-
-*include	N01
-*include	N02
-*include	N1
-
-*end	Np1
