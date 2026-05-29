@@ -79,6 +79,12 @@
 *equate PippikinPot.pip15.030 Svengland.pip22.000
 *equate Peterson.pep.037a Svengland.pip23.018
 
+; Connect cave on North and South side of Ease Gill
+
+*equate EPC71.wm.001 LinkPot.lk01.034			; links Easegill to Link/Pippikin at tag in Echo aven
+*equate EPC71.GrindEasyStRoofTube.001 LinkPot.lk12.033	; links Easegill to Link Pippikin via the Grind
+
+
 ; BEGINTABLE
 
 ; North Side of Ease Gill (was all in the EaseGill folder pre-2013)

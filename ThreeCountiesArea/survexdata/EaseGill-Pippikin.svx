@@ -1,7 +1,0 @@
-; includes all of Ease Gill and Pippikin
-
-*equate EaseGill.EPC71.wm.001 Pippikin.LinkPot.lk01.034			; links Easegill to Link/Pippikin at tag in Echo aven
-*equate EaseGill.EPC71.GrindEasyStRoofTube.001 Pippikin.LinkPot.lk12.033	; links Easegill to Link Pippikin via the Grind
-
-*include EaseGill\EaseGill
-*include Pippikin\Pippikin
