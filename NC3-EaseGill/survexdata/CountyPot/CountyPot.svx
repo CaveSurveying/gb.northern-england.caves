@@ -2,6 +2,7 @@
 
 *begin CountyPot
 
+*export cy12a.013
 *export cy10di.001
 *export cy.067a
 *export cy.046

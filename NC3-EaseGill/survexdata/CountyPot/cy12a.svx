@@ -7,8 +7,10 @@
 ;;;*equate	cy12a.004	cy12.038	;bottom of climb up to passage to Ease Gill Aven
 
 *begin	cy12a
+
 ;*export 001
 *export 004
+*export 013
 
 *calibrate compass	+5.00
 *calibrate clino	+00.5

@@ -7,6 +7,57 @@
 *export LinkPot.lk01.034	; tag at Echo aven
 *export LinkPot.lk12.033  	; via the Grind
 
+*export lancasterhole.l2.010
+*export lancasterhole.l4.028
+*export lancasterhole.l5.016
+*export woodhouseway.wh.87
+*export epc71.es5.042
+*export epc71.wm.045
+*export maracaibo.mar03.011
+*export mancunianway.maw1.012
+*export mancunianway.maw2.24
+*export manchesterbypass.man1.007
+*export maindownstreamsump.mds.031
+*export countypot.cy.055
+*export countypot.cy12.001
+*export countypot.cy12.017
+*export countypot.cy12a.013
+*export countypot.wrii.119
+*export tridentseries.trident04.001
+*export middlemaindrain.md4.001
+*export wretchedrabbit.wr.010
+*export wretchedrabbit.wr.015
+*export wretchedrabbit.wr.053
+*export wretchedrabbit.wr.078
+*export wretchedrabbit.wri.001
+*export wretchedrabbit.wr16.033
+*export spiralstaircase.p7b.046
+*export slitsinks.ss01.014
+*export theborehole.b03.051
+*export theborehole.b03.208
+*export theborehole.b03.087g
+*export theborehole.b03.076
+*export poolsink.p1a.023
+*export poolsink.p1a.065
+*export poolsink.p1a.070
+*export poolsink.p4a.025
+*export boundarypot.bdy4.003a
+*export topsink.t01bii.028
+*export topsink.t02i.010
+*export topsink.t05a.000
+*export topsink.t09e.012
+*export topsink.t10a.006
+*export topsink.t10d.34
+*export topsink.t10e.019
+*export uppermaindrain.md2ci.001
+*export uppermaindrain.md3.001
+*export uppermaindrain.md3.014
+*export uppermaindrain.md3i.021
+*export uppermaindrain.md3ii.007
+*export gypsumcavern.gyc1.023
+*export linkpot.lk19.001
+*export pippikinpot.pip02a.001
+
 *include easegill-gps-kdixon-2012 ; include Kevin Dixon accurate GPS points
 
 ; SURFACE FIXED POINTS RETAINED IN ORIGINAL FILES HENCE COMMENTED OUT

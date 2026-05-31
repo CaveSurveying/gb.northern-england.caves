@@ -1,4 +1,0 @@
-; restores all the internal fixed points
-
-*include easegill
-*include extracted_fixes

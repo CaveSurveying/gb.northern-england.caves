@@ -1,0 +1,4 @@
+; restores all underground fixed points
+
+*include easegill
+*include underground_fixed_points
