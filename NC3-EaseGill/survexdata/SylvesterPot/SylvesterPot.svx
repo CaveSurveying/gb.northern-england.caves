@@ -1,6 +1,8 @@
 ; Sylvester Pot
 
 *begin SylvesterPot
+
+*export syl2.024
 *export syl2.425
 *export syl2.503
 

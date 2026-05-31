@@ -15,7 +15,7 @@
 *calibrate clino	+0.50
 *calibrate tape		 0.00	
 
-*fix 001 67813.55 81032.37 305.30 ;st001=tag at Rock of Ages
+; *fix 001 67813.55 81032.37 305.30 ;st001=tag at Rock of Ages ; UNDERGROUND
 
 001	002	01.52	 -	UP	;st001=tag at Rock of Ages
 002	003	02.44	321.0	-14.0

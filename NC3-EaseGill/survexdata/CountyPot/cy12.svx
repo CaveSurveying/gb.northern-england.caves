@@ -22,8 +22,8 @@
 
 *calibrate compass	+5.00
 
-*fix 001 67403.14 80673.44 259.51 ;aadw.cy12.001
-*fix 017 67286.07 80677.75 251.46 ;aadw.cy12.017 tag at Dismal Junc.
+; *fix 001 67403.14 80673.44 259.51 ;aadw.cy12.001 ; UNDERGROUND
+; *fix 017 67286.07 80677.75 251.46 ;aadw.cy12.017 tag at Dismal Junc. ; UNDERGROUND
 
 001	002	01.40	333.0	-20.0	;st001=tag left of platypus nose
 002	003	07.20	271.0	-09.0	;st002 is end of Platypus Nose

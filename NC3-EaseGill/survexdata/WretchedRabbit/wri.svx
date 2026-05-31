@@ -13,7 +13,7 @@
 *calibrate clino	-2.50
 ;*calibrate tape		
 
-*fix 001 67600.42 80715.81 303.05 ;edge of sheet 3c
+; *fix 001 67600.42 80715.81 303.05 ;edge of sheet 3c ; UNDERGROUND
 
 001	002	04.04	  -	 UP	;stn 001 is corner on Ray's solo survey with handy shelf for note book
 003	002	05.08	067.0	-01.0	;stn 002 top of rift

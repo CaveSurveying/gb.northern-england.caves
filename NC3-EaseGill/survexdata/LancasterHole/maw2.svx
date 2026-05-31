@@ -24,7 +24,7 @@
 
 *calibrate compass	+6.50
 
-*fix 24 67321.56 80605.89 283.75 ;st20 is top of first pitch to Clough's Passage
+; *fix 24 67321.56 80605.89 283.75 ;st20 is top of first pitch to Clough's Passage ; UNDERGROUND
 
 0	1	7.6	216	+10
 1	2	8.0	186	+01

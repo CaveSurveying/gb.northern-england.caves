@@ -14,7 +14,7 @@
 *calibrate compass	+5.27
 *calibrate tape	+0.5
 
-*fix 025 67597.21 80826.17 280.75 ;edge of sheet 3c
+; *fix 025 67597.21 80826.17 280.75 ;edge of sheet 3c ; UNDERGROUND
 
 000	001	05.00	242.0	+25.0	;P4.000=P3.044 Top of block on shelf
 001	002	03.80	245.0	-20.0

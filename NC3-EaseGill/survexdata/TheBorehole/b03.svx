@@ -18,10 +18,10 @@
 *export 221
 *export 208
 
-*fix 051 67621.80 80732.84 293.09 ;head height at bottom of main pitch
-*fix 208 67543.19 80811.17 273.73 ;head height sitting astride drop to Borehole in Eccles Bypass
-*fix 087g 67604.03 80771.50 293.98 ;edge of sheet 3c
-*fix 076 67600.04 80756.39 288.26 ;edge of sheet 3c
+; *fix 051 67621.80 80732.84 293.09 ;head height at bottom of main pitch ; UNDERGROUND
+; *fix 208 67543.19 80811.17 273.73 ;head height sitting astride drop to Borehole in Eccles Bypass ; UNDERGROUND
+; *fix 087g 67604.03 80771.50 293.98 ;edge of sheet 3c ; UNDERGROUND
+; *fix 076 67600.04 80756.39 288.26 ;edge of sheet 3c ; UNDERGROUND
 
 *calibrate compass	+5.27	;(pete hall 11/05/96)
 

@@ -2,6 +2,7 @@
 
 *begin Mistral
 
+*export ms.001
 *export ms.035
 
 *equate ms.010 ms2.001 ; from ms2.svx.bak

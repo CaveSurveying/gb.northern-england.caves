@@ -7,6 +7,7 @@
 
 *begin nss01
 
+*export 024
 *export 000
 
 *calibrate compass		+3.00
@@ -15,7 +16,7 @@
 
 *entrance 024
 
-*fix 024 67657.61 80699.73 319.37 ;tag at entrance to upstream hole New Slit Sinks
+; *fix 024 67657.61 80699.73 319.37 ;tag at entrance to upstream hole New Slit Sinks ; SURFACE
 
 ;st000 to 008 in Borehole
 *flags duplicate ; (New Slit Sinks - Borehole) tie-in duplicates 033-040 in b02 

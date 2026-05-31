@@ -2,6 +2,7 @@
 
 *begin LinkPot
 
+*export lk01.001
 *export lk01.034
 *export lk03.044
 *export lk12.033

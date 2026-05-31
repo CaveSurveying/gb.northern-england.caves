@@ -14,7 +14,7 @@
 *calibrate clino	+0.50
 *calibrate tape		 0.00
 
-*fix 34 67956.39 81086.27 316.28 ;st34 is l wall white dot in middle of calcite numbered in pencil
+; *fix 34 67956.39 81086.27 316.28 ;st34 is l wall white dot in middle of calcite numbered in pencil ; UNDERGROUND
 
 ;From	To	Disto	Comp	Clino
 0	1	2.32	181	+06

@@ -13,7 +13,7 @@
 *calibrate compass	+7.47
 ;*calibrate compass	+7.17
 
-*fix 87 66570.01 80589.94 272.00 ;edge of sheet 1
+; *fix 87 66570.01 80589.94 272.00 ;edge of sheet 1 ; UNDERGROUND
 
 001	3	3.60	236	25	;St001=MB217 Fall Pot Main Drain
 3	4	3.35	158	8

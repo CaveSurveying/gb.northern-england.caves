@@ -25,7 +25,7 @@
 
 *calibrate compass	+5.27
 
-*fix	028	67161.09	80802.87	264.69
+; *fix	028	67161.09	80802.87	264.69 ; UNDERGROUND
 
 001	002	10.25	198.0	+03.3	;001=UP157[upstream end of Oxbow top boulder] TAGGED
 002	003	04.30	270.0	+07.0

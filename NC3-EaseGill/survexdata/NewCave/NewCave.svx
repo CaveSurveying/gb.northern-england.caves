@@ -2,6 +2,8 @@
 
 *begin newCave
 
+*export new01.001
+
 *equate	new02.001 new01.025
 *equate	new03.001 new02.1
 *equate	new04.010 new03.001

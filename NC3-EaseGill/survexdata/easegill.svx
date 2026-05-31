@@ -1,3 +1,5 @@
+; Compilation of all Lancaster Hole / Ease Gill / Casterton caves, plus connected stuff on Leck Fell side
+
 *begin easegill
 
 *export EPC71.wm.001	; tag at Echo aven
@@ -6,6 +8,84 @@
 *export LinkPot.lk12.033  	; via the Grind
 
 *include easegill-gps-kdixon-2012 ; include Kevin Dixon accurate GPS points
+
+; SURFACE FIXED POINTS RETAINED IN ORIGINAL FILES HENCE COMMENTED OUT
+
+; BPotW appears necessary - not included in Kevin Dixon's data - retained in original file
+; *fix bullpotofthewitches.bw01.000 66221.29 81294.57 293.84 ; from line 5 in BullPotOfTheWitches/BullPotOfTheWitches.svx
+
+; Witches Cave appears necessary - retained in original file
+; *fix witchescave.wit.001 66029.79 80004.53 214.77 ; from line 7 in WitchesCave/WitchesCave.svx
+
+; Kirk Pot may also be necessary - retained in original file at present
+; *fix kirkpot.tag 66263.63 80196.70 250.43 ; from line 8 in KirkPot/KirkPot.svx
+
+; Pooh's Revenge (Pippikin) possibly necessary from molephone - retained in original file at present
+; *fix pippikinpot.poohsrevenge.3 66533.60 79695.40 214.69 ; from line 15 in PippikinPot/PoohsRevenge.svx
+
+; SURFACE FIXED POINTS EXTRACTED FROM FILES (probably should be moved into the top level minus one files)
+
+; Lancaster Hole main entrance pitch, surface fixed point
+*fix lancasterhole.l1.001 66403.16 80716.84 293.99 ; from line 34 in LancasterHole/l1.svx
+
+; Cow Pot entrance pitch, surface fixed point
+*fix cowpot.cw.001 66432.11 80853.89 300.44 ; from line 25 in CowPot/CowPot.svx
+
+; Appears to be Sylvester Pot entrance, surface fixed point
+*fix sylvesterpot.syl2.024 67366.32 80585.23 315.53 ; from line 17 in SylvesterPot/syl2.svx
+
+; Entrance to County Pot, surface fixed point
+*fix countypot.cya.001 67532.25 80576.64 314.29 ; from line 21 in CountyPot/cya.svx
+
+; Likely entrance to Swindon Hole, surface tag fixed point
+*fix swindonhole.swh.001 67570.13 80603.81 314.30 ; from line 22 in SwindonHole/swh.svx
+
+; Corner Sink entrance, surface tag fixed point
+*fix cornersink.cns1.001 67586.94 80650.43 316.93 ; from line 22 in CornerSink/cns1.svx
+
+; New Cave entrance, surface tag fixed point
+*fix newcave.new01.001 67633.26 80672.92 318.31 ; from line 18 in NewCave/new01.svx
+
+; Wretched Rabbi entrance, surface tag fixed point
+*fix wretchedrabbit.wra.001 67632.71 80676.93 318.72 ; from line 24 in WretchedRabbit/wra.svx
+
+; Slit Sinks entrance, surface tag fixed point
+*fix slitsinks.ss02.029 67655.94 80697.81 319.37 ; from line 18 in SlitSinks/ss02.svx
+
+; New Slit Sinks entrance, surface tag fixed point
+*fix newslitsinks.nss01.024 67657.61 80699.73 319.37 ; from line 18 in NewSlitSinks/nss01.svx
+
+; The Borehole entrance, surface tag fixed point
+*fix theborehole.b01.001 67703.70 80708.48 322.56 ; from line 23 in TheBorehole/b01.svx
+
+; Pool Sink entrance, surface tag fixed point
+*fix poolsink.p1a.001 67717.83 80746.24 323.33 ; from line 44 in PoolSink/p1a.svx
+
+; Boundary Pot entrance, surface tag fixed point
+*fix boundarypot.bdy1.001 67867.13 80837.87 330.85 ; from line 23 in BoundaryPot/bdy1.svx
+
+; Top Sink entrance, surface tag fixed point
+*fix topsink.t01c.001 68037.63 81111.85 343.09 ; from line 24 in TopSink/t01c.svx
+
+; Pegleg Pot entrance, surface tag fixed point
+*fix peglegpot.peg01.001 66326.68 80243.74 257.87 ; from line 14 in PeglegPot/peg01.svx
+
+; Mistral entrance, surface tag fixed point
+*fix mistral.ms.001 66644.95 80323.02 272.74 ; from line 27 in Mistral/ms.svx
+
+; Bye George entrance, surface fixed point (no tag ?)
+*fix byegeorge.bg1.001 67126.52 79645.00 341.60 ; from line 16 in ByeGeorge/bg1.svx
+
+; Peterson Pot entrance, surface tag fixed point
+*fix peterson.pep.000 66706.00 79940.00 314.79 ; from line 15 in Peterson/pep.svx
+
+; Link Pot entrance, surface fixed point (scaff bar ?)
+*fix linkpot.lk01.001 66850.69 80345.27 279.94 ; from line 24 in LinkPot/lk01.svx
+
+; Pippikin Pot entrance, surface tag fixed point
+*fix pippikinpot.pip.001 66820.62 80097.71 320.16 ; from line 31 in PippikinPot/pip.svx
+
+; END OF LIST OF EXTRACTED SURFACE FIXED POINTS
 
 ; North Side of Ease Gill (was all in the EaseGill folder pre-2013)
 

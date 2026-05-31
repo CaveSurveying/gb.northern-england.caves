@@ -6,13 +6,15 @@
 ; *equate	pep.037a pip23.018
 
 *begin	pep
+
+*export 000
 *export 037a
 
 *entrance 000
 
 *calibrate compass	+5.00
 
-*fix 000 66706.00 79940.00 314.79 ;GPS
+; *fix 000 66706.00 79940.00 314.79 ; GPS ; SURFACE
 
 000	001	06.95	283.0	-44.0	;st000=tag
 001	002	03.50	 -	DOWN	;pitch

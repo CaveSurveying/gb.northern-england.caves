@@ -16,7 +16,7 @@
 *calibrate clino	+2.50
 *calibrate tape		-0.00
 
-*fix 046	67600.43 80734.63 289.77 ;edge of sheet 3c
+; *fix 046	67600.43 80734.63 289.77 ;edge of sheet 3c ; UNDERGROUND
 
 001	001a	03.44	 -	DOWN	;st001 is next to boulder in rift can just see boulders at foot of Sp.St.
 

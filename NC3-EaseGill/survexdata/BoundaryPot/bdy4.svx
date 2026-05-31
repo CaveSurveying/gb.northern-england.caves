@@ -14,7 +14,7 @@
 *calibrate clino		+0.50
 *calibrate tape		 0.00
 
-*fix 003a	67844.06 80865.91 295.43 ;foot of Bar Steward's Crawl pitch
+; *fix 003a	67844.06 80865.91 295.43 ;foot of Bar Steward's Crawl pitch ; UNDERGROUND
 
 001	002	07.78	139.0	+12.0	;st001=tag on boulder in middle of passage
 

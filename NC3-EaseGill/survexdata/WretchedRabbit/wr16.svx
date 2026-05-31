@@ -15,7 +15,7 @@
 *calibrate clino	+1.5
 *calibrate tape		+0.075
 
-*fix 033 67599.89 80714.54 291.89 ;edge of sheet 3c
+; *fix 033 67599.89 80714.54 291.89 ;edge of sheet 3c ; UNDERGROUND
 
 001	002	02.50	 -	UP	;tag=wr.038 in streamway
 002	003	02.10	001.5	+17.0

@@ -28,11 +28,11 @@
 ; *export 119
 *export 053
 
-*fix 010 67609.02 80718.08 293.15 ;end of Big Rift start of low passage
-*fix 015 67599.76 80718.87 292.23 ;edge of sheet 3c
-*fix 053 67536.59 80745.61 277.12 ;bolt hole at top of cascades
+; *fix 010 67609.02 80718.08 293.15 ;end of Big Rift start of low passage ; UNDERGROUND
+; *fix 015 67599.76 80718.87 292.23 ;edge of sheet 3c ; UNDERGROUND
+; *fix 053 67536.59 80745.61 277.12 ;bolt hole at top of cascades ; UNDERGROUND
 ; *fix 119 67317.34 80830.41 251.12 ;Eureka Junction MB2
-*fix 078 67503.25 80764.62 267.96 ;tag at climb up to rope chamber
+; *fix 078 67503.25 80764.62 267.96 ;tag at climb up to rope chamber ; UNDERGROUND
 
 *calibrate compass	+6.17
 

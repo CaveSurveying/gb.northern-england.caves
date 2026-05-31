@@ -18,7 +18,7 @@
 
 *calibrate compass	+5.00
 
-*fix 023 67616.67 80947.22 287.78 ;edge of sheet 3c
+; *fix 023 67616.67 80947.22 287.78 ;edge of sheet 3c ; UNDERGROUND
 
 ;start to	dist.	compass	clino	;comments
 

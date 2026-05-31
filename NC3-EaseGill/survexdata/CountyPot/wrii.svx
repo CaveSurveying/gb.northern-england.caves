@@ -20,7 +20,7 @@
 *export 117
 *export 119
 
-*fix 119 67317.34 80830.41 251.12 ;Eureka Junction MB2
+; *fix 119 67317.34 80830.41 251.12 ;Eureka Junction MB2 ; UNDERGROUND
 
 ;from big rift to MB2 eurika junction
 ;date:	19/07/96

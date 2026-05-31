@@ -7,13 +7,13 @@
 *begin	bg1
 *export 212
 *export 193
+*export 001
 
 *entrance 001
 
 *calibrate compass	+5.27
 
-
-*fix	001	67126.52 79645.00 341.60 ;ev.ss05.024b
+; *fix	001	67126.52 79645.00 341.60 ;ev.ss05.024b ; SURFACE
 
 001	002	03.00	228.0	-61.0
 002	003	02.60	353.0	-10.0

@@ -15,7 +15,8 @@
 
 *calibrate compass	+5.13
 
-*fix 001 66701.59 80152.17 259.62 ;all1.lk1.pml1.pkn1.pip02a.001
+; *fix 001 66701.59 80152.17 259.62 ;all1.lk1.pml1.pkn1.pip02a.001 ; UNDERGROUND
+
 *flags duplicate				;added back in by Simon Cornhill 2021/03/08
 001	002	06.26	182.0	 00.0	;st001=tag Dusty Junc.
 002	003	03.60	169.0	+10.0

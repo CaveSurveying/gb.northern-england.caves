@@ -14,7 +14,7 @@
 *calibrate clino	0.00
 *calibrate tape	+2.00
 
-*fix 011 67161.84 80639.07 257.12
+; *fix 011 67161.84 80639.07 257.12 ; UNDERGROUND
 
 001	002	02.50	 -	UP	;st001=tag at Tortuga Way
 002	003	07.25	105.0	+11.0	;st003 is head level,lying on large boulder upstream end of chamber

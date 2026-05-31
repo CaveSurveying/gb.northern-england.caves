@@ -2,6 +2,7 @@
 
 *begin CowPot
 
+*export cw.001
 *export cw.031
 *export ak01.014
 
@@ -22,7 +23,7 @@
 *equate cw6.007 cw9.001 ; from cw9.svx
 *equate cw7.005 cw8.001 ; from cw7.svx
 
-*fix cw.001 66432.11 80853.89 300.44 	;ev.ss26.044a
+; *fix cw.001 66432.11 80853.89 300.44 	;ev.ss26.044a ; SURFACE
 
 *include	cw
 *include	cw1

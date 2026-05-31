@@ -22,7 +22,7 @@
 *calibrate compass	0.00
 *calibrate clino	0.00
 
-*fix 001 67497.03 80888.29 266.67 ;bolt hole=UP18 in boulder in stream at Holbeck Junc.
+; *fix 001 67497.03 80888.29 266.67 ;bolt hole=UP18 in boulder in stream at Holbeck Junc. ; UNDERGROUND
 
 *calibrate compass	+5.27
 

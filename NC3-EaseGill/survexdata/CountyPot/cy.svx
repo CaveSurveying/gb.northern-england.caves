@@ -35,8 +35,8 @@
 
 ;*equate	087 wr117
 
-;*FIX 001 67532.25 80576.64 314.29 ;ev.ss01.035
-*fix 055 67450.06 80682.86 267.16 ;foot of PJ chimney
+;;*FIX 001 67532.25 80576.64 314.29 ;ev.ss01.035 <-- this has moved to cya.svx
+; *fix 055 67450.06 80682.86 267.16 ;foot of PJ chimney ; UNDERGROUND
 
 *calibrate compass	+5.27
 

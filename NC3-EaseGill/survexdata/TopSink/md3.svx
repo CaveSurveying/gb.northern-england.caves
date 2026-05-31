@@ -18,8 +18,8 @@
 
 *calibrate compass	+5.27
 
-*fix 001 67724.87 80939.64 276.59 ;bolt hole at bottom of pitch, Assembly Hall
-*fix 014 67600.32 80956.55 268.04 ;edge of sheet 3c
+; *fix 001 67724.87 80939.64 276.59 ;bolt hole at bottom of pitch, Assembly Hall ; UNDERGROUND
+; *fix 014 67600.32 80956.55 268.04 ;edge of sheet 3c ; UNDERGROUND
 
 *flags duplicate ; (Assembly Hall) seems to be a tie-in duplicating 001-002 in md3d
 001	001a	05.90	004.0	-37.0	;st.001a=MB5 surveyed 12/10/96 RD & RS

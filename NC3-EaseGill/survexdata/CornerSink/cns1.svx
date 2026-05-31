@@ -19,7 +19,7 @@
 *calibrate clino	+00.5
 *calibrate tape	+2.00
 
-*fix	001	67586.94 80650.43 316.93 ;ev.sf3.011
+; *fix	001	67586.94 80650.43 316.93 ;ev.sf3.011 ; SURFACE
 
 001	002	03.69	 -	DOWN	;st001=tag at entrance
 002	003	08.13	315.0	-22.0	;tight cobbly rift

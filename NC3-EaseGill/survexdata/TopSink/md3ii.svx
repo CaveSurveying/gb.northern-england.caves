@@ -12,7 +12,7 @@
 *calibrate clino		+1.00
 *calibrate tape		  0.00
 
-*fix 007 67599.01 80965.73 270.71 ;edge of sheet 3c
+; *fix 007 67599.01 80965.73 270.71 ;edge of sheet 3c ; UNDERGROUND
 
 ;re-survey for position (so close it isn't needed)
 ;001	002	16.74	070.0	+01.0	;st001=tag at calcite grille

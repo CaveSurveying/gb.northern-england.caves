@@ -3,10 +3,11 @@
 ;Date:	10/02/07
 ;Instruments:	PAG + disto
 
-*begin	new01
-
 *date 2007.02.10
 
+*begin	new01
+
+*export 001
 *export 025
 
 *calibrate compass	+3.00
@@ -15,7 +16,7 @@
 
 *entrance 001
 
-*fix 001 67633.26 80672.92 318.31	;tag at entrance	
+; *fix 001 67633.26 80672.92 318.31	;tag at entrance ; SURFACE
 
 ;Entrance to junction with upper series
 001	002	00.35	-	 DOWN	;st001=tag at entrance

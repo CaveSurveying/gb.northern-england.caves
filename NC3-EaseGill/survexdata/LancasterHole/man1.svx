@@ -22,7 +22,7 @@
 
 *calibrate compass	+5.13
 
-*fix 007 67486.38 80670.00 279.46 ;tag at Battle of Britain
+; *fix 007 67486.38 80670.00 279.46 ;tag at Battle of Britain ; UNDERGROUND
 
 *flags duplicate ; (Manchester Bypass - Spout Hall) tie-in duplicates 001-003 in cyb
 001	002	03.70	004.5	+07.0	;st001=tag at Spout Hall

@@ -19,7 +19,7 @@
 *calibrate clino	+0.05
 *calibrate tape	+1.00
 
-*fix	001	67570.13 80603.81 314.30 ;ev.sf3.013b
+; *fix	001	67570.13 80603.81 314.30 ;ev.sf3.013b ; SURFACE
 
 001	002	03.05	345.0	+16.0	;st001=tag
 002	003	02.68	 -	DOWN

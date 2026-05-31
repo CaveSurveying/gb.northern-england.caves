@@ -18,7 +18,7 @@
 *calibrate clino	+3.5
 *calibrate tape	+1.00
 
-*fix 001 67532.25 80576.64 314.29 ;ev.ss01.035
+; *fix 001 67532.25 80576.64 314.29 ;ev.ss01.035 ; SURFACE
 
 001	002	05.20	 -	DOWN	;entrance to County Pot
 003	002	02.90	106.0	+25.0

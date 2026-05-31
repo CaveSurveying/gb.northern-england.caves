@@ -16,6 +16,8 @@
 ;*equate ms.022	ms3a.008c
 
 *begin	ms
+
+*export 001
 *export 010
 *export 018
 *export 016a
@@ -24,7 +26,7 @@
 
 *entrance 001
 
-*fix 001 66644.95 80323.02 272.74 ;sf6.009a
+; *fix 001 66644.95 80323.02 272.74 ;sf6.009a ; SURFACE
 
 *calibrate compass	+5.26
 

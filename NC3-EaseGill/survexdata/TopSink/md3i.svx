@@ -16,7 +16,7 @@
 ;*calibrate tape		+0.20
 *calibrate tape		+0.09
 
-*fix 021 67599.40 80955.56 267.31 ;edge of sheet 3c
+; *fix 021 67599.40 80955.56 267.31 ;edge of sheet 3c ; UNDERGROUND
 
 *flags duplicate ; (Holbeck to Assembly) main passage, already covered by 003-027 in md3
 001	002	06.70	019.0	-08.0

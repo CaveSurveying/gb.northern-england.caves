@@ -13,6 +13,8 @@
 ;*equate	lk01.003 lk01a.009	;tag at Bypus Bypass
 
 *begin	lk01
+
+*export 001
 *export 002 
 *export 003 
 *export 008 
@@ -21,7 +23,7 @@
 
 *entrance 001
 
-*fix 001 66850.69 80345.27 279.94 ;ev.sf5.014
+; *fix 001 66850.69 80345.27 279.94 ;ev.sf5.014 ; SURFACE
 
 *calibrate compass	+5.13
 

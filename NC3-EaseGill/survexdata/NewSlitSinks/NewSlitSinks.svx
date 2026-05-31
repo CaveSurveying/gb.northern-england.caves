@@ -1,6 +1,8 @@
 ;New Slit Sinks
 
 *begin NewSlitSinks
+
+*export nss01.024
 *export nss01.000
 
 *include nss01

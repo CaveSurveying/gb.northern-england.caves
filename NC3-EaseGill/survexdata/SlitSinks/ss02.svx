@@ -8,6 +8,7 @@
 *begin	ss02
 
 *export 000
+*export 029
 
 *calibrate compass		+3.00
 *calibrate clino		-3.50
@@ -15,7 +16,7 @@
 
 *entrance 029
 
-*fix 029 67655.94 80697.81 319.37 ;all1.aeg1.asf.sf3.007
+; *fix 029 67655.94 80697.81 319.37 ;all1.aeg1.asf.sf3.007 ; SURFACE
 
 000	001	02.00	033.0	+53.0
 002	001	02.75	344.0	-02.0

@@ -7,11 +7,11 @@
 
 *begin	peg01
 
-*export 002 036 043
+*export 001 002 036 043
 
 *calibrate compass	+5.13
 
-*fix 001 66326.68 80243.74 257.87 ;sf7.001
+; *fix 001 66326.68 80243.74 257.87 ;sf7.001 ; SURFACE
 
 001	002	00.90	024.0	+13.5	;st001=tag suface
 002	003	01.80	 -	DOWN	;st002 to 005 is climb down

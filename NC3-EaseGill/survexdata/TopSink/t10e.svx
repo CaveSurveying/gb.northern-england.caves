@@ -12,7 +12,7 @@
 *calibrate clino	 0.00
 *calibrate tape		+1.00
 
-*fix 019 67925.89 81083.44 319.60 ;st019=cable at start of Danish Passage
+; *fix 019 67925.89 81083.44 319.60 ;st019=cable at start of Danish Passage ; UNDERGROUND
 
 001	00x	06.00	095.0	+31.0	;st001 is head height & 00x is choked with sand
 001	002	07.06	277.0	-09.0	;st 222deg from st001 is Q, P is 028deg both 5m up wall of chamber both continue

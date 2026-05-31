@@ -1,5 +1,6 @@
 *begin ByeGeorge
 
+*export bg1.001
 *export	mm1.079
 *export	bg2.044
 

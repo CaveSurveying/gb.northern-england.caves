@@ -8,13 +8,14 @@
 
 *begin syl2
 
+*export 024
 *export 425
 *export 503
 
 *entrance 024
 
 ;;*fix 024 67369.28 80576.37 315.53;ev.sf4.010h
-*fix 024 67366.32 80585.23 315.53 ;aadw.sf4.010h
+;*fix 024 67366.32 80585.23 315.53 ;aadw.sf4.010h ; SURFACE
 
 ;*calibrate compass	+6.17
 *calibrate compass	+4.17

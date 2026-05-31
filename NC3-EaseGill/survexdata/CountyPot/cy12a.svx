@@ -14,7 +14,7 @@
 *calibrate clino	+00.5
 ;*calibrate tape	
 
-*fix 013 67165.14 80758.07 243.53	
+; *fix 013 67165.14 80758.07 243.53 ; unclear where this is, possibly edge of a sheet ; UNDERGROUND
 
 ; the following stations moved to cy12ai in Mancunian Way
 ;001	002	11.20	345.0	-04.0	;st001=bottom of rope in Ease Gill Aven

@@ -21,7 +21,7 @@
 *calibrate clino		-3.50
 *calibrate tape		-0.10
 
-*fix 014 67622.78 80723.56 310.21
+; *fix 014 67622.78 80723.56 310.21 ; not sure what this is ! ; UNDERGROUND
 
 001	000	04.35	065.0	+65.0
 001	002	02.20	228.0	-04.0

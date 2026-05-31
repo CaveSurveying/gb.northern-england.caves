@@ -20,7 +20,7 @@
 *calibrate clino	+1.00
 *calibrate tape		 0.00
 
-*fix 001 66878.69 80331.22 258.13 ;st001 is old chain bolt at Tigers Inlet
+; *fix 001 66878.69 80331.22 258.13 ;st001 is old chain bolt at Tigers Inlet ; UNDERGROUND
 
 002	001	05.20	171.0	+46.0	;st001=bolt at Tiger's Inlet
 002	003	02.37	216.0	-25.0

@@ -17,7 +17,7 @@
 *calibrate clino	00.0
 *calibrate tape		00.0
 
-*fix 010 67844.78 81071.71 307.48 ;is striped tape on top of spike at start of CRG passage
+; *fix 010 67844.78 81071.71 307.48 ;is striped tape on top of spike at start of CRG passage ; UNDERGROUND
 
 *flags duplicate ; (part of Limerick junction) seems to duplicate 100-104 in t01bii.svx
 001	002	00.59	 -	UP	;st001=tag at Limerick Junction UP105

@@ -24,7 +24,7 @@
 *export 016
 *calibrate compass	+5.27
 
-*fix 016 67334.81 80811.16 277.59 ;tag at Main Line Terminus
+; *fix 016 67334.81 80811.16 277.59 ;tag at Main Line Terminus ; UNDERGROUND
 
 ; the following legs are now cut&paste to l5i.svx
 ;001	002	17.47	226.5	+19.0	;SOX001=MB3=md5.012 Stop Pot(002=Left-hand side of boulder slope near drop to 4 Ways)

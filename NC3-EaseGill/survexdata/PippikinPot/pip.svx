@@ -28,7 +28,7 @@
 *calibrate clino	+1 		;calibration to align with later survey ;added back in by Simon Cornhill 2021/03/08
 
 
-*fix	001	66820.62 80097.71 320.16	;ev.ss05.001
+; *fix	001	66820.62 80097.71 320.16	;ev.ss05.001 ; SURFACE
 
 001	002	01.50	222.0	-31.0	;st001=surface tag
 002	003	07.60	 -	DOWN

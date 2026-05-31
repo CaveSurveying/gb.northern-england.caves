@@ -25,7 +25,7 @@
 *calibrate clino	+1.00
 *calibrate tape		 0.00
 
-*fix 028 67891.02 81100.28 307.14 ;cable tie at head height on cross-over passage Bradshaw's Pass.
+; *fix 028 67891.02 81100.28 307.14 ;cable tie at head height on cross-over passage Bradshaw's Pass. ; UNDERGROUND
 
 002	001	06.55	337.0	+58.0	;st001 is knot on Y-hang on Penknife Pitch
 002	003	05.32	239.0	-03.0	;st002 is head height on rope from Wisdom Tooth Passage

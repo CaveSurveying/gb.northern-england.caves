@@ -21,7 +21,7 @@
 
 *entrance 001
 
-*fix 001 67632.71 80676.93 318.72 ;ev.sf3.008a
+; *fix 001 67632.71 80676.93 318.72 ;ev.sf3.008a ; SURFACE
 
 *calibrate compass	+5.00
 

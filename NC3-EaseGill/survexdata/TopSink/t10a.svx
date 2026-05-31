@@ -14,7 +14,7 @@
 *calibrate clino		0.00
 *calibrate tape			0.00
 
-*fix 006 67979.84 81070.70 314.26 ;st006=cable tie on spike near waterfall passage
+; *fix 006 67979.84 81070.70 314.26 ;st006=cable tie on spike near waterfall passage ; UNDERGROUND
 
 001	001a	03.70	260.0	 -	;right hand side of choke facing in
 001	001b	04.30	153.0	+06.0	;left hand side of choke facing in

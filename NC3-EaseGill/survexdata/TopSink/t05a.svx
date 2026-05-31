@@ -15,7 +15,7 @@
 *calibrate clino		 -0.50
 *calibrate tape			  0.00
 
-*fix 000 67935.02 81046.88 302.38 ;Bottom of Pitch in CRG to Booth-Eyre
+; *fix 000 67935.02 81046.88 302.38 ;Bottom of Pitch in CRG to Booth-Eyre ; UNDERGROUND
 
 000	001	09.57	 -	UP	;st000 is bottom of pitch
 002	001	02.06	302.0	-49.0

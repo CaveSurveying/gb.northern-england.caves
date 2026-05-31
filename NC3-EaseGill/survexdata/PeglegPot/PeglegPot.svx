@@ -2,7 +2,7 @@
 
 *begin	PeglegPot
 
-*export peg01.002
+*export peg01.001 peg01.002
 
 *entrance peg01.002
 

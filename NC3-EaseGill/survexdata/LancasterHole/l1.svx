@@ -15,10 +15,11 @@
 ;;;*equate L1.026	Cw.031
 ;;*equate	l1.026	l2.001
 
-*begin	l1
-
 *date 1996.08.31
 
+*begin	l1
+
+*export 001
 *export 004
 *export 005
 *export 006
@@ -31,7 +32,7 @@
 
 *calibrate compass	+5.27
 
-*fix	001	66403.16 80716.84 293.99	;ev.ss26.038
+; *fix	001	66403.16 80716.84 293.99	;ev.ss26.038 ; SURFACE
 
 001	002	34.00	 -	DOWN	;ent.pitch
 002	003	02.48	 -	UP
