@@ -147,7 +147,7 @@
 *EQUATE WitchesII.WitchesII-2.001	easegill-gps-kdixon-2012.009	;Kevin Dixon GPS
 
 *include WitchesCave/WitchesCave
-; *fix WitchesCave.wit.001 66029.79 80004.53 214.77 ; moved into WitchesCave.svx (where it belongs!) PBW 2026-05-31
+; *fix WitchesCave.wit.001 66029.79 80004.53 214.77 ; moved into WitchesCave.svx PBW 2026-05-31
 *equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x
 
 *include LeckBeckHead/LeckBeckHead
