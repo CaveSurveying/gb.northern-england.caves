@@ -5,11 +5,13 @@
 ;;*equate	mds.001	md8.079a
 
 *begin	mds
-*export 001
 
-*data diving from to length bearing fromdepth todepth
+*export 001
+*export 031
 
 *calibrate compass	+6.17
+
+*data diving from to length bearing fromdepth todepth
 
 ; *fix 031 66310.71	80490.52	185.09 ; UNDERGROUND
 

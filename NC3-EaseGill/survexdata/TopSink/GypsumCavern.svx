@@ -2,9 +2,11 @@
 
 *begin GypsumCavern
 
+*export gyc1.001
+*export gyc1.023
 *export gyc3.016
 *export gyc3.119
-*export gyc1.001
+
 *equate gyc1.012 gyc4.094 ; from gyc1.svx
 *equate gyc1.016 gyc2.000 ; from gyc1.svx
 *equate gyc1.020 gyc4.081 ; from gyc1.svx

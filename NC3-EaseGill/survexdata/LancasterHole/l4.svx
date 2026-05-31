@@ -14,14 +14,16 @@
 ;;*equate	l4.017	l4b.001	;joined to the Minarets
 
 *begin	l4
-*export 025
+
 *export 001
-*export 014
 *export 005
-*export 017
 *export 005a
-*export 030
+*export 014
+*export 017
+*export 025
+*export 028
 *export 028a
+*export 030
 
 *calibrate compass	+5.27
 

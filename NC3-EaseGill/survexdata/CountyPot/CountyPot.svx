@@ -6,7 +6,9 @@
 *export cy10di.001
 *export cy.067a
 *export cy.046
+*export cy.055
 *export cy12a.004
+*export cy12.001
 *export cy12.017
 *export cya.001
 *export cyb.012

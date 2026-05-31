@@ -8,6 +8,8 @@
 ;*equate	es5.039	es18.000
 
 *begin	es5
+
+*export 042
 *export 000
 *export 039
 

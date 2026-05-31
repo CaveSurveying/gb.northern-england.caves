@@ -14,12 +14,13 @@
 ;*equate	t01bii.028 t01biii.001 ;st001 is cable tie at cross-over in Bradshaw's Passage
 
 *begin	t01bii
-*export 100b
-*export 002
+
 *export 001
+*export 002
 *export 027
-*export 055
 *export 028
+*export 055
+*export 100b
 
 *calibrate compass	+1.00
 *calibrate clino	+1.00

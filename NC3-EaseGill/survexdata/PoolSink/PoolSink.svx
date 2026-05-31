@@ -2,10 +2,14 @@
 
 *begin	PoolSink
 
+*export p1a.001
+*export p1a.023
+*export p1a.065
+*export p1a.070
 *export p1a.078
 *export p1a.105
-*export p1a.001
 *export p2a.208a
+*export p4a.025
 
 *equate p1a.023 p1bi.001 ; from p1a.svx
 *equate p1a.023 p1d.001 ; from p1a.svx

@@ -10,11 +10,13 @@
 ;*equate	gyc1.024	gyc5.001 ;tag at end of Gypsum
 
 *begin	gyc1
-*export 024
+
 *export 001
 *export 012
 *export 016
 *export 020
+*export 023
+*export 024
 
 *calibrate compass	+5.00
 

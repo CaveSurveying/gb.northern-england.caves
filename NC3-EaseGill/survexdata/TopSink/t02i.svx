@@ -9,8 +9,9 @@
 ;*equate	t02i.010 t01biii.029 ;st010 is striped tape on top of spike at start of passage
 
 *begin	t02i
-*export 010
+
 *export 001
+*export 010
 *export 042
 
 *calibrate compass	00.0

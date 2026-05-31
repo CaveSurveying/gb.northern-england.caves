@@ -23,16 +23,18 @@
 ;*EQUATE	P1a.078	B03.212d	;joined to Borehole through bedding in T piece
 
 *begin	p1a
-*export 065
-*export 083
-*export 068
-*export 038
-*export 078
+
 *export 001
 *export 023
+*export 038
 *export 048
-*export 103
 *export 057
+*export 065
+*export 068
+*export 070
+*export 078
+*export 083
+*export 103
 *export 105
 
 *calibrate compass	+4.5
@@ -42,7 +44,6 @@
 *entrance 001
 
 ; *fix 001 67717.83 80746.24 323.33 ;ev.sf3.001 ; SURFACE
-
 ; *fix 023 67721.03 80780.33 303.58 ;Anemonite Junction ; UNDERGROUND
 ; *fix 065 67636.01 80825.15 276.33 ;mole phone base at bottom of dry last pitch ; UNDERGROUND
 ; *fix 070 67589.04 80830.84 270.62 ;near edge of sheet 3c ; UNDERGROUND

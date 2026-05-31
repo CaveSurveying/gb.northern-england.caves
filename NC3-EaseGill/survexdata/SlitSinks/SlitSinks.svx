@@ -2,8 +2,9 @@
 
 *begin SlitSinks
 
-*export ss02.029
 *export ss01.000
+*export ss01.014
+*export ss02.029
 
 *equate ss01.025 ss02.000 ; from ss01.svx
 

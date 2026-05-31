@@ -14,8 +14,6 @@
 ; this fixes station 3 to be under MolePhone point BM38
 *fix	3	66533.60 79695.40 214.69	;ev.ss05.001
 
-
-
 *data normal from to tape compass clino
  *data normal from to tape compass clino
  1	 2		34		330		-

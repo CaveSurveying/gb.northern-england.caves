@@ -12,8 +12,9 @@
 ;;*equate lk19.012 lk22.025 ;st012=tag at junctions
 
 *begin	lk19
-*export 001
+
 *export 000
+*export 001
 *export 012
 
 *calibrate compass	+5.00

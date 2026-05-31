@@ -12,9 +12,11 @@
 ;;*equate md3.001	md3d.001 ;bolt hole at bottom of climb
 
 *begin	md3
+
 *export 001
-*export 027
 *export 006
+*export 014
+*export 027
 
 *calibrate compass	+5.27
 

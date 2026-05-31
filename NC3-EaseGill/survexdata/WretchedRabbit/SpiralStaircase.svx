@@ -1,8 +1,10 @@
 ; Spiral Staircase
 
 *begin SpiralStaircase
-*export p7b.002
+
 *export p7b.001
+*export p7b.002
+*export p7b.046
 
 *include p7b
 

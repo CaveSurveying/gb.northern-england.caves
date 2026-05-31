@@ -14,11 +14,12 @@
 ;;*equate cy12.025	cy12b.002 ;downstream end of Molluscan Hall before slope to stream
 
 *begin	cy12
-*export 025
-*export 002
+
 *export 001
-*export 038
+*export 002
+*export 025
 *export 017
+*export 038
 
 *calibrate compass	+5.00
 

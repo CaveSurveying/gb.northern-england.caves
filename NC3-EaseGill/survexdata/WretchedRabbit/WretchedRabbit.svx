@@ -2,10 +2,16 @@
 
 *begin WretchedRabbit
 
-*export wra.001
+*export wr.010
+*export wr.015
+*export wr.053
+*export wr.078
 *export wr.117
+*export wri.001
+*export wra.001
 *export wr15.010
 *export wr16.004
+*export wr16.033
 *export wr18.005d
 
 *equate wr.010 wra.017 ; from wra.svx

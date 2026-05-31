@@ -7,8 +7,10 @@
 ;*equate t10d.13 t10e.019 ;cable tie
 
 *begin t10d
+
 *export 0
 *export 13
+*export 34
 
 *calibrate compass	+1.00
 *calibrate clino	+0.50

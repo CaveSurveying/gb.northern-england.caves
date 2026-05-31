@@ -3,6 +3,8 @@
 *begin WoodhouseWay
 
 *export wh.001
+*export wh.87
+
 *equate wh.31 wh01.010 ; from wh01.svx
 
 *include	wh

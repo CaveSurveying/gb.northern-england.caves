@@ -2,8 +2,9 @@
 
 *begin MancunianWay
 
-*export maw2.24
 *export maw1.001
+*export maw1.012
+*export maw2.24
 *export maw4.021
 *export cy12ai.004
 

@@ -3,6 +3,7 @@
 *begin Maracaibo
 
 *export mar01.021
+*export mar03.011
 
 *equate mar01.001 mar02.001 ; from mar01.svx
 *equate mar01.006 mar01a.001b ; from mar01a.svx

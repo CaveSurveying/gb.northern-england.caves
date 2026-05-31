@@ -7,7 +7,9 @@
 ;;*equate md3i.022 md3ii.004
 
 *begin	md3i
+
 *export 001
+*export 021
 *export 022
 
 *calibrate compass	+3.00

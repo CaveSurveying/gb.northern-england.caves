@@ -4,6 +4,7 @@
 
 *export bdy1.001b 
 *export bdy1.001
+*export bdy4.003a
 
 *equate bdy1.008 bdy1a.001 ; from bdy1a.svx
 *equate bdy1.008 bdy2a.001 ; from bdy2a.svx

@@ -11,8 +11,10 @@
 ; *equate SlitSinks.ss01.021 bh1.b02.041 ;middle of scaffold bar
 
 *begin	ss01
+
 *export 000
 ;; *export 021
+*export 014
 *export 025
 
 *equate 000 021 ; middle of scaffold bar

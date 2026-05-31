@@ -7,8 +7,10 @@
 ;*equate wr16.004 wr17.001
 
 *begin	wr16
+
 *export 001
 *export 004
+*export 033
 
 *calibrate compass	+3.50
 ;*calibrate compass	+5.00 ;recalibrated

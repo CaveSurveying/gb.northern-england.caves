@@ -3,13 +3,17 @@
 *begin UpperMainDrain
 
 *export md2ai.022
-*export md2ci.001
-*export md2b.024
-*export md2ci.016
 *export md2ai.106
-*export md3c.010
-*export md3c.009
+*export md2b.024
+*export md2ci.001
+*export md2ci.016
+*export md3.001
+*export md3.014
 *export md3.027
+*export md3c.009
+*export md3c.010
+*export md3i.021
+*export md3ii.007
 
 *equate md2ai.001 md3c.006 ; from md2ai.svx
 *equate md2ai.101 md2b.010a ; from md2ai.svx

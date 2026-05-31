@@ -60,7 +60,7 @@
 
 *include easegill-gps-kdixon-2012 ; include Kevin Dixon accurate GPS points
 
-; SURFACE FIXED POINTS RETAINED IN ORIGINAL FILES HENCE COMMENTED OUT
+; SURFACE FIXED POINTS RETAINED IN ORIGINAL FILES HENCE COMMENTED OUT HERE
 
 ; BPotW appears necessary - not included in Kevin Dixon's data - retained in original file
 ; *fix bullpotofthewitches.bw01.000 66221.29 81294.57 293.84 ; from line 5 in BullPotOfTheWitches/BullPotOfTheWitches.svx
@@ -74,7 +74,8 @@
 ; Pooh's Revenge (Pippikin) possibly necessary from molephone - retained in original file at present
 ; *fix pippikinpot.poohsrevenge.3 66533.60 79695.40 214.69 ; from line 15 in PippikinPot/PoohsRevenge.svx
 
-; SURFACE FIXED POINTS EXTRACTED FROM FILES (probably should be moved into the top level minus one files)
+; SURFACE FIXED POINTS EXTRACTED FROM FILES
+; (probably should be moved into the top level minus one files)
 
 ; Lancaster Hole main entrance pitch, surface fixed point
 *fix lancasterhole.l1.001 66403.16 80716.84 293.99 ; from line 34 in LancasterHole/l1.svx

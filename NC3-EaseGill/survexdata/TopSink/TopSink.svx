@@ -2,11 +2,18 @@
 
 *begin TopSink
 
-*export t06aii.001
+*export t01bii.028
 *export t01bii.055
-*export t09c.001f
-*export t09a.031
 *export t01c.001
+*export t02i.010
+*export t05a.000
+*export t06aii.001
+*export t09a.031
+*export t09c.001f
+*export t09e.012
+*export t10a.006
+*export t10d.34
+*export t10e.019
 
 *equate t01bi.001 t01c.050 ; from t01bi.svx
 *equate t01bi.039 t01bii.001 ; from t01bii.svx

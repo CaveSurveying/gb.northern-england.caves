@@ -6,7 +6,9 @@
 ;;*equate md3ii.004 md3i.022
 
 *begin	md3ii
+
 *export 004
+*export 007
 
 *calibrate compass		+4.00
 *calibrate clino		+1.00

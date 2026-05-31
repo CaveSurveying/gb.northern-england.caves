@@ -3,7 +3,9 @@
 *begin EPC71
 
 *export es.000
+*export es5.042
 *export wm.001
+*export wm.045
 *export GrindEasyStRoofTube.001
 
 *equate darkside.1 grindinghalt3.0 ; from darkside.svx

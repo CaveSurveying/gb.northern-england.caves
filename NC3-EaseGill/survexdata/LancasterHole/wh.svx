@@ -7,8 +7,10 @@
 ;*equate	wh.31 wh01.010 ;floor of climb up to Bat Chamber
 
 *begin wh
+
 *export 001
 *export 31
+*export 87
 
 *calibrate compass	+7.47
 ;*calibrate compass	+7.17

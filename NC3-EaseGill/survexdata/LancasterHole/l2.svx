@@ -9,9 +9,11 @@
 ;;*equate	l2.013	l3.001
 
 *begin	l2
+
 *export 001
-*export 013
+*export 010
 *export 012
+*export 013
 
 *calibrate compass	+5.27
 

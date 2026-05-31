@@ -9,8 +9,10 @@
 ;*equate p7b.002	p2a.208a ;cairn at bottom of Spiral Staircase
 
 *begin	p7b
-*export 002
+
 *export 001
+*export 002
+*export 046
 
 *calibrate compass	+5.50
 *calibrate clino	+2.50

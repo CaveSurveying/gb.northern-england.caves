@@ -8,7 +8,9 @@
 ;*equate	p4a.039	p3a.054
 
 *begin	p4a
+
 *export 000
+*export 025
 *export 039
 
 *calibrate compass	+5.27

@@ -6,6 +6,7 @@
 *export lk01.034
 *export lk03.044
 *export lk12.033
+*export lk19.001
 
 *equate lk01.002 lk01a.008a ; from lk01a.svx
 *equate lk01.003 lk01a.009 ; from lk01a.svx

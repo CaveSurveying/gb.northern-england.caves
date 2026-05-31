@@ -8,8 +8,10 @@
 ;*equate	maw1.025	maw2.0
 
 *begin	maw1
-*export 025
+
 *export 001
+*export 012
+*export 025
 *export 026
 
 *calibrate compass	+5.00
