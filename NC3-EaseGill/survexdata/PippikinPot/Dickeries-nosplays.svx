@@ -3,7 +3,7 @@
 ;Instruments:	Distox2, PDA/PocketTopo
 ;Distox2 calibrated error <0.5 degree
 
-*BEGIN Dickeries-nosplays
+*BEGIN dickeries-nosplays
 *CALIBRATE declination 0.43 ;https://ngdc.noaa.gov/geomag/calculators/magcalc.shtml#declination  54.21734306963717, -2.5161358421210482 0.43° W https://ngdc.noaa.gov/geomag/calculators/magcalc.shtml#declination 
 *EXPORT 000
 
@@ -40,7 +40,7 @@
 027	028	 4.64	182.80	 01.34
 028	029	 2.99	107.10	 00.02
 
-*END Dickeries-nosplays
+*END dickeries-nosplays
 
 ;*data passage station left right up down
 ;000	 2.54	 1.15	 6.48	 0.46	;station 0 = tip of rectangular boulder at bottom of Dropout Aven
