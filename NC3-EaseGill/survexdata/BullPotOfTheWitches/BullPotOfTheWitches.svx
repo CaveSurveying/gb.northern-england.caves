@@ -22,7 +22,7 @@
 *equate bw11.018 bw13.001 ; from bw11.svx
 *equate bw13.004 bw14.001 ; from bw13.svx
 
-*fix bw01.000 66221.29 81294.57 293.84 	;ev.ss26.008a
+*fix bw01.000 66221.29 81294.57 293.84 	;ev.ss26.008a ; SURFACE ; REQUIRED
 
 *entrance bw01.004
 

@@ -4,6 +4,8 @@
 
 *export wit7.001 wit.001 Witches1DryCave.18
 
+*fix wit.001 66029.79 80004.53 214.77 ; entrance tag ; SURFACE ; REQUIRED ; moved here from easegill.svx 
+
 *equate	wit7.001a	wit4.003
 *equate	wit1.001	wit.002c
 *equate	wit1.018	wit3.001	
