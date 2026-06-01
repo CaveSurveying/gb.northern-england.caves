@@ -1,4 +1,4 @@
-*begin wks ;West_Kingsdale_System
+*begin westkingsdale ; West_Kingsdale_System
 
 *cs OSGB:SD
 *cs out EPSG:27700
@@ -8,7 +8,7 @@
 *declination auto 67101  77807  373  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*include kdgps
+*include westkingsdale-gps-kdixon-2012 ; this file was called kdgps.svx renamed Becka May 26 for clarity
 *include KMC/Old_KMC
 *include KMC/KMC
 *include UpstreamSumps/UpstreamSumps
@@ -40,25 +40,24 @@
 ; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
 
 
-*equate Old_KMC.roof_tunnel.002	kdgps.vent
-*equate KMC.ValleyEntrance.0	kdgps.vent
+*equate Old_KMC.roof_tunnel.002	westkingsdale-gps-kdixon-2012.vent
+*equate KMC.ValleyEntrance.0	westkingsdale-gps-kdixon-2012.vent
 
 ;*equate KMC.PhilosophersCrawl2.15	Old_KMC.Master_Cave.106		;removed 
 *equate Old_KMC.Roof_Tunnel.052		KMC.KingsdaleMC1.1
-*equate TurbaryPot.entrance kdgps.3c18
+*equate TurbaryPot.entrance westkingsdale-gps-kdixon-2012.3c18
 
-*equate RowtenPot.Rowten_Projected.1	kdgps.tr		;basic projection only, needs re-surveying
-*equate Rowtencaves.rowtencave_surface.5hex	kdgps.3c21
-*equate	Rowtencaves.jinglingcavetop.1	kdgps.3c22	
+*equate RowtenPot.Rowten_Projected.1	westkingsdale-gps-kdixon-2012.tr		;basic projection only, needs re-surveying
+*equate Rowtencaves.rowtencave_surface.5hex	westkingsdale-gps-kdixon-2012.3c21
+*equate	Rowtencaves.jinglingcavetop.1	westkingsdale-gps-kdixon-2012.3c22	
 
-*equate JinglingPot.1.0   kdgps.3c22
-*equate Bullpot.1.23	kdgps.3c23
+*equate JinglingPot.1.0   westkingsdale-gps-kdixon-2012.3c22
+*equate Bullpot.1.23	westkingsdale-gps-kdixon-2012.3c23
 
 *equate	 Aquamole.Aquamole3.4 upstreamsumps.pt1.0
-*EQUATE  Aquamole.Aquamole1.1.0 kdgps.3c22
+*EQUATE  Aquamole.Aquamole1.1.0 westkingsdale-gps-kdixon-2012.3c22
 
-*equate	kdgps.3c26	Yordas1.ext
-
+*equate	westkingsdale-gps-kdixon-2012.3c26	Yordas1.ext
 
 
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
@@ -155,4 +154,4 @@
 *FIX Whisper_Pot REFERENCE 70170 78690 358
 *ENTRANCE Whisper_Pot
 
-*end  wks ;West_Kingsdale_System
+*end westkingsdale 

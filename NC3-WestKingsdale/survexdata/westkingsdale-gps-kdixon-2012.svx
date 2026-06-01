@@ -19,7 +19,7 @@
 ; OSGB36 co-ordinates are for the OS 100km square SD 
 ; to obtain full length co-ordinates, add 300000 to Easting and 400000 to Northing
 
-*begin	kdgps
+*begin	westkingsdale-gps-kdixon-2012 ; file was kdgps renamed 2026 by Becka for clarity
 *date 2013.07.01
 
 *export vent	;valley entrance centre of drum outer edge, start of Footleg survey
@@ -99,4 +99,4 @@ jp	tb2	2.279	142.0	-1.0	;tb2 is base of western most tree
 yp1	yp2	11.662	242.0	-11.0	;yp1 and yp2 are intermediate points on rocks
 yp2	3c26	11.340	265.0	-07.5	;3c26 is 8mm drill hole on right wall at narrowest part of cave entrance 0.16m below roof
 
-*end	kdgps
+*end westkingsdale-gps-kdixon-2012
