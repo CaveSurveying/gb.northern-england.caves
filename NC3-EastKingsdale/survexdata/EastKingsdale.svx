@@ -1,7 +1,7 @@
 ;Include file for East Kingsdale caves
 ;Created by Becka 07/07/2013
 
-*BEGIN EastKingsdale
+*BEGIN eastkingsdale
 
 *cs OSGB:SD
 *cs out EPSG:27700
@@ -124,5 +124,5 @@
 *FIX Valley_Exit 		REFERENCE 70570 78200 274
 *ENTRANCE Valley_Exit 
 
-*END EastKingsdale
+*END eastkingsdale
 
