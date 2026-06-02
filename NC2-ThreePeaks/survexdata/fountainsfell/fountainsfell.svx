@@ -1,12 +1,10 @@
-
-;Noel Snape / Holly Bradley / ULSA 2015 - 2016
+;Started by Noel Snape / Holly Bradley / ULSA 2015 - 2016
 ;Fountains Fell Bench Survey
-
-*cs OSGB:SD
-*cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
 
 *begin fountainsfell
 
+*cs OSGB:SD
+*cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
 
 *include ffgps
 *include GinglingHole/Gingling
@@ -26,15 +24,11 @@
 *equate gingling_hole_master_cave.gingling_sump_tube.6 FAKE_gingling_sump.2
 *equate Gingling.Gingling5.8c FAKE_gingling_sump.1  ;8c used as is splay down to water level from station at dive-line
 
-
 ;*equate Gingling.Gingling1.tag	ffgps.214  ;now "fixed" in Gingling main survex file
 ;*equate HammerPot.hammerentrance.0 ffgps.217 ;now "fixed" in Hammer main survex file
 ;*equate NewPastureCave.newpastureentrance.0 ffgps.211 ;now "fixed" in New Pasture main survex file
 
-
 *EQUATE DaleHeadPot_reconstruction.entrance ffgps.DH1
 *EQUATE EchoPot_reconstruction.entrance ffgps.212
-
-
 
 *end  fountainsfell
