@@ -1,4 +1,4 @@
-*begin NC3-NorthernCaves3-centreline ; include all caves in the NC3 Northern Caves 3 guidebook areas
+*begin NC3-threecountiesandnorthwest ; include all caves in the NC3 Northern Caves 3 guidebook areas
 
 *cs OSGB:SD
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
@@ -35,6 +35,6 @@
 
 *EQUATE	eastkingsdale.IllusionPot.illusion_3.6	scalesmoor.DaleBarnCave.ExpressWay-Recon.path5.0 
 
-*end NC3-NorthernCaves3-centreline
+*end NC3-threecountiesandnorthwest
 
 
