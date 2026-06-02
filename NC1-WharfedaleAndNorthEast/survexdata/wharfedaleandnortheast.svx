@@ -11,6 +11,7 @@
 
 *include DowCaveAndProvidencePot/DowCaveAndProvidencePot
 *include langstrothdale/langstrothdale
+; *include nidderdale/nidderdale ; no survex data to stitch in at the moment, this is a placeholder
 
 *end wharfedaleandnortheast
 
