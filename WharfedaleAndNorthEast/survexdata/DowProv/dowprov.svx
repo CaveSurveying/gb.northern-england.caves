@@ -4,7 +4,7 @@
 
 ; Surveyed 1982 (Dow Cave) -- 2015 (Dowbergill upstream of 800 yds chamber)
 
-; The `.svx` files here have unix-style line endings so on Windows you
+; The *.svx files here have unix-style line endings so on Windows you
 ; might have to use something like Notepad++ to look at them.
 
 ; Historically Providence Pot was classed as from the entrance to Stalagmite
