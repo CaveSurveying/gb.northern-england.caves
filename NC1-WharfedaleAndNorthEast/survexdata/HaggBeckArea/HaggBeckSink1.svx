@@ -1,10 +1,16 @@
+*begin	HaggBeckSink
+
+*export 030
+
+*fix 030 90021 78284 387
+
 ;Cave:	HaggBeckSink
 ;Surveyors:	Dave Ramsay Chris Smith
 ;Date:	30/04/06
 ;Instruments:	RRCPC Kit 2
-*begin	HaggBeckSink
-*export 030
-*fix 030 90021 78284 387
+
+*data normal from to length bearing gradient ignoreall
+
 002	001	6.90	330	+04.0	;stn1 is rock nobble on L 2m above sump
 001	001a	2.00	-	DOWN	;est leg to sump
 003	002	3.00	311	+01.0	;stn3 is ladder foot
@@ -37,4 +43,5 @@
 027	028	2.10	186	+01.0
 028	029	5.57	187	+00.5
 029	030	9.50	182	+17.0
+
 *end	HaggBeckSink

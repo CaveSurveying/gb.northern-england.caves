@@ -1,7 +1,12 @@
 ;Hagg Fell Area locations
 
-*include bss1
+*begin HaggFellArea
+
+*include BlackSheepSink ; was BSS1
 *include HaggGillPot
-*include lpot
-*include landlord
+*include HaggGillSink  ; added in by Becka
+*include LangstrothPot
+*include LandlordPot
 *include HaggBeckSink
+
+*end HaggFellArea

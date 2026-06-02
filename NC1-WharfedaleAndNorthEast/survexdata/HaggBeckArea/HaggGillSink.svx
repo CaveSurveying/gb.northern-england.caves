@@ -1,14 +1,16 @@
-;Cave:	HaggGillSink
+*begin	HaggGillSink
+
+;Cave:	HaggGillSink - note filename was given as HaggBeckSink but already a HaggBeckSink so Becka changed to HaggGillSink to match name within file
 ;Surveyors:	Dave Ramsay Chris Smith
 ;Date:	30/04/06
 ;Instruments:	RRCPC Kit 2
 
-
-
-*begin	HaggGillSink
 *entrance 030
+
 *fix	030	90013 	78289   395
 *Fix	031	89900	78600	388
+
+*data normal from to length bearing gradient ignoreall
 
 002	001	6.90	330	+04.0	;stn1 is rock nobble on L 2m above sump
 001	001a	2.00	-	Down	;est leg to sump
@@ -42,10 +44,5 @@
 027	028	2.10	186	+01.0
 028	029	5.57	187	+00.5
 029	030	9.50	182	+17.0
-
-
-
-
-
 
 *end	HaggGillSink

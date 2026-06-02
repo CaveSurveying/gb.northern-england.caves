@@ -1,9 +1,14 @@
-;bss1.svx
-       *data normal from to length bearing gradient 
-*begin bss1
+*begin BlackSheepSink
+
 *export MP
+
 *fix MP 90005 78584 384
-1      2         13.3    260      0
+
+;bss1.svx Becka assumed this is Black Sheep Sink, unclear what 1 means, 1st sink or 1st survey trip
+
+*data normal from to length bearing gradient ignoreall
+
+		1      2         13.3    260      0
        2      3            5    353      0
        3      4            4    298      0
        4      5          8.3    339      0
@@ -51,5 +56,6 @@
        29     30        5.45    117     10
        28     29       12.65    356     -5
        27     28        2.33    330      0
-*end bss1
+       
+*end BlackSheepSink
 

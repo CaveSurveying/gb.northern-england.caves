@@ -1,8 +1,10 @@
-;original data
-*data normal from to length bearing gradient
-*begin landlord
+*begin LandlordPot
+
 *export ent
+
 *fix ent 90271 78657 340
+
+;original data
 ;stn ent (was 14)  is top of scaffold poles at entrance;
 ;stn 22 is start of upstream survey;
 ;stn 12 is approx centre of passage at bottom 
@@ -10,6 +12,8 @@
 ;your stn 1;
 ;stn 1 is centre of passage at beginning
 ;of final chamber before lower passage ;dug out to sump
+
+*data normal from to length bearing gradient ignoreall
 1 1a 2.2 111 0
 2 1 3.8 153 0
 3 2 4.1 80 -25
@@ -18,7 +22,7 @@
 5 6 5.5 202 1.5
 6 7 2.4 261 9
 7 8 2.6 231 5
-8 9 2.6 295 7.5
+8 9 2.6 295 7.5LandlordPot
 9 10 2.5 184 1
 10 11 1.4 250 12
 11 12 3.7 337 4
@@ -30,4 +34,5 @@
 25 25b 3.0 190 0
 12 13 2.6 33 16
 13 ent 4.25 0 90
-*end landlord
+
+*end LandlordPot
