@@ -78,8 +78,9 @@
 ; uses *cs out UTM30N for WGS84 UTM zone 30N or *cs out EPSG:25830 for
 ; ETRS89 UTM zone 30N, one does not encounter this problem.
 
-*title dowprov
-*begin dowprov
+*title DowCaveAndProvidencePot
+
+*begin DowCaveAndProvidencePot
 
 *include DowCave/DowCave
 *include DowbergillPassage/Dowbergill1
@@ -94,4 +95,4 @@
 *include HagDyke ; surface feature -- building
 *flags not surface
 
-*end dowprov
+*end DowCaveAndProvidencePot
