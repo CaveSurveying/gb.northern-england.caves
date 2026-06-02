@@ -1,0 +1,13 @@
+;Langstrothdale including Hagg Fell Area locations
+
+*begin langstrothdale
+
+*include BlackSheepSink ; was BSS1
+*include HaggGillPot
+*include HaggGillSink  ; added in by Becka 2026
+*include LangstrothPot
+*include LandlordPot
+*include HaggBeckSink
+*include SatireCave ; added in by Becka 2026
+
+*end langstrothdale

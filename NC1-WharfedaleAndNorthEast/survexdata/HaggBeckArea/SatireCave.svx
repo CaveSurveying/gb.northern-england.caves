@@ -1,0 +1,31 @@
+*begin SatireCave
+
+; *export 0	; the entrance tag - unclear why exported so Becka commented out 2026
+
+*equate 0	PSC	;Tag
+
+*entrance PSC
+
+*fix PSC 90805 77705 395 ; Becka hopes to get a more accurate gps than the 8 digit one in the file
+
+; Locn:	Satire Cave, Bouther Gill, Wharfedale, Yorkshire, UK.
+*title "Satire Cave"
+*date 2003.04.12 ; discovered 2003.04.12
+*team GH/RGB
+; *instrument Suunto Compass/Clino, RST Tape
+; Calibration:none
+
+;readings grade 5
+;survey ordered from to
+;readings ordered length bearing gradient
+*data normal from to length bearing gradient ignoreall
+
+0 1 0.00   0 0    ;Entrance GR(90807770)
+1 2 4.00 270 0
+2 3 4.00 319 14
+3 4 9.10 353 1
+4 5 5.80 351 5
+5 6 3.50 089 0
+6 7 5.00 355 0
+
+*end SatireCave
