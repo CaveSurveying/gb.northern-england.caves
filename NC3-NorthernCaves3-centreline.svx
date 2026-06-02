@@ -35,9 +35,6 @@
 
 *EQUATE	eastkingsdale.IllusionPot.illusion_3.6	scalesmoor.DaleBarnCave.ExpressWay-Recon.path5.0 
 
-;Not actually in NC3 but here at least for now
-*INCLUDE Ingleborough/survexdata/ingleborough
-
 *end NC3-NorthernCaves3-centreline
 
 
