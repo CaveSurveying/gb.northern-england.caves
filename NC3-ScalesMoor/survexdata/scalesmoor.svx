@@ -1,6 +1,6 @@
 ;Include file for Scales Moor caves
 
-*BEGIN ScalesMoor
+*BEGIN scalesmoor
 
 *cs OSGB:SD
 *cs out EPSG:27700
@@ -30,4 +30,4 @@
 *FIX		DryGillCave			REFERENCE 71890 75960 236
 *ENTRANCE 	DryGillCave
 
-*END ScalesMoor
+*END scalesmoor

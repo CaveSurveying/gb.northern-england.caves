@@ -8,6 +8,8 @@
 
 *DECLINATION AUTO 70793.56 77377.74 368.43
 
+*EXPORT IllusionPot.illusion_3.6
+
 *INCLUDE BrownHillPot/BrownHillPot
 *INCLUDE CrescentPot/CrescentPot
 *INCLUDE GrowlingHole/GrowlingHole
@@ -23,10 +25,12 @@
 *EQUATE SpectaclePot.SpectaclePot-Recon1.path3.90a   	VesperPot.VesperPot-Recon1.path3.152a
 *EQUATE BrownHillPot.Floyds-Ent		ThunderHole.surface.0
 
+*SOLVE	;<<<This forces any survey errors added above here in the file to be distributed along the 
+; reconstructed centrelines see https://survex.com/docs/manual/datafile.htm#solve >>>
 
-*SOLVE	;<<<This forces any survey errors to be distributed along the reconstructed centrelines>>>
-*INCLUDE ../../ScalesMoor/survexdata/ScalesMoor
-*EQUATE	IllusionPot.illusion_3.6	ScalesMoor.DaleBarnCave.ExpressWay-Recon.path5.0 
+; This equate and the *include for Scales Moor cave now added a level up in NC3-centreline file
+; *INCLUDE ../../ScalesMoor/survexdata/ScalesMoor
+; *EQUATE	IllusionPot.illusion_3.6	ScalesMoor.DaleBarnCave.ExpressWay-Recon.path5.0 
 
 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;<<<< Entrance coordinates from Northern Caves >>>>
