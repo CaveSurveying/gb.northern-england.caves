@@ -5,7 +5,8 @@
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
-*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;Any files where the declination has ALREADY been applied (eg most data in EaseGill) should have its *include ABOVE this *declination line so that line does not apply
+*declination auto 85184.063	69704.284	415.252 ; Coordinates for Hammer Pot see FountainsFell-Area ffgps.svx file for data
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 *INCLUDE AlumPot-AREA/AlumPot-AREA.svx
