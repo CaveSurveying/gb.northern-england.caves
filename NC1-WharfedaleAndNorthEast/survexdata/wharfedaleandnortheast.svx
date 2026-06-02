@@ -6,7 +6,7 @@
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
 ;Any files where the declination has ALREADY been applied (eg most data in EaseGill) should have its *include ABOVE this *declination line so that line does not apply
-*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+*declination auto 97480 72608 225 ; Coordinates SD 97480 72608 alt 225m Dowbergill Bridge, just above Kettlewell
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 *include DowCaveAndProvidencePot/DowCaveAndProvidencePot
