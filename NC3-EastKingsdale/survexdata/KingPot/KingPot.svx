@@ -17,6 +17,7 @@
 *EQUATE 	entrance KingPot-recon1.path3.0
 *ENTRANCE	entrance
 *FIX		entrance 70793.56 77377.74 368.43 ;this is the location of Kevin Dixons GPS bolt at the entrance of King POT
+; Data for the Kevin Dixon gps reading is in westkingsdale-gps-kdixon-2012 and is 70788.934	77381.486	372.604 for the antenna base
 
 *EQUATE	KingPot-recon1.path3.80	KingPot-recon2.path2.0
 *EQUATE	KingPot-recon2.path7.5	DownstreamSumpRSkorupka.DS-Surface
