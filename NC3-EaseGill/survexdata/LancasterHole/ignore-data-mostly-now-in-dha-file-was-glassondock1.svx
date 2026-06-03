@@ -1,3 +1,5 @@
+;This info now largely moved into the dha.svx file which was created by combining the glassondock0, 1, 2 and glassondock survex files
+
 ; Locn:	Easegill
 ; Cave:	Easegill - Diamond Hall
 ; Glasson Dock 1
@@ -38,7 +40,7 @@
 
 ; station LRUDs
 1	0.5	0.5	0.1	0.6
-2	0.8	0.0	0.7	0.2
+; 2	0.8	0.0	0.7	0.2 ; commented out by Becka 2026 so survex file would compile as stn 2 unused at present in this survey
 3	0.2	0.3	0.7	0.0
 4	0.5	0.5	0.1	0.5
 5	0.2	0.5	0.4	0.1

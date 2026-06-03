@@ -1,3 +1,5 @@
+;This info now largely moved into the dha.svx file which was created by combining the glassondock0, 1, 2 and glassondock survex files
+
 ; Locn:	Easegill
 ; Cave:	Easegill - Diamond Hall
 ; Glasson Dock and Cockerham Wharf Inland Waterways Cruising Association dig

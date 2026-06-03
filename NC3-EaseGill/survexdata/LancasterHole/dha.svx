@@ -1,3 +1,6 @@
+;This dha.svx file was created by combining the glassondock0, 1, 2 and glassondock survex files
+;Various things changed in doing so and the information below about surveyors etc not accurate so see original files
+
 ;Cave:		Lancaster Hole - Diamond Hall extension (Glasson Dock 1 & 2))	
 ;Surveyors:	Insts Julian Todd/Notes Becka Lawson
 ;Date:		24/01/09
@@ -6,13 +9,14 @@
 ;;*equate	dha.stal dh.016
 
 *begin	dha
+
 *export stal
 
 *calibrate compass	 0.00
 *calibrate clino	 0.00
 *calibrate tape		 0.00
 
-
+; This single leg of data was originally in the glassondock0.svx file
 stal	116	00.72	213.0	-31.0	;connect last station of glassondock1 (station 16) to RRCPC Ray Duffy survey station on top of large white/brown stal. Note the stal is 0.85m high and is in the middle of the crawl
 
 x2	x1	01.91	069.	-06.0
