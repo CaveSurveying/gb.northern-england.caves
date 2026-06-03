@@ -1,0 +1,80 @@
+encoding  utf-8
+survey HITWEntShaft
+
+input HITWEntShaftP.th2
+input HITWEntShaftEe.th2
+
+map HITWEntShaftPlan
+  HITWEntShaftSP1
+endmap
+
+map HITWEntShaftME
+  HITWEntShaftSE1
+endmap
+centreline
+
+copyright 2026 "GNU GPL"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#pda - Nick
+#disto - Nick
+#
+
+  date 2026.05.31
+
+  team "Nick Bairstow" notes
+  team "Nick Bairstow" instruments
+  team "Nick Bairstow" dog
+
+  instrument  instruments "Nick 3766"
+
+  explo-date 2026.05.31
+
+data normal from to tape compass clino ignoreall
+  extend right
+1.0  -  0.0  0.0  0.0  
+1.0  -  0.975  298.05  -32.6  
+1.0  -  0.892  211.78  -41.85  
+1.0  -  0.875  114.92  -48.04  
+1.0  -  0.847  18.9  -42.54  
+1.0  -  0.49  16.99  -3.61  
+1.0  -  0.602  300.35  -5.0  
+1.0  -  0.674  210.67  -4.49  
+1.0  -  0.685  121.22  -2.27  
+1.0  -  4.182  294.26  -76.4  
+1.0  -  3.967  10.6  -79.1  
+1.0  -  4.031  108.67  -84.06  
+1.0  -  4.16  236.16  -81.34  
+#1.0  1.1  6.519  311.9  -81.4  
+#1.0  1.1  6.519  311.91  -81.36  
+#1.0  1.1  6.516  311.6  -81.55  
+1.0  1.1  6.518  311.9  -81.44  Calculated leg from 3 above
+1.1  -  1.105  177.6  13.16  
+1.1  -  1.124  130.85  13.35  
+1.1  -  2.206  101.06  3.5  
+1.1  -  2.268  84.26  0.49  
+1.1  -  2.005  67.22  -0.3  
+1.1  -  1.451  39.94  4.1  
+1.1  -  0.915  16.48  8.45  
+1.1  -  0.315  283.56  12.86  
+1.1  -  0.854  7.43  -86.97  
+1.1  -  2.007  55.99  -25.75  
+1.1  -  2.021  107.35  -26.1  
+  extend left
+#1.1  1.2  2.621  82.95  -17.61  
+#1.1  1.2  2.62  83.0  -17.59  
+#1.1  1.2  2.619  82.96  -17.51  
+1.1  1.2  2.62  82.97  -17.57  Calculated leg from 3 above
+1.2  -  0.686  182.11  -3.97  
+1.2  -  1.153  204.27  -5.94  
+1.2  -  1.021  225.16  -8.06  
+1.2  -  1.143  307.34  -1.33  
+1.2  -  1.205  253.01  -49.5  
+1.2  -  1.222  59.27  -82.72  
+#1.2  1.3  2.987  167.21  -64.26  
+#1.2  1.3  2.985  166.99  -64.43  
+#1.2  1.3  2.986  167.29  -64.31  
+1.2  1.3  2.986  167.21  -64.34  Calculated leg from 3 above
+endcentreline
+endsurvey
+

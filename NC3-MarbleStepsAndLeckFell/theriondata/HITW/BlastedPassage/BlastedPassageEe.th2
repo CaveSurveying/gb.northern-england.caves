@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -300.1 -2532.12 1800.57 15192.75
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {235.244428912 1 1.0} {13854.5662791 1.0} PocketTopo/BlastedPassage_e.xvi 0 {}
+
+
+scrap BlastedPassageSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

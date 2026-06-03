@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -80.09 -156.34 480.53 938.03
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {262.125340491 1 1.0} {859.864993384 1.0} PocketTopo/HITWEntShaft_e.xvi 0 {}
+
+
+scrap HITWEntShaftSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -181.73 -86.21 1090.38 517.25
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {90.8650369848 1 1.0} {437.531524432 1.0} PocketTopo/HITWGNSS_e.xvi 0 {}
+
+
+scrap HITWGNSSSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

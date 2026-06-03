@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -200.16 -130.31 1200.94 781.89
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {152.047244094 1 1.0} {516.732283465 1.0} PocketTopo/Dignitas_e.xvi 0 {}
+
+
+scrap DignitasSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

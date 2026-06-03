@@ -1,0 +1,28 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -116.90368667000007 -200.61334182439998 1128.0 212.8669731362
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {466.06117890999997 1 1.0} {65.1543349906 1.4} PocketTopo/HITWGNSS_p.xvi 0 {}
+
+
+
+scrap HITWGNSSSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 988.20117891 12.904334990600006 station -name 1.0
+
+point 838.21117891 6.124334990600006 station -name 1.1
+
+point 702.07117891 31.784334990600005 station -name 1.2
+
+point 594.2411789099999 49.904334990600006 station -name 1.3
+
+point 466.06117890999997 65.1543349906 station -name 1.4
+
+point 358.8711789099999 67.39433499060002 station -name 1.5
+
+point 265.70117890999995 43.444334990600005 station -name 1.6
+
+point 89.84117890999994 15.114334990600007 station -name 1.7
+
+endscrap
+
+

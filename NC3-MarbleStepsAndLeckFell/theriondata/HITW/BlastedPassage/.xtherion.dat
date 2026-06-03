@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 21.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.93m (from 1.0@BlastedPassage at 0.00m to 1.9@BlastedPassage at -6.93m)\nnorth-south range: 5.39m (from 1.9@BlastedPassage at 0.86m to 1.4@BlastedPassage at -4.53m)\neast-west range: 10.27m (from 1.7@BlastedPassage at 10.27m to 1.0@BlastedPassage at 0.00m)\nnumber of shots: 117\nnumber of stations: 118"
+xth_cp_data_tree_insert 19 1 1 BlastedPassage BlastedPassage "" "" "length: 21.17m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.93m (from 1.0@BlastedPassage at 0.00m to 1.9@BlastedPassage at -6.93m)\nnorth-south range: 5.39m (from 1.9@BlastedPassage at 0.86m to 1.4@BlastedPassage at -4.53m)\neast-west range: 10.27m (from 1.7@BlastedPassage at 10.27m to 1.0@BlastedPassage at 0.00m)\nnumber of shots: 117\nnumber of stations: 118"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 48X1 p1 1 BlastedPassagePlan BlastedPassagePlan@BlastedPassage "" ""
+xth_cp_map_tree_insert map 1 49X1 p3 1 BlastedPassageME BlastedPassageME@BlastedPassage "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 21 5
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1780322902
+

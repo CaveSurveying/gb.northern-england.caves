@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 12.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 9.93m (from 1.0@HITWEntShaft at 0.00m to 1.3@HITWEntShaft at -9.93m)\nnorth-south range: 1.26m (from 1.2@HITWEntShaft at 0.95m to 1.3@HITWEntShaft at -0.31m)\neast-west range: 2.76m (from 1.3@HITWEntShaft at 2.04m to 1.1@HITWEntShaft at -0.72m)\nnumber of shots: 33\nnumber of stations: 34"
+xth_cp_data_tree_insert 18 1 1 HITWEntShaft HITWEntShaft "" "" "length: 12.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 9.93m (from 1.0@HITWEntShaft at 0.00m to 1.3@HITWEntShaft at -9.93m)\nnorth-south range: 1.26m (from 1.2@HITWEntShaft at 0.95m to 1.3@HITWEntShaft at -0.31m)\neast-west range: 2.76m (from 1.3@HITWEntShaft at 2.04m to 1.1@HITWEntShaft at -0.72m)\nnumber of shots: 33\nnumber of stations: 34"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 38X1 p1 1 HITWEntShaftPlan HITWEntShaftPlan@HITWEntShaft "" ""
+xth_cp_map_tree_insert map 1 39X1 p2 1 HITWEntShaftME HITWEntShaftME@HITWEntShaft "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 12 3
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1780323474
+

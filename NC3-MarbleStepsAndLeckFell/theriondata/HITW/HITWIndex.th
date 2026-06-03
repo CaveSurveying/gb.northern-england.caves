@@ -1,0 +1,60 @@
+encoding  utf-8
+
+survey HITWIndex
+
+
+
+input HITWGNSS/HITWGNSS.th
+input HITWEntShaft/HITWEntShaft.th
+input BlastedPassage/BlastedPassage.th
+input Dignitas/Dignitas.th
+
+
+################ Plan Joins #################
+####Scrap Joins####
+###################
+
+
+join HITWGNSSSP1@HITWGNSS HITWEntShaftSP1@HITWEntShaft
+join HITWEntShaftSP1@HITWEntShaft BlastedPassageSP1@BlastedPassage
+
+
+####ME Scrap Joins####
+
+
+
+#### Elevation Line Joins ####
+##################
+
+
+###################### MAPS ####################
+
+  map HITWIndexPlan -title "Hole-In-The-Wall" 
+   HITWGNSSPlan@HITWGNSS
+   HITWEntShaftPlan@HITWEntShaft
+   BlastedPassagePlan@BlastedPassage
+   DignitasPlan@Dignitas
+  
+  endmap
+ 
+###############################################
+ 
+ #map NorthEndIndexME -title "North_End-Extended_Elevation"
+ 
+ #NEShakeHoleIndexME@NEShakeHoleIndex
+ 
+ #endmap
+
+################# Equates #####################
+###############################################
+
+
+
+ 
+ equate 1.7@HITWGNSS 1.0@HITWEntShaft
+ equate 1.3@HITWEntShaft 1.0@BlastedPassage 
+ equate 1.9@BlastedPassage 1.0@Dignitas
+ 
+
+endsurvey
+
