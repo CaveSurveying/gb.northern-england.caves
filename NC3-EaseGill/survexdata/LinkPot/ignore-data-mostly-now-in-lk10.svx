@@ -1,4 +1,7 @@
-*begin cobblecrawl
+;Similar to data in lk10.svx BUT some readings changed
+;Becka assumes the lk10.svx file is the correct version but changes not documented :-(
+
+*begin cobblecrawl  ; at least some of this data is duplicated in lk10.svx
 *export 44
 *export 38
 *export 20

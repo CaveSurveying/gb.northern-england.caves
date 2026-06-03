@@ -1,3 +1,14 @@
+;Similar to data in ignore-data-now-in-lk10.svx BUT some readings changed
+;Becka assumes the lk10.svx file is the correct version but changes not documented :-(
+
+;Below, original header info from original cobblecrawl.svx file, centreline data in both files
+;Date: 16/08/03
+;Cave: Link Pot - Misery Street / Cobble Crawl to Junction in Easy Street
+;Survey Kit RRCPC No 4
+;Instruments: Paul Swire
+;Book: Neil Pacey
+;Tape: Dave Ramsey
+
 ;Cave:	Link Pot - Cobble Crawl
 ;Surveyors:	N.Pacey/P.Swire/D.Ramsey
 ;Date:	16/08/03
@@ -12,7 +23,7 @@
 *calibrate clino	-0.50
 *calibrate tape		00.0
 
-001	000	10.00	250.0	-02.0 ;back bearing to sump
+001	000	10.00	250.0	-02.0 ;back bearing to sump, 000 is sump
 001	002	11.70	055.0	+04.0
 002	003	07.48	082.0	+04.0
 003	004	17.22	022.0	+02.0
