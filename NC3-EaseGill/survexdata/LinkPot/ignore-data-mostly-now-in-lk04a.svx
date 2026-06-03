@@ -1,3 +1,5 @@
+; Most of the info in EchoCrawl and EchoCrawl2 now in lk04a.svx and lk04b.svx but some changes made, including to centreline data, unclear why - Becka 2026
+
 *begin	EchoCrawl
 ;Cave:	Link Pot
 ;Description Echo Crwal - Wrestling Aligator Squeeze
@@ -6,7 +8,6 @@
 ;Tape: Johann Fleudy 	
 ;Instruments: Paul Swire
 ;Set: Neil's Compass / Clino & Tape
-
 
 *export LinkTag
 *export	WAi

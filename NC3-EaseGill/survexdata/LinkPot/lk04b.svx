@@ -1,3 +1,13 @@
+; This was originally a file called EchoCrawl2 with the following info in it (oddly stripped from the lk04b.svx file) - Becka 2026
+; See EchoCrawl2 file for extra comments
+;Cave:	Link Pot
+;Description Echo Crwal - Other side of W/A to Bottom of EEPP
+;Date:	18/04/07
+;Book: Neil Pacey
+;Tape: Johann Fleudy 	
+;Instruments: Paul Swire
+;Set: Neil's Compass / Clino & Tape
+
 ;Cave:		Link Pot-New Echo Crawl (continued)
 ;Surveyors:	Johann Fleudy/Paul (Beardy) Swire/Neil Pacey
 ;Date:		18/04/07

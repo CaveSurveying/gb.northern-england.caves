@@ -1,3 +1,13 @@
+; This was originally a file called	EchoCrawl with the following info in it (oddly stripped from the lk04a.svx file) - Becka 2026
+; See EchoCrawl file for extra comments
+;Cave:	Link Pot
+;Description Echo Crwal - Wrestling Aligator Squeeze
+;Date:	18/04/07
+;Book: Neil Pacey
+;Tape: Johann Fleudy 	
+;Instruments: Paul Swire
+;Set: Neil's Compass / Clino & Tape
+
 ;Cave:		Link Pot-New Echo Crawl
 ;Surveyors:	Johann Fleudy/Paul (Beardy) Swire/Neil Pacey
 ;Date:		18/04/07
