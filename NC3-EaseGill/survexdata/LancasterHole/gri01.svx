@@ -6,7 +6,7 @@
 ;*equate	gri01.055 wm.017
 ;*equate	gri01.000 gri02.045
 
-*begin	gri01
+*begin	gri01 ; this is an edited version of the grind2.svx file that Becka created with same survey data
 
 *export 000
 *export 055

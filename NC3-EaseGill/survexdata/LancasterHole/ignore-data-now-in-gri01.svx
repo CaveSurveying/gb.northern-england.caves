@@ -1,4 +1,4 @@
-*begin grind2
+*begin grind2 ; this is the same data as the gri01.svx file with some format edits so this file is superfluous
 *export 45x
 
 *title "Wormway to about 2/3 up the Grind to where Tom and James got to on Grind"
