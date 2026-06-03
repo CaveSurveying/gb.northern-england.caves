@@ -1,4 +1,4 @@
-*begin easystreet
+*begin easystreet   ; this data is contained in lk12.svx (along with other data) so this file is superfluous for data BUT it contains useful general info (surveyors, dates) which Becka has copied over to lk12.svx
 *export	130A
 *data normal from to tape compass clino ignoreall
 *units length metres
