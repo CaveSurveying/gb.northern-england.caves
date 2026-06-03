@@ -2,8 +2,8 @@
 
 *begin	AllBarbonPot
 
-;*fix BP01.A 66600 83800 283	;Guidebook
-*fix BP01.A 66667 83842 283	;GPS measurement by Ray Duffy. Top of stile post on fence around entrance.
+;*fix Bp01.A 66600 83800 283	;Guidebook
+*fix Bp01.A 66667 83842 283	;GPS measurement by Ray Duffy. Top of stile post on fence around entrance.
 
 *include Bp01
 *include Bp02

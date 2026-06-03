@@ -1,13 +1,13 @@
+*begin	Bp01
+
+*export A 001 009
+
+*entrance 001
+
 ;Cave:		Barbon Pot - Entrance to Main Chamber
 ;Surveyors:	R.Duffy solo
 ;Date:		04/12/12
 ;Instruments:	PAG + disto
-
-;*equate	Bp01.
-
-*begin	Bp01
-
-*export A 001 009
 
 *calibrate compass	+06.0
 *calibrate clino	 00.0

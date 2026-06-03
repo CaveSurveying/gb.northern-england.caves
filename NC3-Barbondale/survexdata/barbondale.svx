@@ -4,5 +4,6 @@
 *begin Barbondale
 
 *include BarbonPot/AllBarbonPot
+*include BarkinMadCave
 
 *end Barbondale
