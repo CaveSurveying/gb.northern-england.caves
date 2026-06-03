@@ -1,4 +1,6 @@
 ; A copy of the lines of this file relevant to Ease Gill is now in NC3-EaseGill/survexdata/easegill-gps-kdixon-2012.svx
+; So the entrances in the Easegill area are connected in using that file, not this one
+; And KeldHead has been moved into the westkingsdale-gps-kdixon-2012.svx file
 
 ; Cave:		3 Counties Geodetic GPS Survey
 ; Surveyors:	Kevin Dixon/Tim Allen/Meg Stark/Ray Duffy(24 March only)

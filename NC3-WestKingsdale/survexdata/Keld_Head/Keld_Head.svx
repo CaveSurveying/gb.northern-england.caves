@@ -1,8 +1,8 @@
 *begin Keld_Head
 
-*export kh09.218
+*export kh09.218 Ent
 
-*fix Ent  69570.60   76578.46   252.81 ;Kevin Dixon precision GPS fix for peg belay, July 2012
+*fix Ent  69570.60   76578.46   252.81 ;Kevin Dixon precision GPS fix for peg belay, July 2012 - moved up a level by Becka 2026 for consistency with other Kevin Dixon equates
 *entrance Ent
 *equate Ent EntranceSeries.kh01.001
 

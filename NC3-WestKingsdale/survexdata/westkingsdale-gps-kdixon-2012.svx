@@ -4,7 +4,7 @@
 ; Instruments:	Leica Geosystems SR530 GPS, KD SAC Combi Compass+Clino, Disto D2
 ; SVX File:	Created 19 September 2013 by K.Dixon 
 
-; Note that Mohole and Keld Head can be found in 
+; Note that Mohole is in 
 ; NC3-MarbleStepsAndLeckFell/survexdata/Surface/marblesteps-leckfell-easegill-gps-kdixon-2012.svx
 
 ; Geodetic L1/L2 GPS post-processed using RTKlib open source software with IGS precise ephemerides and OS base station
@@ -35,6 +35,9 @@
 *export 3c25	;King Pot stainless steel bolt marker at entrance
 *export 3c26	;Yordas Pot drill hole marker at entrance 
 
+*export 023		;Keld Head, belay peg jammed in crack for divers line ; added in by Becka 2026 
+; the Keld_Head file supposedly uses the Kevin Dixon location but the fix is for the entrance so differs from the fix in the kdixon file
+
 ; known magnetic azimuth of 328.0 at Bull Pot Farm
 ; observed compass bearing of 328.0 
 ; therefore zero magnetic error
@@ -55,8 +58,13 @@
 *fix	3c25ae	70788.934	77381.486	372.604	;sdE 0.0013m, sdN 0.0008m, sdElev 0.0018m
 *fix	3c26ae	70575.072	79101.851	319.640	;sdE 0.0153m, sdN 0.0048m, sdElev 0.0162m
 
-; Valley Entrance 30 June 2013
+*fix	021	69580.818	76572.966	254.6470	;sigE 0.0161m, sigN 0.0457m, sigElev 0.067m ; added in for Keld Head by Becka 2026
+
 *flags surface
+
+; below are the surface legs to connect each gps-fix to a known station in the underground survey (ideally something like a fixed tag)
+
+; Valley Entrance 30 June 2013
 3c20ae	3c20gnd	1.292	-	DOWN	;3C20ae is GPS antenna base, 3C20gnd is top of rock outside entrance
 3c20ae	vent	2.513	302.5	-24.5	;vent is centre of outer edge of drum
 3c20ae	3c20	4.103	302.5	-23.0	;3c20 is stainless steel bolt and washer on right hand wall inside cave
@@ -65,7 +73,6 @@
 3c23ae	3c23	1.229	-	DOWN	;3c23ae is GPS antenna base, 3c23 is stainless steel bolt and washer in bedrock
 
 ; Jingling Pot 30 June 2013
-*flags surface
 3c22ae	3c22	1.267	-	DOWN	;3c22ae is GPS antenna base, 3c22 is stainless steel bolt and washer in bedrock
 3c22	jp	7.094	106.0	-2.0	;jp is P hanger closest to trees on edge
 jp	tb1	2.634	142.0	-1.0	;tb1 is base of eastern most tree
@@ -97,5 +104,11 @@ jp	tb2	2.279	142.0	-1.0	;tb2 is base of western most tree
 3c26ae	yp1	8.572	241.5	-33.0	;3c26ae is GPS antenna base
 yp1	yp2	11.662	242.0	-11.0	;yp1 and yp2 are intermediate points on rocks
 yp2	3c26	11.340	265.0	-07.5	;3c26 is 8mm drill hole on right wall at narrowest part of cave entrance 0.16m below roof
+
+; Keld Head 31 Mar 2012 ; moved to this file by Becka in 2026
+021	3C10	11.596	303.0	-08.0	;021 is base of GPS antenna, 3C10 is s/s bolt+washer in bedrock above divers belay peg, washer stamped KELD HEAD 3C10
+3C10	022	0.65	-	DOWN	;022 is normal water level, similar flow conditions to Leck Beck Head prior week
+021	023	11.743	300.5	-09.0	;023 is divers line belay peg jammed in crack, note this belay peg has been changed over the years
+021	024	11.443	304.5	-09.5	;024 is hanger bolt
 
 *end westkingsdale-gps-kdixon-2012

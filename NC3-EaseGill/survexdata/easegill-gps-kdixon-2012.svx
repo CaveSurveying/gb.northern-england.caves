@@ -26,7 +26,7 @@
 *export 013	;County Pot, left P hanger for metal cover
 *export 018	;Leck Beck Head divers line tie point to root
 *export 020	;Lancaster Pot, centre of central square hole in manhole cover
-*export 023	;Keld Head, belay peg jammed in crack for divers line
+
 *export 025	;Bull Pot of the Witches, top corner of angle iron stake at stile
 *export 3C12 ;Aygill Caverns, original shallow drill hole survey marker above entrance
 
@@ -49,7 +49,6 @@
 *fix	012	67541.216	80563.308	314.3970	;sigE 0.0160m, sigN 0.0634m, sigElev 0.078m
 *fix	014	65950.455	79975.28	215.2930	;sigE 0.0115m, sigN 0.0235m, sigElev 0.030m
 *fix	3C09	66400.302	80715.594	294.7600	;sigE 0.0190m, sigN 0.0163m, sigElev 0.050m
-*fix	021	69580.818	76572.966	254.6470	;sigE 0.0161m, sigN 0.0457m, sigElev 0.067m
 *fix	025	66233.215	81301.541	294.3610	;sigE 0.0137m, sigN 0.0545m, sigElev 0.024m
 *fix	026	66351.986	81827.754	297.0560	;sigE 0.0156m, sigN 0.0280m, sigElev 0.038m
 ; *fix	027	68226.458	76851.614	397.7010	;sigE 0.0154m, sigN 0.0190m, sigElev 0.024m
@@ -86,12 +85,6 @@
 ; Lancaster Hole 24 Mar 2012
 3C09	020	2.650	059.5	-16.0	;3C09 is s/s bolt+washer set in large rock to south west of entrance, washer stamped LANCASTER HOLE 3C09
 ;					020 is centre of square hole in centre of manhole cover
-
-; Keld Head 31 Mar 2012
-021	3C10	11.596	303.0	-08.0	;021 is base of GPS antenna, 3C10 is s/s bolt+washer in bedrock above divers belay peg, washer stamped KELD HEAD 3C10
-3C10	022	0.65	-	DOWN	;022 is normal water level, similar flow conditions to Leck Beck Head prior week
-021	023	11.743	300.5	-09.0	;023 is divers line belay peg jammed in crack, note this belay peg has been changed over the years
-021	024	11.443	304.5	-09.5	;024 is hanger bolt
 
 ; Bull Pot of the Witches 31 Mar 2012
 025	3C11	8.219	304.0	-05.5	;025 is top corner of angle iron stake near stile, this is the angle iron at start of BPOTW cave survey

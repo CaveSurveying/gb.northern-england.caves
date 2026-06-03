@@ -38,7 +38,7 @@
 ;+++++++++++++++
 *INCLUDE BattyCave/BattyCave
 
-; *include OldGPS/OldGPS		; added back in by Becka 15/5/2017 so Kail Pot shows up ; removed by Becka 17/09/18 as all.svx not compiling with this in
+; *include OldGPS/OldGPS		; no longer used
 
 
 *equate Old_KMC.roof_tunnel.002	westkingsdale-gps-kdixon-2012.vent
@@ -66,7 +66,6 @@
 
 
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
-
 *include KMC/Window_Aven
 *equate Window_Aven.B7a	Old_KMC.Roof_Tunnel.052
 
@@ -76,6 +75,7 @@
 			;and distributes the PhilosophersCraw/SwinstoSump loop closure errors along sump data only
 *include Keld_Head/Keld_Head
 *equate	Old_KMC.Master_Cave.1 Keld_Head.kh09.218
+;Note the GPS location for Keld Head is within the main cave file and it says it uses the Kevin Dixon accurate GPS for this location
 
 ;*include	KMC/SwinstoSump				;John Cordingley's survey
 ;*equate	SwinstoSump.001	KMC.PhilosophersCrawl2.22
