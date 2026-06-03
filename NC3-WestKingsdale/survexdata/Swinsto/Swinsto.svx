@@ -40,11 +40,13 @@
 ; 4		741127	145132
 ; 5		721899	726974
 
+*export Swi01.1
+
 *equate Swi01.65 Swi02.27
 *equate Swi02.1 Swi03.1
 *equate Swi03.31 Swi04.1
 
-*fix Swi01.1 69390.00 77530.00 378.00 ;GPS
+; *fix Swi01.1 69390.00 77530.00 378.00 ;GPS ; commented out by Becka 2026 as replaced at level above by Kevin Dixon fix which should be used if this survey is repeated
 
 *begin Swi01
 ; Swinsto, part 1

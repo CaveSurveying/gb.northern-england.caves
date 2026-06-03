@@ -76,7 +76,6 @@ jp	tb2	2.279	142.0	-1.0	;tb2 is base of western most tree
 3c24ae	3c24	1.132	-	DOWN	;3c24ae is GPS antenna base, 3c24 is top centre of square sectioned upright bar in bedrock
 
 ; Rowten Pot 13 July 2013
-
 3c21ae	3c21	1.93	-	DOWN	;3c21ae is GPS antenna base, 3c21 is top centre of hex head bolt in bedrock between P hangers
 3c21ae	tr	4.145	274.0	-42.0	;tr is tree root which is presumed to be start of Rowten Pot cave survey
 

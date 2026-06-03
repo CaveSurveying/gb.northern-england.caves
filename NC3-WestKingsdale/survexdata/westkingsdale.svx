@@ -9,6 +9,7 @@
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 *include westkingsdale-gps-kdixon-2012 ; this file was called kdgps.svx renamed Becka May 26 for clarity
+
 *include KMC/Old_KMC
 *include KMC/KMC
 *include UpstreamSumps/UpstreamSumps
@@ -52,12 +53,16 @@
 *equate	Rowtencaves.jinglingcavetop.1	westkingsdale-gps-kdixon-2012.3c22	
 
 *equate JinglingPot.1.0   westkingsdale-gps-kdixon-2012.3c22
+
 *equate Bullpot.1.23	westkingsdale-gps-kdixon-2012.3c23
 
 *equate	 Aquamole.Aquamole3.4 upstreamsumps.pt1.0
-*EQUATE  Aquamole.Aquamole1.1.0 westkingsdale-gps-kdixon-2012.3c22
+*equate  Aquamole.Aquamole1.1.0 westkingsdale-gps-kdixon-2012.3c22
 
-*equate	westkingsdale-gps-kdixon-2012.3c26	Yordas1.ext
+; 2026 Becka tied Swinsto entrance to the more accurate Kevin Dixon GPS but the fix in the Swinsto file may be better for the old DUSA survey
+*equate Swinsto.Swi01.1 westkingsdale-gps-kdixon-2012.3c17 ;Swinsto Hole stainless steel bolt marker
+
+*equate	Yordas1.ext westkingsdale-gps-kdixon-2012.3c26	
 
 
 ;Temporary section for Window aven, until connected into main survey via roof tunnel re-survey
@@ -136,8 +141,9 @@
 *FIX Simpson_Cave REFERENCE 69550 77760 378
 *ENTRANCE Simpson_Cave
 
-*FIX Simpson_Pot REFERENCE 69620 77870 376
+*equate Simpson_Pot	westkingsdale-gps-kdixon-2012.3c19 ; 3c19 is Simpsons Pot cow tag drill hole on rock lip above entrance which had cow tag
 *ENTRANCE Simpson_Pot
+; *FIX Simpson_Pot_OLD REFERENCE 69620 77870 376 ; Old location replaced by Kevin Dixon GPS location
 
 ;*FIX Sloping_Cave REFERENCE 70410 79100 351
 ;*ENTRANCE Sloping_Cave
