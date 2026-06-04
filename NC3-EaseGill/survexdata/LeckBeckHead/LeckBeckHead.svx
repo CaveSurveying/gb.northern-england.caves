@@ -1,12 +1,16 @@
+*begin	LeckBeckHead
+
+*export 001
+
+*entrance 001
+
 ;Cave:	Leck Beck Head sump
 ;Surveyors:	J Cordingley
 ;Date:	???1993
+*date 1993.06.01   ;estimated date
 
 ;*equate	lbs.001	pth3.022
 
-*begin	LeckBeckHead
-*export 001
-*date 1993.06.01   ;estimated date
 *data diving from to length bearing fromdepth todepth
 
 *calibrate declination 0  ;this is to stop declination being added twice

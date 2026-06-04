@@ -23,16 +23,16 @@
 
 *flags surface
 1	0	10.01	298	-02
-*flags not surface
 
+*flags not surface
 2	1	4.62	216	+03	; LBH East
 3	2	4.90	334	+04	; LBH East
 
 *flags surface
 4	0	4.04	193	-06
 5	4	5.65	189	+04
-*flags not surface
 
+*flags not surface
 6	5	4.05	201	-01	; LBH West
 
 *flags surface
@@ -51,7 +51,6 @@
 
 17	16	19.84	324	-07
 18	17	13.20	189	+06
-*flags not surface
 
 *data passage station left right up down ignoreall
 

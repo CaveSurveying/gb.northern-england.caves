@@ -77,7 +77,7 @@
 ; SURFACE FIXED POINTS EXTRACTED FROM FILES
 
 ; Lancaster Hole main entrance pitch, surface fixed point
-*equate lancasterhole.l1.001 easegill-gps-kdixon-2012.020	;Kevin Dixon GPS 
+*equate lancasterhole.l1.001 easegill-gps-kdixon-2012.020	;Kevin Dixon GPS 020	;Lancaster Pot, centre of central square hole in manhole cover
 ; *fix lancasterhole.l1.001 66403.16 80716.84 293.99 ; from line 34 in LancasterHole/l1.svx ; old gps used in RRCPC drawn up surveys
 
 ; Cow Pot entrance pitch, surface fixed point
@@ -87,7 +87,7 @@
 *fix sylvesterpot.syl2.024 67366.32 80585.23 315.53 ; from line 17 in SylvesterPot/syl2.svx
 
 ; Entrance to County Pot, surface fixed point
-*equate countypot.cya.001 easegill-gps-kdixon-2012.013	;Kevin Dixon GPS 
+*equate countypot.cya.001 easegill-gps-kdixon-2012.013	;Kevin Dixon GPS 013	;County Pot, left P hanger for metal cover
 ; *fix countypot.cya.001 67532.25 80576.64 314.29 ; from line 21 in CountyPot/cya.svx ; old gps used in RRCPC drawn up surveys
 
 ; Likely entrance to Swindon Hole, surface tag fixed point
@@ -118,7 +118,7 @@
 *fix boundarypot.bdy1.001 67867.13 80837.87 330.85 ; from line 23 in BoundaryPot/bdy1.svx
 
 ; Top Sink entrance, surface tag fixed point
-*equate topsink.t01c.001 easegill-gps-kdixon-2012.011	;Kevin Dixon GPS 
+*equate topsink.t01c.001 easegill-gps-kdixon-2012.011	;Kevin Dixon GPS 011	;Top Sink, RRCPC tag on scaffold
 ; *fix topsink.t01c.001 68037.63 81111.85 343.09 ; from line 24 in TopSink/t01c.svx ; old gps used in RRCPC drawn up surveys
 
 ; Pegleg Pot entrance, surface tag fixed point
@@ -286,7 +286,8 @@
 
 *include LeckBeckHead/LeckBeckHead
 ; *fix LeckBeckHead.001 65938.92 80003.18 212.01	; commented out by Becka 30.10.11 and replaced by equate to LeckBeckHeadWestEast surface survey
-*equate LeckBeckHeadWestEast.10 LeckBeckHead.001
+; *equate LeckBeckHeadWestEast.10 LeckBeckHead.001 ; commented out by Becka 2026 and replaced by Kevin Dixon gps
+*equate LeckBeckHead.001	easegill-gps-kdixon-2012.018	;Kevin Dixon GPS - 018	;Leck Beck Head divers line tie point to root
 
 *include LeckBeckHead/LeckBeckHeadWestEast
 *equate LeckBeckHeadWestEast.18 WitchesCave.Witches1DryCave.18
