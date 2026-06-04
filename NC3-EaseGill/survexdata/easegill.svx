@@ -77,7 +77,8 @@
 ; SURFACE FIXED POINTS EXTRACTED FROM FILES
 
 ; Lancaster Hole main entrance pitch, surface fixed point
-*fix lancasterhole.l1.001 66403.16 80716.84 293.99 ; from line 34 in LancasterHole/l1.svx
+*equate lancasterhole.l1.001 easegill-gps-kdixon-2012.020	;Kevin Dixon GPS 
+; *fix lancasterhole.l1.001 66403.16 80716.84 293.99 ; from line 34 in LancasterHole/l1.svx ; old gps used in RRCPC drawn up surveys
 
 ; Cow Pot entrance pitch, surface fixed point
 *fix cowpot.cw.001 66432.11 80853.89 300.44 ; from line 25 in CowPot/CowPot.svx
