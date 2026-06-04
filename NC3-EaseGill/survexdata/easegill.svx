@@ -86,7 +86,8 @@
 *fix sylvesterpot.syl2.024 67366.32 80585.23 315.53 ; from line 17 in SylvesterPot/syl2.svx
 
 ; Entrance to County Pot, surface fixed point
-*fix countypot.cya.001 67532.25 80576.64 314.29 ; from line 21 in CountyPot/cya.svx
+*equate countypot.cya.001 easegill-gps-kdixon-2012.013	;Kevin Dixon GPS 
+; *fix countypot.cya.001 67532.25 80576.64 314.29 ; from line 21 in CountyPot/cya.svx ; old gps used in RRCPC drawn up surveys
 
 ; Likely entrance to Swindon Hole, surface tag fixed point
 *fix swindonhole.swh.001 67570.13 80603.81 314.30 ; from line 22 in SwindonHole/swh.svx
