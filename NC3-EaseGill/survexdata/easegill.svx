@@ -62,19 +62,17 @@
 
 ; SURFACE FIXED POINTS RETAINED IN ORIGINAL FILES HENCE COMMENTED OUT HERE
 
-; BPotW appears necessary - not included in Kevin Dixon's data - retained in original file
-; *fix bullpotofthewitches.bw01.000 66221.29 81294.57 293.84 ; from line 5 in BullPotOfTheWitches/BullPotOfTheWitches.svx
-
 ; Witches Cave appears necessary - retained in original file
 ; *fix witchescave.wit.001 66029.79 80004.53 214.77 ; from line 7 in WitchesCave/WitchesCave.svx
-
-; Kirk Pot may also be necessary - retained in original file at present
-; *fix kirkpot.tag 66263.63 80196.70 250.43 ; from line 8 in KirkPot/KirkPot.svx
 
 ; Pooh's Revenge (Pippikin) possibly necessary from molephone - retained in original file at present
 ; *fix pippikinpot.poohsrevenge.3 66533.60 79695.40 214.69 ; from line 15 in PippikinPot/PoohsRevenge.svx
 
 ; SURFACE FIXED POINTS EXTRACTED FROM FILES
+
+; Bull Pot of the Witches fix appears necessary - not included in Kevin Dixon's data - retained in original file
+; centreline not connected to the rest of the EaseGill system
+*fix bullpotofthewitches.bw01.000 66221.29 81294.57 293.84 ; from line 5 in BullPotOfTheWitches/BullPotOfTheWitches.svx
 
 ; Lancaster Hole main entrance pitch, surface fixed point
 *equate lancasterhole.l1.001 easegill-gps-kdixon-2012.020	;Kevin Dixon GPS 020	;Lancaster Pot, centre of central square hole in manhole cover
@@ -298,3 +296,4 @@
 *fix KirkPot.tag	66263.63 80196.70 250.43	; from line 27 in KirkPot/KirkPot.svx ;ev.ss09.030 from kip.svx ; Becka, unclear what previous comment means, tag is in KirkPot2.svx
 
 *end easegill
+

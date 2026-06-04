@@ -2,7 +2,10 @@
 
 *begin BullPotOfTheWitches
 
-*fix bw01.000 66221.29 81294.57 293.84 	;ev.ss26.008a ; SURFACE ; REQUIRED
+*export bw01.000
+
+; This fix now moved up into the main easegill.svx file for consistency with other *fix lines
+; *fix bw01.000 66221.29 81294.57 293.84 	;ev.ss26.008a ; SURFACE ; REQUIRED ; Becka, unclear what previous comments mean
 
 *equate bw01.012 bw10.015 ; from bw01.svx
 *equate bw01.012 bw12.007 ; from bw01.svx
