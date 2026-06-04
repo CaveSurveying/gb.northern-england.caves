@@ -1,6 +1,7 @@
 *BEGIN Sunset
 
 *export Sunset1.169
+*export Sunset1.SSP
 
 *Include Sunset1.svx
 *Include Sunset2.svx

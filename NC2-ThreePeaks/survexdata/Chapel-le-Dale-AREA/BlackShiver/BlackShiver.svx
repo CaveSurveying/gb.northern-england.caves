@@ -1,6 +1,7 @@
 *begin BlackShiver
 
 *export BlackShiver5.59
+*export BlackShiver5.BSP
 
 *include BlackShiver2 
 *include BlackShiver3

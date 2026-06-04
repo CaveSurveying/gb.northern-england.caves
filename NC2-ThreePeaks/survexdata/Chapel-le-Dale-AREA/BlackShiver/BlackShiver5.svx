@@ -8,13 +8,14 @@
 *team  "Todd Rye" Instruments
 *instrument insts "Harry Kettles SAP 6"
 
-*export 1 59
+*export 1 59 BSP
 *entrance 59
 
 ; Centreline data
 *data normal from to length bearing gradient ignoreall
 *alias station - ..
 
+59	BSP	1.446	126.69	40.62
 1	-	0.880	229.92	3.62	
 1	-	0.866	259.95	3.53	
 1	-	0.772	176.38	-7.71	

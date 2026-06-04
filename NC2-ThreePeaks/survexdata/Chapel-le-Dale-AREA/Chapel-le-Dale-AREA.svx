@@ -51,6 +51,8 @@
 *equate GreatDouk.GreatDouk14.10 Southerscales.Southerscales6.3
 *Equate BlackShiver.BlackShiver5.59 SurfaceMaster.Surface3.1
 
-*fix GreatDouk.GreatDouk11.5 74679 77039 339
+*fix Sunset.Sunset1.SSP 74204 75932 378.87 ;Pin on bench to SW of prominent entrance rock
+*fix GreatDouk.greatdouk11.GDP 74666 77039 340.60 ;pin to left of track on approach to GD, 10m or so below stile
+*fix BlackShiver.Blackshiver5.BSP 73697 75429 403.03 ;pin on right on approach to entrance climb
 
 *end Chapel-le-Dale-AREA

@@ -8,8 +8,7 @@
 *instrument insts "BPC Disto"
 
 ;Important points 
-*export 1 169 90 37 19 
-;*fix 169 74207 75932 385
+*export 1 169 90 37 19 SSP
 *entrance 169 
 
 ; Centreline data
@@ -18,6 +17,7 @@
 
 *alias station - ..
 
+169	SSP	3.137	266.67	2.49
 1	-	4.028	119.17	3.91	
 1	-	4.966	36.79	45.10	
 1	-	3.954	1.70	46.77	

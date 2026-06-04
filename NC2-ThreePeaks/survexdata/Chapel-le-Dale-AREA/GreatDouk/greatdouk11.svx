@@ -8,12 +8,13 @@
 *team  "Todd Rye" Instruments
 *instrument insts "RRCPC Disto"
 
-*export 1 5
+*export 1 5 GDP
 
 ; Centreline data
 *data normal from to length bearing gradient ignoreall
 *alias station - ..
 
+5	GDP	11.108	262.14	-13.16
 1	-	5.871	145.26	8.72	
 1	-	5.734	58.55	12.42	
 1	-	6.261	21.31	10.52	
