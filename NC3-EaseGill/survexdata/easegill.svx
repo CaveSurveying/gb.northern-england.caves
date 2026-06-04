@@ -75,7 +75,6 @@
 ; *fix pippikinpot.poohsrevenge.3 66533.60 79695.40 214.69 ; from line 15 in PippikinPot/PoohsRevenge.svx
 
 ; SURFACE FIXED POINTS EXTRACTED FROM FILES
-; (probably should be moved into the top level minus one files)
 
 ; Lancaster Hole main entrance pitch, surface fixed point
 *fix lancasterhole.l1.001 66403.16 80716.84 293.99 ; from line 34 in LancasterHole/l1.svx
@@ -117,7 +116,8 @@
 *fix boundarypot.bdy1.001 67867.13 80837.87 330.85 ; from line 23 in BoundaryPot/bdy1.svx
 
 ; Top Sink entrance, surface tag fixed point
-*fix topsink.t01c.001 68037.63 81111.85 343.09 ; from line 24 in TopSink/t01c.svx
+*equate topsink.t01c.001 easegill-gps-kdixon-2012.011	;Kevin Dixon GPS 
+; *fix topsink.t01c.001 68037.63 81111.85 343.09 ; from line 24 in TopSink/t01c.svx ; old gps used in RRCPC drawn up surveys
 
 ; Pegleg Pot entrance, surface tag fixed point
 *fix peglegpot.peg01.001 66326.68 80243.74 257.87 ; from line 14 in PeglegPot/peg01.svx
@@ -276,7 +276,7 @@
 
 *include WitchesCaveII/WitchesII 
 ;*fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
-*EQUATE WitchesII.WitchesII-2.001	easegill-gps-kdixon-2012.009	;Kevin Dixon GPS
+*equate WitchesII.WitchesII-2.001	easegill-gps-kdixon-2012.009	;Kevin Dixon GPS
 
 *include WitchesCave/WitchesCave
 ; *fix WitchesCave.wit.001 66029.79 80004.53 214.77 ; moved into WitchesCave.svx PBW 2026-05-31
@@ -290,5 +290,7 @@
 *equate LeckBeckHeadWestEast.18 WitchesCave.Witches1DryCave.18
 
 *include KirkPot/KirkPot
+; Kirk Pot by entrances, surface tag fixed point
+*fix KirkPot.tag	66263.63 80196.70 250.43	; from line 27 in KirkPot/KirkPot.svx ;ev.ss09.030 from kip.svx ; Becka, unclear what previous comment means, tag is in KirkPot2.svx
 
 *end easegill
