@@ -1,0 +1,3 @@
+No survey data here - this is a placeholder to note that Shuttleworth Pot
+is also known as Witches II (because it was first found by divers entering
+from Witches Cave) so the survey data is in the WitchesII folder

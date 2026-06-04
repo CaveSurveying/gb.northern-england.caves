@@ -280,9 +280,10 @@
 ;*fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
 *equate WitchesII.WitchesII-2.001	easegill-gps-kdixon-2012.009	;Kevin Dixon GPS
 
-*include WitchesCave/WitchesCave
+*include WitchesCave/WitchesCave  ; Note this also known as Shuttleworth Pot
 ; *fix WitchesCave.wit.001 66029.79 80004.53 214.77 ; moved into WitchesCave.svx PBW 2026-05-31
-*equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x
+*equate WitchesCave.wit7.001 WitchesII.WitchesII-7.x ; not clear why, around 2010, this was chosen as the equate
+; wit7.001 is a made up leg and WitchesII-7.x wasn't marked properly but leave for now
 
 *include LeckBeckHead/LeckBeckHead
 ; *fix LeckBeckHead.001 65938.92 80003.18 212.01	; commented out by Becka 30.10.11 and replaced by equate to LeckBeckHeadWestEast surface survey

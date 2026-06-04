@@ -1,12 +1,12 @@
-;Every Witches Cave file
+;Every Witches Cave file 
 
 *begin	WitchesCave
 
-*export wit7.001 wit.001 Witches1DryCave.18
+*export wit7.001 wit.001 Witches1DryCave.18 ; unclear why the main Witches equate is to wit7.001 when that is noted to be a made up leg in the file itself
 
 *fix wit.001 66029.79 80004.53 214.77 ; entrance tag ; SURFACE ; REQUIRED ; moved here from easegill.svx 
 
-*equate	wit7.001a	wit4.003
+; *equate	wit7.001a	wit4.003 ; identical equate given below so commented out, Becka 2026
 *equate	wit1.001	wit.002c
 *equate	wit1.018	wit3.001	
 *equate	wit3.001	wit1.018
@@ -23,7 +23,7 @@
 *include	wit3	; main survey of 1st sump
 *include	wit4	; linking legs between 1st & 2nd sumps
 *include	wit5	; main survey of 2nd sump
-*include	wit7	; seems similar to wit4
+*include	wit7	; seems similar to wit4, unclear why it is included, done 10 days after wit4 and includes many commented out legs
 *include	Witches1DryCave	; resurvey to replace wit survey 30.10.11
 
 *end	WitchesCave
