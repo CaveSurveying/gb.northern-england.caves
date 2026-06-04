@@ -62,9 +62,11 @@
 
 ; SURFACE FIXED POINTS RETAINED IN ORIGINAL FILES HENCE COMMENTED OUT HERE
 
+; REPLACE THIS - see notes in Witches cave - then move fix up to this level
 ; Witches Cave appears necessary - retained in original file
 ; *fix witchescave.wit.001 66029.79 80004.53 214.77 ; from line 7 in WitchesCave/WitchesCave.svx
 
+; CHECK THIS - see if fix needed and, if it is, move it up a level
 ; Pooh's Revenge (Pippikin) possibly necessary from molephone - retained in original file at present
 ; *fix pippikinpot.poohsrevenge.3 66533.60 79695.40 214.69 ; from line 15 in PippikinPot/PoohsRevenge.svx
 
@@ -274,7 +276,7 @@
 ; Witches Cave and surrounding area 
 ; These files used to be in the leckfell.svx overall file but moved here for consistency with cave locations - Becka May 2026
 
-*include WitchesCaveII/WitchesII 
+*include WitchesCaveII/WitchesII ; Witches II also known as Shuttleworth Pot
 ;*fix WitchesII.WitchesII-2.001 66214 79777 277 ;entrance GPS by K Wood Sept 2010
 *equate WitchesII.WitchesII-2.001	easegill-gps-kdixon-2012.009	;Kevin Dixon GPS
 

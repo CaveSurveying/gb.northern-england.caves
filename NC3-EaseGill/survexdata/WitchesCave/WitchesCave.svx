@@ -5,6 +5,7 @@
 *export wit7.001 wit.001 Witches1DryCave.18 ; unclear why the main Witches equate is to wit7.001 when that is noted to be a made up leg in the file itself
 
 ; REPLACE THIS FIX AND CONNECT TO Witches1DryCave and comment out duplicate files - unclear where it comes from
+; Then move this *fix into the easegill.svx file for consistency with the rest of EaseGill
 *fix wit.001 66029.79 80004.53 214.77 ; entrance tag ; SURFACE ; REQUIRED ; this looks wrong - wit1.001 is the start of the dive line, not the entrance 
 
 ; *equate	wit7.001a	wit4.003 ; identical equate given below so commented out, Becka 2026
