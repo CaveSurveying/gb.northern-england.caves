@@ -13,6 +13,7 @@
 
 *data diving from to length bearing fromdepth todepth
 
+; unclear why this one *calibrate was NOT commented out by Simon Cornhill 2019.04.27 and replaced by a *declination auto in easegill.svx
 *calibrate declination 0  ;this is to stop declination being added twice
 *calibrate compass	+5.67
 

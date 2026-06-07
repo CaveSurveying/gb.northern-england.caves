@@ -273,6 +273,15 @@
 ;*include surface\Surface ; Surface
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;The following caves were not surveyed by Ray / Sam / RRCPC so have not had a magnetic declination applied
+;They therefore need the automatic magnetic declination added, see below  - except see dive data for Leck Beck Head where auto declination does not apply
+
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+;This automatically applies correction for magnetic declination and grid north to all included surveys
+*declination auto	65950.455	79975.28	215.2930  ; Coordinates for point 014 in Kevin Dixon's GPS dataset near to stud marking Leck Beck Head Cave
+;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 ; Witches Cave and surrounding area 
 ; These files used to be in the leckfell.svx overall file but moved here for consistency with cave locations - Becka May 2026
 
