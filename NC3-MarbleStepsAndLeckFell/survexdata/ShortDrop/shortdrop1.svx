@@ -1,5 +1,5 @@
 *begin shortdrop1
-*export 1 4 17 20
+*export 1 4 10 11 17 20
 
 *entrance 3
 

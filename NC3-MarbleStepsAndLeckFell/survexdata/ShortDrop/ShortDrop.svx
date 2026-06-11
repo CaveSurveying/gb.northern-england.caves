@@ -31,10 +31,13 @@
 *include shortdrop8  ; Becka, Philip
 *include shortdrop9  ; Becka, Emma, Philip
 *include shortdrop10  ; Becka, Andrew, complete Ancient Highway
+*include shortdropqm3 ; Becka, few legs up inlet just downstream from entrance, tie in to shortdrop1
 
 *equate shortdrop9.19 shortdrop3.001
 *equate riftentrance.1	shortdrop9.tag2
 *equate shortdrop1.4 shortdrop4canalinlet.1x
+*equate shortdropqm3.2 shortdrop1.10 ; use this equate as tie in looked better than qm3.3 to 1.11, bodge tie in Becka June 2026
+; *equate shortdropqm3.3 shortdrop1.11 ; 1.11 is on the floor and was numbered but I couldn't see a number so this is a bodge tie in Becka June 2026
 
 *equate shortdrop3.025 shortdrop5.25x
 *equate shortdrop3.014 shortdrop5.tag1
@@ -58,7 +61,7 @@
 *equate shortdrop10.41X shortdrop7.41
 *equate shortdrop10.67X shortdrop8.67
 
-; DRECONCILED SHORTDROP 5 AND 6 BY EQUATING AT TAGS AND NUMBERED STATIONS; bu
+; RECONCILED SHORTDROP 5 AND 6 BY EQUATING AT TAGS AND NUMBERED STATIONS; but
 ; the compass for the two are quite out of alignment. It could be worth checking a few legs down the 2 side passages
 ; however they look similar to the ULSA survey so maybe ignore
 

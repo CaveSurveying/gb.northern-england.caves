@@ -275,7 +275,7 @@
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ;The following caves were not surveyed by Ray / Sam / RRCPC so have not had a magnetic declination applied
-;They therefore need the automatic magnetic declination added, see below  - except see dive data for Leck Beck Head where auto declination does not apply
+;They therefore need the automatic magnetic declination added, see below  - except see dive data for Leck Beck Head where auto declination has not been applied by Simon Cornhill - unclear why not
 
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
