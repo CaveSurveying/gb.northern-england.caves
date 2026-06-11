@@ -1,6 +1,6 @@
 *begin CrescentPot
 
-*export Entrance
+*export entrance
 
 ;Title: Crescent Pot
 
@@ -14,8 +14,8 @@
 
 *fix GPS 70545 76594 393 ;to peaty "step" near top of shakehole, just above steps - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
 
-*ENTRANCE 	Entrance
-*equate 	Entrance crescent_1.2
+*ENTRANCE 	entrance
+*equate 	entrance crescent_1.2
 
 *equate GPS crescent_1.gps
 
@@ -24,8 +24,9 @@
 *include crescent_3
 *include crescent_4
 *include crescent_5
-*include crescent24may-above4thpitch.svx
-*include crescent24may-ent-to-digchamber
+*include crescent24may-above4thpitch
+*include crescent24may-ent-to-digchamber ; notes for inlet otherwise only centreline
+*include crescent-ent ; repeat survey of crescent_1 to check dodgy reading and to get proper tie in for inlet in crescent24may-ent-to-digchamber
 
 *equate crescent_1.14	crescent_2.1
 *equate crescent_3.10x	crescent_2.10
@@ -38,6 +39,7 @@
 *equate crescent_2.2-6	crescent24may-above4thpitch.41
 ;*equate crescent_1.2 crescent24may-ent-to-digchamber.3
 *equate crescent_1.11 crescent24may-ent-to-digchamber.19
+*equate crescent_1.3 crescent-ent.4
 
 ; comment these lines out this once resurvey complete
 *flags duplicate
