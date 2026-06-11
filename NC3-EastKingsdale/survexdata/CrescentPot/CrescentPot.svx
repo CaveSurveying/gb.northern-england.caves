@@ -3,21 +3,23 @@
 *export entrance
 
 ;Title: Crescent Pot
-
 ;Date Created 16/06/2013 by Becka Lawson
-
 ;All Crescent Pot files
 
-*cs OSGB:SD
+*cs UTM30
+;*cs OSGB:SD
 *cs out EPSG:27700
-*DECLINATION AUTO 70545 76594 393
 
-*fix GPS 70545 76594 393 ;to peaty "step" near top of shakehole, just above steps - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
+*DECLINATION AUTO 535699 6004167 393 ;  535699 6004167 on OsmAND  or 535701 6004167 on CoMaps or 535688 6004167 on Gaia - used previous altitude which looks consistent with contours
+*fix GPS 535699 6004167 393 ; GPS repeated 2026.06.10 when doing crescent-ent survey (needs *cs UTM30)
+; *fix GPS 70545 76594 393 ;OLD GPS for crescent_1.svx file (needs *cs OSGB:SD)- to peaty "step" near top of shakehole, just above steps - entrance GPS by Becka with Becka's Etrex Venture GPS read to 3m accuracy on 16 June 2013
+
+*equate GPS crescent-ent.gps
+; *equate GPS crescent_1.gps
 
 *ENTRANCE 	entrance
-*equate 	entrance crescent_1.2
-
-*equate GPS crescent_1.gps
+*equate 	entrance crescent-ent.4 ; phanger for 1st pitch (not the backup phanger)
+; *equate 	entrance crescent_1.2
 
 *include crescent_1
 *include crescent_2
@@ -28,7 +30,8 @@
 *include crescent24may-ent-to-digchamber ; notes for inlet otherwise only centreline
 *include crescent-ent ; repeat survey of crescent_1 to check dodgy reading and to get proper tie in for inlet in crescent24may-ent-to-digchamber
 
-*equate crescent_1.14	crescent_2.1
+*equate crescent-ent.23	crescent_2.2
+; *equate crescent_1.14	crescent_2.1 ; replace crescent_1 with crescent-ent
 *equate crescent_3.10x	crescent_2.10
 *equate crescent_3.8	crescent_2.2-1
 *equate crescent_3.8	crescent_4.8x
@@ -37,17 +40,20 @@
 ;*equate crescent_2.2-34	crescent24may-above4thpitch.6
 ;*equate crescent_2.2-15	crescent24may-above4thpitch.28
 *equate crescent_2.2-6	crescent24may-above4thpitch.41
-;*equate crescent_1.2 crescent24may-ent-to-digchamber.3
-*equate crescent_1.11 crescent24may-ent-to-digchamber.19
-*equate crescent_1.3 crescent-ent.4
 
-; comment these lines out this once resurvey complete
+*equate crescent_1.11 crescent24may-ent-to-digchamber.19 ; tie in to old numbered station 11 from crescent_1 survey
+;*equate crescent_1.2 crescent24may-ent-to-digchamber.3
+;*equate crescent_1.3 crescent-ent.4
+
+*equate crescent-ent.17 crescent24may-ent-to-digchamber.19 ; tie in to old numbered station 11 from crescent_1 survey
+
+; comment out these lines (using reconstructed centreline from Preston survey) once resurvey complete
 *flags duplicate
 *INCLUDE Crescent-Recon1   ; this is reconstructed centreline for Preston 1974-1979 survey taking their "Grid North" arrow at face value
 *INCLUDE Crescent-Recon1-AddSomeDegreesCW ; this is reconstructed centreline for Preston 1974-1979 survey but assuming they
 ; mistakenly subtracted (rather than added) the approx -8 degree declination for their survey when they drew up their plan
 ;*EQUATE crescent_5.26	Crescent-Recon1.path8.33
-*EQUATE Entrance		Crescent-Recon1.path9.40
-*EQUATE Entrance		Crescent-Recon1-AddSomeDegreesCW.path9.40
+*EQUATE entrance		Crescent-Recon1.path9.40
+*EQUATE entrance		Crescent-Recon1-AddSomeDegreesCW.path9.40
 
 *end CrescentPot

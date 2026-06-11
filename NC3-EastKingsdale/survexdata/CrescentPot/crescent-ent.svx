@@ -1,7 +1,7 @@
 *begin  crescent-ent ; in Sexytopo this file is crescentent 
 ; Created with SexyTopo on 2026-06-11
 
-*export gps 4
+*export gps 4 17 23
 
 *date 2026.06.10
 
@@ -140,7 +140,7 @@ gps	2	1.040	201.50	82.23	; gps = gps at surface of fell on edge of shakehole
 ;16	17	5.260	25.40	-48.90
 ;16	17	5.250	25.40	-48.90
 ;16	17	5.260	25.80	-48.80
-17	..	0.580	275.40	3.60	; stn 17 is old, numbered stn from original, crescent1 survey, at end of narrow c3 rift climb
+17	..	0.580	275.40	3.60	; stn 17 is old stn numbered 11 from original, crescent1 survey, at end of narrow c3 rift climb ... 24 May 26 survey also tied in to this one
 17	..	4.390	340.10	84.50	
 17	..	1.700	289.80	-76.70	
 17	..	3.650	23.30	-4.50	
