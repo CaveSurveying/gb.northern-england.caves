@@ -12,6 +12,8 @@
 
 ;from	to	tape	compass	clino	remarks
 
+*flags duplicate
+
 *flags surface
 
 1	gps	4.51	224	-06

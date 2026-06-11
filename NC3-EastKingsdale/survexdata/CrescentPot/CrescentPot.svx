@@ -21,7 +21,7 @@
 *equate 	entrance crescent-ent.4 ; phanger for 1st pitch (not the backup phanger)
 ; *equate 	entrance crescent_1.2
 
-*include crescent_1
+; REPLACE BY CRESCENT-ENT ;*include crescent_1 ; data dubious - vertical range too great and compass on final legs looks out - crescent-ent (and crescent24may-ent-to-dig-chamber) duplicate these legs to check them
 *include crescent_2
 *include crescent_3
 *include crescent_4
@@ -41,11 +41,13 @@
 ;*equate crescent_2.2-15	crescent24may-above4thpitch.28
 *equate crescent_2.2-6	crescent24may-above4thpitch.41
 
-*equate crescent_1.11 crescent24may-ent-to-digchamber.19 ; tie in to old numbered station 11 from crescent_1 survey
-;*equate crescent_1.2 crescent24may-ent-to-digchamber.3
-;*equate crescent_1.3 crescent-ent.4
+; *equate crescent-ent.4 crescent24may-ent-to-digchamber.3 ; tie in at initial phanger
+*equate crescent-ent.10 crescent24may-ent-to-digchamber.7 ; tie in to previous station at start of inlet above 2nd pitch
+; *equate crescent-ent.8 crescent24may-ent-to-digchamber.8 ; tie in at backup phanger for 2nd pitch except unclear if ent.8 really was to the backup phanger
+; *equate crescent-ent.17 crescent24may-ent-to-digchamber.19 ; tie in to old numbered station 11 from crescent_1 survey ... but the digchamber survey may have some dodgy legs so comment this out for now
 
-*equate crescent-ent.17 crescent24may-ent-to-digchamber.19 ; tie in to old numbered station 11 from crescent_1 survey
+; REPLACE crescent_1 BY CRESCENT-ENT ;*equate crescent_1.11 crescent-ent.17 ; tie in to old numbered station 11 from crescent_1 survey
+; *equate crescent_1.11 crescent24may-ent-to-digchamber.19 ; tie in to old numbered station 11 from crescent_1 survey ... but the digchamber survey may have some dodgy legs so comment this out for now
 
 ; comment out these lines (using reconstructed centreline from Preston survey) once resurvey complete
 *flags duplicate

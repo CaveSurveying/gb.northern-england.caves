@@ -1,11 +1,11 @@
 *begin  crescent-ent ; in Sexytopo this file is crescentent 
 ; Created with SexyTopo on 2026-06-11
 
-*export gps 4 17 23
+*export gps 4 8 9 10 17 23
 
 *date 2026.06.10
 
-*title "Crescent Pot: repeat crescent1 survey to improve gps and tie-ins and eliminate dodgy compass reading below 2nd pitch"
+*title "Crescent Pot: repeat crescent_1 survey to improve gps and tie-ins and eliminate dodgy compass readings below 2nd pitch and clino errors"
 *team "Becka Lawson" Notes
 *team "Philip Withnall" Instruments
 *instrument insts "Becka DiscoX"

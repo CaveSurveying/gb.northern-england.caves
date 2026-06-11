@@ -3,15 +3,17 @@
 ; was crescent24may-ent-edited
 ; Created with SexyTopo on 2026-05-26
 
-*export 2 3 8 19
+*export 2 3 7 8 19
 
-*title "East Kingsdale - Crescent Pot - some resurvey just to check centreline plus small horizontal inlet between 1st and 2nd pitches"
+*title "East Kingsdale - Crescent Pot - some resurvey just to check centreline for crescent_1 which looked dodgy plus small horizontal inlet between 1st and 2nd pitches"
 *date 2026.05.24 
 *team "Philip Withnall" instruments ; Becka's Discovery Brendan Hall
 *team "Becka Lawson" Notes 
 *instrument insts "Becka's Discovery Brendan Hall"
 
 *data normal from to tape compass clino ignoreall
+
+*flags duplicate
 1	2	1.520	72.37	1.33	; stn 1 = l wall of canyon in shakehole
 ;1	2	1.510	72.40	1.20	; stn 2 = backup phanger for 1st pitch
 ;1	2	1.520	72.10	1.40
@@ -25,29 +27,29 @@
 ;4	5	0.980	245.30	38.60
 ;4	5	0.980	245.50	38.70
 ;4	5	0.980	245.50	38.70
-5	..	6.640	180.20	87.20	
-5	..	6.670	180.40	87.30	
-5	..	6.660	176.40	87.50	
-5	..	6.660	174.30	87.50	
-5	..	6.660	176.00	87.60	
+; 5	..	6.640	180.20	87.20	
+; 5	..	6.670	180.40	87.30	
+; 5	..	6.660	176.40	87.50	
+; 5	..	6.660	174.30	87.50	
+; 5	..	6.660	176.00	87.60	
 5	6	6.660	354.40	-87.40	
 6	7	1.850	205.87	-33.73	; stn 6 = base 1st pitch 
 ;6	7	1.850	26.70	33.70
 ;6	7	1.850	25.40	33.80
 ;6	7	1.850	25.50	33.70
-8	7	1.973	18.47	63.17	; recorded as 7 to 8 but maybe should have been backsight so 8 to 7 so Becka changed
+7	8	1.973	18.47	63.17	; stn 7 is I think at start of inlet
 ;7	8	1.980	18.70	63.40
 ;7	8	1.970	18.60	63.20
 ;7	8	1.970	18.10	62.90
-8	..	7.030	81.60	84.90	
-8	..	7.030	81.00	85.30	
-8	..	7.030	83.70	85.00	
-8	..	7.030	83.30	85.40	
-8	9	7.030	262.00	-85.10	; stn 8 = backup phanger for 2nd pitch 
-9	..	2.440	124.70	30.90	
-9	..	2.470	124.70	30.90	
-9	..	2.390	125.10	30.90	
-9	..	2.320	125.20	30.70	
+; 8	..	7.030	81.60	84.90	; stn 8 = not recorded but thought to be backup phanger for 2nd pitch 
+; 8	..	7.030	81.00	85.30	
+; 8	..	7.030	83.70	85.00	
+; 8	..	7.030	83.30	85.40	
+7	9	7.030	262.00	-85.10	; recorded as 8 to 9 but that wasn't what we did as wouldn't sight from a phanger, think this should have been 7 to 9 
+; 9	..	2.440	124.70	30.90	
+; 9	..	2.470	124.70	30.90	
+; 9	..	2.390	125.10	30.90	
+; 9	..	2.320	125.20	30.70	
 9	10	2.400	305.03	-30.60	; stn 9 = ledge approx 2m above base 2nd pitch 
 ;9	10	2.400	125.40	30.40
 ;9	10	2.400	125.20	30.70
@@ -56,7 +58,11 @@
 ;10	11	2.120	33.00	64.90
 ;10	11	2.140	32.70	65.10
 ;10	11	2.130	31.70	65.30
-9	12	0.587	322.70	-32.37	
+
+*flags not duplicate
+12 7	0.587	322.70	-32.37	; equated the inlet in to the wrong station, doh! Originally this was 9 to 12
+; However 9 is BELOW main hang of 2nd pitch. But also direction looked wrong (had already been reversed in Sexytopo)
+; So changed from 7 to 12 to 12 to 7 which I think is correct
 ;9	12	0.580	142.40	32.50
 ;9	12	0.590	143.10	32.30
 ;9	12	0.590	142.60	32.30
@@ -100,6 +106,8 @@
 ;16	17	1.240	171.80	16.50
 ;16	17	1.240	171.50	16.50
 ;16	17	1.250	171.90	16.30
+
+*flags duplicate
 11	18	3.193	3.23	-43.97	; stn 11 is below 2nd pitch, got this far and realised had missed surveying inlet so returned to top of 2nd pitch to do inlet
 ;11	18	3.210	183.10	43.60
 ;11	18	3.170	183.30	44.20
