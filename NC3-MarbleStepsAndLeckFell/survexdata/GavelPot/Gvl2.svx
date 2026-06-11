@@ -11,10 +11,13 @@
 
 *calibrate declination 0  ;this is to stop declination being added twice 
 *calibrate compass	+5.00
-*entrance 000	;added by RGB 23/11/09 for clarity on 3d image
+*entrance 002 ; added by RGB 23/11/09 for clarity on 3d image
 
+*flags surface
 000	001	22.80	214.0	-35.0	;st000=tag on fence post on path to entrance
 001	002	30.80	318.0	-37.0
+
+*flags not surface ; unclear where cave entrance is - *flags added by Becka June 2026
 002	003	10.50	 -	DOWN	;pitch
 003	004	07.70	338.0	-18.0
 004	005	02.80	253.0	-10.0
