@@ -1,0 +1,36 @@
+;Cave:		Grind-Clean Passage to sump (from E.Wilson/T.Clayton last station)
+;Surveyors:	E.Wilson(intr)/T.Clayton(notes)
+;Date:		29/09/2018
+;Instruments:	Tom's tandem/Tom's tape
+
+;*equate	gri07.001	gri03.019	;start of Clean Passage
+;*equate	gri07.008	gri08.001
+
+*begin	gri07
+*export 001 008
+;*calibrate compass	
+;*calibrate clino	
+;*calibrate tape			
+
+002	001	02.37	353.0	+12.0
+003	002	02.09	284.0	-05.0
+004	003	03.98	342.0	-01.0
+005	004	04.00	311.0	-04.0
+006	005	01.10	244.0	+05.0
+007	006	02.11	290.0	-03.0
+008	007	03.71	014.0	+09.0
+009	008	04.01	148.0	+08.0
+
+
+*end	gri07
+
+;st		l		r		u		d		comments
+;1		0.3		0.2		0		1.5		roof
+;2		2.37		0.1		0.2		0.2		rh wall
+;3		0		2		0.3		0.1		lh wall
+;4		0.5		0		0.15		0.2		rh wall
+;5		1		0.1		0.05		0.2		nose
+;6		0.2		0.4		0.3		0.1		rock
+;7		1.2		2		0		0.3		roof
+;8		0		1		0.5		0.2		rh wall corner
+;9		

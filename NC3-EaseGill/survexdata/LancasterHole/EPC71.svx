@@ -52,6 +52,10 @@
 *equate gri01.000 gri02.045 ; from gri01.svx
 *equate gri01.055 wm.017 ; from gri01.svx
 *equate gri02.009 gri03.019 ; from gri02.svx
+*equate	gri07.001 gri03.019 ; start of Clean Passage
+*equate	gri07.008 gri08.001 ; 
+*equate	gri08.025 gri09.000 ; st 025 is LW piece of survey paper marked final station
+
 *equate GrindEasyStRoofTube.022 GrindEasyStRoofTube2.006 ; from GrindEasyStRoofTube2.svx
 *equate GrindEasyStRoofTube.045 PicklePassage1.001 ; from PicklePassage1.svx
 *equate grindinghalt1.21 grindinghalt3.20 ; from grindinghalt1.svx
@@ -99,6 +103,9 @@
 *include	gri01
 *include	gri02
 *include	gri03
+*include	gri07
+*include	gri08
+*include	gri09
 *include	darkside
 *include	grindinghalt1
 *include	grindinghalt3
