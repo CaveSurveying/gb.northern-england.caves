@@ -1,4 +1,5 @@
 *begin shortdrop7
+
 *export cowtag3 34x cowtag4 41 73
 
 *title "Start west end of ancient highway to two avens then down main streamway as far as junction with breakdown inlet"
@@ -105,7 +106,7 @@ cowtag3	1	0	3	1.7	junction at east end of Ancient Highway
 71	2.2	2.9	5.5	0.2	streambed by junction
 cowtag4	3	0	1.5	1.2	inlet with huge calcite flow from balcony above it
 72	1	1.5	2.8	1	l wall
-73	2.6	0	4.7	1.7	pencilled number on left wall just after main junction
+73	2.6	0	4.7	1.7	pencilled number on left wall just after main junction (actually number is liquid paper)
 temp1	-	-	-	-	shot up inlet (Breakdown Inlet I think) just for drawing
 temp2	-	-	-	-	shot down main passage just for drawing
 
