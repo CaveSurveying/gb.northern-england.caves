@@ -14,6 +14,6 @@
 *INCLUDE GapingGill-AREA/GapingGill-AREA.svx
 *INCLUDE NewbyMoss-AREA/NewbyMoss-AREA.svx
 *INCLUDE WhiteScar-AREA/WhiteScar-AREA.svx 
-*INCLUDE FountainsFell-Area/fountainsfell.svx
+*INCLUDE FountainsFell-AREA/fountainsfell.svx
 
 *end threepeaks
