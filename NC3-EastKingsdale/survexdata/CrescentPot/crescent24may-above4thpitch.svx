@@ -11,6 +11,9 @@
 ; Created with SexyTopo on 2026-05-26
 
 *data normal from to tape compass clino ignoreall
+
+*flags duplicate
+
 1	2	3.197	65.40	5.27	; 1 = old stn in roof tube
 ;1	2	3.200	65.70	5.10
 ;1	2	3.190	65.30	5.50
@@ -242,6 +245,9 @@ N	35	3.880	138.70	75.43	; stn marked N was no.d stn 34 in Sexytopo files
 41	..	1.690	235.00	-56.00	
 41	..	1.610	203.50	-57.00	
 41	..	2.280	234.50	-65.90	
+
+*flags not duplicate 
+
 41	42	3.640	9.33	-19.13	; stn 41 = old stn no.d 2.6, jn of inlet where Clam Passage starts and 4th pitch
 ;41	42	3.660	9.60	-19.30
 ;41	42	3.630	9.10	-19.00

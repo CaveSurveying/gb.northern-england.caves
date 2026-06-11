@@ -36,9 +36,10 @@
 *equate crescent_3.8	crescent_2.2-1
 *equate crescent_3.8	crescent_4.8x
 *equate crescent_4.25	crescent_5.25x
-;*equate crescent_2.12	crescent24may-above4thpitch.1
-;*equate crescent_2.2-34	crescent24may-above4thpitch.6
-;*equate crescent_2.2-15	crescent24may-above4thpitch.28
+
+*equate crescent_2.12	crescent24may-above4thpitch.1
+*equate crescent_2.2-34	crescent24may-above4thpitch.6
+*equate crescent_2.2-15	crescent24may-above4thpitch.28
 *equate crescent_2.2-6	crescent24may-above4thpitch.41
 
 ; *equate crescent-ent.4 crescent24may-ent-to-digchamber.3 ; tie in at initial phanger
