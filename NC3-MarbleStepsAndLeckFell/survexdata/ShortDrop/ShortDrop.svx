@@ -1,6 +1,6 @@
 *begin ShortDrop
 
-*export shortdrop4canalinlet.14 FencePost
+*export shortdrop4canalinlet.14 FencePost shortdrop12edits.41
  
 *equate shortdrop1.1 FencePost
 
@@ -33,6 +33,7 @@
 *include shortdrop10  ; Becka, Andrew, complete Ancient Highway
 *include shortdropqm3 ; Becka, few legs up inlet just downstream from entrance, tie in to shortdrop1
 *include shortdrop11  ; Becka, Philip, Todd from shortdrop7 down pitch and partway to Gavel
+*include shortdrop12edits  ; Becka, George, Kate, Luke from shortdrop11 to ecotraverse below 1st pitch of Gavel
 
 *equate shortdrop9.19 shortdrop3.001
 *equate riftentrance.1	shortdrop9.tag2
@@ -63,6 +64,8 @@
 *equate shortdrop10.67X shortdrop8.67
 
 *equate shortdrop7.73 shortdrop11.1
+
+*equate shortdrop11.54 shortdrop12edits.54x1
 
 ; RECONCILED SHORTDROP 5 AND 6 BY EQUATING AT TAGS AND NUMBERED STATIONS; but
 ; the compass for the two are quite out of alignment. It could be worth checking a few legs down the 2 side passages

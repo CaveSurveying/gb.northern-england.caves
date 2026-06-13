@@ -44,6 +44,8 @@
 
 *include ShortDrop/ShortDrop
 *equate	ShortDrop.FencePost shortdroprumblingcoalholebyronsurface.0
+*equate ShortDrop.shortdrop12edits.41 GavelPot.gavelresurvey1.8 ; it would be good to get a leg from phanger
+; at bottom of Gavel entrance pitch to various phangers on the Eco Traverse to double check this equate but it can't be far out Becka June 2026
 
 *include LongDrop/LongDrop
 *equate	LongDrop.StylePost shortdroprumblingcoalholebyronsurface.16

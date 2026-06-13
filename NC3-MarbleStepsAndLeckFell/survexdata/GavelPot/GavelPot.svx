@@ -1,7 +1,8 @@
 ;Gavel Pot
 
 *begin	GavelPot
-;*export GavelPotFencePost
+
+*export gavelresurvey1.8 ; GavelPotFencePost
 
 *equate Gvl2.000 GavelPotFencePost
 ;*equate Gvl2.000 3C02  ; KD GPS bolt ;NB
