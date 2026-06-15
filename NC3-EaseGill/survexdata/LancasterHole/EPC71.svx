@@ -103,16 +103,16 @@
 *include	gri01
 *include	gri02
 *include	gri03
-*include	gri07
-*include	gri08
-*include	gri09
-*include	darkside
-*include	grindinghalt1
-*include	grindinghalt3
+*include	gri07 ; start of Grind Clean Passage
+*include	gri08 ; middle of Grind Clean Passage
+*include	gri09 ; end of Grind Clean Passage
+*include	darkside ; aka grind04
+*include	grindinghalt1 ;  aka grind06
+*include	grindinghalt3 ;  aka grind05
 *include	GrindEasyStRoofTube
 *include	GrindEasyStRoofTube2
-*include	PicklePassage1
-*include	PicklePassage2
-*include	PicklePassage3
+*include	PicklePassage1 ; aka grind03c
+*include	PicklePassage2 ; aka grind03b
+*include	PicklePassage3 ; aka grind03a
 
 *end EPC71
