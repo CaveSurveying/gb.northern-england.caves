@@ -1,0 +1,12 @@
+;All Casserole files
+
+*begin Casserole
+*export cass01.001
+
+*fix cass01.001 66371.29 80854.12 302.82	;evss26b.007=tag at top of Casserole Pot
+*equate cass01.012 cass02.005
+
+*include cass01
+*include cass02
+
+*end Casserole

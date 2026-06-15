@@ -1,0 +1,26 @@
+;Cave:	Casserole Pot, new end of dig to end of previous survey below Pepperami pot
+;Surveyors:	Sam Lieberman (Notes & Instruments), Steve Gray (tape monkey)
+;Date:	11/12/2021
+;Instruments:	Farm Surveying set B, Tape measure 10cm too long.
+
+*begin	cass02
+*export 002
+*export 005
+
+;*calibrate compass	????
+;*calibrate clino	????
+*calibrate tape		-0.10
+
+002	001	06.00	354.0	-05.0	;st001 is furthest visible point in narrow ongoing passage - LENGTH ESTIMATED
+002	003	06.78	164.0	-01.0	;st002 is tag in drill hole, R.H. wall looking in.
+003	004	01.29	238.0	 00.0	;st003 & stn004 corners of dogleg in passage
+004	005	02.32	147.0	 00.0	;st005 is end of previous survey (paper stuffed in drill hole in R.H. wall looking in)
+
+*end	cass02
+
+;St	L	R	U	D	;Comments
+;001	~0.1	~0.1	~0.5	~0.5	;furthest visible point in narrow ongoing passage
+;002	0.0	0.4	0.4	0.6	;tag in drill hole, R.H. wall looking downstream
+;003	0.2	0.2	0.3	0.6	;above pool on downstream corner of dogleg in passage
+;004	0.3	0.4	0.3	0.5	;above pool on downstream corner of dogleg in passage
+;005	0.0	0.6	0.4	0.5	;paper stuffed in drill hole. R.H. side looking downstream.

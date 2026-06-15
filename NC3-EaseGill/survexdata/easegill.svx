@@ -7,6 +7,7 @@
 *export LinkPot.lk01.034	; tag at Echo aven
 *export LinkPot.lk12.033  	; via the Grind
 
+*export Casserole.cass01.001
 *export lancasterhole.l2.010
 *export lancasterhole.l4.028
 *export lancasterhole.l5.016
@@ -229,6 +230,7 @@
 ; North Side of Ease Gill (was all in the EaseGill folder pre-2013)
 
 *include BullPotOfTheWitches\BullPotOfTheWitches ; Bull Pot of the Witches
+*include CasserolePot\Casserole ; Casserole Pot
 *include LancasterHole\LancasterHole ; Lancaster Hole
 *include LancasterHole\WoodhouseWay ; Lancaster Hole
 *include LancasterHole\EPC71 ; Lancaster Hole

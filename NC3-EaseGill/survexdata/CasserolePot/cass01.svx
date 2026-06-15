@@ -1,0 +1,46 @@
+;Cave:	Casserole Pot, re-survey
+;Surveyors:	R. Duffy (Notes)/S.Lieberman(Instr)
+;Date:	02/03/2019
+;Instruments:	PAG + Disto
+
+*begin	cass01
+
+*export 001
+*export 012
+
+*calibrate compass	-02.0
+*calibrate clino	+01.0
+*calibrate tape		 00.0
+
+001	002	3.03	  -	 DOWN	;
+002	003	00.93	273.0	-02.0	;
+003	004	02.87	  -	 DOWN	;
+005	004	00.82	176.0	+03.0	;
+005	006	02.02	  -	 DOWN	;
+007	006	05.93	175.0	+02.0	;
+007	008	01.55	034.0	-08.0	;
+008	009	02.35	  -	 DOWN	;
+010	009	01.21	167.0	 00.0	;
+011	010	04.91	158.0	+11.0	;
+012	011	03.21	192.0	+05.0	;
+
+*flags duplicate
+012	013	03.10	345.0	 00.0	;
+*flags not duplicate
+
+*end	cass01
+
+;st	L	R	U		D	;Comments
+;001						;Tag on surface
+;002	0.7	0.5	sky		1.5	;
+;003	0.9	0.05	sky		3.0	;top of scaffolded pit
+;004	0.5	0.2	2.9		0.1	;next ledge, floor
+;005	1.2	1.2	1.5		2.0	;
+;006	1.2	1.2	3.5		0	;R. foot of last ladder
+;007	0.4	0.5	4.4		0.2	;small aven
+;008	0.5	0.3	0.3		1.2	;floor of ledge
+;009	1.2	0.2	1.0		2.4	;chamber
+;010	1.0	0.4	2.8		1.2	;head height sitting on ledge above crawl
+;011	0.3	0.2	0.5/slot	0.5	;
+;012	0.6	0.0	0.4		0.5	;drilled hole in R.H. wall
+;013						;furthest visible point downstream - too small
