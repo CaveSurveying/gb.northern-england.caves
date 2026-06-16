@@ -1,0 +1,26 @@
+;Cave:		Avon Pot - from knobble in Hoedown to base of pitch
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		19/04/2015
+;Instruments:	PAG + new disto
+
+*begin	Av04
+*export 001 005
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	 0.0
+
+002	001	02.41	002.0	+03.0	;knobble on floor on tiny trench
+003	002	02.10	288.0	+17.0
+004	003	05.32	007.5	+03.0
+005	004	01.76	023.0	-06.0
+005	006	06.95	106.0	-63.0
+
+*end	Av04
+
+;st		l		r		u		d		comments
+;1		0.1		0.5		0.2l/2.5h		0		small knobble on floor in tiny trench
+;2		0.3		0.2		0.5		1.1		corner where water goes under ledge
+;3		0.3		0.2		2.4		1.0		kneeling on large rock below drop down from ledge
+;4		0.2		0.2		2.4		1.2		lying on ledge at tight corner
+;5		0.1		0.3		0.6		0.7		standing in alcove near pitch
+;6										floor of pitch

@@ -1,0 +1,44 @@
+;Cave:		Avon Pot - from end of dig face to top of pitch
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		15/10/2015
+;Instruments:	PAG + new disto
+
+*begin	Av05
+
+*export 001 002 010
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	 0.0
+
+*flags duplicate
+002	001	01.76	123.0	-05.0
+*flags not duplicate
+002	003	01.95	345.0	+10.0
+003	004	01.36	 -	UP
+005	004	03.73	040.0	-15.0
+
+005	005a	03.70	 -	UP
+
+005	006	00.79	 -	UP
+006	007	03.09	320.0	+26.0
+007	008	01.71	284.0	+34.0
+008	009	03.26	 -	UP
+010	009	00.59	110.0	-14.0
+
+*end	Av05
+
+;st		l		r		u		d		comments
+;1		0.1in roof	0.2		0		1		as far as junction
+;2		0.2		0.3		0.3		0.8		first LH corner from small chamber
+;3		pass/1 to lip	0.8		0.8		1.1		bottom of rolled up ladder
+;4		0.4		0.4		0.7		pitch		edge of pitch
+;5		0.3		0.3		AVEN		0.6		sitting below small aven at step up to chamber
+
+;5a										small aven
+
+;6		0.5		0.5		AVEN		1.6		floor of pitch
+;7		1		0.3		3.0		1.2		standing in hole before step up to chamber
+;8		0.8		0.9		3.5PITCH	0.3		botton of rolled up ladder
+;9		0.7mud slope	0.9cleft	0.7/1.7cleft	3.7		top of ladder
+;10		0.3		0.2		0.7		0.9		penultimate station on survey 4

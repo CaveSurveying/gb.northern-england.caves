@@ -1,0 +1,31 @@
+;Cave:	Top Tip (underground, out from bottom of 2nd pitch)
+;Surveyors:	A.Hall/B.Sherrington/I.Lawson
+;Date:	12/01/07
+;Instruments:	kit 3
+
+*begin	tt01
+*export 001 005 014
+
+*calibrate compass	+2.00
+*calibrate clino		-1.50
+;*calibrate tape	
+
+000	000a	10.00	215.0	 00.0	;estimated leg along coninuing passage
+000	001	01.00	270.0	 00.0	;st000=tag at bottom of 2nd 8m pitch
+001	002	07.60	 -	UP	;up pitch to bolts
+002	003	01.50	072.0	+12.0
+003	004	04.10	033.0	-42.0
+
+004	004a	04.50	217.0	-35.0	;st004a is bottom of slope
+
+004	005	00.90	270.0	 00.0
+005	006	04.55	 -	UP	;pitch
+006	007	00.70	251.0	 00.0
+007	009	03.20	295.0	+67.0
+009	010	02.10	023.0	+49.0
+011	010	03.20	202.0	-31.0	;is this really a back bearing Andy?????
+011	012	03.90	309.0	+67.0
+012	013	00.90	157.0	 00.0
+013	014	01.00	 -	UP	;leg down to bar to link up with surface survey
+
+*end	tt01

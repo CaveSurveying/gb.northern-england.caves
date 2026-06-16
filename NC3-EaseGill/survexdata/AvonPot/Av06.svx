@@ -1,0 +1,50 @@
+;Cave:		Avon Pot - from bend to bottom of new pitch
+;Surveyors:	R.Duffy(notes)/S.Lieberman(instr.)
+;Date:		02/05/2016
+;Instruments:	PAG + new disto
+
+*begin	Av06
+
+*export 001
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	 0.0
+
+001	002	02.19	107.0	-10.0
+002	003	03.55	066.0	-01.0
+004	003	01.76	291.0	+34.5
+004	005	02.88	181.0	-24.0
+006	005	04.28	029.0	+37.0
+
+006	006a	04.74	305.0	+82.0
+006	006b	04.61	188.0	+69.0
+006	006c	02.70	278.0	-37.0
+006	006d	02.26	207.0	-36.0
+
+006	007	02.85	033.0	+17.0
+
+007	007a	01.74	009.0	 00.0
+
+007	008	02.95	316.0	-31.0
+008	009	02.76	317.0	-47.0
+
+008	008a	02.17	026.0	+51.0
+
+*end	Av06
+
+;st		l		r		u		d		comments
+;1										LH bend from small chamber
+;2		0.3		0.3		0.4		1		RH side of passage opposite small inlet
+;3		0		0.6		0.2		1.2		bolt on left wall
+;4		0.4		1inlet		0.4		0.9		pit
+;5		0		0.4		0.3		5.0		LH wall of top of pitch
+;6		0.8		1h/0.5		4.5		1.5		middle of far pot near outlet
+;6a										tiny inlet
+;6b										tiny inlet		
+;6c										tiny outlet
+;6d										undercut
+;7		0.8		0.8		2.2		1.5		edge of ladder pot
+;7a						3.4		2.6		wall behind ladder
+;8		h1/l0.2		h2/l1		1.5		1.5		down to continuation far wall
+;8a										roof of tiny inllet

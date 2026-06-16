@@ -1,0 +1,48 @@
+;Cave:		Avon Pot (continued)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		24/11/2010
+;Instruments:	PAG + disto
+
+*begin	Av02
+
+*export 001
+*export 005
+*export 010
+
+*calibrate compass	+6.0
+*calibrate clino	 0.0
+*calibrate tape		 0.0
+
+
+001	002	01.25	 -	DOWN	;st001 is small knobble
+003	002	00.83	356.0	+14.0
+003	004	03.81	209.0	-22.0
+004	005	01.72	194.0	-35.0
+
+*flags duplicate
+006	005	01.38	106.0	+46.0
+006	007	04.59	 -	DOWN	;st007 is floor of rift at bottom of pitch
+007	008	01.54	 -	UP	;station raised to head height from floor
+*flags not duplicate
+
+008	008a	01.91	025.0	 00.0	;st008a is cobble back-wall of wet aven
+
+*flags duplicate
+008	009	01.77	235.0	-39.0
+009	010	04.41	206.0	-32.0	;st010 is lump on wall above and before entrance to small right hand passage
+*flags not duplicate
+
+*end	Av02
+
+;stat	L	R	U	D	Comment
+;st001	0.5	1.4	1.0	1.3	small knobble near small bedding 1.1m in beddding
+;st002	0.2	0.4	2.2	0.0
+;st003	0.2	0.5	0.3	0.4	in crawl through to pitch
+;st004	0.3	0.3	1.0	0.8	head ht. end of crawl
+;st005	0.0	0.8	0.5	0.5	bolt
+;st006					top of pitch 3.3m into rift too tight
+;st007	0.2	1.2	6.0	0.0	cobble below ladder on floor of rift
+;st008	0.3	0.7	4.5	1.5	head height at bottom of ladder
+;st008a					cobble back-wall of wet aven
+;st009	0.5	0.3	4.7	1.1
+;st010	0.4	0.0	0.3	1.5	lump on wall above and befor entrance to small right hand passage

@@ -1,0 +1,21 @@
+;every Avon Pot file
+
+*begin	AvonPot
+*export av01.001
+
+*fix av01.001 66149.42 81370.95 311.25 ;ev.ss36.001 bolt at entrance
+
+*equate Av01.008 Av02.001
+*equate Av02.005 Av03.001
+*equate Av03.006 Av04.001
+*equate	Av04.005 Av05.010
+*equate	Av05.002 Av06.001 
+
+*include	Av01
+*include	Av02
+*include	Av03
+*include	Av04
+*include	Av05
+*include	Av06
+
+*end	AvonPot

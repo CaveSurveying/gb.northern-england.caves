@@ -1,0 +1,43 @@
+;Cave:	Top Tip underground, down big pitch and upstream, + rift & chamber beyond bottom of 2nd pitch
+;Surveyors:	Hugh St.Lawrence, Paul Swire, Helen Blyth
+;Date:		12/1/07 
+;Instruments:	set Suunto combined
+;Notes/Pics:	Hugh
+;Tape: 
+
+*Begin tt02
+*export 001 054
+
+*calibrate compass	+2.00
+*calibrate clino	0.00
+*calibrate tape		0.00
+
+001	002	01.80	-	DOWN	;down into slot before pitch
+002	003	01.00	014	-35	;stn3=bolts
+003	004	09.19	-	DOWN	;main part of pitch to ledge
+004	005	01.20	095	0	;ledge to bolt
+005	006	05.30	-	DOWN	;second part of pitch to bottom (head height for Helen)
+006	007	03.16	079	-22	;stn7=tag
+007	008	03.24	034	+11	;head height bottom of climb
+008	009	01.50	-	UP	;climb into upstream actual 2.5m climb
+009	010	03.70	057	+15
+010	011	03.20	038	+24	;stn11=calcite squeeze,passage above calcite also (unsurveyed)
+011	012	04.40	020	+20
+012	013	03.50	307	+55	;alcove/grotto choked behind
+013	014	00.90	-	UP	;up to lip of sloping ramp
+014	015	02.80	340	+35
+015	016	04.30	355	+29
+016	017	03.55	307	+35	;stn17 is teminal chamber
+017	018	03.80	247	+43	;leg into side rift, too tight but space beyond sharp flakes
+017	019	04.70	291	+35	;to terminal choke
+
+007	030	06.40	206	-23	;downstream from tag
+030	031	02.20	197	-20
+031	032	04.00	197	-2	;estimated leg squalid continuation
+
+050	051	03.20	212	-14	;from far rift beyond big chamber
+051	052	03.60	008	+21	;stn052=sitting on summit of slope
+052	053	05.50	035	-44	;down slope and squeeze into rift
+053	054	06.00	033	+3	;through tight rift to tag at bottom of pitch 2
+
+*end	tt02

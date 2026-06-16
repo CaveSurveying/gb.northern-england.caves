@@ -1,0 +1,15 @@
+;All Top Tip files
+
+*begin	TopTip
+*export tt01.014
+
+*equate tt01.005 tt02.001
+*equate tt01.001 tt02.054
+
+;*fix tt01.015	66129	 81315 308.00	; GPS
+*fix tt01.014	66139.28 81317.63 310.85  ; ev.ss35.007 Top Tip Pot ent.	
+
+*include	tt01
+*include	tt02
+
+*end	TopTip

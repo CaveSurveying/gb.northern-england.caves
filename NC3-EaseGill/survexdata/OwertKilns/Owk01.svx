@@ -1,0 +1,51 @@
+;Cave:		Owert Kilns
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		18/02/2017
+;Instruments:	PAG + new disto
+
+;*equate 
+
+*begin	Owk01
+
+*export 001
+
+*calibrate compass	-1.0
+*calibrate clino	 0.0
+*calibrate tape	 0.0
+
+*flags surface
+002	001	04.40	091.0	-39.0
+002	003	04.14	076.0	-43.0
+
+* flags not surface
+
+003	004	03.60	 -	DOWN
+005	004	01.21	292.0	+30.0
+006	005	03.54	067.0	+33.0
+
+006	006a	02.45	020.0	+13.0
+
+006b	006	01.94	064.0	+05.0
+006b	006c	03.25	260.0	-39.0
+
+006b	007	01.02	051.0	+13.0
+007	008	01.99	-	DOWN
+009	008	00.78	162.0	+40.0
+009	010	02.00	035.0	 00.0	;made up leg to alcoves
+
+*end	Owk01
+
+;stat	L		R		U		D		Comment
+;st001									;st001 is tag on rock on right side above hole
+;st002									;head height on slope above stream drop
+;st003									;corner scaffold bar
+;st004	0/5		1/0		sky		0/5		;lip of rock above step
+;st005	0/5bd		0/8step		1/0		0/8h/1/8l		;bottom of step
+;st006	1h/0/5l		1wall/0bd		1/5		0/3		;edge of triangular spikey boulder
+;st006a	1/5		1/0		1/0		0/5		;back wall of small wet chamber
+;006b	1/1h/0/4l		1/1		1/1		0/6		;start of side passage
+;006c	1/0		0/3		0/4		0		;above small hole	
+;st007	1/0mud wall	0/1wall		1/2		hole		;just above scaffold
+;st008	0/8		black cobble	3/2		1/5
+;st009	0/2		0/4		0/9roof		0/7		;head height lying at base of climb
+;st010	1/0		1/4		0		0/5

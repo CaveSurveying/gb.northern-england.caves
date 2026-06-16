@@ -1,0 +1,10 @@
+;every Ower t'Kilns file
+
+*begin	OwertKilns
+*export Owk01.001
+
+*fix owk01.001 	66127.00 81237.00 297.00 ; tag on rock on right side of slope GPS fix
+
+*include	Owk01
+
+*end	OwertKilns

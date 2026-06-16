@@ -6,8 +6,9 @@
 *export EPC71.GrindEasyStRoofTube.001	; via the Grind
 *export LinkPot.lk01.034	; tag at Echo aven
 *export LinkPot.lk12.033  	; via the Grind
-
+*export AvonPot.av01.001
 *export Casserole.cass01.001
+*export OwertKilns.Owk01.001
 *export lancasterhole.l2.010
 *export lancasterhole.l4.028
 *export lancasterhole.l5.016
@@ -24,6 +25,7 @@
 *export countypot.cy12.017
 *export countypot.cy12a.013
 *export countypot.wrii.119
+*export TopTip.tt01.014
 *export tridentseries.trident04.001
 *export middlemaindrain.md4.001
 *export wretchedrabbit.wr.010
@@ -229,6 +231,7 @@
 
 ; North Side of Ease Gill (was all in the EaseGill folder pre-2013)
 
+*include AvonPot\AvonPot ; Avon Pot
 *include BullPotOfTheWitches\BullPotOfTheWitches ; Bull Pot of the Witches
 *include CasserolePot\Casserole ; Casserole Pot
 *include LancasterHole\LancasterHole ; Lancaster Hole
@@ -241,6 +244,8 @@
 *include CowPot\CowPot ; Cow Pot
 *include SylvesterPot\SylvesterPot ; Sylvester Pot
 *include SylvesterPot\RockyHorrorShow ; Sylvester Pot
+*include OwertKilns\OwertKilns ; Ower t'Kilns
+*include TopTip\TopTip ; Top Tip
 *include OxfordPot\OxfordPot ; Oxford Pot
 *include CountyPot\CountyPot ; County Pot
 *include CountyPot\TridentSeries ; County Pot

@@ -1,0 +1,56 @@
+;Cave:		Avon Pot re-survey from pitch-head to dig face + continued banging)
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		06/10/2012
+;Instruments:	PAG + disto (new)
+
+*begin	Av03
+
+*export 001
+*export 006
+*export 002a
+
+*calibrate compass	+6.0
+*calibrate clino	 0.0
+*calibrate tape	 0.0	
+
+002	001	01.18	120.0	+50.0	;st001=bolt at pitch-head
+002	003	03.85	 -	DOWN
+004	003	03.37	043.0	+29.0
+004	005	03.79	191.0	-52.0
+005	006	04.25	141.0	-44.0
+
+*flags duplicate
+007	006	01.21	005.0	+06.0
+007	008	02.03	192.0	-15.0
+*flags not duplicate
+
+;Surveyors:	R.Duffy/S.Lieberman
+;Date:		06/10/2012
+;Instruments:	PAG + disto (new)
+
+*calibrate compass	+6.5
+*calibrate clino	+0.5
+*calibrate tape	 0.0
+
+*flags duplicate
+002a	006	02.27	005.0	+08.0	;st006 on previous survey small knobble in floor on left of passage
+002a	003a	02.02	110.0	+04.0
+003a	004a	01.70	179.0	+30.0
+*flags not duplicate
+
+*end	Av03
+
+;st		l		r		u		d		comments
+;1										st001=bolt at pitch-head
+;2										directly over pitch
+;3		0.2		1.0		4.45		0		large cobble at foot of pitch										
+;4		0.2		0.2		0.4		1.5		head height in rift
+;5		0.2		0.5		2.5		1.0		head height sitting on third step on climbs
+;;;;;;;;;;;6		0.1		0.6		1.2		0		small knobble in floor on left of passage
+;;;;;;;;;;;7		0.1		0.2		0.8		0.2		Start of level bit of passage at foot of slope
+;;;;;;;;;;;8		0.3		0.3		?		?		end of view
+	
+;1a										small knobble in floor on left of passage
+;2a		0.1		0.15		2.0		1.2		Head height on Left hand corner
+;3a		0.2		0.2		1.5		1.8		Head height on Right hand corner
+;4a		0.1		0.0		0.6		2.7		Widest bit ahead
