@@ -1,3 +1,8 @@
+; The cave registry is organised around the 3 guidebooks covering the North of England which are:
+; NC1-WharfedaleAndNorthEast (east and north-east)
+; NC2-ThreePeaks (middle, including caves on Whernside, Penyghent and Ingleborough)
+; NC3-ThreeCounties (west, including Easegill and as far over as East Kingsdale and Scales Moor)
+
 *begin NC1-NC2-NC3-AllNorthernCaves ; include all caves in NC1 NC2 NC3 Northern Caves guidebook areas
 
 *cs OSGB:SD
