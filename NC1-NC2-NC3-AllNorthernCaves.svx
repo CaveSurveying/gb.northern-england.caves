@@ -11,7 +11,7 @@
 
 *include NC1-WharfedaleAndNorthEast/survexdata/wharfedaleandnortheast
 *include NC2-ThreePeaks/survexdata/threepeaks
-*include NC3-threecountiesandnorthwest
+*include NC3-ThreeCounties/NC3-threecountiesandnorthwest
 
 *end NC1-NC2-NC3-AllNorthernCaves
 
