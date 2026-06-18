@@ -1,13 +1,13 @@
 ; Gg01.svx is a file found in an old collection of RRCPC files, moved here for posterity
 
+*begin	Gg01
+
 ;Cave:	Gaping Gill - Main Chamber
 ;Surveyors:	J.N.Cordingley/I.Peretti/A.Karley/S.Karley/R.Moore/D.Morris
 ;Date:	22/08/00
-;Instruments:	Suunto
+;Instruments:	Suunto	
 
-;*equate	
-
-*begin	Gg01
+*date 2000.08.22
 
 *calibrate compass	+6.00	;no real calibration(guess)
 

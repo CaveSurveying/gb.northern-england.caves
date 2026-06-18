@@ -5,6 +5,8 @@
 ;Date:	31/07/03
 ;Instruments:	PAG
 
+*date 2003.07.31 
+
 *calibrate compass	+5.00
 *calibrate clino	+00.5
 ;*calibrate tape		

@@ -1,8 +1,15 @@
+; Kaboom Aven, Pg01 and Pg02 are files found in an old collection of RRCPC files, moved here for posterity
+
+*begin kaboom
+
+*date 1999.05.15 
+
 ;CAve: Penyghent pot , Kaboom aven
 ;Surveyors: Pete Hall (book), Ben Young
 ;Date: 15/5/99
 ;compass:Silva 129766 clino: silva 517168 both from kit1
 ;Tape from kit1 was 10m short but readings in this file are all corrected
+
 1 0 5 138 30		;0=top of final choke, furthest point. Good draught,hanging death
 1 2 3.9 40 -12		;1=base of final choke
 2a 2 2.2 354 -24
@@ -22,3 +29,5 @@ a6 a7 5.9 0 -90
 a7 a8 8.3 331 -41
 a8 a9 4.1 0 -90
 a9 6 5.7 11 -2 
+
+*end kaboom

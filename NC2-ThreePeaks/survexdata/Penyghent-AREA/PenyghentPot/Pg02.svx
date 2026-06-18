@@ -9,6 +9,7 @@
 
 *begin	Pg02
 
+*date 1999.05.15 
 *calibrate compass	+6.50
 *calibrate tape		+10.0
 
