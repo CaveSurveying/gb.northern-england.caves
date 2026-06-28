@@ -6,10 +6,10 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 46X1 p1 1 DignitasPlan DignitasPlan@Dignitas "" ""
-xth_cp_map_tree_insert map 1 47X1 p3 1 DignitasME DignitasME@Dignitas "" ""
+xth_cp_map_tree_insert map 1 35X1 p1 1 DignitasPlan DignitasPlan@Dignitas "" ""
+xth_cp_map_tree_insert map 1 36X1 p3 1 DignitasME DignitasME@Dignitas "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 12 4
+xth_cp_comp_stat 12 3
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1780518749
+set xth(th_exit_number) 1780324746
 

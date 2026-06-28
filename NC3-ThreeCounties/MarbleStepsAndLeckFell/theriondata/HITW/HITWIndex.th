@@ -8,23 +8,24 @@ input HITWGNSS/HITWGNSS.th
 input HITWEntShaft/HITWEntShaft.th
 input BlastedPassage/BlastedPassage.th
 input Dignitas/Dignitas.th
+input Chunts1/Chunts1.th
 
 
 ################ Plan Joins #################
 ####Scrap Joins####
 ###################
 
-
 join HITWGNSSSP1@HITWGNSS HITWEntShaftSP1@HITWEntShaft
 join HITWEntShaftSP1@HITWEntShaft BlastedPassageSP1@BlastedPassage
-
+#join DignitasSP2@Dignitas Chunts1SP1@Chunts1
 
 ####ME Scrap Joins####
-
+#join NNEPot1SE1@NNEPot1.NNEPotIndex  NEShakeHole2SE1@NEShakeHole2.NEShakeHoleIndex  # Not used at the mo
 
 
 #### Elevation Line Joins ####
 ##################
+#join Line1@NNEPot1.NNEPotIndex:0    Line1@NEShakeHole2.NEShakeHoleIndex:end 
 
 
 ###################### MAPS ####################
@@ -34,6 +35,7 @@ join HITWEntShaftSP1@HITWEntShaft BlastedPassageSP1@BlastedPassage
    HITWEntShaftPlan@HITWEntShaft
    BlastedPassagePlan@BlastedPassage
    DignitasPlan@Dignitas
+   Chunts1Plan@Chunts1
   
   endmap
  
@@ -54,6 +56,7 @@ join HITWEntShaftSP1@HITWEntShaft BlastedPassageSP1@BlastedPassage
  equate 1.7@HITWGNSS 1.0@HITWEntShaft
  equate 1.3@HITWEntShaft 1.0@BlastedPassage 
  equate 1.9@BlastedPassage 1.0@Dignitas
+ equate 1.5@Dignitas 1.0@Chunts1
  
 
 endsurvey

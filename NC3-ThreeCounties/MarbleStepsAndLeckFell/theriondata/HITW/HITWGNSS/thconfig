@@ -4,7 +4,7 @@ source HITWGNSS.th
 #export map -proj plan -layout local -o Output/HITWGNSS.pdf
 ##Produces a pdf map##
 
-#export map -o Output/HITWGNSS.kml
+export map -o Output/HITWGNSS.kml
 ##Produces a map of cave on Google Earth. Entrance needs GPS or map reference to work. See Footlegs Tutorial## 
 
 #export model -o Output/HITWGNSS.kml

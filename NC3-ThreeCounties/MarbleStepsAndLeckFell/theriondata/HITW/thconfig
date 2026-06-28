@@ -1,21 +1,16 @@
 encoding  utf-8
 source HITWIndex.th
 
-select BlastedPassage.HITWIndex
-select Dignitas.HITWIndex
-select HITWEntShaft.HITWIndex
-#select HITWGNSS.HITWIndex
-
-
-#export map -proj plan -layout local -o Output/HITWIndex.pdf
+export map -proj plan -layout local -o Output/HITWIndex.pdf
 ##Produces a pdf map##
 
-#export map -o Output/HITWIndex.kml
+export map -o Output/HITWIndex.kml
+##Produces a map of cave on Google Earth. Entrance needs GPS or map reference to work. See Footlegs Tutorial## 
 
 #export model -o Output/HITWIndex.kml
+##As above but produces a cave centerline on Google Earth##
 
-
-#export model -fmt survex -o Output/HITWIndex.3d
+export model -fmt survex -o Output/HITWIndex.3d
 ##Produces a Survex 3d centerline##
 
 #export model  -o Output/HITWIndex.lox
@@ -33,11 +28,11 @@ symbol-set BCRA
 #debug station-names
 #debug on
 
-#colour map-fg altitude
+colour map-fg altitude
 #colour map-fg scrap
 #colour map-fg [97 86 38] ##Pale Yellow##
 #colour map-bg [90 90 90] ##Light Grey##
-colour map-fg [90 90 90] ##Light Grey##
+#colour map-fg [90 90 90] ##Light Grey##
 #colour map-fg map
 
 north grid

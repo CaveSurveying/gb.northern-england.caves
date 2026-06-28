@@ -15,18 +15,18 @@ endmap
 centreline
 
 cs OSGB:SD
-#station 1.0 "Roo Fix" entrance
+station 1.0 "HITWFix" entrance
 fix 1.0 67020 78145  368.84 ## Adjusted to fit GE #### Original 67020 78148
 
 
 copyright 2026 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
-#pda - Nick
+#pda - Nic
 #disto - Nick
+#
 
-
-  date 2026.05.31
+  date 2024.03.23
 
   team "Nick Bairstow" notes
   team "Nick Bairstow" instruments
