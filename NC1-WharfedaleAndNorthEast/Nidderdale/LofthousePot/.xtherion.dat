@@ -1,11 +1,11 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 4.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.98m (from 1.0@LofthousePot at 166.00m to 2.0@LofthousePot at 162.02m)\nnorth-south range: 0.01m (from 2.0@LofthousePot at 73480.01m to 1.0@LofthousePot at 73480.00m)\neast-west range: 0.35m (from 1.0@LofthousePot at 10069.00m to 2.0@LofthousePot at 10068.65m)\nnumber of shots: 2\nnumber of stations: 3"
-xth_cp_data_tree_insert 19 1 1 LofthousePot LofthousePot "" "" "length: 4.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.98m (from 1.0@LofthousePot at 166.00m to 2.0@LofthousePot at 162.02m)\nnorth-south range: 0.01m (from 2.0@LofthousePot at 73480.01m to 1.0@LofthousePot at 73480.00m)\neast-west range: 0.35m (from 1.0@LofthousePot at 10069.00m to 2.0@LofthousePot at 10068.65m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 66.14m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.88m (from 1.0@LofthousePot at 166.00m to 3.0@LofthousePot at 162.12m)\nnorth-south range: 36.95m (from 23.0@LofthousePot at 73515.86m to 5.0@LofthousePot at 73478.91m)\neast-west range: 41.16m (from 1.0@LofthousePot at 10069.00m to 23.0@LofthousePot at 10027.84m)\nnumber of shots: 100\nnumber of stations: 101"
+xth_cp_data_tree_insert 20 1 1 LofthousePot LofthousePot "" "" "length: 66.14m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.88m (from 1.0@LofthousePot at 166.00m to 3.0@LofthousePot at 162.12m)\nnorth-south range: 36.95m (from 23.0@LofthousePot at 73515.86m to 5.0@LofthousePot at 73478.91m)\neast-west range: 41.16m (from 1.0@LofthousePot at 10069.00m to 23.0@LofthousePot at 10027.84m)\nnumber of shots: 100\nnumber of stations: 101"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_create
-xth_cp_comp_stat 4 0
+xth_cp_comp_stat 66 0
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1535111331
+set xth(th_exit_number) 1782642605
 
