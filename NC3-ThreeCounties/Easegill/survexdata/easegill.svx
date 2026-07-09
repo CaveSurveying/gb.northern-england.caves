@@ -302,8 +302,9 @@
 ; pipe in Kevin Dixon's GPS to the bottom of the radio location point
 ; at ground level in the WItches II survey data.  These are
 ; essentially assumed to be the same point since the height difference
-; is unknown.  Field trip June 2026 (Becka Lawson + Patrick Warren)
-; could not find any trace of this radio location point or pipe :-(.
+; is unknown.  Field trip June 2026 (Becka Lawson + Patrick Warren) to
+; ascertain this height difference unfortunately could not find any
+; trace of this radio location point or pipe :-(.
 ;
 ; This fix means that stations 007 and 008 in Kevin Dixon's GPS data
 ; file and station 002 in 002 in the Witches II data, which are all
@@ -316,7 +317,7 @@
 ; not fit with the 5-7 meter distance reported in Kevin Dixon's data
 ; file.  Absent any more information, the equate below seems to be as
 ; good a solution to tie the Witches II data set into a GPS fix.
-;   -- Patrick B Warren, July 8, 2026
+;   -- R. Lawson & P. B. Warren, July 8, 2026
 
 *equate WitchesII.WitchesII-2.001	easegill-gps-kdixon-2012.009	;Kevin Dixon GPS
 
