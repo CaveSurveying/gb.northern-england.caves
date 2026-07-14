@@ -8,7 +8,7 @@
 *team  "Todd Rye" Instruments
 *instrument insts "RRCPC Disto"
 
-*export 1
+*export 1 9
 
 ; Centreline data
 *data normal from to length bearing gradient ignoreall

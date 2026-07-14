@@ -24,9 +24,9 @@
 *include greatdouk9.svx
 *include greatdouk10.svx
 *include greatdouk11.svx
-*include GreatDouk13.svx
-*include GreatDouk12.svx
+;*include GreatDouk12.svx
 *include GreatDouk14.svx
+*include GreatDouk15.svx
 *include greatdoukpot.svx
 *include olddouk.svx
 *include GDtoGDP.svx
@@ -41,12 +41,13 @@
 *equate greatdouk1.1 greatdouk11.1
 *equate olddouk.1 greatdouk1.1
 ;*equate greatdoukpot.30 greatdouk1.1
-*equate greatdouk12.60 greatdouk5.72
-*equate greatdouk13.1 greatdouk8.8
+;*equate greatdouk12.60 greatdouk5.72
 *equate greatdouk8.35 greatdouk5.72
 *equate greatdouk1.3 greatdouk14.1
 *equate greatdouk1.1 GDtoGDP.1
 *equate GDtoGDP.3 greatdoukpot.27
+*equate GreatDouk15.7 GreatDouk8.8
+*equate GreatDouk15.47 GreatDouk10.9
 
 *end GreatDouk
 
