@@ -122,6 +122,7 @@
 *include PinocchioPot/PinocchioPot
 *include Surface/Pinocchio-to-Hopeless
 *include HopelessPot/HopelessPot
+*include HoleInTheWall/HoleInTheWall
 
 *equate NottsPot_to_ShepPot.1.0 PerilousPot.PerilousPot1.1.0	;<<<< Connecting PerilousPot entrance to surface survey >>>>
 *equate NottsPot_to_ShepPot.2.0 PerilousPot.PerilousPot2.1.0

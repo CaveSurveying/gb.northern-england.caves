@@ -1,0 +1,25 @@
+*BEGIN HITWGNSS
+
+*EXPORT 1.0 1.7
+
+*BEGIN 1
+
+*EXPORT 0 7
+
+;pda - Nic
+;disto - Nick
+
+*DATE 2024.03.23
+
+*FLAGS surface
+0	1	 1.96	267.49	 13.71
+1	2	 1.78	280.35	 -8.77
+2	3	 1.44	279.62	-14.77
+3	4	 1.96	276.94	-33.24
+4	5	 1.75	271.14	-38.92
+5	6	 1.54	255.83	-37.64
+6	7	 2.84	260.61	-37.26
+*FLAGS not surface
+*END 1
+
+*END HITWGNSS
