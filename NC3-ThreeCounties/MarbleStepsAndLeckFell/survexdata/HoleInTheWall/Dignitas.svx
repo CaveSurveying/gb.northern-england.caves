@@ -1,10 +1,10 @@
 *BEGIN Dignitas
 
-*EXPORT 1.0
+*EXPORT 1.0 1.5
 
 *BEGIN 1
 
-*EXPORT 0
+*EXPORT 0 5
 
 ;pda - Nic
 ;disto - Nick

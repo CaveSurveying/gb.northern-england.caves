@@ -13,11 +13,11 @@
 *INCLUDE HITWEntShaft
 *INCLUDE BlastedPassage
 *INCLUDE Dignitas
-;*INCLUDE Chunts1
+*INCLUDE Chunts1
 
 *EQUATE HITWGNSS.1.7 		HITWEntShaft.1.0
 *EQUATE HITWEntShaft.1.3 	BlastedPassage.1.0 
 *EQUATE BlastedPassage.1.9 	Dignitas.1.0
-;*EQUATE Dignitas.1.5 		Chunts1.1.0
+*EQUATE Dignitas.1.5 		Chunts1.1.0
 
 *END HoleInTheWall
