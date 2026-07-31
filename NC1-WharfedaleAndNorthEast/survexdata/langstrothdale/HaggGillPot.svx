@@ -4,9 +4,12 @@
 
 *fix 1 89280 79248 350
 
+*ENTRANCE 1		;<<< defining the entrance, which seems to have been missed off the data - Simon Cornhill 2026.07.31 >>> 
+
 ;Hagg Gill Pot - listing of all survey data (more or less)
 
-*data normal from to length bearing gradient ignoreall
+;*data normal from to length bearing gradient ignoreall   ;<<< this line has been edited to swap compass and clino positions in the data - Simon Cornhill 2026.07.31 >>> 
+*data normal from to length gradient bearing ignoreall
 
 1 2 2.7 -90 -0
 3 2 4.18 36.5 298
