@@ -1,6 +1,7 @@
 *begin BlackSheepSink
 
 *export MP
+*ENTRANCE BSS		;<<< entrance defined as this was missing - Simon Cornhill 2026.07.31 >>>
 
 *fix MP 90005 78584 384
 

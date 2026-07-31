@@ -2,6 +2,7 @@
 
 *cs out OSGB:SD
 *cs OSGB:SD
+*DECLINATION auto  67020 78145  368.84
 
 *FIX 		GPS 67020 78145  368.84 ; Adjusted to fit GE #### Original 67020 78148
 *EQUATE		GPS HITWGNSS.1.0

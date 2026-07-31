@@ -7,6 +7,7 @@
 ;Cave:	HaggBeckSink
 ;Surveyors:	Dave Ramsay Chris Smith
 ;Date:	30/04/06
+*DATE 2006.04.30
 ;Instruments:	RRCPC Kit 2
 
 *data normal from to length bearing gradient ignoreall

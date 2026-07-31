@@ -3,12 +3,13 @@
 ;Cave:	HaggGillSink - note filename was given as HaggBeckSink but already a HaggBeckSink so Becka changed to HaggGillSink to match name within file
 ;Surveyors:	Dave Ramsay Chris Smith
 ;Date:	30/04/06
+*DATE 2006.04.30
 ;Instruments:	RRCPC Kit 2
 
 *entrance 030
 
 *fix	030	90013 	78289   395
-*Fix	031	89900	78600	388
+*Fix	031	REFERENCE 89900	78600	388
 
 *data normal from to length bearing gradient ignoreall
 

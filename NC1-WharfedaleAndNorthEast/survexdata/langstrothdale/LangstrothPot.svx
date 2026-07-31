@@ -3,6 +3,7 @@
 *export lp
 
 *fix lp 89620 78893 384
+*ENTRANCE LP				;<<< defining entrance as this was missing - Simon Cornhill 2026.07.31 >>>
 
 ;Langstroth Pot - st19 is low lang cave ent
 
