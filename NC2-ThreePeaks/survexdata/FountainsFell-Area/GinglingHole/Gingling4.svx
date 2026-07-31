@@ -2,10 +2,10 @@
 *export	x14	x15	x16	24
 ;checked 
 *team "Noel Snape" notes
-*team "Rachel Turnbull"	elevation
+*team "Rachel Turnbull"	pictures 		;elevation
 *team "Katey Bender" compass clino tape ; distoX 
-*instrument "H&N Distox2" compass
-*instrument "H&N Distox2" clino
+*instrument compass "H&N Distox2" 
+*instrument clino	"H&N Distox2" 
 
 
 *date 2015.09.27

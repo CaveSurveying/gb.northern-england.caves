@@ -5,6 +5,8 @@
 
 *cs OSGB:SD
 *cs out EPSG:27700   ; 15.4.21 - Becka replaced "*cs out OSGB:SD" with this on Patrick's advice: "EPSG:27700 gets the output into the coordinate reference system that's used by the Ordnance Survey and will be recognised by the QGIS import plugin". In aven "the eastings and northings should be recognisable as the SD coordinates plus extra leading digits for the fully numeric OSGB coordinate system."
+*DECLINAtion auto	85514.586	70179.531	458.81  ;Gingling entrance
+
 
 *include ffgps
 *include GinglingHole/Gingling
@@ -16,6 +18,7 @@
 *include MasterCave/FAKE_gingling_sump  ;temp file with roughly estiamted sump
 *INCLUDE DaleHeadPot/DaleHeadPot_reconstruction
 *INCLUDE EchoPot/EchoPot_reconstruction
+*INCLUDE Silverdale/Silverdale							  
 
 *equate Election.Election1.S1	ffgps.0004
 *equate FOULPot.FOUL1.tag ffgps.213 

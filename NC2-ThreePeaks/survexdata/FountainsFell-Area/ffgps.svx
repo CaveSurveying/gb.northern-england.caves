@@ -41,6 +41,7 @@
 ; Surveyors:	Noel Snape, Holly Bradley and Andrew Wright
 
 ; Date:	01/01/2016
+*DATE 2016.01.01
 
 ; Instruments:	Leica Geosystems ATX1230 GPS
 ; Undertaken with connectivity to Lieca basestations via mobile broadband, accuracy to below 0.02m
@@ -78,6 +79,7 @@
 ; Surveyors:	Noel Snape, Holly Bradley and Katey Bender
 
 ; Date:	23/04/2016
+*DATE 2016.04.23
 
 ; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
 ; Measured in OSGB36
@@ -118,6 +120,7 @@
 ; Surveyors:	Noel Snape and Holly Bradley
 
 ; Date:	08/05/2016
+*DATE 2016.05.08
 
 ; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
 ; Measured in OSGB36
@@ -188,6 +191,7 @@ SS3		DH1		7.77	004		-37		183		36.5			;DH1 is 1st P-anchor into Dale Head Pot (in
 ; Surveyors:	Noel Snape, Holly Bradley and Graham Proudlove
 
 ; Date:	21/08/2016
+*DATE 2016.08.21
 
 ; Instruments:	Leica Geosystems GS08 GPS unit with CS10 controller (serial No 2523391)
 ; Measured in OSGB36

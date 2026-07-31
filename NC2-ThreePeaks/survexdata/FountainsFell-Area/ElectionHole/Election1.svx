@@ -5,8 +5,8 @@
 *team "Holly Bradley" compass clino tape
 *team "Sarah Holman" compass clino tape
 *team "Carl Spence-Jones" notes
-*instrument "H&N compass" compass
-*instrument "H&N clino" clino
+*instrument compass "H&N compass" 
+*instrument clino	"H&N clino" 
 *date 2016.01.16
 *calibrate declination	1.86	;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
 

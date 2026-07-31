@@ -8,7 +8,7 @@
 *team  "Isaac Neale" Instruments
 *instrument insts "BPC Disto"
 
-*export 30 27
+*export  27	;30
 *entrance 27
 
 ; Centreline data

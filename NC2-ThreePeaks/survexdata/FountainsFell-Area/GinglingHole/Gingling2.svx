@@ -1,11 +1,11 @@
 *begin Gingling2
 *export	x	4	13	3
 ;checked NS 25/09/2015
-*team "Holly Bradley" aka Hypothermic notes
+*team "Holly Bradley" notes		;aka Hypothermic notes
 *team "Noel" compass clino tape ; distoX 
-*team "Ian Peachey" Station Monkey
-*instrument "H&N Distox2" compass
-*instrument "H&N Distox2" clino
+*team "Ian Peachey" dog 		;Station Monkey
+*instrument compass "H&N Distox2" 
+*instrument clino 	"H&N Distox2" 
 
 
 *date 2015.09.06

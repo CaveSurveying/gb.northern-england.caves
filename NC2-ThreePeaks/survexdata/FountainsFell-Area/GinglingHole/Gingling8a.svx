@@ -8,8 +8,8 @@
 ;checked 
 *team "Noel Snape" notes
 *team "Nathanael Dalton" compass clino tape ; distoX 
-*instrument "H&N Distox2-2" compass
-*instrument "H&N Distox2-2" clino
+*instrument compass "H&N Distox2-2" 
+*instrument clino	"H&N Distox2-2" 
 
 
 *date 2016.02.27

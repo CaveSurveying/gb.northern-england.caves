@@ -4,8 +4,8 @@
 *team "Katey Bender" notes
 *team "Carl Spence-Jones" instruments
 *team "Ian Peachey" instruments
-*team "Alice Smith" stations
-*instrument "PeacheyDistoX2" compass clino tape
+*team "Alice Smith" station
+*instrument compass clino tape "PeacheyDistoX2" 
 
 
 *date 2016.11.13

@@ -3,7 +3,7 @@
 ;checked
 *team "Katey Bender" notes
 *team "Carl Spence-Jones" instruments
-*instrument "PeacheyDistoX2" compass clino tape
+*instrument compass clino tape "PeacheyDistoX2" 
 
 
 *date 2016.10.29

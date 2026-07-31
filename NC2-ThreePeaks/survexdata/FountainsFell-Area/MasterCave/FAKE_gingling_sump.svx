@@ -4,8 +4,14 @@
 
 *begin FAKE_gingling_sump
 *export 1 2
+
+*DATE 2024.04.1			;This data is reconstructed and is assumed to be grid north and does not contain a date.
+						;the calibrate compass command compensates for the auto adjusted declination of +0.23 degrees
+*CALIBRATE compass -0.23;so the *AUTO DECLINATION command should not affect this data.
+						;<<< Simon Cornhill 2026.07.31 >>>
+
 ;from	to	tape	compass	clino
-*flags surface
+*flags duplicate
 1	2	75	220	0
 
 *end FAKE_gingling_sump

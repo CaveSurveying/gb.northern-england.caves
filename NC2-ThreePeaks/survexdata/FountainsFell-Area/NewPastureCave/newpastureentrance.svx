@@ -3,11 +3,11 @@
 *export 0 21
 
 *team "George Breley" notes
-*team "Luke Stangroom" stations
-*team "Rob Watson" disto
-*instrument "ULSA DistoX 1" compass
-*instrument "ULSA DistoX 1" clino
-*instrument pda
+*team "Luke Stangroom" station
+*team "Rob Watson" insts  ;disto
+*instrument compass "ULSA DistoX 1" 
+*instrument clino	"ULSA DistoX 1" 
+*instrument insts	"pda"
 *DATE 2017.09.24
 
 ;all legs taken using distoX triple shot function

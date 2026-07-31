@@ -4,9 +4,9 @@
 
 *title "Hammer Pot from junction of Incline Passage to Upstream Sump"
 *date 2019.04.06
-*team Instruments Noel Snape
-*team Notes Becka Lawson
-*instrument Becka Distox2
+*team "Noel Snape" Instruments
+*team "Becka Lawson" Notes
+*instrument tape compass clino "Becka Distox2"
 
 ;from	to	tape	compass	clino	remarks
 

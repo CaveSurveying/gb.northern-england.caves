@@ -2,12 +2,12 @@
 *Export	02
 ;checked
 
-*team "Carl Spence-Jones" notes compass clino tape ;forsights
-*team "George Breley" compass clino tape ;backsights
-*instrument "436006" backcompass 
-*instrument "023187" backclino 
-*instrument "023187" compass
-*instrument "023187" clino
+*team "Carl Spence-Jones" notes compass clino tape 	;forsights
+*team "George Breley" compass clino tape 			;backsights
+*instrument backcompass "436006"  
+*instrument backclino	"023187"  
+*instrument compass		"023187" 
+*instrument clino		"023187" 
 *date 2016.02.28
 *calibrate declination	1.86	;taken from NOAA website for 54.137652 degrees N, 2.234087 degrees West
 *calibrate tape +0.1

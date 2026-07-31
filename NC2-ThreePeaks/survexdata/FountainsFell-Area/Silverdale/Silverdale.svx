@@ -1,0 +1,28 @@
+*BEGIN Silverdale
+
+*CS out OSGB:SD
+*CS OSGB:SD
+
+*DECLINATION auto 83928 70369 375
+
+*EXPORT	entrance
+
+*FIX	entrance	83928 70369 375;SD83928 70369
+*EQUATE	entrance	1
+*ENTRANCE	entrance
+
+*DATE	2025.07.19
+
+1	2	15.02 	-	down	;top of winch + 1.3m
+2	3	7.73	300	-45		;3= scaffold on pillocks perch
+3	4	2.26	227	-45
+4	5	2.39	-	down
+5	6	1.28	299 0
+6	7	3.95	271	0
+7	8	4.92	-	down	;7= pully
+8	9	0.65	171	0
+9	10	5.39	-	down
+10	11	5.15	249	-45		;approx 
+
+
+*END Silverdale

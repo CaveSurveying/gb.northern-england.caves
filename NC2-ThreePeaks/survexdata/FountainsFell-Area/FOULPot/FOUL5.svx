@@ -3,8 +3,8 @@
 ;checked
 *team "Katey Bender" notes
 *team "Carl Spence-Jones" instruments
-*team "George Breley" stations
-*instrument "PeacheyDistoX2" compass clino tape
+*team "George Breley" station
+*instrument compass clino tape "PeacheyDistoX2" 
 
 
 *date 2017.05.21
