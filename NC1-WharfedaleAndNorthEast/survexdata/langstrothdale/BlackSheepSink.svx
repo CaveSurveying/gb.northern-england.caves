@@ -7,6 +7,9 @@
 
 ;bss1.svx Becka assumed this is Black Sheep Sink, unclear what 1 means, 1st sink or 1st survey trip
 
+*DATE 2026.02.01	;<<< as the actual date of this suvey is missing, to suppress survex 'date missing warnings' the date of 2026.02.01 applies an auto declination of 0.00deg >>>
+					;<<< Simon Cornhill 2026.07.31 >>>
+
 *data normal from to length bearing gradient ignoreall
 
 		1      2         13.3    260      0

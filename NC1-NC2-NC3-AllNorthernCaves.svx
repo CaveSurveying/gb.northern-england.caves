@@ -11,8 +11,13 @@
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ;This automatically applies correction for magnetic declination and grid north to all included surveys
 ;Any files where the declination has ALREADY been applied (eg most data in EaseGill) should have its *include ABOVE this *declination line so that line does not apply
-*declination auto 67101  77807  373  ; Coordinates for Notts Pot
+;<<< ;*declination auto 67101  77807  373 ;>>>  ; Coordinates for Notts Pot
 ;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+;<<< '*DECLINATION auto' has been commented out here as this is applied in the nested survey areas of NC1, NC2 and NC3 >>>
+;<<< also; applying '*DECLINATION auto' at this level of the file structure re-applies it to the Easgill data, where it was previously excluded in NC3-ThreeCounties due to the many manual declination adjustments using '*CALIBRATE compass' command and caused suvex the throw piles of errors when compiling 
+;<<< Simon Cornhill 2026.07.31 >>>
+;=================================
 
 *include NC1-WharfedaleAndNorthEast/survexdata/wharfedaleandnortheast
 *include NC2-ThreePeaks/survexdata/threepeaks

@@ -5,6 +5,9 @@
 *fix ent 90271 78657 340
 *ENTRANCE ent			;<<< defining the entrance as this was missing - Simon Cornhill 2026.07.31 >>> 
 
+*DATE 2026.02.01	;<<< as the actual date of this suvey is missing, to suppress survex 'date missing warnings' the date of 2026.02.01 applies an auto declination of 0.00deg >>>
+					;<<< Simon Cornhill 2026.07.31 >>>
+
 ;original data
 ;stn ent (was 14)  is top of scaffold poles at entrance;
 ;stn 22 is start of upstream survey;
