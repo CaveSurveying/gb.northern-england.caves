@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -859.93 -685.67 5159.59 4114.02
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4516.57959475 1 1.0} {673.543307087 1.0} PocketTopo/Chunts2&3_p.xvi 0 {}
+
+
+scrap Chunts2&3SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Chunts2&3SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
