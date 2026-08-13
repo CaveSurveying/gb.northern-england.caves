@@ -15,10 +15,16 @@
 *INCLUDE BlastedPassage
 *INCLUDE Dignitas
 *INCLUDE Chunts1
+*INCLUDE Chunts2and3
+*INCLUDE Chunts4
+*INCLUDE DavesDig
 
 *EQUATE HITWGNSS.1.7 		HITWEntShaft.1.0
 *EQUATE HITWEntShaft.1.3 	BlastedPassage.1.0 
 *EQUATE BlastedPassage.1.9 	Dignitas.1.0
 *EQUATE Dignitas.1.5 		Chunts1.1.0
+*EQUATE Chunts1.1.6			Chunts2and3.1.0
+*EQUATE Chunts2and3.1.14	Chunts4.1.0			
+*EQUATE Chunts2and3.1.4		DavesDig.1.0
 
 *END HoleInTheWall

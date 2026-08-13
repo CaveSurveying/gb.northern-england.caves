@@ -1,10 +1,10 @@
 *BEGIN Chunts1
 
-*EXPORT 1.0
+*EXPORT 1.0 1.6
 
 *BEGIN 1
 
-*EXPORT 0
+*EXPORT 0 6
 
 ;pda - Nic
 ;disto - Nick
