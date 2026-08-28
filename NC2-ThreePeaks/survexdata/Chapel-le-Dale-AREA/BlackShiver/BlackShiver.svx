@@ -8,11 +8,14 @@
 *include BlackShiver1 
 *include BlackShiver4
 *include BlackShiver5
+*include BlackShiver6
 
 *equate Blackshiver4.6 BlackShiver1.22
 *equate BlackShiver4.49 BlackShiver3.11
 *equate BlackShiver2.19 BlackShiver3.15
 *equate BlackShiver5.1 BlackShiver2.1
+*equate BlackShiver6.1 BlackShiver4.35
+*equate BlackShiver6.32 BlackShiver4.26
 
 *end BlackShiver
 
