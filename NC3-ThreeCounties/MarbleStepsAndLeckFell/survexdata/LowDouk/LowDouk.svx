@@ -20,21 +20,21 @@
 *include LowDoukStreamway
 *include LowDoukToSump
 *include LowDoukLeftAtSteps
-*include lowdoukBACrift
+*include LowDoukBACrift
 
 ;--------------------------------------------------------------------
 
 *equate LowDouk1.016 LowDouk2.022
-*equate Lowdouk3.001 LowDouk1.017
-*equate Lowdouk1.014 LowDoukStreamway.1
-*equate Lowdouk4.1 LowDoukStreamway.1
-*equate Lowdouk5.1 LowDouk2.010
-*equate lowdouk6.20 lowdouk1.s01
-*equate LowDoukStreamway.67 lowdouktosump.67x
-*equate LowDoukStreamway.67 lowdoukleftatsteps.67x
-*equate lowdouktosump.13 lowdoukleftatsteps.13x
-;*equate lowdouk1.002 lowdouk7.2x
-*equate lowdouk1.s01 lowdouk7.tag
-*equate lowdoukBACrift.26x lowdouktosump.26
+*equate LowDouk3.001 LowDouk1.017
+*equate LowDouk1.014 LowDoukStreamway.1
+*equate LowDouk4.1 LowDoukStreamway.1
+*equate LowDouk5.1 LowDouk2.010
+*equate LowDouk6.20 LowDouk1.s01
+*equate LowDoukStreamway.67 LowDoukToSump.67x
+*equate LowDoukStreamway.67 LowDoukLeftAtSteps.67x
+*equate LowDoukToSump.13 LowDoukLeftAtSteps.13x
+;*equate LowDouk1.002 LowDouk7.2x
+*equate LowDouk1.s01 LowDouk7.tag
+*equate LowDoukBACrift.26x LowDoukToSump.26
 
 *end	LowDouk
