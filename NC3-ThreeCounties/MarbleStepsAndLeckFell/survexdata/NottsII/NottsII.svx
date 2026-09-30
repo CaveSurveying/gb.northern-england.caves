@@ -17,7 +17,8 @@
 
 *EQUATE inlet7.Inlet7-14.001 Voldemort_entrance
 *EQUATE CountLazloALL.TheCupcake.008 TheCupCake_entrance
-*ENTRANCE ENTRANCE
+
+*ENTRANCE ENTRANCE ; Committee Pot entrance
 *ENTRANCE TheCupCake_entrance
 *ENTRANCE Voldemort_entrance
 

@@ -4,37 +4,41 @@
 
 *export EntranceTag
 *export LowDouk-RiftConnection
-*equate  LowDouk4.21 LowDouk-RiftConnection
-*equate EntranceTag LowDouk1.s01
-*EQUATE EntranceTag entrance
-*ENTRANCE entrance
 
+*equate lowdouk4.21 LowDouk-RiftConnection
+*equate lowdouk1.s01 EntranceTag 
 
-*include LowDouk1
-*include LowDouk2
-*include LowDouk3
-*include LowDouk4
-*include LowDouk5
-*include LowDouk6
-*include LowDouk7
-*include LowDoukStreamway
-*include LowDoukToSump
-*include LowDoukLeftAtSteps
-*include LowDoukBACrift
+*equate entrance EntranceTag 
+*entrance entrance ; tagged entrance - entrances need clearing up
+*entrance lowdouk1.s03
+*entrance lowdouk7.10
+*entrance lowdouk7.16
+
+*include lowdouk1
+*include lowdouk2
+*include lowdouk3
+*include lowdouk4
+*include lowdouk5
+*include lowdouk6
+*include lowdouk7
+*include lowdoukstreamway
+*include lowdouktosump
+*include lowdoukleftatsteps
+*include lowdoukbacrift
 
 ;--------------------------------------------------------------------
 
-*equate LowDouk1.016 LowDouk2.022
-*equate LowDouk3.001 LowDouk1.017
-*equate LowDouk1.014 LowDoukStreamway.1
-*equate LowDouk4.1 LowDoukStreamway.1
-*equate LowDouk5.1 LowDouk2.010
-*equate LowDouk6.20 LowDouk1.s01
-*equate LowDoukStreamway.67 LowDoukToSump.67x
-*equate LowDoukStreamway.67 LowDoukLeftAtSteps.67x
-*equate LowDoukToSump.13 LowDoukLeftAtSteps.13x
-;*equate LowDouk1.002 LowDouk7.2x
-*equate LowDouk1.s01 LowDouk7.tag
-*equate LowDoukBACrift.26x LowDoukToSump.26
+*equate lowdouk1.016 lowdouk2.022
+*equate lowdouk3.001 lowdouk1.017
+*equate lowdouk1.014 lowdoukstreamway.1
+*equate lowdouk4.1 lowdoukstreamway.1
+*equate lowdouk5.1 lowdouk2.010
+*equate lowdouk6.20 lowdouk1.s01
+*equate lowdoukstreamway.67 lowdouktosump.67x
+*equate lowdoukstreamway.67 lowdoukleftatsteps.67x
+*equate lowdouktosump.13 lowdoukleftatsteps.13x
+;*equate lowdouk1.002 lowdouk7.2x
+*equate lowdouk1.s01 lowdouk7.tag
+*equate lowdoukbacrift.26x lowdouktosump.26
 
 *end	LowDouk
