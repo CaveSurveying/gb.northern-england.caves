@@ -1,0 +1,240 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -264.55 275.5 138.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {13.93 1 1.0} {-136.55 0} clay_aven-avenp.xvi 0 {}
+
+# 2026.08.23 created by TopoDroid v. 6.3.39
+
+
+
+
+scrap clay_aven-avenp -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+point 112.0 -65.75 label -align top-right -text [+P16] -scale s
+
+line wall
+  93.53 -68.32
+  93.46 -68.12 93.41 -67.91 93.34 -67.72
+  93.27 -67.51 93.18 -67.32 93.08 -67.12
+  93.0 -66.95 92.91 -66.77 92.81 -66.61
+  92.68 -66.41 92.55 -66.21 92.39 -66.04
+  90.35 -63.84 87.0 -62.5 84.96 -60.48
+  83.75 -59.28 82.52 -57.5 80.79 -57.02
+  78.56 -56.4 76.05 -57.99 74.3 -59.34
+  73.71 -59.79 54.57 -68.85 54.25 -69.5
+  smooth off
+  53.09 -72.98 60.99 -81.78 63.25 -83.0
+  66.44 -84.72 82.04 -77.98 85.5 -79.5
+  86.63 -80.0 90.46 -76.59 91.54 -77.18
+  93.83 -78.42 96.07 -79.9 98.31 -81.24
+  101.1 -82.89 108.68 -87.85 111.96 -85.18
+  smooth off
+endline
+
+line wall
+  113.05 -77.89
+  106.84 -74.12 95.93 -74.27 92.21 -66.84
+  smooth off
+endline
+
+line wall
+  111.87 -85.64
+  117.02 -86.33 118.5 -100.75 128.73 -97.66
+  129.89 -97.31 129.29 -95.91 130.15 -95.05
+  smooth off
+  134.98 -89.09 122.57 -83.13 118.98 -80.81
+  117.77 -80.03 113.48 -77.22 112.23 -78.09
+  smooth off
+endline
+
+point 91.75 -73.5 gradient -orientation 104.9 -scale s
+
+point 84.38 -70.47 gradient -orientation 105.8 -scale s
+
+point 64.75 -75.0 gradient -orientation 51.1 -scale s
+
+point 105.0 -79.0 gradient -orientation 104.9 -scale s
+
+line rock-border -close on
+  124.25 -87.75
+  121.5 -85.25
+  118.5 -88.25
+  122.25 -91.25
+  124.25 -87.75
+endline
+
+line pit
+  126.75 -81.5
+  126.75 -81.5 116.0 -76.75 114.0 -79.0
+  112.0 -81.25 111.5 -86.25 110.25 -88.25
+  109.0 -90.25 116.75 -94.5 116.75 -94.5
+  smooth off
+endline
+
+line u:splay -visibility off
+  71.57 -87.15
+  120.03 -95.1
+endline
+
+line u:splay -visibility off
+  71.57 -87.15
+  110.74 -100.89
+endline
+
+line u:splay -visibility off
+  71.57 -87.15
+  109.48 -96.51
+endline
+
+line u:splay -visibility off
+  71.57 -87.15
+  146.56 -103.0
+endline
+
+line u:splay -visibility off
+  71.57 -87.15
+  90.6 -74.75
+endline
+
+line u:splay -visibility off
+  71.57 -87.15
+  86.63 -78.71
+endline
+
+line u:splay -visibility off
+  86.99 -68.55
+  102.37 -79.34
+endline
+
+line u:splay -visibility off
+  86.99 -68.55
+  86.25 -75.31
+endline
+
+line u:splay -visibility off
+  86.99 -68.55
+  86.28 -73.3
+endline
+
+line u:splay -visibility off
+  86.99 -68.55
+  80.12 -68.22
+endline
+
+line u:splay -visibility off
+  86.99 -68.55
+  74.3 -59.34
+endline
+
+line u:splay -visibility off
+  86.99 -68.55
+  93.43 -69.17
+endline
+
+line u:splay -visibility off
+  86.64 -65.92
+  76.12 -73.16
+endline
+
+line u:splay -visibility off
+  86.64 -65.92
+  97.52 -74.81
+endline
+
+line u:splay -visibility off
+  86.64 -65.92
+  90.09 -64.51
+endline
+
+line u:splay -visibility off
+  86.64 -65.92
+  72.68 -60.24
+endline
+
+line u:splay -visibility off
+  84.38 -70.47
+  82.22 -57.69
+endline
+
+line u:splay -visibility off
+  84.38 -70.47
+  81.01 -65.82
+endline
+
+line u:splay -visibility off
+  84.38 -70.47
+  73.21 -68.74
+endline
+
+line u:splay -visibility off
+  84.38 -70.47
+  87.75 -94.08
+endline
+
+line u:splay -visibility off
+  84.38 -70.47
+  89.66 -67.08
+endline
+
+line u:splay -visibility off
+  111.46 -80.39
+  102.35 -83.03
+endline
+
+line u:splay -visibility off
+  111.46 -80.39
+  112.25 -86.16
+endline
+
+line u:splay -visibility off
+  111.46 -80.39
+  113.18 -81.14
+endline
+
+line u:splay -visibility off
+  123.05 -93.52
+  128.73 -97.66
+endline
+
+line u:splay -visibility off
+  123.05 -93.52
+  122.63 -109.14
+endline
+
+line u:splay -visibility off
+  112.37 -126.08
+  123.07 -92.9
+endline
+
+line u:splay -visibility off
+  112.37 -126.08
+  106.52 -83.34
+endline
+
+line u:splay -visibility off
+  112.37 -126.08
+  92.0 -93.1
+endline
+
+line u:splay -visibility off
+  112.37 -126.08
+  56.44 -89.97
+endline
+
+point 123.05 -93.52 station -name "10"
+
+point 129.05 -89.61 station -name "9"
+
+point 111.46 -80.39 station -name "8"
+
+point 84.38 -70.47 station -name "7"
+
+point 86.64 -65.92 station -name "6"
+
+point 86.99 -68.55 station -name "5"
+
+point 90.74 -81.58 station -name "4"
+
+endscrap
+
+

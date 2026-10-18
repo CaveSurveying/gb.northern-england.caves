@@ -1,0 +1,227 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -35.7 -250.8 281.4 78.2
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {-51.81 1 1.0} {-279.75 0} clay_chamber-lowerp.xvi 0 {}
+
+# 2026.10.18 created by TopoDroid v. 6.3.39
+
+
+
+
+scrap clay_chamber-lowerp -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
+
+point 97.25 -106.0 dig -scale s
+
+point 71.75 -32.75 continuation -scale m
+
+line wall
+  74.97 -50.14
+  75.8 -65.3 81.19 -80.85 88.1 -94.26
+  88.35 -94.75 88.59 -95.25 88.76 -95.77
+  91.07 -102.73 88.96 -110.54 90.13 -117.42
+  smooth off
+endline
+
+area clay
+  l51-103--62
+endarea
+
+line border -id l51-103--62
+  99.5 -37.5
+  96.5 -37.75 77.0 -43.0 76.25 -43.5
+  75.5 -44.0 63.0 -48.75 63.0 -50.0
+  63.0 -51.25 80.75 -105.5 80.75 -105.5
+  smooth off
+  84.75 -121.5
+  97.75 -124.5
+  113.5 -121.75
+  113.5 -121.75 111.25 -106.0 111.25 -103.0
+  111.25 -100.0 108.5 -82.25 107.75 -79.25
+  107.0 -76.25 101.75 -63.75 101.75 -60.75
+  101.75 -57.75 100.75 -37.5 100.75 -37.5
+  smooth off
+endline
+
+line wall
+  108.62 -114.91
+  105.43 -108.73 107.11 -109.11 104.5 -102.44
+  102.78 -98.05 97.48 -95.55 95.89 -91.2
+  95.73 -90.77 95.63 -90.32 95.52 -89.87
+  91.82 -74.84 84.23 -60.62 79.74 -46.02
+  smooth off
+endline
+
+line section -id xx2 -direction both
+  64.33 -118.83
+  181.37 -38.01
+endline
+
+point 170.18 -21.81 section -scrap clay_chamber-xx2
+
+line u:splay -visibility off
+  149.35 -152.94
+  123.58 -90.37
+endline
+
+line u:splay -visibility off
+  149.35 -152.94
+  189.64 -149.59
+endline
+
+line u:splay -visibility off
+  149.35 -152.94
+  160.2 -144.29
+endline
+
+line u:splay -visibility off
+  149.35 -152.94
+  135.34 -144.98
+endline
+
+line u:splay -visibility off
+  149.35 -152.94
+  105.42 -142.19
+endline
+
+line u:splay -visibility off
+  144.24 -130.35
+  120.91 -136.57
+endline
+
+line u:splay -visibility off
+  144.24 -130.35
+  105.01 -143.89
+endline
+
+line u:splay -visibility off
+  144.24 -130.35
+  149.27 -126.12
+endline
+
+line u:splay -visibility off
+  144.24 -130.35
+  130.67 -132.12
+endline
+
+line u:splay -visibility off
+  144.24 -130.35
+  143.38 -127.85
+endline
+
+line u:splay -visibility off
+  114.12 -113.13
+  110.51 -112.21
+endline
+
+line u:splay -visibility off
+  114.12 -113.13
+  123.41 -106.06
+endline
+
+line u:splay -visibility off
+  114.12 -113.13
+  116.0 -104.04
+endline
+
+line u:splay -visibility off
+  104.03 -84.67
+  99.11 -86.32
+endline
+
+line u:splay -visibility off
+  104.03 -84.67
+  109.02 -81.78
+endline
+
+line u:splay -visibility off
+  104.03 -84.67
+  99.99 -76.51
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  105.22 -146.3
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  133.01 -132.35
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  109.88 -144.15
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  110.38 -143.7
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  107.24 -123.49
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  94.22 -128.26
+endline
+
+line u:splay -visibility off
+  110.48 -149.41
+  115.94 -115.13
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  88.98 -115.98
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  108.62 -114.91
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  99.59 -115.98
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  100.65 -119.0
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  101.95 -95.17
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  92.54 -85.05
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  88.68 -102.96
+endline
+
+point 98.43 -118.11 station -name "6"
+
+point 110.48 -149.41 station -name "5"
+
+point 78.20 -50.22 station -name "7"
+
+point 144.24 -130.35 station -name "1"
+
+point 114.12 -113.13 station -name "2"
+
+point 104.03 -84.67 station -name "3"
+
+point 85.10 -52.12 station -name "4"
+
+endscrap
+
+

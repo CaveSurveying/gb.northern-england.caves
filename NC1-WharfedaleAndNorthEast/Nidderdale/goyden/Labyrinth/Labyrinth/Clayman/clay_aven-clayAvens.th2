@@ -1,0 +1,465 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -372.4 -728.37 368.0 139.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-244.4 1 1.0} {-600.37 0} clay_aven-clayAvens.xvi 0 {}
+
+# 2026.08.23 created by TopoDroid v. 6.3.39
+
+
+
+
+scrap clay_aven-clayAvens -projection extended -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall -subtype clay
+  169.4 -120.3
+  180.0 -115.5 202.5 -115.5 202.5 -115.5
+  smooth off
+endline
+
+line wall -subtype presumed
+  202.5 -115.5
+  202.5 -115.5 209.75 -115.36 219.5 -114.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  219.5 -102.0
+  207.0 -101.5 203.02 -101.06 203.0 -103.0
+  smooth off
+endline
+
+line wall
+  203.0 -103.0
+  202.99 -103.92 183.18 -103.41 182.28 -103.57
+  179.2 -104.14 175.94 -104.23 172.86 -104.89
+  smooth off
+  171.9 -105.28 170.97 -105.72 169.99 -106.06
+  151.9 -112.27 122.95 -113.4 103.78 -109.88
+  smooth off
+endline
+
+point 219.39 -108.28 continuation -scale s
+
+point 217.62 -387.83 label -text "Clay Tunnel" -scale s -align right
+
+point 237.33 -108.58 label -text "low tt" -scale s -align right
+
+line arrow -scale s
+  94.0 -90.0
+  92.5 -91.0 102.5 -116.0 102.5 -116.0
+  smooth off
+endline
+
+line wall
+  100.76 -123.7
+  112.01 -121.79
+endline
+
+line wall
+  112.01 -121.79
+  126.17 -140.23 127.23 -169.84 126.52 -191.59
+  smooth off
+endline
+
+line wall -subtype clay
+  156.9 -181.37
+  158.1 -168.03 156.5 -154.18 155.03 -140.96
+  154.49 -137.29 154.27 -133.42 154.57 -129.73
+  154.62 -129.12 155.17 -128.19 154.64 -127.9
+  152.07 -126.5 170.27 -119.42 169.4 -120.3
+  smooth off
+endline
+
+line wall
+  126.52 -191.59
+  127.95 -202.65 136.34 -212.2 141.72 -221.53
+  147.58 -231.69 152.09 -243.1 158.57 -252.97
+  162.36 -258.74 168.43 -264.63 170.62 -271.25
+  175.93 -287.37 171.87 -306.23 167.86 -322.11
+  167.0 -325.52 166.41 -329.11 166.06 -332.6
+  165.82 -334.97 165.43 -337.39 165.23 -339.75
+  165.19 -340.35 165.22 -340.96 165.2 -341.56
+  165.18 -342.17 165.14 -342.78 165.11 -343.39
+  165.08 -344.01 165.08 -344.62 165.02 -345.23
+  164.96 -345.91 164.84 -346.6 164.75 -347.28
+  164.67 -347.79 164.59 -348.3 164.5 -348.81
+  164.4 -349.39 164.28 -349.97 164.16 -350.55
+  164.03 -351.21 163.89 -351.88 163.74 -352.54
+  163.28 -354.52 160.47 -354.97 158.75 -355.53
+  144.22 -359.57 131.4 -348.46 116.64 -350.4
+  112.41 -350.95 104.95 -353.53 101.05 -355.23
+  smooth off
+  85.55 -357.86
+endline
+
+line wall
+  189.54 -382.86
+  184.47 -378.46 178.14 -374.46 174.46 -368.43
+  174.15 -367.92 173.68 -367.42 173.64 -366.82
+  173.41 -363.51 177.21 -358.84 178.74 -356.12
+  182.13 -350.09 184.84 -341.47 186.67 -334.76
+  190.43 -320.99 189.64 -305.96 189.86 -291.83
+  189.93 -287.18 190.62 -282.32 190.01 -277.69
+  187.67 -260.18 168.39 -249.29 161.04 -234.08
+  155.71 -223.05 153.01 -209.54 154.9 -197.4
+  155.68 -192.39 156.12 -187.17 156.27 -182.11
+  smooth off
+endline
+
+line rock-border -close on
+  159.0 -132.0
+  150.0 -132.5
+  147.5 -146.0
+  152.0 -152.5
+  152.0 -152.5 162.8 -157.74 161.9 -153.12
+  161.0 -148.5 159.0 -132.0 159.0 -132.0
+  smooth off
+endline
+
+line rock-border -close on
+  126.5 -127.0
+  115.0 -129.5
+  122.0 -160.5
+  135.61 -159.52
+  133.0 -137.0
+  126.5 -127.0
+endline
+
+area water
+endarea
+
+line rock-border -close on
+  185.5 -274.5
+  176.5 -275.5
+  177.0 -283.0
+  184.5 -283.5
+  185.5 -274.5
+endline
+
+line wall
+  92.64 -393.93
+  110.98 -394.87 129.73 -397.63 148.01 -398.45
+  166.48 -399.27 185.8 -399.44 203.91 -403.52
+  smooth off
+endline
+
+line rope -rebelays off
+  145.0 -157.5
+  143.5 -210.5
+  185.5 -274.5
+  186.0 -289.0
+  179.0 -289.0
+  167.0 -395.0
+endline
+
+point 87.5 -224.5 label -scale s -align top-left -text [Clay Aven]
+
+point 188.77 -221.01 label -text "+P16" -scale s -align top-right
+
+line u:splay -visibility off
+  98.43 -118.11
+  92.75 -115.58
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  97.22 -103.05
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  79.05 -112.05
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  64.36 -108.09
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  49.89 -94.62
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  94.13 -102.79
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  95.38 -110.42
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  103.78 -109.88
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  100.76 -123.7
+endline
+
+line u:splay -visibility off
+  98.43 -118.11
+  104.2 -120.75
+endline
+
+line u:splay -visibility off
+  119.8 -119.98
+  134.74 -122.14
+endline
+
+line u:splay -visibility off
+  119.8 -119.98
+  126.36 -129.91
+endline
+
+line u:splay -visibility off
+  119.8 -119.98
+  112.01 -121.79
+endline
+
+line u:splay -visibility off
+  119.8 -119.98
+  64.9 -114.16
+endline
+
+line u:splay -visibility off
+  119.8 -119.98
+  114.87 -118.85
+endline
+
+line u:splay -visibility off
+  119.8 -119.98
+  117.95 -124.86
+endline
+
+line u:splay -visibility off
+  135.61 -120.75
+  179.93 -116.59
+endline
+
+line u:splay -visibility off
+  135.61 -120.75
+  169.4 -120.5
+endline
+
+line u:splay -visibility off
+  135.61 -120.75
+  169.4 -120.3
+endline
+
+line u:splay -visibility off
+  135.61 -120.75
+  203.21 -111.54
+endline
+
+line u:splay -visibility off
+  135.61 -120.75
+  157.35 -159.77
+endline
+
+line u:splay -visibility off
+  135.61 -120.75
+  152.43 -144.92
+endline
+
+line u:splay -visibility off
+  135.61 -159.52
+  135.61 -150.63
+endline
+
+line u:splay -visibility off
+  135.61 -159.52
+  135.61 -155.79
+endline
+
+line u:splay -visibility off
+  135.61 -159.52
+  135.61 -142.1
+endline
+
+line u:splay -visibility off
+  135.61 -159.52
+  135.61 -156.83
+endline
+
+line u:splay -visibility off
+  135.61 -159.52
+  135.61 -156.51
+endline
+
+line u:splay -visibility off
+  135.61 -159.52
+  135.61 -174.51
+endline
+
+line u:splay -visibility off
+  135.61 -177.92
+  135.61 -174.26
+endline
+
+line u:splay -visibility off
+  135.61 -177.92
+  135.61 -169.33
+endline
+
+line u:splay -visibility off
+  135.61 -177.92
+  135.61 -175.31
+endline
+
+line u:splay -visibility off
+  135.61 -177.92
+  135.61 -172.49
+endline
+
+line u:splay -visibility off
+  135.61 -196.81
+  135.61 -187.46
+endline
+
+line u:splay -visibility off
+  135.61 -196.81
+  135.61 -174.71
+endline
+
+line u:splay -visibility off
+  135.61 -196.81
+  135.61 -168.98
+endline
+
+line u:splay -visibility off
+  135.61 -196.81
+  146.89 -182.31
+endline
+
+line u:splay -visibility off
+  135.61 -196.81
+  135.61 -194.1
+endline
+
+line u:splay -visibility off
+  164.44 -251.17
+  156.8 -250.24
+endline
+
+line u:splay -visibility off
+  164.44 -251.17
+  167.83 -247.32
+endline
+
+line u:splay -visibility off
+  164.44 -251.17
+  166.31 -247.44
+endline
+
+line u:splay -visibility off
+  184.3 -330.01
+  184.3 -327.9
+endline
+
+line u:splay -visibility off
+  184.3 -330.01
+  169.33 -326.11
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  168.55 -391.58
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  167.9 -391.62
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  132.34 -392.33
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  171.62 -362.14
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  184.9 -381.62
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  188.83 -385.02
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  116.0 -375.77
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  83.57 -369.22
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  87.5 -359.14
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  116.64 -350.4
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  174.22 -347.9
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  163.62 -356.33
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  174.49 -369.17
+endline
+
+line u:splay -visibility off
+  150.04 -394.91
+  150.06 -387.68
+endline
+
+point 98.43 -118.11 station -name "1"
+
+point 119.80 -119.98 station -name "2"
+
+point 135.61 -120.75 station -name "3"
+
+point 155.57 -133.61 station -name "4"
+
+point 135.61 -159.52 station -name "5"
+
+point 135.61 -177.92 station -name "6"
+
+point 135.61 -196.81 station -name "7"
+
+point 164.44 -251.17 station -name "8"
+
+point 184.30 -275.23 station -name "9"
+
+point 184.30 -330.01 station -name "10"
+
+point 150.04 -394.91 station -name "11"
+
+point 133.98 -380.20 station -name "12"
+
+endscrap
+
+

@@ -1,0 +1,52 @@
+encoding utf-8
+##XTHERION## xth_me_area_adjust -25.8 -241.0 196.3 -27.4
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {52.58 1 1.0} {-153.77 0} clay_chamber-xx0.xvi 0 {}
+
+# 2026.10.18 created by TopoDroid v. 6.3.39
+
+scrap clay_chamber-xx0 -projection none -scale [0 0 19.6850 0 0 0 1 0 m]
+
+line wall
+  96.11 -128.04
+  95.93 -128.14 95.74 -128.24 95.55 -128.34
+  91.01 -130.75 85.29 -129.47 80.98 -131.25
+  78.88 -132.12 71.68 -134.78 74.24 -137.73
+  76.20 -139.08 78.63 -141.34 81.21 -140.97
+  87.28 -140.12 94.16 -132.78 96.34 -127.43
+endline
+
+
+line u:splay -visibility off
+  79.85 -136.08
+  73.87 -135.17
+endline
+line u:splay -visibility off
+  79.85 -136.08
+  89.78 -131.38
+endline
+line u:splay -visibility off
+  79.85 -136.08
+  82.10 -130.48
+endline
+line u:splay -visibility off
+  79.85 -136.08
+  81.02 -142.39
+endline
+line u:splay -visibility off
+  79.85 -136.08
+  97.06 -127.95
+endline
+line u:splay -visibility off
+  79.85 -136.08
+  96.15 -129.31
+endline
+line u:splay -visibility off
+  79.85 -136.08
+  81.86 -133.32
+endline
+
+
+
+endscrap
+

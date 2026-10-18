@@ -813,6 +813,11 @@ line ceiling-step -reverse on
   smooth off
 endline
 
+line wall
+  17500.0 5738.709677419354
+  17461.290322580644 5777.419354838709
+endline
+
 point 13187.451612903225 7290.645161290323 label -text [Sand Tunnel] -scale xl -align top-right
 
 point 11185.0 8428.0 label -align right -text [Old Year<br>Passage] -scale l -visibility off
@@ -1165,7 +1170,7 @@ line border -id l295-16768-5874 -close on
   smooth off
 endline
 
-point 16261.290322580644 6222.58064516129 label -scale xl -align top-right -text [Clay Tunnel]
+point 15980.645161290322 6406.451612903225 label -scale xl -text [Clay Tunnel] -align top-left
 
 line wall -subtype presumed
   17461.290322580644 5777.419354838709
@@ -1227,8 +1232,6 @@ line wall
   17198.0 5831.0 17207.23 5840.39 17203.23 5848.39
   smooth off
 endline
-
-point 17496.774193548386 5787.096774193548 continuation -text "tube in roof - c5 to continuing tube (drafts)" -attr who "BSD" -attr what climb -attr priority Low -attr ref plan #-explored 0m  -scale m
 
 line wall -subtype debris
   17203.23 5848.39

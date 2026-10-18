@@ -175,7 +175,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   NurgatoryPlan@Nurgatory   
   break
  
-  ####NewGoyden/Frog####
+####NewGoyden/Frog####
   m1p@doubleFoxAven
   break
   ThropePotPlan
@@ -197,7 +197,7 @@ map NidderdalePlan -title "Goyden Cave System<br><it>Nidderdale, North Yorkshire
   
   #NiddHeadsIndexPlan@NiddHeads
   
-  ############################
+############################
   #LimleyLeadMinePlan@LimleyLeadMine  #digitised.  adding creates large pdf as this is ~1km of passage heading west
   #LowEglinsPlan
   #LofthousePotPlan   
@@ -252,7 +252,7 @@ map NidderdalePlanTruncated -title "Goyden Cave System<br>(excluding New Goyden<
   NurgatoryPlan@Nurgatory   
   break  
   
-  ####NewGoyden/Frog####
+####NewGoyden/Frog####
   m1p@doubleFoxAven
   break
   ThropePotPlan
@@ -359,6 +359,46 @@ map PublishSection3 -title "Goyden System - The Missing Links<br><it>Nidderdale,
   break
   NorthChokeSection3@NorthChokeIndex
 endmap
+
+map PublishSS ## used for printing side by side
+  #Section2@Overlays  
+  #Section2@NidderdaleFixedPoints
+  break
+  NewGoydenFaults@Overlays
+  break
+  m1p@doubleFoxAven
+  break
+  ThropePotPlan
+  break
+  AstronomersPlan@astronomers
+  break
+  PlanHardPlan  
+  break
+  NewGoydenPlan
+  break
+  FrogPotIndex@FrogPotIndex
+  break
+  NorthChokeIndex@NorthChokeIndex
+  ShackletonsPlan
+  aquamolePlan  
+  break
+  GoydenDownstreamSumpsPlan@GoydenDownstreamSumps
+  HardyPoolsExtPlan@HardyPoolsExt
+  
+  #Section3@Overlays
+  GoydenMainStreamExtPlan@GoydenMainStreamExtension
+  GoydenDownstreamSumpsSection3@GoydenDownstreamSumps
+  LabyrinthSection3@LabyrinthIndex
+  OctoberPassageP@OctoberPassage
+  goyden2Plan
+  goy3Plan
+  GuscottIndex@GuscottIndex
+  FrogPotSection3@FrogPotIndex
+  #FrogPotIndex@FrogPotIndex
+  break
+  NorthChokeSection3@NorthChokeIndex
+endmap
+
 ###############################################
 ###############################################
 
