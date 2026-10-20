@@ -22,6 +22,8 @@ line wall -subtype presumed
   smooth off
 endline
 
+point 203.5 -108.5 dig -scale s
+
 line wall -subtype presumed
   219.5 -102.0
   207.0 -101.5 203.02 -101.06 203.0 -103.0
@@ -38,17 +40,11 @@ line wall
   smooth off
 endline
 
-point 219.39 -108.28 continuation -scale s
+point 226.39 -106.78 continuation -scale s
 
 point 217.62 -387.83 label -text "Clay Tunnel" -scale s -align right
 
 point 237.33 -108.58 label -text "low tt" -scale s -align right
-
-line arrow -scale s
-  94.0 -90.0
-  92.5 -91.0 102.5 -116.0 102.5 -116.0
-  smooth off
-endline
 
 line wall
   100.76 -123.7
@@ -144,7 +140,12 @@ line wall
 endline
 
 line rope -rebelays off
-  145.0 -157.5
+  125.5 -118.0
+  144.5 -156.5
+endline
+
+line rope -rebelays off
+  144.5 -156.5
   143.5 -210.5
   185.5 -274.5
   186.0 -289.0
@@ -152,7 +153,7 @@ line rope -rebelays off
   167.0 -395.0
 endline
 
-point 87.5 -224.5 label -scale s -align top-left -text [Clay Aven]
+point 87.5 -224.5 label -scale s -align top-left -text Clay<br>Aven
 
 point 188.77 -221.01 label -text "+P16" -scale s -align top-right
 

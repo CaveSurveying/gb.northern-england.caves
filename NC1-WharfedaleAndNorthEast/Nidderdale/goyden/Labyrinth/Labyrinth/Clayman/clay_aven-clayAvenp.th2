@@ -52,7 +52,7 @@ point 140.25 -141.25 gradient -orientation 303.3 -scale s
 
 point 205.02 -156.36 continuation -scale m
 
-point 211.19 -158.31 label -scale s -align top-right -text [mud crawl<br><it>(requires digging)]
+point 200.94 -149.31 label -scale s -text tt -align top
 
 area clay
   l97-197--123
@@ -117,12 +117,12 @@ line wall
 endline
 
 line pit -close off -outline in
-  121.25 -137.5
-  123.43 -135.73 126.57 -124.43 125.41 -121.71
+  121.5 -133.75
+  123.68 -131.98 126.57 -124.43 125.41 -121.71
   124.35 -119.25 113.24 -116.58 111.25 -117.75
   smooth off
-  109.02 -119.58 104.91 -129.91 107.0 -132.75
-  109.13 -135.64 117.96 -136.75 121.25 -137.5
+  109.02 -119.58 108.16 -127.41 110.25 -130.25
+  112.38 -133.14 118.21 -133.0 121.5 -133.75
   smooth off
 endline
 

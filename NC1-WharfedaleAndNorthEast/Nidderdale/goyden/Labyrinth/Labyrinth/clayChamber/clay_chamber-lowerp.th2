@@ -12,13 +12,13 @@ scrap clay_chamber-lowerp -projection plan -scale [0 0 19.6850 0 0 0 1 0 m]
 
 point 97.25 -106.0 dig -scale s
 
-point 71.75 -32.75 continuation -scale m
+point 70.0 -51.75 continuation -scale m -align left
 
 line wall
   74.97 -50.14
   75.8 -65.3 81.19 -80.85 88.1 -94.26
   88.35 -94.75 88.59 -95.25 88.76 -95.77
-  91.07 -102.73 88.96 -110.54 90.13 -117.42
+  91.07 -102.73 87.81 -109.1 88.98 -115.98
   smooth off
 endline
 

@@ -47,13 +47,13 @@ line wall
   smooth off
 endline
 
-point 91.75 -73.5 gradient -orientation 104.9 -scale s
+point 91.75 -73.5 gradient -orientation 104.9 -scale xs
 
-point 84.38 -70.47 gradient -orientation 105.8 -scale s
+point 84.38 -70.47 gradient -orientation 105.8 -scale xs
 
-point 64.75 -75.0 gradient -orientation 51.1 -scale s
+point 64.75 -75.0 gradient -orientation 51.1 -scale xs
 
-point 105.0 -79.0 gradient -orientation 104.9 -scale s
+point 105.0 -79.0 gradient -orientation 104.9 -scale xs
 
 line rock-border -close on
   124.25 -87.75
