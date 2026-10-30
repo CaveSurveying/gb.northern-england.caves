@@ -3,12 +3,12 @@
 *export BlackShiver5.59
 *export BlackShiver5.BSP
 
-*include BlackShiver2 
-*include BlackShiver3
-*include BlackShiver1 
-*include BlackShiver4
-*include BlackShiver5
-*include BlackShiver6
+*include BlackShiver2 ;Black Dub to Black Rift
+*include BlackShiver3 ;Lower Black Rift to White Shudder Aven
+*include BlackShiver1 ;Below North Chamber
+*include BlackShiver4 ;Black Rift to North Chamber
+*include BlackShiver5 ;Entrance to Black Dub
+*include BlackShiver6 ;Razor Oxbow
 
 *equate Blackshiver4.6 BlackShiver1.22
 *equate BlackShiver4.49 BlackShiver3.11

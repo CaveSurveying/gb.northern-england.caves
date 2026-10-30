@@ -2,16 +2,16 @@
 
 *export Meregill1.11
 
-*Include Meregill1.svx
-*Include Meregill2.svx
-*Include Meregill3.svx
-*Include Meregill4.svx
-*Include Meregill5.svx
-*include Meregill6.svx
-*Include Meregill7.svx
-*include Meregill8.svx
-*include Meregill9.svx
-*include Meregill11.svx
+*Include Meregill1.svx ;The Mere
+*Include Meregill2.svx ;Torrent to end of pitches
+*Include Meregill3.svx ;Torrent to sumps
+*Include Meregill4.svx ;Up torrent and crossover
+*Include Meregill5.svx ;Pitches
+*include Meregill6.svx ;bisector
+*Include Meregill7.svx ;branched oxbow
+*include Meregill8.svx ;Terminal sump
+*include Meregill9.svx ;Where the water goes
+*include Meregill11.svx ;Up towards Black Moss Passage
 
 *Equate Meregill2.1 Meregill3.102
 *Equate Meregill2.6 Meregill4.1

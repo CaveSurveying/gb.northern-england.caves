@@ -14,19 +14,19 @@
 *Export greatdouk11.GDP
 
 
-*include greatdouk1.svx
-*include greatdouk2.svx
-*include greatdouk3.svx
-*include greatdouk4.svx
-*include greatdouk5.svx
-*include greatdouk7.svx
-*include greatdouk8.svx  
-*include greatdouk9.svx
-*include greatdouk10.svx
-*include greatdouk11.svx
+*include greatdouk1.svx ;Lower Main Streamway
+*include greatdouk2.svx ;Upper Main Streamway
+*include greatdouk3.svx ;Inlet halfway up streamway
+*include greatdouk4.svx ;High Level Crawl near entrance
+*include greatdouk5.svx ;Upper Exits
+*include greatdouk7.svx ;Thrutchy Exit
+*include greatdouk8.svx ;Wet Sink
+*include greatdouk9.svx ;Crawl to Wet sink
+*include greatdouk10.svx ;Crawl to Wet sink
+*include greatdouk11.svx ;Shakehole
 ;*include GreatDouk12.svx
-*include GreatDouk14.svx
-*include GreatDouk15.svx
+*include GreatDouk14.svx ;To Southerscales Sump
+*include GreatDouk15.svx ;Wet Sink connection
 *include greatdoukpot.svx
 *include olddouk.svx
 *include GDtoGDP.svx

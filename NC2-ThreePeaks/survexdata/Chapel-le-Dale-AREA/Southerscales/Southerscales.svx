@@ -11,12 +11,12 @@
 *export Southerscales6.3
 
 
-*include Southerscales1.svx
-*include Southerscales2.svx
-*include Southerscales3.svx
-*include Southerscales4.svx
-*include Southerscales5.svx
-*include Southerscales6.svx
+*include Southerscales1.svx ;Below Zoology
+*include Southerscales2.svx ;White Highway
+*include Southerscales3.svx ;Bottom end of Millipede
+*include Southerscales4.svx ;Entrance
+*include Southerscales5.svx ;Top end of Millipede
+*include Southerscales6.svx ;Sump
 
 
 *equate Southerscales1.66 Southerscales2.11

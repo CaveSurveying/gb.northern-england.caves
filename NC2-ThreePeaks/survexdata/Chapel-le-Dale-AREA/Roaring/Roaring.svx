@@ -9,9 +9,9 @@
 
 
 
-*include Roaring1.svx
-;*include Roaring2.svx
-;*include Roaring3.svx
+*include Roaring1.svx ;Entrance to Bandstand chamber
+;*include Roaring2.svx ; Traverse area
+;*include Roaring3.svx ; 
 
 
 
