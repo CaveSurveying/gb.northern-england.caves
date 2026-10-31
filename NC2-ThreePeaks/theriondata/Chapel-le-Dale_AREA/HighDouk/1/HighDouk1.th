@@ -22,7 +22,7 @@ input "HighDouk1.plan.th2"
   centreline
   
     data normal from to length compass clino
-    
+    fix 1 74505 76763 341.75 
     1  2  0.920  192.30  -27.35    #  {from: 0.920 191.93 -27.69, 0.920 192.38 -27.10, 0.919 192.60 -27.27}
     2  -  5.834  91.17  6.21  
     2  -  3.160  79.19  6.19  

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -994.1417 -5246.1104 2568.94502 915.401600000001
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -1151.6221 -5246.1104 2805.1654200000003 915.401600000001
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1676.2 1 1.0} {-3659.17 18} BlackShiver2.plan.xvi 0 {}
 
 
@@ -44,7 +44,7 @@ line floor-step -reverse on
 endline
 
 line floor-step -reverse on
-  1413.0 -2625.0
+  1415.0 -2633.0
   1514.0 -2589.0
 endline
 
@@ -74,7 +74,7 @@ line border
   smooth off
 endline
 
-point 87.0 -351.0 section -scrap CS1
+point 203.0 -388.0 section -scrap CS1 -scale l
 
 point -152.0 -1336.0 section -scrap CS2
 
@@ -95,6 +95,29 @@ endline
 line section -reverse on -direction both
   -138.0 -391.0
   -99.93 -378.72 -17.07 -349.28 21.0 -337.0
+  smooth off
+endline
+
+line border
+  1645.0 -3316.0
+  1645.0 -3316.0 1707.0 -3274.0 1727.0 -3274.0
+  1747.0 -3274.0 1819.0 -3277.0 1813.0 -3227.0
+  smooth off
+endline
+
+line border
+  1601.0 -3244.0
+  1601.0 -3244.0 1619.0 -3249.0 1642.0 -3195.0
+  1665.0 -3141.0 1666.0 -3131.0 1643.0 -3095.0
+  1620.0 -3059.0 1552.0 -2936.5 1552.0 -2936.5
+  smooth off
+endline
+
+line overhang -reverse on
+  1524.0 -2956.0
+  1552.0 -2936.5
+  1552.0 -2936.5 1626.0 -2895.0 1626.0 -2831.0
+  1626.0 -2767.0 1644.0 -2642.0 1644.0 -2642.0
   smooth off
 endline
 
@@ -185,16 +208,52 @@ point 1746.727 -3562.5164 station -name 17
 
 point 1676.1975 -3659.1658 station -name 18
 
-line arrow
-  1835.0 -3161.0
-  1707.0 -3245.0
+area water
+  l79-1604--2653
+endarea
+
+line u:water -id l79-1604--2653 -close on
+  1408.0 -2740.0
+  1399.38 -2779.05 1453.0 -2824.0 1475.0 -2837.0
+  1497.0 -2850.0 1545.0 -2832.0 1565.0 -2805.0
+  1585.0 -2778.0 1604.0 -2689.0 1604.0 -2673.0
+  1604.0 -2657.0 1604.0 -2623.0 1604.0 -2623.0
+  smooth off
+  1514.0 -2589.0
+  1415.0 -2633.0
+  1415.0 -2633.0 1417.0 -2699.25 1408.0 -2740.0
 endline
 
-line label -text [Thunder Pot (p7)]
-  1512.0 -2558.0
-  1512.0 -2558.0 1577.0 -2586.0 1633.0 -2603.0
-  1689.0 -2620.0 1748.0 -2666.0 1764.0 -2703.0
-  1780.0 -2740.0 1795.0 -2830.0 1795.0 -2830.0
+line slope
+  1683.0 -3199.0
+  1733.0 -3237.0
+  orientation 238.5
+  l-size 84.0
+endline
+
+line arrow
+endline
+
+line arrow
+  1612.0 -2448.0
+  1612.0 -2448.0 1536.0 -2464.0 1536.0 -2540.0
+endline
+
+area water
+endarea
+
+line arrow
+  2012.0 -2928.0
+  1739.0 -3196.0
+endline
+
+point 2129.0 -2867.0 label -text Eagles<br>Nest -scale l
+
+line label -reverse on -scale xl -text [Thunder Pot<br>(p7)]
+  1680.0 -2340.0
+  1680.0 -2340.0 1724.0 -2408.0 1780.0 -2484.0
+  1814.73 -2531.13 1840.0 -2603.0 1856.0 -2640.0
+  1872.0 -2677.0 1900.0 -2768.0 1900.0 -2768.0
   smooth off
 endline
 
@@ -281,35 +340,29 @@ line rock-border -close on
   1592.0 -3613.0
 endline
 
-line label -text [The Eagle's Nest]
-  1792.0 -3047.0
-  1792.0 -3047.0 1864.0 -3099.0 1871.0 -3259.0
-  smooth off
-endline
-
 line arrow
-  1924.0 -3665.0
-  1790.0 -3695.0
+  1341.0 -3528.0
+  1678.0 -3692.0
 endline
 
 area water
 endarea
 
-line label -text [Black Dub]
-  71.0 -1110.0
-  71.0 -1110.0 172.0 -1409.0 237.0 -1467.0
-  302.0 -1525.0 523.0 -1606.0 578.0 -1606.0
+line label -reverse on -text [Black Dub] -scale l
+  64.0 -1280.0
+  64.0 -1280.0 155.0 -1470.0 220.0 -1528.0
+  285.0 -1586.0 521.0 -1656.0 576.0 -1656.0
   smooth off
 endline
 
-line label -text [The Black Rift (p74)]
-  1392.0 -3292.0
-  1392.0 -3292.0 1421.0 -3571.0 1484.0 -3646.0
-  1547.0 -3721.0 1642.0 -3770.0 1683.0 -3850.0
+line label -reverse on -text [The Black<br>Rift (p74)] -scale xl
+  1984.0 -3104.0
+  1984.0 -3104.0 2030.7 -3216.76 2036.0 -3388.0
+  2039.0 -3485.0 2053.0 -3498.0 2060.0 -3608.0
   smooth off
 endline
 
-point 1984.2876 -3555.5432 label -text "boulder in rift<br>bolted for<br>deviation" -scale xs
+point 1250.2876 -3457.5432 label -text "boulder in rift<br>bolted for<br>deviation" -scale l
 
 point 171.0 -617.0 label -text [p4]
 

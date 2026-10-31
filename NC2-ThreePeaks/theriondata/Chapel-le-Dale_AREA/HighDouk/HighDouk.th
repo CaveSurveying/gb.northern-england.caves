@@ -2,8 +2,8 @@ encoding  utf-8
 survey HighDouk
 
 ###Inputs, add surveys here###
-input 1/HighDouk1.th
-input 2/HighDouk2.th
+input 1/HighDouk1.th #Lower to upper entrance
+input 2/HighDouk2.th #Upper entrance to termination
 
 
 ###Joins, connecting scraps on the surveys###

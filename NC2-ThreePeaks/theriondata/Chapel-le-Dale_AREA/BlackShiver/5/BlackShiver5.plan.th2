@@ -11,10 +11,8 @@ line wall
 endline
 
 line wall -reverse on
-  39.0 -32.5
-  39.0 -32.5 61.0 -62.0 37.0 -79.0
-  13.0 -96.0 -1.0 -99.5 -27.0 -117.0
-  -53.0 -134.5 -100.5 -95.5 -146.5 -97.5
+  -18.5 -68.0
+  -44.5 -85.5 -100.5 -95.5 -146.5 -97.5
   -192.5 -99.5 -193.5 -99.5 -220.5 -99.0
   -247.5 -98.5 -240.5 -67.5 -264.5 -56.5
   -288.5 -45.5 -279.5 -41.5 -313.0 -47.0
@@ -46,7 +44,7 @@ line arrow
   -762.0 106.0
 endline
 
-point -667.0 270.5 label -text [blind aven]
+point -561.0 412.5 label -text [blind aven] -scale l
 
 line border -close off
   -806.0 136.0
@@ -74,6 +72,10 @@ line water-flow
   -885.5 263.0
   -818.5 193.5
 endline
+
+area water
+  l87--480-22
+endarea
 
 line u:water -id l87--480-22 -close on
   -496.5 26.0
@@ -356,9 +358,9 @@ endline
 line wall
 endline
 
-line label -text [Blood Pot (p9)] -scale m
-  1134.0 -770.0
-  1134.0 -770.0 1152.0 -618.0 1234.0 -560.0
+line label -text [Blood Pot<br>(p9)] -scale xl
+  1568.0 -792.0
+  1568.0 -792.0 1670.0 -558.0 1716.0 -462.0
   smooth off
 endline
 
@@ -457,8 +459,8 @@ line water-flow
 endline
 
 line water-flow
-  1565.0 -3871.0
-  1588.0 -3905.0
+  1524.5 -3816.5
+  1564.5 -3870.5
 endline
 
 line water-flow
@@ -573,11 +575,11 @@ line wall
   smooth off
 endline
 
-line label -text [1st Pitch (p11)]
-  3586.0 -2278.0
-  3586.0 -2278.0 3589.76 -2183.14 3598.0 -2144.0
-  3614.0 -2068.0 3621.95 -2062.27 3656.0 -2012.0
-  3698.0 -1950.0 3800.0 -1930.0 3800.0 -1912.0
+line label -text [1st Pitch<br>(p11)] -scale xl
+  3634.0 -2304.0
+  3634.0 -2304.0 3662.26 -2216.78 3682.0 -2182.0
+  3724.0 -2108.0 3725.95 -2094.27 3760.0 -2044.0
+  3802.0 -1982.0 3824.0 -1952.0 3842.0 -1918.0
   smooth off
 endline
 
@@ -585,6 +587,32 @@ line section -reverse on -direction both
   2006.0 -3682.0
   2034.05 -3710.52 2109.95 -3801.48 2138.0 -3830.0
   smooth off
+endline
+
+line floor-step -reverse on
+  1570.5 -3951.0
+  1570.5 -3951.0 1565.5 -3892.5 1604.5 -3875.0
+  smooth off
+endline
+
+line arrow
+  1275.5 -3982.5
+  1529.0 -3891.5
+endline
+
+point 1171.0 -4014.5 label -text [end of old<br>entrance crawl] -scale l
+
+line wall
+endline
+
+line floor-step
+  3498.0 -2041.0
+  3585.5 -2039.0
+endline
+
+line floor-step
+  3342.0 -2242.0
+  3368.0 -2290.5
 endline
 
 line wall
@@ -621,7 +649,17 @@ endscrap
 
 
 
+scrap scrap169 -scale [630.0 156.0 1416.0 942.0 0.0 0.0 10 10 m]
+
+endscrap
+
+
+
 scrap S4 -projection plan -scale [-2519.69 -7637.80 5511.81 -7637.80 0.0 0.0 204.0001 0.0 m]
+
+point 1941.0 -5709.0 entrance -scale xl
+
+point 2072.0 -5630.0 label -text [Entrance (c4)] -scale xl
 
 line abyss-entrance -close on
   1673.0 -5817.5
@@ -646,7 +684,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 1324.0 -5334.0 section -scrap CS5
+point 1376.5 -5264.0 section -scrap CS5
 
 point 1205.0 -4541.5 section -scrap CS4
 
@@ -702,6 +740,8 @@ line water-flow
   1204.0 -4673.0 1270.0 -4633.0 1277.0 -4632.0
   smooth off
 endline
+
+point 544.0 -4994.0 label -text [beginning of old<br>entrance crawl<br>(currently cobbled up)] -scale l
 
 line wall
   1446.5 -4089.0
@@ -811,8 +851,6 @@ endscrap
 
 
 scrap CS3 -projection none -scale [630.0 156.0 1416.0 942.0 0.0 0.0 10 10 m]
-
-point 2421.0 -3928.0 pebbles
 
 line wall -close on
   2414.0 -3933.0

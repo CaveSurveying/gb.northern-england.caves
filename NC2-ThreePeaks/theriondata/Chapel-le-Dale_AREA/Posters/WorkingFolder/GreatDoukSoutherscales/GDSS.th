@@ -1,0 +1,20 @@
+encoding  utf-8
+survey GDSS -title "Great Douk and Southerscales"
+
+input ../../../GreatDouk/GreatDouk.th
+input ../../../Southerscales/Southerscales.th
+
+equate 3@Southerscales6.Southerscales 10@GreatDouk14.GreatDouk
+
+join S1@GreatDouk14.GreatDouk S1@Southerscales6.Southerscales
+
+
+map plan -projection plan
+  plan@GreatDouk
+  plan@Southerscales
+endmap
+
+
+
+endsurvey
+

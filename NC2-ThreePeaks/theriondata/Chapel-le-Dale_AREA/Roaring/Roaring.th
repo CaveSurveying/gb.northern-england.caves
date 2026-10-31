@@ -2,7 +2,8 @@ encoding  utf-8
 survey Roaring
 
 ###Inputs, add surveys here###
-input 1/Roaring1.th
+input 1/Roaring1.th #Entrance to bandstand
+#input 2/Roaring2.th #Traverse area
 
 
 ###Joins, connecting scraps on the surveys###

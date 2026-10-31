@@ -23,9 +23,9 @@ input "BlackShiver5.ee.th2"
 
 ###Centreline data###   
   centreline
-  
+  fix BSP 73697 75429 403.03 
     data normal from to length compass clino
-    
+    59  BSP  1.446  126.69  40.62 
     1  -  0.880  229.92  3.62  
     1  -  0.866  259.95  3.53  
     1  -  0.772  176.38  -7.71  

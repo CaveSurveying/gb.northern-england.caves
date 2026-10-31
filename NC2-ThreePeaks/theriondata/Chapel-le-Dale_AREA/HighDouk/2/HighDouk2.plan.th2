@@ -127,8 +127,6 @@ endline
 line wall
 endline
 
-point 1624.0 -10445.0 section -scrap CS4
-
 point 2367.0 -10352.0 section -scrap CS4
 
 line section -direction both
@@ -179,7 +177,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 807.0 -2002.0 section -scrap CS2
+point 1195.0 -1968.0 section -scrap CS2
 
 line section -reverse on -direction both
   1016.0 -4617.0
@@ -282,17 +280,15 @@ endline
 area water
 endarea
 
-point 428.0 -3054.0 label -text [roof level<br>inlets]
+point 428.0 -3054.0 label -text [roof level<br>inlets] -scale xl
 
-point 2134.0 -9223.0 label -text c2
+point 2134.0 -9223.0 label -text c2 -scale xl
 
-point 2509.0 -11008.0 label -text [roof choked <br>with boulders]
+point 2027.0 -10988.0 label -text [roof choked <br>with boulders] -scale xl
 
-point 3102.0 -10408.0 label -text [roof choked <br>with boulders]
+point 2695.0 -10516.0 label -text tt -scale xl
 
-point 2695.0 -10516.0 label -text tt
-
-point 2609.0 -9469.0 label -text tt
+point 2609.0 -9469.0 label -text tt -scale xl
 
 line wall
   2161.0 -9420.0

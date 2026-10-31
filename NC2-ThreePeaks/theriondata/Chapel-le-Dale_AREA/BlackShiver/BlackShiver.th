@@ -2,17 +2,20 @@ encoding  utf-8
 survey "BlackShiver" -title "Blackest of Shivers"
 
 ###Inputs, add surveys here###
-input 1/BlackShiver1
-input 2/BlackShiver2
-input 3/BlackShiver3
-input 4/BlackShiver4
-input 5/BlackShiver5
+input 1/BlackShiver1 #below North Chamber
+input 2/BlackShiver2 #Black Dub to Black Rift
+input 3/BlackShiver3 #Lower black rift
+input 4/BlackShiver4 #Black Rift to North Chamber
+input 5/BlackShiver5 #Entrance to Black Dub
+input 6/BlackShiver6 #Razor Oxbow
 
 
 ###Joins, connecting scraps on the surveys###
 join S1@BlackShiver3 S4@BlackShiver4
 join S1@BlackShiver1 S1@BlackShiver4
 join S1@BlackShiver2 S2@BlackShiver5
+join S2@BlackShiver4 S1@BlackShiver6
+join S3@BlackShiver4 S1@BlackShiver6
 
 
 ###Equates, connecting points on surveys###
@@ -20,6 +23,8 @@ equate 49@BlackShiver4 11@BlackShiver3
 equate 18@BlackShiver2 15@BlackShiver3
 equate 6@BlackShiver4 22@BlackShiver1
 equate 1@BlackShiver5 1@BlackShiver2
+equate 1@BlackShiver6 35@BlackShiver4
+equate 32@BlackShiver6 26@BlackShiver4
 
 
 ###Map, to create overall map. Input individual survey maps to create the whole###
@@ -27,9 +32,10 @@ map plan -projection plan
   plan@BlackShiver5
   plan@BlackShiver2
   break
-  plan@BlackShiver3 [-20 -10 m] below
+  plan@BlackShiver3 [-20 -15 m] below
   break
   plan@BlackShiver4
+  plan@BlackShiver6
   plan@BlackShiver1
 endmap
 
@@ -38,6 +44,7 @@ map plan2 -projection plan
   plan@BlackShiver2
   plan@BlackShiver3
   plan2@BlackShiver4
+  plan@BlackShiver6
   plan@BlackShiver1
 endmap
 

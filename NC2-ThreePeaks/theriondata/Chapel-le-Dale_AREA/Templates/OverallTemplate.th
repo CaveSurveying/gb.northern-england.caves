@@ -1,0 +1,24 @@
+encoding  utf-8
+survey surveyname"
+
+###Inputs, add surveys here###
+input subsurvey1
+input subsurvey2
+
+###Joins, connecting scraps on the surveys###
+join S1@subsurvey1 S1@subsurvey2
+
+
+###Equates, connecting points on surveys###
+equate 9@subsurvey1 1@subsurvey2
+
+
+###Map, to create overall map. Input individual survey maps to create the whole###
+map plan -projection plan
+  plan@subsurvey1
+  plan@subsurvey2
+endmap
+
+endsurvey
+
+

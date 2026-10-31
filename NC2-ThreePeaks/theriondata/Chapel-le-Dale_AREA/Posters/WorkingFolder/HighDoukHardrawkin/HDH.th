@@ -1,0 +1,22 @@
+encoding  utf-8
+survey HDH -title "<bf>Hardrawkin and High Douk Holes<rm>"
+
+input ../../../Hardrawkin/Hardrawkin.th
+input ../../../HighDouk/HighDouk.th
+input HDHElevation.th2
+
+join S2@Hardrawkin S1@HighDouk1.HighDouk
+
+equate 1@HighDouk1.HighDouk 63@Hardrawkin
+
+map plan -projection plan
+  plan@HighDouk 
+  plan@Hardrawkin 
+endmap
+
+map elev -projection elevation -title "Elevation projected along 290 degrees"
+  E1
+endmap
+
+endsurvey
+

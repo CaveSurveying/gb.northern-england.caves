@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -3750.0474 -5639.811 2883.9055600000006 1702.8034000000007
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} {Great Douk 6.plan.xvi} 0 {}
 
 
@@ -53,7 +53,7 @@ line abyss-entrance -visibility on -clip off
   smooth off
 endline
 
-point 1580.0 -3674.0 label -text [Middle Washfold<br> Dry entrances] -scale xl
+point 2468.0 -3498.0 label -text [Middle Washfold<br> Dry entrances] -scale xl
 
 line abyss-entrance -visibility on -clip off
   1339.0 -3088.0

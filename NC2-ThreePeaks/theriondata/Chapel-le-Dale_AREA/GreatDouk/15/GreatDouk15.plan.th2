@@ -1,0 +1,345 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -11309.103 -12962.6455 3907.527400000001 40679.182980000005
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {-63.23999999999978 1 1.0} {1.4599999999991269 32} GreatDouk15.plan.xvi 0 {}
+
+
+
+scrap S1 -projection plan -scale [-11968.50 -13622.05 4645.67 -13622.05 0.0 0.0 421.9999179999999 0.0 m]
+
+point -446.0 261.0 label -text "bedding plane<br>crawl"
+
+point 191.0 482.0 label -text cross-rift
+
+line section
+endline
+
+line section
+  164.0 429.0
+  140.0 388.0 -163.2 -145.25 -183.0 -180.0
+endline
+
+point 37.0 731.0 label -text cross-rift
+
+line section
+  14.0 661.0
+  -2.03 624.35 -245.97 73.65 -262.0 37.0
+endline
+
+area water
+endarea
+
+point -283.0 385.0 pebbles
+
+line wall
+  -75.0 -68.0
+  -75.0 -68.0 -57.0 -24.0 -36.0 -58.0
+  -15.0 -92.0 11.67 -141.09 24.75 -153.5
+endline
+
+line wall
+endline
+
+line abyss-entrance -close on
+  -103.25 248.0
+  -102.0 260.0 -97.75 277.75 -97.25 290.75
+  -96.75 303.75 -93.5 362.5 -88.25 384.0
+  -83.0 405.5 -86.0 428.0 -80.0 431.5
+  -74.0 435.0 -66.0 405.75 -66.0 386.75
+  -66.0 367.75 -60.75 311.5 -65.0 291.25
+  -69.25 271.0 -80.5 246.0 -85.75 234.5
+  -91.0 223.0 -90.5 214.25 -98.5 216.0
+  -106.5 217.75 -104.5 236.0 -103.25 248.0
+endline
+
+line rock-border -close on
+  -20.25 133.0
+  -28.25 120.25
+  -17.0 111.5
+  -5.0 125.75
+  -20.25 133.0
+endline
+
+line rock-border -close on
+  -51.25 108.75
+  -56.0 94.0
+  -27.0 80.25
+  -16.25 98.0
+  -51.25 108.75
+endline
+
+line rock-border -close on
+  -150.75 196.5
+  -158.5 184.5
+  -133.75 181.0
+  -150.75 196.5
+endline
+
+line rock-border -close on
+  -159.25 170.25
+  -140.75 151.0
+  -126.5 161.5
+  -141.5 178.5
+  -159.25 170.25
+endline
+
+line rock-border -close on
+  -142.75 142.0
+  -129.75 128.0
+  -113.25 137.0
+  -124.0 150.25
+  -142.75 142.0
+endline
+
+line rock-border -close on
+  -125.25 118.5
+  -117.0 95.25
+  -95.0 106.25
+  -110.0 126.0
+  -125.25 118.5
+endline
+
+line rock-border -close on
+  -105.75 79.0
+  -101.0 97.0
+  -87.75 88.75
+  -94.25 74.75
+  -105.75 79.0
+endline
+
+line overhang
+  -163.0 197.0
+  -163.0 197.0 -160.0 199.0 -183.0 172.0
+  -206.0 145.0 -210.0 121.0 -210.0 121.0
+  smooth off
+endline
+
+line wall
+  69.0 -15.0
+  56.74 -8.29 32.0 -5.0 12.0 36.0
+  -8.0 77.0 5.0 126.0 -6.0 157.0
+  -17.0 188.0 -43.0 244.0 -43.0 244.0
+  smooth off
+  -43.0 244.0 25.0 246.0 47.0 246.0
+  69.0 246.0 107.0 209.0 122.0 233.0
+  137.0 257.0 152.0 350.0 133.0 365.0
+  114.0 380.0 70.0 348.0 66.0 361.0
+  62.0 374.0 4.0 373.0 -10.0 397.0
+  -24.0 421.0 -18.0 448.0 -15.0 502.0
+  -12.0 556.0 -2.88 597.82 -16.75 602.75
+  -35.75 609.5 -53.75 550.5 -63.75 528.75
+  -69.6 516.03 -93.0 403.0 -115.0 397.0
+endline
+
+line water-flow
+  -237.0 346.5
+  -356.0 397.0
+endline
+
+line water-flow
+  -59.0 123.0
+  -63.0 141.5 -54.5 146.0 -73.5 167.5
+  -92.5 189.0 -97.5 198.0 -97.5 198.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  -115.0 397.0
+  -137.0 391.0 -178.0 393.0 -206.0 406.0
+  -234.0 419.0 -374.0 455.0 -381.0 477.0
+  -388.0 499.0 -385.5 573.25 -385.5 573.25
+  smooth off
+endline
+
+line wall
+  -210.0 121.0
+  -193.0 138.0 -197.15 118.92 -193.0 112.0
+  -169.0 72.0 -131.0 37.0 -131.0 26.0
+  -131.0 15.0 -135.0 -4.0 -135.0 -37.0
+  -135.0 -70.0 -144.0 -121.0 -111.0 -101.0
+  -78.0 -81.0 -75.0 -68.0 -75.0 -68.0
+  smooth off
+endline
+
+line wall
+  -239.0 147.0
+  -244.0 116.0
+  -244.0 116.0 -243.0 78.0 -229.0 95.0
+  -215.0 112.0 -210.0 121.0 -210.0 121.0
+  smooth off
+endline
+
+line wall
+  -239.0 147.0
+  -234.0 176.0 -198.0 214.0 -214.0 235.0
+  -230.0 256.0 -231.0 277.0 -283.0 306.0
+endline
+
+line wall -reverse on -subtype blocks
+  -283.0 306.0
+  -335.0 335.0 -455.0 373.0 -474.0 405.0
+  -493.0 437.0 -467.0 531.0 -462.0 575.0
+  subtype blocks
+endline
+
+point 0.0 0.0 station -name 1
+
+point 30.161854 -145.9285 station -name 2
+
+point 260.89447 -187.14828 station -name 3
+
+point 296.7882 -600.88666 station -name 4
+
+point 687.128 -807.28815 station -name 5
+
+point 650.0263 -1153.0217 station -name 6
+
+point 901.8906 -1080.3204 station -name 7
+
+point -95.26351 16.34455 station -name 8
+
+point -165.35895 111.10795 station -name 9
+
+point -210.83635 177.57852 station -name 10
+
+point -191.6953 235.81473 station -name 11
+
+point -124.36313 278.7161 station -name 12
+
+point -127.76589 333.57364 station -name 13
+
+point -469.54974 456.88535 station -name 14
+
+point -408.30844 531.4993 station -name 15
+
+point -442.23602 586.66144 station -name 16
+
+point -447.48196 660.249 station -name 17
+
+point -376.10175 942.2546 station -name 18
+
+point -421.3582 1056.984 station -name 19
+
+point -365.7352 1115.3717 station -name 20
+
+point -353.14984 1192.2891 station -name 21
+
+point -365.29855 1309.3962 station -name 22
+
+point -403.59076 1379.6647 station -name 23
+
+point -450.84534 1476.6058 station -name 24
+
+point -482.6748 1422.3054 station -name 25
+
+point 674.23755 -1159.2898 station -name 26
+
+point 731.07794 -912.809 station -name 27
+
+point 331.5212 -641.4901 station -name 28
+
+point 338.968 -217.86464 station -name 29
+
+point 105.69432 -176.38106 station -name 30
+
+point 65.42758 -39.022373 station -name 31
+
+point -63.244984 1.4560336 station -name 32
+
+point -154.81416 95.92074 station -name 33
+
+point -169.34343 161.75334 station -name 34
+
+line abyss-entrance -close on
+  93.0 358.0
+  89.0 345.0 79.0 328.0 79.0 300.0
+  79.0 272.0 66.0 251.0 79.0 242.0
+  92.0 233.0 123.0 223.0 125.0 243.0
+  127.0 263.0 135.0 308.0 135.0 318.0
+  135.0 328.0 148.13 351.86 131.0 354.0
+  107.0 357.0 97.0 371.0 93.0 358.0
+endline
+
+line floor-step
+  -73.0 266.0
+  -73.0 266.0 -61.0 293.0 -54.0 327.0
+  -47.0 361.0 -58.0 400.0 -44.0 424.0
+  -30.0 448.0 -14.0 481.0 -14.0 481.0
+  smooth off
+endline
+
+line border
+  -23.0 -77.0
+  39.0 8.0
+endline
+
+line border
+  -40.0 -55.0
+  17.0 25.0
+endline
+
+area water
+endarea
+
+line overhang
+endline
+
+line overhang -reverse on
+  12.0 36.0
+  -16.0 57.0 -83.0 85.0 -105.0 68.0
+  -127.0 51.0 -131.0 26.0 -131.0 26.0
+  smooth off
+endline
+
+line overhang
+  -43.0 244.0
+  -43.0 244.0 -91.0 286.0 -111.0 268.0
+  -131.0 250.0 -145.0 223.0 -163.0 197.0
+endline
+
+line overhang
+  -214.0 235.0
+  -214.0 235.0 -178.36 282.2 -173.0 291.0
+  -159.0 314.0 -135.0 341.0 -129.0 359.0
+  -123.0 377.0 -110.0 400.0 -110.0 400.0
+  smooth off
+endline
+
+point -94.939896 251.04425 station -name 35
+
+point -261.72723 303.2612 station -name 36
+
+point -374.09534 384.25137 station -name 37
+
+point -439.9844 440.5682 station -name 38
+
+point -364.52213 632.8044 station -name 39
+
+point -476.38986 973.2953 station -name 40
+
+point -327.06464 1146.3712 station -name 41
+
+point -378.54587 1434.3691 station -name 42
+
+point -176.38469 1636.6466 station -name 43
+
+point -309.76807 1833.9537 station -name 44
+
+point -376.52692 2032.5771 station -name 45
+
+point -449.86533 2079.8135 station -name 46
+
+point -445.7116 2020.9387 station -name 47
+
+endscrap
+
+
+
+scrap scrap56 -projection plan -scale [-11968.50 -13622.05 4645.67 -13622.05 0.0 0.0 421.9999179999999 0.0 m]
+
+line wall
+endline
+
+endscrap
+
+

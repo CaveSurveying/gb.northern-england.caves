@@ -2,15 +2,15 @@ encoding  utf-8
 survey Sunset -title "Sunset Hole"
 
 ###Inputs, add surveys here###
-input 1/Sunset1.th
-input 2/Sunset2.th
-input 3/Sunset3.th
-input 4/Sunset4.th
-input 5/Sunset5.th
-input 6/Sunset6.th
-input 7/Sunset7.th
-input 8/Sunset8.th
-input 9/Sunset9.th
+input 1/Sunset1.th #Entrance to pitch chamber
+input 2/Sunset2.th #Pitch Bypass
+input 3/Sunset3.th #extensions to Corkscrew
+input 4/Sunset4.th #Corkscrew to shake cavern
+input 5/Sunset5.th #Shake Cavern
+input 6/Sunset6.th #Shake cavern to stalagmites
+input 7/Sunset7.th #Stalagmites to final choke
+input 8/Sunset8.th #shake cavern extension
+input 9/Sunset9.th #passage under Braithwaite
 
 ###Joins, connecting scraps on the surveys###
 join S4@Sunset1 S1@Sunset2

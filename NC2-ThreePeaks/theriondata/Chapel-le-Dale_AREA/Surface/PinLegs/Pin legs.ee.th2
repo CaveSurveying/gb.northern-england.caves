@@ -1,0 +1,25 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -787.40 -393.70 2834.65 236.22
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 BS} "Pin legs.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap Pin-legs-ee -projection extended
+
+point 86.448326 74.13745 station -name BSP
+
+point 361.88043 -13.034771 station -name SS
+
+point 608.6541 -2.2829623 station -name SSP
+
+point 725.187 -32.63166 station -name WP1
+
+point 802.3367 2.575005 station -name WP2
+
+point 1104.489 13.835762 station -name WPP
+
+point 1141.8455 39.694153 station -name GD
+
+point 1993.5228 -159.43002 station -name GDP
+
+endscrap

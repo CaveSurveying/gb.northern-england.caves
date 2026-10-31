@@ -1,0 +1,32 @@
+encoding  utf-8
+survey "insertnamehere"  #Names your survey
+
+###Maps, a collection of scraps that make up the final map###
+map plan -projection plan 
+  "insert scrap names here"
+endmap
+
+map elev -projection extended 
+  "insert scrap names here"
+endmap
+
+
+###Inputs th2 file for final drawing###
+input "insertname".plan.th2 #Selects plan file
+input "insertname".ee.th2 #Selects elevation
+
+
+###Centreline data###
+  centreline #centerline data, duh
+  
+    data normal from to length compass clino
+    "insert centreline data"
+      
+    extend start 1
+  
+  
+  endcentreline
+
+
+endsurvey
+

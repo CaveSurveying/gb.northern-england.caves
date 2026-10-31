@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -5167.37 -3986.2678 4852.409840000001 2962.6458
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {215.19999999999982 1 1.0} {-307.94000000000005 4} Meregill5.plan.xvi 0 {}
 
 
@@ -734,6 +734,70 @@ endscrap
 
 
 scrap S3 -projection plan -scale [-5826.77 -4645.67 5590.55 -4645.67 0.0 0.0 289.99992799999995 0.0 m]
+
+line rock-edge
+  -3671.0 1370.0
+  -3620.0 1349.0
+endline
+
+line rock-edge
+  -3699.0 1336.0
+  -3671.0 1370.0
+  -3679.0 1414.0
+endline
+
+line rock-edge
+  -3732.0 1444.0
+  -3679.0 1414.0
+  -3645.0 1447.0
+endline
+
+line rock-edge
+  -3834.0 1224.0
+  -3822.0 1282.0
+  -3776.0 1312.0
+  -3757.0 1384.0
+endline
+
+line rock-edge
+  -3721.0 1128.0
+  -3706.0 1186.0
+  -3610.0 1160.0
+endline
+
+line rock-edge
+  -3780.0 1168.0
+  -3706.0 1186.0
+  -3682.0 1261.0
+endline
+
+line rock-border -close on
+  -3780.0 1168.0
+  -3682.0 1261.0
+  -3610.0 1160.0
+  -3721.0 1128.0
+  -3780.0 1168.0
+endline
+
+line rock-border
+endline
+
+line rock-border -close on
+  -3870.0 1325.0
+  -3870.0 1325.0 -3834.0 1228.0 -3834.0 1224.0
+  -3834.0 1220.0 -3734.0 1288.0 -3734.0 1288.0
+  smooth off
+  -3757.0 1384.0
+  -3870.0 1325.0
+endline
+
+line rock-border -close on
+  -3732.0 1444.0
+  -3645.0 1447.0
+  -3620.0 1349.0
+  -3699.0 1336.0
+  -3732.0 1444.0
+endline
 
 line wall
   -4211.0 2015.0

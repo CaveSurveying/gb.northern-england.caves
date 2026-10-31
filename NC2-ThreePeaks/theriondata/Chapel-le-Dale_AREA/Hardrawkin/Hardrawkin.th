@@ -5,6 +5,7 @@ survey Hardrawkin
 map plan -projection plan 
   S1
   S2
+  S3
 endmap
 
 #map elev -projection extended 
@@ -642,7 +643,6 @@ input "Hardrawkin.plan.th2"
     62  -  1.958  178.25  34.50  
     62  63  2.232  87.85  1.53    #  {from: 2.231 88.17 1.35, 2.233 87.65 1.57, 2.233 87.73 1.67}
   station 53 "main ent." entrance
-  fix 62 37450 47676 240
  
   
     extend start 1

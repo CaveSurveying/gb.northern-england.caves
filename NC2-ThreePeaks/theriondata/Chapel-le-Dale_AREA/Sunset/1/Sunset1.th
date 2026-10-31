@@ -50,7 +50,7 @@ input "Sunset1.plan.th2"
   centreline
   
     data normal from to length compass clino
-    
+    169  SSP  3.137  266.67  2.49  
     1  2  2.781  323.06  -27.19    #  {from: 2.780 323.18 -27.34, 2.781 322.97 -27.14, 2.782 323.03 -27.09}
     1  -  4.028  119.17  3.91  
     1  -  4.966  36.79  45.10  

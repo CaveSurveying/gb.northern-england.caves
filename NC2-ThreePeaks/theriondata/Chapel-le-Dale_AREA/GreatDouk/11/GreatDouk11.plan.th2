@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -5246.1104 -1387.8425 1545.3228800000006 3356.3466200000003
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} {Great douk 11 shakehole.plan.xvi} 0 {}
 
 
@@ -301,6 +301,13 @@ line border
   -421.0 128.0 -347.0 -10.0 -291.0 -52.0
   -235.0 -94.0 -223.0 -94.0 -223.0 -94.0
   smooth off
+endline
+
+point -408.0 2160.0 label -text Great<br>Douk<br>Pot -scale xl
+
+line arrow
+  -684.0 1948.0
+  -1280.0 1408.0
 endline
 
 line wall

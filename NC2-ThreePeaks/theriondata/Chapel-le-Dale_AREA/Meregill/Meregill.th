@@ -2,15 +2,17 @@ encoding  utf-8
 survey Meregill
 
 ###Inputs, add surveys here###
-input 1/Meregill1
-input 2/Meregill2
-input 3/Meregill3
-input 4/Meregill4
-input 5/Meregill5
-input 6/Meregill6
-input 7/Meregill7
-input 8/Meregill8
-input 9/Meregill9
+input 1/Meregill1 #Mere
+input 2/Meregill2 #Torrent to end of pitches
+input 3/Meregill3 #Torrent to sumps
+input 4/Meregill4 #Torrent and crossover
+input 5/Meregill5 #Pitches
+input 6/Meregill6 #Bisector
+input 7/Meregill7 #branched oxbow
+input 8/Meregill8 #terminal sump
+input 9/Meregill9 #Where the water goes
+input 11/Meregill11 #Beginning of Black Moss passage
+
 
 
 ###Joins, connecting scraps on the surveys###
@@ -24,6 +26,7 @@ join S8@Meregill3 S1@Meregill7
 join S1@Meregill8 S1@Meregill3
 join S1@Meregill9 S4@Meregill3
 join S1@Meregill6 S5@Meregill2
+join S3@Meregill4 S1@Meregill11
 
 ###Equates, connecting points on surveys###
 equate 1@Meregill2 102@Meregill3
@@ -36,6 +39,8 @@ equate 37@Meregill7 70@Meregill3
 equate 12@Meregill8 4@Meregill3
 equate 1@Meregill9 38@Meregill3
 equate 45@Meregill2 1@Meregill6
+equate 1@Meregill11 53@Meregill4
+
 
 
 
@@ -50,6 +55,7 @@ map plan -projection plan
   plan@Meregill7
   plan@Meregill8
   plan@Meregill9
+  plan@Meregill11
 endmap
 
 endsurvey

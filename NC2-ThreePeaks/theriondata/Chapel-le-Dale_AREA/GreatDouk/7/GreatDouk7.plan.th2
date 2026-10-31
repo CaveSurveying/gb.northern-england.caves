@@ -84,7 +84,7 @@ point -10.5 -20.0 clay
 
 point -13.0 -49.0 clay
 
-point -129.5 -141.0 clay
+point -129.5 -141.0 label -text [gloopy mud]
 
 line wall
 endline

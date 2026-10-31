@@ -1,0 +1,62 @@
+encoding  utf-8
+survey "BlackShiver" -title "<bf>Black Shiver Pot<rm>"
+
+###Inputs, add surveys here###
+input ../../../BlackShiver/1/BlackShiver1
+input ../../../BlackShiver/2/BlackShiver2
+input ../../../BlackShiver/3/BlackShiver3
+input ../../../BlackShiver/4/BlackShiver4
+input ../../../BlackShiver/5/BlackShiver5
+input ../../../BlackShiver/6/BlackShiver6
+input elevation.th2
+
+###Joins, connecting scraps on the surveys###
+join S1@BlackShiver3 S4@BlackShiver4
+join S1@BlackShiver1 S1@BlackShiver4
+join S1@BlackShiver2 S2@BlackShiver5
+join S2@BlackShiver4 S1@BlackShiver6
+join S3@BlackShiver4 S1@BlackShiver6
+
+
+###Equates, connecting points on surveys###
+equate 49@BlackShiver4 11@BlackShiver3
+equate 18@BlackShiver2 15@BlackShiver3
+equate 6@BlackShiver4 22@BlackShiver1
+equate 1@BlackShiver5 1@BlackShiver2
+equate 1@BlackShiver6 35@BlackShiver4
+equate 32@BlackShiver6 26@BlackShiver4
+
+###Map, to create overall map. Input individual survey maps to create the whole###
+map plan -projection plan -title "<bf>Black Shiver Pot<rm>"
+  plan@BlackShiver5
+  plan@BlackShiver2
+  break
+  plan@BlackShiver3 [-23 -15 m] below
+  break
+  plan@BlackShiver4
+  plan@BlackShiver6
+  plan@BlackShiver1
+endmap
+
+map plan2 -projection plan
+  plan@BlackShiver5
+  plan@BlackShiver2
+  plan@BlackShiver3
+  plan2@BlackShiver4
+  plan@BlackShiver1
+endmap
+
+map elev -projection elevation -title "<bf>Projected elevation<br>facing 260<rm><br>half scale of plan<br>Razor Oxbow omitted<br>for clarity"
+  E1
+  break
+  E2
+  break
+  E4
+  break
+  E3
+endmap
+
+
+
+endsurvey
+

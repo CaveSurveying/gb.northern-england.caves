@@ -1,0 +1,25 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -1102.36 944.88 708.66
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 BS} "Pin legs.plan.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap Pin-legs-plan -projection plan
+
+point 69.319885 -51.653324 station -name BSP
+
+point -73.098045 184.10071 station -name SS
+
+point -319.4545 169.75671 station -name SSP
+
+point -370.8316 65.16079 station -name WP1
+
+point -356.89343 -10.719295 station -name WP2
+
+point -64.80144 66.600334 station -name WPP
+
+point -50.946445 101.29249 station -name GD
+
+point -894.63 -15.122487 station -name GDP
+
+endscrap

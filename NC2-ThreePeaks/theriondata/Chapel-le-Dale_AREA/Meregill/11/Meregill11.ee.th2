@@ -1,0 +1,91 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1732.28 -236.22 11023.62 314.96
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Meregill11.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap Meregill11-ee -projection extended
+
+point 0.0 0.0 station -name 1
+
+point 320.88324 17.1006 station -name 2
+
+point 674.2611 9.273114 station -name 3
+
+point 941.2148 21.729288 station -name 4
+
+point 1239.94 28.07876 station -name 5
+
+point 1412.4226 53.213646 station -name 6
+
+point 1661.1161 26.189064 station -name 7
+
+point 1966.963 59.335293 station -name 8
+
+point 2195.5098 45.316204 station -name 9
+
+point 2296.35 49.29179 station -name 10
+
+point 2391.7437 59.685596 station -name 11
+
+point 2616.2522 61.292786 station -name 12
+
+point 2835.4395 43.024223 station -name 13
+
+point 2989.9414 47.513725 station -name 14
+
+point 3326.3718 47.406208 station -name 15
+
+point 3528.7595 50.705128 station -name 16
+
+point 3740.9907 40.69357 station -name 17
+
+point 4063.2683 60.089977 station -name 18
+
+point 4341.9893 56.82974 station -name 19
+
+point 4675.0156 67.65731 station -name 20
+
+point 4895.34 61.16353 station -name 21
+
+point 5227.2036 61.460484 station -name 22
+
+point 5404.297 56.405148 station -name 23
+
+point 5716.408 59.43747 station -name 24
+
+point 5985.0645 57.78041 station -name 25
+
+point 6156.6367 58.71803 station -name 26
+
+point 6426.8193 59.382885 station -name 27
+
+point 6691.191 50.702866 station -name 28
+
+point 6958.8813 50.668648 station -name 29
+
+point 7243.978 62.79371 station -name 30
+
+point 7431.4473 52.184105 station -name 31
+
+point 7805.5303 49.279 station -name 32
+
+point 7952.1416 50.20672 station -name 33
+
+point 8204.675 54.653988 station -name 34
+
+point 8549.431 76.67522 station -name 35
+
+point 8832.015 93.7279 station -name 36
+
+point 9114.929 97.46221 station -name 37
+
+point 8186.7705 57.75258 station -name 38
+
+point 8365.101 66.7362 station -name 39
+
+point 8467.524 70.52178 station -name 40
+
+point 8602.524 60.377045 station -name 41
+
+endscrap

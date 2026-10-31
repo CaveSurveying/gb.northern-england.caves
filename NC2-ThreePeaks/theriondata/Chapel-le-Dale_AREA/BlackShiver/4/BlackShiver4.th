@@ -6,7 +6,7 @@ survey BlackShiver4
 map plan -projection plan 
   m2
   break
-  m1 [-20 -10 m] below
+  m1 [-23 -15 m] below
 endmap
 
 map m1 -projection plan 

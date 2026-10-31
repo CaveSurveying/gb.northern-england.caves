@@ -1,0 +1,26 @@
+encoding utf-8
+survey Pin legs
+# Created with SexyTopo 1.11.0 on 2026-04-17
+
+input "Pin legs.plan.th2"
+input "Pin legs.ee.th2"
+
+
+
+centreline
+data normal from to tape compass clino ignoreall
+BS	BSP	1.446	126.69	40.62	
+BSP	SS	3.669	328.86	-17.56	
+SS	SSP	3.137	266.67	2.49	
+SSP	WP1	1.529	206.16	-14.60	
+WP1	WP2	1.077	169.59	24.53	
+#WP1	WP2	1.077	350.10	-24.45
+#WP1	WP2	1.077	349.20	-24.49
+#WP1	WP2	1.077	349.48	-24.65
+WP2	WPP	3.840	75.17	2.13	
+WPP	GD	0.577	21.77	34.69	
+GD	GDP	11.108	262.14	-13.16	
+
+extend start BS
+endcentreline
+endsurvey

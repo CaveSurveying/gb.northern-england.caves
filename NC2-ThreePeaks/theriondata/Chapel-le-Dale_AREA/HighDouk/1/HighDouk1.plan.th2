@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1151.6220999999996 -10679.182 8159.496300000002 1072.8813599999994
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2661.5700000000006 1 1.0} {-2696.880000000001 27} HighDouk.plan.xvi 0 {}
 
 
@@ -109,8 +109,8 @@ line section -reverse on -direction both
 endline
 
 line wall
-  -67.0 24.0
-  36.0 7.0 158.0 -6.0 252.0 -20.0
+  -3.5 11.5
+  99.5 -5.5 158.0 -6.0 252.0 -20.0
   346.0 -34.0 783.0 -71.0 858.0 -205.0
   smooth off
 endline
@@ -160,8 +160,8 @@ line wall
 endline
 
 line wall
-  -56.0 -62.0
-  -56.0 -62.0 362.0 -91.0 471.0 -156.0
+  -13.0 -71.0
+  -13.0 -71.0 362.0 -91.0 471.0 -156.0
   580.0 -221.0 720.0 -193.0 762.0 -237.0
   804.0 -281.0 830.0 -498.0 864.0 -533.0
   898.0 -568.0 995.48 -690.35 1015.73834 -721.67395
@@ -552,6 +552,10 @@ line abyss-entrance -close on
   6112.0 -8811.5 6057.5 -8863.5 6043.5 -8911.0
 endline
 
+point 6916.0 -9752.0 entrance -orientation 31.2 -scale xl
+
+point 6676.0 -10156.0 label -text [High Douk Holes<br>top entrance<br> NGR 74594 76642] -scale xl
+
 line abyss-entrance -close on
   7032.0 -9519.5
   7015.49 -9500.95 6957.5 -9381.0 7049.0 -9438.5
@@ -566,43 +570,13 @@ line abyss-entrance
   smooth off
 endline
 
-point 1028.0 372.0 clay
-
-point 628.0 526.0 clay
-
-line wall
-  788.0 884.0
-  88.0 494.0
-  841.0 12.0
-endline
-
-area water
-  l256-752-458
-endarea
-
-line u:water -id l256-752-458 -close on
-  710.0 434.0
-  878.0 532.0
-  896.0 330.0
-  710.0 434.0
-endline
-
-line wall
-endline
-
-line wall
-  881.0 -63.0
-  1426.0 450.0
-  788.0 884.0
-endline
-
 line abyss-entrance -close on
-  -42.0 -55.0
-  -7.0 -58.0 325.0 -99.0 377.0 -114.0
+  54.0 -64.5
+  89.0 -67.5 325.0 -99.0 377.0 -114.0
   429.0 -129.0 477.0 -170.0 490.0 -125.0
   503.0 -80.0 484.0 -76.0 420.0 -59.0
-  356.0 -42.0 -24.0 11.0 -33.0 12.0
-  -42.0 13.0 -77.0 -52.0 -42.0 -55.0
+  356.0 -42.0 74.5 -1.5 65.5 -0.5
+  56.5 0.5 19.0 -61.5 54.0 -64.5
 endline
 
 area water
@@ -791,12 +765,14 @@ point 4792.3213 -5128.554 station -name 46
 
 point 4713.776 -4926.7974 station -name 45
 
-point 163.0 216.0 label -text [dry stone <br> wall]
+point -9.0 -406.0 label -text [dry stone <br> wall] -scale xl
 
 line wall
 endline
 
-point 2704.0 -3248.0 label -text [low level<br> crawl]
+point 2748.0 -3262.0 label -text [low level<br> crawl] -scale xl
+
+point 580.0 98.0 entrance -orientation 206.7 -scale xl
 
 endscrap
 
@@ -823,6 +799,10 @@ line section -direction both
 endline
 
 point 3110.0 -2770.0 section -scrap CS8
+
+point 2288.0 -3192.0 label -text [High Douk Holes<br>middle entrance<br>NGR 74540 76725] -scale xl
+
+point 2544.0 -3092.0 entrance -orientation 62.3 -scale xl
 
 line section -reverse on -direction both
   2662.0 -3024.0

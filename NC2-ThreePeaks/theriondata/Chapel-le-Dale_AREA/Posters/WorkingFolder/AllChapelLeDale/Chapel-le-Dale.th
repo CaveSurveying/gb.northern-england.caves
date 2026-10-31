@@ -1,0 +1,45 @@
+encoding  utf-8
+survey Chapel-le-Dale -title "Chapel-le-Dale"
+
+input Blackshiver/Blackshiver.th
+input GreatDouk/GreatDouk.th
+input Hardrawkin/Hardrawkin.th
+input HighDouk/HighDouk.th
+input Meregill/Meregill.th
+input Roaring/Roaring.th
+input Southerscales/Southerscales.th
+input Sunset/Sunset.th
+input Surface/Surface.th
+
+map plan -projection plan
+  plan2@BlackShiver
+  plan@GreatDouk
+  plan@Hardrawkin
+  plan@HighDouk
+  plan2@Sunset
+  plan@Meregill
+  plan@Southerscales
+  plan@Roaring
+endmap
+
+equate 1@HighDouk1.HighDouk 63@Hardrawkin
+equate 9@Surface1.Surface 1@GreatDouk1.GreatDouk
+equate 53@Surface1.Surface 1@HighDouk1.HighDouk
+equate 34@Surface1.Surface 1@Southerscales4.Southerscales
+equate 38@Surface1.Surface 20@Southerscales4.Southerscales
+equate 1@Surface2.Surface 79@HighDouk1.HighDouk
+equate 35@Surface2.Surface 72@GreatDouk6.GreatDouk
+equate 41@Surface2.Surface 1@GreatDouk8.GreatDouk
+equate 75@Surface2.Surface 169@Sunset1.Sunset
+equate 92@Surface2.Surface 11@Meregill1.Meregill
+equate 19@Surface3.Surface 88@Surface2.Surface
+equate 1@Surface4.Surface 66@Surface2.Surface
+equate 14@Surface4.Surface 19@Roaring1.Roaring
+equate 1@Surface3.Surface 59@BlackShiver5.BlackShiver
+equate 3@Southerscales6.Southerscales 10@GreatDouk14.GreatDouk
+
+join S1@GreatDouk14.GreatDouk S1@Southerscales6.Southerscales
+join S2@Hardrawkin S1@HighDouk1.HighDouk
+
+endsurvey
+
