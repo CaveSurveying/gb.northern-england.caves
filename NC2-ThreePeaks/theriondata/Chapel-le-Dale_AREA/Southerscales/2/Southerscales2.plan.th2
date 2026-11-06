@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1702.8032 -1072.8819 1230.3622400000002 836.66146
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {591.91 1 1.0} {-93.7600000000001 2} Southerscales2.plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {-734.3199999999999 1 1.0} {-165.48000000000013 8} Southerscales2.plan.xvi 0 {}
 
 
 
@@ -43,6 +43,13 @@ endline
 point -96.0 -8.0 soda-straw
 
 line floor-step
+endline
+
+point -407.0 -237.0 section -scrap CS1
+
+line section -reverse on -direction both
+  -477.0 34.0
+  -466.76 -4.67 -450.84 -100.23 -441.0 -139.0
 endline
 
 line wall
@@ -117,6 +124,21 @@ point -916.62164 -200.2137 station -name 9
 point -734.323 -165.48204 station -name 8
 
 point -556.10284 -180.71469 station -name 7
+
+endscrap
+
+
+
+scrap CS1 -projection none -scale [-1574.0 -945.0 -789.0 -160.0 0.0 0.0 10 10 m]
+
+line wall -close on
+  -654.0 283.0
+  -643.0 283.0 -634.0 277.0 -621.0 277.0
+  -608.0 277.0 -601.0 294.0 -602.0 309.0
+  -603.0 324.0 -619.0 325.0 -639.0 327.0
+  -659.0 329.0 -685.0 320.0 -679.0 309.0
+  -673.0 298.0 -665.0 283.0 -654.0 283.0
+endline
 
 endscrap
 

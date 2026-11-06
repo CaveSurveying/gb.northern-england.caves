@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1624.063 -2411.4646 1230.3622799999998 3435.0867600000006
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {-407.99 1 1.0} {-1122.8600000000001 12} {Great douk 4.plan.xvi} 0 {}
+##XTHERION## xth_me_image_insert {193.0999999999999 1 1.0} {-689.4400000000005 5} {Great douk 4.plan.xvi} 0 {}
 
 
 
@@ -81,6 +81,12 @@ point -644.6641 521.3719 station -name 18
 
 point -968.3112 962.9583 station -name 19
 
+line section -reverse on -direction both
+  -57.0 -301.0
+  -17.78 -293.12 144.0 -264.0 192.0 -251.0
+  smooth off
+endline
+
 point -136.30875 2287.8892 station -name 24
 
 point 247.13857 -983.9618 station -name 9
@@ -104,6 +110,24 @@ point -880.51074 -504.82614 station -name 14
 point 75.407875 -1278.6396 station -name 10
 
 point -1057.863 -264.50845 station -name 15
+
+point 301.0 -238.0 section -scrap CS1
+
+endscrap
+
+
+
+scrap CS1 -projection none -scale [394.0 -787.0 1182.0 -1.0 0.0 0.0 10 10 m]
+
+line wall -close on
+  395.0 -286.0
+  395.0 -272.0 389.0 -247.0 386.0 -234.0
+  383.0 -221.0 389.0 -208.0 396.0 -204.0
+  403.0 -200.0 432.0 -209.0 425.0 -235.0
+  418.0 -261.0 416.0 -268.0 415.0 -286.0
+  414.0 -304.0 425.0 -344.0 413.0 -340.0
+  401.0 -336.0 395.0 -300.0 395.0 -286.0
+endline
 
 endscrap
 

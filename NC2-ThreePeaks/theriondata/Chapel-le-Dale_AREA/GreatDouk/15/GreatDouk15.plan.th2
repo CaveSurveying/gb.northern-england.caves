@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -11309.103 -12962.6455 3907.527400000001 40679.182980000005
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {-63.23999999999978 1 1.0} {1.4599999999991269 32} GreatDouk15.plan.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-176.3799999999992 1 1.0} {1636.6499999999996 43} GreatDouk15.plan.xvi 0 {}
 
 
 
@@ -17,6 +17,7 @@ endline
 line section
   164.0 429.0
   140.0 388.0 -163.2 -145.25 -183.0 -180.0
+  smooth off
 endline
 
 point 37.0 731.0 label -text cross-rift
@@ -24,6 +25,7 @@ point 37.0 731.0 label -text cross-rift
 line section
   14.0 661.0
   -2.03 624.35 -245.97 73.65 -262.0 37.0
+  smooth off
 endline
 
 area water
@@ -35,6 +37,7 @@ line wall
   -75.0 -68.0
   -75.0 -68.0 -57.0 -24.0 -36.0 -58.0
   -15.0 -92.0 11.67 -141.09 24.75 -153.5
+  smooth off
 endline
 
 line wall
@@ -129,6 +132,7 @@ line wall
   -12.0 556.0 -2.88 597.82 -16.75 602.75
   -35.75 609.5 -53.75 550.5 -63.75 528.75
   -69.6 516.03 -93.0 403.0 -115.0 397.0
+  smooth off
 endline
 
 line water-flow
@@ -169,16 +173,25 @@ line wall
   smooth off
 endline
 
+point -422.5 162.5 section -scrap CS1
+
+line section -direction both
+  -269.0 170.0
+  -245.96 172.05 -9.5 191.5 13.5 194.0
+endline
+
 line wall
   -239.0 147.0
   -234.0 176.0 -198.0 214.0 -214.0 235.0
   -230.0 256.0 -231.0 277.0 -283.0 306.0
+  smooth off
 endline
 
 line wall -reverse on -subtype blocks
   -283.0 306.0
   -335.0 335.0 -455.0 373.0 -474.0 405.0
   -493.0 437.0 -467.0 531.0 -462.0 575.0
+  smooth off
   subtype blocks
 endline
 
@@ -295,6 +308,7 @@ line overhang
   -43.0 244.0
   -43.0 244.0 -91.0 286.0 -111.0 268.0
   -131.0 250.0 -145.0 223.0 -163.0 197.0
+  smooth off
 endline
 
 line overhang
@@ -338,6 +352,37 @@ endscrap
 scrap scrap56 -projection plan -scale [-11968.50 -13622.05 4645.67 -13622.05 0.0 0.0 421.9999179999999 0.0 m]
 
 line wall
+endline
+
+endscrap
+
+
+
+scrap CS1 -projection none -scale [-1574.0 -867.0 -787.0 -78.0 0.0 0.0 10 10 m]
+
+area water
+  l92--226--141
+endarea
+
+line u:water -id l92--226--141 -close on
+  -282.75 -133.0
+  -168.5 -133.0
+  -226.0 -149.75
+  -281.25 -148.75
+  -282.75 -133.0
+endline
+
+line wall -close on
+  -317.0 -127.5
+  -317.0 -136.0 -308.5 -142.75 -297.75 -139.25
+  -287.0 -135.75 -290.0 -129.5 -283.5 -131.75
+  -277.0 -134.0 -277.0 -139.0 -266.5 -139.0
+  -256.0 -139.0 -207.5 -140.0 -195.5 -137.5
+  -191.34 -136.63 -182.0 -116.25 -206.5 -116.5
+  -231.0 -116.75 -283.5 -123.0 -285.5 -117.25
+  -287.5 -111.5 -288.25 -95.25 -296.0 -99.75
+  -303.75 -104.25 -299.25 -120.25 -307.25 -121.25
+  -315.25 -122.25 -317.0 -119.0 -317.0 -127.5
 endline
 
 endscrap

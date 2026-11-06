@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1939.0237 -3198.8661999999995 5324.85054 1151.622120000001
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {869.83 1 1.0} {-1463.5499999999997 13} {Great Foul 10.plan.xvi} 0 {}
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {4.547473508864641e-13 1} {Great Foul 10.plan.xvi} 0 {}
 
 
 
@@ -14,6 +14,7 @@ point 779.0 -2078.0 breakdown-choke
 line wall
   767.0 -1956.0
   767.0 -1956.0 764.0 -2030.0 759.0 -2064.0
+  smooth off
 endline
 
 line wall
@@ -70,6 +71,20 @@ endline
 
 area water
 endarea
+
+line section -reverse on -direction both
+  738.0 -1441.0
+  777.58 -1446.81 1059.42 -1488.19 1099.0 -1494.0
+endline
+
+line section -reverse on -direction both
+  276.0 -584.0
+  292.95 -547.77 332.48 -464.43 349.0 -428.0
+endline
+
+point 392.0 -350.0 section -scrap CS1
+
+point 1188.0 -1566.0 section -scrap CS2
 
 line wall
   932.0 -1993.0
@@ -188,7 +203,27 @@ endscrap
 
 
 
-scrap scrap53 -scale [-2598.43 -3858.27 6062.99 -3858.27 0.0 0.0 220.000068 0.0 m]
+scrap CS1 -projection none -scale [-1.0 -632.0 786.0 158.0 0.0 0.0 10 10 m]
+
+line wall -close on
+  467.0 -213.0
+  500.0 -213.0 503.0 -181.0 469.0 -179.0
+  435.0 -177.0 434.0 -213.0 467.0 -213.0
+endline
+
+endscrap
+
+
+
+scrap CS2 -projection none -scale [-1.0 -632.0 786.0 158.0 0.0 0.0 10 10 m]
+
+line wall -close on
+  1311.0 -1550.0
+  1382.0 -1550.0 1363.0 -1543.0 1363.0 -1529.0
+  1363.0 -1515.0 1347.0 -1510.0 1280.0 -1511.0
+  1213.0 -1512.0 1152.0 -1539.0 1211.0 -1544.0
+  1270.0 -1549.0 1240.0 -1550.0 1311.0 -1550.0
+endline
 
 endscrap
 

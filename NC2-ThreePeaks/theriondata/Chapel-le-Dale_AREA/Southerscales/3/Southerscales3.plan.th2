@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -915.4016000000001 -5088.63 5797.29152 1151.62216
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {2120.2 1 1.0} {-2123.79 22} Southerscales3.plan.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {2710.77 1 1.0} {-2399.2799999999997 25} Southerscales3.plan.xvi 0 {}
 
 
 
@@ -128,6 +128,7 @@ endarea
 line border
   3564.0 -3082.0
   3564.0 -3082.0 3580.0 -3144.0 3578.0 -3182.0
+  smooth off
 endline
 
 line wall -close on -outline in
@@ -169,6 +170,7 @@ point 3442.0 -3528.0 gradient -orientation 92.9
 line border
   3424.0 -2486.0
   3424.0 -2486.0 3542.0 -2567.0 3562.0 -2644.5
+  smooth off
 endline
 
 line wall -close on -outline in
@@ -205,16 +207,19 @@ endline
 line border
   2784.0 -2348.0
   2784.0 -2348.0 2813.0 -2355.0 2837.5 -2372.5
+  smooth off
 endline
 
 line border
   2420.9 -2149.29
   2420.9 -2149.29 2460.0 -2194.0 2496.0 -2222.0
+  smooth off
 endline
 
 line water-flow -reverse on
   3504.0 -3350.0
   3504.0 -3350.0 3524.0 -3464.0 3566.0 -3516.0
+  smooth off
 endline
 
 line rock-border
@@ -371,6 +376,21 @@ endline
 line border
   3305.5 -2423.0
   3305.5 -2423.0 3397.02 -2463.71 3424.0 -2486.0
+  smooth off
+endline
+
+point 2180.0 -1948.5 section -scrap CS2
+
+point 343.5 -37.0 section -scrap CS1
+
+line section -reverse on -direction both
+  146.0 -204.5
+  167.94 -171.05 212.36 -107.64 234.0 -74.0
+endline
+
+line section -direction both
+  2154.0 -2015.0
+  2140.82 -2052.76 2107.68 -2157.74 2094.5 -2195.5
 endline
 
 line wall
@@ -427,6 +447,7 @@ endline
 line border
   3996.0 -3556.0
   3996.0 -3556.0 3915.0 -3547.0 3846.5 -3577.5
+  smooth off
 endline
 
 line wall
@@ -468,6 +489,36 @@ line wall
 endline
 
 point 3283.6772 -3389.5103 station -name 52
+
+endscrap
+
+
+
+scrap CS1 -projection none -scale [-472.0 -1494.0 316.0 -708.0 0.0 0.0 10 10 m]
+
+line wall -close on
+  244.0 186.0
+  274.0 186.0 288.0 222.0 290.0 244.0
+  292.0 266.0 286.5 290.0 279.5 290.0
+  272.5 290.0 265.0 304.5 250.5 289.0
+  236.0 273.5 232.0 228.5 233.0 217.5
+  234.0 206.5 214.0 186.0 244.0 186.0
+endline
+
+endscrap
+
+
+
+scrap CS2 -projection none -scale [-472.0 -1494.0 316.0 -708.0 0.0 0.0 10 10 m]
+
+line wall -close on
+  2204.5 -1758.0
+  2216.5 -1760.0 2235.5 -1763.5 2236.5 -1747.0
+  2237.5 -1730.5 2239.46 -1714.04 2236.48 -1707.52
+  2233.5 -1701.0 2239.5 -1689.5 2221.0 -1689.5
+  2202.5 -1689.5 2185.5 -1687.0 2184.0 -1709.5
+  2182.5 -1732.0 2192.5 -1756.0 2204.5 -1758.0
+endline
 
 endscrap
 

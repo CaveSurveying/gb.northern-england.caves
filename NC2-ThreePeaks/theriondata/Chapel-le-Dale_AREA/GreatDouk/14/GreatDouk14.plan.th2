@@ -1,11 +1,18 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -787.40 -1653.54 3385.83 1023.62
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {1940.85 1 1.0} {-594.79 8} GreatDouk14.plan.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-5.684341886080801e-14 1 1.0} {0.0 1} GreatDouk14.plan.xvi 0 {}
 
 
 
 scrap S1 -projection plan -scale [-787.40 -1653.54 3385.83 -1653.54 0.0 0.0 106.00004199999998 0.0 m]
+
+point 1823.0 -862.5 section -scrap CS1
+
+line section -direction both
+  1994.0 -460.5
+  1980.93 -498.31 1928.07 -669.19 1915.0 -707.0
+endline
 
 line wall
   1293.0 -429.0
@@ -19,7 +26,7 @@ line wall
   smooth off
 endline
 
-point 2048.0 -445.0 label -text duck<br>(quack)
+point 2097.5 -336.5 label -text duck<br>(quack)
 
 area water
   l15-1891--378
@@ -72,6 +79,31 @@ point 1940.8523 -594.7936 station -name 8
 point 2137.1677 -798.7727 station -name 9
 
 point 2111.4568 -803.8007 station -name 10
+
+endscrap
+
+
+
+scrap CS1 -projection none -scale [-394.0 -1260.0 392.0 -476.0 0.0 0.0 10 10 m]
+
+area water
+  l21-2148--53
+endarea
+
+line u:water -id l21-2148--53 -close on
+  1971.5 -21.0
+  2148.5 -21.0
+  2143.0 -118.0
+  1971.5 -96.5
+  1971.5 -21.0
+endline
+
+line wall -close on
+  2051.5 9.5
+  2116.0 10.0 2120.5 -4.5 2119.5 -19.5
+  2118.5 -34.5 2111.0 -56.5 2054.5 -57.0
+  1998.0 -57.5 1987.0 9.0 2051.5 9.5
+endline
 
 endscrap
 
