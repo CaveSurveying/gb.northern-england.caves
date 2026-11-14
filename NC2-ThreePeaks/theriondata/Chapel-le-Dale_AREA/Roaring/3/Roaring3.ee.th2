@@ -1,0 +1,74 @@
+encoding utf-8
+
+##XTHERION## xth_me_area_adjust -1574.80 -3937.01 9448.82 787.40
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 1} "Roaring3.ee.xvi" 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+
+scrap Roaring3-ee -projection extended
+copyright 2026 "Open" #"CC BY-NC-SA 4.0"
+
+point 0.0 0.0 station -name 1
+
+point 176.23906 -50.315567 station -name 2
+
+point 225.32625 -518.616 station -name 3
+
+point 335.77176 -529.13055 station -name 4
+
+point 373.16766 -729.6631 station -name 5
+
+point 412.8347 -719.09814 station -name 6
+
+point 477.0092 -862.36316 station -name 7
+
+point 636.09784 -874.53796 station -name 8
+
+point 924.4551 -908.1965 station -name 9
+
+point 1306.0034 -983.4449 station -name 10
+
+point 1503.5475 -963.6825 station -name 11
+
+point 1937.7542 -1031.527 station -name 12
+
+point 2218.8486 -1035.9111 station -name 13
+
+point 2538.189 -1184.346 station -name 14
+
+point 2957.701 -1337.4054 station -name 15
+
+point 3697.0283 -1286.5265 station -name 16
+
+point 3715.1616 -1398.4264 station -name 17
+
+point 4006.2395 -1484.15 station -name 18
+
+point 4238.415 -1574.4951 station -name 19
+
+point 4651.3765 -1572.6211 station -name 20
+
+point 4946.678 -1618.3364 station -name 21
+
+point 5404.276 -1629.8771 station -name 22
+
+point 5468.589 -1596.3679 station -name 23
+
+point 5646.206 -2024.9015 station -name 24
+
+point 5658.6377 -1996.1343 station -name 25
+
+point 5759.3716 -2320.9514 station -name 26
+
+point 5800.1177 -2287.8552 station -name 27
+
+point 5915.9204 -2329.909 station -name 28
+
+point 6116.9854 -2539.1443 station -name 29
+
+point 6502.325 -2689.0325 station -name 30
+
+point 6796.5015 -2920.811 station -name 31
+
+point 7515.6387 -2827.2568 station -name 32
+
+endscrap

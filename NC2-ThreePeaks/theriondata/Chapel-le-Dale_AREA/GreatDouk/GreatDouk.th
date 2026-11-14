@@ -13,7 +13,7 @@ input 6/GreatDouk6.th #Upper exits
 input 7/GreatDouk7.th #Thrutchy exit
 input 8/GreatDouk8.th #Wet sink
 #input 12/GreatDouk12.th
-input 13/GreatDouk13.th #wet sink
+#input 13/GreatDouk13.th #wet sink
 input 14/GreatDouk14.th #To southerscales sump
 input 15/GreatDouk15.th #wet sink connection
 input Pot/Greatdoukpot.th
@@ -45,7 +45,7 @@ equate 1@GreatDouk7 56@GreatDouk6
 equate 1@GreatDouk1 1@GDtoGDP
 #equate 60@GreatDouk12 72@GreatDouk6
 equate 36@GreatDouk8 72@GreatDouk6
-equate 8@GreatDouk8 1@GreatDouk13
+#equate 8@GreatDouk8 1@GreatDouk13
 equate 3@GreatDouk1 1@GreatDouk14
 equate 3@GDtoGDP 27@Greatdoukpot
 equate 47@GreatDouk15 9@GreatDouk10
@@ -54,21 +54,30 @@ equate 7@GreatDouk15 8@GreatDouk8
 
 ###Map, to create overall map. Input individual survey maps to create the whole###
 map plan -projection plan
+  planA
+  break
+  planB
+endmap
+
+map planA -projection plan
   plan@GreatDouk1
   plan@GreatDouk11
-  plan@GreatDouk2
   plan@GreatDouk4
   plan@GreatDouk3
-  plan@GreatDouk6
-  plan@GreatDouk7
-  plan@GreatDouk10
-  plan@GreatDouk9
   #plan@GreatDouk12
-  plan@GreatDouk8
   #plan@GreatDouk13
   plan@GreatDouk14
-  plan@GreatDouk15
   plan@Greatdoukpot
+endmap
+
+map planB -projection plan  
+  plan@GreatDouk2
+  plan@GreatDouk9
+  plan@GreatDouk10
+  plan@GreatDouk6
+  plan@GreatDouk7
+  plan@GreatDouk8
+  plan@GreatDouk15
 endmap
 
 #map elev -projection extended

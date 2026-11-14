@@ -29,6 +29,7 @@ endline
 line section -reverse on -direction both
   570.0 -4967.0
   605.81 -4984.83 763.19 -5063.17 799.0 -5081.0
+  smooth off
 endline
 
 point 973.0 -5125.0 section -scrap CS2
@@ -38,11 +39,13 @@ point -1676.0 -10097.0 section -scrap CS3
 line section -reverse on -direction both
   484.0 -1567.0
   517.89 -1545.75 616.11 -1481.25 650.0 -1460.0
+  smooth off
 endline
 
 line section -reverse on -direction both
   -2347.0 -9794.0
   -2298.0 -9818.0 -2008.27 -9975.14 -1973.0 -9994.0
+  smooth off
 endline
 
 line wall
@@ -89,6 +92,8 @@ line wall -close on -outline in
   -1323.0 -7316.0 -1323.0 -7215.0 -1289.0 -7157.0
   -1255.0 -7099.0 -1162.0 -7018.0 -1108.0 -6966.0
 endline
+
+point 1.0 -56.0 map-connection
 
 line wall
   0.0 13.0

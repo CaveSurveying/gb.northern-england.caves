@@ -11,11 +11,11 @@
 
 *include Roaring1.svx ;Entrance to Bandstand chamber
 ;*include Roaring2.svx ; Traverse area
-;*include Roaring3.svx ; 
+*include Roaring3.svx ; Bandstand to Masons chamber
 
 
 
-;*equate P1 P2
+*equate Roaring1.1 Roaring3.1
 
 
 

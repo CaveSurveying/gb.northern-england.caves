@@ -1,13 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -11309.103 -12962.6455 3907.527400000001 40679.182980000005
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {-176.3799999999992 1 1.0} {1636.6499999999996 43} GreatDouk15.plan.xvi 0 {}
 
 
 
 scrap S1 -projection plan -scale [-11968.50 -13622.05 4645.67 -13622.05 0.0 0.0 421.9999179999999 0.0 m]
 
-point -446.0 261.0 label -text "bedding plane<br>crawl"
+point -746.0 451.0 label -text "bedding plane<br>crawl"
 
 point 191.0 482.0 label -text cross-rift
 
@@ -178,6 +178,7 @@ point -422.5 162.5 section -scrap CS1
 line section -direction both
   -269.0 170.0
   -245.96 172.05 -9.5 191.5 13.5 194.0
+  smooth off
 endline
 
 line wall

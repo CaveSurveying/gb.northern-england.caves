@@ -4,7 +4,7 @@ survey Roaring
 ###Inputs, add surveys here###
 input 1/Roaring1.th #Entrance to bandstand
 #input 2/Roaring2.th #Traverse area
-
+input 3/Roaring3.th #Bandstand to Masons
 
 ###Joins, connecting scraps on the surveys###
 #join S1@subsurvey1 S1@subsurvey2
@@ -12,11 +12,12 @@ input 1/Roaring1.th #Entrance to bandstand
 
 ###Equates, connecting points on surveys###
 #equate 9@subsurvey1 1@subsurvey2
-
+equate 1@Roaring1 1@Roaring3
 
 ###Map, to create overall map. Input individual survey maps to create the whole###
 map plan -projection plan
   plan@Roaring1
+  plan@Roaring3
 endmap
 
 endsurvey
