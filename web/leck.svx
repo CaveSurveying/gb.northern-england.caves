@@ -1,0 +1,9 @@
+*begin threecountieswest
+*cs OSGB:SD
+*cs out EPSG:27700
+*infer exports on
+*include ../NC3-ThreeCounties/EaseGill/survexdata/easegill
+*include ../NC3-ThreeCounties/Barbondale/survexdata/barbondale
+*declination auto 67101  77807  373
+*include ../NC3-ThreeCounties/MarbleStepsAndLeckFell/survexdata/marblestepsandleckfell
+*end threecountieswest

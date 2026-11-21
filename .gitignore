@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+# made by tools/build_inputs.sh and the site build
+/web/*.3d
+/web/*.err
+/web/*.log
+/web/build/
+/site/
+/.venv/
+/tools/survex/

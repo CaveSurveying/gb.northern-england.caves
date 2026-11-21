@@ -1,0 +1,9 @@
+*begin kingsdale
+*cs OSGB:SD
+*cs out EPSG:27700
+*infer exports on
+*declination auto 67101  77807  373
+*include ../NC3-ThreeCounties/WestKingsdale/survexdata/westkingsdale
+*include ../NC3-ThreeCounties/EastKingsdale/survexdata/eastkingsdale
+*include ../NC3-ThreeCounties/ScalesMoor/survexdata/scalesmoor
+*end kingsdale

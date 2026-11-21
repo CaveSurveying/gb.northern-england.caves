@@ -1,0 +1,111 @@
+{
+  "_comment": "The 3D views, built by cave-viewer (cd web && python -m caveviewer build caves.json --out ../site), from the centrelines tools/build_inputs.sh makes with cavern (web/*.3d). The LiDAR is in web/lidar/. See cave-viewer's caveviewer/schema.json for every key.",
+  "work": "build",
+  "site": {
+    "title": "Northern England caves in 3D",
+    "lede": "The Three Counties System, Kingsdale, White Scar, Chapel-le-Dale and Fountains Fell, from the Cave Registry Data Archive's NorthernEngland Survex data, in 3D beneath the Environment Agency's LiDAR.",
+    "footer": "{credits}."
+  },
+  "defaults": {
+    "notice": "The routes are worked out by computer from the survey&rsquo;s centreline: they show which passages join, not how to get through them. They don&rsquo;t know about the pitches, squeezes, climbs, water or digs on the way, so they&rsquo;re no guide for a trip.",
+    "features": {
+      "directions": false
+    },
+    "area": "Yorkshire Dales",
+    "access": {
+      "url": "https://cncc.org.uk/caving/caves",
+      "label": "the CNCC's cave pages (each cave's access, permits and booking, and warnings)"
+    },
+    "credit": "survey from the Cave Registry Data Archive's <a href=\"http://cave-registry.org.uk/svn/NorthernEngland/\">NorthernEngland</a> dataset",
+    "data": {
+      "url": "http://cave-registry.org.uk/svn/NorthernEngland/",
+      "label": "the Cave Registry Data Archive (SVN)"
+    },
+    "grid": {
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "terrain": {
+      "type": "ea",
+      "step": 2,
+      "margin": 250,
+      "align": 50,
+      "cache": "lidar"
+    },
+    "drawn": {
+      "type": "none"
+    }
+  },
+  "caves": [
+    {
+      "id": "threecounties",
+      "name": "Three Counties System",
+      "area": "Leck Fell, Easegill, Kingsdale and Barbondale",
+      "survey": {
+        "type": "survex",
+        "file": "nc3.3d"
+      },
+      "terrain": {
+        "step": 4
+      }
+    },
+    {
+      "id": "easegill",
+      "name": "Easegill and Leck Fell",
+      "short_name": "Easegill",
+      "area": "Three Counties System, west",
+      "survey": {
+        "type": "survex",
+        "file": "leck.3d"
+      },
+      "terrain": {
+        "step": 4
+      }
+    },
+    {
+      "id": "kingsdale",
+      "name": "Kingsdale",
+      "area": "Three Counties System, east",
+      "survey": {
+        "type": "survex",
+        "file": "kings.3d"
+      },
+      "terrain": {
+        "step": 2
+      }
+    },
+    {
+      "id": "whitescar",
+      "name": "White Scar Cave",
+      "area": "Ingleton",
+      "survey": {
+        "type": "survex",
+        "file": "whitescar.3d"
+      },
+      "access": {
+        "url": "https://cncc.org.uk/cave/white-scar-cave",
+        "label": "the CNCC's page for White Scar Cave"
+      }
+    },
+    {
+      "id": "chapel",
+      "name": "Chapel-le-Dale caves",
+      "area": "Chapel-le-Dale",
+      "survey": {
+        "type": "survex",
+        "file": "chapel.3d"
+      }
+    },
+    {
+      "id": "fountains",
+      "name": "Fountains Fell caves",
+      "area": "Fountains Fell",
+      "survey": {
+        "type": "survex",
+        "file": "fountains.3d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+# Build the 3D views and publish them to GitHub Pages: tools/build_inputs.sh builds each area's
+# centreline with cavern (web/*.3d), then cave-viewer builds the site from web/caves.json into
+# site/. The LiDAR is in web/lidar/, so no ground is fetched.
+#
+# Survex: Ubuntu 24.04's (1.4.4) crashes on this data, so Debian's 1.4.17 is unpacked and used
+# instead (it runs on Ubuntu unchanged). Chrome (on the runner) takes each view's preview.
+#
+# Runs on every push to main (and after the daily sync brings something in), on pull requests
+# (built, not published), or by hand. Pages' source must be GitHub Actions (Settings > Pages).
+name: Build the 3D views
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'pages' }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Survex 1.4.17
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/survex.deb" https://deb.debian.org/debian/pool/main/s/survex/survex_1.4.17-1+deb13u1_amd64.deb
+          dpkg-deb -x "$RUNNER_TEMP/survex.deb" "$RUNNER_TEMP/survex"
+          echo "$RUNNER_TEMP/survex/usr/bin" >> "$GITHUB_PATH"
+          echo "SURVEXLIB=$RUNNER_TEMP/survex/usr/share/survex" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: cave-viewer
+        run: |
+          python -m venv "$RUNNER_TEMP/cave-viewer"
+          "$RUNNER_TEMP/cave-viewer/bin/pip" install -q -r requirements.txt
+
+      - name: The centrelines
+        run: cavern --version && tools/build_inputs.sh
+
+      - name: The site
+        run: |
+          export CHROMIUM="$(command -v google-chrome || command -v chromium)"
+          cd web && "$RUNNER_TEMP/cave-viewer/bin/python" -m caveviewer build caves.json --out ../site --no-fetch
+
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'pull_request'
+        with:
+          name: site
+          path: site
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+  pages:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
