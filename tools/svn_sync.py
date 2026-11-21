@@ -154,6 +154,12 @@ def main():
     ap.add_argument('--to', type=int, help='stop at this revision (default: the newest)')
     ap.add_argument('--dry-run', action='store_true', help='say what would come in, and change nothing')
     a = ap.parse_args()
+    # the registry renames by case alone (Easegill to EaseGill): on a filesystem that ignores
+    # case, as macOS's does by default, git misses those renames, so it's refused there
+    top = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if os.path.exists(os.path.join(top, 'readme.md')) and os.path.exists(os.path.join(top, 'README.MD')):
+        sys.exit('This filesystem ignores case, so renames by case alone would be missed: '
+                 'run the sync on Linux, or on a case-sensitive volume.')
     url = a.url.rstrip('/')
     since, head = last_synced(), a.to or head_revision(url)
     if since >= head:
