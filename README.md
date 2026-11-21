@@ -65,7 +65,7 @@ surveys, is in [`web/`](web/):
   the Three Counties System (the other views use the registry's own area files);
 - `lidar/`, the Environment Agency's LiDAR for each view, so the build fetches none.
 
-To build it yourself, with Survex 1.4.17 or later (Ubuntu 24.04's 1.4.4
+To build it yourself, with Survex 1.4.17 or later (Ubuntu 26.04 has it; 24.04's 1.4.4
 crashes on this data) and Python 3:
 
 ```bash

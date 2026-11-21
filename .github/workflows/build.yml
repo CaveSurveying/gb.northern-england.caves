@@ -23,18 +23,14 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
-      - name: Survex 1.4.17
-        run: |
-          sudo apt-get update -q && sudo apt-get install -yq libproj25
-          curl -fsSL -o "$RUNNER_TEMP/survex.deb" https://deb.debian.org/debian/pool/main/s/survex/survex_1.4.17-1+deb13u1_amd64.deb
-          dpkg-deb -x "$RUNNER_TEMP/survex.deb" "$RUNNER_TEMP/survex"
-          echo "$RUNNER_TEMP/survex/usr/bin" >> "$GITHUB_PATH"
-          echo "SURVEXLIB=$RUNNER_TEMP/survex/usr/share/survex" >> "$GITHUB_ENV"
+      # Survex 1.4.17 or later: 1.4.4, in Ubuntu 24.04, crashes on this data
+      - name: Survex
+        run: sudo apt-get update -q && sudo apt-get install -yq --no-install-recommends survex
 
       - uses: actions/setup-python@v5
         with:
