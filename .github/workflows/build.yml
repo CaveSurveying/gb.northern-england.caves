@@ -30,6 +30,7 @@ jobs:
 
       - name: Survex 1.4.17
         run: |
+          sudo apt-get update -q && sudo apt-get install -yq libproj25
           curl -fsSL -o "$RUNNER_TEMP/survex.deb" https://deb.debian.org/debian/pool/main/s/survex/survex_1.4.17-1+deb13u1_amd64.deb
           dpkg-deb -x "$RUNNER_TEMP/survex.deb" "$RUNNER_TEMP/survex"
           echo "$RUNNER_TEMP/survex/usr/bin" >> "$GITHUB_PATH"
